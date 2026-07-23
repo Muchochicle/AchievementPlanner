@@ -19,66 +19,97 @@
 
 <body>
 
-    <header class="navbar">
+<header class="navbar">
 
-        <div class="container">
+    <div class="container">
 
-            <h1 class="logo">Achievement Planner</h1>
+        <h1 class="logo">AchievementPlanner</h1>
 
-            <nav>
+        <nav>
 
-                <a href="#">Games</a>
-                <a href="#">Guides</a>
-                <a href="#">About</a>
+            <a href="#">Games</a>
+            <a href="#">Guides</a>
+            <a href="#">About</a>
 
-            </nav>
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="container">
+
+        <h2>
+    Plan your Steam<br>
+    achievements smarter.
+</h2>
+
+        <p>
+            Discover the fastest and most efficient way to complete every Steam game.
+        </p>
+
+        <input
+            type="text"
+            placeholder="Search any Steam game..."
+        >
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+
+                <strong>420+</strong>
+
+                <span>Games</span>
+
+            </div>
+
+            <div class="hero-stat">
+
+                <strong>12,000+</strong>
+
+                <span>Achievements</span>
+
+            </div>
+
+            <div class="hero-stat">
+
+                <strong>9,500h</strong>
+
+                <span>Guides</span>
+
+            </div>
 
         </div>
 
-    </header>
+    </div>
 
-    <main>
+</section>
 
-        <section class="hero">
+<section class="popular-games">
 
-            <div class="container">
+    <div class="container">
 
-                <h2>Plan your Steam achievements smarter.</h2>
+        <h2>Popular Games</h2>
 
-                <p>
-                    Discover the fastest and most efficient way to complete every Steam game.
-                </p>
+        <div id="games-container"></div>
 
-                <input
-                    type="text"
-                    placeholder="Search any Steam game..."
-                >
+    </div>
 
-            </div>
+</section>
 
-        </section>
+</main>
 
-        <section class="popular-games">
+<footer>
 
-            <div class="container">
+    <p>© Achievement Planner</p>
 
-                <h2>Popular Games</h2>
+</footer>
 
-                <div id="games-container"></div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer>
-
-        <p>© Achievement Planner</p>
-
-    </footer>
-
-    <script type="module" src="src/js/app.js"></script>
+<script type="module" src="src/js/app.js"></script>
 
 </body>
 

@@ -1,11 +1,10 @@
-export function createGameCard(game) {
+export function gameCardTemplate(game) {
 
     return `
 
         <article class="game-card">
 
             <img
-                class="game-image"
                 src="${game.image}"
                 alt="${game.name}"
             >
@@ -14,15 +13,15 @@ export function createGameCard(game) {
 
                 <h3>${game.name}</h3>
 
-                <div class="game-meta">
+                <div class="game-card-info">
 
                     <span>⭐ ${game.difficulty}/10</span>
 
-                    <span>⏱ ${game.completionTime.min}-${game.completionTime.max} h</span>
+                    <span>⏱ ${game.time}</span>
 
                 </div>
 
-                <button class="planner-btn">
+                <button>
 
                     View Planner
 
