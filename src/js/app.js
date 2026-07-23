@@ -1,4 +1,5 @@
 import { getGamesIndex, getGame } from "../utils/gameService.js";
+import { createGameCard } from "../components/game-card/game-card.js";
 
 async function init() {
 
@@ -6,11 +7,15 @@ async function init() {
 
         const index = await getGamesIndex();
 
-        console.log("Games index:", index);
+        const container = document.getElementById("games-container");
 
-        const portal2 = await getGame("portal-2");
+        for (const gameInfo of index) {
 
-        console.log("Portal 2:", portal2);
+            const game = await getGame(gameInfo.slug);
+
+            container.innerHTML += createGameCard(game);
+
+        }
 
     } catch (error) {
 
