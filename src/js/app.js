@@ -1,3 +1,4 @@
+import { createSearch } from "../components/search/search.js";
 import { getGamesIndex, getGame } from "../utils/gameService.js";
 import { createGameCard } from "../components/game-card/game-card.js";
 
@@ -8,6 +9,8 @@ async function init() {
         const index = await getGamesIndex();
 
         const container = document.getElementById("games-container");
+
+        createSearch();
 
         for (const gameInfo of index) {
 
