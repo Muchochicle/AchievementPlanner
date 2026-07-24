@@ -7,9 +7,17 @@ export async function createSearch() {
 
     if (!searchInput || !results) return;
 
-    const games = await getGamesIndex();
+    const index = await getGamesIndex();
 
-    searchInput.addEventListener("input", async (event) => {
+    const games = [];
+
+    for (const game of index) {
+
+        games.push(await getGame(game.slug));
+
+    }
+
+    searchInput.addEventListener("input", (event) => {
 
         const value = event.target.value
             .trim()
@@ -17,20 +25,20 @@ export async function createSearch() {
 
         results.innerHTML = "";
 
-        if (value.length === 0) {
+        if (!value) {
 
             results.style.display = "none";
             return;
 
         }
 
-        const filtered = games.filter(game =>
-            game.name.toLowerCase().includes(value)
-        );
+        const filtered = games
+            .filter(game =>
+                game.name.toLowerCase().includes(value)
+            )
+            .slice(0,5);
 
-        for (const gameIndex of filtered) {
-
-            const game = await getGame(gameIndex.slug);
+        filtered.forEach(game => {
 
             results.innerHTML += `
 
@@ -49,9 +57,11 @@ export async function createSearch() {
                         <strong>${game.name}</strong>
 
                         <small>
+
                             ⭐ ${game.difficulty}/10
                             ·
                             ⏱ ${game.completionTime.min}-${game.completionTime.max} h
+
                         </small>
 
                     </div>
@@ -60,17 +70,16 @@ export async function createSearch() {
 
             `;
 
-        }
+        });
 
-        results.querySelectorAll(".search-item").forEach(item => {
+        document.querySelectorAll(".search-item").forEach(item => {
 
-            item.addEventListener("click", () => {
+            item.onclick = () => {
 
-                const slug = item.dataset.slug;
+                window.location.href =
+                    `game.html?slug=${item.dataset.slug}`;
 
-                window.location.href = `game.html?slug=${slug}`;
-
-            });
+            };
 
         });
 

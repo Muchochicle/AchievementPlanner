@@ -1,0 +1,69 @@
+.game-header{
+
+    padding:60px 0;
+
+}
+
+.game-header-image{
+
+    width:100%;
+
+    border-radius:16px;
+
+    margin-bottom:32px;
+
+}
+
+.game-header h1{
+
+    font-size:3rem;
+
+    margin-bottom:12px;
+
+}
+
+.game-genres{
+
+    color:var(--text-secondary);
+
+    margin-bottom:40px;
+
+}
+
+.game-stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:20px;
+
+}
+
+.game-stat{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:24px;
+
+}
+
+.game-stat span{
+
+    display:block;
+
+    color:var(--text-secondary);
+
+    margin-bottom:10px;
+
+}
+
+.game-stat strong{
+
+    font-size:1.6rem;
+
+}
