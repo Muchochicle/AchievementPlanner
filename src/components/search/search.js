@@ -11,9 +11,9 @@ export async function createSearch() {
 
     const games = [];
 
-    for (const game of index) {
+    for (const gameIndex of index) {
 
-        games.push(await getGame(game.slug));
+        games.push(await getGame(gameIndex.slug));
 
     }
 
@@ -36,7 +36,7 @@ export async function createSearch() {
             .filter(game =>
                 game.name.toLowerCase().includes(value)
             )
-            .slice(0,5);
+            .slice(0, 5);
 
         filtered.forEach(game => {
 

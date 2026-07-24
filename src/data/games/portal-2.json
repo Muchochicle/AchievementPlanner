@@ -1,6 +1,5 @@
 {
     "id": 620,
-    "slug": "portal-2",
     "steamAppId": 620,
 
     "name": "Portal 2",
@@ -14,8 +13,6 @@
         "max": 25
     },
 
-    "achievements": 51,
-
     "missable": false,
 
     "playthroughs": 1,
@@ -25,5 +22,36 @@
     "genres": [
         "Puzzle",
         "Adventure"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "name": "Wake Up Call",
+            "description": "Wake up in the Aperture Science relaxation vault.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 2,
+            "name": "You Monster",
+            "description": "Reunite with GLaDOS.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "name": "Pit Boss",
+            "description": "Show that pit who's boss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        }
+
     ]
 }

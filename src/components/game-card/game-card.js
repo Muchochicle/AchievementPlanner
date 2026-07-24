@@ -2,7 +2,10 @@ export function createGameCard(game) {
 
     return `
 
-        <article class="game-card">
+        <article
+            class="game-card"
+            onclick="window.location.href='game.html?slug=${game.slug}'"
+        >
 
             <img
                 class="game-image"

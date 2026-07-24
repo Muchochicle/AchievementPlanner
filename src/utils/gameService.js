@@ -21,6 +21,14 @@ export async function getGame(slug) {
         throw new Error(`Unable to load game: ${slug}`);
     }
 
-    return await response.json();
+    const game = await response.json();
+
+    return {
+
+        slug,
+
+        ...game
+
+    };
 
 }

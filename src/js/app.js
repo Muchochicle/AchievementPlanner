@@ -8,17 +8,19 @@ async function init() {
 
         const index = await getGamesIndex();
 
+        const games = await Promise.all(
+
+            index.map(game => getGame(game.slug))
+
+        );
+
         const container = document.getElementById("games-container");
 
+        container.innerHTML = games
+            .map(game => createGameCard(game))
+            .join("");
+
         createSearch();
-
-        for (const gameInfo of index) {
-
-            const game = await getGame(gameInfo.slug);
-
-            container.innerHTML += createGameCard(game);
-
-        }
 
     } catch (error) {
 
