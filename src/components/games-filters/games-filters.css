@@ -1,0 +1,81 @@
+.games-filters{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+    margin:40px 0;
+
+}
+
+.games-search{
+
+    width:100%;
+
+    padding:16px 20px;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font:inherit;
+
+    font-size:1rem;
+
+}
+
+.games-toolbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.games-toolbar label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:var(--text-secondary);
+
+    font-weight:600;
+
+}
+
+.games-sort{
+
+    padding:12px 18px;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font:inherit;
+
+}
+
+.games-counter{
+
+    color:var(--text-secondary);
+
+    font-weight:600;
+
+}

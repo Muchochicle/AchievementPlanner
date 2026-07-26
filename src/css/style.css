@@ -6,6 +6,9 @@
 @import "../components/search/search.css";
 @import "../components/popular-games/popular-games.css";
 @import "../components/game-card/game-card.css";
+@import "../components/catalog-card/catalog-card.css";
+@import "../components/games-filters/games-filters.css";
+/* @import "../components/games-sidebar/games-sidebar.css"; */
 @import "../components/game-header/game-header.css";
 @import "../components/game-overview/game-overview.css";
 @import "../components/progress/progress.css";
@@ -36,5 +39,14 @@ body{
     margin:0 auto;
 
     padding-bottom:80px;
+
+}
+#games-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+
+    gap:28px;
 
 }
