@@ -12,7 +12,19 @@ export function createAchievementCard(achievement) {
 
             <div class="achievement-content">
 
-                <h3>${achievement.name}</h3>
+                <div class="achievement-top">
+
+                    <h3>${achievement.name}</h3>
+
+                    <label class="achievement-check">
+
+                        <input
+                            type="checkbox"
+                        >
+
+                    </label>
+
+                </div>
 
                 <p class="achievement-description">
 
@@ -23,31 +35,27 @@ export function createAchievementCard(achievement) {
                 <div class="achievement-meta">
 
                     <span>
-                        ⭐ Difficulty:
+
+                        ⭐
                         <strong>${achievement.difficulty}/5</strong>
+
                     </span>
 
                     <span>
-                        ⏱ Time:
+
+                        ⏱
                         <strong>${achievement.estimatedTime} min</strong>
+
                     </span>
 
                     <span>
-                        🎯 Missable:
+
+                        🎯
                         <strong>${achievement.missable ? "Yes" : "No"}</strong>
+
                     </span>
 
                 </div>
-
-                <label class="achievement-check">
-
-                    <input
-                        type="checkbox"
-                    >
-
-                    Completed
-
-                </label>
 
             </div>
 

@@ -1,4 +1,5 @@
 import { createAchievementCard } from "../achievement-card/achievement-card.js";
+import { createAchievementFilters } from "../achievement-filters/achievement-filters.js";
 
 export function createAchievementList(game) {
 
@@ -22,15 +23,34 @@ export function createAchievementList(game) {
 
         <section class="achievement-list">
 
-            <h2>Achievements</h2>
+            <div class="achievement-header">
 
-            <p class="achievement-description">
+                <div>
 
-                There are
-                <strong>${game.achievements.length}</strong>
-                achievements in this game.
+                    <h2>Achievements</h2>
 
-            </p>
+                    <p
+                        id="achievement-stats"
+                        class="achievement-description"
+                    >
+
+                        Completed:
+                        <strong>0</strong>
+                        /
+                        <strong>${game.achievements.length}</strong>
+
+                        ·
+
+                        Remaining:
+                        <strong>${game.achievements.length}</strong>
+
+                    </p>
+
+                </div>
+
+                ${createAchievementFilters()}
+
+            </div>
 
             <div class="achievement-container">
 

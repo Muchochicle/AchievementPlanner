@@ -4,6 +4,22 @@
 
 }
 
+.achievement-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:24px;
+
+    margin-bottom:30px;
+
+    flex-wrap:wrap;
+
+}
+
 .achievement-list h2{
 
     margin-bottom:10px;
@@ -13,8 +29,6 @@
 .achievement-description{
 
     color:var(--text-secondary);
-
-    margin-bottom:30px;
 
 }
 

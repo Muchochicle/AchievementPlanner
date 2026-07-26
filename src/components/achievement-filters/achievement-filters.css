@@ -1,0 +1,41 @@
+.achievement-filters{
+
+    display:flex;
+
+    gap:12px;
+
+    margin:24px 0;
+
+}
+
+.filter-btn{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:999px;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.filter-btn:hover{
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.filter-btn.active{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}

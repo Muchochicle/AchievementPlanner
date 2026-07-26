@@ -3,10 +3,17 @@ import { getGame } from "../utils/gameService.js";
 import { createGameHeader } from "../components/game-header/game-header.js";
 import { createGameOverview } from "../components/game-overview/game-overview.js";
 import { createProgress } from "../components/progress/progress.js";
+import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
 import { createAchievementList } from "../components/achievement-list/achievement-list.js";
 
 import { updateProgress } from "../utils/planner/progress.js";
+import { updatePlannerStats } from "../utils/planner/stats.js";
 import { saveProgress, loadProgress } from "../utils/planner/storage.js";
+
+import {
+    initAchievementFilters,
+    applyFilter
+} from "../utils/planner/filters.js";
 
 async function init() {
 
@@ -35,6 +42,8 @@ async function init() {
 
             createProgress(game) +
 
+            createPlannerStats() +
+
             createAchievementList(game);
 
         const checkboxes = document.querySelectorAll(
@@ -45,13 +54,25 @@ async function init() {
 
         updateProgress();
 
+        updatePlannerStats(game);
+
+        initAchievementFilters();
+
         checkboxes.forEach(box => {
 
             box.addEventListener("change", () => {
 
                 updateProgress();
 
+                updatePlannerStats(game);
+
                 saveProgress(slug);
+
+                const activeFilter = document.querySelector(
+                    ".filter-btn.active"
+                );
+
+                applyFilter(activeFilter.dataset.filter);
 
             });
 
