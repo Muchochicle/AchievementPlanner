@@ -1,3 +1,7 @@
+import { filterDifficulty } from "./difficulty.js";
+
+import { filterCompletionTime } from "./time.js";
+
 export function filterGames(games) {
 
     const selectedGenres = [
@@ -8,22 +12,32 @@ export function filterGames(games) {
 
         )
 
-    ].map(input => input.parentElement.textContent.trim());
+    ].map(input => input.value);
 
-    if (!selectedGenres.length) {
+    let filtered = [...games];
 
-        return games;
+    if (selectedGenres.length) {
+
+        filtered = filtered.filter(game =>
+
+            game.genres.some(genre =>
+
+                selectedGenres.includes(genre)
+
+            )
+
+        );
 
     }
 
-    return games.filter(game =>
+    filtered =
 
-        game.genres.some(genre =>
+        filterDifficulty(filtered);
 
-            selectedGenres.includes(genre)
+    filtered =
 
-        )
+        filterCompletionTime(filtered);
 
-    );
+    return filtered;
 
 }

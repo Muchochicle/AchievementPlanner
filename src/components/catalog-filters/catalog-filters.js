@@ -30,7 +30,7 @@ export function createCatalogFilters(genresHTML) {
 
                 </div>
 
-                <div class="filter-group">
+                <div class="filter-group difficulty-filter">
 
                     <h3>
 
@@ -40,31 +40,40 @@ export function createCatalogFilters(genresHTML) {
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="Easy"
+                        >
 
-                        Easy
-
-                    </label>
-
-                    <label>
-
-                        <input type="checkbox">
-
-                        Medium
+                        Easy (1-3)
 
                     </label>
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="Medium"
+                        >
 
-                        Hard
+                        Medium (4-6)
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            type="checkbox"
+                            value="Hard"
+                        >
+
+                        Hard (7-10)
 
                     </label>
 
                 </div>
 
-                <div class="filter-group">
+                <div class="filter-group time-filter">
 
                     <h3>
 
@@ -74,7 +83,10 @@ export function createCatalogFilters(genresHTML) {
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="20"
+                        >
 
                         Less than 20 h
 
@@ -82,7 +94,10 @@ export function createCatalogFilters(genresHTML) {
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="50"
+                        >
 
                         20 - 50 h
 
@@ -90,7 +105,10 @@ export function createCatalogFilters(genresHTML) {
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="100"
+                        >
 
                         50 - 100 h
 
@@ -98,7 +116,10 @@ export function createCatalogFilters(genresHTML) {
 
                     <label>
 
-                        <input type="checkbox">
+                        <input
+                            type="checkbox"
+                            value="101"
+                        >
 
                         100+ h
 
