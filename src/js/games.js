@@ -1,33 +1,32 @@
 import { getGamesIndex, getGame } from "../utils/gameService.js";
 
 import { createGamesFilters } from "../components/games-filters/games-filters.js";
+import { createCatalogFilters } from "../components/catalog-filters/catalog-filters.js";
 
 import {
-
     renderGames,
     searchGames,
     sortGames,
     updateCounter
-
 } from "../utils/gamesCatalog.js";
+
+import { filterGames } from "../utils/catalog/filters.js";
+
+import {
+    getGenres,
+    createGenresHTML
+} from "../utils/catalog/genres.js";
+
+import {
+    updateFiltersCounter
+} from "../utils/catalog/counter.js";
 
 async function init() {
 
     try {
 
-        const container =
+        const gamesContainer =
             document.getElementById("games-container");
-
-        container.innerHTML =
-
-            `
-                ${createGamesFilters()}
-
-                <div id="games-list"></div>
-            `;
-
-        const gamesList =
-            document.getElementById("games-list");
 
         const index =
             await getGamesIndex();
@@ -42,6 +41,24 @@ async function init() {
 
         }
 
+        const genres =
+            getGenres(games);
+
+        gamesContainer.innerHTML =
+
+            createGamesFilters() +
+
+            createCatalogFilters(
+
+                createGenresHTML(genres)
+
+            ) +
+
+            `<div id="games-list"></div>`;
+
+        const gamesList =
+            document.getElementById("games-list");
+
         const input =
             document.querySelector(".games-search");
 
@@ -50,15 +67,22 @@ async function init() {
 
         function refresh() {
 
-            let currentGames = searchGames(
-                games,
-                input.value
-            );
+            let currentGames =
+                searchGames(
+                    games,
+                    input.value
+                );
 
-            currentGames = sortGames(
-                currentGames,
-                sort.value
-            );
+            currentGames =
+                filterGames(
+                    currentGames
+                );
+
+            currentGames =
+                sortGames(
+                    currentGames,
+                    sort.value
+                );
 
             renderGames(
                 currentGames,
@@ -68,6 +92,8 @@ async function init() {
             updateCounter(
                 currentGames.length
             );
+
+            updateFiltersCounter();
 
         }
 
@@ -83,19 +109,44 @@ async function init() {
             refresh
         );
 
-        gamesList.addEventListener("click", event => {
+        document
+            .querySelectorAll(".filters-panel input")
+            .forEach(input => {
 
-            const button =
-                event.target.closest(".planner-btn");
+                input.addEventListener(
+                    "change",
+                    refresh
+                );
 
-            if (!button) {
+            });
 
-                return;
+        document.addEventListener(
+            "click",
+            event => {
+
+                if (
+                    event.target.classList.contains(
+                        "planner-btn"
+                    )
+                ) {
+
+                    window.location.href =
+                        `game.html?slug=${event.target.dataset.slug}`;
+
+                }
 
             }
+        );
 
-            window.location.href =
-                `game.html?slug=${button.dataset.slug}`;
+        const toggle =
+            document.getElementById("filters-toggle");
+
+        const panel =
+            document.getElementById("filters-panel");
+
+        toggle.addEventListener("click", () => {
+
+            panel.classList.toggle("open");
 
         });
 
