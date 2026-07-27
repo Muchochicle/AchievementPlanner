@@ -2,6 +2,8 @@ import { filterDifficulty } from "./difficulty.js";
 
 import { filterCompletionTime } from "./time.js";
 
+import { filterExtras } from "./extras.js";
+
 export function filterGames(games) {
 
     const selectedGenres = [
@@ -31,12 +33,13 @@ export function filterGames(games) {
     }
 
     filtered =
-
         filterDifficulty(filtered);
 
     filtered =
-
         filterCompletionTime(filtered);
+
+    filtered =
+        filterExtras(filtered);
 
     return filtered;
 

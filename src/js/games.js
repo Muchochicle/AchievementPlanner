@@ -2,6 +2,7 @@ import { getGamesIndex, getGame } from "../utils/gameService.js";
 
 import { createGamesFilters } from "../components/games-filters/games-filters.js";
 import { createCatalogFilters } from "../components/catalog-filters/catalog-filters.js";
+import { createActiveFilters } from "../components/active-filters/active-filters.js";
 
 import {
     renderGames,
@@ -54,6 +55,8 @@ async function init() {
 
             ) +
 
+            createActiveFilters() +
+
             `<div id="games-list"></div>`;
 
         const gamesList =
@@ -64,6 +67,66 @@ async function init() {
 
         const sort =
             document.querySelector(".games-sort");
+
+        const clearButton =
+            document.getElementById("clear-filters");
+
+        function renderFilterChips() {
+
+            const container =
+                document.getElementById("active-filters");
+
+            container.innerHTML = "";
+
+            clearButton.style.display = "none";
+
+            document
+                .querySelectorAll(".filters-panel input:checked")
+                .forEach(filter => {
+
+                    const chip =
+                        document.createElement("div");
+
+                    chip.className =
+                        "filter-chip";
+
+                    chip.innerHTML = `
+
+                        <span>
+
+                            ${filter.parentElement.textContent.trim()}
+
+                        </span>
+
+                        <button>
+
+                            ×
+
+                        </button>
+
+                    `;
+
+                    chip
+                        .querySelector("button")
+                        .addEventListener("click", () => {
+
+                            filter.checked = false;
+
+                            refresh();
+
+                        });
+
+                    container.appendChild(chip);
+
+                });
+
+            if (container.children.length > 0) {
+
+                clearButton.style.display = "block";
+
+            }
+
+        }
 
         function refresh() {
 
@@ -94,6 +157,8 @@ async function init() {
             );
 
             updateFiltersCounter();
+
+            renderFilterChips();
 
         }
 
@@ -147,6 +212,20 @@ async function init() {
         toggle.addEventListener("click", () => {
 
             panel.classList.toggle("open");
+
+        });
+
+        clearButton.addEventListener("click", () => {
+
+            document
+                .querySelectorAll(".filters-panel input")
+                .forEach(input => {
+
+                    input.checked = false;
+
+                });
+
+            refresh();
 
         });
 

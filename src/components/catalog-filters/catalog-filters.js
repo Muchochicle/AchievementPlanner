@@ -127,6 +127,38 @@ export function createCatalogFilters(genresHTML) {
 
                 </div>
 
+                <div class="filter-group extras-filter">
+
+                    <h3>
+
+                        Extras
+
+                    </h3>
+
+                    <label>
+
+                        <input
+                            id="filter-guide"
+                            type="checkbox"
+                        >
+
+                        Has Guide
+
+                    </label>
+
+                    <label>
+
+                        <input
+                            id="filter-missable"
+                            type="checkbox"
+                        >
+
+                        Missable Achievements
+
+                    </label>
+
+                </div>
+
             </div>
 
         </section>
