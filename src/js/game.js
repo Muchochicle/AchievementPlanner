@@ -5,10 +5,12 @@ import { createGameOverview } from "../components/game-overview/game-overview.js
 import { createProgress } from "../components/progress/progress.js";
 import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
 import { createAchievementList } from "../components/achievement-list/achievement-list.js";
+import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
 
 import { updateProgress } from "../utils/planner/progress.js";
 import { updatePlannerStats } from "../utils/planner/stats.js";
 import { saveProgress, loadProgress } from "../utils/planner/storage.js";
+import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
 
 import {
     initAchievementFilters,
@@ -32,7 +34,8 @@ async function init() {
 
         const game = await getGame(slug);
 
-        const container = document.getElementById("game-content");
+        const container =
+            document.getElementById("game-content");
 
         container.innerHTML =
 
@@ -40,43 +43,98 @@ async function init() {
 
             createGameOverview(game) +
 
+            `<div id="recommended-container"></div>` +
+
             createProgress(game) +
 
             createPlannerStats() +
 
             createAchievementList(game);
 
-        const checkboxes = document.querySelectorAll(
-            ".achievement-check input"
-        );
-
         loadProgress(slug);
-
-        updateProgress();
-
-        updatePlannerStats(game);
 
         initAchievementFilters();
 
-        checkboxes.forEach(box => {
+        refresh();
 
-            box.addEventListener("change", () => {
+        function refresh() {
 
-                updateProgress();
+            updateProgress();
 
-                updatePlannerStats(game);
+            updatePlannerStats(game);
 
-                saveProgress(slug);
+            renderRecommendation();
 
-                const activeFilter = document.querySelector(
-                    ".filter-btn.active"
+        }
+
+        function renderRecommendation() {
+
+            const recommended =
+                getRecommendedAchievement(game);
+
+            document.getElementById(
+                "recommended-container"
+            ).innerHTML =
+                createRecommendedAchievement(
+                    recommended
                 );
 
-                applyFilter(activeFilter.dataset.filter);
+            const button =
+                document.querySelector(
+                    ".recommended-button"
+                );
+
+            if (button) {
+
+                button.addEventListener("click", () => {
+
+                    const checkbox =
+                        document.querySelector(
+
+                            `.achievement-check input[data-id="${button.dataset.id}"]`
+
+                        );
+
+                    if (!checkbox) return;
+
+                    checkbox.checked = true;
+
+                    saveProgress(slug);
+
+                    refresh();
+
+                });
+
+            }
+
+        }
+
+        document
+            .querySelectorAll(".achievement-check input")
+            .forEach(box => {
+
+                box.addEventListener("change", () => {
+
+                    saveProgress(slug);
+
+                    refresh();
+
+                    const activeFilter =
+                        document.querySelector(
+                            ".filter-btn.active"
+                        );
+
+                    if (activeFilter) {
+
+                        applyFilter(
+                            activeFilter.dataset.filter
+                        );
+
+                    }
+
+                });
 
             });
-
-        });
 
     }
 

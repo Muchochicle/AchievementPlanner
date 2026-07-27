@@ -20,6 +20,7 @@ export function createAchievementCard(achievement) {
 
                         <input
                             type="checkbox"
+                            data-id="${achievement.id}"
                         >
 
                     </label>
