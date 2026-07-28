@@ -6,16 +6,31 @@ import { createProgress } from "../components/progress/progress.js";
 import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
 import { createAchievementList } from "../components/achievement-list/achievement-list.js";
 import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
+import { createSessionPlanner } from "../components/session-planner/session-planner.js";
+import { createSessionDuration } from "../components/session-duration/session-duration.js";
 
 import { updateProgress } from "../utils/planner/progress.js";
 import { updatePlannerStats } from "../utils/planner/stats.js";
 import { saveProgress, loadProgress } from "../utils/planner/storage.js";
+
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
+import { createPlayerProfile } from "../components/player-profile/player-profile.js";
 
 import {
-    initAchievementFilters,
-    applyFilter
-} from "../utils/planner/filters.js";
+    skipAchievement,
+    clearSkippedAchievements
+} from "../utils/planner/recommendation/skipped.js";
+
+import {
+    getSession,
+    regenerateSession
+} from "../utils/planner/sessionManager.js";
+
+import {
+
+    toggleAchievement
+
+} from "../utils/planner/achievement/achievementManager.js";
 
 async function init() {
 
@@ -30,6 +45,8 @@ async function init() {
 
     }
 
+    clearSkippedAchievements();
+
     try {
 
         const game = await getGame(slug);
@@ -39,11 +56,17 @@ async function init() {
 
         container.innerHTML =
 
+            createPlayerProfile() +
+
             createGameHeader(game) +
 
             createGameOverview(game) +
 
             `<div id="recommended-container"></div>` +
+
+            createSessionDuration() +
+
+            `<div id="session-container"></div>` +
 
             createProgress(game) +
 
@@ -53,17 +76,38 @@ async function init() {
 
         loadProgress(slug);
 
-        initAchievementFilters();
-
         refresh();
 
+        document
+            .getElementById("session-duration")
+            .addEventListener("change", () => {
+
+                regenerateSession(
+                    game,
+                    slug,
+                    Number(
+                        document.getElementById(
+                            "session-duration"
+                        ).value
+                    )
+                );
+
+                refresh();
+
+            });
+
         function refresh() {
+
+            document.querySelector(".player-profile").outerHTML =
+                createPlayerProfile();
 
             updateProgress();
 
             updatePlannerStats(game);
 
             renderRecommendation();
+
+            renderSession();
 
         }
 
@@ -79,33 +123,115 @@ async function init() {
                     recommended
                 );
 
-            const button =
+            const completeButton =
                 document.querySelector(
                     ".recommended-button"
                 );
 
-            if (button) {
+            if (completeButton) {
 
-                button.addEventListener("click", () => {
+                completeButton.onclick = () => {
 
                     const checkbox =
                         document.querySelector(
 
-                            `.achievement-check input[data-id="${button.dataset.id}"]`
+                            `.achievement-check input[data-id="${completeButton.dataset.id}"]`
 
                         );
 
                     if (!checkbox) return;
 
-                    checkbox.checked = true;
+                    toggleAchievement(
 
-                    saveProgress(slug);
+                        Number(completeButton.dataset.id),
+
+                        true,
+
+                        slug,
+
+                        refresh
+
+                    );
+
+                };
+
+            }
+
+            const skipButton =
+                document.querySelector(
+                    ".recommended-skip"
+                );
+
+            if (skipButton) {
+
+                skipButton.onclick = () => {
+
+                    skipAchievement(
+                        Number(skipButton.dataset.id)
+                    );
+
+                    regenerateSession(
+                        game,
+                        slug,
+                        Number(
+                            document.getElementById(
+                                "session-duration"
+                            ).value
+                        )
+                    );
 
                     refresh();
 
-                });
+                };
 
             }
+
+        }
+
+        function renderSession() {
+
+            const duration =
+                Number(
+
+                    document.getElementById(
+                        "session-duration"
+                    ).value
+
+                );
+
+            const session =
+                getSession(
+                    game,
+                    slug,
+                    duration
+                );
+
+            document.getElementById(
+                "session-container"
+            ).innerHTML =
+                createSessionPlanner(session);
+
+            document
+                .querySelectorAll(".session-check input")
+                .forEach(box => {
+
+                    box.onchange = () => {
+
+                            toggleAchievement(
+
+                                Number(box.dataset.id),
+
+                                box.checked,
+
+                                slug,
+
+                                refresh
+
+                            );
+
+                        };
+
+                });
 
         }
 
@@ -113,26 +239,21 @@ async function init() {
             .querySelectorAll(".achievement-check input")
             .forEach(box => {
 
-                box.addEventListener("change", () => {
+                box.onchange = () => {
 
-                    saveProgress(slug);
+                    toggleAchievement(
 
-                    refresh();
+                        Number(box.dataset.id),
 
-                    const activeFilter =
-                        document.querySelector(
-                            ".filter-btn.active"
-                        );
+                        box.checked,
 
-                    if (activeFilter) {
+                        slug,
 
-                        applyFilter(
-                            activeFilter.dataset.filter
-                        );
+                        refresh
 
-                    }
+                    );
 
-                });
+                };
 
             });
 

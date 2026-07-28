@@ -1,11 +1,23 @@
+import {
+    getSkippedAchievements
+} from "./skipped.js";
+
 export function getRecommendedAchievement(game) {
 
-    const completed = getCompletedAchievements();
+    const completed =
+        getCompletedAchievements();
+
+    const skipped =
+        getSkippedAchievements();
 
     const achievements =
         game.achievements.filter(achievement =>
 
             !completed.includes(
+                achievement.id
+            ) &&
+
+            !skipped.includes(
                 achievement.id
             )
 
@@ -17,9 +29,14 @@ export function getRecommendedAchievement(game) {
 
     }
 
-    achievements.sort((a, b) => score(b) - score(a));
+    achievements.sort((a, b) =>
 
-    const achievement = achievements[0];
+        score(b) - score(a)
+
+    );
+
+    const achievement =
+        achievements[0];
 
     achievement.reasons = [];
 
@@ -55,11 +72,23 @@ function score(achievement) {
 
     let score = 0;
 
-    if (achievement.difficulty <= 3) score += 3;
+    if (achievement.difficulty <= 3) {
 
-    if (!achievement.missable) score += 2;
+        score += 3;
 
-    if (achievement.estimatedTime <= 15) score += 2;
+    }
+
+    if (!achievement.missable) {
+
+        score += 2;
+
+    }
+
+    if (achievement.estimatedTime <= 15) {
+
+        score += 2;
+
+    }
 
     return score;
 

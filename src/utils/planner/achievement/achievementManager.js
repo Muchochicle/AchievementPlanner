@@ -1,0 +1,95 @@
+import { saveProgress } from "../storage.js";
+
+import {
+
+    completeAchievement,
+
+    addXP,
+
+    claimAchievement
+
+
+} from "../../player/player.js";
+
+export function toggleAchievement(
+
+    id,
+
+    checked,
+
+    slug,
+
+    refresh
+
+) {
+
+    console.log("toggleAchievement ejecutado");
+
+
+    const checkbox =
+
+        document.querySelector(
+
+            `.achievement-check input[data-id="${id}"]`
+
+        );
+
+    if (!checkbox) {
+
+        return;
+
+    }
+
+    const wasCompleted =
+
+        checkbox.checked;
+
+    checkbox.checked = checked;
+
+    if (
+
+        checked &&
+
+        !wasCompleted
+
+    ) {
+
+        if (
+
+            claimAchievement(id)
+
+        ) {
+
+            completeAchievement();
+
+            addXP(50);
+
+        }
+
+    }
+
+    saveProgress(slug);
+
+    refresh();
+
+}
+
+export function getCheckbox(id) {
+
+    return document.querySelector(
+
+        `.achievement-check input[data-id="${id}"]`
+
+    );
+
+}
+
+export function isCompleted(id) {
+
+    const checkbox =
+
+        getCheckbox(id);
+
+    return checkbox?.checked ?? false;
+
+}

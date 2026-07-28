@@ -186,22 +186,60 @@ async function init() {
             });
 
         document.addEventListener(
-            "click",
-            event => {
+    "click",
+    event => {
 
-                if (
-                    event.target.classList.contains(
-                        "planner-btn"
-                    )
-                ) {
+        const button =
+            event.target.closest(".planner-btn");
 
-                    window.location.href =
-                        `game.html?slug=${event.target.dataset.slug}`;
+        if (button) {
 
-                }
+            window.location.href =
+                `game.html?slug=${button.dataset.slug}`;
 
-            }
-        );
+            return;
+
+        }
+
+        const card =
+            event.target.closest(".catalog-card");
+
+        if (card) {
+
+            window.location.href =
+                `game.html?slug=${card.dataset.slug}`;
+
+        }
+
+    }
+);
+
+document.addEventListener(
+    "keydown",
+    event => {
+
+        if (
+            event.key !== "Enter"
+        ) {
+
+            return;
+
+        }
+
+        const card =
+            event.target.closest(".catalog-card");
+
+        if (!card) {
+
+            return;
+
+        }
+
+        window.location.href =
+            `game.html?slug=${card.dataset.slug}`;
+
+    }
+);
 
         const toggle =
             document.getElementById("filters-toggle");

@@ -2,7 +2,11 @@ export function createCatalogCard(game) {
 
     return `
 
-        <article class="catalog-card">
+        <article
+            class="catalog-card"
+            data-slug="${game.slug}"
+            tabindex="0"
+        >
 
             <img
                 class="catalog-image"

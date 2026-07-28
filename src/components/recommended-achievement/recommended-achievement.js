@@ -90,14 +90,27 @@ export function createRecommendedAchievement(achievement) {
 
             </div>
 
-            <button
-                class="recommended-button"
-                data-id="${achievement.id}"
-            >
+            <div class="recommended-actions">
 
-                ✓ Mark as Completed
+                <button
+                    class="recommended-button"
+                    data-id="${achievement.id}"
+                >
 
-            </button>
+                    ✓ Mark as Completed
+
+                </button>
+
+                <button
+                    class="recommended-skip"
+                    data-id="${achievement.id}"
+                >
+
+                    ↷ Skip
+
+                </button>
+
+            </div>
 
         </section>
 
