@@ -1,3 +1,18 @@
+import {
+
+    getXPForNextLevel,
+
+    calculateLevel,
+
+    calculateCurrentXP
+
+} from "./level/levelSystem.js";
+import {
+
+    getTitle
+
+} from "./titles/titleSystem.js";
+
 const STORAGE_KEY = "achievement-planner-player";
 
 const DEFAULT_PLAYER = {
@@ -22,7 +37,14 @@ const DEFAULT_PLAYER = {
 
     claimedAchievements: [],
 
-    claimedGames: []
+    claimedGames: [],
+
+    hoursPlayed: 0,
+
+    completionRate: 0,
+
+    lastPlayed: null
+
 
 };
 
@@ -39,6 +61,12 @@ export function getPlayer() {
     player.claimedGames ??= [];
 
     player.totalXP ??= 0;
+
+    player.hoursPlayed ??= 0;
+
+    player.completionRate ??= 0;
+
+    player.lastPlayed ??= null;
 
     player.level = calculateLevel(
 
@@ -132,85 +160,6 @@ export function unlockBadge(name) {
 
 }
 
-export function getXPForNextLevel(level) {
-
-    return level * level * 100;
-
-}
-
-export function calculateLevel(totalXP) {
-
-    let level = 1;
-
-    let remainingXP = totalXP;
-
-    while (
-
-        remainingXP >= getXPForNextLevel(level)
-
-    ) {
-
-        remainingXP -= getXPForNextLevel(level);
-
-        level++;
-
-    }
-
-    return level;
-
-}
-
-export function calculateCurrentXP(totalXP) {
-
-    let level = 1;
-
-    let remainingXP = totalXP;
-
-    while (
-
-        remainingXP >= getXPForNextLevel(level)
-
-    ) {
-
-        remainingXP -= getXPForNextLevel(level);
-
-        level++;
-
-    }
-
-    return remainingXP;
-
-}
-
-export function getTitle(level) {
-
-    if (level >= 50) {
-
-        return "Legendary Hunter";
-
-    }
-
-    if (level >= 30) {
-
-        return "Master Hunter";
-
-    }
-
-    if (level >= 20) {
-
-        return "Veteran Hunter";
-
-    }
-
-    if (level >= 10) {
-
-        return "Achievement Seeker";
-
-    }
-
-    return "Rookie Hunter";
-
-}
 
 export function hasClaimedAchievement(id) {
 

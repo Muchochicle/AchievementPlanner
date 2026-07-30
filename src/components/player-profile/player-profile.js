@@ -1,60 +1,67 @@
 import {
 
-    getPlayer,
+    getPlayer
+
+} from "../../utils/player/player.js";
+
+import {
 
     getXPForNextLevel
 
-} from "../../utils/player/player.js";
+} from "../../utils/player/level/levelSystem.js";
 
 export function createPlayerProfile() {
 
     const player = getPlayer();
 
-    const currentLevelXP =
+    const currentLevelXP = player.xp;
 
-        player.xp;
+    const requiredXP = getXPForNextLevel(
 
-    const requiredXP =
+        player.level
 
-        getXPForNextLevel(
+    );
 
-            player.level
+    const progress = Math.round(
 
-        );
+        currentLevelXP /
 
-    const progress =
+        requiredXP *
 
-        Math.round(
+        100
 
-            currentLevelXP /
-
-            requiredXP *
-
-            100
-
-        );
+    );
 
     return `
 
         <section class="player-profile">
 
-            <h2>
+            <div class="player-header">
 
-                👤 Player
+                <div class="player-avatar">
 
-            </h2>
+                    <img
+                        src="src/assets/avatars/default.png"
+                        alt="Avatar"
+                    >
 
-            <p>
+                </div>
 
-                ${player.title}
+                <div class="player-info">
 
-            </p>
+                    <h2>Player</h2>
 
-            <p>
+                    <p>${player.title}</p>
 
-                ⭐ Level ${player.level}
+                </div>
 
-            </p>
+                <div class="player-level">
+
+                    Level ${player.level}
+
+                </div>
+
+            </div>
 
             <div class="player-bar">
 
@@ -78,13 +85,41 @@ export function createPlayerProfile() {
 
                 <span>
 
-                    🏆 ${player.completedAchievements} achievements
+                    🏆 ${player.completedAchievements}
+
+                    <small>Achievements</small>
 
                 </span>
 
                 <span>
 
-                    🎮 ${player.completedGames} games
+                    🎮 ${player.completedGames}
+
+                    <small>Games</small>
+
+                </span>
+
+                <span>
+
+                    🏅 ${player.badges.length}
+
+                    <small>Badges</small>
+
+                </span>
+
+                <span>
+
+                    ⏱ ${player.hoursPlayed} h
+
+                    <small>Hours</small>
+
+                </span>
+
+                <span>
+
+                    🔥 ${player.currentStreak}
+
+                    <small>Streak</small>
 
                 </span>
 
@@ -95,3 +130,4 @@ export function createPlayerProfile() {
     `;
 
 }
+
