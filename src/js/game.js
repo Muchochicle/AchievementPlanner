@@ -15,7 +15,14 @@ import { saveProgress, loadProgress } from "../utils/planner/storage.js";
 
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
 import { createPlayerProfile } from "../components/player-profile/player-profile.js";
+import { CONFIG } from "../config.js";
 
+import { resetDevelopmentProgress } from "../dev/resetProgress.js";
+import {
+
+    initAchievementFilters
+
+} from "../utils/planner/filters.js";
 import {
     skipAchievement,
     clearSkippedAchievements
@@ -56,6 +63,26 @@ async function init() {
 
         container.innerHTML =
 
+                (CONFIG.ENABLE_RESET_BUTTON
+
+                    ? `
+
+                    <div class="dev-toolbar">
+
+                        <button id="dev-reset-progress">
+
+                            🧪 Reset progreso
+
+                        </button>
+
+                    </div>
+
+                    `
+
+                    : "")
+
+                +
+
             createPlayerProfile() +
 
             createGameHeader(game) +
@@ -75,6 +102,22 @@ async function init() {
             createAchievementList(game);
 
         loadProgress(slug);
+
+        if (CONFIG.ENABLE_RESET_BUTTON) {
+
+            document
+
+                .getElementById("dev-reset-progress")
+
+                ?.addEventListener(
+
+                    "click",
+
+                    resetDevelopmentProgress
+
+                );
+
+        }
 
         refresh();
 
@@ -108,6 +151,9 @@ async function init() {
             renderRecommendation();
 
             renderSession();
+
+            initAchievementFilters();
+
 
         }
 
@@ -149,7 +195,9 @@ async function init() {
 
                         slug,
 
-                        refresh
+                        refresh,
+
+                        game
 
                     );
 
@@ -225,7 +273,9 @@ async function init() {
 
                                 slug,
 
-                                refresh
+                                refresh,
+
+                                game
 
                             );
 
@@ -249,7 +299,9 @@ async function init() {
 
                         slug,
 
-                        refresh
+                        refresh,
+
+                        game
 
                     );
 

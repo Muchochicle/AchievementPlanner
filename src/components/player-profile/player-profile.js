@@ -10,17 +10,11 @@ export function createPlayerProfile() {
 
     const player = getPlayer();
 
-    const previousLevelXP =
+    const currentLevelXP =
 
-        Math.pow(
+        player.xp;
 
-            player.level - 1,
-
-            2
-
-        ) * 100;
-
-    const nextLevelXP =
+    const requiredXP =
 
         getXPForNextLevel(
 
@@ -28,29 +22,17 @@ export function createPlayerProfile() {
 
         );
 
-    const currentLevelXP =
-
-        player.xp - previousLevelXP;
-
-    const requiredXP =
-
-        nextLevelXP - previousLevelXP;
-
     const progress =
 
-        requiredXP === 0
+        Math.round(
 
-            ? 100
+            currentLevelXP /
 
-            : Math.round(
+            requiredXP *
 
-                currentLevelXP /
+            100
 
-                requiredXP *
-
-                100
-
-            );
+        );
 
     return `
 

@@ -19,10 +19,8 @@ const DEFAULT_PLAYER = {
     badges: [],
 
     title: "Rookie Hunter",
-
-    claimedAchievements: [],
-
-    claimedGames: []
+    
+    claimedAchievements: []
 
 };
 
@@ -30,35 +28,11 @@ export function getPlayer() {
 
     const data = localStorage.getItem(STORAGE_KEY);
 
-    const player = data
+    return data
+
         ? JSON.parse(data)
+
         : { ...DEFAULT_PLAYER };
-
-    player.claimedAchievements ??= [];
-
-    player.claimedGames ??= [];
-
-    player.totalXP ??= 0;
-
-    player.level = calculateLevel(
-
-        player.totalXP
-
-    );
-
-    player.xp = calculateCurrentXP(
-
-        player.totalXP
-
-    );
-
-    player.title = getTitle(
-
-        player.level
-
-    );
-
-    return player;
 
 }
 
@@ -88,7 +62,29 @@ export function addXP(amount) {
 
     const player = getPlayer();
 
+    player.xp += amount;
+
     player.totalXP += amount;
+
+    while (
+
+        player.xp >= getXPForNextLevel(
+
+            player.level
+
+        )
+
+    ) {
+
+        player.level++;
+
+    }
+
+    player.title = getTitle(
+
+        player.level
+
+    );
 
     savePlayer(player);
 
@@ -138,50 +134,6 @@ export function getXPForNextLevel(level) {
 
 }
 
-export function calculateLevel(totalXP) {
-
-    let level = 1;
-
-    let remainingXP = totalXP;
-
-    while (
-
-        remainingXP >= getXPForNextLevel(level)
-
-    ) {
-
-        remainingXP -= getXPForNextLevel(level);
-
-        level++;
-
-    }
-
-    return level;
-
-}
-
-export function calculateCurrentXP(totalXP) {
-
-    let level = 1;
-
-    let remainingXP = totalXP;
-
-    while (
-
-        remainingXP >= getXPForNextLevel(level)
-
-    ) {
-
-        remainingXP -= getXPForNextLevel(level);
-
-        level++;
-
-    }
-
-    return remainingXP;
-
-}
-
 export function getTitle(level) {
 
     if (level >= 50) {
@@ -211,7 +163,6 @@ export function getTitle(level) {
     return "Rookie Hunter";
 
 }
-
 export function hasClaimedAchievement(id) {
 
     const player = getPlayer();
@@ -235,50 +186,6 @@ export function claimAchievement(id) {
     }
 
     player.claimedAchievements.push(id);
-
-    savePlayer(player);
-
-    return true;
-
-}
-
-export function hasClaimedGame(slug) {
-
-    const player = getPlayer();
-
-    if (!player.claimedGames) {
-
-        player.claimedGames = [];
-
-        savePlayer(player);
-
-    }
-
-    return player.claimedGames.includes(slug);
-
-}
-
-export function claimGame(slug) {
-
-    const player = getPlayer();
-
-    if (!player.claimedGames) {
-
-        player.claimedGames = [];
-
-    }
-
-    if (
-
-        player.claimedGames.includes(slug)
-
-    ) {
-
-        return false;
-
-    }
-
-    player.claimedGames.push(slug);
 
     savePlayer(player);
 

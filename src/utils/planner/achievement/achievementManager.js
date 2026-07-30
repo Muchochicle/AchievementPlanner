@@ -8,8 +8,13 @@ import {
 
     claimAchievement
 
-
 } from "../../player/player.js";
+
+import {
+
+    checkGameCompletion
+
+} from "../game/gameCompletion.js";
 
 export function toggleAchievement(
 
@@ -19,12 +24,11 @@ export function toggleAchievement(
 
     slug,
 
-    refresh
+    refresh,
+
+    game
 
 ) {
-
-    console.log("toggleAchievement ejecutado");
-
 
     const checkbox =
 
@@ -67,6 +71,8 @@ export function toggleAchievement(
         }
 
     }
+
+    checkGameCompletion(game);
 
     saveProgress(slug);
 
