@@ -9,10 +9,17 @@ import {
     getXPForNextLevel
 
 } from "../../utils/player/level/levelSystem.js";
+import {
+
+    getCurrentAvatar
+
+} from "../../utils/player/avatar/avatarManager.js";
 
 export function createPlayerProfile() {
 
     const player = getPlayer();
+
+    const avatar = getCurrentAvatar();
 
     const currentLevelXP = player.xp;
 
@@ -41,15 +48,15 @@ export function createPlayerProfile() {
                 <div class="player-avatar">
 
                     <img
-                        src="src/assets/avatars/default.png"
-                        alt="Avatar"
+                        src="${avatar.image}"
+                        alt="${avatar.name}"
                     >
 
                 </div>
 
                 <div class="player-info">
 
-                    <h2>Player</h2>
+                    <h2>${avatar.name}</h2>
 
                     <p>${player.title}</p>
 
