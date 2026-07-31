@@ -15,11 +15,21 @@ import {
 
 } from "../../utils/player/avatar/avatarManager.js";
 
+import {
+
+    equipAvatar,
+
+    getAllAvatars
+
+} from "../../utils/player/avatar/avatarManager.js";
+
 export function createPlayerProfile() {
 
     const player = getPlayer();
 
     const avatar = getCurrentAvatar();
+
+    const avatars = getAllAvatars();
 
     const currentLevelXP = player.xp;
 
@@ -38,6 +48,26 @@ export function createPlayerProfile() {
         100
 
     );
+
+    const avatarOptions = avatars.map(
+
+        item => `
+
+            <option
+
+                value="${item.id}"
+
+                ${item.id === avatar.id ? "selected" : ""}
+
+            >
+
+                ${item.name}
+
+            </option>
+
+        `
+
+    ).join("");
 
     return `
 
@@ -59,6 +89,18 @@ export function createPlayerProfile() {
                     <h2>${avatar.name}</h2>
 
                     <p>${player.title}</p>
+
+                    <select
+
+                        id="avatar-selector"
+
+                        class="avatar-selector"
+
+                    >
+
+                        ${avatarOptions}
+
+                    </select>
 
                 </div>
 

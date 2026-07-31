@@ -144,6 +144,28 @@ async function init() {
             document.querySelector(".player-profile").outerHTML =
                 createPlayerProfile();
 
+            const avatarSelector =
+
+                document.getElementById("avatar-selector");
+
+            if (avatarSelector) {
+
+                avatarSelector.addEventListener(
+
+                    "change",
+
+                    event => {
+
+                        equipAvatar(event.target.value);
+
+                        refresh();
+
+                    }
+
+                );
+
+            }
+
             updateProgress();
 
             updatePlannerStats(game);
@@ -153,7 +175,6 @@ async function init() {
             renderSession();
 
             initAchievementFilters();
-
 
         }
 
