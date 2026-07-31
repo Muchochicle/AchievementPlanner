@@ -12,6 +12,11 @@ import {
     getTitle
 
 } from "./titles/titleSystem.js";
+import {
+
+    checkPlayerUnlocks
+
+} from "./playerProgress.js";
 
 const STORAGE_KEY = "achievement-planner-player";
 
@@ -119,6 +124,8 @@ export function addXP(amount) {
     player.totalXP += amount;
 
     savePlayer(player);
+
+    checkPlayerUnlocks();
 
 }
 

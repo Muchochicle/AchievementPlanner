@@ -8,6 +8,12 @@ import {
 
 } from "./avatarStorage.js";
 
+import {
+
+    ownsItem
+
+} from "../inventory/inventoryManager.js";
+
 export function getCurrentAvatar() {
 
     const id = getEquippedAvatar();
@@ -19,6 +25,22 @@ export function getCurrentAvatar() {
 export function equipAvatar(id) {
 
     if (!AVATARS[id]) {
+
+        return false;
+
+    }
+
+    if (
+
+        !ownsItem(
+
+            "avatars",
+
+            id
+
+        )
+
+    ) {
 
         return false;
 
