@@ -23,7 +23,7 @@ import {
     createGamePage
 
 } from "../pages/gamePage.js";
-
+import { loadNavbar } from "./layout.js";
 import {
 
     createLayout
@@ -51,6 +51,8 @@ import {
 } from "../utils/planner/achievement/achievementManager.js";
 
 async function init() {
+
+    loadNavbar();
 
     const params = new URLSearchParams(window.location.search);
 

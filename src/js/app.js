@@ -1,8 +1,10 @@
 import { createSearch } from "../components/search/search.js";
 import { getGamesIndex, getGame } from "../utils/gameService.js";
 import { createGameCard } from "../components/game-card/game-card.js";
+import { loadNavbar } from "./layout.js";
 
 async function init() {
+    loadNavbar();
 
     try {
 

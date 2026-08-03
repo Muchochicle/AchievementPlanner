@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "variables.css";
-
+@import "../components/profile-header/profile-header.css";
 @import "../components/navbar/navbar.css";
 @import "../components/hero/hero.css";
 @import "../components/search/search.css";
@@ -18,12 +18,14 @@
 @import "../components/achievement-list/achievement-list.css";
 @import "../components/achievement-filters/achievement-filters.css";
 @import "../components/achievement-card/achievement-card.css";
-@import "../components/footer/footer.css";
+@import "../components/footer/footer.css"; 
 @import "../components/recommended-achievement/recommended-achievement.css";
 @import "../components/session-planner/session-planner.css";
 @import "../components/session-duration/session-duration.css";
 @import "../components/player-profile/player-profile.css";
 @import "../components/player-widget/player-widget.css";
+@import "../components/profile-page/profile-page.css";
+@import "../components/profile-stats/profile-stats.css";
 
 body{
 
@@ -76,5 +78,13 @@ body{
     cursor:pointer;
 
     font-weight:600;
+
+}
+body{
+
+    background:var(--background);
+    color:var(--text);
+
+    padding-top:110px;
 
 }

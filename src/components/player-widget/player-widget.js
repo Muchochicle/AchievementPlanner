@@ -32,7 +32,13 @@ export function createPlayerWidget() {
 
     return `
 
-        <button class="player-widget">
+        <button
+
+            id="player-widget"
+
+            class="player-widget"
+
+        >
 
             <img
                 class="player-widget-avatar"

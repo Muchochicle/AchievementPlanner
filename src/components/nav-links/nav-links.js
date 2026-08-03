@@ -4,11 +4,7 @@ export function createNavLinks() {
 
         <nav>
 
-            <a href="index.html">
-
-                Games
-
-            </a>
+            <a href="games.html">Games</a>
 
             <a href="#">
 

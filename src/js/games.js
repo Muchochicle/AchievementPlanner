@@ -3,7 +3,7 @@ import { getGamesIndex, getGame } from "../utils/gameService.js";
 import { createGamesFilters } from "../components/games-filters/games-filters.js";
 import { createCatalogFilters } from "../components/catalog-filters/catalog-filters.js";
 import { createActiveFilters } from "../components/active-filters/active-filters.js";
-
+import { loadNavbar } from "./layout.js";
 import {
     renderGames,
     searchGames,
@@ -23,6 +23,7 @@ import {
 } from "../utils/catalog/counter.js";
 
 async function init() {
+    loadNavbar();
 
     try {
 
