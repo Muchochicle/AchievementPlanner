@@ -2,7 +2,7 @@ import {
     buildSteamLoginUrl,
     validateSteamResponse
 } from "../services/steamAuth.js";
-
+import { getPlayerSummary } from "../services/steamApi.js";
 export async function login(req, res) {
 
     const url = buildSteamLoginUrl();
@@ -27,15 +27,21 @@ export async function callback(req, res) {
 
     }
 
-    const steamId = req.query["openid.claimed_id"]
-        .split("/")
-        .pop();
+    const steamId =
+
+        req.query["openid.claimed_id"]
+
+            .split("/")
+
+            .pop();
+
+    const profile = await getPlayerSummary(steamId);
 
     res.json({
 
         success: true,
 
-        steamId
+        profile
 
     });
 
