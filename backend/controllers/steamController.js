@@ -2,7 +2,10 @@ import {
     buildSteamLoginUrl,
     validateSteamResponse
 } from "../services/steamAuth.js";
-import { getPlayerSummary } from "../services/steamApi.js";
+import {
+    getPlayerSummary,
+    getOwnedGames
+} from "../services/steamApi.js";
 export async function login(req, res) {
 
     const url = buildSteamLoginUrl();
@@ -36,12 +39,17 @@ export async function callback(req, res) {
             .pop();
 
     const profile = await getPlayerSummary(steamId);
+    const games = await getOwnedGames(steamId);
 
     res.json({
 
         success: true,
 
-        profile
+        profile,
+
+        gameCount: games.game_count,
+
+        games: games.games
 
     });
 
