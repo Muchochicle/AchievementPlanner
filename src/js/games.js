@@ -33,15 +33,7 @@ async function init() {
         const index =
             await getGamesIndex();
 
-        const games = [];
-
-        for (const item of index) {
-
-            games.push(
-                await getGame(item.slug)
-            );
-
-        }
+        const games = index;
 
         const genres =
             getGenres(games);

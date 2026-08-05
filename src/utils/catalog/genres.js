@@ -4,6 +4,12 @@ export function getGenres(games) {
 
     games.forEach(game => {
 
+        if (!game.genres) {
+
+            return;
+
+        }
+
         game.genres.forEach(genre => {
 
             genres.add(genre);

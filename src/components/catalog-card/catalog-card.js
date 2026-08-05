@@ -11,24 +11,18 @@ export function createCatalogCard(game) {
             <img
                 class="catalog-image"
                 src="${game.image}"
-                alt="${game.name}"
+                alt="${game.title}"
             >
 
             <div class="catalog-content">
 
-                <h3>${game.name}</h3>
+                <h3>${game.title}</h3>
 
                 <div class="catalog-meta">
 
                     <span>
 
-                        ⭐ ${game.difficulty}/10
-
-                    </span>
-
-                    <span>
-
-                        ⏱ ${game.completionTime.min}-${game.completionTime.max} h
+                        ⏱ --
 
                     </span>
 
@@ -36,7 +30,7 @@ export function createCatalogCard(game) {
 
                 <div class="catalog-achievements">
 
-                    🏆 ${game.achievements.length} achievements
+                    🏆 --
 
                 </div>
 

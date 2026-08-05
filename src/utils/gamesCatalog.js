@@ -26,7 +26,7 @@ export function searchGames(games, text) {
 
     return games.filter(game =>
 
-        game.name
+        game.title
             .toLowerCase()
             .includes(value)
 
@@ -43,7 +43,8 @@ export function sortGames(games, mode) {
         case "difficulty":
 
             sorted.sort((a, b) =>
-                b.difficulty - a.difficulty
+                (b.difficulty ?? -1) -
+                (a.difficulty ?? -1)
             );
 
             break;
@@ -51,8 +52,8 @@ export function sortGames(games, mode) {
         case "time":
 
             sorted.sort((a, b) =>
-                a.completionTime.min -
-                b.completionTime.min
+                (a.completionTime?.min ?? Number.MAX_SAFE_INTEGER) -
+                (b.completionTime?.min ?? Number.MAX_SAFE_INTEGER)
             );
 
             break;
@@ -60,7 +61,7 @@ export function sortGames(games, mode) {
         default:
 
             sorted.sort((a, b) =>
-                a.name.localeCompare(b.name)
+                (a.title ?? "").localeCompare(b.title ?? "")
             );
 
     }

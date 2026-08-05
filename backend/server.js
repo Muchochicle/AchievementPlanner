@@ -3,10 +3,13 @@ import dotenv from "dotenv";
 import steamRoutes from "./routes/steam.js";
 import session from "express-session";
 import apiRoutes from "./routes/api.js";
+import gamesRoutes from "./routes/games.js";
+import cors from "cors";
 
 dotenv.config();
 
 const app = express();
+app.use(cors());
 
 app.use(session({
 
@@ -20,6 +23,7 @@ app.use(session({
 
 app.use("/auth/steam", steamRoutes);
 app.use("/api", apiRoutes);
+app.use("/api/games", gamesRoutes);
 
 const PORT = process.env.PORT || 3000;
 

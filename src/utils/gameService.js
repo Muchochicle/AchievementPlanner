@@ -1,15 +1,19 @@
-const INDEX_PATH = "src/data/games.json";
+const API_URL = "http://localhost:3000/api/games";
 const GAMES_PATH = "src/data/games";
 
 export async function getGamesIndex() {
 
-    const response = await fetch(INDEX_PATH);
+    const response = await fetch(API_URL);
 
     if (!response.ok) {
-        throw new Error("Unable to load games index.");
+
+        throw new Error("Unable to load Steam library.");
+
     }
 
-    return await response.json();
+    const data = await response.json();
+
+    return data.games;
 
 }
 
@@ -18,7 +22,9 @@ export async function getGame(slug) {
     const response = await fetch(`${GAMES_PATH}/${slug}.json`);
 
     if (!response.ok) {
+
         throw new Error(`Unable to load game: ${slug}`);
+
     }
 
     const game = await response.json();
