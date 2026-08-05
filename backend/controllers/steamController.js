@@ -2,10 +2,12 @@ import {
     buildSteamLoginUrl,
     validateSteamResponse
 } from "../services/steamAuth.js";
+
 import {
     getPlayerSummary,
     getOwnedGames
 } from "../services/steamApi.js";
+
 export async function login(req, res) {
 
     const url = buildSteamLoginUrl();
@@ -39,7 +41,46 @@ export async function callback(req, res) {
             .pop();
 
     const profile = await getPlayerSummary(steamId);
-    const games = await getOwnedGames(steamId);
+
+    req.session.user = {
+
+        steamid: profile.steamid,
+
+        personaname: profile.personaname,
+
+        avatar: profile.avatarfull
+
+    };
+
+    res.redirect("http://127.0.0.1:5500/index.html");
+
+}
+
+export async function profile(req, res) {
+
+    if (!req.session.user) {
+
+        return res.status(401).json({
+
+            success: false,
+
+            message: "Not logged in"
+
+        });
+
+    }
+
+    const profile = await getPlayerSummary(
+
+        req.session.user.steamid
+
+    );
+
+    const games = await getOwnedGames(
+
+        req.session.user.steamid
+
+    );
 
     res.json({
 
@@ -50,18 +91,6 @@ export async function callback(req, res) {
         gameCount: games.game_count,
 
         games: games.games
-
-    });
-
-}
-
-export async function profile(req, res) {
-
-    res.json({
-
-        success: true,
-
-        message: "Steam profile endpoint"
 
     });
 

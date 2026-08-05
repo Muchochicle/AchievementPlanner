@@ -1,14 +1,16 @@
 import express from "express";
 import dotenv from "dotenv";
-import steamRoutes from "./routes/steam.js";
 import session from "express-session";
+import cors from "cors";
+
+import steamRoutes from "./routes/steam.js";
 import apiRoutes from "./routes/api.js";
 import gamesRoutes from "./routes/games.js";
-import cors from "cors";
 
 dotenv.config();
 
 const app = express();
+
 app.use(cors());
 
 app.use(session({
@@ -22,10 +24,10 @@ app.use(session({
 }));
 
 app.use("/auth/steam", steamRoutes);
-app.use("/api", apiRoutes);
-app.use("/api/games", gamesRoutes);
 
-const PORT = process.env.PORT || 3000;
+app.use("/api", apiRoutes);
+
+app.use("/api/games", gamesRoutes);
 
 app.get("/", (req, res) => {
 
@@ -38,6 +40,30 @@ app.get("/", (req, res) => {
     });
 
 });
+
+app.get("/api/me", (req, res) => {
+
+    if (!req.session.user) {
+
+        return res.json({
+
+            logged: false
+
+        });
+
+    }
+
+    res.json({
+
+        logged: true,
+
+        user: req.session.user
+
+    });
+
+});
+
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
 
