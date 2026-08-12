@@ -1,5 +1,4 @@
 const API_URL = "http://localhost:3000/api/games";
-const GAMES_PATH = "src/data/games";
 
 export async function getGamesIndex() {
 
@@ -19,7 +18,7 @@ export async function getGamesIndex() {
 
 export async function getGame(slug) {
 
-    const response = await fetch(`${GAMES_PATH}/${slug}.json`);
+    const response = await fetch(`${API_URL}/${slug}`);
 
     if (!response.ok) {
 
@@ -27,13 +26,18 @@ export async function getGame(slug) {
 
     }
 
-    const game = await response.json();
+    const data = await response.json();
+
+    const game = data.game;
 
     return {
 
-        slug,
+        ...game,
 
-        ...game
+        // Alias de compatibilidad: los componentes existentes de la
+        // página de juego (game-header, achievement-list, etc.)
+        // esperan "name" en vez de "title".
+        name: game.title
 
     };
 

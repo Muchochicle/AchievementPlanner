@@ -136,3 +136,37 @@ nav a:hover{
     align-items:flex-end;
 
 }
+
+.steam-login-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 22px;
+
+    background:var(--primary);
+
+    color:#0b1220;
+
+    font-weight:700;
+
+    font-size:.9rem;
+
+    text-decoration:none;
+
+    border-radius:14px;
+
+    transition:.25s;
+
+}
+
+.steam-login-btn:hover{
+
+    filter:brightness(1.08);
+
+    transform:translateY(-1px);
+
+}

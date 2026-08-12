@@ -11,16 +11,24 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+const ALLOWED_ORIGINS = [
+    "http://127.0.0.1:5500",
+    "http://localhost:5500"
+];
+
+app.use(cors({
+    origin: ALLOWED_ORIGINS,
+    credentials: true
+}));
 
 app.use(session({
-
     secret: "achievementplanner",
-
     resave: false,
-
-    saveUninitialized: false
-
+    saveUninitialized: false,
+    cookie: {
+        sameSite: "lax",
+        secure: false
+    }
 }));
 
 app.use("/auth/steam", steamRoutes);
@@ -32,11 +40,8 @@ app.use("/api/games", gamesRoutes);
 app.get("/", (req, res) => {
 
     res.json({
-
         success: true,
-
         message: "Achievement Planner Backend"
-
     });
 
 });
@@ -46,19 +51,14 @@ app.get("/api/me", (req, res) => {
     if (!req.session.user) {
 
         return res.json({
-
             logged: false
-
         });
 
     }
 
     res.json({
-
         logged: true,
-
         user: req.session.user
-
     });
 
 });

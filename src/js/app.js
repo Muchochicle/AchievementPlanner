@@ -1,5 +1,5 @@
 import { createSearch } from "../components/search/search.js";
-import { getGamesIndex, getGame } from "../utils/gameService.js";
+import { getGamesIndex } from "../utils/gameService.js";
 import { createGameCard } from "../components/game-card/game-card.js";
 import { loadNavbar } from "./layout.js";
 
@@ -8,13 +8,7 @@ async function init() {
 
     try {
 
-        const index = await getGamesIndex();
-
-        const games = await Promise.all(
-
-            index.map(game => getGame(game.slug))
-
-        );
+        const games = await getGamesIndex();
 
         const container = document.getElementById("games-container");
 

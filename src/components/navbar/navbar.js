@@ -1,22 +1,27 @@
 import {
-
     createNavLogo
-
 } from "../nav-logo/nav-logo.js";
 
 import {
-
     createNavLinks
-
 } from "../nav-links/nav-links.js";
 
 import {
-
     createPlayerWidget
-
 } from "../player-widget/player-widget.js";
 
-export function createNavbar() {
+const STEAM_LOGIN_URL =
+    "http://localhost:3000/auth/steam/login";
+
+export function createNavbar(
+    session = {
+        logged: false
+    }
+) {
+
+    const rightContent = session?.logged
+        ? createPlayerWidget()
+        : createLoginButton();
 
     return `
 
@@ -34,13 +39,28 @@ export function createNavbar() {
 
                 <div class="navbar-right">
 
-                    ${createPlayerWidget()}
+                    ${rightContent}
 
                 </div>
 
             </div>
 
         </header>
+
+    `;
+
+}
+
+function createLoginButton() {
+
+    return `
+
+        <a
+            href="${STEAM_LOGIN_URL}"
+            class="steam-login-btn"
+        >
+            Iniciar sesión con Steam
+        </a>
 
     `;
 

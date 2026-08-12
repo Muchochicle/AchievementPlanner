@@ -74,6 +74,26 @@ async function init() {
         const container =
             document.getElementById("game-content");
 
+        if (!game.hasPlanner) {
+
+            container.innerHTML = `
+
+                <div class="no-planner-message">
+
+                    <h2>${game.title ?? game.name}</h2>
+
+                    <p>Todavía no tenemos un planner disponible para este juego.</p>
+
+                    <a href="index.html">Volver al catálogo</a>
+
+                </div>
+
+            `;
+
+            return;
+
+        }
+
         container.innerHTML =
 
                 (CONFIG.ENABLE_RESET_BUTTON

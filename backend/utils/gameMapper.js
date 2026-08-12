@@ -1,13 +1,19 @@
+import { getPlannerData } from "./plannerCatalog.js";
+
 export function mapSteamGame(game) {
+
+    const slug = game.name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+
+    const planner = getPlannerData(slug);
 
     return {
 
         appid: game.appid,
 
-        slug: game.name
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/^-|-$/g, ""),
+        slug,
 
         title: game.name,
 
@@ -19,15 +25,23 @@ export function mapSteamGame(game) {
 
         playtime: Math.round(game.playtime_forever / 60),
 
-        difficulty: null,
+        owned: true,
 
-        estimatedTime: null,
+        hasPlanner: !!planner,
 
-        completion: null,
+        difficulty: planner?.difficulty ?? null,
 
-        genre: [],
+        completionTime: planner?.completionTime ?? null,
 
-        tags: []
+        missable: planner?.missable ?? null,
+
+        playthroughs: planner?.playthroughs ?? null,
+
+        hasGuide: planner?.hasGuide ?? false,
+
+        genres: planner?.genres ?? [],
+
+        achievements: planner?.achievements ?? []
 
     };
 

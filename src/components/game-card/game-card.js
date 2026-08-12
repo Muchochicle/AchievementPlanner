@@ -1,5 +1,29 @@
 export function createGameCard(game) {
 
+    const hasPlanner = !!game.hasPlanner;
+
+    const meta = hasPlanner
+
+        ? `
+
+            <span>⭐ ${game.difficulty}/10</span>
+
+            <span>⏱ ${game.completionTime.min}-${game.completionTime.max} h</span>
+
+        `
+
+        : `
+
+            <span class="planner-soon">Planner próximamente</span>
+
+        `;
+
+    const buttonLabel = hasPlanner
+
+        ? "View Planner"
+
+        : "Ver juego";
+
     return `
 
         <article
@@ -10,24 +34,22 @@ export function createGameCard(game) {
             <img
                 class="game-image"
                 src="${game.image}"
-                alt="${game.name}"
+                alt="${game.title}"
             >
 
             <div class="game-card-content">
 
-                <h3>${game.name}</h3>
+                <h3>${game.title}</h3>
 
                 <div class="game-meta">
 
-                    <span>⭐ ${game.difficulty}/10</span>
-
-                    <span>⏱ ${game.completionTime.min}-${game.completionTime.max} h</span>
+                    ${meta}
 
                 </div>
 
                 <button class="planner-btn">
 
-                    View Planner
+                    ${buttonLabel}
 
                 </button>
 
