@@ -2,7 +2,7 @@ import express from "express";
 
 import { getOwnedGames } from "../services/steamApi.js";
 
-import { mapSteamGame } from "../utils/gameMapper.js";
+import { mapSteamGameSafe } from "../utils/gameMapper.js";
 import { getPlannerData } from "../utils/plannerCatalog.js";
 
 const router = express.Router();
@@ -15,7 +15,11 @@ router.get("/", async (req, res) => {
 
         const library = await getOwnedGames(MY_STEAM_ID);
 
-        const games = library.games.map(mapSteamGame);
+        const games = library.games
+
+            .map(mapSteamGameSafe)
+
+            .filter(Boolean);
 
         res.json({
 
@@ -51,7 +55,11 @@ router.get("/:slug", async (req, res) => {
 
         const library = await getOwnedGames(MY_STEAM_ID);
 
-        const games = library.games.map(mapSteamGame);
+        const games = library.games
+
+            .map(mapSteamGameSafe)
+
+            .filter(Boolean);
 
         const owned = games.find(game => game.slug === slug);
 

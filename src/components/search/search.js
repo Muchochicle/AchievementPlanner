@@ -1,4 +1,4 @@
-import { getGamesIndex, getGame } from "../../utils/gameService.js";
+import { getGamesIndex } from "../../utils/gameService.js";
 
 export async function createSearch() {
 
@@ -7,15 +7,7 @@ export async function createSearch() {
 
     if (!searchInput || !results) return;
 
-    const index = await getGamesIndex();
-
-    const games = [];
-
-    for (const gameIndex of index) {
-
-        games.push(await getGame(gameIndex.slug));
-
-    }
+    const games = await getGamesIndex();
 
     searchInput.addEventListener("input", (event) => {
 
@@ -34,11 +26,23 @@ export async function createSearch() {
 
         const filtered = games
             .filter(game =>
-                game.name.toLowerCase().includes(value)
+                game.title.toLowerCase().includes(value)
             )
             .slice(0, 5);
 
         filtered.forEach(game => {
+
+            const hasPlanner = !!game.hasPlanner;
+
+            const meta = hasPlanner
+
+                ? `
+                    ⭐ ${game.difficulty}/10
+                    ·
+                    ⏱ ${game.completionTime.min}-${game.completionTime.max} h
+                `
+
+                : `Planner próximamente`;
 
             results.innerHTML += `
 
@@ -49,18 +53,16 @@ export async function createSearch() {
 
                     <img
                         src="${game.image}"
-                        alt="${game.name}"
+                        alt="${game.title}"
                     >
 
                     <div class="search-info">
 
-                        <strong>${game.name}</strong>
+                        <strong>${game.title}</strong>
 
                         <small>
 
-                            ⭐ ${game.difficulty}/10
-                            ·
-                            ⏱ ${game.completionTime.min}-${game.completionTime.max} h
+                            ${meta}
 
                         </small>
 

@@ -2,10 +2,19 @@ import { getPlannerData } from "./plannerCatalog.js";
 
 export function mapSteamGame(game) {
 
-    const slug = game.name
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-|-$/g, "");
+    const rawName =
+        typeof game.name === "string" && game.name.trim().length > 0
+            ? game.name
+            : null;
+
+    const title = rawName ?? `Juego sin nombre (${game.appid})`;
+
+    const slug = rawName
+        ? rawName
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-|-$/g, "")
+        : `unknown-${game.appid}`;
 
     const planner = getPlannerData(slug);
 
@@ -15,7 +24,7 @@ export function mapSteamGame(game) {
 
         slug,
 
-        title: game.name,
+        title,
 
         image:
             `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${game.appid}/header.jpg`,
@@ -44,5 +53,24 @@ export function mapSteamGame(game) {
         achievements: planner?.achievements ?? []
 
     };
+
+}
+
+export function mapSteamGameSafe(game) {
+
+    try {
+
+        return mapSteamGame(game);
+
+    } catch (error) {
+
+        console.error(
+            `[gameMapper] Error mapeando appid=${game?.appid}:`,
+            error.message
+        );
+
+        return null;
+
+    }
 
 }
