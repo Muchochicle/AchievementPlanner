@@ -94,3 +94,25 @@
     transform:scale(1.03);
 
 }
+
+.planner-soon{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    padding:4px 10px;
+
+    background:var(--surface-hover);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    color:var(--text-secondary);
+
+    font-size:.8rem;
+
+    font-weight:500;
+
+}

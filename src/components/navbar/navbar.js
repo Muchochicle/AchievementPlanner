@@ -20,7 +20,7 @@ export function createNavbar(
 ) {
 
     const rightContent = session?.logged
-        ? createPlayerWidget()
+        ? createPlayerWidget(session)
         : createLoginButton();
 
     return `

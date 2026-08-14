@@ -1,5 +1,7 @@
 .catalog-card{
 
+    position:relative;
+
     display:flex;
 
     flex-direction:column;
@@ -78,10 +80,80 @@
 
 }
 
+.catalog-planner-soon{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    width:fit-content;
+
+    padding:4px 10px;
+
+    margin-bottom:14px;
+
+    background:var(--surface-hover);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    color:var(--text-secondary);
+
+    font-size:.8rem;
+
+    font-weight:500;
+
+}
+
 .planner-btn{
 
     margin-top:auto;
 
     width:100%;
+
+}
+
+.catalog-card--unowned{
+
+    opacity:.55;
+
+}
+
+.catalog-card--unowned:hover{
+
+    opacity:.85;
+
+}
+
+.catalog-card--unowned .catalog-image{
+
+    filter:grayscale(1);
+
+}
+
+.catalog-owned-badge{
+
+    position:absolute;
+
+    top:12px;
+
+    left:12px;
+
+    padding:4px 10px;
+
+    background:rgba(15,23,42,.85);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    color:var(--text-secondary);
+
+    font-size:.75rem;
+
+    font-weight:600;
+
+    letter-spacing:.02em;
 
 }

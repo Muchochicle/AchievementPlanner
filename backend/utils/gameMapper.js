@@ -7,7 +7,7 @@ export function mapSteamGame(game) {
             ? game.name
             : null;
 
-    const title = rawName ?? `Juego sin nombre (${game.appid})`;
+    const title = rawName ?? `Unknown game (${game.appid})`;
 
     const slug = rawName
         ? rawName
@@ -72,5 +72,49 @@ export function mapSteamGameSafe(game) {
         return null;
 
     }
+
+}
+
+// Construye el modelo de un juego que existe en el catálogo propio
+// (tiene planner) pero que el usuario no posee en Steam.
+export function mapPlannerOnlyGame(slug) {
+
+    const planner = getPlannerData(slug);
+
+    if (!planner) {
+
+        return null;
+
+    }
+
+    return {
+
+        appid: planner.steamAppId ?? planner.id ?? null,
+
+        slug,
+
+        title: planner.name ?? slug,
+
+        image: planner.image ?? null,
+
+        owned: false,
+
+        hasPlanner: true,
+
+        difficulty: planner.difficulty ?? null,
+
+        completionTime: planner.completionTime ?? null,
+
+        missable: planner.missable ?? null,
+
+        playthroughs: planner.playthroughs ?? null,
+
+        hasGuide: planner.hasGuide ?? false,
+
+        genres: planner.genres ?? [],
+
+        achievements: planner.achievements ?? []
+
+    };
 
 }

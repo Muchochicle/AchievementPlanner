@@ -15,6 +15,8 @@ import { saveProgress, loadProgress } from "../utils/planner/storage.js";
 
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
 import { createPlayerProfile } from "../components/player-profile/player-profile.js";
+import { equipAvatar } from "../utils/player/avatar/avatarManager.js";
+import { getSteamSession } from "../utils/steam/steamSession.js";
 import { CONFIG } from "../config.js";
 
 import { resetDevelopmentProgress } from "../dev/resetProgress.js";
@@ -67,6 +69,23 @@ async function init() {
 
     clearSkippedAchievements();
 
+    let session = {
+        logged: false
+    };
+
+    try {
+
+        session = await getSteamSession();
+
+    } catch (error) {
+
+        console.error(
+            "Unable to check Steam session:",
+            error
+        );
+
+    }
+
     try {
 
         const game = await getGame(slug);
@@ -80,11 +99,11 @@ async function init() {
 
                 <div class="no-planner-message">
 
-                    <h2>${game.title ?? game.name}</h2>
+                    <h2>Planner not available yet</h2>
 
-                    <p>Todavía no tenemos un planner disponible para este juego.</p>
+                    <p>We don't have a planner available for this game yet.</p>
 
-                    <a href="index.html">Volver al catálogo</a>
+                    <a href="games.html">Back to games</a>
 
                 </div>
 
@@ -116,7 +135,7 @@ async function init() {
 
                 +
 
-            createPlayerProfile() +
+            createPlayerProfile(session) +
 
             createGameHeader(game) +
 
@@ -175,7 +194,7 @@ async function init() {
         function refresh() {
 
             document.querySelector(".player-profile").outerHTML =
-                createPlayerProfile();
+                createPlayerProfile(session);
 
             const avatarSelector =
 
@@ -183,19 +202,13 @@ async function init() {
 
             if (avatarSelector) {
 
-                avatarSelector.addEventListener(
+                avatarSelector.onchange = event => {
 
-                    "change",
+                    equipAvatar(event.target.value);
 
-                    event => {
+                    refresh();
 
-                        equipAvatar(event.target.value);
-
-                        refresh();
-
-                    }
-
-                );
+                };
 
             }
 

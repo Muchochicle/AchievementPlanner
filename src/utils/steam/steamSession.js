@@ -10,3 +10,19 @@ export async function getSteamSession() {
     return await response.json();
 
 }
+
+export function getSteamDisplayName(session) {
+
+    return session?.logged && session.user?.personaname
+        ? session.user.personaname
+        : null;
+
+}
+
+export function getSteamAvatarUrl(session) {
+
+    return session?.logged && session.user?.avatarfull
+        ? session.user.avatarfull
+        : null;
+
+}

@@ -36,6 +36,8 @@
 
 .search-item{
 
+    position:relative;
+
     display:flex;
 
     align-items:center;
@@ -47,6 +49,48 @@
     cursor:pointer;
 
     transition:.2s;
+
+}
+
+.search-item--unowned{
+
+    opacity:.55;
+
+}
+
+.search-item--unowned:hover{
+
+    opacity:.85;
+
+}
+
+.search-item--unowned img{
+
+    filter:grayscale(1);
+
+}
+
+.search-owned-badge{
+
+    margin-left:auto;
+
+    padding:3px 8px;
+
+    background:rgba(15,23,42,.85);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    color:var(--text-secondary);
+
+    font-size:.7rem;
+
+    font-weight:600;
+
+    letter-spacing:.02em;
+
+    flex-shrink:0;
 
 }
 

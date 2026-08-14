@@ -18,6 +18,12 @@ export function filterCompletionTime(games) {
 
     return games.filter(game => {
 
+        if (!game.completionTime) {
+
+            return false;
+
+        }
+
         const hours =
             game.completionTime.max;
 

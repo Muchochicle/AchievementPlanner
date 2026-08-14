@@ -41,13 +41,13 @@ export function getInventory() {
 
                 "default",
 
-                "recruit",
+                "rookie",
 
-                "pathfinder",
+                "explorer",
 
                 "veteran",
 
-                "elite",
+                "master",
 
                 "legend"
 

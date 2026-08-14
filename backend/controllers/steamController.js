@@ -48,7 +48,9 @@ export async function callback(req, res) {
 
         personaname: profile.personaname,
 
-        avatar: profile.avatarfull
+        avatarfull: profile.avatarfull,
+
+        profileurl: profile.profileurl
 
     };
 

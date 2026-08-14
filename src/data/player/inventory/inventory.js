@@ -2,17 +2,7 @@ export const DEFAULT_INVENTORY = {
 
     avatars: [
 
-        "default",
-
-        "recruit",
-
-        "pathfinder",
-
-        "veteran",
-
-        "elite",
-
-        "legend"
+        "default"
 
     ],
 

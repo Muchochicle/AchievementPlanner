@@ -2,7 +2,9 @@ const API_URL = "http://localhost:3000/api/games";
 
 export async function getGamesIndex() {
 
-    const response = await fetch(API_URL);
+    const response = await fetch(API_URL, {
+        credentials: "include"
+    });
 
     if (!response.ok) {
 
@@ -18,7 +20,9 @@ export async function getGamesIndex() {
 
 export async function getGame(slug) {
 
-    const response = await fetch(`${API_URL}/${slug}`);
+    const response = await fetch(`${API_URL}/${slug}`, {
+        credentials: "include"
+    });
 
     if (!response.ok) {
 

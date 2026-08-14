@@ -22,7 +22,7 @@ export function checkPlayerUnlocks() {
 
         unlockAvatar(
 
-            "recruit"
+            "rookie"
 
         );
 
@@ -36,7 +36,7 @@ export function checkPlayerUnlocks() {
 
         unlockAvatar(
 
-            "pathfinder"
+            "explorer"
 
         );
 
@@ -64,7 +64,7 @@ export function checkPlayerUnlocks() {
 
         unlockAvatar(
 
-            "elite"
+            "master"
 
         );
 

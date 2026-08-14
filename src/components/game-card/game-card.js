@@ -14,7 +14,7 @@ export function createGameCard(game) {
 
         : `
 
-            <span class="planner-soon">Planner próximamente</span>
+            <span class="planner-soon">Planner coming soon</span>
 
         `;
 

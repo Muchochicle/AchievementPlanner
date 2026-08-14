@@ -80,6 +80,56 @@ body{
     font-weight:600;
 
 }
+
+.no-planner-message{
+
+    max-width:520px;
+
+    margin:80px auto;
+
+    padding:var(--spacing-lg) var(--spacing-md);
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    text-align:center;
+
+}
+
+.no-planner-message h2{
+
+    margin-bottom:var(--spacing-sm);
+
+    color:var(--text);
+
+}
+
+.no-planner-message p{
+
+    color:var(--text-secondary);
+
+    margin-bottom:var(--spacing-md);
+
+}
+
+.no-planner-message a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    text-decoration:none;
+
+}
+
+.no-planner-message a:hover{
+
+    text-decoration:underline;
+
+}
 body{
 
     background:var(--background);

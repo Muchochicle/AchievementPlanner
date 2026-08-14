@@ -2,24 +2,47 @@ import express from "express";
 
 import { getOwnedGames } from "../services/steamApi.js";
 
-import { mapSteamGameSafe } from "../utils/gameMapper.js";
-import { getPlannerData } from "../utils/plannerCatalog.js";
+import {
+    mapSteamGameSafe,
+    mapPlannerOnlyGame
+} from "../utils/gameMapper.js";
+
+import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
 const router = express.Router();
-
-const MY_STEAM_ID = "76561198160458768";
 
 router.get("/", async (req, res) => {
 
     try {
 
-        const library = await getOwnedGames(MY_STEAM_ID);
+        const steamId = req.session.user?.steamid;
 
-        const games = library.games
+        const library = steamId
+            ? await getOwnedGames(steamId)
+            : { games: [] };
+
+        const ownedGames = library.games
 
             .map(mapSteamGameSafe)
 
             .filter(Boolean);
+
+        const ownedSlugs = new Set(
+
+            ownedGames.map(game => game.slug)
+
+        );
+
+        // Planners locales que el usuario NO posee en Steam.
+        const catalogOnlyGames = getAllPlannerSlugs()
+
+            .filter(slug => !ownedSlugs.has(slug))
+
+            .map(mapPlannerOnlyGame)
+
+            .filter(Boolean);
+
+        const games = [...ownedGames, ...catalogOnlyGames];
 
         res.json({
 
@@ -53,7 +76,11 @@ router.get("/:slug", async (req, res) => {
 
     try {
 
-        const library = await getOwnedGames(MY_STEAM_ID);
+        const steamId = req.session.user?.steamid;
+
+        const library = steamId
+            ? await getOwnedGames(steamId)
+            : { games: [] };
 
         const games = library.games
 
@@ -76,43 +103,15 @@ router.get("/:slug", async (req, res) => {
         }
 
         // No lo posee en Steam, pero puede existir en el catálogo propio.
-        const planner = getPlannerData(slug);
+        const catalogGame = mapPlannerOnlyGame(slug);
 
-        if (planner) {
+        if (catalogGame) {
 
             return res.json({
 
                 success: true,
 
-                game: {
-
-                    appid: planner.steamAppId ?? planner.id ?? null,
-
-                    slug,
-
-                    title: planner.name ?? slug,
-
-                    image: planner.image ?? null,
-
-                    owned: false,
-
-                    hasPlanner: true,
-
-                    difficulty: planner.difficulty ?? null,
-
-                    completionTime: planner.completionTime ?? null,
-
-                    missable: planner.missable ?? null,
-
-                    playthroughs: planner.playthroughs ?? null,
-
-                    hasGuide: planner.hasGuide ?? false,
-
-                    genres: planner.genres ?? [],
-
-                    achievements: planner.achievements ?? []
-
-                }
+                game: catalogGame
 
             });
 

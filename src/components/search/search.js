@@ -34,6 +34,8 @@ export async function createSearch() {
 
             const hasPlanner = !!game.hasPlanner;
 
+            const owned = game.owned !== false;
+
             const meta = hasPlanner
 
                 ? `
@@ -42,12 +44,20 @@ export async function createSearch() {
                     ⏱ ${game.completionTime.min}-${game.completionTime.max} h
                 `
 
-                : `Planner próximamente`;
+                : `Planner coming soon`;
+
+            const itemClass = owned
+                ? "search-item"
+                : "search-item search-item--unowned";
+
+            const ownedBadge = owned
+                ? ""
+                : `<span class="search-owned-badge">Not owned</span>`;
 
             results.innerHTML += `
 
                 <div
-                    class="search-item"
+                    class="${itemClass}"
                     data-slug="${game.slug}"
                 >
 
@@ -67,6 +77,8 @@ export async function createSearch() {
                         </small>
 
                     </div>
+
+                    ${ownedBadge}
 
                 </div>
 

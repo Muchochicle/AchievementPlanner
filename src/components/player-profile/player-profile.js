@@ -23,7 +23,19 @@ import {
 
 } from "../../utils/player/avatar/avatarManager.js";
 
-export function createPlayerProfile() {
+import {
+
+    getSteamDisplayName
+
+} from "../../utils/steam/steamSession.js";
+
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
+export function createPlayerProfile(
+    session = {
+        logged: false
+    }
+) {
 
     const player = getPlayer();
 
@@ -69,6 +81,8 @@ export function createPlayerProfile() {
 
     ).join("");
 
+    const steamName = getSteamDisplayName(session);
+
     return `
 
         <section class="player-profile">
@@ -85,6 +99,10 @@ export function createPlayerProfile() {
                 </div>
 
                 <div class="player-info">
+
+                    ${steamName
+                        ? `<div class="player-steam-name">${escapeHtml(steamName)}</div>`
+                        : ""}
 
                     <h2>${avatar.name}</h2>
 

@@ -16,7 +16,19 @@ import {
 
 } from "../../utils/player/level/levelSystem.js";
 
-export function createPlayerWidget() {
+import {
+
+    getSteamDisplayName
+
+} from "../../utils/steam/steamSession.js";
+
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
+export function createPlayerWidget(
+    session = {
+        logged: false
+    }
+) {
 
     const player = getPlayer();
 
@@ -29,6 +41,8 @@ export function createPlayerWidget() {
         player.xp / requiredXP * 100
 
     );
+
+    const steamName = getSteamDisplayName(session);
 
     return `
 
@@ -47,6 +61,10 @@ export function createPlayerWidget() {
             >
 
             <div class="player-widget-content">
+
+                ${steamName
+                    ? `<div class="player-widget-steam-name">${escapeHtml(steamName)}</div>`
+                    : ""}
 
                 <div class="player-widget-name">
 

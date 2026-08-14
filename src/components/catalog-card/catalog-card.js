@@ -1,9 +1,57 @@
 export function createCatalogCard(game) {
 
+    const owned = game.owned !== false;
+
+    const hasPlanner = !!game.hasPlanner;
+
+    const cardClass = owned
+
+        ? "catalog-card"
+
+        : "catalog-card catalog-card--unowned";
+
+    const ownedBadge = owned
+
+        ? ""
+
+        : `<span class="catalog-owned-badge">Not owned</span>`;
+
+    const plannerInfo = hasPlanner
+
+        ? `
+
+            <div class="catalog-meta">
+
+                <span>
+
+                    ⭐ ${game.difficulty}/10
+
+                </span>
+
+                <span>
+
+                    ⏱ ${game.completionTime.min}-${game.completionTime.max} h
+
+                </span>
+
+            </div>
+
+        `
+
+        : `
+
+            <div class="catalog-planner-soon">
+
+                Planner coming soon
+
+            </div>
+
+        `;
+
     return `
 
         <article
-            class="catalog-card"
+            class="${cardClass}"
             data-slug="${game.slug}"
             tabindex="0"
         >
@@ -14,25 +62,13 @@ export function createCatalogCard(game) {
                 alt="${game.title}"
             >
 
+            ${ownedBadge}
+
             <div class="catalog-content">
 
                 <h3>${game.title}</h3>
 
-                <div class="catalog-meta">
-
-                    <span>
-
-                        ⏱ --
-
-                    </span>
-
-                </div>
-
-                <div class="catalog-achievements">
-
-                    🏆 --
-
-                </div>
+                ${plannerInfo}
 
                 <button
                     class="planner-btn"

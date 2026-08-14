@@ -7,15 +7,27 @@ import {
 
 const router = express.Router();
 
-const MY_STEAM_ID = "76561198160458768";
-
 router.get("/profile", async (req, res) => {
+
+    const steamId = req.session.user?.steamid;
+
+    if (!steamId) {
+
+        return res.status(401).json({
+
+            success: false,
+
+            message: "Not logged in"
+
+        });
+
+    }
 
     try {
 
-        const profile = await getPlayerSummary(MY_STEAM_ID);
+        const profile = await getPlayerSummary(steamId);
 
-        const games = await getOwnedGames(MY_STEAM_ID);
+        const games = await getOwnedGames(steamId);
 
         res.json({
 

@@ -58,3 +58,9 @@ export function getPlannerData(slug) {
     return catalog[slug] || null;
 
 }
+
+export function getAllPlannerSlugs() {
+
+    return Object.keys(loadCatalog());
+
+}

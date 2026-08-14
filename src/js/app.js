@@ -1,6 +1,6 @@
 import { createSearch } from "../components/search/search.js";
 import { getGamesIndex } from "../utils/gameService.js";
-import { createGameCard } from "../components/game-card/game-card.js";
+import { createCatalogCard } from "../components/catalog-card/catalog-card.js";
 import { loadNavbar } from "./layout.js";
 
 async function init() {
@@ -13,10 +13,38 @@ async function init() {
         const container = document.getElementById("games-container");
 
         container.innerHTML = games
-            .map(game => createGameCard(game))
+            .map(game => createCatalogCard(game))
             .join("");
 
         createSearch();
+
+        container.addEventListener("click", event => {
+
+            const card = event.target.closest(".catalog-card");
+
+            if (card) {
+
+                window.location.href =
+                    `game.html?slug=${card.dataset.slug}`;
+
+            }
+
+        });
+
+        container.addEventListener("keydown", event => {
+
+            if (event.key !== "Enter") return;
+
+            const card = event.target.closest(".catalog-card");
+
+            if (card) {
+
+                window.location.href =
+                    `game.html?slug=${card.dataset.slug}`;
+
+            }
+
+        });
 
     } catch (error) {
 

@@ -6,7 +6,9 @@ import {
 
 import {
 
-    getCurrentAvatar
+    getCurrentAvatar,
+
+    getAllAvatars
 
 } from "../../utils/player/avatar/avatarManager.js";
 
@@ -16,11 +18,27 @@ import {
 
 } from "../../utils/player/level/levelSystem.js";
 
-export function createProfileHeader() {
+import {
+
+    getSteamDisplayName,
+
+    getSteamAvatarUrl
+
+} from "../../utils/steam/steamSession.js";
+
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
+export function createProfileHeader(
+    session = {
+        logged: false
+    }
+) {
 
     const player = getPlayer();
 
     const avatar = getCurrentAvatar();
+
+    const avatars = getAllAvatars();
 
     const requiredXP = getXPForNextLevel(player.level);
 
@@ -29,6 +47,50 @@ export function createProfileHeader() {
         player.xp / requiredXP * 100
 
     );
+
+    const avatarOptions = avatars.map(
+
+        item => `
+
+            <option
+
+                value="${item.id}"
+
+                ${item.id === avatar.id ? "selected" : ""}
+
+            >
+
+                ${item.name}
+
+            </option>
+
+        `
+
+    ).join("");
+
+    const steamName = getSteamDisplayName(session);
+
+    const steamAvatarUrl = getSteamAvatarUrl(session);
+
+    const steamIdentity = steamName
+        ? `
+            <div class="profile-steam-identity">
+
+                ${steamAvatarUrl
+                    ? `
+                        <img
+                            class="profile-steam-avatar"
+                            src="${steamAvatarUrl}"
+                            alt="Steam avatar"
+                        >
+                    `
+                    : ""}
+
+                <p class="profile-steam-name">${escapeHtml(steamName)}</p>
+
+            </div>
+        `
+        : "";
 
     return `
 
@@ -46,9 +108,23 @@ export function createProfileHeader() {
 
             <div class="profile-info">
 
+                ${steamIdentity}
+
                 <h1>${player.title}</h1>
 
                 <p>Level ${player.level}</p>
+
+                <select
+
+                    id="avatar-selector"
+
+                    class="avatar-selector"
+
+                >
+
+                    ${avatarOptions}
+
+                </select>
 
                 <div class="profile-xp">
 

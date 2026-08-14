@@ -34,9 +34,15 @@ export function filterDifficulty(games) {
 
     }
 
-    return games.filter(game =>
+    return games.filter(game => {
 
-        selected.includes(
+        if (game.difficulty === null || game.difficulty === undefined) {
+
+            return false;
+
+        }
+
+        return selected.includes(
 
             getDifficultyLabel(
 
@@ -44,8 +50,8 @@ export function filterDifficulty(games) {
 
             )
 
-        )
+        );
 
-    );
+    });
 
 }
