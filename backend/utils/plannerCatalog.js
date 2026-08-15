@@ -67,6 +67,12 @@ export function getAllPlannerSlugs() {
 
 export function getPlannerDataByAppId(appid) {
 
+    if (!(appid > 0)) {
+
+        return null;
+
+    }
+
     const catalog = loadCatalog();
 
     for (const slug of Object.keys(catalog)) {
@@ -78,7 +84,7 @@ export function getPlannerDataByAppId(appid) {
             entry.id === appid
         ) {
 
-            return entry;
+            return { slug, data: entry };
 
         }
 

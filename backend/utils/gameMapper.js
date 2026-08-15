@@ -1,4 +1,4 @@
-import { getPlannerData } from "./plannerCatalog.js";
+import { getPlannerData, getPlannerDataByAppId } from "./plannerCatalog.js";
 
 export function mapSteamGame(game) {
 
@@ -9,14 +9,22 @@ export function mapSteamGame(game) {
 
     const title = rawName ?? `Unknown game (${game.appid})`;
 
-    const slug = rawName
+    const derivedSlug = rawName
         ? rawName
             .toLowerCase()
             .replace(/[^a-z0-9]+/g, "-")
             .replace(/^-|-$/g, "")
         : `unknown-${game.appid}`;
 
-    const planner = getPlannerData(slug);
+    // AppID is the canonical cross-source identity: if the catalog has an
+    // entry for this Steam app, its slug wins even if Steam's current name
+    // would derive a different one. Falls back to slug-derived lookup only
+    // when no catalog entry declares this appid.
+    const plannerByAppId = getPlannerDataByAppId(game.appid);
+
+    const slug = plannerByAppId?.slug ?? derivedSlug;
+
+    const planner = plannerByAppId?.data ?? getPlannerData(derivedSlug);
 
     return {
 
