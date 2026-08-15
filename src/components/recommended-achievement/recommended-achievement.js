@@ -1,5 +1,29 @@
 export function createRecommendedAchievement(achievement) {
 
+    if (achievement?.empty) {
+
+        return `
+
+            <section class="recommended-achievement">
+
+                <div class="recommended-title">
+
+                    📋 No Achievements Yet
+
+                </div>
+
+                <h2>
+
+                    No achievements catalogued for this game yet.
+
+                </h2>
+
+            </section>
+
+        `;
+
+    }
+
     if (!achievement) {
 
         return `

@@ -4,6 +4,12 @@ import {
 
 export function getRecommendedAchievement(game) {
 
+    if (!game.achievements.length) {
+
+        return { empty: true };
+
+    }
+
     const completed =
         getCompletedAchievements();
 
