@@ -5,7 +5,8 @@ import {
 } from "./session/sessionStorage.js";
 
 import {
-    createSession
+    createSession,
+    resetSession
 } from "./sessionPlanner.js";
 
 export function getSession(
@@ -56,6 +57,8 @@ export function regenerateSession(
     slug,
     duration
 ) {
+
+    resetSession();
 
     clearSession(slug);
 
