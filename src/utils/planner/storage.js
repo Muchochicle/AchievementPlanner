@@ -4,7 +4,13 @@ export function saveProgress(slug) {
         ".achievement-check input"
     );
 
-    const progress = [...checkboxes].map(box => box.checked);
+    const progress = {};
+
+    checkboxes.forEach(box => {
+
+        progress[box.dataset.id] = box.checked;
+
+    });
 
     localStorage.setItem(
 
@@ -32,9 +38,17 @@ export function loadProgress(slug) {
         ".achievement-check input"
     );
 
+    // Legacy saves were a positional boolean array (index = DOM order).
+    // Current saves are an object keyed by achievement id, immune to
+    // achievement-list reordering. Both are readable; only the new
+    // id-keyed format is ever written going forward.
+    const isLegacyArray = Array.isArray(progress);
+
     checkboxes.forEach((box, index) => {
 
-        box.checked = progress[index] || false;
+        box.checked = isLegacyArray
+            ? (progress[index] || false)
+            : (progress[box.dataset.id] || false);
 
     });
 
