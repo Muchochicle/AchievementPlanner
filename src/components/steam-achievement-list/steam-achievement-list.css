@@ -1,0 +1,41 @@
+.steam-achievement-list{
+
+    margin-top:32px;
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+}
+
+.steam-achievement-list-header{
+
+    padding:24px;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.steam-achievement-list-description{
+
+    color:var(--text-secondary);
+
+    margin-top:6px;
+
+}
+
+.steam-achievement-list-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+
+    gap:1px;
+
+    background:var(--border);
+
+}

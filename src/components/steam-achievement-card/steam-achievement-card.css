@@ -1,0 +1,133 @@
+.steam-achievement-card{
+
+    display:flex;
+
+    gap:16px;
+
+    padding:20px;
+
+    background:var(--surface);
+
+    opacity:.75;
+
+}
+
+.steam-achievement-card--unlocked{
+
+    opacity:1;
+
+}
+
+.steam-achievement-icon{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:12px;
+
+    flex-shrink:0;
+
+    object-fit:cover;
+
+    background:var(--background);
+
+}
+
+.steam-achievement-icon--placeholder{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:1.5rem;
+
+}
+
+.steam-achievement-content{
+
+    flex:1;
+
+    min-width:0;
+
+}
+
+.steam-achievement-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:12px;
+
+    margin-bottom:6px;
+
+}
+
+.steam-achievement-name{
+
+    margin:0;
+
+    font-size:1rem;
+
+}
+
+.steam-achievement-description{
+
+    color:var(--text-secondary);
+
+    font-size:.9rem;
+
+    line-height:1.4;
+
+    margin-bottom:8px;
+
+}
+
+.steam-achievement-badge{
+
+    flex-shrink:0;
+
+    font-size:.75rem;
+
+    font-weight:600;
+
+    padding:4px 10px;
+
+    border-radius:999px;
+
+    white-space:nowrap;
+
+}
+
+.steam-achievement-badge--unlocked{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+.steam-achievement-badge--locked{
+
+    background:var(--background);
+
+    color:var(--text-secondary);
+
+    border:1px solid var(--border);
+
+}
+
+.steam-achievement-percent{
+
+    display:inline-block;
+
+    font-size:.8rem;
+
+    color:var(--text-secondary);
+
+}

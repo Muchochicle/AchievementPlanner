@@ -5,6 +5,7 @@ import { createGameOverview } from "../components/game-overview/game-overview.js
 import { createProgress } from "../components/progress/progress.js";
 import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
 import { createAchievementList } from "../components/achievement-list/achievement-list.js";
+import { createSteamAchievementList } from "../components/steam-achievement-list/steam-achievement-list.js";
 import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
 import { createSessionPlanner } from "../components/session-planner/session-planner.js";
 import { createSessionDuration } from "../components/session-duration/session-duration.js";
@@ -153,7 +154,9 @@ async function init() {
 
             createPlannerStats() +
 
-            createAchievementList(game);
+            createAchievementList(game) +
+
+            createSteamAchievementList(game, session);
 
         loadProgress(slug);
 
