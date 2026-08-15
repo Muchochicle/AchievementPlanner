@@ -168,21 +168,23 @@ export function unlockBadge(name) {
 }
 
 
-export function hasClaimedAchievement(id) {
+export function hasClaimedAchievement(slug, id) {
 
     const player = getPlayer();
 
-    return player.claimedAchievements.includes(id);
+    return player.claimedAchievements.includes(`${slug}:${id}`);
 
 }
 
-export function claimAchievement(id) {
+export function claimAchievement(slug, id) {
 
     const player = getPlayer();
 
+    const key = `${slug}:${id}`;
+
     if (
 
-        player.claimedAchievements.includes(id)
+        player.claimedAchievements.includes(key)
 
     ) {
 
@@ -190,7 +192,7 @@ export function claimAchievement(id) {
 
     }
 
-    player.claimedAchievements.push(id);
+    player.claimedAchievements.push(key);
 
     savePlayer(player);
 

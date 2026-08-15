@@ -54,7 +54,7 @@ export function toggleAchievement(
 
         if (
 
-            claimAchievement(id)
+            claimAchievement(slug, id)
 
         ) {
 
