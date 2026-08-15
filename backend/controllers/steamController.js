@@ -4,8 +4,7 @@ import {
 } from "../services/steamAuth.js";
 
 import {
-    getPlayerSummary,
-    getOwnedGames
+    getPlayerSummary
 } from "../services/steamApi.js";
 
 export async function login(req, res) {
@@ -55,45 +54,5 @@ export async function callback(req, res) {
     };
 
     res.redirect("http://localhost:5500/index.html");
-
-}
-
-export async function profile(req, res) {
-
-    if (!req.session.user) {
-
-        return res.status(401).json({
-
-            success: false,
-
-            message: "Not logged in"
-
-        });
-
-    }
-
-    const profile = await getPlayerSummary(
-
-        req.session.user.steamid
-
-    );
-
-    const games = await getOwnedGames(
-
-        req.session.user.steamid
-
-    );
-
-    res.json({
-
-        success: true,
-
-        profile,
-
-        gameCount: games.game_count,
-
-        games: games.games
-
-    });
 
 }
