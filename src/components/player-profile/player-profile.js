@@ -104,9 +104,7 @@ export function createPlayerProfile(
                         ? `<div class="player-steam-name">${escapeHtml(steamName)}</div>`
                         : ""}
 
-                    <h2>${avatar.name}</h2>
-
-                    <p>${player.title}</p>
+                    <h2>${player.title}</h2>
 
                     <select
 
