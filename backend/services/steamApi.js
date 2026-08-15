@@ -4,6 +4,8 @@ const REQUEST_TIMEOUT_MS = 8000;
 
 const PLAYER_SUMMARY_TTL_MS = 5 * 60 * 1000;
 const OWNED_GAMES_TTL_MS = 5 * 60 * 1000;
+const ACHIEVEMENT_SCHEMA_TTL_MS = 24 * 60 * 60 * 1000;
+const GLOBAL_PERCENTAGES_TTL_MS = 24 * 60 * 60 * 1000;
 
 async function steamFetch(url) {
 
@@ -46,15 +48,13 @@ async function steamFetch(url) {
 
     const data = await response.json();
 
-    if (!data?.response || Object.keys(data.response).length === 0) {
+    if (!data) {
 
-        throw new Error(
-            "Steam API returned an empty response (private profile or invalid request)"
-        );
+        throw new Error("Steam API returned an empty response");
 
     }
 
-    return data.response;
+    return data;
 
 }
 
@@ -74,9 +74,17 @@ export async function getPlayerSummary(steamId) {
 
         `https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=${process.env.STEAM_API_KEY}&steamids=${steamId}`;
 
-    const response = await steamFetch(url);
+    const data = await steamFetch(url);
 
-    const player = response.players?.[0];
+    if (!data.response || Object.keys(data.response).length === 0) {
+
+        throw new Error(
+            "Steam API returned an empty response (private profile or invalid request)"
+        );
+
+    }
+
+    const player = data.response.players?.[0];
 
     if (!player) {
 
@@ -106,10 +114,81 @@ export async function getOwnedGames(steamId) {
     const url =
         `https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=${process.env.STEAM_API_KEY}&steamid=${steamId}&include_appinfo=true&include_played_free_games=true`;
 
-    const response = await steamFetch(url);
+    const data = await steamFetch(url);
 
-    setCached(cacheKey, response, OWNED_GAMES_TTL_MS);
+    if (!data.response || Object.keys(data.response).length === 0) {
 
-    return response;
+        throw new Error(
+            "Steam API returned an empty response (private profile or invalid request)"
+        );
+
+    }
+
+    setCached(cacheKey, data.response, OWNED_GAMES_TTL_MS);
+
+    return data.response;
+
+}
+
+export async function getSchemaForGame(appid) {
+
+    const cacheKey = `schema:${appid}`;
+
+    const cached = getCached(cacheKey);
+
+    if (cached) {
+
+        return cached;
+
+    }
+
+    const url =
+        `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${process.env.STEAM_API_KEY}&appid=${appid}`;
+
+    const data = await steamFetch(url);
+
+    const achievements = data.game?.availableGameStats?.achievements ?? [];
+
+    setCached(cacheKey, achievements, ACHIEVEMENT_SCHEMA_TTL_MS);
+
+    return achievements;
+
+}
+
+export async function getGlobalAchievementPercentages(appid) {
+
+    const cacheKey = `global-percent:${appid}`;
+
+    const cached = getCached(cacheKey);
+
+    if (cached) {
+
+        return cached;
+
+    }
+
+    let achievements;
+
+    try {
+
+        const url =
+            `https://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v2/?gameid=${appid}`;
+
+        const data = await steamFetch(url);
+
+        achievements = data.achievementpercentages?.achievements ?? [];
+
+    } catch (error) {
+
+        // Steam returns an error status for games with no global achievement
+        // stats at all. That's a normal case, not a real failure, so we
+        // degrade to an empty list instead of propagating the error.
+        achievements = [];
+
+    }
+
+    setCached(cacheKey, achievements, GLOBAL_PERCENTAGES_TTL_MS);
+
+    return achievements;
 
 }

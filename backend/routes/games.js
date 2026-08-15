@@ -1,6 +1,10 @@
 import express from "express";
 
-import { getOwnedGames } from "../services/steamApi.js";
+import {
+    getOwnedGames,
+    getSchemaForGame,
+    getGlobalAchievementPercentages
+} from "../services/steamApi.js";
 
 import {
     mapSteamGameSafe,
@@ -8,6 +12,8 @@ import {
 } from "../utils/gameMapper.js";
 
 import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
+
+import { mapSteamAchievements } from "../utils/steamAchievementMapper.js";
 
 const router = express.Router();
 
@@ -90,38 +96,36 @@ router.get("/:slug", async (req, res) => {
 
         const owned = games.find(game => game.slug === slug);
 
-        if (owned) {
-
-            return res.json({
-
-                success: true,
-
-                game: owned
-
-            });
-
-        }
-
         // No lo posee en Steam, pero puede existir en el catálogo propio.
-        const catalogGame = mapPlannerOnlyGame(slug);
+        const game = owned ?? mapPlannerOnlyGame(slug);
 
-        if (catalogGame) {
+        if (!game) {
 
-            return res.json({
+            return res.status(404).json({
 
-                success: true,
+                success: false,
 
-                game: catalogGame
+                message: `Game not found: ${slug}`
 
             });
 
         }
 
-        res.status(404).json({
+        const steamAchievements = game.appid && game.appid > 0
+            ? mapSteamAchievements(
+                await getSchemaForGame(game.appid),
+                await getGlobalAchievementPercentages(game.appid)
+            )
+            : { available: false, achievements: [] };
 
-            success: false,
+        res.json({
 
-            message: `Game not found: ${slug}`
+            success: true,
+
+            game: {
+                ...game,
+                steamAchievements
+            }
 
         });
 
