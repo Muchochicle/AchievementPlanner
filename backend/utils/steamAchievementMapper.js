@@ -63,3 +63,40 @@ export function mapSteamAchievements(schemaAchievements, globalPercentages) {
     };
 
 }
+
+export function mapPlayerAchievements(rawPlayerAchievements) {
+
+    if (!rawPlayerAchievements || rawPlayerAchievements.length === 0) {
+
+        return {
+
+            available: false,
+
+            achievements: []
+
+        };
+
+    }
+
+    const achievements = rawPlayerAchievements.map(achievement => ({
+
+        apiname: achievement.apiname,
+
+        achieved: !!achievement.achieved,
+
+        unlocktime:
+            achievement.unlocktime && achievement.unlocktime > 0
+                ? achievement.unlocktime
+                : null
+
+    }));
+
+    return {
+
+        available: true,
+
+        achievements
+
+    };
+
+}

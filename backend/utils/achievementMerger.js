@@ -27,6 +27,44 @@ function toSteamView(achievement) {
 
 }
 
+function toPlayerUnlockView(achievement) {
+
+    if (!achievement) {
+
+        return null;
+
+    }
+
+    return {
+
+        achieved: !!achievement.achieved,
+
+        unlocktime: achievement.unlocktime ?? null
+
+    };
+
+}
+
+function buildPlayerIndex(player) {
+
+    const byApiname = new Map();
+
+    for (const achievement of player) {
+
+        if (!achievement?.apiname) {
+
+            continue;
+
+        }
+
+        byApiname.set(achievement.apiname, achievement);
+
+    }
+
+    return byApiname;
+
+}
+
 function buildSteamIndexes(steam) {
 
     const byApiname = new Map();
@@ -74,7 +112,7 @@ function buildSteamIndexes(steam) {
 
 }
 
-function matchApAchievement(apAchievement, byApiname, byName, usedApinames, claimedApApinames) {
+function matchApAchievement(apAchievement, byApiname, byName, byApinamePlayer, usedApinames, claimedApApinames) {
 
     if (apAchievement.apiname) {
 
@@ -93,6 +131,8 @@ function matchApAchievement(apAchievement, byApiname, byName, usedApinames, clai
                 apiname: apAchievement.apiname,
 
                 steam: null,
+
+                steamUnlock: null,
 
                 ap: { ...apAchievement }
 
@@ -118,6 +158,10 @@ function matchApAchievement(apAchievement, byApiname, byName, usedApinames, clai
 
                 steam: toSteamView(steamMatch),
 
+                steamUnlock: toPlayerUnlockView(
+                    byApinamePlayer.get(steamMatch.apiname)
+                ),
+
                 ap: { ...apAchievement }
 
             };
@@ -137,6 +181,8 @@ function matchApAchievement(apAchievement, byApiname, byName, usedApinames, clai
             apiname: apAchievement.apiname,
 
             steam: null,
+
+            steamUnlock: null,
 
             ap: { ...apAchievement }
 
@@ -162,6 +208,10 @@ function matchApAchievement(apAchievement, byApiname, byName, usedApinames, clai
 
             steam: toSteamView(steamMatch),
 
+            steamUnlock: toPlayerUnlockView(
+                byApinamePlayer.get(steamMatch.apiname)
+            ),
+
             ap: { ...apAchievement }
 
         };
@@ -178,18 +228,22 @@ function matchApAchievement(apAchievement, byApiname, byName, usedApinames, clai
 
         steam: null,
 
+        steamUnlock: null,
+
         ap: { ...apAchievement }
 
     };
 
 }
 
-export function mergeAchievements(apAchievements, steamAchievements) {
+export function mergeAchievements(apAchievements, steamAchievements, playerAchievements) {
 
     const ap = apAchievements ?? [];
     const steam = steamAchievements ?? [];
+    const player = playerAchievements ?? [];
 
     const { byApiname, byName } = buildSteamIndexes(steam);
+    const byApinamePlayer = buildPlayerIndex(player);
 
     const usedApinames = new Set();
     const claimedApApinames = new Set();
@@ -204,6 +258,7 @@ export function mergeAchievements(apAchievements, steamAchievements) {
             apAchievement,
             byApiname,
             byName,
+            byApinamePlayer,
             usedApinames,
             claimedApApinames
         );
@@ -240,6 +295,10 @@ export function mergeAchievements(apAchievements, steamAchievements) {
 
             steam: toSteamView(achievement),
 
+            steamUnlock: toPlayerUnlockView(
+                byApinamePlayer.get(achievement.apiname)
+            ),
+
             ap: null
 
         });
@@ -249,6 +308,8 @@ export function mergeAchievements(apAchievements, steamAchievements) {
     return {
 
         steamDataAvailable: steam.length > 0,
+
+        playerDataAvailable: player.length > 0,
 
         matchedCount,
 

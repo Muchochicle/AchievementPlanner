@@ -6,6 +6,7 @@ const PLAYER_SUMMARY_TTL_MS = 5 * 60 * 1000;
 const OWNED_GAMES_TTL_MS = 5 * 60 * 1000;
 const ACHIEVEMENT_SCHEMA_TTL_MS = 24 * 60 * 60 * 1000;
 const GLOBAL_PERCENTAGES_TTL_MS = 24 * 60 * 60 * 1000;
+const PLAYER_ACHIEVEMENTS_TTL_MS = 5 * 60 * 1000;
 
 async function steamFetch(url) {
 
@@ -188,6 +189,48 @@ export async function getGlobalAchievementPercentages(appid) {
     }
 
     setCached(cacheKey, achievements, GLOBAL_PERCENTAGES_TTL_MS);
+
+    return achievements;
+
+}
+
+export async function getPlayerAchievements(steamId, appid) {
+
+    const cacheKey = `player-achievements:${steamId}:${appid}`;
+
+    const cached = getCached(cacheKey);
+
+    if (cached) {
+
+        return cached;
+
+    }
+
+    let achievements;
+
+    try {
+
+        const url =
+            `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${process.env.STEAM_API_KEY}&steamid=${steamId}&appid=${appid}`;
+
+        const data = await steamFetch(url);
+
+        // Steam returns { playerstats: { success: false, error: "..." } }
+        // for a private profile or a game the account has no stats for.
+        // That's a normal, expected case, not a real failure.
+        achievements = data.playerstats?.success
+            ? (data.playerstats.achievements ?? [])
+            : [];
+
+    } catch (error) {
+
+        // Steam also returns a non-ok status for some private-profile /
+        // no-stats cases. Same graceful degradation as above.
+        achievements = [];
+
+    }
+
+    setCached(cacheKey, achievements, PLAYER_ACHIEVEMENTS_TTL_MS);
 
     return achievements;
 

@@ -3,7 +3,8 @@ import express from "express";
 import {
     getOwnedGames,
     getSchemaForGame,
-    getGlobalAchievementPercentages
+    getGlobalAchievementPercentages,
+    getPlayerAchievements
 } from "../services/steamApi.js";
 
 import {
@@ -13,7 +14,10 @@ import {
 
 import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
-import { mapSteamAchievements } from "../utils/steamAchievementMapper.js";
+import {
+    mapSteamAchievements,
+    mapPlayerAchievements
+} from "../utils/steamAchievementMapper.js";
 
 import { mergeAchievements } from "../utils/achievementMerger.js";
 
@@ -120,9 +124,16 @@ router.get("/:slug", async (req, res) => {
             )
             : { available: false, achievements: [] };
 
+        const steamPlayerAchievements = steamId && game.appid && game.appid > 0
+            ? mapPlayerAchievements(
+                await getPlayerAchievements(steamId, game.appid)
+            )
+            : { available: false, achievements: [] };
+
         const mergedAchievements = mergeAchievements(
             game.achievements,
-            steamAchievements.achievements
+            steamAchievements.achievements,
+            steamPlayerAchievements.achievements
         );
 
         res.json({
@@ -132,6 +143,7 @@ router.get("/:slug", async (req, res) => {
             game: {
                 ...game,
                 steamAchievements,
+                steamPlayerAchievements,
                 mergedAchievements
             }
 
