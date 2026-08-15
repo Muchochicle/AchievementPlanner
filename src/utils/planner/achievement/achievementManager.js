@@ -44,17 +44,11 @@ export function toggleAchievement(
 
     }
 
-    const wasCompleted =
-
-        checkbox.checked;
-
     checkbox.checked = checked;
 
     if (
 
-        checked &&
-
-        !wasCompleted
+        checked
 
     ) {
 
