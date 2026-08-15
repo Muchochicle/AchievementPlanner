@@ -98,6 +98,18 @@ async function init() {
 
         if (!game.hasPlanner) {
 
+            if (game.steamAchievements?.available) {
+
+                container.innerHTML =
+
+                    createGameHeader(game) +
+
+                    createSteamAchievementList(game, session);
+
+                return;
+
+            }
+
             container.innerHTML = `
 
                 <div class="no-planner-message">
