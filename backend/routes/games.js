@@ -15,6 +15,8 @@ import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
 import { mapSteamAchievements } from "../utils/steamAchievementMapper.js";
 
+import { mergeAchievements } from "../utils/achievementMerger.js";
+
 const router = express.Router();
 
 router.get("/", async (req, res) => {
@@ -118,13 +120,19 @@ router.get("/:slug", async (req, res) => {
             )
             : { available: false, achievements: [] };
 
+        const mergedAchievements = mergeAchievements(
+            game.achievements,
+            steamAchievements.achievements
+        );
+
         res.json({
 
             success: true,
 
             game: {
                 ...game,
-                steamAchievements
+                steamAchievements,
+                mergedAchievements
             }
 
         });
