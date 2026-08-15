@@ -90,6 +90,8 @@ async function init() {
 
         const game = await getGame(slug);
 
+        const hoursPlayed = game.playtime ?? 0;
+
         const container =
             document.getElementById("game-content");
 
@@ -135,7 +137,7 @@ async function init() {
 
                 +
 
-            createPlayerProfile(session) +
+            createPlayerProfile(session, hoursPlayed) +
 
             createGameHeader(game) +
 
@@ -194,7 +196,7 @@ async function init() {
         function refresh() {
 
             document.querySelector(".player-profile").outerHTML =
-                createPlayerProfile(session);
+                createPlayerProfile(session, hoursPlayed);
 
             const avatarSelector =
 

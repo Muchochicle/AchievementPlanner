@@ -34,7 +34,8 @@ import { escapeHtml } from "../../utils/format/escapeHtml.js";
 export function createPlayerProfile(
     session = {
         logged: false
-    }
+    },
+    hoursPlayed = 0
 ) {
 
     const player = getPlayer();
@@ -174,7 +175,7 @@ export function createPlayerProfile(
 
                 <span>
 
-                    ⏱ ${player.hoursPlayed} h
+                    ⏱ ${hoursPlayed} h
 
                     <small>Hours</small>
 
