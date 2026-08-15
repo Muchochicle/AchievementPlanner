@@ -64,3 +64,26 @@ export function getAllPlannerSlugs() {
     return Object.keys(loadCatalog());
 
 }
+
+export function getPlannerDataByAppId(appid) {
+
+    const catalog = loadCatalog();
+
+    for (const slug of Object.keys(catalog)) {
+
+        const entry = catalog[slug];
+
+        if (
+            entry.steamAppId === appid ||
+            entry.id === appid
+        ) {
+
+            return entry;
+
+        }
+
+    }
+
+    return null;
+
+}
