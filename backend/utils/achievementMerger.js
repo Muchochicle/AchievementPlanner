@@ -27,62 +27,92 @@ function toSteamView(achievement) {
 
 }
 
-export function mergeAchievements(apAchievements, steamAchievements) {
+function buildSteamIndexes(steam) {
 
-    const ap = apAchievements ?? [];
-    const steam = steamAchievements ?? [];
-
-    const steamByName = new Map();
+    const byApiname = new Map();
+    const byName = new Map();
 
     for (const achievement of steam) {
 
         if (!achievement?.apiname) {
 
             // Defensive: a schema entry with no apiname can't be matched
-            // or safely keyed, so it's excluded from the join entirely.
+            // or safely keyed, so it's excluded from both indexes.
             continue;
 
         }
 
-        const key = normalizeName(achievement.displayName);
+        if (byApiname.has(achievement.apiname)) {
 
-        if (steamByName.has(key)) {
+            console.error(
+                `[achievementMerger] Duplicate Steam apiname in schema: "${achievement.apiname}" - keeping first occurrence`
+            );
+
+        } else {
+
+            byApiname.set(achievement.apiname, achievement);
+
+        }
+
+        const nameKey = normalizeName(achievement.displayName);
+
+        if (byName.has(nameKey)) {
 
             console.error(
                 `[achievementMerger] Duplicate Steam displayName after normalization: "${achievement.displayName}" (apiname=${achievement.apiname}) - keeping first occurrence`
             );
 
-            continue;
+        } else {
+
+            byName.set(nameKey, achievement);
 
         }
 
-        steamByName.set(key, achievement);
-
     }
 
-    const usedKeys = new Set();
+    return { byApiname, byName };
 
-    const merged = [];
+}
 
-    let matchedCount = 0;
+function matchApAchievement(apAchievement, byApiname, byName, usedApinames, claimedApApinames) {
 
-    for (const apAchievement of ap) {
+    if (apAchievement.apiname) {
 
-        const key = normalizeName(apAchievement.name);
+        if (claimedApApinames.has(apAchievement.apiname)) {
 
-        const steamMatch = steamByName.get(key);
+            console.error(
+                `[achievementMerger] Duplicate apiname across AP achievements: "${apAchievement.apiname}" (id=${apAchievement.id}) - treating as unmatched`
+            );
+
+            return {
+
+                matched: false,
+
+                matchMethod: "duplicate-apiname",
+
+                apiname: apAchievement.apiname,
+
+                steam: null,
+
+                ap: { ...apAchievement }
+
+            };
+
+        }
+
+        claimedApApinames.add(apAchievement.apiname);
+
+        const steamMatch = byApiname.get(apAchievement.apiname);
 
         if (steamMatch) {
 
-            usedKeys.add(key);
+            usedApinames.add(steamMatch.apiname);
 
-            matchedCount++;
-
-            merged.push({
+            return {
 
                 matched: true,
 
-                matchMethod: "name",
+                matchMethod: "apiname",
 
                 apiname: steamMatch.apiname,
 
@@ -90,33 +120,109 @@ export function mergeAchievements(apAchievements, steamAchievements) {
 
                 ap: { ...apAchievement }
 
-            });
-
-        } else {
-
-            merged.push({
-
-                matched: false,
-
-                matchMethod: "none",
-
-                apiname: null,
-
-                steam: null,
-
-                ap: { ...apAchievement }
-
-            });
+            };
 
         }
+
+        // A canonical apiname is recorded on the AP side, but the current
+        // Steam schema doesn't contain it. Report this explicitly instead
+        // of silently falling back to a fuzzier name match - a stale or
+        // incorrect apiname is a real anomaly worth surfacing, not masking.
+        return {
+
+            matched: false,
+
+            matchMethod: "apiname-not-found",
+
+            apiname: apAchievement.apiname,
+
+            steam: null,
+
+            ap: { ...apAchievement }
+
+        };
+
+    }
+
+    const nameKey = normalizeName(apAchievement.name);
+
+    const steamMatch = byName.get(nameKey);
+
+    if (steamMatch) {
+
+        usedApinames.add(steamMatch.apiname);
+
+        return {
+
+            matched: true,
+
+            matchMethod: "name",
+
+            apiname: steamMatch.apiname,
+
+            steam: toSteamView(steamMatch),
+
+            ap: { ...apAchievement }
+
+        };
+
+    }
+
+    return {
+
+        matched: false,
+
+        matchMethod: "none",
+
+        apiname: null,
+
+        steam: null,
+
+        ap: { ...apAchievement }
+
+    };
+
+}
+
+export function mergeAchievements(apAchievements, steamAchievements) {
+
+    const ap = apAchievements ?? [];
+    const steam = steamAchievements ?? [];
+
+    const { byApiname, byName } = buildSteamIndexes(steam);
+
+    const usedApinames = new Set();
+    const claimedApApinames = new Set();
+
+    const merged = [];
+
+    let matchedCount = 0;
+
+    for (const apAchievement of ap) {
+
+        const entry = matchApAchievement(
+            apAchievement,
+            byApiname,
+            byName,
+            usedApinames,
+            claimedApApinames
+        );
+
+        if (entry.matched) {
+
+            matchedCount++;
+
+        }
+
+        merged.push(entry);
 
     }
 
     let steamOnlyCount = 0;
 
-    for (const [key, achievement] of steamByName) {
+    for (const achievement of byApiname.values()) {
 
-        if (usedKeys.has(key)) {
+        if (usedApinames.has(achievement.apiname)) {
 
             continue;
 
