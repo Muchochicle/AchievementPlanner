@@ -12,7 +12,13 @@ export function getUnlockedAchievements() {
 
         );
 
-        total += progress.filter(Boolean).length;
+        // Legacy saves were a positional boolean array; current saves are
+        // an object keyed by achievement id. Both are readable.
+        const values = Array.isArray(progress)
+            ? progress
+            : Object.values(progress);
+
+        total += values.filter(Boolean).length;
 
     });
 

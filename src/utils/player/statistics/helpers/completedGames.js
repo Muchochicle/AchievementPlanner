@@ -12,11 +12,17 @@ export function getCompletedGames() {
 
         );
 
+        // Legacy saves were a positional boolean array; current saves are
+        // an object keyed by achievement id. Both are readable.
+        const values = Array.isArray(progress)
+            ? progress
+            : Object.values(progress);
+
         if (
 
-            progress.length > 0 &&
+            values.length > 0 &&
 
-            progress.every(Boolean)
+            values.every(Boolean)
 
         ) {
 
