@@ -40,6 +40,14 @@ export function initAchievementFilters() {
 
     buttons.forEach(button => {
 
+        if (button.dataset.filterBound) {
+
+            return;
+
+        }
+
+        button.dataset.filterBound = "true";
+
         button.addEventListener("click", () => {
 
             buttons.forEach(btn =>
@@ -53,5 +61,10 @@ export function initAchievementFilters() {
         });
 
     });
+
+    const activeButton =
+        document.querySelector(".filter-btn.active");
+
+    applyFilter(activeButton?.dataset.filter ?? "all");
 
 }
