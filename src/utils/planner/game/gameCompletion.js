@@ -26,6 +26,8 @@ export function checkGameCompletion(game) {
 
     const completed =
 
+        game.achievements.length > 0 &&
+
         game.achievements.every(
 
             achievement =>
