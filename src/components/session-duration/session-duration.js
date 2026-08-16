@@ -1,4 +1,4 @@
-export function createSessionDuration() {
+export function createSessionDuration(selected = 45) {
 
     return `
 
@@ -12,25 +12,25 @@ export function createSessionDuration() {
 
             <select id="session-duration">
 
-                <option value="30">
+                <option value="30" ${selected === 30 ? "selected" : ""}>
 
                     30 minutes
 
                 </option>
 
-                <option value="45" selected>
+                <option value="45" ${selected === 45 ? "selected" : ""}>
 
                     45 minutes
 
                 </option>
 
-                <option value="60">
+                <option value="60" ${selected === 60 ? "selected" : ""}>
 
                     60 minutes
 
                 </option>
 
-                <option value="90">
+                <option value="90" ${selected === 90 ? "selected" : ""}>
 
                     90 minutes
 

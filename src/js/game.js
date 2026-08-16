@@ -48,6 +48,11 @@ import {
 } from "../utils/planner/sessionManager.js";
 
 import {
+    loadSessionDuration,
+    saveSessionDuration
+} from "../utils/planner/session/sessionStorage.js";
+
+import {
 
     toggleAchievement
 
@@ -158,7 +163,9 @@ async function init() {
 
             `<div id="recommended-container"></div>` +
 
-            createSessionDuration() +
+            createSessionDuration(
+                loadSessionDuration(slug)
+            ) +
 
             `<div id="session-container"></div>` +
 
@@ -194,14 +201,19 @@ async function init() {
             .getElementById("session-duration")
             .addEventListener("change", () => {
 
-                regenerateSession(
-                    game,
-                    slug,
+                const duration =
                     Number(
                         document.getElementById(
                             "session-duration"
                         ).value
-                    )
+                    );
+
+                saveSessionDuration(slug, duration);
+
+                regenerateSession(
+                    game,
+                    slug,
+                    duration
                 );
 
                 refresh();

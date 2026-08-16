@@ -38,3 +38,35 @@ export function clearSession(slug) {
     );
 
 }
+
+const VALID_DURATIONS = [30, 45, 60, 90];
+
+const DEFAULT_DURATION = 45;
+
+export function loadSessionDuration(slug) {
+
+    const stored =
+        localStorage.getItem(
+            `session-duration-${slug}`
+        );
+
+    const duration =
+        Number(stored);
+
+    return VALID_DURATIONS.includes(duration)
+        ? duration
+        : DEFAULT_DURATION;
+
+}
+
+export function saveSessionDuration(slug, duration) {
+
+    localStorage.setItem(
+
+        `session-duration-${slug}`,
+
+        String(duration)
+
+    );
+
+}
