@@ -29,7 +29,29 @@ import {
 
 } from "../../utils/steam/steamSession.js";
 
+import {
+
+    ownsItem
+
+} from "../../utils/player/inventory/inventoryManager.js";
+
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
+// Unlock requirements as implemented in playerProgress.js checkPlayerUnlocks -
+// kept in sync manually since there is no shared source of truth to read from.
+const AVATAR_REQUIREMENTS = {
+
+    rookie: "Reach Level 5",
+
+    explorer: "Reach Level 10",
+
+    veteran: "Complete 5 games",
+
+    master: "Complete 100 achievements",
+
+    legend: "Complete 500 achievements"
+
+};
 
 export function createPlayerProfile(
     session = {
@@ -64,21 +86,33 @@ export function createPlayerProfile(
 
     const avatarOptions = avatars.map(
 
-        item => `
+        item => {
 
-            <option
+            const owned = ownsItem("avatars", item.id);
 
-                value="${item.id}"
+            const label = owned
+                ? item.name
+                : `🔒 ${item.name} — ${AVATAR_REQUIREMENTS[item.id] ?? "Locked"}`;
 
-                ${item.id === avatar.id ? "selected" : ""}
+            return `
 
-            >
+                <option
 
-                ${item.name}
+                    value="${item.id}"
 
-            </option>
+                    ${item.id === avatar.id ? "selected" : ""}
 
-        `
+                    ${owned ? "" : "disabled"}
+
+                >
+
+                    ${label}
+
+                </option>
+
+            `;
+
+        }
 
     ).join("");
 
