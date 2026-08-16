@@ -143,12 +143,26 @@ export async function getSchemaForGame(appid) {
 
     }
 
-    const url =
-        `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${process.env.STEAM_API_KEY}&appid=${appid}`;
+    let achievements;
 
-    const data = await steamFetch(url);
+    try {
 
-    const achievements = data.game?.availableGameStats?.achievements ?? [];
+        const url =
+            `https://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=${process.env.STEAM_API_KEY}&appid=${appid}`;
+
+        const data = await steamFetch(url);
+
+        achievements = data.game?.availableGameStats?.achievements ?? [];
+
+    } catch (error) {
+
+        // Steam being unreachable, rate-limited, or erroring on this appid
+        // shouldn't take down the whole game page - the local planner data
+        // doesn't depend on Steam at all. Same graceful degradation as
+        // getGlobalAchievementPercentages/getPlayerAchievements below.
+        achievements = [];
+
+    }
 
     setCached(cacheKey, achievements, ACHIEVEMENT_SCHEMA_TTL_MS);
 
