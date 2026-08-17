@@ -20,11 +20,6 @@ import { getSteamSession } from "../utils/steam/steamSession.js";
 import { CONFIG } from "../config.js";
 
 import { resetDevelopmentProgress } from "../dev/resetProgress.js";
-import {
-
-    createGamePage
-
-} from "../pages/gamePage.js";
 import { loadNavbar } from "./layout.js";
 import {
 

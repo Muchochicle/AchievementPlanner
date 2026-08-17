@@ -1,48 +1,7 @@
-.achievement-list{
-
-    margin-top:50px;
-
-}
-
-.achievement-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:flex-start;
-
-    gap:24px;
-
-    margin-bottom:30px;
-
-    flex-wrap:wrap;
-
-}
-
-.achievement-list h2{
-
-    margin-bottom:10px;
-
-}
-
-.achievement-description{
-
-    color:var(--text-secondary);
-
-}
-
-.achievement-container{
-
-    background:var(--surface);
-
-    border:1px solid var(--border);
-
-    border-radius:var(--radius);
-
-    overflow:hidden;
-
-}
+/* achievement-list.js was removed in Phase 20.4 (superseded by
+   steam-achievement-list). This rule remains because
+   steam-achievement-list.js still reuses the .achievement-empty
+   class for its own empty state. */
 
 .achievement-empty{
 
