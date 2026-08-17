@@ -1,7 +1,8 @@
-/* achievement-card.js was removed in Phase 20.4 (superseded by the
-   unified steam-achievement-card). These two rules remain because
-   steam-achievement-card.js still reuses the .achievement-check
-   checkbox convention for matched/local achievements. */
+/* achievement-card.js was removed in Phase 20.4. The manual completion
+   checkbox that reused this .achievement-check convention was itself
+   removed when the achievement system became fully Steam-authoritative
+   - these rules are now unused and are left for a future cleanup pass,
+   not touched here to keep this phase's diff purely functional. */
 
 .achievement-check{
 

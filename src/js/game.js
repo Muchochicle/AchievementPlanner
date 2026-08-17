@@ -11,7 +11,7 @@ import { createSessionDuration } from "../components/session-duration/session-du
 
 import { updateProgress } from "../utils/planner/progress.js";
 import { updatePlannerStats } from "../utils/planner/stats.js";
-import { saveProgress, loadProgress } from "../utils/planner/storage.js";
+import { saveProgress } from "../utils/planner/storage.js";
 
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
 import { createPlayerProfile } from "../components/player-profile/player-profile.js";
@@ -48,7 +48,7 @@ import {
 
 import {
 
-    toggleAchievement
+    syncAchievementCompletion
 
 } from "../utils/planner/achievement/achievementManager.js";
 
@@ -103,7 +103,7 @@ async function init() {
 
                     createGameHeader(game) +
 
-                    createSteamAchievementList(game, session, slug);
+                    createSteamAchievementList(game, session);
 
                 return;
 
@@ -167,9 +167,15 @@ async function init() {
 
             createPlannerStats() +
 
-            createSteamAchievementList(game, session, slug);
+            createSteamAchievementList(game, session);
 
-        loadProgress(slug);
+        // Steam is the sole source of achievement completion. Run once
+        // per page load: grant XP for any newly-Steam-completed matched
+        // achievement (idempotent - see achievementManager.js), then
+        // persist the resolved state for profile.html's statistics.
+        syncAchievementCompletion(game, slug);
+
+        saveProgress(game, slug);
 
         if (CONFIG.ENABLE_RESET_BUTTON) {
 
@@ -233,7 +239,7 @@ async function init() {
 
             }
 
-            updateProgress(game, slug);
+            updateProgress(game);
 
             updatePlannerStats(game);
 
@@ -256,33 +262,6 @@ async function init() {
                 createRecommendedAchievement(
                     recommended
                 );
-
-            const completeButton =
-                document.querySelector(
-                    ".recommended-button"
-                );
-
-            if (completeButton) {
-
-                completeButton.onclick = () => {
-
-                    toggleAchievement(
-
-                        Number(completeButton.dataset.id),
-
-                        true,
-
-                        slug,
-
-                        refresh,
-
-                        game
-
-                    );
-
-                };
-
-            }
 
             const skipButton =
                 document.querySelector(
@@ -336,57 +315,9 @@ async function init() {
             document.getElementById(
                 "session-container"
             ).innerHTML =
-                createSessionPlanner(session);
-
-            document
-                .querySelectorAll(".session-check input")
-                .forEach(box => {
-
-                    box.onchange = () => {
-
-                            toggleAchievement(
-
-                                Number(box.dataset.id),
-
-                                box.checked,
-
-                                slug,
-
-                                refresh,
-
-                                game
-
-                            );
-
-                        };
-
-                });
+                createSessionPlanner(session, game);
 
         }
-
-        document
-            .querySelectorAll(".achievement-check input")
-            .forEach(box => {
-
-                box.onchange = () => {
-
-                    toggleAchievement(
-
-                        Number(box.dataset.id),
-
-                        box.checked,
-
-                        slug,
-
-                        refresh,
-
-                        game
-
-                    );
-
-                };
-
-            });
 
     }
 

@@ -1,16 +1,23 @@
-export function createSessionPlanner(session) {
+import {
 
-    const completed = session.filter(
+    findMergedEntry,
+    isEntryCompleted
 
-        achievement =>
+} from "../../utils/planner/achievement/completion.js";
 
-            document.querySelector(
+export function createSessionPlanner(session, game) {
 
-                `.achievement-check input[data-id="${achievement.id}"]:checked`
+    const merged = game?.mergedAchievements;
 
-            )
+    const isDone = achievement => {
 
-    ).length;
+        const entry = findMergedEntry(game, achievement.id);
+
+        return entry ? isEntryCompleted(merged, entry) : false;
+
+    };
+
+    const completed = session.filter(isDone).length;
 
     const progress =
 
@@ -108,21 +115,11 @@ export function createSessionPlanner(session) {
 
                     <li>
 
-                        <label
-                            class="session-check"
-                        >
+                        <span aria-hidden="true">
 
-                            <input
+                            ${isDone(achievement) ? "✅" : "⬜"}
 
-                                type="checkbox"
-
-                                data-id="${achievement.id}"
-
-                                ${document.querySelector(`.achievement-check input[data-id="${achievement.id}"]:checked`) ? "checked" : ""}
-
-                            >
-
-                        </label>
+                        </span>
 
                         <div>
 

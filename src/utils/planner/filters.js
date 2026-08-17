@@ -4,16 +4,9 @@ export function applyFilter(filter) {
 
     cards.forEach(card => {
 
-        // Matched entries have a live checkbox (source of truth for the
-        // manual XP-claim state); Steam-only entries have none and fall
-        // back to the resolved completion baked in at render time.
-        const checkbox = card.querySelector(
-            ".achievement-check input"
-        );
-
-        const completed = checkbox
-            ? checkbox.checked
-            : card.dataset.completed === "true";
+        // Steam-authoritative completion, baked in at render time - no
+        // interactive control on the card to read instead.
+        const completed = card.dataset.completed === "true";
 
         switch (filter) {
 

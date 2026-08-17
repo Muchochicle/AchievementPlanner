@@ -2,6 +2,11 @@ import {
     getSkippedAchievements
 } from "./recommendation/skipped.js";
 
+import {
+    findMergedEntry,
+    isEntryCompleted
+} from "./achievement/completion.js";
+
 let currentSession = null;
 
 export function createSession(game, targetMinutes = 45) {
@@ -19,34 +24,24 @@ export function createSession(game, targetMinutes = 45) {
 
     }
 
-    const completed = [
-
-        ...document.querySelectorAll(
-            ".achievement-check input:checked"
-        )
-
-    ].map(input =>
-
-        Number(input.dataset.id)
-
-    );
+    const merged = game.mergedAchievements;
 
     const skipped =
         getSkippedAchievements();
 
     const available = game.achievements
 
-        .filter(achievement =>
+        .filter(achievement => {
 
-            !completed.includes(
-                achievement.id
-            ) &&
+            const entry = findMergedEntry(game, achievement.id);
 
-            !skipped.includes(
-                achievement.id
-            )
+            const completed = entry
+                ? isEntryCompleted(merged, entry)
+                : false;
 
-        )
+            return !completed && !skipped.includes(achievement.id);
+
+        })
 
         .sort((a, b) => {
 

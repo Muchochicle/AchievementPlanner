@@ -1,5 +1,3 @@
-import { saveProgress } from "../storage.js";
-
 import {
 
     completeAchievement,
@@ -16,44 +14,35 @@ import {
 
 } from "../game/gameCompletion.js";
 
-export function toggleAchievement(
+import {
 
-    id,
+    findMergedEntry,
+    isEntryCompleted
 
-    checked,
+} from "./completion.js";
 
-    slug,
+// Steam is the sole source of achievement completion - there is no user
+// UI to claim an achievement anymore. This runs once per page load and
+// grants XP for any matched (local/planner) achievement Steam now
+// reports as completed. claimAchievement's existing ledger (keyed
+// "slug:id") is what makes this idempotent: a repeat sync/refresh/reload
+// for an already-claimed achievement is a no-op, so XP is granted
+// exactly once per achievement, however many times this runs.
+export function syncAchievementCompletion(game, slug) {
 
-    refresh,
+    const merged = game?.mergedAchievements;
 
-    game
+    for (const achievement of game?.achievements ?? []) {
 
-) {
+        const entry = findMergedEntry(game, achievement.id);
 
-    // Best-effort DOM sync only: progress/stats/filters/saveProgress/
-    // checkGameCompletion still read the legacy achievement-list
-    // checkbox directly (unchanged in this phase), so keep it in sync
-    // when it exists. Completion itself no longer depends on finding
-    // it - callers always pass the resolved `checked` state explicitly.
-    const checkbox = getCheckbox(id);
+        if (!entry || !isEntryCompleted(merged, entry)) {
 
-    if (checkbox) {
+            continue;
 
-        checkbox.checked = checked;
+        }
 
-    }
-
-    if (
-
-        checked
-
-    ) {
-
-        if (
-
-            claimAchievement(slug, id)
-
-        ) {
+        if (claimAchievement(slug, achievement.id)) {
 
             completeAchievement();
 
@@ -64,29 +53,5 @@ export function toggleAchievement(
     }
 
     checkGameCompletion(game);
-
-    saveProgress(slug);
-
-    refresh();
-
-}
-
-export function getCheckbox(id) {
-
-    return document.querySelector(
-
-        `.achievement-check input[data-id="${id}"]`
-
-    );
-
-}
-
-export function isCompleted(id) {
-
-    const checkbox =
-
-        getCheckbox(id);
-
-    return checkbox?.checked ?? false;
 
 }

@@ -1,7 +1,13 @@
+import {
+
+    findMergedEntry,
+    isEntryCompleted
+
+} from "./achievement/completion.js";
+
 export function updatePlannerStats(game) {
 
-    const checkboxes =
-        document.querySelectorAll(".achievement-check input");
+    const merged = game.mergedAchievements;
 
     let remainingTime = 0;
 
@@ -11,11 +17,15 @@ export function updatePlannerStats(game) {
 
     let difficultyCount = 0;
 
-    game.achievements.forEach((achievement, index) => {
+    game.achievements.forEach(achievement => {
 
-        const checked = checkboxes[index].checked;
+        const entry = findMergedEntry(game, achievement.id);
 
-        if (!checked) {
+        const completed = entry
+            ? isEntryCompleted(merged, entry)
+            : false;
+
+        if (!completed) {
 
             remainingTime += achievement.estimatedTime;
 

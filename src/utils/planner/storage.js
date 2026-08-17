@@ -1,16 +1,25 @@
-export function saveProgress(slug) {
+import { findMergedEntry, isEntryCompleted } from "./achievement/completion.js";
 
-    const checkboxes = document.querySelectorAll(
-        ".achievement-check input"
-    );
+// Persists the Steam-resolved completion state for this game's matched
+// (local/planner) achievements - not a manual claim record. Kept in the
+// same planner-{slug} / {id: boolean} shape profile.html's statistics
+// helpers already read, but the boolean now always comes from Steam,
+// never from user interaction.
+export function saveProgress(game, slug) {
+
+    const merged = game?.mergedAchievements;
 
     const progress = {};
 
-    checkboxes.forEach(box => {
+    for (const achievement of game?.achievements ?? []) {
 
-        progress[box.dataset.id] = box.checked;
+        const entry = findMergedEntry(game, achievement.id);
 
-    });
+        progress[achievement.id] = entry
+            ? isEntryCompleted(merged, entry)
+            : false;
+
+    }
 
     localStorage.setItem(
 
@@ -19,58 +28,5 @@ export function saveProgress(slug) {
         JSON.stringify(progress)
 
     );
-
-}
-
-// Pure read, no DOM involved - lets non-legacy-list code (the
-// completion resolver, future achievement UIs) ask "is this id marked
-// complete locally" without depending on .achievement-check existing.
-export function getStoredProgress(slug) {
-
-    const saved = localStorage.getItem(
-
-        `planner-${slug}`
-
-    );
-
-    if (!saved) return {};
-
-    const progress = JSON.parse(saved);
-
-    // Legacy positional-array saves can't be mapped to an id without the
-    // DOM order they were written against; treat them as empty here.
-    return Array.isArray(progress) ? {} : progress;
-
-}
-
-export function loadProgress(slug) {
-
-    const saved = localStorage.getItem(
-
-        `planner-${slug}`
-
-    );
-
-    if (!saved) return;
-
-    const progress = JSON.parse(saved);
-
-    const checkboxes = document.querySelectorAll(
-        ".achievement-check input"
-    );
-
-    // Legacy saves were a positional boolean array (index = DOM order).
-    // Current saves are an object keyed by achievement id, immune to
-    // achievement-list reordering. Both are readable; only the new
-    // id-keyed format is ever written going forward.
-    const isLegacyArray = Array.isArray(progress);
-
-    checkboxes.forEach((box, index) => {
-
-        box.checked = isLegacyArray
-            ? (progress[index] || false)
-            : (progress[box.dataset.id] || false);
-
-    });
 
 }

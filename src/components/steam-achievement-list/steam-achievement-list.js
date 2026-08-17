@@ -2,7 +2,7 @@ import { createSteamAchievementCard } from "../steam-achievement-card/steam-achi
 import { createAchievementFilters } from "../achievement-filters/achievement-filters.js";
 import { getMergedAchievementStats } from "../../utils/planner/achievement/completion.js";
 
-export function createSteamAchievementList(game, session, slug) {
+export function createSteamAchievementList(game, session) {
 
     const merged = game.mergedAchievements;
 
@@ -32,7 +32,7 @@ export function createSteamAchievementList(game, session, slug) {
 
     }
 
-    const { total, completed } = getMergedAchievementStats(game, slug);
+    const { total, completed } = getMergedAchievementStats(game);
 
     let statusLine;
 
@@ -68,7 +68,7 @@ export function createSteamAchievementList(game, session, slug) {
     }
 
     const cards = entries
-        .map(entry => createSteamAchievementCard(entry, merged, slug))
+        .map(entry => createSteamAchievementCard(entry, merged))
         .join("");
 
     return `

@@ -12,6 +12,13 @@ import {
 
 } from "../../player/player.js";
 
+import {
+
+    findMergedEntry,
+    isEntryCompleted
+
+} from "../achievement/completion.js";
+
 export function checkGameCompletion(game) {
 
     if (
@@ -24,19 +31,21 @@ export function checkGameCompletion(game) {
 
     }
 
+    const merged = game.mergedAchievements;
+
     const completed =
 
         game.achievements.length > 0 &&
 
         game.achievements.every(
 
-            achievement =>
+            achievement => {
 
-                document.querySelector(
+                const entry = findMergedEntry(game, achievement.id);
 
-                    `.achievement-check input[data-id="${achievement.id}"]`
+                return entry ? isEntryCompleted(merged, entry) : false;
 
-                )?.checked
+            }
 
         );
 

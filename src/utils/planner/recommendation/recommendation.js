@@ -2,6 +2,11 @@ import {
     getSkippedAchievements
 } from "./skipped.js";
 
+import {
+    findMergedEntry,
+    isEntryCompleted
+} from "../achievement/completion.js";
+
 export function getRecommendedAchievement(game) {
 
     if (!game.achievements.length) {
@@ -10,24 +15,23 @@ export function getRecommendedAchievement(game) {
 
     }
 
-    const completed =
-        getCompletedAchievements();
+    const merged = game.mergedAchievements;
 
     const skipped =
         getSkippedAchievements();
 
     const achievements =
-        game.achievements.filter(achievement =>
+        game.achievements.filter(achievement => {
 
-            !completed.includes(
-                achievement.id
-            ) &&
+            const entry = findMergedEntry(game, achievement.id);
 
-            !skipped.includes(
-                achievement.id
-            )
+            const completed = entry
+                ? isEntryCompleted(merged, entry)
+                : false;
 
-        );
+            return !completed && !skipped.includes(achievement.id);
+
+        });
 
     if (!achievements.length) {
 
@@ -97,23 +101,5 @@ function score(achievement) {
     }
 
     return score;
-
-}
-
-function getCompletedAchievements() {
-
-    return [
-
-        ...document.querySelectorAll(
-
-            ".achievement-check input:checked"
-
-        )
-
-    ].map(input =>
-
-        Number(input.dataset.id)
-
-    );
 
 }

@@ -12,37 +12,13 @@ function formatUnlockTime(unlocktime) {
 
 }
 
-// Manual XP-claim control, matched/local entries only. Deliberately
-// unchecked by default (not driven by isEntryCompleted/Steam state) -
-// the existing loadProgress() DOM hydration pass, run right after this
-// markup is inserted, sets the checked state from local storage, same
-// as the legacy achievement-card did. Reuses the exact .achievement-check
-// / data-id convention so toggleAchievement, checkGameCompletion,
-// recommendation, session-planner and storage all keep working
-// unchanged.
-function createManualCheckbox(entry) {
+export function createSteamAchievementCard(entry, merged) {
 
-    if (!entry.ap) {
-
-        return "";
-
-    }
-
-    return `
-        <label class="achievement-check">
-            <input type="checkbox" data-id="${entry.ap.id}">
-        </label>
-    `;
-
-}
-
-export function createSteamAchievementCard(entry, merged, slug) {
-
-    const completed = isEntryCompleted(merged, entry, slug);
+    const completed = isEntryCompleted(merged, entry);
 
     if (!entry.steam) {
 
-        return createLocalOnlyCard(entry, completed);
+        return createLocalOnlyCard(entry);
 
     }
 
@@ -86,8 +62,6 @@ export function createSteamAchievementCard(entry, merged, slug) {
 
                     <h4 class="steam-achievement-name">${steam.displayName}</h4>
 
-                    ${createManualCheckbox(entry)}
-
                     ${unlockBadge}
 
                 </div>
@@ -105,21 +79,17 @@ export function createSteamAchievementCard(entry, merged, slug) {
 }
 
 // Local-only fallback: an entry with no Steam schema match at all (e.g.
-// a game with no Steam appid, or an achievement not present in Steam's
-// schema). Renders from the local planner achievement instead.
-function createLocalOnlyCard(entry, completed) {
+// a game with no Steam appid). There is no Steam ground truth for these
+// achievements and no manual claim mechanism, so completion can never be
+// determined here - always show the explicit unavailable state rather
+// than inventing "pending"/"completed".
+function createLocalOnlyCard(entry) {
 
     const ap = entry.ap;
 
-    const unlockBadge = `
-        <span class="steam-achievement-badge steam-achievement-badge--${completed ? "unlocked" : "locked"}">
-            ${completed ? "Completed" : "Pending"}
-        </span>
-    `;
-
     return `
 
-        <article class="steam-achievement-card${completed ? " steam-achievement-card--unlocked" : ""}" data-completed="${completed}">
+        <article class="steam-achievement-card" data-completed="false">
 
             <div class="steam-achievement-icon steam-achievement-icon--placeholder">🏆</div>
 
@@ -129,9 +99,9 @@ function createLocalOnlyCard(entry, completed) {
 
                     <h4 class="steam-achievement-name">${ap.name}</h4>
 
-                    ${createManualCheckbox(entry)}
-
-                    ${unlockBadge}
+                    <span class="steam-achievement-badge steam-achievement-badge--locked">
+                        Steam data unavailable
+                    </span>
 
                 </div>
 
