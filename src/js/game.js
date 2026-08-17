@@ -3,7 +3,12 @@ import { getGame } from "../utils/gameService.js";
 import { createGameHeader } from "../components/game-header/game-header.js";
 import { createGameOverview } from "../components/game-overview/game-overview.js";
 import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
-import { createSteamAchievementList } from "../components/steam-achievement-list/steam-achievement-list.js";
+import {
+
+    createSteamAchievementList,
+    createSteamAchievementCards
+
+} from "../components/steam-achievement-list/steam-achievement-list.js";
 import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
 import { createSessionPlanner } from "../components/session-planner/session-planner.js";
 import { createSessionDuration } from "../components/session-duration/session-duration.js";
@@ -227,6 +232,8 @@ async function init() {
 
             renderSession();
 
+            renderAchievementCards();
+
             initAchievementFilters();
 
         }
@@ -296,6 +303,27 @@ async function init() {
                 "session-container"
             ).innerHTML =
                 createSessionPlanner(session, game);
+
+        }
+
+        // Regenerates only the card grid (not the header/filters around
+        // it) so a poll that finds a fresh Steam confirmation is
+        // reflected on the individual card without losing the user's
+        // current filter selection. Reuses the exact same card-rendering
+        // path as the initial render - no separate completion logic.
+        function renderAchievementCards() {
+
+            const container =
+                document.getElementById("steam-achievement-cards");
+
+            if (!container) {
+
+                return;
+
+            }
+
+            container.innerHTML =
+                createSteamAchievementCards(game);
 
         }
 

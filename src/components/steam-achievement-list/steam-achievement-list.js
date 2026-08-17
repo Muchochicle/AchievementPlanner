@@ -2,6 +2,24 @@ import { createSteamAchievementCard } from "../steam-achievement-card/steam-achi
 import { createAchievementFilters } from "../achievement-filters/achievement-filters.js";
 import { getMergedAchievementStats } from "../../utils/planner/achievement/completion.js";
 
+// Single source for the card-grid markup, shared by the initial full-list
+// render below and by game.js's live refresh (which only needs to
+// regenerate this container - not the header/filters around it - after
+// polling brings in fresh game.mergedAchievements). No completion logic
+// lives here; createSteamAchievementCard/isEntryCompleted stay the only
+// resolver, called fresh each time this runs.
+export function createSteamAchievementCards(game) {
+
+    const merged = game.mergedAchievements;
+
+    const entries = merged?.achievements ?? [];
+
+    return entries
+        .map(entry => createSteamAchievementCard(entry, merged))
+        .join("");
+
+}
+
 export function createSteamAchievementList(game, session) {
 
     const merged = game.mergedAchievements;
@@ -67,10 +85,6 @@ export function createSteamAchievementList(game, session) {
 
     }
 
-    const cards = entries
-        .map(entry => createSteamAchievementCard(entry, merged))
-        .join("");
-
     return `
 
         <section class="steam-achievement-list">
@@ -87,9 +101,12 @@ export function createSteamAchievementList(game, session) {
 
             </div>
 
-            <div class="steam-achievement-list-container">
+            <div
+                id="steam-achievement-cards"
+                class="steam-achievement-list-container"
+            >
 
-                ${cards}
+                ${createSteamAchievementCards(game)}
 
             </div>
 
