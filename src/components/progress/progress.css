@@ -1,28 +1,7 @@
-.progress{
-
-    margin:40px 0;
-
-    padding:24px;
-
-    background:var(--surface);
-
-    border:1px solid var(--border);
-
-    border-radius:var(--radius);
-
-}
-
-.progress-header{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    margin-bottom:18px;
-
-}
+/* progress.js was removed in Phase 25 (superseded by the compact game
+   header in Phase 23). These two rules remain because game-header.js
+   still reuses the .progress-bar / .progress-fill classes for its own
+   Steam-authoritative progress bar. */
 
 .progress-bar{
 
@@ -47,13 +26,5 @@
     background:var(--primary);
 
     transition:.3s;
-
-}
-
-.progress p{
-
-    margin-top:14px;
-
-    color:var(--text-secondary);
 
 }
