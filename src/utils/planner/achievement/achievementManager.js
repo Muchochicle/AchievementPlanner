@@ -30,21 +30,18 @@ export function toggleAchievement(
 
 ) {
 
-    const checkbox =
+    // Best-effort DOM sync only: progress/stats/filters/saveProgress/
+    // checkGameCompletion still read the legacy achievement-list
+    // checkbox directly (unchanged in this phase), so keep it in sync
+    // when it exists. Completion itself no longer depends on finding
+    // it - callers always pass the resolved `checked` state explicitly.
+    const checkbox = getCheckbox(id);
 
-        document.querySelector(
+    if (checkbox) {
 
-            `.achievement-check input[data-id="${id}"]`
-
-        );
-
-    if (!checkbox) {
-
-        return;
+        checkbox.checked = checked;
 
     }
-
-    checkbox.checked = checked;
 
     if (
 

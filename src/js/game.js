@@ -274,15 +274,6 @@ async function init() {
 
                 completeButton.onclick = () => {
 
-                    const checkbox =
-                        document.querySelector(
-
-                            `.achievement-check input[data-id="${completeButton.dataset.id}"]`
-
-                        );
-
-                    if (!checkbox) return;
-
                     toggleAchievement(
 
                         Number(completeButton.dataset.id),
