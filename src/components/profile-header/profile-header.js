@@ -6,9 +6,7 @@ import {
 
 import {
 
-    getCurrentAvatar,
-
-    getAllAvatars
+    getCurrentAvatar
 
 } from "../../utils/player/avatar/avatarManager.js";
 
@@ -26,29 +24,9 @@ import {
 
 } from "../../utils/steam/steamSession.js";
 
-import {
-
-    ownsItem
-
-} from "../../utils/player/inventory/inventoryManager.js";
-
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
-// Unlock requirements as implemented in playerProgress.js checkPlayerUnlocks -
-// kept in sync manually since there is no shared source of truth to read from.
-const AVATAR_REQUIREMENTS = {
-
-    rookie: "Reach Level 5",
-
-    explorer: "Reach Level 10",
-
-    veteran: "Complete 5 games",
-
-    master: "Complete 100 achievements",
-
-    legend: "Complete 500 achievements"
-
-};
+import { createAvatarPicker } from "../avatar-picker/avatar-picker.js";
 
 export function createProfileHeader(
     session = {
@@ -60,47 +38,15 @@ export function createProfileHeader(
 
     const avatar = getCurrentAvatar();
 
-    const avatars = getAllAvatars();
-
     const requiredXP = getXPForNextLevel(player.level);
+
+    const xpRemaining = requiredXP - player.xp;
 
     const progress = Math.round(
 
         player.xp / requiredXP * 100
 
     );
-
-    const avatarOptions = avatars.map(
-
-        item => {
-
-            const owned = ownsItem("avatars", item.id);
-
-            const label = owned
-                ? item.name
-                : `🔒 ${item.name} — ${AVATAR_REQUIREMENTS[item.id] ?? "Locked"}`;
-
-            return `
-
-                <option
-
-                    value="${item.id}"
-
-                    ${item.id === avatar.id ? "selected" : ""}
-
-                    ${owned ? "" : "disabled"}
-
-                >
-
-                    ${label}
-
-                </option>
-
-            `;
-
-        }
-
-    ).join("");
 
     const steamName = getSteamDisplayName(session);
 
@@ -134,77 +80,73 @@ export function createProfileHeader(
 
         <section class="profile-header">
 
-            <img
+            <div class="profile-header-main">
 
-                class="profile-avatar"
+                <img
 
-                src="${avatar.image}"
+                    class="profile-avatar"
 
-                alt="${avatar.name}"
+                    src="${avatar.image}"
 
-            >
+                    alt="${avatar.name}"
 
-            <div class="profile-info">
+                >
 
-                ${steamIdentity}
+                <div class="profile-info">
 
-                <h1>${player.title}</h1>
+                    ${steamIdentity}
 
-                <p class="profile-level">Level ${player.level}</p>
+                    <h1>${player.title}</h1>
 
-                <div class="profile-avatar-picker">
+                    <p class="profile-level">Level ${player.level}</p>
 
-                    <label for="avatar-selector">Avatar</label>
-
-                    <select
-
-                        id="avatar-selector"
-
-                        class="avatar-selector"
-
-                    >
-
-                        ${avatarOptions}
-
-                    </select>
-
-                </div>
-
-                <div class="profile-xp-row">
-
-                    <div
-
-                        class="progress-bar"
-
-                        role="progressbar"
-
-                        aria-valuemin="0"
-
-                        aria-valuemax="${requiredXP}"
-
-                        aria-valuenow="${player.xp}"
-
-                        aria-label="Experience progress toward next level"
-
-                    >
+                    <div class="profile-xp-row">
 
                         <div
 
-                            class="progress-fill"
+                            class="progress-bar"
 
-                            style="width:${progress}%"
+                            role="progressbar"
 
-                        ></div>
+                            aria-valuemin="0"
+
+                            aria-valuemax="${requiredXP}"
+
+                            aria-valuenow="${player.xp}"
+
+                            aria-label="Experience progress toward next level"
+
+                        >
+
+                            <div
+
+                                class="progress-fill"
+
+                                style="width:${progress}%"
+
+                            ></div>
+
+                        </div>
+
+                        <small>
+
+                            ${player.xp} / ${requiredXP} XP
+                            &middot;
+                            ${xpRemaining} XP to Level ${player.level + 1}
+
+                        </small>
 
                     </div>
 
-                    <small>
-
-                        ${player.xp} / ${requiredXP} XP
-
-                    </small>
-
                 </div>
+
+            </div>
+
+            <div class="profile-avatar-picker-section">
+
+                <h2>Avatar</h2>
+
+                ${createAvatarPicker()}
 
             </div>
 

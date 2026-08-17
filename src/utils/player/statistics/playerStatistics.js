@@ -18,10 +18,22 @@ import {
     getUnlockedAchievements
 
 } from "./helpers/achievements.js";
+import {
+
+    getAllAvatars
+
+} from "../avatar/avatarManager.js";
+import {
+
+    ownsItem
+
+} from "../inventory/inventoryManager.js";
 
 export function getPlayerStatistics() {
 
     const player = getPlayer();
+
+    const avatars = getAllAvatars();
 
     return {
 
@@ -35,7 +47,15 @@ export function getPlayerStatistics() {
 
         games: getPlayedGames(),
 
-        completedGames: getCompletedGames()
+        completedGames: getCompletedGames(),
+
+        avatarsUnlocked: avatars.filter(
+
+            avatar => ownsItem("avatars", avatar.id)
+
+        ).length,
+
+        avatarsTotal: avatars.length
 
     };
 

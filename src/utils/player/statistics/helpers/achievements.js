@@ -1,27 +1,15 @@
+import { getPlannerProgress } from "./plannerProgress.js";
+
 export function getUnlockedAchievements() {
 
-    let total = 0;
+    return getPlannerProgress().reduce(
 
-    Object.keys(localStorage).forEach(key => {
+        (total, { values }) =>
 
-        if (!key.startsWith("planner-")) return;
+            total + values.filter(Boolean).length,
 
-        const progress = JSON.parse(
+        0
 
-            localStorage.getItem(key)
-
-        );
-
-        // Legacy saves were a positional boolean array; current saves are
-        // an object keyed by achievement id. Both are readable.
-        const values = Array.isArray(progress)
-            ? progress
-            : Object.values(progress);
-
-        total += values.filter(Boolean).length;
-
-    });
-
-    return total;
+    );
 
 }

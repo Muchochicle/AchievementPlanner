@@ -1,37 +1,27 @@
+import { getPlannerProgress } from "./plannerProgress.js";
+
+function isComplete(values) {
+
+    return values.length > 0 && values.every(Boolean);
+
+}
+
 export function getCompletedGames() {
 
-    let total = 0;
+    return getPlannerProgress().filter(
 
-    Object.keys(localStorage).forEach(key => {
+        ({ values }) => isComplete(values)
 
-        if (!key.startsWith("planner-")) return;
+    ).length;
 
-        const progress = JSON.parse(
+}
 
-            localStorage.getItem(key)
+export function getCompletedGameSlugs() {
 
-        );
+    return getPlannerProgress()
 
-        // Legacy saves were a positional boolean array; current saves are
-        // an object keyed by achievement id. Both are readable.
-        const values = Array.isArray(progress)
-            ? progress
-            : Object.values(progress);
+        .filter(({ values }) => isComplete(values))
 
-        if (
-
-            values.length > 0 &&
-
-            values.every(Boolean)
-
-        ) {
-
-            total++;
-
-        }
-
-    });
-
-    return total;
+        .map(({ slug }) => slug);
 
 }

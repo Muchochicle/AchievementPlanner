@@ -1,0 +1,73 @@
+.profile-games{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    padding:var(--spacing-md);
+
+}
+
+.profile-games > h2{
+
+    font-size:1.3rem;
+
+    margin-bottom:var(--spacing-sm);
+
+}
+
+.profile-games-group + .profile-games-group{
+
+    margin-top:var(--spacing-md);
+
+}
+
+.profile-games-group h3{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:1rem;
+
+    color:var(--text-secondary);
+
+    margin-bottom:var(--spacing-sm);
+
+}
+
+.profile-games-count{
+
+    background:var(--background);
+
+    border:1px solid var(--border);
+
+    border-radius:999px;
+
+    padding:2px 8px;
+
+    font-size:.75rem;
+
+    color:var(--text);
+
+}
+
+.profile-games-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+
+    gap:20px;
+
+}
+
+.profile-games-empty{
+
+    color:var(--text-secondary);
+
+}

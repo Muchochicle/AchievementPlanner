@@ -52,6 +52,16 @@ export function createProfileStats() {
 
             </div>
 
+            <div class="profile-stat-card">
+
+                <h2>🎭</h2>
+
+                <strong>${stats.avatarsUnlocked ?? 0}/${stats.avatarsTotal ?? 0}</strong>
+
+                <span>Avatars</span>
+
+            </div>
+
         </section>
 
     `;

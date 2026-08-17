@@ -18,6 +18,12 @@ import {
 
 import {
 
+    createProfileGames
+
+} from "../components/profile-games/profile-games.js";
+
+import {
+
     equipAvatar
 
 } from "../utils/player/avatar/avatarManager.js";
@@ -27,6 +33,24 @@ import {
     getSteamSession
 
 } from "../utils/steam/steamSession.js";
+
+import {
+
+    getGamesIndex
+
+} from "../utils/gameService.js";
+
+import {
+
+    getCompletedGameSlugs
+
+} from "../utils/player/statistics/helpers/completedGames.js";
+
+import {
+
+    getInProgressGameSlugs
+
+} from "../utils/player/statistics/helpers/games.js";
 
 async function init() {
 
@@ -59,24 +83,125 @@ async function init() {
 
     refresh();
 
+    loadGamesSection();
+
     function refresh() {
 
         document.querySelector(".profile-header").outerHTML =
             createProfileHeader(session);
 
-        const avatarSelector =
+        const avatarPicker =
 
-            document.getElementById("avatar-selector");
+            document.getElementById("avatar-picker");
 
-        if (avatarSelector) {
+        if (avatarPicker) {
 
-            avatarSelector.onchange = event => {
+            avatarPicker.onclick = event => {
 
-                equipAvatar(event.target.value);
+                const tile =
+                    event.target.closest(".avatar-tile");
+
+                if (!tile || tile.disabled) {
+
+                    return;
+
+                }
+
+                equipAvatar(tile.dataset.avatarId);
 
                 refresh();
 
             };
+
+        }
+
+    }
+
+    async function loadGamesSection() {
+
+        const container =
+            document.getElementById("profile-sections");
+
+        const completedSlugs = getCompletedGameSlugs();
+
+        const inProgressSlugs = getInProgressGameSlugs();
+
+        if (!completedSlugs.length && !inProgressSlugs.length) {
+
+            container.innerHTML =
+                createProfileGames({ completed: [], inProgress: [] });
+
+            return;
+
+        }
+
+        try {
+
+            const index = await getGamesIndex();
+
+            const bySlug = new Map(
+                index.map(game => [game.slug, game])
+            );
+
+            const completed = completedSlugs
+
+                .map(slug => bySlug.get(slug))
+
+                .filter(Boolean);
+
+            const inProgress = inProgressSlugs
+
+                .map(slug => bySlug.get(slug))
+
+                .filter(Boolean);
+
+            container.innerHTML =
+                createProfileGames({ completed, inProgress });
+
+            container.onclick = event => {
+
+                const card =
+                    event.target.closest(".catalog-card");
+
+                if (!card) {
+
+                    return;
+
+                }
+
+                window.location.href =
+                    `game.html?slug=${card.dataset.slug}`;
+
+            };
+
+            container.onkeydown = event => {
+
+                if (event.key !== "Enter") {
+
+                    return;
+
+                }
+
+                const card =
+                    event.target.closest(".catalog-card");
+
+                if (!card) {
+
+                    return;
+
+                }
+
+                window.location.href =
+                    `game.html?slug=${card.dataset.slug}`;
+
+            };
+
+        } catch (error) {
+
+            console.error(
+                "Unable to load game progress:",
+                error
+            );
 
         }
 

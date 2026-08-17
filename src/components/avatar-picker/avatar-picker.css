@@ -1,0 +1,135 @@
+.avatar-picker{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(96px,1fr));
+
+    gap:12px;
+
+}
+
+.avatar-tile{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:6px;
+
+    padding:10px 8px;
+
+    background:var(--background);
+
+    border:2px solid var(--border);
+
+    border-radius:var(--radius);
+
+    color:var(--text);
+
+    font:inherit;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+    position:relative;
+
+}
+
+.avatar-tile:hover:not(:disabled){
+
+    border-color:var(--primary);
+
+    transform:translateY(-2px);
+
+}
+
+.avatar-tile:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
+.avatar-tile--equipped{
+
+    border-color:var(--primary);
+
+    background:var(--surface-hover);
+
+}
+
+.avatar-tile-image{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+}
+
+.avatar-tile-name{
+
+    font-size:.8rem;
+
+    font-weight:600;
+
+}
+
+.avatar-tile-badge{
+
+    font-size:.68rem;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+    text-transform:uppercase;
+
+    letter-spacing:.03em;
+
+}
+
+.avatar-tile--locked{
+
+    cursor:not-allowed;
+
+    opacity:.6;
+
+}
+
+.avatar-tile--locked .avatar-tile-image{
+
+    filter:grayscale(1);
+
+}
+
+.avatar-tile-lock{
+
+    position:absolute;
+
+    top:6px;
+
+    right:6px;
+
+    font-size:.8rem;
+
+}
+
+.avatar-tile-requirement{
+
+    font-size:.65rem;
+
+    line-height:1.25;
+
+    color:var(--text-secondary);
+
+}

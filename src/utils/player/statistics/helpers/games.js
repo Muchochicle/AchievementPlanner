@@ -1,31 +1,28 @@
+import { getPlannerProgress } from "./plannerProgress.js";
+
 export function getPlayedGames() {
 
-    let total = 0;
+    return getPlannerProgress().filter(
 
-    Object.keys(localStorage).forEach(key => {
+        ({ values }) => values.some(Boolean)
 
-        if (!key.startsWith("planner-")) return;
+    ).length;
 
-        const progress = JSON.parse(
+}
 
-            localStorage.getItem(key)
+// Games with some progress but not yet 100% complete - the "continue
+// playing" half of the completed/in-progress split shown on the profile.
+export function getInProgressGameSlugs() {
 
-        );
+    return getPlannerProgress()
 
-        // Legacy saves were a positional boolean array; current saves are
-        // an object keyed by achievement id. Both are readable.
-        const values = Array.isArray(progress)
-            ? progress
-            : Object.values(progress);
+        .filter(({ values }) =>
 
-        if (values.some(Boolean)) {
+            values.some(Boolean) &&
+            !values.every(Boolean)
 
-            total++;
+        )
 
-        }
-
-    });
-
-    return total;
+        .map(({ slug }) => slug);
 
 }
