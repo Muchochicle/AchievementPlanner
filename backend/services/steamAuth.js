@@ -1,6 +1,10 @@
 const STEAM_OPENID_URL = "https://steamcommunity.com/openid/login";
 
-export function buildSteamLoginUrl() {
+export function buildSteamLoginUrl(state) {
+
+    const returnTo = new URL(process.env.STEAM_RETURN_URL);
+
+    returnTo.searchParams.set("state", state);
 
     const params = new URLSearchParams({
 
@@ -8,7 +12,7 @@ export function buildSteamLoginUrl() {
 
         "openid.mode": "checkid_setup",
 
-        "openid.return_to": process.env.STEAM_RETURN_URL,
+        "openid.return_to": returnTo.toString(),
 
         "openid.realm": process.env.STEAM_REALM,
 

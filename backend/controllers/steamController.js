@@ -1,3 +1,5 @@
+import crypto from "crypto";
+
 import {
     buildSteamLoginUrl,
     validateSteamResponse
@@ -9,50 +11,115 @@ import {
 
 export async function login(req, res) {
 
-    const url = buildSteamLoginUrl();
+    try {
 
-    res.redirect(url);
+        const state = crypto.randomBytes(32).toString("hex");
 
-}
+        req.session.oauthState = state;
 
-export async function callback(req, res) {
+        const url = buildSteamLoginUrl(state);
 
-    const valid = await validateSteamResponse(req.query);
+        res.redirect(url);
 
-    if (!valid) {
+    } catch (error) {
 
-        return res.status(401).json({
+        console.error("Steam login error:", error);
+
+        res.status(500).json({
 
             success: false,
 
-            message: "Steam authentication failed"
+            message: error.message
 
         });
 
     }
 
-    const steamId =
+}
 
-        req.query["openid.claimed_id"]
+export async function callback(req, res) {
 
-            .split("/")
+    try {
 
-            .pop();
+        const expectedState = req.session.oauthState;
 
-    const profile = await getPlayerSummary(steamId);
+        const receivedState = req.query.state;
 
-    req.session.user = {
+        if (
 
-        steamid: profile.steamid,
+            !expectedState ||
 
-        personaname: profile.personaname,
+            !receivedState ||
 
-        avatarfull: profile.avatarfull,
+            receivedState !== expectedState
 
-        profileurl: profile.profileurl
+        ) {
 
-    };
+            return res.status(401).json({
 
-    res.redirect("http://localhost:5500/index.html");
+                success: false,
+
+                message: "Steam authentication failed"
+
+            });
+
+        }
+
+        // One-time use: cleared as soon as it's been checked, before any
+        // further async work, so this exact nonce can never authenticate
+        // a second callback.
+        delete req.session.oauthState;
+
+        const valid = await validateSteamResponse(req.query);
+
+        if (!valid) {
+
+            return res.status(401).json({
+
+                success: false,
+
+                message: "Steam authentication failed"
+
+            });
+
+        }
+
+        const steamId =
+
+            req.query["openid.claimed_id"]
+
+                .split("/")
+
+                .pop();
+
+        const profile = await getPlayerSummary(steamId);
+
+        req.session.user = {
+
+            steamid: profile.steamid,
+
+            personaname: profile.personaname,
+
+            avatarfull: profile.avatarfull,
+
+            profileurl: profile.profileurl
+
+        };
+
+        res.redirect("http://localhost:5500/index.html");
+
+    } catch (error) {
+
+        console.error("Steam callback error:", error);
+
+        res.status(500).json({
+
+            success: false,
+
+            message: error.message
+
+        });
+
+    }
 
 }
