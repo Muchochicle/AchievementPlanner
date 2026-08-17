@@ -1,0 +1,51 @@
+/* Shared primary-action button treatment, mirroring the existing
+   .steam-login-btn visual language (navbar.css) rather than introducing a
+   new one. .planner-btn (catalog-card.css) is included directly here so it
+   gets this treatment without any markup/JS change - catalog-card.css keeps
+   only its own layout-specific rules (margin-top/width) for that button. */
+.btn-primary,
+.planner-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:var(--primary);
+
+    color:var(--on-primary);
+
+    font-weight:700;
+
+    font-size:.9rem;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.btn-primary:hover,
+.planner-btn:hover{
+
+    filter:brightness(1.08);
+
+    transform:translateY(-1px);
+
+}
+
+.btn-primary:focus-visible,
+.planner-btn:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
