@@ -1,55 +1,74 @@
 import { createSteamAchievementCard } from "../steam-achievement-card/steam-achievement-card.js";
+import { createAchievementFilters } from "../achievement-filters/achievement-filters.js";
+import { getMergedAchievementStats } from "../../utils/planner/achievement/completion.js";
 
-export function createSteamAchievementList(game, session) {
+export function createSteamAchievementList(game, session, slug) {
 
-    if (!game.steamAchievements?.available) {
+    const merged = game.mergedAchievements;
 
-        return "";
-
-    }
-
-    const entries = (game.mergedAchievements?.achievements ?? [])
-        .filter(entry => entry.steam);
+    const entries = merged?.achievements ?? [];
 
     if (!entries.length) {
 
-        return "";
+        return `
+
+            <section class="steam-achievement-list">
+
+                <div class="steam-achievement-list-header">
+
+                    <h2>Steam Achievements</h2>
+
+                </div>
+
+                <p class="achievement-empty">
+
+                    Achievement list coming soon...
+
+                </p>
+
+            </section>
+
+        `;
 
     }
 
-    const unlockedCount = entries.filter(
-        entry => entry.steamUnlock?.achieved
-    ).length;
+    const { total, completed } = getMergedAchievementStats(game, slug);
 
     let statusLine;
 
-    if (game.mergedAchievements.playerDataAvailable) {
+    if (!merged.steamDataAvailable) {
+
+        statusLine = `
+            ${total} achievements tracked for this game.
+        `;
+
+    } else if (merged.playerDataAvailable) {
 
         statusLine = `
             Unlocked:
-            <strong>${unlockedCount}</strong>
+            <strong>${completed}</strong>
             /
-            <strong>${entries.length}</strong>
+            <strong>${total}</strong>
         `;
 
     } else if (session?.logged) {
 
         statusLine = `
-            ${entries.length} achievements tracked by Steam.
+            ${total} achievements tracked by Steam.
             Personal unlock status is unavailable right now.
         `;
 
     } else {
 
         statusLine = `
-            ${entries.length} achievements tracked by Steam.
+            ${total} achievements tracked by Steam.
             Log in with Steam to see your unlock status.
         `;
 
     }
 
     const cards = entries
-        .map(entry => createSteamAchievementCard(entry))
+        .map(entry => createSteamAchievementCard(entry, merged, slug))
         .join("");
 
     return `
@@ -63,6 +82,8 @@ export function createSteamAchievementList(game, session) {
                 <p class="steam-achievement-list-description">
                     ${statusLine}
                 </p>
+
+                ${createAchievementFilters()}
 
             </div>
 

@@ -1,26 +1,33 @@
 export function applyFilter(filter) {
 
-    const cards = document.querySelectorAll(".achievement-card");
+    const cards = document.querySelectorAll(".steam-achievement-card");
 
     cards.forEach(card => {
 
-        const checked = card.querySelector(
+        // Matched entries have a live checkbox (source of truth for the
+        // manual XP-claim state); Steam-only entries have none and fall
+        // back to the resolved completion baked in at render time.
+        const checkbox = card.querySelector(
             ".achievement-check input"
-        ).checked;
+        );
+
+        const completed = checkbox
+            ? checkbox.checked
+            : card.dataset.completed === "true";
 
         switch (filter) {
 
             case "completed":
 
                 card.style.display =
-                    checked ? "flex" : "none";
+                    completed ? "flex" : "none";
 
                 break;
 
             case "pending":
 
                 card.style.display =
-                    checked ? "none" : "flex";
+                    completed ? "none" : "flex";
 
                 break;
 
