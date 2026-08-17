@@ -8,6 +8,11 @@ import {
     createProfileStats
 
 } from "../profile-stats/profile-stats.js";
+import {
+
+    createProfileBadges
+
+} from "../profile-badges/profile-badges.js";
 
 export function createProfilePage() {
 
@@ -18,6 +23,8 @@ export function createProfilePage() {
             ${createProfileHeader()}
 
             ${createProfileStats()}
+
+            ${createProfileBadges()}
 
             <div id="profile-sections"></div>
 

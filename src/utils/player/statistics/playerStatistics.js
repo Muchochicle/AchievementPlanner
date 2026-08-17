@@ -35,9 +35,7 @@ export function getPlayerStatistics() {
 
         games: getPlayedGames(),
 
-        completedGames: getCompletedGames(),
-
-        streak: 0
+        completedGames: getCompletedGames()
 
     };
 

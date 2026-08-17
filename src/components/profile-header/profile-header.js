@@ -124,7 +124,11 @@ export function createProfileHeader(
 
             </div>
         `
-        : "";
+        : `
+            <p class="profile-steam-identity profile-steam-identity-empty">
+                Not connected to Steam
+            </p>
+        `;
 
     return `
 
@@ -146,37 +150,61 @@ export function createProfileHeader(
 
                 <h1>${player.title}</h1>
 
-                <p>Level ${player.level}</p>
+                <p class="profile-level">Level ${player.level}</p>
 
-                <select
+                <div class="profile-avatar-picker">
 
-                    id="avatar-selector"
+                    <label for="avatar-selector">Avatar</label>
 
-                    class="avatar-selector"
+                    <select
 
-                >
+                        id="avatar-selector"
 
-                    ${avatarOptions}
+                        class="avatar-selector"
 
-                </select>
+                    >
 
-                <div class="profile-xp">
+                        ${avatarOptions}
 
-                    <div
-
-                        class="profile-xp-fill"
-
-                        style="width:${progress}%"
-
-                    ></div>
+                    </select>
 
                 </div>
 
-                <small>
+                <div class="profile-xp-row">
 
-                    ${player.xp} / ${requiredXP} XP
+                    <div
 
-                </small>
+                        class="progress-bar"
+
+                        role="progressbar"
+
+                        aria-valuemin="0"
+
+                        aria-valuemax="${requiredXP}"
+
+                        aria-valuenow="${player.xp}"
+
+                        aria-label="Experience progress toward next level"
+
+                    >
+
+                        <div
+
+                            class="progress-fill"
+
+                            style="width:${progress}%"
+
+                        ></div>
+
+                    </div>
+
+                    <small>
+
+                        ${player.xp} / ${requiredXP} XP
+
+                    </small>
+
+                </div>
 
             </div>
 

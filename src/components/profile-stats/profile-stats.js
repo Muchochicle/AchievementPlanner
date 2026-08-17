@@ -44,11 +44,11 @@ export function createProfileStats() {
 
             <div class="profile-stat-card">
 
-                <h2>🔥</h2>
+                <h2>✨</h2>
 
-                <strong>${stats.streak ?? 0}</strong>
+                <strong>${stats.totalXP ?? 0}</strong>
 
-                <span>Day Streak</span>
+                <span>Total XP</span>
 
             </div>
 
