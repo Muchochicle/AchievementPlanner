@@ -2,7 +2,6 @@ import { getGame } from "../utils/gameService.js";
 
 import { createGameHeader } from "../components/game-header/game-header.js";
 import { createGameOverview } from "../components/game-overview/game-overview.js";
-import { createProgress } from "../components/progress/progress.js";
 import { createPlannerStats } from "../components/planner-stats/planner-stats.js";
 import { createSteamAchievementList } from "../components/steam-achievement-list/steam-achievement-list.js";
 import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
@@ -14,8 +13,6 @@ import { updatePlannerStats } from "../utils/planner/stats.js";
 import { saveProgress } from "../utils/planner/storage.js";
 
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
-import { createPlayerProfile } from "../components/player-profile/player-profile.js";
-import { equipAvatar } from "../utils/player/avatar/avatarManager.js";
 import { getSteamSession } from "../utils/steam/steamSession.js";
 import { CONFIG } from "../config.js";
 
@@ -103,7 +100,7 @@ async function init() {
 
                 container.innerHTML =
 
-                    createGameHeader(game) +
+                    createGameHeader(game, hoursPlayed) +
 
                     createSteamAchievementList(game, session);
 
@@ -151,9 +148,7 @@ async function init() {
 
                 +
 
-            createPlayerProfile(session, hoursPlayed) +
-
-            createGameHeader(game) +
+            createGameHeader(game, hoursPlayed) +
 
             createGameOverview(game) +
 
@@ -164,8 +159,6 @@ async function init() {
             ) +
 
             `<div id="session-container"></div>` +
-
-            createProgress(game) +
 
             createPlannerStats() +
 
@@ -225,25 +218,6 @@ async function init() {
             });
 
         function refresh() {
-
-            document.querySelector(".player-profile").outerHTML =
-                createPlayerProfile(session, hoursPlayed);
-
-            const avatarSelector =
-
-                document.getElementById("avatar-selector");
-
-            if (avatarSelector) {
-
-                avatarSelector.onchange = event => {
-
-                    equipAvatar(event.target.value);
-
-                    refresh();
-
-                };
-
-            }
 
             updateProgress(game);
 

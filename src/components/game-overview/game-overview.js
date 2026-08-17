@@ -22,14 +22,6 @@ export function createGameOverview(game) {
 
             <div class="overview-card">
 
-                <span>🏆 Achievements</span>
-
-                <strong>${game.mergedAchievements?.achievements?.length ?? game.achievements.length}</strong>
-
-            </div>
-
-            <div class="overview-card">
-
                 <span>🎯 Missables</span>
 
                 <strong>${game.missable ? "Yes" : "No"}</strong>
