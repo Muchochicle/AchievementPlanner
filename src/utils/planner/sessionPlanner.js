@@ -13,6 +13,13 @@ export function createSession(game, targetMinutes = 45) {
 
     if (currentSession) {
 
+        const merged = game.mergedAchievements;
+
+        // Re-filter on every read, even from cache: an achievement Steam
+        // has since confirmed complete must never keep appearing in an
+        // already-generated session. Pending (not yet confirmed) entries
+        // are left untouched - only a confirmed steamUnlock.achieved
+        // removes something here.
         return currentSession
             .map(id =>
                 game.achievements.find(
@@ -20,7 +27,14 @@ export function createSession(game, targetMinutes = 45) {
                         achievement.id === id
                 )
             )
-            .filter(Boolean);
+            .filter(Boolean)
+            .filter(achievement => {
+
+                const entry = findMergedEntry(game, achievement.id);
+
+                return entry ? !isEntryCompleted(merged, entry) : true;
+
+            });
 
     }
 

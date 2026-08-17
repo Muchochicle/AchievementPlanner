@@ -47,6 +47,13 @@ import {
 
 } from "../utils/planner/achievement/achievementManager.js";
 
+// Steam is the only source of truth for completion - this timer just
+// re-runs the existing getGame -> syncAchievementCompletion ->
+// saveProgress -> refresh pipeline on a schedule so the UI notices a
+// Steam-side unlock without a page reload. It never checks Steam
+// directly and never grants completion itself.
+const POLL_INTERVAL_MS = 60 * 1000;
+
 async function init() {
 
     loadNavbar();
@@ -83,7 +90,7 @@ async function init() {
 
     try {
 
-        const game = await getGame(slug);
+        let game = await getGame(slug);
 
         const hoursPlayed = game.playtime ?? 0;
 
@@ -188,7 +195,11 @@ async function init() {
 
         }
 
+        let pollTimer = null;
+
         refresh();
+
+        startPolling();
 
         document
             .getElementById("session-duration")
@@ -313,6 +324,83 @@ async function init() {
                 createSessionPlanner(session, game);
 
         }
+
+        // Re-fetches this game from our own backend (never Steam
+        // directly) and runs it through the exact same pipeline used at
+        // page load. syncAchievementCompletion/checkGameCompletion are
+        // already idempotent, so a poll that finds nothing new is a
+        // harmless no-op, and one that finds a genuine Steam unlock
+        // grants XP/completion exactly once.
+        async function pollSteamUpdates() {
+
+            try {
+
+                game = await getGame(slug);
+
+                syncAchievementCompletion(game, slug);
+
+                saveProgress(game, slug);
+
+                refresh();
+
+            } catch (error) {
+
+                console.error(
+                    "Unable to refresh Steam achievement data:",
+                    error
+                );
+
+            }
+
+        }
+
+        function startPolling() {
+
+            if (pollTimer) {
+
+                return;
+
+            }
+
+            pollTimer = setInterval(
+                pollSteamUpdates,
+                POLL_INTERVAL_MS
+            );
+
+        }
+
+        function stopPolling() {
+
+            if (!pollTimer) {
+
+                return;
+
+            }
+
+            clearInterval(pollTimer);
+
+            pollTimer = null;
+
+        }
+
+        document.addEventListener(
+            "visibilitychange",
+            () => {
+
+                if (document.hidden) {
+
+                    stopPolling();
+
+                } else {
+
+                    startPolling();
+
+                    pollSteamUpdates();
+
+                }
+
+            }
+        );
 
     }
 

@@ -9,6 +9,11 @@ import {
     resetSession
 } from "./sessionPlanner.js";
 
+import {
+    findMergedEntry,
+    isEntryCompleted
+} from "./achievement/completion.js";
+
 export function getSession(
     game,
     slug,
@@ -20,6 +25,12 @@ export function getSession(
 
     if (stored) {
 
+        const merged = game.mergedAchievements;
+
+        // Same re-filter as sessionPlanner.js's in-memory cache: a
+        // previously-stored session must not keep showing an achievement
+        // Steam has since confirmed complete. Pending entries pass
+        // through untouched.
         return stored
             .map(id =>
                 game.achievements.find(
@@ -27,7 +38,14 @@ export function getSession(
                         achievement.id === id
                 )
             )
-            .filter(Boolean);
+            .filter(Boolean)
+            .filter(achievement => {
+
+                const entry = findMergedEntry(game, achievement.id);
+
+                return entry ? !isEntryCompleted(merged, entry) : true;
+
+            });
 
     }
 
