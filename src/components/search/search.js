@@ -1,13 +1,12 @@
-import { getGamesIndex } from "../../utils/gameService.js";
-
-export async function createSearch() {
+// games is the already-fetched catalog index - the caller (app.js) already
+// requested it for the Popular Games grid, so this reuses that instead of
+// issuing a second /api/games request for the same data on the same load.
+export function createSearch(games) {
 
     const searchInput = document.querySelector(".hero input");
     const results = document.querySelector(".search-results");
 
     if (!searchInput || !results) return;
-
-    const games = await getGamesIndex();
 
     searchInput.addEventListener("input", (event) => {
 

@@ -17,6 +17,11 @@ import {
     checkPlayerUnlocks
 
 } from "./playerProgress.js";
+import {
+
+    safeParseJSON
+
+} from "../storage/safeJson.js";
 
 const STORAGE_KEY = "achievement-planner-player";
 
@@ -57,13 +62,17 @@ export function getPlayer() {
 
     const data = localStorage.getItem(STORAGE_KEY);
 
-    const player = data
-        ? JSON.parse(data)
-        : { ...DEFAULT_PLAYER };
+    const player = safeParseJSON(
+        data,
+        { ...DEFAULT_PLAYER },
+        STORAGE_KEY
+    );
 
     player.claimedAchievements ??= [];
 
     player.claimedGames ??= [];
+
+    player.badges ??= [];
 
     player.totalXP ??= 0;
 

@@ -10,6 +10,12 @@ export function createSessionDuration(selected = 45) {
 
             </h2>
 
+            <label for="session-duration" class="sr-only">
+
+                Session length
+
+            </label>
+
             <select id="session-duration">
 
                 <option value="30" ${selected === 30 ? "selected" : ""}>

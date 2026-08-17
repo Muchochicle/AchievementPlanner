@@ -4,6 +4,11 @@ import {
     DEFAULT_INVENTORY
 
 } from "../../../data/player/inventory/inventory.js";
+import {
+
+    safeParseJSON
+
+} from "../../storage/safeJson.js";
 
 const STORAGE_KEY =
 
@@ -19,17 +24,15 @@ export function getInventory() {
 
         );
 
-    const inventory =
+    const inventory = safeParseJSON(
 
-            data
+        data,
 
-                ? JSON.parse(data)
+        structuredClone(DEFAULT_INVENTORY),
 
-                : structuredClone(
+        STORAGE_KEY
 
-                    DEFAULT_INVENTORY
-
-                );
+    );
 
         if (
 

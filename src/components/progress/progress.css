@@ -1,7 +1,8 @@
 /* progress.js was removed in Phase 25 (superseded by the compact game
-   header in Phase 23). These two rules remain because game-header.js
-   and profile-header.js (Phase 26) both reuse the .progress-bar /
-   .progress-fill classes for their own progress bars. */
+   header in Phase 23). These two rules remain because game-header.js,
+   profile-header.js (Phase 26), and session-planner.js (Phase 28) all
+   reuse the .progress-bar / .progress-fill classes for their own
+   progress bars. */
 
 .progress-bar{
 

@@ -94,6 +94,8 @@ async function init() {
 
         let game = await getGame(slug);
 
+        document.title = `${game.name} • Achievement Planner`;
+
         const hoursPlayed = game.playtime ?? 0;
 
         const container =

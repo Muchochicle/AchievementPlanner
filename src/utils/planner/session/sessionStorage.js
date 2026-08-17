@@ -1,13 +1,17 @@
+import {
+
+    safeParseJSON
+
+} from "../../storage/safeJson.js";
+
 export function loadSession(slug) {
 
-    const data =
-        localStorage.getItem(
-            `session-${slug}`
-        );
+    const key = `session-${slug}`;
 
-    return data
-        ? JSON.parse(data)
-        : null;
+    const data =
+        localStorage.getItem(key);
+
+    return safeParseJSON(data, null, key);
 
 }
 

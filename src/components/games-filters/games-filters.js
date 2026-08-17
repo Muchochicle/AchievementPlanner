@@ -7,6 +7,7 @@ export function createGamesFilters() {
             <input
                 class="games-search"
                 type="text"
+                aria-label="Search games"
                 placeholder="🔍 Search games..."
             >
 

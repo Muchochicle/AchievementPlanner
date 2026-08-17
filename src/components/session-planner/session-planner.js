@@ -97,11 +97,25 @@ export function createSessionPlanner(session, game) {
 
             </div>
 
-            <div class="session-progress">
+            <div
+
+                class="progress-bar"
+
+                role="progressbar"
+
+                aria-valuemin="0"
+
+                aria-valuemax="${session.length}"
+
+                aria-valuenow="${completed}"
+
+                aria-label="Session progress"
+
+            >
 
                 <div
 
-                    class="session-progress-fill"
+                    class="progress-fill"
 
                     style="width:${progress}%"
 

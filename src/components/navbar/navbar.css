@@ -123,7 +123,8 @@ nav a{
 
 }
 
-nav a:hover{
+nav a:hover,
+nav a.active{
 
     color:var(--primary);
 
