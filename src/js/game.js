@@ -241,7 +241,7 @@ async function init() {
 
             }
 
-            updateProgress();
+            updateProgress(game, slug);
 
             updatePlannerStats(game);
 

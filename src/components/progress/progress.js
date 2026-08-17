@@ -1,6 +1,8 @@
 export function createProgress(game) {
 
-    const total = game.achievements.length;
+    const total =
+        game.mergedAchievements?.achievements?.length ??
+        game.achievements.length;
 
     return `
 

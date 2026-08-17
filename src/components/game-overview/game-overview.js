@@ -24,7 +24,7 @@ export function createGameOverview(game) {
 
                 <span>🏆 Achievements</span>
 
-                <strong>${game.achievements.length}</strong>
+                <strong>${game.mergedAchievements?.achievements?.length ?? game.achievements.length}</strong>
 
             </div>
 
