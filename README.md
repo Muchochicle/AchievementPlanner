@@ -9,6 +9,6 @@ Primary font:
 Inter.
 
 Primary color:
-#3EA6FF
+#38BDF8
 # AchievementPlanner
 Steam achievement planner application

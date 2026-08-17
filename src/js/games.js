@@ -91,7 +91,7 @@ async function init() {
 
                         </span>
 
-                        <button>
+                        <button aria-label="Remove filter">
 
                             ×
 
