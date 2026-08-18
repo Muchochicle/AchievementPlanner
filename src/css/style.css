@@ -125,11 +125,36 @@
     text-decoration:underline;
 
 }
+
+/* Generic honest loading/empty/error text - never styled to look like
+   real content, used wherever a section has nothing reliable to show. */
+.state-message{
+
+    text-align:center;
+
+    color:var(--text-secondary);
+
+    padding:var(--spacing-md);
+
+}
 body{
 
     background:var(--background);
     color:var(--text);
 
     padding-top:110px;
+
+}
+
+/* Matches the stacked mobile navbar layout in navbar.css - that layout
+   is taller than the fixed desktop navbar, so the fixed-position offset
+   needs to grow with it or page content renders underneath it. */
+@media (max-width:640px){
+
+    body{
+
+        padding-top:190px;
+
+    }
 
 }

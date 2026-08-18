@@ -54,12 +54,14 @@ export function createCatalogCard(game) {
             class="${cardClass}"
             data-slug="${game.slug}"
             tabindex="0"
+            role="link"
+            aria-label="${game.title}${owned ? "" : " (not owned)"} - View planner"
         >
 
             <img
                 class="catalog-image"
                 src="${game.image}"
-                alt="${game.title}"
+                alt=""
             >
 
             ${ownedBadge}

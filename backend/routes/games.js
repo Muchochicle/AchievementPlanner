@@ -4,7 +4,8 @@ import {
     getOwnedGames,
     getSchemaForGame,
     getGlobalAchievementPercentages,
-    getPlayerAchievements
+    getPlayerAchievements,
+    getCurrentPlayerCount
 } from "../services/steamApi.js";
 
 import {
@@ -21,40 +22,51 @@ import {
 
 import { mergeAchievements } from "../utils/achievementMerger.js";
 
+import { selectPopularGames } from "../utils/popularGames.js";
+
 const router = express.Router();
+
+// Shared by "/" and "/popular" - the visitor's owned Steam games plus the
+// local catalog entries they don't own, exactly the same merge either
+// route needs before applying its own filtering/ranking on top.
+async function buildGamesList(req) {
+
+    const steamId = req.session.user?.steamid;
+
+    const library = steamId
+        ? await getOwnedGames(steamId)
+        : { games: [] };
+
+    const ownedGames = library.games
+
+        .map(mapSteamGameSafe)
+
+        .filter(Boolean);
+
+    const ownedSlugs = new Set(
+
+        ownedGames.map(game => game.slug)
+
+    );
+
+    // Planners locales que el usuario NO posee en Steam.
+    const catalogOnlyGames = getAllPlannerSlugs()
+
+        .filter(slug => !ownedSlugs.has(slug))
+
+        .map(mapPlannerOnlyGame)
+
+        .filter(Boolean);
+
+    return [...ownedGames, ...catalogOnlyGames];
+
+}
 
 router.get("/", async (req, res) => {
 
     try {
 
-        const steamId = req.session.user?.steamid;
-
-        const library = steamId
-            ? await getOwnedGames(steamId)
-            : { games: [] };
-
-        const ownedGames = library.games
-
-            .map(mapSteamGameSafe)
-
-            .filter(Boolean);
-
-        const ownedSlugs = new Set(
-
-            ownedGames.map(game => game.slug)
-
-        );
-
-        // Planners locales que el usuario NO posee en Steam.
-        const catalogOnlyGames = getAllPlannerSlugs()
-
-            .filter(slug => !ownedSlugs.has(slug))
-
-            .map(mapPlannerOnlyGame)
-
-            .filter(Boolean);
-
-        const games = [...ownedGames, ...catalogOnlyGames];
+        const games = await buildGamesList(req);
 
         res.json({
 
@@ -63,6 +75,62 @@ router.get("/", async (req, res) => {
             count: games.length,
 
             games
+
+        });
+
+    }
+
+    catch (error) {
+
+        res.status(500).json({
+
+            success: false,
+
+            message: error.message
+
+        });
+
+    }
+
+});
+
+// Ranks our own catalog by real, live Steam concurrent-player counts
+// (ISteamUserStats/GetNumberOfCurrentPlayers - official, unauthenticated).
+// Never a fabricated/internal popularity score - a game with no reliable
+// count is simply left out of the ranking, not shown with a fake value.
+router.get("/popular", async (req, res) => {
+
+    try {
+
+        const games = await buildGamesList(req);
+
+        const playerCounts = new Map(
+
+            await Promise.all(
+
+                games
+
+                    .filter(game => game.appid && game.appid > 0)
+
+                    .map(async game => [
+
+                        game.appid,
+
+                        await getCurrentPlayerCount(game.appid)
+
+                    ])
+
+            )
+
+        );
+
+        const popular = selectPopularGames(games, playerCounts);
+
+        res.json({
+
+            success: true,
+
+            games: popular
 
         });
 

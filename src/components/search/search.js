@@ -58,11 +58,14 @@ export function createSearch(games) {
                 <div
                     class="${itemClass}"
                     data-slug="${game.slug}"
+                    role="button"
+                    tabindex="0"
+                    aria-label="${game.title}${owned ? "" : " (not owned)"}"
                 >
 
                     <img
                         src="${game.image}"
-                        alt="${game.title}"
+                        alt=""
                     >
 
                     <div class="search-info">
@@ -87,12 +90,23 @@ export function createSearch(games) {
 
         document.querySelectorAll(".search-item").forEach(item => {
 
-            item.onclick = () => {
+            const goToGame = () => {
 
                 window.location.href =
                     `game.html?slug=${item.dataset.slug}`;
 
             };
+
+            item.onclick = goToGame;
+
+            item.addEventListener("keydown", event => {
+
+                if (event.key !== "Enter" && event.key !== " ") return;
+
+                event.preventDefault();
+                goToGame();
+
+            });
 
         });
 

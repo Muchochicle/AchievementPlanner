@@ -59,7 +59,7 @@ function createLoginButton() {
             href="${STEAM_LOGIN_URL}"
             class="steam-login-btn"
         >
-            Iniciar sesión con Steam
+            Log in with Steam
         </a>
 
     `;

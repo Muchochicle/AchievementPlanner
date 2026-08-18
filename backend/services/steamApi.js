@@ -7,6 +7,7 @@ const OWNED_GAMES_TTL_MS = 5 * 60 * 1000;
 const ACHIEVEMENT_SCHEMA_TTL_MS = 24 * 60 * 60 * 1000;
 const GLOBAL_PERCENTAGES_TTL_MS = 24 * 60 * 60 * 1000;
 const PLAYER_ACHIEVEMENTS_TTL_MS = 5 * 60 * 1000;
+const CURRENT_PLAYERS_TTL_MS = 2 * 60 * 60 * 1000;
 
 async function steamFetch(url) {
 
@@ -205,6 +206,48 @@ export async function getGlobalAchievementPercentages(appid) {
     setCached(cacheKey, achievements, GLOBAL_PERCENTAGES_TTL_MS);
 
     return achievements;
+
+}
+
+// Official, documented, unauthenticated Steam endpoint - used to rank our
+// own catalog's games by real, live Steam popularity (see
+// backend/utils/popularGames.js). Never fabricated: a failure here just
+// drops that game out of the ranking, same graceful-degradation approach
+// as the other calls in this file.
+export async function getCurrentPlayerCount(appid) {
+
+    const cacheKey = `current-players:${appid}`;
+
+    const cached = getCached(cacheKey);
+
+    if (cached !== undefined) {
+
+        return cached;
+
+    }
+
+    let count;
+
+    try {
+
+        const url =
+            `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${appid}`;
+
+        const data = await steamFetch(url);
+
+        count = data.response?.result === 1
+            ? data.response.player_count
+            : null;
+
+    } catch (error) {
+
+        count = null;
+
+    }
+
+    setCached(cacheKey, count, CURRENT_PLAYERS_TTL_MS);
+
+    return count;
 
 }
 

@@ -34,7 +34,15 @@ function loadCatalog() {
         try {
 
             const raw = fs.readFileSync(fullPath, "utf-8");
-            cache[slug] = JSON.parse(raw);
+            const data = JSON.parse(raw);
+
+            // Internal/development fixtures (e.g. the sandbox test game)
+            // must never reach a real user - exclude them here so every
+            // consumer of this catalog (getPlannerData, getAllPlannerSlugs,
+            // getPlannerDataByAppId) is unaware they exist.
+            if (!data.internal) {
+                cache[slug] = data;
+            }
 
         } catch (error) {
 

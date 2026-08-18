@@ -18,6 +18,27 @@ export async function getGamesIndex() {
 
 }
 
+// Never throws on a genuine "no reliable popularity data" outcome - the
+// backend already degrades that to an empty list rather than an error, so
+// callers only need to handle a real network/response failure here.
+export async function getPopularGames() {
+
+    const response = await fetch(`${API_URL}/popular`, {
+        credentials: "include"
+    });
+
+    if (!response.ok) {
+
+        throw new Error("Unable to load popular games.");
+
+    }
+
+    const data = await response.json();
+
+    return data.games;
+
+}
+
 export async function getGame(slug) {
 
     const response = await fetch(`${API_URL}/${slug}`, {

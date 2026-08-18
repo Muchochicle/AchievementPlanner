@@ -29,9 +29,13 @@
 
     display:flex;
 
+    flex-wrap:wrap;
+
     justify-content:space-between;
 
     align-items:flex-end;
+
+    gap:12px 24px;
 
     padding:18px 0;
 
@@ -53,7 +57,7 @@
 
     display:inline-block;
 
-    font-size:2rem;
+    font-size:clamp(1.4rem, 5vw, 2rem);
 
     font-weight:800;
 
@@ -107,7 +111,9 @@ nav{
 
     display:flex;
 
-    gap:28px;
+    flex-wrap:wrap;
+
+    gap:12px 28px;
 
 }
 
@@ -169,5 +175,38 @@ nav a.active{
     filter:brightness(1.08);
 
     transform:translateY(-1px);
+
+}
+
+/* Below this width the logo + 4 nav links + login/player widget no
+   longer fit on one row no matter how much they shrink - stack them
+   predictably instead of letting them wrap unpredictably. The matching
+   body padding-top override (style.css) accounts for the taller navbar
+   this produces. */
+@media (max-width:640px){
+
+    .navbar .container{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:14px;
+
+        padding:14px 0;
+
+    }
+
+    .navbar-right{
+
+        width:100%;
+
+    }
+
+    .steam-login-btn{
+
+        width:100%;
+
+    }
 
 }
