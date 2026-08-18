@@ -7,6 +7,18 @@ import {
 
 export function updatePlannerStats(game) {
 
+    if (!game.achievements?.length) {
+
+        document.getElementById("remaining-time").textContent = "- min";
+
+        document.getElementById("average-difficulty").textContent = "- / 5";
+
+        document.getElementById("missable-remaining").textContent = "-";
+
+        return;
+
+    }
+
     const merged = game.mergedAchievements;
 
     let remainingTime = 0;

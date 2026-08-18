@@ -8,15 +8,21 @@ export function createRecommendedAchievement(achievement) {
 
                 <div class="recommended-title">
 
-                    📋 No Achievements Yet
+                    📋 No Planner Data Yet
 
                 </div>
 
                 <h2>
 
-                    No achievements catalogued for this game yet.
+                    Curated achievements aren't available for this game yet.
 
                 </h2>
+
+                <p>
+
+                    You can still browse and track its Steam achievements below.
+
+                </p>
 
             </section>
 

@@ -64,12 +64,26 @@ async function init() {
 
     const slug = params.get("slug");
 
+    const container =
+        document.getElementById("game-content");
+
     if (!slug) {
 
-        window.location.href = "index.html";
+        container.innerHTML =
+            `<p class="state-message">No game selected. Redirecting to the homepage…</p>`;
+
+        setTimeout(() => {
+
+            window.location.href = "index.html";
+
+        }, 1800);
+
         return;
 
     }
+
+    container.innerHTML =
+        `<p class="state-message">Loading game…</p>`;
 
     clearSkippedAchievements();
 
@@ -97,9 +111,6 @@ async function init() {
         document.title = `${game.name} • Achievement Planner`;
 
         const hoursPlayed = game.playtime ?? 0;
-
-        const container =
-            document.getElementById("game-content");
 
         if (!game.hasPlanner) {
 
@@ -143,7 +154,7 @@ async function init() {
 
                         <button id="dev-reset-progress">
 
-                            🧪 Reset progreso
+                            🧪 Reset progress
 
                         </button>
 
@@ -411,6 +422,26 @@ async function init() {
     catch (error) {
 
         console.error(error);
+
+        const notFound = error.status === 404;
+
+        container.innerHTML = `
+
+            <div class="no-planner-message">
+
+                <h2>${notFound ? "Game not found" : "Something went wrong"}</h2>
+
+                <p>${notFound
+
+                    ? "We couldn't find this game in our catalog."
+
+                    : "We couldn't load this game right now. Please try again later."}</p>
+
+                <a href="games.html">Back to games</a>
+
+            </div>
+
+        `;
 
     }
 

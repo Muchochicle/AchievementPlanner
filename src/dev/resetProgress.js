@@ -6,7 +6,7 @@ export function resetDevelopmentProgress() {
 
         !confirm(
 
-            "¿Reiniciar TODO el progreso del desarrollo?"
+            "Reset ALL development progress?"
 
         )
 

@@ -47,7 +47,11 @@ export async function getGame(slug) {
 
     if (!response.ok) {
 
-        throw new Error(`Unable to load game: ${slug}`);
+        const error = new Error(`Unable to load game: ${slug}`);
+
+        error.status = response.status;
+
+        throw error;
 
     }
 

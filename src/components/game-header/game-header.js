@@ -60,7 +60,15 @@ export function createGameHeader(game, hoursPlayed = 0) {
 
                         </div>
 
-                        <div class="progress-bar">
+                        <div
+                            class="progress-bar"
+                            id="progress-bar"
+                            role="progressbar"
+                            aria-valuemin="0"
+                            aria-valuemax="${total}"
+                            aria-valuenow="${completed}"
+                            aria-label="Achievement completion progress"
+                        >
 
                             <div
                                 id="progress-fill"

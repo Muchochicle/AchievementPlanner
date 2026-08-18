@@ -7,6 +7,38 @@ import {
 
 export function createSessionPlanner(session, game) {
 
+    if (!game?.achievements?.length) {
+
+        return `
+
+            <section class="session-planner">
+
+                <div class="session-header">
+
+                    <div>
+
+                        <h2>
+
+                            🎯 Today's Session
+
+                        </h2>
+
+                        <p>
+
+                            Curated planner data isn't available for this game yet.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        `;
+
+    }
+
     const merged = game?.mergedAchievements;
 
     const isDone = achievement => {

@@ -16,4 +16,11 @@ export function updateProgress(game) {
     document.getElementById("progress-text").textContent =
         `${percentage}% completed`;
 
+    const progressBar =
+        document.getElementById("progress-bar");
+
+    progressBar.setAttribute("aria-valuemax", total);
+
+    progressBar.setAttribute("aria-valuenow", completed);
+
 }

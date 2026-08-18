@@ -60,7 +60,7 @@ export function createSteamAchievementCard(entry, merged) {
 
                 <div class="steam-achievement-top">
 
-                    <h4 class="steam-achievement-name">${steam.displayName}</h4>
+                    <h3 class="steam-achievement-name">${steam.displayName}</h3>
 
                     ${unlockBadge}
 
@@ -97,7 +97,7 @@ function createLocalOnlyCard(entry) {
 
                 <div class="steam-achievement-top">
 
-                    <h4 class="steam-achievement-name">${ap.name}</h4>
+                    <h3 class="steam-achievement-name">${ap.name}</h3>
 
                     <span class="steam-achievement-badge steam-achievement-badge--locked">
                         Steam data unavailable
