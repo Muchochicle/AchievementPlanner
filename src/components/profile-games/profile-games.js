@@ -41,6 +41,16 @@ function renderGroup(title, games, emptyText) {
 
 }
 
+const CURATION_NOTE = `
+
+    <p class="profile-games-note">
+
+        Shows progress for games with curated planner data. Other games aren't tracked here yet.
+
+    </p>
+
+`;
+
 export function createProfileGames({ completed = [], inProgress = [] } = {}) {
 
     if (!completed.length && !inProgress.length) {
@@ -50,6 +60,8 @@ export function createProfileGames({ completed = [], inProgress = [] } = {}) {
             <section class="profile-games">
 
                 <h2>Your Games</h2>
+
+                ${CURATION_NOTE}
 
                 <p class="profile-games-empty">
 
@@ -68,6 +80,8 @@ export function createProfileGames({ completed = [], inProgress = [] } = {}) {
         <section class="profile-games">
 
             <h2>Your Games</h2>
+
+            ${CURATION_NOTE}
 
             ${renderGroup(
                 "Completed",

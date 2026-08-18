@@ -135,6 +135,9 @@ async function init() {
 
         }
 
+        container.innerHTML =
+            `<p class="state-message">Loading your games…</p>`;
+
         try {
 
             const index = await getGamesIndex();
@@ -174,34 +177,15 @@ async function init() {
 
             };
 
-            container.onkeydown = event => {
-
-                if (event.key !== "Enter") {
-
-                    return;
-
-                }
-
-                const card =
-                    event.target.closest(".catalog-card");
-
-                if (!card) {
-
-                    return;
-
-                }
-
-                window.location.href =
-                    `game.html?slug=${card.dataset.slug}`;
-
-            };
-
         } catch (error) {
 
             console.error(
                 "Unable to load game progress:",
                 error
             );
+
+            container.innerHTML =
+                `<p class="state-message">We couldn't load your game progress right now. Please try again later.</p>`;
 
         }
 
