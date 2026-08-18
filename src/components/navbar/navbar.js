@@ -10,8 +10,10 @@ import {
     createPlayerWidget
 } from "../player-widget/player-widget.js";
 
+import { ENV } from "../../env.js";
+
 const STEAM_LOGIN_URL =
-    "http://localhost:3000/auth/steam/login";
+    `${ENV.API_BASE_URL}/auth/steam/login`;
 
 export function createNavbar(
     session = {

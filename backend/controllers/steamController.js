@@ -106,7 +106,9 @@ export async function callback(req, res) {
 
         };
 
-        res.redirect("http://localhost:5500/index.html");
+        const frontendUrl = (process.env.FRONTEND_URL ?? "http://localhost:5500").replace(/\/+$/, "");
+
+        res.redirect(`${frontendUrl}/index.html`);
 
     } catch (error) {
 

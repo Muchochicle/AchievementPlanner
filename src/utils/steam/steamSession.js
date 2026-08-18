@@ -1,7 +1,9 @@
+import { ENV } from "../../env.js";
+
 export async function getSteamSession() {
 
     const response = await fetch(
-        "http://localhost:3000/api/me",
+        `${ENV.API_BASE_URL}/api/me`,
         {
             credentials: "include"
         }

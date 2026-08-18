@@ -33,10 +33,20 @@ if (missingEnvVars.length > 0) {
 
 const app = express();
 
-const ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5500",
-    "http://localhost:5500"
-];
+// Only trust the reverse proxy's forwarded-proto header when explicitly
+// configured - required for COOKIE_SECURE=true to work correctly behind a
+// TLS-terminating load balancer, but must stay off by default so a plain
+// local connection is never misread as already being HTTPS.
+if (process.env.TRUST_PROXY === "true") {
+
+    app.set("trust proxy", 1);
+
+}
+
+const ALLOWED_ORIGINS = (process.env.CORS_ORIGIN ?? "http://127.0.0.1:5500,http://localhost:5500")
+    .split(",")
+    .map(origin => origin.trim())
+    .filter(Boolean);
 
 app.use(cors({
     origin: ALLOWED_ORIGINS,
@@ -49,7 +59,7 @@ app.use(session({
     saveUninitialized: false,
     cookie: {
         sameSite: "lax",
-        secure: false
+        secure: process.env.COOKIE_SECURE === "true"
     }
 }));
 

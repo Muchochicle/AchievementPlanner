@@ -1,4 +1,6 @@
-const API_URL = "http://localhost:3000/api/games";
+import { ENV } from "../env.js";
+
+const API_URL = `${ENV.API_BASE_URL}/api/games`;
 
 export async function getGamesIndex() {
 
