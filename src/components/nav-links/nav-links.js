@@ -18,23 +18,20 @@ export function createNavLinks() {
                 ${gamesIsActive ? 'aria-current="page"' : ""}
             >Games</a>
 
-            <a href="#">
-
+            <span class="nav-link-disabled" aria-disabled="true">
                 Guides
+                <span class="nav-link-soon">Soon</span>
+            </span>
 
-            </a>
-
-            <a href="#">
-
+            <span class="nav-link-disabled" aria-disabled="true">
                 Roadmap
+                <span class="nav-link-soon">Soon</span>
+            </span>
 
-            </a>
-
-            <a href="#">
-
+            <span class="nav-link-disabled" aria-disabled="true">
                 About
-
-            </a>
+                <span class="nav-link-soon">Soon</span>
+            </span>
 
         </nav>
 
