@@ -25,10 +25,13 @@ import {
 async function init() {
     loadNavbar();
 
-    try {
+    const gamesContainer =
+        document.getElementById("games-container");
 
-        const gamesContainer =
-            document.getElementById("games-container");
+    gamesContainer.innerHTML =
+        `<p class="state-message">Loading games…</p>`;
+
+    try {
 
         const index =
             await getGamesIndex();
@@ -207,33 +210,6 @@ async function init() {
     }
 );
 
-document.addEventListener(
-    "keydown",
-    event => {
-
-        if (
-            event.key !== "Enter"
-        ) {
-
-            return;
-
-        }
-
-        const card =
-            event.target.closest(".catalog-card");
-
-        if (!card) {
-
-            return;
-
-        }
-
-        window.location.href =
-            `game.html?slug=${card.dataset.slug}`;
-
-    }
-);
-
         const toggle =
             document.getElementById("filters-toggle");
 
@@ -242,7 +218,13 @@ document.addEventListener(
 
         toggle.addEventListener("click", () => {
 
-            panel.classList.toggle("open");
+            const isOpen =
+                panel.classList.toggle("open");
+
+            toggle.setAttribute(
+                "aria-expanded",
+                String(isOpen)
+            );
 
         });
 
@@ -265,6 +247,9 @@ document.addEventListener(
     catch (error) {
 
         console.error(error);
+
+        gamesContainer.innerHTML =
+            `<p class="state-message">We couldn't load the games catalog right now. Please try again later.</p>`;
 
     }
 

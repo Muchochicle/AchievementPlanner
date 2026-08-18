@@ -7,6 +7,8 @@ export function createCatalogFilters(genresHTML) {
             <button
                 class="filters-toggle"
                 id="filters-toggle"
+                aria-expanded="false"
+                aria-controls="filters-panel"
             >
 
                 ⚙ Filters

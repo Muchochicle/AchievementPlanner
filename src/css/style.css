@@ -44,10 +44,25 @@
 
 }
 
+.page-title{
+
+    font-size:2.2rem;
+    font-weight:800;
+    margin-bottom:8px;
+
+}
+
+.page-subtitle{
+
+    color:var(--text-secondary);
+    font-size:1.1rem;
+
+}
+
 #games-list{
 
     display:grid;
-    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));
     gap:28px;
 
 }
@@ -142,7 +157,7 @@ body{
     background:var(--background);
     color:var(--text);
 
-    padding-top:110px;
+    padding-top:150px;
 
 }
 

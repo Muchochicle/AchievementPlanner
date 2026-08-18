@@ -2,14 +2,18 @@ import { createCatalogCard } from "../components/catalog-card/catalog-card.js";
 
 export function renderGames(list, container) {
 
-    container.innerHTML = "";
+    if (!list.length) {
 
-    list.forEach(game => {
+        container.innerHTML =
+            `<p class="state-message">No games match your search or filters.</p>`;
 
-        container.innerHTML +=
-            createCatalogCard(game);
+        return;
 
-    });
+    }
+
+    container.innerHTML = list
+        .map(game => createCatalogCard(game))
+        .join("");
 
 }
 

@@ -16,27 +16,30 @@ export function createCatalogCard(game) {
 
         : `<span class="catalog-owned-badge">Not owned</span>`;
 
+    const hasDifficulty =
+        typeof game.difficulty === "number";
+
+    const hasCompletionTime =
+        typeof game.completionTime?.min === "number" &&
+        typeof game.completionTime?.max === "number";
+
+    const metaStats = [
+
+        hasDifficulty
+            ? `<span>⭐ ${game.difficulty}/10</span>`
+            : "",
+
+        hasCompletionTime
+            ? `<span>⏱ ${game.completionTime.min}-${game.completionTime.max} h</span>`
+            : ""
+
+    ].join("");
+
     const plannerInfo = hasPlanner
 
-        ? `
-
-            <div class="catalog-meta">
-
-                <span>
-
-                    ⭐ ${game.difficulty}/10
-
-                </span>
-
-                <span>
-
-                    ⏱ ${game.completionTime.min}-${game.completionTime.max} h
-
-                </span>
-
-            </div>
-
-        `
+        ? (metaStats
+            ? `<div class="catalog-meta">${metaStats}</div>`
+            : "")
 
         : `
 
@@ -48,14 +51,16 @@ export function createCatalogCard(game) {
 
         `;
 
+    // The card itself is not a focusable/interactive element - the button
+    // below is the single keyboard/screen-reader stop for this card, so
+    // there is no nested-interactive or redundant-tab-stop issue. Clicking
+    // anywhere on the card is still a mouse-only convenience handled by the
+    // page's click delegation, equivalent to activating the button.
     return `
 
         <article
             class="${cardClass}"
             data-slug="${game.slug}"
-            tabindex="0"
-            role="link"
-            aria-label="${game.title}${owned ? "" : " (not owned)"} - View planner"
         >
 
             <img
@@ -75,6 +80,7 @@ export function createCatalogCard(game) {
                 <button
                     class="planner-btn"
                     data-slug="${game.slug}"
+                    aria-label="View planner for ${game.title}${owned ? "" : " (not owned)"}"
                 >
 
                     View Planner
