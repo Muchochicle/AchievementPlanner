@@ -5,6 +5,8 @@ import {
     getOwnedGames
 } from "../services/steamApi.js";
 
+import { getProfileStats } from "../controllers/profileStatsController.js";
+
 const router = express.Router();
 
 router.get("/profile", async (req, res) => {
@@ -56,5 +58,7 @@ router.get("/profile", async (req, res) => {
     }
 
 });
+
+router.get("/profile/stats", getProfileStats);
 
 export default router;

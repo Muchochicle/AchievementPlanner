@@ -52,6 +52,18 @@ import {
 
 } from "../utils/player/statistics/helpers/games.js";
 
+import {
+
+    fetchProfileStats
+
+} from "../utils/player/statistics/profileStatsClient.js";
+
+import {
+
+    renderProfileStatsState
+
+} from "../components/profile-stats/profile-stats.js";
+
 async function init() {
 
     loadNavbar();
@@ -84,6 +96,8 @@ async function init() {
     refresh();
 
     loadGamesSection();
+
+    loadProfileStats();
 
     function refresh() {
 
@@ -188,6 +202,37 @@ async function init() {
                 `<p class="state-message">We couldn't load your game progress right now. Please try again later.</p>`;
 
         }
+
+    }
+
+    // Achievements/Games/100% are Steam-live now (see profileStatsClient.js)
+    // and intentionally independent of the rest of this page: a failed or
+    // unavailable aggregate must never block or hide the header, avatar
+    // picker, badges, or the games list above.
+    async function loadProfileStats() {
+
+        renderProfileStatsState({ status: "loading" });
+
+        if (!session.logged) {
+
+            renderProfileStatsState({ status: "logged-out" });
+
+            return;
+
+        }
+
+        const result = await fetchProfileStats();
+
+        if (result.status === "error") {
+
+            console.error(
+                "Unable to load profile statistics:",
+                result.error
+            );
+
+        }
+
+        renderProfileStatsState(result);
 
     }
 

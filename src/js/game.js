@@ -122,6 +122,16 @@ async function init() {
 
                     createSteamAchievementList(game, session);
 
+                // No curated planner for this game, but Steam still reports
+                // achievements - persist their resolved completion state so
+                // profile.html's statistics see it too (see storage.js).
+                // syncAchievementCompletion/checkGameCompletion are skipped
+                // here: both only grant XP/badges for curated (game.achievements)
+                // entries, which are always empty without a planner.
+                saveProgress(game, slug);
+
+                initAchievementFilters();
+
                 return;
 
             }

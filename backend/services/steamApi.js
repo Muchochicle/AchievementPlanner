@@ -292,3 +292,80 @@ export async function getPlayerAchievements(steamId, appid) {
     return achievements;
 
 }
+
+// Same endpoint as getPlayerAchievements above, but for callers (the
+// Profile aggregate) that need to tell Steam's own "no data for this
+// game" answer apart from a genuine request failure - getPlayerAchievements
+// deliberately collapses both into [] for the game page, which is fine at
+// 1-2 calls per page load but would silently misreport an unrelated
+// network hiccup as "Steam has no data" across an entire library scan.
+// Uses its own cache entry (never shares getPlayerAchievements' cache key)
+// so neither function's cached shape can corrupt the other's.
+export async function getPlayerAchievementsClassified(steamId, appid) {
+
+    const cacheKey = `player-achievements-classified:${steamId}:${appid}`;
+
+    const cached = getCached(cacheKey);
+
+    if (cached) {
+
+        return cached;
+
+    }
+
+    let result;
+
+    const controller = new AbortController();
+
+    const timeout = setTimeout(
+        () => controller.abort(),
+        REQUEST_TIMEOUT_MS
+    );
+
+    try {
+
+        const url =
+            `https://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v1/?key=${process.env.STEAM_API_KEY}&steamid=${steamId}&appid=${appid}`;
+
+        const response = await fetch(url, { signal: controller.signal });
+
+        // Unlike steamFetch, a non-ok status is NOT treated as a hard
+        // failure here - Steam answers "profile/game data is not public"
+        // with a real, parseable playerstats.success:false body on a 403,
+        // and that answer is exactly what this function exists to surface
+        // as "unavailable" rather than "transient".
+        const data = await response.json().catch(() => null);
+
+        if (data?.playerstats?.success) {
+
+            result = { achievements: data.playerstats.achievements ?? [], status: "available" };
+
+        } else if (data?.playerstats && data.playerstats.success === false) {
+
+            result = { achievements: [], status: "unavailable" };
+
+        } else {
+
+            // No parseable playerstats body at all - not Steam giving a
+            // real answer, so this is a request failure, not a decline.
+            result = { achievements: [], status: "transient" };
+
+        }
+
+    } catch (error) {
+
+        // Network failure, abort/timeout, or anything else that never
+        // reached a parseable response.
+        result = { achievements: [], status: "transient" };
+
+    } finally {
+
+        clearTimeout(timeout);
+
+    }
+
+    setCached(cacheKey, result, PLAYER_ACHIEVEMENTS_TTL_MS);
+
+    return result;
+
+}
