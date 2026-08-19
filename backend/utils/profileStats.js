@@ -18,19 +18,30 @@ const CONCURRENCY = 8;
 const PROFILE_STATS_TTL_MS = 5 * 60 * 1000;
 
 // Pure reduction: turns one settled result per game (Promise.allSettled
-// shape, see concurrencyLimiter.js) into the three Profile cards plus
+// shape, see concurrencyLimiter.js) into the Profile cards plus
 // availability metadata. No network, no cache, no wall-clock reads - the
 // entire aggregation rule lives here and only here, so it can be unit
 // tested with synthetic input independently of Steam ever being reachable.
-export function reduceProfileStats(settledResults) {
+//
+// slugs (optional) is a parallel array - slugs[i] is the game.slug that
+// produced settledResults[i] (see computeProfileStats). Passing it lets
+// this function also return which games are 100% complete (used by the
+// Profile "Your Games -> Completed" section) from the exact same
+// completion answer the "100%" stat card already uses, instead of a
+// second, independently-derived definition of "completed". Callers that
+// don't care about slugs (e.g. existing tests) can omit it entirely.
+export function reduceProfileStats(settledResults, slugs = []) {
 
     let achievements = 0;
-    let games = 0;
+    let gamesWithUnlockedAchievements = 0;
     let completedGames = 0;
     let gamesWithPlayerDataUnavailable = 0;
     let gamesWithTransientErrors = 0;
+    const completedGameSlugs = [];
 
-    for (const result of settledResults) {
+    for (let i = 0; i < settledResults.length; i++) {
+
+        const result = settledResults[i];
 
         if (result.status === "rejected") {
 
@@ -61,13 +72,21 @@ export function reduceProfileStats(settledResults) {
 
         if (completed > 0) {
 
-            games++;
+            gamesWithUnlockedAchievements++;
 
         }
 
         if (total > 0 && completed === total) {
 
             completedGames++;
+
+            const slug = slugs[i];
+
+            if (slug) {
+
+                completedGameSlugs.push(slug);
+
+            }
 
         }
 
@@ -76,11 +95,34 @@ export function reduceProfileStats(settledResults) {
     return {
 
         achievements,
-        games,
+        gamesWithUnlockedAchievements,
         completedGames,
+        completedGameSlugs,
         gamesConsidered: settledResults.length,
         gamesWithPlayerDataUnavailable,
         gamesWithTransientErrors
+
+    };
+
+}
+
+// Pure: derives the "owned"/"played" counts straight from Steam's raw
+// GetOwnedGames list (games[].playtime_forever, in minutes) - the same
+// data the profile stats controller already fetches before mapping, so
+// this adds zero Steam calls. Kept separate from reduceProfileStats
+// because it needs none of the achievement fan-out - it's a pure
+// property of the owned-games list itself.
+export function computeLibraryCounts(games) {
+
+    const list = games ?? [];
+
+    return {
+
+        gamesOwned: list.length,
+
+        gamesPlayed: list.filter(
+            game => (game?.playtime_forever ?? 0) > 0
+        ).length
 
     };
 
@@ -102,9 +144,11 @@ export async function computeProfileStats(steamId, ownedGames, fetchSummary = ge
         game => fetchSummary(steamId, game)
     );
 
+    const slugs = eligible.map(game => game.slug);
+
     return {
 
-        ...reduceProfileStats(settled),
+        ...reduceProfileStats(settled, slugs),
         generatedAt: new Date().toISOString()
 
     };

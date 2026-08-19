@@ -42,12 +42,6 @@ import {
 
 import {
 
-    getCompletedGameSlugs
-
-} from "../utils/player/statistics/helpers/completedGames.js";
-
-import {
-
     getInProgressGameSlugs
 
 } from "../utils/player/statistics/helpers/games.js";
@@ -95,9 +89,19 @@ async function init() {
 
     refresh();
 
-    loadGamesSection();
+    // Completed games and the stat cards both need the same live
+    // /api/profile/stats answer (it's the single source of truth for Steam
+    // completion - see profileStats.js reduceProfileStats). Starting one
+    // fetch here and sharing the Promise means both sections load
+    // concurrently, exactly like before, but the backend only computes the
+    // full-library scan once per page load.
+    const statsPromise = session.logged
+        ? fetchProfileStats()
+        : Promise.resolve({ status: "logged-out" });
 
-    loadProfileStats();
+    loadGamesSection(statsPromise);
+
+    loadProfileStats(statsPromise);
 
     function refresh() {
 
@@ -131,16 +135,23 @@ async function init() {
 
     }
 
-    async function loadGamesSection() {
+    // Completed: sourced from the live Steam-backed statsPromise (the same
+    // full-library scan behind the "100%" stat card), so a game the user
+    // 100%-completed in Steam but never opened on AchievementPlanner still
+    // shows up here. In Progress: still sourced from
+    // localStorage["planner-{slug}"] via getInProgressGameSlugs() -
+    // intentionally unchanged, since that data is only ever written by
+    // visiting a game's page (see storage.js saveProgress) and nothing
+    // today computes an equivalent "in progress" answer from the full
+    // library scan.
+    async function loadGamesSection(statsPromise) {
 
         const container =
             document.getElementById("profile-sections");
 
-        const completedSlugs = getCompletedGameSlugs();
-
         const inProgressSlugs = getInProgressGameSlugs();
 
-        if (!completedSlugs.length && !inProgressSlugs.length) {
+        if (!inProgressSlugs.length && !session.logged) {
 
             container.innerHTML =
                 createProfileGames({ completed: [], inProgress: [] });
@@ -154,7 +165,14 @@ async function init() {
 
         try {
 
-            const index = await getGamesIndex();
+            const [index, statsResult] = await Promise.all([
+                getGamesIndex(),
+                statsPromise
+            ]);
+
+            const completedSlugs = statsResult.status === "ready"
+                ? (statsResult.completedGameSlugs ?? [])
+                : [];
 
             const bySlug = new Map(
                 index.map(game => [game.slug, game])
@@ -209,7 +227,7 @@ async function init() {
     // and intentionally independent of the rest of this page: a failed or
     // unavailable aggregate must never block or hide the header, avatar
     // picker, badges, or the games list above.
-    async function loadProfileStats() {
+    async function loadProfileStats(statsPromise) {
 
         renderProfileStatsState({ status: "loading" });
 
@@ -221,7 +239,7 @@ async function init() {
 
         }
 
-        const result = await fetchProfileStats();
+        const result = await statsPromise;
 
         if (result.status === "error") {
 

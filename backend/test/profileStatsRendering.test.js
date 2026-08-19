@@ -20,7 +20,8 @@ function withStubbedDocument(run) {
 
     const elements = {
         "profile-stat-achievements": createElementStub(),
-        "profile-stat-games": createElementStub(),
+        "profile-stat-games-owned": createElementStub(),
+        "profile-stat-games-sub": createElementStub(),
         "profile-stat-completed-games": createElementStub(),
         "profile-stats-status": createElementStub()
     };
@@ -50,9 +51,12 @@ test("renderProfileStatsState renders the explicit ready state's numbers and hid
         renderProfileStatsState({
 
             status: "ready",
+            gamesOwned: 146,
+            gamesPlayed: 56,
             achievements: 1185,
-            games: 56,
+            gamesWithUnlockedAchievements: 56,
             completedGames: 3,
+            completedGameSlugs: ["hades", "hollow-knight", "portal-2"],
             gamesConsidered: 144,
             gamesWithPlayerDataUnavailable: 0,
             gamesWithTransientErrors: 0
@@ -60,7 +64,8 @@ test("renderProfileStatsState renders the explicit ready state's numbers and hid
         });
 
         assert.strictEqual(elements["profile-stat-achievements"].textContent, 1185);
-        assert.strictEqual(elements["profile-stat-games"].textContent, 56);
+        assert.strictEqual(elements["profile-stat-games-owned"].textContent, 146);
+        assert.strictEqual(elements["profile-stat-games-sub"].textContent, "56 played");
         assert.strictEqual(elements["profile-stat-completed-games"].textContent, 3);
         assert.strictEqual(elements["profile-stats-status"].hidden, true);
 
@@ -75,9 +80,12 @@ test("renderProfileStatsState's ready state shows the unavailable-games caveat w
         renderProfileStatsState({
 
             status: "ready",
+            gamesOwned: 146,
+            gamesPlayed: 56,
             achievements: 1185,
-            games: 56,
+            gamesWithUnlockedAchievements: 56,
             completedGames: 3,
+            completedGameSlugs: ["hades", "hollow-knight", "portal-2"],
             gamesConsidered: 144,
             gamesWithPlayerDataUnavailable: 24,
             gamesWithTransientErrors: 0

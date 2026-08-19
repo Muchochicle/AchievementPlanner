@@ -49,9 +49,11 @@ export function createProfileStats() {
 
                 <h2>🎮</h2>
 
-                <strong id="profile-stat-games">…</strong>
+                <strong id="profile-stat-games-owned">…</strong>
 
                 <span>Games</span>
+
+                <span class="profile-stat-sub" id="profile-stat-games-sub"></span>
 
             </div>
 
@@ -101,11 +103,12 @@ export function createProfileStats() {
 export function renderProfileStatsState(state) {
 
     const achievementsEl = document.getElementById("profile-stat-achievements");
-    const gamesEl = document.getElementById("profile-stat-games");
+    const gamesOwnedEl = document.getElementById("profile-stat-games-owned");
+    const gamesSubEl = document.getElementById("profile-stat-games-sub");
     const completedEl = document.getElementById("profile-stat-completed-games");
     const statusEl = document.getElementById("profile-stats-status");
 
-    if (!achievementsEl || !gamesEl || !completedEl || !statusEl) {
+    if (!achievementsEl || !gamesOwnedEl || !gamesSubEl || !completedEl || !statusEl) {
 
         return;
 
@@ -114,7 +117,8 @@ export function renderProfileStatsState(state) {
     if (state.status === "loading") {
 
         achievementsEl.textContent = "…";
-        gamesEl.textContent = "…";
+        gamesOwnedEl.textContent = "…";
+        gamesSubEl.textContent = "";
         completedEl.textContent = "…";
         statusEl.hidden = true;
 
@@ -125,7 +129,8 @@ export function renderProfileStatsState(state) {
     if (state.status === "logged-out") {
 
         achievementsEl.textContent = "–";
-        gamesEl.textContent = "–";
+        gamesOwnedEl.textContent = "–";
+        gamesSubEl.textContent = "";
         completedEl.textContent = "–";
         statusEl.hidden = false;
         statusEl.textContent = "Log in with Steam to see your achievement stats.";
@@ -137,7 +142,8 @@ export function renderProfileStatsState(state) {
     if (state.status === "error") {
 
         achievementsEl.textContent = "–";
-        gamesEl.textContent = "–";
+        gamesOwnedEl.textContent = "–";
+        gamesSubEl.textContent = "";
         completedEl.textContent = "–";
         statusEl.hidden = false;
         statusEl.textContent = "We couldn't load your Steam stats right now. Please try again later.";
@@ -149,7 +155,11 @@ export function renderProfileStatsState(state) {
     if (state.status === "ready") {
 
         achievementsEl.textContent = state.achievements;
-        gamesEl.textContent = state.games;
+        // "Games" is the actual Steam library size (owned), not the older
+        // "games with an unlocked achievement" figure - see
+        // state.gamesWithUnlockedAchievements if that's ever needed again.
+        gamesOwnedEl.textContent = state.gamesOwned;
+        gamesSubEl.textContent = `${state.gamesPlayed} played`;
         completedEl.textContent = state.completedGames;
 
         const unavailable =
@@ -161,7 +171,7 @@ export function renderProfileStatsState(state) {
             statusEl.hidden = false;
 
             statusEl.textContent =
-                `Steam didn't report data for ${unavailable} of your ${state.gamesConsidered} games - stats above may be incomplete.`;
+                `Steam didn't report achievement data for ${unavailable} of your ${state.gamesConsidered} games - achievement/completion stats above may be incomplete.`;
 
         } else {
 
@@ -176,7 +186,8 @@ export function renderProfileStatsState(state) {
     // Unknown/unexpected status - degrade to the same explicit failure
     // state as "error" rather than silently rendering undefined values.
     achievementsEl.textContent = "–";
-    gamesEl.textContent = "–";
+    gamesOwnedEl.textContent = "–";
+    gamesSubEl.textContent = "";
     completedEl.textContent = "–";
     statusEl.hidden = false;
     statusEl.textContent = "We couldn't load your Steam stats right now. Please try again later.";

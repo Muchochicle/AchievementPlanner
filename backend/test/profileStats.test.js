@@ -4,6 +4,7 @@ import assert from "node:assert";
 import {
     reduceProfileStats,
     computeProfileStats,
+    computeLibraryCounts,
     getProfileStatsCached
 } from "../utils/profileStats.js";
 
@@ -19,7 +20,7 @@ test("reduceProfileStats sums completed achievements across available games only
     const stats = reduceProfileStats(settled);
 
     assert.strictEqual(stats.achievements, 9);
-    assert.strictEqual(stats.games, 2);
+    assert.strictEqual(stats.gamesWithUnlockedAchievements, 2);
     assert.strictEqual(stats.completedGames, 1);
     assert.strictEqual(stats.gamesConsidered, 4);
     assert.strictEqual(stats.gamesWithPlayerDataUnavailable, 1);
@@ -36,8 +37,78 @@ test("reduceProfileStats: a game with zero unlocked achievements does not count 
     const stats = reduceProfileStats(settled);
 
     assert.strictEqual(stats.achievements, 0);
-    assert.strictEqual(stats.games, 0);
+    assert.strictEqual(stats.gamesWithUnlockedAchievements, 0);
     assert.strictEqual(stats.completedGames, 0);
+
+});
+
+test("reduceProfileStats: completedGameSlugs collects the slug of every 100%-complete game, in order, when slugs are provided", () => {
+
+    const settled = [
+        { status: "fulfilled", value: { total: 2, completed: 2, playerDataStatus: "available" } },
+        { status: "fulfilled", value: { total: 3, completed: 1, playerDataStatus: "available" } },
+        { status: "fulfilled", value: { total: 1, completed: 0, playerDataStatus: "unavailable" } },
+        { status: "fulfilled", value: { total: 4, completed: 4, playerDataStatus: "available" } }
+    ];
+
+    const slugs = ["hades", "hollow-knight", "portal-2", "no-mans-sky"];
+
+    const stats = reduceProfileStats(settled, slugs);
+
+    assert.deepStrictEqual(stats.completedGameSlugs, ["hades", "no-mans-sky"]);
+    assert.strictEqual(stats.completedGames, 2);
+
+});
+
+test("reduceProfileStats: completedGameSlugs is an empty array when no slugs are passed (backward-compatible call shape)", () => {
+
+    const settled = [
+        { status: "fulfilled", value: { total: 2, completed: 2, playerDataStatus: "available" } }
+    ];
+
+    const stats = reduceProfileStats(settled);
+
+    assert.deepStrictEqual(stats.completedGameSlugs, []);
+    assert.strictEqual(stats.completedGames, 1);
+
+});
+
+test("computeLibraryCounts: owned is the raw library length, played is games with any minutes of playtime", () => {
+
+    const games = [
+        { appid: 1, playtime_forever: 0 },
+        { appid: 2, playtime_forever: 45 },
+        { appid: 3, playtime_forever: 12000 },
+        { appid: 4 }
+    ];
+
+    const counts = computeLibraryCounts(games);
+
+    assert.strictEqual(counts.gamesOwned, 4);
+    assert.strictEqual(counts.gamesPlayed, 2);
+
+});
+
+test("computeLibraryCounts: games without Steam achievements still count toward owned/played", () => {
+
+    // No achievement-related fields at all - computeLibraryCounts must
+    // never look at achievements, only playtime_forever.
+    const games = [
+        { appid: 1, name: "No-achievements game", playtime_forever: 300 }
+    ];
+
+    const counts = computeLibraryCounts(games);
+
+    assert.strictEqual(counts.gamesOwned, 1);
+    assert.strictEqual(counts.gamesPlayed, 1);
+
+});
+
+test("computeLibraryCounts: an empty or missing library never throws", () => {
+
+    assert.deepStrictEqual(computeLibraryCounts([]), { gamesOwned: 0, gamesPlayed: 0 });
+    assert.deepStrictEqual(computeLibraryCounts(undefined), { gamesOwned: 0, gamesPlayed: 0 });
+    assert.deepStrictEqual(computeLibraryCounts(null), { gamesOwned: 0, gamesPlayed: 0 });
 
 });
 
@@ -49,7 +120,7 @@ test("reduceProfileStats: a game with zero total achievements never counts as 10
 
     const stats = reduceProfileStats(settled);
 
-    assert.strictEqual(stats.games, 0);
+    assert.strictEqual(stats.gamesWithUnlockedAchievements, 0);
     assert.strictEqual(stats.completedGames, 0);
 
 });
@@ -101,6 +172,32 @@ test("computeProfileStats filters out games with no real appid before fetching",
     assert.deepStrictEqual(seen, [10]);
     assert.strictEqual(stats.gamesConsidered, 1);
     assert.ok(stats.generatedAt, "should stamp when the result was computed");
+
+});
+
+test("computeProfileStats threads each owned game's slug through to completedGameSlugs for 100%-complete games only", async () => {
+
+    const ownedGames = [
+        { appid: 10, slug: "complete-game" },
+        { appid: 20, slug: "in-progress-game" },
+        { appid: 0, slug: "no-appid-game" }
+    ];
+
+    const fetchSummary = async (steamId, game) => {
+
+        if (game.slug === "complete-game") {
+
+            return { total: 2, completed: 2, playerDataStatus: "available" };
+
+        }
+
+        return { total: 2, completed: 1, playerDataStatus: "available" };
+
+    };
+
+    const stats = await computeProfileStats("steamid", ownedGames, fetchSummary);
+
+    assert.deepStrictEqual(stats.completedGameSlugs, ["complete-game"]);
 
 });
 

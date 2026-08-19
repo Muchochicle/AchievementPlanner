@@ -46,9 +46,12 @@ export async function fetchProfileStats() {
     return {
 
         status: "ready",
+        gamesOwned: data.gamesOwned,
+        gamesPlayed: data.gamesPlayed,
         achievements: data.achievements,
-        games: data.games,
+        gamesWithUnlockedAchievements: data.gamesWithUnlockedAchievements,
         completedGames: data.completedGames,
+        completedGameSlugs: data.completedGameSlugs,
         gamesConsidered: data.gamesConsidered,
         gamesWithPlayerDataUnavailable: data.gamesWithPlayerDataUnavailable,
         gamesWithTransientErrors: data.gamesWithTransientErrors
