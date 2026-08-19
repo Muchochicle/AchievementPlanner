@@ -1,4 +1,5 @@
 const GAMES_SECTION_PAGES = ["games.html", "game.html"];
+const PODIUMS_SECTION_PAGES = ["podiums.html"];
 
 export function createNavLinks() {
 
@@ -7,6 +8,9 @@ export function createNavLinks() {
 
     const gamesIsActive =
         GAMES_SECTION_PAGES.includes(currentPage);
+
+    const podiumsIsActive =
+        PODIUMS_SECTION_PAGES.includes(currentPage);
 
     return `
 
@@ -17,6 +21,12 @@ export function createNavLinks() {
                 class="${gamesIsActive ? "active" : ""}"
                 ${gamesIsActive ? 'aria-current="page"' : ""}
             >Games</a>
+
+            <a
+                href="podiums.html"
+                class="${podiumsIsActive ? "active" : ""}"
+                ${podiumsIsActive ? 'aria-current="page"' : ""}
+            >Podiums</a>
 
             <span class="nav-link-disabled" aria-disabled="true">
                 Guides

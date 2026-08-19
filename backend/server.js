@@ -6,6 +6,7 @@ import cors from "cors";
 import steamRoutes from "./routes/steam.js";
 import apiRoutes from "./routes/api.js";
 import gamesRoutes from "./routes/games.js";
+import podiumsRoutes from "./routes/podiums.js";
 
 dotenv.config();
 
@@ -68,6 +69,8 @@ app.use("/auth/steam", steamRoutes);
 app.use("/api", apiRoutes);
 
 app.use("/api/games", gamesRoutes);
+
+app.use("/api/podiums", podiumsRoutes);
 
 app.get("/", (req, res) => {
 

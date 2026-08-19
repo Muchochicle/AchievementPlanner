@@ -70,6 +70,13 @@ web_modules/
 .env.*
 !.env.example
 
+# Local SQLite leaderboard database (backend/services/leaderboardDb.js) -
+# generated at runtime, never committed. DATABASE_PATH can point elsewhere.
+backend/data/
+*.sqlite
+*.sqlite3
+*.db
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache

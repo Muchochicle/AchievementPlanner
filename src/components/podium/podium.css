@@ -1,0 +1,350 @@
+/* ---- Podiums page layout ------------------------------------------- */
+
+.podiums-intro{
+
+    margin-bottom:var(--spacing-md);
+
+}
+
+/* Quick "jump to a ranking" nav - lets a visitor go straight to the
+   leaderboard they care about instead of scrolling past every card, and
+   doubles as an at-a-glance index of what's on the page. */
+.podiums-nav{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+
+    margin-bottom:var(--spacing-lg);
+
+}
+
+.podiums-nav a{
+
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+
+    padding:8px 14px;
+
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+
+    font-size:.85rem;
+    font-weight:600;
+    color:var(--text-secondary);
+
+    transition:.2s;
+
+}
+
+.podiums-nav a:hover{
+
+    color:var(--text);
+    border-color:var(--primary);
+
+}
+
+.podiums-nav a:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}
+
+#podiums-content{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr));
+    gap:var(--spacing-md);
+    align-items:start;
+
+    scroll-margin-top:24px;
+
+}
+
+/* Anchor-jump targets land right at the card, not hidden under the fixed
+   navbar - same idea as body's own padding-top offset in style.css. */
+.podiums-nav-target{
+
+    scroll-margin-top:24px;
+
+}
+
+/* ---- Podium card ------------------------------------------------------ */
+
+.podium-card{
+
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:var(--spacing-md);
+
+}
+
+.podium-card-header{
+
+    margin-bottom:var(--spacing-sm);
+
+}
+
+.podium-title{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    font-size:1.25rem;
+    font-weight:700;
+    margin-bottom:4px;
+
+}
+
+.podium-icon{
+
+    font-size:1.1em;
+    line-height:1;
+
+}
+
+.podium-description{
+
+    color:var(--text-secondary);
+    font-size:.85rem;
+    margin-bottom:4px;
+
+}
+
+.podium-meta{
+
+    color:var(--text-secondary);
+    font-size:.78rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+
+}
+
+.podium-state{
+
+    padding:var(--spacing-sm) 0;
+
+}
+
+/* ---- Rows --------------------------------------------------------- */
+
+.podium-list{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+
+}
+
+.podium-row{
+
+    display:grid;
+    grid-template-columns:2em auto 1fr auto;
+    align-items:center;
+    gap:14px;
+
+    padding:10px 14px;
+
+    background:rgba(255,255,255,.03);
+    border:1px solid transparent;
+    border-radius:10px;
+
+    transition:background .2s, border-color .2s, transform .2s;
+
+}
+
+.podium-row:hover{
+
+    background:rgba(255,255,255,.06);
+    transform:translateX(2px);
+
+}
+
+/* Gold / silver / bronze accents for the top 3 - a real podium feel, not
+   just a plain numbered table. Kept subtle (left accent + faint tint)
+   rather than loud, so it still reads as part of Achievement Planner's
+   existing dark surface language instead of a bolted-on widget. */
+.podium-row--rank-1{
+
+    background:linear-gradient(90deg, rgba(250,204,21,.14), rgba(255,255,255,.03) 60%);
+    border-color:rgba(250,204,21,.35);
+
+}
+
+.podium-row--rank-2{
+
+    background:linear-gradient(90deg, rgba(203,213,225,.12), rgba(255,255,255,.03) 60%);
+    border-color:rgba(203,213,225,.3);
+
+}
+
+.podium-row--rank-3{
+
+    background:linear-gradient(90deg, rgba(217,119,6,.14), rgba(255,255,255,.03) 60%);
+    border-color:rgba(217,119,6,.3);
+
+}
+
+.podium-row--rank-1 .podium-avatar{
+
+    width:44px;
+    height:44px;
+    box-shadow:0 0 0 2px rgba(250,204,21,.6);
+
+}
+
+.podium-row--me{
+
+    border-color:var(--primary);
+    background:rgba(56,189,248,.1);
+
+}
+
+.podium-rank{
+
+    text-align:center;
+    font-size:1.1rem;
+    font-weight:700;
+
+    color:var(--text-secondary);
+
+}
+
+.podium-row--rank-1 .podium-rank,
+.podium-row--rank-2 .podium-rank,
+.podium-row--rank-3 .podium-rank{
+
+    font-size:1.4rem;
+
+}
+
+.podium-avatar{
+
+    width:36px;
+    height:36px;
+
+    border-radius:50%;
+    object-fit:cover;
+    flex-shrink:0;
+
+    transition:width .2s, height .2s;
+
+}
+
+.podium-avatar--placeholder{
+
+    background:var(--surface-hover);
+
+}
+
+.podium-name{
+
+    min-width:0;
+
+    font-weight:600;
+    color:var(--text);
+
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+
+}
+
+.podium-me-tag{
+
+    font-weight:600;
+    color:var(--primary);
+    font-size:.8em;
+
+}
+
+.podium-value{
+
+    font-weight:700;
+    color:var(--primary);
+    white-space:nowrap;
+
+}
+
+/* ---- "Your rank" section -------------------------------------------- */
+
+.podium-me{
+
+    margin-top:var(--spacing-sm);
+    padding:10px 14px;
+
+    background:rgba(56,189,248,.08);
+    border:1px solid var(--primary);
+    border-radius:10px;
+
+    text-align:center;
+    color:var(--text);
+
+}
+
+.podium-me--empty{
+
+    background:transparent;
+    border:1px dashed var(--border);
+    color:var(--text-secondary);
+
+}
+
+/* ---- Per-game podium (game.html) ------------------------------------ */
+
+#game-podium-container{
+
+    margin-bottom:var(--spacing-md);
+
+}
+
+/* ---- Responsive ----------------------------------------------------- */
+
+@media (max-width:640px){
+
+    .podium-row{
+
+        grid-template-columns:1.6em auto 1fr;
+        grid-template-areas:
+            "rank avatar name"
+            "rank avatar value";
+        row-gap:2px;
+        column-gap:10px;
+
+    }
+
+    .podium-rank{ grid-area:rank; }
+    .podium-avatar{ grid-area:avatar; }
+    .podium-name{ grid-area:name; white-space:normal; }
+    .podium-value{ grid-area:value; font-size:.85rem; }
+
+    .podium-row--rank-1 .podium-avatar{
+
+        width:36px;
+        height:36px;
+
+    }
+
+    .podiums-nav{
+
+        gap:6px;
+
+    }
+
+    .podiums-nav a{
+
+        padding:6px 10px;
+        font-size:.8rem;
+
+    }
+
+}

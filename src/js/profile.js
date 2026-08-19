@@ -30,12 +30,6 @@ import {
 
 import {
 
-    getSteamSession
-
-} from "../utils/steam/steamSession.js";
-
-import {
-
     getGamesIndex
 
 } from "../utils/gameService.js";
@@ -60,7 +54,11 @@ import {
 
 async function init() {
 
-    loadNavbar();
+    // Not awaited immediately - navbar rendering (and the /api/me check it
+    // performs) runs in parallel with building the initial page shell
+    // below. The same resolved session is reused here instead of a second,
+    // redundant /api/me call.
+    const sessionPromise = loadNavbar();
 
     document.getElementById(
 
@@ -70,22 +68,7 @@ async function init() {
 
         createProfilePage();
 
-    let session = {
-        logged: false
-    };
-
-    try {
-
-        session = await getSteamSession();
-
-    } catch (error) {
-
-        console.error(
-            "Unable to check Steam session:",
-            error
-        );
-
-    }
+    const session = await sessionPromise;
 
     refresh();
 

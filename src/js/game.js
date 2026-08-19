@@ -18,8 +18,11 @@ import { updatePlannerStats } from "../utils/planner/stats.js";
 import { saveProgress } from "../utils/planner/storage.js";
 
 import { getRecommendedAchievement } from "../utils/planner/recommendation/recommendation.js";
-import { getSteamSession } from "../utils/steam/steamSession.js";
 import { CONFIG } from "../config.js";
+
+import { fetchGamePodium } from "../utils/podiums/podiumsClient.js";
+import { createPodiumCard } from "../components/podium/podium.js";
+import { GAME_PODIUM_CATEGORY } from "../utils/podiums/podiumCategories.js";
 
 import { resetDevelopmentProgress } from "../dev/resetProgress.js";
 import { loadNavbar } from "./layout.js";
@@ -56,9 +59,44 @@ import {
 // directly and never grants completion itself.
 const POLL_INTERVAL_MS = 60 * 1000;
 
+// Fills #game-podium-container (present in both the has-planner and
+// no-planner-but-Steam-achievements render branches below). A game the
+// user doesn't own on Steam has no appid (see gameMapper.js's
+// mapPlannerOnlyGame) - there's nothing to look up a playtime leaderboard
+// for, so the section is simply left empty rather than shown broken/empty.
+function renderGamePodium(game) {
+
+    const container = document.getElementById("game-podium-container");
+
+    if (!container || !(game.appid > 0)) {
+
+        return;
+
+    }
+
+    container.innerHTML = createPodiumCard(GAME_PODIUM_CATEGORY, { status: "loading" });
+
+    fetchGamePodium(game.appid).then(state => {
+
+        if (state.status === "error") {
+
+            console.error("Unable to load this game's leaderboard:", state.error);
+
+        }
+
+        container.innerHTML = createPodiumCard(GAME_PODIUM_CATEGORY, state);
+
+    });
+
+}
+
 async function init() {
 
-    loadNavbar();
+    // Not awaited here - navbar rendering and the session check it performs
+    // run in parallel with the game data fetch below. The same resolved
+    // session is reused where this page needs it (instead of a second,
+    // redundant /api/me call) by awaiting this same promise later.
+    const sessionPromise = loadNavbar();
 
     const params = new URLSearchParams(window.location.search);
 
@@ -87,22 +125,7 @@ async function init() {
 
     clearSkippedAchievements();
 
-    let session = {
-        logged: false
-    };
-
-    try {
-
-        session = await getSteamSession();
-
-    } catch (error) {
-
-        console.error(
-            "Unable to check Steam session:",
-            error
-        );
-
-    }
+    const session = await sessionPromise;
 
     try {
 
@@ -120,7 +143,11 @@ async function init() {
 
                     createGameHeader(game, hoursPlayed) +
 
+                    `<div id="game-podium-container"></div>` +
+
                     createSteamAchievementList(game, session);
+
+                renderGamePodium(game);
 
                 // No curated planner for this game, but Steam still reports
                 // achievements - persist their resolved completion state so
@@ -180,6 +207,8 @@ async function init() {
 
             createGameOverview(game) +
 
+            `<div id="game-podium-container"></div>` +
+
             `<div id="recommended-container"></div>` +
 
             createSessionDuration(
@@ -191,6 +220,8 @@ async function init() {
             createPlannerStats() +
 
             createSteamAchievementList(game, session);
+
+        renderGamePodium(game);
 
         // Steam is the sole source of achievement completion. Run once
         // per page load: grant XP for any newly-Steam-completed matched
@@ -356,6 +387,13 @@ async function init() {
         // already idempotent, so a poll that finds nothing new is a
         // harmless no-op, and one that finds a genuine Steam unlock
         // grants XP/completion exactly once.
+        //
+        // Deliberately does NOT re-fetch the podium: leaderboard standings
+        // only change when someone (this user or another) is reindexed via
+        // a Profile visit, not from this game's own achievement state, so
+        // refetching it every 60s would be a recurring request with no
+        // real payoff. It's fetched once at load; a full page reload picks
+        // up anything newer.
         async function pollSteamUpdates() {
 
             try {
