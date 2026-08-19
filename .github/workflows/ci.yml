@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    # Not real secrets - backend/server.js only checks these are present
+    # and non-blank before it will bind to a port (see server.test.js's
+    # "starts successfully..." case, which spawns the real server.js as a
+    # child process). No test in this suite ever makes a real Steam API
+    # call, so placeholder values are correct here, not a stand-in for
+    # real credentials.
+    env:
+      STEAM_API_KEY: ci-placeholder-key
+      STEAM_RETURN_URL: http://localhost:3000/auth/steam/return
+      STEAM_REALM: http://localhost:3000
+      SESSION_SECRET: ci-placeholder-session-secret
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Reads engines.node from backend/package.json (currently
+          # ">=22.5.0", required for node:sqlite) rather than duplicating
+          # a version number here - stays in sync automatically if that
+          # requirement ever changes.
+          node-version-file: backend/package.json
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install backend dependencies
+        working-directory: backend
+        run: npm ci
+
+      # Runs the exact same full suite used locally throughout development
+      # (root package.json's own "test" script - node --test, which
+      # auto-discovers both backend/test/**.test.js and this repo's own
+      # top-level test/**.test.js). No separate frontend job needed: the
+      # frontend tests are plain Node ESM with zero dependencies to install.
+      - name: Run full test suite
+        run: npm test
