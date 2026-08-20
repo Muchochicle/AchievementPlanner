@@ -70,6 +70,63 @@ test("treats a whitespace-only value the same as missing", () => {
 
 });
 
+test("exits with status 1 and a clear message when SESSION_SECRET is present but too short", () => {
+
+    const result = runServerOnce({ SESSION_SECRET: "short-secret" });
+
+    assert.strictEqual(result.status, 1);
+    assert.match(result.stderr, /SESSION_SECRET is too short/);
+    assert.match(result.stderr, /at least 32 characters/);
+
+});
+
+test("accepts a SESSION_SECRET exactly at the 32-character minimum", async () => {
+
+    const child = spawn("node", [SERVER_PATH], {
+        cwd: BACKEND_DIR,
+        env: { ...process.env, PORT: "0", SESSION_SECRET: "a".repeat(32) },
+        stdio: ["ignore", "pipe", "pipe"]
+    });
+
+    let stdout = "";
+
+    await new Promise((resolve, reject) => {
+
+        const timeout = setTimeout(resolve, 2000);
+
+        child.stdout.on("data", chunk => {
+
+            stdout += chunk;
+
+            if (stdout.includes("Server running on port")) {
+
+                clearTimeout(timeout);
+                resolve();
+
+            }
+
+        });
+
+        child.on("error", reject);
+        child.on("exit", code => {
+
+            if (code !== null && code !== 0) {
+
+                clearTimeout(timeout);
+                reject(new Error(`server exited early with code ${code}`));
+
+            }
+
+        });
+
+    });
+
+    child.kill();
+
+    assert.match(stdout, /Server running on port/, "exactly 32 characters should be accepted, not rejected as still too short");
+
+});
+
 test("starts successfully and stays running when all required variables are present", async () => {
 
     // Relies on backend/.env already containing valid values locally

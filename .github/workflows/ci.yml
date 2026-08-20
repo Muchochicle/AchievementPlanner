@@ -10,17 +10,18 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    # Not real secrets - backend/server.js only checks these are present
-    # and non-blank before it will bind to a port (see server.test.js's
-    # "starts successfully..." case, which spawns the real server.js as a
-    # child process). No test in this suite ever makes a real Steam API
-    # call, so placeholder values are correct here, not a stand-in for
-    # real credentials.
+    # Not real secrets - backend/server.js only checks these are present,
+    # non-blank, and (SESSION_SECRET specifically) at least 32 characters
+    # before it will bind to a port (see server.test.js's "starts
+    # successfully..." case, which spawns the real server.js as a child
+    # process). No test in this suite ever makes a real Steam API call, so
+    # placeholder values are correct here, not a stand-in for real
+    # credentials.
     env:
       STEAM_API_KEY: ci-placeholder-key
       STEAM_RETURN_URL: http://localhost:3000/auth/steam/return
       STEAM_REALM: http://localhost:3000
-      SESSION_SECRET: ci-placeholder-session-secret
+      SESSION_SECRET: ci-placeholder-session-secret-value-32chars-plus
 
     steps:
       - name: Checkout
