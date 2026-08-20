@@ -10,17 +10,13 @@ import { login, callback } from "../controllers/steamController.js";
 // validateSteamResponse() or getPlayerSummary(), so these tests make no
 // network calls and depend on no external service.
 //
-// Deliberately NOT covered here: the "matching state proceeds to a real
-// Steam validation call" and "an already-consumed state is rejected on
-// reuse" paths. Both were already validated empirically (Phase 32, via
-// live curl requests against a running server, including response-time
-// evidence distinguishing the instant-reject path from the real
-// network-bound path) and require either genuine network access to Steam
-// or mocking steamAuth.js's module exports to test in isolation here.
-// Per the approved Phase 33 scope, no production-code refactor was made
-// to accommodate this, and reaching for Node's experimental module-mock
-// API was judged not worth the added complexity/fragility for this
-// phase - documented as a known gap rather than silently skipped.
+// Deliberately NOT covered here: the success path past state validation
+// (contacting Steam) and state-reuse rejection - both need
+// callbackWithDeps's dependency-injection seam to exercise without a real
+// Steam network call, and are covered by test/steamSessionRegeneration.test.js
+// instead (see that file's own header comment). This file sticks to the
+// rejection paths that return before any of that, so it makes no network
+// calls and depends on no external service.
 
 function createMockRes() {
 

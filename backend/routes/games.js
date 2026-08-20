@@ -23,6 +23,7 @@ import {
 import { mergeAchievements } from "../utils/achievementMerger.js";
 
 import { selectPopularGames } from "../utils/popularGames.js";
+import { sendServerError } from "../utils/sendServerError.js";
 
 const router = express.Router();
 
@@ -49,7 +50,7 @@ async function buildGamesList(req) {
 
     );
 
-    // Planners locales que el usuario NO posee en Steam.
+    // Local catalog planners the user does NOT own on Steam.
     const catalogOnlyGames = getAllPlannerSlugs()
 
         .filter(slug => !ownedSlugs.has(slug))
@@ -82,13 +83,7 @@ router.get("/", async (req, res) => {
 
     catch (error) {
 
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /api/games");
 
     }
 
@@ -138,13 +133,7 @@ router.get("/popular", async (req, res) => {
 
     catch (error) {
 
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /api/games/popular");
 
     }
 
@@ -170,7 +159,7 @@ router.get("/:slug", async (req, res) => {
 
         const owned = games.find(game => game.slug === slug);
 
-        // No lo posee en Steam, pero puede existir en el catálogo propio.
+        // Not owned on Steam, but may still exist in our own catalog.
         const game = owned ?? mapPlannerOnlyGame(slug);
 
         if (!game) {
@@ -221,13 +210,7 @@ router.get("/:slug", async (req, res) => {
 
     catch (error) {
 
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /api/games/:slug");
 
     }
 

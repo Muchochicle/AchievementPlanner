@@ -8,6 +8,7 @@ import {
     getGlobalLeaderboardSize,
     GLOBAL_LEADERBOARD_CATEGORIES
 } from "../services/leaderboardStore.js";
+import { sendServerError } from "../utils/sendServerError.js";
 
 function getViewerSteamId(req) {
 
@@ -46,13 +47,7 @@ function withErrorHandling(handler) {
 
         } catch (error) {
 
-            res.status(500).json({
-
-                success: false,
-
-                message: error.message
-
-            });
+            sendServerError(res, error, `${req.method} ${req.originalUrl}`);
 
         }
 

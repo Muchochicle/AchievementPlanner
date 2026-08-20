@@ -2,6 +2,7 @@ import { getOwnedGames } from "../services/steamApi.js";
 import { mapSteamGameSafe } from "../utils/gameMapper.js";
 import { getProfileStatsCached, computeLibraryCounts } from "../utils/profileStats.js";
 import { indexProfileSnapshotSafely } from "../services/leaderboardStore.js";
+import { sendServerError } from "../utils/sendServerError.js";
 
 // Real Express entry point (routes/api.js) - always exactly 2 params.
 // Deliberately NOT declared with a 3rd (deps) parameter: Express calls
@@ -89,13 +90,7 @@ export async function getProfileStatsWithDeps(req, res, deps) {
 
     catch (error) {
 
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /api/profile/stats");
 
     }
 

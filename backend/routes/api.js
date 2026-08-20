@@ -6,6 +6,7 @@ import {
 } from "../services/steamApi.js";
 
 import { getProfileStats } from "../controllers/profileStatsController.js";
+import { sendServerError } from "../utils/sendServerError.js";
 
 const router = express.Router();
 
@@ -47,13 +48,7 @@ router.get("/profile", async (req, res) => {
 
     catch (error) {
 
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /api/profile");
 
     }
 

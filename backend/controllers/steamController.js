@@ -9,6 +9,8 @@ import {
     getPlayerSummary
 } from "../services/steamApi.js";
 
+import { sendServerError } from "../utils/sendServerError.js";
+
 export async function login(req, res) {
 
     try {
@@ -23,21 +25,63 @@ export async function login(req, res) {
 
     } catch (error) {
 
-        console.error("Steam login error:", error);
-
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /auth/steam/login");
 
     }
 
 }
 
+// Real Express entry point (routes/steam.js) - always exactly 2 params, for
+// the same reason getProfileStats in profileStatsController.js is: Express
+// calls every route handler as (req, res, next), so a declared 3rd
+// parameter would silently receive `next` instead of a test double.
+// callbackWithDeps below is the injectable version tests call directly.
 export async function callback(req, res) {
+
+    return callbackWithDeps(req, res, defaultDeps);
+
+}
+
+const defaultDeps = {
+
+    validateSteamResponse,
+    getPlayerSummary
+
+};
+
+// Regenerating the session ID here - after Steam's response is verified,
+// but before the authenticated user is written into the session - is the
+// standard defense against session fixation: whatever session ID existed
+// before login (the one that only ever held a short-lived oauthState) is
+// discarded, so an attacker who somehow fixed that earlier ID in a
+// victim's browser never gains a privileged session once the victim logs
+// in. express-session's regenerate() is callback-based, so it's wrapped in
+// a Promise to fit this async function.
+function regenerateSession(req) {
+
+    return new Promise((resolve, reject) => {
+
+        req.session.regenerate(error => {
+
+            if (error) {
+
+                reject(error);
+
+            } else {
+
+                resolve();
+
+            }
+
+        });
+
+    });
+
+}
+
+export async function callbackWithDeps(req, res, deps) {
+
+    const { validateSteamResponse, getPlayerSummary } = deps;
 
     try {
 
@@ -94,6 +138,8 @@ export async function callback(req, res) {
 
         const profile = await getPlayerSummary(steamId);
 
+        await regenerateSession(req);
+
         req.session.user = {
 
             steamid: profile.steamid,
@@ -112,15 +158,7 @@ export async function callback(req, res) {
 
     } catch (error) {
 
-        console.error("Steam callback error:", error);
-
-        res.status(500).json({
-
-            success: false,
-
-            message: error.message
-
-        });
+        sendServerError(res, error, "GET /auth/steam/return");
 
     }
 
