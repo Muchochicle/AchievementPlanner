@@ -1,3 +1,5 @@
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
 export function createRecommendedAchievement(achievement) {
 
     if (achievement?.empty) {
@@ -72,13 +74,13 @@ export function createRecommendedAchievement(achievement) {
 
             <h2>
 
-                ${achievement.name}
+                ${escapeHtml(achievement.name)}
 
             </h2>
 
             <p>
 
-                ${achievement.description}
+                ${escapeHtml(achievement.description)}
 
             </p>
 

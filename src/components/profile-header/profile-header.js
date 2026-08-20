@@ -60,7 +60,7 @@ export function createProfileHeader(
                     ? `
                         <img
                             class="profile-steam-avatar"
-                            src="${steamAvatarUrl}"
+                            src="${escapeHtml(steamAvatarUrl)}"
                             alt="Steam avatar"
                         >
                     `

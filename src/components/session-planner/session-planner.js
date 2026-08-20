@@ -5,6 +5,8 @@ import {
 
 } from "../../utils/planner/achievement/completion.js";
 
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
 export function createSessionPlanner(session, game) {
 
     if (!game?.achievements?.length) {
@@ -171,7 +173,7 @@ export function createSessionPlanner(session, game) {
 
                             <strong>
 
-                                ${achievement.name}
+                                ${escapeHtml(achievement.name)}
 
                             </strong>
 

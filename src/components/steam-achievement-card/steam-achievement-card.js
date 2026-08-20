@@ -1,4 +1,5 @@
 import { isEntryCompleted } from "../../utils/planner/achievement/completion.js";
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
 function formatUnlockTime(unlocktime) {
 
@@ -53,20 +54,20 @@ export function createSteamAchievementCard(entry, merged) {
         <article class="steam-achievement-card${completed ? " steam-achievement-card--unlocked" : ""}" data-completed="${completed}">
 
             ${iconUrl
-                ? `<img class="steam-achievement-icon" src="${iconUrl}" alt="" loading="lazy">`
+                ? `<img class="steam-achievement-icon" src="${escapeHtml(iconUrl)}" alt="" loading="lazy">`
                 : `<div class="steam-achievement-icon steam-achievement-icon--placeholder">🏆</div>`}
 
             <div class="steam-achievement-content">
 
                 <div class="steam-achievement-top">
 
-                    <h3 class="steam-achievement-name">${steam.displayName}</h3>
+                    <h3 class="steam-achievement-name">${escapeHtml(steam.displayName)}</h3>
 
                     ${unlockBadge}
 
                 </div>
 
-                <p class="steam-achievement-description">${description}</p>
+                <p class="steam-achievement-description">${escapeHtml(description)}</p>
 
                 ${percentBadge}
 
@@ -97,7 +98,7 @@ function createLocalOnlyCard(entry) {
 
                 <div class="steam-achievement-top">
 
-                    <h3 class="steam-achievement-name">${ap.name}</h3>
+                    <h3 class="steam-achievement-name">${escapeHtml(ap.name)}</h3>
 
                     <span class="steam-achievement-badge steam-achievement-badge--locked">
                         Steam data unavailable
@@ -105,7 +106,7 @@ function createLocalOnlyCard(entry) {
 
                 </div>
 
-                <p class="steam-achievement-description">${ap.description}</p>
+                <p class="steam-achievement-description">${escapeHtml(ap.description)}</p>
 
             </div>
 

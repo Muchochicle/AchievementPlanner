@@ -1,4 +1,5 @@
 import { getMergedAchievementStats } from "../../utils/planner/achievement/completion.js";
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
 // Compact, game-specific header - replaces the old player-profile block.
 // Achievement X/Y/%/bar are Steam-authoritative via getMergedAchievementStats
@@ -18,17 +19,17 @@ export function createGameHeader(game, hoursPlayed = 0) {
 
             <img
                 class="game-header-image"
-                src="${game.image}"
-                alt="${game.name}"
+                src="${escapeHtml(game.image)}"
+                alt="${escapeHtml(game.name)}"
             >
 
             <div class="game-header-content">
 
-                <h1>${game.name}</h1>
+                <h1>${escapeHtml(game.name)}</h1>
 
                 <p class="game-genres">
 
-                    ${game.genres.join(" • ")}
+                    ${escapeHtml(game.genres.join(" • "))}
 
                 </p>
 

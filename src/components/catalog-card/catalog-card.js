@@ -1,3 +1,5 @@
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
 export function createCatalogCard(game) {
 
     const owned = game.owned !== false;
@@ -65,7 +67,7 @@ export function createCatalogCard(game) {
 
             <img
                 class="catalog-image"
-                src="${game.image}"
+                src="${escapeHtml(game.image)}"
                 alt=""
             >
 
@@ -73,14 +75,14 @@ export function createCatalogCard(game) {
 
             <div class="catalog-content">
 
-                <h3>${game.title}</h3>
+                <h3>${escapeHtml(game.title)}</h3>
 
                 ${plannerInfo}
 
                 <button
                     class="planner-btn"
                     data-slug="${game.slug}"
-                    aria-label="View planner for ${game.title}${owned ? "" : " (not owned)"}"
+                    aria-label="View planner for ${escapeHtml(game.title)}${owned ? "" : " (not owned)"}"
                 >
 
                     View Planner
