@@ -33,10 +33,8 @@ async function init() {
 
     try {
 
-        const index =
+        const games =
             await getGamesIndex();
-
-        const games = index;
 
         const genres =
             getGenres(games);

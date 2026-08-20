@@ -59,6 +59,23 @@ test("createPodiumCard renders an explicit empty state when nobody has been rank
 
 });
 
+test("createPodiumCard does not crash and degrades to the empty state when top10 is missing entirely (malformed response)", () => {
+
+    // podiumsClient.js's fetchPodium() passes data.top10 straight through
+    // with no `?? []` fallback, unlike getGamesIndex()/getPopularGames().
+    // That's safe only because this component's own `!top10` guard
+    // already covers it - verified empirically here rather than assumed,
+    // so a future change to either side can't silently reintroduce a
+    // crash.
+    let html;
+    assert.doesNotThrow(() => {
+        html = createPodiumCard(config, { status: "ready", top10: undefined, me: null, totalRanked: 0, loggedIn: true });
+    });
+
+    assert.match(html, /No one has been ranked here yet/);
+
+});
+
 test("createPodiumCard renders medal badges for the top 3 and #N for the rest, in order", () => {
 
     const top10 = [

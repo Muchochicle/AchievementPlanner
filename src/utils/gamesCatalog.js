@@ -30,7 +30,7 @@ export function searchGames(games, text) {
 
     return games.filter(game =>
 
-        game.title
+        (game.title ?? "")
             .toLowerCase()
             .includes(value)
 

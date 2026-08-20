@@ -3,7 +3,7 @@ import { getGamesIndex, getPopularGames } from "../utils/gameService.js";
 import { createCatalogCard } from "../components/catalog-card/catalog-card.js";
 import { loadNavbar } from "./layout.js";
 
-const POPULAR_GAMES_UNAVAILABLE_MESSAGE =
+export const POPULAR_GAMES_UNAVAILABLE_MESSAGE =
     "Popularity data is temporarily unavailable.";
 
 // The hero previously showed hardcoded marketing numbers ("420+ Games",
@@ -11,7 +11,13 @@ const POPULAR_GAMES_UNAVAILABLE_MESSAGE =
 // real state - achievements-per-catalog-entry isn't cheaply available and
 // there is no guides feature at all. This replaces them with the two counts
 // the already-fetched catalog index actually supports.
-function renderHeroStats(games) {
+//
+// Exported (along with showHeroStatsUnavailable/renderPopularGames below)
+// purely so these are directly unit-testable - matching every other page/
+// component module in this app, which already exports its render logic
+// for the same reason. No behavior change: init() below still calls these
+// the same way it always did.
+export function renderHeroStats(games) {
 
     const gamesCount = document.getElementById("hero-stat-games");
 
@@ -32,7 +38,7 @@ function renderHeroStats(games) {
 
 }
 
-function showHeroStatsUnavailable() {
+export function showHeroStatsUnavailable() {
 
     const gamesCount = document.getElementById("hero-stat-games");
 
@@ -44,7 +50,7 @@ function showHeroStatsUnavailable() {
 
 }
 
-function renderPopularGames(games, container) {
+export function renderPopularGames(games, container) {
 
     if (!games || games.length === 0) {
 
@@ -120,6 +126,20 @@ async function init() {
 
         showHeroStatsUnavailable();
         catalogError.hidden = false;
+
+        // createSearch() (which attaches the input's only "input" listener)
+        // is never called on this path - without this, the search box
+        // would stay visually enabled but silently do nothing when typed
+        // into, with no indication anything is wrong. Disabling it makes
+        // its state honestly match reality, consistent with the visible
+        // catalogError message right below it.
+        const searchInput = document.querySelector(".hero input");
+
+        if (searchInput) {
+
+            searchInput.disabled = true;
+
+        }
 
     }
 

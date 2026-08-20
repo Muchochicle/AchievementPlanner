@@ -125,11 +125,18 @@ async function init() {
 
     clearSkippedAchievements();
 
-    const session = await sessionPromise;
+    // Started here (not awaited yet) so it genuinely runs alongside
+    // sessionPromise, as the comment above promises - previously this was
+    // fetched only after awaiting sessionPromise first, silently
+    // serializing two independent requests despite the "runs in parallel"
+    // comment. game data needs only `slug` (already available from the
+    // URL), never the session, so there's no real dependency forcing
+    // sequential order.
+    const gamePromise = getGame(slug);
 
     try {
 
-        let game = await getGame(slug);
+        let [game, session] = await Promise.all([gamePromise, sessionPromise]);
 
         document.title = `${game.name} • Achievement Planner`;
 

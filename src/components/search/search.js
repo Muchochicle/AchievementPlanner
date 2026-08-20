@@ -1,3 +1,5 @@
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
 // games is the already-fetched catalog index - the caller (app.js) already
 // requested it for the Popular Games grid, so this reuses that instead of
 // issuing a second /api/games request for the same data on the same load.
@@ -35,14 +37,26 @@ export function createSearch(games) {
 
             const owned = game.owned !== false;
 
+            // difficulty/completionTime are both optional even on a
+            // planner-having game (see gameMapper.js's `planner?.difficulty
+            // ?? null` / `planner?.completionTime ?? null`) - matches
+            // catalog-card.js's own guards for these same fields, so a
+            // catalog entry missing either never crashes or shows a
+            // literal "null" in the search dropdown.
+            const hasDifficulty =
+                typeof game.difficulty === "number";
+
+            const hasCompletionTime =
+                typeof game.completionTime?.min === "number" &&
+                typeof game.completionTime?.max === "number";
+
+            const metaParts = [
+                hasDifficulty ? `⭐ ${game.difficulty}/10` : "",
+                hasCompletionTime ? `⏱ ${game.completionTime.min}-${game.completionTime.max} h` : ""
+            ].filter(Boolean);
+
             const meta = hasPlanner
-
-                ? `
-                    ⭐ ${game.difficulty}/10
-                    ·
-                    ⏱ ${game.completionTime.min}-${game.completionTime.max} h
-                `
-
+                ? (metaParts.length ? metaParts.join(" · ") : "")
                 : `Planner coming soon`;
 
             const itemClass = owned
@@ -60,17 +74,17 @@ export function createSearch(games) {
                     data-slug="${game.slug}"
                     role="button"
                     tabindex="0"
-                    aria-label="${game.title}${owned ? "" : " (not owned)"}"
+                    aria-label="${escapeHtml(game.title)}${owned ? "" : " (not owned)"}"
                 >
 
                     <img
-                        src="${game.image}"
+                        src="${escapeHtml(game.image)}"
                         alt=""
                     >
 
                     <div class="search-info">
 
-                        <strong>${game.title}</strong>
+                        <strong>${escapeHtml(game.title)}</strong>
 
                         <small>
 

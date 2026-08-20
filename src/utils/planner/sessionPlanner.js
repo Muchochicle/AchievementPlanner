@@ -9,9 +9,18 @@ import {
 
 let currentSession = null;
 
+// Which game the cache above belongs to - without this, a second call for
+// a *different* game (same page/process, before it has anything saved to
+// localStorage yet) would incorrectly re-filter through the previous
+// game's cached achievement ids, none of which exist in the new game's
+// list, silently producing an empty session instead of a freshly-built
+// one. Keyed on slug since every game object carries one (see
+// utils/gameMapper.js).
+let currentSessionSlug = null;
+
 export function createSession(game, targetMinutes = 45) {
 
-    if (currentSession) {
+    if (currentSession && currentSessionSlug === game.slug) {
 
         const merged = game.mergedAchievements;
 
@@ -22,7 +31,7 @@ export function createSession(game, targetMinutes = 45) {
         // removes something here.
         return currentSession
             .map(id =>
-                game.achievements.find(
+                (game.achievements ?? []).find(
                     achievement =>
                         achievement.id === id
                 )
@@ -43,7 +52,7 @@ export function createSession(game, targetMinutes = 45) {
     const skipped =
         getSkippedAchievements();
 
-    const available = game.achievements
+    const available = (game.achievements ?? [])
 
         .filter(achievement => {
 
@@ -97,6 +106,8 @@ export function createSession(game, targetMinutes = 45) {
                 achievement.id
         );
 
+    currentSessionSlug = game.slug;
+
     return session;
 
 }
@@ -104,5 +115,6 @@ export function createSession(game, targetMinutes = 45) {
 export function resetSession() {
 
     currentSession = null;
+    currentSessionSlug = null;
 
 }

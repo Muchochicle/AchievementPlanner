@@ -9,7 +9,13 @@ import {
 
 export function getRecommendedAchievement(game) {
 
-    if (!game.achievements.length) {
+    // Matches session-planner.js's own guard for the identical field
+    // (game?.achievements?.length) - both render from the same refresh()
+    // cycle on game.js, so a game with a missing achievements list must
+    // degrade to this function's existing "empty" state instead of
+    // throwing and taking down the whole page before session-planner.js's
+    // own graceful handling ever gets a chance to run.
+    if (!game.achievements?.length) {
 
         return { empty: true };
 

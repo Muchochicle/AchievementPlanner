@@ -16,7 +16,7 @@ export async function loadNavbar() {
 
     if (!navbar) return { logged: false };
 
-    // Estado inicial mientras comprobamos la sesión
+    // Initial state while the session check is in flight
     navbar.innerHTML = createNavbar({
         logged: false
     });

@@ -1,4 +1,6 @@
 import { resetPlayer } from "../utils/player/player.js";
+import { resetInventory } from "../utils/player/inventory/inventoryStorage.js";
+import { resetEquippedAvatar } from "../utils/player/avatar/avatarStorage.js";
 
 export function resetDevelopmentProgress() {
 
@@ -53,6 +55,8 @@ export function resetDevelopmentProgress() {
     });
 
     resetPlayer();
+    resetInventory();
+    resetEquippedAvatar();
 
     location.reload();
 

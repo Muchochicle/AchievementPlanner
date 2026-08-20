@@ -20,9 +20,14 @@ export function filterGames(games) {
 
     if (selectedGenres.length) {
 
+        // Matches getGenres()'s own guard (utils/catalog/genres.js) and
+        // the sibling filterDifficulty/filterCompletionTime/filterExtras
+        // functions below, which all defensively handle a missing field
+        // on a per-game basis rather than assuming the mapper's shape
+        // guarantee always holds.
         filtered = filtered.filter(game =>
 
-            game.genres.some(genre =>
+            (game.genres ?? []).some(genre =>
 
                 selectedGenres.includes(genre)
 

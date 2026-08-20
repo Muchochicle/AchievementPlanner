@@ -33,7 +33,7 @@ export function getSession(
         // through untouched.
         return stored
             .map(id =>
-                game.achievements.find(
+                (game.achievements ?? []).find(
                     achievement =>
                         achievement.id === id
                 )
