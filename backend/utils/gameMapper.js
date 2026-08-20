@@ -83,8 +83,8 @@ export function mapSteamGameSafe(game) {
 
 }
 
-// Construye el modelo de un juego que existe en el catálogo propio
-// (tiene planner) pero que el usuario no posee en Steam.
+// Builds the model for a game that exists in our own catalog (has a
+// planner) but that the user does not own on Steam.
 export function mapPlannerOnlyGame(slug) {
 
     const planner = getPlannerData(slug);
