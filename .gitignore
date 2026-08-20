@@ -135,6 +135,12 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Local Claude Code settings (personal tool-permission overrides) - was
+# previously only excluded by this machine's global git ignore config, not
+# by the project itself, so a fresh clone/contributor had no protection
+# against accidentally committing their own local overrides.
+.claude/settings.local.json
+
 # pnpm
 .pnpm-store
 

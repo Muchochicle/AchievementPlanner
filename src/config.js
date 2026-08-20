@@ -8,7 +8,7 @@ export const CONFIG = {
 
     ENABLE_SANDBOX: true,
 
-    ENABLE_RESET_BUTTON: true,
+    ENABLE_RESET_BUTTON: false,
 
     ENABLE_FAKE_STEAM: true,
 
@@ -16,7 +16,7 @@ export const CONFIG = {
     // DEBUG
     // ==========================
 
-    DEBUG_UNLOCK_ALL_AVATARS: true,
+    DEBUG_UNLOCK_ALL_AVATARS: false,
 
     DEBUG_UNLOCK_ALL_FRAMES: false,
 
