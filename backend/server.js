@@ -180,8 +180,34 @@ app.get("/api/me", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
+const httpServer = app.listen(PORT, () => {
 
     console.log(`Server running on port ${PORT}`);
+
+});
+
+// Without this, a failed bind (most commonly EADDRINUSE - another instance
+// of this same server, from an earlier terminal/nodemon run, already
+// holding the port) surfaces as an unhandled 'error' event on the
+// underlying http.Server, which Node re-throws as an uncaught exception.
+// Under nodemon that reads as an opaque "app crashed - waiting for file
+// changes" with no indication of why. This turns that into one clear,
+// actionable line instead.
+httpServer.on("error", error => {
+
+    if (error.code === "EADDRINUSE") {
+
+        console.error(
+            `Port ${PORT} is already in use - another instance of this server (or something else) is already running.\n` +
+            "Stop that process first, or set a different PORT in backend/.env."
+        );
+
+    } else {
+
+        console.error(`Server failed to start: ${error.message}`);
+
+    }
+
+    process.exit(1);
 
 });

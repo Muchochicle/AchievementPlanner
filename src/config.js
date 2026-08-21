@@ -4,13 +4,21 @@ export const CONFIG = {
     // DEVELOPMENT
     // ==========================
 
-    DEV_MODE: true,
+    // Ship false by default - a real visitor must never get dev-only
+    // behavior just because a flag was left on (see the same reasoning
+    // already applied to ENABLE_RESET_BUTTON/DEBUG_UNLOCK_ALL_AVATARS
+    // below). Currently unused by any code path (verified: no `CONFIG.`
+    // reference to these three anywhere in src/), but a flag named
+    // DEV_MODE/ENABLE_SANDBOX/ENABLE_FAKE_STEAM defaulting to true is
+    // exactly the kind of thing a future feature could start reading
+    // without anyone noticing it was already "on" for every visitor.
+    DEV_MODE: false,
 
-    ENABLE_SANDBOX: true,
+    ENABLE_SANDBOX: false,
 
     ENABLE_RESET_BUTTON: false,
 
-    ENABLE_FAKE_STEAM: true,
+    ENABLE_FAKE_STEAM: false,
 
     // ==========================
     // DEBUG

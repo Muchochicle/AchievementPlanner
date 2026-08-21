@@ -28,3 +28,26 @@ test("CONFIG ships with ENABLE_RESET_BUTTON disabled by default", () => {
     assert.strictEqual(CONFIG.ENABLE_RESET_BUTTON, false);
 
 });
+
+// DEV_MODE/ENABLE_SANDBOX/ENABLE_FAKE_STEAM have no reader anywhere in
+// src/ today, so flipping them has no current behavioral effect - these
+// pin the shipped default itself (never `true` for a real visitor) so a
+// future feature that starts reading one of them inherits "off by
+// default" instead of silently inheriting "on for everyone".
+test("CONFIG ships with DEV_MODE disabled by default", () => {
+
+    assert.strictEqual(CONFIG.DEV_MODE, false);
+
+});
+
+test("CONFIG ships with ENABLE_SANDBOX disabled by default", () => {
+
+    assert.strictEqual(CONFIG.ENABLE_SANDBOX, false);
+
+});
+
+test("CONFIG ships with ENABLE_FAKE_STEAM disabled by default", () => {
+
+    assert.strictEqual(CONFIG.ENABLE_FAKE_STEAM, false);
+
+});
