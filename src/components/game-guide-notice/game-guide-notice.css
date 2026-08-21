@@ -1,0 +1,65 @@
+.game-guide-notice{
+
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+
+    padding:16px 20px;
+    margin:var(--spacing-sm) 0 var(--spacing-md);
+
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+
+}
+
+.game-guide-notice-icon{
+
+    font-size:1.5rem;
+    line-height:1;
+
+}
+
+.game-guide-notice strong{
+
+    display:block;
+    margin-bottom:4px;
+
+}
+
+.game-guide-notice p{
+
+    color:var(--text-secondary);
+    font-size:.9rem;
+
+}
+
+.game-guide-notice a{
+
+    color:var(--primary);
+    font-weight:600;
+    text-decoration:none;
+
+}
+
+.game-guide-notice a:hover{
+
+    text-decoration:underline;
+
+}
+
+.game-guide-notice a:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}
+
+/* Coming-soon variant reads as muted/pending - matching the same visual
+   language as .catalog-planner-soon (catalog-card.css) and .nav-link-soon
+   (navbar.css) for "not available yet" states elsewhere in the app. */
+.game-guide-notice--planned{
+
+    opacity:.75;
+
+}

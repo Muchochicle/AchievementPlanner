@@ -1,5 +1,6 @@
 const GAMES_SECTION_PAGES = ["games.html", "game.html"];
 const PODIUMS_SECTION_PAGES = ["podiums.html"];
+const GUIDES_SECTION_PAGES = ["guides.html", "guide.html"];
 
 export function createNavLinks() {
 
@@ -11,6 +12,9 @@ export function createNavLinks() {
 
     const podiumsIsActive =
         PODIUMS_SECTION_PAGES.includes(currentPage);
+
+    const guidesIsActive =
+        GUIDES_SECTION_PAGES.includes(currentPage);
 
     return `
 
@@ -28,10 +32,11 @@ export function createNavLinks() {
                 ${podiumsIsActive ? 'aria-current="page"' : ""}
             >Podiums</a>
 
-            <span class="nav-link-disabled" aria-disabled="true">
-                Guides
-                <span class="nav-link-soon">Soon</span>
-            </span>
+            <a
+                href="guides.html"
+                class="${guidesIsActive ? "active" : ""}"
+                ${guidesIsActive ? 'aria-current="page"' : ""}
+            >Guides</a>
 
             <span class="nav-link-disabled" aria-disabled="true">
                 Roadmap

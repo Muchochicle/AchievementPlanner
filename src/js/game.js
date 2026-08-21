@@ -12,6 +12,7 @@ import {
 import { createRecommendedAchievement } from "../components/recommended-achievement/recommended-achievement.js";
 import { createSessionPlanner } from "../components/session-planner/session-planner.js";
 import { createSessionDuration } from "../components/session-duration/session-duration.js";
+import { createGameGuideNotice } from "../components/game-guide-notice/game-guide-notice.js";
 
 import { updateProgress } from "../utils/planner/progress.js";
 import { updatePlannerStats } from "../utils/planner/stats.js";
@@ -227,6 +228,8 @@ async function init() {
             createGameHeader(game, hoursPlayed) +
 
             createGameOverview(game) +
+
+            createGameGuideNotice(game) +
 
             `<div id="game-podium-container"></div>` +
 

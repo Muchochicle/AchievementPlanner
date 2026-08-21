@@ -1,0 +1,159 @@
+.guide-content{
+
+    max-width:760px;
+    margin:0 auto;
+
+    padding-bottom:var(--spacing-xl);
+
+}
+
+.guide-content-header{
+
+    margin-bottom:var(--spacing-lg);
+
+}
+
+.guide-content-category{
+
+    display:inline-flex;
+    padding:2px 10px;
+    margin-bottom:12px;
+
+    background:var(--surface-hover);
+    border-radius:999px;
+
+    font-size:.7rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+    color:var(--text-secondary);
+
+}
+
+.guide-content-header h1{
+
+    font-size:2.2rem;
+    font-weight:800;
+    margin-bottom:8px;
+
+}
+
+.guide-content-summary{
+
+    color:var(--text-secondary);
+    font-size:1.1rem;
+
+}
+
+.guide-content-section{
+
+    margin-bottom:var(--spacing-lg);
+
+}
+
+.guide-content-section h2{
+
+    font-size:1.3rem;
+    margin-bottom:12px;
+
+}
+
+.guide-content-section p{
+
+    color:var(--text-secondary);
+    line-height:1.7;
+    margin-bottom:12px;
+
+}
+
+.guide-content-related{
+
+    padding-top:var(--spacing-md);
+    border-top:1px solid var(--border);
+
+}
+
+.guide-content-related h2{
+
+    font-size:1.1rem;
+    margin-bottom:12px;
+
+}
+
+.guide-content-related ul{
+
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+
+}
+
+.guide-content-related a{
+
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+
+    padding:8px 14px;
+
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:999px;
+
+    color:var(--text-secondary);
+    text-decoration:none;
+    font-size:.85rem;
+    font-weight:600;
+
+    transition:.2s;
+
+}
+
+.guide-content-related a:hover{
+
+    color:var(--text);
+    border-color:var(--primary);
+
+}
+
+.guide-content-related a:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}
+
+.guide-back-link{
+
+    display:inline-block;
+    margin-top:var(--spacing-md);
+
+    color:var(--primary);
+    text-decoration:none;
+    font-weight:600;
+
+}
+
+.guide-back-link:hover{
+
+    text-decoration:underline;
+
+}
+
+.guide-back-link:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}
+
+@media (max-width:640px){
+
+    .guide-content-header h1{
+
+        font-size:1.7rem;
+
+    }
+
+}

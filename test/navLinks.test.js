@@ -30,7 +30,7 @@ function extractLink(html, href, text) {
 
 }
 
-test("marks Games active with aria-current on games.html, Podiums inactive", () => {
+test("marks Games active with aria-current on games.html, Podiums and Guides inactive", () => {
 
     setPath("/games.html");
 
@@ -38,12 +38,16 @@ test("marks Games active with aria-current on games.html, Podiums inactive", () 
 
     const gamesLink = extractLink(html, "games.html", "Games");
     const podiumsLink = extractLink(html, "podiums.html", "Podiums");
+    const guidesLink = extractLink(html, "guides.html", "Guides");
 
     assert.match(gamesLink, /class="active"/);
     assert.match(gamesLink, /aria-current="page"/);
 
     assert.match(podiumsLink, /class=""/);
     assert.doesNotMatch(podiumsLink, /aria-current/);
+
+    assert.match(guidesLink, /class=""/);
+    assert.doesNotMatch(guidesLink, /aria-current/);
 
 });
 
@@ -60,7 +64,7 @@ test("marks Games active on game.html too (the Game detail page is part of the G
 
 });
 
-test("marks Podiums active with aria-current on podiums.html, Games inactive", () => {
+test("marks Podiums active with aria-current on podiums.html, Games and Guides inactive", () => {
 
     setPath("/podiums.html");
 
@@ -68,6 +72,7 @@ test("marks Podiums active with aria-current on podiums.html, Games inactive", (
 
     const gamesLink = extractLink(html, "games.html", "Games");
     const podiumsLink = extractLink(html, "podiums.html", "Podiums");
+    const guidesLink = extractLink(html, "guides.html", "Guides");
 
     assert.match(gamesLink, /class=""/);
     assert.doesNotMatch(gamesLink, /aria-current/);
@@ -75,16 +80,20 @@ test("marks Podiums active with aria-current on podiums.html, Games inactive", (
     assert.match(podiumsLink, /class="active"/);
     assert.match(podiumsLink, /aria-current="page"/);
 
+    assert.match(guidesLink, /class=""/);
+    assert.doesNotMatch(guidesLink, /aria-current/);
+
 });
 
-test("marks neither link active on a page outside both sections (e.g. the Home page)", () => {
+test("marks Guides active with aria-current on guides.html, Games and Podiums inactive", () => {
 
-    setPath("/index.html");
+    setPath("/guides.html");
 
     const html = createNavLinks();
 
     const gamesLink = extractLink(html, "games.html", "Games");
     const podiumsLink = extractLink(html, "podiums.html", "Podiums");
+    const guidesLink = extractLink(html, "guides.html", "Guides");
 
     assert.match(gamesLink, /class=""/);
     assert.doesNotMatch(gamesLink, /aria-current/);
@@ -92,9 +101,46 @@ test("marks neither link active on a page outside both sections (e.g. the Home p
     assert.match(podiumsLink, /class=""/);
     assert.doesNotMatch(podiumsLink, /aria-current/);
 
+    assert.match(guidesLink, /class="active"/);
+    assert.match(guidesLink, /aria-current="page"/);
+
 });
 
-test("does not crash and marks neither link active for a root '/' pathname with no filename at all", () => {
+test("marks Guides active on guide.html too (an individual guide is part of the Guides section)", () => {
+
+    setPath("/guide.html");
+
+    const html = createNavLinks();
+
+    const guidesLink = extractLink(html, "guides.html", "Guides");
+
+    assert.match(guidesLink, /class="active"/);
+    assert.match(guidesLink, /aria-current="page"/);
+
+});
+
+test("marks no link active on a page outside every section (e.g. the Home page)", () => {
+
+    setPath("/index.html");
+
+    const html = createNavLinks();
+
+    const gamesLink = extractLink(html, "games.html", "Games");
+    const podiumsLink = extractLink(html, "podiums.html", "Podiums");
+    const guidesLink = extractLink(html, "guides.html", "Guides");
+
+    assert.match(gamesLink, /class=""/);
+    assert.doesNotMatch(gamesLink, /aria-current/);
+
+    assert.match(podiumsLink, /class=""/);
+    assert.doesNotMatch(podiumsLink, /aria-current/);
+
+    assert.match(guidesLink, /class=""/);
+    assert.doesNotMatch(guidesLink, /aria-current/);
+
+});
+
+test("does not crash and marks no link active for a root '/' pathname with no filename at all", () => {
 
     setPath("/");
 
@@ -104,19 +150,21 @@ test("does not crash and marks neither link active for a root '/' pathname with 
 
     const gamesLink = extractLink(html, "games.html", "Games");
     const podiumsLink = extractLink(html, "podiums.html", "Podiums");
+    const guidesLink = extractLink(html, "guides.html", "Guides");
 
     assert.match(gamesLink, /class=""/);
     assert.match(podiumsLink, /class=""/);
+    assert.match(guidesLink, /class=""/);
 
 });
 
-test("always renders the disabled Guides/Roadmap/About links as aria-disabled with a 'Soon' badge", () => {
+test("always renders the disabled Roadmap/About links as aria-disabled with a 'Soon' badge (Guides is now a real link, not one of these)", () => {
 
     setPath("/games.html");
 
     const html = createNavLinks();
 
-    for (const label of ["Guides", "Roadmap", "About"]) {
+    for (const label of ["Roadmap", "About"]) {
 
         const disabledLink = html.slice(html.indexOf(label) - 200, html.indexOf(label) + 100);
 
@@ -124,6 +172,8 @@ test("always renders the disabled Guides/Roadmap/About links as aria-disabled wi
 
     }
 
-    assert.strictEqual((html.match(/nav-link-soon/g) ?? []).length, 3);
+    assert.doesNotMatch(html, /class="nav-link-disabled"[^>]*>\s*Guides/, "Guides must not still render as a disabled placeholder");
+
+    assert.strictEqual((html.match(/nav-link-soon/g) ?? []).length, 2);
 
 });
