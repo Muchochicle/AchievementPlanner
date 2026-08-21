@@ -47,6 +47,14 @@
     font-weight:bold;
 
 }
+
+.filter-chip button:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
 .active-filters-wrapper{
 
     display:flex;
@@ -82,5 +90,13 @@
 .clear-filters:hover{
 
     opacity:.8;
+
+}
+
+.clear-filters:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
 
 }

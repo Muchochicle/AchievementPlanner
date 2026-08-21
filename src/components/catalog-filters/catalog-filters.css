@@ -38,6 +38,14 @@
 
 }
 
+.filters-toggle:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
 .filters-panel{
 
     display:none;
@@ -83,5 +91,13 @@
     cursor:pointer;
 
     color:var(--text-secondary);
+
+}
+
+.filter-group input[type="checkbox"]:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
 
 }
