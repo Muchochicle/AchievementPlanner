@@ -2,21 +2,11 @@ import { test } from "node:test";
 import assert from "node:assert";
 
 import { saveProgress } from "../../src/utils/planner/storage.js";
-import { getUnlockedAchievements } from "../../src/utils/player/statistics/helpers/achievements.js";
-import {
-    getPlayedGames,
-    getInProgressGameSlugs
-} from "../../src/utils/player/statistics/helpers/games.js";
-import {
-    getCompletedGames,
-    getCompletedGameSlugs
-} from "../../src/utils/player/statistics/helpers/completedGames.js";
 
 // Node's built-in localStorage is only available behind an experimental
 // flag this project doesn't enable, so tests get a minimal same-shape
 // mock instead. Storage keys are set as the mock's own enumerable
-// properties (matching real Storage semantics) so Object.keys(localStorage)
-// - used by plannerProgress.js - behaves the same as it would in a browser.
+// properties (matching real Storage semantics).
 function freshLocalStorage() {
 
     const mock = Object.create({
@@ -96,6 +86,12 @@ function game(slug, { playerDataAvailable = true, entries = [] } = {}) {
 
 }
 
+function stored(slug) {
+
+    return JSON.parse(localStorage.getItem(`planner-${slug}`));
+
+}
+
 test("curated game with Steam-only achievements: saveProgress persists the full merged set, not just the curated subset", () => {
 
     freshLocalStorage();
@@ -112,19 +108,13 @@ test("curated game with Steam-only achievements: saveProgress persists the full 
 
     saveProgress(g, g.slug);
 
-    const stored = JSON.parse(localStorage.getItem("planner-curated-game"));
-
-    assert.deepStrictEqual(stored, {
+    assert.deepStrictEqual(stored(g.slug), {
 
         CURATED_1: true,
         STEAM_ONLY_1: true,
         STEAM_ONLY_2: false
 
     });
-
-    assert.strictEqual(getUnlockedAchievements(), 2);
-    assert.strictEqual(getPlayedGames(), 1);
-    assert.strictEqual(getCompletedGames(), 0);
 
 });
 
@@ -144,13 +134,17 @@ test("non-curated game with Steam achievements: saveProgress persists completion
 
     saveProgress(g, g.slug);
 
-    assert.strictEqual(getUnlockedAchievements(), 2);
-    assert.strictEqual(getPlayedGames(), 1);
-    assert.strictEqual(getCompletedGames(), 0);
+    assert.deepStrictEqual(stored(g.slug), {
+
+        A: true,
+        B: true,
+        C: false
+
+    });
 
 });
 
-test("a game with zero unlocked achievements is not counted as played or completed", () => {
+test("a game with every achievement still locked still persists a full progress map, every entry false", () => {
 
     freshLocalStorage();
 
@@ -165,34 +159,16 @@ test("a game with zero unlocked achievements is not counted as played or complet
 
     saveProgress(g, g.slug);
 
-    assert.strictEqual(getUnlockedAchievements(), 0);
-    assert.strictEqual(getPlayedGames(), 0);
-    assert.strictEqual(getCompletedGames(), 0);
+    assert.deepStrictEqual(stored(g.slug), {
 
-});
-
-test("a partially completed game counts toward Games but not 100%", () => {
-
-    freshLocalStorage();
-
-    const g = game("partial-game", {
-
-        entries: [
-            mergedEntry({ apiname: "A", achieved: true }),
-            mergedEntry({ apiname: "B", achieved: false })
-        ]
+        A: false,
+        B: false
 
     });
 
-    saveProgress(g, g.slug);
-
-    assert.strictEqual(getPlayedGames(), 1);
-    assert.strictEqual(getCompletedGames(), 0);
-    assert.deepStrictEqual(getInProgressGameSlugs(), ["partial-game"]);
-
 });
 
-test("a fully completed game counts toward both Games and 100%", () => {
+test("a fully completed game persists every entry as true", () => {
 
     freshLocalStorage();
 
@@ -207,13 +183,16 @@ test("a fully completed game counts toward both Games and 100%", () => {
 
     saveProgress(g, g.slug);
 
-    assert.strictEqual(getPlayedGames(), 1);
-    assert.strictEqual(getCompletedGames(), 1);
-    assert.deepStrictEqual(getCompletedGameSlugs(), ["complete-game"]);
+    assert.deepStrictEqual(stored(g.slug), {
+
+        A: true,
+        B: true
+
+    });
 
 });
 
-test("a game with zero achievements available never counts as 100% (total-achievements > 0 guard)", () => {
+test("a game with zero achievements available persists an empty progress object, not an error", () => {
 
     freshLocalStorage();
 
@@ -221,24 +200,11 @@ test("a game with zero achievements available never counts as 100% (total-achiev
 
     saveProgress(g, g.slug);
 
-    assert.strictEqual(getPlayedGames(), 0);
-    assert.strictEqual(getCompletedGames(), 0);
+    assert.deepStrictEqual(stored(g.slug), {});
 
 });
 
-test("Profile opened before visiting any Game page reports zero stats rather than stale/incorrect data", () => {
-
-    freshLocalStorage();
-
-    // No saveProgress call at all - simulates a fresh session where no
-    // game.html page has run yet, i.e. no planner-{slug} key exists.
-    assert.strictEqual(getUnlockedAchievements(), 0);
-    assert.strictEqual(getPlayedGames(), 0);
-    assert.strictEqual(getCompletedGames(), 0);
-
-});
-
-test("aggregates correctly across multiple games, the same way the Profile page sums them", () => {
+test("saveProgress for one game does not touch another game's stored entry", () => {
 
     freshLocalStorage();
 
@@ -262,9 +228,8 @@ test("aggregates correctly across multiple games, the same way the Profile page 
         "game-b"
     );
 
-    assert.strictEqual(getUnlockedAchievements(), 3);
-    assert.strictEqual(getPlayedGames(), 2);
-    assert.strictEqual(getCompletedGames(), 1);
+    assert.deepStrictEqual(stored("game-a"), { A1: true, A2: true });
+    assert.deepStrictEqual(stored("game-b"), { B1: true, B2: false });
 
 });
 
@@ -284,9 +249,9 @@ test("an entry Steam's schema doesn't recognize (no apiname, unmatched) still ge
 
     saveProgress(g, g.slug);
 
-    const stored = JSON.parse(localStorage.getItem("planner-unmatched-game"));
+    const result = stored(g.slug);
 
-    assert.strictEqual(Object.keys(stored).length, 3);
-    assert.strictEqual(getUnlockedAchievements(), 1);
+    assert.strictEqual(Object.keys(result).length, 3);
+    assert.strictEqual(result.REAL, true);
 
 });

@@ -6,7 +6,7 @@ import assert from "node:assert";
 // Object.keys()) - the shim below backs its own-enumerable-property store
 // with a `length` getter and `key(i)` method to match, matching the
 // existing convention (see test/profileHeader.test.js,
-// backend/test/profileStatistics.test.js) but extended for this file's
+// backend/test/plannerStorage.test.js) but extended for this file's
 // actual API surface.
 function freshLocalStorage() {
 

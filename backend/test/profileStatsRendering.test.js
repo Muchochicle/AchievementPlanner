@@ -8,7 +8,7 @@ import { renderProfileStatsState } from "../../src/components/profile-stats/prof
 // document.getElementById(...) and sets .textContent/.hidden on whatever
 // comes back, so a plain object mock is enough to exercise its real logic
 // under Node - same minimal, hand-rolled-fake style already used elsewhere
-// in this suite (see profileStatistics.test.js's localStorage mock,
+// in this suite (see plannerStorage.test.js's localStorage mock,
 // steamController.test.js's mock res).
 function createElementStub() {
 
