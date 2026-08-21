@@ -24,6 +24,498 @@
         "Roguelike"
     ],
 
-    "achievements": []
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "AchClearTartarus",
+            "name": "Escaped Tartarus",
+            "description": "Clear Tartarus",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 2,
+            "apiname": "AchClearAsphodel",
+            "name": "Escaped Asphodel",
+            "description": "Clear Asphodel",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "AchClearElysium",
+            "name": "Escaped Elysium",
+            "description": "Clear Elysium",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 4,
+            "apiname": "AchClearAnyRun",
+            "name": "Is There No Escape?",
+            "description": "Clear an escape attempt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 5,
+            "apiname": "AchReachedEnding",
+            "name": "The Family Secret",
+            "description": "Complete the main quest in the story",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "AchReachedEpilogue",
+            "name": "One for the Ages",
+            "description": "Reach the epilogue of the story",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "AchAccessAdminChamber",
+            "name": "Back to Work",
+            "description": "Earn access to and enter the Administrative Chamber",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 8,
+            "apiname": "AchUnlockedAllWeapons",
+            "name": "Arms Collector",
+            "description": "Unlock each of the Infernal Arms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "ActUnlockedAllAspects",
+            "name": "Infernal Arms",
+            "description": "Unlock all Weapon Aspects",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 10,
+            "apiname": "AchMaxedAnyAspect",
+            "name": "Blood Bound",
+            "description": "Max any Weapon Aspect",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 11,
+            "apiname": "AchClearRun4thAspect",
+            "name": "Weapon of Fate",
+            "description": "Clear an escape attempt with a hidden Weapon Aspect",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 12,
+            "apiname": "AchWeaponClears",
+            "name": "Master of Arms",
+            "description": "Fulfill the 'Master of Arms' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "AchMeetChthonicGods",
+            "name": "Chthonic Colleagues",
+            "description": "Fulfill the 'Chthonic Colleagues' Prophecy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "AchAresKills",
+            "name": "War-God's Bloodlust",
+            "description": "Fulfill the 'War-God's Bloodlust' Prophecy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 15,
+            "apiname": "AchSingersReunion",
+            "name": "Musician and Muse",
+            "description": "Fulfill the 'Musician and Muse' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 16,
+            "apiname": "AchEliteAttributeKills",
+            "name": "Slashed Benefits",
+            "description": "Fulfill the 'Slashed Benefits' Prophecy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 17,
+            "apiname": "AchNyxChaosReunion",
+            "name": "Night and Darkness",
+            "description": "Fulfill the 'Night and Darkness' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 18,
+            "apiname": "AchSisyphusLiberation",
+            "name": "End to Torment",
+            "description": "Fulfill the 'End to Torment' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 19,
+            "apiname": "AchMirrorUpgradeClears",
+            "name": "Dark Reflections",
+            "description": "Fulfill the 'Dark Reflections' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 20,
+            "apiname": "AchMyrmidonReunion",
+            "name": "Divided by Death",
+            "description": "Fulfill the 'Divided by Death' Prophecy",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 21,
+            "apiname": "AchPactUpgradesClears",
+            "name": "Harsh Conditions",
+            "description": "Fulfill the 'Harsh Conditions' Prophecy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 22,
+            "apiname": "AchManyQuests",
+            "name": "Had to Happen",
+            "description": "Fulfill any 15 Prophecies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 23,
+            "apiname": "AchFoundKeepsakes",
+            "name": "Something From Everyone",
+            "description": "Unlock each standard Keepsake",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 24,
+            "apiname": "AchLeveledKeepsakes",
+            "name": "Friends Forever",
+            "description": "Max-rank each standard Keepsake",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 25,
+            "apiname": "AchFoundSummon",
+            "name": "Rare Collectible",
+            "description": "Equip a Chthonic Companion",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 26,
+            "apiname": "AchFoundAllSummons",
+            "name": "Complete Set",
+            "description": "Earn all Chthonic Companions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 27,
+            "apiname": "AchOlympiansCodex",
+            "name": "Well Versed",
+            "description": "Fully Unlock the Olympians' Codex entries",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 28,
+            "apiname": "AchMirrorAllUnlocked",
+            "name": "Nyx's Mirror",
+            "description": "Have at least one rank in each Mirror of Night Talent",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 29,
+            "apiname": "AchFishFromEachBiome",
+            "name": "River Denizens",
+            "description": "Catch a fish from each region",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 30,
+            "apiname": "AchManyCosmetics",
+            "name": "Home Makeover",
+            "description": "Pay for 50 jobs from the House Contractor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 31,
+            "apiname": "AchPickedManyHammers",
+            "name": "Tools of the Architect",
+            "description": "Choose 50 different Daedalus Hammer enchantments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 32,
+            "apiname": "AchCerberusPets",
+            "name": "Three-Headed Boy",
+            "description": "Pet Cerberus 10 times",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 33,
+            "apiname": "AchManyBrokerTrades",
+            "name": "Day-or-Night Trader",
+            "description": "Trade 20 times with the Wretched Broker",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 34,
+            "apiname": "AchForgedBond",
+            "name": "Grown Close",
+            "description": "Forge a bond with any character",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 35,
+            "apiname": "AchOrpheusSingsAgain",
+            "name": "Urge to Sing",
+            "description": "Compel Orpheus to sing again",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 36,
+            "apiname": "AchBeatCharon",
+            "name": "To Charon's Credit",
+            "description": "Earn a Loyalty Card",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 37,
+            "apiname": "AchBronzeSkellyTrophy",
+            "name": "The Useless Trinket",
+            "description": "Earn the first of Skelly's prizes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 38,
+            "apiname": "AchSilverSkellyTrophy",
+            "name": "Skelly's Last Lamentations",
+            "description": "Earn the second of Skelly's prizes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "AchSkellyKills",
+            "name": "Skelly Slayer",
+            "description": "Slay Skelly 15 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 40,
+            "apiname": "AchClearHeatGate",
+            "name": "Hold the Onions",
+            "description": "Clear an Infernal Gate without taking damage",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 41,
+            "apiname": "AchClearElysiumEM",
+            "name": "Champion of Elysium",
+            "description": "Clear Elysium with the 'Extreme Measures' Condition",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 42,
+            "apiname": "AchCrushedThanatos",
+            "name": "Death Dealer",
+            "description": "Beat Thanatos by 15 kills or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 43,
+            "apiname": "AchWellShopItems",
+            "name": "Well Stocked",
+            "description": "Buy 9 'Well of Charon' items in one escape attempt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 44,
+            "apiname": "AchGreaterCall",
+            "name": "Friends in High Places",
+            "description": "Use Greater Call to invoke an Olympian's aid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 45,
+            "apiname": "AchGreaterCallSpurned",
+            "name": "Bad Call",
+            "description": "Use an Olympian's Greater Call against them in a Trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 46,
+            "apiname": "AchPurgedLegendBoon",
+            "name": "Thanks, But No Thanks",
+            "description": "Purge a Legendary Boon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 47,
+            "apiname": "AchPickedManyBoons",
+            "name": "Blessed by the Gods",
+            "description": "Choose 100 different Olympian Boon effects",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 48,
+            "apiname": "AchBuffedPlume",
+            "name": "Haste of Hermes",
+            "description": "Get 20% dodge chance with the Lambent Plume",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 49,
+            "apiname": "AchBuffedButterfly",
+            "name": "Thorn of Thanatos",
+            "description": "Get 30% bonus damage with the Pierced Butterfly",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
 
 }
