@@ -144,7 +144,15 @@ async function init() {
 
         if (!game.hasPlanner) {
 
-            if (game.steamAchievements?.available) {
+            // game.hasSteamAchievements (backend-computed, from the real
+            // Steam schema - see routes/games.js) rather than
+            // game.steamAchievements?.available: the latter is only "does
+            // the achievement array have entries", which used to also read
+            // false when the schema fetch itself had failed, collapsing
+            // "no achievements" and "couldn't determine right now" into
+            // the same generic message. See
+            // src/utils/planner/achievement/availability.js.
+            if (game.hasSteamAchievements) {
 
                 container.innerHTML =
 
@@ -170,13 +178,19 @@ async function init() {
 
             }
 
+            const unavailable = game.schemaStatus && game.schemaStatus !== "available";
+
             container.innerHTML = `
 
                 <div class="no-planner-message">
 
-                    <h2>Planner not available yet</h2>
+                    <h2>${unavailable ? "Steam achievement data unavailable" : "No Steam achievements"}</h2>
 
-                    <p>We don't have a planner available for this game yet.</p>
+                    <p>${unavailable
+
+                        ? "We couldn't load Steam's achievement data for this game right now. Please try again later."
+
+                        : "Steam doesn't report any achievements for this game."}</p>
 
                     <a href="games.html">Back to games</a>
 

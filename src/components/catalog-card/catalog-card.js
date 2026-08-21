@@ -1,4 +1,5 @@
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
+import { ACHIEVEMENT_AVAILABILITY_LABELS } from "../../utils/planner/achievement/availability.js";
 
 export function createCatalogCard(game) {
 
@@ -37,6 +38,20 @@ export function createCatalogCard(game) {
 
     ].join("");
 
+    const hasHoursPlayed = owned && typeof game.playtime === "number";
+
+    // Real, Steam-data-backed label (see availability.js) when the backend
+    // has computed one - "No Steam achievements" / "Steam achievement data
+    // unavailable" / "Planner not available yet" are 3 genuinely different
+    // facts about this game, never collapsed here. Falls back to the old
+    // generic "Planner coming soon" only when achievementAvailability
+    // wasn't computed for this card at all (e.g. an unowned/no-appid entry
+    // - see routes/games.js's attachAchievementAvailability), so a card
+    // never renders with no status text at all.
+    const achievementStatusLabel =
+        ACHIEVEMENT_AVAILABILITY_LABELS[game.achievementAvailability] ??
+        "Planner coming soon";
+
     const plannerInfo = hasPlanner
 
         ? (metaStats
@@ -47,9 +62,13 @@ export function createCatalogCard(game) {
 
             <div class="catalog-planner-soon">
 
-                Planner coming soon
+                ${escapeHtml(achievementStatusLabel)}
 
             </div>
+
+            ${hasHoursPlayed
+                ? `<div class="catalog-meta"><span>🕒 ${game.playtime} h played</span></div>`
+                : ""}
 
         `;
 

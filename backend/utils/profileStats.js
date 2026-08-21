@@ -34,6 +34,7 @@ export function reduceProfileStats(settledResults, slugs = []) {
 
     let achievements = 0;
     let gamesWithUnlockedAchievements = 0;
+    let gamesWithAchievements = 0;
     let completedGames = 0;
     let gamesWithPlayerDataUnavailable = 0;
     let gamesWithTransientErrors = 0;
@@ -50,7 +51,32 @@ export function reduceProfileStats(settledResults, slugs = []) {
 
         }
 
-        const { total, completed, playerDataStatus } = result.value;
+        const { total, completed, playerDataStatus, schemaStatus, hasAchievements } = result.value;
+
+        // A failed schema fetch means we don't actually know this game's
+        // achievement count - previously getSchemaForGame silently
+        // collapsed that into "0 achievements" (see steamApi.js), which
+        // under-reported both "games with achievements" and Completed (a
+        // genuinely 100%-complete game could never register while its
+        // schema fetch kept failing). Treat it the same as any other
+        // transient Steam failure: excluded from every count below, not
+        // silently counted as zero.
+        if (schemaStatus && schemaStatus !== "available") {
+
+            gamesWithTransientErrors++;
+            continue;
+
+        }
+
+        // Schema-level fact, independent of whether *this* player has
+        // unlocked anything - "games with Steam achievements" per the
+        // Profile stat is about Steam's schema, not the player's unlock
+        // history (see profile-stats.js / PHASE_33_AUDIT.md Area 1).
+        if (hasAchievements) {
+
+            gamesWithAchievements++;
+
+        }
 
         if (playerDataStatus === "transient") {
 
@@ -96,6 +122,7 @@ export function reduceProfileStats(settledResults, slugs = []) {
 
         achievements,
         gamesWithUnlockedAchievements,
+        gamesWithAchievements,
         completedGames,
         completedGameSlugs,
         gamesConsidered: settledResults.length,

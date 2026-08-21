@@ -42,6 +42,14 @@ export function mapSteamGame(game) {
 
         playtime: Math.round(game.playtime_forever / 60),
 
+        // Steam's rtime_last_played (epoch seconds, 0 when the game has
+        // never been played) - confirmed live (see PHASE_33_AUDIT.md
+        // section 3) to always be present and to agree with
+        // playtime_forever (never played <=> 0, ever played <=> >0), so a
+        // plain `> 0` check is a safe "has real play activity" signal for
+        // the Profile "Recently Played" section.
+        lastPlayed: game.rtime_last_played ?? 0,
+
         owned: true,
 
         hasPlanner: !!planner,

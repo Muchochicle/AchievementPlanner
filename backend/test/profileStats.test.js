@@ -152,6 +152,51 @@ test("reduceProfileStats: transient errors and stable unavailability are counted
 
 });
 
+test("reduceProfileStats: gamesWithAchievements counts games whose Steam schema has >=1 achievement, regardless of whether the player unlocked any", () => {
+
+    const settled = [
+        // Steam has achievements, player unlocked none - still counts.
+        { status: "fulfilled", value: { total: 10, completed: 0, playerDataStatus: "available", schemaStatus: "available", hasAchievements: true } },
+        // Steam confirms zero achievements - does not count.
+        { status: "fulfilled", value: { total: 0, completed: 0, playerDataStatus: "available", schemaStatus: "available", hasAchievements: false } },
+        // Player data unavailable, but Steam's schema itself still answered - still counts.
+        { status: "fulfilled", value: { total: 5, completed: 0, playerDataStatus: "unavailable", schemaStatus: "available", hasAchievements: true } }
+    ];
+
+    const stats = reduceProfileStats(settled);
+
+    assert.strictEqual(stats.gamesWithAchievements, 2);
+
+});
+
+test("reduceProfileStats: a game whose schema fetch itself failed is excluded from every count (never silently treated as 'zero achievements')", () => {
+
+    const settled = [
+        { status: "fulfilled", value: { total: 0, completed: 0, playerDataStatus: "available", schemaStatus: "unavailable", hasAchievements: false } },
+        { status: "fulfilled", value: { total: 3, completed: 3, playerDataStatus: "available", schemaStatus: "available", hasAchievements: true } }
+    ];
+
+    const stats = reduceProfileStats(settled);
+
+    assert.strictEqual(stats.gamesWithAchievements, 1, "the schema-failed game must not count toward (or against) gamesWithAchievements");
+    assert.strictEqual(stats.completedGames, 1, "the schema-failed game must not block a real completed game from counting");
+    assert.strictEqual(stats.gamesWithTransientErrors, 1, "the schema-failed game is reported as a transient gap, not silently dropped");
+
+});
+
+test("reduceProfileStats: old-shape settled values (no schemaStatus/hasAchievements) still reduce correctly - schema classification is additive, not required", () => {
+
+    const settled = [
+        { status: "fulfilled", value: { total: 2, completed: 2, playerDataStatus: "available" } }
+    ];
+
+    const stats = reduceProfileStats(settled);
+
+    assert.strictEqual(stats.completedGames, 1);
+    assert.strictEqual(stats.gamesWithAchievements, 0, "hasAchievements defaults to falsy when the caller doesn't provide it");
+
+});
+
 test("computeProfileStats filters out games with no real appid before fetching", async () => {
 
     const seen = [];

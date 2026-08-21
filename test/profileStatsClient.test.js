@@ -34,6 +34,7 @@ test("fetchProfileStats returns a ready state with every field from a successful
             gamesPlayed: 5,
             achievements: 42,
             gamesWithUnlockedAchievements: 4,
+            gamesWithAchievements: 7,
             completedGames: 2,
             completedGameSlugs: ["hades"],
             gamesConsidered: 10,
@@ -49,6 +50,7 @@ test("fetchProfileStats returns a ready state with every field from a successful
 
         assert.strictEqual(result.status, "ready");
         assert.strictEqual(result.achievements, 42);
+        assert.strictEqual(result.gamesWithAchievements, 7);
         assert.deepStrictEqual(result.completedGameSlugs, ["hades"]);
 
     } finally {

@@ -158,8 +158,15 @@ export function renderProfileStatsState(state) {
         // "Games" is the actual Steam library size (owned), not the older
         // "games with an unlocked achievement" figure - see
         // state.gamesWithUnlockedAchievements if that's ever needed again.
+        // The sub-line breaks that single number down: played (any
+        // playtime), completed (100% per the same live scan as the "100%"
+        // card), and "with achievements" - games whose Steam schema itself
+        // reports >=1 achievement, regardless of whether this player has
+        // unlocked any of them (see profileStats.js's gamesWithAchievements,
+        // deliberately distinct from gamesWithUnlockedAchievements).
         gamesOwnedEl.textContent = state.gamesOwned;
-        gamesSubEl.textContent = `${state.gamesPlayed} played`;
+        gamesSubEl.textContent =
+            `${state.gamesPlayed} played · ${state.completedGames} completed · ${state.gamesWithAchievements} with achievements`;
         completedEl.textContent = state.completedGames;
 
         const unavailable =

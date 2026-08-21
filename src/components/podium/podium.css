@@ -53,6 +53,21 @@
 
 }
 
+/* Section heading above the Steam category grid - grouping label only, no
+   ranking-logic change (see PHASE_33_AUDIT.md Area 5). Matches the
+   uppercase/letter-spacing treatment already used by .podium-meta. */
+.podiums-group-title{
+
+    color:var(--text-secondary);
+    font-size:.8rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+
+    margin-bottom:var(--spacing-sm);
+
+}
+
 #podiums-content{
 
     display:grid;

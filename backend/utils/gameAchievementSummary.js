@@ -19,13 +19,22 @@ import { mergeAchievements } from "./achievementMerger.js";
 import { getMergedAchievementStats } from "../../src/utils/planner/achievement/completion.js";
 
 // Fetches and merges one game's Steam achievement data and reduces it to
-// {total, completed, playerDataStatus} - the profile aggregate's only
-// building block. Deliberately does NOT fetch global achievement
-// percentages (routes/games.js's single-game endpoint does, but that data
-// is cosmetic per-achievement display only, never needed to compute
-// completion counts) and does NOT return per-achievement detail - callers
-// needing the full achievement list/detail should use routes/games.js's
-// existing /:slug pipeline instead, which is untouched by this file.
+// {total, completed, playerDataStatus, schemaStatus, hasAchievements} - the
+// profile aggregate's only building block. Deliberately does NOT fetch
+// global achievement percentages (routes/games.js's single-game endpoint
+// does, but that data is cosmetic per-achievement display only, never
+// needed to compute completion counts) and does NOT return per-achievement
+// detail - callers needing the full achievement list/detail should use
+// routes/games.js's existing /:slug pipeline instead, which is untouched by
+// this file.
+//
+// schemaStatus/hasAchievements are kept distinct from total/completed on
+// purpose: `total` is the *merged* (AP + Steam) achievement count, which for
+// a curated planner can differ from Steam's own raw schema count, while
+// "does Steam itself report any achievements for this game" (used by the
+// Profile "games with Steam achievements" stat and the achievement-
+// availability states in availability.js) must always answer from the real
+// Steam schema alone.
 //
 // fetchSchema/fetchPlayerAchievements are injectable purely so tests can
 // exercise the classification/merge/reduction logic with synthetic Steam
@@ -41,11 +50,18 @@ export async function getGameAchievementSummary(
 
     if (!(game?.appid > 0)) {
 
-        return { total: 0, completed: 0, playerDataStatus: "unavailable" };
+        return {
+            total: 0,
+            completed: 0,
+            playerDataStatus: "unavailable",
+            schemaStatus: "available",
+            hasAchievements: false
+        };
 
     }
 
-    const schemaAchievements = await fetchSchema(game.appid);
+    const { achievements: schemaAchievements, status: schemaStatus } =
+        await fetchSchema(game.appid);
 
     const steamAchievements = mapSteamAchievements(schemaAchievements, []);
 
@@ -64,6 +80,12 @@ export async function getGameAchievementSummary(
         mergedAchievements: merged
     });
 
-    return { total, completed, playerDataStatus: status };
+    return {
+        total,
+        completed,
+        playerDataStatus: status,
+        schemaStatus,
+        hasAchievements: schemaAchievements.length > 0
+    };
 
 }

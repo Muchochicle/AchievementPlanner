@@ -50,6 +50,7 @@ export async function fetchProfileStats() {
         gamesPlayed: data.gamesPlayed,
         achievements: data.achievements,
         gamesWithUnlockedAchievements: data.gamesWithUnlockedAchievements,
+        gamesWithAchievements: data.gamesWithAchievements,
         completedGames: data.completedGames,
         completedGameSlugs: data.completedGameSlugs,
         gamesConsidered: data.gamesConsidered,

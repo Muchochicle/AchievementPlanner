@@ -55,6 +55,7 @@ test("renderProfileStatsState renders the explicit ready state's numbers and hid
             gamesPlayed: 56,
             achievements: 1185,
             gamesWithUnlockedAchievements: 56,
+            gamesWithAchievements: 87,
             completedGames: 3,
             completedGameSlugs: ["hades", "hollow-knight", "portal-2"],
             gamesConsidered: 144,
@@ -65,7 +66,7 @@ test("renderProfileStatsState renders the explicit ready state's numbers and hid
 
         assert.strictEqual(elements["profile-stat-achievements"].textContent, 1185);
         assert.strictEqual(elements["profile-stat-games-owned"].textContent, 146);
-        assert.strictEqual(elements["profile-stat-games-sub"].textContent, "56 played");
+        assert.strictEqual(elements["profile-stat-games-sub"].textContent, "56 played · 3 completed · 87 with achievements");
         assert.strictEqual(elements["profile-stat-completed-games"].textContent, 3);
         assert.strictEqual(elements["profile-stats-status"].hidden, true);
 
@@ -84,6 +85,7 @@ test("renderProfileStatsState's ready state shows the unavailable-games caveat w
             gamesPlayed: 56,
             achievements: 1185,
             gamesWithUnlockedAchievements: 56,
+            gamesWithAchievements: 87,
             completedGames: 3,
             completedGameSlugs: ["hades", "hollow-knight", "portal-2"],
             gamesConsidered: 144,

@@ -138,6 +138,12 @@ test("GET /api/games returns the real catalog games with hasPlanner:true and the
             assert.strictEqual(typeof game.title, "string");
             assert.ok(Array.isArray(game.genres));
 
+            // attachAchievementAvailability (routes/games.js) only fetches
+            // Steam's achievement schema for owned, planner-less games -
+            // every catalog game here always has a curated planner, so none
+            // of them should trigger that fan-out at all.
+            assert.strictEqual("achievementAvailability" in game, false);
+
         }
 
     });

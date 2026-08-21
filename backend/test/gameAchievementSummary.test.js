@@ -16,6 +16,16 @@ function schema(names) {
 
 }
 
+// fetchSchema now returns { achievements, status } (see steamApi.js's
+// getSchemaForGame) instead of a bare array - status: "available" for
+// every test in this file except the dedicated schema-unavailable cases
+// below, which is exactly the distinction Phase 33 introduced.
+function availableSchema(names) {
+
+    return async () => ({ achievements: schema(names), status: "available" });
+
+}
+
 test("available player data: curated match + Steam-only achievement, partially completed", async () => {
 
     const game = {
@@ -23,7 +33,7 @@ test("available player data: curated match + Steam-only achievement, partially c
         achievements: [{ id: "curated-1", apiname: "A" }]
     };
 
-    const fetchSchema = async () => schema(["A", "B"]);
+    const fetchSchema = availableSchema(["A", "B"]);
 
     const fetchPlayerAchievements = async () => ({
         status: "available",
@@ -42,7 +52,9 @@ test("available player data: curated match + Steam-only achievement, partially c
     assert.deepStrictEqual(summary, {
         total: 2,
         completed: 1,
-        playerDataStatus: "available"
+        playerDataStatus: "available",
+        schemaStatus: "available",
+        hasAchievements: true
     });
 
 });
@@ -51,7 +63,7 @@ test("unavailable player data (e.g. Steam's 'Profile is not public' case): total
 
     const game = { appid: 730, achievements: [] };
 
-    const fetchSchema = async () => schema(["PLAY_CS2"]);
+    const fetchSchema = availableSchema(["PLAY_CS2"]);
 
     const fetchPlayerAchievements = async () => ({
         status: "unavailable",
@@ -67,7 +79,9 @@ test("unavailable player data (e.g. Steam's 'Profile is not public' case): total
     assert.deepStrictEqual(summary, {
         total: 1,
         completed: 0,
-        playerDataStatus: "unavailable"
+        playerDataStatus: "unavailable",
+        schemaStatus: "available",
+        hasAchievements: true
     });
 
 });
@@ -76,7 +90,7 @@ test("a transient fetch failure is reported distinctly from a stable 'unavailabl
 
     const game = { appid: 200, achievements: [] };
 
-    const fetchSchema = async () => schema(["X"]);
+    const fetchSchema = availableSchema(["X"]);
 
     const fetchPlayerAchievements = async () => ({
         status: "transient",
@@ -94,11 +108,45 @@ test("a transient fetch failure is reported distinctly from a stable 'unavailabl
 
 });
 
-test("a game with zero achievements in Steam's schema reports total 0", async () => {
+test("a game with zero achievements in Steam's schema reports total 0 and hasAchievements false, with a real (not failed) schemaStatus", () => {
 
-    const game = { appid: 300, achievements: [] };
+    return (async () => {
 
-    const fetchSchema = async () => [];
+        const game = { appid: 300, achievements: [] };
+
+        const fetchSchema = availableSchema([]);
+
+        const fetchPlayerAchievements = async () => ({
+            status: "available",
+            achievements: []
+        });
+
+        const summary = await getGameAchievementSummary(
+            "steamid",
+            game,
+            { fetchSchema, fetchPlayerAchievements }
+        );
+
+        assert.deepStrictEqual(summary, {
+            total: 0,
+            completed: 0,
+            playerDataStatus: "available",
+            schemaStatus: "available",
+            hasAchievements: false
+        });
+
+    })();
+
+});
+
+test("a schema fetch that itself failed reports schemaStatus 'unavailable', distinct from a confirmed-zero schema", async () => {
+
+    const game = { appid: 999, achievements: [] };
+
+    // Mirrors getSchemaForGame's real "unavailable" shape on a failed
+    // request (see steamApi.js) - not the same as a successful response
+    // with zero achievements.
+    const fetchSchema = async () => ({ achievements: [], status: "unavailable" });
 
     const fetchPlayerAchievements = async () => ({
         status: "available",
@@ -111,11 +159,9 @@ test("a game with zero achievements in Steam's schema reports total 0", async ()
         { fetchSchema, fetchPlayerAchievements }
     );
 
-    assert.deepStrictEqual(summary, {
-        total: 0,
-        completed: 0,
-        playerDataStatus: "available"
-    });
+    assert.strictEqual(summary.schemaStatus, "unavailable");
+    assert.strictEqual(summary.hasAchievements, false);
+    assert.strictEqual(summary.total, 0);
 
 });
 
@@ -123,7 +169,7 @@ test("a fully completed game reports completed === total", async () => {
 
     const game = { appid: 400, achievements: [] };
 
-    const fetchSchema = async () => schema(["A", "B", "C"]);
+    const fetchSchema = availableSchema(["A", "B", "C"]);
 
     const fetchPlayerAchievements = async () => ({
         status: "available",
@@ -143,7 +189,9 @@ test("a fully completed game reports completed === total", async () => {
     assert.deepStrictEqual(summary, {
         total: 3,
         completed: 3,
-        playerDataStatus: "available"
+        playerDataStatus: "available",
+        schemaStatus: "available",
+        hasAchievements: true
     });
 
 });
@@ -152,7 +200,7 @@ test("a non-curated game (no game.achievements at all) is summarized purely from
 
     const game = { appid: 500 };
 
-    const fetchSchema = async () => schema(["ONLY"]);
+    const fetchSchema = availableSchema(["ONLY"]);
 
     const fetchPlayerAchievements = async () => ({
         status: "available",
@@ -168,16 +216,18 @@ test("a non-curated game (no game.achievements at all) is summarized purely from
     assert.deepStrictEqual(summary, {
         total: 1,
         completed: 1,
-        playerDataStatus: "available"
+        playerDataStatus: "available",
+        schemaStatus: "available",
+        hasAchievements: true
     });
 
 });
 
-test("a game with no real appid is skipped without calling either fetcher", async () => {
+test("a game with no real appid is skipped without calling either fetcher, and is reported as a confirmed 'no achievements' (not unavailable)", async () => {
 
     let called = false;
 
-    const fetchSchema = async () => { called = true; return []; };
+    const fetchSchema = async () => { called = true; return { achievements: [], status: "available" }; };
     const fetchPlayerAchievements = async () => { called = true; return { status: "available", achievements: [] }; };
 
     const summary = await getGameAchievementSummary(
@@ -187,6 +237,12 @@ test("a game with no real appid is skipped without calling either fetcher", asyn
     );
 
     assert.strictEqual(called, false);
-    assert.deepStrictEqual(summary, { total: 0, completed: 0, playerDataStatus: "unavailable" });
+    assert.deepStrictEqual(summary, {
+        total: 0,
+        completed: 0,
+        playerDataStatus: "unavailable",
+        schemaStatus: "available",
+        hasAchievements: false
+    });
 
 });

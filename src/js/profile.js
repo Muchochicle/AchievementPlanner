@@ -36,9 +36,9 @@ import {
 
 import {
 
-    getInProgressGameSlugs
+    getRecentlyPlayedGames
 
-} from "../utils/player/statistics/helpers/games.js";
+} from "../utils/player/statistics/helpers/recentlyPlayed.js";
 
 import {
 
@@ -121,23 +121,20 @@ async function init() {
     // Completed: sourced from the live Steam-backed statsPromise (the same
     // full-library scan behind the "100%" stat card), so a game the user
     // 100%-completed in Steam but never opened on AchievementPlanner still
-    // shows up here. In Progress: still sourced from
-    // localStorage["planner-{slug}"] via getInProgressGameSlugs() -
-    // intentionally unchanged, since that data is only ever written by
-    // visiting a game's page (see storage.js saveProgress) and nothing
-    // today computes an equivalent "in progress" answer from the full
-    // library scan.
+    // shows up here. Recently Played: sourced from the same live games
+    // index, ordered by Steam's own lastPlayed (rtime_last_played, see
+    // gameMapper.js) via getRecentlyPlayedGames() - no longer
+    // localStorage["planner-{slug}"]-based, so a game played on Steam but
+    // never opened in AchievementPlanner still shows up here too.
     async function loadGamesSection(statsPromise) {
 
         const container =
             document.getElementById("profile-sections");
 
-        const inProgressSlugs = getInProgressGameSlugs();
-
-        if (!inProgressSlugs.length && !session.logged) {
+        if (!session.logged) {
 
             container.innerHTML =
-                createProfileGames({ completed: [], inProgress: [] });
+                createProfileGames({ completed: [], recentlyPlayed: [] });
 
             return;
 
@@ -167,14 +164,10 @@ async function init() {
 
                 .filter(Boolean);
 
-            const inProgress = inProgressSlugs
-
-                .map(slug => bySlug.get(slug))
-
-                .filter(Boolean);
+            const recentlyPlayed = getRecentlyPlayedGames(index);
 
             container.innerHTML =
-                createProfileGames({ completed, inProgress });
+                createProfileGames({ completed, recentlyPlayed });
 
             container.onclick = event => {
 

@@ -1,14 +1,13 @@
 import { createCatalogCard } from "../catalog-card/catalog-card.js";
 
-// note is optional - only "In Progress" carries one today (it's still
-// scoped to games opened in AchievementPlanner; see profile.js). Completed
-// is sourced from the same full-library Steam scan as the Profile "100%"
-// stat, so it needs no such caveat.
-function renderGroup(title, games, emptyText, note) {
+// headerExtra is optional - only "Recently Played" carries one today (its
+// "View all ->" link to the Games page). Completed and Recently Played are
+// both sourced from live Steam data (the same full-library scan behind the
+// Profile "100%" stat, and Steam's own rtime_last_played respectively), so
+// neither needs a "only games opened here are tracked" caveat any more.
+function renderGroup(title, games, emptyText, headerExtra) {
 
-    const noteHtml = note
-        ? `<p class="profile-games-note">${note}</p>`
-        : "";
+    const headerExtraHtml = headerExtra ?? "";
 
     if (!games.length) {
 
@@ -16,9 +15,7 @@ function renderGroup(title, games, emptyText, note) {
 
             <div class="profile-games-group">
 
-                <h3>${title}</h3>
-
-                ${noteHtml}
+                <h3>${title}${headerExtraHtml}</h3>
 
                 <p class="profile-games-empty">${emptyText}</p>
 
@@ -36,10 +33,9 @@ function renderGroup(title, games, emptyText, note) {
 
                 ${title}
                 <span class="profile-games-count">${games.length}</span>
+                ${headerExtraHtml}
 
             </h3>
-
-            ${noteHtml}
 
             <div class="profile-games-grid">
 
@@ -53,25 +49,37 @@ function renderGroup(title, games, emptyText, note) {
 
 }
 
-export function createProfileGames({ completed = [], inProgress = [] } = {}) {
+// completed and recentlyPlayed are NOT deduplicated against each other -
+// unlike the old Completed/In-Progress split (where "in progress" and
+// "100% complete" were mutually exclusive by definition), a fully completed
+// game the player keeps returning to is legitimately both 100% complete
+// and recently played, so it can appear in both groups.
+export function createProfileGames({ completed = [], recentlyPlayed = [] } = {}) {
 
-    // Completed always wins: a game the live Steam scan already confirms
-    // as 100% complete must never also render under "In Progress". Stale
-    // local planner-{slug} progress (see helpers/games.js
-    // getInProgressGameSlugs, still localStorage-based) can outlive the
-    // moment Steam confirms completion, if the game is never reopened
-    // here again - so this dedup has to happen here, not just upstream,
-    // to guarantee the two rendered lists never share a game regardless
-    // of what the caller passes in.
-    const completedSlugs = new Set(
-        completed.map(game => game.slug)
-    );
+    // Completed itself is still deduplicated by slug: reduceProfileStats'
+    // completedGameSlugs is built straight from owned games' slugs, which
+    // are normally unique but could in principle collide (two different
+    // Steam appids deriving the same slug - see gameMapper.js), which
+    // would otherwise render the same completed game twice. Kept even
+    // though the cross-section (vs. Recently Played) dedup above it was
+    // removed - that one no longer applies (see comment above), this one
+    // is a different, still-valid guarantee.
+    const seenSlugs = new Set();
 
-    const dedupedInProgress = inProgress.filter(
-        game => !completedSlugs.has(game.slug)
-    );
+    const dedupedCompleted = completed.filter(game => {
 
-    if (!completed.length && !dedupedInProgress.length) {
+        if (seenSlugs.has(game.slug)) {
+
+            return false;
+
+        }
+
+        seenSlugs.add(game.slug);
+        return true;
+
+    });
+
+    if (!dedupedCompleted.length && !recentlyPlayed.length) {
 
         return `
 
@@ -99,15 +107,15 @@ export function createProfileGames({ completed = [], inProgress = [] } = {}) {
 
             ${renderGroup(
                 "Completed",
-                completed,
+                dedupedCompleted,
                 "No fully completed games yet."
             )}
 
             ${renderGroup(
-                "In Progress",
-                dedupedInProgress,
-                "No games in progress right now.",
-                "Only games you've opened in AchievementPlanner are tracked here."
+                "Recently Played",
+                recentlyPlayed,
+                "No recent play activity found.",
+                `<a class="profile-games-view-all" href="games.html">View all →</a>`
             )}
 
         </section>

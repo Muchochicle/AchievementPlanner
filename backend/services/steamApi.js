@@ -132,6 +132,19 @@ export async function getOwnedGames(steamId) {
 
 }
 
+// Returns { achievements, status } rather than a bare array - confirmed
+// live against the real Steam API that these are two genuinely different
+// response shapes that must not collapse into the same []:
+//   - A game with zero real achievements answers with HTTP 200 and
+//     data.game = {} (no availableGameStats key at all) - a real, trustworthy
+//     "this game has no achievements" answer (status: "available", []).
+//   - A failed/invalid request (bad appid, Steam unreachable, rate-limited,
+//     timeout) throws inside steamFetch - we genuinely don't know this
+//     game's achievement schema (status: "unavailable", []).
+// Callers that only care about the achievement list (not why it might be
+// empty) can keep reading `.achievements`; callers that need to render one
+// of the 3 achievement-availability states (see
+// src/utils/planner/achievement/availability.js) need `.status` too.
 export async function getSchemaForGame(appid) {
 
     const cacheKey = `schema:${appid}`;
@@ -144,7 +157,7 @@ export async function getSchemaForGame(appid) {
 
     }
 
-    let achievements;
+    let result;
 
     try {
 
@@ -153,21 +166,26 @@ export async function getSchemaForGame(appid) {
 
         const data = await steamFetch(url);
 
-        achievements = data.game?.availableGameStats?.achievements ?? [];
+        result = {
+            achievements: data.game?.availableGameStats?.achievements ?? [],
+            status: "available"
+        };
 
     } catch (error) {
 
         // Steam being unreachable, rate-limited, or erroring on this appid
         // shouldn't take down the whole game page - the local planner data
         // doesn't depend on Steam at all. Same graceful degradation as
-        // getGlobalAchievementPercentages/getPlayerAchievements below.
-        achievements = [];
+        // getGlobalAchievementPercentages below, but this case is reported
+        // as "unavailable" rather than silently treated as "confirmed zero
+        // achievements" (see comment above).
+        result = { achievements: [], status: "unavailable" };
 
     }
 
-    setCached(cacheKey, achievements, ACHIEVEMENT_SCHEMA_TTL_MS);
+    setCached(cacheKey, result, ACHIEVEMENT_SCHEMA_TTL_MS);
 
-    return achievements;
+    return result;
 
 }
 
@@ -293,14 +311,12 @@ export async function getPlayerAchievements(steamId, appid) {
 
 }
 
-// Same endpoint as getPlayerAchievements above, but for callers (the
-// Profile aggregate) that need to tell Steam's own "no data for this
-// game" answer apart from a genuine request failure - getPlayerAchievements
-// deliberately collapses both into [] for the game page, which is fine at
-// 1-2 calls per page load but would silently misreport an unrelated
-// network hiccup as "Steam has no data" across an entire library scan.
-// Uses its own cache entry (never shares getPlayerAchievements' cache key)
-// so neither function's cached shape can corrupt the other's.
+// Classifies Steam's response instead of collapsing every "no data"
+// outcome into an empty list - callers (the Profile aggregate, and the
+// single-game route) need to tell Steam's own "no data for this game"
+// answer (private profile / no stats) apart from a genuine request
+// failure, since silently treating a network hiccup as "Steam has no
+// data" would misreport across an entire library scan.
 export async function getPlayerAchievementsClassified(steamId, appid) {
 
     const cacheKey = `player-achievements-classified:${steamId}:${appid}`;

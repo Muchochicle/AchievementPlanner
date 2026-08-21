@@ -56,6 +56,26 @@
 
 }
 
+/* Pushed to the far edge of the (flex) group header - "Recently Played"'s
+   link to the full Games page. */
+.profile-games-view-all{
+
+    margin-left:auto;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+    color:var(--primary);
+
+}
+
+.profile-games-view-all:hover{
+
+    text-decoration:underline;
+
+}
+
 .profile-games-grid{
 
     display:grid;

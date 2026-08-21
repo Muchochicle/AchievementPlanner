@@ -54,6 +54,29 @@ test("mapSteamGame rounds playtime from minutes to whole hours", () => {
 
 });
 
+test("mapSteamGame passes through Steam's rtime_last_played as lastPlayed, defaulting to 0 when absent (never played)", () => {
+
+    const played = mapSteamGame({
+        appid: UNKNOWN_APPID,
+        name: "Recently Played Test",
+        playtime_forever: 120,
+        img_icon_url: "abc",
+        rtime_last_played: 1786810894
+    });
+
+    assert.strictEqual(played.lastPlayed, 1786810894);
+
+    const neverPlayed = mapSteamGame({
+        appid: UNKNOWN_APPID,
+        name: "Never Played Test",
+        playtime_forever: 0,
+        img_icon_url: "abc"
+    });
+
+    assert.strictEqual(neverPlayed.lastPlayed, 0);
+
+});
+
 test("mapSteamGame builds the expected Steam CDN image/icon URLs from appid/img_icon_url", () => {
 
     const result = mapSteamGame({
