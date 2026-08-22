@@ -26,7 +26,7 @@ import { createPodiumCard } from "../components/podium/podium.js";
 import { GAME_PODIUM_CATEGORY } from "../utils/podiums/podiumCategories.js";
 
 import { resetDevelopmentProgress } from "../dev/resetProgress.js";
-import { loadNavbar } from "./layout.js";
+import { loadNavbar, refreshPlayerWidget } from "./layout.js";
 import {
 
     initAchievementFilters
@@ -257,6 +257,8 @@ async function init() {
 
         saveProgress(game, slug);
 
+        refreshPlayerWidget(session);
+
         if (CONFIG.ENABLE_RESET_BUTTON) {
 
             document
@@ -296,6 +298,8 @@ async function init() {
                 syncAchievementCompletion(game, slug);
 
                 saveProgress(game, slug);
+
+                refreshPlayerWidget(session);
 
                 refresh();
 
