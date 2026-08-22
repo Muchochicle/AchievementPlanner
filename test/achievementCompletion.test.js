@@ -16,11 +16,14 @@ globalThis.localStorage = {
 
 const { syncAchievementCompletion } = await import("../src/utils/planner/achievement/achievementManager.js");
 const { checkGameCompletion } = await import("../src/utils/planner/game/gameCompletion.js");
-const { getPlayer, resetPlayer } = await import("../src/utils/player/player.js");
+const { getPlayer, resetPlayer, hasClaimedGame } = await import("../src/utils/player/player.js");
 
-function makeGame(slug, entries) {
+function makeGame(slug, entries, { steamOnlyCount } = {}) {
 
     // entries: [{ id, achieved }]
+    // steamOnlyCount: how many achievements Steam's live schema reports
+    // outside the curated set (see achievementMerger.js) - omitted by
+    // default (undefined), matching what most tests here don't care about.
     return {
 
         slug,
@@ -29,6 +32,7 @@ function makeGame(slug, entries) {
 
         mergedAchievements: {
             playerDataAvailable: true,
+            steamOnlyCount,
             achievements: entries.map(e => ({
                 ap: { id: e.id },
                 steamUnlock: { achieved: e.achieved }
@@ -110,11 +114,17 @@ test("syncAchievementCompletion treats different games' achievement ids independ
 
 });
 
-test("checkGameCompletion awards the completion bonus and badge once all achievements are Steam-confirmed", () => {
+test("checkGameCompletion awards the completion bonus and badge once all achievements are Steam-confirmed and steamOnlyCount is missing entirely", () => {
 
+    // Edge case: mergedAchievements exists (so completion detection works)
+    // but never sets steamOnlyCount at all - a malformed/older merge
+    // response shape, not just "explicitly 0". Must fall back to the
+    // original "complete" behavior, not silently withhold the bonus.
     resetPlayer();
 
     const game = makeGame("complete-test-full", [{ id: 1, achieved: true }, { id: 2, achieved: true }]);
+
+    assert.strictEqual(game.mergedAchievements.steamOnlyCount, undefined, "sanity check: this fixture must not set steamOnlyCount");
 
     const result = checkGameCompletion(game);
 
@@ -124,6 +134,55 @@ test("checkGameCompletion awards the completion bonus and badge once all achieve
     assert.strictEqual(player.completedGames, 1);
     assert.strictEqual(player.totalXP, 300);
     assert.ok(player.badges.includes("Perfectionist"));
+
+});
+
+test("checkGameCompletion awards the completion bonus when every achievement is confirmed and Steam confirms nothing else exists (steamOnlyCount === 0)", () => {
+
+    resetPlayer();
+
+    const game = makeGame(
+        "complete-test-full-explicit-zero",
+        [{ id: 1, achieved: true }, { id: 2, achieved: true }],
+        { steamOnlyCount: 0 }
+    );
+
+    const result = checkGameCompletion(game);
+    const player = getPlayer();
+
+    assert.strictEqual(result, true);
+    assert.strictEqual(player.completedGames, 1);
+    assert.strictEqual(player.totalXP, 300);
+    assert.ok(player.badges.includes("Perfectionist"));
+
+});
+
+test("checkGameCompletion does NOT award the completion bonus when the curated list is exhausted but Steam reports more achievements (steamOnlyCount > 0)", () => {
+
+    // Regression test for the false-completion bug identified in
+    // PHASE_43_AUDIT.md: without this guard, a game whose curated set is a
+    // subset of Steam's real achievement list (Portal 2's real pre-Phase-40
+    // shape: 3 curated achievements, 48 more on Steam) would falsely and
+    // *permanently* grant the Perfectionist badge/300 XP/claimGame ledger
+    // entry the moment those 3 were confirmed - unlike recommendation.js's
+    // equivalent bug (misleading text only), this one can never be
+    // corrected after the fact once claimGame() has fired.
+    resetPlayer();
+
+    const game = makeGame(
+        "complete-test-steam-has-more",
+        [{ id: 1, achieved: true }, { id: 2, achieved: true }],
+        { steamOnlyCount: 48 }
+    );
+
+    const result = checkGameCompletion(game);
+    const player = getPlayer();
+
+    assert.strictEqual(result, false, "must not report completion while Steam has achievements outside the curated set");
+    assert.strictEqual(player.completedGames, 0, "completedGames must not be incremented");
+    assert.strictEqual(player.totalXP, 0, "the 300 XP completion bonus must not be granted");
+    assert.ok(!player.badges.includes("Perfectionist"), "the Perfectionist badge must not be unlocked");
+    assert.strictEqual(hasClaimedGame("complete-test-steam-has-more"), false, "the game must not be permanently marked claimed - it needs to be re-checkable once the data or Steam catches up");
 
 });
 
