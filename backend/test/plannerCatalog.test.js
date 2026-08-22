@@ -132,3 +132,141 @@ test("getPlannerDataByAppId(620) resolves to the portal-2 slug with the same com
     assert.strictEqual(result.data.achievements.length, 51);
 
 });
+
+// Phase 41: src/data/games/hollow-knight.json went from an empty
+// achievements[] to all 63 of Hollow Knight's real Steam achievements
+// (verified against the live ISteamUserStats/GetSchemaForGame/v2 response
+// for appid 367520 - see PHASE_41_AUDIT.md). 24 of those 63 are
+// Steam-hidden, and Steam's schema never returns a description for a
+// hidden achievement (confirmed live, not a fetch failure) - those 24 use
+// the same "Hidden achievement" fallback text
+// src/components/steam-achievement-card/steam-achievement-card.js already
+// falls back to for the Steam-view side, rather than an invented spoiler
+// description or a blank/null field (which would render literally as
+// "null"/"undefined" via escapeHtml - see recommended-achievement.js).
+
+const HOLLOW_KNIGHT_HIDDEN_APINAMES = [
+    "DREAM_FK",
+    "HORNET_2",
+    "DREAM_BROKEN_VESSEL",
+    "COLLECTOR",
+    "ZOTE",
+    "NAILSMITH_KILL",
+    "NAILSMITH_SPARE",
+    "QUIRREL_EPILOGUE",
+    "ENDING_A",
+    "ENDING_B",
+    "ENDING_C",
+    "VOID",
+    "MR_MUSHROOM",
+    "DREAM_SOUL_MASTER_DEFEAT",
+    "WHITE_DEFENDER",
+    "GREY_PRINCE",
+    "GRIMM",
+    "NIGHTMARE_GRIMM",
+    "BANISHMENT",
+    "PANTHEON1",
+    "PANTHEON2",
+    "PANTHEON3",
+    "PANTHEON4",
+    "ENDINGD"
+];
+
+test("getPlannerData('hollow-knight') returns the complete 63-achievement curated set, not an empty planner", () => {
+
+    const data = getPlannerData("hollow-knight");
+
+    assert.ok(data, "expected real planner data for hollow-knight");
+    assert.strictEqual(
+        data.achievements.length,
+        63,
+        "Hollow Knight has 63 real Steam achievements (verified live) - the Session Planner and Recommended Achievement are inert without the complete set"
+    );
+
+});
+
+test("getPlannerData('hollow-knight') achievements have no duplicate id or apiname", () => {
+
+    const { achievements } = getPlannerData("hollow-knight");
+
+    const ids = achievements.map(a => a.id);
+    const apinames = achievements.map(a => a.apiname);
+
+    assert.strictEqual(new Set(ids).size, ids.length, "duplicate achievement id found in hollow-knight.json");
+    assert.strictEqual(new Set(apinames).size, apinames.length, "duplicate achievement apiname found in hollow-knight.json");
+
+});
+
+test("getPlannerData('hollow-knight') achievements all carry well-formed Steam-sourced and curatorial fields", () => {
+
+    const { achievements } = getPlannerData("hollow-knight");
+
+    for (const achievement of achievements) {
+
+        // Steam-sourced fields (apiname/name verbatim; description verbatim
+        // for visible achievements, or the approved hidden-achievement
+        // fallback - either way, always a real non-empty string, never
+        // null/undefined/empty, so it can never render as literal
+        // "null"/"undefined" text).
+        assert.strictEqual(typeof achievement.apiname, "string");
+        assert.ok(achievement.apiname.length > 0, `achievement ${achievement.id} has an empty apiname`);
+        assert.strictEqual(typeof achievement.name, "string");
+        assert.ok(achievement.name.length > 0, `achievement ${achievement.id} has an empty name`);
+        assert.strictEqual(typeof achievement.description, "string");
+        assert.ok(achievement.description.length > 0, `achievement ${achievement.id} has an empty description`);
+
+        // Curatorial fields (assigned, not Steam-sourced).
+        assert.ok(
+            Number.isInteger(achievement.difficulty) && achievement.difficulty >= 1 && achievement.difficulty <= 5,
+            `achievement ${achievement.id} has an out-of-range difficulty: ${achievement.difficulty}`
+        );
+        assert.strictEqual(typeof achievement.missable, "boolean");
+        assert.ok(
+            Number.isInteger(achievement.estimatedTime) && achievement.estimatedTime > 0,
+            `achievement ${achievement.id} has an invalid estimatedTime: ${achievement.estimatedTime}`
+        );
+
+    }
+
+});
+
+test("exactly the 24 known Steam-hidden Hollow Knight achievements use the 'Hidden achievement' fallback description, and no others do", () => {
+
+    const { achievements } = getPlannerData("hollow-knight");
+
+    const actualHiddenApinames = achievements
+        .filter(a => a.description === "Hidden achievement")
+        .map(a => a.apiname)
+        .sort();
+
+    assert.deepStrictEqual(
+        actualHiddenApinames,
+        [...HOLLOW_KNIGHT_HIDDEN_APINAMES].sort(),
+        "the set of achievements using the hidden-achievement fallback must exactly match Steam's live hidden flag - no more, no fewer"
+    );
+
+    const visibleAchievements = achievements.filter(
+        a => !HOLLOW_KNIGHT_HIDDEN_APINAMES.includes(a.apiname)
+    );
+
+    for (const achievement of visibleAchievements) {
+
+        assert.notStrictEqual(
+            achievement.description,
+            "Hidden achievement",
+            `${achievement.apiname} is not one of the known-hidden achievements but has the hidden fallback description`
+        );
+
+    }
+
+});
+
+test("getPlannerDataByAppId(367520) resolves to the hollow-knight slug with the same complete achievement set", () => {
+
+    const result = getPlannerDataByAppId(367520);
+
+    assert.ok(result, "expected a planner entry for Hollow Knight's appid");
+    assert.strictEqual(result.slug, "hollow-knight");
+    assert.strictEqual(result.data.achievements.length, 63);
+
+});

@@ -184,6 +184,49 @@ test("getSession does not crash reading back an already-stored session when the 
 
 });
 
+test("getSession regenerates from real achievements after a stale, previously-empty stored session (Phase 41 regression)", () => {
+
+    // Regression test: getSession() used to trust ANY stored value,
+    // including a persisted [] - which is exactly what saveSession()
+    // legitimately writes the first time a game with 0 curated
+    // achievements is visited (see recommendation.js's identical
+    // game.achievements?.length guard for the same "no curated data yet"
+    // case). Once that game's catalog data later goes from an empty
+    // achievements[] to a real one (Hollow Knight: Phase 41 - see
+    // PHASE_41_AUDIT.md), a returning visitor's browser still has that
+    // stale [] on disk. Without this fix, getSession() would keep serving
+    // the stale empty session forever - the Session Planner would show "0
+    // achievements planned" even though the game now has real curated
+    // achievements to plan.
+    const slug = "session-test-stale-empty-then-populated";
+
+    localStorage.setItem(`session-${slug}`, "[]");
+
+    const game = makeGame(slug, [61, 62, 63]);
+
+    const session = getSession(game, slug, 45);
+
+    assert.ok(session.length > 0, "a game that now has real achievements must not stay stuck on a stale, previously-empty persisted session");
+    assert.ok(session.every(a => [61, 62, 63].includes(a.id)));
+
+});
+
+test("getSession still returns an empty session (not an error) when a game genuinely has no achievements left to plan", () => {
+
+    // Companion case for the fix above: a stored [] must still resolve to
+    // [] when regeneration legitimately produces nothing too (e.g. every
+    // achievement is already completed) - the fix must not turn "correctly
+    // empty" into an infinite regeneration loop or a crash.
+    const slug = "session-test-genuinely-empty";
+
+    const game = makeGame(slug, []);
+
+    const session = getSession(game, slug, 45);
+
+    assert.deepStrictEqual(session, []);
+
+});
+
 test("session duration round-trips through localStorage, defaulting to 45 when unset or invalid", () => {
 
     assert.strictEqual(loadSessionDuration("session-test-duration-unset"), 45, "unset duration should default to 45");
