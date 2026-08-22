@@ -32,6 +32,40 @@ export function createRecommendedAchievement(achievement) {
 
     }
 
+    // Distinct from the true "100% complete" state below: the curated
+    // planner list is exhausted, but Steam's live schema still reports
+    // achievements outside it, so claiming 100% completion here would be
+    // false (see PHASE_42_AUDIT.md / recommendation.js).
+    if (achievement?.curatedComplete) {
+
+        return `
+
+            <section class="recommended-achievement">
+
+                <div class="recommended-title">
+
+                    ✅ Curated List Complete
+
+                </div>
+
+                <h2>
+
+                    You've completed every curated achievement
+
+                </h2>
+
+                <p>
+
+                    Steam reports ${achievement.steamOnlyCount} more achievement${achievement.steamOnlyCount === 1 ? "" : "s"} for this game that aren't in the curated planner yet - check the full Steam achievement list below.
+
+                </p>
+
+            </section>
+
+        `;
+
+    }
+
     if (!achievement) {
 
         return `

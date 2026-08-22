@@ -64,3 +64,25 @@ test("createRecommendedAchievement shows the 'all completed' state for a null/no
     assert.match(html, /All achievements completed/);
 
 });
+
+test("createRecommendedAchievement shows an honest 'curated list complete' state instead of a false 100% claim when Steam has more achievements", () => {
+
+    // Regression test for the false-completion bug identified in
+    // PHASE_42_AUDIT.md - see the matching recommendation.js test for the
+    // logic side of this fix.
+    const html = createRecommendedAchievement({ curatedComplete: true, steamOnlyCount: 5 });
+
+    assert.doesNotMatch(html, /100% completion/);
+    assert.match(html, /completed every curated achievement/);
+    assert.match(html, /5 more achievements/);
+
+});
+
+test("createRecommendedAchievement's 'curated list complete' message uses singular 'achievement' for a count of exactly 1", () => {
+
+    const html = createRecommendedAchievement({ curatedComplete: true, steamOnlyCount: 1 });
+
+    assert.match(html, /1 more achievement for this game/);
+    assert.doesNotMatch(html, /1 more achievements/);
+
+});

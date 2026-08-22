@@ -41,6 +41,29 @@ export function getRecommendedAchievement(game) {
 
     if (!achievements.length) {
 
+        // The curated list is exhausted, but that isn't the same fact as
+        // "this game is 100% complete" - achievementMerger.js's
+        // steamOnlyCount (already computed backend-side on every merge,
+        // see PHASE_42_AUDIT.md) says how many achievements Steam's live
+        // schema reports that aren't in the curated set at all. Today
+        // that's 0 for every real catalog game (Hades/Portal 2/Hollow
+        // Knight all have complete curated data), but nothing here
+        // actually depended on that being true - a future Steam-side
+        // addition (DLC, a content update) to any of them, or a future
+        // catalog game shipped with a partial curated set, would silently
+        // reintroduce the exact false "100% completion" claim Phase 40
+        // fixed for Portal 2, with no code change on our side to catch it.
+        // Falls back to 0 (the original, unconditional "complete" behavior)
+        // when mergedAchievements/steamOnlyCount is missing entirely,
+        // matching this file's existing optional-chaining defaults above.
+        const steamOnlyCount = game.mergedAchievements?.steamOnlyCount ?? 0;
+
+        if (steamOnlyCount > 0) {
+
+            return { curatedComplete: true, steamOnlyCount };
+
+        }
+
         return null;
 
     }

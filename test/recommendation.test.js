@@ -4,9 +4,12 @@ import assert from "node:assert";
 import { getRecommendedAchievement } from "../src/utils/planner/recommendation/recommendation.js";
 import { skipAchievement, clearSkippedAchievements } from "../src/utils/planner/recommendation/skipped.js";
 
-function makeGame(entries) {
+function makeGame(entries, { steamOnlyCount } = {}) {
 
     // entries: [{ id, difficulty, estimatedTime, missable, achieved }]
+    // steamOnlyCount: how many achievements Steam's live schema reports
+    // outside the curated set (see achievementMerger.js) - omitted by
+    // default (undefined), matching what most tests here don't care about.
     return {
 
         achievements: entries.map(e => ({
@@ -18,6 +21,7 @@ function makeGame(entries) {
 
         mergedAchievements: {
             playerDataAvailable: true,
+            steamOnlyCount,
             achievements: entries.map(e => ({
                 ap: { id: e.id },
                 steamUnlock: { achieved: e.achieved ?? false }
@@ -51,13 +55,74 @@ test("getRecommendedAchievement reports empty (not a crash) for a game with a mi
 
 });
 
-test("getRecommendedAchievement returns null when every achievement is already completed", () => {
+test("getRecommendedAchievement returns null when every achievement is already completed and steamOnlyCount is missing entirely", () => {
 
+    // Edge case: mergedAchievements exists (so completion detection works)
+    // but never sets steamOnlyCount at all - a malformed/older merge
+    // response shape, not just "explicitly 0". Must fall back to the
+    // original "complete" behavior (null), not silently claim there's
+    // more to do.
     clearSkippedAchievements();
 
     const game = makeGame([{ id: 1, difficulty: 1, estimatedTime: 5, achieved: true }]);
 
+    assert.strictEqual(game.mergedAchievements.steamOnlyCount, undefined, "sanity check: this fixture must not set steamOnlyCount");
     assert.strictEqual(getRecommendedAchievement(game), null);
+
+});
+
+test("getRecommendedAchievement returns null (true 100% completion) when every achievement is completed and Steam confirms nothing else exists (steamOnlyCount === 0)", () => {
+
+    clearSkippedAchievements();
+
+    const game = makeGame(
+        [{ id: 1, difficulty: 1, estimatedTime: 5, achieved: true }],
+        { steamOnlyCount: 0 }
+    );
+
+    assert.strictEqual(getRecommendedAchievement(game), null);
+
+});
+
+test("getRecommendedAchievement does NOT claim 100% completion when the curated list is exhausted but Steam reports more achievements (steamOnlyCount > 0)", () => {
+
+    // Regression test for the false-completion bug identified in
+    // PHASE_42_AUDIT.md: Phase 40 fixed this concretely for Portal 2 by
+    // completing its curated data, but the underlying check never
+    // cross-referenced Steam's live total, so the same false claim would
+    // silently reappear for any game whose curated set becomes a subset of
+    // Steam's real achievement list again (a future DLC/update, or a
+    // future catalog game shipped with partial data).
+    clearSkippedAchievements();
+
+    const game = makeGame(
+        [{ id: 1, difficulty: 1, estimatedTime: 5, achieved: true }],
+        { steamOnlyCount: 5 }
+    );
+
+    const result = getRecommendedAchievement(game);
+
+    assert.notStrictEqual(result, null, "must not fall back to the true-100%-completion null state");
+    assert.deepStrictEqual(result, { curatedComplete: true, steamOnlyCount: 5 });
+
+});
+
+test("getRecommendedAchievement returns a normal recommendation unaffected by steamOnlyCount when incomplete achievements remain", () => {
+
+    // steamOnlyCount only matters once the curated list is exhausted
+    // (achievements.length === 0) - it must have no effect at all while
+    // there's still a real curated achievement to recommend.
+    clearSkippedAchievements();
+
+    const game = makeGame(
+        [{ id: 1, difficulty: 1, estimatedTime: 5 }],
+        { steamOnlyCount: 12 }
+    );
+
+    const result = getRecommendedAchievement(game);
+
+    assert.strictEqual(result.id, 1);
+    assert.strictEqual(result.curatedComplete, undefined);
 
 });
 
