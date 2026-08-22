@@ -3,8 +3,6 @@ import express from "express";
 import {
     getOwnedGames,
     getSchemaForGame,
-    getGlobalAchievementPercentages,
-    getPlayerAchievementsClassified,
     getCurrentPlayerCount
 } from "../services/steamApi.js";
 
@@ -15,19 +13,14 @@ import {
 
 import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
-import {
-    mapSteamAchievements,
-    mapPlayerAchievements
-} from "../utils/steamAchievementMapper.js";
-
-import { mergeAchievements } from "../utils/achievementMerger.js";
-
 import { mapWithConcurrency } from "../utils/concurrencyLimiter.js";
 
 import { classifyAchievementAvailability } from "../../src/utils/planner/achievement/availability.js";
 
 import { selectPopularGames } from "../utils/popularGames.js";
 import { sendServerError } from "../utils/sendServerError.js";
+
+import { getGameDetail } from "../utils/gameDetail.js";
 
 const router = express.Router();
 
@@ -234,6 +227,12 @@ router.get("/popular", async (req, res) => {
 
 });
 
+// Thin wrapper: all the actual owned/catalog resolution, Steam schema/
+// player-data fetching, achievement merging, and availability classification
+// lives in gameDetail.js's getGameDetail() (Phase 45 - see
+// PHASE_45_AUDIT.md), specifically so that logic can be unit-tested with
+// injected, synthetic Steam responses instead of only ever being exercised
+// through a live server + real network calls.
 router.get("/:slug", async (req, res) => {
 
     const { slug } = req.params;
@@ -242,20 +241,7 @@ router.get("/:slug", async (req, res) => {
 
         const steamId = req.session.user?.steamid;
 
-        const library = steamId
-            ? await getOwnedGames(steamId)
-            : { games: [] };
-
-        const games = library.games
-
-            .map(mapSteamGameSafe)
-
-            .filter(Boolean);
-
-        const owned = games.find(game => game.slug === slug);
-
-        // Not owned on Steam, but may still exist in our own catalog.
-        const game = owned ?? mapPlannerOnlyGame(slug);
+        const game = await getGameDetail(slug, steamId);
 
         if (!game) {
 
@@ -269,65 +255,11 @@ router.get("/:slug", async (req, res) => {
 
         }
 
-        const hasAppid = game.appid && game.appid > 0;
-
-        // schemaResult.status distinguishes "Steam confirms zero
-        // achievements" from "we couldn't determine this right now" (see
-        // steamApi.js's getSchemaForGame) - mapSteamAchievements itself
-        // still only cares about the achievement array, so its own
-        // `available` field keeps meaning "has achievements", not "fetch
-        // succeeded". schemaResult.status is threaded through separately
-        // below via achievementAvailability instead of overloading that
-        // field's existing meaning.
-        const schemaResult = hasAppid
-            ? await getSchemaForGame(game.appid)
-            : { achievements: [], status: "available" };
-
-        const steamAchievements = mapSteamAchievements(
-            schemaResult.achievements,
-            hasAppid ? await getGlobalAchievementPercentages(game.appid) : []
-        );
-
-        // Classified so "Steam declined to answer" (private profile) and
-        // "the request itself failed" are available here too, matching
-        // profileStats.js's fan-out - needed to compute
-        // achievementAvailability's "player-data-unavailable" state
-        // correctly instead of collapsing it into an empty array.
-        const playerResult = steamId && hasAppid
-            ? await getPlayerAchievementsClassified(steamId, game.appid)
-            : { achievements: [], status: null };
-
-        const steamPlayerAchievements = mapPlayerAchievements(playerResult.achievements);
-
-        const mergedAchievements = mergeAchievements(
-            game.achievements,
-            steamAchievements.achievements,
-            steamPlayerAchievements.achievements
-        );
-
-        const achievementAvailability = classifyAchievementAvailability({
-
-            schemaStatus: schemaResult.status,
-            hasAchievements: schemaResult.achievements.length > 0,
-            playerDataStatus: playerResult.status,
-            hasPlanner: game.hasPlanner
-
-        });
-
         res.json({
 
             success: true,
 
-            game: {
-                ...game,
-                steamAchievements,
-                steamPlayerAchievements,
-                mergedAchievements,
-                schemaStatus: schemaResult.status,
-                hasSteamAchievements: schemaResult.achievements.length > 0,
-                playerDataStatus: playerResult.status,
-                achievementAvailability
-            }
+            game
 
         });
 
