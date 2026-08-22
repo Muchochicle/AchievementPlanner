@@ -53,6 +53,8 @@ import {
 
 } from "../utils/planner/achievement/achievementManager.js";
 
+import { createPoller } from "../utils/async/poller.js";
+
 // Steam is the only source of truth for completion - this timer just
 // re-runs the existing getGame -> syncAchievementCompletion ->
 // saveProgress -> refresh pipeline on a schedule so the UI notices a
@@ -271,11 +273,39 @@ async function init() {
 
         }
 
-        let pollTimer = null;
+        // Re-fetches this game from our own backend (never Steam directly)
+        // and runs it through the exact same pipeline used at page load.
+        // syncAchievementCompletion/checkGameCompletion are already
+        // idempotent, so a poll that finds nothing new is a harmless no-op,
+        // and one that finds a genuine Steam unlock grants XP/completion
+        // exactly once. createPoller (see utils/async/poller.js) guarantees
+        // a response from an older request can never overwrite state a
+        // newer one already delivered - without it, two overlapping polls
+        // (e.g. two rapid visibilitychange events) resolving out of order
+        // could silently regress the achievement list, progress bar,
+        // recommendation, and session planner back to stale data (see
+        // PHASE_44_AUDIT.md).
+        const poller = createPoller(
+
+            () => getGame(slug),
+
+            freshGame => {
+
+                game = freshGame;
+
+                syncAchievementCompletion(game, slug);
+
+                saveProgress(game, slug);
+
+                refresh();
+
+            }
+
+        );
 
         refresh();
 
-        startPolling();
+        poller.start(POLL_INTERVAL_MS);
 
         document
             .getElementById("session-duration")
@@ -405,84 +435,25 @@ async function init() {
 
         }
 
-        // Re-fetches this game from our own backend (never Steam
-        // directly) and runs it through the exact same pipeline used at
-        // page load. syncAchievementCompletion/checkGameCompletion are
-        // already idempotent, so a poll that finds nothing new is a
-        // harmless no-op, and one that finds a genuine Steam unlock
-        // grants XP/completion exactly once.
-        //
         // Deliberately does NOT re-fetch the podium: leaderboard standings
         // only change when someone (this user or another) is reindexed via
         // a Profile visit, not from this game's own achievement state, so
         // refetching it every 60s would be a recurring request with no
         // real payoff. It's fetched once at load; a full page reload picks
         // up anything newer.
-        async function pollSteamUpdates() {
-
-            try {
-
-                game = await getGame(slug);
-
-                syncAchievementCompletion(game, slug);
-
-                saveProgress(game, slug);
-
-                refresh();
-
-            } catch (error) {
-
-                console.error(
-                    "Unable to refresh Steam achievement data:",
-                    error
-                );
-
-            }
-
-        }
-
-        function startPolling() {
-
-            if (pollTimer) {
-
-                return;
-
-            }
-
-            pollTimer = setInterval(
-                pollSteamUpdates,
-                POLL_INTERVAL_MS
-            );
-
-        }
-
-        function stopPolling() {
-
-            if (!pollTimer) {
-
-                return;
-
-            }
-
-            clearInterval(pollTimer);
-
-            pollTimer = null;
-
-        }
-
         document.addEventListener(
             "visibilitychange",
             () => {
 
                 if (document.hidden) {
 
-                    stopPolling();
+                    poller.stop();
 
                 } else {
 
-                    startPolling();
+                    poller.start(POLL_INTERVAL_MS);
 
-                    pollSteamUpdates();
+                    poller.poll();
 
                 }
 
