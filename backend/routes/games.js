@@ -28,6 +28,14 @@ const router = express.Router();
 // fan-out - no documented Steam rate limit to target precisely.
 const ACHIEVEMENT_AVAILABILITY_CONCURRENCY = 8;
 
+// /popular's own fan-out target isn't bounded by this app's 3-game catalog -
+// buildGamesList() merges in the visitor's entire owned Steam library (see
+// below), so a visitor with a large library previously fired one unbounded
+// Promise.all request per owned game simultaneously (see
+// PHASE_49_AUDIT.md Finding 4-refined). Same conservative value/reasoning as
+// ACHIEVEMENT_AVAILABILITY_CONCURRENCY above, for the same class of problem.
+const POPULAR_PLAYER_COUNT_CONCURRENCY = 8;
+
 // Attaches achievementAvailability (see availability.js) to every owned,
 // non-planner game in the list - the only games whose catalog card needs to
 // distinguish "no Steam achievements" from "Steam has achievements, just no
@@ -187,23 +195,30 @@ router.get("/popular", async (req, res) => {
 
         const games = await buildGamesList(req);
 
+        const candidates = games.filter(game => game.appid && game.appid > 0);
+
+        const settled = await mapWithConcurrency(
+
+            candidates,
+            POPULAR_PLAYER_COUNT_CONCURRENCY,
+
+            async game => [
+
+                game.appid,
+
+                await getCurrentPlayerCount(game.appid)
+
+            ]
+
+        );
+
         const playerCounts = new Map(
 
-            await Promise.all(
+            settled
 
-                games
+                .filter(result => result.status === "fulfilled")
 
-                    .filter(game => game.appid && game.appid > 0)
-
-                    .map(async game => [
-
-                        game.appid,
-
-                        await getCurrentPlayerCount(game.appid)
-
-                    ])
-
-            )
+                .map(result => result.value)
 
         );
 
