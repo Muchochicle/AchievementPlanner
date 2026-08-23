@@ -211,6 +211,38 @@ test("getSession regenerates from real achievements after a stale, previously-em
 
 });
 
+test("getSession regenerates a fresh session once every currently-planned achievement is completed, instead of permanently showing 0 planned (PHASE_48_AUDIT.md Finding 7)", () => {
+
+    // Every achievement below has the same difficulty/estimatedTime (10
+    // min, from makeGame's defaults) - a 25-minute session therefore plans
+    // exactly the first two (41, 42) and leaves 43 unplanned, mirroring
+    // the audit's own reproduction (a curated game with more achievements
+    // than fit in one planned session).
+    const slug = "session-test-regenerate-after-full-completion";
+    const game = makeGame(slug, [41, 42, 43]);
+
+    const original = getSession(game, slug, 25);
+    assert.deepStrictEqual(original.map(a => a.id).sort(), [41, 42], "sanity check: only 2 of the 3 achievements should fit in a 25-minute session");
+
+    // Complete both currently-planned achievements - the intended,
+    // successful outcome of using the feature - while achievement 43
+    // remains open.
+    game.mergedAchievements.achievements.find(e => e.ap.id === 41).steamUnlock.achieved = true;
+    game.mergedAchievements.achievements.find(e => e.ap.id === 42).steamUnlock.achieved = true;
+
+    const afterCompletion = getSession(game, slug, 25);
+
+    assert.ok(afterCompletion.length > 0, "must regenerate a fresh session from the remaining achievement, not stay stuck on an empty one");
+    assert.deepStrictEqual(afterCompletion.map(a => a.id), [43], "the regenerated session must contain the one achievement that was never part of the completed plan");
+
+    // The regeneration must also be persisted, not just returned - a
+    // subsequent call/poll must keep reading the new plan back, not
+    // regenerate a different one or revert to the stale completed list.
+    const readBack = getSession(game, slug, 25);
+    assert.deepStrictEqual(readBack.map(a => a.id), [43]);
+
+});
+
 test("getSession still returns an empty session (not an error) when a game genuinely has no achievements left to plan", () => {
 
     // Companion case for the fix above: a stored [] must still resolve to
@@ -223,6 +255,26 @@ test("getSession still returns an empty session (not an error) when a game genui
 
     const session = getSession(game, slug, 45);
 
+    assert.deepStrictEqual(session, []);
+
+});
+
+test("getSession returns an empty session (not a crash or a stuck stale list) when every achievement in the whole game - not just the planned subset - is now complete", () => {
+
+    // Extends the "genuinely empty" companion case above to the
+    // regeneration path added for Finding 7: once the fallthrough kicks
+    // in, createSession() must still correctly reproduce [] (not throw,
+    // not loop) when the game truly has nothing left to plan at all.
+    const slug = "session-test-regenerate-into-genuinely-empty";
+    const game = makeGame(slug, [81, 82]);
+
+    getSession(game, slug, 45);
+
+    game.mergedAchievements.achievements.find(e => e.ap.id === 81).steamUnlock.achieved = true;
+    game.mergedAchievements.achievements.find(e => e.ap.id === 82).steamUnlock.achieved = true;
+
+    let session;
+    assert.doesNotThrow(() => { session = getSession(game, slug, 45); });
     assert.deepStrictEqual(session, []);
 
 });

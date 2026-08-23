@@ -42,7 +42,7 @@ export function getSession(
         // previously-stored session must not keep showing an achievement
         // Steam has since confirmed complete. Pending entries pass
         // through untouched.
-        return stored
+        const filtered = stored
             .map(id =>
                 (game.achievements ?? []).find(
                     achievement =>
@@ -57,6 +57,22 @@ export function getSession(
                 return entry ? !isEntryCompleted(merged, entry) : true;
 
             });
+
+        if (filtered.length > 0) {
+
+            return filtered;
+
+        }
+
+        // Every achievement that was planned is now complete - the
+        // intended, successful outcome of using this feature. Falling
+        // through to createSession() below (same as the "nothing stored
+        // yet" case) regenerates a fresh session from the game's
+        // remaining, not-yet-planned achievements instead of permanently
+        // returning this stale, now-fully-completed list - see
+        // PHASE_48_AUDIT.md Finding 7. If the game genuinely has nothing
+        // left to plan either way, createSession() below correctly
+        // reproduces the same [] (see the "genuinely empty" test case).
 
     }
 
