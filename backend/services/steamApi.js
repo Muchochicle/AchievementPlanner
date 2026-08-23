@@ -9,6 +9,19 @@ const GLOBAL_PERCENTAGES_TTL_MS = 24 * 60 * 60 * 1000;
 const PLAYER_ACHIEVEMENTS_TTL_MS = 5 * 60 * 1000;
 const CURRENT_PLAYERS_TTL_MS = 2 * 60 * 60 * 1000;
 
+// A genuine request failure (timeout, rate-limit, network blip, Steam 5xx)
+// is not the same fact as a real, confirmed answer from Steam, and must not
+// be trusted for as long as one - see PHASE_47_AUDIT.md Finding 6. Short
+// enough that a transient blip self-heals well within one of game.js's 60s
+// poll cycles instead of persisting for hours, long enough to still absorb
+// a burst of concurrent requests for the same key while Steam is genuinely
+// down. Applied only to results that represent "we don't actually know"
+// (getSchemaForGame's "unavailable", getPlayerAchievementsClassified's
+// "transient", a thrown getCurrentPlayerCount request) - never to a real,
+// confirmed Steam answer (e.g. a private profile's playerstats.success:false),
+// which keeps its normal full TTL below.
+const TRANSIENT_FAILURE_TTL_MS = 30 * 1000;
+
 async function steamFetch(url) {
 
     const controller = new AbortController();
@@ -126,9 +139,22 @@ export async function getOwnedGames(steamId) {
 
     }
 
-    setCached(cacheKey, data.response, OWNED_GAMES_TTL_MS);
+    // Steam omits the `games` key entirely - rather than returning an empty
+    // array - when a public profile genuinely owns zero games (confirmed
+    // real response shape: {"response":{"game_count":0}}, no `games` key).
+    // Every consumer of this result already expects a real array (see
+    // routes/games.js, gameDetail.js, profileStatsController.js), so that
+    // case is normalized here once rather than leaving `games` undefined
+    // for every caller to guard against separately - see
+    // PHASE_47_AUDIT.md Finding 5.
+    const result = {
+        ...data.response,
+        games: data.response.games ?? []
+    };
 
-    return data.response;
+    setCached(cacheKey, result, OWNED_GAMES_TTL_MS);
+
+    return result;
 
 }
 
@@ -158,6 +184,7 @@ export async function getSchemaForGame(appid) {
     }
 
     let result;
+    let ttl = ACHIEVEMENT_SCHEMA_TTL_MS;
 
     try {
 
@@ -178,12 +205,16 @@ export async function getSchemaForGame(appid) {
         // doesn't depend on Steam at all. Same graceful degradation as
         // getGlobalAchievementPercentages below, but this case is reported
         // as "unavailable" rather than silently treated as "confirmed zero
-        // achievements" (see comment above).
+        // achievements" (see comment above). "unavailable" here always
+        // means "we don't actually know" (never a real, confirmed Steam
+        // answer), so it's cached with the short failure TTL, not the full
+        // 24h success TTL - see PHASE_47_AUDIT.md Finding 6.
         result = { achievements: [], status: "unavailable" };
+        ttl = TRANSIENT_FAILURE_TTL_MS;
 
     }
 
-    setCached(cacheKey, result, ACHIEVEMENT_SCHEMA_TTL_MS);
+    setCached(cacheKey, result, ttl);
 
     return result;
 
@@ -245,6 +276,7 @@ export async function getCurrentPlayerCount(appid) {
     }
 
     let count;
+    let ttl = CURRENT_PLAYERS_TTL_MS;
 
     try {
 
@@ -253,17 +285,25 @@ export async function getCurrentPlayerCount(appid) {
 
         const data = await steamFetch(url);
 
+        // result !== 1 here is Steam's own real, confirmed answer for this
+        // appid (not a request failure) - keeps the normal full TTL, same
+        // as before.
         count = data.response?.result === 1
             ? data.response.player_count
             : null;
 
     } catch (error) {
 
+        // An actual request failure (timeout, network error, non-ok
+        // status) - genuinely don't know the count right now, so cache
+        // that briefly rather than for the full 2h success TTL - see
+        // PHASE_47_AUDIT.md Finding 6.
         count = null;
+        ttl = TRANSIENT_FAILURE_TTL_MS;
 
     }
 
-    setCached(cacheKey, count, CURRENT_PLAYERS_TTL_MS);
+    setCached(cacheKey, count, ttl);
 
     return count;
 
@@ -288,6 +328,7 @@ export async function getPlayerAchievementsClassified(steamId, appid) {
     }
 
     let result;
+    let ttl = PLAYER_ACHIEVEMENTS_TTL_MS;
 
     const controller = new AbortController();
 
@@ -316,13 +357,19 @@ export async function getPlayerAchievementsClassified(steamId, appid) {
 
         } else if (data?.playerstats && data.playerstats.success === false) {
 
+            // A real, confirmed decline from Steam (private profile/game) -
+            // keeps the normal full TTL, same as "available", since it's
+            // not a request failure.
             result = { achievements: [], status: "unavailable" };
 
         } else {
 
             // No parseable playerstats body at all - not Steam giving a
             // real answer, so this is a request failure, not a decline.
+            // Cached briefly rather than for the full 5min success TTL -
+            // see PHASE_47_AUDIT.md Finding 6.
             result = { achievements: [], status: "transient" };
+            ttl = TRANSIENT_FAILURE_TTL_MS;
 
         }
 
@@ -331,6 +378,7 @@ export async function getPlayerAchievementsClassified(steamId, appid) {
         // Network failure, abort/timeout, or anything else that never
         // reached a parseable response.
         result = { achievements: [], status: "transient" };
+        ttl = TRANSIENT_FAILURE_TTL_MS;
 
     } finally {
 
@@ -338,7 +386,7 @@ export async function getPlayerAchievementsClassified(steamId, appid) {
 
     }
 
-    setCached(cacheKey, result, PLAYER_ACHIEVEMENTS_TTL_MS);
+    setCached(cacheKey, result, ttl);
 
     return result;
 

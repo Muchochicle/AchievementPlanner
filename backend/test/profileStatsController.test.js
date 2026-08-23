@@ -8,6 +8,7 @@ import crypto from "crypto";
 import { getProfileStats, getProfileStatsWithDeps } from "../controllers/profileStatsController.js";
 import { indexProfileSnapshotSafely } from "../services/leaderboardStore.js";
 import { getLeaderboardDb, resetLeaderboardDbForTests } from "../services/leaderboardDb.js";
+import { getOwnedGames } from "../services/steamApi.js";
 
 // Mirrors steamController.test.js's convention: the 401/no-session path is
 // pure (no network) and tested directly with a fake req/res. The
@@ -286,5 +287,76 @@ test("when getOwnedGames fails (e.g. a private profile), no leaderboard write ha
 
     assert.deepStrictEqual(after, before);
     assert.deepStrictEqual(gamesAfter, gamesBefore);
+
+}));
+
+// PHASE_47_AUDIT.md Finding 5: Steam's real "zero owned games" response
+// ({"response":{"game_count":0}}, no `games` key) used to crash this route
+// with a 500 (`library.games.map` on undefined) once it reached the real,
+// non-injected getOwnedGames(). This test deliberately injects the REAL
+// getOwnedGames from steamApi.js (not a fake { games: [] } double like the
+// other tests in this file) with only the underlying global `fetch` mocked,
+// so it actually exercises steamApi.js's fix rather than bypassing it -
+// a regression here would mean the fix stopped propagating through this
+// controller, not just that steamApi.js's own unit tests broke.
+test("a real Steam account that owns zero games does not crash /api/profile/stats - exercises the real (non-injected) getOwnedGames against Steam's actual zero-games response shape", () => withTempDatabasePath(async () => {
+
+    const steamId = "steamapi-test:profile-zero-owned-games";
+    const req = { session: { user: { steamid: steamId, personaname: "Tester" } } };
+    const res = createMockRes();
+
+    const originalFetch = globalThis.fetch;
+
+    globalThis.fetch = async (url) => {
+
+        if (typeof url === "string" && url.includes("GetOwnedGames")) {
+
+            return {
+                ok: true,
+                status: 200,
+                json: async () => ({ response: { game_count: 0 } })
+            };
+
+        }
+
+        throw new Error(`unexpected Steam URL in this test: ${url}`);
+
+    };
+
+    try {
+
+        await getProfileStatsWithDeps(req, res, {
+
+            getOwnedGames,
+
+            getProfileStatsCached: async () => ({
+                achievements: 0, gamesWithUnlockedAchievements: 0, gamesWithAchievements: 0,
+                completedGames: 0, completedGameSlugs: [], gamesConsidered: 0,
+                gamesWithPlayerDataUnavailable: 0, gamesWithTransientErrors: 0,
+                generatedAt: "2026-08-23T00:00:00.000Z"
+            }),
+
+            indexProfileSnapshotSafely
+
+        });
+
+    } finally {
+
+        globalThis.fetch = originalFetch;
+
+    }
+
+    assert.strictEqual(res.statusCode, null, "must not be a 500 - a zero-game library is a real, valid account state");
+    assert.strictEqual(res.jsonBody.success, true);
+    assert.strictEqual(res.jsonBody.gamesOwned, 0);
+    assert.strictEqual(res.jsonBody.gamesPlayed, 0);
+
+    // The leaderboard-indexing side effect also survives cleanly with a
+    // real, empty games list rather than throwing before it ever runs.
+    const db = getLeaderboardDb();
+    const row = db.prepare("SELECT * FROM users WHERE steam_id = ?").get(steamId);
+
+    assert.ok(row);
+    assert.strictEqual(row.games_owned, 0);
 
 }));

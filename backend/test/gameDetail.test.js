@@ -89,6 +89,54 @@ test("returns null when the slug isn't a real catalog entry and there's no sessi
 
 });
 
+// PHASE_47_AUDIT.md Finding 5: Steam's real "zero owned games" response
+// ({"response":{"game_count":0}}, no `games` key) used to crash this route
+// with a 500 once it reached the real, non-injected getOwnedGames(). Unlike
+// every other test in this file, `fetchOwnedGames` is deliberately left
+// un-injected here so this exercises the real steamApi.js getOwnedGames()
+// (with only the underlying global `fetch` mocked) - a regression in the
+// actual fix would fail this test even though every synthetic-double test
+// above it would keep passing.
+test("getGameDetail survives a real zero-owned-games Steam response via the actual (non-injected) getOwnedGames, falling back correctly to the catalog-only branch", async () => {
+
+    const originalFetch = globalThis.fetch;
+
+    globalThis.fetch = async url => {
+
+        if (typeof url === "string" && url.includes("GetOwnedGames")) {
+
+            return { ok: true, status: 200, json: async () => ({ response: { game_count: 0 } }) };
+
+        }
+
+        throw new Error(`unexpected Steam URL in this test: ${url}`);
+
+    };
+
+    try {
+
+        const result = await getGameDetail(
+            "hades",
+            "steamapi-test:gamedetail-zero-owned-games",
+            {
+                fetchSchema: availableSchema(hadesApinames),
+                fetchGlobalPercentages: async () => [],
+                fetchPlayerAchievements: async () => ({ achievements: [], status: null })
+            }
+        );
+
+        assert.ok(result, "hades must still resolve via the catalog-only fallback, not crash");
+        assert.strictEqual(result.owned, false, "not owned - the real (mocked) Steam response reported zero owned games");
+        assert.strictEqual(result.hasPlanner, true);
+
+    } finally {
+
+        globalThis.fetch = originalFetch;
+
+    }
+
+});
+
 test("an owned Steam game takes precedence over a catalog-only entry when the same slug would otherwise resolve to both", async () => {
 
     // Real appid/slug for Hades - owning it on Steam must resolve via the
