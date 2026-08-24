@@ -7,8 +7,9 @@ import { escapeHtml } from "../../utils/format/escapeHtml.js";
 // this component does not compute completion itself. The initial numbers
 // shown here are immediately re-confirmed by the existing updateProgress(game)
 // right after render, and again on every Phase 22 poll tick - #progress-fill,
-// #progress-counter and #progress-text are the exact ids/targets it already
-// expects, just relocated into this header instead of a separate section.
+// #progress-counter, #progress-text, and #hours-played are the exact
+// ids/targets it already expects, just relocated into this header instead
+// of a separate section.
 export function createGameHeader(game, hoursPlayed = 0) {
 
     const { total, completed, percentage } = getMergedAchievementStats(game);
@@ -85,7 +86,7 @@ export function createGameHeader(game, hoursPlayed = 0) {
 
                         <span>⏱ Hours Played</span>
 
-                        <strong>${hoursPlayed} h</strong>
+                        <strong id="hours-played">${hoursPlayed} h</strong>
 
                     </div>
 
