@@ -117,7 +117,41 @@ app.use((req, res, next) => {
 // day" window without being effectively permanent.
 const SESSION_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
+// Setting maxAge above only stamps each session's own cookie.expires - it
+// does not, on its own, reclaim any memory. express-session's default
+// MemoryStore only ever evicts a session as a side effect of something
+// calling .get() on that *exact* session ID again (see
+// node_modules/express-session/session/memory.js's getSession()); a
+// visitor who logs in once and never returns leaves their session sitting
+// in memory forever, until the process restarts (Finding 6,
+// PHASE_47-59_AUDIT.md - "MemoryStore session leak"). Constructing the
+// store explicitly (instead of letting express-session create an
+// unreachable default internally) makes it possible to reach for the
+// periodic sweep below - MemoryStore.all() is itself a normal, documented
+// Store method ("Get all active sessions"), and its own implementation
+// deletes any expired session it encounters while building that list, so
+// calling it periodically (even with a no-op callback) prunes every
+// expired session as a side effect, using only the store's public
+// interface. Same "periodic sweep" pattern already used for cache.js
+// (Finding 11, PHASE_51-53_AUDIT.md). This closes the memory-growth half
+// of Finding 6 without introducing a new dependency or persistence
+// backend - sessions still don't survive a server restart, which remains
+// a genuine, still-deferred architecture decision (which persistent store
+// to add) if that's ever wanted.
+const sessionStore = new session.MemoryStore();
+
+const SESSION_SWEEP_INTERVAL_MS = 60 * 60 * 1000;
+
+const sessionSweepTimer = setInterval(() => {
+
+    sessionStore.all(() => {});
+
+}, SESSION_SWEEP_INTERVAL_MS);
+
+sessionSweepTimer.unref();
+
 app.use(session({
+    store: sessionStore,
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
