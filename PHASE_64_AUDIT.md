@@ -65,7 +65,7 @@ Started the real, unmodified `backend/server.js` and a plain static file server 
 
 Working tree confirmed clean (all tests passing, diff reviewed, live verification complete). Staged and committed exactly `src/utils/planner/sessionManager.js`, `test/sessionManager.test.js`, `test/inventoryStorage.test.js`, `test/safeJson.test.js`, and this audit document — the 15 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: `PENDING` — to be filled in immediately after the commit below.
+**Commit hash**: `4ebb96ad98f02a1a194ad7d1a98b9da4faf218f5` (`4ebb96a`), pushed to `origin/main` (`b8298f6..4ebb96a`).
 
 ## 10. Final working-tree status
 
