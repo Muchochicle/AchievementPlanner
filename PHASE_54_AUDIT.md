@@ -111,7 +111,7 @@ Started the real, unmodified `backend/server.js` via `npm start` (killed a stale
 
 Working tree confirmed clean (all tests passing, diff reviewed, live verification complete). Staged and committed exactly the files listed in §6 plus this audit document — the 15 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: see the immediately-following commit on `main` (filled in after the commit below — the git log is the source of truth).
+**Commit hash**: `9fbbe9dbd75e4f66124508468f0a181d258bcc85` (`9fbbe9d`), pushed to `origin/main` (`a9af941..9fbbe9d`).
 
 ## 12. Final working-tree status
 
