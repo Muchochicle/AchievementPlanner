@@ -67,7 +67,7 @@ Deliberately searched for angles not covered by any of the 62 prior phases: inpu
 
 Working tree confirmed clean (all tests passing, diff reviewed, live verification complete - including the live-verification-driven `tabindex="-1"` correction). Staged and committed exactly the files listed in §7 plus this audit document - the 15 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: `PENDING` — to be filled in immediately after the commit below.
+**Commit hash**: `121efede75fb3700e2b76570cc24f9fc09ac9875` (`121efed`), pushed to `origin/main` (`b2bc122..121efed`).
 
 ## 10. Final working-tree status
 
