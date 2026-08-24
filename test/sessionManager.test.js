@@ -16,7 +16,7 @@ globalThis.localStorage = {
 };
 
 const { getSession, regenerateSession } = await import("../src/utils/planner/sessionManager.js");
-const { loadSessionDuration, saveSessionDuration } = await import("../src/utils/planner/session/sessionStorage.js");
+const { loadSessionDuration, saveSessionDuration, saveSession } = await import("../src/utils/planner/session/sessionStorage.js");
 
 function makeGame(slug, achievementIds) {
 
@@ -330,10 +330,34 @@ test("session duration round-trips through localStorage, defaulting to 45 when u
     saveSessionDuration("session-test-duration-a", 90);
     assert.strictEqual(loadSessionDuration("session-test-duration-a"), 90);
 
-    localStorage.setItem("session-duration-session-test-duration-b", "not-a-number");
+    // ":" (not "-") between "session-duration" and the slug since Phase 58
+    // (PHASE_58_AUDIT.md) - see sessionStorage.js's own comment for why.
+    localStorage.setItem("session-duration:session-test-duration-b", "not-a-number");
     assert.strictEqual(loadSessionDuration("session-test-duration-b"), 45, "a corrupted value should fall back to the default");
 
-    localStorage.setItem("session-duration-session-test-duration-c", "999");
+    localStorage.setItem("session-duration:session-test-duration-c", "999");
     assert.strictEqual(loadSessionDuration("session-test-duration-c"), 45, "a value outside the allowed set (30/45/60/90) should fall back to the default");
+
+});
+
+// Phase 58 (PHASE_58_AUDIT.md) - with the old "session-duration-${slug}"
+// key format, a game whose own slug happened to start with "duration-"
+// would read/write the exact same localStorage key as a completely
+// different game's own saved duration setting, since
+// "session-duration-" + "foo" is byte-identical to "session-" +
+// "duration-foo". The ":" delimiter makes this structurally impossible
+// (no real slug can ever contain a ":").
+test("a game whose slug starts with 'duration-' does not collide with another game's saved session duration", () => {
+
+    const slugWithDurationPrefix = "duration-foo";
+    const otherSlug = "foo";
+
+    saveSessionDuration(otherSlug, 90);
+
+    // Before the fix, this would have silently written to the exact same
+    // key "foo"'s duration was just saved under.
+    saveSession(slugWithDurationPrefix, []);
+
+    assert.strictEqual(loadSessionDuration(otherSlug), 90, "the unrelated game's duration setting must survive saving a session for the 'duration-foo' slug");
 
 });

@@ -77,14 +77,17 @@ test("resetDevelopmentProgress clears per-game planner and session keys", () => 
     const store = freshLocalStorage();
     store["planner-hades"] = JSON.stringify({ a: true });
     store["session-hades"] = JSON.stringify([1, 2]);
-    store["session-duration-hades"] = "90";
+    // ":" (not "-") between "session-duration" and the slug since Phase 58
+    // (PHASE_58_AUDIT.md) - still starts with "session-", so the sweep
+    // below must still clear it.
+    store["session-duration:hades"] = "90";
     store["some-unrelated-key"] = "should not be touched";
 
     resetDevelopmentProgress();
 
     assert.strictEqual(store["planner-hades"], undefined);
     assert.strictEqual(store["session-hades"], undefined);
-    assert.strictEqual(store["session-duration-hades"], undefined);
+    assert.strictEqual(store["session-duration:hades"], undefined);
     assert.strictEqual(store["some-unrelated-key"], "should not be touched", "keys unrelated to planner/session progress must be left alone");
 
 });
