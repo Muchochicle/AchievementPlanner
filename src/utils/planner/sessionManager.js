@@ -34,7 +34,21 @@ export function getSession(
     // regenerating from the now-real achievement list. Falling through to
     // createSession() below is always safe: if the game's achievements are
     // genuinely all done, it legitimately reproduces the same [].
-    if (stored && stored.length > 0) {
+    // loadSession() only guards against syntactically-invalid JSON (see
+    // safeJson.js's safeParseJSON, which falls back to null on a parse
+    // error) - it has no way to know the *shape* the caller expects, so a
+    // syntactically-valid-but-wrong-shape stored value (e.g. localStorage
+    // manually edited to a JSON string or object, or a future schema
+    // change writing something other than an array under this key)
+    // previously passed `stored.length > 0` whenever that value happened to
+    // have a positive `.length` (any non-empty string, or a plain object
+    // with a numeric `.length` property), then crashed on `stored.map(...)`
+    // below - a TypeError a returning visitor with corrupted/stale
+    // session data would hit on every visit to that game's page, with no
+    // fallback (Phase 64, PHASE_64_AUDIT.md). Array.isArray() closes that
+    // gap the same way this app already treats every other localStorage
+    // read as untrusted.
+    if (Array.isArray(stored) && stored.length > 0) {
 
         const merged = game.mergedAchievements;
 

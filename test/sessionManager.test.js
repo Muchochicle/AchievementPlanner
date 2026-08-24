@@ -211,6 +211,64 @@ test("getSession regenerates from real achievements after a stale, previously-em
 
 });
 
+// Phase 64 (PHASE_64_AUDIT.md) - loadSession() (sessionStorage.js) only
+// guards against syntactically-invalid JSON, via safeParseJSON's fallback
+// to null. Neither loadSession() nor getSession() had ever been tested
+// against genuinely corrupted stored data before this phase - these three
+// tests close that gap for both the syntax-invalid case (already safe, but
+// unverified) and the two shape-invalid cases the new Array.isArray() guard
+// in getSession() was specifically added to fix.
+test("getSession falls through to a freshly-generated session when the stored value is syntactically invalid JSON, instead of throwing", () => {
+
+    const slug = "session-test-corrupted-syntax";
+
+    localStorage.setItem(`session-${slug}`, "{not valid json!!!");
+
+    const game = makeGame(slug, [71, 72]);
+
+    const session = getSession(game, slug, 45);
+
+    assert.ok(session.length > 0, "corrupted stored JSON should fall back to a freshly-generated session, not throw");
+    assert.ok(session.every(a => [71, 72].includes(a.id)));
+
+});
+
+test("getSession falls through to a freshly-generated session when the stored value is syntactically valid JSON but not an array (e.g. a JSON string), instead of crashing on .map()", () => {
+
+    const slug = "session-test-corrupted-shape-string";
+
+    // Valid JSON (a plain string), with a positive .length - previously
+    // passed the old `stored.length > 0` check and then crashed on
+    // `stored.map(...)`, since strings have no .map method.
+    localStorage.setItem(`session-${slug}`, JSON.stringify("not an array"));
+
+    const game = makeGame(slug, [73, 74]);
+
+    const session = getSession(game, slug, 45);
+
+    assert.ok(session.length > 0, "a non-array stored value should fall back to a freshly-generated session, not throw");
+    assert.ok(session.every(a => [73, 74].includes(a.id)));
+
+});
+
+test("getSession falls through to a freshly-generated session when the stored value is a JSON object with a positive .length property, instead of crashing on .map()", () => {
+
+    const slug = "session-test-corrupted-shape-object";
+
+    // A plain object with its own numeric "length" field - also passes a
+    // bare `.length > 0` check but, like the string case above, has no
+    // .map method.
+    localStorage.setItem(`session-${slug}`, JSON.stringify({ length: 2 }));
+
+    const game = makeGame(slug, [75, 76]);
+
+    const session = getSession(game, slug, 45);
+
+    assert.ok(session.length > 0, "a non-array stored value should fall back to a freshly-generated session, not throw");
+    assert.ok(session.every(a => [75, 76].includes(a.id)));
+
+});
+
 test("getSession regenerates a fresh session once every currently-planned achievement is completed, instead of permanently showing 0 planned (PHASE_48_AUDIT.md Finding 7)", () => {
 
     // Every achievement below has the same difficulty/estimatedTime (10
