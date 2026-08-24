@@ -10,6 +10,20 @@ import apiRoutes from "./routes/api.js";
 import gamesRoutes from "./routes/games.js";
 import podiumsRoutes from "./routes/podiums.js";
 import { sendServerError } from "./utils/sendServerError.js";
+import { registerProcessErrorHandlers } from "./utils/processErrorHandlers.js";
+
+// Registered first, before anything else in this file runs, so it covers
+// the widest possible window - including any error during startup itself,
+// not just after the server is listening. Every within-request error path
+// in this codebase is already safely caught (route handlers' own
+// try/catch -> sendServerError, the global Express error-handling
+// middleware below for routing-layer errors) - this is the last-resort net
+// for an error OUTSIDE any request's own promise chain (Finding new,
+// PHASE_62_AUDIT.md): a bug in a fire-and-forget async call, a timer
+// callback, or any other detached code path. See
+// utils/processErrorHandlers.js for the full reasoning and the injectable
+// version this wraps for testing.
+registerProcessErrorHandlers();
 
 dotenv.config();
 
