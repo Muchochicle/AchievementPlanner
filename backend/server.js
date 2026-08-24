@@ -147,6 +147,31 @@ const authRateLimiter = rateLimit({
 
 app.use("/auth/steam", authRateLimiter, steamRoutes);
 
+// Every other JSON route (/api, /api/games, /api/podiums) previously had no
+// rate limit at all (Finding 19, PHASE_51-54_AUDIT.md) - most of that
+// surface is already cheap in practice (indexed SQLite reads, TTL-cached
+// Steam data, concurrency-bounded fan-out), but a route-level ceiling is
+// still worth having as defense-in-depth against scripted abuse/scanning.
+// Sized deliberately generous, well above any real usage pattern traced in
+// this app: podiums.html fires 5 parallel requests on a single page load,
+// game.js polls once every 60s (~15 requests/15min), and a normal catalog
+// browse is a handful of requests - all comfortably inside this ceiling,
+// while still bounding a scripted flood. A distinct limiter from
+// authRateLimiter above so a burst of normal API traffic can never eat
+// into (or be capped by) the much stricter login-attempt budget.
+const apiRateLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    limit: 300,
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: {
+        success: false,
+        message: "Too many requests. Please try again later."
+    }
+});
+
+app.use("/api", apiRateLimiter);
+
 app.use("/api", apiRoutes);
 
 app.use("/api/games", gamesRoutes);

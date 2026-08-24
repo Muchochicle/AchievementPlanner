@@ -60,18 +60,34 @@ export function getSession(
 
         if (filtered.length > 0) {
 
-            return filtered;
+            const filteredTotalTime = filtered.reduce(
+                (sum, achievement) => sum + achievement.estimatedTime,
+                0
+            );
+
+            // A stored session is only trustworthy for the duration it was
+            // actually built for - `duration` was previously "write-only"
+            // on a cache hit here, re-filtered for completion but never
+            // re-validated against whatever duration was just requested
+            // (Finding 2, PHASE_51-54_AUDIT.md). Same fallthrough-to-rebuild
+            // treatment as the "everything's complete" case below.
+            if (filteredTotalTime <= duration) {
+
+                return filtered;
+
+            }
 
         }
 
-        // Every achievement that was planned is now complete - the
-        // intended, successful outcome of using this feature. Falling
-        // through to createSession() below (same as the "nothing stored
-        // yet" case) regenerates a fresh session from the game's
+        // Either every achievement that was planned is now complete (the
+        // intended, successful outcome of using this feature), or the
+        // stored session no longer fits the currently-requested duration.
+        // Falling through to createSession() below (same as the "nothing
+        // stored yet" case) regenerates a fresh session from the game's
         // remaining, not-yet-planned achievements instead of permanently
-        // returning this stale, now-fully-completed list - see
-        // PHASE_48_AUDIT.md Finding 7. If the game genuinely has nothing
-        // left to plan either way, createSession() below correctly
+        // returning this stale list - see PHASE_48_AUDIT.md Finding 7 for
+        // the original completion-only version. If the game genuinely has
+        // nothing left to plan either way, createSession() below correctly
         // reproduces the same [] (see the "genuinely empty" test case).
 
     }

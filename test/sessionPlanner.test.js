@@ -97,3 +97,52 @@ test("createSession's regenerated cache is itself usable on a subsequent call - 
     assert.deepStrictEqual(readBack.map(a => a.id), [223]);
 
 });
+
+// Finding 2 (PHASE_51-54_AUDIT.md) - targetMinutes was previously
+// "write-only" on a cache hit: once anything was cached, every subsequent
+// call re-filtered for completion but never re-validated the cached
+// session's total time against a newly-requested (possibly smaller)
+// duration, silently returning a session sized for the wrong budget.
+test("createSession rebuilds instead of returning a stale cache when a smaller duration no longer fits the previously-cached session's total time", () => {
+
+    resetSession();
+
+    const slug = "session-planner-test-duration-shrink-invalidates-cache";
+    const game = makeGame(slug, [231, 232, 233]);
+
+    // 25-minute target with three 10-minute achievements caches exactly
+    // the first two (20 minutes total) - the third doesn't fit (30 > 25).
+    const original = createSession(game, 25);
+    assert.deepStrictEqual(original.map(a => a.id), [231, 232]);
+
+    // Nothing completed - a real user just picked a smaller duration from
+    // the dropdown. The cached 20-minute session no longer fits a
+    // 15-minute target and must be rebuilt, not returned as-is.
+    const afterShrink = createSession(game, 15);
+
+    assert.deepStrictEqual(afterShrink.map(a => a.id), [231], "must rebuild for the smaller target instead of returning the stale 20-minute cache");
+
+    const afterShrinkTotal = afterShrink.reduce((sum, a) => sum + a.estimatedTime, 0);
+    assert.ok(afterShrinkTotal <= 15, `rebuilt session's total time (${afterShrinkTotal}) must fit the requested 15-minute target`);
+
+});
+
+test("createSession keeps returning the cached session when a new duration still comfortably fits its existing total time", () => {
+
+    resetSession();
+
+    const slug = "session-planner-test-duration-still-fits-keeps-cache";
+    const game = makeGame(slug, [241, 242, 243]);
+
+    const original = createSession(game, 25);
+    assert.deepStrictEqual(original.map(a => a.id), [241, 242]);
+
+    // A new duration (22) that the existing 20-minute cached total still
+    // fits inside of - must keep returning the same cached session rather
+    // than needlessly rebuilding, proving the cache-hit path isn't
+    // bypassed unnecessarily when the cache is still perfectly valid.
+    const afterRecheck = createSession(game, 22);
+
+    assert.deepStrictEqual(afterRecheck.map(a => a.id), [241, 242]);
+
+});

@@ -330,3 +330,61 @@ test("rate limiting on /auth/steam/login does not affect unrelated routes", asyn
     });
 
 });
+
+// Finding 19 (PHASE_51-54_AUDIT.md) - /api, /api/games, and /api/podiums
+// previously had zero rate limiting at all. The new limiter is
+// deliberately generous (300/15min) so it's never realistically hit by
+// legitimate traffic - these tests verify it's correctly wired up and
+// correctly scoped, not that it actually 429s (300 real requests would
+// make this suite needlessly slow for no extra confidence; the exact same
+// express-rate-limit mechanism is already proven to 429 correctly by the
+// /auth/steam/login tests above).
+
+test("the general API rate limiter reports its own (300/15min) RateLimit-* headers, independent of the stricter auth limiter", async () => {
+
+    await withServer({}, async ({ baseUrl }) => {
+
+        const first = await fetch(`${baseUrl}/api/me`);
+        const second = await fetch(`${baseUrl}/api/me`);
+
+        assert.strictEqual(first.headers.get("ratelimit-limit"), "300");
+        assert.strictEqual(first.headers.get("ratelimit-remaining"), "299");
+        assert.strictEqual(second.headers.get("ratelimit-remaining"), "298");
+
+    });
+
+});
+
+test("the general API rate limiter's counter is shared across /api, /api/games, and /api/podiums - one budget for the whole JSON API, not one per router", async () => {
+
+    await withServer({}, async ({ baseUrl }) => {
+
+        const first = await fetch(`${baseUrl}/api/me`);
+        const second = await fetch(`${baseUrl}/api/games`);
+        const third = await fetch(`${baseUrl}/api/podiums/global/games-owned`);
+
+        assert.strictEqual(first.headers.get("ratelimit-remaining"), "299");
+        assert.strictEqual(second.headers.get("ratelimit-remaining"), "298", "a request to a different sub-router under /api must decrement the same shared counter");
+        assert.strictEqual(third.headers.get("ratelimit-remaining"), "297", "a request to yet another sub-router under /api must still decrement the same shared counter");
+
+    });
+
+});
+
+test("the general API rate limiter does not affect /auth/steam/login or / (root), which are outside the /api prefix", async () => {
+
+    await withServer({}, async ({ baseUrl }) => {
+
+        // Warm up the /api counter first.
+        await fetch(`${baseUrl}/api/me`);
+
+        const loginRes = await fetch(`${baseUrl}/auth/steam/login`, { redirect: "manual" });
+        assert.strictEqual(loginRes.headers.get("ratelimit-limit"), "20", "must still report the stricter auth limiter's own limit, unaffected by the /api one");
+
+        const rootRes = await fetch(`${baseUrl}/`);
+        assert.strictEqual(rootRes.status, 200);
+        assert.strictEqual(rootRes.headers.get("ratelimit-limit"), null, "the root route is outside /api entirely and must carry no rate-limit headers at all");
+
+    });
+
+});

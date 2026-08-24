@@ -7,7 +7,7 @@ import {
 } from "../services/steamApi.js";
 
 import {
-    mapSteamGameSafe,
+    mapOwnedGames,
     mapPlannerOnlyGame
 } from "../utils/gameMapper.js";
 
@@ -134,11 +134,7 @@ async function buildGamesList(req) {
         ? await getOwnedGames(steamId)
         : { games: [] };
 
-    const ownedGames = library.games
-
-        .map(mapSteamGameSafe)
-
-        .filter(Boolean);
+    const ownedGames = mapOwnedGames(library.games);
 
     const ownedSlugs = new Set(
 

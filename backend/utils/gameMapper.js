@@ -91,6 +91,41 @@ export function mapSteamGameSafe(game) {
 
 }
 
+// Maps a raw Steam owned-games array in one pass, disambiguating any slug
+// collision - two different owned, non-catalog games whose derivedSlug
+// (see mapSteamGame above) happens to match by coincidence of name - by
+// suffixing every occurrence after the first with its own (always unique)
+// appid. A single mapSteamGame call can't detect this on its own, since it
+// only ever sees one game at a time - every caller that needs stable
+// per-request slug uniqueness (buildGamesList, getGameDetail) goes through
+// this shared function instead of mapping independently, so both the list
+// and detail routes agree on the same disambiguated slug for the same
+// request (Finding 3, PHASE_51-54_AUDIT.md - without this, the second
+// colliding game was permanently unreachable via GET /api/games/:slug,
+// since that route resolves a slug via games.find(), which always returns
+// the first match).
+export function mapOwnedGames(rawGames) {
+
+    const mapped = rawGames.map(mapSteamGameSafe).filter(Boolean);
+
+    const seenSlugs = new Set();
+
+    return mapped.map(game => {
+
+        if (!seenSlugs.has(game.slug)) {
+
+            seenSlugs.add(game.slug);
+
+            return game;
+
+        }
+
+        return { ...game, slug: `${game.slug}-${game.appid}` };
+
+    });
+
+}
+
 // Builds the model for a game that exists in our own catalog (has a
 // planner) but that the user does not own on Steam.
 export function mapPlannerOnlyGame(slug) {

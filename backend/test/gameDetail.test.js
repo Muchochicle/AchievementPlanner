@@ -168,6 +168,49 @@ test("an owned Steam game takes precedence over a catalog-only entry when the sa
 
 });
 
+// Finding 3 (PHASE_51-54_AUDIT.md) - before mapOwnedGames(), two owned,
+// non-catalog games whose derivedSlug happened to match made the second
+// one permanently unreachable via this exact route (games.find() always
+// returns the first match). Both fixtures below deliberately use a
+// non-catalog appid/name so neither resolves via a real planner.
+test("two owned games whose names derive the same slug are both reachable - the second via its appid-disambiguated slug", async () => {
+
+    const collidingOwnedGames = async () => ({
+
+        games: [
+
+            { appid: 5551111, name: "Duplicate Name", img_icon_url: "a", playtime_forever: 60, rtime_last_played: 1700000000 },
+            { appid: 5552222, name: "Duplicate Name", img_icon_url: "b", playtime_forever: 30, rtime_last_played: 1700000001 }
+
+        ]
+
+    });
+
+    const deps = {
+
+        fetchOwnedGames: collidingOwnedGames,
+        fetchSchema: availableSchema([]),
+        fetchGlobalPercentages: async () => [],
+        fetchPlayerAchievements: async () => ({ achievements: [], status: "available" })
+
+    };
+
+    const first = await getGameDetail("duplicate-name", "76500000000000099", deps);
+
+    assert.ok(first, "the first colliding game must resolve via the plain, undecorated slug");
+    assert.strictEqual(first.appid, 5551111);
+
+    const second = await getGameDetail("duplicate-name-5552222", "76500000000000099", deps);
+
+    assert.ok(second, "the second colliding game must now be reachable via its appid-disambiguated slug, instead of being permanently unreachable");
+    assert.strictEqual(second.appid, 5552222);
+
+    // The plain (undecorated) slug must never resolve to the second game -
+    // it's exclusively reachable via its own disambiguated slug.
+    assert.notStrictEqual(second.appid, first.appid);
+
+});
+
 // ---------------------------------------------------------------------
 // hasAppid branch: no valid appid short-circuits every Steam call
 // ---------------------------------------------------------------------

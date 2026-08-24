@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { mapSteamGame, mapSteamGameSafe, mapPlannerOnlyGame } from "../utils/gameMapper.js";
+import { mapSteamGame, mapSteamGameSafe, mapOwnedGames, mapPlannerOnlyGame } from "../utils/gameMapper.js";
 import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
 // A fictitious appid/name pair guaranteed not to collide with any real
@@ -193,5 +193,76 @@ test("mapPlannerOnlyGame marks a real catalog entry as not owned but having a pl
     assert.strictEqual(result.hasPlanner, true);
     assert.strictEqual(typeof result.title, "string");
     assert.ok(result.title.length > 0);
+
+});
+
+// Finding 3 (PHASE_51-54_AUDIT.md) - two owned, non-catalog games whose
+// derivedSlug happened to match (identical/very similar names) made the
+// second one permanently unreachable via GET /api/games/:slug, since that
+// route resolves a slug via games.find(), which always returns the first
+// match. mapOwnedGames() is the shared fix both routes/games.js and
+// gameDetail.js now use instead of mapping independently.
+
+test("mapOwnedGames returns each game unchanged (same slug as mapSteamGame alone) when there is no collision", () => {
+
+    const games = mapOwnedGames([
+
+        { appid: 111, name: "Alpha Game", playtime_forever: 60, img_icon_url: "a" },
+        { appid: 222, name: "Beta Game", playtime_forever: 30, img_icon_url: "b" }
+
+    ]);
+
+    assert.strictEqual(games.length, 2);
+    assert.strictEqual(games[0].slug, "alpha-game");
+    assert.strictEqual(games[1].slug, "beta-game");
+
+});
+
+test("mapOwnedGames disambiguates a real slug collision by suffixing every occurrence after the first with its own appid", () => {
+
+    const games = mapOwnedGames([
+
+        { appid: 111, name: "Duplicate Name", playtime_forever: 60, img_icon_url: "a" },
+        { appid: 222, name: "Duplicate Name", playtime_forever: 30, img_icon_url: "b" },
+        { appid: 333, name: "Duplicate Name", playtime_forever: 10, img_icon_url: "c" }
+
+    ]);
+
+    assert.strictEqual(games.length, 3, "no game may be dropped just because its slug collided");
+
+    const slugs = games.map(g => g.slug);
+
+    assert.strictEqual(slugs[0], "duplicate-name", "the first occurrence keeps the plain, undecorated slug");
+    assert.strictEqual(slugs[1], "duplicate-name-222", "the second occurrence is disambiguated with its own appid");
+    assert.strictEqual(slugs[2], "duplicate-name-333", "the third occurrence is disambiguated with its own appid");
+
+    // Every slug must be unique - the entire point of this function.
+    assert.strictEqual(new Set(slugs).size, 3);
+
+    // Disambiguation must never change which appid a given entry reports -
+    // only the collided games' `slug` field changes, nothing else about
+    // their identity.
+    assert.strictEqual(games[1].appid, 222);
+    assert.strictEqual(games[2].appid, 333);
+
+});
+
+test("mapOwnedGames drops a malformed entry (via mapSteamGameSafe) exactly like a plain .map(mapSteamGameSafe).filter(Boolean) would", () => {
+
+    const games = mapOwnedGames([
+
+        { appid: 111, name: "Valid Game", playtime_forever: 60, img_icon_url: "a" },
+        null
+
+    ]);
+
+    assert.strictEqual(games.length, 1);
+    assert.strictEqual(games[0].appid, 111);
+
+});
+
+test("mapOwnedGames returns an empty array for an empty input, without throwing", () => {
+
+    assert.deepStrictEqual(mapOwnedGames([]), []);
 
 });

@@ -47,20 +47,39 @@ export function createSession(game, targetMinutes = 45) {
 
         if (filtered.length > 0) {
 
-            return filtered;
+            const filteredTotalTime = filtered.reduce(
+                (sum, achievement) => sum + achievement.estimatedTime,
+                0
+            );
+
+            // A cached session is only trustworthy for the duration it was
+            // actually built for - `targetMinutes` was previously
+            // "write-only" on a cache hit here, re-filtered for completion
+            // but never re-validated against whatever duration was just
+            // requested (Finding 2, PHASE_51-54_AUDIT.md). A cached
+            // session that no longer fits the currently-requested duration
+            // is treated exactly like a stale-completion one below: fall
+            // through and rebuild from the current pool instead of
+            // silently returning a session sized for a different duration.
+            if (filteredTotalTime <= targetMinutes) {
+
+                return filtered;
+
+            }
 
         }
 
-        // Every cached achievement is now complete - fall through to
-        // rebuild from the game's remaining pool below instead of
-        // permanently returning this stale, now-fully-completed cache.
-        // This mirrors sessionManager.js's identical fix (see
-        // PHASE_48_AUDIT.md Finding 7): sessionManager.js's own
-        // getSession() falls through to createSession() whenever a
-        // persisted session's members are all complete, which reaches
+        // Either every cached achievement is now complete, or the cached
+        // session no longer fits the currently-requested duration - either
+        // way, fall through to rebuild from the game's remaining pool
+        // below instead of permanently returning this stale cache. This
+        // mirrors sessionManager.js's identical fix (see PHASE_48_AUDIT.md
+        // Finding 7 for the original completion-only version):
+        // sessionManager.js's own getSession() falls through to
+        // createSession() under the same two conditions, which reaches
         // this exact cache-hit branch on the very next call for the same
         // slug - without this fallthrough too, that regeneration would
-        // just hit this stale in-memory cache and produce [] again.
+        // just hit this stale in-memory cache and return it unchanged.
 
     }
 

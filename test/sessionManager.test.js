@@ -279,6 +279,50 @@ test("getSession returns an empty session (not a crash or a stuck stale list) wh
 
 });
 
+// Finding 2 (PHASE_51-54_AUDIT.md) - duration was previously "write-only"
+// on a getSession() cache hit (localStorage-backed): once anything was
+// persisted, every subsequent call re-filtered for completion but never
+// re-validated the stored session's total time against a newly-requested
+// (possibly smaller) duration.
+test("getSession rebuilds instead of returning a stale persisted session when a smaller duration no longer fits its total time", () => {
+
+    const slug = "session-test-duration-shrink-invalidates-persisted";
+    const game = makeGame(slug, [71, 72, 73]);
+
+    // 25-minute target with three 10-minute achievements persists exactly
+    // the first two (20 minutes total).
+    const original = getSession(game, slug, 25);
+    assert.deepStrictEqual(original.map(a => a.id), [71, 72]);
+
+    // Nothing completed - a real user just picked a smaller duration from
+    // the dropdown (game.js reads the select's current value on every
+    // render, see game.js's renderSession()). The persisted 20-minute
+    // session no longer fits a 15-minute target and must be rebuilt.
+    const afterShrink = getSession(game, slug, 15);
+
+    assert.deepStrictEqual(afterShrink.map(a => a.id), [71], "must rebuild for the smaller target instead of returning the stale 20-minute persisted session");
+
+    // The rebuild must also be what gets persisted, not just returned -
+    // a subsequent call at the same (now smaller) duration must read the
+    // rebuilt session back, not regenerate yet again or revert to stale.
+    const readBack = getSession(game, slug, 15);
+    assert.deepStrictEqual(readBack.map(a => a.id), [71]);
+
+});
+
+test("getSession keeps the persisted session when a new duration still comfortably fits its existing total time", () => {
+
+    const slug = "session-test-duration-still-fits-keeps-persisted";
+    const game = makeGame(slug, [91, 92, 93]);
+
+    const original = getSession(game, slug, 25);
+    assert.deepStrictEqual(original.map(a => a.id), [91, 92]);
+
+    const afterRecheck = getSession(game, slug, 22);
+    assert.deepStrictEqual(afterRecheck.map(a => a.id), [91, 92]);
+
+});
+
 test("session duration round-trips through localStorage, defaulting to 45 when unset or invalid", () => {
 
     assert.strictEqual(loadSessionDuration("session-test-duration-unset"), 45, "unset duration should default to 45");
