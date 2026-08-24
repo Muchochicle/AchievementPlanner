@@ -36,10 +36,14 @@ async function init() {
     // One placeholder section per category - all five fetch in parallel,
     // each rendering independently the moment it's ready rather than
     // waiting on the slowest one (see the loading state each starts in
-    // below).
+    // below). aria-live="polite" aria-atomic="true" on each section (Phase
+    // 60, PHASE_60_AUDIT.md - WCAG SC 4.1.3 Status Messages) tells a
+    // screen-reader user when that one category finishes loading, without
+    // needing to move focus there - previously silent to assistive
+    // technology.
     container.innerHTML = GLOBAL_PODIUM_CATEGORIES
 
-        .map(config => `<div id="podium-${config.key}" class="podiums-nav-target"></div>`)
+        .map(config => `<div id="podium-${config.key}" class="podiums-nav-target" aria-live="polite" aria-atomic="true"></div>`)
 
         .join("");
 

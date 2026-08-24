@@ -141,3 +141,33 @@ test("a rendering exception on one category falls back to an error card instead 
     assert.doesNotMatch(otherSection.innerHTML, /couldn't load this leaderboard/);
 
 });
+
+// Phase 60 (PHASE_60_AUDIT.md) - WCAG SC 4.1.3 Status Messages: each
+// per-category placeholder div must carry aria-live="polite"
+// aria-atomic="true" so a screen-reader user is told when that section's
+// "Loading leaderboard..." placeholder becomes real content or an error,
+// without needing to move focus there. Checks the actual generated markup
+// string written into #podiums-content, since this project's DOM stub
+// doesn't parse innerHTML into real child elements.
+test("every per-category podium placeholder div carries aria-live=\"polite\" aria-atomic=\"true\", so its loading-to-result transition is announced to assistive technology", () => {
+
+    const podiumsContent = registry.get("podiums-content");
+
+    assert.ok(podiumsContent, "the podiums-content container must exist");
+
+    // One assertion per known category id, rather than a single blanket
+    // regex, so a future category addition/removal doesn't silently pass
+    // this test without actually checking its own div.
+    for (const key of ["games-owned", "total-playtime", "achievements", "completed-games", "games-played"]) {
+
+        const divPattern = new RegExp(`<div id="podium-${key}"[^>]*aria-live="polite"[^>]*aria-atomic="true"`);
+
+        assert.match(
+            podiumsContent.innerHTML,
+            divPattern,
+            `expected podium-${key}'s placeholder div to carry aria-live="polite" aria-atomic="true"`
+        );
+
+    }
+
+});

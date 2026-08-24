@@ -67,6 +67,11 @@ const POLL_INTERVAL_MS = 60 * 1000;
 // user doesn't own on Steam has no appid (see gameMapper.js's
 // mapPlannerOnlyGame) - there's nothing to look up a playtime leaderboard
 // for, so the section is simply left empty rather than shown broken/empty.
+// The container itself carries aria-live="polite" aria-atomic="true"
+// (Phase 60, PHASE_60_AUDIT.md - WCAG SC 4.1.3 Status Messages) so a
+// screen-reader user is told when the "Loading leaderboard..." placeholder
+// becomes real content or an error, without this needing to move focus -
+// previously this transition was silent to assistive technology.
 function renderGamePodium(game) {
 
     const container = document.getElementById("game-podium-container");
@@ -173,7 +178,7 @@ async function init() {
 
                     createGameHeader(game, hoursPlayed) +
 
-                    `<div id="game-podium-container"></div>` +
+                    `<div id="game-podium-container" aria-live="polite" aria-atomic="true"></div>` +
 
                     createSteamAchievementList(game, session);
 
@@ -245,7 +250,7 @@ async function init() {
 
             createGameGuideNotice(game) +
 
-            `<div id="game-podium-container"></div>` +
+            `<div id="game-podium-container" aria-live="polite" aria-atomic="true"></div>` +
 
             `<div id="recommended-container"></div>` +
 
