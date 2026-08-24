@@ -216,6 +216,14 @@ nav a.active{
 
 }
 
+.steam-login-btn:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
 /* Below this width the logo + 4 nav links + login/player widget no
    longer fit on one row no matter how much they shrink - stack them
    predictably instead of letting them wrap unpredictably. The matching

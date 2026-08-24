@@ -11,9 +11,31 @@
     --on-primary: #0b1220;
 
     --text: #F8FAFC;
-    --text-secondary: #94A3B8;
+    /* A minimal lightness bump from the original #94A3B8 (WCAG AA-passing
+       everywhere else at 6.96:1/5.71:1 against --background/--surface, but
+       falling short at only 4.04:1 against --surface-hover - below the
+       4.5:1 normal-text threshold) to 4.67:1 against --surface-hover, with
+       comfortable margin retained against --background/--surface too.
+       Fixes 3 real, always-visible tag/badge instances (Phase 57,
+       PHASE_57_AUDIT.md): .catalog-planner-soon, .guide-content-category,
+       .guide-card-category. Visually indistinguishable from the original
+       in every other context this variable is already used in. */
+    --text-secondary: #A3AFC2;
 
     --border: #334155;
+
+    /* A visibly stronger border specifically for interactive form controls
+       (text inputs, selects, the avatar-picker's clickable tiles) - WCAG
+       2.1 SC 1.4.11 (Non-text Contrast) calls for >=3:1 against the
+       adjacent background for UI-component boundaries a user needs to
+       perceive to operate them. --border itself (#334155, ~1.4-1.7:1) is
+       far below that, but is also reused for ~30 purely decorative
+       card-boundary/divider usages across the app where bumping the same
+       shared variable would be a visible re-theme, not a minimal
+       accessibility fix - so this is a separate, additive variable applied
+       only to the small set of genuinely interactive controls (Phase 57,
+       PHASE_57_AUDIT.md), not a global --border change. */
+    --border-strong: #5A7396;
 
     /* Layout */
 

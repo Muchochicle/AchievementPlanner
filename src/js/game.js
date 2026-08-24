@@ -89,6 +89,18 @@ function renderGamePodium(game) {
 
         container.innerHTML = createPodiumCard(GAME_PODIUM_CATEGORY, state);
 
+    }).catch(error => {
+
+        // fetchGamePodium itself never rejects (see podiumsClient.js) - this
+        // only guards the .then() callback's own body (createPodiumCard)
+        // throwing, so a rendering exception can't strand this container on
+        // "Loading..." forever with no visible error. Same fix as Finding 24
+        // (PHASE_53_AUDIT.md), which only covered podiums.js's analogous
+        // fetch chain and missed this one (Phase 57).
+        console.error("Unable to render this game's leaderboard:", error);
+
+        container.innerHTML = createPodiumCard(GAME_PODIUM_CATEGORY, { status: "error", error });
+
     });
 
 }
