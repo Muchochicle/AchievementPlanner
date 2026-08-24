@@ -7,6 +7,7 @@ export function createAchievementFilters() {
             <button
                 class="filter-btn active"
                 data-filter="all"
+                aria-pressed="true"
             >
                 All
             </button>
@@ -14,6 +15,7 @@ export function createAchievementFilters() {
             <button
                 class="filter-btn"
                 data-filter="pending"
+                aria-pressed="false"
             >
                 Pending
             </button>
@@ -21,6 +23,7 @@ export function createAchievementFilters() {
             <button
                 class="filter-btn"
                 data-filter="completed"
+                aria-pressed="false"
             >
                 Completed
             </button>

@@ -50,11 +50,15 @@ export function initAchievementFilters() {
 
         button.addEventListener("click", () => {
 
-            buttons.forEach(btn =>
-                btn.classList.remove("active")
-            );
+            buttons.forEach(btn => {
+
+                btn.classList.remove("active");
+                btn.setAttribute("aria-pressed", "false");
+
+            });
 
             button.classList.add("active");
+            button.setAttribute("aria-pressed", "true");
 
             applyFilter(button.dataset.filter);
 

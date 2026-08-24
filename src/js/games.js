@@ -22,6 +22,15 @@ import {
     updateFiltersCounter
 } from "../utils/catalog/counter.js";
 
+// Exported so its exact wording is regression-tested directly (see
+// test/gamesFilterChip.test.js) without needing to drive the whole
+// page-init flow (fetch + full DOM) - see PHASE_50_AUDIT.md Finding 12.
+export function buildRemoveFilterLabel(filterText) {
+
+    return `Remove ${filterText} filter`;
+
+}
+
 async function init() {
     loadNavbar();
 
@@ -78,6 +87,9 @@ async function init() {
                 .querySelectorAll(".filters-panel input:checked")
                 .forEach(filter => {
 
+                    const filterText =
+                        filter.parentElement.textContent.trim();
+
                     const chip =
                         document.createElement("div");
 
@@ -88,11 +100,11 @@ async function init() {
 
                         <span>
 
-                            ${filter.parentElement.textContent.trim()}
+                            ${filterText}
 
                         </span>
 
-                        <button aria-label="Remove filter">
+                        <button aria-label="${buildRemoveFilterLabel(filterText)}">
 
                             ×
 

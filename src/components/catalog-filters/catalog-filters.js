@@ -22,11 +22,11 @@ export function createCatalogFilters(genresHTML) {
 
                 <div class="filter-group">
 
-                    <h3>
+                    <h2>
 
                         Genre
 
-                    </h3>
+                    </h2>
 
                     ${genresHTML}
 
@@ -34,11 +34,11 @@ export function createCatalogFilters(genresHTML) {
 
                 <div class="filter-group difficulty-filter">
 
-                    <h3>
+                    <h2>
 
                         Difficulty
 
-                    </h3>
+                    </h2>
 
                     <label>
 
@@ -77,11 +77,11 @@ export function createCatalogFilters(genresHTML) {
 
                 <div class="filter-group time-filter">
 
-                    <h3>
+                    <h2>
 
                         Completion Time
 
-                    </h3>
+                    </h2>
 
                     <label>
 
@@ -131,11 +131,11 @@ export function createCatalogFilters(genresHTML) {
 
                 <div class="filter-group extras-filter">
 
-                    <h3>
+                    <h2>
 
                         Extras
 
-                    </h3>
+                    </h2>
 
                     <label>
 
