@@ -59,6 +59,20 @@ async function init() {
 
             section.innerHTML = createPodiumCard(config, state);
 
+        }).catch(error => {
+
+            // fetchGlobalPodium itself never rejects (see podiumsClient.js) -
+            // this only guards the .then() callback's own body (e.g.
+            // createPodiumCard) throwing, so a rendering exception can't
+            // strand this section on "Loading..." forever with no visible
+            // error (Finding 24, PHASE_53_AUDIT.md). renderBody's "error"
+            // branch is a fixed, static message with no dependency on
+            // whatever data caused the original failure, so this is safe to
+            // render even if the throw came from malformed state.
+            console.error(`Unable to render "${config.key}" leaderboard:`, error);
+
+            section.innerHTML = createPodiumCard(config, { status: "error", error });
+
         });
 
     }

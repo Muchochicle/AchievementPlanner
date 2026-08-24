@@ -128,13 +128,29 @@ export async function callbackWithDeps(req, res, deps) {
 
         }
 
-        const steamId =
+        const claimedId = req.query["openid.claimed_id"];
 
-            req.query["openid.claimed_id"]
+        // claimed_id is part of Steam's signed OpenID field set, so a
+        // request missing it would almost always already have failed
+        // validateSteamResponse's signature check above - but nothing
+        // upstream actually guarantees its presence/type, and without this
+        // check a missing value falls through to an uncaught TypeError on
+        // .split() (Finding 22, PHASE_53_AUDIT.md), converted to a generic
+        // 500 by the catch below instead of this function's own, more
+        // accurate 401 for every other malformed-callback case.
+        if (typeof claimedId !== "string" || !claimedId) {
 
-                .split("/")
+            return res.status(401).json({
 
-                .pop();
+                success: false,
+
+                message: "Steam authentication failed"
+
+            });
+
+        }
+
+        const steamId = claimedId.split("/").pop();
 
         const profile = await getPlayerSummary(steamId);
 

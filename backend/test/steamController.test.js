@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { login, callback } from "../controllers/steamController.js";
+import { login, callback, callbackWithDeps } from "../controllers/steamController.js";
 
 // login()/callback() are exercised directly with minimal fake req/res
 // objects, exactly as Express would call them - no production code was
@@ -149,5 +149,107 @@ test("callback()'s rejection response never includes error details/stack traces"
 
     assert.strictEqual(res.jsonBody.message, "Steam authentication failed");
     assert.strictEqual(Object.keys(res.jsonBody).length, 2, "response body should only contain success and message");
+
+});
+
+// Finding 22 (PHASE_53_AUDIT.md) - claimed_id is extracted after state
+// validation AND validateSteamResponse both already passed, so these use
+// callbackWithDeps with a fake (always-true) validateSteamResponse to reach
+// that point without a real Steam network call - the same seam
+// steamSessionRegeneration.test.js already uses. Both tests below return
+// before regenerateSession()/getPlayerSummary() would ever run, so a
+// minimal fake req.session (no .regenerate()) is sufficient, matching this
+// file's existing lightweight rejection-path tests above.
+
+test("callback() rejects with 401 instead of crashing when openid.claimed_id is missing from the query, even after validation has already passed", async () => {
+
+    const req = {
+        session: { oauthState: "the-real-stored-state" },
+        query: { state: "the-real-stored-state" }
+        // no "openid.claimed_id" at all
+    };
+    const res = createMockRes();
+
+    await assert.doesNotReject(
+
+        callbackWithDeps(req, res, {
+
+            validateSteamResponse: async () => true,
+
+            getPlayerSummary: async () => {
+
+                throw new Error("must not be called - claimed_id was missing");
+
+            }
+
+        })
+
+    );
+
+    assert.strictEqual(res.statusCode, 401);
+    assert.strictEqual(res.jsonBody.success, false);
+    assert.strictEqual(res.jsonBody.message, "Steam authentication failed");
+
+});
+
+test("callback() rejects with 401 when openid.claimed_id is present but empty", async () => {
+
+    const req = {
+        session: { oauthState: "the-real-stored-state" },
+        query: { state: "the-real-stored-state", "openid.claimed_id": "" }
+    };
+    const res = createMockRes();
+
+    await callbackWithDeps(req, res, {
+
+        validateSteamResponse: async () => true,
+
+        getPlayerSummary: async () => {
+
+            throw new Error("must not be called - claimed_id was empty");
+
+        }
+
+    });
+
+    assert.strictEqual(res.statusCode, 401);
+    assert.strictEqual(res.jsonBody.success, false);
+
+});
+
+test("callback() still extracts steamId correctly from a well-formed claimed_id (regression: the new guard must not reject a valid callback)", async () => {
+
+    const req = {
+        session: { oauthState: "the-real-stored-state" },
+        query: {
+            state: "the-real-stored-state",
+            "openid.claimed_id": "https://steamcommunity.com/openid/id/76561198000000000"
+        }
+    };
+    const res = createMockRes();
+
+    let receivedSteamId = null;
+
+    await callbackWithDeps(req, res, {
+
+        validateSteamResponse: async () => true,
+
+        getPlayerSummary: async steamId => {
+
+            receivedSteamId = steamId;
+
+            throw new Error("stop before regenerateSession - only steamId extraction is under test here");
+
+        }
+
+    });
+
+    assert.strictEqual(receivedSteamId, "76561198000000000");
+
+    // getPlayerSummary's thrown error is caught by callbackWithDeps's outer
+    // try/catch and converted to a safe generic 500 - proving the guard
+    // itself let a well-formed claimed_id straight through to steamId
+    // extraction, unlike the two rejection tests above.
+    assert.strictEqual(res.statusCode, 500);
 
 });

@@ -1,5 +1,12 @@
 const STEAM_OPENID_URL = "https://steamcommunity.com/openid/login";
 
+// Matches steamApi.js's own REQUEST_TIMEOUT_MS for its Steam Web API calls -
+// this fetch had no timeout at all (Finding 21, PHASE_53_AUDIT.md): a hung/
+// slow response from Steam's OpenID endpoint left the /auth/steam/return
+// request (and its underlying connection) open indefinitely, since Node's
+// built-in fetch has no default timeout of its own.
+const VERIFY_TIMEOUT_MS = 8000;
+
 export function buildSteamLoginUrl(state) {
 
     const returnTo = new URL(process.env.STEAM_RETURN_URL);
@@ -39,26 +46,45 @@ export async function validateSteamResponse(query) {
 
     params.set("openid.mode", "check_authentication");
 
-    const response = await fetch(
+    const controller = new AbortController();
 
-        "https://steamcommunity.com/openid/login",
-
-        {
-
-            method: "POST",
-
-            headers: {
-
-                "Content-Type":
-                    "application/x-www-form-urlencoded"
-
-            },
-
-            body: params
-
-        }
-
+    const timeout = setTimeout(
+        () => controller.abort(),
+        VERIFY_TIMEOUT_MS
     );
+
+    let response;
+
+    try {
+
+        response = await fetch(
+
+            "https://steamcommunity.com/openid/login",
+
+            {
+
+                method: "POST",
+
+                headers: {
+
+                    "Content-Type":
+                        "application/x-www-form-urlencoded"
+
+                },
+
+                body: params,
+
+                signal: controller.signal
+
+            }
+
+        );
+
+    } finally {
+
+        clearTimeout(timeout);
+
+    }
 
     const text = await response.text();
 

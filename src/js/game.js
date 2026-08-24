@@ -309,7 +309,23 @@ async function init() {
 
         refresh();
 
-        poller.start(POLL_INTERVAL_MS);
+        // A page loaded directly into an already-backgrounded tab (e.g.
+        // opened via middle-click/ctrl-click "open in new tab") has
+        // document.hidden === true from the very first paint - no
+        // visibilitychange transition ever fires to catch that case (the
+        // listener below only reacts to hidden<->visible transitions), so
+        // starting the poller unconditionally here left it running at full
+        // cadence for a tab nobody was looking at (Finding 18,
+        // PHASE_51-53_AUDIT.md). The listener's own else-branch already
+        // starts it (plus one immediate poll) the moment the tab is first
+        // actually viewed, so skipping the start here for an
+        // already-hidden tab loses no real update - it's simply deferred
+        // until there's someone to see it.
+        if (!document.hidden) {
+
+            poller.start(POLL_INTERVAL_MS);
+
+        }
 
         document
             .getElementById("session-duration")
