@@ -87,7 +87,7 @@ Started the real, unmodified `backend/server.js` (killed a stale prior instance 
 
 Working tree confirmed clean (all tests passing, diff reviewed, live verification complete). Staged and committed exactly the files listed in §6 plus this audit document — the 15 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: filled in immediately below after the commit (this line is updated in the same commit per Phase 54's established practice of keeping the hash accurate in the pushed record).
+**Commit hash**: `4918ffa52da06d04bdb6d17b85a7c3d20bb10196` (`4918ffa`), pushed to `origin/main` (`dbe8c9d..4918ffa`).
 
 ## 12. Final working-tree status
 
