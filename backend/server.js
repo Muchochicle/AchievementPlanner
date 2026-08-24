@@ -9,6 +9,7 @@ import steamRoutes from "./routes/steam.js";
 import apiRoutes from "./routes/api.js";
 import gamesRoutes from "./routes/games.js";
 import podiumsRoutes from "./routes/podiums.js";
+import { sendServerError } from "./utils/sendServerError.js";
 
 dotenv.config();
 
@@ -175,6 +176,37 @@ app.get("/api/me", (req, res) => {
         logged: true,
         user: req.session.user
     });
+
+});
+
+// Catch-all for any request that matched no route above - keeps the
+// response JSON, consistent with the rest of this API (server.js:72-83),
+// instead of Express's default HTML "Cannot GET ..." 404 page.
+app.use((req, res) => {
+
+    res.status(404).json({
+
+        success: false,
+
+        message: "Not found"
+
+    });
+
+});
+
+// Registered last, per Express's requirement that error-handling
+// middleware (identified by its 4-argument signature) come after every
+// other app.use/route mount. Errors thrown by Express's own routing
+// machinery - before any route handler's own try/catch ever runs, e.g. a
+// URIError from an invalid percent-escape in a :param segment - would
+// otherwise fall through to Express's built-in finalhandler, which returns
+// the raw stack trace (including absolute filesystem paths) as HTML to the
+// client. Routing here through the same sendServerError() every other
+// error path already uses keeps the response shape, logging, and generic
+// message identical everywhere in this codebase.
+app.use((err, req, res, next) => {
+
+    sendServerError(res, err, "global-error-handler");
 
 });
 
