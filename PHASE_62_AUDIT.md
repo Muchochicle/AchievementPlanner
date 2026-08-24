@@ -70,7 +70,7 @@ Both confirm the handlers work correctly against the real Node process, not just
 
 Working tree confirmed clean (all tests passing, diff reviewed, live verification complete). Staged and committed exactly `backend/server.js`, `backend/utils/processErrorHandlers.js`, `backend/test/processErrorHandlers.test.js`, and this audit document — the 15 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: `PENDING` — to be filled in immediately after the commit below.
+**Commit hash**: `873f299de0c1d5ae9c2482d54303b78519965172` (`873f299`), pushed to `origin/main` (`dd2f164..873f299`).
 
 ## 10. Final working-tree status
 
