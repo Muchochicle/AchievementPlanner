@@ -1,4 +1,5 @@
 import { ENV } from "../../env.js";
+import { fetchWithTimeout } from "../http/fetchWithTimeout.js";
 
 const API_URL = `${ENV.API_BASE_URL}/api/podiums`;
 
@@ -13,7 +14,7 @@ async function fetchPodium(url) {
 
     try {
 
-        response = await fetch(url, { credentials: "include" });
+        response = await fetchWithTimeout(url, { credentials: "include" });
 
     } catch (error) {
 

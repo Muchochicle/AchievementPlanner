@@ -1,10 +1,11 @@
 import { ENV } from "../env.js";
+import { fetchWithTimeout } from "./http/fetchWithTimeout.js";
 
 const API_URL = `${ENV.API_BASE_URL}/api/games`;
 
 export async function getGamesIndex() {
 
-    const response = await fetch(API_URL, {
+    const response = await fetchWithTimeout(API_URL, {
         credentials: "include"
     });
 
@@ -30,7 +31,7 @@ export async function getGamesIndex() {
 // callers only need to handle a real network/response failure here.
 export async function getPopularGames() {
 
-    const response = await fetch(`${API_URL}/popular`, {
+    const response = await fetchWithTimeout(`${API_URL}/popular`, {
         credentials: "include"
     });
 
@@ -48,7 +49,7 @@ export async function getPopularGames() {
 
 export async function getGame(slug) {
 
-    const response = await fetch(`${API_URL}/${slug}`, {
+    const response = await fetchWithTimeout(`${API_URL}/${slug}`, {
         credentials: "include"
     });
 

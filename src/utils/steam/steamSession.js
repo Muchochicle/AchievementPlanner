@@ -1,8 +1,9 @@
 import { ENV } from "../../env.js";
+import { fetchWithTimeout } from "../http/fetchWithTimeout.js";
 
 export async function getSteamSession() {
 
-    const response = await fetch(
+    const response = await fetchWithTimeout(
         `${ENV.API_BASE_URL}/api/me`,
         {
             credentials: "include"

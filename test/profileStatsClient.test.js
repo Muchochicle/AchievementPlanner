@@ -26,7 +26,12 @@ test("fetchProfileStats returns a ready state with every field from a successful
     const restore = mockFetch(async (url, options) => {
 
         assert.match(url, /\/api\/profile\/stats$/);
-        assert.deepStrictEqual(options, { credentials: "include" });
+        // fetchWithTimeout (Phase 61, PHASE_61_AUDIT.md) now also passes an
+        // AbortSignal alongside every caller-supplied option, so this checks
+        // the two meaningful fields individually rather than requiring
+        // options to equal only {credentials:"include"}.
+        assert.strictEqual(options.credentials, "include");
+        assert.ok(options.signal instanceof AbortSignal);
 
         return jsonResponse(200, {
             success: true,

@@ -1,4 +1,5 @@
 import { ENV } from "../../../env.js";
+import { fetchWithTimeout } from "../../http/fetchWithTimeout.js";
 
 // Live source of truth for Profile's Achievements/Games/100% cards -
 // backend/controllers/profileStatsController.js, backed by the same
@@ -12,7 +13,7 @@ export async function fetchProfileStats() {
 
     try {
 
-        response = await fetch(
+        response = await fetchWithTimeout(
             `${ENV.API_BASE_URL}/api/profile/stats`,
             { credentials: "include" }
         );
