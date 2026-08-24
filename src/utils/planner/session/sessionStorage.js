@@ -3,6 +3,11 @@ import {
     safeParseJSON
 
 } from "../../storage/safeJson.js";
+import {
+
+    safeSetItem
+
+} from "../../storage/safeSetItem.js";
 
 export function loadSession(slug) {
 
@@ -23,11 +28,13 @@ export function saveSession(
 
 ) {
 
-    localStorage.setItem(
+    safeSetItem(
 
         `session-${slug}`,
 
-        JSON.stringify(session)
+        JSON.stringify(session),
+
+        `session-${slug}`
 
     );
 
@@ -65,11 +72,13 @@ export function loadSessionDuration(slug) {
 
 export function saveSessionDuration(slug, duration) {
 
-    localStorage.setItem(
+    safeSetItem(
 
         `session-duration-${slug}`,
 
-        String(duration)
+        String(duration),
+
+        `session-duration-${slug}`
 
     );
 

@@ -1,4 +1,5 @@
 import { isEntryCompleted } from "./achievement/completion.js";
+import { safeSetItem } from "../storage/safeSetItem.js";
 
 // Persists the Steam-resolved completion state for every achievement in
 // this game's full mergedAchievements list - not just the curated/matched
@@ -27,11 +28,13 @@ export function saveProgress(game, slug) {
 
     });
 
-    localStorage.setItem(
+    safeSetItem(
 
         `planner-${slug}`,
 
-        JSON.stringify(progress)
+        JSON.stringify(progress),
+
+        `planner-${slug}`
 
     );
 

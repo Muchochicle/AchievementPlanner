@@ -22,6 +22,11 @@ import {
     safeParseJSON
 
 } from "../storage/safeJson.js";
+import {
+
+    safeSetItem
+
+} from "../storage/safeSetItem.js";
 
 const STORAGE_KEY = "achievement-planner-player";
 
@@ -106,11 +111,13 @@ export function getPlayer() {
 
 export function savePlayer(player) {
 
-    localStorage.setItem(
+    safeSetItem(
 
         STORAGE_KEY,
 
-        JSON.stringify(player)
+        JSON.stringify(player),
+
+        STORAGE_KEY
 
     );
 

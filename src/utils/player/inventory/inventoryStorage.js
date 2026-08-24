@@ -9,6 +9,11 @@ import {
     safeParseJSON
 
 } from "../../storage/safeJson.js";
+import {
+
+    safeSetItem
+
+} from "../../storage/safeSetItem.js";
 
 const STORAGE_KEY =
 
@@ -68,7 +73,7 @@ export function saveInventory(
 
 ) {
 
-    localStorage.setItem(
+    safeSetItem(
 
         STORAGE_KEY,
 
@@ -76,7 +81,9 @@ export function saveInventory(
 
             inventory
 
-        )
+        ),
+
+        STORAGE_KEY
 
     );
 

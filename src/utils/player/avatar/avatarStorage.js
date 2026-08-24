@@ -1,3 +1,5 @@
+import { safeSetItem } from "../../storage/safeSetItem.js";
+
 const STORAGE_KEY = "achievement-planner-avatar";
 
 export function getEquippedAvatar() {
@@ -8,7 +10,7 @@ export function getEquippedAvatar() {
 
 export function saveEquippedAvatar(id) {
 
-    localStorage.setItem(STORAGE_KEY, id);
+    safeSetItem(STORAGE_KEY, id, STORAGE_KEY);
 
 }
 

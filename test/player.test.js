@@ -185,3 +185,27 @@ test("savePlayer/getPlayer round-trip a fully custom player object", () => {
     assert.strictEqual(player.title, "Rookie Hunter", "title must always be recomputed from level on read, never trusted from storage");
 
 });
+
+// Finding 2 (PHASE_51-55_AUDIT.md) - savePlayer's underlying
+// localStorage.setItem previously ran unguarded; a quota-exceeded or
+// private-mode exception would propagate straight out of savePlayer and
+// crash whatever XP/badge/claim flow triggered it (every function above
+// that mutates player state ends by calling savePlayer). Now routed
+// through safeSetItem, which must degrade instead of throwing.
+test("savePlayer does not throw when the underlying localStorage.setItem fails (e.g. quota exceeded)", () => {
+
+    const originalSetItem = localStorage.setItem;
+
+    localStorage.setItem = () => { throw new Error("QuotaExceededError"); };
+
+    try {
+
+        assert.doesNotThrow(() => savePlayer({ ...getPlayer(), totalXP: 999 }));
+
+    } finally {
+
+        localStorage.setItem = originalSetItem;
+
+    }
+
+});
