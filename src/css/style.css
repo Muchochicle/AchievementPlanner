@@ -176,6 +176,46 @@
     padding:var(--spacing-md);
 
 }
+
+/* First focusable element on every page (WCAG 2.1 SC 2.4.1 Bypass Blocks) -
+   without it, a keyboard/screen-reader user must tab through the entire
+   navbar (logo, 3+ links, search on the home page, login/player widget) on
+   every single page load before reaching real content. Off-screen by
+   default via a large negative top offset (not .sr-only's clip-based
+   hiding - this needs to become visually visible on focus, not just
+   readable by assistive tech), and given a z-index above the fixed navbar
+   (navbar.css z-index:1000) so it renders on top instead of underneath it
+   once focused. */
+.skip-link{
+
+    position:absolute;
+
+    top:-80px;
+    left:0;
+
+    z-index:1100;
+
+    padding:14px 24px;
+
+    background:var(--primary);
+    color:var(--on-primary);
+
+    font-weight:600;
+
+    border-radius:0 0 8px 0;
+
+    transition:top .15s ease;
+
+}
+
+.skip-link:focus{
+
+    top:0;
+
+    outline:2px solid var(--on-primary);
+    outline-offset:-4px;
+
+}
 body{
 
     background:var(--background);

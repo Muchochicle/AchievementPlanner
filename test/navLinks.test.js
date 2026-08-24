@@ -158,6 +158,22 @@ test("does not crash and marks no link active for a root '/' pathname with no fi
 
 });
 
+// Phase 63 (PHASE_63_AUDIT.md) - this <nav> is reused on every page inside
+// navbar.js, and podiums.html additionally has its own <nav id="podiums-nav"
+// aria-label="Jump to a leaderboard">. Without its own label, a screen
+// reader user landing on podiums.html hears two "navigation" landmarks with
+// only one distinguishable by name - labeling the primary one closes that
+// gap on every page, not just podiums.html.
+test("labels the nav landmark 'Primary' so it's distinguishable from any page-specific nav (e.g. podiums.html's own labeled nav)", () => {
+
+    setPath("/games.html");
+
+    const html = createNavLinks();
+
+    assert.match(html, /<nav aria-label="Primary">/);
+
+});
+
 test("always renders the disabled Roadmap/About links as aria-disabled with a 'Soon' badge (Guides is now a real link, not one of these)", () => {
 
     setPath("/games.html");
