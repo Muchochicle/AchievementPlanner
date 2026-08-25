@@ -153,6 +153,33 @@ function initSchema(db) {
             ON users (games_completed_100 DESC);
     `);
 
+    // Phase 71: server-side persistence for a logged-in player's own
+    // progress (XP/level/badges/claimed achievements & games, equipped
+    // avatar, inventory) - previously localStorage-only, so it never
+    // survived a browser change or cache clear even though Steam login
+    // itself worked (see PHASE_70_AUDIT.md-era product inventory). One row
+    // per steam_id holding the whole client-side player/inventory/avatar
+    // state as one opaque JSON blob, deliberately NOT normalized into
+    // columns: the shape of that state belongs to the frontend (src/utils/
+    // player/**) and already changes independently of this table (new
+    // badge types, new inventory categories, etc.) - storing it as a blob
+    // means neither side needs a coordinated migration when the other's
+    // shape grows, mirroring how a session/preferences blob is commonly
+    // stored server-side. No FK to users(steam_id): a visitor can log in
+    // and start accumulating progress before ever visiting the Profile
+    // page (the only thing that populates a users row today via
+    // indexProfileSnapshotSafely), so this table must not depend on that
+    // row already existing.
+    db.exec(`
+        CREATE TABLE IF NOT EXISTS player_progress (
+
+            steam_id      TEXT NOT NULL PRIMARY KEY,
+            state         TEXT NOT NULL,
+            updated_at    TEXT NOT NULL
+
+        );
+    `);
+
     // No schema-migration mechanism exists beyond these IF-NOT-EXISTS
     // statements - a future column/table addition here would silently
     // no-op against an already-created achievementplanner.db file, with no

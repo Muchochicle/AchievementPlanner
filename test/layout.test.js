@@ -26,14 +26,29 @@ globalThis.localStorage = {
 
 };
 
-let fetchCallCount = 0;
+// Phase 71: loadNavbar() now also awaits syncPlayerProgressOnLoad(), which
+// calls GET /api/player/progress whenever the resolved session is logged
+// in - a second fetch beyond the original /api/me check. sessionFetchCount
+// preserves every existing assertion's meaning ("did loadNavbar re-check
+// the Steam session"); progressFetchCount is the new call this phase adds.
+let sessionFetchCount = 0;
+let progressFetchCount = 0;
 let fetchSession = { logged: false };
+let progressResponse = { success: true, state: null, updatedAt: null };
 
-globalThis.fetch = async () => {
+globalThis.fetch = async (url) => {
 
-    fetchCallCount++;
+    if (String(url).includes("/api/player/progress")) {
 
-    return { json: async () => fetchSession };
+        progressFetchCount++;
+
+        return { ok: true, json: async () => progressResponse };
+
+    }
+
+    sessionFetchCount++;
+
+    return { ok: true, json: async () => fetchSession };
 
 };
 
@@ -113,8 +128,16 @@ test.beforeEach(() => {
 
     resetPlayer();
     navbarPresent = true;
-    fetchCallCount = 0;
+    sessionFetchCount = 0;
+    progressFetchCount = 0;
     fetchSession = { logged: false };
+    // A non-null-but-empty state: exercises the normal "server already has
+    // a row, pull it" path (a single GET, no seed-push) without matching
+    // any of applyRemoteState's recognized sub-keys - keeps these
+    // pre-existing tests' fetch-count assertions about session-checking
+    // behavior unaffected by the new sync call. The "no server row yet"
+    // (state: null) seed-push path gets its own dedicated test below.
+    progressResponse = { success: true, state: {}, updatedAt: "2026-08-01T00:00:00.000Z" };
     navbarHTML = "";
     widgetEl = null;
 
@@ -129,7 +152,8 @@ test("loadNavbar renders the logged-out state first, then the resolved session, 
     assert.deepStrictEqual(session, STEAM_SESSION);
     assert.match(navbarHTML, /id="player-widget"/);
     assert.match(navbarHTML, /TestHunter/);
-    assert.strictEqual(fetchCallCount, 1);
+    assert.strictEqual(sessionFetchCount, 1);
+    assert.strictEqual(progressFetchCount, 1, "a logged-in session must trigger exactly one progress sync fetch");
 
 });
 
@@ -152,7 +176,8 @@ test("loadNavbar returns {logged:false} immediately and never calls fetch when #
     const session = await loadNavbar();
 
     assert.deepStrictEqual(session, { logged: false });
-    assert.strictEqual(fetchCallCount, 0);
+    assert.strictEqual(sessionFetchCount, 0);
+    assert.strictEqual(progressFetchCount, 0);
 
 });
 
@@ -170,7 +195,48 @@ test("refreshPlayerWidget re-renders the widget from the latest player state, wi
 
     assert.match(navbarHTML, /Lv\. 2/);
     assert.match(navbarHTML, /50\/400 XP/); // getXPForNextLevel(2) = 2*2*100 = 400
-    assert.strictEqual(fetchCallCount, 1, "refreshPlayerWidget must never re-check the Steam session itself");
+    assert.strictEqual(sessionFetchCount, 1, "refreshPlayerWidget must never re-check the Steam session itself");
+
+});
+
+test("loadNavbar seeds the server from local progress when this account has no server row yet (state: null)", async () => {
+
+    fetchSession = STEAM_SESSION;
+    progressResponse = { success: true, state: null, updatedAt: null };
+
+    await loadNavbar();
+
+    assert.strictEqual(progressFetchCount, 2, "a null server state must trigger a GET, then a seed PUT");
+
+});
+
+test("loadNavbar applies the server's player/inventory/avatar state over local storage when a server row exists", async () => {
+
+    fetchSession = STEAM_SESSION;
+    progressResponse = {
+
+        success: true,
+        updatedAt: "2026-08-01T00:00:00.000Z",
+        state: {
+
+            player: { level: 1, xp: 0, totalXP: 999999, badges: [], claimedAchievements: [], claimedGames: [] },
+            inventory: { avatars: ["default", "legend"] },
+            equippedAvatar: "legend"
+
+        }
+
+    };
+
+    await loadNavbar();
+
+    const { getPlayer } = await import("../src/utils/player/player.js");
+    const { getInventory } = await import("../src/utils/player/inventory/inventoryStorage.js");
+    const { getEquippedAvatar } = await import("../src/utils/player/avatar/avatarStorage.js");
+
+    assert.strictEqual(getPlayer().totalXP, 999999);
+    assert.deepStrictEqual(getInventory().avatars, ["default", "legend"]);
+    assert.strictEqual(getEquippedAvatar(), "legend");
+    assert.strictEqual(progressFetchCount, 1, "applying an existing server state must not immediately push it right back");
 
 });
 

@@ -54,7 +54,7 @@ function indexNames(db) {
 
 }
 
-test("createLeaderboardDb creates the users and user_game_playtime tables from an empty database", () => {
+test("createLeaderboardDb creates the users, user_game_playtime and player_progress tables from an empty database", () => {
 
     const db = createLeaderboardDb(":memory:");
 
@@ -62,7 +62,7 @@ test("createLeaderboardDb creates the users and user_game_playtime tables from a
 
         assert.deepStrictEqual(
             tableNames(db),
-            ["user_game_playtime", "users"]
+            ["player_progress", "user_game_playtime", "users"]
         );
 
     } finally {
@@ -112,7 +112,7 @@ test("the application works correctly when the database file (and its parent dir
             assert.strictEqual(fs.existsSync(dbPath), true);
             assert.deepStrictEqual(
                 tableNames(db),
-                ["user_game_playtime", "users"]
+                ["player_progress", "user_game_playtime", "users"]
             );
 
         } finally {
@@ -485,6 +485,95 @@ test("a game leaderboard query (ORDER BY playtime DESC via the leaderboard index
             top.map(row => row.persona_name),
             ["Bob", "Carol", "Alice"]
         );
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+// Phase 71: player_progress schema tests. No FK to users (unlike
+// user_game_playtime) - see leaderboardDb.js's comment on why a progress
+// row must be insertable for a steamId that has no users row yet.
+test("player_progress.steam_id and state cannot be null", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        assert.throws(() => {
+
+            db.prepare(`
+                INSERT INTO player_progress (steam_id, updated_at)
+                VALUES (?, ?)
+            `).run("1", "2026-08-25T00:00:00.000Z");
+
+        }, /NOT NULL/);
+
+        assert.throws(() => {
+
+            db.prepare(`
+                INSERT INTO player_progress (state, updated_at)
+                VALUES (?, ?)
+            `).run("{}", "2026-08-25T00:00:00.000Z");
+
+        }, /NOT NULL/);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("player_progress accepts an insert with no matching users row (no FK dependency)", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        assert.doesNotThrow(() => {
+
+            db.prepare(`
+                INSERT INTO player_progress (steam_id, state, updated_at)
+                VALUES (?, ?, ?)
+            `).run("does-not-exist-in-users", "{}", "2026-08-25T00:00:00.000Z");
+
+        });
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("player_progress.steam_id is unique - ON CONFLICT upserts state and updated_at instead of erroring", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const upsert = db.prepare(`
+            INSERT INTO player_progress (steam_id, state, updated_at)
+            VALUES (?, ?, ?)
+            ON CONFLICT(steam_id) DO UPDATE SET
+                state = excluded.state,
+                updated_at = excluded.updated_at
+        `);
+
+        upsert.run("1", '{"player":{"level":1}}', "2026-08-25T00:00:00.000Z");
+        upsert.run("1", '{"player":{"level":2}}', "2026-08-25T01:00:00.000Z");
+
+        const rows = db.prepare("SELECT * FROM player_progress").all();
+
+        assert.strictEqual(rows.length, 1);
+        assert.strictEqual(rows[0].state, '{"player":{"level":2}}');
+        assert.strictEqual(rows[0].updated_at, "2026-08-25T01:00:00.000Z");
 
     } finally {
 

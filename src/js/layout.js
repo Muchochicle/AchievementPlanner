@@ -6,6 +6,10 @@ import {
     getSteamSession
 } from "../utils/steam/steamSession.js";
 
+import {
+    syncPlayerProgressOnLoad
+} from "../utils/player/sync/playerSync.js";
+
 // Shared by loadNavbar (initial render) and refreshPlayerWidget (later
 // re-renders once player progression can have changed) so both paths render
 // and wire up #navbar identically - the click listener has to be
@@ -53,6 +57,15 @@ export async function loadNavbar() {
         );
 
     }
+
+    // Awaited before the "real" render below (rather than fired in the
+    // background) so the navbar's player-widget paints with this
+    // account's synced server progress on the very first render, instead
+    // of briefly showing stale local state and only catching up on a
+    // later refreshPlayerWidget() call. syncPlayerProgressOnLoad() never
+    // throws, and is a no-op for a logged-out session, so this never
+    // delays or breaks the logged-out path.
+    await syncPlayerProgressOnLoad(session);
 
     renderNavbar(navbar, session);
 

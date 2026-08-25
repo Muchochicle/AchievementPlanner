@@ -9,6 +9,7 @@ import steamRoutes from "./routes/steam.js";
 import apiRoutes from "./routes/api.js";
 import gamesRoutes from "./routes/games.js";
 import podiumsRoutes from "./routes/podiums.js";
+import playerRoutes from "./routes/player.js";
 import { sendServerError } from "./utils/sendServerError.js";
 import { registerProcessErrorHandlers } from "./utils/processErrorHandlers.js";
 import { registerGracefulShutdown } from "./utils/gracefulShutdown.js";
@@ -107,6 +108,16 @@ app.use(cors({
     origin: ALLOWED_ORIGINS,
     credentials: true
 }));
+
+// Only PUT /api/player/progress (Phase 71) sends a JSON body today - every
+// other route is GET-only - but this is registered globally rather than
+// per-route since that's the one obvious place to enforce a size ceiling
+// once. 256kb is far above the real payload (a player-progress JSON blob
+// is a few KB even for a long-time player - see playerProgressController.js's
+// own MAX_STATE_LENGTH, which is the ceiling that actually matters); this
+// is just the outer, generic guard against an oversized/malformed body
+// being parsed at all.
+app.use(express.json({ limit: "256kb" }));
 
 // Every response here can reflect the caller's own session (login state,
 // personalized game/profile data via req.session.user) - Cache-Control:
@@ -226,6 +237,8 @@ app.use("/api", apiRoutes);
 app.use("/api/games", gamesRoutes);
 
 app.use("/api/podiums", podiumsRoutes);
+
+app.use("/api/player", playerRoutes);
 
 app.get("/", (req, res) => {
 

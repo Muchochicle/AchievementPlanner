@@ -27,6 +27,11 @@ import {
     safeSetItem
 
 } from "../storage/safeSetItem.js";
+import {
+
+    emitPlayerStateChanged
+
+} from "./sync/syncBus.js";
 
 const STORAGE_KEY = "achievement-planner-player";
 
@@ -131,6 +136,8 @@ export function savePlayer(player) {
         STORAGE_KEY
 
     );
+
+    emitPlayerStateChanged();
 
 }
 

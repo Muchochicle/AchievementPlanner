@@ -14,6 +14,11 @@ import {
     safeSetItem
 
 } from "../../storage/safeSetItem.js";
+import {
+
+    emitPlayerStateChanged
+
+} from "../sync/syncBus.js";
 
 const STORAGE_KEY =
 
@@ -98,6 +103,8 @@ export function saveInventory(
         STORAGE_KEY
 
     );
+
+    emitPlayerStateChanged();
 
 }
 
