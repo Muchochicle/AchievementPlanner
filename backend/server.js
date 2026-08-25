@@ -11,6 +11,7 @@ import gamesRoutes from "./routes/games.js";
 import podiumsRoutes from "./routes/podiums.js";
 import { sendServerError } from "./utils/sendServerError.js";
 import { registerProcessErrorHandlers } from "./utils/processErrorHandlers.js";
+import { registerGracefulShutdown } from "./utils/gracefulShutdown.js";
 
 // Registered first, before anything else in this file runs, so it covers
 // the widest possible window - including any error during startup itself,
@@ -316,3 +317,5 @@ httpServer.on("error", error => {
     process.exit(1);
 
 });
+
+registerGracefulShutdown(httpServer);
