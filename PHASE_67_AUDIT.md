@@ -77,7 +77,7 @@ Started the real, unmodified `backend/server.js` (real `.env`, real `STEAM_API_K
 
 Working tree confirmed clean apart from the intended diff (all tests passing, diff reviewed, live verification complete or explicitly stated as impractical where it was). Staged and committed exactly the 3 production files, the 3 test files, and this audit document - the 15 pre-existing unstaged phase-report deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: recorded in a small follow-up doc commit to this same file, per the established pattern (see e.g. Phase 66's own `eff27d9` → `0d5bd0a` follow-up).
+**Commit hash**: `76860a6d104ecf8b8d5852fd33aeba9c12408113` (`76860a6`), pushed to `origin/main` (`0d5bd0a..76860a6`).
 
 ## 10. Final working-tree status
 
