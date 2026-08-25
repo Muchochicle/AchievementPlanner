@@ -97,7 +97,7 @@ Produced by direct investigation of the codebase (pages, backend routes/controll
 
 ## 9. Commit / push
 
-Committed and pushed to `origin/main` as part of this phase's normal workflow (no separate approval gate, per standing project convention).
+Committed and pushed to `origin/main` as part of this phase's normal workflow (no separate approval gate, per standing project convention). Commit: `2c90155` — `feat: Phase 71 - persist player progress server-side, keyed by Steam ID`.
 
 ## 10. Phase-end report (per the user's new reporting requirement)
 
