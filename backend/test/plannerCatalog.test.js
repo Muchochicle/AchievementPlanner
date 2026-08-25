@@ -35,6 +35,8 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hades"));
     assert.ok(slugs.includes("hollow-knight"));
     assert.ok(slugs.includes("portal-2"));
+    assert.ok(slugs.includes("celeste"));
+    assert.ok(slugs.includes("inside"));
 
 });
 
@@ -287,5 +289,31 @@ test("getPlannerDataByAppId(367520) resolves to the hollow-knight slug with the 
     assert.ok(result, "expected a planner entry for Hollow Knight's appid");
     assert.strictEqual(result.slug, "hollow-knight");
     assert.strictEqual(result.data.achievements.length, 63);
+
+});
+
+// Phase 72: src/data/games/celeste.json and inside.json add two new
+// curated catalog games (see PHASE_72_AUDIT.md and celesteAchievementData.
+// test.js/insideAchievementData.test.js for the full per-achievement
+// coverage) - these two mirror the existing appid-resolution smoke tests
+// above for portal-2/hollow-knight.
+
+test("getPlannerDataByAppId(504230) resolves to the celeste slug with the same complete achievement set", () => {
+
+    const result = getPlannerDataByAppId(504230);
+
+    assert.ok(result, "expected a planner entry for Celeste's appid");
+    assert.strictEqual(result.slug, "celeste");
+    assert.strictEqual(result.data.achievements.length, 32);
+
+});
+
+test("getPlannerDataByAppId(304430) resolves to the inside slug with the same complete achievement set", () => {
+
+    const result = getPlannerDataByAppId(304430);
+
+    assert.ok(result, "expected a planner entry for INSIDE's appid");
+    assert.strictEqual(result.slug, "inside");
+    assert.strictEqual(result.data.achievements.length, 14);
 
 });

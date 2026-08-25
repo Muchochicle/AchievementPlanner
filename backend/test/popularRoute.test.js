@@ -239,6 +239,6 @@ test("GET /api/games/popular returns the real catalog-only ranking for a logged-
     assert.ok(Array.isArray(res.jsonBody.games));
 
     const slugs = res.jsonBody.games.map(g => g.slug).sort();
-    assert.deepStrictEqual(slugs, ["hades", "hollow-knight", "portal-2"], "a logged-out visitor should be ranked among exactly the real 3-game catalog");
+    assert.deepStrictEqual(slugs, ["celeste", "hades", "hollow-knight", "inside", "portal-2"], "a logged-out visitor should be ranked among exactly the real catalog");
 
 });
