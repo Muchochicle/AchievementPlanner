@@ -22,12 +22,41 @@ import {
     updateFiltersCounter
 } from "../utils/catalog/counter.js";
 
+import { escapeHtml } from "../utils/format/escapeHtml.js";
+
 // Exported so its exact wording is regression-tested directly (see
 // test/gamesFilterChip.test.js) without needing to drive the whole
 // page-init flow (fetch + full DOM) - see PHASE_50_AUDIT.md Finding 12.
 export function buildRemoveFilterLabel(filterText) {
 
     return `Remove ${filterText} filter`;
+
+}
+
+// filterText is read via .textContent from a filter checkbox's own label
+// (below) - currently always curated, static catalog text (genres,
+// difficulty tiers, etc.), same as genres.js's own createGenresHTML(),
+// which escapes for the same "defend even though it's static today"
+// reason. This was the one consumer of that same data that had been
+// missed (Phase 66). Exported so the escaping is regression-tested
+// directly, matching buildRemoveFilterLabel's own precedent above.
+export function buildFilterChipHtml(filterText) {
+
+    return `
+
+        <span>
+
+            ${escapeHtml(filterText)}
+
+        </span>
+
+        <button aria-label="${escapeHtml(buildRemoveFilterLabel(filterText))}">
+
+            ×
+
+        </button>
+
+    `;
 
 }
 
@@ -96,21 +125,7 @@ async function init() {
                     chip.className =
                         "filter-chip";
 
-                    chip.innerHTML = `
-
-                        <span>
-
-                            ${filterText}
-
-                        </span>
-
-                        <button aria-label="${buildRemoveFilterLabel(filterText)}">
-
-                            ×
-
-                        </button>
-
-                    `;
+                    chip.innerHTML = buildFilterChipHtml(filterText);
 
                     chip
                         .querySelector("button")

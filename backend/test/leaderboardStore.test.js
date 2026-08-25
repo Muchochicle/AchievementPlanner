@@ -624,6 +624,45 @@ test("getGameLeaderboard falls back to the default limit for a negative/zero/non
 
 });
 
+// Phase 66: getGameLeaderboard's ORDER BY previously had no secondary sort
+// column, so which rows landed inside vs. just outside a LIMIT cutoff when
+// several players tied on playtime_minutes was unspecified SQLite row
+// order - could vary call to call. A steam_id ASC tiebreaker makes the
+// selection deterministic and repeatable (this alone doesn't guarantee the
+// viewer's own tied row is one of the ones selected - see podium.js's
+// renderMeSection(), fixed separately this same phase).
+test("getGameLeaderboard breaks ties deterministically by steam_id, and repeated calls return the identical set", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        // 12 players all tied at the same playtime - only 10 can fit in
+        // the default limit, so the tiebreaker actually has to decide.
+        for (let i = 1; i <= 12; i++) {
+
+            indexUserSnapshot(db, baseSnapshot({ steamId: String(i).padStart(2, "0"), personaName: `Player ${i}`, games: [{ appid: 10, playtimeMinutes: 500 }] }));
+
+        }
+
+        const first = getGameLeaderboard(db, 10);
+        const second = getGameLeaderboard(db, 10);
+
+        assert.strictEqual(first.length, 10);
+        assert.deepStrictEqual(first.map(row => row.steamId), second.map(row => row.steamId), "repeated calls must return the same tied rows in the same order");
+
+        // steam_id ASC among the tied rows - the lowest 10 ids (01..10)
+        // win the tie, not an arbitrary SQLite-chosen subset.
+        assert.deepStrictEqual(first.map(row => row.steamId), ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"]);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
 test("getUserGameRank returns null when the user has no row for that game (not owned or never indexed)", () => {
 
     const db = createLeaderboardDb(":memory:");
@@ -704,6 +743,36 @@ test("getGlobalLeaderboard falls back to the default limit for a negative limit 
         }
 
         assert.strictEqual(getGlobalLeaderboard(db, "games-owned", { limit: -1 }).length, 10);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+// Phase 66: same fix/rationale as getGameLeaderboard's own tiebreaker test
+// above - getGlobalLeaderboard's ORDER BY previously had no secondary sort
+// column either.
+test("getGlobalLeaderboard breaks ties deterministically by steam_id, and repeated calls return the identical set", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        for (let i = 1; i <= 12; i++) {
+
+            indexUserSnapshot(db, baseSnapshot({ steamId: String(i).padStart(2, "0"), personaName: `Player ${i}`, gamesOwned: 50 }));
+
+        }
+
+        const first = getGlobalLeaderboard(db, "games-owned");
+        const second = getGlobalLeaderboard(db, "games-owned");
+
+        assert.strictEqual(first.length, 10);
+        assert.deepStrictEqual(first.map(row => row.personaName), second.map(row => row.personaName), "repeated calls must return the same tied rows in the same order");
+        assert.deepStrictEqual(first.map(row => row.personaName), Array.from({ length: 10 }, (_, i) => `Player ${i + 1}`));
 
     } finally {
 

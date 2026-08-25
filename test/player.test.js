@@ -52,6 +52,27 @@ test("getPlayer recovers safely from corrupted (invalid JSON) stored data, inste
 
 });
 
+test("getPlayer recovers safely from a syntactically-valid-but-wrong-shape stored value, instead of throwing", () => {
+
+    // Phase 66 regression: "null"/"42"/"[]" are all syntactically valid
+    // JSON, so safeParseJSON's syntax-only guard let them through
+    // untouched - getPlayer() then crashed on the very next line
+    // (`player.claimedAchievements ??= []` throws when player is null/a
+    // primitive/an array), taking down every page that renders player
+    // state on load.
+    for (const badValue of ["null", "42", "[]", `"a string"`]) {
+
+        localStorage.setItem(STORAGE_KEY, badValue);
+
+        assert.doesNotThrow(() => getPlayer(), `getPlayer() should not throw for stored value ${badValue}`);
+
+        const player = getPlayer();
+        assert.strictEqual(player.level, 1, `stored value ${badValue} should fall back to a fresh default player`);
+
+    }
+
+});
+
 test("getPlayer fills in missing fields on a legacy/partial saved object without crashing", () => {
 
     // Simulates a player object saved by an older version of the app,

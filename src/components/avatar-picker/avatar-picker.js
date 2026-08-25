@@ -12,6 +12,8 @@ import {
 
 } from "../../utils/player/inventory/inventoryManager.js";
 
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
+
 // Unlock requirements as implemented in playerProgress.js checkPlayerUnlocks -
 // kept in sync manually since there is no shared source of truth to read from.
 const AVATAR_REQUIREMENTS = {
@@ -60,13 +62,13 @@ export function createAvatarPicker() {
 
                 class="${stateClass}"
 
-                data-avatar-id="${item.id}"
+                data-avatar-id="${escapeHtml(item.id)}"
 
                 ${owned ? "" : "disabled"}
 
                 aria-pressed="${equipped}"
 
-                title="${title}"
+                title="${escapeHtml(title)}"
 
             >
 
@@ -74,13 +76,13 @@ export function createAvatarPicker() {
 
                     class="avatar-tile-image"
 
-                    src="${item.image}"
+                    src="${escapeHtml(item.image)}"
 
-                    alt="${item.name} avatar"
+                    alt="${escapeHtml(item.name)} avatar"
 
                 >
 
-                <span class="avatar-tile-name">${item.name}</span>
+                <span class="avatar-tile-name">${escapeHtml(item.name)}</span>
 
                 ${owned
                     ? (equipped
@@ -88,7 +90,7 @@ export function createAvatarPicker() {
                         : "")
                     : `
                         <span class="avatar-tile-lock" aria-hidden="true">🔒</span>
-                        <span class="avatar-tile-requirement">${requirement ?? "Locked"}</span>
+                        <span class="avatar-tile-requirement">${escapeHtml(requirement ?? "Locked")}</span>
                     `}
 
             </button>

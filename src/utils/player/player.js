@@ -67,11 +67,22 @@ export function getPlayer() {
 
     const data = localStorage.getItem(STORAGE_KEY);
 
-    const player = safeParseJSON(
+    const parsed = safeParseJSON(
         data,
-        { ...DEFAULT_PLAYER },
+        null,
         STORAGE_KEY
     );
+
+    // safeParseJSON only guards against syntactically invalid JSON - a
+    // stored value like the literal string "null" (or "42", "[]") is
+    // valid JSON, so it parses through untouched instead of falling back.
+    // Without this check, a null/array/primitive here crashed on the very
+    // next line (`player.claimedAchievements ??= []` throws on null),
+    // taking down every page that renders player state on load (Phase 66).
+    const player =
+        parsed !== null && typeof parsed === "object" && !Array.isArray(parsed)
+            ? parsed
+            : { ...DEFAULT_PLAYER };
 
     player.claimedAchievements ??= [];
 

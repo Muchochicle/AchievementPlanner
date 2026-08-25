@@ -40,3 +40,27 @@ test("getInventory recovers safely from corrupted (invalid JSON) stored data, in
     );
 
 });
+
+// Phase 66 regression: "null"/"42"/"[]" are all syntactically valid JSON,
+// so safeParseJSON's syntax-only guard let them through untouched instead
+// of falling back - getInventory() then returned that non-object value
+// directly, and the very next consumer down the line (e.g. ownsItem()'s
+// `inventory[category]`, since optional chaining only protects the
+// property access, not the base value itself) crashed on it.
+test("getInventory recovers safely from a syntactically-valid-but-wrong-shape stored value, instead of returning it as-is", () => {
+
+    for (const badValue of ["null", "42", "[]", `"a string"`]) {
+
+        localStorage.setItem(STORAGE_KEY, badValue);
+
+        const inventory = getInventory();
+
+        assert.deepStrictEqual(
+            inventory,
+            DEFAULT_INVENTORY,
+            `stored value ${badValue} should fall back to the default inventory`
+        );
+
+    }
+
+});

@@ -18,6 +18,7 @@ const { createAvatarPicker } = await import("../src/components/avatar-picker/ava
 const { equipAvatar } = await import("../src/utils/player/avatar/avatarManager.js");
 const { addItem } = await import("../src/utils/player/inventory/inventoryManager.js");
 const { CONFIG } = await import("../src/config.js");
+const { AVATARS } = await import("../src/data/player/avatars.js");
 
 // CONFIG.DEBUG_UNLOCK_ALL_AVATARS ships `false` by default (see
 // test/config.test.js) - a dev-only override that, when enabled, force-
@@ -129,5 +130,44 @@ test("createAvatarPicker renders inside an accessible group container", () => {
 
     assert.match(html, /role="group"/);
     assert.match(html, /aria-label="Choose your avatar"/);
+
+});
+
+// Phase 66 regression: avatar-picker.js never imported escapeHtml at all,
+// unlike every sibling card/list component (podium.js, player-widget.js,
+// profile-header.js, achievement-card.js, genres.js, search.js,
+// profile-badges.js), and interpolated item.name/item.id/item.image/the
+// unlock requirement directly into class/data-avatar-id/title/alt/text-node
+// positions. AVATARS (src/data/player/avatars.js) is fully static/curated
+// today, so this was never live-exploitable - but it's the same
+// "defend even though it's currently static" gap genres.js itself
+// documents fixing. Temporarily mutates the real, shared AVATARS catalog
+// entry (restored in `finally`) since createAvatarPicker() takes no
+// injectable data parameter - the same technique is safe here because
+// avatarManager.js's getAllAvatars() always reads straight from this
+// same module-level object on every call, so no caching hides the change.
+test("createAvatarPicker escapes an HTML-injecting avatar name", () => {
+
+    const original = AVATARS.rookie.name;
+    AVATARS.rookie.name = `<img src=x onerror=alert(1)>`;
+
+    try {
+
+        withRealOwnership(() => {
+
+            reset();
+
+            const html = createAvatarPicker();
+
+            assert.doesNotMatch(html, /<img src=x onerror=alert\(1\)> avatar/);
+            assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt; avatar/);
+
+        });
+
+    } finally {
+
+        AVATARS.rookie.name = original;
+
+    }
 
 });

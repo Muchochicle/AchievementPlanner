@@ -136,6 +136,37 @@ test("createPodiumCard highlights the viewer's own row with podium-row--me inste
 
 });
 
+// Phase 66 regression: `me.rank` (competition ranking, from a COUNT(*)
+// query) and `top10` (a plain ORDER BY ... LIMIT 10 query) are computed
+// independently on the backend - a tie at the LIMIT 10 cutoff can give the
+// viewer rank <= 10 while their own row genuinely isn't one of the rows
+// `top10` returned. The component previously trusted `me.rank <= 10` alone
+// to mean "already shown above" and rendered nothing at all in this case -
+// no highlighted row (never in top10 to begin with) and no "Your rank"
+// line either, so a tied viewer appeared completely unranked.
+test("createPodiumCard still shows a 'Your rank' block when rank <= 10 but the viewer's row isn't actually in the Top 10 (a tie at the cutoff)", () => {
+
+    const top10 = [
+        { personaName: "Alice", avatarUrl: null, playtimeMinutes: 500, isMe: false },
+        { personaName: "Bob", avatarUrl: null, playtimeMinutes: 500, isMe: false }
+        // "Me" tied at 500 too, but the LIMIT 10 query's arbitrary/
+        // tiebroken selection didn't include this viewer's row.
+    ];
+
+    const html = createPodiumCard(config, {
+        status: "ready",
+        top10,
+        me: { playtimeMinutes: 500, rank: 1 },
+        totalRanked: 3,
+        loggedIn: true
+    });
+
+    assert.doesNotMatch(html, /podium-row--me/, "no row in the rendered list should be marked as the viewer's own");
+    assert.match(html, /Your rank/, "a tied-but-excluded viewer must still see their own rank line");
+    assert.match(html, /#1/);
+
+});
+
 test("createPodiumCard shows a separate 'Your rank' block when the viewer is outside the Top 10", () => {
 
     const top10 = [

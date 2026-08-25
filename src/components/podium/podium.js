@@ -62,7 +62,7 @@ function renderRow(row, index, formatValue) {
 // separate block; outside it -> a distinct "Your rank" line; never ranked
 // at all / not logged in -> an explicit, honest message, never a fabricated
 // rank or a silently-omitted section.
-function renderMeSection({ me, loggedIn, totalRanked }, formatValue) {
+function renderMeSection({ me, top10, loggedIn, totalRanked }, formatValue) {
 
     if (!loggedIn) {
 
@@ -76,7 +76,16 @@ function renderMeSection({ me, loggedIn, totalRanked }, formatValue) {
 
     }
 
-    if (me.rank <= 10) {
+    // `me.rank` is competition ranking (ties share a rank), computed by a
+    // separate COUNT(*)-based query from the one that produced `top10`
+    // (a plain ORDER BY ... LIMIT 10) - so a tie at the cutoff can give the
+    // viewer rank <= 10 while their own row genuinely isn't one of the (at
+    // most 10) rows `top10` happened to return. Checking their row is
+    // actually present is the real "already shown above" condition;
+    // `rank <= 10` alone is necessary but not sufficient (Phase 66).
+    const alreadyShownInTop10 = top10.some(row => row.isMe);
+
+    if (alreadyShownInTop10) {
 
         return "";
 

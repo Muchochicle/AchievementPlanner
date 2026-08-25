@@ -196,6 +196,16 @@ function normalizeLimit(limit) {
 // confirmed real playtime value from a successful GetOwnedGames call -
 // never a fabricated/unavailable entry - so no status filtering is needed
 // here the way getGlobalLeaderboard needs it below.
+//
+// The steam_id secondary sort makes which rows land inside vs. just
+// outside the LIMIT deterministic across repeated calls when several
+// players tie at the cutoff value (playtime_minutes has coarse real-world
+// granularity, and 0 is a common legitimate value) - without it, SQLite's
+// row order for equal primary-sort values is unspecified and could vary
+// call to call. This alone doesn't guarantee the *viewer's own* row is
+// among the ones selected when they're part of such a tie - see
+// podium.js's renderMeSection(), which no longer assumes rank <= 10
+// implies membership in this result set (Phase 66).
 export function getGameLeaderboard(db, appid, { limit = 10 } = {}) {
 
     return db.prepare(`
@@ -207,7 +217,7 @@ export function getGameLeaderboard(db, appid, { limit = 10 } = {}) {
         FROM user_game_playtime g
         JOIN users u ON u.steam_id = g.steam_id
         WHERE g.appid = ?
-        ORDER BY g.playtime_minutes DESC
+        ORDER BY g.playtime_minutes DESC, g.steam_id ASC
         LIMIT ?
     `).all(appid, normalizeLimit(limit));
 
@@ -303,7 +313,7 @@ export function getGlobalLeaderboard(db, category, { limit = 10 } = {}) {
             ${config.column} AS value
         FROM users
         WHERE ${qualifyingUsersClause(config)}
-        ORDER BY ${config.column} DESC
+        ORDER BY ${config.column} DESC, steam_id ASC
         LIMIT ?
     `).all(...config.allowedStatuses, normalizeLimit(limit));
 

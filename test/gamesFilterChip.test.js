@@ -23,7 +23,7 @@ globalThis.document = {
 // with 2+ filters active heard indistinguishable buttons. games.js's
 // renderFilterChips() builds each button's label via the small exported
 // pure function below, so it's regression-tested directly.
-const { buildRemoveFilterLabel } = await import("../src/js/games.js");
+const { buildRemoveFilterLabel, buildFilterChipHtml } = await import("../src/js/games.js");
 
 test("buildRemoveFilterLabel embeds the specific filter's own text, not a generic label", () => {
 
@@ -42,5 +42,40 @@ test("buildRemoveFilterLabel produces distinct labels for two different filters"
     assert.notStrictEqual(genreLabel, difficultyLabel);
     assert.match(genreLabel, /Action/);
     assert.match(difficultyLabel, /Easy \(1-3\)/);
+
+});
+
+// Phase 66 regression: renderFilterChips() used to interpolate filterText
+// (read via .textContent from a filter checkbox's own label, which decodes
+// HTML entities back to raw characters) straight into innerHTML, both as
+// element content and inside an unescaped aria-label attribute value - no
+// escapeHtml() call, unlike genres.js's own createGenresHTML() (the
+// upstream source of this same genre-label text), which already escapes
+// "to close the gap if genre data is ever sourced dynamically in the
+// future." This is the one consumer of that data the earlier fix missed.
+test("buildFilterChipHtml escapes an HTML-injecting filter label", () => {
+
+    const html = buildFilterChipHtml(`<script>alert(1)</script>`);
+
+    assert.doesNotMatch(html, /<script>alert\(1\)<\/script>/);
+    assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
+
+});
+
+test("buildFilterChipHtml escapes a double-quote-breakout attempt in the aria-label attribute", () => {
+
+    const html = buildFilterChipHtml(`Action" onmouseover="alert(1)`);
+
+    assert.doesNotMatch(html, /aria-label="Remove Action" onmouseover="alert\(1\)/);
+    assert.match(html, /&quot;/);
+
+});
+
+test("buildFilterChipHtml renders a normal filter label correctly", () => {
+
+    const html = buildFilterChipHtml("Action");
+
+    assert.match(html, /<span>\s*Action\s*<\/span>/);
+    assert.match(html, /aria-label="Remove Action filter"/);
 
 });

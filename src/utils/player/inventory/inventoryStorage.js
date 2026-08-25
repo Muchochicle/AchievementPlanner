@@ -29,15 +29,27 @@ export function getInventory() {
 
         );
 
-    const inventory = safeParseJSON(
+    const parsed = safeParseJSON(
 
         data,
 
-        structuredClone(DEFAULT_INVENTORY),
+        null,
 
         STORAGE_KEY
 
     );
+
+    // safeParseJSON only guards against syntactically invalid JSON - a
+    // stored value like the literal string "null" (or "42", "[]") is
+    // valid JSON, so it parses through untouched instead of falling back.
+    // Without this check, a null/array/primitive here crashed the very
+    // next consumer down the line (e.g. ownsItem()'s `inventory[category]`,
+    // since optional chaining only protects the property access, not the
+    // base value itself) (Phase 66).
+    const inventory =
+        parsed !== null && typeof parsed === "object" && !Array.isArray(parsed)
+            ? parsed
+            : structuredClone(DEFAULT_INVENTORY);
 
         if (
 
