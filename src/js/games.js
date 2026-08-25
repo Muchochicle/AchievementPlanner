@@ -91,6 +91,18 @@ async function init() {
 
             `<div id="games-list"></div>`;
 
+        // Everything from here to the end of this try (querying the just-
+        // rendered filter shell, the first live-data refresh(), and every
+        // listener attachment) is best-effort wiring around an already-
+        // successfully-rendered page - isolated in its own try/catch so a
+        // bug in any of it cannot fall through to the outer catch and
+        // replace the genuinely-loaded catalog with the generic "couldn't
+        // load the games catalog" message (Phase 68). Same "isolate the
+        // blast radius" principle already applied to podiums.js's
+        // per-category fetches (PHASE_53_AUDIT.md Finding 24) and to
+        // game.js's own post-render steps (Phase 68, same phase).
+        try {
+
         const gamesList =
             document.getElementById("games-list");
 
@@ -266,6 +278,12 @@ async function init() {
             refresh();
 
         });
+
+        } catch (postRenderError) {
+
+            console.error(postRenderError);
+
+        }
 
     }
 

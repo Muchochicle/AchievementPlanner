@@ -129,6 +129,38 @@ test("the application works correctly when the database file (and its parent dir
 
 });
 
+// Phase 68: the complementary pragma to busy_timeout (set right above it
+// in initSchema) - only meaningful for a real file-backed database, so
+// this specifically uses a real temp file rather than ":memory:" (which
+// SQLite reports as journal_mode "memory" regardless, per its own docs).
+test("createLeaderboardDb enables WAL journal mode for a real file-backed database", () => {
+
+    const dbPath = tempDbPath();
+
+    try {
+
+        const db = createLeaderboardDb(dbPath);
+
+        try {
+
+            const { journal_mode: journalMode } = db.prepare("PRAGMA journal_mode;").get();
+
+            assert.strictEqual(journalMode, "wal");
+
+        } finally {
+
+            db.close();
+
+        }
+
+    } finally {
+
+        cleanup(dbPath);
+
+    }
+
+});
+
 test("initialization is idempotent: reopening the same file does not error, drop tables, or lose data", () => {
 
     const dbPath = tempDbPath();

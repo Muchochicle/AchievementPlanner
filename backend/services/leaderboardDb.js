@@ -64,6 +64,16 @@ function initSchema(db) {
     // process/connection down the line - see PHASE_32_AUDIT.md).
     db.exec("PRAGMA busy_timeout = 5000;");
 
+    // The standard complementary pragma to busy_timeout above, for the
+    // same future multi-process/multi-connection scenario that comment
+    // already reasons about: WAL lets readers and a writer proceed
+    // concurrently instead of blocking on SQLite's default rollback-
+    // journal exclusive lock. A no-op for the in-memory (":memory:") DB
+    // backend/test/*.js uses - SQLite silently ignores journal_mode=WAL
+    // there, since there's no file to keep a separate -wal alongside
+    // (Phase 68).
+    db.exec("PRAGMA journal_mode = WAL;");
+
     db.exec(`
         CREATE TABLE IF NOT EXISTS users (
 
@@ -143,6 +153,14 @@ function initSchema(db) {
             ON users (games_completed_100 DESC);
     `);
 
+    // No schema-migration mechanism exists beyond these IF-NOT-EXISTS
+    // statements - a future column/table addition here would silently
+    // no-op against an already-created achievementplanner.db file, with no
+    // error and no upgrade path. Accepted for now given this schema's
+    // actual size/stability (unchanged since Phase 32's own design in
+    // PHASE_32_AUDIT.md), but flagged explicitly (Phase 68) so any future
+    // schema change is a deliberate decision, not an accidental silent
+    // no-op discovered by a confused bug report.
 }
 
 // Opens (creating if necessary) a SQLite database at dbPath and ensures the

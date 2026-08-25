@@ -158,7 +158,7 @@ async function init() {
 
         let [game, session] = await Promise.all([gamePromise, sessionPromise]);
 
-        document.title = `${game.name} • Achievement Planner`;
+        document.title = `${game.name} | Achievement Planner`;
 
         const hoursPlayed = game.playtime ?? 0;
 
@@ -184,15 +184,33 @@ async function init() {
 
                 renderGamePodium(game);
 
-                // No curated planner for this game, but Steam still reports
-                // achievements - persist their resolved completion state so
-                // profile.html's statistics see it too (see storage.js).
-                // syncAchievementCompletion/checkGameCompletion are skipped
-                // here: both only grant XP/badges for curated (game.achievements)
-                // entries, which are always empty without a planner.
-                saveProgress(game, slug);
+                // Isolated in its own try/catch: the page has already
+                // rendered successfully above at this point, so a bug in
+                // either of these two best-effort steps must not fall
+                // through to the outer catch and replace a genuinely
+                // working render with the generic "something went wrong"
+                // page (Phase 68) - same "isolate the blast radius"
+                // principle already applied to podiums.js's per-category
+                // fetches (PHASE_53_AUDIT.md Finding 24), just not yet
+                // applied to this page-controller's own post-render steps.
+                try {
 
-                initAchievementFilters();
+                    // No curated planner for this game, but Steam still
+                    // reports achievements - persist their resolved
+                    // completion state so profile.html's statistics see it
+                    // too (see storage.js). syncAchievementCompletion/
+                    // checkGameCompletion are skipped here: both only grant
+                    // XP/badges for curated (game.achievements) entries,
+                    // which are always empty without a planner.
+                    saveProgress(game, slug);
+
+                    initAchievementFilters();
+
+                } catch (postRenderError) {
+
+                    console.error(postRenderError);
+
+                }
 
                 return;
 
@@ -265,6 +283,17 @@ async function init() {
             createSteamAchievementList(game, session);
 
         renderGamePodium(game);
+
+        // Everything from here to the end of this try (XP/completion sync,
+        // the poller, the session-duration and visibilitychange listeners)
+        // is best-effort wiring around an already-successfully-rendered
+        // page - isolated in its own try/catch so a bug in any of it
+        // cannot fall through to the outer catch and replace a genuinely
+        // working render with the generic "something went wrong" page,
+        // leaving the whole page dead with zero interactivity (Phase 68).
+        // Same "isolate the blast radius" principle already applied to
+        // podiums.js's per-category fetches (PHASE_53_AUDIT.md Finding 24).
+        try {
 
         // Steam is the sole source of achievement completion. Run once
         // per page load: grant XP for any newly-Steam-completed matched
@@ -497,6 +526,12 @@ async function init() {
             }
         );
 
+        } catch (postRenderError) {
+
+            console.error(postRenderError);
+
+        }
+
     }
 
     catch (error) {
@@ -504,6 +539,14 @@ async function init() {
         console.error(error);
 
         const notFound = error.status === 404;
+
+        // The static <title> fallback in game.html and the success path
+        // above (line 161) both read "... | Achievement Planner" - without
+        // this, a failed load left the tab title exactly matching the
+        // homepage's ("Achievement Planner"), forever indistinguishable in
+        // browser history/tabs/bookmarks for the rest of that page view
+        // (Phase 68).
+        document.title = `${notFound ? "Game Not Found" : "Error"} | Achievement Planner`;
 
         container.innerHTML = `
 
