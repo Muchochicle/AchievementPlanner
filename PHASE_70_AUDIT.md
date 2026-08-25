@@ -60,7 +60,7 @@ Started the real, unmodified (apart from this phase's two-line addition) `backen
 
 Working tree confirmed clean apart from the intended diff (all tests passing, diff reviewed, live verification complete or explicitly stated as impractical where it was). Staged and committed exactly `backend/server.js`, the 2 new files, and this audit document - the 24 pre-existing unstaged deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: recorded in a small follow-up doc commit to this same file, per the established pattern (see e.g. Phase 69's own `2e9028a` → `7a447f7` follow-up).
+**Commit hash**: `8e523048faa43b41cf69d50e3aad4943b721efc0` (`8e52304`), pushed to `origin/main` (`7a447f7..8e52304`).
 
 ## 10. Final working-tree status
 
