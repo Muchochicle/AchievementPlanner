@@ -85,7 +85,7 @@ Started the real, unmodified `backend/server.js` (real `.env`, port 3000) and a 
 
 Working tree confirmed clean apart from the intended diff (all tests passing, diff reviewed, live verification complete). Staged and committed exactly the 8 production files, the 1 modified test file, the 1 new test file, and this audit document - the 15 pre-existing unstaged phase-report deletions were left out of the commit, untouched. Pushed to `origin/main`.
 
-**Commit hash**: recorded in a small follow-up doc commit to this same file, per the established pattern (see e.g. Phase 67's own `76860a6` → `b25e5f4` follow-up).
+**Commit hash**: `7b2bc5c4ddfd657ab093aecdf09d47d3431b00ce` (`7b2bc5c`), pushed to `origin/main` (`b25e5f4..7b2bc5c`).
 
 ## 10. Final working-tree status
 
