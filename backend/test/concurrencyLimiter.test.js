@@ -83,3 +83,27 @@ test("handles a limit larger than the item count", async () => {
     assert.strictEqual(results[1].value, 2);
 
 });
+
+// Phase 67 regression: Math.min(limit, items.length) alone spawns zero
+// workers when limit is 0 or negative, silently leaving every entry as a
+// hole instead of a real {status, ...} result - no current caller passes
+// a non-positive limit, but this closes the gap for any future one that
+// computes it dynamically.
+test("still processes every item even when limit is 0 or negative", async () => {
+
+    const items = [1, 2, 3];
+
+    for (const badLimit of [0, -1, -5]) {
+
+        const results = await mapWithConcurrency(items, badLimit, async n => n * 10);
+
+        assert.strictEqual(results.length, 3, `limit ${badLimit} should not change the results length`);
+        assert.deepStrictEqual(
+            results.map(r => r.value),
+            [10, 20, 30],
+            `limit ${badLimit} should still process every item, not leave holes`
+        );
+
+    }
+
+});

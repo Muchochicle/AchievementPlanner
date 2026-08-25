@@ -5,7 +5,9 @@ import {
     getOwnedGames,
     getSchemaForGame,
     getCurrentPlayerCount,
-    getPlayerAchievementsClassified
+    getPlayerAchievementsClassified,
+    getGlobalAchievementPercentages,
+    getPlayerSummary
 } from "../services/steamApi.js";
 
 // backend/utils/cache.js is a shared module-level Map (see cache.test.js),
@@ -402,6 +404,178 @@ test("getPlayerAchievementsClassified's network-throw failure is also classified
         const second = await getPlayerAchievementsClassified("steamapi-test:pa-throw", 900204);
 
         assert.strictEqual(second.status, "available");
+
+    });
+
+});
+
+// ---------------------------------------------------------------------
+// getGlobalAchievementPercentages - Phase 67: this function had no direct
+// test at all before this phase, and its catch block was the one function
+// in this file that hadn't been brought in line with Finding 6 (a caught
+// steamFetch error - which is thrown identically for a real request
+// failure and for Steam's "no global stats for this game" error status -
+// was cached for the full 24h success TTL instead of the short failure
+// TTL every sibling function already uses).
+// ---------------------------------------------------------------------
+
+test("getGlobalAchievementPercentages returns the real percentages array on success", async () => {
+
+    const { fn } = countingFetch(() =>
+        jsonResponse(200, { achievementpercentages: { achievements: [{ name: "ACH_1", percent: 42.5 }] } })
+    );
+
+    const result = await withMockedFetch(fn, () => getGlobalAchievementPercentages(900301));
+
+    assert.deepStrictEqual(result, [{ name: "ACH_1", percent: 42.5 }]);
+
+});
+
+test("getGlobalAchievementPercentages degrades to an empty array (not a thrown error) when the request fails", async () => {
+
+    const { fn } = countingFetch(() =>
+        jsonResponse(500, {})
+    );
+
+    const result = await withMockedFetch(fn, () => getGlobalAchievementPercentages(900302));
+
+    assert.deepStrictEqual(result, []);
+
+});
+
+test("getGlobalAchievementPercentages' successful result stays cached well past the short failure TTL (30s) - success keeps the full 24h TTL", async (t) => {
+
+    t.mock.timers.enable({ apis: ["Date"] });
+
+    const { fn, callCount } = countingFetch(() =>
+        jsonResponse(200, { achievementpercentages: { achievements: [{ name: "ACH_1", percent: 10 }] } })
+    );
+
+    await withMockedFetch(fn, async () => {
+
+        await getGlobalAchievementPercentages(900303);
+
+        t.mock.timers.tick(45_000);
+
+        const second = await getGlobalAchievementPercentages(900303);
+
+        assert.strictEqual(callCount(), 1, "a successful fetch must still be served from cache 45s later");
+        assert.deepStrictEqual(second, [{ name: "ACH_1", percent: 10 }]);
+
+    });
+
+});
+
+test("getGlobalAchievementPercentages' failure result expires quickly (short TTL) instead of being cached for the full 24h, so a transient blip self-heals within one poll cycle - Phase 67 regression", async (t) => {
+
+    t.mock.timers.enable({ apis: ["Date"] });
+
+    let shouldFail = true;
+
+    const { fn, callCount } = countingFetch(() => {
+
+        if (shouldFail) {
+
+            return jsonResponse(500, {});
+
+        }
+
+        return jsonResponse(200, { achievementpercentages: { achievements: [{ name: "RECOVERED", percent: 99 }] } });
+
+    });
+
+    await withMockedFetch(fn, async () => {
+
+        const first = await getGlobalAchievementPercentages(900304);
+        assert.deepStrictEqual(first, []);
+
+        // Still within the 30s failure TTL - must be served from cache.
+        t.mock.timers.tick(15_000);
+        const stillCached = await getGlobalAchievementPercentages(900304);
+        assert.deepStrictEqual(stillCached, []);
+        assert.strictEqual(callCount(), 1);
+
+        // Past the 30s failure TTL - a real retry must happen. Before this
+        // phase's fix, the empty result was cached for the full 24h, so
+        // this same tick would still be served from the stale cache and
+        // callCount() would incorrectly stay at 1.
+        shouldFail = false;
+        t.mock.timers.tick(16_000);
+
+        const recovered = await getGlobalAchievementPercentages(900304);
+        assert.deepStrictEqual(recovered, [{ name: "RECOVERED", percent: 99 }]);
+        assert.strictEqual(callCount(), 2, "the expired failure entry must trigger exactly one real retry, not stay cached for 24h");
+
+    });
+
+});
+
+// ---------------------------------------------------------------------
+// getPlayerSummary - Phase 67: had no direct test at all before this
+// phase (every other test file that touches it injects it away as a
+// fake), so its real Steam-response-parsing logic was never actually
+// exercised.
+// ---------------------------------------------------------------------
+
+test("getPlayerSummary returns the real player object on success", async () => {
+
+    const { fn } = countingFetch(() =>
+        jsonResponse(200, { response: { players: [{ steamid: "1", personaname: "Alice", avatarfull: "https://example.com/a.jpg" }] } })
+    );
+
+    const result = await withMockedFetch(fn, () => getPlayerSummary("steamapi-test:summary-success"));
+
+    assert.deepStrictEqual(result, { steamid: "1", personaname: "Alice", avatarfull: "https://example.com/a.jpg" });
+
+});
+
+test("getPlayerSummary throws for a genuinely empty response object (private profile / invalid steamId)", async () => {
+
+    const { fn } = countingFetch(() =>
+        jsonResponse(200, { response: {} })
+    );
+
+    await assert.rejects(
+        () => withMockedFetch(fn, () => getPlayerSummary("steamapi-test:summary-empty")),
+        /empty response/
+    );
+
+});
+
+test("getPlayerSummary throws when Steam's response has no players array entry at all", async () => {
+
+    const { fn } = countingFetch(() =>
+        jsonResponse(200, { response: { players: [] } })
+    );
+
+    await assert.rejects(
+        () => withMockedFetch(fn, () => getPlayerSummary("steamapi-test:summary-no-player")),
+        /no player data/
+    );
+
+});
+
+// ---------------------------------------------------------------------
+// getCurrentPlayerCount - Phase 67 regression: a result:1 response with no
+// player_count field must not cache `undefined`, which would silently
+// defeat this function's own `cached !== undefined` cache-hit check on
+// every future call for that appid.
+// ---------------------------------------------------------------------
+
+test("getCurrentPlayerCount caches null (not undefined) when Steam's result:1 response is missing player_count", async () => {
+
+    const { fn, callCount } = countingFetch(() =>
+        jsonResponse(200, { response: { result: 1 } })
+    );
+
+    await withMockedFetch(fn, async () => {
+
+        const first = await getCurrentPlayerCount(900305);
+        assert.strictEqual(first, null);
+
+        const second = await getCurrentPlayerCount(900305);
+        assert.strictEqual(second, null);
+        assert.strictEqual(callCount(), 1, "a cached null must still be served from cache, not silently treated as a cache miss");
 
     });
 

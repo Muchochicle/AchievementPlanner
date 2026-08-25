@@ -91,6 +91,36 @@ test("mapSteamGame builds the expected Steam CDN image/icon URLs from appid/img_
 
 });
 
+// Phase 67 regression: Steam can return an owned game with no img_icon_url
+// at all (delisted apps, some free-to-play/tool entries) - building the
+// icon URL unconditionally previously resolved to a broken
+// ".../undefined.jpg" instead of a real, guarded null like every other
+// optional field in this mapper.
+test("mapSteamGame's icon is null (not a broken '.../undefined.jpg' URL) when img_icon_url is missing", () => {
+
+    const missing = mapSteamGame({
+        appid: 12346,
+        name: "No Icon Hash",
+        playtime_forever: 0
+    });
+
+    assert.strictEqual(missing.icon, null);
+
+    const emptyString = mapSteamGame({
+        appid: 12347,
+        name: "Empty Icon Hash",
+        playtime_forever: 0,
+        img_icon_url: ""
+    });
+
+    assert.strictEqual(emptyString.icon, null);
+
+    // image (built from appid alone, no hash needed) must still be present
+    // either way - only icon depends on img_icon_url.
+    assert.match(missing.image, /^https:\/\//);
+
+});
+
 test("mapSteamGame marks a game with no matching catalog entry as owned, with no planner and all planner fields nulled/emptied", () => {
 
     const result = mapSteamGame({

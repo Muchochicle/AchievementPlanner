@@ -233,6 +233,7 @@ export async function getGlobalAchievementPercentages(appid) {
     }
 
     let achievements;
+    let ttl = GLOBAL_PERCENTAGES_TTL_MS;
 
     try {
 
@@ -246,13 +247,23 @@ export async function getGlobalAchievementPercentages(appid) {
     } catch (error) {
 
         // Steam returns an error status for games with no global achievement
-        // stats at all. That's a normal case, not a real failure, so we
-        // degrade to an empty list instead of propagating the error.
+        // stats at all, and that's degraded to an empty list rather than
+        // propagating the error - but steamFetch throws the exact same
+        // generic Error for that case as it does for a real request failure
+        // (timeout, rate-limit, Steam 5xx), so this catch can't actually
+        // tell "confirmed no stats" apart from "we don't know right now".
+        // Every sibling function in this file (getSchemaForGame,
+        // getCurrentPlayerCount, getPlayerAchievementsClassified) already
+        // treats that same ambiguity conservatively - cache briefly, not
+        // for the full success TTL - this one was the one gap left
+        // (Phase 67; see PHASE_47_AUDIT.md Finding 6 for the original
+        // rationale).
         achievements = [];
+        ttl = TRANSIENT_FAILURE_TTL_MS;
 
     }
 
-    setCached(cacheKey, achievements, GLOBAL_PERCENTAGES_TTL_MS);
+    setCached(cacheKey, achievements, ttl);
 
     return achievements;
 
@@ -287,9 +298,13 @@ export async function getCurrentPlayerCount(appid) {
 
         // result !== 1 here is Steam's own real, confirmed answer for this
         // appid (not a request failure) - keeps the normal full TTL, same
-        // as before.
+        // as before. `?? null` guards against a (never documented as
+        // possible, but not guaranteed absent) result:1 response missing
+        // player_count - the cache-hit check above is `cached !== undefined`,
+        // so a stored `undefined` would silently defeat this function's own
+        // cache on every future call for this appid (Phase 67).
         count = data.response?.result === 1
-            ? data.response.player_count
+            ? data.response.player_count ?? null
             : null;
 
     } catch (error) {

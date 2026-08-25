@@ -37,8 +37,16 @@ export function mapSteamGame(game) {
         image:
             `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${game.appid}/header.jpg`,
 
-        icon:
-            `https://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg`,
+        // Steam can return an owned game with no img_icon_url at all
+        // (delisted apps, some free-to-play/tool entries) - unlike `image`
+        // above (built from appid alone, no hash needed), this URL needs a
+        // real hash segment or it silently resolves to a broken
+        // ".../undefined.jpg"/".../.jpg" image. Guarded the same way every
+        // other optional Steam-sourced field in this mapper already is
+        // (Phase 67).
+        icon: game.img_icon_url
+            ? `https://media.steampowered.com/steamcommunity/public/images/apps/${game.appid}/${game.img_icon_url}.jpg`
+            : null,
 
         playtime: Math.round(game.playtime_forever / 60),
 
