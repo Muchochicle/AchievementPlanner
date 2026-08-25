@@ -52,7 +52,7 @@ No backend/frontend code changes were needed for the games to appear — confirm
 
 ## 8. Commit / push
 
-Committed and pushed to `origin/main`.
+Committed and pushed to `origin/main`. Commit: `60b1d6f` — `feat: Phase 72 - expand games catalog with Celeste and INSIDE`.
 
 ## 9. Phase-end report
 
