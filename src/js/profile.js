@@ -60,17 +60,37 @@ async function init() {
     // redundant /api/me call.
     const sessionPromise = loadNavbar();
 
-    document.getElementById(
+    const profileContent =
+        document.getElementById("profile-content");
 
-        "profile-content"
-
-    ).innerHTML =
+    profileContent.innerHTML =
 
         createProfilePage();
 
     const session = await sessionPromise;
 
-    refresh();
+    // Isolated from loadGamesSection/loadProfileStats below (each of which
+    // already has its own independent failure handling): unlike every
+    // other page-controller in this app, init() here had no safety net at
+    // all around refresh() (renders the header + wires the avatar picker)
+    // - a throw would leave the page stuck on whatever partial state it
+    // happened to be in, with the two sections below never even attempting
+    // to load (since they're unguarded statements after this point)
+    // (Phase 69).
+    try {
+
+        refresh();
+
+    } catch (error) {
+
+        console.error(error);
+
+        profileContent.innerHTML =
+            `<p class="state-message">We couldn't load your profile right now. Please try again later.</p>`;
+
+        return;
+
+    }
 
     // Completed games and the stat cards both need the same live
     // /api/profile/stats answer (it's the single source of truth for Steam

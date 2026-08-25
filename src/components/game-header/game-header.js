@@ -14,6 +14,17 @@ export function createGameHeader(game, hoursPlayed = 0) {
 
     const { total, completed, percentage } = getMergedAchievementStats(game);
 
+    // gameMapper.js's `difficulty: planner?.difficulty ?? null` is genuinely
+    // null for any Steam-owned game with no curated catalog entry - a real,
+    // common case (game.js's "no planner, but Steam still reports
+    // achievements" branch renders this header directly, and the curated
+    // catalog only covers 3 games out of any real user's library). Every
+    // other component that renders this same field (catalog-card.js,
+    // search.js) already guards it the same way; this was the one place
+    // that rendered the literal text "null/10" instead (Phase 69).
+    const hasDifficulty =
+        typeof game.difficulty === "number";
+
     return `
 
         <section class="game-header">
@@ -36,6 +47,8 @@ export function createGameHeader(game, hoursPlayed = 0) {
 
                 <div class="game-header-stats">
 
+                    ${hasDifficulty
+                        ? `
                     <div class="game-header-stat">
 
                         <span>⭐ Difficulty</span>
@@ -43,6 +56,8 @@ export function createGameHeader(game, hoursPlayed = 0) {
                         <strong>${game.difficulty}/10</strong>
 
                     </div>
+                        `
+                        : ""}
 
                     <div class="game-header-progress">
 

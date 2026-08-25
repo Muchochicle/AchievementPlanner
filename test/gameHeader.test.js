@@ -53,5 +53,23 @@ test("createGameHeader still renders a normal game correctly", () => {
     assert.match(html, /<h1>Portal 2<\/h1>/);
     assert.match(html, /Puzzle • Adventure/);
     assert.match(html, />12 h<\/strong>/);
+    assert.match(html, /⭐ Difficulty/);
+    assert.match(html, />3\/10<\/strong>/);
+
+});
+
+// Phase 69 regression: gameMapper.js's `difficulty: planner?.difficulty ??
+// null` is genuinely null for any Steam-owned game with no curated catalog
+// entry - game.js's "no planner, but Steam still reports achievements"
+// branch calls createGameHeader directly for exactly this case. Every
+// other component rendering this same field (catalog-card.js, search.js)
+// already guards it; this closes the one place that rendered the literal
+// text "null/10" instead.
+test("createGameHeader omits the Difficulty stat entirely (not a literal 'null/10') when difficulty is null", () => {
+
+    const html = createGameHeader(baseGame({ difficulty: null }));
+
+    assert.doesNotMatch(html, /null\/10/);
+    assert.doesNotMatch(html, /⭐ Difficulty/);
 
 });

@@ -117,8 +117,36 @@ async function init() {
 
     if (catalogResult.status === "fulfilled") {
 
-        renderHeroStats(catalogResult.value);
-        createSearch(catalogResult.value);
+        // Isolated from the popular-games branch below: unlike every other
+        // page-controller in this app (game.js/games.js's own post-render
+        // try/catch, podiums.js's per-category isolation), init() here had
+        // no safety net at all around its post-fetch render calls - a
+        // throw in either branch would leave the whole page in whatever
+        // partial state it happened to be in, with nothing shown to the
+        // user and no console signal beyond an unhandled promise
+        // rejection. Each branch gets its own try/catch so a failure in
+        // one never affects the other (Phase 69).
+        try {
+
+            renderHeroStats(catalogResult.value);
+            createSearch(catalogResult.value);
+
+        } catch (error) {
+
+            console.error(error);
+
+            showHeroStatsUnavailable();
+            catalogError.hidden = false;
+
+            const searchInput = document.querySelector(".hero input");
+
+            if (searchInput) {
+
+                searchInput.disabled = true;
+
+            }
+
+        }
 
     } else {
 
@@ -145,7 +173,18 @@ async function init() {
 
     if (popularResult.status === "fulfilled") {
 
-        renderPopularGames(popularResult.value, container);
+        try {
+
+            renderPopularGames(popularResult.value, container);
+
+        } catch (error) {
+
+            console.error(error);
+
+            container.innerHTML =
+                `<p class="state-message">${POPULAR_GAMES_UNAVAILABLE_MESSAGE}</p>`;
+
+        }
 
     } else {
 

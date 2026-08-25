@@ -23,6 +23,27 @@ export function createGameOverview(game) {
         `
         : "";
 
+    // playthroughs is optional the same way completionTime is (see
+    // gameMapper.js's `planner?.playthroughs ?? null`) - every currently
+    // curated catalog entry happens to set it, but this closes the same
+    // gap completionTime above was already guarded against, rather than
+    // rendering the literal text "null" the moment a future catalog entry
+    // omits it (Phase 69).
+    const hasPlaythroughs =
+        typeof game.playthroughs === "number";
+
+    const playthroughsCard = hasPlaythroughs
+        ? `
+            <div class="overview-card">
+
+                <span>🔁 Playthroughs</span>
+
+                <strong>${game.playthroughs}</strong>
+
+            </div>
+        `
+        : "";
+
     return `
 
         <section class="game-overview">
@@ -45,13 +66,7 @@ export function createGameOverview(game) {
 
             </div>
 
-            <div class="overview-card">
-
-                <span>🔁 Playthroughs</span>
-
-                <strong>${game.playthroughs}</strong>
-
-            </div>
+            ${playthroughsCard}
 
         </section>
 

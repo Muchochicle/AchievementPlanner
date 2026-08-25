@@ -55,3 +55,20 @@ test("createGameOverview shows 'No' for a non-missable game and the playthroughs
     assert.match(html, />3</);
 
 });
+
+// Phase 69 regression: playthroughs is optional the same way completionTime
+// is (gameMapper.js: `planner?.playthroughs ?? null`), but only
+// completionTime had ever been guarded - this rendered the literal text
+// "null" instead of omitting the card.
+test("createGameOverview does not throw and omits the Playthroughs card when playthroughs is missing", () => {
+
+    const game = { difficulty: 3, completionTime: { min: 1, max: 2 }, missable: false, playthroughs: null };
+
+    let html;
+    assert.doesNotThrow(() => { html = createGameOverview(game); });
+
+    assert.doesNotMatch(html, /🔁 Playthroughs/);
+    assert.doesNotMatch(html, />null</);
+    assert.match(html, /3\/10/, "the other stats must still render correctly");
+
+});
