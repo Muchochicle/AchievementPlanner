@@ -1,4 +1,5 @@
 import { getPlayer } from "../../utils/player/player.js";
+import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
 export function createProfileBadges() {
 
@@ -7,7 +8,7 @@ export function createProfileBadges() {
     const body = badges.length
         ? `
             <ul class="profile-badges-list">
-                ${badges.map(name => `<li class="profile-badge">🏅 ${name}</li>`).join("")}
+                ${badges.map(name => `<li class="profile-badge">🏅 ${escapeHtml(name)}</li>`).join("")}
             </ul>
         `
         : `

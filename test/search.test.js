@@ -14,16 +14,26 @@ import assert from "node:assert";
 function buildDom() {
 
     let inputHandler = null;
+    let keydownHandler = null;
+    let documentClickHandler = null;
+    let blurred = false;
 
     const searchInput = {
         addEventListener(type, handler) {
             if (type === "input") inputHandler = handler;
+            if (type === "keydown") keydownHandler = handler;
+        },
+        blur() {
+            blurred = true;
         }
     };
 
     const results = {
         innerHTML: "",
-        style: { display: "" }
+        style: { display: "" },
+        contains(node) {
+            return node === results;
+        }
     };
 
     globalThis.document = {
@@ -36,14 +46,28 @@ function buildDom() {
 
         querySelectorAll() {
             return [];
+        },
+
+        addEventListener(type, handler) {
+            if (type === "click") documentClickHandler = handler;
         }
 
     };
 
     return {
         results,
+        searchInput,
         fireInput(value) {
             inputHandler({ target: { value } });
+        },
+        fireEscape() {
+            keydownHandler({ key: "Escape" });
+        },
+        fireDocumentClick(target) {
+            documentClickHandler({ target });
+        },
+        wasBlurred() {
+            return blurred;
         }
     };
 }
@@ -182,5 +206,57 @@ test("createSearch escapes an HTML-injecting game title", () => {
 
     assert.doesNotMatch(dom.results.innerHTML, /<script>alert\(1\)<\/script>/);
     assert.match(dom.results.innerHTML, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
+
+});
+
+// Phase 65 regression: the results dropdown used to have no way to close
+// itself once opened, short of clearing the input back to empty or
+// activating a result - clicking or tabbing anywhere else on the page left
+// it open, visually covering whatever was underneath it.
+
+test("createSearch closes the results dropdown on an outside click", () => {
+
+    const dom = buildDom();
+
+    createSearch([{ title: "Hades", slug: "hades", image: "https://example.com/hades.jpg", hasPlanner: false }]);
+
+    dom.fireInput("hades");
+    assert.strictEqual(dom.results.style.display, "block");
+
+    dom.fireDocumentClick({});
+    assert.strictEqual(dom.results.style.display, "none");
+
+});
+
+test("createSearch does not close the dropdown for a click on the input itself or inside the results container", () => {
+
+    const dom = buildDom();
+
+    createSearch([{ title: "Hades", slug: "hades", image: "https://example.com/hades.jpg", hasPlanner: false }]);
+
+    dom.fireInput("hades");
+    assert.strictEqual(dom.results.style.display, "block");
+
+    dom.fireDocumentClick(dom.searchInput);
+    assert.strictEqual(dom.results.style.display, "block", "clicking the search input itself should not close its own dropdown");
+
+    dom.fireDocumentClick(dom.results);
+    assert.strictEqual(dom.results.style.display, "block", "clicking inside the results dropdown should not close itself");
+
+});
+
+test("createSearch closes the dropdown and blurs the input on Escape", () => {
+
+    const dom = buildDom();
+
+    createSearch([{ title: "Hades", slug: "hades", image: "https://example.com/hades.jpg", hasPlanner: false }]);
+
+    dom.fireInput("hades");
+    assert.strictEqual(dom.results.style.display, "block");
+
+    dom.fireEscape();
+
+    assert.strictEqual(dom.results.style.display, "none");
+    assert.ok(dom.wasBlurred(), "Escape should also blur the search input");
 
 });

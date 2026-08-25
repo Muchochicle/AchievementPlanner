@@ -129,4 +129,36 @@ export function createSearch(games) {
 
     });
 
+    const closeResults = () => {
+
+        results.style.display = "none";
+
+    };
+
+    // Nothing else dismisses the dropdown: it stays open (and visually
+    // covers page content below it) once you click or tab away from the
+    // input, unless you delete the typed text back to empty or activate a
+    // result. Close it on an outside click and on Escape, matching the
+    // same interaction any native/browser suggestion dropdown supports.
+    document.addEventListener("click", event => {
+
+        if (event.target === searchInput || results.contains(event.target)) {
+
+            return;
+
+        }
+
+        closeResults();
+
+    });
+
+    searchInput.addEventListener("keydown", event => {
+
+        if (event.key !== "Escape") return;
+
+        closeResults();
+        searchInput.blur();
+
+    });
+
 }

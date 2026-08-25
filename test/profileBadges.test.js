@@ -57,3 +57,28 @@ test("createProfileBadges renders every earned badge, in the order they're store
     assert.deepStrictEqual(matches, ["Perfectionist", "Speedrunner"]);
 
 });
+
+test("createProfileBadges escapes an HTML-injecting badge name", () => {
+
+    // Phase 65 regression: badge names come straight from the
+    // achievement-planner-player localStorage entry (player.badges) and
+    // were interpolated with no escapeHtml() call, unlike every other
+    // display value in this component tree. Today the only code path that
+    // populates badges is a hardcoded literal (unlockBadge("Perfectionist")
+    // in gameCompletion.js), but unlike player.title (unconditionally
+    // recomputed from the level on every load), a stored badge name is
+    // never revalidated - so a badge name tampered with via devtools would
+    // otherwise render unescaped into innerHTML on the player's own
+    // Profile page.
+    resetPlayer();
+
+    const player = getPlayer();
+    player.badges = [`<img src=x onerror=alert(1)>`];
+    savePlayer(player);
+
+    const html = createProfileBadges();
+
+    assert.doesNotMatch(html, /<img src=x onerror=alert\(1\)>/);
+    assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt;/);
+
+});

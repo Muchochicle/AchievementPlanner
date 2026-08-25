@@ -168,7 +168,7 @@ export async function callbackWithDeps(req, res, deps) {
 
         };
 
-        const frontendUrl = (process.env.FRONTEND_URL ?? "http://localhost:5500").replace(/\/+$/, "");
+        const frontendUrl = (process.env.FRONTEND_URL ?? "http://localhost:5501").replace(/\/+$/, "");
 
         res.redirect(`${frontendUrl}/index.html`);
 

@@ -388,3 +388,42 @@ test("the general API rate limiter does not affect /auth/steam/login or / (root)
     });
 
 });
+
+// Phase 65: server.js's CORS_ORIGIN and steamController.js's FRONTEND_URL
+// both fall back to a hardcoded default when the (optional) env var is
+// unset, but that hardcoded default used to be port 5500 - which doesn't
+// match this project's actual documented/configured local dev port, 5501
+// (see .env.example's own "Local (default): ...5501" comments and
+// .vscode/settings.json's liveServer.settings.port). A fresh setup that
+// only fills in the required env vars and leaves these two optional ones
+// unset got silently broken CORS and a post-login redirect to the wrong
+// origin. This can't be exercised as a real end-to-end request the way
+// the rest of this file's tests are - the machine actually running this
+// suite already has its own backend/.env with CORS_ORIGIN/FRONTEND_URL
+// explicitly set (as any real dev setup should), so a spawned child
+// process's env can't be made to omit them without also bypassing dotenv
+// itself. Instead, this asserts directly on the source text for the one
+// thing that matters: the literal fallback default matches the documented
+// port - the same "read the real file from disk, assert on its content"
+// pattern already used by test/skipLink.test.js for an equivalent
+// can't-easily-exercise-at-runtime case.
+test("CORS_ORIGIN and FRONTEND_URL fallback defaults use port 5501, matching .env.example's documented local dev port", async () => {
+
+    const fs = await import("node:fs");
+
+    const serverSource = fs.readFileSync(path.join(BACKEND_DIR, "server.js"), "utf-8");
+    const steamControllerSource = fs.readFileSync(path.join(BACKEND_DIR, "controllers", "steamController.js"), "utf-8");
+
+    assert.match(
+        serverSource,
+        /process\.env\.CORS_ORIGIN\s*\?\?\s*"http:\/\/127\.0\.0\.1:5501,http:\/\/localhost:5501"/,
+        "CORS_ORIGIN's fallback default should be the documented 5501 origins, not a stale 5500"
+    );
+
+    assert.match(
+        steamControllerSource,
+        /process\.env\.FRONTEND_URL\s*\?\?\s*"http:\/\/localhost:5501"/,
+        "FRONTEND_URL's fallback default should be the documented 5501 origin, not a stale 5500"
+    );
+
+});

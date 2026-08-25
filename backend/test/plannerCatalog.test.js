@@ -44,6 +44,25 @@ test("getPlannerData('debug-game') returns null, not the internal sandbox data",
 
 });
 
+// Phase 65: loadCatalog() used to build its cache as a plain {} literal,
+// so catalog[slug] resolved through the JS prototype chain for slugs that
+// collide with a real Object.prototype member - a caller could hit
+// GET /api/games/__proto__ (or /constructor, /toString, /hasOwnProperty,
+// /valueOf, /isPrototypeOf) and get back a truthy, non-null "planner
+// entry" (Object.prototype itself, or the Object constructor function)
+// instead of the expected null/404. Fixed by building the cache with
+// Object.create(null) instead.
+test("getPlannerData never resolves a prototype-chain property name to a fake catalog entry", () => {
+
+    for (const slug of ["__proto__", "constructor", "toString", "hasOwnProperty", "valueOf", "isPrototypeOf"]) {
+
+        assert.strictEqual(getPlannerData(slug), null, `getPlannerData("${slug}") must return null, not a prototype-chain value`);
+
+    }
+
+});
+
+
 test("getPlannerData returns real data for a non-internal catalog slug", () => {
 
     const data = getPlannerData("hades");

@@ -213,6 +213,28 @@ test("GET /api/games/:slug returns a real 404 (not a crash or a 200 with empty d
 
 });
 
+test("GET /api/games/:slug 404s for slugs matching a JS Object.prototype member instead of returning a fake 200", async () => {
+
+    // Phase 65: plannerCatalog.js's loadCatalog() used to cache entries in
+    // a plain {} literal, so catalog[slug] resolved through the prototype
+    // chain for a slug like "__proto__" or "constructor" - returning a
+    // truthy value (Object.prototype itself, or the Object constructor
+    // function) instead of undefined, which mapPlannerOnlyGame() then
+    // treated as a real (if malformed) planner entry and returned as a
+    // fake 200. Fixed by building the cache with Object.create(null).
+    await withServer({}, async ({ baseUrl }) => {
+
+        for (const slug of ["__proto__", "constructor", "toString", "hasOwnProperty"]) {
+
+            const res = await fetch(`${baseUrl}/api/games/${slug}`);
+            assert.strictEqual(res.status, 404, `GET /api/games/${slug} should 404, not resolve through the prototype chain`);
+
+        }
+
+    });
+
+});
+
 test("GET /api/games/debug-game never reaches the internal sandbox fixture either - it 404s the same as any other unknown slug", async () => {
 
     // Mirrors the existing "GET /api/games never includes the internal

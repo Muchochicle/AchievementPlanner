@@ -16,7 +16,12 @@ function loadCatalog() {
         return cache;
     }
 
-    cache = {};
+    // Object.create(null) rather than {} - a plain object literal exposes
+    // its prototype chain through bracket access, so catalog["__proto__"]
+    // or catalog["constructor"] would resolve to a real, truthy built-in
+    // instead of undefined, letting getPlannerData() below treat an
+    // attacker-chosen slug like "__proto__" as a legitimate catalog hit.
+    cache = Object.create(null);
 
     if (!fs.existsSync(GAMES_DIR)) {
         return cache;
