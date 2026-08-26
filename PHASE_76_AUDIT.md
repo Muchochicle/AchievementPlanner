@@ -58,7 +58,7 @@ Full root suite (`npm test`, recurses into backend): **878/878 passing** (861 ba
 
 ## 8. Commit / push
 
-Committed and pushed to `origin/main`.
+Committed and pushed to `origin/main`. Commit: `1af2fdd` — `feat: Phase 76 - ship real Roadmap and About pages`.
 
 ## 9. Phase-end report
 
