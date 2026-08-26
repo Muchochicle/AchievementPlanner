@@ -75,7 +75,7 @@ A real bug was caught and fixed *during* test-writing, not left in: every `Sqlit
 
 ## 10. Commit / push
 
-Committed and pushed to `origin/main`. See the immediately following commit for this phase's hash (recorded in a follow-up doc-only commit per this project's own established two-commit-per-phase convention - the hash-recording commit updates this line after the fact).
+Committed and pushed to `origin/main`. Commit: `fca85ab` — `feat: Phase 74 - persistent SQLite-backed session store, Docker data fix`.
 
 ## 11. Phase-end report
 
