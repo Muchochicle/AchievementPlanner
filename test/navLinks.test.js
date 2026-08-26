@@ -174,22 +174,52 @@ test("labels the nav landmark 'Primary' so it's distinguishable from any page-sp
 
 });
 
-test("always renders the disabled Roadmap/About links as aria-disabled with a 'Soon' badge (Guides is now a real link, not one of these)", () => {
+// Phase 76 (PHASE_76_AUDIT.md) - Roadmap and About shipped as real pages,
+// closing the two permanently-disabled "Soon" placeholders that were
+// visible in the primary nav on every single page of the site.
+test("marks Roadmap active with aria-current on roadmap.html, every other link inactive", () => {
+
+    setPath("/roadmap.html");
+
+    const html = createNavLinks();
+
+    const roadmapLink = extractLink(html, "roadmap.html", "Roadmap");
+    const aboutLink = extractLink(html, "about.html", "About");
+
+    assert.match(roadmapLink, /class="active"/);
+    assert.match(roadmapLink, /aria-current="page"/);
+
+    assert.match(aboutLink, /class=""/);
+    assert.doesNotMatch(aboutLink, /aria-current/);
+
+});
+
+test("marks About active with aria-current on about.html, every other link inactive", () => {
+
+    setPath("/about.html");
+
+    const html = createNavLinks();
+
+    const roadmapLink = extractLink(html, "roadmap.html", "Roadmap");
+    const aboutLink = extractLink(html, "about.html", "About");
+
+    assert.match(aboutLink, /class="active"/);
+    assert.match(aboutLink, /aria-current="page"/);
+
+    assert.match(roadmapLink, /class=""/);
+    assert.doesNotMatch(roadmapLink, /aria-current/);
+
+});
+
+test("Roadmap and About are real links, not disabled placeholders", () => {
 
     setPath("/games.html");
 
     const html = createNavLinks();
 
-    for (const label of ["Roadmap", "About"]) {
-
-        const disabledLink = html.slice(html.indexOf(label) - 200, html.indexOf(label) + 100);
-
-        assert.match(disabledLink, /aria-disabled="true"/);
-
-    }
-
-    assert.doesNotMatch(html, /class="nav-link-disabled"[^>]*>\s*Guides/, "Guides must not still render as a disabled placeholder");
-
-    assert.strictEqual((html.match(/nav-link-soon/g) ?? []).length, 2);
+    assert.doesNotMatch(html, /nav-link-disabled/);
+    assert.doesNotMatch(html, /nav-link-soon/);
+    assert.match(html, /href="roadmap.html"/);
+    assert.match(html, /href="about.html"/);
 
 });

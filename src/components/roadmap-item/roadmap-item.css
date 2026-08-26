@@ -1,0 +1,59 @@
+.roadmap-list{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));
+    gap:24px;
+
+    list-style:none;
+
+    margin-bottom:var(--spacing-xl);
+
+}
+
+.roadmap-item{
+
+    padding:20px;
+
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+
+}
+
+.roadmap-item h3{
+
+    margin:8px 0 6px;
+
+}
+
+.roadmap-item p{
+
+    color:var(--text-secondary);
+    font-size:.9rem;
+    line-height:1.6;
+
+}
+
+.roadmap-item-status{
+
+    display:inline-flex;
+    padding:2px 10px;
+
+    border-radius:999px;
+
+    font-size:.7rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+
+    background:var(--surface-hover);
+    color:var(--text-secondary);
+
+}
+
+.roadmap-item--shipped .roadmap-item-status{
+
+    background:rgba(56,189,248,.15);
+    color:var(--primary);
+
+}

@@ -38,7 +38,7 @@ test("index.html's title is the bare brand name, not shared verbatim with any ot
 
     assert.strictEqual(homeTitle, "Achievement Planner");
 
-    const OTHER_PAGES = ["game.html", "games.html", "guide.html", "guides.html", "podiums.html", "profile.html"];
+    const OTHER_PAGES = ["game.html", "games.html", "guide.html", "guides.html", "podiums.html", "profile.html", "roadmap.html", "about.html"];
 
     for (const page of OTHER_PAGES) {
 
@@ -50,7 +50,7 @@ test("index.html's title is the bare brand name, not shared verbatim with any ot
 
 });
 
-const SUFFIXED_PAGES = ["game.html", "games.html", "guide.html", "guides.html", "podiums.html", "profile.html"];
+const SUFFIXED_PAGES = ["game.html", "games.html", "guide.html", "guides.html", "podiums.html", "profile.html", "roadmap.html", "about.html"];
 
 for (const page of SUFFIXED_PAGES) {
 
