@@ -54,7 +54,7 @@ Full root suite (`npm test`, recurses into backend): **887/887 passing** (878 ba
 
 ## 8. Commit / push
 
-Committed and pushed to `origin/main`.
+Committed and pushed to `origin/main`. Commit: `e8b3ec5` — `feat: Phase 77 - real log out flow`.
 
 ## 9. Phase-end report
 
