@@ -35,3 +35,19 @@ Plain static HTML/JS (no build step, no dev server script). Serve the repo root 
 npm test
 ```
 Run from the repo root to execute the full suite (frontend `test/` + backend `backend/test/`), matching CI (`.github/workflows/ci.yml`). Run `npm test` inside `backend/` to run only the backend suite.
+
+## Deploying to Production
+
+**Backend** (`backend/`): a `Dockerfile` is included - build and run it with real production environment variables (never bake secrets into the image):
+```
+cd backend
+docker build -t achievementplanner-backend .
+docker run -p 3000:3000 --env-file .env achievementplanner-backend
+```
+Any Node ≥22.5.0 host works too (`npm ci --omit=dev && npm start`) - the Dockerfile is a convenience, not a requirement. Either way, set real values for `STEAM_API_KEY`, `STEAM_RETURN_URL`, `STEAM_REALM`, and `SESSION_SECRET` (the server refuses to start without them - see `backend/.env.example`), and `COOKIE_SECURE=true` once served over HTTPS.
+
+**Frontend** (repo root): still plain static files, deployable as-is to any static host (the same Node host behind a reverse proxy, or a separate static host like Netlify/Vercel/GitHub Pages/S3+CloudFront) - no build step.
+
+**Same-origin vs. split-origin** - `src/env.js` (`ENV.API_BASE_URL`) decides how the frontend finds the backend, and its default now auto-detects rather than always pointing at `localhost:3000` (a pre-Phase-73 bug that would have broken the app for every real visitor):
+- Serving frontend and backend from the same origin (e.g. a reverse proxy that routes `/api`, `/auth` to the backend and everything else to the static files) needs **no change** - `ENV.API_BASE_URL` resolves to `""` (relative requests) automatically for any hostname other than `localhost`/`127.0.0.1`, and `CORS_ORIGIN` becomes unnecessary since there's no cross-origin call to allow.
+- Serving them from two different hosts (e.g. frontend on a static host, backend on its own domain) needs one manual edit: set `ENV.API_BASE_URL` in `src/env.js` to the backend's real origin, and set the backend's `CORS_ORIGIN` env var to the frontend's real origin (see `backend/.env.example`).

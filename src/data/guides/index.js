@@ -9,6 +9,10 @@ import { GUIDE as steamLoginAndYourData } from "./app/steam-login-and-your-data.
 import { GUIDE as achievementCompletionAndTracking } from "./app/achievement-completion-and-tracking.js";
 
 import { GUIDE as hadesAchievementGuide } from "./games/hades.js";
+import { GUIDE as portal2AchievementGuide } from "./games/portal-2.js";
+import { GUIDE as hollowKnightAchievementGuide } from "./games/hollow-knight.js";
+import { GUIDE as celesteAchievementGuide } from "./games/celeste.js";
+import { GUIDE as insideAchievementGuide } from "./games/inside.js";
 
 export const APP_GUIDES = [
 
@@ -24,13 +28,11 @@ export const APP_GUIDES = [
 
 ];
 
-// Phase 37 ships the first real Game Guide (Hades - see
-// src/data/guides/games/hades.js for its sourcing notes). Hollow Knight
-// and Portal 2 both still declare hasGuide:true in their planner data
-// (src/data/games/hollow-knight.json, portal-2.json) but have no entry
-// here yet - their game pages correctly show the honest "coming soon"
-// state (game-guide-notice.js) until real, sourced content is written for
-// them too, using hades.js as the template.
+// Phase 37 shipped the first real Game Guide (Hades). Phase 73 completed
+// the set: every real, non-debug catalog game (src/data/games/*.json,
+// excluding debug-game) now has a real, sourced Game Guide here - see each
+// game's own guides/games/<slug>.js for its sourcing notes. debug-game
+// declares hasGuide:false and correctly has no entry here.
 //
 // A real game guide belongs here once actually written, shaped like an
 // APP_GUIDES entry plus:
@@ -41,7 +43,11 @@ export const APP_GUIDES = [
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
 
-    hadesAchievementGuide
+    hadesAchievementGuide,
+    portal2AchievementGuide,
+    hollowKnightAchievementGuide,
+    celesteAchievementGuide,
+    insideAchievementGuide
 
 ];
 

@@ -20,16 +20,14 @@ test("createGameGuideNotice renders nothing for a game object with hasGuide miss
 
 });
 
-test("createGameGuideNotice shows an honest 'coming soon' notice when a guide is planned but no real content exists yet", () => {
+test("createGameGuideNotice shows an honest 'coming soon' notice for a game with a planned guide but no real content (debug-game, if it ever declared hasGuide)", () => {
 
-    // Reflects real production state today: Hollow Knight and Portal 2
-    // both declare hasGuide:true (see src/data/games/hollow-knight.json,
-    // portal-2.json) but have no entry in GAME_GUIDES yet (see
-    // src/data/guides/index.js) - Phase 37 wrote Hades' real guide only,
-    // per the approved scope. This is exactly what both of these games
-    // currently render, and is the fix for the hasGuide inconsistency
-    // flagged in PHASE_36_AUDIT.md.
-    const html = createGameGuideNotice({ hasGuide: true, slug: "hollow-knight", name: "Hollow Knight" });
+    // Phase 73 completed real guides for every actual catalog game (see
+    // src/data/guides/index.js) - the "planned but not written yet" branch
+    // is no longer reachable through any real game, so this is exercised
+    // via a synthetic fixture slug that deliberately has no GAME_GUIDES
+    // entry, to keep the branch itself covered.
+    const html = createGameGuideNotice({ hasGuide: true, slug: "no-guide-yet-fixture", name: "Some Game" });
 
     assert.match(html, /game-guide-notice--planned/);
     assert.match(html, /hasn't been published yet/);
@@ -37,16 +35,27 @@ test("createGameGuideNotice shows an honest 'coming soon' notice when a guide is
 
 });
 
-test("createGameGuideNotice links to Hades' real, Phase 37 guide", () => {
+test("createGameGuideNotice links to each real game's real guide", () => {
 
-    // Unlike the fixture-based test below, this exercises the real
-    // production GAME_GUIDES entry (src/data/guides/games/hades.js) - the
-    // one game this phase actually wrote content for.
-    const html = createGameGuideNotice({ hasGuide: true, slug: "hades", name: "Hades" });
+    // Exercises every real production GAME_GUIDES entry (Phase 73
+    // completed the full set - see src/data/guides/index.js).
+    const expected = {
+        "hades": "hades-achievement-guide",
+        "portal-2": "portal-2-achievement-guide",
+        "hollow-knight": "hollow-knight-achievement-guide",
+        "celeste": "celeste-achievement-guide",
+        "inside": "inside-achievement-guide"
+    };
 
-    assert.match(html, /game-guide-notice--available/);
-    assert.match(html, /href="guide\.html\?slug=hades-achievement-guide"/);
-    assert.doesNotMatch(html, /hasn't been published/);
+    for (const [slug, guideSlug] of Object.entries(expected)) {
+
+        const html = createGameGuideNotice({ hasGuide: true, slug, name: slug });
+
+        assert.match(html, /game-guide-notice--available/);
+        assert.match(html, new RegExp(`href="guide\\.html\\?slug=${guideSlug}"`));
+        assert.doesNotMatch(html, /hasn't been published/);
+
+    }
 
 });
 

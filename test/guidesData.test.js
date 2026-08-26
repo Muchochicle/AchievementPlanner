@@ -30,16 +30,31 @@ test("Phase 37 ships exactly the 9 approved App Guides (5 rewritten + 4 new)", (
 
 });
 
-test("Phase 37 ships exactly one real Game Guide (Hades) - Hollow Knight/Portal 2 stay 'coming soon'", () => {
+test("Phase 73 ships a real, sourced Game Guide for every real catalog game (Hades, Portal 2, Hollow Knight, Celeste, INSIDE)", () => {
 
-    // Per the approved scope: Hades is the first real, sourced Game Guide
-    // (see src/data/guides/games/hades.js for its sourcing notes).
-    // Hollow Knight and Portal 2 deliberately have no entry here yet -
-    // this count should only grow once real, accurate, sourced content is
-    // actually authored for another game, never bumped to pad the list.
-    assert.strictEqual(GAME_GUIDES.length, 1);
-    assert.strictEqual(GAME_GUIDES[0].gameSlug, "hades");
-    assert.strictEqual(GAME_GUIDES[0].slug, "hades-achievement-guide");
+    // Per the approved scope: every non-debug game in this app's catalog
+    // (src/data/games/*.json) now has real, sourced content here - see
+    // each game's own guides/games/<slug>.js for its sourcing notes. This
+    // count should only grow further once a new game is added to the
+    // catalog and its guide is actually authored, never bumped to pad the
+    // list ahead of that.
+    assert.strictEqual(GAME_GUIDES.length, 5);
+
+    assert.deepStrictEqual(
+        GAME_GUIDES.map(guide => guide.gameSlug).sort(),
+        ["celeste", "hades", "hollow-knight", "inside", "portal-2"]
+    );
+
+    assert.deepStrictEqual(
+        GAME_GUIDES.map(guide => guide.slug).sort(),
+        [
+            "celeste-achievement-guide",
+            "hades-achievement-guide",
+            "hollow-knight-achievement-guide",
+            "inside-achievement-guide",
+            "portal-2-achievement-guide"
+        ]
+    );
 
 });
 
@@ -118,22 +133,30 @@ test("getGuideBySlug returns null for an unknown slug", () => {
 
 });
 
-test("getGameGuideForSlug finds Hades' real guide", () => {
+test("getGameGuideForSlug finds each real game's guide", () => {
 
-    const guide = getGameGuideForSlug("hades");
+    const expected = {
+        "hades": "hades-achievement-guide",
+        "portal-2": "portal-2-achievement-guide",
+        "hollow-knight": "hollow-knight-achievement-guide",
+        "celeste": "celeste-achievement-guide",
+        "inside": "inside-achievement-guide"
+    };
 
-    assert.ok(guide);
-    assert.strictEqual(guide.slug, "hades-achievement-guide");
-    assert.strictEqual(guide.category, "game");
+    for (const [gameSlug, guideSlug] of Object.entries(expected)) {
+
+        const guide = getGameGuideForSlug(gameSlug);
+
+        assert.ok(guide, `expected a real guide for ${gameSlug}`);
+        assert.strictEqual(guide.slug, guideSlug);
+        assert.strictEqual(guide.category, "game");
+
+    }
 
 });
 
-test("getGameGuideForSlug returns null for the games that still don't have a real guide yet", () => {
+test("getGameGuideForSlug returns null for a game that has no guide at all (debug-game)", () => {
 
-    for (const gameSlug of ["hollow-knight", "portal-2", "debug-game"]) {
-
-        assert.strictEqual(getGameGuideForSlug(gameSlug), null);
-
-    }
+    assert.strictEqual(getGameGuideForSlug("debug-game"), null);
 
 });
