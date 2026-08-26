@@ -46,6 +46,12 @@ docker run -p 3000:3000 --env-file .env achievementplanner-backend
 ```
 Any Node ≥22.5.0 host works too (`npm ci --omit=dev && npm start`) - the Dockerfile is a convenience, not a requirement. Either way, set real values for `STEAM_API_KEY`, `STEAM_RETURN_URL`, `STEAM_REALM`, and `SESSION_SECRET` (the server refuses to start without them - see `backend/.env.example`), and `COOKIE_SECURE=true` once served over HTTPS.
 
+**Persisting data across restarts (important):** the backend stores everything it needs to survive a restart - the Podiums leaderboard, player progress, and (since Phase 74) logged-in sessions - in one SQLite file at `backend/data/achievementplanner.db` (path overridable via `DATABASE_PATH`, see `backend/.env.example`). A container's own filesystem is thrown away on every redeploy unless that path is mounted as a persistent volume:
+```
+docker run -p 3000:3000 --env-file .env -v achievementplanner-data:/app/data achievementplanner-backend
+```
+Without `-v`, the app still runs correctly, but every visitor is logged out and every saved player/leaderboard row is lost on the next redeploy - the container starts from a fresh, empty database each time. `backend/data/` is excluded from the Docker build itself (`.dockerignore`), so a local dev database is never baked into the image.
+
 **Frontend** (repo root): still plain static files, deployable as-is to any static host (the same Node host behind a reverse proxy, or a separate static host like Netlify/Vercel/GitHub Pages/S3+CloudFront) - no build step.
 
 **Same-origin vs. split-origin** - `src/env.js` (`ENV.API_BASE_URL`) decides how the frontend finds the backend, and its default now auto-detects rather than always pointing at `localhost:3000` (a pre-Phase-73 bug that would have broken the app for every real visitor):

@@ -1,80 +1,87 @@
 import { test } from "node:test";
 import assert from "node:assert";
-import session from "express-session";
 
-// Finding 6 (PHASE_47-59_AUDIT.md, memory-growth half) - server.js now
-// constructs its own session.MemoryStore explicitly and periodically calls
-// its .all() method, purely to reclaim memory from sessions nobody ever
-// reads again (a visitor who logs in once and never returns). This relies
-// on a specific, real behavior of the *actual* express-session dependency
-// (not a mock): MemoryStore.all() deletes any session it finds already
-// expired while building its result list (see
-// node_modules/express-session/session/memory.js's getSession()). These
-// tests exercise the real, installed express-session package directly, so
-// a future version bump that ever changed this behavior would fail a test
-// here instead of silently reintroducing the memory leak.
+import { createLeaderboardDb } from "../services/leaderboardDb.js";
+import { SqliteSessionStore } from "../services/sqliteSessionStore.js";
 
-function setRawSession(store, sessionId, cookie, extra = {}) {
+// Finding 6 (PHASE_47-59_AUDIT.md, memory-growth half) originally documented
+// this against express-session's real session.MemoryStore.all(), which
+// server.js's periodic sweep called for its self-pruning side effect.
+// Phase 74 replaced that MemoryStore with SqliteSessionStore (a persistent
+// store, so a visitor's session now survives a restart too - the half of
+// Finding 6 that was still deferred back then) and server.js's sweep now
+// calls SqliteSessionStore.pruneExpired() instead of store.all(). These
+// tests exercise that same "does the periodic sweep actually reclaim
+// storage from a session nobody ever reads again" property against the
+// store production code now actually uses.
 
-    // Mirrors exactly what express-session's own Session.save()/Store.set()
-    // path writes: a JSON-serialized object with a `cookie` key whose
-    // `expires` is either a Date or an ISO string (both are handled by
-    // MemoryStore's own getSession()).
-    store.sessions[sessionId] = JSON.stringify({ cookie, ...extra });
+function setRawSession(store, sid, expiresAt, data = {}) {
+
+    store.db.prepare(`
+        INSERT INTO sessions (sid, session_data, expires_at)
+        VALUES (?, ?, ?)
+    `).run(sid, JSON.stringify(data), expiresAt);
 
 }
 
-test("MemoryStore.all() prunes a session whose cookie has already expired", () => {
+function hasRow(store, sid) {
 
-    const store = new session.MemoryStore();
+    return Boolean(store.db.prepare("SELECT 1 FROM sessions WHERE sid = ?").get(sid));
 
-    setRawSession(store, "expired-session-id", { expires: new Date(Date.now() - 1000).toISOString() });
+}
 
-    assert.ok("expired-session-id" in store.sessions, "sanity check: the raw entry must exist before the sweep");
+function newStore() {
 
-    // express-session's Store methods are callback-based but the deletion
-    // inside getSession() itself happens synchronously as .all() iterates
-    // - only the callback's own invocation is deferred (setImmediate).
-    // Asserting on the store's own raw state directly (not waiting on the
-    // callback) keeps this test free of any timing dependency.
-    store.all(() => {});
+    return new SqliteSessionStore({ db: createLeaderboardDb(":memory:") });
 
-    assert.strictEqual("expired-session-id" in store.sessions, false, "an expired session must be removed from the store's own backing object as soon as .all() examines it, not just excluded from the callback's result");
+}
 
-});
+test("pruneExpired() removes a session whose expires_at has already passed", () => {
 
-test("MemoryStore.all() leaves a not-yet-expired session untouched", () => {
+    const store = newStore();
 
-    const store = new session.MemoryStore();
+    setRawSession(store, "expired-session-id", new Date(Date.now() - 1000).toISOString());
 
-    setRawSession(store, "fresh-session-id", { expires: new Date(Date.now() + 60_000).toISOString() });
+    assert.ok(hasRow(store, "expired-session-id"), "sanity check: the raw row must exist before the sweep");
 
-    store.all(() => {});
+    store.pruneExpired();
 
-    assert.strictEqual("fresh-session-id" in store.sessions, true, "a session whose cookie has not yet expired must survive a sweep pass");
+    assert.strictEqual(hasRow(store, "expired-session-id"), false);
 
 });
 
-test("MemoryStore.all() is safe to call on an empty store", () => {
+test("pruneExpired() leaves a not-yet-expired session untouched", () => {
 
-    const store = new session.MemoryStore();
+    const store = newStore();
 
-    assert.doesNotThrow(() => store.all(() => {}));
+    setRawSession(store, "fresh-session-id", new Date(Date.now() + 60_000).toISOString());
+
+    store.pruneExpired();
+
+    assert.strictEqual(hasRow(store, "fresh-session-id"), true);
 
 });
 
-test("MemoryStore.all() correctly handles a mix of expired and fresh sessions in the same sweep", () => {
+test("pruneExpired() is safe to call on an empty store", () => {
 
-    const store = new session.MemoryStore();
+    const store = newStore();
 
-    setRawSession(store, "old-1", { expires: new Date(Date.now() - 5000).toISOString() });
-    setRawSession(store, "fresh-1", { expires: new Date(Date.now() + 60_000).toISOString() });
-    setRawSession(store, "old-2", { expires: new Date(Date.now() - 1).toISOString() });
+    assert.doesNotThrow(() => store.pruneExpired());
 
-    store.all(() => {});
+});
 
-    assert.strictEqual("old-1" in store.sessions, false);
-    assert.strictEqual("old-2" in store.sessions, false);
-    assert.strictEqual("fresh-1" in store.sessions, true);
+test("pruneExpired() correctly handles a mix of expired and fresh sessions in the same sweep", () => {
+
+    const store = newStore();
+
+    setRawSession(store, "old-1", new Date(Date.now() - 5000).toISOString());
+    setRawSession(store, "fresh-1", new Date(Date.now() + 60_000).toISOString());
+    setRawSession(store, "old-2", new Date(Date.now() - 1).toISOString());
+
+    store.pruneExpired();
+
+    assert.strictEqual(hasRow(store, "old-1"), false);
+    assert.strictEqual(hasRow(store, "old-2"), false);
+    assert.strictEqual(hasRow(store, "fresh-1"), true);
 
 });

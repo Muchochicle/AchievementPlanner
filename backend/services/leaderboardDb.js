@@ -180,6 +180,32 @@ function initSchema(db) {
         );
     `);
 
+    // Phase 74: backing store for express-session (see
+    // services/sqliteSessionStore.js), replacing server.js's in-memory
+    // session.MemoryStore - previously every logged-in visitor was
+    // silently logged out on any server restart/redeploy (deferred since
+    // PHASE_47-59_AUDIT.md's Finding 6). One row per session id.
+    // expires_at is its own indexed column (not read out of session_data's
+    // JSON) so a prune sweep is a plain indexed DELETE, not a full-table
+    // JSON.parse of every row. Reuses this same achievementplanner.db
+    // rather than a second database file - a session row is no different
+    // in kind from a player_progress row already stored here, and one file
+    // is simpler to back up/volume-mount than two.
+    db.exec(`
+        CREATE TABLE IF NOT EXISTS sessions (
+
+            sid            TEXT PRIMARY KEY,
+            session_data   TEXT NOT NULL,
+            expires_at     TEXT NOT NULL
+
+        );
+    `);
+
+    db.exec(`
+        CREATE INDEX IF NOT EXISTS idx_sessions_expires_at
+            ON sessions (expires_at);
+    `);
+
     // No schema-migration mechanism exists beyond these IF-NOT-EXISTS
     // statements - a future column/table addition here would silently
     // no-op against an already-created achievementplanner.db file, with no

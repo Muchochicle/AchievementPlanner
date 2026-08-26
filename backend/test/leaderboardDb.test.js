@@ -54,7 +54,7 @@ function indexNames(db) {
 
 }
 
-test("createLeaderboardDb creates the users, user_game_playtime and player_progress tables from an empty database", () => {
+test("createLeaderboardDb creates the users, user_game_playtime, player_progress and sessions tables from an empty database", () => {
 
     const db = createLeaderboardDb(":memory:");
 
@@ -62,7 +62,7 @@ test("createLeaderboardDb creates the users, user_game_playtime and player_progr
 
         assert.deepStrictEqual(
             tableNames(db),
-            ["player_progress", "user_game_playtime", "users"]
+            ["player_progress", "sessions", "user_game_playtime", "users"]
         );
 
     } finally {
@@ -112,7 +112,7 @@ test("the application works correctly when the database file (and its parent dir
             assert.strictEqual(fs.existsSync(dbPath), true);
             assert.deepStrictEqual(
                 tableNames(db),
-                ["player_progress", "user_game_playtime", "users"]
+                ["player_progress", "sessions", "user_game_playtime", "users"]
             );
 
         } finally {
