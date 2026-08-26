@@ -49,6 +49,57 @@ const defaultDeps = {
 
 };
 
+// express-session's destroy() is callback-based, wrapped in a Promise to
+// match regenerateSession() above.
+function destroySession(req) {
+
+    return new Promise((resolve, reject) => {
+
+        req.session.destroy(error => {
+
+            if (error) {
+
+                reject(error);
+
+            } else {
+
+                resolve();
+
+            }
+
+        });
+
+    });
+
+}
+
+// Idempotent by design - req.session always exists (the session
+// middleware creates it for every request, logged in or not), so this
+// succeeds the same way whether or not the caller was actually logged in.
+// res.clearCookie() must be called AFTER destroy() resolves, and with the
+// same defaults (name "connect.sid", path "/") express-session itself
+// uses to set the cookie - otherwise the browser keeps sending a cookie
+// that no longer has a matching row in the store (a stale-but-harmless
+// cookie, not a security issue given the store lookup already fails
+// closed to req.session.user being absent, but pointless to leave behind).
+export async function logout(req, res) {
+
+    try {
+
+        await destroySession(req);
+
+        res.clearCookie("connect.sid");
+
+        res.json({ success: true });
+
+    } catch (error) {
+
+        sendServerError(res, error, "POST /auth/steam/logout");
+
+    }
+
+}
+
 // Regenerating the session ID here - after Steam's response is verified,
 // but before the authenticated user is written into the session - is the
 // standard defense against session fixation: whatever session ID existed

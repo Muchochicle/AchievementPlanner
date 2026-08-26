@@ -22,7 +22,7 @@ export function createNavbar(
 ) {
 
     const rightContent = session?.logged
-        ? createPlayerWidget(session)
+        ? `${createPlayerWidget(session)}${createLogoutButton()}`
         : createLoginButton();
 
     return `
@@ -63,6 +63,26 @@ function createLoginButton() {
         >
             Log in with Steam
         </a>
+
+    `;
+
+}
+
+// A plain <button> (not a link - this triggers a POST via fetch, not a
+// navigation) wired up by layout.js's renderNavbar, matching the
+// player-widget's own click-handler-attached-after-innerHTML pattern right
+// below it in that file.
+function createLogoutButton() {
+
+    return `
+
+        <button
+            id="logout-btn"
+            class="logout-btn"
+            type="button"
+        >
+            Log out
+        </button>
 
     `;
 

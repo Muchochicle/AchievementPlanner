@@ -33,10 +33,24 @@ globalThis.localStorage = {
 // the Steam session"); progressFetchCount is the new call this phase adds.
 let sessionFetchCount = 0;
 let progressFetchCount = 0;
+let logoutFetchCount = 0;
+let logoutFetchOptions = null;
+let logoutShouldThrow = false;
 let fetchSession = { logged: false };
 let progressResponse = { success: true, state: null, updatedAt: null };
 
-globalThis.fetch = async (url) => {
+globalThis.fetch = async (url, options) => {
+
+    if (String(url).includes("/auth/steam/logout")) {
+
+        logoutFetchCount++;
+        logoutFetchOptions = options;
+
+        if (logoutShouldThrow) throw new Error("network down");
+
+        return { ok: true, json: async () => ({ success: true }) };
+
+    }
 
     if (String(url).includes("/api/player/progress")) {
 
@@ -62,10 +76,15 @@ function makeWidgetElement() {
 
     };
 
+    // Returns the handler's own return value (a Promise for the async
+    // logout-btn handler, undefined for the sync player-widget one) so
+    // callers that need to wait for an async handler to finish can
+    // `await` this, while every pre-existing sync-handler test that
+    // ignores the return value keeps working unchanged.
     el.click = () => {
 
-        el.handler?.();
         el.clicked++;
+        return el.handler?.();
 
     };
 
@@ -75,6 +94,7 @@ function makeWidgetElement() {
 
 let navbarHTML = "";
 let widgetEl = null;
+let logoutEl = null;
 let navbarPresent = true;
 
 const navbarEl = {
@@ -89,6 +109,7 @@ const navbarEl = {
         // any element a caller already fetched via getElementById is now
         // stale, and the next lookup must hand back a brand-new one.
         widgetEl = null;
+        logoutEl = null;
 
     }
 
@@ -107,6 +128,16 @@ globalThis.document = {
             widgetEl ??= makeWidgetElement();
 
             return widgetEl;
+
+        }
+
+        if (id === "logout-btn") {
+
+            if (!navbarHTML.includes('id="logout-btn"')) return null;
+
+            logoutEl ??= makeWidgetElement();
+
+            return logoutEl;
 
         }
 
@@ -130,6 +161,9 @@ test.beforeEach(() => {
     navbarPresent = true;
     sessionFetchCount = 0;
     progressFetchCount = 0;
+    logoutFetchCount = 0;
+    logoutFetchOptions = null;
+    logoutShouldThrow = false;
     fetchSession = { logged: false };
     // A non-null-but-empty state: exercises the normal "server already has
     // a row, pull it" path (a single GET, no seed-push) without matching
@@ -140,6 +174,7 @@ test.beforeEach(() => {
     progressResponse = { success: true, state: {}, updatedAt: "2026-08-01T00:00:00.000Z" };
     navbarHTML = "";
     widgetEl = null;
+    logoutEl = null;
 
 });
 
@@ -303,5 +338,53 @@ test("refreshPlayerWidget does not throw when #navbar is absent from the page", 
     navbarPresent = false;
 
     assert.doesNotThrow(() => refreshPlayerWidget(STEAM_SESSION));
+
+});
+
+test("the logout button renders only for a logged-in session", async () => {
+
+    fetchSession = { logged: false };
+
+    await loadNavbar();
+
+    assert.doesNotMatch(navbarHTML, /id="logout-btn"/);
+
+    fetchSession = STEAM_SESSION;
+
+    await loadNavbar();
+
+    assert.match(navbarHTML, /id="logout-btn"/);
+
+});
+
+test("clicking the logout button POSTs to /auth/steam/logout with credentials, then redirects to index.html", async () => {
+
+    fetchSession = STEAM_SESSION;
+
+    await loadNavbar();
+
+    window.location.href = "";
+
+    await document.getElementById("logout-btn").click();
+
+    assert.strictEqual(logoutFetchCount, 1);
+    assert.strictEqual(logoutFetchOptions.method, "POST");
+    assert.strictEqual(logoutFetchOptions.credentials, "include");
+    assert.strictEqual(window.location.href, "index.html");
+
+});
+
+test("clicking the logout button still redirects to index.html even when the logout request fails (best-effort)", async () => {
+
+    fetchSession = STEAM_SESSION;
+
+    await loadNavbar();
+
+    window.location.href = "";
+    logoutShouldThrow = true;
+
+    await document.getElementById("logout-btn").click();
+
+    assert.strictEqual(window.location.href, "index.html");
 
 });

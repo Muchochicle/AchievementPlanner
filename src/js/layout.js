@@ -3,7 +3,8 @@ import {
 } from "../components/navbar/navbar.js";
 
 import {
-    getSteamSession
+    getSteamSession,
+    logout
 } from "../utils/steam/steamSession.js";
 
 import {
@@ -23,6 +24,21 @@ function renderNavbar(navbar, session) {
         ?.addEventListener("click", () => {
 
             window.location.href = "profile.html";
+
+        });
+
+    // Best-effort on the server call (logout() never throws - see its own
+    // header comment) - the redirect to index.html always happens either
+    // way, since from the user's point of view clicking "Log out" must
+    // always visibly do something, and index.html is safe to land on
+    // regardless of whether the session ended up cleared server-side.
+    document
+        .getElementById("logout-btn")
+        ?.addEventListener("click", async () => {
+
+            await logout();
+
+            window.location.href = "index.html";
 
         });
 

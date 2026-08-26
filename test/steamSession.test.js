@@ -1,7 +1,15 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { getSteamDisplayName, getSteamAvatarUrl } from "../src/utils/steam/steamSession.js";
+import { getSteamDisplayName, getSteamAvatarUrl, logout } from "../src/utils/steam/steamSession.js";
+
+function mockFetch(impl) {
+
+    const original = globalThis.fetch;
+    globalThis.fetch = impl;
+    return () => { globalThis.fetch = original; };
+
+}
 
 // Only indirectly exercised before this file (via profileHeader.test.js
 // asserting on createProfileHeader()'s rendered HTML) - these are small,
@@ -73,5 +81,68 @@ test("getSteamAvatarUrl tolerates a missing/undefined/null session entirely", ()
     assert.strictEqual(getSteamAvatarUrl(undefined), null);
     assert.strictEqual(getSteamAvatarUrl(null), null);
     assert.strictEqual(getSteamAvatarUrl({}), null);
+
+});
+
+test("logout() POSTs to /auth/steam/logout with credentials included and returns a ready status on success", async () => {
+
+    const restore = mockFetch(async (url, options) => {
+
+        assert.match(url, /\/auth\/steam\/logout$/);
+        assert.strictEqual(options.method, "POST");
+        assert.strictEqual(options.credentials, "include");
+
+        return { ok: true, json: async () => ({ success: true }) };
+
+    });
+
+    try {
+
+        const result = await logout();
+
+        assert.strictEqual(result.status, "ready");
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("logout() returns an error status on a non-ok response, without throwing", async () => {
+
+    const restore = mockFetch(async () => ({ ok: false, json: async () => ({ success: false }) }));
+
+    try {
+
+        const result = await logout();
+
+        assert.strictEqual(result.status, "error");
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("logout() returns an error status when fetch itself rejects (network failure), without throwing", async () => {
+
+    const restore = mockFetch(async () => { throw new Error("network down"); });
+
+    try {
+
+        const result = await logout();
+
+        assert.strictEqual(result.status, "error");
+        assert.match(result.error.message, /network down/);
+
+    } finally {
+
+        restore();
+
+    }
 
 });

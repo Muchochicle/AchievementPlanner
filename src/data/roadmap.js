@@ -17,11 +17,6 @@ export const ROADMAP_ITEMS = [
     },
     {
         status: "planned",
-        title: "A log out button",
-        body: "Your Steam login currently just expires on its own after 24 hours - there's no way to end a session early. A real log out control is planned, mainly for anyone signed in on a shared or public computer."
-    },
-    {
-        status: "planned",
         title: "More games in the catalog",
         body: "Every game currently in AchievementPlanner has a complete, Steam-verified achievement list and a full written guide. Growing that catalog beyond the current lineup is ongoing."
     },
@@ -47,6 +42,10 @@ export const SHIPPED_HIGHLIGHTS = [
     {
         title: "Persistent login sessions",
         body: "Logging in with Steam now survives a server restart - you stay logged in through routine maintenance and redeploys, not just until the process happens to restart."
+    },
+    {
+        title: "A real log out button",
+        body: "A \"Log out\" control now sits right next to your player widget in the nav on every page - no more waiting out the 24-hour session expiry to end a session early on a shared or public computer."
     },
     {
         title: "Written achievement guides for every game",

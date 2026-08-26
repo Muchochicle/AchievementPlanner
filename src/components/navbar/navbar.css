@@ -142,6 +142,8 @@ nav a.active{
 
     align-items:flex-end;
 
+    gap:12px;
+
 }
 
 .steam-login-btn{
@@ -186,6 +188,52 @@ nav a.active{
 
 }
 
+.logout-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    align-self:center;
+
+    padding:10px 18px;
+
+    background:transparent;
+
+    color:var(--text-secondary);
+
+    font:inherit;
+    font-weight:600;
+    font-size:.85rem;
+
+    border:1px solid var(--border-strong);
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.logout-btn:hover{
+
+    color:var(--text);
+
+    border-color:var(--primary);
+
+}
+
+.logout-btn:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
 /* Below this width the logo + 4 nav links + login/player widget no
    longer fit on one row no matter how much they shrink - stack them
    predictably instead of letting them wrap unpredictably. The matching
@@ -209,9 +257,12 @@ nav a.active{
 
         width:100%;
 
+        flex-direction:column;
+
     }
 
-    .steam-login-btn{
+    .steam-login-btn,
+    .logout-btn{
 
         width:100%;
 
