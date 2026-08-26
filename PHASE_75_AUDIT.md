@@ -33,7 +33,7 @@ Full root suite (`npm test`, recurses into backend): **861/861 passing, unchange
 
 ## 7. Commit / push
 
-Committed and pushed to `origin/main`.
+Committed and pushed to `origin/main`. Commit: `62cac94` — `feat: Phase 75 - Railway + GitHub Pages deploy prep`.
 
 ## 8. Phase-end report
 
