@@ -71,7 +71,7 @@ Following the Hades guide's existing template and sourcing-rigor convention (`sr
 
 ## 10. Commit / push
 
-Committed and pushed to `origin/main`. Commit hash recorded in a follow-up commit to this file, per this project's convention.
+Committed and pushed to `origin/main`. Commit: `cfc175f` — `feat: Phase 73 - complete all game guides, fix production-blocking API URL bug`.
 
 ## 11. Phase-end report
 
