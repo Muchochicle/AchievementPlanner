@@ -1,0 +1,20 @@
+# Railway deploy config for the AchievementPlanner backend (Phase 74).
+# Applies when this service's Root Directory (Railway dashboard: Settings
+# > Source > Root Directory) is set to "backend" - Railway then reads this
+# file relative to that directory. See the root README.md's "Deploying to
+# Production" section for the full step-by-step Railway walkthrough,
+# including the one thing this file can't express: the persistent volume
+# (Settings > Volumes > New Volume, mount path "/app/data") that makes the
+# leaderboard/player-progress/session SQLite database survive a redeploy.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+# server.js's own GET "/" route returns 200 with no auth/session/DB
+# dependency (see PHASE_74_AUDIT.md) - a real liveness check, not a stub.
+healthcheckPath = "/"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
