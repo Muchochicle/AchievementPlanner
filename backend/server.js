@@ -295,9 +295,18 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3000;
 
-const httpServer = app.listen(PORT, () => {
+// Binding the host explicitly (rather than omitting it) matters on Railway
+// and similar container platforms: their edge proxy connects over IPv4, and
+// a bare app.listen(PORT) can end up bound only to the IPv6 "::" address in
+// that environment, leaving the process running but unreachable ("Network
+// Process" deploy failure with no error in the app's own logs). 0.0.0.0
+// covers every IPv4 interface, including loopback, so local tools/tests
+// connecting via 127.0.0.1 are unaffected.
+const HOST = "0.0.0.0";
 
-    console.log(`Server running on port ${PORT}`);
+const httpServer = app.listen(PORT, HOST, () => {
+
+    console.log(`Server running on port ${PORT} (host ${HOST})`);
 
 });
 

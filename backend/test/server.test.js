@@ -127,6 +127,52 @@ test("accepts a SESSION_SECRET exactly at the 32-character minimum", async () =>
 
 });
 
+test("binds to 0.0.0.0, not just localhost/IPv6-only, so container platforms like Railway can reach it", async () => {
+
+    // Regression test for a real deploy failure: app.listen(PORT) with no
+    // host argument can end up bound to the IPv6 "::" address only in some
+    // container network stacks, leaving the process running but
+    // unreachable from the platform's own edge proxy (which connects over
+    // IPv4) - the process looks healthy in its own logs, but the deploy's
+    // network/healthcheck step fails. Asserting on the explicit "(host
+    // 0.0.0.0)" the startup log prints (server.js) is deterministic across
+    // CI environments, unlike asserting on real interface reachability,
+    // which depends on network interfaces that may not exist in a sandbox.
+    const child = spawn("node", [SERVER_PATH], {
+        cwd: BACKEND_DIR,
+        env: { ...process.env, PORT: "0" },
+        stdio: ["ignore", "pipe", "pipe"]
+    });
+
+    let stdout = "";
+
+    await new Promise((resolve, reject) => {
+
+        const timeout = setTimeout(resolve, 2000);
+
+        child.stdout.on("data", chunk => {
+
+            stdout += chunk;
+
+            if (stdout.includes("Server running on port")) {
+
+                clearTimeout(timeout);
+                resolve();
+
+            }
+
+        });
+
+        child.on("error", reject);
+
+    });
+
+    child.kill();
+
+    assert.match(stdout, /Server running on port 0 \(host 0\.0\.0\.0\)/);
+
+});
+
 test("starts successfully and stays running when all required variables are present", async () => {
 
     // Relies on backend/.env already containing valid values locally
