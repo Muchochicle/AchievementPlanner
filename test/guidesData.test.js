@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 34);
+    assert.strictEqual(GAME_GUIDES.length, 37);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -57,6 +57,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "cuphead-achievement-guide",
             "dead-cells-achievement-guide",
             "disco-elysium-achievement-guide",
+            "guacamelee-2-achievement-guide",
             "hades-achievement-guide",
             "hollow-knight-achievement-guide",
             "hyper-light-drifter-achievement-guide",
@@ -80,7 +81,9 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "the-forgotten-city-achievement-guide",
             "the-messenger-achievement-guide",
             "the-stanley-parable-achievement-guide",
+            "thomas-was-alone-achievement-guide",
             "transistor-achievement-guide",
+            "va11-hall-a-achievement-guide",
             "what-remains-of-edith-finch-achievement-guide"
         ]
     );

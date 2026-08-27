@@ -66,6 +66,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("pyre"));
     assert.ok(slugs.includes("steamworld-dig-2"));
     assert.ok(slugs.includes("the-forgotten-city"));
+    assert.ok(slugs.includes("guacamelee-2"));
+    assert.ok(slugs.includes("va11-hall-a"));
+    assert.ok(slugs.includes("thomas-was-alone"));
 
 });
 

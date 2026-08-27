@@ -42,6 +42,9 @@ import { GUIDE as theMessengerAchievementGuide } from "./games/the-messenger.js"
 import { GUIDE as pyreAchievementGuide } from "./games/pyre.js";
 import { GUIDE as steamworldDig2AchievementGuide } from "./games/steamworld-dig-2.js";
 import { GUIDE as theForgottenCityAchievementGuide } from "./games/the-forgotten-city.js";
+import { GUIDE as guacamelee2AchievementGuide } from "./games/guacamelee-2.js";
+import { GUIDE as va11HallAAchievementGuide } from "./games/va11-hall-a.js";
+import { GUIDE as thomasWasAloneAchievementGuide } from "./games/thomas-was-alone.js";
 
 export const APP_GUIDES = [
 
@@ -106,7 +109,10 @@ export const GAME_GUIDES = [
     theMessengerAchievementGuide,
     pyreAchievementGuide,
     steamworldDig2AchievementGuide,
-    theForgottenCityAchievementGuide
+    theForgottenCityAchievementGuide,
+    guacamelee2AchievementGuide,
+    va11HallAAchievementGuide,
+    thomasWasAloneAchievementGuide
 
 ];
 
