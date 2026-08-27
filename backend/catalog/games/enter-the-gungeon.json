@@ -1,0 +1,568 @@
+{
+    "id": 311690,
+    "steamAppId": 311690,
+
+    "name": "Enter the Gungeon",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311690/header.jpg",
+
+    "difficulty": 7,
+
+    "completionTime": {
+        "min": 20,
+        "max": 60
+    },
+
+    "missable": false,
+
+    "playthroughs": 3,
+
+    "hasGuide": true,
+
+    "genres": ["Roguelike","Bullet Hell","Action","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "COLLECT_FIVE_MASTERY_TOKENS",
+            "name": "Lead God",
+            "description": "Collect five Master Rounds in one run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 2,
+            "apiname": "SPEND_META_CURRENCY",
+            "name": "Patron",
+            "description": "Spend big at the Acquisitions Department",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "COMPLETE_GAME_WITH_ENCHANTED_GUN",
+            "name": "Gun Game",
+            "description": "Complete the game with the Sorceress' Enchanted Gun.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "BEAT_FLOOR_SIX",
+            "name": "Gungeon Master",
+            "description": "Clear the Sixth Chamber (Bullet Hell) - reachable only after defeating every starting character's Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "BUILD_BULLET",
+            "name": "Gunsmith",
+            "description": "Construct the Bullet that can kill the Past",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 6,
+            "apiname": "BEAT_PAST_ALL",
+            "name": "Historian",
+            "description": "Complete all 4 main character Pasts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "BEAT_PAST_ROGUE",
+            "name": "Wingman",
+            "description": "Beat the game as the Pilot while carrying the Bullet That Can Kill The Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "BEAT_PAST_CONVICT",
+            "name": "Double Jeopardy",
+            "description": "Complete the game as the Convict while carrying the Bullet That Can Kill The Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "BEAT_PAST_MARINE",
+            "name": "Squad Captain",
+            "description": "Finish the game as the Marine while carrying the Bullet That Can Kill The Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "BEAT_PAST_GUIDE",
+            "name": "Deadliest Game",
+            "description": "Complete the game as the Hunter while carrying the Bullet That Can Kill The Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "BEAT_FLOOR_FIVE",
+            "name": "Slayer",
+            "description": "Defeat the Boss of the Fifth Chamber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 12,
+            "apiname": "BEAT_FLOOR_ONE_MULTI",
+            "name": "Castle Crasher",
+            "description": "Clear the First Chamber 50 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 13,
+            "apiname": "BEAT_FLOOR_TWO_MULTI",
+            "name": "Dungeon Diver",
+            "description": "Clear the Second Chamber 40 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 14,
+            "apiname": "BEAT_FLOOR_THREE_MULTI",
+            "name": "Mine Master",
+            "description": "Clear the Third Chamber 30 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 15,
+            "apiname": "BEAT_FLOOR_FOUR_MULTI",
+            "name": "Hollowed Out",
+            "description": "Clear the Fourth Chamber 20 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 16,
+            "apiname": "BEAT_FLOOR_FIVE_MULTI",
+            "name": "Forger",
+            "description": "Clear the Fifth Chamber 10 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "HAVE_MANY_COINS",
+            "name": "Biggest Wallet",
+            "description": "Carry a large amount of money at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "MAP_MAIN_FLOORS",
+            "name": "Cartographer's Assistant",
+            "description": "Map the first Five Chambers for the lost adventurer",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 19,
+            "apiname": "REACH_SEWERS",
+            "name": "Grate Hall",
+            "description": "Access the Oubliette by finding a fireplace, extinguishing it with a water barrel, and unlocking the hatch with 2 keys.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 20,
+            "apiname": "REACH_CATHEDRAL",
+            "name": "Reverence for the Dead",
+            "description": "Access the Cathedral by retrieving the old crest armor from the Oubliette and placing it on an altar in the Second Chamber.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 21,
+            "apiname": "COMPLETE_GOLEM_ARM",
+            "name": "Re-Armed",
+            "description": "Deliver the Golem's replacement arm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 22,
+            "apiname": "COMPLETE_FRIFLE_MULTI",
+            "name": "Weird Tale",
+            "description": "Complete Frifle's Challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACE_WINCHESTER_MULTI",
+            "name": "Trickshot",
+            "description": "Ace Winchester's game 3 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "COMPLETE_GUNSLING_MULTI",
+            "name": "Hedge Slinger",
+            "description": "Win a wager against the Gunsling King 5 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "UNLOCK_BULLET",
+            "name": "Case Closed",
+            "description": "Unlock the Bullet character by encountering the Bullet Kin five times after killing any character's Past without attacking it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 26,
+            "apiname": "UNLOCK_ROBOT",
+            "name": "Beep",
+            "description": "Unlock the Robot character by retrieving a busted television from the Second Chamber's elevator shaft and bringing it to the Blacksmith.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 27,
+            "apiname": "UNLOCK_FLOOR_TWO_SHORTCUT",
+            "name": "Going Down",
+            "description": "Open the shortcut to the Second Chamber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 28,
+            "apiname": "UNLOCK_FLOOR_THREE_SHORTCUT",
+            "name": "Going Downer",
+            "description": "Open the shortcut to the Third Chamber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 29,
+            "apiname": "UNLOCK_FLOOR_FOUR_SHORTCUT",
+            "name": "Going Downest",
+            "description": "Open the shortcut to the Fourth Chamber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 30,
+            "apiname": "UNLOCK_FLOOR_FIVE_SHORTCUT",
+            "name": "Last Stop",
+            "description": "Open the shortcut to the Fifth Chamber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 31,
+            "apiname": "BEAT_MANFREDS_RIVAL",
+            "name": "Sworn Gun",
+            "description": "Avenge Manuel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 32,
+            "apiname": "BEAT_TUTORIAL",
+            "name": "Gungeon Acolyte",
+            "description": "Complete the Tutorial",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 33,
+            "apiname": "POPULATE_BREACH",
+            "name": "Great Hall",
+            "description": "Populate the Breach",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 34,
+            "apiname": "PREFIRE_ON_MIMIC",
+            "name": "Not Just A Box",
+            "description": "Get the jump on a Mimic by waiting near a chest until it opens its mouth, then attacking it first.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 35,
+            "apiname": "KILL_FROZEN_ENEMY_WITH_ROLL",
+            "name": "Demolition Man",
+            "description": "Kill a frozen enemy by rolling into it",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 36,
+            "apiname": "PUSH_TABLE_INTO_PIT",
+            "name": "I Knew Someone Would Do It",
+            "description": "Push a table into a pit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 37,
+            "apiname": "STEAL_MULTI",
+            "name": "Woodsie Lord",
+            "description": "Steal 10 things",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 38,
+            "apiname": "KILL_BOSS_WITH_GLITTER",
+            "name": "Day Ruiner",
+            "description": "Kill a boss after covering it with glitter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 39,
+            "apiname": "FALL_IN_END_TIMES",
+            "name": "Lion Leap",
+            "description": "Jump off the path after defeating the Fifth Chamber boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 40,
+            "apiname": "KILL_WITH_CHANDELIER_MULTI",
+            "name": "Money Pit",
+            "description": "Kill 100 enemies by dropping chandeliers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "KILL_IN_MINE_CART_MULTI",
+            "name": "Rider",
+            "description": "Kill 100 enemies while riding in a mine cart",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 42,
+            "apiname": "KILL_WITH_PITS_MULTI",
+            "name": "Pit Lord",
+            "description": "Kill 100 enemies by knocking them into pits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "DIE_IN_PAST",
+            "name": "Time Paradox",
+            "description": "Travel to any character's Past and lose all your health there.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 44,
+            "apiname": "BEAT_A_JAMMED_BOSS",
+            "name": "Exorcist",
+            "description": "Defeat a boss while Jammed (all ten curse stacks active).",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "REACH_BLACK_MARKET",
+            "name": "The Password",
+            "description": "Access the Hidden Market by entering a demon-face door while carrying either one curse or 100 shells.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 46,
+            "apiname": "HAVE_MAX_CURSE",
+            "name": "Jammed",
+            "description": "Accumulate all ten curse stacks in a single run.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 47,
+            "apiname": "FLIP_TABLES_MULTI",
+            "name": "Rage Mode",
+            "description": "Always be flipping. Guns are for flippers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "COMPLETE_GAME_WITH_BEAST_MODE",
+            "name": "Beast Master",
+            "description": "Complete the game with Beast Mode on",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 49,
+            "apiname": "BEAT_PAST_ROBOT",
+            "name": "Terminated",
+            "description": "Defeat the Robot's Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 50,
+            "apiname": "BEAT_PAST_BULLET",
+            "name": "Hero of Gun",
+            "description": "Defeat the Bullet's Past.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "COMPLETE_GAME_WITH_CHALLENGE_MODE",
+            "name": "Challenger",
+            "description": "Complete a run in Challenge Mode, unlocked from Daisuke at the Breach.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 52,
+            "apiname": "BEAT_ADVANCED_DRAGUN",
+            "name": "Advanced Slayer",
+            "description": "Defeat an Advanced Boss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 53,
+            "apiname": "BEAT_METAL_GEAR_RAT",
+            "name": "Resourceful",
+            "description": "Take Revenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 54,
+            "apiname": "COMPLETE_GAME_WITH_TURBO_MODE",
+            "name": "Sledge-Dog",
+            "description": "Complete Tonic's Challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+
+    ]
+
+}

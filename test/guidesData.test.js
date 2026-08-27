@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 47);
+    assert.strictEqual(GAME_GUIDES.length, 50);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cult-of-the-lamb", "cuphead", "darkest-dungeon", "dead-cells", "deaths-door", "disco-elysium", "frostpunk", "ftl", "furi", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "moonlighter", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cult-of-the-lamb", "cuphead", "darkest-dungeon", "dead-cells", "deaths-door", "disco-elysium", "enter-the-gungeon", "frostpunk", "ftl", "furi", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "loop-hero", "mark-of-the-ninja", "moonlighter", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -60,6 +60,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "dead-cells-achievement-guide",
             "deaths-door-achievement-guide",
             "disco-elysium-achievement-guide",
+            "enter-the-gungeon-achievement-guide",
             "frostpunk-achievement-guide",
             "ftl-achievement-guide",
             "furi-achievement-guide",
@@ -70,6 +71,8 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "inside-achievement-guide",
             "into-the-breach-achievement-guide",
             "limbo-achievement-guide",
+            "loop-hero-achievement-guide",
+            "mark-of-the-ninja-achievement-guide",
             "moonlighter-achievement-guide",
             "ori-and-the-blind-forest-achievement-guide",
             "ori-and-the-will-of-the-wisps-achievement-guide",

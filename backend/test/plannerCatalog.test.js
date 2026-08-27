@@ -79,6 +79,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("into-the-breach"));
     assert.ok(slugs.includes("cult-of-the-lamb"));
     assert.ok(slugs.includes("ftl"));
+    assert.ok(slugs.includes("mark-of-the-ninja"));
+    assert.ok(slugs.includes("enter-the-gungeon"));
+    assert.ok(slugs.includes("loop-hero"));
 
 });
 

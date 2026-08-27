@@ -55,6 +55,9 @@ import { GUIDE as spelunky2AchievementGuide } from "./games/spelunky-2.js";
 import { GUIDE as intoTheBreachAchievementGuide } from "./games/into-the-breach.js";
 import { GUIDE as cultOfTheLambAchievementGuide } from "./games/cult-of-the-lamb.js";
 import { GUIDE as ftlAchievementGuide } from "./games/ftl.js";
+import { GUIDE as markOfTheNinjaAchievementGuide } from "./games/mark-of-the-ninja.js";
+import { GUIDE as enterTheGungeonAchievementGuide } from "./games/enter-the-gungeon.js";
+import { GUIDE as loopHeroAchievementGuide } from "./games/loop-hero.js";
 
 export const APP_GUIDES = [
 
@@ -132,7 +135,10 @@ export const GAME_GUIDES = [
     spelunky2AchievementGuide,
     intoTheBreachAchievementGuide,
     cultOfTheLambAchievementGuide,
-    ftlAchievementGuide
+    ftlAchievementGuide,
+    markOfTheNinjaAchievementGuide,
+    enterTheGungeonAchievementGuide,
+    loopHeroAchievementGuide
 
 ];
 
