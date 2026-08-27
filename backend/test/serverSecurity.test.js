@@ -232,6 +232,35 @@ test("session cookie carries a ~24h expiry (Max-Age), HttpOnly, and SameSite att
 
 });
 
+test("with COOKIE_SECURE=true behind a trusted proxy over HTTPS, the session cookie is SameSite=None and Secure (required for the real split-origin frontend/backend deployment)", async () => {
+
+    await withServer({ COOKIE_SECURE: "true", TRUST_PROXY: "true" }, async ({ baseUrl }) => {
+
+        // X-Forwarded-Proto: https is exactly what Railway's real
+        // TLS-terminating edge proxy sends on every request - TRUST_PROXY
+        // makes express trust it, which is what lets issecure() (see
+        // express-session/index.js) treat this as a real HTTPS connection
+        // and actually issue a `secure: true` cookie instead of silently
+        // withholding it (the other COOKIE_SECURE=true test above).
+        const res = await fetch(`${baseUrl}/auth/steam/login`, {
+            redirect: "manual",
+            headers: { "X-Forwarded-Proto": "https" }
+        });
+
+        const setCookieHeaders = res.headers.getSetCookie();
+        const sessionCookie = setCookieHeaders.find(c => c.startsWith("connect.sid="));
+
+        assert.ok(sessionCookie, "expected a connect.sid session cookie to be set over a trusted-proxy HTTPS connection");
+
+        const attributes = sessionCookie.split(";").map(part => part.trim().toLowerCase());
+
+        assert.ok(attributes.some(a => a === "samesite=none"), "session cookie should be SameSite=None when COOKIE_SECURE=true, so the split-origin frontend's cross-site fetch(credentials:include) calls actually carry it");
+        assert.ok(attributes.some(a => a === "secure"), "session cookie should be Secure when COOKIE_SECURE=true (required for SameSite=None to be honored at all)");
+
+    });
+
+});
+
 test("with COOKIE_SECURE=true, a plain-HTTP request gets no session cookie at all (fails closed, never sent insecurely)", async () => {
 
     await withServer({ COOKIE_SECURE: "true" }, async ({ baseUrl }) => {

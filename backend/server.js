@@ -172,14 +172,31 @@ const sessionSweepTimer = setInterval(() => {
 
 sessionSweepTimer.unref();
 
+// Split-origin production (this app's real deployment shape - a GitHub
+// Pages frontend calling a separate Railway backend origin, see README's
+// "Deploying to Production") means every authenticated request is a
+// cross-site fetch(..., {credentials: "include"}) call, never a same-site
+// one. A SameSite=Lax cookie is withheld by the browser on exactly that
+// kind of request (Lax only rides along on a top-level navigation, e.g.
+// the Steam login/return redirects themselves - never a subresource
+// fetch/XHR) - so the login flow completed, a real session cookie was set,
+// and it was then silently never sent back on the frontend's own /api/me
+// check, reading as "login succeeded but you're still logged out". Fixing
+// this requires SameSite=None, which browsers refuse to honor without
+// Secure also being true - so this can't be a separate, independently-set
+// option; it has to follow COOKIE_SECURE the same way `secure` already
+// does. Same-origin local dev (COOKIE_SECURE=false, no split origin to
+// begin with) keeps today's Lax behavior unchanged.
+const isSecureCookieDeployment = process.env.COOKIE_SECURE === "true";
+
 app.use(session({
     store: sessionStore,
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
     cookie: {
-        sameSite: "lax",
-        secure: process.env.COOKIE_SECURE === "true",
+        sameSite: isSecureCookieDeployment ? "none" : "lax",
+        secure: isSecureCookieDeployment,
         maxAge: SESSION_MAX_AGE_MS
     }
 }));
