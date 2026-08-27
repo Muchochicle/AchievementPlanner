@@ -38,6 +38,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("celeste"));
     assert.ok(slugs.includes("inside"));
     assert.ok(slugs.includes("portal"));
+    assert.ok(slugs.includes("limbo"));
+    assert.ok(slugs.includes("braid"));
+    assert.ok(slugs.includes("ori-and-the-blind-forest"));
 
 });
 

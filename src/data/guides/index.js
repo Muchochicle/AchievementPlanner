@@ -14,6 +14,9 @@ import { GUIDE as hollowKnightAchievementGuide } from "./games/hollow-knight.js"
 import { GUIDE as celesteAchievementGuide } from "./games/celeste.js";
 import { GUIDE as insideAchievementGuide } from "./games/inside.js";
 import { GUIDE as portalAchievementGuide } from "./games/portal.js";
+import { GUIDE as limboAchievementGuide } from "./games/limbo.js";
+import { GUIDE as braidAchievementGuide } from "./games/braid.js";
+import { GUIDE as oriAndTheBlindForestAchievementGuide } from "./games/ori-and-the-blind-forest.js";
 
 export const APP_GUIDES = [
 
@@ -50,7 +53,10 @@ export const GAME_GUIDES = [
     hollowKnightAchievementGuide,
     celesteAchievementGuide,
     insideAchievementGuide,
-    portalAchievementGuide
+    portalAchievementGuide,
+    limboAchievementGuide,
+    braidAchievementGuide,
+    oriAndTheBlindForestAchievementGuide
 
 ];
 

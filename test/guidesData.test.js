@@ -30,7 +30,7 @@ test("Phase 37 ships exactly the 9 approved App Guides (5 rewritten + 4 new)", (
 
 });
 
-test("every real catalog game has a real, sourced Game Guide (Hades, Portal 2, Hollow Knight, Celeste, INSIDE, Portal)", () => {
+test("every real catalog game has a real, sourced Game Guide", () => {
 
     // Per the approved scope: every non-debug game in this app's catalog
     // (backend/catalog/games/*.json) has real, sourced content here - see
@@ -38,20 +38,23 @@ test("every real catalog game has a real, sourced Game Guide (Hades, Portal 2, H
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 6);
+    assert.strictEqual(GAME_GUIDES.length, 9);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["celeste", "hades", "hollow-knight", "inside", "portal", "portal-2"]
+        ["braid", "celeste", "hades", "hollow-knight", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2"]
     );
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.slug).sort(),
         [
+            "braid-achievement-guide",
             "celeste-achievement-guide",
             "hades-achievement-guide",
             "hollow-knight-achievement-guide",
             "inside-achievement-guide",
+            "limbo-achievement-guide",
+            "ori-and-the-blind-forest-achievement-guide",
             "portal-2-achievement-guide",
             "portal-achievement-guide"
         ]
