@@ -146,6 +146,22 @@ nav a.active{
 
 }
 
+/* Groups the login button (or player widget + logout button) as one unit,
+   distinct from .nav-toggle - .navbar-right now has exactly 2 children
+   instead of 3+, which the mobile grid layout below relies on to place
+   the toggle independently of the rest of the account state. Repeats
+   .navbar-right's own flex/gap/alignment so desktop looks pixel-identical
+   to before this wrapper existed. */
+.navbar-account{
+
+    display:flex;
+
+    align-items:flex-end;
+
+    gap:12px;
+
+}
+
 .steam-login-btn{
 
     display:flex;
@@ -339,31 +355,68 @@ nav a.active{
 /* Below this width the logo + 4 nav links + login/player widget no
    longer fit on one row no matter how much they shrink. Rather than
    stacking everything vertically (the old behavior - a very tall navbar
-   that ate most of the viewport on a phone), the nav links and logout
-   button collapse into a toggleable dropdown, leaving a single compact
-   bar (logo, account state, hamburger) always visible. The matching body
-   padding-top override (style.css) is sized to that shorter collapsed bar,
+   that ate most of the viewport on a phone) or a plain left-aligned
+   compact bar, this matches the common "hamburger left, brand centered,
+   account right" mobile pattern (e.g. Renfe's site) - the nav links still
+   collapse into a toggleable dropdown below when they don't fit, which
+   they never do at this width; if a future 3-column arrangement ever did
+   fit, this same grid would already center it correctly. The matching
+   body padding-top override (style.css) is sized to this compact row,
    not the dropdown - the open dropdown overlays page content instead of
    pushing it down, the standard mobile-menu pattern. */
 @media (max-width:640px){
 
+    /* .navbar-left and .navbar-right exist purely for desktop's layout
+       (see their own base rules above) and for grouping in the markup -
+       display:contents dissolves them as boxes so their own children
+       (logo, nav, .navbar-account, .nav-toggle) become direct grid items
+       of .container below, free to be placed by `order` independently of
+       which of the two original wrapper divs they came from. */
+    .navbar-left,
+    .navbar-right{
+
+        display:contents;
+
+    }
+
     .navbar .container{
+
+        display:grid;
+
+        grid-template-columns:auto 1fr auto;
+
+        align-items:center;
+
+        column-gap:12px;
 
         padding:12px 0;
 
     }
 
-    .navbar-left{
+    .nav-toggle{
 
-        flex-direction:row;
+        display:flex;
 
-        align-items:center;
-
-        gap:12px;
+        order:1;
 
     }
 
     .logo{
+
+        order:2;
+
+        justify-self:center;
+
+        text-align:center;
+
+        /* Without this, a grid item's default min-width:auto lets its
+           natural content width (the full "Achievement Planner" text at
+           this font-size) force the center column wider than the account
+           area actually leaves room for, squeezing/overflowing the bar
+           when logged in (player widget + logout button both present).
+           This lets it shrink and wrap to 2 lines instead when the
+           account area is wide enough to demand it. */
+        min-width:0;
 
         padding-bottom:0;
 
@@ -377,49 +430,11 @@ nav a.active{
 
     }
 
-    /* The nav links (see nav-links.js's <nav id="nav-menu">) collapse
-       into a dropdown positioned relative to .navbar (already
-       position:fixed, so it's this dropdown's containing block) -
-       overlaying the page below the compact bar rather than pushing it
-       down. Collapsed by default; layout.js toggles .nav-open on
-       #navbar to reveal it. */
-    .navbar-left nav{
+    .navbar-account{
 
-        display:none;
+        order:3;
 
-        position:absolute;
-
-        top:100%;
-        left:0;
-        right:0;
-
-        flex-direction:column;
-
-        gap:0;
-
-        padding:8px 0;
-
-        background:#1b2435;
-
-        border-bottom:1px solid rgba(255,255,255,.08);
-
-        box-shadow:0 8px 25px rgba(0,0,0,.25);
-
-    }
-
-    .navbar-left nav a{
-
-        padding:14px min(4%, 24px);
-
-    }
-
-    #navbar.nav-open .navbar-left nav{
-
-        display:flex;
-
-    }
-
-    .navbar-right{
+        justify-self:end;
 
         flex-wrap:nowrap;
 
@@ -449,7 +464,48 @@ nav a.active{
 
     }
 
-    .nav-toggle{
+    /* The nav links (see nav-links.js's <nav id="nav-menu">) collapse
+       into a dropdown - order:4 plus spanning every column keeps it
+       below the toggle/logo/account row regardless of their relative
+       widths, then position:absolute (relative to .navbar, already
+       position:fixed - this dropdown's containing block) makes it
+       overlay the page below that row rather than pushing it down.
+       Collapsed by default; layout.js toggles .nav-open on #navbar to
+       reveal it. */
+    .navbar-left nav{
+
+        display:none;
+
+        order:4;
+        grid-column:1 / -1;
+
+        position:absolute;
+
+        top:100%;
+        left:0;
+        right:0;
+
+        flex-direction:column;
+
+        gap:0;
+
+        padding:8px 0;
+
+        background:#1b2435;
+
+        border-bottom:1px solid rgba(255,255,255,.08);
+
+        box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+    }
+
+    .navbar-left nav a{
+
+        padding:14px min(4%, 24px);
+
+    }
+
+    #navbar.nav-open .navbar-left nav{
 
         display:flex;
 

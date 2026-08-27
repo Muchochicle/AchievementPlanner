@@ -226,18 +226,19 @@ body{
 
 }
 
-/* Matches the collapsed mobile navbar's compact single-row bar in
-   navbar.css (logo, account state, hamburger toggle - nav links and any
-   other content collapse into a dropdown that overlays the page instead
-   of pushing it down, so this only needs to clear that one row, not the
-   open dropdown's height). Shorter than the desktop offset above because
-   the mobile bar itself is shorter (smaller logo, no second nav-links
-   row). */
+/* Matches the collapsed mobile navbar's compact bar in navbar.css (logo,
+   account state, hamburger toggle - nav links and any other content
+   collapse into a dropdown that overlays the page instead of pushing it
+   down, so this only needs to clear that one row, not the open
+   dropdown's height). The centered logo (navbar.css's 3-column grid) can
+   wrap to 2 lines when squeezed between a wide account area and the
+   toggle, so this allows a bit more room than a guaranteed single-line
+   bar would need. */
 @media (max-width:640px){
 
     body{
 
-        padding-top:80px;
+        padding-top:96px;
 
     }
 

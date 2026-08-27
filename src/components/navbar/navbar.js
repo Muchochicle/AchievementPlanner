@@ -41,7 +41,11 @@ export function createNavbar(
 
                 <div class="navbar-right">
 
-                    ${rightContent}
+                    <div class="navbar-account">
+
+                        ${rightContent}
+
+                    </div>
 
                     ${createNavToggle()}
 
@@ -56,13 +60,14 @@ export function createNavbar(
 }
 
 // Mobile-only (hidden on desktop via CSS - see navbar.css) hamburger
-// toggle for the primary nav links (and, when logged in, the logout
-// button - see navbar.css's shared .nav-open gating). Always rendered
-// after the login button/player widget in markup order, matching how it
-// must read visually: account state first, menu toggle last. Wired up in
-// layout.js's renderNavbar, the same place every other navbar control's
-// click listener is attached, since innerHTML replacement discards it on
-// every re-render.
+// toggle for the primary nav links dropdown (see navbar.css's .nav-open
+// gating). A sibling of .navbar-account, not a child of it - the mobile
+// layout (navbar.css) uses CSS Grid with `order` to place this on the far
+// left, the logo centered, and .navbar-account (login button, or player
+// widget + logout button) on the right, independent of this markup order.
+// Wired up in layout.js's renderNavbar, the same place every other navbar
+// control's click listener is attached, since innerHTML replacement
+// discards it on every re-render.
 function createNavToggle() {
 
     return `
