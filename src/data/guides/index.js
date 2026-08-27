@@ -45,6 +45,9 @@ import { GUIDE as theForgottenCityAchievementGuide } from "./games/the-forgotten
 import { GUIDE as guacamelee2AchievementGuide } from "./games/guacamelee-2.js";
 import { GUIDE as va11HallAAchievementGuide } from "./games/va11-hall-a.js";
 import { GUIDE as thomasWasAloneAchievementGuide } from "./games/thomas-was-alone.js";
+import { GUIDE as furiAchievementGuide } from "./games/furi.js";
+import { GUIDE as voidBastardsAchievementGuide } from "./games/void-bastards.js";
+import { GUIDE as deathsDoorAchievementGuide } from "./games/deaths-door.js";
 
 export const APP_GUIDES = [
 
@@ -112,7 +115,10 @@ export const GAME_GUIDES = [
     theForgottenCityAchievementGuide,
     guacamelee2AchievementGuide,
     va11HallAAchievementGuide,
-    thomasWasAloneAchievementGuide
+    thomasWasAloneAchievementGuide,
+    furiAchievementGuide,
+    voidBastardsAchievementGuide,
+    deathsDoorAchievementGuide
 
 ];
 

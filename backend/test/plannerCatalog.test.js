@@ -69,6 +69,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("guacamelee-2"));
     assert.ok(slugs.includes("va11-hall-a"));
     assert.ok(slugs.includes("thomas-was-alone"));
+    assert.ok(slugs.includes("furi"));
+    assert.ok(slugs.includes("void-bastards"));
+    assert.ok(slugs.includes("deaths-door"));
 
 });
 
