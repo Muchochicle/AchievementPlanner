@@ -353,26 +353,47 @@ nav a.active{
 }
 
 /* Below this width the logo + 4 nav links + login/player widget no
-   longer fit on one row no matter how much they shrink. The nav links
-   always collapse into a toggleable dropdown that overlays the page below
-   a single compact bar (rather than the old behavior - stacking
-   everything vertically, a very tall navbar that ate most of the
-   viewport). That compact bar itself has two layouts, chosen by whether
-   .logout-btn is present (i.e. logged in - see the :has() rules below):
-   logged out, where the account area is just a login button, gets the
-   "hamburger left, brand centered, account right" pattern (e.g. Renfe's
-   site); logged in, where the account area is a full player widget +
-   logout button, is too wide to center the brand name between it and the
-   toggle without truncating it into illegibility or overlapping - that
-   case falls back to a plain left-aligned bar instead (logo left, account
-   + toggle right), the simpler layout this component used before the
-   centered redesign. The matching body padding-top override (style.css)
-   is sized to this compact row either way, not the open dropdown. */
+   longer fit on one row no matter how much they shrink. Rather than
+   stacking everything vertically (the old behavior - a very tall navbar
+   that ate most of the viewport on a phone), this uses a single compact
+   bar in the common "hamburger left, brand centered, account right"
+   pattern (e.g. Renfe's site) - the nav links collapse into a toggleable
+   dropdown that overlays the page below it. Getting this one bar to
+   reliably stay one row, centered, regardless of login state took two
+   earlier attempts (see git history) - the account area (login button,
+   or avatar + name + logout button once logged in) kept being wide
+   enough to force a wrap onto 2 rows or overlap the toggle. The real fix
+   was shrinking what the account area shows at all (avatar only, no
+   name, in player-widget.css) rather than trying to fit more content
+   into less space - with that, one unified layout now comfortably fits
+   both login states without needing a separate fallback arrangement for
+   either. The matching body padding-top override (style.css) is sized to
+   this one compact row, not the open dropdown - the dropdown overlays
+   page content instead of pushing it down. */
 @media (max-width:640px){
+
+    /* .navbar-left and .navbar-right exist purely for desktop's layout
+       (see their own base rules above) and for grouping in the markup -
+       display:contents dissolves them as boxes so their own children
+       (logo, nav, .navbar-account, .nav-toggle) become direct grid items
+       of .container below, free to be placed by `order` independently of
+       which of the two original wrapper divs they came from. */
+    .navbar-left,
+    .navbar-right{
+
+        display:contents;
+
+    }
 
     .navbar .container{
 
+        display:grid;
+
+        grid-template-columns:auto 1fr auto;
+
         align-items:center;
+
+        column-gap:12px;
 
         padding:12px 0;
 
@@ -382,9 +403,31 @@ nav a.active{
 
         display:flex;
 
+        order:1;
+
     }
 
     .logo{
+
+        order:2;
+
+        justify-self:center;
+
+        max-width:100%;
+
+        /* Without min-width:0, a grid item's default min-width:auto lets
+           its natural content width force the center column wider than
+           the account area actually leaves room for. Ellipsis-truncating
+           (rather than wrapping to 2 lines, which read as broken once the
+           account area was wider - see the header comment above) is a
+           fixed, predictable bound - kept as a safety net for a very
+           small phone even though the account area is narrow enough now
+           that this shouldn't normally need to truncate anything. */
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+
+        min-width:0;
 
         padding-bottom:0;
 
@@ -399,6 +442,10 @@ nav a.active{
     }
 
     .navbar-account{
+
+        order:3;
+
+        justify-self:end;
 
         flex-wrap:nowrap;
 
@@ -417,13 +464,12 @@ nav a.active{
 
     /* Shortens "Log in with Steam" to just "Log in" at this width - the
        button is already visually distinct (Steam blue), so the full
-       phrase isn't needed to be understood, and this is what actually
-       leaves enough room in the centered-logo layout below for the brand
-       name to render mostly/fully instead of always truncating. Uses the
-       same clip-based technique as reset.css's .sr-only (not
-       display:none, which would remove it from the accessibility tree
-       too) so a screen reader still announces the full "Log in with
-       Steam". */
+       phrase isn't needed to be understood, and this is what leaves
+       enough room for the centered brand name to render in full instead
+       of truncating. Uses the same clip-based technique as reset.css's
+       .sr-only (not display:none, which would remove it from the
+       accessibility tree too) so a screen reader still announces the
+       full "Log in with Steam". */
     .steam-login-btn-suffix{
 
         position:absolute;
@@ -441,22 +487,6 @@ nav a.active{
 
     }
 
-    /* Bounds the account area to a predictable width regardless of how
-       long this visitor's real Steam display name is - matters most in
-       the centered-logo (logged-out) layout below, where the center
-       column's available space depends on this staying bounded, but kept
-       unconditionally so a very long name never looks unbounded in
-       either layout. */
-    .navbar .player-widget-steam-name{
-
-        overflow:hidden;
-        white-space:nowrap;
-        text-overflow:ellipsis;
-
-        max-width:100px;
-
-    }
-
     /* Stays compact and always visible in the top bar (never gated behind
        the hamburger) - only the nav links collapse into the dropdown. A
        visitor should never have to open the menu just to log out. */
@@ -470,15 +500,20 @@ nav a.active{
 
     }
 
-    /* The nav links (see nav-links.js's <nav id="nav-menu">) collapse into
-       a dropdown, positioned relative to .navbar (already position:fixed,
-       so it's this dropdown's containing block) - overlaying the page
-       below the compact bar rather than pushing it down, in either bar
-       layout below. Collapsed by default; layout.js toggles .nav-open on
-       #navbar to reveal it. */
+    /* The nav links (see nav-links.js's <nav id="nav-menu">) collapse
+       into a dropdown - order:4 plus spanning every column keeps it
+       below the toggle/logo/account row regardless of their relative
+       widths, then position:absolute (relative to .navbar, already
+       position:fixed - this dropdown's containing block) makes it
+       overlay the page below that row rather than pushing it down.
+       Collapsed by default; layout.js toggles .nav-open on #navbar to
+       reveal it. */
     .navbar-left nav{
 
         display:none;
+
+        order:4;
+        grid-column:1 / -1;
 
         position:absolute;
 
@@ -509,105 +544,6 @@ nav a.active{
     #navbar.nav-open .navbar-left nav{
 
         display:flex;
-
-    }
-
-    /* Logged out (no .logout-btn): the account area is just a login
-       button, narrow and predictable, so the centered-brand layout fits.
-       .navbar-left/.navbar-right dissolve via display:contents so their
-       children (logo, nav, .navbar-account, .nav-toggle) become direct
-       grid items of .container, placed by `order` independently of which
-       original wrapper div they came from. */
-    .navbar:not(:has(.logout-btn)) .navbar-left,
-    .navbar:not(:has(.logout-btn)) .navbar-right{
-
-        display:contents;
-
-    }
-
-    .navbar:not(:has(.logout-btn)) .container{
-
-        display:grid;
-
-        grid-template-columns:auto 1fr auto;
-
-        column-gap:12px;
-
-    }
-
-    .navbar:not(:has(.logout-btn)) .nav-toggle{
-
-        order:1;
-
-    }
-
-    .navbar:not(:has(.logout-btn)) .logo{
-
-        order:2;
-
-        justify-self:center;
-
-        max-width:100%;
-
-        /* Without min-width:0, a grid item's default min-width:auto lets
-           its natural content width force the center column wider than
-           the account area actually leaves room for. Ellipsis-truncating
-           (rather than wrapping to 2 lines) is a fixed, predictable
-           bound - the only way this genuinely never overlaps the toggle
-           at any viewport width down to a small phone. */
-        overflow:hidden;
-        white-space:nowrap;
-        text-overflow:ellipsis;
-
-        min-width:0;
-
-    }
-
-    .navbar:not(:has(.logout-btn)) .navbar-account{
-
-        order:3;
-        justify-self:end;
-
-    }
-
-    .navbar:not(:has(.logout-btn)) .navbar-left nav{
-
-        order:4;
-        grid-column:1 / -1;
-
-    }
-
-    /* Logged in (.logout-btn present): the account area (avatar + name +
-       logout button) is wide enough that centering the brand name between
-       it and the toggle would force truncating the name into
-       illegibility or letting it overlap - falls back to the simpler
-       left-aligned bar instead. */
-    .navbar:has(.logout-btn) .container{
-
-        display:flex;
-
-        justify-content:space-between;
-
-    }
-
-    .navbar:has(.logout-btn) .navbar-left{
-
-        display:flex;
-        flex-direction:row;
-
-        align-items:center;
-
-        gap:12px;
-
-    }
-
-    .navbar:has(.logout-btn) .navbar-right{
-
-        display:flex;
-
-        align-items:center;
-
-        gap:10px;
 
     }
 
