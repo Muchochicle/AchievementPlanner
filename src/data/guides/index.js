@@ -27,6 +27,9 @@ import { GUIDE as superliminalAchievementGuide } from "./games/superliminal.js";
 import { GUIDE as transistorAchievementGuide } from "./games/transistor.js";
 import { GUIDE as bastionAchievementGuide } from "./games/bastion.js";
 import { GUIDE as rimeAchievementGuide } from "./games/rime.js";
+import { GUIDE as slayTheSpireAchievementGuide } from "./games/slay-the-spire.js";
+import { GUIDE as discoElysiumAchievementGuide } from "./games/disco-elysium.js";
+import { GUIDE as aHatInTimeAchievementGuide } from "./games/a-hat-in-time.js";
 
 export const APP_GUIDES = [
 
@@ -76,7 +79,10 @@ export const GAME_GUIDES = [
     superliminalAchievementGuide,
     transistorAchievementGuide,
     bastionAchievementGuide,
-    rimeAchievementGuide
+    rimeAchievementGuide,
+    slayTheSpireAchievementGuide,
+    discoElysiumAchievementGuide,
+    aHatInTimeAchievementGuide
 
 ];
 

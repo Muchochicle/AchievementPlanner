@@ -51,6 +51,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("transistor"));
     assert.ok(slugs.includes("bastion"));
     assert.ok(slugs.includes("rime"));
+    assert.ok(slugs.includes("slay-the-spire"));
+    assert.ok(slugs.includes("disco-elysium"));
+    assert.ok(slugs.includes("a-hat-in-time"));
 
 });
 

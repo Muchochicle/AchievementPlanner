@@ -1,0 +1,492 @@
+{
+    "id": 646570,
+    "steamAppId": 646570,
+
+    "name": "Slay the Spire",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+
+    "difficulty": 7,
+
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Roguelike",
+        "Deckbuilder",
+        "Strategy"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "SHRUG_IT_OFF",
+            "name": "Shrug It Off",
+            "description": "Win a battle with 1 HP remaining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "PURITY",
+            "name": "Purity",
+            "description": "Have 3 or fewer cards in hand, draw, and discard pile combined.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 3,
+            "apiname": "COME_AT_ME",
+            "name": "Come At Me",
+            "description": "Win a combat without playing an Attack.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "THE_PACT",
+            "name": "The Pact",
+            "description": "Exhaust 20 cards in a single combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "ADRENALINE",
+            "name": "Adrenaline",
+            "description": "Have 9 Energy during a single turn of combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "POWERFUL",
+            "name": "Powerful",
+            "description": "Have 10 or more buffs during combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 7,
+            "apiname": "JAXXED",
+            "name": "Jaxxed",
+            "description": "Have 50 or more Strength during combat.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 8,
+            "apiname": "IMPERVIOUS",
+            "name": "Impervious",
+            "description": "Have 99 or more Block during combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "BARRICADED",
+            "name": "Barricaded",
+            "description": "Have 999 Block during combat.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 10,
+            "apiname": "CATALYST",
+            "name": "Catalyst",
+            "description": "Apply 99 or more Poison on a single enemy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "PLAGUE",
+            "name": "Plague",
+            "description": "Defeat 3 enemies with Poison in a single combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "NINJA",
+            "name": "Ninja",
+            "description": "Play 10 Shivs in a single turn.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 13,
+            "apiname": "INFINITY",
+            "name": "Infinity",
+            "description": "Play 25 cards in a single turn.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 14,
+            "apiname": "YOU_ARE_NOTHING",
+            "name": "You Are Nothing",
+            "description": "Defeat a boss on turn 1.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 15,
+            "apiname": "PERFECT",
+            "name": "Perfect",
+            "description": "Defeat a boss without taking any damage.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 16,
+            "apiname": "GUARDIAN",
+            "name": "The Guardian",
+            "description": "Defeat the Guardian, one of Act 1's bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 17,
+            "apiname": "GHOST_GUARDIAN",
+            "name": "The Ghost",
+            "description": "Defeat Hexaghost, one of Act 1's bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 18,
+            "apiname": "SLIME_BOSS",
+            "name": "The Boss",
+            "description": "Defeat the Slime Boss, one of Act 1's bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 19,
+            "apiname": "AUTOMATON",
+            "name": "The Automaton",
+            "description": "Defeat the Bronze Automaton, one of Act 2's bosses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 20,
+            "apiname": "COLLECTOR",
+            "name": "The Collector",
+            "description": "Defeat the Collector, one of Act 2's bosses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 21,
+            "apiname": "CHAMP",
+            "name": "The Champion",
+            "description": "Defeat the Champ, one of Act 2's bosses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "CROW",
+            "name": "The Crow",
+            "description": "Defeat the Awakened One, one of Act 3's bosses.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 23,
+            "apiname": "SHAPES",
+            "name": "The Shapes",
+            "description": "Defeat Donu and Deca, one of Act 3's boss pairs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "TIME_EATER",
+            "name": "The Time Eater",
+            "description": "Defeat the Time Eater, one of Act 3's bosses.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "RUBY",
+            "name": "Ruby",
+            "description": "Beat the game with the Ironclad.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "EMERALD",
+            "name": "Emerald",
+            "description": "Beat the game with the Silent.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 27,
+            "apiname": "ONE_RELIC",
+            "name": "Who Needs Relics?",
+            "description": "Beat the game with a single relic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 28,
+            "apiname": "SPEED_CLIMBER",
+            "name": "Speed Climber",
+            "description": "Beat the game in under 20 minutes.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 29,
+            "apiname": "MINIMALIST",
+            "name": "Minimalist",
+            "description": "Beat the game with a 5 card deck or smaller.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 30,
+            "apiname": "DONUT",
+            "name": "Ooh Donut!",
+            "description": "Finish Donu with a Feed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 31,
+            "apiname": "ASCEND_0",
+            "name": "Ascend 0",
+            "description": "Unlock Ascension mode.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 32,
+            "apiname": "ASCEND_10",
+            "name": "Ascend 10",
+            "description": "Complete Ascension Level 10.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 33,
+            "apiname": "SAPPHIRE",
+            "name": "Sapphire",
+            "description": "Beat the game with the Defect.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 34,
+            "apiname": "COMMON_SENSE",
+            "name": "Common Sense",
+            "description": "Beat the game with a deck containing no uncommons or rares.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 35,
+            "apiname": "FOCUSED",
+            "name": "Focused",
+            "description": "Have 25 or more Focus during combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "NEON",
+            "name": "Neon",
+            "description": "Channel 9 Plasma in a single turn.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 37,
+            "apiname": "LUCKY_DAY",
+            "name": "My Lucky Day",
+            "description": "Win a Daily Climb.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "TRANSIENT",
+            "name": "The Transient",
+            "description": "Defeat the Transient before it fades away.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "ASCEND_20",
+            "name": "Ascend 20",
+            "description": "Complete Ascension Level 20.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 40,
+            "apiname": "RUBY_PLUS",
+            "name": "Ruby+",
+            "description": "Defeat the Corrupt Heart, the game's secret final boss, with the Ironclad.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 41,
+            "apiname": "EMERALD_PLUS",
+            "name": "Emerald+",
+            "description": "Defeat the Corrupt Heart, the game's secret final boss, with the Silent.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 42,
+            "apiname": "SAPPHIRE_PLUS",
+            "name": "Sapphire+",
+            "description": "Defeat the Corrupt Heart, the game's secret final boss, with the Defect.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 43,
+            "apiname": "THE_ENDING",
+            "name": "The End?",
+            "description": "Defeat the Corrupt Heart with the Ironclad, the Silent, and the Defect.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 360
+        },
+
+        {
+            "id": 44,
+            "apiname": "ETERNAL_ONE",
+            "name": "Eternal One",
+            "description": "Obtain all other Achievements.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "AMETHYST",
+            "name": "Amethyst",
+            "description": "Beat the game with the Watcher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 46,
+            "apiname": "AMETHYST_PLUS",
+            "name": "Amethyst+",
+            "description": "Complete the Ending with the Watcher.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        }
+
+    ]
+
+}

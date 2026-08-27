@@ -38,21 +38,23 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 19);
+    assert.strictEqual(GAME_GUIDES.length, 22);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-short-hike", "bastion", "braid", "celeste", "cuphead", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "stardew-valley", "superliminal", "transistor", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "bastion", "braid", "celeste", "cuphead", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "slay-the-spire", "stardew-valley", "superliminal", "transistor", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.slug).sort(),
         [
+            "a-hat-in-time-achievement-guide",
             "a-short-hike-achievement-guide",
             "bastion-achievement-guide",
             "braid-achievement-guide",
             "celeste-achievement-guide",
             "cuphead-achievement-guide",
+            "disco-elysium-achievement-guide",
             "hades-achievement-guide",
             "hollow-knight-achievement-guide",
             "hyper-light-drifter-achievement-guide",
@@ -63,6 +65,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "portal-achievement-guide",
             "return-of-the-obra-dinn-achievement-guide",
             "rime-achievement-guide",
+            "slay-the-spire-achievement-guide",
             "stardew-valley-achievement-guide",
             "superliminal-achievement-guide",
             "transistor-achievement-guide",

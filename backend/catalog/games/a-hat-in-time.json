@@ -1,0 +1,492 @@
+{
+    "id": 253230,
+    "steamAppId": 253230,
+
+    "name": "A Hat in Time",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/253230/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 15,
+        "max": 25
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Platformer",
+        "Collectathon",
+        "Adventure"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "HAT_ACHIEVEMENT_FIRSTPIN",
+            "name": "Put a Badge On It",
+            "description": "Put on your first badge!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 2,
+            "apiname": "HAT_ACHIEVEMENT_SEQBREAK",
+            "name": "Sequence Break",
+            "description": "No hand-holding for you, apparently!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "HAT_ACHIEVEMENT_TRAINWRECK_TIME",
+            "name": "No Time To Explain",
+            "description": "Complete Train Rush without dying or time bonuses!",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 4,
+            "apiname": "HAT_ACHIEVEMENT_MAILROOM_FAN",
+            "name": "Fan-tastic!",
+            "description": "Hook onto a ceiling fan with the hookshot!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 5,
+            "apiname": "HAT_ACHIEVEMENT_1HITKILL",
+            "name": "One Punch",
+            "description": "Defeat any boss with the 1-hit hero badge equipped!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 6,
+            "apiname": "HAT_ACHIEVEMENT_SITCHAIRS",
+            "name": "If I fit, I sit",
+            "description": "Sit in 3 different chairs!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 7,
+            "apiname": "HAT_ACHIEVEMENT_SCOOTER_360",
+            "name": "360 no-feet",
+            "description": "Do a 360 flip on the scooter!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 8,
+            "apiname": "HAT_ACHIEVEMENT_MAFIATOWN_CLEAR",
+            "name": "Mafia Town - All clear!",
+            "description": "Collect all Time Pieces in Mafia Town!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "HAT_ACHIEVEMENT_SUBCON_CLEAR",
+            "name": "Subcon Forest - All clear!",
+            "description": "Collect all Time Pieces in Subcon Forest!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "HAT_ACHIEVEMENT_BIRDS_CLEAR",
+            "name": "Battle of the Birds - All clear!",
+            "description": "Collect all Time Pieces in Battle of the Birds!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "HAT_ACHIEVEMENT_ALPINE_CLEAR",
+            "name": "Alpine Skyline - All clear!",
+            "description": "Collect all Time Pieces in Alpine Skyline!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "HAT_ACHIEVEMENT_DEADBIRD_NOSPOT",
+            "name": "Secret Intruder",
+            "description": "Make it through Dead Bird Studio without being seen at all!",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 13,
+            "apiname": "HAT_ACHIEVEMENT_MURDER_ALLCLUES",
+            "name": "True Detective",
+            "description": "Find all Murder on the Owl Express clues!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "HAT_ACHIEVEMENT_MURDER_NOCLUES",
+            "name": "False Detective",
+            "description": "Make it through Murder on the Owl Express without finding any clues (you suck)!",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 15,
+            "apiname": "HAT_ACHIEVEMENT_RIDE_VACUUM",
+            "name": "Vacuum Vandal",
+            "description": "Ride the vacuum!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 16,
+            "apiname": "HAT_ACHIEVEMENT_SUBCONWELL_NOSWIM",
+            "name": "Afraid of Water",
+            "description": "Don't fall into the rising water in Subcon Well!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 17,
+            "apiname": "HAT_ACHIEVEMENT_SLIDE_LONGTIME",
+            "name": "Slip 'n Slide",
+            "description": "Slide down a really long slope!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 18,
+            "apiname": "HAT_ACHIEVEMENT_LAVACAKE_NOTOUCH",
+            "name": "The Floor is Lava",
+            "description": "Complete the Lava Cake peak without touching the lava at all!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 19,
+            "apiname": "HAT_ACHIEVEMENT_PARADE_NOTOUCH",
+            "name": "Encore!",
+            "description": "Complete The Big Parade without falling into the audience below!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 20,
+            "apiname": "HAT_ACHIEVEMENT_SUBCON_MUSHROOM",
+            "name": "Take a Hike",
+            "description": "Climb to the top of Subcon Forest's big mushroom!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 21,
+            "apiname": "HAT_ACHIEVEMENT_SPACESHIP_HIDEOUT",
+            "name": "Pillow Fort",
+            "description": "Find Your Secret Hideout!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 22,
+            "apiname": "HAT_ACHIEVEMENT_3_BADGES",
+            "name": "Badge Master",
+            "description": "Equip 3 badges!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 23,
+            "apiname": "HAT_ACHIEVEMENT_MAFIA_KNOCKOFF_ALL",
+            "name": "A Series of Unfortunate Accidents",
+            "description": "Knock off all the sitting Mafia in Mafia Town!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "HAT_ACHIEVEMENT_HOMING_CHAIN_5",
+            "name": "Personally I Prefer the Air",
+            "description": "Do 5 homing attacks in a row, without touching the ground!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 25,
+            "apiname": "HAT_ACHIEVEMENT_ALL_TIMEPIECES",
+            "name": "Return Home",
+            "description": "Collect all Time Pieces!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 26,
+            "apiname": "HAT_ACHIEVEMENT_BIRDS_HIGHSCORE",
+            "name": "Fueling the Feud",
+            "description": "Get a total of 2000 points in Battle of the Birds!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "HAT_ACHIEVEMENT_MAFIATOWN_UNLOCK",
+            "name": "Let there be light",
+            "description": "Light up the spaceship!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 28,
+            "apiname": "HAT_ACHIEVEMENT_SWEARWORD",
+            "name": "Why",
+            "description": "just... why... ?",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 29,
+            "apiname": "HAT_ACHIEVEMENT_PLAYMOD",
+            "name": "Unlimited Possibilities",
+            "description": "Play a mod from the Steam Workshop!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 30,
+            "apiname": "HAT_ACHIEVEMENT_RATEMOD",
+            "name": "Community Contributor",
+            "description": "Rate a Steam Workshop level!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 31,
+            "apiname": "HAT_ACHIEVEMENT_MANY_MOD_TIMEPIECES",
+            "name": "The Community Thanks You",
+            "description": "Collect 30 Mod Rift Tokens from Steam Workshop levels!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 32,
+            "apiname": "HAT_ACHIEVEMENT_DW_CLEAR_3_OBJ",
+            "name": "Prepare to Die",
+            "description": "Clear All Objectives In a Single Death Wish!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 33,
+            "apiname": "HAT_ACHIEVEMENT_DW_70",
+            "name": "Punished Kid",
+            "description": "Obtain 50 Death Wish Stamps!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 34,
+            "apiname": "HAT_ACHIEVEMENT_DW_CLEAR",
+            "name": "I Refuse To Die!",
+            "description": "Obtain All Death Wish Stamps!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 360
+        },
+
+        {
+            "id": 35,
+            "apiname": "HAT_ACHIEVEMENT_CRUISE_FASTDELIVERY",
+            "name": "Minimum Shippable",
+            "description": "Clear Ship Shape Without Upsetting The Captain!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 36,
+            "apiname": "HAT_ACHIEVEMENT_CRUISE_CLEAR",
+            "name": "The Arctic Cruise - All clear!",
+            "description": "Collect all Time Pieces in The Arctic Cruise!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 37,
+            "apiname": "HAT_ACHIEVEMENT_COOP_TP",
+            "name": "Little Help From My Friends",
+            "description": "Collect 3 new Time Pieces In local Co-op!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "HAT_ACHIEVEMENT_10_STICKERS_CAMERA",
+            "name": "A Work of Art",
+            "description": "Put 10 different stickers on a single screenshot!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 39,
+            "apiname": "HAT_ACHIEVEMENT_MANY_STICKERS",
+            "name": "Stickin' Star",
+            "description": "Collect 30 Stickers in Nyakuza Metro!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 40,
+            "apiname": "HAT_ACHIEVEMENT_RARE_STICKER",
+            "name": "Stick It To The Man",
+            "description": "Collect your first holographic sticker!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "HAT_ACHIEVEMENT_FOODCOMBO",
+            "name": "Culinary Creativity",
+            "description": "Discover a secret food combination!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 42,
+            "apiname": "HAT_ACHIEVEMENT_METRO_CLEAR",
+            "name": "Nyakuza Metro - All clear!",
+            "description": "Collect all Time Pieces in Nyakuza Metro!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "HAT_ACHIEVEMENT_GP_CLEAR_CROWN",
+            "name": "Life of the Party",
+            "description": "Clear an act in Online Party as the person in lead!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 44,
+            "apiname": "HAT_ACHIEVEMENT_GP_BIGPARTY",
+            "name": "Party Planner",
+            "description": "Participate in an Online Party with 10 or more total players!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 45,
+            "apiname": "HAT_ACHIEVEMENT_GP_COLLECT_TP",
+            "name": "Party Animal",
+            "description": "Collect 10 Time Pieces in an active Online Party!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 46,
+            "apiname": "HAT_ACHIEVEMENT_CHALLENGEROAD",
+            "name": "Challenge Road",
+            "description": "Clear a Challenge Road!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
+
+}
