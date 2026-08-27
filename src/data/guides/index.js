@@ -24,6 +24,9 @@ import { GUIDE as aShortHikeAchievementGuide } from "./games/a-short-hike.js";
 import { GUIDE as hyperLightDrifterAchievementGuide } from "./games/hyper-light-drifter.js";
 import { GUIDE as cupheadAchievementGuide } from "./games/cuphead.js";
 import { GUIDE as superliminalAchievementGuide } from "./games/superliminal.js";
+import { GUIDE as transistorAchievementGuide } from "./games/transistor.js";
+import { GUIDE as bastionAchievementGuide } from "./games/bastion.js";
+import { GUIDE as rimeAchievementGuide } from "./games/rime.js";
 
 export const APP_GUIDES = [
 
@@ -70,7 +73,10 @@ export const GAME_GUIDES = [
     aShortHikeAchievementGuide,
     hyperLightDrifterAchievementGuide,
     cupheadAchievementGuide,
-    superliminalAchievementGuide
+    superliminalAchievementGuide,
+    transistorAchievementGuide,
+    bastionAchievementGuide,
+    rimeAchievementGuide
 
 ];
 

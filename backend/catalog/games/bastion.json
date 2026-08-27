@@ -1,0 +1,272 @@
+{
+    "id": 107100,
+    "steamAppId": 107100,
+
+    "name": "Bastion",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/107100/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 6,
+        "max": 12
+    },
+
+    "missable": false,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Action",
+        "RPG",
+        "Narrative"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "AchBastion",
+            "name": "The Stranger",
+            "description": "Complete the Wharf District",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "AchZulf",
+            "name": "The Survivor",
+            "description": "Complete the Hanging Gardens and speak with the Survivor back at the Bastion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 3,
+            "apiname": "AchZia",
+            "name": "The Singer",
+            "description": "Complete Prosper Bluff and speak with the Singer back at the Bastion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 4,
+            "apiname": "AchAttack",
+            "name": "The Ura",
+            "description": "Defend the Bastion when it comes under attack after Burstone Quarry.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 5,
+            "apiname": "AchEndA",
+            "name": "The End",
+            "description": "Complete the story",
+            "difficulty": 1,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 6,
+            "apiname": "AchEndB",
+            "name": "The Beginning",
+            "description": "Complete the story, choosing Restoration over Evacuation at the very end.",
+            "difficulty": 1,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 7,
+            "apiname": "AchNGP",
+            "name": "Calamity Kid",
+            "description": "Complete the story in New Game Plus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 8,
+            "apiname": "AchOnslaughts",
+            "name": "Mind Voyager",
+            "description": "Complete each trip to Who Knows Where",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 9,
+            "apiname": "AchWeapons",
+            "name": "Kid-at-Arms",
+            "description": "Use the Forge to apply at least one upgrade to every weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 10,
+            "apiname": "AchPlayful",
+            "name": "Pet Sitter",
+            "description": "Get four different domesticated creatures in the Bastion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 11,
+            "apiname": "AchVigilsA",
+            "name": "Vigilante",
+            "description": "Complete at least 50 percent of the Vigils in the Memorial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "AchVigilsB",
+            "name": "Altruist",
+            "description": "Complete 100 percent of the Vigils in the Memorial",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 13,
+            "apiname": "AchPortalTurret",
+            "name": "Turret Opera",
+            "description": "Keep a single deployed Turret alive long enough for it to defeat 20 enemies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "AchAllWeaponUpgrades",
+            "name": "Man-at-Arms",
+            "description": "Use the Forge to fully upgrade every weapon.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 15,
+            "apiname": "AchOnslaught01_5Idols",
+            "name": "Whatever's Out There",
+            "description": "Complete the Kid's Dream with five or more Shrine Idols invoked.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 16,
+            "apiname": "AchOnslaught01_10Idols",
+            "name": "Just Like That",
+            "description": "Complete the Kid's Dream with all ten Shrine Idols invoked.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 17,
+            "apiname": "AchOnslaught02_5Idols",
+            "name": "Lock Yourself In",
+            "description": "Complete the Singer's Dream with five or more Shrine Idols invoked.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 18,
+            "apiname": "AchOnslaught02_10Idols",
+            "name": "Calamity All Around",
+            "description": "Complete the Singer's Dream with all ten Shrine Idols invoked.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 19,
+            "apiname": "AchOnslaught03_5Idols",
+            "name": "A Lasting Peace",
+            "description": "Complete the Survivor's Dream with five or more Shrine Idols invoked.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 20,
+            "apiname": "AchOnslaught03_10Idols",
+            "name": "Ashes in the Sky",
+            "description": "Complete the Survivor's Dream with all ten Shrine Idols invoked.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 21,
+            "apiname": "AchWinter",
+            "name": "Ride the Wind",
+            "description": "Use the Skyway in the Wharf District.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 22,
+            "apiname": "AchHardcorePoints",
+            "name": "Hard Bargain",
+            "description": "Earn a total of at least 1,000,000 points in Score Attack Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 23,
+            "apiname": "AchOnslaught04_5Idols",
+            "name": "All in the Mind",
+            "description": "Complete the Stranger's Dream with five or more Shrine Idols invoked.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 24,
+            "apiname": "AchOnslaught04_10Idols",
+            "name": "About the Author",
+            "description": "Complete the Stranger's Dream with all ten Shrine Idols invoked.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
+
+}

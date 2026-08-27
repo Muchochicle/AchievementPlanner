@@ -48,6 +48,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hyper-light-drifter"));
     assert.ok(slugs.includes("cuphead"));
     assert.ok(slugs.includes("superliminal"));
+    assert.ok(slugs.includes("transistor"));
+    assert.ok(slugs.includes("bastion"));
+    assert.ok(slugs.includes("rime"));
 
 });
 
