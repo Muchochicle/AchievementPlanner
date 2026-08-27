@@ -1,0 +1,51 @@
+{
+    "id": 653530,
+    "steamAppId": 653530,
+
+    "name": "Return of the Obra Dinn",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg",
+
+    "difficulty": 7,
+
+    "completionTime": {
+        "min": 8,
+        "max": 15
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Mystery",
+        "Puzzle",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        { "id": 1, "apiname": "ACH_CHAPTERSOLVED_01", "name": "Loose Cargo", "description": "Solve all fates in chapter I.", "difficulty": 2, "missable": false, "estimatedTime": 30 },
+        { "id": 2, "apiname": "ACH_CHAPTERSOLVED_02", "name": "A Bitter Cold", "description": "Solve all fates in chapter II.", "difficulty": 2, "missable": false, "estimatedTime": 40 },
+        { "id": 3, "apiname": "ACH_CHAPTERSOLVED_03", "name": "Murder", "description": "Solve all fates in chapter III.", "difficulty": 3, "missable": false, "estimatedTime": 50 },
+        { "id": 4, "apiname": "ACH_CHAPTERSOLVED_04", "name": "The Calling", "description": "Solve all fates in chapter IV.", "difficulty": 3, "missable": false, "estimatedTime": 50 },
+        { "id": 5, "apiname": "ACH_CHAPTERSOLVED_05", "name": "Unholy Captives", "description": "Solve all fates in chapter V.", "difficulty": 3, "missable": false, "estimatedTime": 50 },
+        { "id": 6, "apiname": "ACH_CHAPTERSOLVED_06", "name": "Soldiers of the Sea", "description": "Solve all fates in chapter VI.", "difficulty": 4, "missable": false, "estimatedTime": 60 },
+        { "id": 7, "apiname": "ACH_CHAPTERSOLVED_07", "name": "The Doom", "description": "Solve all fates in chapter VII.", "difficulty": 4, "missable": false, "estimatedTime": 60 },
+        { "id": 8, "apiname": "ACH_CHAPTERSOLVED_09", "name": "Escape", "description": "Solve all fates in chapter IX.", "difficulty": 4, "missable": false, "estimatedTime": 40 },
+        { "id": 9, "apiname": "ACH_CHAPTERSOLVED_10", "name": "The End", "description": "Solve all fates in chapter X.", "difficulty": 3, "missable": false, "estimatedTime": 30 },
+
+        { "id": 10, "apiname": "ACH_ANYSOLVED_06", "name": "Any 6", "description": "Solve any 6 fates.", "difficulty": 1, "missable": false, "estimatedTime": 20 },
+        { "id": 11, "apiname": "ACH_ANYSOLVED_15", "name": "Any 15", "description": "Solve any 15 fates.", "difficulty": 2, "missable": false, "estimatedTime": 60 },
+        { "id": 12, "apiname": "ACH_ANYSOLVED_30", "name": "Any 30", "description": "Solve any 30 fates.", "difficulty": 3, "missable": false, "estimatedTime": 150 },
+        { "id": 13, "apiname": "ACH_ANYSOLVED_45", "name": "Any 45", "description": "Solve any 45 fates.", "difficulty": 3, "missable": false, "estimatedTime": 240 },
+
+        { "id": 14, "apiname": "ACH_ENDING_GOOD", "name": "Obra Done", "description": "Correctly solve every fate of everyone aboard the Obra Dinn - the game's true, fully-solved ending.", "difficulty": 5, "missable": false, "estimatedTime": 300 },
+        { "id": 15, "apiname": "ACH_KILLERCAPTAIN", "name": "Captain Did It", "description": "Mark every crew member's fate as killed by Captain Robert Witterel, then leave the ship once the Boatman calls out the coming storm.", "difficulty": 2, "missable": true, "estimatedTime": 20 },
+        { "id": 16, "apiname": "ACH_ENDING_BAD", "name": "Abandon Ship", "description": "Leave the Obra Dinn before the game has told you there's nothing left to solve.", "difficulty": 1, "missable": true, "estimatedTime": 5 }
+
+    ]
+
+}

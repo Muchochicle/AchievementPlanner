@@ -41,6 +41,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("limbo"));
     assert.ok(slugs.includes("braid"));
     assert.ok(slugs.includes("ori-and-the-blind-forest"));
+    assert.ok(slugs.includes("what-remains-of-edith-finch"));
+    assert.ok(slugs.includes("return-of-the-obra-dinn"));
+    assert.ok(slugs.includes("stardew-valley"));
 
 });
 

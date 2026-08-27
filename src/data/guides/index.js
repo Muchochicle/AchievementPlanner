@@ -17,6 +17,9 @@ import { GUIDE as portalAchievementGuide } from "./games/portal.js";
 import { GUIDE as limboAchievementGuide } from "./games/limbo.js";
 import { GUIDE as braidAchievementGuide } from "./games/braid.js";
 import { GUIDE as oriAndTheBlindForestAchievementGuide } from "./games/ori-and-the-blind-forest.js";
+import { GUIDE as whatRemainsOfEdithFinchAchievementGuide } from "./games/what-remains-of-edith-finch.js";
+import { GUIDE as returnOfTheObraDinnAchievementGuide } from "./games/return-of-the-obra-dinn.js";
+import { GUIDE as stardewValleyAchievementGuide } from "./games/stardew-valley.js";
 
 export const APP_GUIDES = [
 
@@ -56,7 +59,10 @@ export const GAME_GUIDES = [
     portalAchievementGuide,
     limboAchievementGuide,
     braidAchievementGuide,
-    oriAndTheBlindForestAchievementGuide
+    oriAndTheBlindForestAchievementGuide,
+    whatRemainsOfEdithFinchAchievementGuide,
+    returnOfTheObraDinnAchievementGuide,
+    stardewValleyAchievementGuide
 
 ];
 

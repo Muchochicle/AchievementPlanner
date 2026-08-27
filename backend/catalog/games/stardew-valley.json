@@ -1,0 +1,83 @@
+{
+    "id": 413150,
+    "steamAppId": 413150,
+
+    "name": "Stardew Valley",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+
+    "difficulty": 8,
+
+    "completionTime": {
+        "min": 60,
+        "max": 150
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Farming Sim",
+        "RPG",
+        "Life Sim",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        { "id": 1, "apiname": "a0", "name": "Greenhorn", "description": "Earn 15,000g", "difficulty": 1, "missable": false, "estimatedTime": 300 },
+        { "id": 2, "apiname": "1", "name": "Cowpoke", "description": "Earn 50,000g", "difficulty": 1, "missable": false, "estimatedTime": 600 },
+        { "id": 3, "apiname": "2", "name": "Homesteader", "description": "Earn 250,000g", "difficulty": 2, "missable": false, "estimatedTime": 1500 },
+        { "id": 4, "apiname": "3", "name": "Millionaire", "description": "Earn 1,000,000g", "difficulty": 3, "missable": false, "estimatedTime": 3600 },
+        { "id": 5, "apiname": "4", "name": "Legend", "description": "Earn 10,000,000g - a hidden achievement that rewards long-term, sustained play.", "difficulty": 5, "missable": false, "estimatedTime": 12000 },
+        { "id": 6, "apiname": "5", "name": "A Complete Collection", "description": "Complete the museum collection.", "difficulty": 3, "missable": true, "estimatedTime": 1800 },
+        { "id": 7, "apiname": "6", "name": "A New Friend", "description": "Reach a 5-heart friend level with someone.", "difficulty": 1, "missable": false, "estimatedTime": 120 },
+        { "id": 8, "apiname": "7", "name": "Best Friends", "description": "Reach a 10-heart friend level with someone.", "difficulty": 1, "missable": false, "estimatedTime": 600 },
+        { "id": 9, "apiname": "9", "name": "The Beloved Farmer", "description": "Reach a 10-heart friend level with 8 people.", "difficulty": 3, "missable": true, "estimatedTime": 3000 },
+        { "id": 10, "apiname": "11", "name": "Cliques", "description": "Reach a 5-heart friend level with 4 people.", "difficulty": 1, "missable": false, "estimatedTime": 300 },
+        { "id": 11, "apiname": "12", "name": "Networking", "description": "Reach a 5-heart friend level with 10 people.", "difficulty": 2, "missable": false, "estimatedTime": 900 },
+        { "id": 12, "apiname": "13", "name": "Popular", "description": "Reach a 5-heart friend level with 20 people.", "difficulty": 3, "missable": true, "estimatedTime": 2400 },
+        { "id": 13, "apiname": "15", "name": "Cook", "description": "Cook 10 different recipes.", "difficulty": 1, "missable": false, "estimatedTime": 300 },
+        { "id": 14, "apiname": "16", "name": "Sous Chef", "description": "Cook 25 different recipes.", "difficulty": 2, "missable": true, "estimatedTime": 1200 },
+        { "id": 15, "apiname": "17", "name": "Gourmet Chef", "description": "Cook every recipe.", "difficulty": 4, "missable": true, "estimatedTime": 4000 },
+        { "id": 16, "apiname": "18", "name": "Moving Up", "description": "Upgrade your house.", "difficulty": 1, "missable": false, "estimatedTime": 200 },
+        { "id": 17, "apiname": "19", "name": "Living Large", "description": "Upgrade your house to the maximum size.", "difficulty": 2, "missable": false, "estimatedTime": 800 },
+        { "id": 18, "apiname": "20", "name": "D.I.Y.", "description": "Craft 15 different items.", "difficulty": 1, "missable": false, "estimatedTime": 300 },
+        { "id": 19, "apiname": "21", "name": "Artisan", "description": "Craft 30 different items.", "difficulty": 2, "missable": true, "estimatedTime": 900 },
+        { "id": 20, "apiname": "22", "name": "Craft Master", "description": "Craft every item.", "difficulty": 4, "missable": true, "estimatedTime": 3000 },
+        { "id": 21, "apiname": "24", "name": "Fisherman", "description": "Catch 10 different fish.", "difficulty": 1, "missable": false, "estimatedTime": 200 },
+        { "id": 22, "apiname": "25", "name": "Ol' Mariner", "description": "Catch 24 different fish.", "difficulty": 2, "missable": true, "estimatedTime": 600 },
+        { "id": 23, "apiname": "26", "name": "Master Angler", "description": "Catch every fish.", "difficulty": 5, "missable": true, "estimatedTime": 4000 },
+        { "id": 24, "apiname": "27", "name": "Mother Catch", "description": "Catch 100 fish.", "difficulty": 2, "missable": true, "estimatedTime": 500 },
+        { "id": 25, "apiname": "28", "name": "Treasure Trove", "description": "Donate 40 different items to the museum.", "difficulty": 2, "missable": true, "estimatedTime": 900 },
+        { "id": 26, "apiname": "29", "name": "Gofer", "description": "Complete 10 'Help Wanted' requests.", "difficulty": 1, "missable": false, "estimatedTime": 300 },
+        { "id": 27, "apiname": "30", "name": "A Big Help", "description": "Complete 40 'Help Wanted' requests.", "difficulty": 2, "missable": true, "estimatedTime": 1500 },
+        { "id": 28, "apiname": "31", "name": "Polyculture", "description": "Ship 15 of each crop.", "difficulty": 3, "missable": true, "estimatedTime": 1800 },
+        { "id": 29, "apiname": "32", "name": "Monoculture", "description": "Ship 300 of one crop.", "difficulty": 2, "missable": true, "estimatedTime": 600 },
+        { "id": 30, "apiname": "34", "name": "Full Shipment", "description": "Ship every item.", "difficulty": 5, "missable": true, "estimatedTime": 6000 },
+        { "id": 31, "apiname": "Achievement_PrairieKing", "name": "Prairie King", "description": "Beat 'Journey Of The Prairie King'.", "difficulty": 3, "missable": true, "estimatedTime": 60 },
+        { "id": 32, "apiname": "Achievement_TheBottom", "name": "The Bottom", "description": "Reach the lowest level of the mines.", "difficulty": 2, "missable": true, "estimatedTime": 300 },
+        { "id": 33, "apiname": "Achievement_LocalLegend", "name": "Local Legend", "description": "Restore the Pelican Town Community Center.", "difficulty": 3, "missable": true, "estimatedTime": 3600 },
+        { "id": 34, "apiname": "Achievement_Joja", "name": "Joja Co. Member Of The Year", "description": "Become a Joja Co. member and purchase all the community development perks.", "difficulty": 2, "missable": true, "estimatedTime": 1800 },
+        { "id": 35, "apiname": "Achievement_Stardrop", "name": "Mystery Of The Stardrops", "description": "Find every stardrop.", "difficulty": 3, "missable": true, "estimatedTime": 1200 },
+        { "id": 36, "apiname": "Achievement_FectorsChallenge", "name": "Fector's Challenge", "description": "Beat 'Journey Of The Prairie King' without dying once - a hidden achievement, and one of the hardest execution challenges in the game.", "difficulty": 5, "missable": true, "estimatedTime": 180 },
+        { "id": 37, "apiname": "Achievement_FullHouse", "name": "Full House", "description": "Get married and have two kids.", "difficulty": 2, "missable": true, "estimatedTime": 3600 },
+        { "id": 38, "apiname": "Achievement_SingularTalent", "name": "Singular Talent", "description": "Reach level 10 in a skill.", "difficulty": 1, "missable": false, "estimatedTime": 600 },
+        { "id": 39, "apiname": "Achievement_MasterOfTheFiveWays", "name": "Master Of The Five Ways", "description": "Reach level 10 in every skill.", "difficulty": 4, "missable": true, "estimatedTime": 3000 },
+        { "id": 40, "apiname": "Achievement_KeeperOfTheMysticRings", "name": "Protector Of The Valley", "description": "Complete all of the Adventure Guild Monster Slayer goals.", "difficulty": 3, "missable": true, "estimatedTime": 1800 },
+        { "id": 41, "apiname": "35", "name": "Well-Read", "description": "Read every book.", "difficulty": 2, "missable": true, "estimatedTime": 600 },
+        { "id": 42, "apiname": "36", "name": "Two Thumbs Up", "description": "See a movie.", "difficulty": 1, "missable": false, "estimatedTime": 60 },
+        { "id": 43, "apiname": "37", "name": "Blue Ribbon", "description": "Get 1st place in the Stardew Valley Fair competition.", "difficulty": 2, "missable": true, "estimatedTime": 30 },
+        { "id": 44, "apiname": "38", "name": "An Unforgettable Soup", "description": "Delight the Governor.", "difficulty": 3, "missable": true, "estimatedTime": 30 },
+        { "id": 45, "apiname": "39", "name": "Good Neighbors", "description": "Help your forest neighbors grow their family.", "difficulty": 2, "missable": true, "estimatedTime": 600 },
+        { "id": 46, "apiname": "41", "name": "Danger In The Deep", "description": "Reach the bottom of the 'dangerous' mines.", "difficulty": 4, "missable": true, "estimatedTime": 900 },
+        { "id": 47, "apiname": "42", "name": "Infinite Power", "description": "Obtain the most powerful weapon.", "difficulty": 3, "missable": true, "estimatedTime": 900 },
+        { "id": 48, "apiname": "44", "name": "Perfection", "description": "Reach the summit.", "difficulty": 5, "missable": true, "estimatedTime": 12000 },
+        { "id": 49, "apiname": "40", "name": "A Distant Shore", "description": "Reach Ginger Island.", "difficulty": 2, "missable": true, "estimatedTime": 600 }
+
+    ]
+
+}
