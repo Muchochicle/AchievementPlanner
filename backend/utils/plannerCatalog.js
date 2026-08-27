@@ -5,8 +5,20 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// backend/utils -> backend -> project root -> src/data/games
-const GAMES_DIR = path.join(__dirname, "..", "..", "src", "data", "games");
+// backend/utils -> backend -> backend/catalog/games. Lives inside backend/
+// (not src/data/games, where it originally lived) because this backend is
+// deployed to Railway as a standalone Docker image built with Root
+// Directory "backend" - the build context is scoped to backend/ alone, so
+// a path reaching outside it (../../src/...) resolves fine locally but
+// silently returns an empty catalog in the deployed container (loadCatalog
+// below only checks fs.existsSync, it doesn't throw), which is exactly
+// what shipped 0 games to every production visitor until this moved.
+// Nothing in the frontend (src/) reads these files directly at runtime -
+// only through this module's own exports - so moving them here has no
+// frontend impact; see backend/test/achievementLogicSync.test.js's own
+// header comment for the sibling case (achievement classification logic)
+// this same Docker-isolation constraint already forced.
+const GAMES_DIR = path.join(__dirname, "..", "catalog", "games");
 
 let cache = null;
 

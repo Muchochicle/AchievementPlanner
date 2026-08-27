@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // hand-typed/hardcoded) so the steamOnlyCount tests below stay honest
 // against whatever hades.json actually contains, rather than a stale
 // literal list of apinames that could silently drift from the real file.
-const HADES_JSON_PATH = path.join(__dirname, "..", "..", "src", "data", "games", "hades.json");
+const HADES_JSON_PATH = path.join(__dirname, "..", "catalog", "games", "hades.json");
 const hadesData = JSON.parse(fs.readFileSync(HADES_JSON_PATH, "utf-8"));
 const hadesApinames = hadesData.achievements.map(a => a.apiname);
 
