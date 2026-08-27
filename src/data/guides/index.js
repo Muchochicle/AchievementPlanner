@@ -48,6 +48,7 @@ import { GUIDE as thomasWasAloneAchievementGuide } from "./games/thomas-was-alon
 import { GUIDE as furiAchievementGuide } from "./games/furi.js";
 import { GUIDE as voidBastardsAchievementGuide } from "./games/void-bastards.js";
 import { GUIDE as deathsDoorAchievementGuide } from "./games/deaths-door.js";
+import { GUIDE as darkestDungeonAchievementGuide } from "./games/darkest-dungeon.js";
 
 export const APP_GUIDES = [
 
@@ -118,7 +119,8 @@ export const GAME_GUIDES = [
     thomasWasAloneAchievementGuide,
     furiAchievementGuide,
     voidBastardsAchievementGuide,
-    deathsDoorAchievementGuide
+    deathsDoorAchievementGuide,
+    darkestDungeonAchievementGuide
 
 ];
 
