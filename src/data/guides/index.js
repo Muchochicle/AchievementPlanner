@@ -23,6 +23,7 @@ import { GUIDE as stardewValleyAchievementGuide } from "./games/stardew-valley.j
 import { GUIDE as aShortHikeAchievementGuide } from "./games/a-short-hike.js";
 import { GUIDE as hyperLightDrifterAchievementGuide } from "./games/hyper-light-drifter.js";
 import { GUIDE as cupheadAchievementGuide } from "./games/cuphead.js";
+import { GUIDE as superliminalAchievementGuide } from "./games/superliminal.js";
 
 export const APP_GUIDES = [
 
@@ -68,7 +69,8 @@ export const GAME_GUIDES = [
     stardewValleyAchievementGuide,
     aShortHikeAchievementGuide,
     hyperLightDrifterAchievementGuide,
-    cupheadAchievementGuide
+    cupheadAchievementGuide,
+    superliminalAchievementGuide
 
 ];
 

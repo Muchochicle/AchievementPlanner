@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 15);
+    assert.strictEqual(GAME_GUIDES.length, 16);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-short-hike", "braid", "celeste", "cuphead", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2", "return-of-the-obra-dinn", "stardew-valley", "what-remains-of-edith-finch"]
+        ["a-short-hike", "braid", "celeste", "cuphead", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2", "return-of-the-obra-dinn", "stardew-valley", "superliminal", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -62,6 +62,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "portal-achievement-guide",
             "return-of-the-obra-dinn-achievement-guide",
             "stardew-valley-achievement-guide",
+            "superliminal-achievement-guide",
             "what-remains-of-edith-finch-achievement-guide"
         ]
     );
