@@ -1,0 +1,703 @@
+{
+    "id": 606150,
+    "steamAppId": 606150,
+
+    "name": "Moonlighter",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/606150/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 12,
+        "max": 25
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Action RPG",
+        "Roguelike",
+        "Shop Sim",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "DEFEAT_GOLEM_BOSS",
+            "name": "Overthrow the king!",
+            "description": "Defeat the Golem King",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 2,
+            "apiname": "DEFEAT_FOREST_BOSS",
+            "name": "Prune the plant!",
+            "description": "Defeat Carnivurous Mutae",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "DEFEAT_DESERT_BOSS",
+            "name": "Behead the snake!",
+            "description": "Defeat Naja",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 4,
+            "apiname": "DEFEAT_TECH_BOSS",
+            "name": "Unplug the energy!",
+            "description": "Defeat Energy Flux",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 5,
+            "apiname": "PERFECT_GOLEM_BOSS",
+            "name": "Perfect Golem King",
+            "description": "Perfect Golem King",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 6,
+            "apiname": "PERFECT_FOREST_BOSS",
+            "name": "Perfect Carnivurous Mutae",
+            "description": "Perfect Carnivurous Mutae",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "PERFECT_DESERT_BOSS",
+            "name": "Perfect Naja",
+            "description": "Perfect Naja",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "PERFECT_TECH_BOSS",
+            "name": "Perfect Energy Flux",
+            "description": "Perfect Energy Flux",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "ALL_CRAZY_PETE_NOTES",
+            "name": "Archeologist",
+            "description": "Read All Crazy Pete Notes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "CRAFT_ALL_WEAPONS",
+            "name": "Weaponmaster",
+            "description": "Craft all weapons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 11,
+            "apiname": "CRAFT_ALL_SHORT_SWORDS",
+            "name": "Balanced Warrior",
+            "description": "Craft All Short Swords",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 12,
+            "apiname": "CRAFT_ALL_BIG_SWORDS",
+            "name": "Heavy Warrior",
+            "description": "Craft All Big Swords",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 13,
+            "apiname": "CRAFT_ALL_GLOVES",
+            "name": "Berserk Warrior",
+            "description": "Craft All Gloves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 14,
+            "apiname": "CRAFT_ALL_SPEARS",
+            "name": "Piercing Warrior",
+            "description": "Craft All Spears",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 15,
+            "apiname": "CRAFT_ALL_BOWS",
+            "name": "Distant Warrior",
+            "description": "Craft All Bows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 16,
+            "apiname": "KILL_BOSSES_BROOM",
+            "name": "Janitor",
+            "description": "Kill all bosses with the broom",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 17,
+            "apiname": "COMPLETE_NOTEBOOK",
+            "name": "Scribe",
+            "description": "Complete the Notebook",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 18,
+            "apiname": "KILL_A_LOT_OF_ENEMIES",
+            "name": "Savage!",
+            "description": "Kill a total of 10000 enemies",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 19,
+            "apiname": "COMPLETE_GAME_UNDER_DEATHS",
+            "name": "Careful Merchant",
+            "description": "Complete the game under 40 deaths",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 20,
+            "apiname": "FINISH_GAME",
+            "name": "Hero or Merchant?",
+            "description": "Discover the mistery of the 5th door",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 21,
+            "apiname": "GOLD_QUANTITY_I",
+            "name": "Saver",
+            "description": "Have a quantity of gold bigger than 5000",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 22,
+            "apiname": "GOLD_QUANTITY_II",
+            "name": "Saver+",
+            "description": "Have a quantity of gold bigger than 50000",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 23,
+            "apiname": "GOLD_QUANTITY_III",
+            "name": "Saver++",
+            "description": "Have a quantity of gold bigger than 100000",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 24,
+            "apiname": "GOLD_QUANTITY_IV",
+            "name": "Greedy",
+            "description": "Have a quantity of gold bigger than 1000000",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 25,
+            "apiname": "SHOP_SECOND_VERSION",
+            "name": "First Investment",
+            "description": "Upgrade your shop to the second version",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 26,
+            "apiname": "SHOP_THIRD_VERSION",
+            "name": "Expansion",
+            "description": "Upgrade your shop to the Third version",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 27,
+            "apiname": "SHOP_FOURTH_VERSION",
+            "name": "Luxury",
+            "description": "Upgrade your shop to the fourth version",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "SHOP_LAST_VERSION",
+            "name": "Emporium",
+            "description": "Upgrade your shop to the last version",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 29,
+            "apiname": "ALL_TOWN_BOARD_IMPROVEMENTS",
+            "name": "Rynoka's Major!",
+            "description": "Buy all improvements in the Town Board",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 30,
+            "apiname": "ALL_ACHIEVEMENTS",
+            "name": "100%",
+            "description": "Complete all achievements",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 31,
+            "apiname": "DEATH_INVENTORY_FULL",
+            "name": "There is no avarice without penalty",
+            "description": "Die with a completely full inventory.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 32,
+            "apiname": "EMBLEM_BEFORE_BOSS",
+            "name": "Going for supplies...",
+            "description": "Use the Catalyst emblem in the room right before a boss room.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 33,
+            "apiname": "BUY_ITEMS_RIVAL",
+            "name": "Wasteful Merchant",
+            "description": "Buy more than 10 times on Le Retalier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 34,
+            "apiname": "GOLEM_THIRD_FLOOR_TIMES",
+            "name": "Golem Apasionate",
+            "description": "Arrive to the third floor of the Golem Dungeon 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 35,
+            "apiname": "FOREST_THIRD_FLOOR_TIMES",
+            "name": "Forest Apasionate",
+            "description": "Arrive to the third floor of the Forest Dungeon 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "DESERT_THIRD_FLOOR_TIMES",
+            "name": "Desert Apasionate",
+            "description": "Arrive to the third floor of the Desert Dungeon 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 37,
+            "apiname": "TECH_THIRD_FLOOR_TIMES",
+            "name": "Tech Apasionate",
+            "description": "Arrive to the third floor of the Tech Dungeon 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 38,
+            "apiname": "EARN_MONEY_BANKER_TIMES",
+            "name": "It takes a thief to catch a thief",
+            "description": "Earn money from the Banker 5 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 39,
+            "apiname": "ALL_DECORATIVE_ITEMS",
+            "name": "Decorative Mind",
+            "description": "Buy all decorative Items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 40,
+            "apiname": "3_WAVES_SECRET_ROOM",
+            "name": "Horde Mode",
+            "description": "Defeat four Waves of enemies in a Wave room",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "FIND_SECRET_ROOM_TIMES",
+            "name": "No Secrets",
+            "description": "Find a secret room 10 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "WITCH_SLIME_HIT_TIMES",
+            "name": "Slime Protection Service",
+            "description": "Hit the Witch's slime attack 42 times.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 43,
+            "apiname": "MONEY_TREE_ONCE",
+            "name": "Does it grow on the trees?!?1",
+            "description": "Get money from a money tree once.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 44,
+            "apiname": "MONEY_TREE_TIMES",
+            "name": "Really?!?",
+            "description": "Earn money from money trees 100 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "EARN_POTIONS_BREAKABLES",
+            "name": "Healthcare System",
+            "description": "Get potions from breakable objects 20 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 46,
+            "apiname": "KILL_GOLEM_ENEMIES_TIMES",
+            "name": "Rage against the Golems",
+            "description": "Kill Golem Enemies 1000 Times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 47,
+            "apiname": "KILL_FOREST_ENEMIES_TIMES",
+            "name": "Rage against the Forest",
+            "description": "Kill Forest Enemies 1000 Times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 48,
+            "apiname": "KILL_DESERT_ENEMIES_TIMES",
+            "name": "Rage against the Desert",
+            "description": "Kill Desert Enemies 1000 Times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 49,
+            "apiname": "KILL_TECH_ENEMIES_TIMES",
+            "name": "Rage against the Machinery",
+            "description": "Kill Tech Enemies 1000 Times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 50,
+            "apiname": "CRAZY_PETE_SPECIAL_PLACE",
+            "name": "Special Place",
+            "description": "Find Crazy Pete's special place.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 51,
+            "apiname": "KILL_BUGS_TIMES",
+            "name": "Exterminator",
+            "description": "Kill 100 passive bugs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 52,
+            "apiname": "VISITORS_RUN_TIMES",
+            "name": "Distracted Merchant",
+            "description": "Make 20 visitors leave your shop without buying anything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 53,
+            "apiname": "SELL_ITEMS_OVERPRICED_TIMES",
+            "name": "Evil Merchant",
+            "description": "Sell 20 items slightly overpriced",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 54,
+            "apiname": "SELL_ITEMS_PERFECT_TIMES",
+            "name": "Good Merchant",
+            "description": "Sell 20 items for the perfect price",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 55,
+            "apiname": "SELL_ITEMS_CHEAP_TIMES",
+            "name": "Naive Merchant",
+            "description": "Sell 40 items well below their perfect price.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 56,
+            "apiname": "SELL_ITEMS_EXPENSIVE_TIMES",
+            "name": "Scammer",
+            "description": "Receive 60 negative reactions from customers by pricing items too high.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 57,
+            "apiname": "BEAT_GAME_UNDER_TIME",
+            "name": "Gotta go fast!",
+            "description": "Beat Game Under 10 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 58,
+            "apiname": "FIRST_ICT_WEAPON",
+            "name": "Inter-Dimensional Blacksmith",
+            "description": "Craft your first weapon using an inter-dimensional blueprint.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 59,
+            "apiname": "GREED_IS_OVER",
+            "name": "Greed is Over",
+            "description": "Defeat the boss of the New Portal, floor 10 of the Wanderer Dungeon.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 60,
+            "apiname": "A_BIGGER_FAMILY",
+            "name": "A Bigger Family",
+            "description": "Get all DLC companions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 61,
+            "apiname": "SECOND_FLOOR",
+            "name": "Second Floor",
+            "description": "Build the elevator to the second floor of the Wanderer Dungeon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 62,
+            "apiname": "FOURTH_FLOOR",
+            "name": "Fourth Floor",
+            "description": "Build the elevator to the fourth floor of the Wanderer Dungeon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 63,
+            "apiname": "SIXTH_FLOOR",
+            "name": "Sixth Floor",
+            "description": "Build the elevator to the sixth floor of the Wanderer Dungeon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 64,
+            "apiname": "EIGHT_FLOOR",
+            "name": "Eight Floor",
+            "description": "Build the elevator to the eighth floor of the Wanderer Dungeon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 65,
+            "apiname": "IMPROVE_YOURSELF",
+            "name": "Improve Yourself",
+            "description": "Defeat Evil Will, a miniboss in the Wanderer Dungeon.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 66,
+            "apiname": "STRANGE_WEAPON",
+            "name": "Strange Weapon",
+            "description": "Get your first Trick Weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 67,
+            "apiname": "TRICK_WEAPON_COLLECTOR",
+            "name": "Trick Weapon Collector",
+            "description": "Get all Trick Weapons from the Dimensional Watcher",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        }
+
+    ]
+
+}

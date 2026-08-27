@@ -49,6 +49,9 @@ import { GUIDE as furiAchievementGuide } from "./games/furi.js";
 import { GUIDE as voidBastardsAchievementGuide } from "./games/void-bastards.js";
 import { GUIDE as deathsDoorAchievementGuide } from "./games/deaths-door.js";
 import { GUIDE as darkestDungeonAchievementGuide } from "./games/darkest-dungeon.js";
+import { GUIDE as moonlighterAchievementGuide } from "./games/moonlighter.js";
+import { GUIDE as frostpunkAchievementGuide } from "./games/frostpunk.js";
+import { GUIDE as spelunky2AchievementGuide } from "./games/spelunky-2.js";
 
 export const APP_GUIDES = [
 
@@ -120,7 +123,10 @@ export const GAME_GUIDES = [
     furiAchievementGuide,
     voidBastardsAchievementGuide,
     deathsDoorAchievementGuide,
-    darkestDungeonAchievementGuide
+    darkestDungeonAchievementGuide,
+    moonlighterAchievementGuide,
+    frostpunkAchievementGuide,
+    spelunky2AchievementGuide
 
 ];
 
