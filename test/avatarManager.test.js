@@ -132,3 +132,27 @@ test("getAllAvatars returns every avatar defined in the catalog, matching AVATAR
     );
 
 });
+
+test("every avatar's image path is relative, never root-absolute", () => {
+
+    // This app is deployed as a GitHub Pages *project* page (Settings ->
+    // Pages), i.e. served from https://<user>.github.io/<repo>/ - a
+    // subpath, not the domain root. A root-absolute path like
+    // "/src/assets/..." resolves against the domain root regardless of
+    // that subpath, so it 404s in production even though it works fine
+    // locally (dev server usually serves the repo itself as root). Every
+    // one of this app's 9 HTML entry points lives directly at the repo
+    // root (see README/project structure), so a plain relative path
+    // ("src/assets/...", no leading slash) resolves correctly from all of
+    // them, in both places. Regression test for the real bug this caught:
+    // every avatar image was a dead link on the live site until fixed.
+    for (const avatar of Object.values(AVATARS)) {
+
+        assert.ok(
+            !avatar.image.startsWith("/"),
+            `avatar "${avatar.id}"'s image path ("${avatar.image}") must be relative (no leading "/"), or it 404s under GitHub Pages' project-page subpath`
+        );
+
+    }
+
+});

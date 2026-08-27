@@ -6,7 +6,7 @@ export const AVATARS = {
 
         name: "Anonymous",
 
-        image: "/src/assets/player/avatars/default.webp",
+        image: "src/assets/player/avatars/default.webp",
 
         unlocked: true
 
@@ -18,7 +18,7 @@ export const AVATARS = {
 
         name: "Recruit",
 
-        image: "/src/assets/player/avatars/rookie.webp",
+        image: "src/assets/player/avatars/rookie.webp",
 
         unlocked: false
 
@@ -30,7 +30,7 @@ export const AVATARS = {
 
         name: "Pathfinder",
 
-        image: "/src/assets/player/avatars/explorer.webp",
+        image: "src/assets/player/avatars/explorer.webp",
 
         unlocked: false
 
@@ -42,7 +42,7 @@ export const AVATARS = {
 
         name: "Veteran",
 
-        image: "/src/assets/player/avatars/veteran.webp",
+        image: "src/assets/player/avatars/veteran.webp",
 
         unlocked: false
 
@@ -54,7 +54,7 @@ export const AVATARS = {
 
         name: "Elite",
 
-        image: "/src/assets/player/avatars/master.webp",
+        image: "src/assets/player/avatars/master.webp",
 
         unlocked: false
 
@@ -66,7 +66,7 @@ export const AVATARS = {
 
         name: "Legend",
 
-        image: "/src/assets/player/avatars/legend.webp",
+        image: "src/assets/player/avatars/legend.webp",
 
         unlocked: false
 
