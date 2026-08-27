@@ -30,6 +30,8 @@ import { GUIDE as rimeAchievementGuide } from "./games/rime.js";
 import { GUIDE as slayTheSpireAchievementGuide } from "./games/slay-the-spire.js";
 import { GUIDE as discoElysiumAchievementGuide } from "./games/disco-elysium.js";
 import { GUIDE as aHatInTimeAchievementGuide } from "./games/a-hat-in-time.js";
+import { GUIDE as theStanleyParableAchievementGuide } from "./games/the-stanley-parable.js";
+import { GUIDE as papersPleaseAchievementGuide } from "./games/papers-please.js";
 
 export const APP_GUIDES = [
 
@@ -82,7 +84,9 @@ export const GAME_GUIDES = [
     rimeAchievementGuide,
     slayTheSpireAchievementGuide,
     discoElysiumAchievementGuide,
-    aHatInTimeAchievementGuide
+    aHatInTimeAchievementGuide,
+    theStanleyParableAchievementGuide,
+    papersPleaseAchievementGuide
 
 ];
 
