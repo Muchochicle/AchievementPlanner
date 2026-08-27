@@ -1,0 +1,1242 @@
+{
+    "id": 588650,
+    "steamAppId": 588650,
+
+    "name": "Dead Cells",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+
+    "difficulty": 8,
+
+    "completionTime": {
+        "min": 20,
+        "max": 200
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Roguelike",
+        "Metroidvania",
+        "Action"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "BIOME_REACHED_COURTYARD",
+            "name": "Love the serenity...",
+            "description": "Reach the Promenade of the Condemned for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "BIOME_REACHED_PRISONROOF",
+            "name": "A room with a view!",
+            "description": "Reach the Ramparts for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 3,
+            "apiname": "BIOME_REACHED_BRIDGE",
+            "name": "Finally, a moment of rest...",
+            "description": "Reach the Black Bridge for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 4,
+            "apiname": "BIOME_REACHED_OSSUARY",
+            "name": "Smells like burned flesh",
+            "description": "Reach the Ossuary for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "BIOME_REACHED_SEWERS",
+            "name": "What's that funky smell?",
+            "description": "Reach the Toxic Sewers for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 6,
+            "apiname": "BIOME_REACHED_SEWERSDEPTH",
+            "name": "Who needs an Italian plumber?",
+            "description": "Reach the Ancient Sewers for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "BIOME_REACHED_STILTVILLAGE",
+            "name": "My fish is fresh!",
+            "description": "Reach the Stilt Village for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "BIOME_REACHED_CEMETERY",
+            "name": "The dead center of the island...",
+            "description": "Reach the Graveyard for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "BIOME_REACHED_PRISONDEPTH",
+            "name": "It rubs the lotion on its skin!",
+            "description": "Reach the Prison Depths for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 10,
+            "apiname": "EXPLO_GETRUNE_VINE",
+            "name": "Quit tickling!",
+            "description": "Absorb the Vine Rune.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 11,
+            "apiname": "EXPLO_GETRUNE_TELEPORT",
+            "name": "What are you rubbing at anyway?",
+            "description": "Absorb the Teleportation rune.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 12,
+            "apiname": "FEAT_KILLWITH_ELEVATOR",
+            "name": "Going down!",
+            "description": "Kill an enemy with an elevator.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 13,
+            "apiname": "FEAT_KILLYOURSELF_ELEVATOR",
+            "name": "They came from behind!",
+            "description": "Kill yourself with an elevator.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 14,
+            "apiname": "FEAT_KILLYOURSELF_NOPE",
+            "name": "YOLO! Or not?",
+            "description": "Cheat Death…",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 15,
+            "apiname": "FEAT_DEATH_LOST_100_CELLS",
+            "name": "Ohhhhhh! That hurt!",
+            "description": "Die while holding 100 or more Cells.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 16,
+            "apiname": "FIGHT_BEAT_BEHEMOTH",
+            "name": "The Fat and The Furious",
+            "description": "You beat \"The Concierge\"!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 17,
+            "apiname": "FIGHT_BEAT_BEHOLDER",
+            "name": "Is there something in your eye?",
+            "description": "You beat \"Conjunctivius\"!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 18,
+            "apiname": "FIGHT_BEAT_100_ELITES",
+            "name": "Not so tough",
+            "description": "You slayed 100 elites. Badman.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 19,
+            "apiname": "FIGHT_BEAT_BEHEMOTH_NODAMAGE",
+            "name": "Steam rolled.",
+            "description": "Beat The Concierge without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 20,
+            "apiname": "FIGHT_BEAT_BEHOLDER_NODAMAGE",
+            "name": "Flawless victory.",
+            "description": "Beat Conjunctivius without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 21,
+            "apiname": "EQUIP_UNLOCK_10_WEAPONS",
+            "name": "Slash! Slash! Roll!",
+            "description": "Unlock 10 weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 22,
+            "apiname": "EQUIP_UNLOCK_10_ACTIVES",
+            "name": "Pimp my ride.",
+            "description": "Unlock 10 skills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 23,
+            "apiname": "BIOME_REACHED_CRYPT",
+            "name": "Afraid of the dark?",
+            "description": "Reach the Forgotten Sepulcher for the first time!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "FEAT_DIVE_SPIKES",
+            "name": "We've all been there before...",
+            "description": "Perform a dive attack directly into a bed of spikes.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 25,
+            "apiname": "FEAT_ENDGAME_STARTWEAPON",
+            "name": "What? There's nothing wrong with these...",
+            "description": "Beat the Hand of the King while still carrying your starting sword, bow, or shield.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "FEAT_SURVIVE_CURSE",
+            "name": "Absolution",
+            "description": "Be cursed... Survive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 27,
+            "apiname": "EXPLO_FIRST_TIMEDDOOR",
+            "name": "¡Arriba, arriba! ¡Ándale, ándale!",
+            "description": "Open your first timed door.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 28,
+            "apiname": "EXPLO_FIRST_RIFTCHALLENGE",
+            "name": "See, that wasn't so hard now, was it?",
+            "description": "Successfully complete a Challenge Rift.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 29,
+            "apiname": "EXPLO_FIRST_SECRETZONE",
+            "name": "Shrewd sleuth",
+            "description": "Find your first secret zone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 30,
+            "apiname": "FEAT_COMPLETE_1_DAILYRUN",
+            "name": "Faster than light!",
+            "description": "You finished a daily challenge. Well done!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 31,
+            "apiname": "EXPLO_GETRUNE_SCORING",
+            "name": "Here comes a new challenger!",
+            "description": "Absorb the Challenger Rune!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 32,
+            "apiname": "FIGHT_BEAT_BERSERK",
+            "name": "Blade Master",
+            "description": "You have beaten the \"Time Keeper\"!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "FIGHT_BEAT_BERSERK_NODAMAGE",
+            "name": "The Dance",
+            "description": "Beat the Time Keeper without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 34,
+            "apiname": "BIOME_REACHED_CLOCKTOWER",
+            "name": "Tic… Toc…",
+            "description": "Reach the Clock Tower for the first time!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 35,
+            "apiname": "BIOME_REACHED_TOPCLOCKTOWER",
+            "name": "High drama",
+            "description": "Reach the Clock Room for the first time!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 36,
+            "apiname": "BIOME_REACHED_ANCIENTTEMPLE",
+            "name": "Fortune and glory, kid. Fortune and Glory...",
+            "description": "Reach the Slumbering Sanctuary for the first time!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 37,
+            "apiname": "EXPLO_GETRUNE_WALLGRAB",
+            "name": "Incy Wincy…",
+            "description": "Absorb the Spider's Rune!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 38,
+            "apiname": "EQUIP_ENDGAME_YOLO",
+            "name": "Never fallen",
+            "description": "Beat the game with the Ygdar Orus Li Ox mutation equipped as your very first mutation, without ever dying.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 39,
+            "apiname": "EQUIP_ENDGAME_CURSEDSWORD",
+            "name": "I like to live dangerously…",
+            "description": "Beat the Hand of the King while carrying the Cursed Sword.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 40,
+            "apiname": "EXPLO_GETRUNE_BREAKGROUND",
+            "name": "La Brute",
+            "description": "Absorb the Ram's Rune.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "EXPLO_GETBOSSRUNE_FIRST",
+            "name": "Surgical extraction",
+            "description": "Absorb your first Boss Stem Cell by beating the Hand of the King for the first time.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 42,
+            "apiname": "EXPLO_GETBOSSRUNE_SECOND",
+            "name": "Masterful extraction",
+            "description": "Absorb your second Boss Stem Cell.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 43,
+            "apiname": "EXPLO_GETBOSSRUNE_THIRD",
+            "name": "Artful extraction",
+            "description": "Absorb your third Boss Stem Cell.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 44,
+            "apiname": "FEAT_ENDGAME_BOSSRUNE_1",
+            "name": "Up, Guards, and at them again!",
+            "description": "Finish the game with one Boss Stem Cell active.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 45,
+            "apiname": "FEAT_ENDGAME_BOSSRUNE_2",
+            "name": "Finished, without fear.",
+            "description": "Finish the game with two Boss Stem Cells active.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 46,
+            "apiname": "FEAT_ENDGAME_BOSSRUNE_3",
+            "name": "Harder Better Faster Stronger",
+            "description": "Finish the game with three Boss Stem Cells active.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 47,
+            "apiname": "FIGHT_BEAT_KINGSHAND",
+            "name": "The last rampart falls...",
+            "description": "Beat the Hand of the King.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 48,
+            "apiname": "FIGHT_BEAT_KINGSHAND_NODAMAGE",
+            "name": "Do you need... A hand?? Bahaha!",
+            "description": "Beat the Hand of the King without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 49,
+            "apiname": "EXPLO_GETBOSSRUNE_FOURTH",
+            "name": "Deft extraction",
+            "description": "Absorb your fourth Boss Stem Cell.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 50,
+            "apiname": "FEAT_ENDGAME_BOSSRUNE_4",
+            "name": "Let's get down to the nitty gritty...",
+            "description": "Finish the game with four Boss Stem Cells active.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 51,
+            "apiname": "BIOME_REACHED_CASTLE",
+            "name": "Please leave your shoes at the entrance.",
+            "description": "Reach the Castle for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "BIOME_REACHED_THRONE",
+            "name": "Bend the knee? I think not…",
+            "description": "Reach the Throne Room for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 53,
+            "apiname": "BIOME_REACHED_BEHOLDERPIT",
+            "name": "Even the rats avoid the place...",
+            "description": "Reach the Insufferable Crypt for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 54,
+            "apiname": "EXPLO_GETBOSSRUNE_FIFTH",
+            "name": "Perfect extraction",
+            "description": "Absorb your fifth Boss Stem Cell.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 55,
+            "apiname": "FIGHT_BEAT_GIANT",
+            "name": "Size doesn't matter",
+            "description": "You beat the Giant!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 56,
+            "apiname": "FIGHT_BEAT_COLLECTOR",
+            "name": "I don't step on toes...",
+            "description": "Beat the Collector.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 57,
+            "apiname": "BIOME_REACHED_CAVERN",
+            "name": "You dig",
+            "description": "Reach the Cavern for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 58,
+            "apiname": "BIOME_REACHED_GIANT",
+            "name": "Hot and cold",
+            "description": "Reach the Guardian's Haven for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 59,
+            "apiname": "BIOME_REACHED_ASTROLAB",
+            "name": "Life on the edge",
+            "description": "Reach the Astrolab for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 60,
+            "apiname": "BIOME_REACHED_OBSERVATORY",
+            "name": "Stargazing",
+            "description": "Reach the Observatory for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 61,
+            "apiname": "FIGHT_BEAT_GIANT_NODAMAGE",
+            "name": "David and Goliath...",
+            "description": "Beat the Giant without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 62,
+            "apiname": "FIGHT_BEAT_COLLECTOR_NODAMAGE",
+            "name": "Nothing left to... collect.",
+            "description": "Beat the Collector without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 63,
+            "apiname": "FIGHT_BEAT_MAMATICK",
+            "name": "I've got my eyes on you...",
+            "description": "Beat Mama Tick.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 64,
+            "apiname": "FIGHT_BEAT_MAMATICK_NODAMAGE",
+            "name": "Take that, sucker!",
+            "description": "Beat Mama Tick without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 65,
+            "apiname": "FEAT_ENDGAME_NOKILL_MUSHROOM_BOI",
+            "name": "Who's a good boi?",
+            "description": "Finish the game without sacrificing the Mushroom Boi!",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 66,
+            "apiname": "FEAT_EXPLODE_MUSHROOM_BOI",
+            "name": "Bound for Hell",
+            "description": "Use the Mushroom Boi skill again on an already-active Mushroom Boi so it explodes.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 67,
+            "apiname": "FEAT_SACRIFICE_MUSHROOM_BOI",
+            "name": "Pact with the devil",
+            "description": "Sacrifice the Mushroom Boi at the altar in the Morass of the Banished.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 68,
+            "apiname": "FEAT_PRISON_NOBREAK_DOOR",
+            "name": "Gentleman",
+            "description": "Finish the Prisoners' Quarters without breaking a single door.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 69,
+            "apiname": "BIOME_REACHED_GREENHOUSE",
+            "name": "Go play outside!",
+            "description": "Reach the Arboretum for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 70,
+            "apiname": "BIOME_REACHED_SWAMP",
+            "name": "The mud is getting warm, so you might as well swim.",
+            "description": "Reach the Morass of the Banished for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 71,
+            "apiname": "BIOME_REACHED_SWAMPHEART",
+            "name": "Knee deep in mud...",
+            "description": "Reach the Nest for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 72,
+            "apiname": "BIOME_REACHED_PRISONCORRUPT",
+            "name": "Don't. Touch. Anything!",
+            "description": "Reach the Corrupted Prison for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 73,
+            "apiname": "BIOME_REACHED_DISTILLERY",
+            "name": "Cheers!",
+            "description": "Reach the Derelict Distillery for the first time!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 74,
+            "apiname": "FEAT_FINISHLEVEL_NOLAUNCHER",
+            "name": "Born sapper",
+            "description": "You completed the Derelict Distillery without using the Barrel Launcher!",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 75,
+            "apiname": "FEAT_KILLWITH_BARREL",
+            "name": "Return to sender",
+            "description": "You killed an Infected Worker with his own barrel!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 76,
+            "apiname": "BIOME_REACHED_GARDENER",
+            "name": "Blades N' Roses",
+            "description": "Reach the Mausoleum for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 77,
+            "apiname": "BIOME_REACHED_CLIFF",
+            "name": "Beware the step!",
+            "description": "Reach the Undying Shores for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 78,
+            "apiname": "BIOME_REACHED_TUMULUS",
+            "name": "Sky Fall",
+            "description": "Reach the Fractured Shrines for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 79,
+            "apiname": "FIGHT_BEAT_GARDENER_NOBOUNCE",
+            "name": "In mushroom, we trust.",
+            "description": "Defeat the Scarecrow without bouncing on any mushrooms.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 80,
+            "apiname": "FIGHT_BEAT_GARDENER",
+            "name": "Watering Time!",
+            "description": "You beat the Scarecrow!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 81,
+            "apiname": "FIGHT_BEAT_GARDENER_NODAMAGE",
+            "name": "Green thumbs",
+            "description": "You beat the Scarecrow without taking a single hit!",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 82,
+            "apiname": "FEAT_NECROMANT_REVIVE_3_MOBS",
+            "name": "First aid",
+            "description": "Let an Apostate revive at least 3 souls.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 83,
+            "apiname": "FEAT_FLYINGSWORD_JEALOUSY",
+            "name": "Me, jealous?",
+            "description": "Summon Serenade while another companion skill is already active, so it destroys the other companion out of jealousy.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 84,
+            "apiname": "FEAT_LIGHTNING_WATER_KILL",
+            "name": "Pool Party",
+            "description": "Electrify an enemy with the Lightning Rods while they are in water.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 85,
+            "apiname": "FEAT_COMBO_SICKLES",
+            "name": "A cut above",
+            "description": "Defeat at least 5 enemies in a row with the Scarecrow's Sickles.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 86,
+            "apiname": "FEAT_PENDULO_TRAP_KILL",
+            "name": "Trapped Trapper",
+            "description": "Trap an enemy using the Fractured Shrines environment!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 87,
+            "apiname": "FEAT_COSTUME_REQUIRED",
+            "name": "The cowl does not make the monk",
+            "description": "Wear the Dead Cultist outfit to be allowed past the guardian statues into the Undying Shores.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 88,
+            "apiname": "BIOME_REACHED_SHIPWRECK",
+            "name": "Iceberg right ahead!",
+            "description": "Reach the Shipwreck for the first time!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 89,
+            "apiname": "BIOME_REACHED_LIGHTHOUSE",
+            "name": "8th wonder",
+            "description": "Reach the Lighthouse for the first time!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 90,
+            "apiname": "BIOME_REACHED_QUEENARENA",
+            "name": "A sparkle in the night",
+            "description": "Reach the Crown for the first time!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 91,
+            "apiname": "FIGHT_BEAT_QUEEN",
+            "name": "Her Majesty",
+            "description": "You beat the Queen!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 92,
+            "apiname": "FIGHT_BEAT_QUEEN_NODAMAGE",
+            "name": "Lilibet",
+            "description": "You beat the Queen without taking a single hit!",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 93,
+            "apiname": "FIGHT_BEAT_QUEEN_FALL",
+            "name": "Long live the Queen",
+            "description": "Beat the Queen by pushing her into the void",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 94,
+            "apiname": "FIGHT_BEAT_QUEEN_CARDS",
+            "name": "Full house",
+            "description": "Beat the Queen with the Killing Deck",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 95,
+            "apiname": "FIGHT_BEAT_QUEEN_COSTUME",
+            "name": "On Her Majesty's Secret Service",
+            "description": "Beat the Queen with a Queen outfit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 96,
+            "apiname": "FEAT_STAPHY_EVOLVE",
+            "name": "Oh how fast they grow!",
+            "description": "Get the Leghugger to evolve",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 97,
+            "apiname": "FEAT_KILL_PIRATE_CANNON",
+            "name": "Black flag",
+            "description": "Kill a Pirate Captain with the Scavenged Bombard",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 98,
+            "apiname": "FEAT_WRECKINGBALL_STRIKE",
+            "name": "Spare!",
+            "description": "Kill five enemies with a single throw and recall of the Wrecking Ball",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 99,
+            "apiname": "FEAT_HANDHOOK_SPIKES",
+            "name": "Plank walk",
+            "description": "Throw an enemy into spikes using the Hand Hook",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 100,
+            "apiname": "FEAT_SHARK_WATER",
+            "name": "Put that thing back where it came from or so help me",
+            "description": "Help the shark get back to the water",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 101,
+            "apiname": "FEAT_SERVANT_COSTUME",
+            "name": "Infiltration",
+            "description": "Finish the Lighthouse while wearing a Servant outfit",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 102,
+            "apiname": "FEAT_TWO_PETS",
+            "name": "Herder",
+            "description": "Have 2 pets active at the same time",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 103,
+            "apiname": "FEAT_STAPHY_KILL_STAPHY",
+            "name": "You're not my family",
+            "description": "Get the Leghugger to kill an Armored Shrimp",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 104,
+            "apiname": "FIGHT_BEAT_AMAZONS",
+            "name": "Firefighter",
+            "description": "You finished the Lighthouse!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 105,
+            "apiname": "FIGHT_BEAT_AMAZONS_NODAMAGE",
+            "name": "Unwavering loyalty",
+            "description": "Finish the Lighthouse without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 106,
+            "apiname": "BIOME_REACHED_BANK",
+            "name": "The Bank always wins in the end",
+            "description": "Reach the Bank for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 107,
+            "apiname": "FEAT_DEBT",
+            "name": "Up to the eyeball in debt",
+            "description": "Beat the game with the maximum debt remaining.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 108,
+            "apiname": "FIGHT_BEAT_MIMIC",
+            "name": "Bag of Tricks",
+            "description": "Defeat the disguised Vendor Mimic in the Bank.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 109,
+            "apiname": "BIOME_REACHED_PGARDEN",
+            "name": "Am I still on the island?",
+            "description": "Reach the Castle's Outskirts for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 110,
+            "apiname": "BIOME_REACHED_PCASTLE",
+            "name": "Into the vampire's den",
+            "description": "Reach Dracula's Castle for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 111,
+            "apiname": "BIOME_REACHED_DEATH",
+            "name": "Don't fear the Reaper",
+            "description": "Reach the Defiled Necropolis for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 112,
+            "apiname": "BIOME_REACHED_DOOKU",
+            "name": "What is a man?",
+            "description": "Reach the Master's Keep for the first time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 113,
+            "apiname": "FIGHT_BEAT_DEATH",
+            "name": "Death comes for us all... but not you!",
+            "description": "You beat Death!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 114,
+            "apiname": "FIGHT_BEAT_DEATH_NODAMAGE",
+            "name": "Dodge Death!",
+            "description": "Beat Death without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 115,
+            "apiname": "FIGHT_BEAT_DOOKU",
+            "name": "You don't belong in this world!",
+            "description": "You beat Dracula!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 116,
+            "apiname": "FIGHT_BEAT_DOOKU_BEAST",
+            "name": "See you in 100 years",
+            "description": "Beat Dracula's final Beast form.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 117,
+            "apiname": "FIGHT_BEAT_DOOKU_NODAMAGE",
+            "name": "Honorary Belmont",
+            "description": "Beat Dracula without taking a single hit.",
+            "difficulty": 5,
+            "missable": true,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 118,
+            "apiname": "FEAT_CAT_KILL_DEATH",
+            "name": "I still have 8 lives",
+            "description": "Have Maria's Cat deal the last hit to Death.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 119,
+            "apiname": "FEAT_AXE_KILL_WWOLF",
+            "name": "Can you stop moving please?!",
+            "description": "Kill a Werewolf with a Throwing Axe",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 120,
+            "apiname": "FEAT_VKILLER_KILL_DOOKU",
+            "name": "Does what it says on the tin",
+            "description": "Beat Dracula's Beast form using the Vampire Killer.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 121,
+            "apiname": "FEAT_BIBLE_MULTI_HIT",
+            "name": "Knowledge is power",
+            "description": "Hit the same enemy with 5 orbiting Bibles in short succession.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        }
+
+    ]
+
+}
