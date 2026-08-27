@@ -13,6 +13,7 @@ import { GUIDE as portal2AchievementGuide } from "./games/portal-2.js";
 import { GUIDE as hollowKnightAchievementGuide } from "./games/hollow-knight.js";
 import { GUIDE as celesteAchievementGuide } from "./games/celeste.js";
 import { GUIDE as insideAchievementGuide } from "./games/inside.js";
+import { GUIDE as portalAchievementGuide } from "./games/portal.js";
 
 export const APP_GUIDES = [
 
@@ -29,16 +30,17 @@ export const APP_GUIDES = [
 ];
 
 // Phase 37 shipped the first real Game Guide (Hades). Phase 73 completed
-// the set: every real, non-debug catalog game (src/data/games/*.json,
-// excluding debug-game) now has a real, sourced Game Guide here - see each
-// game's own guides/games/<slug>.js for its sourcing notes. debug-game
-// declares hasGuide:false and correctly has no entry here.
+// the set as of that phase's catalog; every real, non-debug catalog game
+// (backend/catalog/games/*.json, excluding debug-game) has had a real,
+// sourced Game Guide here ever since a game's added to the catalog - see
+// each game's own guides/games/<slug>.js for its sourcing notes.
+// debug-game declares hasGuide:false and correctly has no entry here.
 //
 // A real game guide belongs here once actually written, shaped like an
 // APP_GUIDES entry plus:
 //   - category: "game"
 //   - gameSlug: the catalog game it documents, matching
-//     src/data/games/<gameSlug>.json's own `slug` - this is what
+//     backend/catalog/games/<gameSlug>.json's own filename - this is what
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
@@ -47,7 +49,8 @@ export const GAME_GUIDES = [
     portal2AchievementGuide,
     hollowKnightAchievementGuide,
     celesteAchievementGuide,
-    insideAchievementGuide
+    insideAchievementGuide,
+    portalAchievementGuide
 
 ];
 

@@ -12,11 +12,6 @@ export const ROADMAP_ITEMS = [
 
     {
         status: "planned",
-        title: "Live public deployment",
-        body: "AchievementPlanner is fully prepared to deploy (Railway for the backend, GitHub Pages for the frontend, both documented in the project's README) - going live at a real public URL is next."
-    },
-    {
-        status: "planned",
         title: "More games in the catalog",
         body: "Every game currently in AchievementPlanner has a complete, Steam-verified achievement list and a full written guide. Growing that catalog beyond the current lineup is ongoing."
     },
@@ -35,6 +30,10 @@ export const ROADMAP_ITEMS = [
 
 export const SHIPPED_HIGHLIGHTS = [
 
+    {
+        title: "Live public deployment",
+        body: "AchievementPlanner is live at a real public URL - the frontend on GitHub Pages, the backend on Railway - with Steam login working end-to-end, not just running locally."
+    },
     {
         title: "Server-side player progress",
         body: "XP, level, badges, claimed achievements, and your avatar now live on the server, tied to your Steam account - not just in this browser's local storage."

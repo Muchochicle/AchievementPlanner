@@ -1,0 +1,181 @@
+{
+    "id": 400,
+    "steamAppId": 400,
+
+    "name": "Portal",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/400/header.jpg",
+
+    "difficulty": 3,
+
+    "completionTime": {
+        "min": 5,
+        "max": 9
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Puzzle",
+        "Adventure"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "PORTAL_GET_PORTALGUNS",
+            "name": "Lab Rat",
+            "description": "Acquire the fully powered Aperture Science Handheld Portal Device.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 2,
+            "apiname": "PORTAL_KILL_COMPANIONCUBE",
+            "name": "Fratricide",
+            "description": "Do whatever it takes to survive.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 3,
+            "apiname": "PORTAL_ESCAPE_TESTCHAMBERS",
+            "name": "Partygoer",
+            "description": "Make the correct party escort submission position decision.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 4,
+            "apiname": "PORTAL_BEAT_GAME",
+            "name": "Heartbreaker",
+            "description": "Complete Portal.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 5,
+            "apiname": "PORTAL_INFINITEFALL",
+            "name": "Terminal Velocity",
+            "description": "Fall 30,000 feet.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 6,
+            "apiname": "PORTAL_LONGJUMP",
+            "name": "Long Jump",
+            "description": "Jump 300 feet.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 7,
+            "apiname": "PORTAL_BEAT_2ADVANCEDMAPS",
+            "name": "Cupcake",
+            "description": "Beat two Portal advanced maps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 8,
+            "apiname": "PORTAL_BEAT_4ADVANCEDMAPS",
+            "name": "Fruitcake",
+            "description": "Beat four Portal advanced maps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 9,
+            "apiname": "PORTAL_BEAT_6ADVANCEDMAPS",
+            "name": "Vanilla Crazy Cake",
+            "description": "Beat all six Portal advanced maps.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "PORTAL_GET_ALLBRONZE",
+            "name": "Basic Science",
+            "description": "Earn bronze medals on all Portal challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "PORTAL_GET_ALLSILVER",
+            "name": "Rocket Science",
+            "description": "Earn silver medals on all Portal challenges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "PORTAL_GET_ALLGOLD",
+            "name": "Aperture Science",
+            "description": "Earn gold medals on all Portal challenges.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 13,
+            "apiname": "PORTAL_DETACH_ALL_CAMERAS",
+            "name": "Camera Shy",
+            "description": "Detach security cameras from the walls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "PORTAL_HIT_TURRET_WITH_TURRET",
+            "name": "Friendly Fire",
+            "description": "Knock down a turret with another turret.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 15,
+            "apiname": "PORTAL_TRANSMISSION_RECEIVED",
+            "name": "Transmission Received",
+            "description": "..?",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        }
+
+    ]
+
+}
