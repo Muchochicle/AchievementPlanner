@@ -63,6 +63,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rogue-legacy"));
     assert.ok(slugs.includes("ori-and-the-will-of-the-wisps"));
     assert.ok(slugs.includes("the-messenger"));
+    assert.ok(slugs.includes("pyre"));
+    assert.ok(slugs.includes("steamworld-dig-2"));
+    assert.ok(slugs.includes("the-forgotten-city"));
 
 });
 

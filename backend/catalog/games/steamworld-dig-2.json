@@ -1,0 +1,372 @@
+{
+    "id": 571310,
+    "steamAppId": 571310,
+
+    "name": "SteamWorld Dig 2",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/571310/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 8,
+        "max": 15
+    },
+
+    "missable": false,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Metroidvania",
+        "Platformer",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ach_defeat_totem",
+            "name": "The Guiding Light",
+            "description": "Defeat the Totem, the game's first boss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "ach_find_yarrow",
+            "name": "A Mysterious Garden",
+            "description": "Find Yarrow, a strangely verdant hidden garden area",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "ach_find_hub",
+            "name": "A Shining City",
+            "description": "Discover the Oasis, the last refuge of a fallen civilization",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 4,
+            "apiname": "ach_defeat_priest",
+            "name": "The Enlightened",
+            "description": "Defeat the Great Prophet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "ach_escape_vectron",
+            "name": "Ghost of the Machine",
+            "description": "Escape the grasp of Vectron",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 6,
+            "apiname": "ach_finish_game",
+            "name": "A New Frontier",
+            "description": "Leave Earth with your companion, completing the game",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 480
+        },
+
+        {
+            "id": 7,
+            "apiname": "ach_speedrunner",
+            "name": "Speedrunner",
+            "description": "Finish the game with a gold star in the Time category. How fast is that, exactly? It’s up to you to find out!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 8,
+            "apiname": "ach_survivor",
+            "name": "Hardcore",
+            "description": "Finish the game with a gold star in the Deaths category. You can’t even die once, buddy!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 480
+        },
+
+        {
+            "id": 9,
+            "apiname": "ach_networth",
+            "name": "Gold Farmer",
+            "description": "Finish the game with a gold star in the Wealth category. Get filthy rich!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 10,
+            "apiname": "ach_explorer",
+            "name": "Explorer",
+            "description": "Finish the game with a gold star in the Secrets category.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 11,
+            "apiname": "ach_gold_stars",
+            "name": "The Impossible Dream",
+            "description": "Finish the game with a gold star in every category.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 12,
+            "apiname": "ach_more_resources_sold",
+            "name": "Barnacle’s BFF",
+            "description": "Sell $10,000 worth of resources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 200
+        },
+
+        {
+            "id": 13,
+            "apiname": "ach_resources_sold",
+            "name": "It Makes the World Go Round",
+            "description": "Sell $2,500 worth of resources.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 14,
+            "apiname": "ach_collectibles_one",
+            "name": "Hobbyist Collector",
+            "description": "Collect 10 artifacts.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "ach_collectibles_two",
+            "name": "Skilled Collector",
+            "description": "Collect 25 artifacts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 16,
+            "apiname": "ach_collectibles_three",
+            "name": "Master Collector",
+            "description": "Collect 42 artifacts.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 17,
+            "apiname": "ach_save_yonkers",
+            "name": "O Brother, Where Art Thou?",
+            "description": "Find all missing Yonker brothers.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 200
+        },
+
+        {
+            "id": 18,
+            "apiname": "ach_lamp_max_level",
+            "name": "My Very Own Sun",
+            "description": "Upgrade your lamp to the highest level possible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 19,
+            "apiname": "ach_vectron_stealth",
+            "name": "Solid Sneak",
+            "description": "Do not trigger the alarm in Vectron more than twice.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 20,
+            "apiname": "ach_fallblock_multikill",
+            "name": "Two Birds, One Stone",
+            "description": "Kill two enemies with one crushing rock.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 21,
+            "apiname": "ach_deflect_kill",
+            "name": "Right Back At Ya!",
+            "description": "Kill an enemy with its own projectile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 22,
+            "apiname": "ach_lazy_person",
+            "name": "Lazy Person",
+            "description": "Travel a distance of 100 tiles horizontally without touching the controls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 23,
+            "apiname": "ach_silver_medal",
+            "name": "At Least It’s Shiny",
+            "description": "Collect 10 Silver ore resources.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "ach_pickaxe_max_level",
+            "name": "Is It Even a Pickaxe Anymore?",
+            "description": "Upgrade your pickaxe to the highest level possible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 25,
+            "apiname": "ach_backpack_max_level",
+            "name": "Hard Carry",
+            "description": "Upgrade your backpack to the highest level possible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 26,
+            "apiname": "ach_armor_max_level",
+            "name": "That’s Armor-e",
+            "description": "Upgrade your armor to the highest level possible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 27,
+            "apiname": "ach_max_level",
+            "name": "Maximum Potential",
+            "description": "Reach experience level 14.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 28,
+            "apiname": "ach_hook_pickups",
+            "name": "Hook, Line and Sinker",
+            "description": "Collect 15 resources with your Hook Shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 29,
+            "apiname": "ach_spelunker",
+            "name": "Cave Diver",
+            "description": "Complete 5 caves.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 30,
+            "apiname": "ach_spelunker_pro",
+            "name": "Splendiferous Spelunker",
+            "description": "Complete 20 challenge caves.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 31,
+            "apiname": "ach_all_workbench_upgrades",
+            "name": "Hopeless Gearhead",
+            "description": "Buy all upgrades available at the workbench.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 32,
+            "apiname": "ach_hookshot_flyers",
+            "name": "Friendly Neighborhood Spider-Bot",
+            "description": "Hit 15 flyers with your Hook Shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 33,
+            "apiname": "ach_sequence_breaker",
+            "name": "Sequence Breaker",
+            "description": "Destroy all devices without entering Vectron.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 34,
+            "apiname": "ach_hell_cave",
+            "name": "To Hell and Back",
+            "description": "Survive the Ultimate Trial.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+
+}

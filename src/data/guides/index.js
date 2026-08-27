@@ -39,6 +39,9 @@ import { GUIDE as oxenfreeAchievementGuide } from "./games/oxenfree.js";
 import { GUIDE as rogueLegacyAchievementGuide } from "./games/rogue-legacy.js";
 import { GUIDE as oriAndTheWillOfTheWispsAchievementGuide } from "./games/ori-and-the-will-of-the-wisps.js";
 import { GUIDE as theMessengerAchievementGuide } from "./games/the-messenger.js";
+import { GUIDE as pyreAchievementGuide } from "./games/pyre.js";
+import { GUIDE as steamworldDig2AchievementGuide } from "./games/steamworld-dig-2.js";
+import { GUIDE as theForgottenCityAchievementGuide } from "./games/the-forgotten-city.js";
 
 export const APP_GUIDES = [
 
@@ -100,7 +103,10 @@ export const GAME_GUIDES = [
     oxenfreeAchievementGuide,
     rogueLegacyAchievementGuide,
     oriAndTheWillOfTheWispsAchievementGuide,
-    theMessengerAchievementGuide
+    theMessengerAchievementGuide,
+    pyreAchievementGuide,
+    steamworldDig2AchievementGuide,
+    theForgottenCityAchievementGuide
 
 ];
 
