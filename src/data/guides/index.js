@@ -33,6 +33,9 @@ import { GUIDE as aHatInTimeAchievementGuide } from "./games/a-hat-in-time.js";
 import { GUIDE as theStanleyParableAchievementGuide } from "./games/the-stanley-parable.js";
 import { GUIDE as papersPleaseAchievementGuide } from "./games/papers-please.js";
 import { GUIDE as deadCellsAchievementGuide } from "./games/dead-cells.js";
+import { GUIDE as babaIsYouAchievementGuide } from "./games/baba-is-you.js";
+import { GUIDE as owlboyAchievementGuide } from "./games/owlboy.js";
+import { GUIDE as oxenfreeAchievementGuide } from "./games/oxenfree.js";
 
 export const APP_GUIDES = [
 
@@ -88,7 +91,10 @@ export const GAME_GUIDES = [
     aHatInTimeAchievementGuide,
     theStanleyParableAchievementGuide,
     papersPleaseAchievementGuide,
-    deadCellsAchievementGuide
+    deadCellsAchievementGuide,
+    babaIsYouAchievementGuide,
+    owlboyAchievementGuide,
+    oxenfreeAchievementGuide
 
 ];
 

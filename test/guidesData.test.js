@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 25);
+    assert.strictEqual(GAME_GUIDES.length, 28);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "slay-the-spire", "stardew-valley", "superliminal", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "slay-the-spire", "stardew-valley", "superliminal", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -50,6 +50,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
         [
             "a-hat-in-time-achievement-guide",
             "a-short-hike-achievement-guide",
+            "baba-is-you-achievement-guide",
             "bastion-achievement-guide",
             "braid-achievement-guide",
             "celeste-achievement-guide",
@@ -62,6 +63,8 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "inside-achievement-guide",
             "limbo-achievement-guide",
             "ori-and-the-blind-forest-achievement-guide",
+            "owlboy-achievement-guide",
+            "oxenfree-achievement-guide",
             "papers-please-achievement-guide",
             "portal-2-achievement-guide",
             "portal-achievement-guide",

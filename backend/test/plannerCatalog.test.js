@@ -57,6 +57,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-stanley-parable"));
     assert.ok(slugs.includes("papers-please"));
     assert.ok(slugs.includes("dead-cells"));
+    assert.ok(slugs.includes("baba-is-you"));
+    assert.ok(slugs.includes("owlboy"));
+    assert.ok(slugs.includes("oxenfree"));
 
 });
 
