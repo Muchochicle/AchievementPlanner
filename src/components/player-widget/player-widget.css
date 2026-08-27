@@ -114,3 +114,50 @@
     border-radius:999px;
 
 }
+
+/* The navbar's copy of this widget is meant to be a small preview (full
+   level/XP/title detail is one tap away on profile.html) - the 290px
+   min-width above exists for that page's own, roomier usage and is
+   exactly what left no room for the logout button + hamburger toggle
+   next to it in the mobile navbar's single compact bar (navbar.css's
+   matching max-width:640px breakpoint). Shrinks to just the avatar +
+   Steam name on mobile only - desktop keeps today's full widget
+   (title/level/XP bar included) unchanged. profile.html's copy of this
+   same component is never rendered inside .navbar, so it's unaffected
+   at any width. */
+@media (max-width:640px){
+
+    .navbar .player-widget{
+
+        min-width:0;
+
+        padding:6px 10px 6px 6px;
+
+        gap:8px;
+
+    }
+
+    .navbar .player-widget-avatar{
+
+        width:32px;
+        height:32px;
+
+    }
+
+    .navbar .player-widget-name,
+    .navbar .player-widget-level,
+    .navbar .player-widget-bar{
+
+        display:none;
+
+    }
+
+    .navbar .player-widget-steam-name{
+
+        margin-bottom:0;
+
+        font-size:.85rem;
+
+    }
+
+}

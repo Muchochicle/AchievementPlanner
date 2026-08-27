@@ -47,10 +47,11 @@ const {
     renderHeroStats,
     showHeroStatsUnavailable,
     renderPopularGames,
-    POPULAR_GAMES_UNAVAILABLE_MESSAGE
+    POPULAR_GAMES_UNAVAILABLE_MESSAGE,
+    APPROXIMATE_STEAM_CATALOG_SIZE
 } = await import("../src/js/app.js");
 
-test("renderHeroStats shows the total game count and how many of them have a planner", () => {
+test("renderHeroStats shows the static approximate Steam catalog size for Games, and how many of the given games have a planner", () => {
 
     const gamesEl = { textContent: "" };
     const plannersEl = { textContent: "" };
@@ -66,25 +67,36 @@ test("renderHeroStats shows the total game count and how many of them have a pla
         { slug: "c", hasPlanner: false }
     ]);
 
-    assert.strictEqual(gamesEl.textContent, "3+");
+    assert.strictEqual(gamesEl.textContent, APPROXIMATE_STEAM_CATALOG_SIZE);
     assert.strictEqual(plannersEl.textContent, "2+");
 
 });
 
-test("renderHeroStats shows 0+ for an empty catalog, not a crash or blank state", () => {
+test("renderHeroStats' Games stat stays the same static figure regardless of how many games were actually returned - it must never read as this visitor's own owned-library size", () => {
 
-    const gamesEl = { textContent: "" };
-    const plannersEl = { textContent: "" };
+    const gamesElSmall = { textContent: "" };
+    const plannersElSmall = { textContent: "" };
+    const gamesElBig = { textContent: "" };
+    const plannersElBig = { textContent: "" };
 
     document.getElementById = id => ({
-        "hero-stat-games": gamesEl,
-        "hero-stat-planners": plannersEl
+        "hero-stat-games": gamesElSmall,
+        "hero-stat-planners": plannersElSmall
     }[id] ?? null);
 
-    assert.doesNotThrow(() => renderHeroStats([]));
+    renderHeroStats([]);
 
-    assert.strictEqual(gamesEl.textContent, "0+");
-    assert.strictEqual(plannersEl.textContent, "0+");
+    document.getElementById = id => ({
+        "hero-stat-games": gamesElBig,
+        "hero-stat-planners": plannersElBig
+    }[id] ?? null);
+
+    renderHeroStats(Array.from({ length: 300 }, (_, i) => ({ slug: `g${i}`, hasPlanner: false })));
+
+    assert.strictEqual(gamesElSmall.textContent, APPROXIMATE_STEAM_CATALOG_SIZE);
+    assert.strictEqual(gamesElBig.textContent, APPROXIMATE_STEAM_CATALOG_SIZE);
+    assert.strictEqual(plannersElSmall.textContent, "0+");
+    assert.strictEqual(plannersElBig.textContent, "0+");
 
 });
 

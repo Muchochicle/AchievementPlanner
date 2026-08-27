@@ -17,6 +17,25 @@ export const POPULAR_GAMES_UNAVAILABLE_MESSAGE =
 // component module in this app, which already exports its render logic
 // for the same reason. No behavior change: init() below still calls these
 // the same way it always did.
+
+// The "Games" stat previously showed games.length - literally "how many
+// entries did /api/games return for THIS visitor," which is this
+// visitor's own owned-Steam-library size (once logged in) merged with the
+// curated catalog, not a stable "how big is this app's supported game
+// universe" figure. A big-library visitor saw a huge, session-specific
+// number; a logged-out visitor saw only the curated catalog's own small
+// count, making the homepage read as sparse/incomplete before anyone
+// logged in. Achievement tracking here works for *any* owned Steam game -
+// a curated planner (see "Planners Available" below) is a bonus on top of
+// that, never a requirement (gameDetail.js) - so the honest answer to
+// "how many games can this app be used with" is "every game on Steam."
+// This is a static, rounded, clearly-approximate figure (Steam's own
+// catalog has hovered in the 100,000-150,000+ range in recent years;
+// there's no simple public API for an exact live count), deliberately not
+// tied to any one visitor's session, so it reads identically whether
+// logged in or out.
+export const APPROXIMATE_STEAM_CATALOG_SIZE = "100,000+";
+
 export function renderHeroStats(games) {
 
     const gamesCount = document.getElementById("hero-stat-games");
@@ -25,10 +44,13 @@ export function renderHeroStats(games) {
 
     if (gamesCount) {
 
-        gamesCount.textContent = `${games.length}+`;
+        gamesCount.textContent = APPROXIMATE_STEAM_CATALOG_SIZE;
 
     }
 
+    // Unlike the "Games" stat above, this one *is* a real, meaningful,
+    // session-independent count: this app's own curated planner content,
+    // the same for every visitor regardless of login state or library size.
     if (plannersCount) {
 
         plannersCount.textContent =

@@ -226,14 +226,18 @@ body{
 
 }
 
-/* Matches the stacked mobile navbar layout in navbar.css - that layout
-   is taller than the fixed desktop navbar, so the fixed-position offset
-   needs to grow with it or page content renders underneath it. */
+/* Matches the collapsed mobile navbar's compact single-row bar in
+   navbar.css (logo, account state, hamburger toggle - nav links and any
+   other content collapse into a dropdown that overlays the page instead
+   of pushing it down, so this only needs to clear that one row, not the
+   open dropdown's height). Shorter than the desktop offset above because
+   the mobile bar itself is shorter (smaller logo, no second nav-links
+   row). */
 @media (max-width:640px){
 
     body{
 
-        padding-top:190px;
+        padding-top:80px;
 
     }
 

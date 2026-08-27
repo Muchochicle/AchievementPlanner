@@ -95,9 +95,53 @@ function makeWidgetElement() {
 let navbarHTML = "";
 let widgetEl = null;
 let logoutEl = null;
+let toggleEl = null;
 let navbarPresent = true;
+let navbarClasses = new Set();
+
+// A minimal real Set-backed classList (add/remove/toggle/contains) - the
+// same shape layout.js's own nav-toggle click handler actually calls
+// (navbar.classList.remove/.toggle), matching this project's existing
+// "smallest shim that does the job" convention for every other stubbed
+// DOM API in this file.
+const navbarClassList = {
+
+    remove(name) { navbarClasses.delete(name); },
+
+    toggle(name) {
+
+        const isPresent = navbarClasses.has(name);
+
+        if (isPresent) navbarClasses.delete(name);
+        else navbarClasses.add(name);
+
+        return !isPresent;
+
+    },
+
+    contains(name) { return navbarClasses.has(name); }
+
+};
+
+function makeToggleElement() {
+
+    const el = makeWidgetElement();
+
+    // Starts at "false", matching the real markup's own literal
+    // aria-expanded="false" (navbar.js) - this fake element doesn't parse
+    // navbarHTML's actual attributes, so its initial state has to be set
+    // here to stay honest about what a fresh render actually produces.
+    el.attributes = { "aria-expanded": "false" };
+    el.setAttribute = (name, value) => { el.attributes[name] = String(value); };
+    el.getAttribute = name => el.attributes[name] ?? null;
+
+    return el;
+
+}
 
 const navbarEl = {
+
+    classList: navbarClassList,
 
     get innerHTML() { return navbarHTML; },
 
@@ -110,6 +154,7 @@ const navbarEl = {
         // stale, and the next lookup must hand back a brand-new one.
         widgetEl = null;
         logoutEl = null;
+        toggleEl = null;
 
     }
 
@@ -138,6 +183,16 @@ globalThis.document = {
             logoutEl ??= makeWidgetElement();
 
             return logoutEl;
+
+        }
+
+        if (id === "nav-toggle") {
+
+            if (!navbarHTML.includes('id="nav-toggle"')) return null;
+
+            toggleEl ??= makeToggleElement();
+
+            return toggleEl;
 
         }
 
@@ -175,6 +230,8 @@ test.beforeEach(() => {
     navbarHTML = "";
     widgetEl = null;
     logoutEl = null;
+    toggleEl = null;
+    navbarClasses = new Set();
 
 });
 
@@ -386,5 +443,60 @@ test("clicking the logout button still redirects to index.html even when the log
     await document.getElementById("logout-btn").click();
 
     assert.strictEqual(window.location.href, "index.html");
+
+});
+
+test("the mobile nav-toggle button renders in both logged-in and logged-out states, and starts collapsed", async () => {
+
+    await loadNavbar();
+
+    const toggle = document.getElementById("nav-toggle");
+
+    assert.ok(toggle, "nav-toggle should render even when logged out");
+    assert.strictEqual(toggle.getAttribute("aria-expanded"), "false");
+
+    fetchSession = STEAM_SESSION;
+
+    await loadNavbar();
+
+    assert.strictEqual(document.getElementById("nav-toggle").getAttribute("aria-expanded"), "false");
+
+});
+
+test("clicking nav-toggle opens the mobile menu (adds .nav-open, flips aria-expanded to true), and a second click closes it again", async () => {
+
+    await loadNavbar();
+
+    const navbar = document.getElementById("navbar");
+    const toggle = document.getElementById("nav-toggle");
+
+    toggle.click();
+
+    assert.ok(navbar.classList.contains("nav-open"), "first click should open the menu");
+    assert.strictEqual(toggle.getAttribute("aria-expanded"), "true");
+
+    toggle.click();
+
+    assert.ok(!navbar.classList.contains("nav-open"), "second click should close the menu again");
+    assert.strictEqual(toggle.getAttribute("aria-expanded"), "false");
+
+});
+
+test("re-rendering the navbar (e.g. refreshPlayerWidget) always starts with the mobile menu collapsed, even if it was left open", async () => {
+
+    fetchSession = STEAM_SESSION;
+
+    await loadNavbar();
+
+    document.getElementById("nav-toggle").click();
+
+    const navbar = document.getElementById("navbar");
+
+    assert.ok(navbar.classList.contains("nav-open"), "sanity check: menu is open before the re-render");
+
+    refreshPlayerWidget(STEAM_SESSION);
+
+    assert.ok(!navbar.classList.contains("nav-open"), "a re-render must not leave a stale open menu behind a freshly-collapsed toggle button");
+    assert.strictEqual(document.getElementById("nav-toggle").getAttribute("aria-expanded"), "false");
 
 });

@@ -19,6 +19,27 @@ function renderNavbar(navbar, session) {
 
     navbar.innerHTML = createNavbar(session);
 
+    // The freshly-rendered #nav-toggle button always starts collapsed
+    // (aria-expanded="false" - see navbar.js), so this class (which lives
+    // on the persistent #navbar container, not the replaced innerHTML)
+    // must be cleared on every re-render too - otherwise a re-render that
+    // happens to fire while the mobile menu is open (refreshPlayerWidget,
+    // e.g. from a poller cycle) would leave the dropdown visually open
+    // with a toggle button that now claims it's closed.
+    navbar.classList.remove("nav-open");
+
+    document
+        .getElementById("nav-toggle")
+        ?.addEventListener("click", () => {
+
+            const isOpen = navbar.classList.toggle("nav-open");
+
+            document
+                .getElementById("nav-toggle")
+                .setAttribute("aria-expanded", String(isOpen));
+
+        });
+
     document
         .getElementById("player-widget")
         ?.addEventListener("click", () => {

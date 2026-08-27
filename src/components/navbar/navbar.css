@@ -234,37 +234,224 @@ nav a.active{
 
 }
 
+/* Hamburger toggle for the mobile dropdown menu below - a no-op, hidden
+   control on desktop, where the nav links and logout button are always
+   visible inline instead. */
+.nav-toggle{
+
+    display:none;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:40px;
+    height:40px;
+    flex-shrink:0;
+
+    padding:0;
+
+    background:transparent;
+
+    border:1px solid var(--border-strong);
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.nav-toggle:hover{
+
+    border-color:var(--primary);
+
+}
+
+.nav-toggle:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}
+
+/* A CSS-only "hamburger to X" icon (3 bars -> 2 crossed bars) built from
+   one span's ::before/::after, so no separate icon asset/font is needed.
+   aria-expanded on the button (toggled in layout.js) drives which shape
+   shows - screen readers already get the real state from that attribute,
+   this is purely the sighted visual affordance. */
+.nav-toggle-icon,
+.nav-toggle-icon::before,
+.nav-toggle-icon::after{
+
+    display:block;
+
+    width:20px;
+    height:2px;
+
+    background:var(--text);
+
+    border-radius:999px;
+
+    transition:.2s;
+
+}
+
+.nav-toggle-icon{
+
+    position:relative;
+
+}
+
+.nav-toggle-icon::before,
+.nav-toggle-icon::after{
+
+    content:"";
+
+    position:absolute;
+    left:0;
+
+}
+
+.nav-toggle-icon::before{ top:-6px; }
+.nav-toggle-icon::after{ top:6px; }
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-icon{
+
+    background:transparent;
+
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-icon::before{
+
+    top:0;
+    transform:rotate(45deg);
+
+}
+
+.nav-toggle[aria-expanded="true"] .nav-toggle-icon::after{
+
+    top:0;
+    transform:rotate(-45deg);
+
+}
+
 /* Below this width the logo + 4 nav links + login/player widget no
-   longer fit on one row no matter how much they shrink - stack them
-   predictably instead of letting them wrap unpredictably. The matching
-   body padding-top override (style.css) accounts for the taller navbar
-   this produces. */
+   longer fit on one row no matter how much they shrink. Rather than
+   stacking everything vertically (the old behavior - a very tall navbar
+   that ate most of the viewport on a phone), the nav links and logout
+   button collapse into a toggleable dropdown, leaving a single compact
+   bar (logo, account state, hamburger) always visible. The matching body
+   padding-top override (style.css) is sized to that shorter collapsed bar,
+   not the dropdown - the open dropdown overlays page content instead of
+   pushing it down, the standard mobile-menu pattern. */
 @media (max-width:640px){
 
     .navbar .container{
 
+        padding:12px 0;
+
+    }
+
+    .navbar-left{
+
+        flex-direction:row;
+
+        align-items:center;
+
+        gap:12px;
+
+    }
+
+    .logo{
+
+        padding-bottom:0;
+
+        font-size:1.3rem;
+
+    }
+
+    .logo::after{
+
+        display:none;
+
+    }
+
+    /* The nav links (see nav-links.js's <nav id="nav-menu">) collapse
+       into a dropdown positioned relative to .navbar (already
+       position:fixed, so it's this dropdown's containing block) -
+       overlaying the page below the compact bar rather than pushing it
+       down. Collapsed by default; layout.js toggles .nav-open on
+       #navbar to reveal it. */
+    .navbar-left nav{
+
+        display:none;
+
+        position:absolute;
+
+        top:100%;
+        left:0;
+        right:0;
+
         flex-direction:column;
 
-        align-items:flex-start;
+        gap:0;
 
-        gap:14px;
+        padding:8px 0;
 
-        padding:14px 0;
+        background:#1b2435;
+
+        border-bottom:1px solid rgba(255,255,255,.08);
+
+        box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+    }
+
+    .navbar-left nav a{
+
+        padding:14px min(4%, 24px);
+
+    }
+
+    #navbar.nav-open .navbar-left nav{
+
+        display:flex;
 
     }
 
     .navbar-right{
 
-        width:100%;
+        flex-wrap:nowrap;
 
-        flex-direction:column;
+        align-items:center;
+
+        gap:10px;
 
     }
 
-    .steam-login-btn,
+    .steam-login-btn{
+
+        padding:10px 16px;
+        font-size:.85rem;
+
+    }
+
+    /* Stays compact and always visible in the top bar (never gated behind
+       the hamburger) - only the nav links collapse into the dropdown. A
+       visitor should never have to open the menu just to log out. */
     .logout-btn{
 
-        width:100%;
+        width:auto;
+        flex-shrink:0;
+
+        padding:8px 14px;
+        font-size:.8rem;
+
+    }
+
+    .nav-toggle{
+
+        display:flex;
 
     }
 

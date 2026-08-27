@@ -170,7 +170,7 @@ test("labels the nav landmark 'Primary' so it's distinguishable from any page-sp
 
     const html = createNavLinks();
 
-    assert.match(html, /<nav aria-label="Primary">/);
+    assert.match(html, /<nav id="nav-menu" aria-label="Primary">/);
 
 });
 

@@ -43,11 +43,40 @@ export function createNavbar(
 
                     ${rightContent}
 
+                    ${createNavToggle()}
+
                 </div>
 
             </div>
 
         </header>
+
+    `;
+
+}
+
+// Mobile-only (hidden on desktop via CSS - see navbar.css) hamburger
+// toggle for the primary nav links (and, when logged in, the logout
+// button - see navbar.css's shared .nav-open gating). Always rendered
+// after the login button/player widget in markup order, matching how it
+// must read visually: account state first, menu toggle last. Wired up in
+// layout.js's renderNavbar, the same place every other navbar control's
+// click listener is attached, since innerHTML replacement discards it on
+// every re-render.
+function createNavToggle() {
+
+    return `
+
+        <button
+            id="nav-toggle"
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+            aria-label="Toggle navigation menu"
+        >
+            <span class="nav-toggle-icon"></span>
+        </button>
 
     `;
 

@@ -26,7 +26,7 @@ export function createNavLinks() {
 
     return `
 
-        <nav aria-label="Primary">
+        <nav id="nav-menu" aria-label="Primary">
 
             <a
                 href="games.html"
