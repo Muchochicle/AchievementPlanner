@@ -20,6 +20,9 @@ import { GUIDE as oriAndTheBlindForestAchievementGuide } from "./games/ori-and-t
 import { GUIDE as whatRemainsOfEdithFinchAchievementGuide } from "./games/what-remains-of-edith-finch.js";
 import { GUIDE as returnOfTheObraDinnAchievementGuide } from "./games/return-of-the-obra-dinn.js";
 import { GUIDE as stardewValleyAchievementGuide } from "./games/stardew-valley.js";
+import { GUIDE as aShortHikeAchievementGuide } from "./games/a-short-hike.js";
+import { GUIDE as hyperLightDrifterAchievementGuide } from "./games/hyper-light-drifter.js";
+import { GUIDE as cupheadAchievementGuide } from "./games/cuphead.js";
 
 export const APP_GUIDES = [
 
@@ -62,7 +65,10 @@ export const GAME_GUIDES = [
     oriAndTheBlindForestAchievementGuide,
     whatRemainsOfEdithFinchAchievementGuide,
     returnOfTheObraDinnAchievementGuide,
-    stardewValleyAchievementGuide
+    stardewValleyAchievementGuide,
+    aShortHikeAchievementGuide,
+    hyperLightDrifterAchievementGuide,
+    cupheadAchievementGuide
 
 ];
 

@@ -1,0 +1,453 @@
+{
+    "id": 268910,
+    "steamAppId": 268910,
+
+    "name": "Cuphead",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+
+    "difficulty": 9,
+
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+
+    "missable": false,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Action",
+        "Platformer",
+        "Boss Rush",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "DefeatBoss",
+            "name": "Taking Names",
+            "description": "Defeat a boss",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 2,
+            "apiname": "CompleteWorld1",
+            "name": "A Walk in the Park",
+            "description": "Defeat every boss in Inkwell Isle I",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "CompleteWorld2",
+            "name": "A Day at the Fair",
+            "description": "Defeat every boss in Inkwell Isle II",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 4,
+            "apiname": "CompleteWorld3",
+            "name": "A Trip Downtown",
+            "description": "Defeat every boss in Inkwell Isle III",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 5,
+            "apiname": "CompleteDicePalace",
+            "name": "Casino Night",
+            "description": "Complete the Casino",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "CompleteDevil",
+            "name": "Swing You Sinner",
+            "description": "Refuse the Devil's contract offer and defeat him yourself to finish the game.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 7,
+            "apiname": "BadEnding",
+            "name": "Selling Out",
+            "description": "Accept the Devil's contract offer instead of fighting him, ending the game early.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 8,
+            "apiname": "SRank",
+            "name": "Put On a Show",
+            "description": "Get an S-Rank",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "ARankWorld1",
+            "name": "Sheriff",
+            "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle I",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "ARankWorld2",
+            "name": "Boss",
+            "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle II",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 11,
+            "apiname": "ARankWorld3",
+            "name": "Mayor",
+            "description": "Obtain an A-Rank or higher on all bosses in Inkwell Isle III",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 12,
+            "apiname": "ARankWorld4",
+            "name": "King",
+            "description": "Obtain an A-Rank or higher on all bosses in Inkwell Hell",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "GoodEnding",
+            "name": "Souls Saved",
+            "description": "Complete the game on Normal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 14,
+            "apiname": "NewGamePlus",
+            "name": "Beat The Devil At His Own Game",
+            "description": "Complete the game on Expert",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 15,
+            "apiname": "BoughtAllItems",
+            "name": "Butter-and-Egg Man",
+            "description": "Buy everything in Porkrind's Shop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 16,
+            "apiname": "FoundSecretPassage",
+            "name": "Cutting Corners",
+            "description": "Find one of the overworld's hidden shortcuts - the easiest runs along the coastline just north of the Forest Follies level on Inkwell Isle I.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 17,
+            "apiname": "ExWin",
+            "name": "Ceramic Strike",
+            "description": "Defeat a boss with an Extra Special move",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 18,
+            "apiname": "SuperWin",
+            "name": "Porcelain Power",
+            "description": "Defeat a boss with a Super Art",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 19,
+            "apiname": "SmallPlaneOnlyWin",
+            "name": "Bravo Zulu P-26",
+            "description": "Defeat a plane boss using only the mini-plane's basic peashooter bullets.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 20,
+            "apiname": "UnlockedAllSupers",
+            "name": "Magician Lord",
+            "description": "Obtain all Super Arts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 21,
+            "apiname": "NoHitsTaken",
+            "name": "Perfect Run",
+            "description": "Complete a level without getting hit",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 22,
+            "apiname": "FoundAllLevelMoney",
+            "name": "Coffers Full",
+            "description": "Get every coin in all of the levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 23,
+            "apiname": "ParryChain",
+            "name": "Bouncing Ball",
+            "description": "Parry five times before hitting the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 24,
+            "apiname": "ParryApprentice",
+            "name": "Parry Persistance",
+            "description": "Complete 20 parries",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 25,
+            "apiname": "ParryMaster",
+            "name": "Parry Performance",
+            "description": "Complete 100 parries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 26,
+            "apiname": "NoHitsTakenDicePalace",
+            "name": "Rolling Sixes",
+            "description": "Defeat King Dice in the Casino without taking a single hit.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "FoundAllMoney",
+            "name": "High Roller",
+            "description": "Collect every coin in the entire game, including ones hidden in the overworld and given by NPCs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "PacifistRun",
+            "name": "Pacifist",
+            "description": "Complete 6 different Run 'n Gun levels without killing a single enemy.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "CompleteWorldDLC",
+            "name": "A Vacation in the Wilds",
+            "description": "Defeat every boss in Inkwell Isle IV",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 30,
+            "apiname": "ARankWorldDLC",
+            "name": "Ranger",
+            "description": "Obtain an A-Rank or Higher on all bosses in Inkwell Isle IV",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 31,
+            "apiname": "DefeatBossAsChalice",
+            "name": "Alive and Kicking",
+            "description": "Defeat a boss with Ms. Chalice",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 32,
+            "apiname": "DefeatXBossesAsChalice",
+            "name": "Decadent",
+            "description": "Defeat 10 bosses with Ms. Chalice",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "ChaliceSuperWin",
+            "name": "The Golden Touch",
+            "description": "Defeat a boss with one of Ms. Chalice's Super Arts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 34,
+            "apiname": "DefeatBossDLCWeapon",
+            "name": "The Latest Sensation",
+            "description": "Defeat a boss with one of Porkrind's new weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 35,
+            "apiname": "DefeatAllKOG",
+            "name": "Checkmate",
+            "description": "Defeat all of the King of Games' Champions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "DefeatKOGGauntlet",
+            "name": "A King's Admiration",
+            "description": "Defeat the King's Gauntlet",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 37,
+            "apiname": "DefeatSaltbaker",
+            "name": "Compliments to the Chef",
+            "description": "Complete your quest on Inkwell Isle IV",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 38,
+            "apiname": "SRankAnyDLC",
+            "name": "Cooked to Perfection",
+            "description": "Get an S-Rank on a stage of Inkwell Isle IV",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 39,
+            "apiname": "DefeatBossNoMinions",
+            "name": "The High Hat",
+            "description": "Defeat a boss on Inkwell Isle IV without killing any of its minions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 40,
+            "apiname": "HP9",
+            "name": "Hearty",
+            "description": "Have 9HP at one time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 41,
+            "apiname": "DefeatDevilPhase2",
+            "name": "A Horrible Night To Have a Curse",
+            "description": "Buy the Broken Relic from Porkrind's shop on Inkwell Isle IV, solve the graveyard tombstone puzzle to trigger a special weakened Devil fight, then defeat him to receive the Cursed Relic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 42,
+            "apiname": "Paladin",
+            "name": "Paladin",
+            "description": "Defeat 6 bosses, from the base game or the DLC, while the Cursed Relic is equipped as your charm.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+
+}

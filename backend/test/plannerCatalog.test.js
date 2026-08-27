@@ -44,6 +44,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("what-remains-of-edith-finch"));
     assert.ok(slugs.includes("return-of-the-obra-dinn"));
     assert.ok(slugs.includes("stardew-valley"));
+    assert.ok(slugs.includes("a-short-hike"));
+    assert.ok(slugs.includes("hyper-light-drifter"));
+    assert.ok(slugs.includes("cuphead"));
 
 });
 

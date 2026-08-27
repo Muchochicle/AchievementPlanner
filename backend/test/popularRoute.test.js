@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert";
 
 import gamesRouter from "../routes/games.js";
+import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
 // GET /api/games/popular had zero dedicated route-level test coverage
 // before this file (see PHASE_46/47/49_AUDIT.md), and its player-count
@@ -238,7 +239,19 @@ test("GET /api/games/popular returns the real catalog-only ranking for a logged-
     assert.strictEqual(res.jsonBody.success, true);
     assert.ok(Array.isArray(res.jsonBody.games));
 
-    const slugs = res.jsonBody.games.map(g => g.slug).sort();
-    assert.deepStrictEqual(slugs, ["braid", "celeste", "hades", "hollow-knight", "inside", "limbo", "ori-and-the-blind-forest", "portal", "portal-2", "return-of-the-obra-dinn", "stardew-valley", "what-remains-of-edith-finch"], "a logged-out visitor should be ranked among exactly the real catalog");
+    // selectPopularGames (utils/popularGames.js) caps the ranking at its
+    // own DEFAULT_LIMIT (12) - the catalog itself has grown past that
+    // count, so this no longer asserts the full catalog slug list (that
+    // only ever held by coincidence, back when the catalog had exactly
+    // 12 games). What actually matters for "logged-out ranking pulls from
+    // the real catalog only": exactly DEFAULT_LIMIT games come back, every
+    // one is a real catalog slug (not a fabricated/synthetic entry), and
+    // there are no duplicates.
+    const slugs = res.jsonBody.games.map(g => g.slug);
+    const realCatalogSlugs = new Set(getAllPlannerSlugs());
+
+    assert.strictEqual(slugs.length, 12, "a logged-out visitor's ranking should be capped at selectPopularGames' own DEFAULT_LIMIT");
+    assert.strictEqual(new Set(slugs).size, slugs.length, "the ranking must never repeat the same game twice");
+    assert.ok(slugs.every(slug => realCatalogSlugs.has(slug)), "every ranked game must be a real catalog entry, never a fabricated one");
 
 });
