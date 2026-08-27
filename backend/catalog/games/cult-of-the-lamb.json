@@ -1,0 +1,603 @@
+{
+    "id": 1313140,
+    "steamAppId": 1313140,
+
+    "name": "Cult of the Lamb",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Roguelike",
+        "Base Building",
+        "Action",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "FIRST_FOLLOWER",
+            "name": "First Follower",
+            "description": "The first devotee to the Cult of the Lamb.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 2,
+            "apiname": "DEAL_WITH_THE_DEVIL",
+            "name": "Deal with the Devil",
+            "description": "A deal that cannot be undone.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 3,
+            "apiname": "DELIVER_FIRST_SERMON",
+            "name": "Preacher of Truth",
+            "description": "Let the Word be known.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 4,
+            "apiname": "FIRST_DEATH",
+            "name": "The First Death",
+            "description": "Salvation awaits the fallen soul.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 5,
+            "apiname": "KILL_FIRST_BOSS",
+            "name": "Death to Non-Believers",
+            "description": "Defeat the first mini-boss.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 6,
+            "apiname": "GAIN_FIVE_FOLLOWERS",
+            "name": "The Flock Grows",
+            "description": "Gain 5 Followers.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "TEN_FOLLOWERS",
+            "name": "Flock of Many",
+            "description": "Gain 10 Followers.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "TWENTY_FOLLOWERS",
+            "name": "Flock of All",
+            "description": "Gain 20 Followers.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "KILL_BOSS_1",
+            "name": "See No Evil",
+            "description": "Defeat Leshy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 10,
+            "apiname": "KILL_BOSS_2",
+            "name": "Speak No Evil",
+            "description": "Defeat Heket.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 11,
+            "apiname": "KILL_BOSS_3",
+            "name": "Hear No Evil",
+            "description": "Defeat Kallamar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 12,
+            "apiname": "KILL_BOSS_4",
+            "name": "Think No Evil",
+            "description": "Defeat Shamura.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 13,
+            "apiname": "KILL_BOSS_5",
+            "name": "Do No Evil",
+            "description": "Refuse The One Who Waits and defeat him in the true final boss fight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "KILL_BOSS_1_NODAMAGE",
+            "name": "Order",
+            "description": "Beat Leshy without taking damage.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 15,
+            "apiname": "KILL_BOSS_2_NODAMAGE",
+            "name": "Sate",
+            "description": "Beat Heket without taking damage.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 16,
+            "apiname": "KILL_BOSS_3_NODAMAGE",
+            "name": "Cure",
+            "description": "Beat Kallamar without taking damage.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 17,
+            "apiname": "KILL_BOSS_4_NODAMAGE",
+            "name": "Peace",
+            "description": "Beat Shamura without taking damage.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 18,
+            "apiname": "TAKE_CONFESSION",
+            "name": "Keeper of Secrets",
+            "description": "Take confession.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 19,
+            "apiname": "FIND_ALL_LOCATIONS",
+            "name": "Leader of the Crusade",
+            "description": "Find all 5 locations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 20,
+            "apiname": "FIX_LIGHTHOUSE",
+            "name": "Bringer of Light",
+            "description": "Reignite the lighthouse.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 21,
+            "apiname": "ALL_SKINS_UNLOCKED",
+            "name": "Full Flock",
+            "description": "Unlock all Follower Skins.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 22,
+            "apiname": "ALL_TAROTS_UNLOCKED",
+            "name": "Full Deck",
+            "description": "Unlock all tarot cards.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 23,
+            "apiname": "FISH_ALL_TYPES",
+            "name": "Teach a Lamb to Fish",
+            "description": "Catch 1 of every fish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 24,
+            "apiname": "FIRST_RITUAL",
+            "name": "Crosser of Thresholds",
+            "description": "A new world awaits.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 25,
+            "apiname": "FIRST_SACRIFICE",
+            "name": "Sacrificial Beast",
+            "description": "Sacrifice a Follower.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 26,
+            "apiname": "SACRIFICE_FOLLOWERS",
+            "name": "Weigher of Souls",
+            "description": "Sacrifice 10 Followers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 27,
+            "apiname": "666_GOLD",
+            "name": "Hoarder of Wealth",
+            "description": "Have 666 gold coins.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "ALL_WEAPONS_UNLOCKED",
+            "name": "Weapons of Plenty",
+            "description": "Unlock all weapons.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 29,
+            "apiname": "ALL_CURSES_UNLOCKED",
+            "name": "Curses of Plenty",
+            "description": "Unlock all curses.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 30,
+            "apiname": "FULLY_UPGRADED_SHRINE",
+            "name": "Devotion",
+            "description": "Fully Upgrade Cult.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 31,
+            "apiname": "UNLOCK_TUNIC",
+            "name": "Transform",
+            "description": "Unlock a new fleece.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 32,
+            "apiname": "UNLOCK_ALL_TUNICS",
+            "name": "Transmute",
+            "description": "Unlock all fleeces.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 33,
+            "apiname": "FEED_FOLLOWER_MEAT",
+            "name": "Cannibal",
+            "description": "Cook a Follower meat meal.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 34,
+            "apiname": "UPGRADE_ALL_SERMONS",
+            "name": "Gospel",
+            "description": "Unlock all doctrines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 35,
+            "apiname": "WIN_KNUCKLEBONES",
+            "name": "Game of Chance",
+            "description": "Win a game of Knucklebones.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 36,
+            "apiname": "WIN_KNUCKLEBONES_ALL",
+            "name": "Master of Chance",
+            "description": "Defeat all opponents in Knucklebones.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 37,
+            "apiname": "GODHOOD",
+            "name": "Godhood",
+            "description": "No longer a servant, no less than a God.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 38,
+            "apiname": "ALL_RELICS_UNLOCKED",
+            "name": "Relics of the Old Faith",
+            "description": "Collect all Relics.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 39,
+            "apiname": "BEAT_UP_MIDAS",
+            "name": "Shake Down",
+            "description": "Get your Gold back from Midas.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 40,
+            "apiname": "RETURN_BAAL_AYM",
+            "name": "True Love Found",
+            "description": "Reunite Baal and Aym with their mother, Forneus, during a crusade.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 41,
+            "apiname": "COMPLETE_CHALLENGE_ROW",
+            "name": "Slayer of Souls",
+            "description": "Complete a row in Purgatory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 42,
+            "apiname": "ALL_LEADER_FOLLOWERS",
+            "name": "Leader of Leaders",
+            "description": "Indoctrinate all five Bishops - including The One Who Waits - into your cult.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 43,
+            "apiname": "ALL_LORE",
+            "name": "Holder of History",
+            "description": "Unlock all lore.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 44,
+            "apiname": "ALL_OUTFITS",
+            "name": "Setter of Trends",
+            "description": "Unlock all outfits.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 45,
+            "apiname": "DISCIPLES_5",
+            "name": "Apostles",
+            "description": "Have 12 Disciples.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 46,
+            "apiname": "FULLY_UPGRADE_RANKING",
+            "name": "Aesthetics of the Lamb",
+            "description": "Completely Upgrade the Temple.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 47,
+            "apiname": "SOZO_QUEST",
+            "name": "Regenerate",
+            "description": "Fully complete Sozo's follower questline.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 48,
+            "apiname": "MATING_5",
+            "name": "Propagate the Flock",
+            "description": "Hatch 5 eggs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "ALL_LEGENDARY_WEAPONS",
+            "name": "Maker of Legends",
+            "description": "Restore all Legendary Weapons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 50,
+            "apiname": "RATAU_END",
+            "name": "The Prodigal Child",
+            "description": "Inherit Ratau's legacy",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 51,
+            "apiname": "INDOCTRINATE_MIDAS",
+            "name": "Eat the Rich",
+            "description": "Indoctrinate Midas into your cult after hatching him from his skull.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 52,
+            "apiname": "ALL_FLOCKADE",
+            "name": "The Complete Collection",
+            "description": "Collect all Flockade pieces",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 53,
+            "apiname": "WOOLHAVEN_COMPLETE",
+            "name": "Woolhaven Reborn",
+            "description": "Complete everything in Woolhaven",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 54,
+            "apiname": "BEAT_EXECUTIONER",
+            "name": "Swing of the Axe",
+            "description": "Defeat the Executioner in the Woolhaven DLC's The Rot.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 55,
+            "apiname": "BEAT_WOLF",
+            "name": "Killer Instinct",
+            "description": "Defeat Marchosias",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 56,
+            "apiname": "BEAT_YNGYA",
+            "name": "Rot No More",
+            "description": "Defeat Yngya, the final boss of the Woolhaven DLC.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 57,
+            "apiname": "BEAT_YNGYA_NOATTACK",
+            "name": "Respect Thy Mother",
+            "description": "Defeat Yngya without landing a single attack.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
+
+}

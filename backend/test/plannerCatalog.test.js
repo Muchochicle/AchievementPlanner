@@ -76,6 +76,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("moonlighter"));
     assert.ok(slugs.includes("frostpunk"));
     assert.ok(slugs.includes("spelunky-2"));
+    assert.ok(slugs.includes("into-the-breach"));
+    assert.ok(slugs.includes("cult-of-the-lamb"));
+    assert.ok(slugs.includes("ftl"));
 
 });
 

@@ -52,6 +52,9 @@ import { GUIDE as darkestDungeonAchievementGuide } from "./games/darkest-dungeon
 import { GUIDE as moonlighterAchievementGuide } from "./games/moonlighter.js";
 import { GUIDE as frostpunkAchievementGuide } from "./games/frostpunk.js";
 import { GUIDE as spelunky2AchievementGuide } from "./games/spelunky-2.js";
+import { GUIDE as intoTheBreachAchievementGuide } from "./games/into-the-breach.js";
+import { GUIDE as cultOfTheLambAchievementGuide } from "./games/cult-of-the-lamb.js";
+import { GUIDE as ftlAchievementGuide } from "./games/ftl.js";
 
 export const APP_GUIDES = [
 
@@ -126,7 +129,10 @@ export const GAME_GUIDES = [
     darkestDungeonAchievementGuide,
     moonlighterAchievementGuide,
     frostpunkAchievementGuide,
-    spelunky2AchievementGuide
+    spelunky2AchievementGuide,
+    intoTheBreachAchievementGuide,
+    cultOfTheLambAchievementGuide,
+    ftlAchievementGuide
 
 ];
 
