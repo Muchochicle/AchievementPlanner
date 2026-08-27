@@ -36,6 +36,9 @@ import { GUIDE as deadCellsAchievementGuide } from "./games/dead-cells.js";
 import { GUIDE as babaIsYouAchievementGuide } from "./games/baba-is-you.js";
 import { GUIDE as owlboyAchievementGuide } from "./games/owlboy.js";
 import { GUIDE as oxenfreeAchievementGuide } from "./games/oxenfree.js";
+import { GUIDE as rogueLegacyAchievementGuide } from "./games/rogue-legacy.js";
+import { GUIDE as oriAndTheWillOfTheWispsAchievementGuide } from "./games/ori-and-the-will-of-the-wisps.js";
+import { GUIDE as theMessengerAchievementGuide } from "./games/the-messenger.js";
 
 export const APP_GUIDES = [
 
@@ -94,7 +97,10 @@ export const GAME_GUIDES = [
     deadCellsAchievementGuide,
     babaIsYouAchievementGuide,
     owlboyAchievementGuide,
-    oxenfreeAchievementGuide
+    oxenfreeAchievementGuide,
+    rogueLegacyAchievementGuide,
+    oriAndTheWillOfTheWispsAchievementGuide,
+    theMessengerAchievementGuide
 
 ];
 

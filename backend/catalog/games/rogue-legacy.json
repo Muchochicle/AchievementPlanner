@@ -1,0 +1,323 @@
+{
+    "id": 241600,
+    "steamAppId": 241600,
+
+    "name": "Rogue Legacy",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/241600/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 15,
+        "max": 25
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Roguelike",
+        "Platformer",
+        "Metroidvania",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "FEAR_OF_LIFE",
+            "name": "Biophobia",
+            "description": "Die 20 times or more.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 2,
+            "apiname": "FEAR_OF_DECISIONS",
+            "name": "Decidophobia",
+            "description": "Put at least one point in every skill in the manor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "FEAR_OF_WEALTH",
+            "name": "Plutophobia",
+            "description": "Reach level 50 or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 4,
+            "apiname": "LOVE_OF_GOLD",
+            "name": "Aurophilia",
+            "description": "Open your very first gold chest.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 5,
+            "apiname": "FEAR_OF_NUDITY",
+            "name": "Gymnophobia",
+            "description": "Have one piece of equipment in every item slot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 6,
+            "apiname": "FEAR_OF_THROWING_STUFF_OUT",
+            "name": "Disposophobia",
+            "description": "Find all blueprints (purchase not necessary).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "LOVE_OF_MAGIC",
+            "name": "Rhabdophilia",
+            "description": "Earn your very first Enchantress rune.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 8,
+            "apiname": "LOVE_OF_CHANGE",
+            "name": "Cainotophilia",
+            "description": "Have one rune equipped in every item slot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "FEAR_OF_EYES",
+            "name": "Ommetaphobia",
+            "description": "Defeat the boss in Castle Hamson.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 10,
+            "apiname": "FEAR_OF_GHOSTS",
+            "name": "Phasmophobia",
+            "description": "Defeat the boss in the Forest Abkhazia.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 11,
+            "apiname": "FEAR_OF_FIRE",
+            "name": "Pyrophobia",
+            "description": "Defeat the boss in the Maya.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "FEAR_OF_SLIME",
+            "name": "Blennophobia",
+            "description": "Defeat the boss in the Land of Darkness.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 13,
+            "apiname": "FEAR_OF_FATHERS",
+            "name": "Paterphobia",
+            "description": "Defeat the last boss.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 14,
+            "apiname": "FEAR_OF_ANIMALS",
+            "name": "Zoophobia",
+            "description": "Defeat all the minibosses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+
+        {
+            "id": 15,
+            "apiname": "FEAR_OF_TWINS",
+            "name": "Geminiphobia",
+            "description": "Beat the game… twice.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+
+        {
+            "id": 16,
+            "apiname": "LOVE_OF_BOOKS",
+            "name": "Bibliophilia",
+            "description": "Read the last journal entry.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+
+        {
+            "id": 17,
+            "apiname": "FEAR_OF_CHICKENS",
+            "name": "Alektorophobia",
+            "description": "Kill a chicken.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 18,
+            "apiname": "FEAR_OF_GRAVITY",
+            "name": "Barophobia",
+            "description": "Use the special class at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 19,
+            "apiname": "FEAR_OF_IMPERFECTIONS",
+            "name": "Atelophobia",
+            "description": "Choose a hero with no traits.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 20,
+            "apiname": "FEAR_OF_SLEEP",
+            "name": "Somniphobia",
+            "description": "Play the game for at least 20 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+
+        {
+            "id": 21,
+            "apiname": "LOVE_OF_CLOWNS",
+            "name": "Coulrophilia",
+            "description": "Beat one of the clown's games at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 22,
+            "apiname": "LOVE_OF_KNOWLEDGE",
+            "name": "Gnosiophilia",
+            "description": "Find all the runes (purchase not necessary).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 23,
+            "apiname": "FEAR_OF_RELATIVES",
+            "name": "Syngenesophobia",
+            "description": "Defeat the brothers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 24,
+            "apiname": "FEAR_OF_CHEMICALS",
+            "name": "Chemophobia",
+            "description": "Defeat the trademarked chemical.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "FEAR_OF_BONES",
+            "name": "Ostiophobia",
+            "description": "Defeat the son.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "FEAR_OF_BLINDNESS",
+            "name": "Scotomaphobia",
+            "description": "Defeat the doppleganger.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 27,
+            "apiname": "FEAR_OF_SPACE",
+            "name": "Astrophobia",
+            "description": "Defeat the asteroids.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+
+        {
+            "id": 28,
+            "apiname": "LOVE_OF_LAUGHING_AT_OTHERS",
+            "name": "Katagelasticism",
+            "description": "Mock the traitor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 100
+        },
+
+        {
+            "id": 29,
+            "apiname": "FEAR_OF_DYING",
+            "name": "Thanatophobia",
+            "description": "WITHOUT using the Architect, complete the game dying 15 times or less",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        }
+
+    ]
+
+}

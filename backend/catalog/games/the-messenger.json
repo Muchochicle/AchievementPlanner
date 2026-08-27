@@ -1,0 +1,513 @@
+{
+    "id": 764790,
+    "steamAppId": 764790,
+
+    "name": "The Messenger",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/764790/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 12,
+        "max": 18
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Metroidvania",
+        "Platformer",
+        "Action",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "SAVE_ALL_PHOBEKINS",
+            "name": "Nothing To Fear",
+            "description": "Rescue all Phobekins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 2,
+            "apiname": "COMPLETE_INTRO",
+            "name": "Enter The Ninja",
+            "description": "Beat the intro without dying",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 3,
+            "apiname": "DEFEAT_RUXXTIN",
+            "name": "Dungeon Brawler",
+            "description": "Defeat the Necromancer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 4,
+            "apiname": "BAMBOO_CREEK_WATERFALL",
+            "name": "Deposit At The River Bank",
+            "description": "Jump down the big waterfall in Bamboo Creek",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 5,
+            "apiname": "DEFEAT_EMERALD_GOLEM",
+            "name": "My Bad!",
+            "description": "Defeat the Emerald Golem",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 6,
+            "apiname": "DEFEAT_QUEEN",
+            "name": "I Quill Survive",
+            "description": "Defeat the Queen of Quills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 7,
+            "apiname": "DEFEAT_COLOS_SUSES",
+            "name": "Leg Day",
+            "description": "Defeat Colos & Suses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 8,
+            "apiname": "PHASE_IN_TOWER",
+            "name": "Glacial Peaked",
+            "description": "Get to the top of the mountain",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "DEFEAT_ARCANE_GOLEM",
+            "name": "Did The Thing",
+            "description": "Defeat the Arcane Golem",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 10,
+            "apiname": "ENTER_CLOUD_RUINS_16",
+            "name": "Sweet 16!",
+            "description": "Time travel to the future",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 11,
+            "apiname": "DEFEAT_MANFRED",
+            "name": "Was That A Dragon?",
+            "description": "Defeat the Sky Serpent",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 12,
+            "apiname": "DEFEAT_DEMON_GENERAL",
+            "name": "More Like 'Dumb In General'",
+            "description": "Defeat the Demon General",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 13,
+            "apiname": "QUEST_2_BEGINING",
+            "name": "Man's Best Fred",
+            "description": "Ride Manfred around the world back to where it all started",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "DEFEAT_LOST_WOODS",
+            "name": "Hear Today, Gone Tomorrow",
+            "description": "Make it out of the underwater labyrinth",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 15,
+            "apiname": "USE_THREE_BARREL_PLANTS",
+            "name": "Tumble Hijinx",
+            "description": "Bump on a few flowers in Rivière Turquoise",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 16,
+            "apiname": "RUN_ON_LAVA",
+            "name": "The Lava Is Floor",
+            "description": "Run on lava",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 17,
+            "apiname": "DEFEAT_DEMON_KING",
+            "name": "Not With THAT Altitude",
+            "description": "Defeat the Demon King",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 18,
+            "apiname": "COMPLETE_ELEMENTAL_SKYLANDS",
+            "name": "More like EleMENTAL Skylands",
+            "description": "Complete the Elemental Skylands scenario",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 19,
+            "apiname": "CLEAR_CORRUPTED_FUTURE",
+            "name": "Well, That Was Unsightly",
+            "description": "Survive the Corrupted Future chase",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 20,
+            "apiname": "GET_KEY_OV_LOVE",
+            "name": "Sun And Moon",
+            "description": "Receive the Key of Love",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 21,
+            "apiname": "DROP_ALL_NOTES",
+            "name": "It Sounds Better On Vinyl",
+            "description": "Complete the Melody",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 22,
+            "apiname": "DEFEAT_PHANTOM",
+            "name": "I'm Your Biggest Phan",
+            "description": "Defeat Phantom",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 23,
+            "apiname": "BEAT_THE_GAME",
+            "name": "The Fake Ending Was Better",
+            "description": "Beat the game",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 24,
+            "apiname": "BUY_5_UPGRADES",
+            "name": "Losing Weight, Gaining Ground",
+            "description": "Buy five upgrades in the shop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "DESTROY_MEGA_TIMESHARD",
+            "name": "Be Lootful And Multiply",
+            "description": "Destroy a Big Time Shard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 26,
+            "apiname": "CLOUDSTEP_10_TIMES",
+            "name": "Walking On Air",
+            "description": "Execute 15 Cloudsteps without landing or clinging to a wall",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "DARK_CAVE_NO_CANDLE",
+            "name": "I Swear It's My First Time",
+            "description": "Make it through Dark Cave without the 'Power of True Sight'",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 28,
+            "apiname": "COLLECT_POWER_SEAL",
+            "name": "Challenge Expected",
+            "description": "Destroy your first Power Seal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 29,
+            "apiname": "COLLECT_ALL_POWER_SEAL",
+            "name": "Wheelin' And Sealin'",
+            "description": "Destroy all Power Seals",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 500
+        },
+
+        {
+            "id": 30,
+            "apiname": "BUY_ALL_UPGRADES",
+            "name": "Started From The Bottom",
+            "description": "Buy all upgrades from the shop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 31,
+            "apiname": "DISCOVER_EVERY_ROOMS",
+            "name": "I've Been Around",
+            "description": "Enter all areas of the world",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 32,
+            "apiname": "MEET_QUARBLE",
+            "name": "Eye Of The Shareholder",
+            "description": "Meet Quarble",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 33,
+            "apiname": "FIRST_CABINET_RANT",
+            "name": "Fine, I Won't Open It",
+            "description": "Be lectured on happiness",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 34,
+            "apiname": "SECOND_CABINET_RANT",
+            "name": "Bait Taken",
+            "description": "Be lectured on the power of stories",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 35,
+            "apiname": "THIRD_CABINET_RANT",
+            "name": "You Said This Was A Platformer",
+            "description": "Be lectured on the inner child",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 36,
+            "apiname": "BUY_SWIM_DASH",
+            "name": "Hope This Phelps",
+            "description": "Buy the Swim Dash upgrade from the shop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 37,
+            "apiname": "ONE_SHOT_GREEN_KAPPA",
+            "name": "One Hit Wonder",
+            "description": "Kill a green demon in a single hit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 38,
+            "apiname": "DODGE_WINDMILL_SHURIKEN",
+            "name": "Welco Metot Henex Tlevel",
+            "description": "Keep a windmill shuriken going for 15 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 39,
+            "apiname": "NO_DEATH_QUEEN",
+            "name": "No Argument Here",
+            "description": "Make it from the beginning of the game to beating the Queen of Quills with zero deaths",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 40,
+            "apiname": "FIRST_PROJECTILE_ATTACK",
+            "name": "How Ninja Is That?",
+            "description": "Attack your first enemy projectile",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 41,
+            "apiname": "DEFEAT_OCTO",
+            "name": "Rocked Opus",
+            "description": "Defeat Octo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 42,
+            "apiname": "DEFEAT_TOTEM",
+            "name": "Voodoo Told'em",
+            "description": "Defeat the Voodoo Totem",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 43,
+            "apiname": "DEFEAT_PUNCH_OUT",
+            "name": "Now THAT'S a finale!",
+            "description": "Defeat the Demon General... again",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 44,
+            "apiname": "PERFECT_RACE",
+            "name": "Star Messenger",
+            "description": "Win the race with a perfect score",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "BUY_TOY",
+            "name": "Betcha can't buy just one",
+            "description": "Make your first purchase at the Craftman's Corner",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 46,
+            "apiname": "UNLOCK_MASK",
+            "name": "Thanks I hate it",
+            "description": "Meet the voodoo mask",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 47,
+            "apiname": "UNCLOG_SINK",
+            "name": "Sunk Cost",
+            "description": "Unclog the Money Sink",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 48,
+            "apiname": "DO_THE_DEAL",
+            "name": "All in",
+            "description": "Accept 'THE DEAL'",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 15
+        }
+
+    ]
+
+}

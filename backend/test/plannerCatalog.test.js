@@ -60,6 +60,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("baba-is-you"));
     assert.ok(slugs.includes("owlboy"));
     assert.ok(slugs.includes("oxenfree"));
+    assert.ok(slugs.includes("rogue-legacy"));
+    assert.ok(slugs.includes("ori-and-the-will-of-the-wisps"));
+    assert.ok(slugs.includes("the-messenger"));
 
 });
 

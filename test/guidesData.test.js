@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 28);
+    assert.strictEqual(GAME_GUIDES.length, 31);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "slay-the-spire", "stardew-valley", "superliminal", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "stardew-valley", "superliminal", "the-messenger", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -63,6 +63,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "inside-achievement-guide",
             "limbo-achievement-guide",
             "ori-and-the-blind-forest-achievement-guide",
+            "ori-and-the-will-of-the-wisps-achievement-guide",
             "owlboy-achievement-guide",
             "oxenfree-achievement-guide",
             "papers-please-achievement-guide",
@@ -70,9 +71,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "portal-achievement-guide",
             "return-of-the-obra-dinn-achievement-guide",
             "rime-achievement-guide",
+            "rogue-legacy-achievement-guide",
             "slay-the-spire-achievement-guide",
             "stardew-valley-achievement-guide",
             "superliminal-achievement-guide",
+            "the-messenger-achievement-guide",
             "the-stanley-parable-achievement-guide",
             "transistor-achievement-guide",
             "what-remains-of-edith-finch-achievement-guide"

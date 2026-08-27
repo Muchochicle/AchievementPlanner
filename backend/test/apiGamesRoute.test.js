@@ -129,7 +129,7 @@ test("GET /api/games returns the real catalog games with hasPlanner:true and the
         assert.strictEqual(body.count, body.games.length, "count must match the actual number of games returned");
 
         const slugs = body.games.map(g => g.slug).sort();
-        assert.deepStrictEqual(slugs, ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "slay-the-spire", "stardew-valley", "superliminal", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]);
+        assert.deepStrictEqual(slugs, ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cuphead", "dead-cells", "disco-elysium", "hades", "hollow-knight", "hyper-light-drifter", "inside", "limbo", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "stardew-valley", "superliminal", "the-messenger", "the-stanley-parable", "transistor", "what-remains-of-edith-finch"]);
 
         for (const game of body.games) {
 
