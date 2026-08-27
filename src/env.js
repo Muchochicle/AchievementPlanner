@@ -15,7 +15,7 @@ function stripTrailingSlashes(url) {
 // for a same-origin deployment (frontend and backend served from the same
 // host, e.g. via a reverse proxy) - see README.md's "Deploying to
 // Production" section for both cases and exact Railway steps.
-const PRODUCTION_API_BASE_URL = "";
+const PRODUCTION_API_BASE_URL = "https://achievementplanner-production.up.railway.app";
 
 // Auto-detects dev vs. production instead of hard-defaulting to
 // localhost:3000 for every visitor (Phase 73) - shipping the old hardcoded

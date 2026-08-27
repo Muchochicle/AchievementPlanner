@@ -35,13 +35,13 @@ test("ENV.API_BASE_URL resolves to localhost:3000 when served from localhost or 
 
 });
 
-test("ENV.API_BASE_URL resolves to \"\" (same-origin, relative requests) for a real production hostname", async () => {
+test("ENV.API_BASE_URL resolves to the configured split-origin backend for a real production hostname", async () => {
 
     globalThis.window = { location: { hostname: "achievementplanner.example.com" } };
 
     const { ENV } = await import(`../src/env.js?prod-${Date.now()}`);
 
-    assert.strictEqual(ENV.API_BASE_URL, "");
+    assert.strictEqual(ENV.API_BASE_URL, "https://achievementplanner-production.up.railway.app");
 
     delete globalThis.window;
 
