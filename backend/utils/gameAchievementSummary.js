@@ -10,13 +10,11 @@ import {
 
 import { mergeAchievements } from "./achievementMerger.js";
 
-// completion.js has no browser/DOM dependency (no localStorage, no
-// document, no window) - it's plain, framework-agnostic JS already
-// imported directly by backend/test/completion.test.js under Node's own
-// test runner. Reusing it here means the Profile aggregate and the game
-// page share the exact same completion rule (isEntryCompleted) instead of
-// a second implementation that could quietly drift from it again.
-import { getMergedAchievementStats } from "../../src/utils/planner/achievement/completion.js";
+// See achievementCompletion.js's own header comment for why this is a
+// backend-local copy of the frontend's completion.js rather than a
+// cross-directory import - Docker build context isolation, kept in sync
+// by backend/test/achievementLogicSync.test.js.
+import { getMergedAchievementStats } from "./achievementCompletion.js";
 
 // Fetches and merges one game's Steam achievement data and reduces it to
 // {total, completed, playerDataStatus, schemaStatus, hasAchievements} - the

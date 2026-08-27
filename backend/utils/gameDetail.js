@@ -17,7 +17,7 @@ import {
 
 import { mergeAchievements } from "./achievementMerger.js";
 
-import { classifyAchievementAvailability } from "../../src/utils/planner/achievement/availability.js";
+import { classifyAchievementAvailability } from "./achievementAvailability.js";
 
 // Extracted from routes/games.js's GET /:slug handler (Phase 45 - see
 // PHASE_45_AUDIT.md) so the single most complex, most consequential piece

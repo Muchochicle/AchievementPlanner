@@ -5,7 +5,7 @@ import {
     findMergedEntry,
     isEntryCompleted,
     getMergedAchievementStats
-} from "../../src/utils/planner/achievement/completion.js";
+} from "../utils/achievementCompletion.js";
 
 test("findMergedEntry finds the entry matching ap.id", () => {
 

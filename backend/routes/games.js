@@ -15,7 +15,7 @@ import { getAllPlannerSlugs } from "../utils/plannerCatalog.js";
 
 import { mapWithConcurrency } from "../utils/concurrencyLimiter.js";
 
-import { classifyAchievementAvailability } from "../../src/utils/planner/achievement/availability.js";
+import { classifyAchievementAvailability } from "../utils/achievementAvailability.js";
 
 import { selectPopularGames } from "../utils/popularGames.js";
 import { sendServerError } from "../utils/sendServerError.js";
