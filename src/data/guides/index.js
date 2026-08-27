@@ -58,6 +58,9 @@ import { GUIDE as ftlAchievementGuide } from "./games/ftl.js";
 import { GUIDE as markOfTheNinjaAchievementGuide } from "./games/mark-of-the-ninja.js";
 import { GUIDE as enterTheGungeonAchievementGuide } from "./games/enter-the-gungeon.js";
 import { GUIDE as loopHeroAchievementGuide } from "./games/loop-hero.js";
+import { GUIDE as littleNightmaresAchievementGuide } from "./games/little-nightmares.js";
+import { GUIDE as griftlandsAchievementGuide } from "./games/griftlands.js";
+import { GUIDE as dredgeAchievementGuide } from "./games/dredge.js";
 
 export const APP_GUIDES = [
 
@@ -138,7 +141,10 @@ export const GAME_GUIDES = [
     ftlAchievementGuide,
     markOfTheNinjaAchievementGuide,
     enterTheGungeonAchievementGuide,
-    loopHeroAchievementGuide
+    loopHeroAchievementGuide,
+    littleNightmaresAchievementGuide,
+    griftlandsAchievementGuide,
+    dredgeAchievementGuide
 
 ];
 

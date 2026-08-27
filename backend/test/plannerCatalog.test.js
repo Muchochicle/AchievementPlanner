@@ -82,6 +82,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mark-of-the-ninja"));
     assert.ok(slugs.includes("enter-the-gungeon"));
     assert.ok(slugs.includes("loop-hero"));
+    assert.ok(slugs.includes("little-nightmares"));
+    assert.ok(slugs.includes("griftlands"));
+    assert.ok(slugs.includes("dredge"));
 
 });
 

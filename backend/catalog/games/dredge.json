@@ -1,0 +1,628 @@
+{
+    "id": 1562430,
+    "steamAppId": 1562430,
+
+    "name": "Dredge",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 15,
+        "max": 25
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Fishing","Horror","Adventure","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "CATCH_FISH_ROD_1",
+            "name": "Lifted From the Deep",
+            "description": "Catch 250 fish using rods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 2,
+            "apiname": "CATCH_FISH_NET_1",
+            "name": "Tangled in This Web",
+            "description": "Catch 150 fish in trawl nets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 3,
+            "apiname": "CATCH_CRABS_POT_1",
+            "name": "Trapped by These Walls",
+            "description": "Catch 100 crabs in crab pots.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 4,
+            "apiname": "SELL_FISH_VALUE_1",
+            "name": "Lives for Profit",
+            "description": "Sell a total of $2500 worth of fish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 5,
+            "apiname": "SELL_TRINKETS_VALUE_1",
+            "name": "Cash for Gold",
+            "description": "Sell a total of $1500 worth of trinkets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 6,
+            "apiname": "DISCARD_FISH",
+            "name": "Unwanted",
+            "description": "Discard 25 fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "DEPLETE_FISH_SPOTS",
+            "name": "Careless Harvesting",
+            "description": "Deplete a total of 25 fishing spots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "CATCH_ALL_REGULAR_FISH",
+            "name": "Master Angler",
+            "description": "Catch all known species of fish.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 9,
+            "apiname": "COMPLETE_CHAPTER_1",
+            "name": "The Key",
+            "description": "Deliver the Key.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 10,
+            "apiname": "COMPLETE_CHAPTER_2",
+            "name": "The Secret",
+            "description": "Surrender the Music Box to the Collector after retrieving it in the Gale Cliffs.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 11,
+            "apiname": "COMPLETE_CHAPTER_3",
+            "name": "The Bond",
+            "description": "Entrust the Ring to the Collector after dredging it up in the Stellar Basin.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 12,
+            "apiname": "COMPLETE_CHAPTER_4",
+            "name": "The Chains",
+            "description": "Relinquish the Chains to the Collector after receiving them from the Airman in the Twisted Strand.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 13,
+            "apiname": "COMPLETE_CHAPTER_5",
+            "name": "The Moment",
+            "description": "Give up the Pocket Watch to the Collector, the last of the four relics.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 14,
+            "apiname": "ENDING",
+            "name": "Unshackled",
+            "description": "Trigger one of the game's two endings by following the Collector's instructions and handing over all four relics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "ENDING_ALT",
+            "name": "Sated",
+            "description": "Return to the Lighthouse Keeper after meeting the Old Mayor, retrieve the book from the Collector, and trigger the game's alternate ending instead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "HULL_2",
+            "name": "Hull: Improved",
+            "description": "Upgrade to the 2nd tier hull.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "HULL_3",
+            "name": "Hull: Refined",
+            "description": "Upgrade to the 3rd tier hull.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "HULL_4",
+            "name": "Hull: Advanced",
+            "description": "Upgrade to the 4th tier hull.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 19,
+            "apiname": "FULL_CARGO",
+            "name": "Perfect Packing",
+            "description": "Have a full cargo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 20,
+            "apiname": "FULL_EQUIPMENT",
+            "name": "Feeling Prepared",
+            "description": "Install equipment into every slot on your ship.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 21,
+            "apiname": "CATCH_ALL_ABERRATIONS",
+            "name": "Aberration Attractor",
+            "description": "Catch all aberrations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 22,
+            "apiname": "ABILITY_FOGHORN",
+            "name": "From the Fog",
+            "description": "Hear a foghorn echo after equipping the Foghorn relic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 23,
+            "apiname": "ABILITY_SPYGLASS",
+            "name": "Prey Sighted",
+            "description": "Spot a fish of each category through the Spyglass relic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 24,
+            "apiname": "ABILITY_BAIT",
+            "name": "Mixed Results",
+            "description": "Use Mixed Bait to attract 3 different species to a single fishing spot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 25,
+            "apiname": "ABILITY_HASTE",
+            "name": "Cruel Heat",
+            "description": "Keep the Haste relic's burn meter above 50% for 10 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 26,
+            "apiname": "ABILITY_MANIFEST",
+            "name": "Dimensional Bypass",
+            "description": "Travel a long distance in a single use of the Manifest relic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 27,
+            "apiname": "ABILITY_BANISH",
+            "name": "Banisher",
+            "description": "Banish 10 threats using the Banish relic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 28,
+            "apiname": "ABILITY_ATROPHY",
+            "name": "Unsustainable Fishing",
+            "description": "Use the Atrophy relic on a fishing spot far from the Disturbed Water it came from.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 29,
+            "apiname": "COMPLETE_ALL_SIDE_QUESTS",
+            "name": "Providence",
+            "description": "Complete all side quests. One way or another.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 30,
+            "apiname": "DISCOVER_ALL_DOCKS",
+            "name": "Safe Havens",
+            "description": "Visit every dock in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 31,
+            "apiname": "SOLVE_ALL_SHRINES",
+            "name": "Servant of the Shrines",
+            "description": "Solve all of the game's fish shrine puzzles.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 32,
+            "apiname": "RESEARCH_RODS",
+            "name": "Researcher: Rods",
+            "description": "Research all rods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 33,
+            "apiname": "RESEARCH_NETS",
+            "name": "Researcher: Nets",
+            "description": "Research all nets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 34,
+            "apiname": "RESEARCH_POTS",
+            "name": "Researcher: Pots",
+            "description": "Research all pots.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 35,
+            "apiname": "RESEARCH_ENGINES",
+            "name": "Researcher: Engines",
+            "description": "Research all engines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 36,
+            "apiname": "STAT_FISHING_SPEED",
+            "name": "Swift Reaper",
+            "description": "Have a combined fishing speed of 200%.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 37,
+            "apiname": "STAT_ENGINE_SPEED",
+            "name": "No Time to Linger",
+            "description": "Have a combined engine speed of 75kn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 38,
+            "apiname": "STAT_LIGHT_STRENGTH",
+            "name": "Light up the Night",
+            "description": "Have a combined light strength of 3000 lumens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 39,
+            "apiname": "INTRODUCTIONS",
+            "name": "Introductions",
+            "description": "Complete the introduction quest.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 40,
+            "apiname": "ALL_ACHIEVEMENTS",
+            "name": "From the Depths",
+            "description": "Obtain all other achievements.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 41,
+            "apiname": "DLC_3_1",
+            "name": "Polar Angler",
+            "description": "Catch all known species of fish in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 42,
+            "apiname": "DLC_3_2",
+            "name": "Cold Corruptions",
+            "description": "Catch all aberrations in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "DLC_3_3",
+            "name": "Feeding Time",
+            "description": "Feed the Narwhal in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 44,
+            "apiname": "DLC_3_4",
+            "name": "Under The Ice",
+            "description": "Finish the main quest in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 45,
+            "apiname": "DLC_3_5",
+            "name": "Frozen Favors",
+            "description": "Finish all side quests in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 46,
+            "apiname": "DLC_3_6",
+            "name": "Icebreaker",
+            "description": "Equip the Icebreaker hull upgrade in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 47,
+            "apiname": "DLC_3_7",
+            "name": "Fresh Fish",
+            "description": "Have 5 ice blocks in your cargo at once in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "DLC_3_8",
+            "name": "From The Black Depths",
+            "description": "Catch the Colossal Squid in The Pale Reach.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "DLC_4_1",
+            "name": "Ancient Angler",
+            "description": "Catch all known species of fish in The Iron Rig.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "DLC_4_2",
+            "name": "Primordial Deviations",
+            "description": "Catch all aberrations in The Iron Rig (excluding exotics).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 51,
+            "apiname": "DLC_4_3",
+            "name": "Missing Shipment",
+            "description": "Deliver the missing shipment to the rig.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "DLC_4_4",
+            "name": "The Iron Ruin",
+            "description": "Override the Iron Rig's defenses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 53,
+            "apiname": "DLC_4_5",
+            "name": "Rig Architect",
+            "description": "Build all levels of all buildings on the rig.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 54,
+            "apiname": "DLC_4_6",
+            "name": "Remedial Apparatus",
+            "description": "Equip the Siphon Trawler.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 55,
+            "apiname": "DLC_4_7",
+            "name": "Dark Custodian",
+            "description": "Collect a total of 10 Dark Canisters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 56,
+            "apiname": "DLC_4_8",
+            "name": "Hull: Industrial",
+            "description": "Upgrade to the 5th tier hull.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 57,
+            "apiname": "DLC_4_9",
+            "name": "Exotic Exemplar",
+            "description": "Catch any exotic aberration.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 58,
+            "apiname": "DLC_4_10",
+            "name": "Enhanced Abilities",
+            "description": "Upgrade all 3 basic abilities.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 59,
+            "apiname": "DLC_4_11",
+            "name": "Shadowed Splashes",
+            "description": "Have 5 Dark Splashes in your inventory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 60,
+            "apiname": "DLC_4_12",
+            "name": "The Gleaming Goliath",
+            "description": "Evade that which stalks the disturbed sediment.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        }
+
+    ]
+
+}
