@@ -62,6 +62,7 @@ import { GUIDE as littleNightmaresAchievementGuide } from "./games/little-nightm
 import { GUIDE as griftlandsAchievementGuide } from "./games/griftlands.js";
 import { GUIDE as dredgeAchievementGuide } from "./games/dredge.js";
 import { GUIDE as vampireSurvivorsAchievementGuide } from "./games/vampire-survivors.js";
+import { GUIDE as riskOfRain2AchievementGuide } from "./games/risk-of-rain-2.js";
 
 export const APP_GUIDES = [
 
@@ -146,7 +147,8 @@ export const GAME_GUIDES = [
     littleNightmaresAchievementGuide,
     griftlandsAchievementGuide,
     dredgeAchievementGuide,
-    vampireSurvivorsAchievementGuide
+    vampireSurvivorsAchievementGuide,
+    riskOfRain2AchievementGuide
 
 ];
 
