@@ -85,6 +85,7 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("little-nightmares"));
     assert.ok(slugs.includes("griftlands"));
     assert.ok(slugs.includes("dredge"));
+    assert.ok(slugs.includes("vampire-survivors"));
 
 });
 

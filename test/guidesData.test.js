@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 53);
+    assert.strictEqual(GAME_GUIDES.length, 54);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cult-of-the-lamb", "cuphead", "darkest-dungeon", "dead-cells", "deaths-door", "disco-elysium", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "cult-of-the-lamb", "cuphead", "darkest-dungeon", "dead-cells", "deaths-door", "disco-elysium", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "rogue-legacy", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -99,6 +99,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "thomas-was-alone-achievement-guide",
             "transistor-achievement-guide",
             "va11-hall-a-achievement-guide",
+            "vampire-survivors-achievement-guide",
             "void-bastards-achievement-guide",
             "what-remains-of-edith-finch-achievement-guide"
         ]

@@ -1,0 +1,2463 @@
+{
+    "id": 1794680,
+    "steamAppId": 1794680,
+
+    "name": "Vampire Survivors",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": [
+        "Roguelike",
+        "Bullet Heaven",
+        "Action",
+        "Indie"
+    ],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ReachLV5",
+            "name": "Wings",
+            "description": "Reach Level 5.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 2,
+            "apiname": "ReachLV10",
+            "name": "Crown",
+            "description": "Reach Level 10.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 3,
+            "apiname": "Survive1Minute",
+            "name": "Hollow Heart",
+            "description": "Survive 1 minute with any character.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 4,
+            "apiname": "Survive5MinutesWithDiamond",
+            "name": "Runetracer",
+            "description": "Survive 5 minutes with Pasqualina.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 5,
+            "apiname": "Survive10Minutes",
+            "name": "Peachone",
+            "description": "Survive 10 minutes with any character.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 6,
+            "apiname": "GetFireWandToLevel4",
+            "name": "Arca",
+            "description": "Get Fire Wand to Level 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 7,
+            "apiname": "GetHolyBookToLevel4",
+            "name": "Bracer",
+            "description": "Get King Bible to Level 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 8,
+            "apiname": "GetHolyWaterToLevel4",
+            "name": "Candelabrador",
+            "description": "Get Santa Water to Level 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 9,
+            "apiname": "GetLightningRingToLevel4",
+            "name": "Porta",
+            "description": "Get Lightning Ring to Level 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 10,
+            "apiname": "GetMagicMissileToLevel7",
+            "name": "Duplicator",
+            "description": "Get Magic Wand to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 11,
+            "apiname": "GetPeachoneToLevel7",
+            "name": "Ebony Wings",
+            "description": "Get Peachone to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 12,
+            "apiname": "GetRunetracerToLevel7",
+            "name": "Spellbinder",
+            "description": "Get Runetracer to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 13,
+            "apiname": "Have6DifferentWeapons",
+            "name": "Empty Tome",
+            "description": "Hold 6 different weapons at once.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 14,
+            "apiname": "Destroy20Candles",
+            "name": "Fire Wand",
+            "description": "Destroy 20 light sources.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 15,
+            "apiname": "Eat5PotRoast",
+            "name": "Garlic",
+            "description": "Find 5 Floor Chickens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 16,
+            "apiname": "FindAClover",
+            "name": "Clover",
+            "description": "Find a Little Clover.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 17,
+            "apiname": "FindAVacuum",
+            "name": "Magnet",
+            "description": "Find a Vacuum.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 18,
+            "apiname": "FindAnOrologion",
+            "name": "Clock Lancet",
+            "description": "Find an Orologion.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 19,
+            "apiname": "FindARosary",
+            "name": "Cross",
+            "description": "Find a Rosary.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 20,
+            "apiname": "Defeat5000Enemies",
+            "name": "Lightning Ring",
+            "description": "Defeat a total of 5000 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 21,
+            "apiname": "Defeat3000Skeletons",
+            "name": "Mortaccio",
+            "description": "Defeat a total of 3000 Skeletons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 22,
+            "apiname": "Survive20Minutes",
+            "name": "Pentagram",
+            "description": "Survive 20 minutes with any character.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 23,
+            "apiname": "DefeatBossMadForest",
+            "name": "Hyper Mad Forest",
+            "description": "Defeat the giant Blue Venus in the Mad Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 24,
+            "apiname": "DefeatBossLibrary",
+            "name": "Hyper Inlaid Library",
+            "description": "Defeat the Hag in the Inlaid Library.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 25,
+            "apiname": "ReachLV20InMadForest",
+            "name": "Inlaid Library",
+            "description": "Reach Level 20 in the Mad Forest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 26,
+            "apiname": "Survive5MinutesWithKnife",
+            "name": "Pummarola",
+            "description": "Survive 5 minutes with Gennaro.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 27,
+            "apiname": "FindAStoneMask",
+            "name": "Stone Mask",
+            "description": "Find a Stone Mask.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 28,
+            "apiname": "EvolveWhip",
+            "name": "Bloody Tear",
+            "description": "Evolve the Whip.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 29,
+            "apiname": "EvolveMagicWand",
+            "name": "Holy Wand",
+            "description": "Evolve the Magic Wand.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 30,
+            "apiname": "EvolveKnife",
+            "name": "Thousand Edge",
+            "description": "Evolve the Knife.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 31,
+            "apiname": "EvolveAxe",
+            "name": "Death Spiral",
+            "description": "Evolve the Axe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 32,
+            "apiname": "EvolveCross",
+            "name": "Heaven Sword",
+            "description": "Evolve the Cross.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 33,
+            "apiname": "EvolveKingBible",
+            "name": "Unholy Vespers",
+            "description": "Evolve the King Bible.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 34,
+            "apiname": "EvolveFireWand",
+            "name": "Hellfire",
+            "description": "Evolve the Fire Wand.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 35,
+            "apiname": "GetGarlicToLevel7",
+            "name": "Poe Ratcho",
+            "description": "Get Garlic to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 36,
+            "apiname": "EvolveGarlic",
+            "name": "Soul Eater",
+            "description": "Evolve the Garlic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 37,
+            "apiname": "UniteBirds",
+            "name": "Vandalier",
+            "description": "Unite Ebony Wings and Peachone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 38,
+            "apiname": "Unlock2Hypers",
+            "name": "Green Acres",
+            "description": "Unlock Hyper mode for 2 normal stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 39,
+            "apiname": "Recover1000HP",
+            "name": "Suor Clerici",
+            "description": "Recover a total of 1000 HP.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 40,
+            "apiname": "Earn5000CoinsInASingleRun",
+            "name": "Dommario",
+            "description": "Earn 5000 coins in a single run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "Defeat100KEnemies",
+            "name": "Krochi",
+            "description": "Defeat a total of 100000 enemies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "Survive20MinutesWithCross",
+            "name": "Tiragisú",
+            "description": "Survive 20 minutes with Krochi.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 43,
+            "apiname": "EvolveSantaWater",
+            "name": "La Borra",
+            "description": "Evolve the Santa Water.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 44,
+            "apiname": "EvolveLightning",
+            "name": "Thunder Loop",
+            "description": "Evolve the Lightning Ring.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 45,
+            "apiname": "ReachLV100WithMortaccio",
+            "name": "Reroll 1",
+            "description": "Reach Level 80 with Mortaccio.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 46,
+            "apiname": "Survive30MinutesInGreenAcres",
+            "name": "Skip 2",
+            "description": "Survive 30 minutes in Green Acres.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 47,
+            "apiname": "ReachLV100WithCavallo",
+            "name": "Reroll 2",
+            "description": "Reach Level 80 with Yatta Cavallo.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 48,
+            "apiname": "Defeat3000Buers",
+            "name": "Yatta Cavallo",
+            "description": "Defeat a total of 3000 Lion Heads.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 49,
+            "apiname": "Survive20MinutesWithCurse",
+            "name": "Lama",
+            "description": "Survive 20 minutes with at least +10% Curse.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 50,
+            "apiname": "Survive30MinutesWithAxe",
+            "name": "Skull O'Maniac",
+            "description": "Survive 30 minutes with Lama.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 51,
+            "apiname": "ReachLV40InLibrary",
+            "name": "Dairy Plant",
+            "description": "Reach Level 40 in the Inlaid Library.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 52,
+            "apiname": "DefeatBossPlant",
+            "name": "Hyper Dairy Plant",
+            "description": "Defeat the Sword Guardian in the Dairy Plant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 53,
+            "apiname": "FindMilkyWayMap",
+            "name": "Milky Way Map",
+            "description": "Find the Milky Way Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 54,
+            "apiname": "FindCoffinStage3",
+            "name": "Coffin: Dairy Plant",
+            "description": "Find and open the coffin in the Dairy Plant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 55,
+            "apiname": "Survive15MinutesWithSong",
+            "name": "Song of Mana",
+            "description": "Survive 15 minutes with Poppea.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 56,
+            "apiname": "EvolveSongOfMana",
+            "name": "Mannajja",
+            "description": "Evolve the Song Of Mana.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 57,
+            "apiname": "GetPentagramToLevel7",
+            "name": "Christine",
+            "description": "Get Pentagram to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 58,
+            "apiname": "Unlock3Hypers",
+            "name": "Il Molise",
+            "description": "Unlock Hyper mode for any normal stage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 59,
+            "apiname": "Survive15MinutesInMolise",
+            "name": "Skip 1",
+            "description": "Survive 15 minutes in Molise.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 60,
+            "apiname": "EvolvePentagram",
+            "name": "Gorgeous Moon",
+            "description": "Evolve the Pentagram.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 61,
+            "apiname": "See50Items",
+            "name": "Mindbender",
+            "description": "Fill 50 entries in the Collection.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 70
+        },
+
+        {
+            "id": 62,
+            "apiname": "FindCoffinStage1",
+            "name": "Coffin: Mad Forest",
+            "description": "Find and open the coffin in the Mad Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 63,
+            "apiname": "Survive10MinutesWithGuns",
+            "name": "Phiera Der Tuphello",
+            "description": "Survive 10 minutes with Pugnala.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 64,
+            "apiname": "Survive15MinutesWithGuns",
+            "name": "Eight The Sparrow",
+            "description": "Survive 15 minutes with Pugnala.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 65,
+            "apiname": "EvolveGuns",
+            "name": "Phieraggi",
+            "description": "Evolve and unite Phiera Der Tuphello and Eight The Sparrow.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 66,
+            "apiname": "EvolveRunetracer",
+            "name": "NO FUTURE",
+            "description": "Evolve the Runetracer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 67,
+            "apiname": "ReachLV100WithRamba",
+            "name": "Reroll 3",
+            "description": "Reach Level 80 with Bianca Ramba.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 68,
+            "apiname": "See60Items",
+            "name": "Banish 1",
+            "description": "Fill 60 entries in the Collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 69,
+            "apiname": "DefeatBossTower",
+            "name": "Hyper Gallo Tower",
+            "description": "Defeat the Giant Enemy Crab in Gallo Tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 70,
+            "apiname": "FindSorceressTears",
+            "name": "Sorceress' Tears",
+            "description": "Find the Sorceress' Tears.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 71,
+            "apiname": "ReachLV60InDairyPlant",
+            "name": "Gallo Tower",
+            "description": "Reach Level 60 in the Dairy Plant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 72,
+            "apiname": "Defeat3000Milk",
+            "name": "Bianca Ramba",
+            "description": "Defeat a total of 3000 Milk Elementals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 73,
+            "apiname": "See70Items",
+            "name": "Banish 2",
+            "description": "Fill 70 entries in the Collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "FindRandomazzo",
+            "name": "Randomazzo",
+            "description": "Find the Randomazzo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 75,
+            "apiname": "Survive15MinutesWithGatti",
+            "name": "Gatti Amari",
+            "description": "Survive 15 minutes with Giovanna.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 76,
+            "apiname": "FindCoffinStage2",
+            "name": "Coffin: Inlaid Library",
+            "description": "Find and open the coffin in the Inlaid Library.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 77,
+            "apiname": "ReachLV99WithGiovanna",
+            "name": "V - Chaos in the Dark Night",
+            "description": "Reach Level 50 with Giovanna.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 78,
+            "apiname": "ReachLV99WithKroci",
+            "name": "IV - Awake",
+            "description": "Reach Level 50 with Krochi.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 79,
+            "apiname": "FindRandomazzoT06",
+            "name": "VI - Sarabande of Healing",
+            "description": "Find the Randomazzo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 80,
+            "apiname": "ReachLV99WithLama",
+            "name": "XVI - Slash",
+            "description": "Reach Level 50 with Lama.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 81,
+            "apiname": "ReachLV99WithPoppea",
+            "name": "XVII - Lost and Found Painting",
+            "description": "Reach Level 50 with Poppea.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 82,
+            "apiname": "ReachLV99WithArca",
+            "name": "XIX - Heart of Fire",
+            "description": "Reach Level 50 with Arca.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 83,
+            "apiname": "Defeat3000Hydra",
+            "name": "O'Sole Meeo",
+            "description": "Defeat a total of 3000 Dragon Shrimps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 84,
+            "apiname": "Unlock3Hypers_Correct",
+            "name": "The Bone Zone",
+            "description": "Unlock Hyper mode for 3 normal stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 85,
+            "apiname": "Survive30MinutesInBoneZone",
+            "name": "Skip 3",
+            "description": "Survive 30 minutes in The Bone Zone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 86,
+            "apiname": "ReachLV100WithOsole",
+            "name": "Reroll 4",
+            "description": "Reach Level 80 with O'Sole Meeo.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 87,
+            "apiname": "ReachLV99WithImelda",
+            "name": "XI - Waltz of Pearls",
+            "description": "Reach Level 50 with Imelda.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 88,
+            "apiname": "ReachLV99WithGennaro",
+            "name": "VII - Iron Blue Will",
+            "description": "Reach Level 50 with Gennaro.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 89,
+            "apiname": "FindCoffinStage4",
+            "name": "Coffin: Gallo Tower",
+            "description": "Find and open the coffin in the Gallo Tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 90,
+            "apiname": "ReachLV99WithConcetta",
+            "name": "XVIII - Boogaloo of Illusions",
+            "description": "Reach Level 50 with Concetta.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 91,
+            "apiname": "EvolveGatti",
+            "name": "Vicious Hunger",
+            "description": "Evolve the Gatti Amari.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 92,
+            "apiname": "EvolveShadow",
+            "name": "Valkyrie Turner",
+            "description": "Evolve the Shadow Pinion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 93,
+            "apiname": "Survive31MinutesInLibrary",
+            "name": "XV - Disco of Gold",
+            "description": "Reach minute 31 in the Inlaid Library.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 94,
+            "apiname": "See80Items",
+            "name": "Banish 3",
+            "description": "Fill 80 entries in the Collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 100
+        },
+
+        {
+            "id": 95,
+            "apiname": "FindMagicBanger",
+            "name": "Magic Banger",
+            "description": "Find the Magic Banger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 96,
+            "apiname": "Survive15MinutesWithShadow",
+            "name": "Shadow Pinion",
+            "description": "Survive 15 minutes with Concetta.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 97,
+            "apiname": "Unlock4Hypers",
+            "name": "Moongolow",
+            "description": "Unlock Hyper mode for 4 normal stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 98,
+            "apiname": "Survive15MinutesInMoongolow",
+            "name": "Skip 4",
+            "description": "Survive 15 minutes in Moongolow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 99,
+            "apiname": "BuyGlassMask",
+            "name": "Glass Vizard",
+            "description": "Find and buy the Glass Vizard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 100,
+            "apiname": "ReachLV99WithPasqualina",
+            "name": "XIV - Jail of Crystal",
+            "description": "Reach Level 50 with Pasqualina.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 101,
+            "apiname": "Survive31MinutesInTower",
+            "name": "XII - Out of Bounds",
+            "description": "Reach minute 31 in the Gallo Tower.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 102,
+            "apiname": "See90Items",
+            "name": "Banish 4",
+            "description": "Fill 90 entries in the Collection.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 103,
+            "apiname": "FindYellowSign",
+            "name": "Yellow Sign",
+            "description": "Find the Yellow Sign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 104,
+            "apiname": "ObtainTheInfiniteCorridor",
+            "name": "Seeker of the Infinite Corridor",
+            "description": "Obtain the Infinite Corridor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 105,
+            "apiname": "ObtainTheCrimsonShroud",
+            "name": "Seeker of the Crimson Shroud",
+            "description": "Obtain the Crimson Shroud.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 106,
+            "apiname": "ReachLV99WithAntonio",
+            "name": "X - Beginning",
+            "description": "Reach Level 50 with Antonio.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 107,
+            "apiname": "Survive31MinutesInForest",
+            "name": "VIII - Mad Groove",
+            "description": "Reach minute 31 in the Mad Forest.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 108,
+            "apiname": "Have6Evolutions",
+            "name": "Torrona's Box",
+            "description": "Hold 6 different weapon evolutions at once.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 109,
+            "apiname": "GetTorroneToLevel9",
+            "name": "Omni",
+            "description": "Get Torrona's Box to Level 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 110,
+            "apiname": "FindYellowSignS5",
+            "name": "Cappella Magna",
+            "description": "Reach Level 80 in the Gallo Tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 111,
+            "apiname": "FindCoffinStage5",
+            "name": "Coffin: Cappella Magna",
+            "description": "Find and open the coffin in the Cappella Magna.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 112,
+            "apiname": "Survive15MinutesWithWind",
+            "name": "Vento Sacro",
+            "description": "Survive 15 minutes with Zi'Assunta.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 113,
+            "apiname": "EvolveWind",
+            "name": "Fuwalafuwaloo",
+            "description": "Unite Vento Sacro and Bloody Tear.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 114,
+            "apiname": "DefeatBossChapel",
+            "name": "Hyper Cappella Magna",
+            "description": "Defeat the Trinacria in the Cappella Magna.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 115,
+            "apiname": "Defeat6000StageKillers",
+            "name": "Sir Ambrojoe",
+            "description": "Defeat a total of 6000 Stage Killers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 116,
+            "apiname": "ReachLV99WithPorta",
+            "name": "III - Tragic Princess",
+            "description": "Reach Level 50 with Porta.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 117,
+            "apiname": "Survive31MinutesInDairyPlant",
+            "name": "XX - Silent Old Sanctuary",
+            "description": "Reach minute 31 in the Dairy Plant.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 118,
+            "apiname": "See100Items",
+            "name": "Banish 5",
+            "description": "Fill 100 entries in the Collection.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 119,
+            "apiname": "ReachLV100WithAmbrojoe",
+            "name": "Reroll 5",
+            "description": "Reach Level 80 with Sir Ambrojoe.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 120,
+            "apiname": "FindGrimoire",
+            "name": "Grim Grimoire",
+            "description": "Find the Grim Grimoire.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 121,
+            "apiname": "FindGouda",
+            "name": "Ars Gouda",
+            "description": "Find the Ars Gouda.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 122,
+            "apiname": "FindGGospel",
+            "name": "Great Gospel",
+            "description": "Find the Great Gospel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 123,
+            "apiname": "DefeatBossChapel2",
+            "name": "Game Killer",
+            "description": "Defeat the final enemy in the Cappella Magna.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 124,
+            "apiname": "Unlock5Hypers",
+            "name": "Boss Rash",
+            "description": "Unlock Hyper mode for all 5 normal stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 125,
+            "apiname": "Survive15MinutesInBossRash",
+            "name": "Skip 5",
+            "description": "Survive 15 minutes in Boss Rash.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 126,
+            "apiname": "ReachLV99WithDommario",
+            "name": "II - Twilight Requiem",
+            "description": "Reach Level 50 with Dommario.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 127,
+            "apiname": "ReachLV99WithPugnala",
+            "name": "I - Gemini",
+            "description": "Reach Level 50 with Pugnala.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 128,
+            "apiname": "FindForbiddenScroll",
+            "name": "Forbidden Scrolls",
+            "description": "Find the Forbidden Scrolls of Morbane.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 129,
+            "apiname": "ReachLV99WithChristine",
+            "name": "XIII - Wicked Season",
+            "description": "Reach Level 50 with Christine.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 130,
+            "apiname": "CompleteCollection",
+            "name": "Queen Sigma",
+            "description": "Complete the Collection 1.0.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 131,
+            "apiname": "Defeat100kWithSigma",
+            "name": "Victory Sword",
+            "description": "Defeat 100000 enemies in a single run with Queen Sigma.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 132,
+            "apiname": "ReachLV99WithClerici",
+            "name": "IX - Divine Bloodline",
+            "description": "Reach Level 50 with Suor Clerici.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 133,
+            "apiname": "ReachLV99WithPoe",
+            "name": "XXI - Blood Astronomia",
+            "description": "Reach Level 50 with Poe.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 134,
+            "apiname": "GalloDivano",
+            "name": "Bracelet",
+            "description": "Survive 30 minutes with either Gallo or Divano.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 135,
+            "apiname": "EvolveBracelet",
+            "name": "Tri-Bracelet",
+            "description": "Evolve the Bracelet and then the Bi-Bracelet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 136,
+            "apiname": "EvolveAll",
+            "name": "Candybox",
+            "description": "Discover every standard evolution and union.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 137,
+            "apiname": "ObtainAllRelics",
+            "name": "The Eudaimonia Machine",
+            "description": "Obtain all standard relics from all stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 138,
+            "apiname": "ObtainGraciasMirror",
+            "name": "Gracia's Mirror",
+            "description": "Obtain Gracia's Mirror.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 139,
+            "apiname": "ObtainSeventhTrumpet",
+            "name": "Seventh Trumpet",
+            "description": "Obtain the Seventh Trumpet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 140,
+            "apiname": "GreatestJubilee",
+            "name": "Greatest Jubilee",
+            "description": "See the final fireworks.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 141,
+            "apiname": "Banish10Items",
+            "name": "EXTRA: Seal I",
+            "description": "Banish 10 or more weapons in a single run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 142,
+            "apiname": "ReachLV80InverseTower",
+            "name": "EXTRA: Tiny Bridge",
+            "description": "Reach Level 80 in Inverse Gallo Tower.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 143,
+            "apiname": "MOON01_FindCoffin",
+            "name": "Miang",
+            "description": "Find and open the coffin in Mt.Moonspell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 144,
+            "apiname": "MOON02_Survive15Miang",
+            "name": "Silver Wind",
+            "description": "Survive 15 minutes with Miang Moonspell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 145,
+            "apiname": "MOON03_EvolveSilverWind",
+            "name": "Menya",
+            "description": "Evolve the Silver Wind.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 146,
+            "apiname": "MOON04_Survive15Menya",
+            "name": "Four Seasons",
+            "description": "Survive 15 minutes with Menya Moonspell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 147,
+            "apiname": "MOON05_EvolveFourSeasons",
+            "name": "Syuuto",
+            "description": "Evolve the Four Seasons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 148,
+            "apiname": "MOON06_Survive15Syuuto",
+            "name": "Summon Night",
+            "description": "Survive 15 minutes with Syuuto Moonspell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 149,
+            "apiname": "MOON07_EvolveSummonNight",
+            "name": "Babi-Onna",
+            "description": "Evolve the Summon Night.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 150,
+            "apiname": "MOON08_Survive15BabiOnna",
+            "name": "Mirage Robe",
+            "description": "Survive 15 minutes with Babi-Onna.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 151,
+            "apiname": "MOON09_EvolveMirageRobe",
+            "name": "McCoy-Oni",
+            "description": "Evolve the Mirage Robe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 152,
+            "apiname": "MOON10_Survive15McCoy",
+            "name": "108 Bocce",
+            "description": "Survive 15 minutes with McCoy-Oni.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 153,
+            "apiname": "MOON11_Defeat100kVanya",
+            "name": "Megalo Menya",
+            "description": "Defeat 100000 enemies in a single run with Menya Moonspell.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 154,
+            "apiname": "MOON12_Defeat100kVadjouel",
+            "name": "Megalo Syuuto",
+            "description": "Defeat 100000 enemies in a single run with Syuuto Moonspell.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 155,
+            "apiname": "MOON13_Defeat6kWater",
+            "name": "Gav'Et-Oni",
+            "description": "Defeat 6000 Kappa.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 156,
+            "apiname": "MOON14_FindNightSword",
+            "name": "Night Sword",
+            "description": "Find a Night Sword.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 157,
+            "apiname": "MOON15_EvolveNightSword",
+            "name": "Muramasa",
+            "description": "Evolve the Night Sword.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 158,
+            "apiname": "MOON16_DefeatBossRuins",
+            "name": "Hyper Mt.Moonspell",
+            "description": "Defeat the Orochimario in Mt.Moonspell.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 159,
+            "apiname": "MOON17_EvolveBubbles",
+            "name": "Boo Roo Boolle",
+            "description": "Evolve the Mille Bolle Blu.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 160,
+            "apiname": "ReachLV80InverseForest",
+            "name": "EXTRA: Bat Country",
+            "description": "Reach Level 80 in Inverse Mad Forest.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 161,
+            "apiname": "FindApoplexy",
+            "name": "EXTRA: Apoplexy",
+            "description": "Find the Apoplexy at minute 09:00 in Bat Country.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 162,
+            "apiname": "FindChaosMalachite",
+            "name": "EXTRA: Chaos Malachite",
+            "description": "Find the Chaos Malachite at minute 18:00 in Bat Country.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 163,
+            "apiname": "Banish20Items",
+            "name": "EXTRA: Seal II",
+            "description": "Banish 20 or more weapons in a single run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 164,
+            "apiname": "FOSC01_FindCoffin",
+            "name": "Eleanor Uziron",
+            "description": "Find and open the coffin in Lake Foscari.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 165,
+            "apiname": "FOSC02_Survive15Eleanor",
+            "name": "SpellString",
+            "description": "Survive 15 minutes with Eleanor Uziron.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 166,
+            "apiname": "FOSC03_GetStreamToLevel6",
+            "name": "SpellStream",
+            "description": "Get SpellStream to Level 6.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 167,
+            "apiname": "FOSC04_GetStrikeToLevel6",
+            "name": "SpellStrike",
+            "description": "Get SpellStrike to Level 6.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 168,
+            "apiname": "FOSC05_UniteSpells",
+            "name": "Maruto Cuts",
+            "description": "Unite SpellString, SpellStream, and SpellStrike.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 169,
+            "apiname": "FOSC06_Survive15Viktor",
+            "name": "Eskizzibur",
+            "description": "Survive 15 minutes with Maruto Cuts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 170,
+            "apiname": "FOSC07_EvolveEskizzibur",
+            "name": "Keitha Muort",
+            "description": "Evolve the Eskizzibur.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 171,
+            "apiname": "FOSC08_Survive15Keira",
+            "name": "Flash Arrow",
+            "description": "Survive 15 minutes with Keitha Muort.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 172,
+            "apiname": "FOSC09_EvolveFlashArrow",
+            "name": "Millionaire",
+            "description": "Evolve the Flash Arrow.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 173,
+            "apiname": "FOSC10_BreakSeal1",
+            "name": "Abyss Foscari",
+            "description": "With Keitha, break the Seal of the Lake.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 174,
+            "apiname": "FOSC11_BreakSeal2",
+            "name": "Luminaire Foscari",
+            "description": "With Maruto, break the Seal of the Abyss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 175,
+            "apiname": "FOSC12_BreakSeal3",
+            "name": "Genevieve Gruyère",
+            "description": "With Eleanor, break the Seal of the Banished.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 176,
+            "apiname": "FOSC13_Survive15Luminaire",
+            "name": "Prismatic Missile",
+            "description": "Survive 15 minutes with Luminaire Foscari.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 177,
+            "apiname": "FOSC14_EvolvePrismatic",
+            "name": "Luminaire",
+            "description": "Evolve the Prismatic Missile.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 178,
+            "apiname": "FOSC15_Survive15Genevieve",
+            "name": "Shadow Servant",
+            "description": "Survive 15 minutes with Genevieve Gruyère.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 179,
+            "apiname": "FOSC16_EvolveShadow",
+            "name": "Ophion",
+            "description": "Evolve the Shadow Servant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 180,
+            "apiname": "FOSC17_Defeat100kGenevieve",
+            "name": "Je-Ne-Viv",
+            "description": "Defeat 100000 enemies in a single run with Genevieve Gruyère.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 181,
+            "apiname": "FOSC18_Defeat6kFairy",
+            "name": "Happy Birthday",
+            "description": "Defeat a total of 6000 Sammies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 182,
+            "apiname": "FOSC19_Defeat6kHorror",
+            "name": "Rottin'Ghoul",
+            "description": "Defeat a total of 6000 Rotting Ghouls.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 183,
+            "apiname": "FOSC20_DefeatBossLake",
+            "name": "Hyper Lake Foscari",
+            "description": "Defeat the Avatar of Gaea in Lake Foscari.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 184,
+            "apiname": "FOSC21_DefeatBossAbyss",
+            "name": "Hyper Abyss Foscari",
+            "description": "Defeat Je-Ne-Viv in Abyss Foscari.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 185,
+            "apiname": "ReachLV80InverseLibrary",
+            "name": "EXTRA: Astral Stair",
+            "description": "Reach Level 80 in Inverse Inlaid Library.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 186,
+            "apiname": "FindChaosRosalia",
+            "name": "EXTRA: Chaos Rosalia",
+            "description": "Find the Chaos Rosalia in Astral Stair.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 187,
+            "apiname": "FindTrisection",
+            "name": "EXTRA: Trisection",
+            "description": "Find the Trisection in Astral Stair.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 188,
+            "apiname": "FindMap_AstralStair",
+            "name": "EXTRA: Astral Stair Map",
+            "description": "Find the Astral Stair Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 189,
+            "apiname": "MOON18_FindMap_Moonspell",
+            "name": "Mt.Moonspell Map",
+            "description": "Find the Mt.Moonspell Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 190,
+            "apiname": "FOSC22_FindMap_Foscari",
+            "name": "Lake Foscari Map",
+            "description": "Find the Lake Foscari Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 191,
+            "apiname": "FindChaosAltemanna",
+            "name": "EXTRA: Chaos Altemanna",
+            "description": "Find the Chaos Altemanna in Tiny Bridge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 192,
+            "apiname": "FindManyOrologions",
+            "name": "EXTRA: Whiteout",
+            "description": "Find 20 Orologions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 193,
+            "apiname": "GetGlassFandangoToLevel7",
+            "name": "EXTRA: Glass Fandango",
+            "description": "Get Glass Fandango to Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 194,
+            "apiname": "EvolveGlassFandango",
+            "name": "EXTRA: Celestial Voulge",
+            "description": "Evolve the Glass Fandango.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 195,
+            "apiname": "SurviveUntilTheEndOfWhiteout",
+            "name": "EXTRA: She-Moon Eeta",
+            "description": "Survive 20 minutes in Whiteout.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 196,
+            "apiname": "FindAntidote",
+            "name": "EXTRA: Antidote",
+            "description": "Find the Antidote in Whiteout.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 197,
+            "apiname": "FindAtlas",
+            "name": "EXTRA: Adventures",
+            "description": "Obtain the Atlas Gate in Boss Rash.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 198,
+            "apiname": "FindManyGoldenFinger",
+            "name": "EXTRA: Space 54",
+            "description": "Find 5 Golden Fingers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 199,
+            "apiname": "GetPhas3rToLevel7",
+            "name": "EXTRA: Phas3r",
+            "description": "Get Phas3r to level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 200,
+            "apiname": "EvolvePhas3r",
+            "name": "EXTRA: Evolve the Phas3r.",
+            "description": "Evolve the Phas3r.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 201,
+            "apiname": "Survive20MinutesInSpace54",
+            "name": "EXTRA: Space Dude",
+            "description": "Survive 20 minutes in Space 54.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 202,
+            "apiname": "FindBraveStory",
+            "name": "EXTRA: Brave Story",
+            "description": "Find the Brave Story at minute 18 in Space 54.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 203,
+            "apiname": "DefeatManyBats",
+            "name": "EXTRA: Pako Battiliar",
+            "description": "Defeat a total of 161616 bats.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 204,
+            "apiname": "EvolveBattilia",
+            "name": "EXTRA: Bat Robbert",
+            "description": "Evolve the Pako Battiliar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 205,
+            "apiname": "FindManyRosaries",
+            "name": "EXTRA: Laborratory",
+            "description": "Find 33 Rosaries.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 206,
+            "apiname": "GetJavelinToLevel7",
+            "name": "EXTRA: Santa Javelin",
+            "description": "Get Santa Javelin to level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 207,
+            "apiname": "EvolveJavelin",
+            "name": "EXTRA: Seraphic Cry",
+            "description": "Evolve the Santa Javelin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 208,
+            "apiname": "Survive20MinutesInLaborratory",
+            "name": "EXTRA: Santa Ladonna",
+            "description": "Survive 20 minutes in Laborratory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 209,
+            "apiname": "FindAnArmaDio",
+            "name": "EXTRA: Arma Dio",
+            "description": "Find an Arma Dio.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 210,
+            "apiname": "HitManyEnemiesWithTrain",
+            "name": "EXTRA: Carlo Cart",
+            "description": "Deal a total of 25120 damage with the Laborratory Train. ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 211,
+            "apiname": "Banish40Items",
+            "name": "EXTRA: Seal III",
+            "description": "Banish 40 or more weapons in a single run.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+
+        {
+            "id": 212,
+            "apiname": "CompleteAdv_AGarlicParadise",
+            "name": "EXTRA: A Garlic Paradise",
+            "description": "Complete once the adventure A Garlic Paradise.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 213,
+            "apiname": "CompleteAdv_WorldOfLightAndDark",
+            "name": "EXTRA: World of Light and Dark",
+            "description": "Complete once the adventure World of Light and Dark.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 214,
+            "apiname": "CastForbiddenBox",
+            "name": "EXTRA: Room 1665",
+            "description": "Dare to cast the spell ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 215,
+            "apiname": "ObtainDarkasso",
+            "name": "EXTRA: Darkasso",
+            "description": "Be embraced by the Darkasso.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 216,
+            "apiname": "Dark_06Darkasso",
+            "name": "EXTRA: VI - Moonlight Bolero",
+            "description": "Be embraced by the Darkasso.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 217,
+            "apiname": "Dark_01SpaceDude",
+            "name": "EXTRA: I - Sapphire Mist",
+            "description": "Reach a Cooldown bonus of -85% with Space Dude.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 218,
+            "apiname": "Dark_10Santa",
+            "name": "EXTRA: X - Hail from the Future",
+            "description": "Trigger a Weird Souls Purifier with Santa Ladonna.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 219,
+            "apiname": "Dark_12Shemoon",
+            "name": "EXTRA: XII - Crystal Cries",
+            "description": "Trigger a Starry Heavens with She-Moon Eeta.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 220,
+            "apiname": "Dark_21Robert",
+            "name": "EXTRA: XXI - Wandering the Jet Black",
+            "description": "Reach 665 Max Health with Bat Robbert.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 221,
+            "apiname": "FindManyChickens",
+            "name": "EXTRA: Hyper The Coop",
+            "description": "Find 500 Floor Chickens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 222,
+            "apiname": "FindAParmAegis",
+            "name": "EXTRA: Parm Aegis",
+            "description": "Find a Parm Aegis in The Coop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 223,
+            "apiname": "FindChickenClock",
+            "name": "EXTRA: Game Speed Modifier",
+            "description": "Find the Roast chicken with a clock in the middle at the end of The Coop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 224,
+            "apiname": "Defeat0EnemiesInCoop",
+            "name": "EXTRA: Gaze of Gaea",
+            "description": "Defeat 0 enemies in The Coop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 225,
+            "apiname": "EvolveOfGaea",
+            "name": "EXTRA: Gazebo",
+            "description": "Survive 20 minutes in The Coop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 226,
+            "apiname": "Dark_03Gazebo",
+            "name": "EXTRA: III - Hidden Anathema",
+            "description": "Eat as much as possible with Gazebo.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 227,
+            "apiname": "Banish80Items",
+            "name": "EXTRA: Seal All",
+            "description": "Banish 80 or more weapons in a single run.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 70
+        },
+
+        {
+            "id": 228,
+            "apiname": "CompleteAdv_ToEndAnIceAge",
+            "name": "EXTRA: To End An Ice Age",
+            "description": "Complete once the adventure To End An Ice Age.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 229,
+            "apiname": "EvolveOfGaea_Fix",
+            "name": "EXTRA: Embrace of Gaea",
+            "description": "Evolve the Gaze of Gaea.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 230,
+            "apiname": "FindManyClovers",
+            "name": "EXTRA: Westwoods",
+            "description": "Find 23 Little Clovers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 231,
+            "apiname": "Survive20minutesInWestwoods",
+            "name": "EXTRA: Chula-Reh",
+            "description": "Survive 20 minutes in Westwoods. ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 232,
+            "apiname": "FindKaromasMana",
+            "name": "EXTRA: Karoma's Mana",
+            "description": "Find a Karoma's Mana in Westwoods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 233,
+            "apiname": "FindMasquerade",
+            "name": "EXTRA: Masquerade",
+            "description": "Find the Masquerade Relic in Westwoods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 234,
+            "apiname": "GetMagiStoneToLevel7",
+            "name": "EXTRA: Magi-Stone",
+            "description": "Get Magi-Stone To Level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 235,
+            "apiname": "EvolveMagiStone",
+            "name": "EXTRA: Kyra-Stones",
+            "description": "Evolve the Magi-Stone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 236,
+            "apiname": "Dark_13Chula",
+            "name": "EXTRA: XIII - Call of a Mad Moon",
+            "description": "Reach +999% Luck with Chula-Reh.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 237,
+            "apiname": "ReachLV80InverseWarehouse",
+            "name": "EXTRA: Mazerella",
+            "description": "Reach Level 80 in Inverse Dairy Plant.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 238,
+            "apiname": "FindChaosLazulia",
+            "name": "EXTRA: Chaos Lazulia",
+            "description": "Find the Chaos Lazulia in Mazerella.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 239,
+            "apiname": "FindRecycle",
+            "name": "EXTRA: Preserve",
+            "description": "Find the Wax Fetish in Mazerella.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 240,
+            "apiname": "DefeatShootingEnemies",
+            "name": "EXTRA: Ammo Appalate",
+            "description": "Defeat a total of 251096 Shooting Enemies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 241,
+            "apiname": "EvolveAmmoAppalate",
+            "name": "EXTRA: Zi'Appunta Belpaese",
+            "description": "Evolve the Ammo Appalate.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 242,
+            "apiname": "Dark_05Appunta",
+            "name": "EXTRA: V - Pale Diamond Incursion",
+            "description": "Find 10 Treasure Chests from Zi'Appunta's ability in a single run.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 243,
+            "apiname": "Dark_18Challenge",
+            "name": "EXTRA: XVIII - Victorian Horror",
+            "description": "Survive 30 minutes with no weapons in Inverse Green Acres.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+
+}
