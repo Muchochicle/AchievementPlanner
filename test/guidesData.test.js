@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 88);
+    assert.strictEqual(GAME_GUIDES.length, 91);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "dying-light", "elden-ring", "enter-the-gungeon", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-abyss", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "phasmophobia", "pizza-tower", "portal", "portal-2", "pyre", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "rust", "sable", "satisfactory", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "terraria", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "deep-rock-galactic", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "dying-light", "elden-ring", "enter-the-gungeon", "fallout-new-vegas", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-abyss", "neon-white", "no-mans-sky", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "phasmophobia", "pizza-tower", "portal", "portal-2", "pyre", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "rust", "sable", "satisfactory", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "terraria", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -69,6 +69,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "dave-the-diver-achievement-guide",
             "dead-cells-achievement-guide",
             "deaths-door-achievement-guide",
+            "deep-rock-galactic-achievement-guide",
             "disco-elysium-achievement-guide",
             "dome-keeper-achievement-guide",
             "dorfromantik-achievement-guide",
@@ -76,6 +77,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "dying-light-achievement-guide",
             "elden-ring-achievement-guide",
             "enter-the-gungeon-achievement-guide",
+            "fallout-new-vegas-achievement-guide",
             "frostpunk-achievement-guide",
             "ftl-achievement-guide",
             "furi-achievement-guide",
@@ -97,6 +99,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "moonlighter-achievement-guide",
             "neon-abyss-achievement-guide",
             "neon-white-achievement-guide",
+            "no-mans-sky-achievement-guide",
             "ori-and-the-blind-forest-achievement-guide",
             "ori-and-the-will-of-the-wisps-achievement-guide",
             "owlboy-achievement-guide",

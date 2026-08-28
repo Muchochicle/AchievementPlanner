@@ -96,6 +96,9 @@ import { GUIDE as garrysModAchievementGuide } from "./games/garrys-mod.js";
 import { GUIDE as rustAchievementGuide } from "./games/rust.js";
 import { GUIDE as dyingLightAchievementGuide } from "./games/dying-light.js";
 import { GUIDE as palworldAchievementGuide } from "./games/palworld.js";
+import { GUIDE as falloutNewVegasAchievementGuide } from "./games/fallout-new-vegas.js";
+import { GUIDE as noMansSkyAchievementGuide } from "./games/no-mans-sky.js";
+import { GUIDE as deepRockGalacticAchievementGuide } from "./games/deep-rock-galactic.js";
 
 export const APP_GUIDES = [
 
@@ -214,7 +217,10 @@ export const GAME_GUIDES = [
     garrysModAchievementGuide,
     rustAchievementGuide,
     dyingLightAchievementGuide,
-    palworldAchievementGuide
+    palworldAchievementGuide,
+    falloutNewVegasAchievementGuide,
+    noMansSkyAchievementGuide,
+    deepRockGalacticAchievementGuide
 
 ];
 

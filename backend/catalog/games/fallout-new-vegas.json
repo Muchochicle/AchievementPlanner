@@ -1,0 +1,777 @@
+{
+    "id": 22380,
+    "steamAppId": 22380,
+
+    "name": "Fallout: New Vegas",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 60,
+        "max": 120
+    },
+
+    "missable": true,
+
+    "playthroughs": 3,
+
+    "hasGuide": true,
+
+    "genres": ["RPG","Open World","Post-apocalyptic","Action RPG","First-Person"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "A01",
+            "name": "New Kid",
+            "description": "Reached 10th level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 2,
+            "apiname": "A02",
+            "name": "Up and Comer",
+            "description": "Reach 20th level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+
+        {
+            "id": 3,
+            "apiname": "A03",
+            "name": "The Boss",
+            "description": "Reach 30th level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 4,
+            "apiname": "A04",
+            "name": "Ol' Buddy Ol' Pal",
+            "description": "Recruit any companion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 5,
+            "apiname": "A05",
+            "name": "The Whole Gang's Here",
+            "description": "Recruit all companions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 6,
+            "apiname": "A06",
+            "name": "Crafty",
+            "description": "Craft 20 items.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 7,
+            "apiname": "A07",
+            "name": "Mod Master",
+            "description": "Install 20 weapon mods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 8,
+            "apiname": "A08",
+            "name": "Walker of the Mojave",
+            "description": "Discover 50 locations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 9,
+            "apiname": "A09",
+            "name": "Master of the Mojave",
+            "description": "Discover 125 locations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 10,
+            "apiname": "A10",
+            "name": "Globe Trotter",
+            "description": "Discover all snow globes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 11,
+            "apiname": "A11",
+            "name": "You Run Barter Town",
+            "description": "Sell 10,000 caps worth of goods.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 12,
+            "apiname": "A12",
+            "name": "Blast Mastery",
+            "description": "Cause 10,000 damage with Energy Weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 13,
+            "apiname": "A13",
+            "name": "Love the Bomb",
+            "description": "Cause 10,000 damage with Explosives.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 14,
+            "apiname": "A14",
+            "name": "Lead Dealer",
+            "description": "Cause 10,000 damage with Guns.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 15,
+            "apiname": "A15",
+            "name": "No Tumbler Fumbler",
+            "description": "Pick 25 locks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 16,
+            "apiname": "A16",
+            "name": "Stim-ply Amazing",
+            "description": "Heal 10,000 points of damage with Stimpaks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 17,
+            "apiname": "A17",
+            "name": "New Vegas Samurai",
+            "description": "Cause 10,000 damage with Melee Weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 18,
+            "apiname": "A18",
+            "name": "Jury Rigger",
+            "description": "Repair 30 items.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 19,
+            "apiname": "A19",
+            "name": "Hack the Mojave",
+            "description": "Hack 25 terminals.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 20,
+            "apiname": "A20",
+            "name": "Artful Pocketer",
+            "description": "Pick 50 pockets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 21,
+            "apiname": "A21",
+            "name": "Outstanding Orator",
+            "description": "Make 50 Speech challenges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 22,
+            "apiname": "A22",
+            "name": "Desert Survivalist",
+            "description": "Heal 10,000 points of damage with food.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 23,
+            "apiname": "A23",
+            "name": "Old-Tyme Brawler",
+            "description": "Cause 10,000 damage with Unarmed weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 24,
+            "apiname": "A24",
+            "name": "Know When to Fold Them",
+            "description": "Win 3 games of Caravan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "A25",
+            "name": "One Armed Bandit",
+            "description": "Play 10 spins of Slots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "A26",
+            "name": "Little Wheel",
+            "description": "Play 10 spins of Roulette.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 27,
+            "apiname": "A27",
+            "name": "Double Down",
+            "description": "Play 10 hands of Blackjack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "A28",
+            "name": "Caravan Master",
+            "description": "Win 30 games of Caravan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 29,
+            "apiname": "A29",
+            "name": "The Courier Who Broke the Bank",
+            "description": "Get banned from all the Strip's casinos.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 30,
+            "apiname": "A30",
+            "name": "Hardcore",
+            "description": "Play the game from start to finish in Hardcore Mode.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 2400
+        },
+
+        {
+            "id": 31,
+            "apiname": "A31",
+            "name": "Ain't That a Kick in the Head",
+            "description": "Complete Ain't That a Kick in the Head.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 32,
+            "apiname": "A32",
+            "name": "They Went That-a-Way",
+            "description": "Complete They Went That-a-Way.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 33,
+            "apiname": "A33",
+            "name": "Ring-a-Ding-Ding",
+            "description": "Complete Ring-a-Ding-Ding.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 34,
+            "apiname": "A34",
+            "name": "The House Always Wins",
+            "description": "Complete The House Always Wins.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 35,
+            "apiname": "A35",
+            "name": "For the Republic",
+            "description": "Complete For the Republic.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 36,
+            "apiname": "A36",
+            "name": "Render Unto Caesar",
+            "description": "Complete Render Unto Caesar.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 37,
+            "apiname": "A37",
+            "name": "Wild Card",
+            "description": "Complete Wild Card.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 38,
+            "apiname": "A38",
+            "name": "All or Nothing",
+            "description": "Complete All or Nothing.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 39,
+            "apiname": "A39",
+            "name": "Veni, Vidi, Vici",
+            "description": "Complete Veni, Vidi, Vici.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 40,
+            "apiname": "A40",
+            "name": "Eureka!",
+            "description": "Complete Eureka!",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 41,
+            "apiname": "A41",
+            "name": "No Gods, No Masters",
+            "description": "Complete No Gods, No Masters",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 42,
+            "apiname": "A42",
+            "name": "Come Fly With Me",
+            "description": "Complete Come Fly With Me.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 43,
+            "apiname": "A43",
+            "name": "Talent Pool",
+            "description": "Complete Talent Pool.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 44,
+            "apiname": "A44",
+            "name": "Return to Sender",
+            "description": "Complete Return to Sender.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 45,
+            "apiname": "A45",
+            "name": "Arizona Killer",
+            "description": "Complete Arizona Killer.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 46,
+            "apiname": "A46",
+            "name": "You'll Know It When It Happens",
+            "description": "Complete You'll Know It When It Happens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 47,
+            "apiname": "A47",
+            "name": "G.I. Blues",
+            "description": "Complete G.I. Blues.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 48,
+            "apiname": "A48",
+            "name": "That Lucky Old Sun",
+            "description": "Complete That Lucky Old Sun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 49,
+            "apiname": "A49",
+            "name": "Volare!",
+            "description": "Complete Volare!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 50,
+            "apiname": "A50",
+            "name": "The Legend of the Star",
+            "description": "Complete The Legend of the Star.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 51,
+            "apiname": "A51",
+            "name": "Assemble Your Crew",
+            "description": "Recruit Dean Domino, Christine and Dog.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 52,
+            "apiname": "A52",
+            "name": "Cash Out",
+            "description": "Confront Father Elijah in the Sierra Madre's Vault.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 53,
+            "apiname": "A53",
+            "name": "Having a Ball",
+            "description": "Complete the Sierra Madre Gala Event.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 54,
+            "apiname": "A54",
+            "name": "Safety Deposit Box",
+            "description": "Trap Father Elijah in the Sierra Madre's Vault.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 55,
+            "apiname": "A55",
+            "name": "Sierra Souvenir Aficionado",
+            "description": "Collect 500 Sierra Madre Chips.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 56,
+            "apiname": "A56",
+            "name": "May my Hand Forget its Skill",
+            "description": "Evacuate Zion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 57,
+            "apiname": "A57",
+            "name": "In a Foreign Land",
+            "description": "Scout the Zion Valley for signs of the White Legs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 58,
+            "apiname": "A58",
+            "name": "O Daughter of Babylon",
+            "description": "Crush the White Legs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 59,
+            "apiname": "A59",
+            "name": "When We Remembered Zion",
+            "description": "Arrive at Zion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 60,
+            "apiname": "A60",
+            "name": "Restore Our Fortunes",
+            "description": "Resupply Daniel and the Sorrows.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 61,
+            "apiname": "A61",
+            "name": "Cardiac Arrest!",
+            "description": "Search your feelings... for your heart.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 62,
+            "apiname": "A62",
+            "name": "Making Friends",
+            "description": "Reactivate all of the Sink's robotic assistants.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 63,
+            "apiname": "A63",
+            "name": "Make up your Mind",
+            "description": "Make up your mind... about your brain.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 64,
+            "apiname": "A64",
+            "name": "Outsmarted",
+            "description": "Complete Old World Blues.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 65,
+            "apiname": "A65",
+            "name": "Spinal-Tapped",
+            "description": "Recovered X-8 vertebrae-pulse-de-sensitizer frequency!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 66,
+            "apiname": "A66",
+            "name": "ED-Ecated",
+            "description": "Found all of ED-E's upgrades in the Divide.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 67,
+            "apiname": "A67",
+            "name": "Condemned to Repeat It",
+            "description": "Decided the fate of all the Divide dwellers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 68,
+            "apiname": "A68",
+            "name": "Hometown Hero",
+            "description": "Completed Lonesome Road.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 69,
+            "apiname": "A69",
+            "name": "Rocket's Red Glare",
+            "description": "Fully upgraded The Divide's signature weapon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 70,
+            "apiname": "A70",
+            "name": "Warhead Hunter",
+            "description": "Detonated all of the warheads in the Divide.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 71,
+            "apiname": "A71",
+            "name": "Curios and Relics",
+            "description": "Caused 10,000 damage with unique Mojave Wasteland weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 72,
+            "apiname": "A72",
+            "name": "Master of the Arsenal",
+            "description": "Caused 10,000 damage with Gun Runners' Arsenal (GRA) Weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 73,
+            "apiname": "A73",
+            "name": "Up to the Challenge",
+            "description": "Completed any three Gun Runners' Arsenal (GRA) one star (*) Challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "A74",
+            "name": "Combat Veteran",
+            "description": "Completed any three Gun Runners' Arsenal (GRA) two star (**) Challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 75,
+            "apiname": "A75",
+            "name": "Pros Only",
+            "description": "Completed any three Gun Runners' Arsenal (GRA) three star (***) Challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        }
+
+    ]
+}
