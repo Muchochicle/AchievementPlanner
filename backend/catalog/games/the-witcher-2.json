@@ -1,0 +1,490 @@
+{
+    "id": 20920,
+    "steamAppId": 20920,
+    "name": "The Witcher 2: Assassins of Kings",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/20920/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": true,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Story Rich",
+        "Mature",
+        "Choices Matter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_PROLOG_FINISHED",
+            "name": "The Fugitive",
+            "description": "Finish the Prologue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_ACT1_FINISHED",
+            "name": "To Aedirn!",
+            "description": "Complete Chapter 1.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_ACT2_FINISHED",
+            "name": "Alea Iacta Est",
+            "description": "Complete Chapter 2.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_INSANITY",
+            "name": "Madman",
+            "description": "Finish the game while playing at the Insane difficulty level.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_TO_BE_CONTINUED",
+            "name": "To Be Continued...",
+            "description": "Finish the game at any difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_TENDRAKE_DEAD",
+            "name": "Oh My God! You Killed the Kayran! You Bastards!",
+            "description": "Defeat the Kayran, the Chapter 1 boss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_DRAUG_DEAD",
+            "name": "Fat Man",
+            "description": "Defeat the Draug (a Chapter 2 fight on the Roche path).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_DRAGON_DEAD",
+            "name": "Being Witcher George",
+            "description": "At the Chapter 3 finale, choose to kill the dragon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_DRAGON_ALIVE",
+            "name": "Backbone",
+            "description": "Craft a suit of armor from elements of the kayran's carapace.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_TENTAKILLER",
+            "name": "Artful Dodger",
+            "description": "Cut off a tentacle using the kayran trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_LEVEL_35",
+            "name": "Guru",
+            "description": "Achieve character level 35.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ALCHEMY_MAN",
+            "name": "Master Alchemist",
+            "description": "Acquire the Mutant ability.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_MAGIC_MAN",
+            "name": "Master of Magic",
+            "description": "Acquire the Sense of Magic ability.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_SWORD_MAN",
+            "name": "Swordmaster",
+            "description": "Acquire the Combat Acumen ability.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_LEVEL_10",
+            "name": "Journeyman",
+            "description": "Achieve character level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_CRAFTER",
+            "name": "Craftsman",
+            "description": "Hire a craftsman to create an item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_ALCHEMY_JOURNEYMAN",
+            "name": "Apprentice",
+            "description": "Use alchemy to brew five potions or oils.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_EXPLOSIVE",
+            "name": "Torn Asunder!",
+            "description": "Kill more than one opponent using a single exploding bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_POTION_TASTER",
+            "name": "Taster",
+            "description": "Drink one potion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CHEAPSKATE",
+            "name": "Miser",
+            "description": "Collect 10000 orens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MUTANT",
+            "name": "Mutant!",
+            "description": "Enhance abilities using mutagens at least five times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_BUTCHER",
+            "name": "The Butcher of Blaviken",
+            "description": "Kill 500 foes.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CONCENTRATION",
+            "name": "Focus",
+            "description": "Perform three successful ripostes in a row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_RICOCHET",
+            "name": "Ricochet",
+            "description": "Kill a foe by deflecting his own arrow at him.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_TRIANGLE",
+            "name": "Threesome",
+            "description": "Kill three foes at once by performing a group finisher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_PERFECIONIST",
+            "name": "Perfectionist",
+            "description": "Kill 10 foes in a row without losing any Vitality.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_HAWKEYE",
+            "name": "Eagle Eye",
+            "description": "Hit Count Etcheverry using the ballista.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_SHADOWMAN",
+            "name": "Man of the Shadows",
+            "description": "Successfully sneak through Loredo's garden and find the component of the kayran trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_LIBRARIAN",
+            "name": "Librarian",
+            "description": "Find all additional information about the insane asylum's history.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_GLADIATOR",
+            "name": "Gladiator",
+            "description": "Defeat all opponents in the Kaedweni arena.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_HEARTBREAKER",
+            "name": "Heartbreaker",
+            "description": "Seduce Ves.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_OSTMURK",
+            "name": "Great Potion!",
+            "description": "Brew the ostmurk potion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_TOURIST",
+            "name": "Tourist",
+            "description": "Tour the camp with Zyvik.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_STATE_REASON",
+            "name": "Reasons of State",
+            "description": "On the Roche path, talk Roche out of killing King Henselt after the Chapter 2 fight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_TROLL_FRIEND",
+            "name": "Friend of Trolls",
+            "description": "Spare all trolls in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_TROLL_KILLER",
+            "name": "Trollslayer",
+            "description": "Kill all the trolls in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_SNEAKER",
+            "name": "Black Ops",
+            "description": "Sneak through the lower camp without raising the alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_KINGMAKER",
+            "name": "Kingmaker",
+            "description": "On the Roche path, help Roche rescue Anais from the Kaedweni camp in Chapter 3.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_NECROMANT",
+            "name": "Necromancer",
+            "description": "On the Roche path, relive all of Auckes's memories during Dethmold's vision.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_SPELLBREAKER",
+            "name": "Spellbreaker",
+            "description": "On the Iorveth path, help find the dagger needed to free Saskia from the spell.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_WITCHHUNTER",
+            "name": "Witch Hunter",
+            "description": "At the end of Chapter 3, let Sile die rather than removing the flawed portal crystal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_SAMARITAN",
+            "name": "Sensitive Guy",
+            "description": "Make the compassionate, helpful dialogue choices when people ask Geralt for aid.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_LASTDRAGON",
+            "name": "Dragonheart",
+            "description": "At the Chapter 3 finale, choose to spare the dragon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_AVENGER",
+            "name": "Avenger",
+            "description": "At the finale, choose to fight and kill Letho.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_OLDFRIENDSHIP",
+            "name": "Old Friends",
+            "description": "At the finale, choose to let Letho leave in peace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_DERATIZATION",
+            "name": "Pest Control",
+            "description": "Finish all quests involving the destruction of monster nests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_GAMBLER",
+            "name": "Gambler",
+            "description": "Win an arm wrestling match, a dice poker game and a fist fight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_SCARE_HIM",
+            "name": "Intimidator",
+            "description": "Intimidate someone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_POKER",
+            "name": "Poker!",
+            "description": "Roll five-of-a-kind at dice poker.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_ACT3_FINISHED",
+            "name": "Once Ain't Enough",
+            "description": "Reach the Epilogue of the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_SUMMER",
+            "name": "Summer Solstice",
+            "description": "Bow before the Sun at a Summer shrine (Iorveth path, Chapter 2).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_WINTER",
+            "name": "Winter Solstice",
+            "description": "Bow to Death at a Winter shrine (available on either path).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 600
+        }
+    ]
+}

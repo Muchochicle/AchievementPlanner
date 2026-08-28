@@ -150,6 +150,9 @@ import { GUIDE as counterStrikeSourceAchievementGuide } from "./games/counter-st
 import { GUIDE as ageOfEmpires1DeAchievementGuide } from "./games/age-of-empires-1-de.js";
 import { GUIDE as farmingSimulator22AchievementGuide } from "./games/farming-simulator-22.js";
 import { GUIDE as companyOfHeroes2AchievementGuide } from "./games/company-of-heroes-2.js";
+import { GUIDE as bloonsTd6AchievementGuide } from "./games/bloons-td-6.js";
+import { GUIDE as theWitcher2AchievementGuide } from "./games/the-witcher-2.js";
+import { GUIDE as payday3AchievementGuide } from "./games/payday-3.js";
 
 export const APP_GUIDES = [
 
@@ -322,7 +325,10 @@ export const GAME_GUIDES = [
     counterStrikeSourceAchievementGuide,
     ageOfEmpires1DeAchievementGuide,
     farmingSimulator22AchievementGuide,
-    companyOfHeroes2AchievementGuide
+    companyOfHeroes2AchievementGuide,
+    bloonsTd6AchievementGuide,
+    theWitcher2AchievementGuide,
+    payday3AchievementGuide
 
 ];
 

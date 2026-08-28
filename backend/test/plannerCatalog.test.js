@@ -174,6 +174,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("age-of-empires-1-de"));
     assert.ok(slugs.includes("farming-simulator-22"));
     assert.ok(slugs.includes("company-of-heroes-2"));
+    assert.ok(slugs.includes("bloons-td-6"));
+    assert.ok(slugs.includes("the-witcher-2"));
+    assert.ok(slugs.includes("payday-3"));
 
 });
 
