@@ -108,6 +108,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("terraria"));
     assert.ok(slugs.includes("skyrim-special-edition"));
     assert.ok(slugs.includes("the-witcher-3"));
+    assert.ok(slugs.includes("god-of-war"));
+    assert.ok(slugs.includes("red-dead-redemption-2"));
+    assert.ok(slugs.includes("left-4-dead-2"));
 
 });
 

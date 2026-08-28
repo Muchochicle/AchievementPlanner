@@ -84,6 +84,9 @@ import { GUIDE as cyberpunk2077AchievementGuide } from "./games/cyberpunk-2077.j
 import { GUIDE as terrariaAchievementGuide } from "./games/terraria.js";
 import { GUIDE as skyrimSpecialEditionAchievementGuide } from "./games/skyrim-special-edition.js";
 import { GUIDE as theWitcher3AchievementGuide } from "./games/the-witcher-3.js";
+import { GUIDE as godOfWarAchievementGuide } from "./games/god-of-war.js";
+import { GUIDE as redDeadRedemption2AchievementGuide } from "./games/red-dead-redemption-2.js";
+import { GUIDE as left4Dead2AchievementGuide } from "./games/left-4-dead-2.js";
 
 export const APP_GUIDES = [
 
@@ -190,7 +193,10 @@ export const GAME_GUIDES = [
     cyberpunk2077AchievementGuide,
     terrariaAchievementGuide,
     skyrimSpecialEditionAchievementGuide,
-    theWitcher3AchievementGuide
+    theWitcher3AchievementGuide,
+    godOfWarAchievementGuide,
+    redDeadRedemption2AchievementGuide,
+    left4Dead2AchievementGuide
 
 ];
 
