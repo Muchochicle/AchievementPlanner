@@ -135,6 +135,9 @@ import { GUIDE as groundedAchievementGuide } from "./games/grounded.js";
 import { GUIDE as civilization5AchievementGuide } from "./games/civilization-5.js";
 import { GUIDE as ageOfEmpires4AchievementGuide } from "./games/age-of-empires-4.js";
 import { GUIDE as totalWarThreeKingdomsAchievementGuide } from "./games/total-war-three-kingdoms.js";
+import { GUIDE as doom2016AchievementGuide } from "./games/doom-2016.js";
+import { GUIDE as doomEternalAchievementGuide } from "./games/doom-eternal.js";
+import { GUIDE as devilMayCry5AchievementGuide } from "./games/devil-may-cry-5.js";
 
 export const APP_GUIDES = [
 
@@ -292,7 +295,10 @@ export const GAME_GUIDES = [
     groundedAchievementGuide,
     civilization5AchievementGuide,
     ageOfEmpires4AchievementGuide,
-    totalWarThreeKingdomsAchievementGuide
+    totalWarThreeKingdomsAchievementGuide,
+    doom2016AchievementGuide,
+    doomEternalAchievementGuide,
+    devilMayCry5AchievementGuide
 
 ];
 
