@@ -1,0 +1,922 @@
+{
+    "id": 1446780,
+    "steamAppId": 1446780,
+    "name": "Monster Hunter Rise",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg",
+    "difficulty": 8,
+    "completionTime": {
+        "min": 180,
+        "max": 450
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Hunting",
+        "Co-op",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "GC_Award_N_04",
+            "name": "Apex Shortsword",
+            "description": "Granted for banishing an Apex in the Rampage. Its blade is riddled with battle scars.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 2,
+            "apiname": "GC_Award_N_05",
+            "name": "Tempestuous Triumph Scroll",
+            "description": "A hanging scroll from Master Hojo, depicting your victory over Wind Serpent Ibushi.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 3,
+            "apiname": "GC_Award_N_22",
+            "name": "Beat-up Construction Kit",
+            "description": "Awarded for unlocking lots of camps. Each of its nicks and grooves tells a story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 4,
+            "apiname": "GC_Award_N_01",
+            "name": "Badge of Excellence",
+            "description": "The mark of a peerless hunter, conferred only to those who have earned a lot of awards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 5,
+            "apiname": "GC_Award_N_02",
+            "name": "Kamura Amulet",
+            "description": "A trinket given to new hunters who have proved themselves capable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 6,
+            "apiname": "GC_Award_N_03",
+            "name": "Ancestral Blade",
+            "description": "A prize for vanquishing Magnamalo. This blade has led Kamura for generations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 7,
+            "apiname": "GC_Award_N_06",
+            "name": "Calamity Conqueror Scroll",
+            "description": "Received upon defeating Ibushi and Narwa. Depicts the two serpents leading the Rampage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 8,
+            "apiname": "GC_Award_N_07",
+            "name": "Fan of Fading Crimson",
+            "description": "A decorative fan awarded to those who vanquished the crimson-glowing threat to the village.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 9,
+            "apiname": "GC_Award_N_08",
+            "name": "Fan of Ascendancy",
+            "description": "The mark of a hunter who has attempted some of the toughest quests around—and won.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 10,
+            "apiname": "GC_Award_N_09",
+            "name": "Fan of True Ascendancy",
+            "description": "Mark of a hunter who has bested Infernal Springs' most arduous challenges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 11,
+            "apiname": "GC_Award_N_10",
+            "name": "Aspiring Hunter Certificate",
+            "description": "A souvenir from the Guild for completing many low rank quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 12,
+            "apiname": "GC_Award_N_11",
+            "name": "Adept Hunter Certificate",
+            "description": "A souvenir from the Guild for completing many high rank quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 13,
+            "apiname": "GC_Award_N_12",
+            "name": "Rampage Nemesis Certificate",
+            "description": "A souvenir from the Guild for completing many Rampage quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 14,
+            "apiname": "GC_Award_N_13",
+            "name": "Arena Fighter Certificate",
+            "description": "A souvenir from the Guild for completing many Arena quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 15,
+            "apiname": "GC_Award_N_14",
+            "name": "Spiritwood Necklace",
+            "description": "Awarded for completing 50 quests in the Shrine Ruins. Made from Spiritwood branches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 16,
+            "apiname": "GC_Award_N_15",
+            "name": "Frozen Lampsquid Earring",
+            "description": "Awarded for completing 50 quests in the Frost Islands. A relic encased in primeval ice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 17,
+            "apiname": "GC_Award_N_16",
+            "name": "Prismatic Chalice",
+            "description": "Awarded for completing 50 quests in the Flooded Forest. Was found buried under rubble.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 18,
+            "apiname": "GC_Award_N_17",
+            "name": "Silver Cactus Ring",
+            "description": "Awarded for completing 50 quests in the Sandy Plains. A peculiar silver cactus ring.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 19,
+            "apiname": "GC_Award_N_18",
+            "name": "Heliotrope Bracelet",
+            "description": "Awarded for completing 50 quests in the Lava Caverns. Glitters a red-blue mélange.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 20,
+            "apiname": "GC_Award_N_19",
+            "name": "Wreath of Honor",
+            "description": "A wreath received from the villagers as thanks for taking on their many requests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 21,
+            "apiname": "GC_Award_N_20",
+            "name": "Kamura Pinwheel",
+            "description": "Awarded for performing 1000 Wiredashes. Spins smoothly in the wind.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 22,
+            "apiname": "GC_Award_N_21",
+            "name": "Shabby Canyne Saddle",
+            "description": "Awarded for riding Canynes many times. Worn in odd places from use on countless voyages.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 23,
+            "apiname": "GC_Award_N_23",
+            "name": "Great Wirebug Plate",
+            "description": "Awarded for discovering many Great Wirebug launch points. Sports a nice relevant design.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 24,
+            "apiname": "GC_Award_N_24",
+            "name": "Hunting Helpers Plate",
+            "description": "Awarded for gathering 500 Hunting Helpers. Features a beautiful depiction of them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 25,
+            "apiname": "GC_Award_N_25",
+            "name": "Golden Spiribug Plate",
+            "description": "Awarded for gathering 1000 Golden and Gilded Spiribugs. Shines much like they do.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 26,
+            "apiname": "GC_Award_N_26",
+            "name": "Antique Bookmark",
+            "description": "Awarded for finding many Old Messages. Adorned with a tasteful pattern.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 27,
+            "apiname": "GC_Award_N_27",
+            "name": "Deft-hand Rod",
+            "description": "Awarded for catching many fish. Feels familiar in your hands. One cast, one catch!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 28,
+            "apiname": "GC_Award_N_28",
+            "name": "Well-done Grillmeister",
+            "description": "Awarded for cooking a welldone steak 30 times. Good job, and well done!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 29,
+            "apiname": "GC_Award_N_29",
+            "name": "Copper Ecologist's Award",
+            "description": "Awarded for photographing many Hunting Helpers. Proof you've expanded your hunter horizons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 30,
+            "apiname": "GC_Award_N_30",
+            "name": "Silver Ecologist's Award",
+            "description": "Awarded by one enthusiastic researcher for photographing many Rare Creature.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 31,
+            "apiname": "GC_Award_N_31",
+            "name": "Gold Ecologist's Award",
+            "description": "Awarded for photographing many Endemic Lifeforms. Now you're a Guild-recognized researcher!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 32,
+            "apiname": "GC_Award_N_32",
+            "name": "Extravagant Cashbox",
+            "description": "Awarded for earning 1,000,000 zenny. Heavy with impressively intricate goldwork.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 33,
+            "apiname": "GC_Award_N_33",
+            "name": "Well-worn Cashbox",
+            "description": "Awarded for accumulating 100,000 Kamura Points. Gleams with polish despite great use.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 34,
+            "apiname": "GC_Award_N_34",
+            "name": "Thank-mew Letter",
+            "description": "Awarded for hiring 50 Buddies. We a-purr-eciate your fur-iendly patronage!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 35,
+            "apiname": "GC_Award_N_35",
+            "name": "Good Luck Charm",
+            "description": "Proof of having sent the Meowcenaries out on a quest 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 36,
+            "apiname": "GC_Award_N_36",
+            "name": "From Palicoes, with Love",
+            "description": "Awarded for raising various support-type Palicoes to their maximum levels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 37,
+            "apiname": "GC_Award_N_37",
+            "name": "Palamute Gear Tune-up Kit",
+            "description": "Awarded for collecting a lot of Palamute Gear. Daily maintenance is what will make it last!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 38,
+            "apiname": "GC_Award_N_38",
+            "name": "Luxury Armor Stand",
+            "description": "Awarded for forging many valuable weapons and armor. Made from premium materials.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 39,
+            "apiname": "GC_Award_N_39",
+            "name": "Colorful Armor Stand",
+            "description": "Awarded for forging many a layered armor. Its variegated hues are simply captivating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 40,
+            "apiname": "GC_Award_N_40",
+            "name": "Petalace Arrangement Vase",
+            "description": "Awarded for obtaining many Petalaces. It fills rooms with a delightful floral aroma.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 41,
+            "apiname": "GC_Award_N_41",
+            "name": "Master's Black Belt",
+            "description": "Awarded for obtaining many Switch Skills, a feat of both mental and bodily discipline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 42,
+            "apiname": "GC_Award_N_42",
+            "name": "Chef's Trusty Tools",
+            "description": "Awarded for helping Yomogi. You can almost hear the Tea Dealers' chanting when looking at it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 43,
+            "apiname": "GC_Award_N_43",
+            "name": "Sturdy Padlock",
+            "description": "Awarded for collecting many decorations and hanging scrolls. Remember to lock up!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 44,
+            "apiname": "GC_Award_N_44",
+            "name": "Cohoots' Dresser",
+            "description": "Awarded to connoisseurs of Cohoot outfits. Perfect for storing your avian apparel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 45,
+            "apiname": "GC_Award_N_45",
+            "name": "Runner's Sandals",
+            "description": "Awarded for talking to many of Kamura's citizens. Feels like walking on a carpet of cloud.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 46,
+            "apiname": "GC_Award_N_46",
+            "name": "Dreadnought Destroyer Plaque",
+            "description": "Awarded for hunting 1,000 large monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 47,
+            "apiname": "GC_Award_N_47",
+            "name": "Five-in-One Plaque",
+            "description": "Awarded for hunting 5 monsters in 1 Expedition Tour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 48,
+            "apiname": "GC_Award_N_48",
+            "name": "Seasoned Jockey Plaque",
+            "description": "Awarded for riding many different monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 49,
+            "apiname": "GC_Award_N_49",
+            "name": "Mini Crown Plaque",
+            "description": "Awarded for registering many miniature crownsized monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 50,
+            "apiname": "GC_Award_N_50",
+            "name": "Gold Crown Plaque",
+            "description": "Awarded for registering many gold crown-sized monsters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 51,
+            "apiname": "GC_Award_N_MR_01",
+            "name": "Royal Request for Cooperation",
+            "description": "An official request for Kamura's hunter. Awarded for collaboration with Elgado Outpost.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 52,
+            "apiname": "GC_Award_N_MR_02",
+            "name": "Long-Distance Binoculars",
+            "description": "Binoculars giving a clear view of far-off targets. Awarded to staunch investigators.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 53,
+            "apiname": "GC_Award_N_MR_03",
+            "name": "Survey Cape",
+            "description": "Protects the wearer from the harshest environments. Awarded for hunting the Garangolm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 54,
+            "apiname": "GC_Award_N_MR_04",
+            "name": "Azure Feather Fountain Pen",
+            "description": "A fountain pen with a blue feather gifted by Fiorayne. Awarded for hunting the Lunagaron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 55,
+            "apiname": "GC_Award_N_MR_05",
+            "name": "Majestic Desk Banner",
+            "description": "A desk flag proving the owner's distinguished service. Awarded for slaying Malzeno.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 56,
+            "apiname": "GC_Award_N_MR_06",
+            "name": "Royal Declaration of Gratitude",
+            "description": "An official thank-you letter. For hunters who contributed greatly to the Kingdom's peace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 57,
+            "apiname": "GC_Award_N_MR_07",
+            "name": "Record of Utmost Valor - Master",
+            "description": "A souvenir from the Guild for completing many Master Rank quests.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 58,
+            "apiname": "GC_Award_N_MR_08",
+            "name": "Snowy Cohoot Mini-Pouch",
+            "description": "Awarded for befriending a fledgling Snowy Cohoot from Elgado. Looks tiny, but has a big appetite.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 59,
+            "apiname": "GC_Award_N_MR_09",
+            "name": "Record of Utmost Valor - Arena",
+            "description": "A souvenir from the Guild for completing even more Arena quests.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 60,
+            "apiname": "GC_Award_N_MR_10",
+            "name": "Painting - Foreign Threads",
+            "description": "Awarded for completing many Follower Quests to mark deep village-Outpost ties.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 61,
+            "apiname": "GC_Award_N_MR_11",
+            "name": "Painting - Seicho's Place",
+            "description": "Proof of having completed many Support Surveys. Soar away into a clear blue sky.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 62,
+            "apiname": "GC_Award_N_MR_12",
+            "name": "Cups of Friendship",
+            "description": "Awarded for deepening bonds with many Followers. Sharing this cup fosters friendship.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 63,
+            "apiname": "GC_Award_N_MR_13",
+            "name": "Painting - Crimson Nightmare",
+            "description": "A depiction of the dreadful Qurio. Awarded for completing numerous Anomaly Quests.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 64,
+            "apiname": "GC_Award_N_MR_18",
+            "name": "Sea-Blue Amulet",
+            "description": "Awarded for completing 50 quests in the Jungle. A talisman to protect you on your travels.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 65,
+            "apiname": "GC_Award_N_MR_17",
+            "name": "Copal Brooch",
+            "description": "Awarded for completing 50 quests in the Citadel. A charm praying for your good health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 66,
+            "apiname": "GC_Award_N_MR_19",
+            "name": "Beloved Bouquet",
+            "description": "Awarded for fulfilling various requests in Kamura and/or Elgado.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 67,
+            "apiname": "GC_Award_N_MR_20",
+            "name": "Familiar Construction Kit",
+            "description": "An easy-to-deploy camping kit. Awarded for unlocking a lot of camps in the Jungle and Citadel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 68,
+            "apiname": "GC_Award_N_MR_21",
+            "name": "Great Wirebug Medal",
+            "description": "Awarded for discovering a lot of Great Wirebug launch points in the Jungle and the Citadel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 69,
+            "apiname": "GC_Award_N_MR_22",
+            "name": "Immaculate Bookmark",
+            "description": "Awarded for discovering a lot of Old Messages in the Jungle and Citadel. An unspoiled antique.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 70,
+            "apiname": "GC_Award_N_MR_23",
+            "name": "Natural Picture Frame",
+            "description": "A smart frame awarded for photographing many creatures in the Citadel and Jungle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 71,
+            "apiname": "GC_Award_N_MR_24",
+            "name": "Transcender's Red Sash",
+            "description": "Its refinement exceeds human capability. Awarded for obtaining even more Switch Skills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 72,
+            "apiname": "GC_Award_N_MR_25",
+            "name": "Great Helmet",
+            "description": "A pretty great winged helmet. Awarded for forging even more valuable weapons and armor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 73,
+            "apiname": "GC_Award_N_MR_26",
+            "name": "Gorgeous Helm",
+            "description": "A helm with golden hollows and blue wings. Awarded for forging even more valuable layered armor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 74,
+            "apiname": "GC_Award_N_MR_29",
+            "name": "Solid Padlock",
+            "description": "Awarded for collecting even more trinkets and wall hangings. Won't budge, no matter what.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 75,
+            "apiname": "GC_Award_N_MR_30",
+            "name": "Maestro's Trusty Tools",
+            "description": "Super popular in the Tea Shop! Awarded for helping make new dango, even in far-off Elgado.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 76,
+            "apiname": "GC_Award_N_MR_31",
+            "name": "Secret Honey Jar",
+            "description": "Awarded to dango connoisseurs for using many Hopping Skewers. Add honey to sweeten things up!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 77,
+            "apiname": "GC_Award_N_MR_32",
+            "name": "Napping Felyne & Canyne",
+            "description": "Toys of a cuddling Felyne and Canyne. Awarded to avid instructors at the Buddy Dojo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 78,
+            "apiname": "GC_Award_N_MR_33",
+            "name": "Sojourn Necklace",
+            "description": "A necklace that ended up with your Buddy. Awarded for trading with Letters of Introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 79,
+            "apiname": "GC_Award_N_MR_34",
+            "name": "Buddy Whistle",
+            "description": "A simple flute with far-reaching tones. Awarded to those who have found a lot of Recon destinations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 80,
+            "apiname": "GC_Award_N_MR_35",
+            "name": "Flaky Canyne Pie",
+            "description": "A tasty treat for hard-working Canynes. Awarded for teaching your Canyne lots of techniques.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 81,
+            "apiname": "GC_Award_N_MR_36",
+            "name": "Polychrome Acorn",
+            "description": "A cute and colorful painted acorn. Awarded for having lots of Buddies with outstanding Skill Memory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 82,
+            "apiname": "GC_Award_N_MR_37",
+            "name": "Windbreaker Scarf",
+            "description": "Ignore wind as you whip through the world. Awarded for performing many Switch Skill Swaps.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 83,
+            "apiname": "GC_Award_N_MR_38",
+            "name": "Jewelgrass Planter",
+            "description": "Awarded to those who rode various monsters with the power of Morphed Wirebugs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 84,
+            "apiname": "GC_Award_N_MR_39",
+            "name": "Unbreakable Bag",
+            "description": "Wow! A whole bag awarded for obtaining samples of items from all over the place.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 85,
+            "apiname": "GC_Award_N_MR_40",
+            "name": "Comfortable Sandals",
+            "description": "Sandals for exploring. Awarded for talking with lots of people in the Outpost.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 86,
+            "apiname": "GC_Award_N_MR_41",
+            "name": "Hunter's Bronze Shield",
+            "description": "Awarded for hunting 100 large master rank monsters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 87,
+            "apiname": "GC_Award_N_MR_42",
+            "name": "Hunter's Silver Shield",
+            "description": "Awarded for hunting 500 large master rank monsters.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 88,
+            "apiname": "GC_Award_N_MR_43",
+            "name": "Hunter's Gold Shield",
+            "description": "Awarded for hunting 1000 large master rank monsters.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 89,
+            "apiname": "GC_Award_N_MR_44",
+            "name": "Miniature Crown Shield",
+            "description": "Awarded for registering almost all miniature crown-sized monsters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 90,
+            "apiname": "GC_Award_N_MR_45",
+            "name": "Gold Crown Shield",
+            "description": "Awarded for registering almost all gold crown-sized monsters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 91,
+            "apiname": "GC_Award_N_MR_46",
+            "name": "Anomaly Hunt Silver Trophy",
+            "description": "Awarded for slaying your first afflicted monster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 92,
+            "apiname": "GC_Award_N_MR_47",
+            "name": "Anomaly Hunt Gold Trophy",
+            "description": "Awarded for slaying 100 afflicted monsters.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 93,
+            "apiname": "GC_Award_N_MR_14",
+            "name": "Anomaly Research Report",
+            "description": "An extremely detailed report, the result of impressive hard work researching the Anomaly.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 94,
+            "apiname": "GC_Award_N_MR_15",
+            "name": "Vermilion Amber Essence",
+            "description": "Awarded only to those who have completed tasks designated by the Research Lab to be the most difficult.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 95,
+            "apiname": "GC_Award_N_MR_16",
+            "name": "Bahari's Hand-Wound Birdie",
+            "description": "Bahari's handmade toy that walks when wound up. Proves you frequent the Anomaly Lab.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 96,
+            "apiname": "GC_Award_N_MR_27",
+            "name": "Smithy's Custom-made Gloves",
+            "description": "Awarded for Augmenting many weapons via Qurious Crafting. Specially developed to handle dangerous afflicted materials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 97,
+            "apiname": "GC_Award_N_MR_28",
+            "name": "Smithy's Tools of the Trade",
+            "description": "Awarded for Augmenting a lot of armor via Qurious Crafting. These tools can work even the most brittle of materials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 98,
+            "apiname": "GC_Award_N_MR_48",
+            "name": "Surmounter’s Slaying Shield",
+            "description": "Awarded for slaying your first Risen monster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 99,
+            "apiname": "GC_Award_N_MR_49",
+            "name": "Shining Surmounter’s Shield",
+            "description": "Awarded for slaying 15 Risen monsters.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 360
+        },
+        {
+            "id": 100,
+            "apiname": "GC_Award_N_MR_50",
+            "name": "Hero's Accolade",
+            "description": "The mark of a great hero, who has acquired a large number of awards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 360
+        }
+    ]
+}

@@ -135,6 +135,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hogwarts-legacy"));
     assert.ok(slugs.includes("borderlands-2"));
     assert.ok(slugs.includes("raft"));
+    assert.ok(slugs.includes("pubg-battlegrounds"));
+    assert.ok(slugs.includes("monster-hunter-rise"));
+    assert.ok(slugs.includes("team-fortress-2"));
 
 });
 

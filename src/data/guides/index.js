@@ -111,6 +111,9 @@ import { GUIDE as ageOfEmpires2DeAchievementGuide } from "./games/age-of-empires
 import { GUIDE as hogwartsLegacyAchievementGuide } from "./games/hogwarts-legacy.js";
 import { GUIDE as borderlands2AchievementGuide } from "./games/borderlands-2.js";
 import { GUIDE as raftAchievementGuide } from "./games/raft.js";
+import { GUIDE as pubgBattlegroundsAchievementGuide } from "./games/pubg-battlegrounds.js";
+import { GUIDE as monsterHunterRiseAchievementGuide } from "./games/monster-hunter-rise.js";
+import { GUIDE as teamFortress2AchievementGuide } from "./games/team-fortress-2.js";
 
 export const APP_GUIDES = [
 
@@ -244,7 +247,10 @@ export const GAME_GUIDES = [
     ageOfEmpires2DeAchievementGuide,
     hogwartsLegacyAchievementGuide,
     borderlands2AchievementGuide,
-    raftAchievementGuide
+    raftAchievementGuide,
+    pubgBattlegroundsAchievementGuide,
+    monsterHunterRiseAchievementGuide,
+    teamFortress2AchievementGuide
 
 ];
 
