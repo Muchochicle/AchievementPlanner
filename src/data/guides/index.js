@@ -141,6 +141,9 @@ import { GUIDE as devilMayCry5AchievementGuide } from "./games/devil-may-cry-5.j
 import { GUIDE as citiesSkylines2AchievementGuide } from "./games/cities-skylines-2.js";
 import { GUIDE as ageOfMythologyRetoldAchievementGuide } from "./games/age-of-mythology-retold.js";
 import { GUIDE as totalWarWarhammer2AchievementGuide } from "./games/total-war-warhammer-2.js";
+import { GUIDE as balatroAchievementGuide } from "./games/balatro.js";
+import { GUIDE as contentWarningAchievementGuide } from "./games/content-warning.js";
+import { GUIDE as mountAndBlade2BannerlordAchievementGuide } from "./games/mount-and-blade-2-bannerlord.js";
 
 export const APP_GUIDES = [
 
@@ -304,7 +307,10 @@ export const GAME_GUIDES = [
     devilMayCry5AchievementGuide,
     citiesSkylines2AchievementGuide,
     ageOfMythologyRetoldAchievementGuide,
-    totalWarWarhammer2AchievementGuide
+    totalWarWarhammer2AchievementGuide,
+    balatroAchievementGuide,
+    contentWarningAchievementGuide,
+    mountAndBlade2BannerlordAchievementGuide
 
 ];
 

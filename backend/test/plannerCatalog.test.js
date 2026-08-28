@@ -165,6 +165,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("cities-skylines-2"));
     assert.ok(slugs.includes("age-of-mythology-retold"));
     assert.ok(slugs.includes("total-war-warhammer-2"));
+    assert.ok(slugs.includes("balatro"));
+    assert.ok(slugs.includes("content-warning"));
+    assert.ok(slugs.includes("mount-and-blade-2-bannerlord"));
 
 });
 
