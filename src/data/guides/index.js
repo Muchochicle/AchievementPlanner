@@ -162,6 +162,9 @@ import { GUIDE as fallGuysAchievementGuide } from "./games/fall-guys.js";
 import { GUIDE as farCry3AchievementGuide } from "./games/far-cry-3.js";
 import { GUIDE as metro2033ReduxAchievementGuide } from "./games/metro-2033-redux.js";
 import { GUIDE as tombRaider2013AchievementGuide } from "./games/tomb-raider-2013.js";
+import { GUIDE as riseOfTheTombRaiderAchievementGuide } from "./games/rise-of-the-tomb-raider.js";
+import { GUIDE as ghostrunnerAchievementGuide } from "./games/ghostrunner.js";
+import { GUIDE as hotlineMiamiAchievementGuide } from "./games/hotline-miami.js";
 
 export const APP_GUIDES = [
 
@@ -346,7 +349,10 @@ export const GAME_GUIDES = [
     fallGuysAchievementGuide,
     farCry3AchievementGuide,
     metro2033ReduxAchievementGuide,
-    tombRaider2013AchievementGuide
+    tombRaider2013AchievementGuide,
+    riseOfTheTombRaiderAchievementGuide,
+    ghostrunnerAchievementGuide,
+    hotlineMiamiAchievementGuide
 
 ];
 

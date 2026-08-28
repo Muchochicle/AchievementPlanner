@@ -1,0 +1,427 @@
+{
+    "id": 1139900,
+    "steamAppId": 1139900,
+    "name": "Ghostrunner",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "First-Person",
+        "Parkour",
+        "Fast-Paced"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "AboutAdam",
+            "name": "About Adam",
+            "description": "Collect all audiologs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 2,
+            "apiname": "ArtificialSelection",
+            "name": "Artificial Selection",
+            "description": "Defeat the Keymaster",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "BackToHell",
+            "name": "Back To Hell",
+            "description": "Defeat Hel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "CantRunCantHide",
+            "name": "Can't Run Can't Hide",
+            "description": "Kill 5 enemies with your special abilities, while they are protected by a Beacon Shield ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "DeadInTheAir",
+            "name": "Dead In The Air",
+            "description": "Kill 3 Sluggers using Blink, while they are in the air",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "FineAddition",
+            "name": "Fine Addition",
+            "description": "Complete your sword collection",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 7,
+            "apiname": "GRProjectComplete",
+            "name": "GR Project Complete",
+            "description": "Obtain all the other achievements",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 8,
+            "apiname": "HitMeIfYouCan",
+            "name": "Hit Me If You Can",
+            "description": "Block Warden's attack 5 times in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "Homerunner",
+            "name": "Homerunner",
+            "description": "Kill an enemy with a projectile reflected by Tempest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ICallItLuck",
+            "name": "I Call It Luck",
+            "description": "Block 5 projectiles in a row using your sword",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ImproviseAdaptOverrun",
+            "name": "Improvise Adapt Overrun",
+            "description": "Kill a sniper without getting near him",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "Junkrunner",
+            "name": "Junkrunner",
+            "description": "Collect every single collectible item in the game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 13,
+            "apiname": "Longrunner",
+            "name": "Longrunner",
+            "description": "Run 42 kilometers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 14,
+            "apiname": "MoreThanHuman",
+            "name": "More Than Human",
+            "description": "Kill 23 enemies in a row without dying",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 15,
+            "apiname": "Neuromancer",
+            "name": "Control Freak",
+            "description": "Force enemies to kill 4 of their allies using Overlord",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "OneMansTrash",
+            "name": "One Man's Trash",
+            "description": "Collect all story items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 17,
+            "apiname": "OutOfOrder",
+            "name": "Out Of Order",
+            "description": "Decomission Tom",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "Perfection",
+            "name": "Perfection",
+            "description": "Unlock your full potential!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "PreempativeStrike",
+            "name": "Preemptive Strike",
+            "description": "Kill a Splitter before it manages to split itself",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "PushItToTheLimit",
+            "name": "Push It To The Limit",
+            "description": "Fill up GR-SCP so that there are no empty slots left",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "RunningOutOfBreath",
+            "name": "Running Out Of Breath",
+            "description": "Save the residents of Sector Five ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "RunningWild",
+            "name": "Running Wild",
+            "description": "Use dash, wallrun, slide and gap jammer within 1 second",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "Strike",
+            "name": "Strike",
+            "description": "Kill 3 enemies at once with a falling Drone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "SwordRunner",
+            "name": "Sword Runner",
+            "description": "Kill 5 enemies within 10 seconds using just your sword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "SwordToAGunfight",
+            "name": "Sword To A Gunfight",
+            "description": "Kill 30 enemies with projectiles reflected using your sword (Reflect module required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "TripleA",
+            "name": "Triple A",
+            "description": "Kill 3 enemies with a single use of Blink",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "UnstoppableForce",
+            "name": "Unstoppable Force",
+            "description": "Kill 3 enemies with a single use of Tempest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "UpgradesNotMandatory",
+            "name": "Upgrades Not Mandatory",
+            "description": "Kill 10 enemies in a row without using Sensory Boost",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "Wallrunner",
+            "name": "Wallrunner",
+            "description": "Kill 74 enemies right after jumping off a wall",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "WaveOfMutilation",
+            "name": "Wave Of Mutilation",
+            "description": "Kill 3 enemies with a single use of Surge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "WhereAreMyKeys",
+            "name": "Where Are My Keys",
+            "description": "Kill 1000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 32,
+            "apiname": "WhyNotBoth",
+            "name": "Why Not Both",
+            "description": "Use 2 different special abilities within 10 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "RIsForRunning",
+            "name": "R Is For Running",
+            "description": "Complete a level without dying",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 34,
+            "apiname": "FinishLine",
+            "name": "Finish Line",
+            "description": "Complete your climb up the Tower",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "WhereHeStood",
+            "name": "Where He Stood",
+            "description": "Project_Hel DLC: defeat Commander Bakunin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "Scrapped",
+            "name": "Scrapped",
+            "description": "Project_Hel DLC: defeat the Golem.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "EveryoneNeedsAHobby",
+            "name": "Everyone Needs A Hobby",
+            "description": "Find all the collectibles on Hel levels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ObedientMachine",
+            "name": "Obedient Machine",
+            "description": "Complete \"No Other Choice\" without killing any enemies (excluding Beacons)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "OneOfThoseDays",
+            "name": "One Of Those Days",
+            "description": "Stay Enraged for 20 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "JustAMan",
+            "name": "Just A Man",
+            "description": "Defeat Bakunin in less than 3 minutes",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "StrafingRun",
+            "name": "Strafing Run",
+            "description": " Playing as Hel, kill 3 enemies with Surge during one jump",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "LegacyDrivers",
+            "name": "Legacy Drivers",
+            "description": "Complete \"My Friend\" without using any upgrades",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "UpCloseAndPersonal",
+            "name": "Up Close And Personal",
+            "description": "Complete \"Down Below\" without using Surge on the enemies",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "SticksAndStones",
+            "name": "Sticks And Stones",
+            "description": "Fill up your Rage Bar just by deflecting projectiles (Deflect: Absorb upgrade required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "AGrade",
+            "name": "A Grade",
+            "description": "Complete \"Another Awakening\" without dying",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        }
+    ]
+}
