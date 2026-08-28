@@ -156,6 +156,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("7-days-to-die"));
     assert.ok(slugs.includes("green-hell"));
     assert.ok(slugs.includes("grounded"));
+    assert.ok(slugs.includes("civilization-5"));
+    assert.ok(slugs.includes("age-of-empires-4"));
+    assert.ok(slugs.includes("total-war-three-kingdoms"));
 
 });
 

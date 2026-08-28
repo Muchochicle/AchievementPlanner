@@ -132,6 +132,9 @@ import { GUIDE as narakaBladepointAchievementGuide } from "./games/naraka-bladep
 import { GUIDE as sevenDaysToDieAchievementGuide } from "./games/7-days-to-die.js";
 import { GUIDE as greenHellAchievementGuide } from "./games/green-hell.js";
 import { GUIDE as groundedAchievementGuide } from "./games/grounded.js";
+import { GUIDE as civilization5AchievementGuide } from "./games/civilization-5.js";
+import { GUIDE as ageOfEmpires4AchievementGuide } from "./games/age-of-empires-4.js";
+import { GUIDE as totalWarThreeKingdomsAchievementGuide } from "./games/total-war-three-kingdoms.js";
 
 export const APP_GUIDES = [
 
@@ -286,7 +289,10 @@ export const GAME_GUIDES = [
     narakaBladepointAchievementGuide,
     sevenDaysToDieAchievementGuide,
     greenHellAchievementGuide,
-    groundedAchievementGuide
+    groundedAchievementGuide,
+    civilization5AchievementGuide,
+    ageOfEmpires4AchievementGuide,
+    totalWarThreeKingdomsAchievementGuide
 
 ];
 

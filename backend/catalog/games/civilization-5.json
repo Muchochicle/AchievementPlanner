@@ -1,0 +1,2596 @@
+{
+    "id": 8930,
+    "steamAppId": 8930,
+    "name": "Sid Meier's Civilization V",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/8930/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 200,
+        "max": 800
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Turn-Based Strategy",
+        "Historical",
+        "Grand Strategy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_WIN_WASHINGTON",
+            "name": "First in the Hearts of Your Countrymen",
+            "description": "Beat the game on any difficulty setting as Washington.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_WIN_ELIZABETH",
+            "name": "Video et Taceo",
+            "description": "Beat the game on any difficulty setting as Elizabeth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_WIN_NAPOLEON",
+            "name": "Vivre La Revolution",
+            "description": "Beat the game on any difficulty setting as Napoleon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_WIN_BISMARCK",
+            "name": "Blood and Iron",
+            "description": "Beat the game on any difficulty setting as Bismarck.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_WIN_CATHERINE",
+            "name": "Star of the North",
+            "description": "Beat the game on any difficulty setting as Catherine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_WIN_CAESAR",
+            "name": "Veni, Vidi, Vici",
+            "description": "Beat the game on any difficulty setting as Caesar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_WIN_ALEXANDER",
+            "name": "The Man Who Would Be King",
+            "description": "Beat the game on any difficulty setting as Alexander.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_WIN_RAMESSES",
+            "name": "Amongst the Catacombs of Nephren-Ka",
+            "description": "Beat the game on any difficulty setting as Ramesses II.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_WIN_ASKIA",
+            "name": "The African King",
+            "description": "Beat the game on any difficulty setting as Askia.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_WIN_HARUN",
+            "name": "Arabian Knights",
+            "description": "Beat the game on any difficulty setting as Harun al-Rashid.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_WIN_DARIUS",
+            "name": "Age of Empire",
+            "description": "Beat the game on any difficulty setting as Darius.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_WIN_GANDHI",
+            "name": "Give Peace a Chance",
+            "description": "Beat the game on any difficulty setting as Gandhi.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_WIN_RAMKHAMHAENG",
+            "name": "Empire of the East",
+            "description": "Beat the game on any difficulty setting as Ramkhamhaeng.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_WIN_WU",
+            "name": "A Woman's Work",
+            "description": "Beat the game on any difficulty setting as Wu Zetian.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_WIN_ODA",
+            "name": "Rising Sun",
+            "description": "Beat the game on any difficulty setting as Oda.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_WIN_HIAWATHA",
+            "name": "First of the Mohicans",
+            "description": "Beat the game on any difficulty setting as Hiawatha.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_WIN_MONTEZUMA",
+            "name": "Montezuma's Revenge…",
+            "description": "Beat the game on any difficulty setting as Montezuma.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_WIN_SULEIMAN",
+            "name": "A Magnificent Victory",
+            "description": "Beat the game on any difficulty setting as Suleiman.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_WIN_ALLBASELEADERS",
+            "name": "Master of the Universe",
+            "description": "Beat the game on any difficulty setting with each leader.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_SETTLER",
+            "name": "Baby Steps",
+            "description": "Beat the game on the Settler difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_CHIEFTAIN",
+            "name": "Taking off the Training Wheels",
+            "description": "Beat the game on the Chieftain difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_WARLORD",
+            "name": "The Alexman",
+            "description": "Beat the game on the Warlord difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_PRINCE",
+            "name": "Charming.  Really.",
+            "description": "Beat the game on the Prince difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_KING",
+            "name": "The Once and Future King",
+            "description": "Beat the game on the King difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_EMPEROR",
+            "name": "The Golden Path",
+            "description": "Beat the game on the Emperor difficulty level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_IMMORTAL",
+            "name": "The World Is a Mess, and I Just Need to Rule It",
+            "description": "Beat the game on the Immortal difficulty level.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_DEITY",
+            "name": "Flawless Strategy",
+            "description": "Beat the game on the Deity difficulty level.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_MAPSIZE_DUEL",
+            "name": "It's Just You and Me, Kid",
+            "description": "Beat the game on a Duel Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_MAPSIZE_TINY",
+            "name": "I Need More Elbow Room",
+            "description": "Beat the game on a Tiny Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_MAPSIZE_SMALL",
+            "name": "Living in Smallville",
+            "description": "Beat the game on a Small Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_MAPSIZE_STANDARD",
+            "name": "It's Standard Issue",
+            "description": "Beat the game on a Standard Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_MAPSIZE_LARGE",
+            "name": "Do You Want to Super Size That?",
+            "description": "Beat the game on a Large Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_MAPSIZE_HUGE",
+            "name": "Ruler of the Twelve Colonies ",
+            "description": "Beat the game on a Huge Map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_MAPTYPE_CONTINENTS",
+            "name": "Plate Tectonics",
+            "description": "Beat the game on a Continents-type Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_MAPTYPE_PANGAEA",
+            "name": "Going It Old School",
+            "description": "Beat the game on a Pangaea-type Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_MAPTYPE_ARCHIPELAGO",
+            "name": "Island Hopping",
+            "description": "Beat the game on an Archipelago-type Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_MAPTYPE_EARTH",
+            "name": "Battlefield Earth",
+            "description": "Beat the game on an Earth-type Map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_MAPS_ALL",
+            "name": "Gotta Catch 'Em All",
+            "description": "Beat the game on all standard map types and sizes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_WIN_MULTIPLAYER",
+            "name": "Last Man Standing",
+            "description": "Win any Multiplayer Match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_CITYSTATE_ALLY",
+            "name": "Say Hello to My Little Friend",
+            "description": "Reach Ally Status with a City-State.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_CITYSTATE_ANNEX",
+            "name": "Neighborhood Bully",
+            "description": "Annex a previously puppetted City-State.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_BUILD_WONDER",
+            "name": "Engineer",
+            "description": "Build a Wonder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_UNIT_UPGRADE",
+            "name": "Harder, Better, Faster, Stronger",
+            "description": "Upgrade a Unit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_UNIT_PROMOTE",
+            "name": "Moving on Up",
+            "description": "Earn a Unit Promotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_DESTROY_CIV",
+            "name": "Two Men Enter, One Man Leave",
+            "description": "Completely defeat another Civ and remove them from the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_SECOND_CITY",
+            "name": "Second City",
+            "description": "Found a second city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_ANCIENT_RUIN",
+            "name": "Treasure Hunter",
+            "description": "Discover an ancient ruin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_ALL_TECHS",
+            "name": "We Have the Technology",
+            "description": "Fully explore the Tech Tree.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_ALL_WONDERS",
+            "name": "The Wonder Years",
+            "description": "Build all the Wonders, across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_ALL_SOCIAL_POLICIES",
+            "name": "Enlightened Ruler",
+            "description": "Unlock all Social Policies, across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_ALL_UNITS",
+            "name": "Model of a Modern Major-General",
+            "description": "Train all Units, across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_GOLDEN_AGE",
+            "name": "Peace and Prosperity",
+            "description": "Begin a Golden Age.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_CITY_100CULTURE",
+            "name": "City of Lights",
+            "description": "Develop a city to produce more than 100 culture per turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_CITY_100SCIENCE",
+            "name": "City of Science",
+            "description": "Develop a city to produce more than 100 science per turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_CITY_100GOLD",
+            "name": "City of Gold",
+            "description": "Develop a city to produce more than 100 gold per turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_PURCHASE_1000TILES",
+            "name": "Land Baron",
+            "description": "Purchase 1000 tiles, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_ONEHITKILL",
+            "name": "It's Super Effective",
+            "description": "Destroy an enemy unit in just one hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_UNIT_EMBARK",
+            "name": "I'm on a Boat!",
+            "description": "Embark a Unit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_100CAMPS",
+            "name": "Here Ends the Noble Savage",
+            "description": "Raze 100 Barbarian camps, across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_SUCK_AT_WONDERS",
+            "name": "Seriously?!?",
+            "description": "Have another Civ beat you to completing a Wonder 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_ONECITY",
+            "name": "One to Rule Them All",
+            "description": "Beat the game on any difficulty setting with only one city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_VICTORY_SPACE",
+            "name": "Go Boldly Where No Man Has Gone Before",
+            "description": "Win a Space Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_VICTORY_CULTURE",
+            "name": "The Best State of a Republic",
+            "description": "Win a Cultural Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_VICTORY_DIPLO",
+            "name": "The Pen is Mightier",
+            "description": "Win a Diplomatic Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_VICTORY_DOMINATION",
+            "name": "Exterminate! Exterminate!",
+            "description": "Win a Domination Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_VICTORY_ALL",
+            "name": "To Stand the Test of Time",
+            "description": "Beat the game with all victory conditions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_DROP_NUKE",
+            "name": "I Can Has Nukes?",
+            "description": "Drop a Nuke on another Civ.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_EXPERIMENTER",
+            "name": "Experimenter",
+            "description": "Play a game with a Mod.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_EXPANSIONIST",
+            "name": "Expansionist",
+            "description": "Download a Mod.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_POLICY_LIBERTY",
+            "name": "With Liberty and Justice for All",
+            "description": "Fully Explore the Liberty Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_POLICY_PIETY",
+            "name": "Lux Perpetua Luceat Eis",
+            "description": "Fully Explore the Piety Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_POLICY_AUTOCRACY",
+            "name": "Diplomacy by Other Means",
+            "description": "Fully Explore the Autocracy Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_POLICY_ORDER",
+            "name": "With an Iron Fist",
+            "description": "Fully Explore the Order Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_POLICY_TRADITION",
+            "name": "Master of the House",
+            "description": "Fully Explore the Tradition Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_POLICY_HONOR",
+            "name": "Death Before Shame",
+            "description": "Fully Explore the Honor Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_POLICY_PATRONAGE",
+            "name": "Team Player",
+            "description": "Fully Explore the Patronage Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_POLICY_COMMERCE",
+            "name": "Money Doesn't Grow on Trees",
+            "description": "Fully Explore the Commerce Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_POLICY_RATIONALISM",
+            "name": "Eighty-Eight Miles per Hour",
+            "description": "Fully Explore the Rationalism Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_POLICY_FREEDOM",
+            "name": "Freedom Isn't Free",
+            "description": "Fully Explore the Freedom Policy Track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_ALL_NATURALWONDER",
+            "name": "The Explorer",
+            "description": "Discover 100 Natural Wonders.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_1000ROADS",
+            "name": "The Appian Way",
+            "description": "Build 1000 roads, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_1000MINES",
+            "name": "Forty-Niner",
+            "description": "Build 1000 mines, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_100RESOURCES",
+            "name": "Merchant King",
+            "description": "Trade 100 resources, across any number of playthroughs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_1000TILES",
+            "name": "Marco Polo",
+            "description": "Be the first to explore and uncover 1000 tiles, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_ROUND_WORLD",
+            "name": "Magellan",
+            "description": "Prove that the world is round by uncovering a connected loop of tiles around the circumference of the world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 86,
+            "apiname": "ACHIEVEMENT_1000FOREST",
+            "name": "Paul Bunyan",
+            "description": "Chop down 1000 forest tiles, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 87,
+            "apiname": "ACHIEVEMENT_1000TEMPLES",
+            "name": "God Is Great",
+            "description": "Construct 1000 Temples, across any number of playthroughs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 88,
+            "apiname": "ACHIEVEMENT_SPECIAL_B17",
+            "name": "Flying Fortress",
+            "description": "Bomb an enemy city with a B-17.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 89,
+            "apiname": "ACHIEVEMENT_SPECIAL_TRADER",
+            "name": "Arab Trader",
+            "description": "Trade a luxury resource to another Civ that you earned through a city with a Bazaar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 90,
+            "apiname": "ACHIEVEMENT_SPECIAL_GARDENS",
+            "name": "Gardens of Lake Texcoco",
+            "description": "Build a Floating Garden in a city with a lake tile in its radius.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 91,
+            "apiname": "ACHIEVEMENT_SPECIAL_SPHINX",
+            "name": "Riddle of the Sphinx",
+            "description": "Rush a Wonder as Egypt with a Great Engineer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 92,
+            "apiname": "ACHIEVEMENT_SPECIAL_MUSKETEERS",
+            "name": "Three Musketeers",
+            "description": "Kill a unit with a French Musketeer when two other Musketeers are providing flanking bonuses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 93,
+            "apiname": "ACHIEVEMENT_SPECIAL_LONGHOUSE",
+            "name": "People of the Longhouse",
+            "description": "Build a longhouse in a city with at least 4 unchopped forests in its radius.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 94,
+            "apiname": "ACHIEVEMENT_SPECIAL_BOLLYWOOD",
+            "name": "Bollywood",
+            "description": "As Gandhi, win a cultural victory with 3 or fewer cities in your empire.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 95,
+            "apiname": "ACHIEVEMENT_SPECIAL_KAMIKAZE",
+            "name": "Kamikaze Attack",
+            "description": "Kill an enemy unit attacking with a Japanese unit with just 1 HP remaining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 96,
+            "apiname": "ACHIEVEMENT_SPECIAL_ARCHAEMENNID",
+            "name": "From Archaemennid to Safavid",
+            "description": "As Darius, start 5 Golden Ages in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 97,
+            "apiname": "ACHIEVEMENT_SPECIAL_ROMANROADS",
+            "name": "All Roads Lead to Rome",
+            "description": "Build a road with a Roman Legion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 98,
+            "apiname": "ACHIEVEMENT_SPECIAL_SUNTZU",
+            "name": "Sun Tzu's Art of War",
+            "description": "As Wu Zetian, earn a Great General through battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 99,
+            "apiname": "ACHIEVEMENT_SPECIAL_BARBARIANWARLORD",
+            "name": "Barbarian Warlord",
+            "description": "As Bismarck, convert the Barbarians from 10 camps to your side.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 100,
+            "apiname": "ACHIEVEMENT_SPECIAL_BARBARYPIRATE",
+            "name": "Barbary Pirate",
+            "description": "As Suleiman, accumulate a navy with 10 Barbarian naval units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 101,
+            "apiname": "ACHIEVEMENT_SPECIAL_TOMBRAIDER",
+            "name": "Tomb Raider",
+            "description": "Pillage gold from an Egyptian city with a burial tomb in it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 102,
+            "apiname": "ACHIEVEMENT_SPECIAL_WARCANOE",
+            "name": "War Canoe Attack",
+            "description": "As Askia, conquer a city on another continent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 103,
+            "apiname": "ACHIEVEMENT_SPECIAL_PONY",
+            "name": "My Little Pony",
+            "description": "As Catherine, research Horseback Riding before any other Civ.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 104,
+            "apiname": "ACHIEVEMENT_SPECIAL_ARMADA",
+            "name": "Ruler of the Seas",
+            "description": "As Elizabeth, sink and destroy 357 enemy naval units, across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 105,
+            "apiname": "ACHIEVEMENT_SPECIAL_CONQUEST_WORLD",
+            "name": "Conquest of the World",
+            "description": "As Alexander, defeat every known player by 350 BC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 106,
+            "apiname": "ACHIEVEMENT_REALLY_SUCK",
+            "name": "He Threw a Car at My Head!",
+            "description": "Have any city ransomed by Barbarians.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 107,
+            "apiname": "ACHIEVEMENT_PSG",
+            "name": "Panzer \"Shafernator\" General",
+            "description": "Spawn over 100 Great Generals, build an army of over 100 standing units, and beat the game 100 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 108,
+            "apiname": "ACHIEVEMENT_WIN_NEBUCHADNEZZAR",
+            "name": "By the Waters of Babylon",
+            "description": "Beat the game on any difficulty setting as Nebuchadnezzar II.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 109,
+            "apiname": "ACHIEVEMENT_WIN_GENGHIS",
+            "name": "The Golden Horde",
+            "description": "Beat the game on any difficulty setting as Genghis Khan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 110,
+            "apiname": "ACHIEVEMENT_WIN_SCENARIO_01_PRINCE_OR_BELOW",
+            "name": "Khan",
+            "description": "Beat the Mongol scenario on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 111,
+            "apiname": "ACHIEVEMENT_WIN_SCENARIO_01_KING",
+            "name": "Great Khan",
+            "description": "Beat the Mongol scenario on the King or harder difficulty level.  ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 112,
+            "apiname": "ACHIEVEMENT_WIN_SCENARIO_01_EMPEROR",
+            "name": "Supreme Khan",
+            "description": "Beat the Mongol scenario on the Emperor or harder difficulty level.  ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 113,
+            "apiname": "ACHIEVEMENT_WIN_SCENARIO_01_IMMORTAL",
+            "name": "Kublai Khan",
+            "description": "Beat the Mongol scenario on the Immortal or harder difficulty level.  ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 114,
+            "apiname": "ACHIEVEMENT_WIN_SCENARIO_01_DEITY",
+            "name": "Genghis Khan",
+            "description": "Beat the Mongol scenario on the Deity difficulty level.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 115,
+            "apiname": "ACHIEVEMENT_LOSE_SCENARIO_01",
+            "name": "Khaaan!",
+            "description": "Run out of time to beat the Mongol scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 116,
+            "apiname": "ACHIEVEMENT_WIN_ISABELLA",
+            "name": "Nobody Expects the Spanish Inquisition",
+            "description": "Beat the game on any difficulty setting as Isabella.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 117,
+            "apiname": "ACHIEVEMENT_WIN_PACHACUTI",
+            "name": "King of the Mountain",
+            "description": "Beat the game on any difficulty setting as Pachacuti.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 118,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_SPAIN",
+            "name": "Siglo de Oro",
+            "description": "Win the New World Scenario as Spain.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 119,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_FRANCE",
+            "name": "Tout le Monde Francophone?",
+            "description": "Win the New World Scenario as France.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 120,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_ENGLAND",
+            "name": "Tea and Crumpets for Everyone",
+            "description": "Win the New World Scenario as England.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 121,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_INCA",
+            "name": "Macho Picchu",
+            "description": "Win the New World Scenario as the Incas.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 122,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_AZTECS",
+            "name": "Huitzilopochtli's Arrow",
+            "description": "Win the New World Scenario as the Aztecs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 123,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_WIN_IROQUOIS",
+            "name": "League of Extraordinary Hoyanehs",
+            "description": "Win the New World Scenario as the Iroquois.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 124,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_ROUTE_TO_ORIENT",
+            "name": "All Aboard the Orient Express",
+            "description": "Discover a route to the Orient.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 125,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_DISCOVER_FOUNTAIN",
+            "name": "Dr. Heidegger's Experiment",
+            "description": "Find the Fountain of Youth",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 126,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_DISCOVER_EL_DORADO",
+            "name": "Raleigh's Road to Riches",
+            "description": "Discover El Dorado",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 127,
+            "apiname": "ACHIEVEMENT_SCENARIO_02_RETURN_TREASURE",
+            "name": "Au in the EU",
+            "description": "Return a Treasure to Europe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 128,
+            "apiname": "ACHIEVEMENT_WIN_KAMEHAMEHA",
+            "name": "Law of the Splintered Paddle",
+            "description": "Beat the game on any difficulty setting as Kamehameha.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 129,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_WIN_HIVA",
+            "name": "Surviving the Marquesas",
+            "description": "Win as Hiva",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 130,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_WIN_TAHITI",
+            "name": "Bora! Bora! Bora!",
+            "description": "Win as Tahiti",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 131,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_WIN_SAMOA",
+            "name": "Head and Shoulders Above the Rest",
+            "description": "Win as Samoa",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 132,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_WIN_TONGA",
+            "name": "Ngata Chance",
+            "description": "Win as Tonga",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 133,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_FIND_HAWAII",
+            "name": "Book 'em Danno!",
+            "description": "Find Hawaii in a random map game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 134,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_FIND_EASTER_ISLAND",
+            "name": "Heads Up!",
+            "description": "Find Easter Island in a random map game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 135,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_FIND_CAPTAIN_COOK",
+            "name": "Do you have a little Captain in you?",
+            "description": "Encounter Captain Cook",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 136,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_FIND_AUSTRALIA",
+            "name": "This isn't Kansas",
+            "description": "Find Australia in a South Pacific map game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 137,
+            "apiname": "ACHIEVEMENT_SCENARIO_03_FIND_NEW_ZEALAND",
+            "name": "Searching for the Precious",
+            "description": "Find New Zealand in a random map game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 138,
+            "apiname": "ACHIEVEMENT_WIN_BLUETOOTH",
+            "name": "Hands Free to Victory!",
+            "description": "Beat the game on any difficulty setting as Harald Bluetooth",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 139,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_BIATHLON",
+            "name": "Where's the Biathlon?",
+            "description": "Enter a snow tile with the Norwegian ski infantry",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 140,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_PILLAGE",
+            "name": "Pillage, Then Burn",
+            "description": "Pillage 9 Farms on the same turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 141,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_NORMANDY",
+            "name": "Time to Stitch a Tapestry",
+            "description": "Win as Normandy (any difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 142,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_DENMARK",
+            "name": "Odin's Chosen Warrior",
+            "description": "Win as Denmark (any difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 143,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_NORWAY",
+            "name": "Purple People Eaters",
+            "description": "Win as Norway (any difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 144,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_ENGLAND",
+            "name": "This was their Finest Hour",
+            "description": "Win as Anglo-Saxon England (any difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 145,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_BUILD_MOTTE",
+            "name": "Fetchez la Vache!",
+            "description": "Build a motte and bailey improvement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 146,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_EMPEROR",
+            "name": "You The Conqueror",
+            "description": "Win scenario on Emperor (any civ)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 147,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_IMMORTAL",
+            "name": "Surviving Domesday",
+            "description": "Win scenario on Immortal (any civ)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 148,
+            "apiname": "ACHIEVEMENT_SCENARIO_04_WIN_DEITY",
+            "name": "Surviving Ragnarok",
+            "description": "Win scenario on Deity (any civ)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 149,
+            "apiname": "ACHIEVEMENT_WIN_SEJONG",
+            "name": "The Choson One",
+            "description": "Win as Korea",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 150,
+            "apiname": "ACHIEVEMENT_SPECIAL_IRONCLAD_TURTLE",
+            "name": "Turtle Power",
+            "description": "Sink an Ironclad with a Turtle Boat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 151,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_JAPAN",
+            "name": "Samurai Delicatessen",
+            "description": "Win as Japan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 152,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_KOREA",
+            "name": "Fear the Turtle",
+            "description": "Win the Korean Scenario as Korea",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 153,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_CHINA",
+            "name": "Yow Ming!",
+            "description": "Win as China",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 154,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_MANCHU",
+            "name": "Emperor Fu Manchu",
+            "description": "Win as Manchu",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 155,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_LOSE_KOREA",
+            "name": "Taekwon-DOH!",
+            "description": "Lose as Korea",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 156,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_EMPEROR",
+            "name": "Dragon Emperor",
+            "description": "Win on Emperor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 157,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_IMMORTAL",
+            "name": "A Righteous Victory",
+            "description": "Win on Immortal",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 158,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_DEITY",
+            "name": "Honoring the Ancestors",
+            "description": "Win on Deity",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 159,
+            "apiname": "ACHIEVEMENT_SCENARIO_05_WIN_100TURNS",
+            "name": "Seoul Power",
+            "description": "Win before 100 turns as any power",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 160,
+            "apiname": "ACHIEVEMENT_SPECIAL_ROME_GETS_ZEUS",
+            "name": "Zeupiter",
+            "description": "As Rome, conquer a city with the Statue of Zeus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 161,
+            "apiname": "ACHIEVEMENT_SPECIAL_ZEUS_AND_ARTEMIS",
+            "name": "Bolt and Arrow",
+            "description": "Build Statue of Zeus and Temple of Artemis in the same city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 162,
+            "apiname": "ACHIEVEMENT_SPECIAL_HALICARNASSUS_GOLD",
+            "name": "Rest in Gold Pieces",
+            "description": "Gain 1000 gold from expended Great People with the Mausoleum of Halicarnassus across any number of playthroughs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 163,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_HITTITES",
+            "name": "Party in hattUSA",
+            "description": "Win as Muwatallis in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 164,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_GREECE",
+            "name": "Grecian Formula",
+            "description": "Win as Alexander in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 165,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_SUMER",
+            "name": "Epic Gilgamesh",
+            "description": "Win as Gilgamesh in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 166,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_EGYPT",
+            "name": "Ra's Mighty Truth",
+            "description": "Win as Ramesses II in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 167,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_PERSIA",
+            "name": "It satrap!",
+            "description": "Win as Darius I in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 168,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_PRINCE",
+            "name": "Thoughtful Telemachus",
+            "description": "Win on Prince in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 169,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_KING",
+            "name": "Odysseus the Great Tactician",
+            "description": "Win on King in the Wonders of the Ancient World scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 170,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_EMPEROR",
+            "name": "Far-Shooting Apollo",
+            "description": "Win on Emperor in the Wonders of the Ancient World scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 171,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_IMMORTAL",
+            "name": "Bright-Eyed Athena",
+            "description": "Win on Immortal in the Wonders of the Ancient World scenario.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 172,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WIN_DEITY",
+            "name": "All-Achieving Zeus",
+            "description": "Win on Deity in the Wonders of the Ancient World scenario.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 173,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WONDER_CITY",
+            "name": "Wonderwall",
+            "description": "Build 3 Wonders in the same city in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 174,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_WONDER_CONQUEST",
+            "name": "Reverse Engineer",
+            "description": "Gain possession of 3 Wonders by conquering cities in a single game in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 175,
+            "apiname": "ACHIEVEMENT_SCENARIO_06_ORACLE_CONSULT",
+            "name": "Know Thy Enemy",
+            "description": "Consult the Oracle 2 times in a single game in the Wonders of the Ancient World scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 176,
+            "apiname": "ACHIEVEMENT_XP1_01",
+            "name": "Austrian Succession",
+            "description": "Beat the game on any difficulty as Maria Theresa.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 177,
+            "apiname": "ACHIEVEMENT_XP1_02",
+            "name": "Dancer, Actress, Empress, Victor",
+            "description": "Beat the game on any difficulty as Empress Theodora.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 178,
+            "apiname": "ACHIEVEMENT_XP1_03",
+            "name": "No White Flag Here",
+            "description": "Beat the game on any difficulty as Dido.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 179,
+            "apiname": "ACHIEVEMENT_XP1_04",
+            "name": "Celtic Thunder",
+            "description": "Beat the game on any difficulty as Boudicca.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 180,
+            "apiname": "ACHIEVEMENT_XP1_05",
+            "name": "Colonize This!",
+            "description": "Beat the game on any difficulty as Haile Selassie.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 181,
+            "apiname": "ACHIEVEMENT_XP1_06",
+            "name": "Scourge of Everyone",
+            "description": "Beat the game on any difficulty as Attila.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 182,
+            "apiname": "ACHIEVEMENT_XP1_07",
+            "name": "Baktun the Future",
+            "description": "Beat the game on any difficulty as Pacal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 183,
+            "apiname": "ACHIEVEMENT_XP1_08",
+            "name": "Silent No More",
+            "description": "Beat the game on any difficulty as William of Orange.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 184,
+            "apiname": "ACHIEVEMENT_XP1_09",
+            "name": "Defender of the Faith",
+            "description": "Beat the game on any difficulty as Gustavus Adolphus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 185,
+            "apiname": "ACHIEVEMENT_XP1_10",
+            "name": "Gad Zeus!",
+            "description": "Found a Pantheon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 186,
+            "apiname": "ACHIEVEMENT_XP1_11",
+            "name": "Propheteering",
+            "description": "Found a Religion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 187,
+            "apiname": "ACHIEVEMENT_XP1_12",
+            "name": "Sticky Fingers",
+            "description": "Use a Spy to steal Technology from a competitor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 188,
+            "apiname": "ACHIEVEMENT_XP1_13",
+            "name": "Junta for Red October",
+            "description": "Use a Spy to successfully stage a City-State coup.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 189,
+            "apiname": "ACHIEVEMENT_XP1_14",
+            "name": "Smooth Talking",
+            "description": "Use a Spy to gain influence with a City-State.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 190,
+            "apiname": "ACHIEVEMENT_XP1_15",
+            "name": "Whack a Mole",
+            "description": "Find and kill an enemy Spy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 191,
+            "apiname": "ACHIEVEMENT_XP1_16",
+            "name": "Access Denied",
+            "description": "Construct the Great Firewall Wonder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 192,
+            "apiname": "ACHIEVEMENT_XP1_17",
+            "name": "Missionary Man",
+            "description": "Spread your Religion to an opponent with a Missionary.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 193,
+            "apiname": "ACHIEVEMENT_XP1_18",
+            "name": "Holier Than Thou",
+            "description": "Become the dominant Religion in an opponent’s Holy City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 194,
+            "apiname": "ACHIEVEMENT_XP1_19",
+            "name": "We are Family",
+            "description": "Become the dominant Religion in every Capital city on a standard-size or larger map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 195,
+            "apiname": "ACHIEVEMENT_XP1_20",
+            "name": "Indoctrinated!",
+            "description": "Lose dominant status in your Holy City to an opponent’s Religion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 196,
+            "apiname": "ACHIEVEMENT_XP1_21",
+            "name": "Renaissance Man",
+            "description": "Win the Into the Renaissance scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 197,
+            "apiname": "ACHIEVEMENT_XP1_22",
+            "name": "Et tu, Brute",
+            "description": "Win the Fall of Rome scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 198,
+            "apiname": "ACHIEVEMENT_XP1_23",
+            "name": "Modern Major-General",
+            "description": "Win the Empires of the Smoky Skies scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 199,
+            "apiname": "ACHIEVEMENT_XP1_25",
+            "name": "From Russia with Love",
+            "description": "As Russia, kill an English Spy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 200,
+            "apiname": "ACHIEVEMENT_XP1_26",
+            "name": "The Last Crusade",
+            "description": "Capture the city that built Petra using a Landship.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 201,
+            "apiname": "ACHIEVEMENT_XP1_27",
+            "name": "Holy Father",
+            "description": "Select the Papal Primacy Belief and Ally with 12 City-States.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 202,
+            "apiname": "ACHIEVEMENT_XP1_28",
+            "name": "Capture of Brielle",
+            "description": "Capture a Spanish Coastal City with a Dutch Sea Beggar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 203,
+            "apiname": "ACHIEVEMENT_XP1_29",
+            "name": "Hannibal’s Crossing",
+            "description": "As Carthage, attack a Roman Unit with an African Forest Elephant from a mountain tile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 204,
+            "apiname": "ACHIEVEMENT_XP1_30",
+            "name": "RAM Usage",
+            "description": "Research Satellites while playing as Attila on a huge map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 205,
+            "apiname": "ACHIEVEMENT_XP1_31",
+            "name": "Lion of the North",
+            "description": "As Sweden, start a turn with your Great General stacked with a Hakkapelitta.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 206,
+            "apiname": "ACHIEVEMENT_XP1_32",
+            "name": "Rastafari Messiah",
+            "description": "As Ethiopia, earn 5 Great Prophets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 207,
+            "apiname": "ACHIEVEMENT_XP1_33",
+            "name": "Greek Fire",
+            "description": "As Byzantines, sink 10 Greek ships with a Dromon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 208,
+            "apiname": "ACHIEVEMENT_XP1_34",
+            "name": "Longest. Name. Ever.",
+            "description": "Have the city of Llanfairpwllgwyngyll in your empire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 209,
+            "apiname": "ACHIEVEMENT_XP1_35",
+            "name": "Yoink!",
+            "description": "As Austria, acquire a City-State with 15 or more units through Diplomatic Marriage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 210,
+            "apiname": "ACHIEVEMENT_XP1_36",
+            "name": "Apocalypse Now",
+            "description": "As the Maya, nuke a city in the year 2012.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 211,
+            "apiname": "ACHIEVEMENT_XP1_37",
+            "name": "Intelligence Network",
+            "description": "Share intrigue with a player who previously shared intrigue with you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 212,
+            "apiname": "ACHIEVEMENT_XP1_38",
+            "name": "Gimme Your Lunch Money!",
+            "description": "Bully 3000 gold from City-States across any number of playthroughs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 213,
+            "apiname": "ACHIEVEMENT_XP1_39",
+            "name": "Richard the Lionheart",
+            "description": "As England, conquer Jerusalem on Emperor or above in the Into the Renaissance scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 214,
+            "apiname": "ACHIEVEMENT_XP1_40",
+            "name": "Mehmet the Conqueror",
+            "description": "As the Turks, conquer Istanbul on Deity in the Into the Renaissance scenario.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 215,
+            "apiname": "ACHIEVEMENT_XP1_41",
+            "name": "Never take our freedom!",
+            "description": "Win as the Celts on Emperor or above in the Into the Renaissance scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 216,
+            "apiname": "ACHIEVEMENT_XP1_42",
+            "name": "The Yokes on the Mongols",
+            "description": "Win as Russia on Emperor or above in the Into the Renaissance scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 217,
+            "apiname": "ACHIEVEMENT_XP1_43",
+            "name": "Reconquista Who?",
+            "description": "Win as the Almohads on Emperor or above in the Into the Renaissance scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 218,
+            "apiname": "ACHIEVEMENT_XP1_44",
+            "name": "Quite Accomplished",
+            "description": "Retain control of the same honourable title for the entire length of the game it is available in the Empires of the Smoky Skies scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 219,
+            "apiname": "ACHIEVEMENT_XP1_45",
+            "name": "Gentlemen's Agreement",
+            "description": "Share intrigue with another player in the Empires of the Smoky Skies scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 220,
+            "apiname": "ACHIEVEMENT_XP1_46",
+            "name": "Sky Admiral",
+            "description": "Destroy an enemy unit with a Flyer based at a Sky Fortress in the Empires of the Smoky Skies scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 221,
+            "apiname": "ACHIEVEMENT_XP1_47",
+            "name": "Turks Shmurks!",
+            "description": "Capture Constantinople as any enemy power in the Fall of Rome scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 222,
+            "apiname": "ACHIEVEMENT_XP1_48",
+            "name": "Double KO",
+            "description": "Capture both Rome and Constantinople in the same game in the Fall of Rome scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 223,
+            "apiname": "ACHIEVEMENT_XP1_50",
+            "name": "Pax Romana Aeternum",
+            "description": "Win the game as Eastern or Western Rome on Deity and have all your original cities under your control in the Fall of Rome scenario.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 224,
+            "apiname": "ACHIEVEMENT_XP1_51",
+            "name": "I Missed That Day in History Class",
+            "description": "Capture any Sassanid city as the Celts in the Fall of Rome scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 225,
+            "apiname": "ACHIEVEMENT_XP1_52",
+            "name": "I Sunk Your Imperial Capital!",
+            "description": "Capture Rome as the Vandals using a boat in the Fall of Rome scenario.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 226,
+            "apiname": "ACHIEVEMENT_XP1_24",
+            "name": "Nobody expects...",
+            "description": "As Spain, use an Inquisitor to remove another Religion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 227,
+            "apiname": "ACHIEVEMENT_XP2_01",
+            "name": "Tablet Tech Pioneer",
+            "description": "Beat the game on any difficulty as Ashurbanipal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 228,
+            "apiname": "ACHIEVEMENT_XP2_02",
+            "name": "Pedro's Party People",
+            "description": "Beat the game on any difficulty as Pedro II.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 229,
+            "apiname": "ACHIEVEMENT_XP2_03",
+            "name": "The Java Script",
+            "description": "Beat the game on any difficulty as Gajah Mada.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 230,
+            "apiname": "ACHIEVEMENT_XP2_04",
+            "name": "This Desert Life",
+            "description": "Beat the game on any difficulty as Ahmad Al ’Mansur.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 231,
+            "apiname": "ACHIEVEMENT_XP2_05",
+            "name": "King of the Wisent",
+            "description": "Beat the game on any difficulty as Casimir.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 232,
+            "apiname": "ACHIEVEMENT_XP2_06",
+            "name": "In Hoc Signo Vinces",
+            "description": "Beat the game on any difficulty as Maria I.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 233,
+            "apiname": "ACHIEVEMENT_XP2_07",
+            "name": "The Great Spirit",
+            "description": "Beat the game on any difficulty as Pocatello.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 234,
+            "apiname": "ACHIEVEMENT_XP2_08",
+            "name": "Queen of the Adriatic",
+            "description": "Beat the game on any difficulty as Enrico Dandolo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 235,
+            "apiname": "ACHIEVEMENT_XP2_09",
+            "name": "Wanna Be the King of the Zulus",
+            "description": "Beat the game on any difficulty as Shaka.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 236,
+            "apiname": "ACHIEVEMENT_XP2_10",
+            "name": "One Small Step",
+            "description": "Win a Space Victory using the Freedom Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 237,
+            "apiname": "ACHIEVEMENT_XP2_11",
+            "name": "Yuri-ka!",
+            "description": "Win a Space Victory using the Order Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 238,
+            "apiname": "ACHIEVEMENT_XP2_12",
+            "name": "Rocking in the Free World",
+            "description": "Win a Cultural Victory using the Freedom Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 239,
+            "apiname": "ACHIEVEMENT_XP2_13",
+            "name": "Workers of the World - Unite!",
+            "description": "Win a Cultural Victory using the Order Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 240,
+            "apiname": "ACHIEVEMENT_XP2_14",
+            "name": "Strength Through Joy",
+            "description": "Win a Cultural Victory using the Autocracy Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 241,
+            "apiname": "ACHIEVEMENT_XP2_15",
+            "name": "Games Without Frontiers",
+            "description": "Win a Diplomatic Victory using the Freedom Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 242,
+            "apiname": "ACHIEVEMENT_XP2_16",
+            "name": "Axis Powered",
+            "description": "Win a Diplomatic Victory using the Autocracy Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 243,
+            "apiname": "ACHIEVEMENT_XP2_17",
+            "name": "Better Red Than Dead",
+            "description": "Win a Conquest Victory using the Order Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 244,
+            "apiname": "ACHIEVEMENT_XP2_18",
+            "name": "Everybody Wants to Rule the World",
+            "description": "Win a Conquest Victory using the Autocracy Ideology.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 245,
+            "apiname": "ACHIEVEMENT_XP2_19",
+            "name": "Knowledge is Power",
+            "description": "As Assyria, use a Royal Library filled with a Great Work to train a unit that begins with a promotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 246,
+            "apiname": "ACHIEVEMENT_XP2_20",
+            "name": "Vote for Pedro",
+            "description": "As Brazil, win a Diplomatic Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 247,
+            "apiname": "ACHIEVEMENT_XP2_21",
+            "name": "Enemy Blade No More",
+            "description": "As Indonesia, capture an enemy capital with a Kris Swordsman with the Enemy Blade promotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 248,
+            "apiname": "ACHIEVEMENT_XP2_22",
+            "name": "Here's Looking at You, Kid",
+            "description": "As Morocco, airlift a civilian unit from Casablanca to Portugal's original capital.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 249,
+            "apiname": "ACHIEVEMENT_XP2_23",
+            "name": "Poland Can into Space",
+            "description": "As Poland, win a Space Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 250,
+            "apiname": "ACHIEVEMENT_XP2_24",
+            "name": "What's Yours is Mine",
+            "description": "As Portugal, construct a Feitoria in a City-State that is allied to another civilization.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 251,
+            "apiname": "ACHIEVEMENT_XP2_25",
+            "name": "Sacagawea's Legacy",
+            "description": "As the Shoshone, discover 5 ancient ruins with the same Shoshone Pathfinder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 252,
+            "apiname": "ACHIEVEMENT_XP2_26",
+            "name": "The Great Betrayal",
+            "description": "As Venice, capture the Holy City of the religion that the city of Venice follows.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 253,
+            "apiname": "ACHIEVEMENT_XP2_27",
+            "name": "Run 50 Miles and Fight a Battle",
+            "description": "As Zulu, have an Impi earn all of the special promotions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 254,
+            "apiname": "ACHIEVEMENT_XP2_28",
+            "name": "Highway Robbery",
+            "description": "Plunder a Caravan Trade Route.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 255,
+            "apiname": "ACHIEVEMENT_XP2_29",
+            "name": "Silk Road",
+            "description": "Connect to the Arabs, China, India, the Mongols, and Persia at the same time using Caravans.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 256,
+            "apiname": "ACHIEVEMENT_XP2_30",
+            "name": "Greed is Good",
+            "description": "Have a city with the Colossus, Petra, a Caravansary, and a Harbor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 257,
+            "apiname": "ACHIEVEMENT_XP2_31",
+            "name": "Built in (Almost) a Day",
+            "description": "Complete a Wonder in a city with three Trade Routes supplying production to it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 258,
+            "apiname": "ACHIEVEMENT_XP2_32",
+            "name": "Merchant Prince",
+            "description": "Generate 200 gold per turn via Trade Routes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 259,
+            "apiname": "ACHIEVEMENT_XP2_33",
+            "name": "Raiders of the Lost Ark",
+            "description": "Have your American Archaeologist extract an Artifact from Egypt with a German Archaeologist within 2 tiles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 260,
+            "apiname": "ACHIEVEMENT_XP2_34",
+            "name": "Losing My Marbles",
+            "description": "Extract 5 Artifacts from the territory of another major civilization.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 261,
+            "apiname": "ACHIEVEMENT_XP2_35",
+            "name": "It Belongs in a Museum",
+            "description": "Have Artifacts from 10 different City-States in the Museums and Wonders in your civilization.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 262,
+            "apiname": "ACHIEVEMENT_XP2_36",
+            "name": "British Invasion",
+            "description": "Perform a Concert Tour with an English Great Musician in American territory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 263,
+            "apiname": "ACHIEVEMENT_XP2_37",
+            "name": "Rock the Kasbah",
+            "description": "Perform a Concert Tour with a Great Musician on a Moroccan Kasbah improvement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 264,
+            "apiname": "ACHIEVEMENT_XP2_38",
+            "name": "Radio Free Europe",
+            "description": "Adopt the Freedom Ideology and fill 10 Broadcast Towers with Great Works.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 265,
+            "apiname": "ACHIEVEMENT_XP2_39",
+            "name": "Tear Down this Wall!",
+            "description": "Force an AI player with the Order Ideology to switch to Freedom.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 266,
+            "apiname": "ACHIEVEMENT_XP2_40",
+            "name": "Pyramid Scheme",
+            "description": "Playing as France, get the Louvre to the maximum theming bonus of 16.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 267,
+            "apiname": "ACHIEVEMENT_XP2_41",
+            "name": "Lingua Franca",
+            "description": "Found the World Congress and remain its host for the entire game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 268,
+            "apiname": "ACHIEVEMENT_XP2_42",
+            "name": "Flip-Flop",
+            "description": "Propose to repeal an active Resolution which you had originally proposed to enact.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 269,
+            "apiname": "ACHIEVEMENT_XP2_43",
+            "name": "Dark Horse",
+            "description": "Win a Diplomatic Victory without ever being the host of the World Congress.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 480
+        },
+        {
+            "id": 270,
+            "apiname": "ACHIEVEMENT_XP2_44",
+            "name": "Herculean Effort",
+            "description": "Complete all International Projects in a single game as the highest contributor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 271,
+            "apiname": "ACHIEVEMENT_XP2_45",
+            "name": "Soma Tablets for Everyone",
+            "description": "Reach a Happiness level of over 100 for your civ.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 272,
+            "apiname": "ACHIEVEMENT_XP2_46",
+            "name": "That's XCOM baby!",
+            "description": "Have your XCOM Squad go from 100 health to 0 in a single AI turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 273,
+            "apiname": "ACHIEVEMENT_XP2_47",
+            "name": "Legends of the Hidden Temple",
+            "description": "Fully explore the Exploration Policy track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 274,
+            "apiname": "ACHIEVEMENT_XP2_48",
+            "name": "Artistic License",
+            "description": "Fully explore the Aesthetics Policy track.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 275,
+            "apiname": "ACHIEVEMENT_XP2_49",
+            "name": "I Prefer my Africa Scrambled",
+            "description": "Win the Scramble for Africa scenario as any civ on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 276,
+            "apiname": "ACHIEVEMENT_XP2_50",
+            "name": "Praise the Victories",
+            "description": "Win the Scramble for Africa playing as the Boers on Deity.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 277,
+            "apiname": "ACHIEVEMENT_XP2_51",
+            "name": "Ottoman Carpentry",
+            "description": "Win the Scramble for Africa playing as the Ottomans on Deity.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 278,
+            "apiname": "ACHIEVEMENT_XP2_52",
+            "name": "Dr Livingstone I presume?",
+            "description": "Playing as Belgium, move your Stanley Explorer to within a tile of England’s Livingstone Explorer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 279,
+            "apiname": "ACHIEVEMENT_XP2_53",
+            "name": "The Rhodes Colossus",
+            "description": "Playing as England in Scramble for Africa, complete a railroad from Cairo to Capetown.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 280,
+            "apiname": "ACHIEVEMENT_XP2_54",
+            "name": "Nigerian Bank Account",
+            "description": "In Scramble for Africa, marry Sokoto or Bornu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 281,
+            "apiname": "ACHIEVEMENT_XP2_55",
+            "name": "Discoverer",
+            "description": "Playing as Italy in Scramble for Africa, earn the VP for finding two Natural Wonders.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 282,
+            "apiname": "ACHIEVEMENT_XP2_56",
+            "name": "Glory, glory, hallelujah!",
+            "description": "Win the Civil War scenario playing as the Union.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 283,
+            "apiname": "ACHIEVEMENT_XP2_57",
+            "name": "Standing like a Stone Wall",
+            "description": "Win the Civil War scenario playing as the Confederates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 284,
+            "apiname": "ACHIEVEMENT_XP2_58",
+            "name": "Red Badge of Courage",
+            "description": "Win the Civil War scenario on Deity.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 285,
+            "apiname": "ACHIEVEMENT_XP2_59",
+            "name": "Pickett's Recharge",
+            "description": "Capture Gettysburg with a Confederate Infantry unit possessing the George Pickett promotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 286,
+            "apiname": "ACHIEVEMENT_XP2_60",
+            "name": "Sheridan's Valley Campaign",
+            "description": "As Union, control Winchester, Front Royal, Harrisonburg, Staunton, and Lynchburg.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        }
+    ]
+}

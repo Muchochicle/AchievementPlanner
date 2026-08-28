@@ -1,0 +1,913 @@
+{
+    "id": 779340,
+    "steamAppId": 779340,
+    "name": "Total War: THREE KINGDOMS",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/779340/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 100,
+        "max": 350
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "Turn-Based",
+        "Real-Time Tactics",
+        "Historical"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TK_ACHIEVEMENT_THREE_KINGDOMS_DECLARED_INCLUDING_PLAYER",
+            "name": "The Empire, Long Divided, Must Unite",
+            "description": "Playing as any faction, declare yourself Emperor of the Three Kingdoms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "TK_ACHIEVEMENT_WIN_CAMPAIGN_AS_EMPEROR",
+            "name": "The Mandate of Heaven",
+            "description": "Playing as any faction, become emperor and win the game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 3,
+            "apiname": "TK_ACHIEVEMENT_DECLARE_YOURSELF_EMPEROR",
+            "name": "Huangdi",
+            "description": "Playing as any faction, declare yourself emperor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "TK_ACHIEVEMENT_ANOTHER_PLAYER_DECLARES_EMPEROR_FIRST",
+            "name": "Han Shot First",
+            "description": "Playing as any faction, someone else declares themselves emperor before you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "TK_ACHIEVEMENT_BECOME_EMPEROR_AS_GOVERNOR_FACTION",
+            "name": "Humble Beginnings",
+            "description": "Playing as one of the governor factions, become emperor.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 6,
+            "apiname": "TK_ACHIEVEMENT_RAZE_EMPEROR_SEAT",
+            "name": "Burning Down the House",
+            "description": "Playing as Dong Zhuo, raze an emperor seat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "TK_ACHIEVEMENT_CAPTURE_A_REGION",
+            "name": "First Steps",
+            "description": "Playing as any faction, capture a region.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "TK_ACHIEVEMENT_DESTROY_A_FACTION",
+            "name": "To Dust",
+            "description": "Playing as any faction, destroy any other faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "TK_ACHIEVEMENT_ATTAIN_MAXIMUM_RANK_CHARACTER",
+            "name": "Simply the Best",
+            "description": "Playing as any faction, progress a character to the maximum rank.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "TK_ACHIEVEMENT_RESEARCH_ALL_TECH_ONE_ELEMENT",
+            "name": "Branching Out",
+            "description": "Playing as any faction, unlock an entire single element of the reforms tree.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "TK_ACHIEVEMENT_WIN_X_DUELS",
+            "name": "Satisfaction Guaranteed",
+            "description": "Playing as any faction, win 66 duels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "TK_ACHIEVEMENT_TURN_FRIEND_TO_RIVAL",
+            "name": "Fair-weather Friend",
+            "description": "Playing as any faction, turn a friend into a rival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "TK_ACHIEVEMENT_CAPTURE_X_SETTLEMENTS",
+            "name": "Settlers of the Han",
+            "description": "Playing as any faction, capture 29 settlements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "TK_ACHIEVEMENT_WIN_RANKED_MATCH",
+            "name": "GG No Re!",
+            "description": "Playing as any faction, win a ranked match in multiplayer mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "TK_ACHIEVEMENT_CONTROL_ALL_JADE_RESOURCES",
+            "name": "Jade Empire",
+            "description": "Playing as any faction, control all jade resources on the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "TK_ACHIEVEMENT_CONTROL_ONE_SPICE_RESOURCE",
+            "name": "First Taste",
+            "description": "Playing as any faction, control a single spice resource.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "TK_ACHIEVEMENT_CONTROL_TWO_SPICE_RESOURCES",
+            "name": "They Who Control The Spice...",
+            "description": "Playing as any faction, control two spice resources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "TK_ACHIEVEMENT_CONTROL_ALL_SPICE_RESOURCES",
+            "name": "...Controls the Universe!",
+            "description": "Playing as any faction, control all 3 spice resources on the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "TK_ACHIEVEMENT_CONSTRUCTION_FACTION_PALACE_1",
+            "name": "Forbidden City",
+            "description": "Playing as any faction, construct a faction palace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "TK_ACHIEVEMENT_WIN_MP_COOP_CAMPAIGN",
+            "name": "One Arrow, Two Hawks",
+            "description": "Playing as any faction, win a multiplayer co-op campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "TK_ACHIEVEMENT_AMBUSH_AND_DEFEAT_THE_ENEMY_IN_CAMPAIGN",
+            "name": "An Ambush That's Sure",
+            "description": "Playing as any faction, successfully ambush and defeat any opponent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "TK_ACHIEVEMENT_TRIGGER_CIVIL_WAR",
+            "name": "Point Break",
+            "description": "Playing as any faction, trigger a civil war in another faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "TK_ACHIEVEMENT_WIN_X_CAMPAIGN_BATTLES",
+            "name": "Blood-drenched & Fancy Free",
+            "description": "Playing as any faction, win 100 battles launched from the campaign map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 24,
+            "apiname": "TK_ACHIEVEMENT_WIN_CAMPAIGN_ON_LEGENDARY",
+            "name": "Now the Stuff of Dreams",
+            "description": "Playing as any faction, complete a campaign on legendary difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 25,
+            "apiname": "TK_ACHIEVEMENT_MAKE_X_INCOME_SINGLE_TURN",
+            "name": "A Land of Milk & Honey",
+            "description": "Playing as any faction, make 8,888 income in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "TK_ACHIEVEMENT_RAZE_X_SETTLEMENTS_AS_DONG_ZHUO",
+            "name": "Firestarter",
+            "description": "Playing as Dong Zhuo, raze 11 settlements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "TK_ACHIEVEMENT_TRIGGER_PROXY_WAR_CAO_CAO",
+            "name": "Though the Tortoise Lives Long",
+            "description": "Playing as Cao Cao, trigger a proxy war.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "TK_ACHIEVEMENT_CREATE_X_ALLIANCES_YUAN_SHAO",
+            "name": "One Hundred Thousand Troops",
+            "description": "Playing as Yuan Shao, form 6 alliances.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "TK_ACHIEVEMENT_DESTROY_BUILDING_IN_BATTLE",
+            "name": "Demolition Man",
+            "description": "Playing as any faction, breach a wall during a battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "TK_ACHIEVEMENT_KILL_X_ENEMY",
+            "name": "If You Can't Surrender, Die",
+            "description": "Playing as any faction, kill 92,413 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "TK_ACHIEVEMENT_ENSLAVE_X_BATTLE_CAPTIVES",
+            "name": "If You Can't Die, Surrender",
+            "description": "Playing as any faction, capture 9413 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "TK_ACHIEVEMENT_RESEARCH_EVERY_TECH_IN_CAMPAIGN",
+            "name": "Friend of Winter",
+            "description": "Playing as any faction, unlock every reform in a single playthough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "TK_ACHIEVEMENT_SPY_BECOMES_FACTION_LEADER",
+            "name": "Live & Let Spy",
+            "description": "Playing as any faction, make your spy become faction leader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "TK_ACHIEVEMENT_MAKE_X_ALLIES_LIU_BEI",
+            "name": "No Small Deed Left Undone",
+            "description": "Playing as Liu Bei, make 6 allies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "TK_ACHIEVEMENT_WIN_X_BATTLES_WITH_WHITE_HORSE_FELLOWS_AS_GONGSUN_ZAN",
+            "name": "White Horse General",
+            "description": "Playing as Gongsun Zan, win 11 battles with White Horse Fellows.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 36,
+            "apiname": "TK_ACHIEVEMENT_BUILD_BANDIT_PALACE_AS_ZHENG_JIANG",
+            "name": "Bandits of the Marsh",
+            "description": "Playing as Zheng Jiang, construct a bandit lair.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "TK_ACHIEVEMENT_FIGHT_BATTLE_WITH_LU_BEI_GUAN_YU_ZHANG_FEI_SAME_SIDE",
+            "name": "Oath of the Peach Garden",
+            "description": "Fight a battle with Liu Bei, Guan Yu, and Zhang Fei fighting on the same side.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "TK_ACHIEVEMENT_KILL_OR_WOUND_DONG_ZHUO_IN_BATTLE_WITH_LU_BU_IN_PARTY",
+            "name": "Diaochan's Revenge",
+            "description": "With Lü Bu in your party, defeat Dong Zhuo in battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "TK_ACHIEVEMENT_ALL_FIVE_TIGER_GENERALS_IN_SAME_FACTION",
+            "name": "Party of Five",
+            "description": "Playing as any faction, have all 5 Tiger Generals (Guan Yu, Zhang Fei, Zhao Yun, Ma Chao, Huang Zhong) in your faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "TK_ACHIEVEMENT_CONTROL_ALL_HORSE_RESOURCES",
+            "name": "Neighsayer",
+            "description": "Playing as any faction, control all northern horse resources on the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "TK_ACHIEVEMENT_BECOME_EMPEROR_AS_CHILD_TO_CAO_CAO",
+            "name": "Son of the Tortoise",
+            "description": "Playing as the child of Cao Cao, proclaim yourself emperor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "TK_ACHIEVEMENT_DEFEAT_DONG_ZHUO_CHARACTER",
+            "name": "Guangdong Coalition",
+            "description": "Playing as any faction, defeat Dong Zhuo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "TK_ACHIEVEMENT_EXECUTE_X_CAPTIVES",
+            "name": "Take No Prisoners",
+            "description": "Playing as any faction, execute 24 captives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_PSYCHOPATH",
+            "name": "This is Total War!",
+            "description": "Playing as any faction, win a campaign having declared war on every faction as soon as you encounter them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "TK_ACHIEVEMENT_WIN_X_MULTIPLAYER_BATTLES",
+            "name": "Frenemies",
+            "description": "Playing as any faction, win 222 battles in multiplayer mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 46,
+            "apiname": "TK_ACHIEVEMENT_COMPLETE_AN_ENTIRE_CAMPAIGN_WINNING_EVERY_BATTLE",
+            "name": "When the Sun Rises in the West",
+            "description": "Playing as any faction, win every battle (including auto-resolve battles).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 47,
+            "apiname": "TK_ACHIEVEMENT_CREATE_ALLIANCE",
+            "name": "BFFs",
+            "description": "Playing as any faction, form an alliance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "TK_ACHIEVEMENT_WIN_MULTIPLAYER_BATTLES_1",
+            "name": "Good Luck, Have Fun!",
+            "description": "Playing as any faction, win a multiplayer match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "TK_ACHIEVEMENT_UNDERCOVER_SPY_ASSASINATION",
+            "name": "Ill Omen",
+            "description": "Playing as any faction, have a spy successfully complete an assassination.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "TK_ACHIEVEMENT_FIGHT_BATTLE_WITH_ALL_UNIT_GROUPS",
+            "name": "Way of the Tao",
+            "description": "Playing as any faction, win a single battle with one of each unit type (Melee Cavalry; Shock Cavalry; Melee Infantry; Glaive & Spear Infantry; Ranged).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "TK_ACHIEVEMENT_XIAHOU_DUN_ATTACKED_BY_ARCHERS",
+            "name": "Eye of the Beholder",
+            "description": "Playing as any faction, attack Xiahou Dun with archers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "TK_ACHIEVEMENT_MAX_OUT_CHARACTER_ATTRIBUTE",
+            "name": "A Sharp Point Sticks Out",
+            "description": "Playing as any faction, obtain the maximum level in any one character attribute.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "TK_ACHIEVEMENT_KILLED_BY_ABILITY",
+            "name": "Special Delivery",
+            "description": "Playing as any faction, kill a Hero with a special ability.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "TK_ACHIEVEMENT_MAINTAIN_X_TRADE_ROUTES",
+            "name": "Here Comes the Sun (Jian)",
+            "description": "Playing as any faction, maintain 8 trade routes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "TK_TYR_ACHIEVEMENT_OWN_X_PROSPEROUS_FARMHOLDS",
+            "name": "Double Happiness",
+            "description": "Playing as a Yellow Turban faction, construct at least 8 Prosperous Farming Estates.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 56,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_CONCEALED_FORT",
+            "name": "Store Some Ice",
+            "description": "Playing as a Yellow Turban faction, construct a Concealed Fort.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_FISHING_PORT",
+            "name": "There Will Be Fish Every Year",
+            "description": "Playing as a Yellow Turban faction, construct a Grand Fishing Port.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_HOUSE_OF_COMPASSION",
+            "name": "Dù Zǐténg Will See You Now",
+            "description": "Playing as a Yellow Turban faction, construct a House of Compassion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_PEACE_GARDEN",
+            "name": "River Crab Pond",
+            "description": "Playing as a Yellow Turban faction, construct a Garden of Divine Peace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_X_COMMUNAL_SQUARES",
+            "name": "Don't Cheat At The Games",
+            "description": "Playing as a Yellow Turban faction, construct at least 7 Communal Squares.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 61,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_X_YOUXIA_UNITS",
+            "name": "The Knights Who Say Qî",
+            "description": "Playing as a Yellow Turban faction, recruit at least 7 Youxia units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "TK_YTR_ACHIEVEMENT_OWN_YTR_HEADQUARTERS",
+            "name": "Vase On A Table",
+            "description": "Playing as a Yellow Turban faction, construct a Yellow Turban Headquarters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "TK_YTR_ACHIEVEMENT_WIN_X_BATTLES_WITH_HEALER_HERO",
+            "name": "A Battle A Day Keeps The Doctor Away",
+            "description": "Playing as any faction, win 7 battles with a Healer-type Hero leading your army.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 64,
+            "apiname": "TK_YTR_ACHIEVEMENT_UNLOCK_ALL_HEAVEN_TECH",
+            "name": "Lord of Heaven",
+            "description": "Playing as a Yellow Turban faction, unlock all Heaven reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 65,
+            "apiname": "TK_YTR_ACHIEVEMENT_UNLOCK_ALL_PEOPLE_TECH",
+            "name": "Lord of the People",
+            "description": "Playing as a Yellow Turban faction, unlock all People reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 66,
+            "apiname": "TK_YTR_ACHIEVEMENT_UNLOCK_ALL_LAND_TECH",
+            "name": "Lord of the Land",
+            "description": "Playing as a Yellow Turban faction, unlock all Land reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 67,
+            "apiname": "TK_YTR_ACHIEVEMENT_REACH_EMPIRE_RANK",
+            "name": "Mandate Regained",
+            "description": "Playing as a Yellow Turban faction, become the Yellow Sky Emperor.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 68,
+            "apiname": "TK_YTR_ACHIEVEMENT_WIN_GAME",
+            "name": "The Yellow Sky Has Come",
+            "description": "Playing as a Yellow Turban faction, complete a campaign.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 69,
+            "apiname": "TK_DLC04_ACHIEVEMENT_RAZE_LOUYANG",
+            "name": "History Repeats Itself",
+            "description": "Playing as Dong Zhuo Raze Luoyang.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "TK_DLC04_ACHIEVEMENT_WIN_CAMPAIGN_AS_EMPRESS_HE",
+            "name": "Restore the Empire",
+            "description": "Playing as the Han Dynasty win the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "TK_DLC04_ACHIEVEMENT_WIN_CAMPAIGN_AS_JIAZI_REBELLION",
+            "name": "Yellow Sky",
+            "description": "Play as a Jiazi Rebellion faction and win the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "TK_DLC02_ACHIEVEMENT_CAMPAIGN_COMPLETE",
+            "name": "Fit For a Prince",
+            "description": "Playing as any Eight Princes faction, win the game by any means.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 73,
+            "apiname": "TK_DLC02_ACHIEVEMENT_COMPLETE_MILITARY_REFORMS",
+            "name": "Prince of War",
+            "description": "Playing as any Eight Princes faction, research all military reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 74,
+            "apiname": "TK_DLC02_ACHIEVEMENT_COMPLETE_SPYING_REFORMS",
+            "name": "Spies On Me",
+            "description": "Playing as any Eight Princes, research all espionage reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 75,
+            "apiname": "TK_DLC02_ACHIEVEMENT_COMPLETE_CIVIC_REFORMS",
+            "name": "Civil Service",
+            "description": "Playing as any Eight Princes faction, research all civic reforms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 76,
+            "apiname": "TK_DLC02_ACHIEVEMENT_RECRUIT_CATAPHRACTS",
+            "name": "Horse Armour",
+            "description": "Playing as any Eight Princes faction, recruit 10 Cataphract units to your armies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "TK_DLC02_ACHIEVEMENT_CONSTRUCT_GRAND INSPECTORS_PALACE",
+            "name": "Upon Closer Inspection",
+            "description": "Playing as any Eight Princes faction, construct the Grand Inspector's Palace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "TK_DLC02_ACHIEVEMENT_CAPTURE_CAPITAL",
+            "name": "Sunny Side Up",
+            "description": "Playing as any Eight Princes faction, capture the settlement of Luoyang.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "TK_DLC02_ACHIEVEMENT_HIGHEST_ALIGNMENT",
+            "name": "Align of Duty",
+            "description": "Playing as any Eight Princes faction, obtain more than 225 in any alignment. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "TK_DLC02_ACHIEVEMENT_CAMPAIGN_COMPLETE_AS_EMPEROR",
+            "name": "Usurp Expectations",
+            "description": "Playing as any Eight Princes faction, become the emperor then win the game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 81,
+            "apiname": "TK_DLC02_ACHIEVEMENT_CAMPAIGN_COMPLETE_AS_REGENT",
+            "name": "The World's Protector",
+            "description": "Playing as any Eight Princes faction, become regent then win the game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 82,
+            "apiname": "TK_DLC04_ACHIEVEMENT_COLLECT_ALL_BOOKS",
+            "name": "The Librarian",
+            "description": "Playing as Lu Zhi, collect all books.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "TK_DLC04_ACHIEVEMENT_COLLECT_ALL_TROPHIES",
+            "name": "Trophy Hunter",
+            "description": "Playing as Prince Liu Chong, collect all trophies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "TK_DLC05_ACHIEVEMENT_LU_BU_1_KILL_LIST_COMPLETE",
+            "name": "First Blood",
+            "description": "As Lü Bu kill a character from your kill list",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "TK_DLC05_ACHIEVEMENT_LU_BU_25_KILL_LIST_COMPLETE",
+            "name": "Among Men, Lü Bu",
+            "description": "As Lü Bu Kill 25 characters from your kill list",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "TK_DLC05_ACHIEVEMENT_LU_BU_WIN_THREE_BATTLES_ONE_TURN",
+            "name": "Multi-Kill",
+            "description": "As Lü Bu attack and win three battles in one turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 87,
+            "apiname": "TK_DLC05_ACHIEVEMENT_SUN_CE_5_AMBITIONS_BEFORE_201",
+            "name": "Like My Father Before Me",
+            "description": "Reach greatness like your father and achieve five of Sun Ce ambitions before the end of year 200",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "TK_DLC05_ACHIEVEMENT_SUN_CE_KILL_HUANG_ZU",
+            "name": "You Killed My Father, Prepare To Die!",
+            "description": "As Sun Ce kill Huang Zu (In duel or battle)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "TK_DLC05_ACHIEVEMENT_YAN_BAIHU_DESTROY_SUN_CE",
+            "name": "Fear the Tiger more than the government",
+            "description": "As Yan Baihu destroy Sun Ce faction",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "TK_DLC05_ACHIEVEMENT_YAN_BAIHU_15_ALLICES",
+            "name": "White Tiger Burning Bright",
+            "description": "As Yan Baihu, achieve the highest level of the White Tiger Confederation pooled resource",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "TK_DLC05_ACHIEVEMENT_GIVE_OUT_5_TITLES_CEOS",
+            "name": "Many Faces, Many Names",
+            "description": "Give out five titles to five different characters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "TK_DLC05_ACHIEVEMENT_STANCE_SHARE_LOOT_MAX",
+            "name": "Honour Among Thieves",
+            "description": "Use \"Share the spoils\" when the army loot has reached max loot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "TK_DLC05_ACHIEVEMENT_WIN_CAMPAIGN_AS_BANDIT_EMPEROR",
+            "name": "Bandit Emperor",
+            "description": "Win the game with a bandit faction",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 94,
+            "apiname": "TK_DLC06_ACHIEVEMENT_NANMAN_FEALTY",
+            "name": "I'm the Man",
+            "description": "During a Nanman campaign, have all Nanman fealties under your control",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "TK_DLC06_ACHIEVEMENT_ELEPHANT_MOUNTS",
+            "name": "That Still Only Counts as One",
+            "description": "Win a battle against an opponent fielding at least one elephant unit, or an opponent fielding a general that has an elephant as their mount",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "TK_DLC06_ACHIEVEMENT_TIGER_RETINUE",
+            "name": "Tiger King",
+            "description": "Win a battle where an entire retinue was made up of tiger units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "TK_DLC06_ACHIEVEMENT_SHI_XIE_SOUTH",
+            "name": "Lords of the South",
+            "description": "When playing as Shi Xie, have 4 vassals that are also members of your family at the start of a turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "TK_DLC06_ACHIEVEMENT_NANMAN_TECHS",
+            "name": "The Purist",
+            "description": "During a Nanman campaign, complete a tech tree where all major reforms are to one side",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 99,
+            "apiname": "TK_DLC06_ACHIEVEMENT_NANMAN_EMPEROR",
+            "name": "The Barbarian Emperor",
+            "description": "Playing as a Nanman, become the emperor of the Han, or establish the Nanman kingdom",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        }
+    ]
+}
