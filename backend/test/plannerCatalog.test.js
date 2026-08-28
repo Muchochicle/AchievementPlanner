@@ -87,6 +87,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dredge"));
     assert.ok(slugs.includes("vampire-survivors"));
     assert.ok(slugs.includes("risk-of-rain-2"));
+    assert.ok(slugs.includes("streets-of-rogue"));
+    assert.ok(slugs.includes("sable"));
+    assert.ok(slugs.includes("neon-white"));
 
 });
 

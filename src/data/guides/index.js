@@ -63,6 +63,9 @@ import { GUIDE as griftlandsAchievementGuide } from "./games/griftlands.js";
 import { GUIDE as dredgeAchievementGuide } from "./games/dredge.js";
 import { GUIDE as vampireSurvivorsAchievementGuide } from "./games/vampire-survivors.js";
 import { GUIDE as riskOfRain2AchievementGuide } from "./games/risk-of-rain-2.js";
+import { GUIDE as streetsOfRogueAchievementGuide } from "./games/streets-of-rogue.js";
+import { GUIDE as sableAchievementGuide } from "./games/sable.js";
+import { GUIDE as neonWhiteAchievementGuide } from "./games/neon-white.js";
 
 export const APP_GUIDES = [
 
@@ -148,7 +151,10 @@ export const GAME_GUIDES = [
     griftlandsAchievementGuide,
     dredgeAchievementGuide,
     vampireSurvivorsAchievementGuide,
-    riskOfRain2AchievementGuide
+    riskOfRain2AchievementGuide,
+    streetsOfRogueAchievementGuide,
+    sableAchievementGuide,
+    neonWhiteAchievementGuide
 
 ];
 
