@@ -38,17 +38,18 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 67);
+    assert.strictEqual(GAME_GUIDES.length, 70);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "astral-ascent", "baba-is-you", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "pizza-tower", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "astral-ascent", "baba-is-you", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-abyss", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "pizza-tower", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "sifu", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.slug).sort(),
         [
             "a-hat-in-time-achievement-guide",
+            "a-little-to-the-left-achievement-guide",
             "a-short-hike-achievement-guide",
             "astral-ascent-achievement-guide",
             "baba-is-you-achievement-guide",
@@ -85,6 +86,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "loop-hero-achievement-guide",
             "mark-of-the-ninja-achievement-guide",
             "moonlighter-achievement-guide",
+            "neon-abyss-achievement-guide",
             "neon-white-achievement-guide",
             "ori-and-the-blind-forest-achievement-guide",
             "ori-and-the-will-of-the-wisps-achievement-guide",
@@ -100,6 +102,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "risk-of-rain-2-achievement-guide",
             "rogue-legacy-achievement-guide",
             "sable-achievement-guide",
+            "sifu-achievement-guide",
             "slay-the-spire-achievement-guide",
             "spelunky-2-achievement-guide",
             "stardew-valley-achievement-guide",

@@ -75,6 +75,9 @@ import { GUIDE as curseOfTheDeadGodsAchievementGuide } from "./games/curse-of-th
 import { GUIDE as astralAscentAchievementGuide } from "./games/astral-ascent.js";
 import { GUIDE as domeKeeperAchievementGuide } from "./games/dome-keeper.js";
 import { GUIDE as chicoryAchievementGuide } from "./games/chicory.js";
+import { GUIDE as sifuAchievementGuide } from "./games/sifu.js";
+import { GUIDE as neonAbyssAchievementGuide } from "./games/neon-abyss.js";
+import { GUIDE as aLittleToTheLeftAchievementGuide } from "./games/a-little-to-the-left.js";
 
 export const APP_GUIDES = [
 
@@ -172,7 +175,10 @@ export const GAME_GUIDES = [
     curseOfTheDeadGodsAchievementGuide,
     astralAscentAchievementGuide,
     domeKeeperAchievementGuide,
-    chicoryAchievementGuide
+    chicoryAchievementGuide,
+    sifuAchievementGuide,
+    neonAbyssAchievementGuide,
+    aLittleToTheLeftAchievementGuide
 
 ];
 

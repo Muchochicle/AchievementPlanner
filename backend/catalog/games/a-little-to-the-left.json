@@ -1,0 +1,677 @@
+{
+    "id": 1629520,
+    "steamAppId": 1629520,
+
+    "name": "A Little to the Left",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1629520/header.jpg",
+
+    "difficulty": 3,
+
+    "completionTime": {
+        "min": 6,
+        "max": 20
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Puzzle","Casual","Relaxing","Cute","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ALTTL_CHAPTER1_COMPLETE",
+            "name": "Home Sweet Home",
+            "description": "Chapter 1 Complete",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 2,
+            "apiname": "ALTTL_CHAPTER2_COMPLETE",
+            "name": "Lost Recipe",
+            "description": "Chapter 2 Complete",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 3,
+            "apiname": "ALTTL_CHAPTER3_COMPLETE",
+            "name": "Nitty Gritty",
+            "description": "Chapter 3 Complete",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 4,
+            "apiname": "ALTTL_CHAPTER4_COMPLETE",
+            "name": "Inner Nature",
+            "description": "Chapter 4 Complete",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 5,
+            "apiname": "ALTTL_CHAPTER5_COMPLETE",
+            "name": "Near Earth Organizer",
+            "description": "Chapter 5 Complete",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 6,
+            "apiname": "ALTTL_CAMPAIGN_COMPLETE",
+            "name": "A Cozy Completion",
+            "description": "Complete the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 7,
+            "apiname": "ALTTL_CHAPTER1_100",
+            "name": "Guests Coming Over",
+            "description": "Chapter 1 100% Completion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 8,
+            "apiname": "ALTTL_CHAPTER2_100",
+            "name": "Clean Kitchen",
+            "description": "Chapter 2 100% Completion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 9,
+            "apiname": "ALTTL_CHAPTER3_100",
+            "name": "Spring Cleaning",
+            "description": "Chapter 3 100% Completion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 10,
+            "apiname": "ALTTL_CHAPTER4_100",
+            "name": "One With Nature",
+            "description": "Chapter 4 100% Completion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 11,
+            "apiname": "ALTTL_CHAPTER5_100",
+            "name": "Encounters of the Tidy Kind",
+            "description": "Chapter 5 100% Completion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 12,
+            "apiname": "ALTTL_CAMPAIGN_100",
+            "name": "Tidy Triumph",
+            "description": "Find all solutions in A Little to the Left (100% Completion)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 13,
+            "apiname": "MULTIPLE_SOLUTIONS_FOUND",
+            "name": "Seeing In A New Light",
+            "description": "Solve a puzzle multiple ways",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 14,
+            "apiname": "TIDY_ITEMS_100",
+            "name": "Triple Digit Tidier",
+            "description": "Tidy 100 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "DT_FIRST_DAILY_TIDY",
+            "name": "Today's Tidy",
+            "description": "Complete your first Daily Tidy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "DT_THREE_DAILY_TIDY",
+            "name": "Tidy Toddler",
+            "description": "Complete 3 Daily Tidy's",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 17,
+            "apiname": "HINTS_LET_IT_BE",
+            "name": "Let It Be",
+            "description": "Skip a level with \"Let It Be\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 18,
+            "apiname": "HINTS_USE_HINT",
+            "name": "Helpful Hints",
+            "description": "Take a hint",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 19,
+            "apiname": "HINTS_HUNTER",
+            "name": "Hint Hunter",
+            "description": "Reveal 10 hints",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 20,
+            "apiname": "TIDY_ITEMS_250",
+            "name": "Categorization Cadet",
+            "description": "Tidy 250 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 21,
+            "apiname": "TIDY_ITEMS_500",
+            "name": "Adept Aligner",
+            "description": "Tidy 500 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "TIDY_ITEMS_1000",
+            "name": "Extraordinary Organizer",
+            "description": "Tidy 1000 Items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 23,
+            "apiname": "ALTTL_CAMPAIGN_NO_HINT",
+            "name": "No Squint Hint",
+            "description": "Complete the game without taking any hints (Requires clean playthrough)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 24,
+            "apiname": "HINTS_ONE_CLEAN_PAGE",
+            "name": "One Clean Page",
+            "description": "Fully reveal a hint",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "ALTTL_CAMPAIGN_SKIP_ALL",
+            "name": "What Is Will Be",
+            "description": "Skip 10 levels with \"Let it Be\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 26,
+            "apiname": "ALTTL_CAMPAIGN_NO_SKIP",
+            "name": "No Mess Left Behind",
+            "description": "Finish the campaign without skipping a single level (Requires clean playthrough)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 27,
+            "apiname": "DT_SEVEN_DAILY_TIDY",
+            "name": "My Lucky Number",
+            "description": "Complete 7 Daily Tidy's",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 28,
+            "apiname": "DT_14_PLAYED",
+            "name": "Neat As A Pin",
+            "description": "Complete 14 Daily Tidy's",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "DT_30_PLAYED",
+            "name": "Flip the Calendar",
+            "description": "Complete 30 Daily Tidy's",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 30,
+            "apiname": "DT_50_PLAYED",
+            "name": "Halfway There",
+            "description": "Complete 50 Daily Tidy's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 31,
+            "apiname": "DT_75_PLAYED",
+            "name": "Three-Quarter Sorter",
+            "description": "Complete 75 Daily Tidy's",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 32,
+            "apiname": "DT_7_CONSECUTIVE",
+            "name": "Sqweeky Clean",
+            "description": "Complete 7 consecutive Daily Tidy's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 33,
+            "apiname": "DT_14_CONSECUTIVE",
+            "name": "Two-week Sweep",
+            "description": "Complete 14 consecutive Daily Tidy's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 34,
+            "apiname": "DT_30_CONSECUTIVE",
+            "name": "Calendar Collector",
+            "description": "Complete 30 consecutive Daily Tidy's",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 35,
+            "apiname": "DT_ALL_BADGES",
+            "name": "Highly Decorated",
+            "description": "Achieve all Daily Tidy badge ranks",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 36,
+            "apiname": "UNIQUE_FUN_FOR_HUMANS",
+            "name": "Fun for Humans Too",
+            "description": "Having a ball with a ball inside a ball",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 37,
+            "apiname": "UNIQUE_BAD_KITTY",
+            "name": "Bad Kitty",
+            "description": "Where are your manners?",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 38,
+            "apiname": "UNIQUE_KEEP_AWAY",
+            "name": "Keep Away",
+            "description": "Quick like a cat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 39,
+            "apiname": "UNIQUE_EXACTING_EGGS",
+            "name": "Exacting Eggs",
+            "description": "Balance the carton in minimum number of moves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 40,
+            "apiname": "UNIQUE_DRAW_RAINBOW",
+            "name": "Draw Me A Rainbow",
+            "description": "Looks like we're missing a colour?",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "UNIQUE_PERFECT_PET_CAT",
+            "name": "Harmonized Purr",
+            "description": "Purr-fect rhythm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 42,
+            "apiname": "UNIQUE_TUPPERWARE_RAINBOW",
+            "name": "Rainbow To The Moon",
+            "description": "Complete the tower continuing the starting colour sequence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 43,
+            "apiname": "UNIQUE_STABLE_STACKER",
+            "name": "Unstable Stacker",
+            "description": "Complete the tower by using every available spot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 44,
+            "apiname": "UNIQUE_CREDITS_CHAOS",
+            "name": "Be The Chaos",
+            "description": "Bat every name (first or last) and job title in the credits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 45,
+            "apiname": "UNIQUE_TRIPLE_SOLVE",
+            "name": "Triple Threat",
+            "description": "Solve a puzzle three ways",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 46,
+            "apiname": "UNIQUE_PATH_OF_DESTRUCTION",
+            "name": "Path of Destruction",
+            "description": "What a mess",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 47,
+            "apiname": "UNIQUE_SWEEP",
+            "name": "Sweep Them On The Floor",
+            "description": "We'll worry about these bits later",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 48,
+            "apiname": "DLC1_COMPLETE",
+            "name": "The Other Side",
+            "description": "Complete the Cupboard & Drawers DLC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 49,
+            "apiname": "DLC1_COMPLETE_100",
+            "name": "Everything Put Away",
+            "description": "Find all solutions in the Cupboards & Drawers DLC (100% Completion)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 50,
+            "apiname": "DLC1_UNIQUE_PEN_CAPS",
+            "name": "Where Is My Cap?",
+            "description": "Every cap has a new owner, but no two owners traded their caps (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 51,
+            "apiname": "DLC1_UNIQUE_CAN_DO_ALTITUDE",
+            "name": "Can Do Altitude",
+            "description": "That's one epic stack (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 52,
+            "apiname": "DLC1_UNIQUE_BALANCED_MEAL",
+            "name": "A Balanced Meal",
+            "description": "All you can eat (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 53,
+            "apiname": "DLC1_UNIQUE_NO_RUSH",
+            "name": "In No Rush",
+            "description": "Sit with the cat for a while (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 54,
+            "apiname": "DLC1_UNIQUE_PLAYING_WITH_POWER",
+            "name": "Now You’re Playing With Power",
+            "description": "A blast to the past (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 55,
+            "apiname": "DLC1_UNIQUE_SHOW_OFF",
+            "name": "Show Off",
+            "description": "Be proud of your accomplishments (Cupboards & Drawers DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 56,
+            "apiname": "DLC2_COMPLETE",
+            "name": "Shooting Star",
+            "description": "Complete the Seeing Stars DLC main campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 57,
+            "apiname": "DLC2_COMPLETE_BONUS",
+            "name": "Nine Lives",
+            "description": "Complete the bonus finale in the Seeing Stars DLC",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 58,
+            "apiname": "DLC2_COMPLETE_100",
+            "name": "Full Orbit",
+            "description": "Find all 100 solutions in the Seeing Stars DLC (100% Completion)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 59,
+            "apiname": "DLC2_UNIQUE_STICKY",
+            "name": "Sticky Wand",
+            "description": "Introducing our newest flavour (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 60,
+            "apiname": "DLC2_UNIQUE_WATER",
+            "name": "I'll Take My Water Neat",
+            "description": "I like my drinks lukewarm (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 61,
+            "apiname": "DLC2_UNIQUE_LOOKING_AT",
+            "name": "Whatcha Lookin' At?",
+            "description": "I'll go left, you go right (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 62,
+            "apiname": "DLC2_UNIQUE_KEEPING_COUNT",
+            "name": "Keeping Count",
+            "description": "Solve the Music Box with the Counter set to the hidden number (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 63,
+            "apiname": "DLC2_UNIQUE_BOSS_GEMS",
+            "name": "Dead End Boss Gems",
+            "description": "That doesn't look like anything (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 64,
+            "apiname": "DLC2_UNIQUE_TOP_HEAVY",
+            "name": "Top Heavy Slice",
+            "description": "All for one (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 65,
+            "apiname": "DLC2_UNIQUE_WRONG_END",
+            "name": "Grabbed the Wrong End",
+            "description": "Ouch, that's sharp (Seeing Stars DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        }
+
+    ]
+}

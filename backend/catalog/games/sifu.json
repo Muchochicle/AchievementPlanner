@@ -1,0 +1,637 @@
+{
+    "id": 2138710,
+    "steamAppId": 2138710,
+
+    "name": "Sifu",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg",
+
+    "difficulty": 8,
+
+    "completionTime": {
+        "min": 15,
+        "max": 50
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Beat 'em up","Action","Martial Arts","Difficult","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "SifuPlatinum",
+            "name": "Fist of the Immortal",
+            "description": "All achievements unlocked! Thank you for playing.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 2,
+            "apiname": "Prologue",
+            "name": "The Old Grandmaster",
+            "description": "Complete the prologue.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 3,
+            "apiname": "Vengeance_H1",
+            "name": "The Assault",
+            "description": "Defeat Fajar, the boss at the end of the Squats.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 4,
+            "apiname": "Vengeance_H2",
+            "name": "The Hateful Pole Fighter",
+            "description": "Defeat Sean, the boss at the end of the Club.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 5,
+            "apiname": "Vengeance_H3",
+            "name": "A Lady's Blood in the Snow",
+            "description": "Defeat Kuroki, the boss at the end of the Museum.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 6,
+            "apiname": "Vengeance_H4",
+            "name": "Lady Wing Chun",
+            "description": "Defeat Jinfeng, the boss at the end of the Tower.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "Vengeance_H5",
+            "name": "Furious Fists",
+            "description": "Defeat Yang, the final boss at the Sanctuary.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 8,
+            "apiname": "Wude_H1",
+            "name": "Muk Yan Master",
+            "description": "Obtain the Wood talisman by sparing the first boss.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 9,
+            "apiname": "Wude_H2",
+            "name": "Tiger on Fire",
+            "description": "Obtain the Fire talisman by sparing the second boss.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 10,
+            "apiname": "Wude_H3",
+            "name": "Source of Flying Daggers",
+            "description": "Obtain the Water talisman by sparing the third boss.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 11,
+            "apiname": "Wude_H4",
+            "name": "Iron Money",
+            "description": "Obtain the Metal talisman by sparing the fourth boss.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "Wude_H5",
+            "name": "Legendary Talismans of Wuxing",
+            "description": "Obtain the Earth talisman and attain Wude by sparing every boss.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 13,
+            "apiname": "MidAge",
+            "name": "Scareless",
+            "description": "Beat the game while being 50 years old or less.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 14,
+            "apiname": "LowAge",
+            "name": "Prodigal Child",
+            "description": "Beat the game while being 25 years old or less.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 15,
+            "apiname": "DeathlessBoss_Trophy",
+            "name": "Kill Nil",
+            "description": "Beat any boss without dying.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 16,
+            "apiname": "Detective_H1",
+            "name": "Detective Story",
+            "description": "Complete the Squats' detective board.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "Detective_H2",
+            "name": "Drunken Fighter",
+            "description": "Complete the Club's detective board.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "Detective_H3",
+            "name": "Martial Artist",
+            "description": "Complete the Museum's detective board.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 19,
+            "apiname": "Detective_H4",
+            "name": "Knowledge Greed",
+            "description": "Complete the Tower's detective board.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 20,
+            "apiname": "Detective_H5",
+            "name": "Healing Memory",
+            "description": "Complete the Sanctuary's detective board.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 21,
+            "apiname": "Traversal_Trophy",
+            "name": "Stuntmaster",
+            "description": "Climbing and going across the environment allows you to control the flow of the fight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 22,
+            "apiname": "ThrowAI_Trophy",
+            "name": "Dance of the Praying Mantis",
+            "description": "Throwing enemies around makes handling big groups easier. (Ignored in training mode.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 23,
+            "apiname": "ThrowEE_Trophy",
+            "name": "Street Fighting",
+            "description": "Anything can be a weapon, so keep using your environment to your advantage. All is fair in such fights! (Ignored in training mode.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "AnySkill_Trophy",
+            "name": "Life is your teacher",
+            "description": "Unlock your first skill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 25,
+            "apiname": "PermaSkill_Trophy",
+            "name": "State of constant learning",
+            "description": "Permanently unlock a skill for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 26,
+            "apiname": "ShrineMind",
+            "name": "Qi Gong: Mind",
+            "description": "Receive the highest XP-based shrine reward for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "ShrineSpirit",
+            "name": "Qi Gong: Breath",
+            "description": "Receive the highest score-based shrine reward for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 28,
+            "apiname": "ShrineBody",
+            "name": "Qi Gong: Essence",
+            "description": "Receive the highest age-based shrine reward for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 29,
+            "apiname": "Takedown_Trophy",
+            "name": "The 36th Chamber of Kung-Fu",
+            "description": "Bare handed or with a weapon, standing up, against a wall, a ledge, or on the ground... Perform each takedown type at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 30,
+            "apiname": "FocusAttack_Trophy",
+            "name": "Master of the Phoenix Eye Fist",
+            "description": "Use each Focus Attack at least once. (Ignored in introduction level.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 31,
+            "apiname": "ComboMid",
+            "name": "I know Kung-Fu",
+            "description": "Reach a level score of 10 000.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 32,
+            "apiname": "ComboHigh",
+            "name": "Ferocity, speed, strength, accuracy",
+            "description": "Reach a level score of 20 000.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 33,
+            "apiname": "ReachMaxAge",
+            "name": "Old Child",
+            "description": "Reach your oldest appearance. Will you still have enough strength left to reach your goal?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 34,
+            "apiname": "BladeOneShot",
+            "name": "Sword Stained With Blood",
+            "description": "Successfully use a blade weapon's one-shot attack on an enemy. (Ignored in training mode.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 35,
+            "apiname": "TimedTakedown",
+            "name": "Lightning Hands",
+            "description": "Perform 3 takedowns within 12 seconds. (Ignored in introduction level.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 36,
+            "apiname": "WideStrike",
+            "name": "Kung-Fu Tussle",
+            "description": "Hit 3 enemies in a single strike. (Ignored in introduction level.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 37,
+            "apiname": "Calbot_Trophy",
+            "name": "Path of the Prospect",
+            "description": "Unlock the special Calbot move.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "CustomTrophy_H1",
+            "name": "Rumble in the Hangar",
+            "description": "In the Squats, clear the hangar in less than 1 minute 20 seconds after being detected by the main group.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 39,
+            "apiname": "CustomTrophy_H2",
+            "name": "The Pit Protector",
+            "description": "In the Club's pit, beat the Juggernaut before any other enemy is beaten.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 40,
+            "apiname": "CustomTrophy_H3",
+            "name": "Be like water my friend",
+            "description": "In the Museum, throw an enemy into the fountain from a higher floor.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "CustomTrophy_H4",
+            "name": "Take damage to save time",
+            "description": "In the Tower's caves, drop from a high point to get deeper faster.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 42,
+            "apiname": "CustomTrophy_H5",
+            "name": "Warriors from the Mountain",
+            "description": "In the Sanctuary, throw an enemy into the mountains.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "PhotoMode_Trophy",
+            "name": "Come Snap With Me",
+            "description": "Give the Photo Mode a shot!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 44,
+            "apiname": "Arena_UnlockPack",
+            "name": "Project Arena",
+            "description": "Unlock a new arena pack.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "Arena_3Stamps",
+            "name": "Diligence as a goal",
+            "description": "Get 3 stamps in any arena challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "Arena_25Challenges",
+            "name": "Bloody Sport",
+            "description": "Clear 25 different arena challenges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 47,
+            "apiname": "Arena_45Challenges",
+            "name": "Martial Hub",
+            "description": "Clear 45 different arena challenges.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 48,
+            "apiname": "Arena_GoldManhunt",
+            "name": "Deadly Venom",
+            "description": "Earn a gold stamp on a Manhunt arena challenge.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "Arena_GoldCapture",
+            "name": "Secure, Protect, Leave",
+            "description": "Earn a gold stamp on a Capture arena challenge.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "Arena_GoldSurvival",
+            "name": "The best strikes are the ones we avoid",
+            "description": "Earn a gold stamp on a Survival arena challenge.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 51,
+            "apiname": "Arena_GoldTimePerf",
+            "name": "A Touch of Acumen",
+            "description": "Earn a gold stamp on a Performance (time) arena challenge.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "Arena_TigerAll",
+            "name": "Crouching Tiger",
+            "description": "Clear all tiger arena challenges.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 53,
+            "apiname": "Arena_DragonAll",
+            "name": "Hidden Dragon",
+            "description": "Clear all dragon arena challenges.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 54,
+            "apiname": "Arena_HighStamps",
+            "name": "Skill and an even stronger will",
+            "description": "Collect 240 stamps in arenas.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 55,
+            "apiname": "Arena_HeliportAllOut",
+            "name": "Master of the Flying Assassins",
+            "description": "Clear any challenge of the Heliport arena by throwing all enemies out.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 56,
+            "apiname": "Arena_SnowballKill",
+            "name": "Here Cometh the Iceman",
+            "description": "Finish the target with a snowball in the \"Cyclone\" arena challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 57,
+            "apiname": "Arena_LakeKill",
+            "name": "Fighter in the Pond",
+            "description": "Throw the Disciple in the lake in the \"Bellowing Mountains\" arena challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 58,
+            "apiname": "Arena_Car",
+            "name": "Bonus Stage",
+            "description": "In the Car Club arena, destroy the parked car near your spawn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 59,
+            "apiname": "Arena_Music",
+            "name": "Beatmaker",
+            "description": "In the Showtime! arena, roll across the mixing equipment in the side room repeatedly.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 60,
+            "apiname": "Arena_CustomMode",
+            "name": "Fight the way you practice",
+            "description": "Clear an arena challenge with the Custom Mode enabled.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 61,
+            "apiname": "Arena_Randomizer",
+            "name": "A Bit Of Everything, Simultaneously",
+            "description": "Attempt to clear any level with the Modifiers Randomizer enabled.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}
