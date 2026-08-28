@@ -171,6 +171,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("brotato"));
     assert.ok(slugs.includes("total-war-rome-2"));
     assert.ok(slugs.includes("counter-strike-source"));
+    assert.ok(slugs.includes("age-of-empires-1-de"));
+    assert.ok(slugs.includes("farming-simulator-22"));
+    assert.ok(slugs.includes("company-of-heroes-2"));
 
 });
 

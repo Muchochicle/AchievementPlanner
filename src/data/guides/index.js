@@ -147,6 +147,9 @@ import { GUIDE as mountAndBlade2BannerlordAchievementGuide } from "./games/mount
 import { GUIDE as brotatoAchievementGuide } from "./games/brotato.js";
 import { GUIDE as totalWarRome2AchievementGuide } from "./games/total-war-rome-2.js";
 import { GUIDE as counterStrikeSourceAchievementGuide } from "./games/counter-strike-source.js";
+import { GUIDE as ageOfEmpires1DeAchievementGuide } from "./games/age-of-empires-1-de.js";
+import { GUIDE as farmingSimulator22AchievementGuide } from "./games/farming-simulator-22.js";
+import { GUIDE as companyOfHeroes2AchievementGuide } from "./games/company-of-heroes-2.js";
 
 export const APP_GUIDES = [
 
@@ -316,7 +319,10 @@ export const GAME_GUIDES = [
     mountAndBlade2BannerlordAchievementGuide,
     brotatoAchievementGuide,
     totalWarRome2AchievementGuide,
-    counterStrikeSourceAchievementGuide
+    counterStrikeSourceAchievementGuide,
+    ageOfEmpires1DeAchievementGuide,
+    farmingSimulator22AchievementGuide,
+    companyOfHeroes2AchievementGuide
 
 ];
 
