@@ -96,6 +96,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("pizza-tower"));
     assert.ok(slugs.includes("dave-the-diver"));
     assert.ok(slugs.includes("curse-of-the-dead-gods"));
+    assert.ok(slugs.includes("astral-ascent"));
+    assert.ok(slugs.includes("dome-keeper"));
+    assert.ok(slugs.includes("chicory"));
 
 });
 

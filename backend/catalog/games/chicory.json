@@ -1,0 +1,357 @@
+{
+    "id": 1123450,
+    "steamAppId": 1123450,
+
+    "name": "Chicory: A Colorful Tale",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1123450/header.jpg",
+
+    "difficulty": 3,
+
+    "completionTime": {
+        "min": 12,
+        "max": 25
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Adventure","Cute","Story Rich","Exploration","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "story_1",
+            "name": "Helpful",
+            "description": "Pick up Chicory's brush",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "story_2",
+            "name": "Meet Your Hero",
+            "description": "Story progression: an automatic achievement reached partway through the opening chapters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "story_3",
+            "name": "Phone Call",
+            "description": "Story progression: an automatic achievement reached partway through the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 4,
+            "apiname": "story_4",
+            "name": "Muse",
+            "description": "Story progression: an automatic achievement reached partway through the campaign.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "story_5",
+            "name": "Ancient Beast of the Darkness",
+            "description": "Story progression: an automatic achievement reached at a major mid-game story beat.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 6,
+            "apiname": "story_6",
+            "name": "Apprenticeship",
+            "description": "Story progression: an automatic achievement reached in the campaign's later chapters.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "story_trial_mtn",
+            "name": "Standing on the Mountain Top",
+            "description": "Complete the Dessert Peak wielder trial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "story_trial_rainforest",
+            "name": "Honored History",
+            "description": "Complete the Rainforest wielder trial (plant the brushflowers).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "story_trial_island",
+            "name": "More Than Myself",
+            "description": "Complete the Island wielder trial (paint your wielder self-portrait).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 10,
+            "apiname": "story_trial_canyon",
+            "name": "Respect",
+            "description": "Complete the Canyon wielder trial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 11,
+            "apiname": "story_7",
+            "name": "Something New",
+            "description": "Story progression: an automatic achievement reached near the end of the campaign.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 12,
+            "apiname": "story_8",
+            "name": "End of an Era",
+            "description": "Story progression: an automatic achievement for reaching the finale.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 13,
+            "apiname": "clothing_1",
+            "name": "Clothing Curious",
+            "description": "Collect 25% of clothing items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 14,
+            "apiname": "clothing_2",
+            "name": "Clothing Collector",
+            "description": "Collect 50% of clothing items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "clothing_3",
+            "name": "Clothing Hunter",
+            "description": "Collect all clothing items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 16,
+            "apiname": "litter_1",
+            "name": "Trash Mammal",
+            "description": "Pick up 25% of litter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 17,
+            "apiname": "litter_2",
+            "name": "Good Samaritan",
+            "description": "Pick up 50% of litter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 18,
+            "apiname": "litter_3",
+            "name": "Ultimate Samaritan",
+            "description": "Pick up all litter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 19,
+            "apiname": "decor_1",
+            "name": "Casual Decorator",
+            "description": "Collect 25% of decor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 20,
+            "apiname": "decor_2",
+            "name": "Serious Decorator",
+            "description": "Collect 50% of decor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 21,
+            "apiname": "decor_3",
+            "name": "Master Decorator",
+            "description": "Collect all decor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 22,
+            "apiname": "styles_1",
+            "name": "Stylist",
+            "description": "Discover 50% of Brush Styles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 23,
+            "apiname": "styles_2",
+            "name": "Style Pro",
+            "description": "Discover all Brush Styles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 24,
+            "apiname": "kids_1",
+            "name": "Kitten Caboodle",
+            "description": "Return Beans' kids to her",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 25,
+            "apiname": "kids_2",
+            "name": "Lost and Found",
+            "description": "Find all of the lost kids hidden across the world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 26,
+            "apiname": "classes_all",
+            "name": "Graduate",
+            "description": "Complete all art classes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 27,
+            "apiname": "mail_1",
+            "name": "Postal Service",
+            "description": "Deliver mail for Artichoke",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 28,
+            "apiname": "mail_2",
+            "name": "Such Great Heights",
+            "description": "Deliver every one of Artichoke's mail packages, including the hardest-to-reach ones.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "map_1",
+            "name": "Explorer",
+            "description": "Reveal 50% of the map",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 30,
+            "apiname": "map_2",
+            "name": "Cartographer",
+            "description": "Reveal 100% of the map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 31,
+            "apiname": "gelato",
+            "name": "Picture Perfect",
+            "description": "Fill in Gelato's photo gallery",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 32,
+            "apiname": "investigation",
+            "name": "Turnabout Squeeze",
+            "description": "Solve the mystery of stolen furniture",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 33,
+            "apiname": "oats",
+            "name": "Passion for Fashion",
+            "description": "Solve all of Oats' outfit riddles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        }
+
+    ]
+}

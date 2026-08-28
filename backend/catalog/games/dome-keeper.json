@@ -1,0 +1,497 @@
+{
+    "id": 1637320,
+    "steamAppId": 1637320,
+
+    "name": "Dome Keeper",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1637320/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 20,
+        "max": 70
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Roguelite","Base Building","Mining","Survival","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "RELICHUNT_RELICTAKEN",
+            "name": "Gifts from the past",
+            "description": "Retrieve a relic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 2,
+            "apiname": "SHIELD_COMPLETE",
+            "name": "Shield Completed",
+            "description": "Unlock every battle ability of the shield.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 3,
+            "apiname": "WORLD2_UNLOCK",
+            "name": "Land of the orbs",
+            "description": "Unlock the orb world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 4,
+            "apiname": "WORLD3_UNLOCK",
+            "name": "Land of the behemoth",
+            "description": "Unlock the behemoth world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 5,
+            "apiname": "WORLD4_UNLOCK",
+            "name": "Land of the stalks",
+            "description": "Unlock the stalk world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 6,
+            "apiname": "WORLD5_UNLOCK",
+            "name": "Land of the Spores",
+            "description": "Unlock the mushroom world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "DOME2_UNLOCK",
+            "name": "Stick them with the pointy end",
+            "description": "Unlock the sword dome.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 8,
+            "apiname": "RESOURCES_COBALTSTACK",
+            "name": "Hoarder",
+            "description": "Hoard 8 cobalt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 9,
+            "apiname": "DRILLBERT_TREATS",
+            "name": "Doping",
+            "description": "Feed 10 treats to Drillbert in one run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 10,
+            "apiname": "RELICHUNT_SPEEDY",
+            "name": "Quick Finish",
+            "description": "Retrieve the relic within 20 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 11,
+            "apiname": "PRESTIGE_MULTIPLIER",
+            "name": "Compounding interest",
+            "description": "Reach a prestige multiplier of 10 in endless mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 12,
+            "apiname": "PRESTIGE_WIN",
+            "name": "My name shall be known",
+            "description": "Win a prestige run with 1000 points or more.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 13,
+            "apiname": "PRESTIGE_UNLOCK",
+            "name": "A keeper of status",
+            "description": "Unlock the prestige mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 14,
+            "apiname": "PRESTIGE_CHUNK",
+            "name": "Bringing home the big bucks",
+            "description": "Gain 200 prestige in one wave.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 15,
+            "apiname": "DOME_LOWHEALTH",
+            "name": "Close Call",
+            "description": "Survive a wave with the dome down to 1% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "KEEPER_BOTTOM",
+            "name": "Deep and Greedy",
+            "description": "Reach a depth of 100 (prestige mode).",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 17,
+            "apiname": "KEEPER_TIMELY",
+            "name": "Precisely when I meant to",
+            "description": "Enter the dome the instant a wave begins.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 18,
+            "apiname": "KEEPER_MARATHON",
+            "name": "Half Marathon",
+            "description": "Travel half the length of a Marathon in one run.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 19,
+            "apiname": "KEEPER1_SHOPPINGBAG",
+            "name": "Shopping Bag Conundrum",
+            "description": "Carry 20 resources back to the dome in one go.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 20,
+            "apiname": "LIFT_JAM",
+            "name": "We're gonna need a bigger lift",
+            "description": "Have 80 resources hanging in the lift.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 21,
+            "apiname": "MINE_ALL",
+            "name": "Thorough",
+            "description": "Mine every block on the map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "RELICHUNT_BEATFINALE",
+            "name": "I came prepared",
+            "description": "After retrieving the relic, beat the final wave without the help of the relic bomb.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 23,
+            "apiname": "RELICHUNT_MAPLARGE",
+            "name": "The deep end",
+            "description": "Complete relic hunt on a large map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 24,
+            "apiname": "RELICHUNT_MAPMEDIUM",
+            "name": "The regular",
+            "description": "Complete relic hunt on a medium sized map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 25,
+            "apiname": "RELICHUNT_MAPSMALL",
+            "name": "Bite sized",
+            "description": "Complete relic hunt on a small map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 26,
+            "apiname": "REPELLENT_BIGDELAY",
+            "name": "Take your time",
+            "description": "Delay a wave by more than 0.5 cycles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 27,
+            "apiname": "SHIELD_STRONG",
+            "name": "Ready for Battle",
+            "description": "Have 200 or more shield hp ready.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 28,
+            "apiname": "BLASTMINING_USE",
+            "name": "Earth shattering",
+            "description": "Use 15 blast charges in one run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 29,
+            "apiname": "PROBE_USE",
+            "name": "The third eye",
+            "description": "Detect 15 resources with the probe in one cycle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 30,
+            "apiname": "CONDENSER_USE",
+            "name": "Waterworld",
+            "description": "Produce 10 water with the condenser in one run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 31,
+            "apiname": "CONVERTER_USE",
+            "name": "Transmogrification",
+            "description": "Perform 10 conversions in one run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 32,
+            "apiname": "REPELLENT_COMPLETE",
+            "name": "Repellent completed",
+            "description": "Unlock every battle ability of the repellent.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 33,
+            "apiname": "ORCHARD_COMPLETE",
+            "name": "Orchard completed",
+            "description": "Unlock every battle ability of the orchard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 34,
+            "apiname": "LIFT_TRANSPORT",
+            "name": "My good mule",
+            "description": "Have the lift transport 200 resources in one run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 35,
+            "apiname": "RUN_WINMANY",
+            "name": "Veteran Keeper",
+            "description": "Win 10 runs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 36,
+            "apiname": "RUN_LOSEMANY",
+            "name": "Learning Opportunity",
+            "description": "Lose 10 runs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 37,
+            "apiname": "ORCHARD_LONG",
+            "name": "Rich in Fiber",
+            "description": "Consume a fruit that buffs you for at least 0.9 cycles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "RESOURCES_COBALTRESCUE",
+            "name": "My Savior",
+            "description": "Find a cobalt while storing none, with the dome below 10% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "PET_FOUND",
+            "name": "Find a Friend",
+            "description": "Hatch the mysterious egg found while mining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 40,
+            "apiname": "KEEPER1_SPEED",
+            "name": "The Need for Speed",
+            "description": "Reach a speed of 200 as the Engineer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 41,
+            "apiname": "KEEPER2_REFLECTIONS",
+            "name": "Solitaire Pong",
+            "description": "Reflect a sphere 40 times in a row as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "KEEPER2_SPHEREDURATION",
+            "name": "Perfect Placement",
+            "description": "Have a sphere fly for 23 seconds without reflecting it as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 43,
+            "apiname": "KEEPER2_UNLOCK",
+            "name": "Master of Gravity",
+            "description": "Unlock the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 44,
+            "apiname": "KEEPER2_BIGBUNDLE",
+            "name": "Bulky Goods",
+            "description": "Shoot a bundle of at least 25 resources as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "KEEPER2_SPLITS",
+            "name": "Great-Great-Grandspheres",
+            "description": "Split a sphere into the 5th generation as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "KEEPER2_EXPLODE",
+            "name": "Hat Trick",
+            "description": "Explode 3 spheres with one activation as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 47,
+            "apiname": "KEEPER2_AMMO",
+            "name": "Full Clip",
+            "description": "Have 6 spheres ready to fire as the Assessor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}

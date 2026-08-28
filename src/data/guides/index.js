@@ -72,6 +72,9 @@ import { GUIDE as dorfromantikAchievementGuide } from "./games/dorfromantik.js";
 import { GUIDE as pizzaTowerAchievementGuide } from "./games/pizza-tower.js";
 import { GUIDE as daveTheDiverAchievementGuide } from "./games/dave-the-diver.js";
 import { GUIDE as curseOfTheDeadGodsAchievementGuide } from "./games/curse-of-the-dead-gods.js";
+import { GUIDE as astralAscentAchievementGuide } from "./games/astral-ascent.js";
+import { GUIDE as domeKeeperAchievementGuide } from "./games/dome-keeper.js";
+import { GUIDE as chicoryAchievementGuide } from "./games/chicory.js";
 
 export const APP_GUIDES = [
 
@@ -166,7 +169,10 @@ export const GAME_GUIDES = [
     dorfromantikAchievementGuide,
     pizzaTowerAchievementGuide,
     daveTheDiverAchievementGuide,
-    curseOfTheDeadGodsAchievementGuide
+    curseOfTheDeadGodsAchievementGuide,
+    astralAscentAchievementGuide,
+    domeKeeperAchievementGuide,
+    chicoryAchievementGuide
 
 ];
 

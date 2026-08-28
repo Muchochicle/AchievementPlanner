@@ -1,0 +1,917 @@
+{
+    "id": 1280930,
+    "steamAppId": 1280930,
+
+    "name": "Astral Ascent",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1280930/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 30,
+        "max": 80
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Roguelite","Action","2D Platformer","Pixel Graphics","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "exploration_escapes",
+            "name": "Perseverance",
+            "description": "Start 30 escape attempts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 2,
+            "apiname": "exploration_reachW2",
+            "name": "Scorching Heat",
+            "description": "Reach the Red Barrens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 3,
+            "apiname": "exploration_reachW3",
+            "name": "Deep Water",
+            "description": "Reach the Coral Archipelago",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 4,
+            "apiname": "exploration_reachW4",
+            "name": "Magnetic Storm",
+            "description": "Reach the Crimson Highlands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 5,
+            "apiname": "exploration_reachW5",
+            "name": "Almost out...",
+            "description": "Reach the Event Horizon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 6,
+            "apiname": "exploration_spellLevel",
+            "name": "Precious Belongings",
+            "description": "Upgrade a spell to level 10",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 7,
+            "apiname": "exploration_spellAffinity",
+            "name": "Optimal Affinity",
+            "description": "Equip 4 affinity gambits on a spell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 8,
+            "apiname": "exploration_astralAura",
+            "name": "Astral Wish",
+            "description": "Equip an Astral Aura",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 9,
+            "apiname": "exploration_astralGambit",
+            "name": "Astral Luck",
+            "description": "Equip an Astral Gambit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 10,
+            "apiname": "exploration_maxLVL",
+            "name": "Zodiac Strength",
+            "description": "Reach level 12",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 11,
+            "apiname": "exploration_allShop",
+            "name": "Jackpot",
+            "description": "Buy all items from an Itinerant Peddler",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "exploration_zodiacChallenge",
+            "name": "Impressed Zodiacs",
+            "description": "Succeed at a Zodiac Challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 13,
+            "apiname": "exploration_echoesMax",
+            "name": "Maximized Friendship",
+            "description": "Obtain 5 Echoes in a run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 14,
+            "apiname": "exploration_maxMoney",
+            "name": "Wealthy Prisoner",
+            "description": "Obtain 1000 Quartz in a run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 15,
+            "apiname": "exploration_maxStars",
+            "name": "Galaxy Owner",
+            "description": "Use 200 Stars in a run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 16,
+            "apiname": "exploration_maxKeyChests",
+            "name": "Key Master",
+            "description": "Open 150 Key Chests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "exploration_moonRoom",
+            "name": "Moon Testimony",
+            "description": "Equip a Zodiac Spell in The Moon Room",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 18,
+            "apiname": "exploration_sunRoom",
+            "name": "Sun Testimony",
+            "description": "Change a Spell affinity in The Sun Room",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 19,
+            "apiname": "exploration_meetChamaeleon",
+            "name": "Sneaky Ally",
+            "description": "Meet Chamaeleon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 20,
+            "apiname": "exploration_yourSign",
+            "name": "Guardian Angel",
+            "description": "Your Zodiac sign helps you 3 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 21,
+            "apiname": "exploration_benchMax",
+            "name": "Time for Oneself",
+            "description": "Trigger 12 dialogues on Benches",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 22,
+            "apiname": "exploration_savedYalees",
+            "name": "Yalees Savior",
+            "description": "Save all Yalees from the Kingdom",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 23,
+            "apiname": "exploration_maxStones",
+            "name": "Multi-Classed",
+            "description": "8 stones of each type equipped simultaneously",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "combat_pinata",
+            "name": "Lost Spirits",
+            "description": "Captured 5 Astral Spirits",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 25,
+            "apiname": "combat_summonZodiac",
+            "name": "Celestial Support",
+            "description": "Summon a Zodiac to support you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 26,
+            "apiname": "combat_perfectFights",
+            "name": "Slippery Hero",
+            "description": "Perfect 30 Fight Rooms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 27,
+            "apiname": "combat_maxDamage",
+            "name": "A Ton of Damage",
+            "description": "Reach 1000 damage in one combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 28,
+            "apiname": "combat_useUspell",
+            "name": "Practice makes perfect",
+            "description": "Use your Signature Spell 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 29,
+            "apiname": "garden_discover",
+            "name": "Where it all started…",
+            "description": "Reach the Garden",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 30,
+            "apiname": "garden_unlock_zimzim",
+            "name": "Smiley Face",
+            "description": "Unlock Zim-Zim",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 31,
+            "apiname": "garden_unlock_peddler",
+            "name": "Mysterious Face",
+            "description": "Unlock the Peddler",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 32,
+            "apiname": "garden_unlock_bapy",
+            "name": "Knightly Face",
+            "description": "Unlock Sire Bapy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 33,
+            "apiname": "garden_unlock_barbecue",
+            "name": "Stellar Face",
+            "description": "Unlock Barbecue",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 34,
+            "apiname": "garden_unlock_papaYalee",
+            "name": "Friendly Face",
+            "description": "Unlock Papa Yalee",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 35,
+            "apiname": "garden_unlock_oloon",
+            "name": "Stylized Face",
+            "description": "Unlock Oloon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 36,
+            "apiname": "garden_unlock_octave",
+            "name": "The Little Brother",
+            "description": "Unlock Octave",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 37,
+            "apiname": "garden_unlock_calie",
+            "name": "The Gifted Artist",
+            "description": "Unlock Calie",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "garden_zimzim_complete",
+            "name": "Plants Infused",
+            "description": "Unlock all Zim-Zim abilities",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 39,
+            "apiname": "garden_barbecue_complete",
+            "name": "From the Stars",
+            "description": "Unlock all Auras from Barbecue",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 40,
+            "apiname": "garden_peddler_complete",
+            "name": "Arsenal",
+            "description": "Unlock all spells from the Peddler",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 41,
+            "apiname": "garden_oloon_complete",
+            "name": "Synesthesia",
+            "description": "Unlock all Oloon colors",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 42,
+            "apiname": "garden_papaYalee_complete",
+            "name": "Grand Library",
+            "description": "Collect all memory fragments for Papa Yalee",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 43,
+            "apiname": "garden_bapy_progress",
+            "name": "Halfway Legend",
+            "description": "Complete 50% of Sire Bapy’s achievements",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 44,
+            "apiname": "garden_findNest",
+            "name": "Shhh…",
+            "description": "Find the hidden nest in the Garden",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 45,
+            "apiname": "zodiacs_defeat_taurus",
+            "name": "Taurus",
+            "description": "Defeat Taurus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 46,
+            "apiname": "zodiacs_defeat_virgo",
+            "name": "Virgo",
+            "description": "Defeat Virgo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 47,
+            "apiname": "zodiacs_defeat_capricorn",
+            "name": "Capricorn",
+            "description": "Defeat Capricorn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "zodiacs_defeat_aries",
+            "name": "Aries",
+            "description": "Defeat Aries",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "zodiacs_defeat_sagittarius",
+            "name": "Sagittarius",
+            "description": "Defeat Sagittarius",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "zodiacs_defeat_leo",
+            "name": "Leo",
+            "description": "Defeat Leo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 51,
+            "apiname": "zodiacs_defeat_pisces",
+            "name": "Pisces",
+            "description": "Defeat Pisces",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "zodiacs_defeat_scorpio",
+            "name": "Scorpio",
+            "description": "Defeat Scorpio",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 53,
+            "apiname": "zodiacs_defeat_cancer",
+            "name": "Cancer",
+            "description": "Defeat Cancer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 54,
+            "apiname": "zodiacs_defeat_libra",
+            "name": "Libra",
+            "description": "Defeat Libra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 55,
+            "apiname": "zodiacs_defeat_aquarius",
+            "name": "Aquarius",
+            "description": "Defeat Aquarius",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 56,
+            "apiname": "zodiacs_defeat_gemini",
+            "name": "Gemini",
+            "description": "Defeat Gemini",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 57,
+            "apiname": "zodiacs_defeat_ophiuchus",
+            "name": "The Master",
+            "description": "Defeat Ophiuchus, the hidden thirteenth Zodiac.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 58,
+            "apiname": "zodiacs_trueForm_taurus",
+            "name": "Unleashed Taurus",
+            "description": "Defeat Taurus at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 59,
+            "apiname": "zodiacs_trueForm_virgo",
+            "name": "Unleashed Virgo",
+            "description": "Defeat Virgo at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 60,
+            "apiname": "zodiacs_trueForm_capricorn",
+            "name": "Unleashed Capricorn",
+            "description": "Defeat Capricorn at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 61,
+            "apiname": "zodiacs_trueForm_aries",
+            "name": "Unleashed Aries",
+            "description": "Defeat Aries at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 62,
+            "apiname": "zodiacs_trueForm_sagittarius",
+            "name": "Unleashed Sagittarius",
+            "description": "Defeat Sagittarius at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 63,
+            "apiname": "zodiacs_trueForm_leo",
+            "name": "Unleashed Leo",
+            "description": "Defeat Leo at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 64,
+            "apiname": "zodiacs_trueForm_pisces",
+            "name": "Unleashed Pisces",
+            "description": "Defeat Pisces at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 65,
+            "apiname": "zodiacs_trueForm_scorpio",
+            "name": "Unleashed Scorpio",
+            "description": "Defeat Scorpio at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 66,
+            "apiname": "zodiacs_trueForm_cancer",
+            "name": "Unleashed Cancer",
+            "description": "Defeat Cancer at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 67,
+            "apiname": "zodiacs_trueForm_libra",
+            "name": "Unleashed Libra",
+            "description": "Defeat Libra at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 68,
+            "apiname": "zodiacs_trueForm_aquarius",
+            "name": "Unleashed Aquarius",
+            "description": "Defeat Aquarius at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 69,
+            "apiname": "zodiacs_trueForm_gemini",
+            "name": "Unleashed Gemini",
+            "description": "Defeat Gemini at Destiny Level 6+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 70,
+            "apiname": "zodiacs_trueForm_ophiuchus",
+            "name": "Defeat The Master",
+            "description": "Defeat Ophiuchus at Destiny Level 6 or higher.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 71,
+            "apiname": "miniboss_defeat_pegasus",
+            "name": "Star Guardian Pegasus",
+            "description": "Defeat Pegasus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 72,
+            "apiname": "miniboss_defeat_lupus",
+            "name": "Star Guardian Lupus",
+            "description": "Defeat Lupus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 73,
+            "apiname": "miniboss_defeat_draco",
+            "name": "Star Guardian Draco",
+            "description": "Defeat Draco",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "miniboss_defeat_hydra",
+            "name": "Star Guardian Hydra",
+            "description": "Defeat Hydra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 75,
+            "apiname": "miniboss_defeat_monoceros",
+            "name": "Star Guardian Monoceros",
+            "description": "Defeat Monoceros",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 76,
+            "apiname": "miniboss_defeat_sculptor",
+            "name": "Star Guardian Sculptor",
+            "description": "Defeat Sculptor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 77,
+            "apiname": "miniboss_defeat_max",
+            "name": "Bane of the Star Guardians",
+            "description": "Defeat 30 Star Guardians",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 78,
+            "apiname": "ng_unlock",
+            "name": "Sova’s Secret Plan",
+            "description": "Unlock the Path of Destinies",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 79,
+            "apiname": "ng_fragments",
+            "name": "Bending Destiny",
+            "description": "Collect 100 Destiny Fragments",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 80,
+            "apiname": "ng_allAtOnce",
+            "name": "Undecided Power",
+            "description": "Activate all abilities of the Void Catalyst at once",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 81,
+            "apiname": "ng_maxLevel",
+            "name": "Pushing Limits",
+            "description": "Upgrade a spell to level 15",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 82,
+            "apiname": "ng_difficult",
+            "name": "Beyond Horizon",
+            "description": "Succeed at an escape at Destiny Level 15+",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 83,
+            "apiname": "endings_ayla",
+            "name": "Making the Impossible",
+            "description": "Unlock Ayla’s ending",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 84,
+            "apiname": "endings_kiran",
+            "name": "The Silver Scout",
+            "description": "Unlock Kiran’s ending",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 85,
+            "apiname": "endings_octave",
+            "name": "Escaping Destiny",
+            "description": "Unlock Octave’s ending",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 86,
+            "apiname": "endings_calie",
+            "name": "Time for Prosperity",
+            "description": "Unlock Calie’s ending",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 87,
+            "apiname": "miniboss_defeat_bodyboulder",
+            "name": "Star Guardian Bodyboulder",
+            "description": "Defeat Bodyboulder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 88,
+            "apiname": "miniboss_defeat_praxis",
+            "name": "Star Guardian Praxis",
+            "description": "Defeat Praxis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 89,
+            "apiname": "miniboss_defeat_tasmos",
+            "name": "Star Guardian Tasmos",
+            "description": "Defeat Tasmos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        }
+
+    ]
+}
