@@ -90,6 +90,9 @@ import { GUIDE as left4Dead2AchievementGuide } from "./games/left-4-dead-2.js";
 import { GUIDE as grandTheftAutoVAchievementGuide } from "./games/grand-theft-auto-v.js";
 import { GUIDE as sekiroAchievementGuide } from "./games/sekiro.js";
 import { GUIDE as darkSouls3AchievementGuide } from "./games/dark-souls-3.js";
+import { GUIDE as satisfactoryAchievementGuide } from "./games/satisfactory.js";
+import { GUIDE as phasmophobiaAchievementGuide } from "./games/phasmophobia.js";
+import { GUIDE as garrysModAchievementGuide } from "./games/garrys-mod.js";
 
 export const APP_GUIDES = [
 
@@ -202,7 +205,10 @@ export const GAME_GUIDES = [
     left4Dead2AchievementGuide,
     grandTheftAutoVAchievementGuide,
     sekiroAchievementGuide,
-    darkSouls3AchievementGuide
+    darkSouls3AchievementGuide,
+    satisfactoryAchievementGuide,
+    phasmophobiaAchievementGuide,
+    garrysModAchievementGuide
 
 ];
 

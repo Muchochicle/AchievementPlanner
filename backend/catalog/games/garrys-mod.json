@@ -1,0 +1,317 @@
+{
+    "id": 4000,
+    "steamAppId": 4000,
+
+    "name": "Garry's Mod",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 20,
+        "max": 300
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Sandbox","Moddable","Physics","Multiplayer","Funny"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "GMA_PLAY_SINGLEPLAYER",
+            "name": "Play Singleplayer",
+            "description": "Play singleplayer at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "GMA_PLAY_MULTIPLAYER",
+            "name": "Play Multiplayer",
+            "description": "Play multiplayer at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 3,
+            "apiname": "GMA_X_STARTUPS",
+            "name": "Startup Millenium",
+            "description": "Start Garry's Mod 1000 times",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        },
+
+        {
+            "id": 4,
+            "apiname": "GMA_SAY_1",
+            "name": "Secret Phrase",
+            "description": "Say the secret phrase",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "GMA_X_MINUTES",
+            "name": "Addict",
+            "description": "You have wasted a year of your life playing GMod!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        },
+
+        {
+            "id": 6,
+            "apiname": "GMA_X_MAPS",
+            "name": "Map Loader",
+            "description": "Play 20 different maps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 7,
+            "apiname": "GMA_NOT_SANDBOX",
+            "name": "Play Around",
+            "description": "Play a gamemode that isn't sandbox",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "GMA_BADDIES",
+            "name": "War Zone",
+            "description": "Killed 1000 Baddies",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 9,
+            "apiname": "GMA_FRIENDS",
+            "name": "Friendly",
+            "description": "Play with 10 friends",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 10,
+            "apiname": "GMA_PLAYWITH_GARRY",
+            "name": "Yes, I am the real garry!",
+            "description": "Play on the same server as garry",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 11,
+            "apiname": "GMA_MARATHON",
+            "name": "Marathon",
+            "description": "Play on the same server & map for 8 hours",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 12,
+            "apiname": "GMA_HALFMARATHON",
+            "name": "Half Marathon",
+            "description": "Play on the same server & map for 4 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 13,
+            "apiname": "GMA_DAY",
+            "name": "One Day",
+            "description": "24 hours of your life wasted",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 14,
+            "apiname": "GMA_WEEK",
+            "name": "One Week",
+            "description": "One whole week of your life wasted",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 15,
+            "apiname": "GMA_MONTH",
+            "name": "One Month",
+            "description": "One whole month of your life wasted",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        },
+
+        {
+            "id": 16,
+            "apiname": "GMA_BYSTANDER",
+            "name": "Innocent Bystander",
+            "description": "Kill 1000 innocent animals",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 17,
+            "apiname": "GMA_BALLEATER",
+            "name": "Ball Eater",
+            "description": "Eat 200 balls",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 18,
+            "apiname": "GMA_PROPSPAWNER",
+            "name": "Creator",
+            "description": "Spawn 5000 props",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 19,
+            "apiname": "GMA_BALLOONPOPPER",
+            "name": "Popper",
+            "description": "Burst 1000 balloons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 20,
+            "apiname": "GMA_REMOVER",
+            "name": "Destroyer",
+            "description": "Remove 5000 things",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 21,
+            "apiname": "GMA_SPAWNMENUER",
+            "name": "Menu User",
+            "description": "Open the spawnmenu 100,000 times",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        },
+
+        {
+            "id": 22,
+            "apiname": "GMA_BADCODER",
+            "name": "Bad Coder",
+            "description": "Experience 500 Lua programming errors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 23,
+            "apiname": "GMA_NPCSPAWNER",
+            "name": "Procreator",
+            "description": "Spawn 1000 NPCs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 24,
+            "apiname": "GMA_RAGDOLLSPAWNER",
+            "name": "Dollhouse",
+            "description": "Spawn 2000 ragdolls",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 25,
+            "apiname": "GMA_GOODIES",
+            "name": "Bad Friend",
+            "description": "Kill 1000 friendly NPCs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 26,
+            "apiname": "GMA_SMALLTHUMB",
+            "name": "10 Thumbs",
+            "description": "Your Workshop uploads got 10 thumbs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "GMA_MEDIUMTHUMB",
+            "name": "100 Thumbs",
+            "description": "Your workshop uploads got 100 thumbs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 28,
+            "apiname": "GMA_HUGETHUMB",
+            "name": "1000 Thumbs",
+            "description": "Your Workshop uploads got 1000 thumbs",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        },
+
+        {
+            "id": 29,
+            "apiname": "GMA_MEGAUPLOAD",
+            "name": "Mega Upload",
+            "description": "Get 1000 thumbs on a single upload (then go to jail)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 6000
+        }
+
+    ]
+}

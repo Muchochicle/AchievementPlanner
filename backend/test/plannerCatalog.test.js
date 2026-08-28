@@ -114,6 +114,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("grand-theft-auto-v"));
     assert.ok(slugs.includes("sekiro"));
     assert.ok(slugs.includes("dark-souls-3"));
+    assert.ok(slugs.includes("satisfactory"));
+    assert.ok(slugs.includes("phasmophobia"));
+    assert.ok(slugs.includes("garrys-mod"));
 
 });
 

@@ -1,0 +1,567 @@
+{
+    "id": 739630,
+    "steamAppId": 739630,
+
+    "name": "Phasmophobia",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+
+    "difficulty": 4,
+
+    "completionTime": {
+        "min": 30,
+        "max": 100
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Co-op","Psychological Horror","Online Co-op","Investigation","Multiplayer"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH_REACH_PRESTIGE_THREE",
+            "name": "III",
+            "description": "Reach Prestige III",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH_IDENTIFY_BANSHEE",
+            "name": "Banshee Discovered",
+            "description": "Successfully identify your first Banshee and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH_IDENTIFY_DEMON",
+            "name": "Demon Discovered",
+            "description": "Successfully identify your first Demon  and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH_IDENTIFY_DEOGEN",
+            "name": "Deogen Discovered",
+            "description": "Successfully identify your first Deogen and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH_IDENTIFY_GORYO",
+            "name": "Goryo Discovered",
+            "description": "Successfully identify your first Goryo and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH_IDENTIFY_HANTU",
+            "name": "Hantu Discovered",
+            "description": "Successfully identify your first Hantu and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH_IDENTIFY_JINN",
+            "name": "Jinn Discovered",
+            "description": "Successfully identify your first Jinn and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH_IDENTIFY_MARE",
+            "name": "Mare Discovered",
+            "description": "Successfully identify your first Mare and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH_IDENTIFY_Moroi",
+            "name": "Moroi Discovered",
+            "description": "Successfully identify your first Moroi and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH_IDENTIFY_MYLING",
+            "name": "Myling Discovered",
+            "description": "Successfully identify your first Myling and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH_IDENTIFY_Obake",
+            "name": "Obake Discovered",
+            "description": "Successfully identify your first Obake and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH_IDENTIFY_ONI",
+            "name": "Oni Discovered",
+            "description": "Successfully identify your first Oni and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH_IDENTIFY_ONRYO",
+            "name": "Onryo Discovered",
+            "description": "Successfully identify your first Onryo and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH_IDENTIFY_PHANTOM",
+            "name": "Phantom Discovered",
+            "description": "Successfully identify your first Phantom and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH_IDENTIFY_POLTERGEIST",
+            "name": "Poltergeist Discovered",
+            "description": "Successfully identify your first Poltergeist and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH_IDENTIFY_RAIJU",
+            "name": "Raiju Discovered",
+            "description": "Successfully identify your first Raiju and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH_IDENTIFY_REVENANT",
+            "name": "Revenant Discovered",
+            "description": "Successfully identify your first Revenant and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH_IDENTIFY_SHADE",
+            "name": "Shade Discovered",
+            "description": "Successfully identify your first Shade and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH_IDENTIFY_SPIRIT",
+            "name": "Spirit Discovered",
+            "description": "Successfully identify your first Spirit and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH_IDENTIFY_THAYE",
+            "name": "Thaye Discovered",
+            "description": "Successfully identify your first Thaye and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH_IDENTIFY_THE_MIMIC",
+            "name": "The Mimic Discovered",
+            "description": "Successfully identify The Mimic for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH_IDENTIFY_THE_TWINS",
+            "name": "The Twins Discovered",
+            "description": "Successfully identify The Twins for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH_IDENTIFY_WRAITH",
+            "name": "Wraith Discovered",
+            "description": "Successfully identify your first Wraith and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH_IDENTIFY_YOKAI",
+            "name": "Yokai Discovered",
+            "description": "Successfully identify your first Yokai and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH_IDENTIFY_YUREI",
+            "name": "Yurei Discovered",
+            "description": "Successfully identify your first Yurei and survive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH_REACH_PRESTIGE_ONE",
+            "name": "I",
+            "description": "Reach Prestige I",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH_REACH_PRESTIGE_TWO",
+            "name": "II",
+            "description": "Reach Prestige II",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH_COMPLETE_100_CONTRACTS",
+            "name": "Boss",
+            "description": "Complete 100 contracts",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH_COMPLETE_50_CONTRACTS",
+            "name": "Professional",
+            "description": "Complete 50 contracts",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH_COMPLETE_10_CONTRACTS",
+            "name": "Rookie",
+            "description": "Complete 10 contracts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH_SPEND_ONE_DOLLAR",
+            "name": "Chump Change",
+            "description": "Spend $1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH_SPEND_TEN_THOUSAND_DOLLARS",
+            "name": "Fat Stack",
+            "description": "Spend $10,000",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH_SPEND_FIFTY_THOUSAND_DOLLARS",
+            "name": "Cash Cow",
+            "description": "Spend $50,000",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH_SPEND_ONE_HUNDRED_THOUSAND_DOLLARS",
+            "name": "Break The Bank",
+            "description": "Spend $100,000",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH_SPEND_COMPLETE_TRAINING",
+            "name": "No More Training Wheels",
+            "description": "Complete Training",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH_COMPLETE_FIFTY_OPTIONAL_OBJECTIVES",
+            "name": "Extra Mile",
+            "description": "Complete 50 optional objectives",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH_WITNESS_POLTERGEIST_ABILITY",
+            "name": "They're here",
+            "description": "Witness a Poltergeist use its ability (throwing several objects at once).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH_COMPLETE_YOUR_FIRST_CONTRACT",
+            "name": "Work Experience",
+            "description": "Complete your first contract.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH_GET_KILLED_BY_A_BANSHEE_IN_MULTIPLAYER",
+            "name": "The Bait",
+            "description": "Be killed by a Banshee while playing in multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH_DOOM_SLAYED",
+            "name": "Doom Slayed",
+            "description": "Get killed by a Demon's ability within the first minute of a contract.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH_BRONZE_HUNTER",
+            "name": "Bronze Hunter",
+            "description": "Obtain the Bronze Apocalypse Trophy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH_SILVER_HUNTER",
+            "name": "Silver Hunter",
+            "description": "Obtain the Silver Apocalypse Trophy",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 43,
+            "apiname": "ACH_GOLD_HUNTER",
+            "name": "Gold Hunter",
+            "description": "Obtain the Gold Apocalypse Trophy",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 44,
+            "apiname": "ACH_UNLOCK_TIER_ONE_EQUIPMENT",
+            "name": "Bare Essentials",
+            "description": "Unlock all tier one equipment",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "ACH_UNLOCK_TIER_TWO_EQUIPMENT",
+            "name": "Tools of the Trade",
+            "description": "Unlock all tier two equipment",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 46,
+            "apiname": "ACH_UNLOCK_TIER_THREE_EQUIPMENT",
+            "name": "Fully Loaded",
+            "description": "Unlock all tier three equipment",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 47,
+            "apiname": "ACH_COMPLETE_A_PERFECT_GAME",
+            "name": "Flawless Execution",
+            "description": "Complete a perfect game - all objectives done, correct ghost, no deaths, everyone escapes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 48,
+            "apiname": "ACH_CREATE_A_CUSTOM_DIFFICULTY",
+            "name": "Director",
+            "description": "Create a custom difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "ACH_ESCAPE_A_REVENANT",
+            "name": "Escape Artist",
+            "description": "Escape a Revenant during a hunt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 50,
+            "apiname": "ACH_COMPLETE_30_DAILY_TASKS",
+            "name": "Dedicated",
+            "description": "Complete 30 daily tasks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "ACH_COMPLETE_10_WEEKLY_TASKS",
+            "name": "Devoted",
+            "description": "Complete 10 weekly tasks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 52,
+            "apiname": "ACH_COMPLETE_A_WEEKLY_CHALLENGE_MODE",
+            "name": "Challenger Approaching",
+            "description": "Complete a weekly challenge mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 53,
+            "apiname": "ACH_COMPLETE_THE_WEEKLY_CHALLENGE_MODE_FIVE_TIMES",
+            "name": "Rise to the Challenge",
+            "description": "Complete the weekly challenge mode 5 times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 54,
+            "apiname": "ACH_COMPLETE_THE_WEEKLY_CHALLENGE_MODE_TEN_TIMES",
+            "name": "Taking All Challenges",
+            "description": "Complete the weekly challenge mode 10 times",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        }
+
+    ]
+}
