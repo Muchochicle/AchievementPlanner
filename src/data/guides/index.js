@@ -105,6 +105,9 @@ import { GUIDE as theForestAchievementGuide } from "./games/the-forest.js";
 import { GUIDE as arkSurvivalEvolvedAchievementGuide } from "./games/ark-survival-evolved.js";
 import { GUIDE as civilizationViAchievementGuide } from "./games/civilization-vi.js";
 import { GUIDE as seaOfThievesAchievementGuide } from "./games/sea-of-thieves.js";
+import { GUIDE as monsterHunterWorldAchievementGuide } from "./games/monster-hunter-world.js";
+import { GUIDE as citiesSkylinesAchievementGuide } from "./games/cities-skylines.js";
+import { GUIDE as ageOfEmpires2DeAchievementGuide } from "./games/age-of-empires-2-de.js";
 
 export const APP_GUIDES = [
 
@@ -232,7 +235,10 @@ export const GAME_GUIDES = [
     theForestAchievementGuide,
     arkSurvivalEvolvedAchievementGuide,
     civilizationViAchievementGuide,
-    seaOfThievesAchievementGuide
+    seaOfThievesAchievementGuide,
+    monsterHunterWorldAchievementGuide,
+    citiesSkylinesAchievementGuide,
+    ageOfEmpires2DeAchievementGuide
 
 ];
 

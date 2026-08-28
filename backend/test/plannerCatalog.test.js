@@ -129,6 +129,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ark-survival-evolved"));
     assert.ok(slugs.includes("civilization-vi"));
     assert.ok(slugs.includes("sea-of-thieves"));
+    assert.ok(slugs.includes("monster-hunter-world"));
+    assert.ok(slugs.includes("cities-skylines"));
+    assert.ok(slugs.includes("age-of-empires-2-de"));
 
 });
 
