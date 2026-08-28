@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 61);
+    assert.strictEqual(GAME_GUIDES.length, 64);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "chained-echoes", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "darkest-dungeon", "dead-cells", "deaths-door", "disco-elysium", "dorfromantik", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-short-hike", "baba-is-you", "bastion", "braid", "celeste", "chained-echoes", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dorfromantik", "dredge", "enter-the-gungeon", "frostpunk", "ftl", "furi", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "pizza-tower", "portal", "portal-2", "pyre", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "the-forgotten-city", "the-messenger", "the-stanley-parable", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -58,7 +58,9 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "crypt-of-the-necrodancer-achievement-guide",
             "cult-of-the-lamb-achievement-guide",
             "cuphead-achievement-guide",
+            "curse-of-the-dead-gods-achievement-guide",
             "darkest-dungeon-achievement-guide",
+            "dave-the-diver-achievement-guide",
             "dead-cells-achievement-guide",
             "deaths-door-achievement-guide",
             "disco-elysium-achievement-guide",
@@ -86,6 +88,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "owlboy-achievement-guide",
             "oxenfree-achievement-guide",
             "papers-please-achievement-guide",
+            "pizza-tower-achievement-guide",
             "portal-2-achievement-guide",
             "portal-achievement-guide",
             "pyre-achievement-guide",

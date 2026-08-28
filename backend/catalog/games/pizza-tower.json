@@ -1,0 +1,767 @@
+{
+    "id": 2231450,
+    "steamAppId": 2231450,
+
+    "name": "Pizza Tower",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2231450/header.jpg",
+
+    "difficulty": 8,
+
+    "completionTime": {
+        "min": 15,
+        "max": 60
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["2D Platformer","Action","Fast-Paced","Comedy","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH_ENTRANCE_1",
+            "name": "John Gutted",
+            "description": "Destroy all the dead john blocks in John Gutter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH_ENTRANCE_2",
+            "name": "Let's Make This Quick",
+            "description": "Finish John Gutter in under two minutes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH_ENTRANCE_3",
+            "name": "Primate Rage",
+            "description": "Get a combo of 99 or more in John Gutter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH_MEDIEVAL_1",
+            "name": "Shining Armor",
+            "description": "Get to all the priests without bumping into a wall once in Pizzascape.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH_MEDIEVAL_2",
+            "name": "Spoonknight",
+            "description": "Parry ten Forknights in Pizzascape.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH_MEDIEVAL_3",
+            "name": "Spherical",
+            "description": "Kill another enemy while in the ball form in Pizzascape.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH_RUIN_1",
+            "name": "Thrill Seeker",
+            "description": "Finish Ancient Cheese without getting hurt by an explosion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH_RUIN_2",
+            "name": "Volleybomb",
+            "description": "Kill a rat using a bomb dropped by an enemy in Ancient Cheese.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH_RUIN_3",
+            "name": "Delicacy",
+            "description": "Make more than forty one sets of cheese platforms crumble in Ancient Cheese.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH_DUNGEON_1",
+            "name": "Very Very Hot Sauce",
+            "description": "Finish Bloodsauce Dungeon without touching lava once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH_DUNGEON_2",
+            "name": "Eruption Man",
+            "description": "During escape, go up with the superjump for more than two seconds in Bloodsauce Dungeon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH_DUNGEON_3",
+            "name": "Unsliced Pizzaman",
+            "description": "Finish Bloodsauce Dungeon without getting hurt by a pizza cutter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH_BADLAND_1",
+            "name": "Peppino's Rain Dance",
+            "description": "Reactivate a totem by dancing with the mach dash in Oregano Desert.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH_BADLAND_2",
+            "name": "Unnecessary Violence",
+            "description": "Kill all of the clerk sausages in the pizzamarts.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH_BADLAND_3",
+            "name": "Alien Cow",
+            "description": "Dont get hit by a single cow in Oregano Desert.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH_GRAVEYARD_1",
+            "name": "Ghosted",
+            "description": "Avoid getting touched by the John Ghost in Wasteyard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH_GRAVEYARD_2",
+            "name": "Pretend Ghost",
+            "description": "Kill 20 or more enemies as a ghost in Wasteyard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH_GRAVEYARD_3",
+            "name": "Alive and Well",
+            "description": "Surf every corpse in Wasteyard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH_FARM_1",
+            "name": "No One Is Safe",
+            "description": "Kill three unreachable enemies at once with the supertaunt in Fun Farm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH_FARM_2",
+            "name": "Cube Menace",
+            "description": "Find and destroy the Mort Cube.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH_FARM_3",
+            "name": "Good Egg",
+            "description": "Complete Fun Farm while avoiding getting hurt with Mort on you.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH_SALOON_1",
+            "name": "Non-Alcoholic",
+            "description": "Destroy nearly every beer bottle in Fastfood Saloon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH_SALOON_2",
+            "name": "Already Pressed",
+            "description": "Activate each button only once in Fastfood Saloon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH_SALOON_3",
+            "name": "Royal Flush",
+            "description": "Touch every single card in Fastfood Saloon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH_BEACH_1",
+            "name": "Blowback",
+            "description": "Kill a cannon goblin with his own bomb in Crust Cove.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH_BEACH_2",
+            "name": "X",
+            "description": "Uncover all the treasure guys in Crust Cove.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH_BEACH_3",
+            "name": "Demolition Expert",
+            "description": "Complete Crust Cove without getting hit by an explosion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH_FOREST_1",
+            "name": "Bee Nice",
+            "description": "Stand next to a bee and taunt in Gnome Forest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH_FOREST_2",
+            "name": "Lumberjack",
+            "description": "Destroy every wood block in Gnome Forest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH_FOREST_3",
+            "name": "Bullseye",
+            "description": "Kill a noise goblin with his own arrow in Gnome Forest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH_SPACE_1",
+            "name": "Turbo Tunnel",
+            "description": "Avoid hitting the ceiling during the room right after the John Pillar in Deep Dish Nine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH_SPACE_2",
+            "name": "Blast'Em Asteroids",
+            "description": "Destroy all asteroids in Deep Dish Nine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH_SPACE_3",
+            "name": "Man Meteor",
+            "description": "Kill 5 UFOlives in a single bodyslam in Deep Dish Nine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH_GOLF_1",
+            "name": "Primo Golfer",
+            "description": "Get the highest rank in the courses of Golf.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH_GOLF_2",
+            "name": "Nice Shot",
+            "description": "Kill three or more enemies in a single stroke in Golf.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH_GOLF_3",
+            "name": "Helpful Burger",
+            "description": "Get a burger enemy to hit the ball inside the goal in Golf.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH_STREET_1",
+            "name": "Pan Fried",
+            "description": "Find the bacon room.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH_STREET_2",
+            "name": "Strike!",
+            "description": "Kill three or more enemies with a single Brick ball in Pig City.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH_STREET_3",
+            "name": "Say Oink!",
+            "description": "Take a photo with every Pig City citizen.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH_SEWER_1",
+            "name": "Can't Fool Me",
+            "description": "Avoid killing any pizzaboy cardboard in Oh Shit!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH_SEWER_2",
+            "name": "Food Clan",
+            "description": "Kill ten ninjas by parrying them in Oh Shit!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH_SEWER_3",
+            "name": "Penny Pincher",
+            "description": "Avoid getting grabbed by Mr Pinch during the escape sequence of Oh Shit!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 43,
+            "apiname": "ACH_INDUSTRIAL_1",
+            "name": "Unflattening",
+            "description": "Remove the boxxed form from each priest at least once in Peppibot Factory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 44,
+            "apiname": "ACH_INDUSTRIAL_2",
+            "name": "Whoop This!",
+            "description": "Survive the first secret of Peppibot Factory without getting hurt.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 45,
+            "apiname": "ACH_INDUSTRIAL_3",
+            "name": "There Can Be Only One",
+            "description": "Destroy every Peppino robot in Peppibot Factory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 46,
+            "apiname": "ACH_FREEZER_1",
+            "name": "Frozen Nuggets",
+            "description": "Free all the frozen birds in Refrigerator-Refrigerador-Freezerator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 47,
+            "apiname": "ACH_FREEZER_2",
+            "name": "Season's Greetings",
+            "description": "Kill 5 fake santas in Refrigerator-Refrigerador-Freezerator .",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 48,
+            "apiname": "ACH_FREEZER_3",
+            "name": "Ice Climber",
+            "description": "Complete Refrigerator-Refrigerador-Freezerator without falling in a pit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 49,
+            "apiname": "ACH_CHATEAU_1",
+            "name": "Cross To Bare",
+            "description": "Kill thirty ghosts in Pizzascare.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 50,
+            "apiname": "ACH_CHATEAU_2",
+            "name": "Haunted Playground",
+            "description": "Avoid getting hurt by the King Ghost's traps in Pizzascare.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 51,
+            "apiname": "ACH_CHATEAU_3",
+            "name": "Skullsplitter",
+            "description": "Destroy every single skull block in Pizzascare.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 52,
+            "apiname": "ACH_KIDSPARTY_1",
+            "name": "And This... Is My Gun On A Stick!",
+            "description": "Kill every chasing monster in the escape section of Don't Make A Sound.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 53,
+            "apiname": "ACH_KIDSPARTY_2",
+            "name": "Let Them Sleep",
+            "description": "Activate the alarms in Don't Make A Sound less than six times before the escape sequence.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 54,
+            "apiname": "ACH_KIDSPARTY_3",
+            "name": "Jumpspared",
+            "description": "Avoid getting jumpscared in Don't Make A Sound.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 55,
+            "apiname": "ACH_WAR_1",
+            "name": "Decorated Veteran",
+            "description": "Don't get hurt more than three times in WAR.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 56,
+            "apiname": "ACH_WAR_2",
+            "name": "Sharpshooter",
+            "description": "Don't miss more than three shots in WAR.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 57,
+            "apiname": "ACH_WAR_3",
+            "name": "Trip to the Warzone",
+            "description": "Finish WAR with more than a minute left.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+
+        {
+            "id": 58,
+            "apiname": "ACH_BOSS_1",
+            "name": "The Critic",
+            "description": "Defeat Pepperman without getting hurt.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 59,
+            "apiname": "ACH_BOSS_2",
+            "name": "The Ugly",
+            "description": "Defeat the Vigilante without getting hurt.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 60,
+            "apiname": "ACH_BOSS_3",
+            "name": "Denoise",
+            "description": "Defeat the Noise without getting hurt.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 61,
+            "apiname": "ACH_BOSS_4",
+            "name": "Faker",
+            "description": "Defeat Fake Peppino without getting hurt.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 62,
+            "apiname": "ACH_BOSS_5",
+            "name": "Face Off",
+            "description": "Defeat Pizzaface without getting hurt.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 63,
+            "apiname": "ACH_SRANK_1",
+            "name": "S Ranked #1",
+            "description": "Get all S Ranks in World 1.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 64,
+            "apiname": "ACH_SRANK_2",
+            "name": "S Ranked #2",
+            "description": "Get all S Ranks in World 2.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 65,
+            "apiname": "ACH_SRANK_3",
+            "name": "S Ranked #3",
+            "description": "Get all S Ranks in World 3.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 66,
+            "apiname": "ACH_SRANK_4",
+            "name": "S Ranked #4",
+            "description": "Get all S Ranks in World 4.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 67,
+            "apiname": "ACH_SRANK_5",
+            "name": "S Ranked #5",
+            "description": "Get all S Ranks in World 5.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 68,
+            "apiname": "ACH_PRANK_1",
+            "name": "P Ranked #1",
+            "description": "Get a P Rank on every level in World 1.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 69,
+            "apiname": "ACH_PRANK_2",
+            "name": "P Ranked #2",
+            "description": "Get a P Rank on every level in World 2.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 70,
+            "apiname": "ACH_PRANK_3",
+            "name": "P Ranked #3",
+            "description": "Get a P Rank on every level in World 3.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 71,
+            "apiname": "ACH_PRANK_4",
+            "name": "P Ranked #4",
+            "description": "Get a P Rank on every level in World 4.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 72,
+            "apiname": "ACH_PRANK_5",
+            "name": "P Ranked #5",
+            "description": "Get a P Rank on every level in World 5.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 73,
+            "apiname": "ACH_HALLOWEEN_1",
+            "name": "Pumpkin Munchkin",
+            "description": "Find all 30 hidden pumpkins from the Halloween Update.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "ACH_HALLOWEEN_2",
+            "name": "Tricksy",
+            "description": "Collect all 10 pumpkins in the Tricky Treat level in a single run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        }
+
+    ]
+}

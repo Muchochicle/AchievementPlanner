@@ -69,6 +69,9 @@ import { GUIDE as neonWhiteAchievementGuide } from "./games/neon-white.js";
 import { GUIDE as chainedEchoesAchievementGuide } from "./games/chained-echoes.js";
 import { GUIDE as cryptOfTheNecrodancerAchievementGuide } from "./games/crypt-of-the-necrodancer.js";
 import { GUIDE as dorfromantikAchievementGuide } from "./games/dorfromantik.js";
+import { GUIDE as pizzaTowerAchievementGuide } from "./games/pizza-tower.js";
+import { GUIDE as daveTheDiverAchievementGuide } from "./games/dave-the-diver.js";
+import { GUIDE as curseOfTheDeadGodsAchievementGuide } from "./games/curse-of-the-dead-gods.js";
 
 export const APP_GUIDES = [
 
@@ -160,7 +163,10 @@ export const GAME_GUIDES = [
     neonWhiteAchievementGuide,
     chainedEchoesAchievementGuide,
     cryptOfTheNecrodancerAchievementGuide,
-    dorfromantikAchievementGuide
+    dorfromantikAchievementGuide,
+    pizzaTowerAchievementGuide,
+    daveTheDiverAchievementGuide,
+    curseOfTheDeadGodsAchievementGuide
 
 ];
 
