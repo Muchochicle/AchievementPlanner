@@ -126,6 +126,9 @@ import { GUIDE as dysonSphereProgramAchievementGuide } from "./games/dyson-spher
 import { GUIDE as residentEvil2RemakeAchievementGuide } from "./games/resident-evil-2-remake.js";
 import { GUIDE as residentEvil4RemakeAchievementGuide } from "./games/resident-evil-4-remake.js";
 import { GUIDE as residentEvilVillageAchievementGuide } from "./games/resident-evil-village.js";
+import { GUIDE as factorioAchievementGuide } from "./games/factorio.js";
+import { GUIDE as slimeRancherAchievementGuide } from "./games/slime-rancher.js";
+import { GUIDE as narakaBladepointAchievementGuide } from "./games/naraka-bladepoint.js";
 
 export const APP_GUIDES = [
 
@@ -274,7 +277,10 @@ export const GAME_GUIDES = [
     dysonSphereProgramAchievementGuide,
     residentEvil2RemakeAchievementGuide,
     residentEvil4RemakeAchievementGuide,
-    residentEvilVillageAchievementGuide
+    residentEvilVillageAchievementGuide,
+    factorioAchievementGuide,
+    slimeRancherAchievementGuide,
+    narakaBladepointAchievementGuide
 
 ];
 

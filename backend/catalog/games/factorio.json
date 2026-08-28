@@ -1,0 +1,814 @@
+{
+    "id": 427520,
+    "steamAppId": 427520,
+    "name": "Factorio",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 80,
+        "max": 300
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Automation",
+        "Factory Builder",
+        "Strategy",
+        "Simulation"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "automated-cleanup",
+            "name": "Automated cleanup",
+            "description": "Deconstruct 100 objects with the construction robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 2,
+            "apiname": "automated-construction",
+            "name": "Automated construction",
+            "description": "Construct 100 machines using robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 3,
+            "apiname": "circuit-veteran-1",
+            "name": "Circuit veteran 1",
+            "description": "Produce 1.0k advanced circuits per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 4,
+            "apiname": "circuit-veteran-2",
+            "name": "Circuit veteran 2",
+            "description": "Produce 10k advanced circuits per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 5,
+            "apiname": "circuit-veteran-3",
+            "name": "Circuit veteran 3",
+            "description": "Produce 25k advanced circuits per hour.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 6,
+            "apiname": "computer-age-1",
+            "name": "Computer age 1",
+            "description": "Produce 500 processing units per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 7,
+            "apiname": "computer-age-2",
+            "name": "Computer age 2",
+            "description": "Produce 1.0k processing units per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 8,
+            "apiname": "computer-age-3",
+            "name": "Computer age 3",
+            "description": "Produce 5k processing units per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 9,
+            "apiname": "you-have-got-a-package",
+            "name": "You've got a package",
+            "description": "Supply the character by logistic robot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 10,
+            "apiname": "delivery-service",
+            "name": "Delivery service",
+            "description": "Supply the character with 10k items delivered by logistic robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 11,
+            "apiname": "eco-unfriendly",
+            "name": "Eco unfriendly",
+            "description": "Research oil processing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 12,
+            "apiname": "getting-on-track",
+            "name": "Getting on track",
+            "description": "Build a locomotive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 13,
+            "apiname": "getting-on-track-like-a-pro",
+            "name": "Getting on track like a pro",
+            "description": "Build a locomotive within the first 90 minutes of the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 14,
+            "apiname": "golem",
+            "name": "Golem",
+            "description": "Survive a hit of 500 damage or more.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 15,
+            "apiname": "iron-throne-1",
+            "name": "Iron throne 1",
+            "description": "Produce 20k iron plates per hour.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 16,
+            "apiname": "iron-throne-2",
+            "name": "Iron throne 2",
+            "description": "Produce 200k iron plates per hour.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 17,
+            "apiname": "iron-throne-3",
+            "name": "Iron throne 3",
+            "description": "Produce 400k iron plates per hour.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 18,
+            "apiname": "it-stinks-and-they-dont-like-it",
+            "name": "It stinks and they don't like it",
+            "description": "Trigger an alien attack by pollution.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 19,
+            "apiname": "lazy-bastard",
+            "name": "Lazy bastard",
+            "description": "Launch a rocket to space while manually crafting no more than 111 items.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 20,
+            "apiname": "logistic-network-embargo",
+            "name": "Logistic network embargo",
+            "description": "Finish research with space science pack for the base game or any planetary science pack for Space Age without building any active provider, buffer, or requester chests.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 21,
+            "apiname": "mass-production-1",
+            "name": "Mass production 1",
+            "description": "Produce 10k electronic circuits.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 22,
+            "apiname": "mass-production-2",
+            "name": "Mass production 2",
+            "description": "Produce 1M electronic circuits.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 23,
+            "apiname": "mass-production-3",
+            "name": "Mass production 3",
+            "description": "Produce 20M electronic circuits.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 24,
+            "apiname": "minions",
+            "name": "Minions",
+            "description": "Have 100 combat robots or more following you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 25,
+            "apiname": "smoke-me-a-kipper-i-will-be-back-for-breakfast",
+            "name": "Smoke me a kipper, I'll be back for breakfast",
+            "description": "Launch a rocket to space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 26,
+            "apiname": "no-time-for-chitchat",
+            "name": "No time for chitchat",
+            "description": "Launch a rocket to space within 15 hours.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 27,
+            "apiname": "there-is-no-spoon",
+            "name": "There is no spoon",
+            "description": "Launch a rocket to space within 8 hours.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 28,
+            "apiname": "pyromaniac",
+            "name": "Pyromaniac",
+            "description": "Destroy 10k trees with fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 29,
+            "apiname": "raining-bullets",
+            "name": "Raining bullets",
+            "description": "Launch a rocket to space without building any laser turrets.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 30,
+            "apiname": "run-forrest-run",
+            "name": "Run Forrest, run",
+            "description": "Destroy 100 trees by impact.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 31,
+            "apiname": "solaris",
+            "name": "Solaris",
+            "description": "Produce more than 10 GJ per hour using only solar panels.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 32,
+            "apiname": "so-long-and-thanks-for-all-the-fish",
+            "name": "So long and thanks for all the fish",
+            "description": "Eat a raw fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 33,
+            "apiname": "steam-all-the-way",
+            "name": "Steam all the way",
+            "description": "Launch a rocket to space without building any solar panels.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 34,
+            "apiname": "steamrolled",
+            "name": "Steamrolled",
+            "description": "Destroy 10 spawners by impact.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 35,
+            "apiname": "tech-maniac",
+            "name": "Tech maniac",
+            "description": "Research all technologies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 36,
+            "apiname": "trans-factorio-express",
+            "name": "Trans-Factorio express",
+            "description": "Have a train plan a path 1,000 tiles or longer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 37,
+            "apiname": "watch-your-step",
+            "name": "Watch your step",
+            "description": "Get killed by a moving locomotive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 38,
+            "apiname": "you-are-doing-it-right",
+            "name": "You are doing it right",
+            "description": "Construct more machines using robots than manually.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 39,
+            "apiname": "arachnophilia",
+            "name": "Arachnophilia",
+            "description": "Build a spidertron.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 40,
+            "apiname": "art-of-siege",
+            "name": "Art of siege",
+            "description": "Destroy an enemy structure using artillery.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 41,
+            "apiname": "automate-this",
+            "name": "Automate this!",
+            "description": "Build an assembling machine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 42,
+            "apiname": "crafting-with-efficiency",
+            "name": "Crafting with efficiency",
+            "description": "Craft an efficiency module 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 43,
+            "apiname": "crafting-with-productivity",
+            "name": "Crafting with productivity",
+            "description": "Craft a productivity module 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 44,
+            "apiname": "crafting-with-quality",
+            "name": "Crafting with quality",
+            "description": "Craft a quality module 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 45,
+            "apiname": "crafting-with-speed",
+            "name": "Crafting with speed",
+            "description": "Craft a speed module 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 46,
+            "apiname": "destroyer-of-worlds",
+            "name": "I am the destroyer of worlds",
+            "description": "Use an atomic bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 47,
+            "apiname": "express-delivery",
+            "name": "Express delivery",
+            "description": "Finish the game within 40 hours.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 48,
+            "apiname": "fusion-power",
+            "name": "Fusion power",
+            "description": "Start producing electric power by fusion powerplant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 49,
+            "apiname": "get-off-my-lawn",
+            "name": "Get off my lawn",
+            "description": "Disturb a demolisher by building on its territory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 50,
+            "apiname": "if-it-bleeds",
+            "name": "If it bleeds, we can kill it",
+            "description": "Kill a small demolisher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 51,
+            "apiname": "it-stinks-and-they-do-like-it",
+            "name": "It stinks and they do like it",
+            "description": "Attract a group of pentapods using spores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 52,
+            "apiname": "keeping-your-hands-clean",
+            "name": "Keeping your hands clean",
+            "description": "Destroy your first enemy structure using artillery.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 53,
+            "apiname": "look-at-my-shiny-rare-armor",
+            "name": "Look at my shiny rare armor",
+            "description": "Equip rare or better quality of power armor MK2 or mech armor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 54,
+            "apiname": "make-it-better",
+            "name": "Make it better",
+            "description": "Manually insert a quality module into a module slot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 55,
+            "apiname": "mining-with-determination",
+            "name": "Mining with determination",
+            "description": "Completely deplete a resource patch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 56,
+            "apiname": "my-modules-are-legendary",
+            "name": "My modules are legendary",
+            "description": "Craft a legendary quality module 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 57,
+            "apiname": "no-room-for-more",
+            "name": "No room for more",
+            "description": "Fill every tile of legendary mech armor with legendary equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 58,
+            "apiname": "nuclear-power",
+            "name": "Nuclear power",
+            "description": "Start producing electric power by nuclear powerplant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 59,
+            "apiname": "pest-control",
+            "name": "Pest control",
+            "description": "Destroy a biter spawner.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 60,
+            "apiname": "reach-for-the-stars",
+            "name": "Reach for the stars",
+            "description": "Create a space platform.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 61,
+            "apiname": "research-with-agriculture",
+            "name": "Research with agriculture",
+            "description": "Research a technology using agricultural science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 62,
+            "apiname": "research-with-automation",
+            "name": "Research with automation",
+            "description": "Research a technology using automation science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 63,
+            "apiname": "research-with-chemicals",
+            "name": "Research with chemicals",
+            "description": "Research a technology using chemical science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 64,
+            "apiname": "research-with-cryogenics",
+            "name": "Research with cryogenics",
+            "description": "Research a technology using cryogenic science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 65,
+            "apiname": "research-with-electromagnetics",
+            "name": "Research with electromagnetics",
+            "description": "Research a technology using electromagnetic science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 66,
+            "apiname": "research-with-logistics",
+            "name": "Research with logistics",
+            "description": "Research a technology using logistic science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 67,
+            "apiname": "research-with-metallurgics",
+            "name": "Research with metallurgics",
+            "description": "Research a technology using metallurgic science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 68,
+            "apiname": "research-with-military",
+            "name": "Research with military",
+            "description": "Research a technology using military science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 69,
+            "apiname": "research-with-production",
+            "name": "Research with production",
+            "description": "Research a technology using production science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 70,
+            "apiname": "research-with-space",
+            "name": "Research with space",
+            "description": "Research a technology using space science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 71,
+            "apiname": "research-with-utility",
+            "name": "Research with utility",
+            "description": "Research a technology using utility science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 72,
+            "apiname": "rush-to-space",
+            "name": "Rush to space",
+            "description": "Research a technology using another planet's science pack before unlocking production or utility science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 73,
+            "apiname": "second-star-to-the-right-and-straight-on-till-morning",
+            "name": "Second star to the right and straight on till morning",
+            "description": "Finish the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 74,
+            "apiname": "shattered-planet-1",
+            "name": "Going to shattered planet 1",
+            "description": "Travel 10 000 km towards the shattered planet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 75,
+            "apiname": "shattered-planet-2",
+            "name": "Going to shattered planet 2",
+            "description": "Travel 30 000 km towards the shattered planet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 76,
+            "apiname": "shattered-planet-3",
+            "name": "Going to shattered planet 3",
+            "description": "Travel 60 000 km towards the shattered planet.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 77,
+            "apiname": "size-doesnt-matter",
+            "name": "Size doesn't matter",
+            "description": "Kill a big demolisher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 78,
+            "apiname": "solar-power",
+            "name": "Solar power",
+            "description": "Start producing electric power by solar panels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 79,
+            "apiname": "steam-power",
+            "name": "Steam power",
+            "description": "Start producing electric power by steam engine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 80,
+            "apiname": "terraformer",
+            "name": "Terraformer",
+            "description": "Destroy a cliff.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 81,
+            "apiname": "todays-fish-is-trout-a-la-creme",
+            "name": "Today's fish is trout a la creme",
+            "description": "Eat a legendary fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 82,
+            "apiname": "visit-aquilo",
+            "name": "Visit Aquilo",
+            "description": "Travel to planet Aquilo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 83,
+            "apiname": "visit-fulgora",
+            "name": "Visit Fulgora",
+            "description": "Travel to planet Fulgora.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 84,
+            "apiname": "visit-gleba",
+            "name": "Visit Gleba",
+            "description": "Travel to planet Gleba.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 85,
+            "apiname": "visit-vulcanus",
+            "name": "Visit Vulcanus",
+            "description": "Travel to planet Vulcanus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 86,
+            "apiname": "we-need-bigger-guns",
+            "name": "We need bigger guns",
+            "description": "Kill a medium demolisher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 87,
+            "apiname": "work-around-the-clock",
+            "name": "Work around the clock",
+            "description": "Finish the game within 100 hours.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 88,
+            "apiname": "research-with-promethium",
+            "name": "Research with promethium",
+            "description": "Research a technology using promethium science packs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 180
+        }
+    ]
+}

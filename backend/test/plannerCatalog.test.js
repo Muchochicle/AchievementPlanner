@@ -150,6 +150,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("resident-evil-2-remake"));
     assert.ok(slugs.includes("resident-evil-4-remake"));
     assert.ok(slugs.includes("resident-evil-village"));
+    assert.ok(slugs.includes("factorio"));
+    assert.ok(slugs.includes("slime-rancher"));
+    assert.ok(slugs.includes("naraka-bladepoint"));
 
 });
 
