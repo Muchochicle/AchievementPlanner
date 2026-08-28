@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 151);
+    assert.strictEqual(GAME_GUIDES.length, 154);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["7-days-to-die", "a-hat-in-time", "a-little-to-the-left", "a-short-hike", "age-of-empires-1-de", "age-of-empires-2-de", "age-of-empires-4", "age-of-mythology-retold", "ark-survival-evolved", "astral-ascent", "baba-is-you", "balatro", "baldurs-gate-3", "bastion", "batman-arkham-city", "bloons-td-6", "borderlands-2", "braid", "brotato", "celeste", "chained-echoes", "chicory", "cities-skylines", "cities-skylines-2", "civilization-5", "civilization-vi", "company-of-heroes-2", "content-warning", "counter-strike-source", "crusader-kings-3", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "deep-rock-galactic", "devil-may-cry-5", "disco-elysium", "dome-keeper", "doom-1993", "doom-2016", "doom-eternal", "dorfromantik", "dredge", "dying-light", "dyson-sphere-program", "elden-ring", "enter-the-gungeon", "euro-truck-simulator-2", "factorio", "fall-guys", "fallout-new-vegas", "far-cry-5", "farming-simulator-22", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "green-hell", "griftlands", "grounded", "guacamelee-2", "hades", "half-life-2", "hearts-of-iron-4", "hitman-world-of-assassination", "hogwarts-legacy", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "monster-hunter-rise", "monster-hunter-world", "moonlighter", "mount-and-blade-2-bannerlord", "naraka-bladepoint", "neon-abyss", "neon-white", "no-mans-sky", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "payday-3", "phasmophobia", "pizza-tower", "portal", "portal-2", "pubg-battlegrounds", "pyre", "raft", "red-dead-redemption-2", "resident-evil-2-remake", "resident-evil-4-remake", "resident-evil-village", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rocket-league", "rogue-legacy", "rust", "sable", "satisfactory", "sea-of-thieves", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "slime-rancher", "spelunky-2", "stardew-valley", "steamworld-dig-2", "stellaris", "streets-of-rogue", "superliminal", "team-fortress-2", "terraria", "the-forest", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-2", "the-witcher-3", "thomas-was-alone", "total-war-rome-2", "total-war-three-kingdoms", "total-war-warhammer-2", "total-war-warhammer-3", "transistor", "v-rising", "va11-hall-a", "vampire-survivors", "void-bastards", "wallpaper-engine", "war-thunder", "what-remains-of-edith-finch"]
+        ["7-days-to-die", "a-hat-in-time", "a-little-to-the-left", "a-short-hike", "age-of-empires-1-de", "age-of-empires-2-de", "age-of-empires-4", "age-of-mythology-retold", "ark-survival-evolved", "astral-ascent", "baba-is-you", "balatro", "baldurs-gate-3", "bastion", "batman-arkham-city", "bloons-td-6", "borderlands-2", "braid", "brotato", "celeste", "chained-echoes", "chicory", "cities-skylines", "cities-skylines-2", "civilization-5", "civilization-vi", "company-of-heroes-2", "content-warning", "counter-strike-source", "crusader-kings-3", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "deep-rock-galactic", "devil-may-cry-5", "disco-elysium", "dome-keeper", "doom-1993", "doom-2016", "doom-eternal", "dorfromantik", "dredge", "dying-light", "dyson-sphere-program", "elden-ring", "enter-the-gungeon", "euro-truck-simulator-2", "factorio", "fall-guys", "fallout-new-vegas", "far-cry-3", "far-cry-5", "farming-simulator-22", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "green-hell", "griftlands", "grounded", "guacamelee-2", "hades", "half-life-2", "hearts-of-iron-4", "hitman-world-of-assassination", "hogwarts-legacy", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "metro-2033-redux", "monster-hunter-rise", "monster-hunter-world", "moonlighter", "mount-and-blade-2-bannerlord", "naraka-bladepoint", "neon-abyss", "neon-white", "no-mans-sky", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "payday-3", "phasmophobia", "pizza-tower", "portal", "portal-2", "pubg-battlegrounds", "pyre", "raft", "red-dead-redemption-2", "resident-evil-2-remake", "resident-evil-4-remake", "resident-evil-village", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rocket-league", "rogue-legacy", "rust", "sable", "satisfactory", "sea-of-thieves", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "slime-rancher", "spelunky-2", "stardew-valley", "steamworld-dig-2", "stellaris", "streets-of-rogue", "superliminal", "team-fortress-2", "terraria", "the-forest", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-2", "the-witcher-3", "thomas-was-alone", "tomb-raider-2013", "total-war-rome-2", "total-war-three-kingdoms", "total-war-warhammer-2", "total-war-warhammer-3", "transistor", "v-rising", "va11-hall-a", "vampire-survivors", "void-bastards", "wallpaper-engine", "war-thunder", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -105,6 +105,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "factorio-achievement-guide",
             "fall-guys-achievement-guide",
             "fallout-new-vegas-achievement-guide",
+            "far-cry-3-achievement-guide",
             "far-cry-5-achievement-guide",
             "farming-simulator-22-achievement-guide",
             "frostpunk-achievement-guide",
@@ -132,6 +133,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "little-nightmares-achievement-guide",
             "loop-hero-achievement-guide",
             "mark-of-the-ninja-achievement-guide",
+            "metro-2033-redux-achievement-guide",
             "monster-hunter-rise-achievement-guide",
             "monster-hunter-world-achievement-guide",
             "moonlighter-achievement-guide",
@@ -187,6 +189,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "the-witcher-2-achievement-guide",
             "the-witcher-3-achievement-guide",
             "thomas-was-alone-achievement-guide",
+            "tomb-raider-2013-achievement-guide",
             "total-war-rome-2-achievement-guide",
             "total-war-three-kingdoms-achievement-guide",
             "total-war-warhammer-2-achievement-guide",

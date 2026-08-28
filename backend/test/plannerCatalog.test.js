@@ -183,6 +183,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("batman-arkham-city"));
     assert.ok(slugs.includes("far-cry-5"));
     assert.ok(slugs.includes("fall-guys"));
+    assert.ok(slugs.includes("far-cry-3"));
+    assert.ok(slugs.includes("metro-2033-redux"));
+    assert.ok(slugs.includes("tomb-raider-2013"));
 
 });
 

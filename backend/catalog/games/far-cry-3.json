@@ -1,0 +1,418 @@
+{
+    "id": 220240,
+    "steamAppId": 220240,
+    "name": "Far Cry 3",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/220240/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Open World",
+        "Shooter",
+        "Action",
+        "Adventure"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FarCry3_Ach_1",
+            "name": "First Blood",
+            "description": "Escape the pirates and survive in the wilderness.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "FarCry3_Ach_2",
+            "name": "Magic Mushroom",
+            "description": "Return to the doctor with the cave mushrooms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "FarCry3_Ach_3",
+            "name": "Worst Date Ever",
+            "description": "Escape the burning hotel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "FarCry3_Ach_4",
+            "name": "One of Us",
+            "description": "Complete the Rakyat initiation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "FarCry3_Ach_5",
+            "name": "Hands Off My Stoner",
+            "description": "Rescue your friend before he is sold as a slave.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "FarCry3_Ach_6",
+            "name": "Retake Wall Street",
+            "description": "Rescue your friend from torture.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "FarCry3_Ach_7",
+            "name": "Have I Told You?",
+            "description": "Discover the definition of insanity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "FarCry3_Ach_8",
+            "name": "Taken for Granted",
+            "description": "Survive Vaas’s attack in the compound.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "FarCry3_Ach_9",
+            "name": "Higher Than a Kite",
+            "description": "Reach the South Island alive. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "FarCry3_Ach_10",
+            "name": "Deep Cover",
+            "description": "Don’t blow cover during the interrogation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "FarCry3_Ach_11",
+            "name": "Poker Night",
+            "description": "Win the poker game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "FarCry3_Ach_12",
+            "name": "What a Trip",
+            "description": "Attend the final ceremony.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "FarCry3_Ach_13",
+            "name": "Free Fall",
+            "description": "Freefall more than 100m and live (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "FarCry3_Ach_14",
+            "name": "Inked Up",
+            "description": "Earn 5 skill tattoos.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "FarCry3_Ach_15",
+            "name": "Fully Inked",
+            "description": "Earn every tattoo by learning all the skills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 16,
+            "apiname": "FarCry3_Ach_16",
+            "name": "Money to Burn",
+            "description": "Spend $5000 at the shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "FarCry3_Ach_17",
+            "name": "Aftermarket Junkie",
+            "description": "Buy all attachments and paint jobs for one weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "FarCry3_Ach_18",
+            "name": "Rebel With a Cause",
+            "description": "Liberate 3 outposts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "FarCry3_Ach_19",
+            "name": "Island Liberator",
+            "description": "Liberate all outposts.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 20,
+            "apiname": "FarCry3_Ach_20",
+            "name": "Unheard",
+            "description": "Liberate an outpost without triggering an alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "FarCry3_Ach_21",
+            "name": "Full Bars",
+            "description": "Activate 9 radio towers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "FarCry3_Ach_22",
+            "name": "Archeology 101",
+            "description": "Gather a total of 60 relics.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 23,
+            "apiname": "FarCry3_Ach_23",
+            "name": "Dead Letters",
+            "description": "Gather all \"Letters of the Lost\".",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 24,
+            "apiname": "FarCry3_Ach_24",
+            "name": "Memory to Spare",
+            "description": "Gather all the memory cards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 25,
+            "apiname": "FarCry3_Ach_25",
+            "name": "Jungle Journal",
+            "description": "Unlock 50 entries in the Survival Guide.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 26,
+            "apiname": "FarCry3_Ach_26",
+            "name": "Bagged and Tagged",
+            "description": "Complete a Path of the Hunter quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "FarCry3_Ach_27",
+            "name": "Road Trip",
+            "description": "Complete a Supply Drop quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "FarCry3_Ach_28",
+            "name": "In Cold Blood",
+            "description": "Complete a WANTED Dead quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "FarCry3_Ach_29",
+            "name": "Let the Trials Begin",
+            "description": "Beat any Trials of the Rakyat score.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "FarCry3_Ach_30",
+            "name": "Poker Bully",
+            "description": "Win $1500 playing poker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "FarCry3_Ach_31",
+            "name": "Hunter Hunted",
+            "description": "Lure and kill a predator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "FarCry3_Ach_32",
+            "name": "Poacher",
+            "description": "Hunt and skin a rare animal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "FarCry3_Ach_33",
+            "name": "Artsy Craftsy",
+            "description": "Craft 5 upgrades for your equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "FarCry3_Ach_34",
+            "name": "Needle Exchange",
+            "description": "Craft 25 syringes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "FarCry3_Ach_35",
+            "name": "The Good Stuff",
+            "description": "Craft a Special syringe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "FarCry3_Ach_36",
+            "name": "Say Hi to the Internet",
+            "description": "Find the lost Hollywood star.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "FarCry3_Ach_37",
+            "name": "Heartless Pyro",
+            "description": "Kill 50 enemies with the flamethrower (Single Player only).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "FarCry3_Ach_38",
+            "name": "Love the Boom",
+            "description": "Kill 4 enemies simultaneously with one explosion (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "FarCry3_Ach_39",
+            "name": "Rock Always Wins",
+            "description": "Fully distract 25 enemies with rocks (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "FarCry3_Ach_40",
+            "name": "Never Saw it Coming",
+            "description": "Kill an enemy with a takedown from above from a glider, zipline or parachute (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "FarCry3_Ach_41",
+            "name": "Improper Use",
+            "description": "Kill an enemy with the Repair Tool (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "FarCry3_Ach_42",
+            "name": "Toxophilite",
+            "description": "Kill a target from 70m or more with the bow (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "FarCry3_Ach_43",
+            "name": "Island Paparazzi",
+            "description": "Tag 25 enemies using the camera (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "FarCry3_Ach_44",
+            "name": "Fearless or Stupid",
+            "description": "Dive more than 60m (Single Player only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}
