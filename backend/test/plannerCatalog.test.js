@@ -105,6 +105,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("elden-ring"));
     assert.ok(slugs.includes("baldurs-gate-3"));
     assert.ok(slugs.includes("cyberpunk-2077"));
+    assert.ok(slugs.includes("terraria"));
+    assert.ok(slugs.includes("skyrim-special-edition"));
+    assert.ok(slugs.includes("the-witcher-3"));
 
 });
 

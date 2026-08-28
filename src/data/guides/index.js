@@ -81,6 +81,9 @@ import { GUIDE as aLittleToTheLeftAchievementGuide } from "./games/a-little-to-t
 import { GUIDE as eldenRingAchievementGuide } from "./games/elden-ring.js";
 import { GUIDE as baldursGate3AchievementGuide } from "./games/baldurs-gate-3.js";
 import { GUIDE as cyberpunk2077AchievementGuide } from "./games/cyberpunk-2077.js";
+import { GUIDE as terrariaAchievementGuide } from "./games/terraria.js";
+import { GUIDE as skyrimSpecialEditionAchievementGuide } from "./games/skyrim-special-edition.js";
+import { GUIDE as theWitcher3AchievementGuide } from "./games/the-witcher-3.js";
 
 export const APP_GUIDES = [
 
@@ -184,7 +187,10 @@ export const GAME_GUIDES = [
     aLittleToTheLeftAchievementGuide,
     eldenRingAchievementGuide,
     baldursGate3AchievementGuide,
-    cyberpunk2077AchievementGuide
+    cyberpunk2077AchievementGuide,
+    terrariaAchievementGuide,
+    skyrimSpecialEditionAchievementGuide,
+    theWitcher3AchievementGuide
 
 ];
 

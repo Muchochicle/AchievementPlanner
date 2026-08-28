@@ -1,0 +1,807 @@
+{
+    "id": 292030,
+    "steamAppId": 292030,
+
+    "name": "The Witcher 3: Wild Hunt",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 90,
+        "max": 200
+    },
+
+    "missable": true,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": ["Open World","RPG","Story Rich","Dark Fantasy","Adventure"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "LILAC",
+            "name": "Lilac and Gooseberries",
+            "description": "Find Yennefer of Vengerberg (complete the White Orchard prologue).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 2,
+            "apiname": "FRIEND_IN_NEED",
+            "name": "A Friend in Need",
+            "description": "Rescue Dandelion during the main story.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 3,
+            "apiname": "NECROMANCER",
+            "name": "Necromancer",
+            "description": "Complete the main quest \"Nameless\".",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 2400
+        },
+
+        {
+            "id": 4,
+            "apiname": "FAMILY_COUNSELOR",
+            "name": "Family Counselor",
+            "description": "Complete \"Family Matters\" and resolve the Bloody Baron's storyline.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 5,
+            "apiname": "SOMETHING_MORE",
+            "name": "Something More",
+            "description": "Find Ciri (complete \"The Isle of Mists\").",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 2400
+        },
+
+        {
+            "id": 6,
+            "apiname": "XENONAUT",
+            "name": "Xenonaut",
+            "description": "Complete the main quest \"Through Time and Space\".",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 7,
+            "apiname": "THE_KING",
+            "name": "The King is Dead",
+            "description": "Defeat Eredin (complete the main story).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 2400
+        },
+
+        {
+            "id": 8,
+            "apiname": "PASSED_THE_TRIAL",
+            "name": "Passed the Trial",
+            "description": "Finish the game on any difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 2400
+        },
+
+        {
+            "id": 9,
+            "apiname": "RAN_THE_GAUNTLET",
+            "name": "Ran the Gauntlet",
+            "description": "Finish the game on the \"Blood and Broken Bones!\" or \"Death March!\" difficulty levels.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 3600
+        },
+
+        {
+            "id": 10,
+            "apiname": "WALKED_THE_PATH",
+            "name": "Walked the Path",
+            "description": "Finish the game on the \"Death March!\" difficulty level.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 3600
+        },
+
+        {
+            "id": 11,
+            "apiname": "THE_PROFESSIONAL",
+            "name": "Geralt: The Professional",
+            "description": "Complete every witcher contract in Velen, Novigrad and Skellige before finishing the game.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 12,
+            "apiname": "MAKER",
+            "name": "Kingmaker",
+            "description": "Complete the an Craite family quests in Skellige and decide who rules the isles.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 13,
+            "apiname": "ASSASSIN",
+            "name": "Assassin of Kings",
+            "description": "Complete the secondary quest \"Reason of State\".",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 14,
+            "apiname": "FRIENDS_WITH_BENEFITS",
+            "name": "Friends With Benefits",
+            "description": "Complete Keira Metz's questline and decide her fate.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 15,
+            "apiname": "FULL_CREW",
+            "name": "Full Crew",
+            "description": "Bring every possible ally to the battle for Kaer Morhen.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 16,
+            "apiname": "DENDROLOGIST",
+            "name": "Dendrologist",
+            "description": "Acquire all the Abilities in one tree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "ENEMY_OF_MY_ENEMY",
+            "name": "The Enemy of My Enemy",
+            "description": "Use the Axii Sign to force one opponent to kill another. Do this 20 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "HUMPTY_DUMPTY",
+            "name": "Humpty Dumpty",
+            "description": "Kill 10 opponents by knocking them off somewhere high with the Aard Sign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 19,
+            "apiname": "ENVIRONMENTALLY_UNFRIENDLY",
+            "name": "Environmentally Unfriendly",
+            "description": "Kill 50 opponents using the environment (e.g. swamp gas, insects or objects).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 20,
+            "apiname": "KAER_MORHEN_TRAINED",
+            "name": "Kaer Morhen Trained",
+            "description": "Perform 10 effective counterattacks in a row without getting hit or parrying.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 21,
+            "apiname": "CANT_TOUCH_THIS",
+            "name": "Can't Touch This!",
+            "description": "Kill 5 foes in a fight without taking damage (except for Toxicity) and without using the Quen Sign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 22,
+            "apiname": "THE_EVILEST_THING",
+            "name": "That Is the Evilest Thing",
+            "description": "Ignite the gas produced by a Dragon's Dream bomb using a burning opponent. Do this 10 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 23,
+            "apiname": "MUTANT",
+            "name": "Mutant",
+            "description": "Fill all mutagen slots.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "BUTCHER_OF_BLAVIKEN",
+            "name": "Butcher of Blaviken",
+            "description": "Kill at least 5 opponents in under 10 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "TRIPLE_THREAT",
+            "name": "Triple Threat",
+            "description": "Kill 3 opponents in one fight using three different methods (sword, Sign, bomb, crossbow, etc.).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "BRAWLER",
+            "name": "Brawler",
+            "description": "Defeat Olaf, the Skellige champion of unarmed combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 27,
+            "apiname": "OVERKILL",
+            "name": "Overkill",
+            "description": "Make an opponent suffer from bleeding, poisoning and burning simultaneously. Do this 10 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "MASTER_MARKSMAN",
+            "name": "Master Marksman",
+            "description": "Kill 50 human and nonhuman opponents by striking them in the head with a crossbow bolt.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 29,
+            "apiname": "WHAT_WAS_THAT",
+            "name": "What Was That?",
+            "description": "Within 4 seconds, hit an opponent with a bomb, a counterattack, a Sign and a melee attack.",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 30,
+            "apiname": "EVEN_ODDS",
+            "name": "Even Odds",
+            "description": "Kill 2 monsters you have a contract on without using Signs, potions, mutagens, oils or bombs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 31,
+            "apiname": "GLOBETROTTER",
+            "name": "Globetrotter",
+            "description": "Discover 100 fast travel points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 32,
+            "apiname": "PEST_CONTROL",
+            "name": "Pest Control",
+            "description": "Destroy all monster nests in the Velen / Novigrad region, or in Skellige.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 33,
+            "apiname": "CARD_COLLECTOR",
+            "name": "Card Collector",
+            "description": "Acquire all gwent cards available in the base version of the game.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 34,
+            "apiname": "GWENT_MASTER",
+            "name": "Gwent Master",
+            "description": "Defeat Tybalt and win the gwent tournament held at the Passiflora.",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 35,
+            "apiname": "LETS_COOK",
+            "name": "Let's Cook!",
+            "description": "Learn 12 potion formulae.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 36,
+            "apiname": "BOMBARDIER",
+            "name": "Bombardier",
+            "description": "Collect the formulae for 6 different bomb types.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 37,
+            "apiname": "BOOKWORM",
+            "name": "Bookworm",
+            "description": "Read 30 books, journals or other documents.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 38,
+            "apiname": "ARMED_AND_DANGEROUS",
+            "name": "Armed and Dangerous",
+            "description": "Find and equip all the elements of one set of witcher gear.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 39,
+            "apiname": "POWER_OVERWHELMING",
+            "name": "Power Overwhelming",
+            "description": "Have all possible Place of Power bonuses active at the same time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 40,
+            "apiname": "BRAWL_MASTER",
+            "name": "Brawl Master",
+            "description": "Complete all fistfighting quests in Velen, Skellige and Novigrad.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "FAST_AND_FURIOUS",
+            "name": "Fast and Furious",
+            "description": "Win all the horse races in the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 42,
+            "apiname": "MUNCHKIN",
+            "name": "Munchkin",
+            "description": "Reach character development level 35.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "FIRE_IN_THE_HOLE",
+            "name": "Fire in the Hole",
+            "description": "Destroy 10 monster nests using bombs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 44,
+            "apiname": "FIST_OF_THE_SOUTH_STAR",
+            "name": "Fist of the South Star",
+            "description": "Defeat an opponent in a fistfight without taking any damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 45,
+            "apiname": "GERALT_AND_FRIENDS",
+            "name": "Geralt and Friends",
+            "description": "Win a round of gwent using only neutral cards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 46,
+            "apiname": "ALL_IN",
+            "name": "All In",
+            "description": "Play three hero cards in one round of gwent and win the match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 47,
+            "apiname": "SHRIEKER",
+            "name": "Shrieker",
+            "description": "Complete the contract on the shrieker.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "FEARLESS_VAMPIRE_SLAYER",
+            "name": "Fearless Vampire Slayer",
+            "description": "Complete the contract on Sarasti.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "WOODLAND_SPIRIT",
+            "name": "Woodland Spirit",
+            "description": "Complete the contract on the Woodland Spirit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "FIEND_OR_FOE",
+            "name": "Fiend or Foe?",
+            "description": "Complete the contract on Morvudd.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 51,
+            "apiname": "ASHES_TO_ASHES",
+            "name": "Ashes to Ashes",
+            "description": "Complete the contract on Therazane.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "THE_DOPPLER_EFFECT",
+            "name": "The Doppler Effect",
+            "description": "Resolve the doppler problem in Novigrad.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 53,
+            "apiname": "EP1_1",
+            "name": "I'm Not Kissing That",
+            "description": "Hearts of Stone: kill the prince cursed into a toad.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 54,
+            "apiname": "EP1_2",
+            "name": "Let the Good Times Roll!",
+            "description": "Hearts of Stone: take part in all 10 wedding activities during \"Dead Man's Party\".",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 55,
+            "apiname": "EP1_3",
+            "name": "Shopaholic",
+            "description": "Hearts of Stone: buy all three lots at the Borsodi auction house.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 56,
+            "apiname": "EP1_4",
+            "name": "Curator of Nightmares",
+            "description": "Hearts of Stone: recreate all eight of Iris's memories in the painting world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 57,
+            "apiname": "EP1_5",
+            "name": "Pacta Sunt Servanda",
+            "description": "Finish the Hearts of Stone expansion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 58,
+            "apiname": "EP1_6",
+            "name": "When It's Many Against One…",
+            "description": "Hearts of Stone: provoke all six of Iris's Nightmares into fighting you at once and defeat them.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 59,
+            "apiname": "EP1_7",
+            "name": "Return to Sender",
+            "description": "Kill 3 opponents with their own arrows.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 60,
+            "apiname": "EP1_8",
+            "name": "Can Quit Anytime I Want",
+            "description": "Be under the influence of seven potions or decoctions at the same time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 61,
+            "apiname": "EP1_9",
+            "name": "Wild Rose Dethorned",
+            "description": "Hearts of Stone: clear all the Order of the Flaming Rose deserter camps.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 62,
+            "apiname": "EP1_10",
+            "name": "I Wore Ofieri Before It Was Cool",
+            "description": "Collect all available Ofieri armor and horse gear, and at least one Ofieri sword.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 63,
+            "apiname": "EP1_11",
+            "name": "Moo-rderer",
+            "description": "Kill 20 cows.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 64,
+            "apiname": "EP1_12",
+            "name": "Rad Steez, Bro!",
+            "description": "Slide downhill uninterrupted for at least 10 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 65,
+            "apiname": "EP1_13",
+            "name": "Killed It",
+            "description": "Win a round of gwent with a total strength of at least 187.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 66,
+            "apiname": "EP2_1",
+            "name": "The Witcher's Gone South",
+            "description": "Travel to the Duchy of Toussaint.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 67,
+            "apiname": "EP2_2",
+            "name": "Last Action Hero",
+            "description": "Be decorated with the Order of Vitis Vinifera.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 68,
+            "apiname": "EP2_3",
+            "name": "Kling of the Clink",
+            "description": "Serve time in Toussaint.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 69,
+            "apiname": "EP2_4",
+            "name": "A Knight to Remember",
+            "description": "Obtain a flawless victory in all the competitions during the knights' tourney.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 70,
+            "apiname": "EP2_5",
+            "name": "Embodiment of the Five Virtues",
+            "description": "Be given Aerondight by the Lady of the Lake.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 71,
+            "apiname": "EP2_6",
+            "name": "Playing House",
+            "description": "Use all available options for developing Corvo Bianco.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 72,
+            "apiname": "EP2_7",
+            "name": "Turned Every Stone",
+            "description": "Find all grandmaster diagrams for each witcher school.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 73,
+            "apiname": "EP2_8",
+            "name": "I Have a Gwent Problem",
+            "description": "Collect all the cards in the Skellige deck.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 74,
+            "apiname": "EP2_9",
+            "name": "The Grapes of Wrath Stomped",
+            "description": "Blood and Wine: unite the warring Toussaint vineyards and have a wine named after you.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 75,
+            "apiname": "EP2_10",
+            "name": "Dressed to Kill",
+            "description": "Unlock the bonus for equipping all the witcher gear elements from one School.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 76,
+            "apiname": "EP2_11",
+            "name": "Weapon \"W\"",
+            "description": "Develop a mutation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 77,
+            "apiname": "EP2_12",
+            "name": "Hasta la Vista™",
+            "description": "Blood and Wine: kill a frozen opponent with a crossbow bolt.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 78,
+            "apiname": "EP2_13",
+            "name": "David and Golyat",
+            "description": "Blood and Wine: kill Golyat with a crossbow bolt to the eye.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        }
+
+    ]
+}
