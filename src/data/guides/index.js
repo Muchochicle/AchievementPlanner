@@ -123,6 +123,9 @@ import { GUIDE as totalWarWarhammer3AchievementGuide } from "./games/total-war-w
 import { GUIDE as vRisingAchievementGuide } from "./games/v-rising.js";
 import { GUIDE as warThunderAchievementGuide } from "./games/war-thunder.js";
 import { GUIDE as dysonSphereProgramAchievementGuide } from "./games/dyson-sphere-program.js";
+import { GUIDE as residentEvil2RemakeAchievementGuide } from "./games/resident-evil-2-remake.js";
+import { GUIDE as residentEvil4RemakeAchievementGuide } from "./games/resident-evil-4-remake.js";
+import { GUIDE as residentEvilVillageAchievementGuide } from "./games/resident-evil-village.js";
 
 export const APP_GUIDES = [
 
@@ -268,7 +271,10 @@ export const GAME_GUIDES = [
     totalWarWarhammer3AchievementGuide,
     vRisingAchievementGuide,
     warThunderAchievementGuide,
-    dysonSphereProgramAchievementGuide
+    dysonSphereProgramAchievementGuide,
+    residentEvil2RemakeAchievementGuide,
+    residentEvil4RemakeAchievementGuide,
+    residentEvilVillageAchievementGuide
 
 ];
 
