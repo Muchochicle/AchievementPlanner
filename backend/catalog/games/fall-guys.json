@@ -1,0 +1,328 @@
+{
+    "id": 1097150,
+    "steamAppId": 1097150,
+    "name": "Fall Guys",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1097150/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Party",
+        "Battle Royale",
+        "Platformer",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_GRAB_PLAYER",
+            "name": "Fall Bae",
+            "description": "Share a hug with a Fall Guy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_QUALIFY_1_ROUND",
+            "name": "One small trip",
+            "description": "Qualify from your first round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_WIN_1_EPISODE",
+            "name": "Victory!",
+            "description": "Win your first Episode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_FALL_10_QUALIFY_RACE",
+            "name": "Face First",
+            "description": "Qualify from a racing round despite falling over more than 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FASHIONISTA",
+            "name": "Fall Guy Fashionista",
+            "description": "Unlock 50 cosmetic items from the store",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SHOPPING_SPREE",
+            "name": "Shopping Spree",
+            "description": "Unlock 10 cosmetic items from the store",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_SNOWFLAKE",
+            "name": "Snowflake",
+            "description": "Equip your first cosmetic item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_BARGAIN_BUCKET",
+            "name": "Bargain Bucket",
+            "description": "Equip an uncommon or better Body Colour, Pattern, Upper and Lower Costume piece",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_MAD_TRENDY",
+            "name": "Mad Trendy",
+            "description": "Equip a rare or legendary Body Colour, Pattern, Upper and Lower Costume piece",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_HEAD_TURNER",
+            "name": "Head Turner",
+            "description": "Equip a legendary Body Colour, Pattern, Upper and Lower Costume piece",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_CATWALK_MODEL",
+            "name": "Catwalk Model",
+            "description": "Equip your first legendary customization item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_FAME_TIER_1",
+            "name": "One to Watch",
+            "description": "Reach lvl 10 fame during a season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_FAME_TIER_2",
+            "name": "Household Name",
+            "description": "Reach lvl 25 fame during a season",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_FAME_TIER_3",
+            "name": "Star of the Show",
+            "description": "Reach lvl 40 fame during a season",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_FLAWLESS_VICTORY",
+            "name": "Flawless Victory",
+            "description": "Qualify from a round without falling over even once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_RACING_TIER_1",
+            "name": "Ahead of the Pack",
+            "description": "Get first place in a racing round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_RACING_TIER_2",
+            "name": "Quite Dashing",
+            "description": "Get first place in a racing round 5 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_RACING_TIER_3",
+            "name": "Track Star",
+            "description": "Get first place in a racing round 20 times",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_INFALLIBLE",
+            "name": "Infallible",
+            "description": "Win 5 Episodes in a row",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_WIN_EPISODES_TIER_2",
+            "name": "Top Tier",
+            "description": "Win 7 Episodes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_WIN_EPISODES_TIER_3",
+            "name": "Golden Guy",
+            "description": "Win 20 Episodes",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_QUALIFY_ROUND_TIER_2",
+            "name": "One giant leap",
+            "description": "Qualify from 100 rounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_QUALIFY_ROUND_TIER_3",
+            "name": "Veteran Status",
+            "description": "Qualify from 500 rounds",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_SHOW_OFF",
+            "name": "Show Off",
+            "description": "Win an Episode with a custom Celebration equipped",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_SQUAD_GOALS",
+            "name": "Squad Goals",
+            "description": "Win an Episode as part of a party of 3 or more players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_DOWN_TO_THE_WIRE",
+            "name": "Down to the Wire",
+            "description": "Qualify after a round goes to overtime",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACHI_BARELY_MADE_IT",
+            "name": "Low Baller",
+            "description": "Qualify from a team game with a score of 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_BIG_TEASE",
+            "name": "Big Tease",
+            "description": "Perform an emote just before coming first in a race round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_BIG_AIR",
+            "name": "Big Air",
+            "description": "Clock up 1 hour total time falling",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_STUMBLE_CHUMS",
+            "name": "Stumble Chums",
+            "description": "Bump into other Fall Guys 1000 times in total",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_STYLE_POINTS",
+            "name": "Style Points",
+            "description": "Fall for at least 3 seconds before landing on your head",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_BIG_BULLY",
+            "name": "Big Bully",
+            "description": "Knock someone over",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_TROUBLEMAKER",
+            "name": "Troublemaker",
+            "description": "Bump into 3 people while rolling on the ground before getting up",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_FALL_THROTTLE",
+            "name": "Fall Throttle",
+            "description": "Reach terminal velocity ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

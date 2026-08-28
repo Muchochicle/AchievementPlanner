@@ -180,6 +180,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hitman-world-of-assassination"));
     assert.ok(slugs.includes("doom-1993"));
     assert.ok(slugs.includes("wallpaper-engine"));
+    assert.ok(slugs.includes("batman-arkham-city"));
+    assert.ok(slugs.includes("far-cry-5"));
+    assert.ok(slugs.includes("fall-guys"));
 
 });
 

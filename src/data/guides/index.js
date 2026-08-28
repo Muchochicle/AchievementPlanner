@@ -156,6 +156,9 @@ import { GUIDE as payday3AchievementGuide } from "./games/payday-3.js";
 import { GUIDE as hitmanWorldOfAssassinationAchievementGuide } from "./games/hitman-world-of-assassination.js";
 import { GUIDE as doom1993AchievementGuide } from "./games/doom-1993.js";
 import { GUIDE as wallpaperEngineAchievementGuide } from "./games/wallpaper-engine.js";
+import { GUIDE as batmanArkhamCityAchievementGuide } from "./games/batman-arkham-city.js";
+import { GUIDE as farCry5AchievementGuide } from "./games/far-cry-5.js";
+import { GUIDE as fallGuysAchievementGuide } from "./games/fall-guys.js";
 
 export const APP_GUIDES = [
 
@@ -334,7 +337,10 @@ export const GAME_GUIDES = [
     payday3AchievementGuide,
     hitmanWorldOfAssassinationAchievementGuide,
     doom1993AchievementGuide,
-    wallpaperEngineAchievementGuide
+    wallpaperEngineAchievementGuide,
+    batmanArkhamCityAchievementGuide,
+    farCry5AchievementGuide,
+    fallGuysAchievementGuide
 
 ];
 
