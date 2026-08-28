@@ -1,0 +1,477 @@
+{
+    "id": 242760,
+    "steamAppId": 242760,
+
+    "name": "The Forest",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 20,
+        "max": 50
+    },
+
+    "missable": false,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": ["Survival","Open World","Crafting","Co-op","Horror"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH_MINOR_CANNIBALISM",
+            "name": "Minor Cannibalism",
+            "description": "Eat an enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH_MAJOR_CANNIBALISM",
+            "name": "Major Cannibalism",
+            "description": "Eat an entire family",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH_BE_NICE",
+            "name": "Be Nice",
+            "description": "Share a food or drink item in MP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH_BE_EXTREMELY_NICE",
+            "name": "Be Extremely Nice",
+            "description": "Share a weapon in MP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH_CRAFTY",
+            "name": "Crafty",
+            "description": "Craft all items",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH_BAD_FATHER",
+            "name": "Bad father",
+            "description": "Survive 100 days without finding your son.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH_TROPHY_HUNTER",
+            "name": "Trophy Hunter",
+            "description": "Kill all animal types and display heads",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH_GARDENER",
+            "name": "Green Thumb",
+            "description": "Grow all plant types",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH_VEGAN",
+            "name": "Vegan",
+            "description": "Play through entire game without killing or eating animals. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH_NATUROPATH",
+            "name": "Naturopath",
+            "description": "Craft 10 medicine items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH_5_STAR_HOTEL",
+            "name": "5 Star Hotel",
+            "description": "Sleep on yacht",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH_SPELUNKER",
+            "name": "Spelunker",
+            "description": "Explore all caves",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH_FIRST_RESPONDER",
+            "name": "First Responder",
+            "description": "Revive one co-op player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH_MEDIC",
+            "name": "Medic",
+            "description": "Revive 10 co-op players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH_BUILD_GAZEBO",
+            "name": "You should be looking for Timmy",
+            "description": "Build the gazebo from the survival guide's decorations tab.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH_BOY_SCOOT",
+            "name": "Boy Scout",
+            "description": "Use the compass",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH_GROUP_SLEEP",
+            "name": "Camp Out",
+            "description": "Sleep with another player (group sleep)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH_KILL_DOWNED_ENEMY",
+            "name": "Splatter",
+            "description": "Killed downed enemy with rock",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH_LONG_WALL",
+            "name": "Longest Wall",
+            "description": "Build a super long wall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH_CHOP_BODIES",
+            "name": "Choppy Chop",
+            "description": "Chop up 50 bodies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH_STEALTH_ARMOR",
+            "name": "Unseen",
+            "description": "Make and wear stealth armour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH_FISH_DYNAMITED",
+            "name": "Commercial Fisherman",
+            "description": "Kill 6 or more fish with a stick of dynamite. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH_SURVIVE_THE_FOREST",
+            "name": "Survive The Forest",
+            "description": "Finish Game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH_DRINK_COFFEE",
+            "name": "Daily Grind",
+            "description": "Drink from the coffee machine in the end-game facility's cafe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH_GROSS_DRINK",
+            "name": "Gross!",
+            "description": "Drink from the facility water cooler that has a severed head floating in it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH_KILL_CANNIBALS",
+            "name": "Serial Killer",
+            "description": "In Single Player, kill 100 cannibals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH_SPRINKLERS",
+            "name": "Make It Rain",
+            "description": "Set off the facility sprinklers in the end game by lighting an enemy on fire in a sprinkler room.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH_FIND_PASSENGERS",
+            "name": "Get Closure",
+            "description": "Find all missing passengers",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH_VENDING_MACHINES",
+            "name": "Big Spender",
+            "description": "Buy a soda and candy from the vending machines in the facility cafe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH_KILL_SHARK",
+            "name": "Bite me!",
+            "description": "Kill shark. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH_KILL_BUNNY",
+            "name": "Monster",
+            "description": "Kill a bunny. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH_COLLECT_CASSETTES",
+            "name": "Gabe Fan",
+            "description": "Collect all cassette tapes!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH_DAYS_SURVIVED_1",
+            "name": "First Night",
+            "description": "Survive 1 night",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH_EAT_ALL_MUSHROOMS",
+            "name": "You are a fun guy",
+            "description": "Eat all mushroom types",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH_DAYS_SURVIVED_5",
+            "name": "Survivalist",
+            "description": "Survive 5 nights",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH_SHOOT_BIRDS",
+            "name": "Birdseye",
+            "description": "Kill bird with arrow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH_MARATHON_STEPS",
+            "name": "Step Master",
+            "description": "Pass 50,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH_USED_BOMBS",
+            "name": "Demolition Man ",
+            "description": "Set off 20 bombs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH_REPAIR_SHELTER",
+            "name": "Handyman",
+            "description": "Repair a shelter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH_COLLECT_ROBOT",
+            "name": "Good Father",
+            "description": "Collect all robot pieces ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH_CHOP_TREES_100",
+            "name": "Climate Change",
+            "description": "Cut down 100 trees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH_CHOP_TREES_1000",
+            "name": "Don't Save The Forest",
+            "description": "Cut down 1000 trees",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 43,
+            "apiname": "ACH_DAYS_WITHOUT_KILLS",
+            "name": "Pacifist",
+            "description": "In Single Player, don't kill any cannibals for more than 10 days in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 44,
+            "apiname": "ACH_TREES_DYNAMITED",
+            "name": "Demolition Expert",
+            "description": "Knock down 6 or more trees with 1 explosive. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 45,
+            "apiname": "ACH_TRAP_FISH",
+            "name": "Fisherman",
+            "description": "Catch fish with a trap. Alone in Single Player or together in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        }
+
+    ]
+}

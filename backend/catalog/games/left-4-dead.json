@@ -1,0 +1,757 @@
+{
+    "id": 500,
+    "steamAppId": 500,
+
+    "name": "Left 4 Dead",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/500/header.jpg",
+
+    "difficulty": 7,
+
+    "completionTime": {
+        "min": 30,
+        "max": 80
+    },
+
+    "missable": false,
+
+    "playthroughs": 4,
+
+    "hasGuide": true,
+
+    "genres": ["Co-op","First-Person Shooter","Zombies","Multiplayer","Action"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "L4D_ACHIEVEMENT_PUNCH_HUNTER",
+            "name": "DEAD STOP",
+            "description": "Punch a Hunter as he is pouncing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "L4D_ACHIEVEMENT_RESCUE_FROM_SMOKER",
+            "name": "DRAG AND DROP",
+            "description": "Rescue a Survivor from a Smoker's tongue before he takes damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "L4D_ACHIEVEMENT_ONE_SHOT_KILL_WITCH",
+            "name": "CR0WND",
+            "description": "Kill a Witch with a single headshot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "L4D_ACHIEVEMENT_NO_TEAM_FINALE_DAMAGE",
+            "name": "UNTOUCHABLES",
+            "description": "No Survivors take damage after contacting the rescue vehicle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "L4D_ACHIEVEMENT_NO_DAMAGE_AFTER_VOMIT",
+            "name": "BLIND LUCK",
+            "description": "You or another Survivor take no damage after being vomited on by a Boomer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "L4D_ACHIEVEMENT_PROTECT_SURVIVORS_X_TIMES",
+            "name": "MY BODYGUARD",
+            "description": "Protect any Survivor from an attacking Infected 50 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 7,
+            "apiname": "L4D_ACHIEVEMENT_CAMPAIGN_WITH_PISTOLS",
+            "name": "AKIMBO ASSASSIN",
+            "description": "Survive an entire campaign using only pistols.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 8,
+            "apiname": "L4D_ACHIEVEMENT_HEAL_X_SURVIVORS",
+            "name": "FIELD MEDIC",
+            "description": "Heal 25 Survivors with a first aid kit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 9,
+            "apiname": "L4D_ACHIEVEMENT_GIVE_PILLS_X_SURVIVORS",
+            "name": "PHARM-ASSIST",
+            "description": "Give pain pills to 10 Survivors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "L4D_ACHIEVEMENT_REVIVE_X_SURVIVORS",
+            "name": "HELPING HAND",
+            "description": "Revive 50 incapacitated Survivors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 11,
+            "apiname": "L4D_ACHIEVEMENT_RESCUE_FROM_CLOSET",
+            "name": "HERO CLOSET",
+            "description": "Rescue a Survivor trapped in a closet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "L4D_ACHIEVEMENT_RESCUE_FROM_HUNTER",
+            "name": "HUNTER PUNTER",
+            "description": "Shove a Hunter off of a pinned and helpless Survivor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "L4D_ACHIEVEMENT_RESCUE_SELF_FROM_SMOKER",
+            "name": "TONGUE TWISTER",
+            "description": "Kill a Smoker who has grabbed you with his tongue.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 14,
+            "apiname": "L4D_ACHIEVEMENT_RESCUE_X_FROM_SMOKER",
+            "name": "NO SMOKING SECTION",
+            "description": "Kill 10 Smokers as they are pulling helpless Survivors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "L4D_ACHIEVEMENT_BURN_X_INFECTED",
+            "name": "101 CREMATIONS",
+            "description": "Set 101 Infected on fire.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 16,
+            "apiname": "L4D_ACHIEVEMENT_DONT_AWAKEN_WITCH",
+            "name": "DO NOT DISTURB",
+            "description": "Sneak past all Witches in a campaign without disturbing one.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 17,
+            "apiname": "L4D_ACHIEVEMENT_KILL_TANK_SOLO",
+            "name": "MAN VS TANK",
+            "description": "Single-handedly kill a Tank.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 18,
+            "apiname": "L4D_ACHIEVEMENT_KILL_TANK_NO_DAMAGE",
+            "name": "TANKBUSTERS",
+            "description": "Kill a Tank without it dealing any damage to a Survivor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 19,
+            "apiname": "L4D_ACHIEVEMENT_NO_FRIENDLY_FIRE",
+            "name": "SAFETY FIRST",
+            "description": "Play an entire campaign with no Survivors taking friendly fire damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 20,
+            "apiname": "L4D_ACHIEVEMENT_ALL_SURVIVORS_ALIVE",
+            "name": "NO-ONE LEFT BEHIND",
+            "description": "Beat a campaign with all 4 Survivors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 21,
+            "apiname": "L4D_ACHIEVEMENT_NO_SELF_MEDKIT",
+            "name": "UNBREAKABLE",
+            "description": "Finish a campaign without ever using a first aid kit on yourself.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 22,
+            "apiname": "L4D_ACHIEVEMENT_WITCH_NO_DAMAGE",
+            "name": "WITCH HUNTER",
+            "description": "Kill a Witch without any Survivor taking damage from her.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 23,
+            "apiname": "L4D_ACHIEVEMENT_KILL_X_WITH_TURRET",
+            "name": "RED MIST",
+            "description": "Kill 1000 Infected with a mounted machine gun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 24,
+            "apiname": "L4D_ACHIEVEMENT_BLOW_UP_X_INFECTED",
+            "name": "PYROTECHNICIAN",
+            "description": "Blow up 20 Infected in a single explosion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "L4D_ACHIEVEMENT_53595_INFECTED",
+            "name": "ZOMBIE GENOCIDEST",
+            "description": "Kill 53,595 Infected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 26,
+            "apiname": "L4D_ACHIEVEMENT_HEALTH_MARTYR",
+            "name": "DEAD GIVEAWAY",
+            "description": "Heal a fellow Survivor when your own health is below 10.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 27,
+            "apiname": "L4D_ACHIEVEMENT_COVER_FRIEND_INCAPPED",
+            "name": "GROUND COVER",
+            "description": "Save another Survivor from a Special Infected while on the ground.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 28,
+            "apiname": "L4D_ACHIEVEMENT_SHOVE_AND_KILL_BOOMER",
+            "name": "CLEAN KILL",
+            "description": "Shove a Boomer and then kill him without him splashing on anyone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_WITHOUT_INCAP",
+            "name": "STAND TALL",
+            "description": "Survive a campaign without being incapacitated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 30,
+            "apiname": "L4D_ACHIEVEMENT_LEAVE_SAFEROOM_AND_REVIVE",
+            "name": "BACK 2 HELP",
+            "description": "Leave a safe room to save an incapped teammate and bring them back safely.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 31,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_ANY_IMPOSSIBLE",
+            "name": "ZOMBICIDAL MANIAC",
+            "description": "Survive any campaign on Expert.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 32,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_ALL_IMPOSSIBLE",
+            "name": "WHAT ARE YOU TRYING TO PROVE?",
+            "description": "Survive all campaigns on Expert.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 33,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_NO_SPECIAL_DAMAGE",
+            "name": "NOTHING SPECIAL",
+            "description": "Survive a campaign with no Survivors taking damage from Special Infected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 34,
+            "apiname": "L4D_ACHIEVEMENT_BURN_WITCH",
+            "name": "BURN THE WITCH",
+            "description": "Light a Witch with a Molotov.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 35,
+            "apiname": "L4D_ACHIEVEMENT_BURN_TANK",
+            "name": "TOWERING INFERNO",
+            "description": "Light a Tank with a Molotov.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "L4D_ACHIEVEMENT_INFECTED_SNEAK_MELEE",
+            "name": "SPINAL TAP",
+            "description": "Kill an Infected with a single blow from behind.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 37,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_NO_VOMIT",
+            "name": "STOMACH UPSET",
+            "description": "All Survivors complete a campaign without being vomited on.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 38,
+            "apiname": "L4D_ACHIEVEMENT_MAKE_X_HEADSHOTS",
+            "name": "BRAIN SALAD",
+            "description": "Make 100 headshot kills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 39,
+            "apiname": "L4D_ACHIEVEMENT_HEADSHOT_HUNTER",
+            "name": "JUMP SHOT",
+            "description": "Headshot a Hunter while he's leaping.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 40,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_HOSPITAL",
+            "name": "MERCY KILLER",
+            "description": "Survive the No Mercy campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_SMALLTOWN",
+            "name": "TOLL COLLECTOR",
+            "description": "Survive the Death Toll campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 42,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_AIRPORT",
+            "name": "DEAD BARON",
+            "description": "Survive the Dead Air campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 43,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_FARM",
+            "name": "GRIM REAPER",
+            "description": "Survive the Blood Harvest campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 44,
+            "apiname": "L4D_ACHIEVEMENT_COVER_ALL_WITH_BILE",
+            "name": "BARF BAGGED",
+            "description": "Cover four Survivors with Boomer bile at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "L4D_ACHIEVEMENT_DRAG_SURVIVOR_X_DISTANCE",
+            "name": "BIG DRAG",
+            "description": "Drag a Survivor 100 feet with your tongue as a Smoker.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "L4D_ACHIEVEMENT_CONSTRICT_X_WITHOUT_DYING",
+            "name": "CHAIN SMOKER",
+            "description": "Constrict two Survivors on one life as a Smoker.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 47,
+            "apiname": "L4D_ACHIEVEMENT_POUNCE_X_WITHOUT_DYING",
+            "name": "DOUBLE JUMP",
+            "description": "Pounce two different Survivors on one life as a Hunter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 48,
+            "apiname": "L4D_ACHIEVEMENT_KILL_ALL_WITHOUT_DYING",
+            "name": "All 4 Dead",
+            "description": "Kill all four Survivors on one life as a Tank.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "L4D_ACHIEVEMENT_DOLE_X_TOTAL_DAMAGE",
+            "name": "DEAD WRECKENING",
+            "description": "Dole out 5000 total Survivor damage as a Special Infected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 50,
+            "apiname": "L4D_ACHIEVEMENT_INCAP_AFTER_SAFEROOM",
+            "name": "LAMB 2 SLAUGHTER",
+            "description": "As an Infected, incap a Survivor who has entered and left a safe room.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "L4D_ACHIEVEMENT_INFECTED",
+            "name": "OUTBREAK",
+            "description": "Catch a rare strain of infection, then pass it on to someone else.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 52,
+            "apiname": "L4D_ACHIEVEMENT_PLAY_LIGHTHOUSE",
+            "name": "LAST STAND",
+            "description": "Complete one round of Survival on The Last Stand.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 53,
+            "apiname": "L4D_ACHIEVEMENT_GET_ONE_BRONZE",
+            "name": "BRONZE METTLE",
+            "description": "Earn a Bronze medal in Survival mode on any official level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 54,
+            "apiname": "L4D_ACHIEVEMENT_GET_ONE_SILVER",
+            "name": "SILVER BULLETS",
+            "description": "Earn a Silver medal in Survival mode on any official level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 55,
+            "apiname": "L4D_ACHIEVEMENT_GET_ONE_GOLD",
+            "name": "VIOLENCE IS GOLDEN",
+            "description": "Earn a Gold medal in Survival mode on any official level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 56,
+            "apiname": "L4D_ACHIEVEMENT_GET_ALL_BRONZE",
+            "name": "DISTINGUISHED SURVIVOR",
+            "description": "Earn at least a Bronze medal on every official Survival level.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 57,
+            "apiname": "L4D_ACHIEVEMENT_GET_ALL_SILVER",
+            "name": "HEROIC SURVIVOR",
+            "description": "Earn at least a Silver medal on every official Survival level.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 58,
+            "apiname": "L4D_ACHIEVEMENT_GET_ALL_GOLD",
+            "name": "LEGENDARY SURVIVOR",
+            "description": "Earn a Gold medal on every official Survival level.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 59,
+            "apiname": "L4D_ACHIEVEMENT_SURVIVE_GARAGE",
+            "name": "CRASH-PROOF",
+            "description": "Survive the Crash Course Campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 60,
+            "apiname": "L4D_ACHIEVEMENT_REPOWER_GENERATOR",
+            "name": "QUICK POWER",
+            "description": "Restart the generator within 30 seconds of it shutting off.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 61,
+            "apiname": "L4D_ACHIEVEMENT_5359_INFECTED_GARAGE",
+            "name": "THE LITTLEST GENOCIDE",
+            "description": "Kill 5,359 Infected in the Crash Course campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 62,
+            "apiname": "L4D_ACHIEVEMENT_WIN_VERSUS_GARAGE",
+            "name": "SMASH HIT",
+            "description": "Win a Versus campaign of Crash Course.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 63,
+            "apiname": "L4D_ACHIEVEMENT_WIPE_ALL_AFTER_TRUCK",
+            "name": "TRUCK STOP",
+            "description": "Your team wipes all Survivors after the escape vehicle has opened in Crash Course.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 64,
+            "apiname": "L4D_ACHIEVEMENT_HIT_X_WITH_CAR",
+            "name": "20 CAR PILE-UP",
+            "description": "As A Tank hit 20 Survivors with a car in the Crash Course campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 65,
+            "apiname": "L4D_ACHIEVEMENT_CAUSE_X_POUNCE_DAMAGE",
+            "name": "JUMPIN' JACK SMASH",
+            "description": "Pounce a Survivor for 25 points of damage in the Crash Course campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 66,
+            "apiname": "L4D_ACHIEVEMENT_DRAG_BILED_SURVIVOR",
+            "name": "SLIPPERY PULL",
+            "description": "Smoker pull a bile-covered Survivor until you hold him during Crash Course.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 67,
+            "apiname": "L4D_ACHIEVEMENT_TANK_EXPLOSION_STUN",
+            "name": "TANK STUMBLE",
+            "description": "Stun a Tank with an explosion in the Crash Course campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 68,
+            "apiname": "L4D_ACHIEVEMENT_INCAP_3_IN_5_SEC",
+            "name": "WIPEFEST",
+            "description": "Your team incapacitates three Survivors within five seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 69,
+            "apiname": "L4D_ACHIEVEMENT_COMPLETE_THE_SACRIFICE",
+            "name": "Supreme Sacrifice",
+            "description": "Complete \"The Sacrifice\".",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 70,
+            "apiname": "L4D_ACHIEVEMENT_SACRIFICE_BILL",
+            "name": "Kill Bill",
+            "description": "Have Bill sacrifice himself for the team.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 71,
+            "apiname": "L4D_ACHIEVEMENT_KILL_SPECIAL_WITH_BARREL",
+            "name": "Barrel Rolled",
+            "description": "Kill a Special Infected with an exploding barrel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 72,
+            "apiname": "L4D_ACHIEVEMENT_RUN_ALL_GENERATORS",
+            "name": "Chaos Generator",
+            "description": "Have all 3 generators running at once in \"The Sacrifice\" finale.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 73,
+            "apiname": "L4D_ACHIEVEMENT_VS_PREVENT_SACRIFICE",
+            "name": "Sacrifizzle",
+            "description": "As a Special Infected, incap someone who is trying to sacrifice themselves.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}

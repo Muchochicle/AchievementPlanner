@@ -99,6 +99,9 @@ import { GUIDE as palworldAchievementGuide } from "./games/palworld.js";
 import { GUIDE as falloutNewVegasAchievementGuide } from "./games/fallout-new-vegas.js";
 import { GUIDE as noMansSkyAchievementGuide } from "./games/no-mans-sky.js";
 import { GUIDE as deepRockGalacticAchievementGuide } from "./games/deep-rock-galactic.js";
+import { GUIDE as leftForDeadAchievementGuide } from "./games/left-4-dead.js";
+import { GUIDE as halfLife2AchievementGuide } from "./games/half-life-2.js";
+import { GUIDE as theForestAchievementGuide } from "./games/the-forest.js";
 
 export const APP_GUIDES = [
 
@@ -220,7 +223,10 @@ export const GAME_GUIDES = [
     palworldAchievementGuide,
     falloutNewVegasAchievementGuide,
     noMansSkyAchievementGuide,
-    deepRockGalacticAchievementGuide
+    deepRockGalacticAchievementGuide,
+    leftForDeadAchievementGuide,
+    halfLife2AchievementGuide,
+    theForestAchievementGuide
 
 ];
 

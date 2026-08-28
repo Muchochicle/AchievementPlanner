@@ -1,0 +1,717 @@
+{
+    "id": 220,
+    "steamAppId": 220,
+
+    "name": "Half-Life 2",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/220/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+
+    "missable": true,
+
+    "playthroughs": 3,
+
+    "hasGuide": true,
+
+    "genres": ["First-Person Shooter","Action","Sci-fi","Single-player","Physics"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "HL2_HIT_CANCOP_WITHCAN",
+            "name": "Defiant",
+            "description": "In the opening Point Insertion scene, throw the can back and hit the Civil Protection officer who ordered you to pick it up.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 2,
+            "apiname": "HL2_PUT_CANINTRASH",
+            "name": "Submissive",
+            "description": "In the opening Point Insertion scene, obediently put the can in the trash bin as the Civil Protection officer orders.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 3,
+            "apiname": "HL2_ESCAPE_APARTMENTRAID",
+            "name": "Malcontent",
+            "description": "Escape the apartment block raid.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 4,
+            "apiname": "HL2_BREAK_MINITELEPORTER",
+            "name": "What cat?",
+            "description": "Break the mini-teleporter in Kleiner's lab.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "HL2_GET_CROWBAR",
+            "name": "Trusty Hardware",
+            "description": "Get the crowbar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 6,
+            "apiname": "HL2_KILL_BARNACLESWITHBARREL",
+            "name": "Barnacle Bowling",
+            "description": "Kill five barnacles with one barrel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 7,
+            "apiname": "HL2_GET_AIRBOAT",
+            "name": "Anchor's Aweigh!",
+            "description": "Get the airboat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 8,
+            "apiname": "HL2_GET_AIRBOATGUN",
+            "name": "Heavy Weapons",
+            "description": "Get the airboat's mounted gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 9,
+            "apiname": "HL2_FIND_VORTIGAUNTCAVE",
+            "name": "Vorticough",
+            "description": "Discover the hidden singing vortigaunt cave in chapter Water Hazard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 10,
+            "apiname": "HL2_KILL_CHOPPER",
+            "name": "Revenge!",
+            "description": "Destroy the hunter-chopper in Half-Life 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 11,
+            "apiname": "HL2_FIND_HEVFACEPLATE",
+            "name": "Blast from the Past",
+            "description": "Find the HEV Suit Charger faceplate in Eli's scrapyard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 12,
+            "apiname": "HL2_GET_GRAVITYGUN",
+            "name": "Zero-Point Energy",
+            "description": "Get the Gravity Gun in Black Mesa East.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 13,
+            "apiname": "HL2_MAKEABASKET",
+            "name": "Two Points",
+            "description": "Use DOG's ball to make a basket in Eli's scrapyard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 14,
+            "apiname": "HL2_BEAT_RAVENHOLM_NOWEAPONS",
+            "name": "Zombie Chopper",
+            "description": "Play through Ravenholm using only the Gravity Gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 15,
+            "apiname": "HL2_BEAT_CEMETERY",
+            "name": "Hallowed Ground",
+            "description": "Escort Father Grigori safely through the church cemetery in \"We Don't Go To Ravenholm...\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 16,
+            "apiname": "HL2_KILL_ENEMIES_WITHCRANE",
+            "name": "OSHA Violation",
+            "description": "Kill 3 enemies using the crane.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 17,
+            "apiname": "HL2_PIN_SOLDIER_TOBILLBOARD",
+            "name": "Targetted Advertising",
+            "description": "Pin a soldier to the billboard in chapter Highway 17.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 18,
+            "apiname": "HL2_KILL_ODESSAGUNSHIP",
+            "name": "Where Cubbage Fears to Tread",
+            "description": "Destroy the Combine gunship attacking Lighthouse Point for Colonel Odessa Cubbage in chapter Highway 17.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 19,
+            "apiname": "HL2_KILL_THREEGUNSHIPS",
+            "name": "One Man Army",
+            "description": "Destroy six gunships in Half-Life 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 20,
+            "apiname": "HL2_BEAT_DONTTOUCHSAND",
+            "name": "Keep Off the Sand!",
+            "description": "Cross the antlion beach in chapter Sandtraps without touching the sand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 21,
+            "apiname": "HL2_KILL_ENEMIES_WITHANTLIONS",
+            "name": "Bug Hunt",
+            "description": "Use the antlions to kill 50 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 22,
+            "apiname": "HL2_KILL_ENEMY_WITHTOILET",
+            "name": "Flushed",
+            "description": "Kill an enemy with a toilet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 23,
+            "apiname": "HL2_BEAT_TURRETSTANDOFF2",
+            "name": "Warden Freeman",
+            "description": "Survive the second turret standoff in Nova Prospekt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "HL2_FOLLOWFREEMAN",
+            "name": "Follow Freeman",
+            "description": "Gain command of a squad of rebels in the uprising.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 25,
+            "apiname": "HL2_BEAT_TOXICTUNNEL",
+            "name": "Radiation Levels Detected",
+            "description": "Get through the toxic tunnel under City 17 in Half-Life 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 26,
+            "apiname": "HL2_BEAT_PLAZASTANDOFF",
+            "name": "Plaza Defender",
+            "description": "Survive the generator plaza standoff in chapter Anticitizen One.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "HL2_KILL_ALLC1709SNIPERS",
+            "name": "Counter-Sniper",
+            "description": "Kill all of the snipers in City 17.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 28,
+            "apiname": "HL2_BEAT_SUPRESSIONDEVICE",
+            "name": "Fight the Power",
+            "description": "Shut down the supression device by disabling its generators.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 29,
+            "apiname": "HL2_BEAT_C1713STRIDERSTANDOFF",
+            "name": "Giant Killer",
+            "description": "Survive the rooftop strider battle in the ruins of City 17.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 30,
+            "apiname": "HL2_DISINTEGRATE_SOLDIERSINFIELD",
+            "name": "Atomizer",
+            "description": "Disintegrate 15 soldiers by throwing them into a Combine ball field.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 31,
+            "apiname": "HL2_BEAT_GAME",
+            "name": "Singularity Collapse",
+            "description": "Finish Half-Life 2 by destroying the Citadel's dark fusion reactor core.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 32,
+            "apiname": "HL2_FIND_ALLLAMBDAS",
+            "name": "Lambda Locator",
+            "description": "Find all lambda caches in Half-Life 2.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 33,
+            "apiname": "HLX_KILL_ENEMIES_WITHMANHACK",
+            "name": "Hack Attack!",
+            "description": "Kill five enemies with a Manhack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 34,
+            "apiname": "EP1_BEAT_MAINELEVATOR",
+            "name": "Watch Your Head!",
+            "description": "Make it to the bottom of the Citadel's main elevator shaft in one piece.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 35,
+            "apiname": "EP1_BEAT_CITADELCORE",
+            "name": "Containment",
+            "description": "Contain the Citadel core.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 36,
+            "apiname": "EP1_BEAT_CITADELCORE_NOSTALKERKILLS",
+            "name": "Pacifist",
+            "description": "Contain the Citadel core without killing any stalkers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 37,
+            "apiname": "EP1_KILL_ANTLIONS_WITHCARS",
+            "name": "Car Crusher",
+            "description": "Use the cars to squash 15 antlions in Episode One.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 38,
+            "apiname": "EP1_BEAT_GARAGEELEVATORSTANDOFF",
+            "name": "Elevator Action",
+            "description": "Survive long enough to get on the parking garage elevator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 39,
+            "apiname": "EP1_KILL_ENEMIES_WITHSNIPERALYX",
+            "name": "Live Bait",
+            "description": "Help Alyx snipe 30 enemies in Episode One.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 40,
+            "apiname": "EP1_BEAT_HOSPITALATTICGUNSHIP",
+            "name": "Attica!",
+            "description": "Destroy the gunship in the hospital attic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 41,
+            "apiname": "EP1_BEAT_CITIZENESCORT_NOCITIZENDEATHS",
+            "name": "Citizen Escort",
+            "description": "Don't let any citizens die when escorting them to the escape train.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 42,
+            "apiname": "EP1_BEAT_GAME",
+            "name": "Escape From City 17",
+            "description": "Escape City 17 with Alyx.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 43,
+            "apiname": "EP1_BEAT_GAME_ONEBULLET",
+            "name": "The One Free Bullet",
+            "description": "Finish the game firing exactly one bullet. Grenade, crowbar, rocket, and Gravity Gun kills are okay!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 44,
+            "apiname": "HLX_KILL_ENEMIES_WITHONEENERGYBALL",
+            "name": "Conservationist",
+            "description": "Kill five enemies with the same energy ball.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 45,
+            "apiname": "HLX_KILL_ELITESOLDIER_WITHHISENERGYBALL",
+            "name": "Think Fast!",
+            "description": "Kill an Elite Soldier with his own energy ball.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 46,
+            "apiname": "EPX_KILL_ZOMBIES_WITHFLARES",
+            "name": "Zombie-que",
+            "description": "Use flares to light 15 zombies on fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 47,
+            "apiname": "EP2_KILL_POISONANTLION",
+            "name": "Acid Reflex",
+            "description": "Kill an acid antlion worker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 48,
+            "apiname": "EP2_KILL_ALLGRUBS",
+            "name": "Get Some Grub",
+            "description": "Squish every antlion grub in Episode Two.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "EP2_BREAK_ALLWEBS",
+            "name": "Piñata Party",
+            "description": "Find and break every web cache in Episode Two.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "EP2_BEAT_ANTLIONINVASION",
+            "name": "Into the Breach",
+            "description": "Help Griggs and Sheckley hold off the antlion invasion inside the mine shaft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 51,
+            "apiname": "EP2_BEAT_ANTLIONGUARDS",
+            "name": "Twofer",
+            "description": "Defeat both antlion guards outside the White Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 52,
+            "apiname": "EP2_KILL_ENEMIES_WITHCAR",
+            "name": "Hit and Run",
+            "description": "Run over 20 enemies with the car in Episode Two.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 53,
+            "apiname": "EP2_BEAT_HUNTERAMBUSH",
+            "name": "Meet the Hunters",
+            "description": "Survive the Hunter ambush with Alyx.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 54,
+            "apiname": "EP2_KILL_CHOPPER_NOMISSES",
+            "name": "Puttin' On a Clinic",
+            "description": "Defeat the chopper in Episode Two without any misses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 55,
+            "apiname": "EP2_KILL_COMBINECANNON",
+            "name": "Gunishment!",
+            "description": "Destroy the Combine Autogun in the junkyard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 56,
+            "apiname": "EP2_FIND_ALLRADARCACHES",
+            "name": "Cache Checker",
+            "description": "Find every radar cache in chapter Under The Radar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 57,
+            "apiname": "EP2_BEAT_RACEWITHDOG",
+            "name": "Pedal to the Metal",
+            "description": "Beat DOG in a race to the White Forest base.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 58,
+            "apiname": "EP2_BEAT_ROCKETCACHEPUZZLE",
+            "name": "Gordon Propelled Rocket",
+            "description": "Unlock the rocket launcher lambda cache in chapter Under The Radar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 59,
+            "apiname": "EP2_BEAT_WHITEFORESTINN",
+            "name": "Quiet Mountain Getaway",
+            "description": "Survive the ambush at White Forest Inn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 60,
+            "apiname": "EP2_PUT_ITEMINROCKET",
+            "name": "Little Rocket Man",
+            "description": "Send the garden gnome into space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 61,
+            "apiname": "EP2_BEAT_MISSILESILO2",
+            "name": "Secondary Silo Secured",
+            "description": "Secure the launch doors on missile silo 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 62,
+            "apiname": "EP2_BEAT_OUTLAND12_NOBUILDINGSDESTROYED",
+            "name": "Neighborhood Watch",
+            "description": "Save all buildings outside the missile silo from destruction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 63,
+            "apiname": "EP2_BEAT_GAME",
+            "name": "Defense of the Armament",
+            "description": "Save the missile silo from the Combine offensive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 64,
+            "apiname": "EP2_KILL_HUNTER_WITHFLECHETTES",
+            "name": "Payback",
+            "description": "Kill a Hunter with its own flechettes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 65,
+            "apiname": "HLX_KILL_ENEMIES_WITHPHYSICS",
+            "name": "Bone Breaker",
+            "description": "Kill 30 enemies with thrown physics objects.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 66,
+            "apiname": "HLX_KILL_ENEMY_WITHHOPPERMINE",
+            "name": "Deadly Harvest",
+            "description": "Kill an enemy by planting a hopper mine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 67,
+            "apiname": "HLX_KILL_SOLDIER_WITHHISGRENADE",
+            "name": "Hot Potat0wned",
+            "description": "Kill a Combine soldier with his own grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 68,
+            "apiname": "EPX_GET_ZOMBINEGRENADE",
+            "name": "Grave Robber",
+            "description": "Steal a Zombine's grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 69,
+            "apiname": "GLOBAL_GNOME_ALONE",
+            "name": "Gnome Alone",
+            "description": "If you are reading this achievement, Gabe Newell has successfully launched Gnome Chompski into space. If you did not also receive the achievement 'Manufacturing Ascent', Newell has abandoned his plans to shoot Noam Chomsky into space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
+}

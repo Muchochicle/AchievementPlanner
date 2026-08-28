@@ -123,6 +123,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("fallout-new-vegas"));
     assert.ok(slugs.includes("no-mans-sky"));
     assert.ok(slugs.includes("deep-rock-galactic"));
+    assert.ok(slugs.includes("left-4-dead"));
+    assert.ok(slugs.includes("half-life-2"));
+    assert.ok(slugs.includes("the-forest"));
 
 });
 
