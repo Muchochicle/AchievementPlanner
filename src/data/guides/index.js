@@ -120,6 +120,9 @@ import { GUIDE as stellarisAchievementGuide } from "./games/stellaris.js";
 import { GUIDE as heartsOfIron4AchievementGuide } from "./games/hearts-of-iron-4.js";
 import { GUIDE as crusaderKings3AchievementGuide } from "./games/crusader-kings-3.js";
 import { GUIDE as totalWarWarhammer3AchievementGuide } from "./games/total-war-warhammer-3.js";
+import { GUIDE as vRisingAchievementGuide } from "./games/v-rising.js";
+import { GUIDE as warThunderAchievementGuide } from "./games/war-thunder.js";
+import { GUIDE as dysonSphereProgramAchievementGuide } from "./games/dyson-sphere-program.js";
 
 export const APP_GUIDES = [
 
@@ -262,7 +265,10 @@ export const GAME_GUIDES = [
     stellarisAchievementGuide,
     heartsOfIron4AchievementGuide,
     crusaderKings3AchievementGuide,
-    totalWarWarhammer3AchievementGuide
+    totalWarWarhammer3AchievementGuide,
+    vRisingAchievementGuide,
+    warThunderAchievementGuide,
+    dysonSphereProgramAchievementGuide
 
 ];
 

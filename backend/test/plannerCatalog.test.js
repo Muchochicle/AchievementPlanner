@@ -144,6 +144,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hearts-of-iron-4"));
     assert.ok(slugs.includes("crusader-kings-3"));
     assert.ok(slugs.includes("total-war-warhammer-3"));
+    assert.ok(slugs.includes("dyson-sphere-program"));
+    assert.ok(slugs.includes("war-thunder"));
+    assert.ok(slugs.includes("v-rising"));
 
 });
 
