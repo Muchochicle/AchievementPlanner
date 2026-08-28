@@ -141,6 +141,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rocket-league"));
     assert.ok(slugs.includes("euro-truck-simulator-2"));
     assert.ok(slugs.includes("stellaris"));
+    assert.ok(slugs.includes("hearts-of-iron-4"));
+    assert.ok(slugs.includes("crusader-kings-3"));
+    assert.ok(slugs.includes("total-war-warhammer-3"));
 
 });
 

@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 109);
+    assert.strictEqual(GAME_GUIDES.length, 112);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "age-of-empires-2-de", "ark-survival-evolved", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "borderlands-2", "braid", "celeste", "chained-echoes", "chicory", "cities-skylines", "civilization-vi", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "deep-rock-galactic", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "dying-light", "elden-ring", "enter-the-gungeon", "euro-truck-simulator-2", "fallout-new-vegas", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "griftlands", "guacamelee-2", "hades", "half-life-2", "hogwarts-legacy", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "monster-hunter-rise", "monster-hunter-world", "moonlighter", "neon-abyss", "neon-white", "no-mans-sky", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "phasmophobia", "pizza-tower", "portal", "portal-2", "pubg-battlegrounds", "pyre", "raft", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rocket-league", "rogue-legacy", "rust", "sable", "satisfactory", "sea-of-thieves", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "stellaris", "streets-of-rogue", "superliminal", "team-fortress-2", "terraria", "the-forest", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "age-of-empires-2-de", "ark-survival-evolved", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "borderlands-2", "braid", "celeste", "chained-echoes", "chicory", "cities-skylines", "civilization-vi", "crusader-kings-3", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "deep-rock-galactic", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "dying-light", "elden-ring", "enter-the-gungeon", "euro-truck-simulator-2", "fallout-new-vegas", "frostpunk", "ftl", "furi", "garrys-mod", "god-of-war", "grand-theft-auto-v", "griftlands", "guacamelee-2", "hades", "half-life-2", "hearts-of-iron-4", "hogwarts-legacy", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "monster-hunter-rise", "monster-hunter-world", "moonlighter", "neon-abyss", "neon-white", "no-mans-sky", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "palworld", "papers-please", "phasmophobia", "pizza-tower", "portal", "portal-2", "pubg-battlegrounds", "pyre", "raft", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rocket-league", "rogue-legacy", "rust", "sable", "satisfactory", "sea-of-thieves", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "stellaris", "streets-of-rogue", "superliminal", "team-fortress-2", "terraria", "the-forest", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "total-war-warhammer-3", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -64,6 +64,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "chicory-achievement-guide",
             "cities-skylines-achievement-guide",
             "civilization-vi-achievement-guide",
+            "crusader-kings-3-achievement-guide",
             "crypt-of-the-necrodancer-achievement-guide",
             "cult-of-the-lamb-achievement-guide",
             "cuphead-achievement-guide",
@@ -94,6 +95,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "guacamelee-2-achievement-guide",
             "hades-achievement-guide",
             "half-life-2-achievement-guide",
+            "hearts-of-iron-4-achievement-guide",
             "hogwarts-legacy-achievement-guide",
             "hollow-knight-achievement-guide",
             "hyper-light-drifter-achievement-guide",
@@ -152,6 +154,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "the-stanley-parable-achievement-guide",
             "the-witcher-3-achievement-guide",
             "thomas-was-alone-achievement-guide",
+            "total-war-warhammer-3-achievement-guide",
             "transistor-achievement-guide",
             "va11-hall-a-achievement-guide",
             "vampire-survivors-achievement-guide",

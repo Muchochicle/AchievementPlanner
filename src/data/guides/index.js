@@ -117,6 +117,9 @@ import { GUIDE as teamFortress2AchievementGuide } from "./games/team-fortress-2.
 import { GUIDE as rocketLeagueAchievementGuide } from "./games/rocket-league.js";
 import { GUIDE as euroTruckSimulator2AchievementGuide } from "./games/euro-truck-simulator-2.js";
 import { GUIDE as stellarisAchievementGuide } from "./games/stellaris.js";
+import { GUIDE as heartsOfIron4AchievementGuide } from "./games/hearts-of-iron-4.js";
+import { GUIDE as crusaderKings3AchievementGuide } from "./games/crusader-kings-3.js";
+import { GUIDE as totalWarWarhammer3AchievementGuide } from "./games/total-war-warhammer-3.js";
 
 export const APP_GUIDES = [
 
@@ -256,7 +259,10 @@ export const GAME_GUIDES = [
     teamFortress2AchievementGuide,
     rocketLeagueAchievementGuide,
     euroTruckSimulator2AchievementGuide,
-    stellarisAchievementGuide
+    stellarisAchievementGuide,
+    heartsOfIron4AchievementGuide,
+    crusaderKings3AchievementGuide,
+    totalWarWarhammer3AchievementGuide
 
 ];
 
