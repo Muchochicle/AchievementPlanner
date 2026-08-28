@@ -153,6 +153,9 @@ import { GUIDE as companyOfHeroes2AchievementGuide } from "./games/company-of-he
 import { GUIDE as bloonsTd6AchievementGuide } from "./games/bloons-td-6.js";
 import { GUIDE as theWitcher2AchievementGuide } from "./games/the-witcher-2.js";
 import { GUIDE as payday3AchievementGuide } from "./games/payday-3.js";
+import { GUIDE as hitmanWorldOfAssassinationAchievementGuide } from "./games/hitman-world-of-assassination.js";
+import { GUIDE as doom1993AchievementGuide } from "./games/doom-1993.js";
+import { GUIDE as wallpaperEngineAchievementGuide } from "./games/wallpaper-engine.js";
 
 export const APP_GUIDES = [
 
@@ -328,7 +331,10 @@ export const GAME_GUIDES = [
     companyOfHeroes2AchievementGuide,
     bloonsTd6AchievementGuide,
     theWitcher2AchievementGuide,
-    payday3AchievementGuide
+    payday3AchievementGuide,
+    hitmanWorldOfAssassinationAchievementGuide,
+    doom1993AchievementGuide,
+    wallpaperEngineAchievementGuide
 
 ];
 

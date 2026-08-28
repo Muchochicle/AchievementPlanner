@@ -177,6 +177,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("bloons-td-6"));
     assert.ok(slugs.includes("the-witcher-2"));
     assert.ok(slugs.includes("payday-3"));
+    assert.ok(slugs.includes("hitman-world-of-assassination"));
+    assert.ok(slugs.includes("doom-1993"));
+    assert.ok(slugs.includes("wallpaper-engine"));
 
 });
 
