@@ -1,0 +1,1067 @@
+{
+    "id": 648800,
+    "steamAppId": 648800,
+
+    "name": "Raft",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Survival","Crafting","Open World","Co-op"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ach_build_foundation_10",
+            "name": "Beginner Builder!",
+            "description": "Build 10 foundations.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 2,
+            "apiname": "ach_playwithfriend",
+            "name": "Teamplay!",
+            "description": "Team up with a friend in multiplayer.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 3,
+            "apiname": "ach_build_cookingstandOne",
+            "name": "Dinnertime!",
+            "description": "Craft and place a simple grill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "ach_build_purifierOne",
+            "name": "It's Better Without The Salt.",
+            "description": "Craft and place a simple purifier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "ach_sailor",
+            "name": "Aye Aye Captain!",
+            "description": "Place a sail and a stationary anchor on the same raft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "ach_hoarder",
+            "name": "Hoarder!",
+            "description": "Have 20 storages on the same raft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 7,
+            "apiname": "ach_farmer",
+            "name": "Farmer!",
+            "description": "Have 20 cropplots on the same raft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "ach_researcher",
+            "name": "Bookworm!",
+            "description": "Research everything in the research table.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "ach_build_foundation_100",
+            "name": "Intermediate Builder!",
+            "description": "Build 100 foundations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "ach_build_foundation_1000",
+            "name": "Expert Builder!",
+            "description": "Build 1000 foundations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 11,
+            "apiname": "ach_sharkKiller_1",
+            "name": "Beginner Shark Hunter!",
+            "description": "Kill 1 shark.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 12,
+            "apiname": "ach_sharkKiller_10",
+            "name": "Intermediate Shark Hunter!",
+            "description": "Kill 10 sharks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "ach_sharkKiller_50",
+            "name": "Expert Shark Hunter!",
+            "description": "Kill 50 sharks.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 14,
+            "apiname": "ach_gatherer_100",
+            "name": "Beginner Gatherer!",
+            "description": "Hook 100 items.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 15,
+            "apiname": "ach_gatherer_500",
+            "name": "Intermediate Gatherer!",
+            "description": "Hook 500 items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "ach_gatherer_5000",
+            "name": "Expert Gatherer!",
+            "description": "Hook 5000 items.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 17,
+            "apiname": "ach_birdKiller_1",
+            "name": "Beginner Bird Hunter!",
+            "description": "Kill 1 bird.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 18,
+            "apiname": "ach_birdKiller_10",
+            "name": "Intermediate Bird Hunter!",
+            "description": "Kill 10 birds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 19,
+            "apiname": "ach_birdKiller_50",
+            "name": "Expert Bird Hunter!",
+            "description": "Kill 50 birds.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 20,
+            "apiname": "ach_build_painter_50",
+            "name": "Beginner Painter!",
+            "description": "Paint 50 blocks.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 21,
+            "apiname": "ach_build_painter_200",
+            "name": "Intermediate Painter!",
+            "description": "Paint 200 blocks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "ach_build_painter_1000",
+            "name": "Expert Painter!",
+            "description": "Paint 1000 blocks.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 23,
+            "apiname": "ach_build_reorganizer",
+            "name": "This Goes Here!",
+            "description": "Break or pick up 100 build blocks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "ach_cemetary",
+            "name": "An Ocean Cemetery!",
+            "description": "Die 25 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "ach_radiotower",
+            "name": "Is There A Utopia?",
+            "description": "Reach the top of the Radio Tower (built with a Receiver and three Antennas) and read the note there.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 26,
+            "apiname": "ach_diveDeep",
+            "name": "Exploring The depths!",
+            "description": "Reach a depth of 100 metres below the surface.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 27,
+            "apiname": "ach_survivor_day",
+            "name": "Beginner Survivor!",
+            "description": "Survive 1 day.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 28,
+            "apiname": "ach_survivor_week",
+            "name": "Intermediate Survivor!",
+            "description": "Survive 7 days.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "ach_survivor_month",
+            "name": "Expert Survivor!",
+            "description": "Survive 30 days.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 30,
+            "apiname": "ach_survivor_year",
+            "name": "Master Survivor!",
+            "description": "Survive 365 days.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 31,
+            "apiname": "ach_pufferKiller_1",
+            "name": "Beginner Poison-Puffer Hunter!",
+            "description": "Kill 1 Poison-puffer.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 32,
+            "apiname": "ach_pufferKiller_10",
+            "name": "Intermediate Poison-Puffer Hunter!",
+            "description": "Kill 10 Poison-puffers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "ach_pufferKiller_50",
+            "name": "Expert Poison-Puffer Hunter!",
+            "description": "Kill 50 Poison-puffers.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 34,
+            "apiname": "ach_stoneBirdKiller_1",
+            "name": "Beginner Screecher Hunter!",
+            "description": "Kill 1 Screecher.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 35,
+            "apiname": "ach_stoneBirdKiller_10",
+            "name": "Intermediate Screecher Hunter!",
+            "description": "Kill 10 Screechers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "ach_stoneBirdKiller_50",
+            "name": "Expert Screecher Hunter!",
+            "description": "Kill 50 Screechers.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 37,
+            "apiname": "ach_reach_pilotIsland",
+            "name": "Not A Great Landing!",
+            "description": "Discover the rare small island that has a crashed plane on it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 38,
+            "apiname": "ach_reach_bigIsland",
+            "name": "Large Landmass Ahoy!",
+            "description": "Discover a large island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "ach_cookedRecipe",
+            "name": "A More Complex Concoction!",
+            "description": "Cook a meal by following a recipe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 40,
+            "apiname": "ach_captureAnimal_1",
+            "name": "Beginner Wrangler!",
+            "description": "Capture 1 animal.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 41,
+            "apiname": "ach_captureAnimal_10",
+            "name": "Intermediate Wrangler!",
+            "description": "Capture 10 animals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "ach_captureAnimal_50",
+            "name": "Expert Wrangler!",
+            "description": "Capture 50 animals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 43,
+            "apiname": "ach_captureRareAnimal",
+            "name": "Some Look Different!",
+            "description": "Capture a rare animal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 44,
+            "apiname": "ach_boarKiller_1",
+            "name": "Beginner Warthog Hunter!",
+            "description": "Kill 1 Warthog.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 45,
+            "apiname": "ach_boarKiller_10",
+            "name": "Intermediate Warthog Hunter!",
+            "description": "Kill 10 Warthogs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "ach_boarKiller_50",
+            "name": "Expert Warthog Hunter!",
+            "description": "Kill 50 Warthogs.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 47,
+            "apiname": "ach_reach_captainIsland",
+            "name": "O Captain! My Captain!?",
+            "description": "Reach Balboa Island, the Captain's island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "ach_mamaBearKill",
+            "name": "Mother Lode!",
+            "description": "Slay the Mama Bear.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "ach_balboaBicycle",
+            "name": "Pling!",
+            "description": "Ring a bicycle bell on Balboa Island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "ach_fixErrol",
+            "name": "Fix Errol!",
+            "description": "There you go, Errol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "ach_brunosToolboard",
+            "name": "A Revelation!",
+            "description": "On Balboa Island, collect all of Bruno's tools and place them on the toolboard to reveal the hidden photo behind it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "ach_tinyLittleMurderer",
+            "name": "Tiny Little Murderer",
+            "description": "At the mountain campsite on Balboa Island, interact with the doll and rip out its lightbulb.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 53,
+            "apiname": "ach_allNotes_RadioTower",
+            "name": "Radio Tower Historian!",
+            "description": "Find all notes on the Radio Tower!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 54,
+            "apiname": "ach_allNotes_Vasagatan",
+            "name": "Vasagatan Historian!",
+            "description": "Find all notes on Vasagatan!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 55,
+            "apiname": "ach_allNotes_Balboa",
+            "name": "Balboa Historian!",
+            "description": "Find all notes on Balboa!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 56,
+            "apiname": "ach_vasagatan_Bomb",
+            "name": "Bootleg Fireworks!",
+            "description": "Breach the cockpit of the Vasagatan tanker with an explosive.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 57,
+            "apiname": "ach_ratKiller_1",
+            "name": "Beginner Lurker Hunter!",
+            "description": "Kill 1 Lurker.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 58,
+            "apiname": "ach_ratKiller_10",
+            "name": "Intermediate Lurker Hunter!",
+            "description": "Kill 10 Lurkers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 59,
+            "apiname": "ach_ratKiller_50",
+            "name": "Expert Lurker Hunter!",
+            "description": "Kill 50 Lurkers.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 60,
+            "apiname": "ach_bearKiller_1",
+            "name": "Beginner Bear Hunter!",
+            "description": "Kill 1 Bear.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 61,
+            "apiname": "ach_bearKiller_10",
+            "name": "Intermediate Bear Hunter!",
+            "description": "Kill 10 Bears.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 62,
+            "apiname": "ach_bearKiller_50",
+            "name": "Expert Bear Hunter!",
+            "description": "Kill 50 Bears.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 63,
+            "apiname": "ach_allRBPaintings",
+            "name": "Artistic Collection!",
+            "description": "Find and place every hidden developer painting.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 64,
+            "apiname": "ach_allNotes_Caravan",
+            "name": "Caravan Town Historian!",
+            "description": "Find all notes on Caravan Town!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 65,
+            "apiname": "ach_allNotes_Tangaroa",
+            "name": "Tangaroa Historian! ",
+            "description": "Find all notes in Tangaroa!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 66,
+            "apiname": "ach_zip_OneGo",
+            "name": "Zip Zap!",
+            "description": "Travel 50 meters on a zipline without disjointing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 67,
+            "apiname": "ach_zip_100m",
+            "name": "Beginner Ziponaut!",
+            "description": "Travel 100 meters with the zipline tool.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 68,
+            "apiname": "ach_zip_500m",
+            "name": "Intermediate Ziponaut!",
+            "description": "Travel 500 meters with the zipline tool.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 69,
+            "apiname": "ach_zip_1500m",
+            "name": "Expert Ziponaut!",
+            "description": "Travel 1500 meters with the zipline tool.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 70,
+            "apiname": "ach_excevator_1",
+            "name": "Beginner Excavator!",
+            "description": "Dig up a treasure.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 71,
+            "apiname": "ach_excevator_20",
+            "name": "Intermediate Excavator!",
+            "description": "Dig up 20 treasures.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 72,
+            "apiname": "ach_excevator_50",
+            "name": "Expert Excavator!",
+            "description": "Dig up 50 treasures.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 73,
+            "apiname": "ach_tiki_completed",
+            "name": "Former Glory!",
+            "description": "Restore the Tiki pole from the four wood pieces found by treasure hunting.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "ach_pipes_30",
+            "name": "Plumber Power!",
+            "description": "Have 30 pipes placed at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 75,
+            "apiname": "ach_beekeeper_10",
+            "name": "Bee Keeper!",
+            "description": "Have 10 beehives placed at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 76,
+            "apiname": "ach_beeCaptures_1",
+            "name": "Beginner Bee-nevolent!",
+            "description": "Capture 1 bee.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 77,
+            "apiname": "ach_beeCaptures_10",
+            "name": "Intermediate Bee-nevolent!",
+            "description": "Capture 10 bees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 78,
+            "apiname": "ach_beeCaptures_25",
+            "name": "Expert Bee-nevolent!",
+            "description": "Capture 25 bees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 79,
+            "apiname": "ach_secret_tangaroa_claw",
+            "name": "Boxed In!",
+            "description": "Find the secret hidden behind the boxes on Tangaroa.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 80,
+            "apiname": "ach_instrument_notes_1",
+            "name": "Instrumentalist!",
+            "description": "Play a note on the piano.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 81,
+            "apiname": "ach_token_tangaroa_10",
+            "name": "Small Spender! ",
+            "description": "Spend 10 tokens.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 82,
+            "apiname": "ach_token_tangaroa_20",
+            "name": "Medium Spender!",
+            "description": "Spend 20 tokens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 83,
+            "apiname": "ach_token_tangaroa_30",
+            "name": "Big Spender!",
+            "description": "Spend 30 tokens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 84,
+            "apiname": "ach_botKiller_1",
+            "name": "Beginner Disruptor!",
+            "description": "Disrupt 1 Butler-Bot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 85,
+            "apiname": "ach_botKiller_10",
+            "name": "Intermediate Disruptor!",
+            "description": "Disrupt 10 Butler-Bots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 86,
+            "apiname": "ach_botKiller_20",
+            "name": "Expert Disruptor!",
+            "description": "Disrupt 20 Butler-Bots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 87,
+            "apiname": "ach_tangaroa_cockpitLaunch",
+            "name": "Launch Initiated!",
+            "description": "Activate the backup emergency launch system on Tangaroa.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 88,
+            "apiname": "ach_fireworks_50",
+            "name": "Real Fireworks!",
+            "description": "Witness 50 firework explosions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 89,
+            "apiname": "ach_hidden_tangaroa_room",
+            "name": "You Should Not Be Here!",
+            "description": "Reach the hidden -20th floor of Tangaroa via the concealed button in the Plantation elevator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 90,
+            "apiname": "ach_allMysteryLootUnlocked",
+            "name": "The Renovator!",
+            "description": "Learn every crafting recipe that comes from mystery packages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 91,
+            "apiname": "ach_varunaBossKill",
+            "name": "Explosive Force!",
+            "description": "Slay the boss at Varuna Point.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 92,
+            "apiname": "ach_anglerFishKiller_1",
+            "name": "Beginner Anglerfish Hunter!",
+            "description": "Kill 1 Anglerfish.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 93,
+            "apiname": "ach_anglerFishKiller_10",
+            "name": "Intermediate Anglerfish Hunter!",
+            "description": "Kill 10 Anglerfish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 94,
+            "apiname": "ach_anglerFishKiller_50",
+            "name": "Expert Anglerfish Hunter!",
+            "description": "Kill 50 Anglerfish.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+
+        {
+            "id": 95,
+            "apiname": "ach_finalCutscene",
+            "name": "There Is A Utopia!",
+            "description": "Finish the game - watch the final cutscene after freeing the people of Utopia.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 96,
+            "apiname": "ach_allCharactersUnlocked",
+            "name": "All Aboard!",
+            "description": "Unlock all playable characters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 97,
+            "apiname": "ach_firstPurchaseAtTrader",
+            "name": "Beginner Merchant!",
+            "description": "Purchase an item at a trading post.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 98,
+            "apiname": "ach_tier2Trader",
+            "name": "Intermediate Merchant!",
+            "description": "Reach tier 2 in the trading post.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 99,
+            "apiname": "ach_tier3Trader",
+            "name": "Expert Merchant!",
+            "description": "Reach tier 3 in the trading post.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 100,
+            "apiname": "ach_allFoodBuffs",
+            "name": "Powered Up!",
+            "description": "Have all buffs from meals and drinks active on you at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 101,
+            "apiname": "ach_snowmobileIsNotABoat",
+            "name": "That's Not A Boat...",
+            "description": "Drive a snowmobile into the sea.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 102,
+            "apiname": "ach_grabbersNest",
+            "name": "Cache Collector!",
+            "description": "Locate all Grabber caches on Varuna Point.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 103,
+            "apiname": "ach_allNotes_Varuna",
+            "name": "Varuna Point Historian!",
+            "description": "Find all notes in Varuna Point.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 104,
+            "apiname": "ach_allNotes_Temperance",
+            "name": "Temperance Historian!",
+            "description": "Find all notes in Temperance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}

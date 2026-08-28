@@ -132,6 +132,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("monster-hunter-world"));
     assert.ok(slugs.includes("cities-skylines"));
     assert.ok(slugs.includes("age-of-empires-2-de"));
+    assert.ok(slugs.includes("hogwarts-legacy"));
+    assert.ok(slugs.includes("borderlands-2"));
+    assert.ok(slugs.includes("raft"));
 
 });
 
