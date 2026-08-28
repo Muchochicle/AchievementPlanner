@@ -1,0 +1,742 @@
+{
+    "id": 205100,
+    "steamAppId": 205100,
+    "name": "Dishonored",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/205100/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 20,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Immersive Sim",
+        "Stealth",
+        "Assassination",
+        "Steampunk"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_0",
+            "name": "Thief",
+            "description": "Pickpocket items worth a total of 200 coins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_1",
+            "name": "Versatile",
+            "description": "Kill characters with each weapon and offensive gadget",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_2",
+            "name": "Ghost",
+            "description": "Complete all missions after the prologue, alerting no one or killing no one but key targets",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_3",
+            "name": "Shadow",
+            "description": "Complete all missions after the prologue without alerting anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_4",
+            "name": "Mostly Flesh and Steel",
+            "description": "Finish the game without purchasing any supernatural powers or enhancements, besides Blink",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_5",
+            "name": "Wall of Sparks",
+            "description": "Kill an enemy using a Wall of Light",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_6",
+            "name": "Rogue",
+            "description": "Assassinate 10 unaware enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_7",
+            "name": "Specter",
+            "description": "After escaping prison, complete a mission without alerting anyone, and kill less than 5 people",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_8",
+            "name": "Faceless",
+            "description": "After escaping Coldridge Prison, complete a single mission without alerting anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_9",
+            "name": "Manipulator",
+            "description": "Make others kill 5 of their own allies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_10",
+            "name": "Razor Rain",
+            "description": "Kill 5 characters with Drop Assassination",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_11",
+            "name": "Surgical",
+            "description": "Play from the first mission through Kaldwin's Bridge killing fewer than 10 characters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_12",
+            "name": "Clean Hands",
+            "description": "Complete the game without killing anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_13",
+            "name": "Harm's Way",
+            "description": "Cause 5 unintentional suicides",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_14",
+            "name": "Inhabitant",
+            "description": "Stay in possession of others for most of a 3 minute period",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_15",
+            "name": "Hornets' Nest",
+            "description": "Kill 4 enemies in less than 1 second using the crossbow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_16",
+            "name": "Speed of Darkness",
+            "description": "Travel 30 meters in less than 1 second",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_17",
+            "name": "Tempest",
+            "description": "Kill 6 enemies in less than 1 second",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_18",
+            "name": "Merchant of Disorder",
+            "description": "Acquire 15 equipment upgrades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_19",
+            "name": "Art Dealer",
+            "description": "Collect all the Sokolov paintings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_20",
+            "name": "Occultist",
+            "description": "Collect 10 bone charms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_21",
+            "name": "The Escapist",
+            "description": "After Coldridge Prison, elude 5 pursuers at once without killing them or leaving the map",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_22",
+            "name": "Cleaner",
+            "description": "Fight with 5 enemies at once, without any of them surviving",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_23",
+            "name": "Dishonored",
+            "description": "Complete the Intro missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_24",
+            "name": "Excommunication",
+            "description": "Eliminate High Overseer Campbell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_25",
+            "name": "Child Care",
+            "description": "Find Emily Kaldwin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_26",
+            "name": "Capturing Genius and Madness",
+            "description": "Complete the Bridge mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_27",
+            "name": "Regicide",
+            "description": "Assassinate the Lord Regent, Hiram Burrows",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_28",
+            "name": "Political Suicide",
+            "description": "Expose the Lord Regent's crimes and bring about his arrest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_29",
+            "name": "This Is Mine",
+            "description": "Recover your belongings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_30",
+            "name": "Resolution",
+            "description": "Complete the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_31",
+            "name": "Dunwall in Chaos",
+            "description": "Complete the game in high chaos.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_32",
+            "name": "Just Dark Enough",
+            "description": "Complete the game in low chaos.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_33",
+            "name": "Vanished",
+            "description": "Escape prison and navigate the sewers undetected.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_34",
+            "name": "Gentleman Caller",
+            "description": "Complete all of Granny Rags's side missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_35",
+            "name": "Street Conspiracy",
+            "description": "Complete all of Slackjaw's side missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_36",
+            "name": "The Art of the Steal",
+            "description": "Get the Art Dealer's safe combination for Slackjaw, but rob the safe first.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_37",
+            "name": "An Unfortunate Accident",
+            "description": "Kill Morgan Pendleton with steam.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_38",
+            "name": "Well Mannered",
+            "description": "Complete the Boyle Estate mission without spoiling the party.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_39",
+            "name": "King of the World",
+            "description": "Reach the top of Kaldwin's Bridge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_40",
+            "name": "Bodyguard",
+            "description": "Protect Callista's uncle, Captain Geoff Curnow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_41",
+            "name": "Mercy is the Mark",
+            "description": "Spare Daud's life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_42",
+            "name": "Lights Out",
+            "description": "Deactivate at least 5 security systems on Kingsparrow Island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_43",
+            "name": "Long Live the Empress",
+            "description": "Save Empress Emily Kaldwin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_44",
+            "name": "Poetic Justice",
+            "description": "Neutralise every key target using indirect (non-lethal) means.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_45",
+            "name": "Food Chain",
+            "description": "Assassinate an assassin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_46",
+            "name": "Alive Without Breath",
+            "description": "Take possession of a fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_47",
+            "name": "Creepy Crawly",
+            "description": "Use a rat tunnel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_48",
+            "name": "Back Home",
+            "description": "Grab a live grenade and use it to kill an attacker",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_49",
+            "name": "Big Boy",
+            "description": "Kill a tallboy with only your sword",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_50",
+            "name": "Mrs Pilsen's Remorse",
+            "description": "Find Emily's doll hidden in each of the 10 challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_51",
+            "name": "Void Star",
+            "description": "Complete all Normal and Expert challenges with a 3-Stars rating",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_52",
+            "name": "By My Hand Alone",
+            "description": "Get to Wave 13 in Back Alley Brawl killing all combatants personally",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_53",
+            "name": "Assassin Vs. Machine",
+            "description": "Complete Train Runner before the train arrives at the station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_54",
+            "name": "Rare Collector",
+            "description": "Find all of the collectable figurines in Burglar on Expert",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_55",
+            "name": "Long Way Down",
+            "description": "Perform a drop assassination of at least 150 meters in the Kill Cascade challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_56",
+            "name": "Headhunter",
+            "description": "Complete Assassin's Run with 100% accuracy using only head shots",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_57",
+            "name": "Daredevil",
+            "description": "In Bonfires, perform all the special combination jumps in 1 round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_58",
+            "name": "Natural Talent",
+            "description": "Finish Mystery Foe without using any active supernatural powers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_59",
+            "name": "Time Management",
+            "description": "Finish Chain Kill or Bend Time Massacre without failing any wave, including bonuses",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_60",
+            "name": "Just Business ",
+            "description": "Get the information you need from the Rothwild Slaughterhouse",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_61",
+            "name": "Missing Pieces",
+            "description": "Meet with Thalia Timsh, the Barrister's Niece",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_62",
+            "name": "Well Connected",
+            "description": "Purchase all of the Favors in The Knife of Dunwall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_63",
+            "name": "No Regrets",
+            "description": "Complete The Knife of Dunwall in High Chaos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_64",
+            "name": "Redemptive Path",
+            "description": "Complete The Knife of Dunwall in Low Chaos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_65",
+            "name": "Whisper Ways",
+            "description": "Complete The Knife of Dunwall without alerting anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_66",
+            "name": "Cleaner Hands",
+            "description": "Complete The Knife of Dunwall without killing anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_67",
+            "name": "Rats and Ashes",
+            "description": "Attach an arc mine to a rat, resulting in a kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_68",
+            "name": "Message from the Empress",
+            "description": "Perform a drop assassination from atop the Empress statue in The Knife of Dunwall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_69",
+            "name": "Stone Cold Heart",
+            "description": "Speak with the statue of Delilah Copperspoon in Timsh's estate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_70",
+            "name": "Parting Shot",
+            "description": "Deliver (or attempt) the killing blow on Corvo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_71",
+            "name": "Breakout",
+            "description": "Break Lizzy Stride out of Coldridge Prison",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_72",
+            "name": "Gangs of Dunwall",
+            "description": "Restore the Undine to working condition",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_73",
+            "name": "Deal Maker",
+            "description": "Purchase at least 8 favors in The Brigmore Witches",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_74",
+            "name": "All Come To Ruin",
+            "description": "Complete The Brigmore Witches in High Chaos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_75",
+            "name": "Changed Ways",
+            "description": "Complete The Brigmore Witches in Low Chaos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_76",
+            "name": "Silence is Golden",
+            "description": "Complete The Brigmore Witches without alerting anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_77",
+            "name": "Cleanest Hands",
+            "description": "Complete The Brigmore Witches without killing anyone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_78",
+            "name": "Enough Coin to Disappear",
+            "description": "Survive The Brigmore Witches in low chaos with 10,000 coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_79",
+            "name": "Wall of Flesh",
+            "description": "Use an enemy lifted with Pull as a shield",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

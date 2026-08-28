@@ -189,6 +189,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rise-of-the-tomb-raider"));
     assert.ok(slugs.includes("ghostrunner"));
     assert.ok(slugs.includes("hotline-miami"));
+    assert.ok(slugs.includes("bioshock-remastered"));
+    assert.ok(slugs.includes("bioshock-infinite"));
+    assert.ok(slugs.includes("dishonored"));
 
 });
 

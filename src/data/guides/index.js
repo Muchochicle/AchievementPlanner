@@ -165,6 +165,9 @@ import { GUIDE as tombRaider2013AchievementGuide } from "./games/tomb-raider-201
 import { GUIDE as riseOfTheTombRaiderAchievementGuide } from "./games/rise-of-the-tomb-raider.js";
 import { GUIDE as ghostrunnerAchievementGuide } from "./games/ghostrunner.js";
 import { GUIDE as hotlineMiamiAchievementGuide } from "./games/hotline-miami.js";
+import { GUIDE as bioshockRemasteredAchievementGuide } from "./games/bioshock-remastered.js";
+import { GUIDE as bioshockInfiniteAchievementGuide } from "./games/bioshock-infinite.js";
+import { GUIDE as dishonoredAchievementGuide } from "./games/dishonored.js";
 
 export const APP_GUIDES = [
 
@@ -352,7 +355,10 @@ export const GAME_GUIDES = [
     tombRaider2013AchievementGuide,
     riseOfTheTombRaiderAchievementGuide,
     ghostrunnerAchievementGuide,
-    hotlineMiamiAchievementGuide
+    hotlineMiamiAchievementGuide,
+    bioshockRemasteredAchievementGuide,
+    bioshockInfiniteAchievementGuide,
+    dishonoredAchievementGuide
 
 ];
 
