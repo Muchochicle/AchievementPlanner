@@ -93,6 +93,9 @@ import { GUIDE as darkSouls3AchievementGuide } from "./games/dark-souls-3.js";
 import { GUIDE as satisfactoryAchievementGuide } from "./games/satisfactory.js";
 import { GUIDE as phasmophobiaAchievementGuide } from "./games/phasmophobia.js";
 import { GUIDE as garrysModAchievementGuide } from "./games/garrys-mod.js";
+import { GUIDE as rustAchievementGuide } from "./games/rust.js";
+import { GUIDE as dyingLightAchievementGuide } from "./games/dying-light.js";
+import { GUIDE as palworldAchievementGuide } from "./games/palworld.js";
 
 export const APP_GUIDES = [
 
@@ -208,7 +211,10 @@ export const GAME_GUIDES = [
     darkSouls3AchievementGuide,
     satisfactoryAchievementGuide,
     phasmophobiaAchievementGuide,
-    garrysModAchievementGuide
+    garrysModAchievementGuide,
+    rustAchievementGuide,
+    dyingLightAchievementGuide,
+    palworldAchievementGuide
 
 ];
 

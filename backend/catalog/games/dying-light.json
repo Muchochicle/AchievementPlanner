@@ -1,0 +1,807 @@
+{
+    "id": 239140,
+    "steamAppId": 239140,
+
+    "name": "Dying Light",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/239140/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 40,
+        "max": 120
+    },
+
+    "missable": true,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Open World","Zombies","Parkour","Survival Horror","Co-op"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH_1",
+            "name": "Flight of the Crane",
+            "description": "Story: jump from the crane at the Tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH_2",
+            "name": "My left or your left?",
+            "description": "Story: meet with Rais.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH_3",
+            "name": "Snake in the grass",
+            "description": "Story: escape the arena.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH_4",
+            "name": "Sightseeing",
+            "description": "Story: reach the Old Town.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH_5",
+            "name": "Making Faces",
+            "description": "Story: broadcast to the outside world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH_6",
+            "name": "Tied loose end",
+            "description": "Story: deal with Tahir.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH_7",
+            "name": "Now You Can Come In",
+            "description": "Story: find Camden.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH_8",
+            "name": "Vertigo",
+            "description": "Story: activate the Amplifier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH_9",
+            "name": "Bittersweet",
+            "description": "Complete the main story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH_10",
+            "name": "The Whole Story",
+            "description": "Finish all side quests",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH_11",
+            "name": "Disaster Recovery",
+            "description": "Get 15 Relief Packages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH_12",
+            "name": "We're All In This Together",
+            "description": "Save 15 survivors from zombies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH_13",
+            "name": "Homo Homini Lupus Est",
+            "description": "Save 15 survivors from Rais's men",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH_14",
+            "name": "Bolter Hunting",
+            "description": "Catch 5 Bolters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH_15",
+            "name": "I'm a Runner and a fighter",
+            "description": "Complete 15 Agility or Power Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH_16",
+            "name": "Lucky 7",
+            "description": "Win 7 coop competitions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH_17",
+            "name": "Harran Athletics",
+            "description": "Take part in 10 coop competitions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH_18",
+            "name": "Trade Company",
+            "description": "Sell items worth 10,000 dollars",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH_19",
+            "name": "Trespassing",
+            "description": "Complete all Quarantine Zones",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH_20",
+            "name": "Now It's Safe",
+            "description": "Capture all Safe Zones",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH_21",
+            "name": "Pheidippides",
+            "description": "Run (move or sprint) at least 42,195 m",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH_22",
+            "name": "Mount Everest",
+            "description": "Climb at least 8848 meters on various objects.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH_23",
+            "name": "Is It Really Necessary?",
+            "description": "Kill your first Infected",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH_24",
+            "name": "Everybody Dance Now",
+            "description": "Simultaneously shock 5 monsters with electricity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH_25",
+            "name": "Can't Touch This",
+            "description": "Kill 20 enemies in a row without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH_26",
+            "name": "This is Harraaaaan!",
+            "description": "Kill 100 enemies by kicking them off the rooftops/cliffs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH_27",
+            "name": "Mouths Wide Open",
+            "description": "Kill a Volatile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH_28",
+            "name": "Hush, Hush Now",
+            "description": "Quiet a Screamer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH_29",
+            "name": "BBQ",
+            "description": "Stick a burning zombie on spikes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH_30",
+            "name": "A Game of Catch",
+            "description": "Kill 50 enemies with throwing weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH_31",
+            "name": "Harran Shooting Club",
+            "description": "Kill 50 enemies with shooting weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH_32",
+            "name": "Electrified!",
+            "description": "Catch 25 enemies in the Electric Fence trap",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH_33",
+            "name": "Blinded by the Lights",
+            "description": "Blind 25 Volatiles with flares or a flashlight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH_34",
+            "name": "High Flyer",
+            "description": "Kill 25 enemies using Ground Pound or Drop Attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH_35",
+            "name": "Judo Master",
+            "description": "Throw 50 enemies with Grapple",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH_36",
+            "name": "Prom Night",
+            "description": "Survive night pursuit of level two or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH_37",
+            "name": "Enlightened!",
+            "description": "Blind 25 enemies in the Light Trap",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH_38",
+            "name": "Little Craftsman",
+            "description": "Craft your first item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH_39",
+            "name": "Master Crafter",
+            "description": "Use Blueprints at least 100 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH_40",
+            "name": "Open Sesame",
+            "description": "Perform 10 successful Lockpicks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH_41",
+            "name": "Everybody Knows Kyle",
+            "description": "Reach Survivor Rank lvl 12",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH_42",
+            "name": "The Legend of Harran",
+            "description": "Reach Survivor Rank lvl 18",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 43,
+            "apiname": "ACH_43",
+            "name": "Agile",
+            "description": "Reach Agility Prof. Lvl 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 44,
+            "apiname": "ACH_44",
+            "name": "Strong",
+            "description": "Reach Power Prof. Lvl 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 45,
+            "apiname": "ACH_45",
+            "name": "It's All In the Writing",
+            "description": "Find all text collectibles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 46,
+            "apiname": "ACH_46",
+            "name": "I've Got Your Back",
+            "description": "Complete 1 quest in a co-op game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 47,
+            "apiname": "ACH_47",
+            "name": "Polyamory",
+            "description": "Complete 5 quests in a single co-op game with the same 3 partners",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 48,
+            "apiname": "ACH_48",
+            "name": "Italian Plumber",
+            "description": "Kill an enemy with a wrench, using Vault followed by Drop Attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 49,
+            "apiname": "ACH_49",
+            "name": "Gabriel's Sword",
+            "description": "Add a fire elemental effect to a sword or a khopesh",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 50,
+            "apiname": "ACH_50",
+            "name": "A Long Way Down",
+            "description": "Jump to the water from the Infamy Bridge (Slums) at night",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 51,
+            "apiname": "ACH_51",
+            "name": "The Boy Who Could Run",
+            "description": "Complete all Parkour Fever Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 52,
+            "apiname": "ACH_52",
+            "name": "GD Parkour Instructor",
+            "description": "Complete all Parkour Fever Challenges at night",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 53,
+            "apiname": "ACH_53",
+            "name": "Pearls in the Mud",
+            "description": "Open 5 GRE chests in Quarantine Zones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 54,
+            "apiname": "ACH_54",
+            "name": "Get the Bozak",
+            "description": "Complete Bozak's challenges",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 55,
+            "apiname": "ACH_55",
+            "name": "Together Till the End",
+            "description": "Be the last man standing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 56,
+            "apiname": "ACH_56",
+            "name": "Electric Whisper",
+            "description": "Learn how to craft Electric Arrows",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 57,
+            "apiname": "ACH_57",
+            "name": "Things That Go Ka-Boom",
+            "description": "Learn how to craft Exploding Arrows",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 58,
+            "apiname": "ACH_58",
+            "name": "Robin Hood Theory",
+            "description": "Score 10 headshots on Rais's men with a bow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 59,
+            "apiname": "ACH_59",
+            "name": "Afraid to get wet?",
+            "description": "Dive into the Countryside.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 60,
+            "apiname": "ACH_60",
+            "name": "And you liked him, didn't you?",
+            "description": "Meet your old friend again.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 61,
+            "apiname": "ACH_61",
+            "name": "I was waiting for you for so long",
+            "description": "Become a Faceless.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 62,
+            "apiname": "ACH_62",
+            "name": "Sweaty palms?",
+            "description": "Kill a Demolisher with a car.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 63,
+            "apiname": "ACH_63",
+            "name": "It wasn't that hard, was it?",
+            "description": "Win Bilal's race.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 64,
+            "apiname": "ACH_64",
+            "name": "What if you picked the other one?",
+            "description": "Make that call.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 65,
+            "apiname": "ACH_65",
+            "name": "I felt your presence",
+            "description": "Witness the Following's meeting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 66,
+            "apiname": "ACH_66",
+            "name": "You realize it's only points, don't you?",
+            "description": "Reach Driver Rank 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 67,
+            "apiname": "ACH_67",
+            "name": "Formidophobic? Interesting…",
+            "description": "Destroy 50 scarecrows.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 68,
+            "apiname": "ACH_68",
+            "name": "I don't approve of mindless fun",
+            "description": "Kill 500 zombies with your vehicle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 69,
+            "apiname": "ACH_70",
+            "name": "Beginnings are hard",
+            "description": "Hellraid DLC: die three times on the first floor, before the first Clavis.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 70,
+            "apiname": "ACH_71",
+            "name": "Throw me a bone",
+            "description": "Kill 50 skeletons with fall damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 71,
+            "apiname": "ACH_72",
+            "name": "Non omnis moriar",
+            "description": "Finish Hellraid with only one life left and 0 medkits",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 72,
+            "apiname": "ACH_73",
+            "name": "Blocked by Ba'al",
+            "description": "Reach level 10 Hellraid rank",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 73,
+            "apiname": "ACH_74",
+            "name": "Clavis was a key all along",
+            "description": "Put Clavis fragments into Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 74,
+            "apiname": "ACH_75",
+            "name": "Time to file a tax form",
+            "description": "Earn more than 3000 coins in one run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 75,
+            "apiname": "ACH_76",
+            "name": "Wake up!",
+            "description": "Finish Hellraid on Nightmare",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 76,
+            "apiname": "ACH_77",
+            "name": "Well-read",
+            "description": "Collect all 10 notes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 77,
+            "apiname": "ACH_78",
+            "name": "Fast as hell",
+            "description": "Finish Hellraid under 30 min",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 78,
+            "apiname": "ACH_79",
+            "name": "Into the lava",
+            "description": "Hellraid DLC: kick an enemy into the lava on one of the deeper floors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}

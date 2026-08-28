@@ -117,6 +117,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("satisfactory"));
     assert.ok(slugs.includes("phasmophobia"));
     assert.ok(slugs.includes("garrys-mod"));
+    assert.ok(slugs.includes("rust"));
+    assert.ok(slugs.includes("dying-light"));
+    assert.ok(slugs.includes("palworld"));
 
 });
 
