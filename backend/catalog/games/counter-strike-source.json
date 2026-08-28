@@ -1,0 +1,1345 @@
+{
+    "id": 240,
+    "steamAppId": 240,
+    "name": "Counter-Strike: Source",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/240/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 60,
+        "max": 300
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Tactical Shooter",
+        "Multiplayer",
+        "Classic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "WIN_BOMB_PLANT",
+            "name": "Someone Set Up Us The Bomb",
+            "description": "Win a round by planting a bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "BOMB_PLANT_LOW",
+            "name": "Boomala Boomala",
+            "description": "Plant 100 bombs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 3,
+            "apiname": "BOMB_DEFUSE_LOW",
+            "name": "The Hurt Blocker",
+            "description": "Defuse 100 bombs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 4,
+            "apiname": "KILL_ENEMY_LOW",
+            "name": "Body Bagger",
+            "description": "Kill 25 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "KILL_ENEMY_MED",
+            "name": "Corpseman",
+            "description": "Kill 500 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 6,
+            "apiname": "KILL_ENEMY_HIGH",
+            "name": "God of War",
+            "description": "Kill 10,000 enemies",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 7,
+            "apiname": "BOMB_DEFUSE_CLOSE_CALL",
+            "name": "Second to None",
+            "description": "Successfully defuse a bomb with less than one second remaining",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "BOMB_DEFUSE_NEEDED_KIT",
+            "name": "Combat Ready",
+            "description": "Defuse a bomb with a kit when it would have failed without one",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "KILL_BOMB_DEFUSER",
+            "name": "Counter-Counter-Terrorist",
+            "description": "Kill a CT while he is defusing the bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "WIN_BOMB_DEFUSE",
+            "name": "Rite of First Defusal",
+            "description": "Win a round by defusing a bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "BOMB_PLANT_IN_25_SECONDS",
+            "name": "Short Fuse",
+            "description": "Plant a bomb within 25 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "WIN_ROUNDS_LOW",
+            "name": "Newb World Order",
+            "description": "Win 10 rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "WIN_ROUNDS_MED",
+            "name": "Pro-moted",
+            "description": "Win 200 rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "WIN_ROUNDS_HIGH",
+            "name": "Leet-er of Men",
+            "description": "Win 5000 rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "GIVE_DAMAGE_LOW",
+            "name": "Points in Your Favor",
+            "description": "Inflict 2,500 total points of damage to enemy players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 16,
+            "apiname": "GIVE_DAMAGE_MED",
+            "name": "You've Made Your Points",
+            "description": "Inflict 50,000 total points of damage to enemy players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "GIVE_DAMAGE_HIGH",
+            "name": "A Million Points of Blight",
+            "description": "Inflict 1,000,000 total points of damage to enemy players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "KILLING_SPREE",
+            "name": "Ballistic",
+            "description": "Kill 5 enemy players within 15 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "KILL_WITH_OWN_GUN",
+            "name": "Lost and F0wnd",
+            "description": "KIll an enemy player with a gun they dropped that round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "RESCUE_HOSTAGES_LOW",
+            "name": "Cowboy Diplomacy",
+            "description": "Rescue 100 hostages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 21,
+            "apiname": "RESCUE_HOSTAGES_MED",
+            "name": "SAR Czar",
+            "description": "Rescue 500 hostages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 22,
+            "apiname": "RESCUE_ALL_HOSTAGES",
+            "name": "Good Shepherd",
+            "description": "Rescue all hostages in a single round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "FAST_HOSTAGE_RESCUE",
+            "name": "Freed With Speed",
+            "description": "Rescue all hostages within 90 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "KILL_TWO_WITH_ONE_SHOT",
+            "name": "Ammo Conservation",
+            "description": "Kill two enemy players with a single bullet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "EARN_MONEY_LOW",
+            "name": "War Bonds",
+            "description": "Earn $125,000 total cash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "EARN_MONEY_MED",
+            "name": "Spoils of War",
+            "description": "Earn $2,500,000 total cash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "EARN_MONEY_HIGH",
+            "name": "Blood Money",
+            "description": "Earn $50,000,000 total cash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "DEAD_GRENADE_KILL",
+            "name": "Premature Burial",
+            "description": "Kill an enemy with a grenade after you've died",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "KILL_ENEMY_DEAGLE",
+            "name": "Night Hawk .50c Expert",
+            "description": "Kill 200 enemy players with the Night Hawk .50c",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "KILL_ENEMY_USP",
+            "name": "KM Tactical .45 Expert",
+            "description": "Kill 200 enemy players with the KM Tactical .45",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "KILL_ENEMY_GLOCK",
+            "name": "9x19 Sidearm Expert",
+            "description": "Kill 200 enemy players with the 9x19 Sidearm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "KILL_ENEMY_P228",
+            "name": "228 Compact Expert",
+            "description": "Kill 200 enemy players with the 228 Compact",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "KILL_ENEMY_ELITE",
+            "name": ".40 Dual Elites Expert",
+            "description": "Kill 100 enemy players with the .40 Dual Elites",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 34,
+            "apiname": "KILL_ENEMY_FIVESEVEN",
+            "name": "ES Five-Seven Expert",
+            "description": "Kill 100 enemy players with the ES Five-Seven",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 35,
+            "apiname": "META_PISTOL",
+            "name": "Pistol Master",
+            "description": "Unlock all 6 Pistol kill achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "KILL_ENEMY_AWP",
+            "name": "Magnum Sniper Rifle Expert",
+            "description": "Kill 1,000 enemy players with the Magnum Sniper Rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "KILL_ENEMY_AK47",
+            "name": "CV-47 Expert",
+            "description": "Kill 1,000 enemy players with the CV-47",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "KILL_ENEMY_M4A1",
+            "name": "Maverick M4A1 Carbine Expert",
+            "description": "Kill 1,000 enemy players with the Maverick M4A1 Carbine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "KILL_ENEMY_AUG",
+            "name": "Bullpup Expert",
+            "description": "Kill 500 enemy players with the Bullpup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 40,
+            "apiname": "KILL_ENEMY_SG552",
+            "name": "Krieg 552 Expert",
+            "description": "Kill 500 enemy players with the Krieg 552",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 41,
+            "apiname": "KILL_ENEMY_SG550",
+            "name": "Krieg 550 Commando Expert",
+            "description": "Kill 500 enemy players with the Krieg 550 Commando",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 42,
+            "apiname": "KILL_ENEMY_GALIL",
+            "name": "IDF Defender Expert",
+            "description": "Kill 500 enemy players with the IDF Defender",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "KILL_ENEMY_FAMAS",
+            "name": "Clarion 5.56 Expert",
+            "description": "Kill 500 enemy players with the Clarion 5.56",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 44,
+            "apiname": "KILL_ENEMY_SCOUT",
+            "name": "Schmidt Scout Expert",
+            "description": "Kill 1,000 enemy players with the Schmidt Scout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "KILL_ENEMY_G3SG1",
+            "name": "D3/AU-1 Expert",
+            "description": "Kill 500 enemy players with the D3/AU-1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 46,
+            "apiname": "META_RIFLE",
+            "name": "Rifle Master",
+            "description": "Unlock all 10 rifle kill achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "KILL_ENEMY_P90",
+            "name": "ES C90 Expert",
+            "description": "Kill 1,000 enemy players with the ES C90",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "KILL_ENEMY_MP5NAVY",
+            "name": "KM Sub-Machine Gun Expert",
+            "description": "Kill 1,000 enemy players with the KM Sub-Machine Gun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "KILL_ENEMY_TMP",
+            "name": "Schmidt Machine Pistol Expert",
+            "description": "Kill 500 enemy players with the Schmidt Machine Pistol",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 50,
+            "apiname": "KILL_ENEMY_MAC10",
+            "name": "Ingram Mac-10 Expert",
+            "description": "Kill 500 enemy players with the Ingram Mac-10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 51,
+            "apiname": "KILL_ENEMY_UMP45",
+            "name": "KM UMP45 Expert",
+            "description": "Kill 1,000 enemy players with the KM UMP45",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "META_SMG",
+            "name": "Sub-Machine Gun Master",
+            "description": "Unlock all 5 sub-machine gun kill achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "KILL_ENEMY_M3",
+            "name": "Leone 12 Gauge Super Expert",
+            "description": "Kill 200 enemy players with the Leone 12 Gauge Super",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "KILL_ENEMY_XM1014",
+            "name": "Leone YG1265 Auto Shotgun Expert",
+            "description": "Kill 200 enemy players with the Leone YG1265 Auto Shotgun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "META_SHOTGUN",
+            "name": "Shotgun Master",
+            "description": "Unlock both shotgun kill achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "KILL_ENEMY_HEGRENADE",
+            "name": "HE Grenade Expert",
+            "description": "Kill 500 enemy players with the HE grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 57,
+            "apiname": "KILL_ENEMY_KNIFE",
+            "name": "Knife Expert",
+            "description": "Kill 100 enemy players with the knife",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 58,
+            "apiname": "KILL_ENEMY_M249",
+            "name": "M249 Expert",
+            "description": "Kill 500 enemy players with the M249",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 59,
+            "apiname": "META_WEAPONMASTER",
+            "name": "Master At Arms",
+            "description": "Unlock every weapon kill achievement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "KILL_ENEMY_TEAM",
+            "name": "The Cleaner",
+            "description": "Kill the entire enemy team (with at least 5 players) in a single round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "KILLS_WITH_MULTIPLE_GUNS",
+            "name": "Variety Hour",
+            "description": "Get kills with 5 different guns in a round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "KILL_HOSTAGE_RESCUER",
+            "name": "Dead Shepherd",
+            "description": "Kill an enemy player who is leading the hostages without injuring any hostages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "LAST_PLAYER_ALIVE",
+            "name": "War of Attrition",
+            "description": "Be the last player alive in a round (with at least 5 players on your team)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "KILL_ENEMY_LAST_BULLET",
+            "name": "Magic Bullet",
+            "description": "Kill an enemy with the last bullet in your magazine (excluding sniper rifles)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "KILLING_SPREE_ENDER",
+            "name": "Kill One, Get One Spree",
+            "description": "Kill an enemy player who is on a killing spree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "BREAK_WINDOWS",
+            "name": "A World of Pane",
+            "description": "Shoot out 14 windows in a single round on cs_office",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "HEADSHOTS",
+            "name": "Battle Sight Zero",
+            "description": "Kill 250 enemy players with headshots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "DAMAGE_NO_KILL",
+            "name": "Primer",
+            "description": "Do at least 95% damage to an enemy who is then killed by a another player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "KILL_LOW_DAMAGE",
+            "name": "Finishing Schooled",
+            "description": "Kill an enemy player who has been reduced to less than 5% health by other players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "KILL_ENEMY_RELOADING",
+            "name": "Shot With Their Pants Down",
+            "description": "Kill an enemy player while they are reloading",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "KILL_ENEMY_BLINDED",
+            "name": "Blind Ambition",
+            "description": "Kill a total of 25 enemy players blinded by flashbangs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "KILL_ENEMIES_WHILE_BLIND",
+            "name": "Blind Fury",
+            "description": "Kill an enemy player while you are blinded from a flashbang",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "KILLS_ENEMY_WEAPON",
+            "name": "Friendly Firearms",
+            "description": "Kill 100 enemy players with enemy weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 74,
+            "apiname": "KILL_WITH_EVERY_WEAPON",
+            "name": "Expert Marksman",
+            "description": "Get a kill with every weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "SURVIVE_GRENADE",
+            "name": "Shrapnelproof",
+            "description": "Take 80 points of damage from enemy grenades and still survive the round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "WIN_KNIFE_FIGHTS_LOW",
+            "name": "Make the Cut",
+            "description": "Win a knife fight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "WIN_KNIFE_FIGHTS_HIGH",
+            "name": "The Bleeding Edge",
+            "description": "Win 100 knife fights",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 78,
+            "apiname": "KILLED_DEFUSER_WITH_GRENADE",
+            "name": "Defuse This!",
+            "description": "Kill the defuser with an HE grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "SURVIVED_HEADSHOT_DUE_TO_HELMET",
+            "name": "Safety First",
+            "description": "Survive a shot to the head because you had the good sense to wear a helmet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "HIP_SHOT",
+            "name": "Hip Shot",
+            "description": "Kill an enemy with an un-zoomed sniper rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "KILL_SNIPER_WITH_SNIPER",
+            "name": "Eye to Eye",
+            "description": "Kill a zoomed-in enemy sniper with a sniper rifle of your own",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "KILL_SNIPER_WITH_KNIFE",
+            "name": "Sknifed",
+            "description": "Kill a zoomed-in enemy sniper with a knife",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "KILL_SNIPERS",
+            "name": "Snipe Hunter",
+            "description": "Kill 100 zoomed-in enemy snipers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 84,
+            "apiname": "KILL_WHEN_AT_LOW_HEALTH",
+            "name": "Dead Man Stalking",
+            "description": "Kill an enemy while at 1 health",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "GRENADE_MULTIKILL",
+            "name": "Three the Hard Way",
+            "description": "Kill 3 enemy players with a single HE grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "PISTOL_ROUND_KNIFE_KILL",
+            "name": "Street Fighter",
+            "description": "Kill an enemy player with a knife during the pistol round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "FAST_ROUND_WIN",
+            "name": "Blitzkrieg",
+            "description": "Win a round in less than 30 seconds (against at least 5 enemy players)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "WIN_PISTOLROUNDS_LOW",
+            "name": "Piece Initiative",
+            "description": "Win 5 Pistol Rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "WIN_PISTOLROUNDS_MED",
+            "name": "Give Piece a Chance",
+            "description": "Win 25 Pistol Rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "WIN_PISTOLROUNDS_HIGH",
+            "name": "Piece Treaty",
+            "description": "Win 250 Pistol Rounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "BOMB_MULTIKILL",
+            "name": "Clusterstruck",
+            "description": "Kill 5 players in a C4 blast",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "GOOSE_CHASE",
+            "name": "Wild Gooseman Chase",
+            "description": "As the last living terrorist, distract a defuser long enough for the bomb to explode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "WIN_BOMB_PLANT_AFTER_RECOVERY",
+            "name": "Blast Will and Testament",
+            "description": "Win a round by picking up the bomb from a fallen comrade and successfully planting it",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 94,
+            "apiname": "SURVIVE_MANY_ATTACKS",
+            "name": "Target-Hardened",
+            "description": "Survive damage from 5 different players within a round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "LOSSLESS_EXTERMINATION",
+            "name": "Mercy Rule",
+            "description": "Kill the entire opposing team without any members of your team dying",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "FLAWLESS_VICTORY",
+            "name": "Clean Sweep",
+            "description": "Kill the entire opposing team without any members of your team taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "BREAK_PROPS",
+            "name": "Mad Props",
+            "description": "Break 15 props in a single round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "WIN_DUAL_DUEL",
+            "name": "Akimbo King",
+            "description": "Use Dual Elites to kill an enemy player that also has Dual Elites equipped",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "DECAL_SPRAYS",
+            "name": "The Art of War",
+            "description": "Spray 100 decals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 100,
+            "apiname": "NIGHTVISION_DAMAGE",
+            "name": "Dead of Night",
+            "description": "Do 5,000 damage with nightvision active",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 101,
+            "apiname": "UNSTOPPABLE_FORCE",
+            "name": "The Unstoppable Force",
+            "description": "Kill 10 enemy players in a single round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 102,
+            "apiname": "IMMOVABLE_OBJECT",
+            "name": "The Immovable Object",
+            "description": "Kill an enemy player who has just killed 10 of your teammates in a single round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 103,
+            "apiname": "HEADSHOTS_IN_ROUND",
+            "name": "Head Shred Redemption",
+            "description": "Kill 5 enemy players with headshots in a single round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 104,
+            "apiname": "WIN_MAP_CS_ASSAULT",
+            "name": "Assault Map Veteran",
+            "description": "Win 100 rounds on the CS_Assault map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 105,
+            "apiname": "WIN_MAP_CS_COMPOUND",
+            "name": "Compound Map Veteran",
+            "description": "Win 100 rounds on the CS_Compound map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 106,
+            "apiname": "WIN_MAP_CS_HAVANA",
+            "name": "Havana Map Veteran",
+            "description": "Win 100 rounds on the CS_Havana map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 107,
+            "apiname": "WIN_MAP_CS_ITALY",
+            "name": "Italy Map Veteran",
+            "description": "Win 100 rounds on the CS_Italy map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 108,
+            "apiname": "WIN_MAP_CS_MILITIA",
+            "name": "Militia Map Veteran",
+            "description": "Win 100 rounds on the CS_Militia map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 109,
+            "apiname": "WIN_MAP_CS_OFFICE",
+            "name": "Office Map Veteran",
+            "description": "Win 100 rounds on the CS_Office map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 110,
+            "apiname": "WIN_MAP_DE_AZTEC",
+            "name": "Aztec Map Veteran",
+            "description": "Win 100 rounds on the DE_Aztec map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 111,
+            "apiname": "WIN_MAP_DE_CBBLE",
+            "name": "Cobblestone Map Veteran",
+            "description": "Win 100 rounds on the DE_Cbble map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 112,
+            "apiname": "WIN_MAP_DE_CHATEAU",
+            "name": "Chateau Map Veteran",
+            "description": "Win 100 rounds on the DE_Chateau map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 113,
+            "apiname": "WIN_MAP_DE_DUST",
+            "name": "Dust Map Veteran",
+            "description": "Win 100 rounds on the DE_Dust map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 114,
+            "apiname": "WIN_MAP_DE_DUST2",
+            "name": "Dust2 Map Veteran",
+            "description": "Win 100 rounds on the DE_Dust2 map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 115,
+            "apiname": "WIN_MAP_DE_INFERNO",
+            "name": "Inferno Map Veteran",
+            "description": "Win 100 rounds on the DE_Inferno map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 116,
+            "apiname": "WIN_MAP_DE_NUKE",
+            "name": "Nuke Map Veteran",
+            "description": "Win 100 rounds on the DE_Nuke map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 117,
+            "apiname": "WIN_MAP_DE_PIRANESI",
+            "name": "Piranesi Map Veteran",
+            "description": "Win 100 rounds on the DE_Piranesi map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 118,
+            "apiname": "WIN_MAP_DE_PORT",
+            "name": "Port Map Veteran",
+            "description": "Win 100 rounds on the DE_Port map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 119,
+            "apiname": "WIN_MAP_DE_PRODIGY",
+            "name": "Prodigy Map Veteran",
+            "description": "Win 100 rounds on the DE_Prodigy map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 120,
+            "apiname": "WIN_MAP_DE_TIDES",
+            "name": "Tides Map Veteran",
+            "description": "Win 100 rounds on the DE_Tides map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 121,
+            "apiname": "WIN_MAP_DE_TRAIN",
+            "name": "Train Map Veteran",
+            "description": "Win 100 rounds on the DE_Train map",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 122,
+            "apiname": "KILL_WHILE_IN_AIR",
+            "name": "Death From Above",
+            "description": "Kill an enemy player while you are airborne",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 123,
+            "apiname": "KILL_ENEMY_IN_AIR",
+            "name": "Bunny Hunt",
+            "description": "Kill an airborne enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 124,
+            "apiname": "KILLER_AND_ENEMY_IN_AIR",
+            "name": "Aerial Necrobatics",
+            "description": "Kill an airborne enemy while you are also airborne",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 125,
+            "apiname": "SILENT_WIN",
+            "name": "Black Bag Operation",
+            "description": "Win a round while making no footstep noise and killing at least one enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 126,
+            "apiname": "BLOODLESS_VICTORY",
+            "name": "Cold War",
+            "description": "Win a round without your team killing any enemy players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 127,
+            "apiname": "DONATE_WEAPONS",
+            "name": "Killanthropist",
+            "description": "Donate 100 weapons to your teammates",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 128,
+            "apiname": "WIN_ROUNDS_WITHOUT_BUYING",
+            "name": "The Frugal Beret",
+            "description": "Win 10 rounds without dying and not spending any cash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 129,
+            "apiname": "DEFUSE_DEFENSE",
+            "name": "Defusus Interruptus",
+            "description": "Stop defusing to kill a terrorist and then successfully finish defusing the bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 130,
+            "apiname": "KILL_BOMB_PICKUP",
+            "name": "Participation Award",
+            "description": "Kill an enemy player within 3 seconds of them recovering a dropped bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 131,
+            "apiname": "DOMINATIONS_LOW",
+            "name": "Repeat Offender",
+            "description": "Dominate an enemy player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 132,
+            "apiname": "DOMINATIONS_HIGH",
+            "name": "Decimator",
+            "description": "Dominate a total of 10 enemy players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "DOMINATION_OVERKILLS_LOW",
+            "name": "Overkill",
+            "description": "Kill an opponent you are already dominating",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 134,
+            "apiname": "DOMINATION_OVERKILLS_HIGH",
+            "name": "Command and Control",
+            "description": "Get a total of 100 kills on enemy players you are dominating",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 135,
+            "apiname": "REVENGES_LOW",
+            "name": "Insurgent",
+            "description": "Kill an enemy player that is dominating you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 136,
+            "apiname": "REVENGES_HIGH",
+            "name": "Can't Keep a Good Man Down",
+            "description": "Kill a total of 20 enemy players that are dominating you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "SAME_UNIFORM",
+            "name": "Dressed to Kill",
+            "description": "Start a round with all players on your team wearing the same uniform (at least 5 players)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 138,
+            "apiname": "CONCURRENT_DOMINATIONS",
+            "name": "Hat Trick",
+            "description": "Dominate three enemy players simultaneously",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 139,
+            "apiname": "DOMINATION_OVERKILLS_MATCH",
+            "name": "Ten Angry Men",
+            "description": "Get 10 kills on enemy players you are already dominating during a single match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 140,
+            "apiname": "EXTENDED_DOMINATION",
+            "name": "Excessive Brutality",
+            "description": "Kill an enemy player 4 additional times while you are dominating them",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 141,
+            "apiname": "KILL_ENEMIES_WHILE_BLIND_HARD",
+            "name": "Spray and Pray",
+            "description": "Kill two enemy players while you are blinded from a flashbang",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 142,
+            "apiname": "FRIENDS_SAME_UNIFORM",
+            "name": "Friendly Attire",
+            "description": "Start a round on the same team as 4 of your friends, with all of you wearing the same outfit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 143,
+            "apiname": "CAUSE_FRIENDLY_FIRE_WITH_FLASHBANG",
+            "name": "The Road to Hell",
+            "description": "Blind an enemy player who then kills a teammate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 144,
+            "apiname": "AVENGE_FRIEND",
+            "name": "Avenging Angel",
+            "description": "Kill an enemy player in the same round as they kill a player on your friends list",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 145,
+            "apiname": "WIN_CLAN_MATCH",
+            "name": "Clan Warfare",
+            "description": "Win a match of at least 10 players where the entirety of each team is composed of a single clan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 146,
+            "apiname": "SNIPE_TWO_FROM_SAME_SPOT",
+            "name": "Happy Camper",
+            "description": "Get two kills standing in the same spot with a zoomed sniper rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 147,
+            "apiname": "COLLECT_GIFTS",
+            "name": "Gift Grab",
+            "description": "Collect three gifts dropped by opponents.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

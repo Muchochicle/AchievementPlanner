@@ -1,0 +1,1633 @@
+{
+    "id": 1942280,
+    "steamAppId": 1942280,
+    "name": "Brotato",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1942280/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 40,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Bullet Heaven",
+        "Action",
+        "Top-Down Shooter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "chal_survivor_1",
+            "name": "Survivor 1",
+            "description": "Kill 300 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 2,
+            "apiname": "chal_survivor_2",
+            "name": "Survivor 2",
+            "description": "Kill 2000 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 3,
+            "apiname": "chal_survivor_3",
+            "name": "Survivor 3",
+            "description": "Kill 5000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 4,
+            "apiname": "chal_survivor_4",
+            "name": "Survivor 4",
+            "description": "Kill 10000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 5,
+            "apiname": "chal_survivor_5",
+            "name": "Survivor 5",
+            "description": "Kill 20000 enemies",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 6,
+            "apiname": "chal_difficulty_0",
+            "name": "Danger 0",
+            "description": "Win a run in Danger 0",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 7,
+            "apiname": "chal_difficulty_1",
+            "name": "Danger 1",
+            "description": "Win a run in Danger 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 8,
+            "apiname": "chal_difficulty_2",
+            "name": "Danger 2",
+            "description": "Win a run in Danger 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 9,
+            "apiname": "chal_difficulty_3",
+            "name": "Danger 3",
+            "description": "Win a run in Danger 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 10,
+            "apiname": "chal_difficulty_4",
+            "name": "Danger 4",
+            "description": "Win a run in Danger 4",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 11,
+            "apiname": "chal_difficulty_5",
+            "name": "Danger 5",
+            "description": "Win a run in Danger 5",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 12,
+            "apiname": "chal_gatherer_1",
+            "name": "Gatherer 1",
+            "description": "Collect 300 materials",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 13,
+            "apiname": "chal_gatherer_2",
+            "name": "Gatherer 2",
+            "description": "Collect 2000 materials",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 14,
+            "apiname": "chal_gatherer_3",
+            "name": "Gatherer 3",
+            "description": "Collect 5000 materials",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 15,
+            "apiname": "chal_gatherer_4",
+            "name": "Gatherer 4",
+            "description": "Collect 10000 materials",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 16,
+            "apiname": "chal_gatherer_5",
+            "name": "Gatherer 5",
+            "description": "Collect 20000 materials",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 17,
+            "apiname": "chal_agriculture",
+            "name": "Agriculture",
+            "description": "Reach 200 Harvesting",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 18,
+            "apiname": "chal_dying",
+            "name": "Dying",
+            "description": "Reach -5 HP Regeneration",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 19,
+            "apiname": "chal_fast",
+            "name": "Fast",
+            "description": "Reach 50 % Speed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 20,
+            "apiname": "chal_hoarder",
+            "name": "Hoarder",
+            "description": "Hold 3000 materials",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 21,
+            "apiname": "chal_lumberjack",
+            "name": "Lumberjack",
+            "description": "Kill 50 trees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 22,
+            "apiname": "chal_medicine",
+            "name": "Medicine",
+            "description": "Heal 200 HP in one wave",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 23,
+            "apiname": "chal_turrets",
+            "name": "Industrialization",
+            "description": "Get 5 turrets on the map simultaneously",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 24,
+            "apiname": "chal_hallucination",
+            "name": "Hallucination",
+            "description": "Reach 60 % Dodge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 25,
+            "apiname": "chal_brawler",
+            "name": "Brawler - Crash Zone",
+            "description": "Win a run with Brawler in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 26,
+            "apiname": "chal_bull",
+            "name": "Bull - Crash Zone",
+            "description": "Win a run with Bull in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 27,
+            "apiname": "chal_chunky",
+            "name": "Chunky - Crash Zone",
+            "description": "Win a run with Chunky in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 28,
+            "apiname": "chal_demon",
+            "name": "Demon - Crash Zone",
+            "description": "Win a run with Demon in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 29,
+            "apiname": "chal_doctor",
+            "name": "Doctor - Crash Zone",
+            "description": "Win a run with Doctor in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 30,
+            "apiname": "chal_engineer",
+            "name": "Engineer - Crash Zone",
+            "description": "Win a run with Engineer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 31,
+            "apiname": "chal_entrepreneur",
+            "name": "Entrepreneur - Crash Zone",
+            "description": "Win a run with Entrepreneur in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 32,
+            "apiname": "chal_explorer",
+            "name": "Explorer - Crash Zone",
+            "description": "Win a run with Explorer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 33,
+            "apiname": "chal_farmer",
+            "name": "Farmer - Crash Zone",
+            "description": "Win a run with Farmer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 34,
+            "apiname": "chal_ghost",
+            "name": "Ghost - Crash Zone",
+            "description": "Win a run with Ghost in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 35,
+            "apiname": "chal_gladiator",
+            "name": "Gladiator - Crash Zone",
+            "description": "Win a run with Gladiator in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 36,
+            "apiname": "chal_knight",
+            "name": "Knight - Crash Zone",
+            "description": "Win a run with Knight in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 37,
+            "apiname": "chal_loud",
+            "name": "Loud - Crash Zone",
+            "description": "Win a run with Loud in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 38,
+            "apiname": "chal_lucky",
+            "name": "Lucky - Crash Zone",
+            "description": "Win a run with Lucky in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 39,
+            "apiname": "chal_mage",
+            "name": "Mage - Crash Zone",
+            "description": "Win a run with Mage in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 40,
+            "apiname": "chal_masochist",
+            "name": "Masochist - Crash Zone",
+            "description": "Win a run with Masochist in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 41,
+            "apiname": "chal_multitasker",
+            "name": "Multitasker - Crash Zone",
+            "description": "Win a run with Multitasker in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 42,
+            "apiname": "chal_mutant",
+            "name": "Mutant - Crash Zone",
+            "description": "Win a run with Mutant in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "chal_old",
+            "name": "Old - Crash Zone",
+            "description": "Win a run with Old in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 44,
+            "apiname": "chal_one_arm",
+            "name": "One-Armed - Crash Zone",
+            "description": "Win a run with One-Armed in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 45,
+            "apiname": "chal_pacifist",
+            "name": "Pacifist - Crash Zone",
+            "description": "Win a run with Pacifist in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 46,
+            "apiname": "chal_ranger",
+            "name": "Ranger - Crash Zone",
+            "description": "Win a run with Ranger in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 47,
+            "apiname": "chal_saver",
+            "name": "Saver - Crash Zone",
+            "description": "Win a run with Saver in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 48,
+            "apiname": "chal_sick",
+            "name": "Sick - Crash Zone",
+            "description": "Win a run with Sick in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 49,
+            "apiname": "chal_soldier",
+            "name": "Soldier - Crash Zone",
+            "description": "Win a run with Soldier in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 50,
+            "apiname": "chal_speedy",
+            "name": "Speedy - Crash Zone",
+            "description": "Win a run with Speedy in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 51,
+            "apiname": "chal_well_rounded",
+            "name": "Well-Rounded - Crash Zone",
+            "description": "Win a run with Well-Rounded in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 52,
+            "apiname": "chal_wildling",
+            "name": "Wildling - Crash Zone",
+            "description": "Win a run with Wildling in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 53,
+            "apiname": "chal_rookie",
+            "name": "Rookie",
+            "description": "Die for the first time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 54,
+            "apiname": "chal_crazy",
+            "name": "Crazy - Crash Zone",
+            "description": "Win a run with Crazy in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 55,
+            "apiname": "chal_generalist",
+            "name": "Generalist - Crash Zone",
+            "description": "Win a run with Generalist in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 56,
+            "apiname": "chal_artificer",
+            "name": "Artificer - Crash Zone",
+            "description": "Win a run with Artificer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 57,
+            "apiname": "chal_hunter",
+            "name": "Hunter - Crash Zone",
+            "description": "Win a run with Hunter in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 58,
+            "apiname": "chal_fireworks",
+            "name": "Fireworks",
+            "description": "Kill 15 enemies with a single explosion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 59,
+            "apiname": "chal_perfect_vision",
+            "name": "Perfect Vision",
+            "description": "Reach 300 Range",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 60,
+            "apiname": "chal_recycling",
+            "name": "Recycling",
+            "description": "Recycle 12 weapons during a run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 61,
+            "apiname": "chal_slow",
+            "name": "Slow",
+            "description": "Reach -20 % Speed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 62,
+            "apiname": "chal_arms_dealer",
+            "name": "Arms Dealer - Crash Zone",
+            "description": "Win a run with Arms Dealer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 63,
+            "apiname": "chal_streamer",
+            "name": "Streamer - Crash Zone",
+            "description": "Win a run with Streamer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 64,
+            "apiname": "chal_advanced_technology",
+            "name": "Advanced Technology",
+            "description": "Reach 10 Ranged Damage and get 3 structures at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 65,
+            "apiname": "chal_giant_slayer",
+            "name": "Giant Slayer",
+            "description": "Kill a boss or an elite in less than 15 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 66,
+            "apiname": "chal_hungry",
+            "name": "Hungry",
+            "description": "Pick up 20 consumables during a run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 67,
+            "apiname": "chal_robust",
+            "name": "Robust",
+            "description": "Reach 100 Max HP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 68,
+            "apiname": "chal_cyborg",
+            "name": "Cyborg - Crash Zone",
+            "description": "Win a run with Cyborg in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 69,
+            "apiname": "chal_glutton",
+            "name": "Glutton - Crash Zone",
+            "description": "Win a run with Glutton in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 70,
+            "apiname": "chal_jack",
+            "name": "Jack - Crash Zone",
+            "description": "Win a run with Jack in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 71,
+            "apiname": "chal_lich",
+            "name": "Lich - Crash Zone",
+            "description": "Win a run with Lich in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 72,
+            "apiname": "chal_baited",
+            "name": "Baited",
+            "description": "Get 2 Bait during a run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 73,
+            "apiname": "chal_forest",
+            "name": "Forest",
+            "description": "Finish a wave with 10 or more living trees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 74,
+            "apiname": "chal_bourgeoisie",
+            "name": "Bourgeoisie",
+            "description": "Get 3 tier IV weapons at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 75,
+            "apiname": "chal_student",
+            "name": "Student",
+            "description": "Reach level 20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 76,
+            "apiname": "chal_reckless",
+            "name": "Reckless",
+            "description": "Finish a wave with 1 HP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 77,
+            "apiname": "chal_scavenger",
+            "name": "Scavenger",
+            "description": "Get 10 different tier I items during a run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 78,
+            "apiname": "chal_apprentice",
+            "name": "Apprentice - Crash Zone",
+            "description": "Win a run with Apprentice in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 79,
+            "apiname": "chal_cryptid",
+            "name": "Cryptid - Crash Zone",
+            "description": "Win a run with Cryptid in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 80,
+            "apiname": "chal_fisherman",
+            "name": "Fisherman - Crash Zone",
+            "description": "Win a run with Fisherman in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 81,
+            "apiname": "chal_golem",
+            "name": "Golem - Crash Zone",
+            "description": "Win a run with Golem in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 82,
+            "apiname": "chal_king",
+            "name": "King - Crash Zone",
+            "description": "Win a run with King in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 83,
+            "apiname": "chal_renegade",
+            "name": "Renegade - Crash Zone",
+            "description": "Win a run with Renegade in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 84,
+            "apiname": "chal_vampire",
+            "name": "Vampire - Crash Zone",
+            "description": "Win a run with Vampire in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 85,
+            "apiname": "chal_vagabond",
+            "name": "Vagabond - Crash Zone",
+            "description": "Win a run with Vagabond in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 86,
+            "apiname": "chal_baby",
+            "name": "Baby - Crash Zone",
+            "description": "Win a run with Baby in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 87,
+            "apiname": "chal_blood_drinker",
+            "name": "Blood Drinker",
+            "description": "Reach 40 % Life Steal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 88,
+            "apiname": "chal_experimentation",
+            "name": "Experimentation",
+            "description": "Have 6 different weapons at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 89,
+            "apiname": "chal_fast_learner",
+            "name": "Fast Learner",
+            "description": "Reach level 10 before wave 6",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 90,
+            "apiname": "chal_magic_and_machinery",
+            "name": "Magic and Machinery",
+            "description": "Reach 10 Elemental Damage and get 3 structures at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 91,
+            "apiname": "chal_technomage",
+            "name": "Technomage - Crash Zone",
+            "description": "Win a run with Technomage in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 92,
+            "apiname": "chal_barbecue",
+            "name": "Barbecue",
+            "description": "Have at least 25 enemies burning at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 93,
+            "apiname": "chal_blind_greed",
+            "name": "Blind Greed",
+            "description": "Reach 100 % Pickup Range",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 94,
+            "apiname": "chal_buccaneer",
+            "name": "Buccaneer - Crash Zone",
+            "description": "Win a run with Buccaneer in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 95,
+            "apiname": "chal_builder",
+            "name": "Builder - Crash Zone",
+            "description": "Win a run with Builder in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 96,
+            "apiname": "chal_captain",
+            "name": "Captain - Crash Zone",
+            "description": "Win a run with Captain in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 97,
+            "apiname": "chal_cautious",
+            "name": "Cautious",
+            "description": "Kill 1000 enemies that are more than 700 range away from you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 98,
+            "apiname": "chal_chef",
+            "name": "Chef - Crash Zone",
+            "description": "Win a run with Chef in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 99,
+            "apiname": "chal_creature",
+            "name": "Creature - Crash Zone",
+            "description": "Win a run with Creature in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 100,
+            "apiname": "chal_curious",
+            "name": "Curious - Crash Zone",
+            "description": "Win a run with Curious in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 101,
+            "apiname": "chal_diver",
+            "name": "Diver - Crash Zone",
+            "description": "Win a run with Diver in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 102,
+            "apiname": "chal_druid",
+            "name": "Druid - Crash Zone",
+            "description": "Win a run with Druid in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 103,
+            "apiname": "chal_dwarf",
+            "name": "Dwarf - Crash Zone",
+            "description": "Win a run with Dwarf in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 104,
+            "apiname": "chal_gangster",
+            "name": "Gangster - Crash Zone",
+            "description": "Win a run with Gangster in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 105,
+            "apiname": "chal_herbalist",
+            "name": "Herbalist",
+            "description": "Collect 250 consumables by the end of wave 20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 106,
+            "apiname": "chal_hiker",
+            "name": "Hiker - Crash Zone",
+            "description": "Win a run with Hiker in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 107,
+            "apiname": "chal_ogre",
+            "name": "Ogre - Crash Zone",
+            "description": "Win a run with Ogre in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 108,
+            "apiname": "chal_overkill",
+            "name": "Overkill",
+            "description": "Deal 1000 damage to an enemy in a single hit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 109,
+            "apiname": "chal_romantic",
+            "name": "Romantic - Crash Zone",
+            "description": "Win a run with Romantic in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 110,
+            "apiname": "chal_sailor",
+            "name": "Sailor - Crash Zone",
+            "description": "Win a run with Sailor in Crash Zone",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 111,
+            "apiname": "chal_smelly_feet",
+            "name": "Smelly Feet",
+            "description": "Walk a total of 20000 steps",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 112,
+            "apiname": "chal_uncorrupted",
+            "name": "Uncorrupted",
+            "description": "Finish a run with 0 Curse",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 113,
+            "apiname": "chal_unlucky",
+            "name": "Unlucky",
+            "description": "Reroll 10 times in a single shop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 114,
+            "apiname": "chal_unstoppable_force",
+            "name": "Unstoppable Force",
+            "description": "Hit at least 25 enemies with a single melee attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 115,
+            "apiname": "chal_well_rounded_abyss",
+            "name": "Well-Rounded - The Abyss",
+            "description": "Win a run with Well-Rounded in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 116,
+            "apiname": "chal_brawler_abyss",
+            "name": "Brawler - The Abyss",
+            "description": "Win a run with Brawler in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 117,
+            "apiname": "chal_crazy_abyss",
+            "name": "Crazy - The Abyss",
+            "description": "Win a run with Crazy in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 118,
+            "apiname": "chal_ranger_abyss",
+            "name": "Ranger - The Abyss",
+            "description": "Win a run with Ranger in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 119,
+            "apiname": "chal_mage_abyss",
+            "name": "Mage - The Abyss",
+            "description": "Win a run with Mage in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 120,
+            "apiname": "chal_chunky_abyss",
+            "name": "Chunky - The Abyss",
+            "description": "Win a run with Chunky in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 121,
+            "apiname": "chal_old_abyss",
+            "name": "Old - The Abyss",
+            "description": "Win a run with Old in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 122,
+            "apiname": "chal_lucky_abyss",
+            "name": "Lucky - The Abyss",
+            "description": "Win a run with Lucky in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 123,
+            "apiname": "chal_mutant_abyss",
+            "name": "Mutant - The Abyss",
+            "description": "Win a run with Mutant in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 124,
+            "apiname": "chal_generalist_abyss",
+            "name": "Generalist - The Abyss",
+            "description": "Win a run with Generalist in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 125,
+            "apiname": "chal_loud_abyss",
+            "name": "Loud - The Abyss",
+            "description": "Win a run with Loud in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 126,
+            "apiname": "chal_multitasker_abyss",
+            "name": "Multitasker - The Abyss",
+            "description": "Win a run with Multitasker in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 127,
+            "apiname": "chal_wildling_abyss",
+            "name": "Wildling - The Abyss",
+            "description": "Win a run with Wildling in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 128,
+            "apiname": "chal_pacifist_abyss",
+            "name": "Pacifist - The Abyss",
+            "description": "Win a run with Pacifist in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 129,
+            "apiname": "chal_gladiator_abyss",
+            "name": "Gladiator - The Abyss",
+            "description": "Win a run with Gladiator in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 130,
+            "apiname": "chal_saver_abyss",
+            "name": "Saver - The Abyss",
+            "description": "Win a run with Saver in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 131,
+            "apiname": "chal_sick_abyss",
+            "name": "Sick - The Abyss",
+            "description": "Win a run with Sick in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 132,
+            "apiname": "chal_farmer_abyss",
+            "name": "Farmer - The Abyss",
+            "description": "Win a run with Farmer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 133,
+            "apiname": "chal_ghost_abyss",
+            "name": "Ghost - The Abyss",
+            "description": "Win a run with Ghost in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 134,
+            "apiname": "chal_speedy_abyss",
+            "name": "Speedy - The Abyss",
+            "description": "Win a run with Speedy in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 135,
+            "apiname": "chal_entrepreneur_abyss",
+            "name": "Entrepreneur - The Abyss",
+            "description": "Win a run with Entrepreneur in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 136,
+            "apiname": "chal_engineer_abyss",
+            "name": "Engineer - The Abyss",
+            "description": "Win a run with Engineer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 137,
+            "apiname": "chal_explorer_abyss",
+            "name": "Explorer - The Abyss",
+            "description": "Win a run with Explorer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 138,
+            "apiname": "chal_doctor_abyss",
+            "name": "Doctor - The Abyss",
+            "description": "Win a run with Doctor in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 139,
+            "apiname": "chal_hunter_abyss",
+            "name": "Hunter - The Abyss",
+            "description": "Win a run with Hunter in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 140,
+            "apiname": "chal_artificer_abyss",
+            "name": "Artificer - The Abyss",
+            "description": "Win a run with Artificer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 141,
+            "apiname": "chal_arms_dealer_abyss",
+            "name": "Arms Dealer - The Abyss",
+            "description": "Win a run with Arms Dealer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 142,
+            "apiname": "chal_streamer_abyss",
+            "name": "Streamer - The Abyss",
+            "description": "Win a run with Streamer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 143,
+            "apiname": "chal_cyborg_abyss",
+            "name": "Cyborg - The Abyss",
+            "description": "Win a run with Cyborg in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 144,
+            "apiname": "chal_glutton_abyss",
+            "name": "Glutton - The Abyss",
+            "description": "Win a run with Glutton in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 145,
+            "apiname": "chal_jack_abyss",
+            "name": "Jack - The Abyss",
+            "description": "Win a run with Jack in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 146,
+            "apiname": "chal_lich_abyss",
+            "name": "Lich - The Abyss",
+            "description": "Win a run with Lich in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 147,
+            "apiname": "chal_apprentice_abyss",
+            "name": "Apprentice - The Abyss",
+            "description": "Win a run with Apprentice in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 148,
+            "apiname": "chal_cryptid_abyss",
+            "name": "Cryptid - The Abyss",
+            "description": "Win a run with Cryptid in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 149,
+            "apiname": "chal_fisherman_abyss",
+            "name": "Fisherman - The Abyss",
+            "description": "Win a run with Fisherman in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 150,
+            "apiname": "chal_golem_abyss",
+            "name": "Golem - The Abyss",
+            "description": "Win a run with Golem in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 151,
+            "apiname": "chal_king_abyss",
+            "name": "King - The Abyss",
+            "description": "Win a run with King in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 152,
+            "apiname": "chal_renegade_abyss",
+            "name": "Renegade - The Abyss",
+            "description": "Win a run with Renegade in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 153,
+            "apiname": "chal_one_arm_abyss",
+            "name": "One-Armed - The Abyss",
+            "description": "Win a run with One-Armed in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 154,
+            "apiname": "chal_bull_abyss",
+            "name": "Bull - The Abyss",
+            "description": "Win a run with Bull in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 155,
+            "apiname": "chal_soldier_abyss",
+            "name": "Soldier - The Abyss",
+            "description": "Win a run with Soldier in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 156,
+            "apiname": "chal_masochist_abyss",
+            "name": "Masochist - The Abyss",
+            "description": "Win a run with Masochist in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 157,
+            "apiname": "chal_knight_abyss",
+            "name": "Knight - The Abyss",
+            "description": "Win a run with Knight in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 158,
+            "apiname": "chal_demon_abyss",
+            "name": "Demon - The Abyss",
+            "description": "Win a run with Demon in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 159,
+            "apiname": "chal_baby_abyss",
+            "name": "Baby - The Abyss",
+            "description": "Win a run with Baby in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 160,
+            "apiname": "chal_vagabond_abyss",
+            "name": "Vagabond - The Abyss",
+            "description": "Win a run with Vagabond in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 161,
+            "apiname": "chal_technomage_abyss",
+            "name": "Technomage - The Abyss",
+            "description": "Win a run with Technomage in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 162,
+            "apiname": "chal_vampire_abyss",
+            "name": "Vampire - The Abyss",
+            "description": "Win a run with Vampire in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 163,
+            "apiname": "chal_sailor_abyss",
+            "name": "Sailor - The Abyss",
+            "description": "Win a run with Sailor in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 164,
+            "apiname": "chal_curious_abyss",
+            "name": "Curious - The Abyss",
+            "description": "Win a run with Curious in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 165,
+            "apiname": "chal_builder_abyss",
+            "name": "Builder - The Abyss",
+            "description": "Win a run with Builder in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 166,
+            "apiname": "chal_captain_abyss",
+            "name": "Captain - The Abyss",
+            "description": "Win a run with Captain in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 167,
+            "apiname": "chal_creature_abyss",
+            "name": "Creature - The Abyss",
+            "description": "Win a run with Creature in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 168,
+            "apiname": "chal_chef_abyss",
+            "name": "Chef - The Abyss",
+            "description": "Win a run with Chef in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 169,
+            "apiname": "chal_druid_abyss",
+            "name": "Druid - The Abyss",
+            "description": "Win a run with Druid in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 170,
+            "apiname": "chal_dwarf_abyss",
+            "name": "Dwarf - The Abyss",
+            "description": "Win a run with Dwarf in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 171,
+            "apiname": "chal_gangster_abyss",
+            "name": "Gangster - The Abyss",
+            "description": "Win a run with Gangster in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 172,
+            "apiname": "chal_diver_abyss",
+            "name": "Diver - The Abyss",
+            "description": "Win a run with Diver in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 173,
+            "apiname": "chal_hiker_abyss",
+            "name": "Hiker - The Abyss",
+            "description": "Win a run with Hiker in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 174,
+            "apiname": "chal_buccaneer_abyss",
+            "name": "Buccaneer - The Abyss",
+            "description": "Win a run with Buccaneer in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 175,
+            "apiname": "chal_ogre_abyss",
+            "name": "Ogre - The Abyss",
+            "description": "Win a run with Ogre in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 176,
+            "apiname": "chal_romantic_abyss",
+            "name": "Romantic - The Abyss",
+            "description": "Win a run with Romantic in The Abyss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 177,
+            "apiname": "chal_beast_master",
+            "name": "Beast Master",
+            "description": "Win a run with Beast Master",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 178,
+            "apiname": "chal_difficulty_6",
+            "name": "Nightmare",
+            "description": "Win a run in Nightmare",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 179,
+            "apiname": "chal_wounded",
+            "name": "Wounded",
+            "description": "Win a run with Wounded",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        }
+    ]
+}

@@ -168,6 +168,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("balatro"));
     assert.ok(slugs.includes("content-warning"));
     assert.ok(slugs.includes("mount-and-blade-2-bannerlord"));
+    assert.ok(slugs.includes("brotato"));
+    assert.ok(slugs.includes("total-war-rome-2"));
+    assert.ok(slugs.includes("counter-strike-source"));
 
 });
 

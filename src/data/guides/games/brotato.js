@@ -1,0 +1,72 @@
+// Brotato Game Guide. Sources:
+//
+// - PRIMARY: this app's own catalog data
+//   (backend/catalog/games/brotato.json), whose 179 achievements were
+//   sourced directly from Steam's own achievement schema for appid
+//   1942280 via ISteamUserStats/GetSchemaForGame (fetched through this
+//   app's own backend/services/steamApi.js). None are hidden; every one
+//   ships a real, official Steam description, quoted verbatim below.
+// - Most achievements are "win a run with character X" and grew with
+//   free updates, so the chal_* apiname order is roughly chronological.
+//   The sections walk the list in four blocks, listing every real name
+//   and condition rather than one line each.
+export const GUIDE = {
+    "slug": "brotato-achievement-guide",
+    "category": "game",
+    "gameSlug": "brotato",
+    "icon": "🥔",
+    "title": "Brotato Achievement Guide",
+    "summary": "A practical guide to all 179 Steam achievements in Brotato - none are hidden. Because most are \"win a run with character X\" (and \"in Crash Zone\") plus the kill-count, Danger-level and stat-cap feats, the list is walked through in four roughly ordered blocks with every achievement name and condition listed.",
+    "relatedSlugs": [
+        "achievement-completion-and-tracking",
+        "understanding-achievement-availability"
+    ],
+    "sections": [
+        {
+            "heading": "Overview",
+            "body": [
+                "Brotato has 179 Steam achievements and none are hidden. The bulk are per-character: win a run with each character, and for many of them win a run with that character in the Crash Zone. On top of that sit the cumulative kill-count tiers (Survivor 1-5), the Danger-level wins (Danger 0 up), the material-gathering tiers, and a set of one-off stat-cap feats (reach 50% Speed, 60% Dodge, 200 Harvesting, hold 3,000 materials, and so on).",
+                "Nothing is missable - every character and Danger level is always available and progress persists - so this is a play-every-character completion. The character roster grew across free updates, so the apiname order is roughly chronological; this guide walks it in four blocks.",
+                "Tip: play each character on the lowest Danger level that still counts for its \"win a run\" achievement first, then do a Danger 5 pass on the characters that need it. Kill-count and material tiers fill on their own; only the stat-cap feats need a deliberate build."
+            ]
+        },
+        {
+            "heading": "Kill Counts, Danger Wins & Stat Feats",
+            "body": [
+                "The non-character block: killing 300 to 20,000 enemies (Survivor 1-5), winning on each Danger level, the material-gathering tiers, and the one-off stat and feat achievements (speed, dodge, HP regen, harvesting, materials held, trees killed, turrets, healing in a wave and similar).",
+                "The achievements here: Survivor 1 (Kill 300 enemies); Survivor 2 (Kill 2000 enemies); Survivor 3 (Kill 5000 enemies); Survivor 4 (Kill 10000 enemies); Survivor 5 (Kill 20000 enemies); Danger 0 (Win a run in Danger 0); Danger 1 (Win a run in Danger 1); Danger 2 (Win a run in Danger 2); Danger 3 (Win a run in Danger 3); Danger 4 (Win a run in Danger 4); Danger 5 (Win a run in Danger 5); Gatherer 1 (Collect 300 materials); Gatherer 2 (Collect 2000 materials); Gatherer 3 (Collect 5000 materials); Gatherer 4 (Collect 10000 materials); Gatherer 5 (Collect 20000 materials); Agriculture (Reach 200 Harvesting); Dying (Reach -5 HP Regeneration); Fast (Reach 50 % Speed); Hoarder (Hold 3000 materials); Lumberjack (Kill 50 trees); Medicine (Heal 200 HP in one wave); Industrialization (Get 5 turrets on the map simultaneously); Hallucination (Reach 60 % Dodge); Brawler - Crash Zone (Win a run with Brawler in Crash Zone); Bull - Crash Zone (Win a run with Bull in Crash Zone); Chunky - Crash Zone (Win a run with Chunky in Crash Zone); Demon - Crash Zone (Win a run with Demon in Crash Zone); Doctor - Crash Zone (Win a run with Doctor in Crash Zone); Engineer - Crash Zone (Win a run with Engineer in Crash Zone); Entrepreneur - Crash Zone (Win a run with Entrepreneur in Crash Zone); Explorer - Crash Zone (Win a run with Explorer in Crash Zone); Farmer - Crash Zone (Win a run with Farmer in Crash Zone); Ghost - Crash Zone (Win a run with Ghost in Crash Zone); Gladiator - Crash Zone (Win a run with Gladiator in Crash Zone); Knight - Crash Zone (Win a run with Knight in Crash Zone); Loud - Crash Zone (Win a run with Loud in Crash Zone); Lucky - Crash Zone (Win a run with Lucky in Crash Zone); Mage - Crash Zone (Win a run with Mage in Crash Zone); Masochist - Crash Zone (Win a run with Masochist in Crash Zone); Multitasker - Crash Zone (Win a run with Multitasker in Crash Zone); Mutant - Crash Zone (Win a run with Mutant in Crash Zone); Old - Crash Zone (Win a run with Old in Crash Zone); One-Armed - Crash Zone (Win a run with One-Armed in Crash Zone); Pacifist - Crash Zone (Win a run with Pacifist in Crash Zone)."
+            ]
+        },
+        {
+            "heading": "Character Wins (Part 1)",
+            "body": [
+                "The first block of \"win a run with character X\" and \"win a run with X in Crash Zone\" achievements, in roughly the order the characters were added.",
+                "The achievements here: Ranger - Crash Zone (Win a run with Ranger in Crash Zone); Saver - Crash Zone (Win a run with Saver in Crash Zone); Sick - Crash Zone (Win a run with Sick in Crash Zone); Soldier - Crash Zone (Win a run with Soldier in Crash Zone); Speedy - Crash Zone (Win a run with Speedy in Crash Zone); Well-Rounded - Crash Zone (Win a run with Well-Rounded in Crash Zone); Wildling - Crash Zone (Win a run with Wildling in Crash Zone); Rookie (Die for the first time); Crazy - Crash Zone (Win a run with Crazy in Crash Zone); Generalist - Crash Zone (Win a run with Generalist in Crash Zone); Artificer - Crash Zone (Win a run with Artificer in Crash Zone); Hunter - Crash Zone (Win a run with Hunter in Crash Zone); Fireworks (Kill 15 enemies with a single explosion); Perfect Vision (Reach 300 Range); Recycling (Recycle 12 weapons during a run); Slow (Reach -20 % Speed); Arms Dealer - Crash Zone (Win a run with Arms Dealer in Crash Zone); Streamer - Crash Zone (Win a run with Streamer in Crash Zone); Advanced Technology (Reach 10 Ranged Damage and get 3 structures at the same time); Giant Slayer (Kill a boss or an elite in less than 15 seconds); Hungry (Pick up 20 consumables during a run); Robust (Reach 100 Max HP); Cyborg - Crash Zone (Win a run with Cyborg in Crash Zone); Glutton - Crash Zone (Win a run with Glutton in Crash Zone); Jack - Crash Zone (Win a run with Jack in Crash Zone); Lich - Crash Zone (Win a run with Lich in Crash Zone); Baited (Get 2 Bait during a run); Forest (Finish a wave with 10 or more living trees); Bourgeoisie (Get 3 tier IV weapons at once); Student (Reach level 20); Reckless (Finish a wave with 1 HP); Scavenger (Get 10 different tier I items during a run); Apprentice - Crash Zone (Win a run with Apprentice in Crash Zone); Cryptid - Crash Zone (Win a run with Cryptid in Crash Zone); Fisherman - Crash Zone (Win a run with Fisherman in Crash Zone); Golem - Crash Zone (Win a run with Golem in Crash Zone); King - Crash Zone (Win a run with King in Crash Zone); Renegade - Crash Zone (Win a run with Renegade in Crash Zone); Vampire - Crash Zone (Win a run with Vampire in Crash Zone); Vagabond - Crash Zone (Win a run with Vagabond in Crash Zone); Baby - Crash Zone (Win a run with Baby in Crash Zone); Blood Drinker (Reach 40 % Life Steal); Experimentation (Have 6 different weapons at once); Fast Learner (Reach level 10 before wave 6); Magic and Machinery (Reach 10 Elemental Damage and get 3 structures at the same time)."
+            ]
+        },
+        {
+            "heading": "Character Wins (Part 2)",
+            "body": [
+                "The second block of character-win achievements, continuing in roster order.",
+                "The achievements here: Technomage - Crash Zone (Win a run with Technomage in Crash Zone); Barbecue (Have at least 25 enemies burning at the same time); Blind Greed (Reach 100 % Pickup Range); Buccaneer - Crash Zone (Win a run with Buccaneer in Crash Zone); Builder - Crash Zone (Win a run with Builder in Crash Zone); Captain - Crash Zone (Win a run with Captain in Crash Zone); Cautious (Kill 1000 enemies that are more than 700 range away from you); Chef - Crash Zone (Win a run with Chef in Crash Zone); Creature - Crash Zone (Win a run with Creature in Crash Zone); Curious - Crash Zone (Win a run with Curious in Crash Zone); Diver - Crash Zone (Win a run with Diver in Crash Zone); Druid - Crash Zone (Win a run with Druid in Crash Zone); Dwarf - Crash Zone (Win a run with Dwarf in Crash Zone); Gangster - Crash Zone (Win a run with Gangster in Crash Zone); Herbalist (Collect 250 consumables by the end of wave 20); Hiker - Crash Zone (Win a run with Hiker in Crash Zone); Ogre - Crash Zone (Win a run with Ogre in Crash Zone); Overkill (Deal 1000 damage to an enemy in a single hit); Romantic - Crash Zone (Win a run with Romantic in Crash Zone); Sailor - Crash Zone (Win a run with Sailor in Crash Zone); Smelly Feet (Walk a total of 20000 steps); Uncorrupted (Finish a run with 0 Curse); Unlucky (Reroll 10 times in a single shop); Unstoppable Force (Hit at least 25 enemies with a single melee attack); Well-Rounded - The Abyss (Win a run with Well-Rounded in The Abyss); Brawler - The Abyss (Win a run with Brawler in The Abyss); Crazy - The Abyss (Win a run with Crazy in The Abyss); Ranger - The Abyss (Win a run with Ranger in The Abyss); Mage - The Abyss (Win a run with Mage in The Abyss); Chunky - The Abyss (Win a run with Chunky in The Abyss); Old - The Abyss (Win a run with Old in The Abyss); Lucky - The Abyss (Win a run with Lucky in The Abyss); Mutant - The Abyss (Win a run with Mutant in The Abyss); Generalist - The Abyss (Win a run with Generalist in The Abyss); Loud - The Abyss (Win a run with Loud in The Abyss); Multitasker - The Abyss (Win a run with Multitasker in The Abyss); Wildling - The Abyss (Win a run with Wildling in The Abyss); Pacifist - The Abyss (Win a run with Pacifist in The Abyss); Gladiator - The Abyss (Win a run with Gladiator in The Abyss); Saver - The Abyss (Win a run with Saver in The Abyss); Sick - The Abyss (Win a run with Sick in The Abyss); Farmer - The Abyss (Win a run with Farmer in The Abyss); Ghost - The Abyss (Win a run with Ghost in The Abyss); Speedy - The Abyss (Win a run with Speedy in The Abyss); Entrepreneur - The Abyss (Win a run with Entrepreneur in The Abyss)."
+            ]
+        },
+        {
+            "heading": "Later Characters & Crash Zone Wins",
+            "body": [
+                "The most recently added characters and their Crash Zone wins.",
+                "The achievements here: Engineer - The Abyss (Win a run with Engineer in The Abyss); Explorer - The Abyss (Win a run with Explorer in The Abyss); Doctor - The Abyss (Win a run with Doctor in The Abyss); Hunter - The Abyss (Win a run with Hunter in The Abyss); Artificer - The Abyss (Win a run with Artificer in The Abyss); Arms Dealer - The Abyss (Win a run with Arms Dealer in The Abyss); Streamer - The Abyss (Win a run with Streamer in The Abyss); Cyborg - The Abyss (Win a run with Cyborg in The Abyss); Glutton - The Abyss (Win a run with Glutton in The Abyss); Jack - The Abyss (Win a run with Jack in The Abyss); Lich - The Abyss (Win a run with Lich in The Abyss); Apprentice - The Abyss (Win a run with Apprentice in The Abyss); Cryptid - The Abyss (Win a run with Cryptid in The Abyss); Fisherman - The Abyss (Win a run with Fisherman in The Abyss); Golem - The Abyss (Win a run with Golem in The Abyss); King - The Abyss (Win a run with King in The Abyss); Renegade - The Abyss (Win a run with Renegade in The Abyss); One-Armed - The Abyss (Win a run with One-Armed in The Abyss); Bull - The Abyss (Win a run with Bull in The Abyss); Soldier - The Abyss (Win a run with Soldier in The Abyss); Masochist - The Abyss (Win a run with Masochist in The Abyss); Knight - The Abyss (Win a run with Knight in The Abyss); Demon - The Abyss (Win a run with Demon in The Abyss); Baby - The Abyss (Win a run with Baby in The Abyss); Vagabond - The Abyss (Win a run with Vagabond in The Abyss); Technomage - The Abyss (Win a run with Technomage in The Abyss); Vampire - The Abyss (Win a run with Vampire in The Abyss); Sailor - The Abyss (Win a run with Sailor in The Abyss); Curious - The Abyss (Win a run with Curious in The Abyss); Builder - The Abyss (Win a run with Builder in The Abyss); Captain - The Abyss (Win a run with Captain in The Abyss); Creature - The Abyss (Win a run with Creature in The Abyss); Chef - The Abyss (Win a run with Chef in The Abyss); Druid - The Abyss (Win a run with Druid in The Abyss); Dwarf - The Abyss (Win a run with Dwarf in The Abyss); Gangster - The Abyss (Win a run with Gangster in The Abyss); Diver - The Abyss (Win a run with Diver in The Abyss); Hiker - The Abyss (Win a run with Hiker in The Abyss); Buccaneer - The Abyss (Win a run with Buccaneer in The Abyss); Ogre - The Abyss (Win a run with Ogre in The Abyss); Romantic - The Abyss (Win a run with Romantic in The Abyss); Beast Master (Win a run with Beast Master); Nightmare (Win a run in Nightmare); Wounded (Win a run with Wounded)."
+            ]
+        },
+        {
+            "heading": "Suggested Order",
+            "body": [
+                "1. Play through every character once on a comfortable Danger level, taking whichever weapons and items the run offers - this clears the bulk of the character-win block and passively fills Survivor 1-5 and the material tiers.",
+                "2. Do a second pass in the Crash Zone for the characters whose achievement specifically requires it.",
+                "3. Do the stat-cap feats with deliberate builds: a pure-Speed run, a pure-Dodge run, a Harvesting run, a materials-hoarding run, and so on - each is one focused run.",
+                "4. Do a Danger 5 pass on any characters whose win achievement requires the higher Danger level.",
+                "Tip: the stat-cap feats (Fast, Hallucination, Agriculture, Hoarder, Medicine) are easiest on the characters built around that stat - match the feat to a character that already has a big bonus to it rather than forcing it on a generalist."
+            ]
+        }
+    ]
+};

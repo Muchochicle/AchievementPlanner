@@ -144,6 +144,9 @@ import { GUIDE as totalWarWarhammer2AchievementGuide } from "./games/total-war-w
 import { GUIDE as balatroAchievementGuide } from "./games/balatro.js";
 import { GUIDE as contentWarningAchievementGuide } from "./games/content-warning.js";
 import { GUIDE as mountAndBlade2BannerlordAchievementGuide } from "./games/mount-and-blade-2-bannerlord.js";
+import { GUIDE as brotatoAchievementGuide } from "./games/brotato.js";
+import { GUIDE as totalWarRome2AchievementGuide } from "./games/total-war-rome-2.js";
+import { GUIDE as counterStrikeSourceAchievementGuide } from "./games/counter-strike-source.js";
 
 export const APP_GUIDES = [
 
@@ -310,7 +313,10 @@ export const GAME_GUIDES = [
     totalWarWarhammer2AchievementGuide,
     balatroAchievementGuide,
     contentWarningAchievementGuide,
-    mountAndBlade2BannerlordAchievementGuide
+    mountAndBlade2BannerlordAchievementGuide,
+    brotatoAchievementGuide,
+    totalWarRome2AchievementGuide,
+    counterStrikeSourceAchievementGuide
 
 ];
 
