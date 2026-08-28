@@ -102,6 +102,9 @@ import { GUIDE as deepRockGalacticAchievementGuide } from "./games/deep-rock-gal
 import { GUIDE as leftForDeadAchievementGuide } from "./games/left-4-dead.js";
 import { GUIDE as halfLife2AchievementGuide } from "./games/half-life-2.js";
 import { GUIDE as theForestAchievementGuide } from "./games/the-forest.js";
+import { GUIDE as arkSurvivalEvolvedAchievementGuide } from "./games/ark-survival-evolved.js";
+import { GUIDE as civilizationViAchievementGuide } from "./games/civilization-vi.js";
+import { GUIDE as seaOfThievesAchievementGuide } from "./games/sea-of-thieves.js";
 
 export const APP_GUIDES = [
 
@@ -226,7 +229,10 @@ export const GAME_GUIDES = [
     deepRockGalacticAchievementGuide,
     leftForDeadAchievementGuide,
     halfLife2AchievementGuide,
-    theForestAchievementGuide
+    theForestAchievementGuide,
+    arkSurvivalEvolvedAchievementGuide,
+    civilizationViAchievementGuide,
+    seaOfThievesAchievementGuide
 
 ];
 
