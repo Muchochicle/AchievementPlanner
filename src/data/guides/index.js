@@ -114,6 +114,9 @@ import { GUIDE as raftAchievementGuide } from "./games/raft.js";
 import { GUIDE as pubgBattlegroundsAchievementGuide } from "./games/pubg-battlegrounds.js";
 import { GUIDE as monsterHunterRiseAchievementGuide } from "./games/monster-hunter-rise.js";
 import { GUIDE as teamFortress2AchievementGuide } from "./games/team-fortress-2.js";
+import { GUIDE as rocketLeagueAchievementGuide } from "./games/rocket-league.js";
+import { GUIDE as euroTruckSimulator2AchievementGuide } from "./games/euro-truck-simulator-2.js";
+import { GUIDE as stellarisAchievementGuide } from "./games/stellaris.js";
 
 export const APP_GUIDES = [
 
@@ -250,7 +253,10 @@ export const GAME_GUIDES = [
     raftAchievementGuide,
     pubgBattlegroundsAchievementGuide,
     monsterHunterRiseAchievementGuide,
-    teamFortress2AchievementGuide
+    teamFortress2AchievementGuide,
+    rocketLeagueAchievementGuide,
+    euroTruckSimulator2AchievementGuide,
+    stellarisAchievementGuide
 
 ];
 

@@ -1,0 +1,976 @@
+{
+    "id": 227300,
+    "steamAppId": 227300,
+    "name": "Euro Truck Simulator 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Driving",
+        "Open World",
+        "Economy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "map_discover_60",
+            "name": "I Am a GPS",
+            "description": "Discover at least 20,000 kilometers of roads",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 2,
+            "apiname": "map_discover_100",
+            "name": "Pathfinder",
+            "description": "Discover at least 40,000 kilometers of roads",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 3,
+            "apiname": "use_train",
+            "name": "Choo-Choo",
+            "description": "Use the train to cross the channel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "use_boat",
+            "name": "Sardine",
+            "description": "Utilize a boat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "discover_all_agencies",
+            "name": "Head Hunter",
+            "description": "Discover at least 40 recruitment agencies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "use_all_ports",
+            "name": "Successfully Docked",
+            "description": "Use at least 5 ports in the game (counts sea, river and train ports)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "buy_truck_online",
+            "name": "From the Comfort of Your Home",
+            "description": "Buy a truck online",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "metallic_multi_color_paint",
+            "name": "My Precious",
+            "description": "Design and apply to your truck a custom multi-color metallic paint",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "999_km_with_each_brand",
+            "name": "Test Drive Limited",
+            "description": "Drive 999 km during jobs with each of at least 5 truck brands, only your owned trucks count",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 10,
+            "apiname": "job_urgent",
+            "name": "Just in Time!",
+            "description": "Take an urgent delivery for a minimum of 550 km and complete it with less than 30 minutes remaining",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "job_2000_km",
+            "name": "Long Hauler",
+            "description": "Complete a delivery that was greater than 2,000 km",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 12,
+            "apiname": "job_15_companies",
+            "name": "Reliable Contractor",
+            "description": "Perform jobs for at least 15 different companies in the game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "job_no_ferry",
+            "name": "Profit Hunter",
+            "description": "Complete a job worth over €130,000 and minimum 2,200 km",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "job_all_trailer_types",
+            "name": "Experience Beats All!",
+            "description": "Complete deliveries with following trailer types: Machinery, ADR cargo, Container, Refrigerated, Liquid cargo, Fragile cargo, Construction, Bulk cargo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "perfect_delivery",
+            "name": "Job Is Only Worth It If It's Done Well!",
+            "description": "Complete a perfect delivery (no damage, no fines, in-time) for a job that is at least 1,000 km",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "5_jobs_in_a_row",
+            "name": "Careerist",
+            "description": "Complete 5 jobs in a row - in-time, without taking any damage to cargo and without using autoparking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "use_automatic_parking",
+            "name": "Friends Are Always Here to Help You",
+            "description": "Use automatic parking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "jobs_30_cargo",
+            "name": "All Is Possible",
+            "description": "Take and complete jobs with at least 30 different cargo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "jobs_20k_xp",
+            "name": "Minimaxer",
+            "description": "Gain 20,000 XP for several consecutive jobs with the total distance below 10,000 km",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 20,
+            "apiname": "quick_travel_to_hq",
+            "name": "Honey, I'm Home",
+            "description": "Use quick travel to return to your headquarters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "garages_in_hq_country",
+            "name": "National Company",
+            "description": "Own at least one largest garage in your headquarter country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "garage_in_every_city",
+            "name": "Property Magnate",
+            "description": "Own at least 30 garages",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 23,
+            "apiname": "large_garage_productivity",
+            "name": "Working with the Elite",
+            "description": "Achieve 100% of productivity for at least 5 large garages at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 24,
+            "apiname": "daily_profit",
+            "name": "Swimming in Success",
+            "description": "Reach an average daily profit of €450,000",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 25,
+            "apiname": "productivity_all_garages",
+            "name": "Performance Optimizer",
+            "description": "Achieve at least 75% of the average garage productivity for 10 large garages in your company",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 26,
+            "apiname": "maxed_male_female",
+            "name": "Aspects of Professionalism",
+            "description": "Have at least 10 female and 10 male employees of maximum level in your company",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 27,
+            "apiname": "use_rest_stop",
+            "name": "Zzzzz",
+            "description": "Use a rest stop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "use_gas_station",
+            "name": "Diesel, No Petrol!",
+            "description": "Use a filling station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "sc_volvo_cargo",
+            "name": "Volvo Trucks Lover",
+            "description": "Deliver truck cargo from Volvo Trucks factory (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "sc_scania_cargo",
+            "name": "Scania Trucks Lover",
+            "description": "Deliver truck cargo from Scania factory (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "sc_deliver_marinas",
+            "name": "Sailor",
+            "description": "Deliver yachts to all Scandinavian marinas (requires Scandinavia and High Power Cargo Pack DLCs)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "sc_container_ports",
+            "name": "Whatever Floats Your Boat",
+            "description": "Deliver cargo to at least 1 container port in Scandinavia DLC (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "sc_cows_to_farm",
+            "name": "Cattle Drive",
+            "description": "Complete a cattle delivery to any company in Scandinavia DLC (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "sc_visit_cities",
+            "name": "Sightseer",
+            "description": "Discover at least 15 Scandinavia DLC cities (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "sc_quarries_cargo",
+            "name": "Miner",
+            "description": "Complete delivery jobs to at least 3 quarries in Scandinavia DLC (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "sc_oresund_bridge",
+            "name": "Aquaphobia",
+            "description": "Travel across the Øresund Bridge between Copenhagen and Malmö (requires Scandinavia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "fr_visit_cities",
+            "name": "Bon Voyage!",
+            "description": "Discover at least 20 French cities (requires Vive la France ! DLC) ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "fr_landmarks",
+            "name": "Landmark Tour",
+            "description": "Discover following landmarks of France: Carcassonne, Brotonne bridge, Tiger tank, Peyrat-le-Château, Château de Ventadour, Château d'Ussé (requires Vive la France ! DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "fr_nucplants",
+            "name": "Go Nuclear!",
+            "description": "Deliver cargo to at least 3 nuclear plants in France (requires Vive la France ! DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "fr_airports",
+            "name": "Check-in, Check-out",
+            "description": "Deliver cargo to at least 3 cargo airport terminals in France (requires Vive la France ! DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "fr_truckstop",
+            "name": "Gas Must Flow!",
+            "description": "Deliver diesel, LPG or petrol to at least 3 truck stops in France (requires Vive la France ! DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "hc_firstjob",
+            "name": "Time for Big Hauling",
+            "description": "Deliver first Heavy Cargo (requires Heavy Cargo Pack DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "hc_threeperf",
+            "name": "Keep Calm and Haul Heavy",
+            "description": "Complete a perfect delivery (no damage, no fines, in-time) of 3 consecutive Heavy Cargo Pack jobs (requires Heavy Cargo Pack DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 44,
+            "apiname": "hc_1000xps",
+            "name": "You Bet I Can Park It!",
+            "description": "Collect 1,000 XP from parking on Heavy Cargo Pack deliveries (requires Heavy Cargo Pack DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "hc_250t5jobs",
+            "name": "No Pain No Gain",
+            "description": "Deliver total of 250 tons of cargo on 5 consecutive jobs (requires Heavy Cargo Pack DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 46,
+            "apiname": "hc_allcargos",
+            "name": "I Thought This Should Be Heavy?!",
+            "description": "Complete a delivery of at least 8 unique cargoes from the Heavy Cargo Pack (requires Heavy Cargo Pack DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "it_visit_cities",
+            "name": "Imperator",
+            "description": "Discover at least 15 Italian cities (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "it_garages",
+            "name": "True Sicilian",
+            "description": "Own a garage in at least 2 Sicilian cities (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "it_shipyards",
+            "name": "Captain",
+            "description": "Deliver cargo to at least 1 Italian shipyard (requires Italia DLC) ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "it_volcanoes",
+            "name": "Mind the Lava",
+            "description": "Visit Etna and Vesuvius volcanoes (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "it_roads_to_rome",
+            "name": "Many Roads Lead to Rome",
+            "description": "Enter Rome from at least 3 corridors that lead to it (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "it_quarry",
+            "name": "Michelangelo",
+            "description": "Complete a delivery from Carrara quarry (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "st_first_cargo",
+            "name": "Size Matters",
+            "description": "Deliver first oversize cargo (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "st_all_cargos",
+            "name": "The Bigger the Better",
+            "description": "Complete at least 10 unique deliveries of oversize cargoes (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "st_all_routes",
+            "name": "Driver Exceptionnel",
+            "description": "Complete deliveries on at least 10 oversize routes in base game (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "st_no_damage",
+            "name": "Not a Big Problem",
+            "description": "Complete 3 consecutive oversize jobs without any damage (requires Special Transport DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 57,
+            "apiname": "st_silo",
+            "name": "Giant",
+            "description": "Complete delivery of the Silo cargo (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "st_cat_785c",
+            "name": "Big Brother",
+            "description": "Complete delivery of the Haul Truck Chassis (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "st_pilot_boat",
+            "name": "Not a Canoe",
+            "description": "Complete delivery of the Service Boat (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "st_mass",
+            "name": "Mass-to-don",
+            "description": "Deliver at least 195 tons of oversized cargo in just 3 consecutive deliveries (requires Special Transport DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 61,
+            "apiname": "ba_visit_cities",
+            "name": "Baltic Tourist",
+            "description": "Discover at least 20 Beyond the Baltic Sea DLC cities (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "ba_job_countries",
+            "name": "Grand Tour",
+            "description": "Complete excellent deliveries between the following countries: Russia - Lithuania; Lithuania - Latvia; Latvia - Estonia; Estonia - Russia; Russia - Finland. Any order or direction counts (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "ba_to_russia",
+            "name": "Exclave Transit",
+            "description": "Complete 5 deliveries from Kaliningrad to any other Russian city (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "ba_concrete",
+            "name": "Concrete Jungle",
+            "description": "Complete 10 deliveries from concrete plants (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "ba_industry",
+            "name": "Industry Standard",
+            "description": "Make 2 deliveries to locomotive, furniture and paper mill factories (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "ba_farm",
+            "name": "Like a Farmer",
+            "description": "Deliver cargo to at least 4 farms in Beyond the Baltic Sea DLC (requires Beyond the Baltic Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "it_visit_sardinia",
+            "name": "All Around the Blue Island",
+            "description": "Discover at least 2 Sardinian cities (requires Italia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "fr_visit_corsica",
+            "name": "All Around the Isle of Beauty",
+            "description": "Discover at least 4 Corsican cities (requires Vive la France ! DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "be_visit_cities",
+            "name": "Balkan Explorer",
+            "description": "Discover at least 20 Road to the Black Sea DLC cities (requires Road to the Black Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "be_border_crossings",
+            "name": "Ranger",
+            "description": "Visit at least 4 border crossings between Romania, Bulgaria and Turkey (requires Road to the Black Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "be_blke_ferry",
+            "name": "Ferryman",
+            "description": "Use a river ferry (requires Road to the Black Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "be_landmarks",
+            "name": "Taking the Scenic Route",
+            "description": "Visit the following landmarks and locations: Iron Gates, Bran Castle (Romania), Pomorie Beach, Wall of Heroes in Varna (Bulgaria), Lake Küçükçekmece in Istanbul (Turkey) (requires Road to the Black Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "be_istanbul_jobs",
+            "name": "Turkish Delight",
+            "description": "Complete 3 deliveries from Istanbul which are at least 2,500 km long (requires Road to the Black Sea and Going East DLCs)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "be_black_sea",
+            "name": "Along the Black Sea",
+            "description": "Complete excellent deliveries between these coastal cities: Istanbul-Burgas, Burgas-Varna, Varna-Mangalia, MangaliaConstanța. Any order or direction counts (requires Road to the Black Sea DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "be_express",
+            "name": "Orient Express",
+            "description": "Complete deliveries between following cities, in this order and direction: Paris-Strasbourg, Strasbourg-Munich, Munich-Vienna, Vienna-Budapest, Budapest-Bucharest, Bucharest-Istanbul (requires Road to the Black Sea and Going East DLCs)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "ib_visit_cities",
+            "name": "Conquistador",
+            "description": "Discover at least 30 cities in Iberia (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "ib_container_ports",
+            "name": "Let's Get Shipping",
+            "description": "Deliver cargo to at least 4 container ports in Iberia (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "ib_solar_power_plants",
+            "name": "Taste the Sun",
+            "description": "Deliver ADR cargo to at least 2 solar power plants in Iberia (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "ib_shipyards",
+            "name": "Fleet Builder",
+            "description": "Deliver cargo to at least 3 shipyards in Iberia (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "ib_a_coruna",
+            "name": "Iberian Pilgrimage",
+            "description": "Complete a delivery from Lisbon, Seville, and Pamplona to A Coruña (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "ib_cutscenes",
+            "name": "Grand Tour Guide",
+            "description": "View cutscenes from at least 12 viewpoints in Iberia (requires Iberia DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "unload_difficulty",
+            "name": "Parking Challenge",
+            "description": "Complete 20 deliveries choosing the trailer delivery option which requires reversing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "bw_visit_cities",
+            "name": "Road to the Adriatics",
+            "description": "Discover at least 20 cities in West Balkans (requires West Balkans DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "bw_cutscenes",
+            "name": "Grand Adventurer",
+            "description": "View cutscenes from at least 8 viewpoints in West Balkans (requires West Balkans DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "bw_pristina_bijelo_polje",
+            "name": "Through the Serpentines",
+            "description": "Complete a perfect delivery (no damage, no fines, in-time) between Pristina and Bijelo Polje (requires West Balkans DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "bw_coastline",
+            "name": "Holiday Coastline",
+            "description": "Complete 3 deliveries along the coast in this order: Rijeka - Zadar - Split - Niksic (requires West Balkans DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "bw_ore_caravans",
+            "name": "Going Camping",
+            "description": "Deliver the following cargoes from companies in West Balkans to complete a production chain in this order: Ore, Aluminium Ingots, Electrical Wiring, Electronics, Campervans (requires West Balkans DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "aca_first",
+            "name": "Get the Ball Rollin'",
+            "description": "Complete the first scenario of the first chapter in Truck Driving Basics (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 89,
+            "apiname": "aca_interior",
+            "name": "Professional Driver",
+            "description": "Complete at least 6 scenarios in the fourth chapter of Truck Driving Basics while using only the interior camera (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 90,
+            "apiname": "aca_truck_driving",
+            "name": "Dedicated Student",
+            "description": "Complete at least 28 scenarios in Truck Driving Basics including the final exams (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 91,
+            "apiname": "aca_no_forward",
+            "name": "One-Shottin' It",
+            "description": "Complete any scenario in fourth chapter of Truck Driving Basics in one attempt without correcting by driving forward (Driving Academy)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 92,
+            "apiname": "aca_manual_transmission",
+            "name": "Rowing Through the Gears",
+            "description": "Complete 20 scenarios in chapters two, three or four using manual transmission in Truck Driving Basics (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 93,
+            "apiname": "aca_consecutive",
+            "name": "Failure Is Not an Option",
+            "description": "Complete any 5 scenarios in a row without failure from the third or fourth chapter in Truck Driving Basics (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 94,
+            "apiname": "gr_visit_cities",
+            "name": "Odyssean Voyager",
+            "description": "Discover at least 12 cities in Greece (requires Greece DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "gr_cutscenes",
+            "name": "Sights and Legends",
+            "description": "View cutscenes from at least 8 viewpoints in Greece (requires Greece DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "gr_hotels",
+            "name": "All Inclusive",
+            "description": "Deliver cargo to at least 4 unique hotels in Greece (requires Greece DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "gr_olive",
+            "name": "Gift of Athena",
+            "description": "Deliver olives or olive oil from Eliarchos Olive Farm to 5 different cities in Greece (requires Greece DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "gr_marble",
+            "name": "Temple Worthy",
+            "description": "Deliver 3 Marble Blocks and 3 undamaged Marble Slabs from Rock Eater Quarry in Greece (requires Greece DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "aca_pass_conditions",
+            "name": "Advanced Student",
+            "description": "Complete the pass conditions in at least 23 scenarios in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 100,
+            "apiname": "aca_stars",
+            "name": "Nerd of the Road",
+            "description": "Obtain 3 stars in at least 15 scenarios in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 101,
+            "apiname": "aca_stars_consecutive",
+            "name": "Shining Star",
+            "description": "Obtain 3 stars in any 3 scenarios played in a row in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 102,
+            "apiname": "pc_visit_cities",
+            "name": "Polar Explorer",
+            "description": "Discover at least 20 cities in Nordic Horizons (requires Nordic Horizons DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 103,
+            "apiname": "pc_cutscenes",
+            "name": "Northern Secrets",
+            "description": "View cutscenes from at least 12 viewpoints of Nordic Horizons regions (requires Nordic Horizons DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 104,
+            "apiname": "pc_salm_fillet",
+            "name": "Salmon Run",
+            "description": "Deliver 2 cargoes of Salmon Fillet from the city of Tromsø or Alta to 2 different countries (requires Nordic Horizons DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 105,
+            "apiname": "pc_polar_circle",
+            "name": "Above the Arctic Circle",
+            "description": "Complete excellent deliveries in this order and direction: Ivalo - Kiruna - Svolvær (requires Nordic Horizons DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 106,
+            "apiname": "aca_book3",
+            "name": "Double Trouble",
+            "description": "Complete at least 12 scenarios in Double Trailer Handling (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        }
+    ]
+}

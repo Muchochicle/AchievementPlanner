@@ -138,6 +138,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("pubg-battlegrounds"));
     assert.ok(slugs.includes("monster-hunter-rise"));
     assert.ok(slugs.includes("team-fortress-2"));
+    assert.ok(slugs.includes("rocket-league"));
+    assert.ok(slugs.includes("euro-truck-simulator-2"));
+    assert.ok(slugs.includes("stellaris"));
 
 });
 

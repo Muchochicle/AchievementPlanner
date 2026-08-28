@@ -1,0 +1,814 @@
+{
+    "id": 252950,
+    "steamAppId": 252950,
+    "name": "Rocket League",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/252950/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 40,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Sports",
+        "Racing",
+        "Competitive",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Virtuoso",
+            "name": "Virtuoso",
+            "description": "Unlock All Original Achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "Stocked",
+            "name": "Stocked",
+            "description": "Collect 150 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 3,
+            "apiname": "FarFarAway",
+            "name": "Far, Far Away...",
+            "description": "Drive a total of 50 km",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "SuperVictorious",
+            "name": "Super Victorious",
+            "description": "Win a total of 30 games across any game mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 5,
+            "apiname": "Champion",
+            "name": "Champion",
+            "description": "Win the Season Championship",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 6,
+            "apiname": "TheStreak",
+            "name": "The Streak",
+            "description": "Win 10 games in a row across any mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 7,
+            "apiname": "HelensPride",
+            "name": "Helen's Pride",
+            "description": "Score 6 Goals in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "BattleCarCollector",
+            "name": "Car Collector",
+            "description": "Collect 5 cars",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "DropsintheBucket",
+            "name": "Drops in the Bucket",
+            "description": "Collect 50 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 10,
+            "apiname": "Rocketeer",
+            "name": "Rocketeer",
+            "description": "Complete the regular Season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 11,
+            "apiname": "GreaseMonkey",
+            "name": "Grease Monkey",
+            "description": "Customize the Decal, Topper, Rocket Boost and Wheel on a car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "PitchVeteran",
+            "name": "Pitch Veteran",
+            "description": "Play a total of 20 games across any game mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "RidersBlock",
+            "name": "Rider's Block",
+            "description": "Make 20 Saves",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "BreakShot",
+            "name": "Break Shot",
+            "description": "Score a goal by hitting your opponent into the ball",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "Turbocharger",
+            "name": "Turbocharger",
+            "description": "Use your Rocket Boost for a total of 5 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "DrillSergeant",
+            "name": "Drill Sergeant",
+            "description": "Complete every Practice Drill (any difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "MinutetoWinit",
+            "name": "Minute to Win it",
+            "description": "With only 60 seconds left, Win a game in which you were tied or trailing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "SpeedDemon",
+            "name": "Speed Demon",
+            "description": "Completely fill and then empty your Rocket Boost 10 times in a single match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "PickMeUp",
+            "name": "Pick-Me Up",
+            "description": "Collect 5 Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "WallCrawler",
+            "name": "Wall-Crawler",
+            "description": "Drive on the dome walls for a total of 5 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "TeamPlayer",
+            "name": "Team Player",
+            "description": "Play against every team in a Season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 22,
+            "apiname": "SARPBCForever",
+            "name": "SARPBC Forever",
+            "description": "Play one game each with Octane and Backfire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "FeatherinYourRecap",
+            "name": "Feather in Your Recap",
+            "description": "Watch a save file in Replay mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "Winner",
+            "name": "Winner",
+            "description": "Win a total of 5 games across any mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "CleanSheet",
+            "name": "Clean Sheet",
+            "description": "Win a game without giving up a single Goal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "TripleThreat",
+            "name": "Triple Threat",
+            "description": "Win a 3v3 game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "DoubleUp",
+            "name": "Double Up",
+            "description": "Win a 2v2 game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "SinglesClub",
+            "name": "Singles Club",
+            "description": "Win a 1v1 game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "PerfectStart",
+            "name": "Perfect Start",
+            "description": "Win your first game of the Season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 30,
+            "apiname": "StillAShowOff",
+            "name": "Still A Show-Off",
+            "description": "Score a goal while reversing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "KnowTheDrill",
+            "name": "Know the Drill",
+            "description": "Complete a Practice Drill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "Traveler",
+            "name": "Traveler",
+            "description": "Play a game in six different Arenas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "Tinkerer",
+            "name": "Tinkerer",
+            "description": "Customize one slot on a car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "FirstTimer",
+            "name": "First-Timer",
+            "description": "Score your first Goal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "BarrasBravas",
+            "name": "Barras Bravas",
+            "description": "Play an Online game with someone in your Party",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "Friendly",
+            "name": "Friendly",
+            "description": "Play an Exhibition match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "WinningIsWinning",
+            "name": "Winning is Winning",
+            "description": "Win a Season Championship using Dominus in every game",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 38,
+            "apiname": "AnInchAnd62Miles",
+            "name": "An Inch and 6.2 Miles",
+            "description": "Drive 10 km with the Vortex, Cristiano, or Spinner Wheels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "RideOrDie",
+            "name": "Ride or Die",
+            "description": "Equip Dominus or Takumi with any Decal, then win a game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "DontLookBack",
+            "name": "Don't Look Back",
+            "description": "Use the Thermal, Burnout, or Nitrous Rocket Boost for a total of 10 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "FamilyNotFriends",
+            "name": "Family, Not Friends",
+            "description": "Play a complete game with Dominus or Takumi",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "DriftKing",
+            "name": "Drift King",
+            "description": "Perform a 180 powerslide with Dominus or Takumi",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "SkyHigh",
+            "name": "Sky High",
+            "description": "Score an Aerial Goal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "AllFours",
+            "name": "All Fours",
+            "description": "Win a 4v4 game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "Gladiator",
+            "name": "Gladiator",
+            "description": "Play a game on Utopia Coliseum",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "SurvivalOfTheFittest",
+            "name": "Survival of the Fittest",
+            "description": "Equip a Topper and win an Unfair Bot Match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "Heartbreaker",
+            "name": "Heartbreaker",
+            "description": "Win a game against All-Star Bots with a Decal equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "NaturalProgression",
+            "name": "Natural Progression",
+            "description": "Win an Online Match with Backfire, Scarab, or Zippy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "Throwback",
+            "name": "Throwback",
+            "description": "Use the Standard or Accelerato Boost with Octane or Backfire while playing in Urban Central",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "HotShotPartTwo",
+            "name": "Hot Shot, Part Two",
+            "description": "Win the MVP award using Backfire, Scarab, or Zippy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "MyWorldIsFire",
+            "name": "My World is Fire",
+            "description": "Equip the Flamethrower Boost and win a 4v4 Online match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "Spectacular",
+            "name": "Spectacular",
+            "description": "With Merc or Grog, Score 10 Goals against Pro-Level Bots or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 53,
+            "apiname": "Savage",
+            "name": "Savage",
+            "description": "With Ripper, Score 10 Goals against Pro-level Bots or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 54,
+            "apiname": "Ruthless",
+            "name": "Ruthless",
+            "description": "Make 50 total Shots on Goal using Merc, Grog, or Ripper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "PsychoMasterExploder",
+            "name": "Psycho-Master Exploder",
+            "description": "Demolish 3 opposing bots in Wasteland",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "MadScientist",
+            "name": "Mad Scientist",
+            "description": "Play a complete match in 3 different Rocket Labs Arenas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "IcingTheCake",
+            "name": "Icing the Cake",
+            "description": "In Snow Day, score a goal from your own side of the ice",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "LeftWingRightWing",
+            "name": "Left Wing, Right Wing",
+            "description": "Win a Snow Day match with both the Blue and Orange teams",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "FastBreak",
+            "name": "Fast Break",
+            "description": "Score at least 2 Dunks in the first minute of a Hoops game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "BuzzerBeater",
+            "name": "Buzzer Beater",
+            "description": "With 30 seconds left, win a game of Hoops in which you were tied or trailing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "BuddingArtist",
+            "name": "Budding Artist",
+            "description": "Collect a Painted Item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "OneBetter",
+            "name": "One Better",
+            "description": "Increase the level of a Certified Item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "Certifiable",
+            "name": "Certifiable",
+            "description": "Earn Veteran status for your Certified Item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "GG",
+            "name": "GG",
+            "description": "Win the MVP award in a game that goes to overtime",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "Trifecta",
+            "name": "Trifecta",
+            "description": "Score a Goal, Save a shot, and Assist a teammate in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "InfinitePower",
+            "name": "Infinite Power!",
+            "description": "Activate every power-up in Rumble mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "StoppedCold",
+            "name": "Stopped Cold",
+            "description": "In Rumble, freeze an opponent's shot before it can score",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "SeaTurtle",
+            "name": "Sea Turtle",
+            "description": "Head to AquaDome and score a goal while flipped on your back",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "GetUpMrBubbles",
+            "name": "Get Up, Mr. Bubbles!",
+            "description": "Score an Aerial goal while playing in AquaDome",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "RocketGenocider",
+            "name": "Rocket Repleter",
+            "description": "Make 535 Shots on Goal",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 71,
+            "apiname": "RegisteredVoter",
+            "name": "Registered Voter",
+            "description": "Head to 'Arena Preferences' and use all of your votes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "Metaverse",
+            "name": "Metaverse",
+            "description": "Equip the Ion Rocket Boost or the Halo Topper and win a match on Starbase ARC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "BraveTheElements",
+            "name": "Brave the Elements",
+            "description": "Complete a match on wasted land, under the sea, and in outer space",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "DamageControl",
+            "name": "Damage Control",
+            "description": "Win a Dropshot match via shutout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "FullCourse",
+            "name": "Full Course",
+            "description": "Score a total of 18 Goals in Dropshot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "BuckministerX10",
+            "name": "Buckminster x10",
+            "description": "Damage a total of 320 panels in Dropshot",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 77,
+            "apiname": "StormTrooper",
+            "name": "Storm Trooper",
+            "description": "Equip a Deluxe Item and complete a game in an Arena with turbulent weather",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "GoodTimes",
+            "name": "Good Times",
+            "description": "Head to Champions Field and complete an Online game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "NewProfileWhoThis",
+            "name": "New Profile Who This?",
+            "description": "Change your Player Banner, Avatar Border, and Player Title",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "TradeSecret",
+            "name": "Trade Secret",
+            "description": "Trade In five items of the same quality to receive an item of the next-highest quality",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "RankUp",
+            "name": "Rank Up",
+            "description": "Complete all placement matches in any Competitive Playlist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 82,
+            "apiname": "ComingOnStrong",
+            "name": "Coming On Strong",
+            "description": "Score or Assist a combined 30 goals or assists in Casual or Competitive Online matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 83,
+            "apiname": "JointheClub",
+            "name": "Join the Club!",
+            "description": "Create or Join a Rocket League Club",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "TogetherisBetter",
+            "name": "Together is Better",
+            "description": "Play and complete an Online match with one or more Clubmates",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "NewChallenger",
+            "name": "New Challenger",
+            "description": "Join and complete an Online Tournament match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "PeoplePerson",
+            "name": "People Person",
+            "description": "Play and complete 10 Online matches with one or more Clubmates",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 87,
+            "apiname": "SquadGoals",
+            "name": "Squad Goals",
+            "description": "Score a Goal while in a Club Match (Online Matchmaking only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "BestoftheBunch",
+            "name": "Best of the Bunch",
+            "description": "Earn the MVP award in any Online Tournament match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
