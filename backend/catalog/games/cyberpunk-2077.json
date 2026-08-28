@@ -1,0 +1,597 @@
+{
+    "id": 1091500,
+    "steamAppId": 1091500,
+
+    "name": "Cyberpunk 2077",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 55,
+        "max": 120
+    },
+
+    "missable": true,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Open World","RPG","FPS","Sci-fi","Story Rich"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "TheFool",
+            "name": "The Fool",
+            "description": "Story milestone: become a mercenary of Night City.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "TheLovers",
+            "name": "The Lovers",
+            "description": "Story milestone: steal the Relic.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "TheHermit",
+            "name": "The Hermit",
+            "description": "Story milestone: find Alt Cunningham.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "TheWheelOfFortune",
+            "name": "The Wheel of Fortune",
+            "description": "Story milestone: interrogate Anders Hellman.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "TheHightPriestess",
+            "name": "The High Priestess",
+            "description": "Story milestone: talk with Hanako Arasaka.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "TheWorld",
+            "name": "The World",
+            "description": "Complete the main storyline.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 7,
+            "apiname": "TheDevil",
+            "name": "The Devil",
+            "description": "Reach the ending that sides with Arasaka (requires saving Takemura during \"Search and Destroy\").",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "TheStar",
+            "name": "The Star",
+            "description": "Reach the ending where you leave Night City with the Aldecaldos (requires completing Panam's storyline).",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "TheSun",
+            "name": "The Sun",
+            "description": "Reach the ending where you become a legend of the Afterlife.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 10,
+            "apiname": "Temperance",
+            "name": "Temperance",
+            "description": "Reach the ending where Johnny Silverhand keeps your body.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "FollowingTheRiver",
+            "name": "To Protect and Serve",
+            "description": "Complete River Ward's questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "BornToBeWild",
+            "name": "To Bad Decisions!",
+            "description": "Complete Kerry Eurodyne's questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "UnderPressure",
+            "name": "Judy vs Night City",
+            "description": "Complete Judy Alvarez's questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 14,
+            "apiname": "QueenOfTheHighway",
+            "name": "Life of the Road",
+            "description": "Complete Panam Palmer's questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "BushidoAndChill",
+            "name": "Bushido and Chill",
+            "description": "Watch Bushido X with Rogue during her questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "NeverFadeAway",
+            "name": "Breathtaking",
+            "description": "Collect all items that once belonged to Johnny Silverhand.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 17,
+            "apiname": "YipMan",
+            "name": "It's Elementary",
+            "description": "Complete all gigs and NCPD Scanner Hustles in Watson.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 18,
+            "apiname": "IAmMaxTac",
+            "name": "I Am The Law",
+            "description": "Complete all Cyberpsycho Sightings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 19,
+            "apiname": "ThisIsPacifica",
+            "name": "Greetings from Pacifica!",
+            "description": "Complete all gigs and NCPD Scanner Hustles in Pacifica.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 20,
+            "apiname": "NoMansLand",
+            "name": "The Wasteland",
+            "description": "Complete all gigs and NCPD Scanner Hustles in the Badlands.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 21,
+            "apiname": "LittleTokyo",
+            "name": "Little Tokyo",
+            "description": "Complete all gigs and NCPD Scanner Hustles in Westbrook.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 22,
+            "apiname": "LikeFatherLikeSon",
+            "name": "Mean Streets",
+            "description": "Complete all gigs and NCPD Scanner Hustles in Heywood.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 23,
+            "apiname": "TradeUnion",
+            "name": "The Jungle",
+            "description": "Complete all gigs and NCPD Scanner Hustles in Santo Domingo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 24,
+            "apiname": "Bladerunner",
+            "name": "City Lights",
+            "description": "Complete all gigs and NCPD Scanner Hustles in City Center.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 25,
+            "apiname": "Cyberjunkie",
+            "name": "Full Body Conversion",
+            "description": "Install at least one implant in each system and body part.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 26,
+            "apiname": "GunKata",
+            "name": "Gun Fu",
+            "description": "Kill or incapacitate 3 enemies in quick succession with a revolver or pistol in close combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 27,
+            "apiname": "MasterRunner",
+            "name": "Christmas Tree Attack",
+            "description": "Complete a Breach Protocol with a minimum of 3 daemons uploaded.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 28,
+            "apiname": "Specialist",
+            "name": "Ten out of Ten",
+            "description": "Reach the max level in any skill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "Gunslinger",
+            "name": "Gunslinger",
+            "description": "Shoot an enemy grenade in midair with a revolver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 30,
+            "apiname": "TwoHeadsOneBullet",
+            "name": "Two Heads, One Bullet",
+            "description": "Kill or incapacitate 2 enemies with the same sniper rifle shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 31,
+            "apiname": "ThatIsSoHardForTheKnees",
+            "name": "Rough Landing",
+            "description": "While Berserk cyberware is active, perform a Superhero Landing to kill or incapacitate 2 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 32,
+            "apiname": "Roleplayer",
+            "name": "Stanislavski's Method",
+            "description": "Use a dialogue option related to V's life path 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "Gearhead",
+            "name": "Autojock",
+            "description": "Buy all vehicles available for purchase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 34,
+            "apiname": "HandyMan",
+            "name": "Master Crafter",
+            "description": "Craft 3 Legendary items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 35,
+            "apiname": "NotTheMobile",
+            "name": "Daemon In The Shell",
+            "description": "Kill or incapacitate 3 enemies with one \"Detonate Grenade\" quickhack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "MaxPain",
+            "name": "The Quick and the Dead",
+            "description": "Kill or incapacitate 50 enemies while time is slowed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 37,
+            "apiname": "MustBeTheRats",
+            "name": "Must Be Rats",
+            "description": "Perform the Distract Enemies quickhack 30 times without drawing attention to yourself.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 38,
+            "apiname": "VForVendetta",
+            "name": "V for Vendetta",
+            "description": "After reviving with Second Heart, kill or incapacitate the enemy who killed you within 5 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "TrueSoldier",
+            "name": "True Soldier",
+            "description": "Kill or incapacitate 300 enemies using ranged weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 40,
+            "apiname": "TrueWarrior",
+            "name": "True Warrior",
+            "description": "Kill or incapacitate 100 enemies using melee weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 41,
+            "apiname": "Denied",
+            "name": "Right Back At Ya",
+            "description": "Kill or incapacitate an enemy who threw a grenade at you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "Fortuneteller",
+            "name": "The Wandering Fool",
+            "description": "Find all the tarot graffiti for the job Fool on the Hill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 43,
+            "apiname": "GetMeThereScottie",
+            "name": "Frequent Flyer",
+            "description": "Find all fast travel dataterms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 44,
+            "apiname": "YouKnowWhoIAm",
+            "name": "Legend of The Afterlife",
+            "description": "Reach max Street Cred.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 45,
+            "apiname": "KingOfTheCups",
+            "name": "King of Cups",
+            "description": "Reach the Phantom Liberty ending that fulfils Songbird's request.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "KingOfThePentacles",
+            "name": "King of Pentacles",
+            "description": "Reach the Phantom Liberty ending that refuses Songbird's request.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 47,
+            "apiname": "KingOfTheWands",
+            "name": "King of Wands",
+            "description": "Reach the Phantom Liberty ending that takes Songbird to the stars.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 48,
+            "apiname": "KingOfTheSwords",
+            "name": "King of Swords",
+            "description": "Reach the Phantom Liberty ending that takes Songbird home.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "TheTower",
+            "name": "The Tower",
+            "description": "Reach the secret Phantom Liberty ending by completing \"Things Done Changed\".",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 50,
+            "apiname": "Kingmaker",
+            "name": "Spin Doctor",
+            "description": "Complete the Phantom Liberty mission \"Run This Town\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "AllThePresidentsMen",
+            "name": "All the President's Men",
+            "description": "Save President Myers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 52,
+            "apiname": "DirtyWork",
+            "name": "Dirty Deeds",
+            "description": "Complete every Gig in Dogtown.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 53,
+            "apiname": "HydraIsDead",
+            "name": "Judgement Day",
+            "description": "Eliminate three bosses from the \"Increased criminal activity\" category.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 54,
+            "apiname": "EasyComeEasyGo",
+            "name": "Easy Come, Easy Go",
+            "description": "Steal the Arasaka medical truck or deliver 10 vehicles to El Capitan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 55,
+            "apiname": "IHateSpider",
+            "name": "Arachnophobia",
+            "description": "Defeat the Chimera in Phantom Liberty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 56,
+            "apiname": "RelicMaster",
+            "name": "Relic Ruler",
+            "description": "Unlock all Perks in the Relic Perk tree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 57,
+            "apiname": "DogtownLaw",
+            "name": "The APB is Not Enough",
+            "description": "Become Dogtown's most wanted criminal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+
+    ]
+}

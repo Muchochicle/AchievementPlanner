@@ -102,6 +102,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sifu"));
     assert.ok(slugs.includes("neon-abyss"));
     assert.ok(slugs.includes("a-little-to-the-left"));
+    assert.ok(slugs.includes("elden-ring"));
+    assert.ok(slugs.includes("baldurs-gate-3"));
+    assert.ok(slugs.includes("cyberpunk-2077"));
 
 });
 

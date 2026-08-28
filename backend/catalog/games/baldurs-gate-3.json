@@ -1,0 +1,567 @@
+{
+    "id": 1086940,
+    "steamAppId": 1086940,
+
+    "name": "Baldur's Gate 3",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+
+    "difficulty": 6,
+
+    "completionTime": {
+        "min": 75,
+        "max": 160
+    },
+
+    "missable": true,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": ["RPG","Turn-Based Combat","CRPG","Story Rich","Adventure"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "BG3_Quest01",
+            "name": "Descent From Avernus",
+            "description": "Take control of the nautiloid and escape the Hells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "BG3_Quest02",
+            "name": "The Plot Thickens",
+            "description": "Leave Act 1 for somewhere altogether darker.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "BG3_Quest03",
+            "name": "The City Awaits",
+            "description": "Leave Act 2.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "BG3_Quest04",
+            "name": "All's Well That Ends Well",
+            "description": "Finish the game.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 5,
+            "apiname": "BG3_Quest05",
+            "name": "Absolute Power Corrupts",
+            "description": "Reach the ending where you take control of the Netherbrain for yourself.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 6,
+            "apiname": "BG3_Quest06",
+            "name": "Hero of the Forgotten Realms",
+            "description": "Reach the ending that destroys the Absolute for good - kill the Netherbrain and destroy the tadpoles.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 7,
+            "apiname": "BG3_Quest07",
+            "name": "Sins of the Father",
+            "description": "As the Dark Urge, reach the ending where you take control of the Netherbrain for Bhaal.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 8,
+            "apiname": "BG3_Quest08",
+            "name": "Ceremorphosis",
+            "description": "Become a mind flayer to defeat the Netherbrain.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 9,
+            "apiname": "BG3_Quest09",
+            "name": "Roleplayer",
+            "description": "Complete ten background goals in a single playthrough - you are one with your character.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 10,
+            "apiname": "BG3_Quest10",
+            "name": "Bedrolls and Breakfast",
+            "description": "Take four full Long Rests in a single playthrough - adventuring's tiring work.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 11,
+            "apiname": "BG3_Quest11",
+            "name": "Expand Your Mind",
+            "description": "Consume a parasite.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "BG3_Quest12",
+            "name": "Dig for Victory",
+            "description": "Dig up five buried chests in a single playthrough - treasure! ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 13,
+            "apiname": "BG3_Quest13",
+            "name": "No Penny Required",
+            "description": "Successfully use Detect Thoughts to pry into someone's thoughts. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 14,
+            "apiname": "BG3_Quest14",
+            "name": "Escapologist",
+            "description": "Break out of prison after being arrested - aren't you daring?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 15,
+            "apiname": "BG3_Quest15",
+            "name": "Outsourcing",
+            "description": "Recruit a hireling. You can befriend them or use them as cannon-fodder - we won't judge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 16,
+            "apiname": "BG3_Quest16",
+            "name": "Jack-of-all-Trades",
+            "description": "Multiclass into every class in one playthrough without asking Withers to change your character.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 17,
+            "apiname": "BG3_Quest17",
+            "name": "Homebrewer",
+            "description": "Create three unique alchemical solutions in a single playthrough - bottoms up! ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 18,
+            "apiname": "BG3_Quest18",
+            "name": "You Have Two Hands for a Reason",
+            "description": "Pet Scratch and the Owlbear Cub at camp at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 19,
+            "apiname": "BG3_Quest19",
+            "name": "Rude, Crude, and Full of Attitude",
+            "description": "Find and summon the quasit Shovel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 20,
+            "apiname": "BG3_Quest20",
+            "name": "Forged in Blood and Fire",
+            "description": "Craft an item at the Adamantine Forge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 21,
+            "apiname": "BG3_Quest21",
+            "name": "Under Lock and Key",
+            "description": "Rescue every prisoner from Moonrise Towers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "BG3_Quest22",
+            "name": "She Cannot Be Caged!",
+            "description": "Rescue Sazza from three different locations in one playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 23,
+            "apiname": "BG3_Quest23",
+            "name": "Taking Blood",
+            "description": "Claim the Blood of Lathander from Rosymorn Monastery.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 24,
+            "apiname": "BG3_Quest24",
+            "name": "Leave No One Behind",
+            "description": "Save every tiefling refugee in a single playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "BG3_Quest25",
+            "name": "Murder in Baldur's Gate",
+            "description": "Become an Unholy Assassin of Bhaal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 26,
+            "apiname": "BG3_Quest26",
+            "name": "Mind Blown",
+            "description": "Romance the Emperor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 27,
+            "apiname": "BG3_Quest27",
+            "name": "Kill Two Birds With One Gnome",
+            "description": "Use one enemy as an improvised weapon against another. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 28,
+            "apiname": "BG3_Quest28",
+            "name": "Busker",
+            "description": "Earn a hundred gold from playing sweet, sweet music in a single playthrough. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 29,
+            "apiname": "BG3_Quest29",
+            "name": "Action Surge",
+            "description": "Perform five attacks in one turn. Your enemies won't know what hit them (literally).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 30,
+            "apiname": "BG3_Quest30",
+            "name": "Fists of Fury",
+            "description": "Kill a character with an Unarmed Strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 31,
+            "apiname": "BG3_Quest31",
+            "name": "Devil's in the Details ",
+            "description": "Defeat Commander Zhalk on the nautiloid.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 32,
+            "apiname": "BG3_Quest32",
+            "name": "Pest Control",
+            "description": "Kill the Spider Matriarch before her eggs hatch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 33,
+            "apiname": "BG3_Quest33",
+            "name": "A Grym Fate",
+            "description": "Kill the Adamantine Golem without using the forge hammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 34,
+            "apiname": "BG3_Quest34",
+            "name": "Non-Invasive Procedure",
+            "description": "Kill the Surgeon before he performs surgery on you in combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 35,
+            "apiname": "BG3_Quest35",
+            "name": "Penny Pincher",
+            "description": "Defeat the Toll Collector without her using gold against you - excellent budgeting. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "BG3_Quest36",
+            "name": "No Free Lunches",
+            "description": "Defeat the Apostle of Myrkul before consuming any necromites.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 37,
+            "apiname": "BG3_Quest37",
+            "name": "Fancy Footwork",
+            "description": "Defeat Gortash in Wyrm's Rock without activating any traps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 38,
+            "apiname": "BG3_Quest38",
+            "name": "First Blood",
+            "description": "Kill Orin the Red during the ritual.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 39,
+            "apiname": "BG3_Quest39",
+            "name": "Interfectorem Draconis",
+            "description": "Kill the red dragon in the Upper City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 40,
+            "apiname": "BG3_Quest40",
+            "name": "Crash Landing",
+            "description": "In the Wyrmway, wait until the dragon is mid-flight, then knock it out of the sky - KAPOW.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 41,
+            "apiname": "BG3_Quest41",
+            "name": "Bottoms Up",
+            "description": "Long Rest using only alcohol - a time-honoured dwarven tradition. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 42,
+            "apiname": "BG3_Quest42",
+            "name": "Shove Off",
+            "description": "Kill a creature with falling damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 43,
+            "apiname": "BG3_Quest43",
+            "name": "Bookworm",
+            "description": "Read 100 different books in a single playthrough. Adventuring isn't just daring quests, you know.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 44,
+            "apiname": "BG3_Quest44",
+            "name": "Punch Drunk",
+            "description": "Defeat twenty opponents while drunk - down them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 45,
+            "apiname": "BG3_Quest45",
+            "name": "Fetch Quest",
+            "description": "Play fetch with Scratch - the best boy in the Realms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "BG3_Quest46",
+            "name": "Repairing the Weave",
+            "description": "Stabilise Gale's Netherese orb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 47,
+            "apiname": "BG3_Quest47",
+            "name": "The Lich-Queen's Wrath",
+            "description": "Side with Voss against the Githyanki queen Vlaakith.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 48,
+            "apiname": "BG3_Quest48",
+            "name": "To Bloom in Darkest Night",
+            "description": "Give Shadowheart a Night Orchid.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 49,
+            "apiname": "BG3_Quest49",
+            "name": "Hot Date",
+            "description": "Go on a date with Karlach.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 50,
+            "apiname": "BG3_Quest50",
+            "name": "Just a Nibble",
+            "description": "Let Astarion feed on you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 51,
+            "apiname": "BG3_Quest51",
+            "name": "Loophole",
+            "description": "Break Wyll's pact with Mizora.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 52,
+            "apiname": "BG3_Quest52",
+            "name": "Embrace Your Urge",
+            "description": "As the Dark Urge, become the Slayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 53,
+            "apiname": "BG3_Quest53",
+            "name": "Critical Hit",
+            "description": "Complete the game in Tactician mode.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 4800
+        },
+
+        {
+            "id": 54,
+            "apiname": "BG3_Quest54",
+            "name": "Foehammer",
+            "description": "Complete the game in Honour mode.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 4800
+        }
+
+    ]
+}

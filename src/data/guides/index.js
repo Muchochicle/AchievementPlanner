@@ -78,6 +78,9 @@ import { GUIDE as chicoryAchievementGuide } from "./games/chicory.js";
 import { GUIDE as sifuAchievementGuide } from "./games/sifu.js";
 import { GUIDE as neonAbyssAchievementGuide } from "./games/neon-abyss.js";
 import { GUIDE as aLittleToTheLeftAchievementGuide } from "./games/a-little-to-the-left.js";
+import { GUIDE as eldenRingAchievementGuide } from "./games/elden-ring.js";
+import { GUIDE as baldursGate3AchievementGuide } from "./games/baldurs-gate-3.js";
+import { GUIDE as cyberpunk2077AchievementGuide } from "./games/cyberpunk-2077.js";
 
 export const APP_GUIDES = [
 
@@ -178,7 +181,10 @@ export const GAME_GUIDES = [
     chicoryAchievementGuide,
     sifuAchievementGuide,
     neonAbyssAchievementGuide,
-    aLittleToTheLeftAchievementGuide
+    aLittleToTheLeftAchievementGuide,
+    eldenRingAchievementGuide,
+    baldursGate3AchievementGuide,
+    cyberpunk2077AchievementGuide
 
 ];
 

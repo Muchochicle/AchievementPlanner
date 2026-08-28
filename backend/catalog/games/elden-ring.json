@@ -1,0 +1,447 @@
+{
+    "id": 1245620,
+    "steamAppId": 1245620,
+
+    "name": "ELDEN RING",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+
+    "difficulty": 9,
+
+    "completionTime": {
+        "min": 60,
+        "max": 130
+    },
+
+    "missable": true,
+
+    "playthroughs": 2,
+
+    "hasGuide": true,
+
+    "genres": ["Souls-like","Action RPG","Open World","Dark Fantasy","RPG"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH00",
+            "name": "Elden Ring",
+            "description": "Obtained all achievements",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 600
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH01",
+            "name": "Elden Lord",
+            "description": "Reach the \"Elden Lord\" ending.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH02",
+            "name": "Age of the Stars",
+            "description": "Reach the \"Age of the Stars\" ending (requires completing Ranni's questline).",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH03",
+            "name": "Lord of Frenzied Flame",
+            "description": "Reach the \"Lord of Frenzied Flame\" ending.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH04",
+            "name": "Shardbearer Godrick",
+            "description": "Defeat Godrick the Grafted.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH05",
+            "name": "Shardbearer Radahn",
+            "description": "Defeat Starscourge Radahn.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH06",
+            "name": "Shardbearer Morgott",
+            "description": "Defeat Morgott, the Omen King.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH07",
+            "name": "Shardbearer Rykard",
+            "description": "Defeat Rykard, Lord of Blasphemy.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH08",
+            "name": "Shardbearer Malenia",
+            "description": "Defeat Malenia, Blade of Miquella.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH09",
+            "name": "Shardbearer Mohg",
+            "description": "Defeat Mohg, Lord of Blood.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH10",
+            "name": "Maliketh the Black Blade",
+            "description": "Defeat Maliketh, the Black Blade.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH11",
+            "name": "Hoarah Loux, Warrior",
+            "description": "Defeat Hoarah Loux, Warrior.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH12",
+            "name": "Dragonlord Placidusax",
+            "description": "Defeat Dragonlord Placidusax (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH13",
+            "name": "God-Slaying Armament",
+            "description": "Upgraded any armament to its highest stage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH14",
+            "name": "Legendary Armaments",
+            "description": "Acquired all legendary armaments",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH15",
+            "name": "Legendary Ashen Remains",
+            "description": "Acquired all legendary ashen remains",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH16",
+            "name": "Legendary Sorceries and Incantations",
+            "description": "Acquired all legendary sorceries and incantations",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH17",
+            "name": "Legendary Talismans",
+            "description": "Acquired all legendary talismans",
+            "difficulty": 4,
+            "missable": true,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH18",
+            "name": "Rennala, Queen of the Full Moon",
+            "description": "Defeat Rennala, Queen of the Full Moon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH19",
+            "name": "Lichdragon Fortissax",
+            "description": "Defeat Lichdragon Fortissax (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH20",
+            "name": "Godskin Duo",
+            "description": "Defeat the Godskin Duo.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH21",
+            "name": "Fire Giant",
+            "description": "Defeat the Fire Giant.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH22",
+            "name": "Dragonkin Soldier of Nokstella",
+            "description": "Defeat the Dragonkin Soldier of Nokstella (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH23",
+            "name": "Regal Ancestor Spirit",
+            "description": "Defeat the Regal Ancestor Spirit (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH24",
+            "name": "Valiant Gargoyles",
+            "description": "Defeat the Valiant Gargoyles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH25",
+            "name": "Margit, the Fell Omen",
+            "description": "Defeat Margit, the Fell Omen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH26",
+            "name": "Red Wolf of Radagon",
+            "description": "Defeat the Red Wolf of Radagon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH27",
+            "name": "Godskin Noble",
+            "description": "Defeat the Godskin Noble.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH28",
+            "name": "Magma Wyrm Makar",
+            "description": "Defeat Magma Wyrm Makar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH29",
+            "name": "Godfrey, First Elden Lord",
+            "description": "Defeat Godfrey, First Elden Lord (Golden Shade).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH30",
+            "name": "Mohg, the Omen",
+            "description": "Defeat Mohg, the Omen (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH31",
+            "name": "Mimic Tear",
+            "description": "Defeat the Mimic Tear (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH32",
+            "name": "Loretta, Knight of the Haligtree",
+            "description": "Defeat Loretta, Knight of the Haligtree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH33",
+            "name": "Astel, Naturalborn of the Void",
+            "description": "Defeat Astel, Naturalborn of the Void (optional boss).",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH34",
+            "name": "Leonine Misbegotten",
+            "description": "Defeat the Leonine Misbegotten.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH35",
+            "name": "Royal Knight Loretta",
+            "description": "Defeat Royal Knight Loretta (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH36",
+            "name": "Elemer of the Briar",
+            "description": "Defeat Elemer of the Briar (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH37",
+            "name": "Ancestor Spirit",
+            "description": "Defeat the Ancestor Spirit (optional boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH38",
+            "name": "Commander Niall",
+            "description": "Defeat Commander Niall.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH39",
+            "name": "Roundtable Hold",
+            "description": "Arrive at the Roundtable Hold.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH40",
+            "name": "Great Rune",
+            "description": "Restore the power of a Great Rune.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH41",
+            "name": "Erdtree Aflame",
+            "description": "Use kindling to set the Erdtree aflame.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+
+    ]
+}
