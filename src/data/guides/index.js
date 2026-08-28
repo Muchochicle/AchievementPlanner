@@ -87,6 +87,9 @@ import { GUIDE as theWitcher3AchievementGuide } from "./games/the-witcher-3.js";
 import { GUIDE as godOfWarAchievementGuide } from "./games/god-of-war.js";
 import { GUIDE as redDeadRedemption2AchievementGuide } from "./games/red-dead-redemption-2.js";
 import { GUIDE as left4Dead2AchievementGuide } from "./games/left-4-dead-2.js";
+import { GUIDE as grandTheftAutoVAchievementGuide } from "./games/grand-theft-auto-v.js";
+import { GUIDE as sekiroAchievementGuide } from "./games/sekiro.js";
+import { GUIDE as darkSouls3AchievementGuide } from "./games/dark-souls-3.js";
 
 export const APP_GUIDES = [
 
@@ -196,7 +199,10 @@ export const GAME_GUIDES = [
     theWitcher3AchievementGuide,
     godOfWarAchievementGuide,
     redDeadRedemption2AchievementGuide,
-    left4Dead2AchievementGuide
+    left4Dead2AchievementGuide,
+    grandTheftAutoVAchievementGuide,
+    sekiroAchievementGuide,
+    darkSouls3AchievementGuide
 
 ];
 

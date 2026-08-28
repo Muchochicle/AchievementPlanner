@@ -111,6 +111,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("god-of-war"));
     assert.ok(slugs.includes("red-dead-redemption-2"));
     assert.ok(slugs.includes("left-4-dead-2"));
+    assert.ok(slugs.includes("grand-theft-auto-v"));
+    assert.ok(slugs.includes("sekiro"));
+    assert.ok(slugs.includes("dark-souls-3"));
 
 });
 

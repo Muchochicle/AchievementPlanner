@@ -38,11 +38,11 @@ test("every real catalog game has a real, sourced Game Guide", () => {
     // count should only grow further once a new game is added to the
     // catalog and its guide is actually authored, never bumped to pad the
     // list ahead of that.
-    assert.strictEqual(GAME_GUIDES.length, 79);
+    assert.strictEqual(GAME_GUIDES.length, 82);
 
     assert.deepStrictEqual(
         GAME_GUIDES.map(guide => guide.gameSlug).sort(),
-        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "elden-ring", "enter-the-gungeon", "frostpunk", "ftl", "furi", "god-of-war", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-abyss", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "pizza-tower", "portal", "portal-2", "pyre", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "terraria", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
+        ["a-hat-in-time", "a-little-to-the-left", "a-short-hike", "astral-ascent", "baba-is-you", "baldurs-gate-3", "bastion", "braid", "celeste", "chained-echoes", "chicory", "crypt-of-the-necrodancer", "cult-of-the-lamb", "cuphead", "curse-of-the-dead-gods", "cyberpunk-2077", "dark-souls-3", "darkest-dungeon", "dave-the-diver", "dead-cells", "deaths-door", "disco-elysium", "dome-keeper", "dorfromantik", "dredge", "elden-ring", "enter-the-gungeon", "frostpunk", "ftl", "furi", "god-of-war", "grand-theft-auto-v", "griftlands", "guacamelee-2", "hades", "hollow-knight", "hyper-light-drifter", "inside", "into-the-breach", "left-4-dead-2", "limbo", "little-nightmares", "loop-hero", "mark-of-the-ninja", "moonlighter", "neon-abyss", "neon-white", "ori-and-the-blind-forest", "ori-and-the-will-of-the-wisps", "owlboy", "oxenfree", "papers-please", "pizza-tower", "portal", "portal-2", "pyre", "red-dead-redemption-2", "return-of-the-obra-dinn", "rime", "risk-of-rain-2", "rogue-legacy", "sable", "sekiro", "sifu", "skyrim-special-edition", "slay-the-spire", "spelunky-2", "stardew-valley", "steamworld-dig-2", "streets-of-rogue", "superliminal", "terraria", "the-forgotten-city", "the-messenger", "the-stanley-parable", "the-witcher-3", "thomas-was-alone", "transistor", "va11-hall-a", "vampire-survivors", "void-bastards", "what-remains-of-edith-finch"]
     );
 
     assert.deepStrictEqual(
@@ -64,6 +64,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "cuphead-achievement-guide",
             "curse-of-the-dead-gods-achievement-guide",
             "cyberpunk-2077-achievement-guide",
+            "dark-souls-3-achievement-guide",
             "darkest-dungeon-achievement-guide",
             "dave-the-diver-achievement-guide",
             "dead-cells-achievement-guide",
@@ -78,6 +79,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "ftl-achievement-guide",
             "furi-achievement-guide",
             "god-of-war-achievement-guide",
+            "grand-theft-auto-v-achievement-guide",
             "griftlands-achievement-guide",
             "guacamelee-2-achievement-guide",
             "hades-achievement-guide",
@@ -108,6 +110,7 @@ test("every real catalog game has a real, sourced Game Guide", () => {
             "risk-of-rain-2-achievement-guide",
             "rogue-legacy-achievement-guide",
             "sable-achievement-guide",
+            "sekiro-achievement-guide",
             "sifu-achievement-guide",
             "skyrim-special-edition-achievement-guide",
             "slay-the-spire-achievement-guide",
