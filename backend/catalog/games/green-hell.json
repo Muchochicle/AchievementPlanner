@@ -1,0 +1,634 @@
+{
+    "id": 815370,
+    "steamAppId": 815370,
+    "name": "Green Hell",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/815370/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 40,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Survival",
+        "Crafting",
+        "Open World",
+        "First-Person"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_TUTORIAL",
+            "name": "You are not prepared",
+            "description": "Finish the tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_AYAHUASKA",
+            "name": "Soul Vine",
+            "description": "Brew and drink ayahuasca during the story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_BAD_ENDING",
+            "name": "It's all over, again",
+            "description": "Reach the \"bad\" ending of the Story campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_GOOD_ENDING",
+            "name": "Just, wait for me…",
+            "description": "Reach the \"good\" ending of the Story campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_GREEDY",
+            "name": "Greedy",
+            "description": "Complete Story mode on any difficulty with gold sack in backpack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_ENDING_GREENHELL",
+            "name": "Green Hell",
+            "description": "Finish the game on Green Hell difficulty level",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_TRAVEL",
+            "name": "Globetrotter",
+            "description": "Travel 64 km",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_START_FIRE",
+            "name": "I made fire!",
+            "description": "Start a fire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_WELCOME",
+            "name": "Welcome to the jungle",
+            "description": "Survive 1 night in the jungle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_SURVIVE_10",
+            "name": "I made it",
+            "description": "Survive 10 days on King of the Jungle difficulty or higher",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_JUST_DIE",
+            "name": "The first step to greatness",
+            "description": "Die",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_CANIBAL",
+            "name": "Tastes like chicken...",
+            "description": "Eat human meat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_KILL_TRIBE",
+            "name": "Self-defense",
+            "description": "Kill a tribesman",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_1ST_TOOL",
+            "name": "Caveman",
+            "description": "Craft your first tool",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_VEGAN",
+            "name": "Vegan!",
+            "description": "Survive 25 days solely on mushroom and plant-based food on Welcome to the Jungle difficulty or higher",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_PACIFIST",
+            "name": "Pacifist",
+            "description": "Survive 10 days on King of the Jungle difficulty or higher without killing animals, humans, destroying bee nests and interacting with traps",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_WILLSON",
+            "name": "Casted Far Away",
+            "description": "Find the lost volleyball hidden in the jungle (a Cast Away nod).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_MAX_SKILL",
+            "name": "Making progress",
+            "description": "Reach Max at any skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_IRONMAN",
+            "name": "Iron Man",
+            "description": "Create and wear a full metal armor set",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_SAVEGAME",
+            "name": "I'm saved",
+            "description": "Save your game in a shelter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_FIND_STORYCAVE",
+            "name": "It's all their fault",
+            "description": "Discover the hidden story cave.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_SANITY_TRIBE",
+            "name": "Am I losing it?",
+            "description": "Experience a low-sanity hallucination near a tribe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_LEECHES",
+            "name": "Leeches, leeches everywhere",
+            "description": "Remove 50 leeches from your body",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_MAGGOT_WOUND",
+            "name": "Improvise, adapt, survive",
+            "description": "Let maggots eat your infected wound",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_HOME",
+            "name": "Home Sweet Home",
+            "description": "Build your first shelter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_CURE",
+            "name": "I have it!",
+            "description": "Obtain the cure during the Spirits of Amazonia storyline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SAFE_WATER",
+            "name": "Fresh Water",
+            "description": "Drink safe water",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_INSOMIA",
+            "name": "I don't need to sleep",
+            "description": "Get 5 stacks of insomnia",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_FIREPLACE_GOING",
+            "name": "Keeper of the flame",
+            "description": "Keep a single fire burning for over 5 days on Welcome to the jungle difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_TURTLE",
+            "name": "Going back home",
+            "description": "Make tortoise soup in it's shell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_FISHING",
+            "name": "Gotcha!",
+            "description": "Catch 9 aquatic animals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_KING_OF_THE_JUNGLE",
+            "name": "King of the jungle",
+            "description": "Hunt a Rattlesnake, Jaguar, Puma, Caiman and 3 types of arachnids",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_SNOWMAN",
+            "name": "Do you want to play with a snowman?",
+            "description": "Find a snowman package in 3 different locations",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_ALL_FIRE_TOOLS",
+            "name": "Pyromaniac",
+            "description": "Unlock 4 fire starting tools",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_CATCH_AT_ONCE",
+            "name": "Mr... I don't feel so good",
+            "description": "At the same time get leeches, worm, rash, fever, poison, food poisoning, parasites, insomnia, dirt and any wound",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ALL_SICKNESS",
+            "name": "Got to catch them all",
+            "description": "Experience 12 unique diseases and wounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_ALL_CHALLENGES",
+            "name": "I'm not afraid of any work",
+            "description": "Complete 7 Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_FARMER",
+            "name": "Gardener",
+            "description": "Cultivate 12 different plants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_FULL_MAP",
+            "name": "Cartographer",
+            "description": "Unlock 60 places on the map",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_ALL_READABLE",
+            "name": "Librarian",
+            "description": "Read 50 collectibles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_GAIN_REPUTATION_800_PLANTING",
+            "name": "Mu'agi Friend",
+            "description": "Gain 800 trust of the Mu'agi tribe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_GAIN_REPUTATION_800_HUNTING",
+            "name": "Un'garaca Friend",
+            "description": "Gain 800 trust of the Un'garaca tribe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_GAIN_REPUTATION_800_FISHING",
+            "name": "Habbacu Friend",
+            "description": "Gain 800 trust of the Habbacu tribe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_BRING_9_KIDS_BACK",
+            "name": "Babysitter",
+            "description": "Return 9 kids to safety",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_HEAL_10_TRIBES",
+            "name": "Molineria-man",
+            "description": "Heal a Tribe Member",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_BURN_10_CORPSES",
+            "name": "Rest in peace",
+            "description": "Burn 10 Tribe Members' corpses",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_BURN_10_TRASHES",
+            "name": "Cleaning volunteer",
+            "description": "Burn 10 Toxic Waste Piles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_HELP_5_FISHERMEN",
+            "name": "Fishing in troubled waters",
+            "description": "Help 5 Tribe Fishermen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_REBUILD_10_TOTEMS",
+            "name": "Handyman",
+            "description": "Rebuild 10 Tribe Totems",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_FREE_9_WOMEN",
+            "name": "Cage opener",
+            "description": "Free 9 Tribe Women",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_FIND_5_MAPS",
+            "name": "Map Collector",
+            "description": "Find 5 maps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_COMPLETE_SOA3_STORY",
+            "name": "This is how it began",
+            "description": "Complete the Spirits of Amazonia story",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 53,
+            "apiname": "RAPORT_BACK_TO_THE_BASE",
+            "name": "This is Jake Higgins...",
+            "description": "Report back to base",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "COMPLETE_MUAGI_TRIAL",
+            "name": "The Ritual of Mu'agi",
+            "description": "Complete the Mu'agi Trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 55,
+            "apiname": "COMPLETE_HABBAKU_TRIAL",
+            "name": "The Ritual of Habbacu",
+            "description": "Complete the Habbacu Trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 56,
+            "apiname": "COMPLETE_UNGARACA_TRIAL",
+            "name": "The Ritual of Un'garaca",
+            "description": "Complete the Un'garaca Trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 57,
+            "apiname": "REACH_YABAHUACA_VILLAGE",
+            "name": "Are we there yet?",
+            "description": "Reach the Yabahuaca village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "PASS_YABAHUACA_TRIAL",
+            "name": "Work hard, play hard",
+            "description": "Complete the Yabahuaca Trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 59,
+            "apiname": "DISCOVER_VILLAGE_MUAGI",
+            "name": "Oyohua Mu'agi",
+            "description": "Discover the Mu'agi Village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "DISCOVER_VILLAGE_HABBAKU",
+            "name": "Oyohua Habbacu",
+            "description": "Discover the Habbacu Village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "DISCOVER_VILLAGE_UNGARACA",
+            "name": "Oyohua Un'garaca",
+            "description": "Discover the Un'garaca Village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "COMPLETE_ALL_MUAGI_LEGENDS",
+            "name": "The Legends of Mu'agi",
+            "description": "Complete all Mu'agi Legends",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 63,
+            "apiname": "COMPLETE_ALL_UNGARACA_LEGENDS",
+            "name": "The Legends of Un'garaca",
+            "description": "Complete all Un'garaca Legends",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 64,
+            "apiname": "COMPLETE_ALL_HABBAKU_LEGENDS",
+            "name": "The Legends of Habbacu",
+            "description": "Complete all Habbacu Legends",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 65,
+            "apiname": "COMPLETE_ALL_SOA_ACHIEVEMENTS",
+            "name": "Thats the spirit!",
+            "description": "Complete all Spirits of Amazonia achievements",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_NEW_FRIEND",
+            "name": "A new friend",
+            "description": "Put an animal into Animal Pen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_EMOTIONAL_SUPPORT",
+            "name": "Emotional support",
+            "description": "Pet an animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_CIRCLE_OF_LIFE",
+            "name": "Circle of Life",
+            "description": "Breed an animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

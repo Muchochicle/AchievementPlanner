@@ -129,6 +129,9 @@ import { GUIDE as residentEvilVillageAchievementGuide } from "./games/resident-e
 import { GUIDE as factorioAchievementGuide } from "./games/factorio.js";
 import { GUIDE as slimeRancherAchievementGuide } from "./games/slime-rancher.js";
 import { GUIDE as narakaBladepointAchievementGuide } from "./games/naraka-bladepoint.js";
+import { GUIDE as sevenDaysToDieAchievementGuide } from "./games/7-days-to-die.js";
+import { GUIDE as greenHellAchievementGuide } from "./games/green-hell.js";
+import { GUIDE as groundedAchievementGuide } from "./games/grounded.js";
 
 export const APP_GUIDES = [
 
@@ -280,7 +283,10 @@ export const GAME_GUIDES = [
     residentEvilVillageAchievementGuide,
     factorioAchievementGuide,
     slimeRancherAchievementGuide,
-    narakaBladepointAchievementGuide
+    narakaBladepointAchievementGuide,
+    sevenDaysToDieAchievementGuide,
+    greenHellAchievementGuide,
+    groundedAchievementGuide
 
 ];
 

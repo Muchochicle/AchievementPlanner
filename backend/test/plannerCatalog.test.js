@@ -153,6 +153,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("factorio"));
     assert.ok(slugs.includes("slime-rancher"));
     assert.ok(slugs.includes("naraka-bladepoint"));
+    assert.ok(slugs.includes("7-days-to-die"));
+    assert.ok(slugs.includes("green-hell"));
+    assert.ok(slugs.includes("grounded"));
 
 });
 
