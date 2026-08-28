@@ -1,0 +1,418 @@
+{
+    "id": 949230,
+    "steamAppId": 949230,
+    "name": "Cities: Skylines II",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Simulation",
+        "Management",
+        "Sandbox"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_MYFIRSTCITY",
+            "name": "My First City",
+            "description": "Build city with residential, commercial and industrial zones, water, and electricity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_THEINSPECTOR",
+            "name": "The Inspector",
+            "description": "Have a look at each individual info view panel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_HAPPYTOBEOFSERVICE",
+            "name": "Happy to Be of Service",
+            "description": "Create a city district and assign a city service to that district.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_ROYALFLUSH",
+            "name": "Royal Flush",
+            "description": "Reach enough milestones to unlock all city services in a single city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_KEYTOTHECITY",
+            "name": "Key to the City",
+            "description": "Unlock each building available in the base game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SIXFIGURES",
+            "name": "Six Figures",
+            "description": "Reach a population of 100,000.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_GOANYWHERE",
+            "name": "Go Anywhere",
+            "description": "Have 20 active transport lines. These can be passenger or cargo lines or any mix of the two.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_THESIZEOFGOLFBALLS",
+            "name": "The Size of Golf Balls!",
+            "description": "Experience a hailstorm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_OUTFORASPIN",
+            "name": "Out for a Spin",
+            "description": "Experience a tornado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_NOWTHEYREALLASHTREES",
+            "name": "Now They're All Ash Trees",
+            "description": "Experience a forest fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_ZEROEMISSION",
+            "name": "Zero Emission",
+            "description": "Have a city that produces 500 MW electricity by only using renewable energy sources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_UPANDAWAY",
+            "name": "Up and Away!",
+            "description": "Build any airport.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_MAKINGAMARK",
+            "name": "Making a Mark",
+            "description": "Build 5 signature buildings in a single city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_EVERYTHINGTHELIGHTTOUCHES",
+            "name": "Everything the Light Touches",
+            "description": "Unlock 150 map tiles in a single city.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_CALLINGTHESHOTS",
+            "name": "Calling the Shots",
+            "description": "Have 5 city policies active simultaneously.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_WIDEVARIETY",
+            "name": "Wide Variety",
+            "description": "Create 10 districts, each with its own unique set of policies in one city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_EXECUTIVEDECISION",
+            "name": "Executive Decision",
+            "description": "Assign a policy to a city district.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_ALLSMILES",
+            "name": "All Smiles",
+            "description": "Have at least 1000 citizens and an average happiness rating of 75%.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_YOULITTLESTALKER",
+            "name": "You Little Stalker!",
+            "description": "Follow a citizen's lifepath from childhood to old age.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CARTOGRAPHY",
+            "name": "Cartography",
+            "description": "Use the editor to make a map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_THEEXPLORER",
+            "name": "The Explorer",
+            "description": "Unlock 50 map tiles in a single city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_THELASTMILEMARKER",
+            "name": "The Last Mile Marker",
+            "description": "Reach milestone 20.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_FOURSEASONS",
+            "name": "Four Seasons",
+            "description": "Experience all four seasons by building a city in a climate with a snowy winter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_SPIDERWEBBING",
+            "name": "Spiderwebbing",
+            "description": "Have 50 active transport lines. These can be passenger or cargo lines or any mix of the two.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_SNAPSHOT",
+            "name": "Snapshot!",
+            "description": "Use the photo mode to take a screenshot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_THISISNOTMYHAPPYPLACE",
+            "name": "This Is Not My Happy Place",
+            "description": "Have at least 1000 citizens and an average happiness rating of 25%.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_THEARCHITECT",
+            "name": "The Architect",
+            "description": "Build 10 signature buildings in a single city.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_IMADETHIS",
+            "name": "I Made This",
+            "description": "Use the editor to make an asset of any other type than a map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_SIMPLYIRRESISTIBLE",
+            "name": "Simply Irresistible",
+            "description": "Have at least 1000 citizens and a city attractiveness rating of 90.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_TOPOFTHECLASS",
+            "name": "Top of the Class",
+            "description": "Build a city where at least 15% of the population has a university level of education.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_THEDEEPEND",
+            "name": "The Deep End",
+            "description": "Have a total loan of at least 200,000 in a single city.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_GROUNDSKEEPER",
+            "name": "Groundskeeper",
+            "description": "Built 10 Parks & Recreation buildings in a single city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_COLOSSALGARDENER",
+            "name": "Colossal Gardener",
+            "description": "Plant 100 trees or bushes with the landscaping tool in a single city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_STRENGTHTHROUGHDIVERSITY",
+            "name": "Strength Through Diversity",
+            "description": "Have buildings from all four zone types in a single city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_SQUASHERDOWNER",
+            "name": "Squasher-Downer",
+            "description": "Bulldoze a total of 1000 buildings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ALITTLEBITOFTLC",
+            "name": "A Little Bit of TLC",
+            "description": "Have 6,000 citizens treated at medical clinics or hospitals in a single city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_WELCOMEONEANDALL",
+            "name": "Welcome, One and All!",
+            "description": "Have a total of 6,000 tourist visits in a single city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_ONEOFEVERYTHING",
+            "name": "One of Everything",
+            "description": "Build all unique city service buildings in a single city.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 600
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_HOWMUCHISTHEFISH",
+            "name": "How Much Is the Fish?",
+            "description": "Gather 10 000 tons of Fish resource by fishing boats or fish farms in one city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_SHIPIT",
+            "name": "Ship It",
+            "description": "Transfer 24 000 tons of resources through Ports.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_ADIFFERENTPLATFORMER",
+            "name": "A Different Platformer",
+            "description": "Gather 2 000 tons of Oil with the offshore oil platforms in one city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_DRAWMELIKEONEOFYOURLIFTBRIDGES",
+            "name": "Draw Me Like One of Your Lift Bridges",
+            "description": "Build 5 Draw- or Lift Bridges in one city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_ITSPRONOUNCEDKEY",
+            "name": "It's Pronounced \"Key\"!",
+            "description": "Build 5 kilometers of Quays in one city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_PIERFECT",
+            "name": "Pier-fect!",
+            "description": "Build 2 kilometers of Piers in one city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

@@ -138,6 +138,9 @@ import { GUIDE as totalWarThreeKingdomsAchievementGuide } from "./games/total-wa
 import { GUIDE as doom2016AchievementGuide } from "./games/doom-2016.js";
 import { GUIDE as doomEternalAchievementGuide } from "./games/doom-eternal.js";
 import { GUIDE as devilMayCry5AchievementGuide } from "./games/devil-may-cry-5.js";
+import { GUIDE as citiesSkylines2AchievementGuide } from "./games/cities-skylines-2.js";
+import { GUIDE as ageOfMythologyRetoldAchievementGuide } from "./games/age-of-mythology-retold.js";
+import { GUIDE as totalWarWarhammer2AchievementGuide } from "./games/total-war-warhammer-2.js";
 
 export const APP_GUIDES = [
 
@@ -298,7 +301,10 @@ export const GAME_GUIDES = [
     totalWarThreeKingdomsAchievementGuide,
     doom2016AchievementGuide,
     doomEternalAchievementGuide,
-    devilMayCry5AchievementGuide
+    devilMayCry5AchievementGuide,
+    citiesSkylines2AchievementGuide,
+    ageOfMythologyRetoldAchievementGuide,
+    totalWarWarhammer2AchievementGuide
 
 ];
 

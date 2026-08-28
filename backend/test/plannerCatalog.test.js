@@ -162,6 +162,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("doom-2016"));
     assert.ok(slugs.includes("doom-eternal"));
     assert.ok(slugs.includes("devil-may-cry-5"));
+    assert.ok(slugs.includes("cities-skylines-2"));
+    assert.ok(slugs.includes("age-of-mythology-retold"));
+    assert.ok(slugs.includes("total-war-warhammer-2"));
 
 });
 
