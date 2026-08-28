@@ -1,0 +1,637 @@
+{
+    "id": 247080,
+    "steamAppId": 247080,
+
+    "name": "Crypt of the NecroDancer",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/247080/header.jpg",
+
+    "difficulty": 9,
+
+    "completionTime": {
+        "min": 40,
+        "max": 200
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Roguelike","Rhythm","Action","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "ACH_KILL_3_GREEN_BATS",
+            "name": "Bat Trick",
+            "description": "Kill three green bats",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 2,
+            "apiname": "ACH_KILL_SHOPKEEPER",
+            "name": "Merchanticide",
+            "description": "Kill the shopkeeper",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 3,
+            "apiname": "ACH_10_HEARTS",
+            "name": "Heartthrob",
+            "description": "Have 10 heart containers at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 4,
+            "apiname": "ACH_6000_COINS",
+            "name": "I love gooooooold!",
+            "description": "Have 6000 coins in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 5,
+            "apiname": "ACH_ZONE1_COMPLETE",
+            "name": "In The Zone",
+            "description": "Complete zone 1 with solo Cadence!",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 6,
+            "apiname": "ACH_ZONE2_COMPLETE",
+            "name": "In The Zone (2)",
+            "description": "Complete zone 2 with solo Cadence!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 7,
+            "apiname": "ACH_ZONE3_COMPLETE",
+            "name": "In The Zone (3)",
+            "description": "Complete zone 3 with solo Cadence!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 8,
+            "apiname": "ACH_HARDCORE_CADENCE",
+            "name": "So Hardcore!",
+            "description": "Complete \"All Zones Mode\" with solo Cadence",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 9,
+            "apiname": "ACH_HARDCORE_ARIA",
+            "name": "You Don't Miss a Beat, Do You?",
+            "description": "Complete \"All Zones Mode\" with solo Aria",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 10,
+            "apiname": "ACH_HARDCORE_BARD",
+            "name": "A Beatless Beatdown",
+            "description": "Complete \"All Zones Mode\" with solo Bard",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 11,
+            "apiname": "ACH_HARDCORE_BOLT",
+            "name": "Tachycardia",
+            "description": "Complete \"All Zones Mode\" with solo Bolt",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 12,
+            "apiname": "ACH_HARDCORE_COOP",
+            "name": "Two Can Tango!",
+            "description": "Complete \"All Zones Mode\" while playing Co-op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 13,
+            "apiname": "ACH_HARDCORE_MONK",
+            "name": "Vow down!",
+            "description": "Complete \"All Zones Mode\" with solo Monk",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 14,
+            "apiname": "ACH_DAILY_CHALLENGE",
+            "name": "Carpe Diem",
+            "description": "Complete a Daily Challenge",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 15
+        },
+
+        {
+            "id": 15,
+            "apiname": "ACH_SPEEDRUN",
+            "name": "Speed Demon",
+            "description": "Complete \"All Zones Mode\" with solo Cadence in under 15 minutes",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 16,
+            "apiname": "ACH_ARIA_LOWPERCENT",
+            "name": "Flawless Victory!",
+            "description": "Aria Low%. Complete \"All Zones Mode\" with solo Aria without picking up any items or using any shrines. (Picking up gold is permitted.)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 17,
+            "apiname": "ACH_HARDCORE_DOVE",
+            "name": "Peace Out",
+            "description": "Complete \"All Zones Mode\" with solo Dove",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 18,
+            "apiname": "ACH_HARDCORE_ELI",
+            "name": "Bombs Away!",
+            "description": "Complete \"All Zones Mode\" with solo Eli",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 19,
+            "apiname": "ACH_HARDCORE_MELODY",
+            "name": "Lute that Loot",
+            "description": "Complete \"All Zones Mode\" with solo Melody",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 20,
+            "apiname": "ACH_HARDCORE_DORIAN",
+            "name": "Leaps and Bounds",
+            "description": "Complete \"All Zones Mode\" with solo Dorian",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 21,
+            "apiname": "ACH_HARDCORE_CODA",
+            "name": "Impossible, Right?",
+            "description": "Complete \"All Zones Mode\" with solo Coda",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 22,
+            "apiname": "ACH_GREEN_SLIME_DEATH",
+            "name": "Mostly Harmless",
+            "description": "Get killed by a green slime",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 5
+        },
+
+        {
+            "id": 23,
+            "apiname": "ACH_8_KILL_BOMB",
+            "name": "8Ball",
+            "description": "Kill 8 enemies with a single bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 24,
+            "apiname": "ACH_RED_DRAGON_MINIBOSS",
+            "name": "Friendly Fire",
+            "description": "Use a red dragon's fireball to kill another miniboss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 25,
+            "apiname": "ACH_10_DEATHLESS_WINS",
+            "name": "Undeadly",
+            "description": "Get 10 wins in a row in Cadence \"Deathless Mode\"",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 26,
+            "apiname": "ACH_ALL_CHARS",
+            "name": "Polyamorous",
+            "description": "Complete an \"All Chars\" run",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 27,
+            "apiname": "ACH_ALL_CHARS_LOWPERCENT",
+            "name": "Lowest of the Low",
+            "description": "\"All Chars\" low%. Complete an \"All Chars\" run without picking up any items or using any shrines. (Picking up gold is permitted.)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+
+        {
+            "id": 28,
+            "apiname": "ACH_ZONE4_COMPLETE",
+            "name": "In The Zone (4)",
+            "description": "Complete zone 4 with solo Cadence!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 29,
+            "apiname": "ACH_HARDCORE_NOCTURNA",
+            "name": "Bat to the Bone",
+            "description": "Complete \"All Zones Mode\" with solo Nocturna (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 30,
+            "apiname": "ACH_ZONE5_COMPLETE",
+            "name": "In The Zone (5)",
+            "description": "Complete zone 5! (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 31,
+            "apiname": "ACH_NORETURN_CADENCE",
+            "name": "No I Won't Back Down",
+            "description": "Complete \"No Return Mode\" with solo Cadence (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 32,
+            "apiname": "ACH_HARDMODE_NOCTURNA",
+            "name": "Hard Act to Follow",
+            "description": "Complete \"Hard Mode\" with solo Nocturna (AMPLIFIED DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 33,
+            "apiname": "ACH_PHASING_COMPLETE",
+            "name": "A Haunting Performance",
+            "description": "Complete \"Phasing Mode\" with any character (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 34,
+            "apiname": "ACH_RANDOMIZER_COMPLETE",
+            "name": "Mix Master",
+            "description": "Complete \"Randomizer Mode\" with any character (AMPLIFIED DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 35,
+            "apiname": "ACH_MYSTERY_COMPLETE",
+            "name": "What Just Happened?",
+            "description": "Complete \"Mystery Mode\" with any character (AMPLIFIED DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 36,
+            "apiname": "ACH_ALL_MODES",
+            "name": "Mode Master",
+            "description": "Complete \"Story Mode\", \"Hard Mode\", \"Phasing Mode\", \"No Return Mode\", \"Randomizer Mode\", and \"Mystery Mode\" with any character (AMPLIFIED DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 37,
+            "apiname": "ACH_HARDCORE_DIAMOND",
+            "name": "A Cut Above",
+            "description": "Complete \"All Zones Mode\" with solo Diamond (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 38,
+            "apiname": "ACH_HARDCORE_REAPER",
+            "name": "I Love Ewe",
+            "description": "Complete \"All Zones Mode\" with solo Mary (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 39,
+            "apiname": "ACH_HARDCORE_TEMPO",
+            "name": "Keeps on Ticking",
+            "description": "Complete \"All Zones Mode\" with solo Tempo (AMPLIFIED DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 40,
+            "apiname": "ACH_STORY_COMPLETE",
+            "name": "Storybook Ending",
+            "description": "Complete \"Story Mode\" (AMPLIFIED DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 41,
+            "apiname": "ACH_NOCTURNA_SPEEDRUN",
+            "name": "Like a Bat Out of Hell",
+            "description": "Complete \"All Zones Mode\" with solo Nocturna in under 15 minutes (AMPLIFIED DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 42,
+            "apiname": "ACH_8000_COINS",
+            "name": "Golden Loot",
+            "description": "Have 8000 coins in a single run with solo Nocturna (AMPLIFIED DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 43,
+            "apiname": "ACH_8_KILL_ELECTRICITY",
+            "name": "ElecTrick",
+            "description": "Kill 8 enemies at once with electricity (AMPLIFIED DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+
+        {
+            "id": 44,
+            "apiname": "ACH_ALL_CHARS_DLC",
+            "name": "Very Polyamorous",
+            "description": "Complete an \"All chars (including DLC)\" run (AMPLIFIED DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 500
+        },
+
+        {
+            "id": 45,
+            "apiname": "ACH_HARDCORE_KLARINETTA",
+            "name": "Klari Clear",
+            "description": "Complete \"All Zones Mode\" with solo Klarinetta (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 46,
+            "apiname": "ACH_HARDCORE_CHAUNTER",
+            "name": "Enchantée, Chaunter",
+            "description": "Complete \"All Zones Mode\" with solo Chaunter (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 47,
+            "apiname": "ACH_HARDCORE_SUZU",
+            "name": "Suzuper",
+            "description": "Complete \"All Zones Mode\" with solo Suzu (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 48,
+            "apiname": "ACH_4_KILL_ZWEIHAENDER",
+            "name": "Smitemaster",
+            "description": "Kill 4 enemies in one swing as Klarinetta (SYNCHRONY DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 49,
+            "apiname": "ACH_KILL_SAME_ENTITY_POSSESSION",
+            "name": "Doppelgänger",
+            "description": "Kill a miniboss while possessing one of the same kind as Chaunter (SYNCHRONY DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 50,
+            "apiname": "ACH_SPEEDRUN_SUZU",
+            "name": "Pandaemonium",
+            "description": "Complete \"All Zones Mode\" in under 10 minutes with solo Suzu (12 minutes when playing with AMPLIFIED content) (SYNCHRONY DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 51,
+            "apiname": "ACH_NO_BEAT_ARIA",
+            "name": "Étude",
+            "description": "Complete \"No-Beat Mode\" as Aria (SYNCHRONY DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+
+        {
+            "id": 52,
+            "apiname": "ACH_EN_PASSANT",
+            "name": "En Passant",
+            "description": "Get captured by a Pawn while trying to leap past its attack (SYNCHRONY DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 53,
+            "apiname": "ACH_HARDCORE_ACTUALLY_REAPER",
+            "name": "Virtuosoul",
+            "description": "Complete \"All Zones Mode\" with solo Reaper (SYNCHRONY DLC required)",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 54,
+            "apiname": "ACH_DOUBLE_TEMPO_BOLT",
+            "name": "Tachyarrhythmia",
+            "description": "Complete Zone 1 in \"Double Tempo Mode\" with solo Bolt (SYNCHRONY DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 55,
+            "apiname": "ACH_EQUIP_ITEM_SLOTS",
+            "name": "Fully Loaded",
+            "description": "Equip an item in every possible slot (SYNCHRONY DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 56,
+            "apiname": "ACH_FAMILY_COOP",
+            "name": "Family Trip",
+            "description": "Complete \"All Zones Mode\" as Cadence, Melody, Aria and Dorian in co-op mode (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 57,
+            "apiname": "ACH_DEEP_BLUES_DIRECT_KING_KILL",
+            "name": "Fool's Mate",
+            "description": "Checkmate Deep Blues without harming another piece (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 58,
+            "apiname": "ACH_DEAD_RINGER_REFLECT_KILL",
+            "name": "Destructive Interference",
+            "description": "Kill Dead Ringer with his own attack (SYNCHRONY DLC required)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 59,
+            "apiname": "ACH_URN_POSSESSION",
+            "name": "Ghost in the Pot",
+            "description": "Take control of Teh Urn (SYNCHRONY DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 60,
+            "apiname": "ACH_PAWNBROKER_SPECIAL_OFFER",
+            "name": "Sunk Cost",
+            "description": "Sell your belongings to the Pawnbroker (SYNCHRONY DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 61,
+            "apiname": "ACH_ENSEMBLE",
+            "name": "Polyphonic",
+            "description": "Complete an \"Ensemble Mode\" run (solo or co-op) (SYNCHRONY DLC required)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        }
+
+    ]
+}

@@ -90,6 +90,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("streets-of-rogue"));
     assert.ok(slugs.includes("sable"));
     assert.ok(slugs.includes("neon-white"));
+    assert.ok(slugs.includes("chained-echoes"));
+    assert.ok(slugs.includes("crypt-of-the-necrodancer"));
+    assert.ok(slugs.includes("dorfromantik"));
 
 });
 

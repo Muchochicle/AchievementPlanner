@@ -155,7 +155,7 @@ test("GET /api/games/popular bounds its player-count fan-out to at most 8 concur
 test("GET /api/games/popular still returns a real, correctly-ranked response when some player-count requests fail - a partial failure never fails the whole request", async () => {
 
     const steamId = "popular-route-test-partial-failure";
-    const appids = [920001, 920002, 920003];
+    const appids = [9990001, 9990002, 9990003];
 
     const fetchMock = async url => {
 
@@ -169,7 +169,7 @@ test("GET /api/games/popular still returns a real, correctly-ranked response whe
 
             const appid = Number(new URL(url).searchParams.get("appid"));
 
-            if (appid === 920002) {
+            if (appid === 9990002) {
 
                 // A genuine request failure for exactly one of the three
                 // games - getCurrentPlayerCount() already catches this
@@ -194,15 +194,17 @@ test("GET /api/games/popular still returns a real, correctly-ranked response whe
 
     assert.strictEqual(res.jsonBody.success, true, "a single failed Steam call must never turn the whole response into a 500");
 
-    // buildGamesList() always merges in the real 3-game catalog alongside
-    // this test's synthetic owned games (see routes/games.js), so the
-    // ranking legitimately includes them too - this test only asserts what
-    // it's actually targeting: the one game whose count failed is dropped,
-    // and the two whose counts succeeded are present.
+    // buildGamesList() always merges in the real catalog alongside this
+    // test's synthetic owned games (see routes/games.js), and the ranking
+    // is capped at selectPopularGames' DEFAULT_LIMIT, so the synthetic
+    // appids are set above every real catalog appid to guarantee the two
+    // that succeed rank inside the cap. This test only asserts what it's
+    // actually targeting: the one game whose count failed is dropped, and
+    // the two whose counts succeeded are present.
     const rankedAppids = res.jsonBody.games.map(g => g.appid);
 
-    assert.ok(!rankedAppids.includes(920002), "the game whose count failed must be silently dropped from the ranking, never shown with a fabricated count");
-    assert.ok(rankedAppids.includes(920001) && rankedAppids.includes(920003), "the two games whose counts succeeded must still appear in the ranking");
+    assert.ok(!rankedAppids.includes(9990002), "the game whose count failed must be silently dropped from the ranking, never shown with a fabricated count");
+    assert.ok(rankedAppids.includes(9990001) && rankedAppids.includes(9990003), "the two games whose counts succeeded must still appear in the ranking");
 
 });
 

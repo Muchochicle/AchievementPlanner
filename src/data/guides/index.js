@@ -66,6 +66,9 @@ import { GUIDE as riskOfRain2AchievementGuide } from "./games/risk-of-rain-2.js"
 import { GUIDE as streetsOfRogueAchievementGuide } from "./games/streets-of-rogue.js";
 import { GUIDE as sableAchievementGuide } from "./games/sable.js";
 import { GUIDE as neonWhiteAchievementGuide } from "./games/neon-white.js";
+import { GUIDE as chainedEchoesAchievementGuide } from "./games/chained-echoes.js";
+import { GUIDE as cryptOfTheNecrodancerAchievementGuide } from "./games/crypt-of-the-necrodancer.js";
+import { GUIDE as dorfromantikAchievementGuide } from "./games/dorfromantik.js";
 
 export const APP_GUIDES = [
 
@@ -154,7 +157,10 @@ export const GAME_GUIDES = [
     riskOfRain2AchievementGuide,
     streetsOfRogueAchievementGuide,
     sableAchievementGuide,
-    neonWhiteAchievementGuide
+    neonWhiteAchievementGuide,
+    chainedEchoesAchievementGuide,
+    cryptOfTheNecrodancerAchievementGuide,
+    dorfromantikAchievementGuide
 
 ];
 

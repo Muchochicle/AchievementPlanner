@@ -1,0 +1,877 @@
+{
+    "id": 1455840,
+    "steamAppId": 1455840,
+
+    "name": "Dorfromantik",
+
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1455840/header.jpg",
+
+    "difficulty": 5,
+
+    "completionTime": {
+        "min": 30,
+        "max": 120
+    },
+
+    "missable": false,
+
+    "playthroughs": 1,
+
+    "hasGuide": true,
+
+    "genres": ["Strategy","Puzzle","Building","Relaxing","Indie"],
+
+    "achievements": [
+
+        {
+            "id": 1,
+            "apiname": "windmill_01",
+            "name": "True Fan I",
+            "description": "Finish 5 sessions with a score of at least 5000.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 2,
+            "apiname": "windmill_02",
+            "name": "True Fan II",
+            "description": "Finish 10 sessions with a score of at least 5000.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 3,
+            "apiname": "windmill_03",
+            "name": "True Fan III",
+            "description": "Finish 25 sessions with a score of at least 5000.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 4,
+            "apiname": "windmill_04",
+            "name": "True Fan IV",
+            "description": "Finish 50 sessions with a score of at least 5000.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+
+        {
+            "id": 5,
+            "apiname": "watertrainstation_00",
+            "name": "Champion I",
+            "description": "Gain a highscore of 2500 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 6,
+            "apiname": "watertrainstation_01",
+            "name": "Champion II",
+            "description": "Gain a highscore of 10000 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 75
+        },
+
+        {
+            "id": 7,
+            "apiname": "watertrainstation_02",
+            "name": "Champion III",
+            "description": "Gain a highscore of 15000 points.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 8,
+            "apiname": "watertrainstation_03",
+            "name": "Champion IV",
+            "description": "Gain a highscore of 20000 points.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 165
+        },
+
+        {
+            "id": 9,
+            "apiname": "watertrainstation_04",
+            "name": "Champion V",
+            "description": "Gain a highscore of 30000 points.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 210
+        },
+
+        {
+            "id": 10,
+            "apiname": "biomes_00",
+            "name": "Landscaper I",
+            "description": "Place down 100 tiles in total.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 11,
+            "apiname": "biomes_01",
+            "name": "Landscaper II",
+            "description": "Place down 250 tiles in total.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 50
+        },
+
+        {
+            "id": 12,
+            "apiname": "biomes_02",
+            "name": "Landscaper III",
+            "description": "Place down 500 tiles in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 13,
+            "apiname": "train_00",
+            "name": "Engineer I",
+            "description": "Form a train route with at least 10 train tracks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 14,
+            "apiname": "train_01",
+            "name": "Engineer II",
+            "description": "Form a train route with at least 25 train tracks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 35
+        },
+
+        {
+            "id": 15,
+            "apiname": "train_02",
+            "name": "Engineer IV",
+            "description": "Form a train route with at least 75 train tracks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 65
+        },
+
+        {
+            "id": 16,
+            "apiname": "train_03",
+            "name": "Engineer III",
+            "description": "Form a train route with at least 50 train tracks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+
+        {
+            "id": 17,
+            "apiname": "boat_00",
+            "name": "Ocean I",
+            "description": "Form a water body with at least 15 water segments.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 18,
+            "apiname": "boat_01",
+            "name": "Ocean II",
+            "description": "Form a water body with at least 30 water segments.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 19,
+            "apiname": "boat_02",
+            "name": "Ocean III",
+            "description": "Form a water body with at least 60 water segments.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 20,
+            "apiname": "boat_03",
+            "name": "Ocean IV",
+            "description": "Form a water body with at least 100 water segments.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 21,
+            "apiname": "granary_00",
+            "name": "Farmer I",
+            "description": "Form a field group with at least 25 fields.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 22,
+            "apiname": "granary_01",
+            "name": "Farmer II",
+            "description": "Form a field group with at least 50 fields.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+
+        {
+            "id": 23,
+            "apiname": "granary_02",
+            "name": "Farmer III",
+            "description": "Form a field group with at least 100 fields.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 24,
+            "apiname": "granary_03",
+            "name": "Farmer IV",
+            "description": "Form a field group with at least 150 fields.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 25,
+            "apiname": "watermill_00",
+            "name": "Perfectionist I",
+            "description": "Score 25 perfect placements in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 26,
+            "apiname": "watermill_01",
+            "name": "Perfectionist II",
+            "description": "Score 50 perfect placements in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 70
+        },
+
+        {
+            "id": 27,
+            "apiname": "watermill_02",
+            "name": "Perfectionist III",
+            "description": "Score 150 perfect placements in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 28,
+            "apiname": "watermill_03",
+            "name": "Perfectionist IV",
+            "description": "Score 250 perfect placements in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 29,
+            "apiname": "watermill_04",
+            "name": "Perfectionist V",
+            "description": "Score 500 perfect placements in total.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 190
+        },
+
+        {
+            "id": 30,
+            "apiname": "fountain_00",
+            "name": "Villager I",
+            "description": "Form a village with at least 50 houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 31,
+            "apiname": "fountain_01",
+            "name": "Villager II",
+            "description": "Form a village with at least 100 houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 32,
+            "apiname": "fountain_02",
+            "name": "Villager III",
+            "description": "Form a village with at least 150 houses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 33,
+            "apiname": "fountain_03",
+            "name": "Villager IV",
+            "description": "Form a village with at least 250 houses.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 34,
+            "apiname": "tower_00",
+            "name": "Puzzler I",
+            "description": "Place 25 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 35,
+            "apiname": "tower_01",
+            "name": "Puzzler II",
+            "description": "Place 50 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 36,
+            "apiname": "tower_02",
+            "name": "Puzzler III",
+            "description": "Place 75 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 100
+        },
+
+        {
+            "id": 37,
+            "apiname": "tower_03",
+            "name": "Puzzler IV",
+            "description": "Place 100 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 140
+        },
+
+        {
+            "id": 38,
+            "apiname": "tower_04",
+            "name": "Puzzler V",
+            "description": "Place 150 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 39,
+            "apiname": "deer_00",
+            "name": "Green Thumb I",
+            "description": "Form a forest with at least 250 trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 40,
+            "apiname": "deer_01",
+            "name": "Green Thumb II",
+            "description": "Form a forest with at least 500 trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 70
+        },
+
+        {
+            "id": 41,
+            "apiname": "deer_02",
+            "name": "Green Thumb III",
+            "description": "Form a forest with at least 750 trees.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 42,
+            "apiname": "deer_03",
+            "name": "Green Thumb IV",
+            "description": "Form a forest with at least 1000 trees.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 43,
+            "apiname": "deer_04",
+            "name": "Green Thumb V",
+            "description": "Form a forest with at least 1500 trees.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 190
+        },
+
+        {
+            "id": 44,
+            "apiname": "oldtree_00",
+            "name": "Self-Sufficiency I",
+            "description": "Close 5 field groups with at least 10 fields in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 45,
+            "apiname": "oldtree_01",
+            "name": "Self-Sufficiency II",
+            "description": "Close 20 field groups with at least 10 fields in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 46,
+            "apiname": "oldtree_02",
+            "name": "Self-Sufficiency III",
+            "description": "Close 50 field groups with at least 10 fields in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 100
+        },
+
+        {
+            "id": 47,
+            "apiname": "windmill_00",
+            "name": "First Steps",
+            "description": "Your first challenge! Finish the tutorial to unlock a new tile.",
+            "difficulty": 1,
+            "missable": false,
+            "estimatedTime": 10
+        },
+
+        {
+            "id": 48,
+            "apiname": "biomes_03",
+            "name": "Landscaper IV",
+            "description": "Place down 1000 tiles in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 49,
+            "apiname": "tower_05",
+            "name": "Puzzler VI",
+            "description": "Place 200 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 220
+        },
+
+        {
+            "id": 50,
+            "apiname": "explorer_00",
+            "name": "Explorer I",
+            "description": "Connect 3 preplaced tiles in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 51,
+            "apiname": "explorer_01",
+            "name": "Explorer II",
+            "description": "Connect 10 preplaced tiles in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 50
+        },
+
+        {
+            "id": 52,
+            "apiname": "explorer_02",
+            "name": "Explorer III",
+            "description": "Connect 25 preplaced tiles in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 53,
+            "apiname": "explorer_03",
+            "name": "Explorer IV",
+            "description": "Connect 50 preplaced tiles in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 54,
+            "apiname": "planner_00",
+            "name": "Planner I",
+            "description": "Score 2 perfect placements at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 55,
+            "apiname": "planner_01",
+            "name": "Planner II",
+            "description": "Score 3 perfect placements at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 50
+        },
+
+        {
+            "id": 56,
+            "apiname": "planner_02",
+            "name": "Planner III",
+            "description": "Score 4 perfect placements at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 80
+        },
+
+        {
+            "id": 57,
+            "apiname": "planner_03",
+            "name": "Planner IV",
+            "description": "Score 5 perfect placements at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 110
+        },
+
+        {
+            "id": 58,
+            "apiname": "planner_04",
+            "name": "Planner V",
+            "description": "Score 6 perfect placements at once.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 140
+        },
+
+        {
+            "id": 59,
+            "apiname": "planner_05",
+            "name": "Planner VI",
+            "description": "Score 7 perfect placements at once.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 170
+        },
+
+        {
+            "id": 60,
+            "apiname": "questmaster_00",
+            "name": "Quest Master I",
+            "description": "Complete 25 quests in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 61,
+            "apiname": "questmaster_01",
+            "name": "Quest Master II",
+            "description": "Complete 50 quests in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 62,
+            "apiname": "questmaster_02",
+            "name": "Quest Master III",
+            "description": "Complete 100 quests in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 63,
+            "apiname": "questmaster_03",
+            "name": "Quest Master IV",
+            "description": "Complete 250 quests in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 210
+        },
+
+        {
+            "id": 64,
+            "apiname": "questmaster_04",
+            "name": "Quest Master V",
+            "description": "Complete 400 quests in total.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 270
+        },
+
+        {
+            "id": 65,
+            "apiname": "questmaster_05",
+            "name": "Quest Master VI",
+            "description": "Complete 600 quests in total.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 330
+        },
+
+        {
+            "id": 66,
+            "apiname": "heavyweight_00",
+            "name": "Heavy Weight I",
+            "description": "Place 25 consecutive tiles without rotating a tile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+
+        {
+            "id": 67,
+            "apiname": "heavyweight_01",
+            "name": "Heavy Weight II",
+            "description": "Place 50 consecutive tiles without rotating a tile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 68,
+            "apiname": "heavyweight_02",
+            "name": "Heavy Weight III",
+            "description": "Place 75 consecutive tiles without rotating a tile.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 100
+        },
+
+        {
+            "id": 69,
+            "apiname": "heavyweight_03",
+            "name": "Heavy Weight IV",
+            "description": "Place 100 consecutive tiles without rotating a tile.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 140
+        },
+
+        {
+            "id": 70,
+            "apiname": "heavyweight_04",
+            "name": "Heavy Weight V",
+            "description": "Place 150 consecutive tiles without rotating a tile.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 71,
+            "apiname": "heavyweight_05",
+            "name": "Heavy Weight VI",
+            "description": "Place 200 consecutive tiles without rotating a tile.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 220
+        },
+
+        {
+            "id": 72,
+            "apiname": "analyst_00",
+            "name": "Analyst I",
+            "description": "Collect 120 points with a single tile placement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 73,
+            "apiname": "analyst_01",
+            "name": "Analyst II",
+            "description": "Collect 220 points with a single tile placement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+
+        {
+            "id": 74,
+            "apiname": "analyst_02",
+            "name": "Analyst III",
+            "description": "Collect 330 points with a single tile placement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 75,
+            "apiname": "analyst_03",
+            "name": "Analyst IV",
+            "description": "Collect 440 points with a single tile placement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+
+        {
+            "id": 76,
+            "apiname": "analyst_04",
+            "name": "Analyst V",
+            "description": "Collect 550 points with a single tile placement.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 77,
+            "apiname": "analyst_05",
+            "name": "Analyst VI",
+            "description": "Collect 660 points with a single tile placement.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 180
+        },
+
+        {
+            "id": 78,
+            "apiname": "overachiever_00",
+            "name": "Overachiever I",
+            "description": "Collect 10000 points in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+
+        {
+            "id": 79,
+            "apiname": "overachiever_01",
+            "name": "Overachiever II",
+            "description": "Collect 25000 points in total.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 90
+        },
+
+        {
+            "id": 80,
+            "apiname": "overachiever_02",
+            "name": "Overachiever III",
+            "description": "Collect 50000 points in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+
+        {
+            "id": 81,
+            "apiname": "overachiever_03",
+            "name": "Overachiever IV",
+            "description": "Collect 100000 points in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 210
+        },
+
+        {
+            "id": 82,
+            "apiname": "biomes_04",
+            "name": "Landscaper V",
+            "description": "Place down 1500 tiles in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 140
+        },
+
+        {
+            "id": 83,
+            "apiname": "tower_06",
+            "name": "Puzzler VII",
+            "description": "Place 250 consecutive tiles without connecting any incompatible edges.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 260
+        },
+
+        {
+            "id": 84,
+            "apiname": "heavyweight_06",
+            "name": "Heavy Weight VII",
+            "description": "Place 250 consecutive tiles without rotating a tile.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 260
+        },
+
+        {
+            "id": 85,
+            "apiname": "biomes_05",
+            "name": "Landscaper VI",
+            "description": "Place down 2000 tiles in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 170
+        }
+
+    ]
+}
