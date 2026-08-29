@@ -192,6 +192,9 @@ import { GUIDE as gunfireRebornAchievementGuide } from "./games/gunfire-reborn.j
 import { GUIDE as yakuzaLikeADragonAchievementGuide } from "./games/yakuza-like-a-dragon.js";
 import { GUIDE as mortalKombat11AchievementGuide } from "./games/mortal-kombat-11.js";
 import { GUIDE as sleepingDogsAchievementGuide } from "./games/sleeping-dogs.js";
+import { GUIDE as watchDogs2AchievementGuide } from "./games/watch-dogs-2.js";
+import { GUIDE as mafia2DefinitiveEditionAchievementGuide } from "./games/mafia-2-definitive-edition.js";
+import { GUIDE as mortalKombat1AchievementGuide } from "./games/mortal-kombat-1.js";
 
 export const APP_GUIDES = [
 
@@ -406,7 +409,10 @@ export const GAME_GUIDES = [
     gunfireRebornAchievementGuide,
     yakuzaLikeADragonAchievementGuide,
     mortalKombat11AchievementGuide,
-    sleepingDogsAchievementGuide
+    sleepingDogsAchievementGuide,
+    watchDogs2AchievementGuide,
+    mafia2DefinitiveEditionAchievementGuide,
+    mortalKombat1AchievementGuide
 
 ];
 
