@@ -1,0 +1,544 @@
+{
+    "id": 284160,
+    "steamAppId": 284160,
+    "name": "BeamNG.drive",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/284160/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 30,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Vehicle Simulation",
+        "Sandbox",
+        "Driving",
+        "Physics"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "CHAPTER_1_COMPLETE",
+            "name": "Senseless Destructor",
+            "description": "Complete the \"Senseless Destruction\" Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "DRIVERTRAINING_COMPLETE",
+            "name": "Beginner's Racing License",
+            "description": "Complete the final \"Driver Training\" Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "CHAPTER2_COMPLETE",
+            "name": "A Rocky Start",
+            "description": "Experience the start of the story",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "BUS_COMPLETE",
+            "name": "Outstanding Performance",
+            "description": "Complete the \"Hustle and Bustle\" Campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "LONG_WAY_AROUND",
+            "name": "Long Way Around",
+            "description": "Drive a total distance of 1000km.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "SPAWN_MANY_VEHICLES",
+            "name": "Quite a lot of Vehicles",
+            "description": "Add over 5000 vehicles total to your freeroam sessions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "SPAWN_FEW_VEHICLES",
+            "name": "Just a few Vehicles",
+            "description": "Add over 100 vehicles total to your freeroam sessions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ROLLOVER",
+            "name": "Rolling Around",
+            "description": "Roll your vehicle more than 100 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "AIRTIME",
+            "name": "Weightless in the Air",
+            "description": "Stay in the air during jumps for a total time of 10 minutes or more.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "VEHICLE_EXPLORER",
+            "name": "Vehicle Explorer",
+            "description": "Get behind the wheel of 15 unique vehicle models and drive at least 10km in each.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "LEVEL_EXPLORER",
+            "name": "World Explorer",
+            "description": "Visit five different maps for 5 minutes or more.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "VEHICLE_FAVOURITE",
+            "name": "This one's my Favourite",
+            "description": "Drive at least 1000km with vehicles of a single model.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "REAL_MILEAGE",
+            "name": "Real Mileage",
+            "description": "Drive a total distance of 250km.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "CHALLENGE_FREEFORM_DELIVERY",
+            "name": "Freeform Delivery",
+            "description": "Earn at least one star in a Freeform Delivery Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "CHALLENGE_CRAWL",
+            "name": "Crawling",
+            "description": "Earn at least one star in a Crawl Challenge or complete a Freeroam Crawl Event.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "CHALLENGE_BUS_MODE",
+            "name": "Bus Driver",
+            "description": "Earn at least one star in a Bus Mode Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "CHALLENGE_CHASE",
+            "name": "Chase Player",
+            "description": "Earn at least one star in a Chase Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "CHALLENGE_PRECISION_PARKING",
+            "name": "Parking Enthusiast",
+            "description": "Earn at least one star in a Precision Parking Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "CHALLENGE_AI_RACE",
+            "name": "AI Racer",
+            "description": "Earn at least one star in an AI Race Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "CHALLENGE_TIME_TRIAL",
+            "name": "Time Trials Driver",
+            "description": "Earn at least one star in a Time Trials Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "CHALLENGE_RALLY_LOOP",
+            "name": "Rally Pro",
+            "description": "Earn at least one star in a Rally Loop Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "CHALLENGE_RALLY_STAGE",
+            "name": "Rally Driver",
+            "description": "Earn at least one star in a Rally Stage Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "DRIFT_TOTAL",
+            "name": "Sideways for Days",
+            "description": "Get a total drift score of 1,000,000 or more.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "DRIFT_SINGLE",
+            "name": "Impressive Drift",
+            "description": "Get a score of 20,000 or more in a single drift.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "DRAG_QUARTER_MILE",
+            "name": "Drag Racer",
+            "description": "Complete a drag strip run in 8.300s or less.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "VEHICLE_REFUELLED",
+            "name": "Filling up the Tank",
+            "description": "Refuel your vehicle using a gas station.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "CHALLENGE_THREE_STARS",
+            "name": "Challenge Complete!",
+            "description": "Complete a challenge and get three stars.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "CHALLENGE_ONE_STAR",
+            "name": "First Challenge",
+            "description": "Complete a challenge and get at least one star.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "SCREENSHOT_TAKEN",
+            "name": "Picture Perfect",
+            "description": "Capture a moment in Photo Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "VEHICLE_CONFIG_SAVED",
+            "name": "Save it for later",
+            "description": "Save a customized vehicle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "VEHICLE_MODIFIED",
+            "name": "Vehicle Customization",
+            "description": "Modify a vehicle by changing parts, tuning or paints.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "FREEROAM_TUTORIAL_COMPLETE",
+            "name": "Freeroam Tutorial Completionist",
+            "description": "Complete all the lessons of the Freeroam Tutorial.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "FREEROAM_TUTORIAL_BASICS",
+            "name": "Freeroam Basics",
+            "description": "Cover the fundamentals across the first three sections of the Freeroam Tutorial.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "PAID_THE_PRICE",
+            "name": "Paid the Price",
+            "description": "Receive and pay a Career Mode fine or penalty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ON_SCHEDULE",
+            "name": "On Schedule",
+            "description": "Complete a timed delivery before its deadline.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "MATERIALS_DELIVERY_COMPLETED",
+            "name": "Bulk Delivery",
+            "description": "Deliver your first order of Bulk Materials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "VEHICLE_DELIVERY_COMPLETED",
+            "name": "Car Jockey",
+            "description": "Deliver your first vehicle and complete the Car Jockey Introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "DELIVERY_TUTORIAL_COMPLETED",
+            "name": "First Delivery",
+            "description": "Deliver your first parcels and complete the Cargo Delivery Introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "POLICY_REVIEW",
+            "name": "Policy Review",
+            "description": "Change the insurance provider, insurance policy or insured vehicle policy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "HIGH_END_PERFORMANCE",
+            "name": "High End Performance",
+            "description": "Score 'Class X' on a performance evaulation on a vehicle in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "PERFOMANCE_INDEX",
+            "name": "Performance Review",
+            "description": "Evaluate the performance of a vehicle in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "THAT_WAS_EXPENSIVE",
+            "name": "That was Expensive",
+            "description": "Pay at least $10,000 for a private repair on a vehicle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "CLAIM_FILED",
+            "name": "Claim Filed",
+            "description": "Repair a damaged vehicle through an insurance claim in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "GARAGE_STARTER",
+            "name": "Three-Car Garage",
+            "description": "Own a collection of at least 3 vehicles in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "FLIP_PROFIT",
+            "name": "Flip Profit",
+            "description": "Sell a vehicle for more than its original purchase cost through negotiation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "NOW_ITS_MINE",
+            "name": "M1N3 N0W",
+            "description": "Personalize a vehicle's license plate in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "TOO_LATE",
+            "name": "Too Late!",
+            "description": "A vehicle you were interested in has been sold before you could buy it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "DEAL_MAKER",
+            "name": "Deal Maker",
+            "description": "Successfully negotiate a vehicle purchase for 80% or lower than the asking price.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "GOOD_DEAL",
+            "name": "Good Deal",
+            "description": "Successfully negotiate a vehicle purchase below the listed asking price.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "SERIOUS_PURCHASE",
+            "name": "Serious Purchase",
+            "description": "Buy a vehicle with a price of over $100,000.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "SIX_FIGURES",
+            "name": "Six-Figure Club",
+            "description": "Earn a total of $100,000 through challenges, deliveries or other activties.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "FIRST_PAYCHECK",
+            "name": "First Paycheck",
+            "description": "Earn a total of $10,000 through challenges, deliveries or other activities.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "NEW_TERRITORY",
+            "name": "New Territory",
+            "description": "Get access to new challenges by unlocking a new series in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "FIRST_ASSIGNMENT",
+            "name": "First Assignment",
+            "description": "Earn your first paycheck through challenges, deliveries or other activities.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "FIRST_SET_OF_KEYS",
+            "name": "Keys to Success",
+            "description": "Purchase your first vehicle in Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "EXTRA_CREDIT",
+            "name": "Extra Credit",
+            "description": "Complete the onboarding sequence, including optional objectives.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "FIRST_ROLLOUT",
+            "name": "First Rollout",
+            "description": "Complete the APM onboarding sequence and gain access to Career Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "WELCOME_TO_APM",
+            "name": "Welcome to APM",
+            "description": "Join the APM team as part of the onboarding sequence.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

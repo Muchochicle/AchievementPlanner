@@ -171,6 +171,9 @@ import { GUIDE as dishonoredAchievementGuide } from "./games/dishonored.js";
 import { GUIDE as helldivers2AchievementGuide } from "./games/helldivers-2.js";
 import { GUIDE as marvelRivalsAchievementGuide } from "./games/marvel-rivals.js";
 import { GUIDE as powerwashSimulatorAchievementGuide } from "./games/powerwash-simulator.js";
+import { GUIDE as enshroudedAchievementGuide } from "./games/enshrouded.js";
+import { GUIDE as oxygenNotIncludedAchievementGuide } from "./games/oxygen-not-included.js";
+import { GUIDE as beamngDriveAchievementGuide } from "./games/beamng-drive.js";
 
 export const APP_GUIDES = [
 
@@ -364,7 +367,10 @@ export const GAME_GUIDES = [
     dishonoredAchievementGuide,
     helldivers2AchievementGuide,
     marvelRivalsAchievementGuide,
-    powerwashSimulatorAchievementGuide
+    powerwashSimulatorAchievementGuide,
+    enshroudedAchievementGuide,
+    oxygenNotIncludedAchievementGuide,
+    beamngDriveAchievementGuide
 
 ];
 

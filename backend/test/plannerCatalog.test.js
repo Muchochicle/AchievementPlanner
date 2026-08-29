@@ -195,6 +195,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("helldivers-2"));
     assert.ok(slugs.includes("marvel-rivals"));
     assert.ok(slugs.includes("powerwash-simulator"));
+    assert.ok(slugs.includes("enshrouded"));
+    assert.ok(slugs.includes("oxygen-not-included"));
+    assert.ok(slugs.includes("beamng-drive"));
 
 });
 
