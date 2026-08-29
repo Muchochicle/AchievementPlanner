@@ -1,0 +1,616 @@
+{
+    "id": 1144200,
+    "steamAppId": 1144200,
+    "name": "Ready or Not",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 50,
+        "max": 130
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Tactical Shooter",
+        "SWAT",
+        "First-Person",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_FIRST_ARREST",
+            "name": "First Arrest",
+            "description": "Arrest your first suspect or civilian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_A1",
+            "name": "The War",
+            "description": "Complete ‘Thank You, Come Again’, ‘Rust Belt’ and ‘Twisted Nerve’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_A2",
+            "name": "The Decaying City",
+            "description": "Complete ‘Elephant’, ‘Relapse’ and ‘Neon Tomb’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_A3",
+            "name": "The Left Behind",
+            "description": "Complete ‘Carriers of the Vine’, ‘Sins of the Father’, ‘Ides of March’, and ‘A Lethal Obsession’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_A4",
+            "name": "The Abducted",
+            "description": "Complete ‘Buy Cheap, Buy Twice', ‘Hide and Seek', 'Ends of the Earth’, and 'Greased Palms’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_A5",
+            "name": "The Exploited",
+            "description": "Complete ‘The Spider’, ‘Valley of the Dolls’, ‘Sinuous Trail’, and '23 Megabytes a Second' at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_A6",
+            "name": "Medal of Valor",
+            "description": "Complete all base game missions at S on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_A7",
+            "name": "The World",
+            "description": "Complete Ready or Not in ‘Ironman mode’ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_A8",
+            "name": "The Hermit",
+            "description": "Complete Ready or Not in ‘Ironman mode’ without losing a single officer on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_A9",
+            "name": "The Hanged Man",
+            "description": "Complete ‘Hide and Seek' using only a taser, flashbangs, and bash on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_A10",
+            "name": "Way Out West",
+            "description": "Complete ‘Rust Belt’ using only the .357 Magnum as a weapon on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_A11",
+            "name": "The Devil",
+            "description": "Use the secret command for your SWAT team (kill me command)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_A12",
+            "name": "The Magician",
+            "description": "Arrest a downed suspect only to find out they were faking it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_A13",
+            "name": "The Fool",
+            "description": "Be killed by a civilian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_A14",
+            "name": "Due Process",
+            "description": "Incapacitate a suspect with a C2 charge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_A15",
+            "name": "Back To School",
+            "description": "Complete ‘Dorms’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_A16",
+            "name": "Panic Room",
+            "description": "Complete ‘Lawmaker’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_A17",
+            "name": "Cut To Pieces",
+            "description": "Complete ‘Narcos’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_A19",
+            "name": "Beat Cop",
+            "description": "Complete ‘Narcos’ using only lethal pistols but without using grenades or launchers on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_A20",
+            "name": "Hidden and Dangerous",
+            "description": "Restrain all civilians in ‘Lawmaker’ without neutralizing any suspects on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_A21",
+            "name": "Meldonin",
+            "description": "Complete all ‘Dorms’ main objectives in five minutes on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_A23",
+            "name": "After the Storm",
+            "description": "Complete all Home Invasion levels at S on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_A24",
+            "name": "From House to Home",
+            "description": "Get all Ready Or Not Home Invasion DLC achievements",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_A25",
+            "name": "The Dogs Heads",
+            "description": "Complete ‘Mirage at Sea’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_A26",
+            "name": "The Meek & The Earth",
+            "description": "Complete ‘Leviathan’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_A27",
+            "name": "The Margay",
+            "description": "Complete ‘3 Letter Triad’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_A28",
+            "name": "From Land to Sea",
+            "description": "Complete all Dark Waters levels at S on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_A29",
+            "name": "Party Crasher",
+            "description": "During ‘Mirage at Sea’, apprehend Sah’id before the order is given to murder civilians, and no civilians are killed on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_A30",
+            "name": "Big Shell Specialist",
+            "description": "During ‘Leviathan’, successfully hit two long-range headshots, on two different active Suspects, located over 30m away from you on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_A31",
+            "name": "Sleeper Agent",
+            "description": "During ‘3 Letter Triad’, apprehend or incapacitate 15 suspects consecutively, within 15 seconds of one another on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_A32",
+            "name": "Smile, You’re On Camera!",
+            "description": "In any Dark Waters DLC mission, open your tablet, switch to the helicopter camera feed and spot yourself on it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_A33",
+            "name": "Justice Uncovers Depths Ghosts in Elysium",
+            "description": "In the Dark Waters DLC, find the location of the secret MLO meeting room.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_A34",
+            "name": "Getting Your Sea Legs",
+            "description": "Get all Ready Or Not Dark Waters DLC achievements",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_A35",
+            "name": "I'm Too Old For This…",
+            "description": "Complete all base game missions on 'Hard' difficulty in any game mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_A36",
+            "name": "The Emperor",
+            "description": "Unlock each unique officer trait at least once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_A37",
+            "name": "Practice Makes Perfect",
+            "description": "Complete 'Training'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_A38",
+            "name": "Dress to Impress",
+            "description": "Unlock all base game customization items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_A39",
+            "name": "Temperance",
+            "description": "Drink one too many coffees",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_A40",
+            "name": "Toxic Fumes",
+            "description": "Complete 'Twisted Nerve' using only VPL-25, cs gas, gasmasks, and bash on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_A41",
+            "name": "Off Duty",
+            "description": "Complete ‘Thank You, Come Again’ without armor and a helmet on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_A42",
+            "name": "Who is Pepe Silvia?",
+            "description": "On 'A Lethal Obsession' play all of the audiotapes that can be found in the mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_A43",
+            "name": "Fool Me Once",
+            "description": "On 'Elephant', defuse the second bomb within two minutes of defusing the first, on Standard difficulty or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_A44",
+            "name": "Fool Me Twice",
+            "description": "On 'Relapse', defuse the second bomb within two minutes of defusing the first, on Standard difficulty or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_A45",
+            "name": "Walnut Warrior",
+            "description": "Command your squad to breach a door, 20 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_A46",
+            "name": "Mahogany Masochist",
+            "description": "Command your squad to breach a door, 50 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_A47",
+            "name": "Arrest Warrant",
+            "description": "Arrest 50 suspects or civilians",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_A48",
+            "name": "A Rest For The Wicked",
+            "description": "Arrest 100 suspects or civilians",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_A49",
+            "name": "What's In The Box?!",
+            "description": "Inspect any evidence item from the 'Evidence locker' in the 'Headquarters'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_A50",
+            "name": "Silly String",
+            "description": "Disarm 10 tripwires",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_A51",
+            "name": "Here's Johnny",
+            "description": "Breach 20 locked doors with the 'Battering Ram'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_A52",
+            "name": "Peeping Tom",
+            "description": "Use the 'Mirrorgun' 30 times under a door",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_A53",
+            "name": "Say Hello To My Little Friend",
+            "description": "Stun enemies with any 'M320' 30 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_A54",
+            "name": "Click From 3, 4 Is Binding",
+            "description": "Unlock 20 doors using the 'Lockpick Gun'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_A55",
+            "name": "Door Kickers",
+            "description": "Have 2 officers with an active “Kicker” trait assigned to the roster and kick a door open in any mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_A56",
+            "name": "The Tactician",
+            "description": "Complete a mission without using a weapon and only relying on deployables, tactical gear, and bash on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_A57",
+            "name": "By the Book",
+            "description": "Complete a mission while only commanding your officers and not using anything from your loadout on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_A58",
+            "name": "The Flashpoint",
+            "description": "Complete ‘No Good Deed’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_A59",
+            "name": "The False Idol",
+            "description": "Complete ‘All Gods Burn’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_A60",
+            "name": "The Final Directive",
+            "description": "Complete ‘A New America’ at C+ on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_A61",
+            "name": "Nosce Te Ipsum",
+            "description": "Complete all Boiling Point levels at S on 'Standard' difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_A62",
+            "name": "My Eyes, It Burns!",
+            "description": "During any Boiling Point mission, while you are actively taking damage from toxic gas, incapacitate three different active Suspects within 5 seconds of one another on ‘Standard’ or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_A63",
+            "name": "The Heat is On",
+            "description": "Complete ‘All Gods Burn’ without Armor or a Shield equipped and without using grenades, on ‘Hard’ difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_A64",
+            "name": "Programmed Psychosis",
+            "description": "Complete ‘A New America’, alone in a multiplayer lobby, on ‘Hard’ difficulty. ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_A65",
+            "name": "All Secrets Safe",
+            "description": "In the Boiling Point DLC, answer the phone call in the bank vault on 'All Gods Burn'.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_A66",
+            "name": "Targeted Manipulation",
+            "description": "In the Boiling Point DLC, detonate the explosives yourself during 'A New America'.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_A67",
+            "name": "Eye of Providence",
+            "description": "Find and use all major world interactables in every Boiling Point level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

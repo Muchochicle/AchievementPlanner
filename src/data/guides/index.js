@@ -174,6 +174,9 @@ import { GUIDE as powerwashSimulatorAchievementGuide } from "./games/powerwash-s
 import { GUIDE as enshroudedAchievementGuide } from "./games/enshrouded.js";
 import { GUIDE as oxygenNotIncludedAchievementGuide } from "./games/oxygen-not-included.js";
 import { GUIDE as beamngDriveAchievementGuide } from "./games/beamng-drive.js";
+import { GUIDE as readyOrNotAchievementGuide } from "./games/ready-or-not.js";
+import { GUIDE as planetZooAchievementGuide } from "./games/planet-zoo.js";
+import { GUIDE as twoPointHospitalAchievementGuide } from "./games/two-point-hospital.js";
 
 export const APP_GUIDES = [
 
@@ -370,7 +373,10 @@ export const GAME_GUIDES = [
     powerwashSimulatorAchievementGuide,
     enshroudedAchievementGuide,
     oxygenNotIncludedAchievementGuide,
-    beamngDriveAchievementGuide
+    beamngDriveAchievementGuide,
+    readyOrNotAchievementGuide,
+    planetZooAchievementGuide,
+    twoPointHospitalAchievementGuide
 
 ];
 

@@ -1,0 +1,571 @@
+{
+    "id": 535930,
+    "steamAppId": 535930,
+    "name": "Two Point Hospital",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/535930/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 60,
+        "max": 160
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Management Sim",
+        "Construction",
+        "Comedy",
+        "Simulation"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_CURE_PATIENT",
+            "name": "Give a Man a Hospital...",
+            "description": "Cure 1 Patient",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_CURE_PATIENTS_LARGE",
+            "name": "Teach a Man to Hospital...",
+            "description": "Cure 1000 Patients",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_TRAIN_RESEARCHER",
+            "name": "Dr Know",
+            "description": "Train a World-Class Researcher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_TRAIN_PSYCHIATRIST",
+            "name": "Jung at Heart",
+            "description": "Train a World-Class Psychiatrist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_TRAIN_SURGEON",
+            "name": "Cut Above",
+            "description": "Train a World-Class Surgeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_COMPLETE_RESEARCH",
+            "name": "Well-Informed",
+            "description": "Complete 50 Research Projects",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_COMPLETE_MARKETING",
+            "name": "Always Be Curing",
+            "description": "Run 50 Marketing Campaigns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_UPGRADE_MACHINES",
+            "name": "Bells & Whistles",
+            "description": "Conduct 25 Machine Upgrades",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_CAPTURE_GHOSTS",
+            "name": "I. See. You.",
+            "description": "Capture 100 Ghosts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_STARS_1",
+            "name": "County-Wide",
+            "description": "Earn 15 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_STARS_2",
+            "name": "Inter-Countinental",
+            "description": "Earn 30 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_STARS_3",
+            "name": "Pointy Mountain G.O.A.T",
+            "description": "Earn 45 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_ORGANISATION_VALUE",
+            "name": "JUMBO",
+            "description": "Reach $50,000,000 Organisation Value",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_SILVER",
+            "name": "Two Point Bounty",
+            "description": "Earn 10,000 Kudosh",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_MULTIPLAYER_CHALLENGE",
+            "name": "Peer-Reviewed",
+            "description": "Complete a Multiplayer Challenge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_HOSPITAL_LEVEL_1",
+            "name": "Double Digits",
+            "description": "Have a Level 10 Hospital",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_HOSPITAL_LEVEL_2",
+            "name": "Double Double",
+            "description": "Have a Level 20 Hospital",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_AWARD_WINNER",
+            "name": "I'd Like To Thank My Mother",
+            "description": "Win every award in a single hospital",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_MONOBROW_SHOT",
+            "name": "Low Brow",
+            "description": "Shoot one Monobeast with the Monobrow Blaster (Monobeasts appear during the Monobrow research event).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_MONOBROW_SHOT_LARGE",
+            "name": "High Brow",
+            "description": "Shoot 10 Monobeasts in a row without missing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_EXPLOSION_INJURY",
+            "name": "Generating Business",
+            "description": "Injure a person by letting a machine catch fire and explode with someone still in the room.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_6",
+            "name": "High Altitude Health Service",
+            "description": "Earn 1 Star at each hospital in the Pointy Mountains",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_STARS_4",
+            "name": "The New Gold Standard",
+            "description": "Earn 54 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_RESEARCH_CHEESY_GUBBINS",
+            "name": "Now Even Cheesier",
+            "description": "Complete the \"Cheesier Gubbins\" research project (available in Swelbard).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_LEVEL_5_DELUX_SUITE",
+            "name": "De-Lux Suite",
+            "description": "Have a Level 5 De-Lux Clinic at the Underlook Hotel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_TOP_REVIEW_YETI",
+            "name": "Furry Good Review",
+            "description": "Earn a top review from the visiting critic Bartholomew F. Yeti at the Underlook Hotel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_CURING_SPREE",
+            "name": "Curing Spree",
+            "description": "Trigger a Curing Spree (cure 10 patients in a row) on Topless Mountain.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_STARS_5",
+            "name": "The (Second) New Gold Standard",
+            "description": "Earn 63 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_7",
+            "name": "Busman's Holiday",
+            "description": "Earn 1 Star at each hospital on Pebberley Island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_FINAL_WAVE_TOPLESS_MOUNTAIN",
+            "name": "Life, the Universe and Everything",
+            "description": "Complete Wave 42 on Topless Mountain",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_UNLOCK_ALL_PLOTS_OVERGROWTH",
+            "name": "Symbiosis",
+            "description": "Unlock every plot in Overgrowth",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_COMPLETE_SUPERBUG_1",
+            "name": "Icebreaker",
+            "description": "Complete Superbug Project \"Hair Removal\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_COMPLETE_SUPERBUG_5",
+            "name": "Strength in Numbers",
+            "description": "Complete Superbug Project \"Learning Machine Learning\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_COMPLETE_SUPERBUG_NODES",
+            "name": "Serial Collaborator",
+            "description": "Complete 50 Research Nodes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_STARS_6",
+            "name": "The (Third) New Gold Standard",
+            "description": "Earn 72 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_EXPOSE_ALIENS",
+            "name": "Rose Amongst The Pigeons",
+            "description": "Expose 50 Alien Infiltrators",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_ACTIVATE_JANITORS",
+            "name": "Animation & Sanitation",
+            "description": "Activate every Robo-Janitor prototype in Chasm 24",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_CURE_FROGBORNE",
+            "name": "Kissed by a Nurse",
+            "description": "Cure a patient with Frogborne",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_8",
+            "name": "Stealthily Healthily",
+            "description": "Earn 1 Star at each hospital in Close Encounters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_REMIX_REGION_1",
+            "name": "World 1",
+            "description": "Complete R.E.M.I. X versions of Hogsport, Lower Bullocks & Flottering",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_9",
+            "name": "Vote Windsock",
+            "description": "Earn 1 Star at each hospital in Off The Grid",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_STARS_7",
+            "name": "The (Fourth) New Gold Standard",
+            "description": "Earn 81 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_GREEN_ENERGY",
+            "name": "Greener Grass",
+            "description": "Maximise your Green Energy capacity in Windsock",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_MAX_ECO_RATING",
+            "name": "Environmentally Friendliest",
+            "description": "Receive the highest possible Eco Rating",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_HERB_GARDEN_CURE",
+            "name": "First Catch Your Plant",
+            "description": "Cure a patient in the Herb Garden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_REMIX_REGION_2",
+            "name": "World 2",
+            "description": "Complete R.E.M.I. X versions of Mitton University, Tumble & Flemington",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_TRAIN_RODERICK",
+            "name": "Character Development",
+            "description": "Train Roderick Cushion to Level 5 at Plywood Studios",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_GOOD_VIBE",
+            "name": "Good VIBErations",
+            "description": "Achieve a high VIBE rating at Fitzpocket Academy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_SICK_IN_THE_MUD",
+            "name": "Sick-in-the-Mud",
+            "description": "Complete Wave 18 at Mudbury Festival",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_STARS_8",
+            "name": "The (Fifth) New Gold Standard",
+            "description": "Earn 90 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_10",
+            "name": "Arts & Plaster Casts",
+            "description": "Earn 1 Star at each hospital in Culture Shock",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_STARS_9",
+            "name": "The (Sixth) New Gold Standard",
+            "description": "Earn 99 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_11",
+            "name": "Days of Suture Past",
+            "description": "Earn 1 Star at each hospital in A Stitch In Time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_BESTERIZER",
+            "name": "Besterizer",
+            "description": "Send 100 cured patients through the Yesterizer in Clockwise-above-Thyme",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_TIME_CURE_100",
+            "name": "Swiss Cheese Hospital",
+            "description": "Cure 100 patients from time portals in a single year",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_TIME_CURE_LIGHTHEADED_VARIANTS",
+            "name": "De-Light Saving Time",
+            "description": "Cure a patient with Lightheadedness, Beheadedness, Hotheadedness, and Byteheadedness in Clockwise-above-Thyme",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_STARS_108",
+            "name": "The (Seventh) New Gold Standard",
+            "description": "Earn 108 Gold Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_COMPLETE_REGION_12",
+            "name": "Intensive Car Unit",
+            "description": "Earn 1 Star at each hospital in Speedy Recovery",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_TOP_ALL_LEAGUES",
+            "name": "You Got All The Best Lines",
+            "description": "Reach the top of every league table at once for 3 months",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_CLOWN_CAR",
+            "name": "It's a Wind-up",
+            "description": "Collect 20 patients in one trip with a Pantomobile.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_ALL_AMBULANCES",
+            "name": "Diversified Portaloo",
+            "description": "Have at least one of each type of ambulance fully upgraded in the same hospital.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

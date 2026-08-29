@@ -198,6 +198,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("enshrouded"));
     assert.ok(slugs.includes("oxygen-not-included"));
     assert.ok(slugs.includes("beamng-drive"));
+    assert.ok(slugs.includes("ready-or-not"));
+    assert.ok(slugs.includes("planet-zoo"));
+    assert.ok(slugs.includes("two-point-hospital"));
 
 });
 
