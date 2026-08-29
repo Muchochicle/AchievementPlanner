@@ -249,6 +249,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hades-2"));
     assert.ok(slugs.includes("path-of-exile"));
     assert.ok(slugs.includes("luck-be-a-landlord"));
+    assert.ok(slugs.includes("manor-lords"));
+    assert.ok(slugs.includes("once-human"));
+    assert.ok(slugs.includes("snowrunner"));
 
 });
 

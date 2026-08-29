@@ -225,6 +225,9 @@ import { GUIDE as likeADragonIshinAchievementGuide } from "./games/like-a-dragon
 import { GUIDE as hades2AchievementGuide } from "./games/hades-2.js";
 import { GUIDE as pathOfExileAchievementGuide } from "./games/path-of-exile.js";
 import { GUIDE as luckBeALandlordAchievementGuide } from "./games/luck-be-a-landlord.js";
+import { GUIDE as manorLordsAchievementGuide } from "./games/manor-lords.js";
+import { GUIDE as onceHumanAchievementGuide } from "./games/once-human.js";
+import { GUIDE as snowrunnerAchievementGuide } from "./games/snowrunner.js";
 
 export const APP_GUIDES = [
 
@@ -472,7 +475,10 @@ export const GAME_GUIDES = [
     likeADragonIshinAchievementGuide,
     hades2AchievementGuide,
     pathOfExileAchievementGuide,
-    luckBeALandlordAchievementGuide
+    luckBeALandlordAchievementGuide,
+    manorLordsAchievementGuide,
+    onceHumanAchievementGuide,
+    snowrunnerAchievementGuide
 
 ];
 
