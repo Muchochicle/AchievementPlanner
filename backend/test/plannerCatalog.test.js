@@ -246,6 +246,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("persona-5-royal"));
     assert.ok(slugs.includes("dead-space-2023"));
     assert.ok(slugs.includes("like-a-dragon-ishin"));
+    assert.ok(slugs.includes("hades-2"));
+    assert.ok(slugs.includes("path-of-exile"));
+    assert.ok(slugs.includes("luck-be-a-landlord"));
 
 });
 
