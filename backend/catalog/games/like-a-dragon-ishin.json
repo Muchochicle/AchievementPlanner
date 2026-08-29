@@ -1,0 +1,526 @@
+{
+    "id": 1805480,
+    "steamAppId": 1805480,
+    "name": "Like a Dragon: Ishin!",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1805480/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Beat 'em up",
+        "Open World",
+        "Historical"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "PLATINUM",
+            "name": "Bakumatsu Boss",
+            "description": "Collected all achievements.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "FIRST_TOSA",
+            "name": "Home, Sweet Home",
+            "description": "Reach a story marker early in the campaign (no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "CLEAR_CHAPTER2",
+            "name": "Losing a Brother",
+            "description": "Complete Chapter 2 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "CLEAR_CHAPTER4",
+            "name": "A Messy Investigation",
+            "description": "Complete Chapter 4 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "CLEAR_CHAPTER6",
+            "name": "That Was Close!",
+            "description": "Complete Chapter 6 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "CLEAR_CHAPTER8",
+            "name": "The Bottom Drops Out",
+            "description": "Complete Chapter 8 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "CLEAR_CHAPTER10",
+            "name": "Secrets Revealed",
+            "description": "Complete Chapter 10 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "CLEAR_CHAPTER12",
+            "name": "Cold Betrayal",
+            "description": "Complete Chapter 12 (story marker, no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "CLEAR_CHAPTER_ALL",
+            "name": "Hero of a Nation",
+            "description": "Complete the main story.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "CLEAR_EX_HARD",
+            "name": "Legend of an Era",
+            "description": "Complete the game on EX-Hard difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "CLEAR_ULTIMATE_BATTLES",
+            "name": "Ultimate Champion",
+            "description": "Completed every Ultimate Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "PAUSE_COMPLETE_RATE50",
+            "name": "Halfway There",
+            "description": "Brought the Completion List to 50%.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "PAUSE_COMPLETE_RATE100",
+            "name": "Taskmaster",
+            "description": "Brought the Completion List to 100%.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "GET_TOKU_TOTAL_10000",
+            "name": "Nominally Virtuous",
+            "description": "Earned at least 10,000 Virtue in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "GET_TOKU_TOTAL_50000",
+            "name": "Fairly Virtuous",
+            "description": "Earned at least 50,000 Virtue in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "GET_TOKU_TOTAL_100000",
+            "name": "Extraordinarily Virtuous",
+            "description": "Earned at least 100,000 Virtue in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "GET_TOKU_TOTAL_300000",
+            "name": "Divinely Virtuous",
+            "description": "Earned at least 300,000 Virtue in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_SHOUJINMOKUROKU_5",
+            "name": "The Gods Smile Upon Thee",
+            "description": "Completed 5 tasks in the Diligence Records.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_SHOUJINMOKUROKU_20",
+            "name": "The Gods Rejoice at Thee",
+            "description": "Completed 20 tasks in the Diligence Records.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_SHOUJINMOKUROKU_50",
+            "name": "The Gods Sing Thy Praises",
+            "description": "Completed 50 tasks in the Diligence Records.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_SHOUJINMOKUROKU_ALL",
+            "name": "The Gods Hath Been Humbled",
+            "description": "Completed all tasks in the Diligence Records.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "FIRST_FRIEND",
+            "name": "Making a Difference",
+            "description": "Completed your first Bond.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "GLOBAL_BROTHERHOOD",
+            "name": "Everybody Loves Ryoma",
+            "description": "Completed all Bonds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ALL_CLEAR_RESTAURANT",
+            "name": "I'll Have One of Everything",
+            "description": "Ordered at least one item at every restaurant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "CLEAR_SUBSTORY_10",
+            "name": "Kyo's Little Helper",
+            "description": "Completed 10 Substories.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "CLEAR_SUBSTORY_40",
+            "name": "Saint of Kyo",
+            "description": "Completed 40 Substories.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "CLEAR_SUBSTORY_ALL",
+            "name": "Savior of Kyo",
+            "description": "Completed all Substories.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ALL_MASTER_EACH_CLEAR",
+            "name": "Student Among Masters",
+            "description": "Trained with each master of combat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "USE_SKILLSOUL_10",
+            "name": "You've Got Soul",
+            "description": "Unlocked 10 abilities with Soul Orbs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_LEVEL_50",
+            "name": "On the Level",
+            "description": "Reached Level 50.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_LEVEL_MAX",
+            "name": "Limit Breaker",
+            "description": "Broke Ryoma's stats beyond their limits.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "WIN_TOUGIJYO_10",
+            "name": "This is MY Ring!",
+            "description": "Won 10 arena battles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "FINISH_ALL_TENKEI",
+            "name": "Revelation Reveler",
+            "description": "Attained all Revelations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "COMPOSITION_WEAPON_100",
+            "name": "Bring Down the Hammer",
+            "description": "Enhanced equipment 100 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "WIN_ZETUGI_100",
+            "name": "Showoff",
+            "description": "Win 100 battles using a Zetsu (special finishing move).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ENTER_DUNGEON_3",
+            "name": "The Abyss Stares Back",
+            "description": "Entered a Battle Dungeon 3 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "CLEAR_YATOU_DUNGEON",
+            "name": "Bandit Rustler",
+            "description": "Cleared the Bandits' Cave.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "CLEAR_GIZOKU_DUNGEON",
+            "name": "Bandit Wrangler",
+            "description": "Cleared the Bandits' Mine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "CLEAR_TAKEDA_DUNGEON",
+            "name": "Sanada Takedown",
+            "description": "Cleared the Sanada Stronghold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "COLLECT_TAISI_100",
+            "name": "Drop and Give Me 100",
+            "description": "Gathered 100 troopers for the Third Division.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "REFUSE_TENGU",
+            "name": "Tengu Tamer",
+            "description": "Helped the Tachibanagumi bring the Tengu to justice.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "GLOW_VEGETABLE_5",
+            "name": "An Honest Day's Work",
+            "description": "Grew 10 different kinds of plants in the garden.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "COOK_7",
+            "name": "Chef's Special",
+            "description": "Cooked 7 different dishes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "MARKET_10",
+            "name": "Side Hustler",
+            "description": "Fulfilled 10 trade orders at your second home.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "FISHING_10",
+            "name": "A Well-Rounded Cast",
+            "description": "Caught a total of 10 fish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "SEE_HARUKA_EVENT",
+            "name": "Platonic Bliss",
+            "description": "Watched a Slice of Life event at your second home.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "PAY_BACK_ALL",
+            "name": "World's Greatest Uncle",
+            "description": "Paid off Haruka's debt in full.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "CHANGE_ROOM_TOKU_SHOP_POINT",
+            "name": "Now It Feels Like Home",
+            "description": "Changed the interior design of your second home.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "PLAY_ALL_PLAYSPOT",
+            "name": "The Man Who Does It All",
+            "description": "Played every minigame.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "PLAY_ALL_TOBA",
+            "name": "Easy Come, Easy Go",
+            "description": "Tried your hand at each type of gambling.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "UDON_EARN_TOTAL_10000",
+            "name": "Noodle-Slinger Supreme",
+            "description": "Made at least 10 ryo in sales at the Udon Shop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "PLAY_ALL_UTAGOE_SAKABA",
+            "name": "Sing Your Heart Out",
+            "description": "Performed every song at Utamaruya.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "PLAY_ALL_NIHON_BUYOU",
+            "name": "Lord of the Dance",
+            "description": "Performed every dance at Nichibuza.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "KYOKEI_EARN_TOTAL_5",
+            "name": "Cocksure",
+            "description": "Placed bets on 5 chicken races.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "PLAY_ALL_OZASHIKI",
+            "name": "Like a Dragon in Heaven",
+            "description": "Cleared each of the courtesan minigames.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "ONE_OF_TOP_ESTIMATION",
+            "name": "Social Butterfly",
+            "description": "Reached max Social Rank in one of the locales.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

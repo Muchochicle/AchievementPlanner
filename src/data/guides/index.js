@@ -219,6 +219,9 @@ import { GUIDE as wolfenstein2AchievementGuide } from "./games/wolfenstein-2.js"
 import { GUIDE as backpackBattlesAchievementGuide } from "./games/backpack-battles.js";
 import { GUIDE as deepRockGalacticSurvivorAchievementGuide } from "./games/deep-rock-galactic-survivor.js";
 import { GUIDE as sunHavenAchievementGuide } from "./games/sun-haven.js";
+import { GUIDE as persona5RoyalAchievementGuide } from "./games/persona-5-royal.js";
+import { GUIDE as deadSpace2023AchievementGuide } from "./games/dead-space-2023.js";
+import { GUIDE as likeADragonIshinAchievementGuide } from "./games/like-a-dragon-ishin.js";
 
 export const APP_GUIDES = [
 
@@ -460,7 +463,10 @@ export const GAME_GUIDES = [
     wolfenstein2AchievementGuide,
     backpackBattlesAchievementGuide,
     deepRockGalacticSurvivorAchievementGuide,
-    sunHavenAchievementGuide
+    sunHavenAchievementGuide,
+    persona5RoyalAchievementGuide,
+    deadSpace2023AchievementGuide,
+    likeADragonIshinAchievementGuide
 
 ];
 

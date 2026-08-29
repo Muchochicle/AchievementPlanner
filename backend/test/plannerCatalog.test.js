@@ -243,6 +243,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("backpack-battles"));
     assert.ok(slugs.includes("deep-rock-galactic-survivor"));
     assert.ok(slugs.includes("sun-haven"));
+    assert.ok(slugs.includes("persona-5-royal"));
+    assert.ok(slugs.includes("dead-space-2023"));
+    assert.ok(slugs.includes("like-a-dragon-ishin"));
 
 });
 
