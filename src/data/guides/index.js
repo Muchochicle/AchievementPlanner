@@ -210,6 +210,9 @@ import { GUIDE as rage2AchievementGuide } from "./games/rage-2.js";
 import { GUIDE as barotraumaAchievementGuide } from "./games/barotrauma.js";
 import { GUIDE as dinkumAchievementGuide } from "./games/dinkum.js";
 import { GUIDE as warhammer40kDarktideAchievementGuide } from "./games/warhammer-40k-darktide.js";
+import { GUIDE as insurgencySandstormAchievementGuide } from "./games/insurgency-sandstorm.js";
+import { GUIDE as theyAreBillionsAchievementGuide } from "./games/they-are-billions.js";
+import { GUIDE as prisonArchitectAchievementGuide } from "./games/prison-architect.js";
 
 export const APP_GUIDES = [
 
@@ -442,7 +445,10 @@ export const GAME_GUIDES = [
     rage2AchievementGuide,
     barotraumaAchievementGuide,
     dinkumAchievementGuide,
-    warhammer40kDarktideAchievementGuide
+    warhammer40kDarktideAchievementGuide,
+    insurgencySandstormAchievementGuide,
+    theyAreBillionsAchievementGuide,
+    prisonArchitectAchievementGuide
 
 ];
 
