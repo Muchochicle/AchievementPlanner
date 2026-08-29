@@ -222,6 +222,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mafia-definitive-edition"));
     assert.ok(slugs.includes("dirt-rally-2"));
     assert.ok(slugs.includes("warhammer-40k-boltgun"));
+    assert.ok(slugs.includes("football-manager-2024"));
+    assert.ok(slugs.includes("watch-dogs-legion"));
+    assert.ok(slugs.includes("f1-24"));
 
 });
 

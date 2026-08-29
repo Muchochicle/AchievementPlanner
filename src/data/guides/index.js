@@ -198,6 +198,9 @@ import { GUIDE as mortalKombat1AchievementGuide } from "./games/mortal-kombat-1.
 import { GUIDE as mafiaDefinitiveEditionAchievementGuide } from "./games/mafia-definitive-edition.js";
 import { GUIDE as dirtRally2AchievementGuide } from "./games/dirt-rally-2.js";
 import { GUIDE as warhammer40kBoltgunAchievementGuide } from "./games/warhammer-40k-boltgun.js";
+import { GUIDE as footballManager2024AchievementGuide } from "./games/football-manager-2024.js";
+import { GUIDE as watchDogsLegionAchievementGuide } from "./games/watch-dogs-legion.js";
+import { GUIDE as f124AchievementGuide } from "./games/f1-24.js";
 
 export const APP_GUIDES = [
 
@@ -418,7 +421,10 @@ export const GAME_GUIDES = [
     mortalKombat1AchievementGuide,
     mafiaDefinitiveEditionAchievementGuide,
     dirtRally2AchievementGuide,
-    warhammer40kBoltgunAchievementGuide
+    warhammer40kBoltgunAchievementGuide,
+    footballManager2024AchievementGuide,
+    watchDogsLegionAchievementGuide,
+    f124AchievementGuide
 
 ];
 

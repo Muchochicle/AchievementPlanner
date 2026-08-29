@@ -1,0 +1,922 @@
+{
+    "id": 1904540,
+    "steamAppId": 1904540,
+    "name": "Football Manager 2024",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1904540/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 100,
+        "max": 400
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Sports Management",
+        "Simulation",
+        "Strategy",
+        "Football"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "achievement_hattrick",
+            "name": "Hat-trick",
+            "description": "Your player scored a hat-trick in a competitive match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "achievement_manager_of_the_month",
+            "name": "Flavour Of The Month",
+            "description": "You won a Manager of the Month award",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "achievement_won_promotion",
+            "name": "You're Up!",
+            "description": "You guided your team to promotion in a domestic league",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "achievement_won_top_domestic_cup",
+            "name": "Cup Glory!",
+            "description": "You won a top domestic cup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "achievement_5_players_in_team_of_the_week",
+            "name": "Team Performance",
+            "description": "You had five players named in Team of the Week",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "achievement_5_clean_sheets_in_a_row",
+            "name": "Parked The Bus",
+            "description": "Your team went five consecutive matches without conceding a goal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "achievement_win_a_match_after_being_2_goals_behind_at_half_time",
+            "name": "A Game of Two Halves",
+            "description": "You won a competitive match after being two or more goals down at half-time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "achievement_player_in_team_of_the_year",
+            "name": "Star Player",
+            "description": "You had a player selected in the Team Of The Year",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "achievement_top_goalscorer_in_league",
+            "name": "Goal Machine",
+            "description": "Your player was the top league goalscorer over an entire season",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "achievement_most_goals_scored_in_league",
+            "name": "Unstoppable Force",
+            "description": "Your team scored the most league goals over an entire season",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "achievement_least_goals_conceded_in_league",
+            "name": "Immovable Object",
+            "description": "Your team conceded the fewest league goals over an entire season",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "achievement_score_a_goal_in_10_consecutive_matches",
+            "name": "Scoring Streak",
+            "description": "Your team scored in 10 consecutive competitive matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "achievement_10_matches_without_losing",
+            "name": "Unbeatable!",
+            "description": "Your team went 10 competitive matches unbeaten",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "achievement_dont_concede_a_goal_for_10_consecutive_matches",
+            "name": "Parked The Tank",
+            "description": "Your team went 10 consecutive competitive matches without conceding a goal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "achievement_get_offered_an_international_manager_job",
+            "name": "National Service",
+            "description": "You were offered a job in senior international management",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "achievement_manager_of_the_year",
+            "name": "The Special One",
+            "description": "You won the Manager Of The Year award",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "achievement_world_player_of_the_year",
+            "name": "Best In The World",
+            "description": "Your player won the World Player Of The Year award",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "achievement_10_match_winning_streak",
+            "name": "You're On Fire",
+            "description": "You won 10 consecutive competitive matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "achievement_do_the_double",
+            "name": "Do The Double",
+            "description": "You won a nation's top league and cup competition in the same season",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "achievement_win_3_consecutive_league_titles",
+            "name": "Domination",
+            "description": "You won three consecutive top division league titles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "achievement_10_seasons_at_one_club",
+            "name": "Part Of The Furniture",
+            "description": "You stayed at one club for 10 seasons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "achievement_won_20_cup_competitions",
+            "name": "Trophy Hoarder",
+            "description": "You won 20 cup competitions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "achievement_10_manager_of_the_month_awards",
+            "name": "Best In The Business",
+            "description": "You have won the Manager of the Month award 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "achievement_won_international_championship",
+            "name": "Freedom Of The Country",
+            "description": "You won a major continental international tournament",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "achievement_won_world_cup",
+            "name": "On Top Of The World",
+            "description": "You won the World Cup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "achievement_5_manager_of_the_year_awards",
+            "name": "Legend",
+            "description": "You won five Manager of the Year awards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "achievement_undefeated_season",
+            "name": "Invincible!",
+            "description": "Your team played the entire season without losing a league game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "achievement_won_a_match",
+            "name": "First Victory",
+            "description": "You guided your team to victory in a competitive fixture",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "achievement_played_30_seasons",
+            "name": "Value For Money",
+            "description": "Congratulations! You played Football Manager for 30 seasons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "achievement_reach_top_of_hall_of_fame",
+            "name": "The Greatest",
+            "description": "You became the greatest manager of all-time!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "achievement_get_into_hall_of_fame",
+            "name": "World Renowned",
+            "description": "You made it into the worldwide hall of fame",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "achievement_sell_player",
+            "name": "Off the Books",
+            "description": "You sold a player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "achievement_big_win",
+            "name": "Thumping",
+            "description": "Your team won a competitive match by at least five goals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "achievement_record_signing",
+            "name": "Record Signing",
+            "description": "You broke your club's record transfer fee spent on a player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "achievement_record_sale",
+            "name": "Record Sale",
+            "description": "You broke your club's record transfer fee received for a player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "achievement_full_board_confidence",
+            "name": "Full Faith",
+            "description": "You gained 90% overall board confidence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "achievement_beating_expectations",
+            "name": "Beating Expectations",
+            "description": "You gained 90% board confidence in overall competition performance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "achievement_signed_a_player",
+            "name": "#DoneDeal",
+            "description": "You signed your first player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "achievement_clean_sheet",
+            "name": "Clean Sheet",
+            "description": "You played a competitive match without conceding a goal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "achievement_goal_of_the_month_award",
+            "name": "What A Goal!",
+            "description": "Your player won a goal of the month award",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "achievement_goal_of_the_season",
+            "name": "Superb Strike",
+            "description": "Your player won the goal of the season award",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "achievement_buy_50_million_plus_player",
+            "name": "Splashing The Cash",
+            "description": "You bought a player for £50 million or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "achievement_sell_50_million_plus_player",
+            "name": "Cash To Burn",
+            "description": "You sold a player for £50 million or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "achievement_20_consecutive_clean_sheets",
+            "name": "Outstanding Defence",
+            "description": "Your team went 20 consecutive competitive matches without conceding a goal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "achievement_3_players_in_team_of_the_year",
+            "name": "Tremendous Trio",
+            "description": "You had three players selected in the Team Of The Year",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "achievement_goal_scored_in_20_consecutive_matches",
+            "name": "Goal Rush",
+            "description": "Your team scored in 20 consecutive competitive matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "achievement_goal_scored_in_30_consecutive_matches",
+            "name": "Irresistible Force",
+            "description": "Your team scored in 30 consecutive competitive matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "achievement_20_matches_without_losing",
+            "name": "On A Roll",
+            "description": "Your team went undefeated for 20 matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "achievement_30_matches_without_losing",
+            "name": "Top Form",
+            "description": "Your team went 30 matches unbeaten",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "achievement_30_matches_without_conceding_goal",
+            "name": "You Shall Not Pass",
+            "description": "Your team hasn't conceded a goal in 30 consecutive competitive matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "achievement_20_manager_of_the_year_awards",
+            "name": "Immortality",
+            "description": "You won 20 Manager of the Year awards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "achievement_gain_bottom_to_top_promotion",
+            "name": "National Hero",
+            "description": "You won promotion from the bottom to the top division in a nation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "achievement_head_to_head",
+            "name": "Tête-à-tête",
+            "description": "Your team won a Head to Head competition",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "achievement_invited_a_friend",
+            "name": "Invitational",
+            "description": "You invited a friend to play a Network Game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "achievement_window_shopping",
+            "name": "Window Shopping",
+            "description": "You visited the in-game store",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "achievement_win_fantasy_draft",
+            "name": "Beat your Mates",
+            "description": "You won your Fantasy Draft competition against your friends",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "achievement_unbeaten_host_in_fantasy_draft",
+            "name": "Perfect Host",
+            "description": "You hosted a fantasy draft game and remained unbeaten",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "achievement_perfect_managerial_support",
+            "name": "Total Support",
+            "description": "You have superb support from your players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "achievement_hes_a_natural",
+            "name": "They're a Natural",
+            "description": "You retrained a player to be a natural in a new position",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "career_earnings_over_10_million",
+            "name": "Money, Money, Money",
+            "description": "You earned more than £10m in your career as a manager",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "career_earnings_over_100_million",
+            "name": "The Rich Get Richer",
+            "description": "You earned more than £100m in your career as a manager",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "fantasy_draft_200_club",
+            "name": "200 Club",
+            "description": "You gained 200 Match Points in Fantasy Draft",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "fantasy_draft_draft_dominator",
+            "name": "Draft Dominator",
+            "description": "You won 25 Fantasy Draft matches online",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "fantasy_draft_draft_rivalry",
+            "name": "Online Rivalry",
+            "description": "You played 10 Head to Head competitions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "fantasy_draft_shrewd_spender",
+            "name": "Draft Value",
+            "description": "You beat four players in the draft while spending the least online",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "fantasy_draft_online_streak",
+            "name": "Online Streak",
+            "description": "You won all matches in a Fantasy Draft tournament",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "achievement_club_world_cup",
+            "name": "World Beaters",
+            "description": "You won the Club World Cup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "achievement_beat_a_rival",
+            "name": "\"I Would Love It If We Beat Them\"",
+            "description": "You beat a rival team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "achievement_bragging_rights",
+            "name": "Bragging Rights",
+            "description": "You beat another Network player in a league match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "achievement_clean_sheet_network",
+            "name": "Clean Sheet Network",
+            "description": "You achieved your first clean sheet in a network save",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "achievement_clean_sheet_versus",
+            "name": "Clean Sheet Versus",
+            "description": "You achieved your first clean sheet in Versus Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "achievement_cupset_between_friends",
+            "name": "Cupset Between Friends",
+            "description": "You knocked another Network player out of a cup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "achievement_drilling_down",
+            "name": "Drilling Down",
+            "description": "You requested a visualisation graph from your data analyst",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "achievement_first_goal_network",
+            "name": "First Goal Network",
+            "description": "Your team scored their first goal in a competitive match in a network save",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "achievement_first_goal_versus",
+            "name": "First Goal Versus",
+            "description": "Your team scored your first Versus Mode goal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "achievement_first_win_network",
+            "name": "First Win Network",
+            "description": "You won your first competitive match in a network save",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "achievement_first_win_versus",
+            "name": "First Win Versus",
+            "description": "You won your first match in Versus Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "achievement_unlock_all_achievements",
+            "name": "GOAT",
+            "description": "You unlocked all achievements",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "achievement_import_to_victory",
+            "name": "Import To Victory",
+            "description": "You won a match with your imported career team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "achievement_mini_league_champion",
+            "name": "Mini League Champion",
+            "description": "You finished above another Network player in the league",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "achievement_motivational_speaker",
+            "name": "Motivational Speaker",
+            "description": "Your team talk had a positive effect on the team ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "achievement_new_kids_on_the_block",
+            "name": "New Kids On The Block",
+            "description": "You won a Versus Mode match only using newgens from your imported team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "achievement_one_of_our_own",
+            "name": "One Of Our Own",
+            "description": "You gave a player under the age of 23 their league debut",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "achievement_one_of_us",
+            "name": "One of Us, One of Us!",
+            "description": "You hired a new member of staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "achievement_people_pleaser",
+            "name": "People Pleaser",
+            "description": "You have a happy squad",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "achievement_planned_signing",
+            "name": "Planned Signing",
+            "description": "You signed a player who was scouted from your recruitment focus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "achievement_red_hot_newgen",
+            "name": "Red Hot Newgen",
+            "description": "A newgen you imported into Versus Mode finished top scorer in a tournament",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "achievement_signed_a_player_from_another_network_user",
+            "name": "Second Hand Signing",
+            "description": "You signed a player who previously played for another Network player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "achievement_shots_for_days",
+            "name": "Shots For Days",
+            "description": "You accumulated more than 5 xG in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "achievement_squad_goals",
+            "name": "Squad Goals",
+            "description": "You attained a high level of team cohesion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "achievement_super_sub",
+            "name": "Super-Sub",
+            "description": "Your player scored after being brought on",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "achievement_the_only_stat_that_matters",
+            "name": "The Only Stat That Matters",
+            "description": "You won a game with at least a total of one xG lower than your opponent",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "achievement_the_peoples_champion",
+            "name": "The People's Champion",
+            "description": "You gained high supporter confidence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 94,
+            "apiname": "achievement_the_player_whisperer",
+            "name": "The Player Whisperer",
+            "description": "You received a positive reaction from a team meeting",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "achievement_the_unstoppables",
+            "name": "The Unstoppables",
+            "description": "You won five consecutive Versus Mode matches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "achievement_versus_anyone",
+            "name": "Versus Anyone",
+            "description": "You won a match in Versus Mode using only the quick start setting",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "achievement_versus_champ",
+            "name": "Versus Champ",
+            "description": "You won a tournament in Versus Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "achievement_we_go_again",
+            "name": "We Go Again",
+            "description": "You won five consecutive matches against your friends in a network save",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "achievement_wheeler_dealer",
+            "name": "Wheeler Dealer",
+            "description": "You successfully negotiated a higher fee for a player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 100,
+            "apiname": "achievement_you_can_buy_happiness",
+            "name": "You Can Buy Happiness",
+            "description": "You made a transfer the supporters are extremely happy with",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}
