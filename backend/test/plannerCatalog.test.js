@@ -240,6 +240,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("shadow-of-mordor"));
     assert.ok(slugs.includes("shadow-of-war"));
     assert.ok(slugs.includes("wolfenstein-2"));
+    assert.ok(slugs.includes("backpack-battles"));
+    assert.ok(slugs.includes("deep-rock-galactic-survivor"));
+    assert.ok(slugs.includes("sun-haven"));
 
 });
 

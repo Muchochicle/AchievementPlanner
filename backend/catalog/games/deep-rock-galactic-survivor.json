@@ -1,0 +1,2722 @@
+{
+    "id": 2321470,
+    "steamAppId": 2321470,
+    "name": "Deep Rock Galactic: Survivor",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2321470/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 40,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Survivor-like",
+        "Roguelite",
+        "Auto-Shooter",
+        "Dwarves"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach-unlock-scout",
+            "name": "Run for the hills",
+            "description": "Unlock the Scout",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "ach-unlock-driller",
+            "name": "Dig down deep",
+            "description": "Unlock the Driller",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "ach-unlock-engineer",
+            "name": "Enjoy a relaxing stroll",
+            "description": "Unlock the Engineer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "ach-unlock-gunner",
+            "name": "Lock and load",
+            "description": "Unlock the Gunner",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "ach-lots-of-big-numbers",
+            "name": "Squint and squeeze the trigger",
+            "description": "Reach 75% crit chance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "ach-red-sugar-diet",
+            "name": "Delicious BLT",
+            "description": "Reach 300 Max HP",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "ach-movespeed-50",
+            "name": "It's got electrolytes",
+            "description": "Reach 50% move speed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "ach-spray-n-pray",
+            "name": "Swift guns for swift hands",
+            "description": "Reach 75% reload speed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "ach-Gold is Au-some",
+            "name": "Get that Midas touch",
+            "description": "Collect 250 Gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "ach-The-Nitra-is-Right",
+            "name": "Sprinkle of Nitra",
+            "description": "Collect 2,000 Nitra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "ach-icy-does-it",
+            "name": "A freeze is coming",
+            "description": "Deal 250,000 Cryo damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "ach-getting-warm",
+            "name": "Hot, hot, hot!",
+            "description": "Deal 250,000 Fire damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "ach-dodger",
+            "name": "Slick, like butter",
+            "description": "Dodge 100 times during a run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "ach-dont-move-15k-kills",
+            "name": "Pillar of Society",
+            "description": "Kill 15,000 enemies while standing still",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ach-spend-gold-25k",
+            "name": "Big spender",
+            "description": "Spend 20,000 Gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "ach-take-2k-dmg",
+            "name": "No pain, no gain",
+            "description": "Take 2000 damage during a dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "ach-Nicetra",
+            "name": "Gotta stay Nitrated",
+            "description": "Collect 250 Nitra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "ach-Pickled-Nitra",
+            "name": "Relish the pain",
+            "description": "Deal over 1337 damage in one attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "ach-Gold-Tipped-Bullets",
+            "name": "Au-fully rich",
+            "description": "Collect 2,000 Gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "ach-MSDataKillDreadHpReq",
+            "name": "Close call",
+            "description": "Kill the dreadnaught while you have less than 30 HP",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ach-MSDataDie",
+            "name": "Hoxxes Manual",
+            "description": "Die 3 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "ach-MSDataAccrueStatType_Armor",
+            "name": "Why so Salty?",
+            "description": "Reach 50 armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "ach-MSDataCoreLevel_Lvl50",
+            "name": "Book of Experience",
+            "description": "Reach level 50 during a dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "ach-MSDataSpendCurrency_ShopDiscount",
+            "name": "Corporate Discount",
+            "description": "Spend 2,500 Gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "ach-MSDataOCCount",
+            "name": "Pro side wobble compensator",
+            "description": "Equip 10 Overclocks in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "ach-MSDataGainTotalLevels",
+            "name": "Hangry?",
+            "description": "Gain 1,000 level ups",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "ach-MSDataFireProjectiles",
+            "name": "Count em!",
+            "description": "Fire 150,000 projectiles in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "ach-MSDataDamageFromMultipleTypes",
+            "name": "Multitool",
+            "description": "Do damage with 5 types in one dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "ach-MSDataAquireMasteryPoints_WeaponBox",
+            "name": "What's in the box!?",
+            "description": "Gain 10 mastery levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "ach-MSDataAccrueMagnets",
+            "name": "Works 100% of the time",
+            "description": "Collect 25 magnets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "ach-MSDataAccrueDamageFromSource",
+            "name": "Freezing hot acid",
+            "description": "Deal 2,500,000 Status Effect Damage in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "ach-CC_4_MSDataWinRun",
+            "name": "Crystalline Caverns",
+            "description": "Win a Crystalline Caverns Hazard 5 dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "ach-HB_4_MSDataWinRun",
+            "name": "Hollow Bough",
+            "description": "Win a Hollow Bough Hazard 5 dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "ach-MC_4_MSDataWinRun",
+            "name": "Magma Core",
+            "description": "Win a Magma Core Hazard 5 dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "ach-SP_4_MSDataWinRun",
+            "name": "Salt Pits",
+            "description": "Win a Salt Pits Hazard 5 dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "ach-AW_4_MSDataWinRun",
+            "name": "Azure Weald",
+            "description": "Win a Azure Weald Hazard 5 dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "ach-MSDataKillSpecific_Huuli",
+            "name": "Got bait?",
+            "description": "Kill 3 Huuli Hoarders in one dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ach-MSDataSelectUpgrade_LUCK",
+            "name": "Feeling lucky punk?",
+            "description": "Get 5 luck upgrades in one dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "ach-MSDataJumpOnRock",
+            "name": "Jetty boots",
+            "description": "Land on 200 blocks in one dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "ach-MSDataHealDuringStage",
+            "name": "That's how the cookie crumbles",
+            "description": "Heal 500 HP during one dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "arh-MSDataDestroyAllRock",
+            "name": "Axe in face!",
+            "description": "Destroy all rocks in one main mission stage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "ach-wep18-deepcoregk2",
+            "name": "Overclock: DeepCore GK2",
+            "description": "Reach level 18 with the DeepCore GK2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ach-wep18-zhukovnuk17",
+            "name": "Overclock: Zhukov NUK17",
+            "description": "Reach level 18 with the Zhukov NUK17",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "ach-wep18-cryogrenade",
+            "name": "Overclock: Cryo Grenade",
+            "description": "Reach level 18 with the Cryo Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "ach-wep18-juryriggedboomstick",
+            "name": "Overclock: Jury-Rigged Boomstick",
+            "description": "Reach level 18 with the Jury-Rigged Boomstick",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "ach-wep18-m1000",
+            "name": "Overclock: M1000",
+            "description": "Reach level 18 with the M1000",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ach-wep18-voltaicstunsweeper",
+            "name": "Overclock: Stun Sweeper",
+            "description": "Reach level 18 with the Voltaic Stun Sweeper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ach-wep18-th0rbugtaser",
+            "name": "Overclock: TH-0R Bug Taser",
+            "description": "Reach level 18 with the TH-0R Bug Taser",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ach-wep18-arctekcryoguard",
+            "name": "Overclock: Cryo Guard",
+            "description": "Reach level 18 with the Arc-Tek Cryo Guard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "ach-wep18-drak25plasmacarbine",
+            "name": "Overclock: Plasma Carbine",
+            "description": "Reach level 18 with the DRAK-25 Plasma Carbine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "ach-wep18-nishankaboltshark",
+            "name": "Overclock: Nishanka Boltshark",
+            "description": "Reach level 18 with the Nishanka Boltshark",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "ach-wep18-bulldogheavyrevolver",
+            "name": "Overclock: Heavy Revolver",
+            "description": "Reach level 18 with the 'Bulldog' Heavy Revolver",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "ach-wep18-incendiarygrenade",
+            "name": "Overclock: Incendiary Grenade",
+            "description": "Reach level 18 with the Incendiary Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "ach-wep18-leadstormpoweredminigun",
+            "name": "Overclock: Powered Minigun",
+            "description": "Reach level 18 with the 'Lead Storm' Powered Minigun",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "ach-wep18-brt7burstfiregun",
+            "name": "Overclock: Burst Fire Gun",
+            "description": "Reach level 18 with the BRT7 Burst Fire Gun",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "ach-wep18-tacticalleadburster",
+            "name": "Overclock: Tactical Leadburster",
+            "description": "Reach level 18 with the Tactical Leadburster",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "ach-wep18-thunderheadheavyautocannon",
+            "name": "Overclock: Heavy Autocannon",
+            "description": "Reach level 18 with the 'Thunderhead' Heavy Autocannon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "ach-wep18-fireflyhunterdrone",
+            "name": "Overclock: Firefly Hunter Drone",
+            "description": "Reach level 18 with the Firefly Hunter Drone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "ach-wep18-hurricanguidedrocketsystem",
+            "name": "Overclock: Hurricane",
+            "description": "Reach level 18 with the 'Hurricane' Guided Rocket System",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "ach-wep18-seismicrepulsor",
+            "name": "Overclock: Seismic Repulsor",
+            "description": "Reach level 18 with the Seismic Repulsor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "ach-wep18-armskorecoilgun",
+            "name": "Overclock: Coil Gun",
+            "description": "Reach level 18 with the ArmsKore Coil Gun",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "ach-wep18-warthogauto210",
+            "name": "Overclock: Warthog Auto",
+            "description": "Reach level 18 with the 'Warthog' Auto 210",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "ach-wep18-stubbyvoltaicsmg",
+            "name": "Overclock: Voltaic SMG",
+            "description": "Reach level 18 with the 'Stubby' Voltaic SMG",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "ach-wep18-hivoltthunderbird",
+            "name": "Overclock: Hi-Volt Thunderbird",
+            "description": "Reach level 18 with the Hi-Volt Thunderbird",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "ach-wep18-lmggunplatform",
+            "name": "Overclock: LMG Gun Platform",
+            "description": "Reach level 18 with the LMG Gun Platform",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "ach-wep18-voltaicshockfence",
+            "name": "Overclock: Voltaic Shock Fence",
+            "description": "Reach level 18 with the Voltaic Shock Fence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "ach-wep18-lok1smartrifle",
+            "name": "Overclock: LOK-1 Smart Rifle",
+            "description": "Reach level 18 with the LOK-1 Smart Rifle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "ach-wep18-deepcorepgl",
+            "name": "Overclock: DeepCore PGL",
+            "description": "Reach level 18 with the DeepCore PGL",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "ach-wep18-breachcutter",
+            "name": "Overclock: Breach Cutter",
+            "description": "Reach level 18 with the Breach Cutter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "ach-wep18-sharddiffractor",
+            "name": "Overclock: Shard Diffractor",
+            "description": "Reach level 18 with the Shard Diffractor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "ach-wep18-plasmaburster",
+            "name": "Overclock: Plasma Burster",
+            "description": "Reach level 18 with the Plasma Burster",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "ach-wep18-shredderswarmgrenade",
+            "name": "Overclock: Swarm Grenade",
+            "description": "Reach level 18 with the Shredder Swarm Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "ach-wep18-subata120",
+            "name": "Overclock: Subata 120",
+            "description": "Reach level 18 with the Subata 120",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "ach-wep18-krakatoasentinel",
+            "name": "Overclock: Krakatoa Sentinel",
+            "description": "Reach level 18 with the Krakatoa Sentinel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "ach-wep18-highexplosivegrenade",
+            "name": "Overclock: HE Grenade",
+            "description": "Reach level 18 with the High Explosive Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "ach-wep18-crsprflamethrower",
+            "name": "Overclock: CRSPR Flamethrower",
+            "description": "Reach level 18 with the CRSPR Flamethrower",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "ach-wep18-corrosivesludgepump",
+            "name": "Overclock: Sludge Pump",
+            "description": "Reach level 18 with the Corrosive Sludge Pump",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "ach-wep18-colettewavecooker",
+            "name": "Overclock: Wave Cooker",
+            "description": "Reach level 18 with the Colette Wave Cooker ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "ach-wep18-impactaxe",
+            "name": "Overclock: Impact Axe",
+            "description": "Reach level 18 with the Impact Axe ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "ach-wep18-neurotoxingrenade",
+            "name": "Overclock: Neurotoxin Grenade",
+            "description": "Reach level 18 with the Neurotoxin Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "ach-wep18-cryocannon",
+            "name": "Overclock: Cryo Cannon",
+            "description": "Reach level 18 with the Cryo Cannon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "ach-wep18-k1pviperdrone",
+            "name": "Overclock: K1-P Viper Drone",
+            "description": "Reach level 18 with the K1-P Viper Drone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "ach-wep18-experimentalplasmacharger",
+            "name": "Overclock: Plasma Charger",
+            "description": "Reach level 18 with the Experimental Plasma Charger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "ach-wepmaster-deepcoregk2",
+            "name": "Mastery: DeepCore GK2",
+            "description": "Complete a DeepCore GK2 weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "ach-wepmaster-zhukovnuk17",
+            "name": "Mastery: Zhukov NUK17",
+            "description": "Complete a Zhukov NUK17 weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "ach-wepmaster-cryogrenade",
+            "name": "Mastery: Cryo Grenade",
+            "description": "Complete a Cryo Grenade weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "ach-wepmaster-juryriggedboomstick",
+            "name": "Mastery: Jury-Rigged Boomstick",
+            "description": "Complete a Jury-Rigged Boomstick weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "ach-wepmaster-m1000",
+            "name": "Mastery: M1000",
+            "description": "Complete a M1000 weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "ach-wepmaster-voltaicstunsweeper",
+            "name": "Mastery: Stun Sweeper",
+            "description": "Complete a Voltaic Stun Sweeper weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "ach-wepmaster-th0rbugtaser",
+            "name": "Mastery: TH-0R Bug Taser",
+            "description": "Complete a TH-0R Bug Taser weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "ach-wepmaster-arctekcryoguard",
+            "name": "Mastery: Cryo Guard",
+            "description": "Complete an Arc-Tek Cryo Guard weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "ach-wepmaster-drak25plasmacarbine",
+            "name": "Mastery: Plasma Carbine",
+            "description": "Complete a DRAK-25 Plasma Carbine weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "ach-wepmaster-nishankaboltshark",
+            "name": "Mastery: Nishanka Boltshark",
+            "description": "Complete a Nishanka Boltshark weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 94,
+            "apiname": "ach-wepmaster-bulldogheavyrevolver",
+            "name": "Mastery: Heavy Revolver",
+            "description": "Complete a 'Bulldog' Heavy Revolver weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "ach-wepmaster-incendiarygrenade",
+            "name": "Mastery: Incendiary Grenade",
+            "description": "Complete an Incendiary Grenade weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "ach-wepmaster-leadstormpoweredminigun",
+            "name": "Mastery: Powered Minigun",
+            "description": "Complete a 'Lead Storm' Powered Minigun weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "ach-wepmaster-brt7burstfiregun",
+            "name": "Mastery: Burst Fire Gun",
+            "description": "Complete a BRT7 Burst Fire Gun weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "ach-wepmaster-tacticalleadburster",
+            "name": "Mastery: Tactical Leadburster",
+            "description": "Complete a Tactical Leadburster weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "ach-wepmaster-thunderheadheavyautocannon",
+            "name": "Mastery: Heavy Autocannon",
+            "description": "Complete a 'Thunderhead' Heavy Autocannon weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 100,
+            "apiname": "ach-wepmaster-fireflyhunterdrone",
+            "name": "Mastery: Firefly Hunter Drone",
+            "description": "Complete a Firefly Hunter Drone weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 101,
+            "apiname": "ach-wepmaster-hurricanguidedrocketsystem",
+            "name": "Mastery: Hurricane",
+            "description": "Complete a 'Hurricane' Guided Rocket System weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 102,
+            "apiname": "ach-wepmaster-seismicrepulsor",
+            "name": "Mastery: Seismic Repulsor",
+            "description": "Complete a Seismic Repulsor weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 103,
+            "apiname": "ach-wepmaster-armskorecoilgun",
+            "name": "Mastery: Coil Gun",
+            "description": "Complete an ArmsKore Coil Gun weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 104,
+            "apiname": "ach-wepmaster-warthogauto210",
+            "name": "Mastery: Warthog Auto",
+            "description": "Complete a 'Warthog' Auto 210 weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 105,
+            "apiname": "ach-wepmaster-stubbyvoltaicsmg",
+            "name": "Mastery: Voltaic SMG",
+            "description": "Complete a 'Stubby' Voltaic SMG weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 106,
+            "apiname": "ach-wepmaster-hivoltthunderbird",
+            "name": "Mastery: Hi-Volt Thunderbird",
+            "description": "Complete a Hi-Volt Thunderbird weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 107,
+            "apiname": "ach-wepmaster-lmggunplatform",
+            "name": "Mastery: LMG Gun Platform",
+            "description": "Complete an LMG Gun Platform weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 108,
+            "apiname": "ach-wepmaster-voltaicshockfence",
+            "name": "Mastery: Voltaic Shock Fence",
+            "description": "Complete a Voltaic Shock Fence weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 109,
+            "apiname": "ach-wepmaster-lok1smartrifle",
+            "name": "Mastery: LOK-1 Smart Rifle",
+            "description": "Complete a LOK-1 Smart Rifle weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 110,
+            "apiname": "ach-wepmaster-deepcorepgl",
+            "name": "Mastery: DeepCore PGL",
+            "description": "Complete a DeepCore PGL weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 111,
+            "apiname": "ach-wepmaster-breachcutter",
+            "name": "Mastery: Breach Cutter",
+            "description": "Complete a Breach Cutter weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 112,
+            "apiname": "ach-wepmaster-sharddiffractor",
+            "name": "Mastery: Shard Diffractor",
+            "description": "Complete a Shard Diffractor weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 113,
+            "apiname": "ach-wepmaster-plasmaburster",
+            "name": "Mastery: Plasma Burster",
+            "description": "Complete a Plasma Burster weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 114,
+            "apiname": "ach-wepmaster-shredderswarmgrenade",
+            "name": "Mastery: Swarm Grenade",
+            "description": "Complete a Shredder Swarm Grenade weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 115,
+            "apiname": "ach-wepmaster-subata120",
+            "name": "Mastery: Subata 120",
+            "description": "Complete a Subata 120 weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 116,
+            "apiname": "ach-wepmaster-krakatoasentinel",
+            "name": "Mastery: Krakatoa Sentinel",
+            "description": "Complete a Krakatoa Sentinel weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 117,
+            "apiname": "ach-wepmaster-highexplosivegrenade",
+            "name": "Mastery: HE Grenade",
+            "description": "Complete a High Explosive Grenade weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 118,
+            "apiname": "ach-wepmaster-crsprflamethrower",
+            "name": "Mastery: CRSPR Flamethrower",
+            "description": "Complete a CRSPR Flamethrower weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 119,
+            "apiname": "ach-wepmaster-corrosivesludgepump",
+            "name": "Mastery: Sludge Pump",
+            "description": "Complete a Corrosive Sludge Pump weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 120,
+            "apiname": "ach-wepmaster-colettewavecooker",
+            "name": "Mastery: Wave Cooker",
+            "description": "Complete a Colette Wave Cooker weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 121,
+            "apiname": "ach-wepmaster-impactaxe",
+            "name": "Mastery: Impact Axe",
+            "description": "Complete a Impact Axe weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 122,
+            "apiname": "ach-wepmaster-neurotoxingrenade",
+            "name": "Mastery: Neurotoxin Grenade",
+            "description": "Complete a Neurotoxin Grenade weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 123,
+            "apiname": "ach-wepmaster-cryocannon",
+            "name": "Mastery: Cryo Cannon",
+            "description": "Complete a Cryo Cannon weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 124,
+            "apiname": "ach-wepmaster-k1pviperdrone",
+            "name": "Mastery: K1-P Viper Drone",
+            "description": "Complete a K1-P Viper Drone weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 125,
+            "apiname": "ach-wepmaster-experimentalplasmacharger",
+            "name": "Mastery: Plasma Charger",
+            "description": "Complete an Experimental Plasma Charger weapon mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 126,
+            "apiname": "ach-wepmaster5-deepcoregk2",
+            "name": "True Mastery: DeepCore GK2",
+            "description": "Complete a DeepCore GK2 weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 127,
+            "apiname": "ach-wepmaster5-zhukovnuk17",
+            "name": "True Mastery: Zhukov NUK17",
+            "description": "Complete a Zhukov NUK17 weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 128,
+            "apiname": "ach-wepmaster5-cryogrenade",
+            "name": "True Mastery: Cryo Grenade",
+            "description": "Complete a Cryo Grenade weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 129,
+            "apiname": "ach-wepmaster5-juryriggedboomstick",
+            "name": "True Mastery: Jury-Rigged Boomstick",
+            "description": "Complete a Jury-Rigged Boomstick weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 130,
+            "apiname": "ach-wepmaster5-m1000",
+            "name": "True Mastery: M1000",
+            "description": "Complete a M1000 weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 131,
+            "apiname": "ach-wepmaster5-voltaicstunsweeper",
+            "name": "True Mastery: Stun Sweeper",
+            "description": "Complete a Voltaic Stun Sweeper weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 132,
+            "apiname": "ach-wepmaster5-th0rbugtaser",
+            "name": "True Mastery: TH-0R Bug Taser",
+            "description": "Complete a TH-0R Bug Taser weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "ach-wepmaster5-arctekcryoguard",
+            "name": "True Mastery: Cryo Guard",
+            "description": "Complete an Arc-Tek Cryo Guard weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 134,
+            "apiname": "ach-wepmaster5-drak25plasmacarbine",
+            "name": "True Mastery: Plasma Carbine",
+            "description": "Complete a DRAK-25 Plasma Carbine weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 135,
+            "apiname": "ach-wepmaster5-nishankaboltshark",
+            "name": "True Mastery: Nishanka Boltshark",
+            "description": "Complete a Nishanka Boltshark weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 136,
+            "apiname": "ach-wepmaster5-bulldogheavyrevolver",
+            "name": "True Mastery: Heavy Revolver",
+            "description": "Complete a 'Bulldog' Heavy Revolver weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "ach-wepmaster5-incendiarygrenade",
+            "name": "True Mastery: Incendiary Grenade",
+            "description": "Complete an Incendiary Grenade weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 138,
+            "apiname": "ach-wepmaster5-leadstormpoweredminigun",
+            "name": "True Mastery: Powered Minigun",
+            "description": "Complete a 'Lead Storm' Powered Minigun weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 139,
+            "apiname": "ach-wepmaster5-brt7burstfiregun",
+            "name": "True Mastery: Burst Fire Gun",
+            "description": "Complete a BRT7 Burst Fire Gun weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 140,
+            "apiname": "ach-wepmaster5-tacticalleadburster",
+            "name": "True Mastery: Tactical Leadburster",
+            "description": "Complete a Tactical Leadburster weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 141,
+            "apiname": "ach-wepmaster5-thunderheadheavyautocannon",
+            "name": "True Mastery: Heavy Autocannon",
+            "description": "Complete a 'Thunderhead' Heavy Autocannon weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 142,
+            "apiname": "ach-wepmaster5-fireflyhunterdrone",
+            "name": "True Mastery: Firefly Hunter Drone",
+            "description": "Complete a Firefly Hunter Drone weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 143,
+            "apiname": "ach-wepmaster5-hurricanguidedrocketsystem",
+            "name": "True Mastery: Hurricane",
+            "description": "Complete a 'Hurricane' Guided Rocket System weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 144,
+            "apiname": "ach-wepmaster5-seismicrepulsor",
+            "name": "True Mastery: Seismic Repulsor",
+            "description": "Complete a Seismic Repulsor weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 145,
+            "apiname": "ach-wepmaster5-armskorecoilgun",
+            "name": "True Mastery: Coil Gun",
+            "description": "Complete an ArmsKore Coil Gun weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 146,
+            "apiname": "ach-wepmaster5-warthogauto210",
+            "name": "True Mastery: Warthog Auto",
+            "description": "Complete a 'Warthog' Auto 210 weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 147,
+            "apiname": "ach-wepmaster5-stubbyvoltaicsmg",
+            "name": "True Mastery: Voltaic SMG",
+            "description": "Complete a 'Stubby' Voltaic SMG weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 148,
+            "apiname": "ach-wepmaster5-hivoltthunderbird",
+            "name": "True Mastery: Hi-Volt Thunderbird",
+            "description": "Complete a Hi-Volt Thunderbird weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 149,
+            "apiname": "ach-wepmaster5-lmggunplatform",
+            "name": "True Mastery: LMG Gun Platform",
+            "description": "Complete an LMG Gun Platform weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 150,
+            "apiname": "ach-wepmaster5-voltaicshockfence",
+            "name": "True Mastery: Voltaic Shock Fence",
+            "description": "Complete a Voltaic Shock Fence weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 151,
+            "apiname": "ach-wepmaster5-lok1smartrifle",
+            "name": "True Mastery: LOK-1 Smart Rifle",
+            "description": "Complete a LOK-1 Smart Rifle weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 152,
+            "apiname": "ach-wepmaster5-deepcorepgl",
+            "name": "True Mastery: DeepCore PGL",
+            "description": "Complete a DeepCore PGL weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 153,
+            "apiname": "ach-wepmaster5-breachcutter",
+            "name": "True Mastery: Breach Cutter",
+            "description": "Complete a Breach Cutter weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 154,
+            "apiname": "ach-wepmaster5-sharddiffractor",
+            "name": "True Mastery: Shard Diffractor",
+            "description": "Complete a Shard Diffractor weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 155,
+            "apiname": "ach-wepmaster5-plasmaburster",
+            "name": "True Mastery: Plasma Burster",
+            "description": "Complete a Plasma Burster weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 156,
+            "apiname": "ach-wepmaster5-shredderswarmgrenade",
+            "name": "True Mastery: Swarm Grenade",
+            "description": "Complete a Shredder Swarm Grenade weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 157,
+            "apiname": "ach-wepmaster5-subata120",
+            "name": "True Mastery: Subata 120",
+            "description": "Complete a Subata 120 weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 158,
+            "apiname": "ach-wepmaster5-krakatoasentinel",
+            "name": "True Mastery: Krakatoa Sentinel",
+            "description": "Complete a Krakatoa Sentinel weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 159,
+            "apiname": "ach-wepmaster5-highexplosivegrenade",
+            "name": "True Mastery: HE Grenade",
+            "description": "Complete a High Explosive Grenade weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 160,
+            "apiname": "ach-wepmaster5-crsprflamethrower",
+            "name": "True Mastery: CRSPR Flamethrower",
+            "description": "Complete a CRSPR Flamethrower weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 161,
+            "apiname": "ach-wepmaster5-corrosivesludgepump",
+            "name": "True Mastery: Sludge Pump",
+            "description": "Complete a Corrosive Sludge Pump weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 162,
+            "apiname": "ach-wepmaster5-colettewavecooker",
+            "name": "True Mastery: Wave Cooker",
+            "description": "Complete a Colette Wave Cooker weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 163,
+            "apiname": "ach-wepmaster5-impactaxe",
+            "name": "True Mastery: Impact Axe",
+            "description": "Complete a Impact Axe weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 164,
+            "apiname": "ach-wepmaster5-neurotoxingrenade",
+            "name": "True Mastery: Neurotoxin Grenade",
+            "description": "Complete a Neurotoxin Grenade weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 165,
+            "apiname": "ach-wepmaster5-cryocannon",
+            "name": "True Mastery: Cryo Cannon",
+            "description": "Complete a Cryo Cannon weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 166,
+            "apiname": "ach-wepmaster5-k1pviperdrone",
+            "name": "True Mastery: K1-P Viper Drone",
+            "description": "Complete a K1-P Viper Drone weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 167,
+            "apiname": "ach-wepmaster5-experimentalplasmacharger",
+            "name": "True Mastery: Plasma Charger",
+            "description": "Complete an Experimental Plasma Charger weapon mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 168,
+            "apiname": "ach-biomemaster-crystallinecaverns",
+            "name": "Mastery: Crystalline Caverns",
+            "description": "Complete a Crystalline Caverns mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 169,
+            "apiname": "ach-biomemaster-magmacore",
+            "name": "Mastery: Magma Core",
+            "description": "Complete a Magma Core mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 170,
+            "apiname": "ach-biomemaster-hollowbough",
+            "name": "Mastery: Hollow Bough",
+            "description": "Complete a Hollow Bough mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 171,
+            "apiname": "ach-biomemaster-saltpits",
+            "name": "Mastery: Salt Pits",
+            "description": "Complete a Salt Pits mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 172,
+            "apiname": "ach-biomemaster-azureweald",
+            "name": "Mastery: Azure Weald",
+            "description": "Complete an Azure Weald mastery dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 173,
+            "apiname": "ach-biomemaster5-crystallinecaverns",
+            "name": "True Mastery: Crystalline Caverns",
+            "description": "Complete a Crystalline Caverns mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 174,
+            "apiname": "ach-biomemaster5-magmacore",
+            "name": "True Mastery: Magma Core",
+            "description": "Complete a Magma Core mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 175,
+            "apiname": "ach-biomemaster5-hollowbough",
+            "name": "True Mastery: Hollow Bough",
+            "description": "Complete a Hollow Bough mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 176,
+            "apiname": "ach-biomemaster5-saltpits",
+            "name": "True Mastery: Salt Pits",
+            "description": "Complete a Salt Pits mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 177,
+            "apiname": "ach-biomemaster5-azureweald",
+            "name": "True Mastery: Azure Weald",
+            "description": "Complete an Azure Weald mastery dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 178,
+            "apiname": "ach-tagcollect-acid",
+            "name": "Feeling a bit sour",
+            "description": "Complete a dive with 3 [ACID] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 179,
+            "apiname": "ach-tagcollect-area",
+            "name": "Zone of control",
+            "description": "Complete a dive with 3 [AREA] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 180,
+            "apiname": "ach-tagcollect-beam",
+            "name": "Cross the beams",
+            "description": "Complete a dive with 4 [BEAM] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 181,
+            "apiname": "ach-tagcollect-construct",
+            "name": "Dwarven architecture",
+            "description": "Complete a dive with 4 [CONSTRUCT] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 182,
+            "apiname": "ach-tagcollect-cold",
+            "name": "Deep freeze",
+            "description": "Complete a dive with 4 [COLD] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 183,
+            "apiname": "ach-tagcollect-drone",
+            "name": "Modern warfare",
+            "description": "Complete a dive with 3 [DRONE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 184,
+            "apiname": "ach-tagcollect-electrical",
+            "name": "Stormbringer",
+            "description": "Complete a dive with 4 [ELECTRICAL] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 185,
+            "apiname": "ach-tagcollect-explosive",
+            "name": "Bomberman",
+            "description": "Complete a dive with 4 [EXPLOSIVE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 186,
+            "apiname": "ach-tagcollect-fire",
+            "name": "Keeper of the flame",
+            "description": "Complete a dive with 4 [FIRE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 187,
+            "apiname": "ach-tagcollect-heavy",
+            "name": "Who touched my gun!?",
+            "description": "Complete a dive with 4 [HEAVY] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 188,
+            "apiname": "ach-tagcollect-kinetic",
+            "name": "Blunt force trauma",
+            "description": "Complete a dive with 4 [KINETIC] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 189,
+            "apiname": "ach-tagcollect-lasting",
+            "name": "Delayed gratification",
+            "description": "Complete a dive with 4 [LASTING] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 190,
+            "apiname": "ach-tagcollect-light",
+            "name": "Fleet of foot",
+            "description": "Complete a dive with 4 [LIGHT] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 191,
+            "apiname": "ach-tagcollect-medium",
+            "name": "Tried and tested",
+            "description": "Complete a dive with 4 [MEDIUM] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 192,
+            "apiname": "ach-tagcollect-plasma",
+            "name": "Light show",
+            "description": "Complete a dive with 4 [PLASMA] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 193,
+            "apiname": "ach-tagcollect-precise",
+            "name": "Professionals have standards",
+            "description": "Complete a dive with 4 [PRECISE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 194,
+            "apiname": "ach-tagcollect-projectile",
+            "name": "Weight of fire",
+            "description": "Complete a dive with 4 [PROJECTILE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 195,
+            "apiname": "ach-tagcollect-spray",
+            "name": "Spray 'n pray",
+            "description": "Complete a dive with 4 [SPRAY] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 196,
+            "apiname": "ach-tagcollect-throwable",
+            "name": "It's all in the wrist",
+            "description": "Complete a dive with 4 [THROWABLE] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 197,
+            "apiname": "ach-tagcollect-turret",
+            "name": "Sentry goin' up",
+            "description": "Complete a dive with 4 [TURRET] weapons equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 198,
+            "apiname": "ach-subclasswin-classic",
+            "name": "The journey begins",
+            "description": "Complete a dive with the Classic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 199,
+            "apiname": "ach-subclasswin-sharpshooter",
+            "name": "Measure twice, shoot once",
+            "description": "Complete a dive with the Sharpshooter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 200,
+            "apiname": "ach-subclasswin-recon",
+            "name": "Adventure awaits",
+            "description": "Complete a dive with the Recon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 201,
+            "apiname": "ach-subclasswin-weaponsspecialist",
+            "name": "10,000 rounds per minute",
+            "description": "Complete a dive with the Weapons Specialist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 202,
+            "apiname": "ach-subclasswin-juggernaut",
+            "name": "Tough as nails",
+            "description": "Complete a dive with the Juggernaut",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 203,
+            "apiname": "ach-subclasswin-heavygunner",
+            "name": "Ka-boom!",
+            "description": "Complete a dive with the Heavy Gunner",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 204,
+            "apiname": "ach-subclasswin-maintenanceworker",
+            "name": "I solve problems",
+            "description": "Complete a dive with the Maintenance Worker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 205,
+            "apiname": "ach-subclasswin-tinkerer",
+            "name": "Brainstorming",
+            "description": "Complete a dive with the Tinkerer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 206,
+            "apiname": "ach-subclasswin-demolitionist",
+            "name": "A whiff of brimstone",
+            "description": "Complete a dive with the Demolitionist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 207,
+            "apiname": "ach-subclasswin-foreman",
+            "name": "Diggy diggy hole",
+            "description": "Complete a dive with the Foreman",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 208,
+            "apiname": "ach-subclasswin-interrogator",
+            "name": "Chemical burns",
+            "description": "Complete a dive with the Interrogator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 209,
+            "apiname": "ach-subclasswin-strongarmed",
+            "name": "And my axe",
+            "description": "Complete a dive with the Strong Armed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 210,
+            "apiname": "ach-subclasswinspecial-classic",
+            "name": "Grow fat from strength",
+            "description": "Have 1000 max HP as the Classic Scout",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 211,
+            "apiname": "ach-subclasswinspecial-sharpshooter",
+            "name": "BOOM! Headshot",
+            "description": "Have +250% Crit Chance with the Sharpshooter in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 212,
+            "apiname": "ach-subclasswinspecial-recon",
+            "name": "You're locked in here with me",
+            "description": "Survive in 1 stage for 10 minutes as the Recon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 213,
+            "apiname": "ach-subclasswinspecial-weaponsspecialist",
+            "name": "Lord of war",
+            "description": "Fire 250,000 bullets as the Weapons Specialist in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 214,
+            "apiname": "ach-subclasswinspecial-juggernaut",
+            "name": "Know no fear",
+            "description": "Have 300 armor as the Juggernaut",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 215,
+            "apiname": "ach-subclasswinspecial-heavygunner",
+            "name": "Walk without rhythm",
+            "description": "Deploy 30 seismic repulsor turrets at the same time with the Heavy Gunner",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 216,
+            "apiname": "ach-subclasswinspecial-maintenanceworker",
+            "name": "Unreasonable uptime",
+            "description": "Have a 30 second lifetime on one weapon with the Maintenance Worker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 217,
+            "apiname": "ach-subclasswinspecial-tinkerer",
+            "name": "Fully overclocked",
+            "description": "Get 4 weapons to level 21 as the Tinkerer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 218,
+            "apiname": "ach-subclasswinspecial-demolitionist",
+            "name": "Going nuclear",
+            "description": "Have +250% explosion radius as the Demolitionist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 219,
+            "apiname": "ach-subclasswinspecial-foreman",
+            "name": "With fire and blood",
+            "description": "Deal 10,000,000 fire damage as the Foreman in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 220,
+            "apiname": "ach-subclasswinspecial-interrogator",
+            "name": "Elemental avatar",
+            "description": "Apply 5,000,000 status effect stacks as the Interrogator in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 221,
+            "apiname": "ach-subclasswinspecial-strongarmed",
+            "name": "Fastest hands on the rig",
+            "description": "Have +500% reload speed as the Strong Armed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 222,
+            "apiname": "ach-endurance-dives-1",
+            "name": "Endurance: Dives I",
+            "description": "Complete 5 dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 223,
+            "apiname": "ach-endurance-dives-2",
+            "name": "Endurance: Dives II",
+            "description": "Complete 25 dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 224,
+            "apiname": "ach-endurance-dives-3",
+            "name": "Endurance: Dives III",
+            "description": "Complete 50 dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 225,
+            "apiname": "ach-endurance-dives-4",
+            "name": "Endurance: Dives IV",
+            "description": "Complete 75 dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 226,
+            "apiname": "ach-endurance-dives-5",
+            "name": "Endurance: Dives V",
+            "description": "Complete 100 dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 227,
+            "apiname": "ach-endurance-kills-1",
+            "name": "Endurance: Kills I",
+            "description": "Kill 50,000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 228,
+            "apiname": "ach-endurance-kills-2",
+            "name": "Endurance: Kills II",
+            "description": "Kill 100,000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 229,
+            "apiname": "ach-endurance-kills-3",
+            "name": "Endurance: Kills III",
+            "description": "Kill 250,000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 230,
+            "apiname": "ach-endurance-kills-4",
+            "name": "Endurance: Kills IV",
+            "description": "Kill 500,000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 231,
+            "apiname": "ach-endurance-kills-5",
+            "name": "Endurance: Kills V",
+            "description": "Kill 1,000,000 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 232,
+            "apiname": "ach-endurance-damage-1",
+            "name": "Endurance: Damage I",
+            "description": "Deal 100,000,000 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 233,
+            "apiname": "ach-endurance-damage-2",
+            "name": "Endurance: Damage II",
+            "description": "Deal 250,000,000 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 234,
+            "apiname": "ach-endurance-damage-3",
+            "name": "Endurance: Damage III",
+            "description": "Deal 500,000,000 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 235,
+            "apiname": "ach-endurance-damage-4",
+            "name": "Endurance: Damage IV",
+            "description": "Deal 1,000,000,000 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 236,
+            "apiname": "ach-endurance-damage-5",
+            "name": "Endurance: Damage V",
+            "description": "Deal 2,000,000,000 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 237,
+            "apiname": "ach-endurance-mine-1",
+            "name": "Endurance: Mine I",
+            "description": "Mine 15,000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 238,
+            "apiname": "ach-endurance-mine-2",
+            "name": "Endurance: Mine II",
+            "description": "Mine 50,000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 239,
+            "apiname": "ach-endurance-mine-3",
+            "name": "Endurance: Mine III",
+            "description": "Mine 100,000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 240,
+            "apiname": "ach-endurance-mine-4",
+            "name": "Endurance: Mine IV",
+            "description": "Mine 150,000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 241,
+            "apiname": "ach-endurance-mine-5",
+            "name": "Endurance: Mine V",
+            "description": "Mine 250,000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 242,
+            "apiname": "ach-endurance-walk-1",
+            "name": "Endurance: Run I",
+            "description": "Run 10,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 243,
+            "apiname": "ach-endurance-walk-2",
+            "name": "Endurance: Run II",
+            "description": "Run 50,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 244,
+            "apiname": "ach-endurance-walk-3",
+            "name": "Endurance: Run III",
+            "description": "Run 100,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 245,
+            "apiname": "ach-endurance-walk-4",
+            "name": "Endurance: Run IV",
+            "description": "Run 250,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 246,
+            "apiname": "ach-endurance-walk-5",
+            "name": "Endurance: Run V",
+            "description": "Run 500,000 steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 247,
+            "apiname": "ach-gear-haz5none",
+            "name": "Just like the old days",
+            "description": "Complete a Hazard 5 dive without any gear equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 248,
+            "apiname": "ach-gear-haz4none",
+            "name": "Mind over matter",
+            "description": "Complete a Hazard 4 dive without any gear equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 249,
+            "apiname": "ach-gear-equiplegendary",
+            "name": "Legendary!",
+            "description": "Equip a legendary item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 250,
+            "apiname": "ach-gear-equipepic",
+            "name": "Truly epic",
+            "description": "Equip an epic item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 251,
+            "apiname": "ach-gear-6legendary",
+            "name": "Fabled fittings",
+            "description": "Have 6 legendary items equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 252,
+            "apiname": "ach-gear-6epic",
+            "name": "Expertly tuned",
+            "description": "Have 6 epic items equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 253,
+            "apiname": "ach-gear-6rare",
+            "name": "Professional setup",
+            "description": "Have 6 rare items equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 254,
+            "apiname": "ach-gear-6uncommon",
+            "name": "Custom rig",
+            "description": "Have 6 uncommon items equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 255,
+            "apiname": "ach-gear-fullupgrade",
+            "name": "We're keeping this one",
+            "description": "Fully upgrade a piece of gear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 256,
+            "apiname": "ach-gear-fullupgradelegendary",
+            "name": "Master artificer",
+            "description": "Fully upgrade a legendary piece of gear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 257,
+            "apiname": "ach-gear-fullupgradelegendary6",
+            "name": "Karl, is that you?",
+            "description": "Have 6 fully upgraded legendary pieces of gear equipped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 258,
+            "apiname": "ach-anom-winhaz1",
+            "name": "Anomaly: Hazard 1",
+            "description": "Complete an anomaly dive at Hazard 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 259,
+            "apiname": "ach-anom-winhaz2",
+            "name": "Anomaly: Hazard 2",
+            "description": "Complete an anomaly dive at Hazard 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 260,
+            "apiname": "ach-anom-winhaz3",
+            "name": "Anomaly: Hazard 3",
+            "description": "Complete an anomaly dive at Hazard 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 261,
+            "apiname": "ach-anom-winhaz4",
+            "name": "Anomaly: Hazard 4",
+            "description": "Complete an anomaly dive at Hazard 4",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 262,
+            "apiname": "ach-anom-winhaz5",
+            "name": "Anomaly: Hazard 5",
+            "description": "Complete an anomaly dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 263,
+            "apiname": "ach-vang-winhaz3",
+            "name": "Vanguard: Hazard 3",
+            "description": "Complete a vanguard contract dive at Hazard 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 264,
+            "apiname": "ach-vang-winhaz4",
+            "name": "Vanguard: Hazard 4",
+            "description": "Complete a vanguard contract dive at Hazard 4",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 265,
+            "apiname": "ach-vang-winhaz5",
+            "name": "Vanguard: Hazard 5",
+            "description": "Complete a vanguard contract dive at Hazard 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 266,
+            "apiname": "ach-lethal-win1",
+            "name": "Employee of the Week",
+            "description": "Complete a lethal operation dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 267,
+            "apiname": "ach-lethal-win5",
+            "name": "Employee of the Month",
+            "description": "Complete 5 lethal operation dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 268,
+            "apiname": "ach-lethal-win10",
+            "name": "Employee of the Year",
+            "description": "Complete 10 lethal operation dives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 269,
+            "apiname": "ach-funky-noartifacts",
+            "name": "They belong in a museum",
+            "description": "Complete a dive without any artifacts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 270,
+            "apiname": "ach-funky-nobuys",
+            "name": "I ain't buying it",
+            "description": "Complete a dive without buying anything in the shop at Hazard 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 271,
+            "apiname": "ach-funky-50rerolls",
+            "name": "Extreme indecision",
+            "description": "Perform 50 rerolls during a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 272,
+            "apiname": "ach-funky-nooverclocks",
+            "name": "Underclocked",
+            "description": "Complete a dive without any overclocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 273,
+            "apiname": "ach-comm-goldenlootbug",
+            "name": "The dwarf with the golden bug",
+            "description": "Kill a golden lootbug",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 274,
+            "apiname": "ach-comm-dreadnodamage",
+            "name": "Still only counts as one!",
+            "description": "Kill the Dreadnought without taking any damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 275,
+            "apiname": "ach-comm-dreadtwinsnoheal",
+            "name": "Denied",
+            "description": "Kill the Dreadnought Twins before they can heal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 276,
+            "apiname": "ach-comm-shellbacksupplypod",
+            "name": "Bullseye",
+            "description": "Kill a Q'ronar Shellback with the Supply Pod",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 277,
+            "apiname": "ach-comm-killalllootbugs",
+            "name": "This hurts me more",
+            "description": "Kill all the lootbugs in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 278,
+            "apiname": "ach-comm-perfectrun",
+            "name": "Perfect run",
+            "description": "Complete a dive without taking any damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 279,
+            "apiname": "ach-comm-nospending",
+            "name": "Cheapskate",
+            "description": "Complete a dive without spending any gold or nitra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 280,
+            "apiname": "ach-comm-allwepslvl1",
+            "name": "Underpromise, overdeliver",
+            "description": "Complete a dive with all of your weapons at level 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 281,
+            "apiname": "ach-comm-eyeofthestorm",
+            "name": "Eye of the storm",
+            "description": "Complete a dive with unstable overclocks on both the NUK17 and the BRT7",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 282,
+            "apiname": "ach-comm-lootbugroadkill",
+            "name": "Roadkill",
+            "description": "Drill through a lootbug with B0b-33",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 283,
+            "apiname": "ach-comm-maxmeta",
+            "name": "Fully armed and operational",
+            "description": "Purchase every single meta upgrade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 284,
+            "apiname": "ach-comm-30secondsleft",
+            "name": "Early access",
+            "description": "Enter the drop pod with more than 30 seconds remaining",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 285,
+            "apiname": "ach-comm-salvage10",
+            "name": "Salvage operation",
+            "description": "Salvage 10 overclocks in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 286,
+            "apiname": "ach-comm-bounce10",
+            "name": "They fly now?",
+            "description": "Bounce 100 times in one stage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 287,
+            "apiname": "ach-comm-tanktracks",
+            "name": "They see 'em rollin', they hatin'",
+            "description": "Have 3 'Tank Tracks' overclocks in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 288,
+            "apiname": "ach-comm-50turrets",
+            "name": "Tower defense",
+            "description": "Have 50 turrets alive at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 289,
+            "apiname": "ach-comm-allwepssamelvl",
+            "name": "Perfectly balanced",
+            "description": "Complete a dive with 4 (or more) of your weapons at the same level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 290,
+            "apiname": "ach-comm-5scanners",
+            "name": "Deep scan",
+            "description": "Have 5 scanner artifacts in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 291,
+            "apiname": "ach-comm-4sidearms",
+            "name": "All sides",
+            "description": "Have 3 'Sidearm' overclocks in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 292,
+            "apiname": "ach-comm-fullheal",
+            "name": "Back from the brink!",
+            "description": "Reach max HP after having dropped below 5 HP",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 293,
+            "apiname": "ach-comm-lvl25classes",
+            "name": "Survivor squad",
+            "description": "Reach level 30 with all 4 classes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 294,
+            "apiname": "ach-comm-2favourites",
+            "name": "This is brilliant, but I like this",
+            "description": "Have 2 'The Favourite' overlocks in a single dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 295,
+            "apiname": "ach-comm-fuelb0b33",
+            "name": "Fill 'er up",
+            "description": "Fully fuel B0b-33",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 296,
+            "apiname": "ach-comm-collectoilshale",
+            "name": "Drill baby, drill",
+            "description": "Collect all the oil shale on one stage, then complete the dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 297,
+            "apiname": "ach-comm-escortminestage",
+            "name": "The only drilldozer here is me",
+            "description": "Mine an entire stage before moving B0b-33, then complete the dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 298,
+            "apiname": "ach-comm-droppodjump",
+            "name": "Mission Possible",
+            "description": "Land on the drop pod ramp 3 times using jet boots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 299,
+            "apiname": "ach-comm-level10monsters",
+            "name": "Now, where did I put my keys?",
+            "description": "Have the alien threat reach level 2 before moving B0b-33, then complete the dive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 300,
+            "apiname": "ach-bonus-rocknstone",
+            "name": "Rock and Stone!",
+            "description": "Remember to Rock and Stone!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

@@ -216,6 +216,9 @@ import { GUIDE as prisonArchitectAchievementGuide } from "./games/prison-archite
 import { GUIDE as shadowOfMordorAchievementGuide } from "./games/shadow-of-mordor.js";
 import { GUIDE as shadowOfWarAchievementGuide } from "./games/shadow-of-war.js";
 import { GUIDE as wolfenstein2AchievementGuide } from "./games/wolfenstein-2.js";
+import { GUIDE as backpackBattlesAchievementGuide } from "./games/backpack-battles.js";
+import { GUIDE as deepRockGalacticSurvivorAchievementGuide } from "./games/deep-rock-galactic-survivor.js";
+import { GUIDE as sunHavenAchievementGuide } from "./games/sun-haven.js";
 
 export const APP_GUIDES = [
 
@@ -454,7 +457,10 @@ export const GAME_GUIDES = [
     prisonArchitectAchievementGuide,
     shadowOfMordorAchievementGuide,
     shadowOfWarAchievementGuide,
-    wolfenstein2AchievementGuide
+    wolfenstein2AchievementGuide,
+    backpackBattlesAchievementGuide,
+    deepRockGalacticSurvivorAchievementGuide,
+    sunHavenAchievementGuide
 
 ];
 

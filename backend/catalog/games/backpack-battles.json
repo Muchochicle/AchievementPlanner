@@ -1,0 +1,2092 @@
+{
+    "id": 2427700,
+    "steamAppId": 2427700,
+    "name": "Backpack Battles",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2427700/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 40,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Auto Battler",
+        "Inventory Management",
+        "PvP",
+        "Roguelite"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "OutfitUnlocked",
+            "name": "Stylish",
+            "description": "Unlock an outfit in the wardrobe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "HistoryMatch",
+            "name": "Post Match Analysis",
+            "description": "Play a history match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "LobbyStarted",
+            "name": "I Have Friends!",
+            "description": "Start a lobby match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "TreasureBought",
+            "name": "My Treasure",
+            "description": "Buy a Treasure item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "SurvivedRanger",
+            "name": "For the Trees!",
+            "description": "Survive as Ranger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "SurvivedReaper",
+            "name": "That Might Be Poisonous",
+            "description": "Survive as Reaper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "SurvivedPyromancer",
+            "name": "Burn! Burn Everything!",
+            "description": "Survive as Pyromancer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "SurvivedBerserker",
+            "name": "Go Berserk!",
+            "description": "Survive as Berserker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "SurvivedAdventurer",
+            "name": "Let's Go On an Adventure!",
+            "description": "Survive as Adventurer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "SurvivedMage",
+            "name": "That Was Magical!",
+            "description": "Survive as Mage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "BigCrit",
+            "name": "Big Red Number",
+            "description": "Crit for more than 300 damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "FastBattle",
+            "name": "Rushdown",
+            "description": "Win a fight in less than 3 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "SlowBattle",
+            "name": "Staring Contest",
+            "description": "Win a fight after 45 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "ManyBuffs",
+            "name": "Buff",
+            "description": "End a fight with 100 buffs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "ManyDebuffs",
+            "name": "Plaguebringer",
+            "description": "End a fight with 100 debuffs on your opponent",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "OutOfStamina",
+            "name": "Honk!",
+            "description": "Go out of stamina 10 times during a single fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "NoWeapon",
+            "name": "Pacifist",
+            "description": "Win a fight without a weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "FullHealth",
+            "name": "Untouchable",
+            "description": "End a fight with full health",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "1Health",
+            "name": "Close One!",
+            "description": "End a fight with 1 health",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "Reserve",
+            "name": "You'll Get It Some Day",
+            "description": "Reserve an item for 3 rounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "Rich",
+            "name": "Big Pockets",
+            "description": "Have 30 gold at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "FullStorage",
+            "name": "Overflowing",
+            "description": "Have 30 items in the storage at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "AllBought",
+            "name": "Give Me Everything",
+            "description": "Empty the whole shelf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "NoSkill",
+            "name": "And It's Gone",
+            "description": "Reroll away a skill or subclass",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "Recombobulator",
+            "name": "Reset",
+            "description": "Recombobulate 8 items at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "Sale",
+            "name": "Sale!",
+            "description": "Have 5 items on sale at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "FullLifeSurvival",
+            "name": "Perfection",
+            "description": "Survive with 5 tries left",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "Dragons",
+            "name": "Mother of Dragons",
+            "description": "Win a fight with 4 different Dragons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "Cards",
+            "name": "It's Time For a C-C-C-Cardgame!",
+            "description": "Win a fight with a Card chain of at least length 8",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "Bows",
+            "name": "Tripple Bow Technique",
+            "description": "Win a fight using 3 different Bows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "BattleRage",
+            "name": "Rawr!",
+            "description": "Win a fight with 8 items improving Battle Rage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "Books",
+            "name": "I'm the Library!",
+            "description": "Win a fight using 4 different types of Books",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "MixedClasses",
+            "name": "Catch 'em All!",
+            "description": "Win a fight with items from 4 different classes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "Potions",
+            "name": "Potion Master",
+            "description": "Win a fight using 6 Potions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "Vampire",
+            "name": "Bloodsucker",
+            "description": "Win a fight with 8 Vampiric items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "Magic",
+            "name": "Archmage",
+            "description": "Win a fight with 8 Magic items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "Food",
+            "name": "I Am Cooking",
+            "description": "Win a fight with 8 Foods",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "ManyWeapons",
+            "name": "Multiwielding",
+            "description": "Win a fight with 4 Weapons that use stamina",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "Gems",
+            "name": "Buy Me More Jewelery",
+            "description": "Win a fight with 10 Gemstones",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "Treasure",
+            "name": "Treasure Hunter",
+            "description": "Win a fight with 3 Treasure items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "Piggies",
+            "name": "Pig Farmer",
+            "description": "Win a fight with 5 Piggies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "Amulets",
+            "name": "Amulet Addict",
+            "description": "Win a fight with 5 identified amulets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "ItemsBought1",
+            "name": "Shopping Spree",
+            "description": "Buy 1000 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "Trophies",
+            "name": "You Are Winner",
+            "description": "Win 10000 trophies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "ItemsBought2",
+            "name": "Shopping Addict",
+            "description": "Buy 10000 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "Dice",
+            "name": "Dicemaster",
+            "description": "Play 50 games with a random character",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "Crafted16",
+            "name": "Can Touch, Will Hurt.",
+            "description": "Craft a Spiked Shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "Crafted126",
+            "name": "Piggy Smash!",
+            "description": "Craft a Bunch of Coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "Crafted183",
+            "name": "I Dig It!",
+            "description": "Craft a Shovel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "Crafted207",
+            "name": "Barbecue Season",
+            "description": "Craft a Burning Coal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "Crafted208",
+            "name": "Coal on a Stick",
+            "description": "Craft a Torch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "Crafted276",
+            "name": "Praise Shell!",
+            "description": "Craft a Shell Totem",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "Crafted374",
+            "name": "Don't Hurry, Be Happy",
+            "description": "Craft Shelly",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "Crafted351",
+            "name": "Sheep Unite!",
+            "description": "Craft a Shepherd’s Crook",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "Crafted29",
+            "name": "A True Hero",
+            "description": "Craft a Hero Sword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "Crafted32",
+            "name": "I'm a Wizard!",
+            "description": "Craft a Magic Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "Crafted35",
+            "name": "Give me Your Strongest Potion!",
+            "description": "Craft a Strong Health Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "Crafted30",
+            "name": "The Bringer of Ick",
+            "description": "Craft a Poison Dagger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "Crafted118",
+            "name": "I'm Not a Cat, I'm a Wolverine!",
+            "description": "Craft Claws of Attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "Crafted209",
+            "name": "Whoa, Portable Fire!",
+            "description": "Craft a Burning Torch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "Crafted216",
+            "name": "A Valued Customer",
+            "description": "Craft a Platinum Customer Card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "Crafted172",
+            "name": "Blueberry Juice",
+            "description": "Craft a Mana Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "Crafted278",
+            "name": "Endless Riches",
+            "description": "Craft a Box of Prosperity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "Crafted372",
+            "name": "Holds Everything! (Conditions Apply)",
+            "description": "Craft a Holdall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "Crafted174",
+            "name": "Tastes Like Tomato",
+            "description": "Craft a Vampiric Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "Crafted45",
+            "name": "Does It Bleed?",
+            "description": "Craft a Bloody Dagger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "Crafted55",
+            "name": "Most Heroic Banana Juice",
+            "description": "Craft a Strong Heroic Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "Crafted46",
+            "name": "Turning Into Stone Can Be a Good Thing",
+            "description": "Craft a Strong Stone Skin Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "Crafted50",
+            "name": "May Nibble You",
+            "description": "Craft a Vampiric Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "Crafted54",
+            "name": "A Taste For Blood",
+            "description": "Craft a Blood Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "Crafted52",
+            "name": "Hey, My Sword...!",
+            "description": "Craft a Steel Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "Crafted125",
+            "name": "The King of the Kitchen",
+            "description": "Craft an Eggscalibur",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "Crafted69",
+            "name": "Sip From the Mana Fountain",
+            "description": "Craft a Manathirst",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "Crafted70",
+            "name": "Uuuuh, Spooky Ghostly Dagger Thingy.",
+            "description": "Craft a Spectral Dagger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "Crafted82",
+            "name": "An Even Truer Hero!",
+            "description": "Craft a Hero Longsword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "Crafted83",
+            "name": "Behold, Falcons May Wield This.",
+            "description": "Craft a Falcon Blade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "Crafted161",
+            "name": "I Bring Pandamonium!",
+            "description": "Craft a Pandamonium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "Crafted206",
+            "name": "Never Sits Right",
+            "description": "Craft a Cap of Discomfort",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "Crafted215",
+            "name": "Fancy Blue Light",
+            "description": "Craft a Magic Torch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "Crafted173",
+            "name": "Bluberry Smoothie",
+            "description": "Craft a Strong Mana Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "Crafted237",
+            "name": "It's So Heavy",
+            "description": "Craft a Stone Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "Crafted238",
+            "name": "Bad For the Neck",
+            "description": "Craft a Stone Helm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "Crafted239",
+            "name": "Train Your Arms",
+            "description": "Craft Gloves of Power",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "Crafted258",
+            "name": "Snekk Stick",
+            "description": "Craft a Serpent Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "Crafted354",
+            "name": "A Bit Uncomfortable",
+            "description": "Craft Stone Shoes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "Crafted373",
+            "name": "Venomous Poker",
+            "description": "Craft a Poison Spear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "Crafted366",
+            "name": "I Bet You Feel Cool Now",
+            "description": "Craft a Snow Stick",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "Crafted47",
+            "name": "Dubious Vines",
+            "description": "Craft Bloodthorne",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "Crafted84",
+            "name": "Cross the Blades!",
+            "description": "Craft Crossblades",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "Crafted49",
+            "name": "Your Hands Feel Cold...",
+            "description": "Craft Vampiric Gloves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "Crafted72",
+            "name": "Join the Dark Side!",
+            "description": "Craft a Darksaber",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "Crafted53",
+            "name": "Shiny Slimy",
+            "description": "Craft a Light Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "Crafted218",
+            "name": "Pray to the Spear",
+            "description": "Craft a Holy Spear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 94,
+            "apiname": "Crafted227",
+            "name": "Not Actually From the Moon",
+            "description": "Craft a Moon Shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "Crafted229",
+            "name": "A Bad Influence",
+            "description": "Craft a Corrupted Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "Crafted226",
+            "name": "By the Power of the Moon!",
+            "description": "Craft a Moon Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "Crafted244",
+            "name": "It seems Fine Tho.",
+            "description": "Craft a Heart of Darkness",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "Crafted260",
+            "name": "Electrolytes!",
+            "description": "Craft a Thornbloom",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "Crafted261",
+            "name": "You Are The King?",
+            "description": "Craft a King Crown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 100,
+            "apiname": "Crafted262",
+            "name": "Bow To The King",
+            "description": "Craft a King Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 101,
+            "apiname": "Crafted271",
+            "name": "I Built You!",
+            "description": "Craft a Stone Golem",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 102,
+            "apiname": "Crafted257",
+            "name": "Now New, With All the Colors!",
+            "description": "Craft a Prismatic Sword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 103,
+            "apiname": "Crafted355",
+            "name": "Am I a Ninja Now?",
+            "description": "Craft a Katana",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 104,
+            "apiname": "Crafted233",
+            "name": "Shoot With Caution",
+            "description": "Craft a Tusk Poker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 105,
+            "apiname": "Crafted234",
+            "name": "My Lucky Bow",
+            "description": "Craft Fortuna's Hope",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 106,
+            "apiname": "Crafted235",
+            "name": "Filthspewer 2000",
+            "description": "Craft Belladonna's Shade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 107,
+            "apiname": "Crafted119",
+            "name": "My Lucky Charm",
+            "description": "Craft a Lucky Piggy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 108,
+            "apiname": "Crafted168",
+            "name": "A Symbol of Great Eyesight",
+            "description": "Craft a Carrot Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 109,
+            "apiname": "Crafted192",
+            "name": "Shootin' Thornies",
+            "description": "Craft a Tusk Piercer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 110,
+            "apiname": "Crafted193",
+            "name": "Hit 'em again!",
+            "description": "Craft Fortuna's Grace",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 111,
+            "apiname": "Crafted194",
+            "name": "Even the Bow is Poisonous",
+            "description": "Craft Belladonna's Whisper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 112,
+            "apiname": "Crafted33",
+            "name": "Summon the Spirits of Crit",
+            "description": "Craft a Critwood Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 113,
+            "apiname": "Crafted169",
+            "name": "Nice Goobs!",
+            "description": "Craft Rainbow Goobert Megasludge Alphapuddle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 114,
+            "apiname": "Crafted310",
+            "name": "We Call Him Robby.",
+            "description": "Craft a Squirrel Archer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 115,
+            "apiname": "Crafted311",
+            "name": "Someone Said Vegetable Soup?",
+            "description": "Craft a Rat Chef",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 116,
+            "apiname": "Crafted38",
+            "name": "At Least He Likes It",
+            "description": "Craft a Poison Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 117,
+            "apiname": "Crafted56",
+            "name": "Like love, but the other way around.",
+            "description": "Craft a Staff of Unhealing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 118,
+            "apiname": "Crafted170",
+            "name": "With Even More Toxins!",
+            "description": "Craft a Strong Pestilence Flask",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 119,
+            "apiname": "Crafted111",
+            "name": "What a Massive... Surprise!",
+            "description": "Craft a Ruby Chonk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 120,
+            "apiname": "Crafted295",
+            "name": "Never Taste It.",
+            "description": "Craft a Doom Cap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 121,
+            "apiname": "Crafted74",
+            "name": "Taste the Rainbow!",
+            "description": "Craft Rainbow Goobert Omegaooze Primeslime",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 122,
+            "apiname": "Crafted171",
+            "name": "Now Even Worse!",
+            "description": "Craft a Strong Demonic Flask",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 123,
+            "apiname": "Crafted175",
+            "name": "Smells Like Iron",
+            "description": "Craft a Strong Vampiric Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 124,
+            "apiname": "Crafted177",
+            "name": "Holy Drinking",
+            "description": "Craft a Strong Divine Potion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 125,
+            "apiname": "Crafted228",
+            "name": "Warm Hands",
+            "description": "Craft a Burning Sword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 126,
+            "apiname": "Crafted116",
+            "name": "Azor Ahoi?",
+            "description": "Craft a Burning Blade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 127,
+            "apiname": "Crafted224",
+            "name": "Sun Protection",
+            "description": "Craft a Sun Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 128,
+            "apiname": "Crafted225",
+            "name": "Shiny Plate",
+            "description": "Craft a Sun Shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 129,
+            "apiname": "Crafted211",
+            "name": "The Buttercutter",
+            "description": "Craft a Molten Dagger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 130,
+            "apiname": "Crafted212",
+            "name": "It's Drippin'!",
+            "description": "Craft a Molten Spear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 131,
+            "apiname": "Crafted121",
+            "name": "FIREBALL!",
+            "description": "Craft a Staff of Fire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 132,
+            "apiname": "Crafted122",
+            "name": "Never Trust It",
+            "description": "Craft a Flame Whip",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "Crafted205",
+            "name": "It Burns Twice",
+            "description": "Craft a Chili Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 134,
+            "apiname": "Crafted219",
+            "name": "Chili-flavored Rainbow",
+            "description": "Craft Rainbow Goobert Epicglob Uberviscous",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 135,
+            "apiname": "Crafted123",
+            "name": "Lizard Friend",
+            "description": "Craft an Obsidian Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 136,
+            "apiname": "Crafted180",
+            "name": "Keeping It Cool",
+            "description": "Craft an Ice Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "Crafted181",
+            "name": "Sliding Defense",
+            "description": "Craft a Frozen Buckler",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 138,
+            "apiname": "Crafted184",
+            "name": "Biting Cold",
+            "description": "Craft a Frostbite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 139,
+            "apiname": "Crafted236",
+            "name": "A Rare Breed",
+            "description": "Craft an Ice Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 140,
+            "apiname": "Crafted133",
+            "name": "Twice the Axe",
+            "description": "Craft a Double Axe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 141,
+            "apiname": "Crafted134",
+            "name": "Family Treasure",
+            "description": "Craft a Chain Whip",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 142,
+            "apiname": "Crafted135",
+            "name": "Ethically Sourced Dragon Skin",
+            "description": "Craft a Dragonscale Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 143,
+            "apiname": "Crafted136",
+            "name": "Let Your Anger Out",
+            "description": "Craft Dragon Claws",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 144,
+            "apiname": "Crafted153",
+            "name": "Just Stylish",
+            "description": "Craft Dragonskin Boots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 145,
+            "apiname": "Crafted152",
+            "name": "Intimidation Tactics",
+            "description": "Craft a Busted Blade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 146,
+            "apiname": "Crafted259",
+            "name": "Let's Go Clubbing",
+            "description": "Craft a Spiked Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 147,
+            "apiname": "Crafted204",
+            "name": "Cheesy",
+            "description": "Craft a Cheese Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 148,
+            "apiname": "Crafted220",
+            "name": "Rainbow Rage!",
+            "description": "Craft Rainbow Goobert Deathslushy Mansquisher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 149,
+            "apiname": "Crafted221",
+            "name": "Ready for Barking!",
+            "description": "Craft an Armored Courage Puppy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 150,
+            "apiname": "Crafted222",
+            "name": "Protected Pupper!",
+            "description": "Craft an Armored Wisdom Puppy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 151,
+            "apiname": "Crafted223",
+            "name": "Puppy Power!",
+            "description": "Craft an Armored Power Puppy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 152,
+            "apiname": "Crafted384",
+            "name": "Hermes",
+            "description": "Craft Winged Boots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 153,
+            "apiname": "Crafted391",
+            "name": "Senior Sand",
+            "description": "Craft Sir Sand",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 154,
+            "apiname": "Crafted392",
+            "name": "Marvelous Creature",
+            "description": "Craft a Paradise Birb",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 155,
+            "apiname": "Crafted332",
+            "name": "Mirror Mirror on the Wall",
+            "description": "Craft a Cold Mirror",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 156,
+            "apiname": "Crafted333",
+            "name": "Icy Vegetation",
+            "description": "Craft an Ice Flower",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 157,
+            "apiname": "Crafted334",
+            "name": "Shiny Shiny",
+            "description": "Craft a Lantern Berry",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 158,
+            "apiname": "Crafted335",
+            "name": "It Loves the Shade",
+            "description": "Craft a Death Lotus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 159,
+            "apiname": "Crafted348",
+            "name": "Do Not Divide by this Blade",
+            "description": "Craft a Null Blade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 160,
+            "apiname": "Crafted420",
+            "name": "Hungry Hungry Sphere",
+            "description": "Craft a Devouring Sphere",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 161,
+            "apiname": "Crafted436",
+            "name": "Magical Gal",
+            "description": "Craft a Prismatic Wand",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 162,
+            "apiname": "Crafted340",
+            "name": "My Little Cupcake",
+            "description": "Craft a Cupcake Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 163,
+            "apiname": "Crafted416",
+            "name": "Bibidi Babedi Boo - Goo!",
+            "description": "Craft Rainbow Goobert Omnicolor Sugargoo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 164,
+            "apiname": "Crafted349",
+            "name": "By the Power of the Cupcake!",
+            "description": "Craft a Cupcake Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 165,
+            "apiname": "Crafted381",
+            "name": "Roped Into Something",
+            "description": "Craft a Rope",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 166,
+            "apiname": "Crafted434",
+            "name": "Heroic Protection",
+            "description": "Craft a Hero Shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 167,
+            "apiname": "Crafted395",
+            "name": "Bananarang!",
+            "description": "Craft a Boomerang",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 168,
+            "apiname": "Crafted396",
+            "name": "Solvent Swine",
+            "description": "Craft a Piggy of Riches",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 169,
+            "apiname": "Crafted433",
+            "name": "I Totally Work Here",
+            "description": "Craft an Employee Uniform",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 170,
+            "apiname": "Crafted394",
+            "name": "A Massive B",
+            "description": "Craft an Impractically Large Bloodthorne",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 171,
+            "apiname": "Crafted397",
+            "name": "I love you too, shield!",
+            "description": "Craft a Heart Shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 172,
+            "apiname": "Crafted398",
+            "name": "The Powerful Dragon Knight",
+            "description": "Craft a Dragon Knight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 173,
+            "apiname": "Crafted400",
+            "name": "He looks so healthy.",
+            "description": "Craft a Broccoli Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 174,
+            "apiname": "Crafted401",
+            "name": "B-B-B-BROCCOLIENERGY!",
+            "description": "Craft Rainbow Goobert Gigabrocolomega",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 175,
+            "apiname": "Crafted402",
+            "name": "Alternative Crossblades",
+            "description": "Craft Scissorswords",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 176,
+            "apiname": "Crafted417",
+            "name": "The Longest Spear (Allegedly)",
+            "description": "Craft a Very Long Spear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 177,
+            "apiname": "Crafted418",
+            "name": "Oh, My Dagger Rang",
+            "description": "Craft a Daggerang",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 178,
+            "apiname": "Crafted419",
+            "name": "It's Cozy Up There",
+            "description": "Craft a Jynx Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 179,
+            "apiname": "Crafted421",
+            "name": "Caw!",
+            "description": "Craft a Crow",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 180,
+            "apiname": "Crafted427",
+            "name": "Only Looky, No Licky",
+            "description": "Craft a Poison Frog",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 181,
+            "apiname": "Crafted423",
+            "name": "Enter Hyper-Hedgehog Form!",
+            "description": "Craft a Hyper Hedgehog",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 182,
+            "apiname": "Crafted424",
+            "name": "The Coolest",
+            "description": "Craft a Snowmaster",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 183,
+            "apiname": "Crafted425",
+            "name": "Hey Lady, Your Greatsword is Melting",
+            "description": "Craft a Molten Greatsword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 184,
+            "apiname": "Crafted426",
+            "name": "Faster Than Expected, But Still Slow",
+            "description": "Craft a Turbo-Shelly",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 185,
+            "apiname": "Crafted428",
+            "name": "A Good Old Physical Barrier",
+            "description": "Craft a Spiked Wall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 186,
+            "apiname": "Crafted429",
+            "name": "Can I Eat It? Can It Eat Me?",
+            "description": "Craft a Red Orchid Collar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 187,
+            "apiname": "Crafted430",
+            "name": "That's Great Sage",
+            "description": "Craft a Blue Sage Collar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 188,
+            "apiname": "Crafted431",
+            "name": "Hey Lily",
+            "description": "Craft a White Lily Collar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 189,
+            "apiname": "SurvivedEngineer",
+            "name": "Trust me, I'm an engineer!",
+            "description": "Survive as Engineer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 190,
+            "apiname": "Charges",
+            "name": "Gigacharged",
+            "description": "Emit 10 charges in a single fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 191,
+            "apiname": "Destruct",
+            "name": "Hey, those cost money!",
+            "description": "Destroy something in the shop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 192,
+            "apiname": "Crafted447",
+            "name": "I can fix that",
+            "description": "Craft a Wrench",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 193,
+            "apiname": "Crafted448",
+            "name": "All the lumens!",
+            "description": "Craft an Electric Torch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 194,
+            "apiname": "Crafted449",
+            "name": "S.I.T. routine enabled!",
+            "description": "Craft a Shovel-B01 3000",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 195,
+            "apiname": "Crafted450",
+            "name": "Mix between cop-robot and man-bat.",
+            "description": "Craft a Mecha Bat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 196,
+            "apiname": "Crafted460",
+            "name": "Massive Brainacle",
+            "description": "Craft a Cap of Brilliance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 197,
+            "apiname": "Crafted461",
+            "name": "Mana Hydraulics",
+            "description": "Craft a Magitecc Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 198,
+            "apiname": "Crafted462",
+            "name": "Mana for everybody!",
+            "description": "Craft Arcane Boots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 199,
+            "apiname": "Crafted463",
+            "name": "Thor, the God of Bonking",
+            "description": "Craft Thor’s Hammer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 200,
+            "apiname": "Crafted464",
+            "name": "Manazort Combine!!!",
+            "description": "Craft an Automanaton",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 201,
+            "apiname": "Crafted465",
+            "name": "Manananananananananananananananana",
+            "description": "Craft a Mananana",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 202,
+            "apiname": "Crafted467",
+            "name": "A toast to toast!",
+            "description": "Craft a Slice of Toast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 203,
+            "apiname": "Crafted468",
+            "name": "Not for Breakfast",
+            "description": "Craft a Toast Goobert",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 204,
+            "apiname": "Crafted469",
+            "name": "Delicious Prismacrust",
+            "description": "Craft Rainbow Goobert Fluffyloaf Prismacrust",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 205,
+            "apiname": "Crafted470",
+            "name": "Throws everything",
+            "description": "Craft a Stuff-Throwinator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 206,
+            "apiname": "Crafted471",
+            "name": "Zap! Zap! ZOP!",
+            "description": "Craft a Lightning Staff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 207,
+            "apiname": "Crafted472",
+            "name": "Energy, the source of my power!",
+            "description": "Craft a Generator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 208,
+            "apiname": "Crafted473",
+            "name": "Who SAW that coming?",
+            "description": "Craft a Chainsaw",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 209,
+            "apiname": "Crafted474",
+            "name": "Do you...smell that?",
+            "description": "Craft a Poison Grenade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 210,
+            "apiname": "Crafted475",
+            "name": "Hah! The toast is a lie!",
+            "description": "Craft a Con-Trap-Tron",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 211,
+            "apiname": "Crafted476",
+            "name": "Potential energy is the best energy",
+            "description": "Craft a Spring Loader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 212,
+            "apiname": "Crafted477",
+            "name": "Completely AutoNOM",
+            "description": "Craft an Eat-o-matic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 213,
+            "apiname": "Crafted496",
+            "name": "One With the Woods",
+            "description": "Craft a Forest Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 214,
+            "apiname": "Crafted497",
+            "name": "Eater of Souls",
+            "description": "Craft a War Scythe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 215,
+            "apiname": "Crafted498",
+            "name": "Lord Ribbiton of Schwamp",
+            "description": "Craft a Frog Prince",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 216,
+            "apiname": "Crafted499",
+            "name": "Doubleburn? Secondary Scorch? Twinferno?",
+            "description": "Craft a Blazing Spear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 217,
+            "apiname": "Crafted500",
+            "name": "Oh Blazing Beak!",
+            "description": "Craft an Enraged Phoenix",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 218,
+            "apiname": "Crafted501",
+            "name": "Better Whetter",
+            "description": "Craft an Improved Whetstone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 219,
+            "apiname": "Crafted502",
+            "name": "Pure Steelyness!",
+            "description": "Craft an Essence of Steel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 220,
+            "apiname": "Crafted503",
+            "name": "Hard Skin, Soft Heart",
+            "description": "Craft a Panzer Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 221,
+            "apiname": "Crafted504",
+            "name": "Good 'ol axe on a stick",
+            "description": "Craft a Halberd",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 222,
+            "apiname": "Crafted506",
+            "name": "A good engagement ring (with the right stats)",
+            "description": "Craft a Superior Ring",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 223,
+            "apiname": "Crafted507",
+            "name": "All the vitamin K!",
+            "description": "Craft a Broccotree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 224,
+            "apiname": "Crafted508",
+            "name": "Sugarbreath!!",
+            "description": "Craft a Cupdrake",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 225,
+            "apiname": "Crafted509",
+            "name": "Poke it -> Die",
+            "description": "Craft a Wand of Dissonance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 226,
+            "apiname": "Crafted511",
+            "name": "Impressive But Impractical",
+            "description": "Craft a Gold Armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 227,
+            "apiname": "Crafted512",
+            "name": "Natural Defense",
+            "description": "Craft a Pine Protector",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 228,
+            "apiname": "Crafted513",
+            "name": "Your defense is garlacking.",
+            "description": "Craft Stankus’ Toothpick",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 229,
+            "apiname": "Crafted514",
+            "name": "Souped up and ready to go!",
+            "description": "Craft a Boiling Pot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 230,
+            "apiname": "Crafted516",
+            "name": "Quick, use Thunderthingy!",
+            "description": "Craft a Thunder Drake",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}
