@@ -228,6 +228,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("metro-exodus"));
     assert.ok(slugs.includes("ea-sports-fc-24"));
     assert.ok(slugs.includes("devour"));
+    assert.ok(slugs.includes("mad-max"));
+    assert.ok(slugs.includes("just-cause-4"));
+    assert.ok(slugs.includes("rage-2"));
 
 });
 

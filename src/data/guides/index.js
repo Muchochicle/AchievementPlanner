@@ -204,6 +204,9 @@ import { GUIDE as f124AchievementGuide } from "./games/f1-24.js";
 import { GUIDE as metroExodusAchievementGuide } from "./games/metro-exodus.js";
 import { GUIDE as eaSportsFc24AchievementGuide } from "./games/ea-sports-fc-24.js";
 import { GUIDE as devourAchievementGuide } from "./games/devour.js";
+import { GUIDE as madMaxAchievementGuide } from "./games/mad-max.js";
+import { GUIDE as justCause4AchievementGuide } from "./games/just-cause-4.js";
+import { GUIDE as rage2AchievementGuide } from "./games/rage-2.js";
 
 export const APP_GUIDES = [
 
@@ -430,7 +433,10 @@ export const GAME_GUIDES = [
     f124AchievementGuide,
     metroExodusAchievementGuide,
     eaSportsFc24AchievementGuide,
-    devourAchievementGuide
+    devourAchievementGuide,
+    madMaxAchievementGuide,
+    justCause4AchievementGuide,
+    rage2AchievementGuide
 
 ];
 
