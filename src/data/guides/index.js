@@ -186,6 +186,9 @@ import { GUIDE as atomicHeartAchievementGuide } from "./games/atomic-heart.js";
 import { GUIDE as humanFallFlatAchievementGuide } from "./games/human-fall-flat.js";
 import { GUIDE as overcooked2AchievementGuide } from "./games/overcooked-2.js";
 import { GUIDE as warhammerVermintide2AchievementGuide } from "./games/warhammer-vermintide-2.js";
+import { GUIDE as twentyMinutesTillDawnAchievementGuide } from "./games/20-minutes-till-dawn.js";
+import { GUIDE as partyAnimalsAchievementGuide } from "./games/party-animals.js";
+import { GUIDE as gunfireRebornAchievementGuide } from "./games/gunfire-reborn.js";
 
 export const APP_GUIDES = [
 
@@ -394,7 +397,10 @@ export const GAME_GUIDES = [
     atomicHeartAchievementGuide,
     humanFallFlatAchievementGuide,
     overcooked2AchievementGuide,
-    warhammerVermintide2AchievementGuide
+    warhammerVermintide2AchievementGuide,
+    twentyMinutesTillDawnAchievementGuide,
+    partyAnimalsAchievementGuide,
+    gunfireRebornAchievementGuide
 
 ];
 

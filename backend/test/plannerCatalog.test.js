@@ -210,6 +210,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("human-fall-flat"));
     assert.ok(slugs.includes("overcooked-2"));
     assert.ok(slugs.includes("warhammer-vermintide-2"));
+    assert.ok(slugs.includes("20-minutes-till-dawn"));
+    assert.ok(slugs.includes("party-animals"));
+    assert.ok(slugs.includes("gunfire-reborn"));
 
 });
 
