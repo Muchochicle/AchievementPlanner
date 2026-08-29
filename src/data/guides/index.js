@@ -228,6 +228,9 @@ import { GUIDE as luckBeALandlordAchievementGuide } from "./games/luck-be-a-land
 import { GUIDE as manorLordsAchievementGuide } from "./games/manor-lords.js";
 import { GUIDE as onceHumanAchievementGuide } from "./games/once-human.js";
 import { GUIDE as snowrunnerAchievementGuide } from "./games/snowrunner.js";
+import { GUIDE as theFirstDescendantAchievementGuide } from "./games/the-first-descendant.js";
+import { GUIDE as plateupAchievementGuide } from "./games/plateup.js";
+import { GUIDE as nightingaleAchievementGuide } from "./games/nightingale.js";
 
 export const APP_GUIDES = [
 
@@ -478,7 +481,10 @@ export const GAME_GUIDES = [
     luckBeALandlordAchievementGuide,
     manorLordsAchievementGuide,
     onceHumanAchievementGuide,
-    snowrunnerAchievementGuide
+    snowrunnerAchievementGuide,
+    theFirstDescendantAchievementGuide,
+    plateupAchievementGuide,
+    nightingaleAchievementGuide
 
 ];
 
