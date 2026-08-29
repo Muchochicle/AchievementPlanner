@@ -231,6 +231,9 @@ import { GUIDE as snowrunnerAchievementGuide } from "./games/snowrunner.js";
 import { GUIDE as theFirstDescendantAchievementGuide } from "./games/the-first-descendant.js";
 import { GUIDE as plateupAchievementGuide } from "./games/plateup.js";
 import { GUIDE as nightingaleAchievementGuide } from "./games/nightingale.js";
+import { GUIDE as marvelsMidnightSunsAchievementGuide } from "./games/marvels-midnight-suns.js";
+import { GUIDE as thePlanetCrafterAchievementGuide } from "./games/the-planet-crafter.js";
+import { GUIDE as peglinAchievementGuide } from "./games/peglin.js";
 
 export const APP_GUIDES = [
 
@@ -484,7 +487,10 @@ export const GAME_GUIDES = [
     snowrunnerAchievementGuide,
     theFirstDescendantAchievementGuide,
     plateupAchievementGuide,
-    nightingaleAchievementGuide
+    nightingaleAchievementGuide,
+    marvelsMidnightSunsAchievementGuide,
+    thePlanetCrafterAchievementGuide,
+    peglinAchievementGuide
 
 ];
 

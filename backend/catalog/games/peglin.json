@@ -1,0 +1,490 @@
+{
+    "id": 1296610,
+    "steamAppId": 1296610,
+    "name": "Peglin",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1296610/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 25,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Pachinko",
+        "Deck-building",
+        "Peggle-like"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "DEFEAT_MOLE_BOSS",
+            "name": "Holey Moley",
+            "description": "Defeat Avogadro, the Mole Boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "DEFEAT_SLIME_BOSS",
+            "name": "End Of The Slime",
+            "description": "Defeat the Slime Boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "DEFEAT_WALL_BOSS",
+            "name": "All In All",
+            "description": "Defeat the Demon Wall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "DEFEAT_BALLISTA_BOSS",
+            "name": "Siege No More",
+            "description": "Defeat the Ballista Militia",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "DEFEAT_ANY_BOSS_FIRST_TURN",
+            "name": "First Come, First Served",
+            "description": "Defeat any boss on the first turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "DIE_IN_TEXT_SCENARIO",
+            "name": "Sticks And Stones",
+            "description": "Die during an event scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "DEAL_EXACTLY_ONE_DAMAGE",
+            "name": "I Said Punny, Not Puny",
+            "description": "Deal exactly one damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "DEAL_X_DAMAGE_IN_ONE_SHOT",
+            "name": "Don't Make Us Say It",
+            "description": "Deal more than 9000 damage in one shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "DEAL_EXACT_DAMAGE_TO_ENEMY",
+            "name": "Math Is My Passion",
+            "description": "Deal the exact damage needed to defeat an enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "CLEAR_PEGBOARD",
+            "name": "Spring Cleaning",
+            "description": "Fully clear a pegboard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "HIT_X_PEGS_IN_ONE_SHOT",
+            "name": "Walking On Pegshells",
+            "description": "Hit 1000 pegs or more in one shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "LEAVE_ENEMY_WITH_ONE_HEALTH",
+            "name": "It Was Not Your Time",
+            "description": "Leave an enemy with just one health point",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "BRAMBLE_ENEMY_FOR_X_TURNS",
+            "name": "Red Slime Green Slime",
+            "description": "Keep an enemy Tangled for 6 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "DEFEAT_MOLE_TREE",
+            "name": "Wood you kindly?",
+            "description": "Defeat Avogadro's Tree before entering the Castle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "DEFEAT_BRICK_BOSS",
+            "name": "Won't Get Ruined Again",
+            "description": "Defeat the Qaballistic Ruins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "DEFEAT_SAPPER_BOSS",
+            "name": "Sapper Sweeper",
+            "description": "Defeat the Super Sapper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "DEFEAT_DRAGON_BOSS",
+            "name": "The Treasurer Doesn't Measure Up",
+            "description": "Vanquish Thesaurosus the Avaricious Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "POISON_AMOUNT_ON_ENEMY",
+            "name": "Poison IV",
+            "description": "Inflict 40+ Spinfection onto a single enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "SHIELD_AMOUNT_AT_END_OF_BATTLE",
+            "name": "Ballwark in a China Shop",
+            "description": "Win a battle with 100+ Ballwark remaining",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "MULTIPLE_SLIME_BOUNCES",
+            "name": "Slime After Slime",
+            "description": "Have an orb bounce between slimed pegs 7 times without touching anything else",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "ASSEMBLE_ASSEMBALL",
+            "name": "Some Assembly Required",
+            "description": "Fully assemble the Assemball",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "MULTIPLE_CRITS",
+            "name": "Critical Thinking",
+            "description": "Achieve a 5x crit multiplier with the Critsomallos Fleece",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "SPAWN_ALL_MINIONS",
+            "name": "A Full Sweep",
+            "description": "Battle the Ballista Militia until all its minions have spawned",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "CLEAN_SHOP",
+            "name": "Where's my membership card?!",
+            "description": "Buy every item and relic, and remove an orb at Haglin's Shop at Cruciball Level 10 or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "MULTIPLE_MULTIBALLS",
+            "name": "Multiballer",
+            "description": "\nUsing the Matryorbshka, have 16 multiballs on screen at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "REACH_CRUCIBALL_5",
+            "name": "Cruciball Courier",
+            "description": "Complete Cruciball Level 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "REACH_CRUCIBALL_10",
+            "name": "Cruciball Captain",
+            "description": "Complete Cruciball Level 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "REACH_CRUCIBALL_15",
+            "name": "Cruciball Commander",
+            "description": "Complete Cruciball Level 15",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "DEFEAT_LESHY_BOSS",
+            "name": "New Leshy on Life",
+            "description": "Defeat Betsy the Leshy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "THREE_BRAMBALLS_STUCK_IN_VINES",
+            "name": "In a Prickle",
+            "description": "Get three Bramballs stuck in Leshy's vines at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "FINISH_RUN_WITH_TWO_EGGS",
+            "name": "Eggstravaganza",
+            "description": "Win a run with two eggs in your satchel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "DEFEAT_PAINTER_BOSS",
+            "name": "Masterpieces In Pieces",
+            "description": "Defeat the Pigment of Imagination",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "REACH_CRUCIBALL_20",
+            "name": "Cruciball Conqueror",
+            "description": "Complete Cruciball Level 20",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "REFUSE_INGOT",
+            "name": "Enthralled",
+            "description": "Win a run after accepting the vampire's deal but skipping the infernal ingot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "DIE_WHILE_KILLING_MINES_BOSS",
+            "name": "You did it?",
+            "description": "Die while defeating the Mines' boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "BRING_EGG_TO_PEGLIN_CHEF",
+            "name": "Fragile Delivery",
+            "description": "Bring an Egg to the peglin chef",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "KILL_RAINBOW_SLIME",
+            "name": "At the End of the Rainbow",
+            "description": "Defeat a Rainbow Slime",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "WIN_RUN_WITH_ONLY_ONE_RELIC",
+            "name": "All for One",
+            "description": "Win a run with only your class relic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "WIN_RUN_WITH_ONLY_LEVEL_ONE_ORBS",
+            "name": "One for All",
+            "description": "Win a run with only level 1 orbs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "FULLY_UNLOCK_MONSTER_IN_BESTIARY",
+            "name": "Scholorb",
+            "description": "Completely fill one entry in the Encirclepedia's Bestiary",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "CARD_DROP_OBTAINED",
+            "name": "Is this a card game?",
+            "description": "Collect your first monster trading card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "RIGGED_BOMB_WHILE_SWALLOWED",
+            "name": "Heartburn",
+            "description": "Throw a Rigged Bomb after being eaten by the Slime Boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "DEFEAT_PAINTER_WITHOUT_KILLING_PAINTINGS",
+            "name": "Art Connoisseur",
+            "description": "Defeat the Pigment of Imagination without destroying any paintings",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "CONVERT_OR_DESTROY_DULL_PEGS_VS_DEMON_WALL",
+            "name": "Not a Dull Wall at All",
+            "description": "Convert or Destroy 3 dull pegs while fighting the Demon Wall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "KILL_ALL_RUINS_IN_ONE_ATTACK",
+            "name": "Surprised the Ruins",
+            "description": "Defeat all 4 Qaballistic Ruins in the same turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "DEAL_1000_DAMAGE_TO_SAPPER_WITH_SAPPERS",
+            "name": "Minion to Winion",
+            "description": "Deal 1000 damage to the Super Sapper in one battle by detonating adjacent Sappers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "COLLECT_ALL_DRAGON_COINS",
+            "name": "Master Burglar",
+            "description": "Defeat Thesaurosus with no coins remaining in the pegboard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "SEND_DEMON_SQUIRREL_TO_HOLE",
+            "name": "From Whence You Came",
+            "description": "Send a summoned demon squirrel into a black hole",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "DEFEAT_PAINBOW",
+            "name": "Taste the Painbow",
+            "description": "Defeat the Painbow (slime)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "DEFEAT_ORBSERVER",
+            "name": "All Eye On You",
+            "description": "Defeat the Orbserver (the secret final boss).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "END_FIRST_ORBSERVER_PHASE_EARLY",
+            "name": "Phase Breaker",
+            "description": "End the Orbserver's first phase early by destroying all its protective crystal pegs within 5 turns.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "APPLY_YOLK_TO_ORBSERVER",
+            "name": "Egg On Your Face",
+            "description": "Apply Yolk to the Orbserver's eye by breaking an Egg on it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

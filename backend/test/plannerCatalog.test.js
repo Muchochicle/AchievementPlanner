@@ -255,6 +255,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-first-descendant"));
     assert.ok(slugs.includes("plateup"));
     assert.ok(slugs.includes("nightingale"));
+    assert.ok(slugs.includes("marvels-midnight-suns"));
+    assert.ok(slugs.includes("the-planet-crafter"));
+    assert.ok(slugs.includes("peglin"));
 
 });
 

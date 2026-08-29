@@ -1,0 +1,517 @@
+{
+    "id": 1284190,
+    "steamAppId": 1284190,
+    "name": "The Planet Crafter",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284190/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Survival",
+        "Terraforming",
+        "Crafting",
+        "Open World"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "REACH_BLUE_SKY",
+            "name": "New Sky",
+            "description": "Reach full blue sky",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "REACH_CLOUDS",
+            "name": "Clouds in the sky",
+            "description": "Reach clouds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "REACH_RAIN",
+            "name": "Life from the sky",
+            "description": "Reach rain level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "REACH_WATER",
+            "name": "Liquid water",
+            "description": "Reach liquid water level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "REACH_LAKES",
+            "name": "So much water",
+            "description": "Reach full lakes level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "REACH_MOSS",
+            "name": "Greenery",
+            "description": "Reach moss level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "REACH_HERBS",
+            "name": "It's growing",
+            "description": "Reach herbs level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "REACH_TREES",
+            "name": "The Forests",
+            "description": "Reach trees level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "CRAFT_POD",
+            "name": "Shelter",
+            "description": "Construct your first living compartment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "CRAFT_LAUNCHPAD",
+            "name": "Are we leaving?",
+            "description": "Craft your first launch platform",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "CRAFT_BIODOME",
+            "name": "Biomass",
+            "description": "Craft your first biodome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "CRAFT_FLOWERSPREADER",
+            "name": "Flowers on hostile planet",
+            "description": "Craft your first flower spreader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "CRAFT_TREESPREADER",
+            "name": "Jungle",
+            "description": "Craft your first tree spreader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "CRAFT_FOODGROWER",
+            "name": "Vegetables in space",
+            "description": "Craft your first food grower",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "CRAFT_NUCLEAR",
+            "name": "What could go wrong?",
+            "description": "Craft your first nuclear reactor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "CRAFT_DNA",
+            "name": "Genetic Engineer",
+            "description": "Craft your first DNA Manipulator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "FOUND_IRIDIUM",
+            "name": "The Rare Red Ore",
+            "description": "Find Iridium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "FOUND_OSMIUM",
+            "name": "The Blue Rare Ore",
+            "description": "Find Osmium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "FOUND_ZEOLITE",
+            "name": "The White Rare Ore",
+            "description": "Find Zeolite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "LOCATION_DOOR",
+            "name": "A Door ?",
+            "description": "Discover a mysterious sealed door.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "FOUND_GOLDENSEED",
+            "name": "Golden flower",
+            "description": "Find a Golden Seed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "FOUND_FUSIONCELL",
+            "name": "Fusion Energy",
+            "description": "Find a Fusion Cell.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "FOUND_PULSARQUARTZ",
+            "name": "The Pink Rare Ore",
+            "description": "Find Pulsar Quartz, the pink rare ore.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "REACH_INSECTS",
+            "name": "Vivarium",
+            "description": "Reach insects level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "CRAFT_FARM",
+            "name": "Farming on Mars",
+            "description": "Create your first outside farm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "CRAFT_OREEXCTRACTOR",
+            "name": "Automation",
+            "description": "Craft your first ore extractor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "LOCATION_SHROOMRIVER",
+            "name": "Mushrooms river",
+            "description": "Discover the mushroom river",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "EVENT_METEORHIT",
+            "name": "Not the face!",
+            "description": "Get hit by an asteroid",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "LOCATION_LOSTPARADISE",
+            "name": "Ancient paradise",
+            "description": "Find the ancient paradise",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "REACH_ATMOSPHERE",
+            "name": "Breath",
+            "description": "Reach atmosphere level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "REACH_FISH",
+            "name": "Bubbles under water",
+            "description": "Reach fish level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "FOUND_DRONE",
+            "name": "Logistics",
+            "description": "Build a drone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "CRAFT_AUTOCRAFTER",
+            "name": "The factory must grow",
+            "description": "Build an autocrafter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "CRAFT_TRADEPLATFORM",
+            "name": "Space Trading",
+            "description": "Build a space trading rocket",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "REACH_AMPHIBIANS",
+            "name": "Space frogs",
+            "description": "Reach amphibians stage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "TOKENS_TOTAL_100",
+            "name": "Space smuggler",
+            "description": "Gain a total of 100 Terra Tokens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "TOKENS_TOTAL_1000",
+            "name": "Space pirate",
+            "description": "Gain a total of 1000 Terra Tokens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "TOKENS_TOTAL_10000",
+            "name": "Space trader",
+            "description": "Gain a total of 10000 Terra Tokens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "TOKENS_TOTAL_100000",
+            "name": "Space magnate",
+            "description": "Gain a total of 100000 Terra Tokens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "CRAFT_COOKIE",
+            "name": "Cookie factory",
+            "description": "Bake a cookie",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "CRAFT_DNASEQUENCE",
+            "name": "New life forms",
+            "description": "Craft your first DNA sequence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "CRAFT_PORTAL",
+            "name": "Distant Wrecks",
+            "description": "Craft a portal generator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "CRAFT_ANIMALSHELTER",
+            "name": "Space zoo",
+            "description": "Craft an animal shelter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "CRAFTED_TOTAL_10",
+            "name": "Barely surviving",
+            "description": "Craft 10 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "CRAFTED_TOTAL_100",
+            "name": "Getting comfy",
+            "description": "Craft 100 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "CRAFTED_TOTAL_1000",
+            "name": "Unstoppable",
+            "description": "Craft 1000 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "ENDING_SENTINEL",
+            "name": "Subjection",
+            "description": "Reach the game's ending via the Sentinel choice (no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "ENDING_RILEY",
+            "name": "Subservience",
+            "description": "Reach the game's ending via the Riley choice (no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "ENDING_WARDENS",
+            "name": "Subversion",
+            "description": "Reach the game's ending via the Wardens choice (no plot detail).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "LOCATION_RAINBOWCAVE",
+            "name": "Rainbow caves",
+            "description": "Discover the rainbow caves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "EVENT_JUMPINLAVA",
+            "name": "Jump in lava",
+            "description": "Get lava damages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "REACH_MAMMALS",
+            "name": "Evolution",
+            "description": "Reach mammals level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "REACH_COMPLETE",
+            "name": "Biosphere",
+            "description": "Reach complete terraformation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "FOUND_SOLARQUARTZ",
+            "name": "The Yellow Rare Ore",
+            "description": "Find Solar Quartz",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "LOCATION_CENOTE",
+            "name": "The Cenote",
+            "description": "Discover the cenote biome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}
