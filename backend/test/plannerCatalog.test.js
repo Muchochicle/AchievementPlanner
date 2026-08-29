@@ -201,6 +201,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ready-or-not"));
     assert.ok(slugs.includes("planet-zoo"));
     assert.ok(slugs.includes("two-point-hospital"));
+    assert.ok(slugs.includes("the-last-of-us-part-1"));
+    assert.ok(slugs.includes("nioh-2"));
+    assert.ok(slugs.includes("forza-horizon-5"));
 
 });
 

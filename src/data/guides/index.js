@@ -177,6 +177,9 @@ import { GUIDE as beamngDriveAchievementGuide } from "./games/beamng-drive.js";
 import { GUIDE as readyOrNotAchievementGuide } from "./games/ready-or-not.js";
 import { GUIDE as planetZooAchievementGuide } from "./games/planet-zoo.js";
 import { GUIDE as twoPointHospitalAchievementGuide } from "./games/two-point-hospital.js";
+import { GUIDE as theLastOfUsPart1AchievementGuide } from "./games/the-last-of-us-part-1.js";
+import { GUIDE as nioh2AchievementGuide } from "./games/nioh-2.js";
+import { GUIDE as forzaHorizon5AchievementGuide } from "./games/forza-horizon-5.js";
 
 export const APP_GUIDES = [
 
@@ -376,7 +379,10 @@ export const GAME_GUIDES = [
     beamngDriveAchievementGuide,
     readyOrNotAchievementGuide,
     planetZooAchievementGuide,
-    twoPointHospitalAchievementGuide
+    twoPointHospitalAchievementGuide,
+    theLastOfUsPart1AchievementGuide,
+    nioh2AchievementGuide,
+    forzaHorizon5AchievementGuide
 
 ];
 
