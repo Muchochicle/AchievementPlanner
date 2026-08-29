@@ -195,6 +195,9 @@ import { GUIDE as sleepingDogsAchievementGuide } from "./games/sleeping-dogs.js"
 import { GUIDE as watchDogs2AchievementGuide } from "./games/watch-dogs-2.js";
 import { GUIDE as mafia2DefinitiveEditionAchievementGuide } from "./games/mafia-2-definitive-edition.js";
 import { GUIDE as mortalKombat1AchievementGuide } from "./games/mortal-kombat-1.js";
+import { GUIDE as mafiaDefinitiveEditionAchievementGuide } from "./games/mafia-definitive-edition.js";
+import { GUIDE as dirtRally2AchievementGuide } from "./games/dirt-rally-2.js";
+import { GUIDE as warhammer40kBoltgunAchievementGuide } from "./games/warhammer-40k-boltgun.js";
 
 export const APP_GUIDES = [
 
@@ -412,7 +415,10 @@ export const GAME_GUIDES = [
     sleepingDogsAchievementGuide,
     watchDogs2AchievementGuide,
     mafia2DefinitiveEditionAchievementGuide,
-    mortalKombat1AchievementGuide
+    mortalKombat1AchievementGuide,
+    mafiaDefinitiveEditionAchievementGuide,
+    dirtRally2AchievementGuide,
+    warhammer40kBoltgunAchievementGuide
 
 ];
 

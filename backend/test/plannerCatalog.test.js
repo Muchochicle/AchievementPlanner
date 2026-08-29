@@ -219,6 +219,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("watch-dogs-2"));
     assert.ok(slugs.includes("mafia-2-definitive-edition"));
     assert.ok(slugs.includes("mortal-kombat-1"));
+    assert.ok(slugs.includes("mafia-definitive-edition"));
+    assert.ok(slugs.includes("dirt-rally-2"));
+    assert.ok(slugs.includes("warhammer-40k-boltgun"));
 
 });
 
