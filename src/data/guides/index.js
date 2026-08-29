@@ -234,6 +234,9 @@ import { GUIDE as nightingaleAchievementGuide } from "./games/nightingale.js";
 import { GUIDE as marvelsMidnightSunsAchievementGuide } from "./games/marvels-midnight-suns.js";
 import { GUIDE as thePlanetCrafterAchievementGuide } from "./games/the-planet-crafter.js";
 import { GUIDE as peglinAchievementGuide } from "./games/peglin.js";
+import { GUIDE as victoria3AchievementGuide } from "./games/victoria-3.js";
+import { GUIDE as survivingMarsAchievementGuide } from "./games/surviving-mars.js";
+import { GUIDE as fieldsOfMistriaAchievementGuide } from "./games/fields-of-mistria.js";
 
 export const APP_GUIDES = [
 
@@ -490,7 +493,10 @@ export const GAME_GUIDES = [
     nightingaleAchievementGuide,
     marvelsMidnightSunsAchievementGuide,
     thePlanetCrafterAchievementGuide,
-    peglinAchievementGuide
+    peglinAchievementGuide,
+    victoria3AchievementGuide,
+    survivingMarsAchievementGuide,
+    fieldsOfMistriaAchievementGuide
 
 ];
 
