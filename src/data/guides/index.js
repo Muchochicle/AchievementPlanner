@@ -189,6 +189,9 @@ import { GUIDE as warhammerVermintide2AchievementGuide } from "./games/warhammer
 import { GUIDE as twentyMinutesTillDawnAchievementGuide } from "./games/20-minutes-till-dawn.js";
 import { GUIDE as partyAnimalsAchievementGuide } from "./games/party-animals.js";
 import { GUIDE as gunfireRebornAchievementGuide } from "./games/gunfire-reborn.js";
+import { GUIDE as yakuzaLikeADragonAchievementGuide } from "./games/yakuza-like-a-dragon.js";
+import { GUIDE as mortalKombat11AchievementGuide } from "./games/mortal-kombat-11.js";
+import { GUIDE as sleepingDogsAchievementGuide } from "./games/sleeping-dogs.js";
 
 export const APP_GUIDES = [
 
@@ -400,7 +403,10 @@ export const GAME_GUIDES = [
     warhammerVermintide2AchievementGuide,
     twentyMinutesTillDawnAchievementGuide,
     partyAnimalsAchievementGuide,
-    gunfireRebornAchievementGuide
+    gunfireRebornAchievementGuide,
+    yakuzaLikeADragonAchievementGuide,
+    mortalKombat11AchievementGuide,
+    sleepingDogsAchievementGuide
 
 ];
 
