@@ -225,6 +225,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("football-manager-2024"));
     assert.ok(slugs.includes("watch-dogs-legion"));
     assert.ok(slugs.includes("f1-24"));
+    assert.ok(slugs.includes("metro-exodus"));
+    assert.ok(slugs.includes("ea-sports-fc-24"));
+    assert.ok(slugs.includes("devour"));
 
 });
 

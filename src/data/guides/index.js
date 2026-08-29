@@ -201,6 +201,9 @@ import { GUIDE as warhammer40kBoltgunAchievementGuide } from "./games/warhammer-
 import { GUIDE as footballManager2024AchievementGuide } from "./games/football-manager-2024.js";
 import { GUIDE as watchDogsLegionAchievementGuide } from "./games/watch-dogs-legion.js";
 import { GUIDE as f124AchievementGuide } from "./games/f1-24.js";
+import { GUIDE as metroExodusAchievementGuide } from "./games/metro-exodus.js";
+import { GUIDE as eaSportsFc24AchievementGuide } from "./games/ea-sports-fc-24.js";
+import { GUIDE as devourAchievementGuide } from "./games/devour.js";
 
 export const APP_GUIDES = [
 
@@ -424,7 +427,10 @@ export const GAME_GUIDES = [
     warhammer40kBoltgunAchievementGuide,
     footballManager2024AchievementGuide,
     watchDogsLegionAchievementGuide,
-    f124AchievementGuide
+    f124AchievementGuide,
+    metroExodusAchievementGuide,
+    eaSportsFc24AchievementGuide,
+    devourAchievementGuide
 
 ];
 
