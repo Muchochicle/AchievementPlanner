@@ -207,6 +207,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("against-the-storm"));
     assert.ok(slugs.includes("sniper-elite-5"));
     assert.ok(slugs.includes("atomic-heart"));
+    assert.ok(slugs.includes("human-fall-flat"));
+    assert.ok(slugs.includes("overcooked-2"));
+    assert.ok(slugs.includes("warhammer-vermintide-2"));
 
 });
 
