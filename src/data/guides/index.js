@@ -168,6 +168,9 @@ import { GUIDE as hotlineMiamiAchievementGuide } from "./games/hotline-miami.js"
 import { GUIDE as bioshockRemasteredAchievementGuide } from "./games/bioshock-remastered.js";
 import { GUIDE as bioshockInfiniteAchievementGuide } from "./games/bioshock-infinite.js";
 import { GUIDE as dishonoredAchievementGuide } from "./games/dishonored.js";
+import { GUIDE as helldivers2AchievementGuide } from "./games/helldivers-2.js";
+import { GUIDE as marvelRivalsAchievementGuide } from "./games/marvel-rivals.js";
+import { GUIDE as powerwashSimulatorAchievementGuide } from "./games/powerwash-simulator.js";
 
 export const APP_GUIDES = [
 
@@ -358,7 +361,10 @@ export const GAME_GUIDES = [
     hotlineMiamiAchievementGuide,
     bioshockRemasteredAchievementGuide,
     bioshockInfiniteAchievementGuide,
-    dishonoredAchievementGuide
+    dishonoredAchievementGuide,
+    helldivers2AchievementGuide,
+    marvelRivalsAchievementGuide,
+    powerwashSimulatorAchievementGuide
 
 ];
 

@@ -1,0 +1,922 @@
+{
+    "id": 1290000,
+    "steamAppId": 1290000,
+    "name": "PowerWash Simulator",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1290000/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Relaxing",
+        "Singleplayer",
+        "Cleaning"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TROPHY_1",
+            "name": "Soap Connoisseur",
+            "description": "Own all cleaning liquids at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "TROPHY_2",
+            "name": "Fully Equipped",
+            "description": "Own the Prime Vista 1500 and three of its attachments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "TROPHY_3",
+            "name": "Urban Xpert",
+            "description": "Own the UrbanX U2 and four of its attachments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "TROPHY_4",
+            "name": "Heavy Hitter",
+            "description": "Own the Prime Vista 3000 and five of its attachments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "TROPHY_5",
+            "name": "Unlimited Powerwash",
+            "description": "Own the Prime Vista PRO and six of its attachments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "TROPHY_6",
+            "name": "Fashionista",
+            "description": "Equip a new outfit, gloves and washer modification at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "TROPHY_7",
+            "name": "Powerful Pressure Purist",
+            "description": "Completely clean the Van using only the red nozzle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "TROPHY_8",
+            "name": "First Steps",
+            "description": "In the Back Garden, complete all 12 stepping stones first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "TROPHY_9",
+            "name": "StegoScore",
+            "description": "In the Playground, roll the football up the stegoslide",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "TROPHY_10",
+            "name": "Gutted",
+            "description": "Complete the Bungalow gutters last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "TROPHY_11",
+            "name": "Pave the Way",
+            "description": "In the Detached House, complete the Pathway, Driveway and Driveway Edges first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "TROPHY_12",
+            "name": "Sole Task",
+            "description": "Complete the sole of the Shoe House last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "TROPHY_13",
+            "name": "Tall Order",
+            "description": "Completely clean the Fire Station job without standing on the scaffolding",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "TROPHY_14",
+            "name": "Watermelon Shot",
+            "description": "In the Skatepark, push the ball out of the bowl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "TROPHY_15",
+            "name": "I Can See Clearly Now",
+            "description": "Complete the Fire Truck windows, windscreen and wing mirrors first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "TROPHY_16",
+            "name": "Impeccable Balance",
+            "description": "Stand on the Penny Farthing for 10 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "TROPHY_17",
+            "name": "Lantern Hunter",
+            "description": "In the Treehouse, complete all of the lanterns first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "TROPHY_18",
+            "name": "Live by the Blade",
+            "description": "Complete the Fire Helicopter blades first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "TROPHY_19",
+            "name": "Merrily Go Round",
+            "description": "Completely clean the Carousel without turning it off",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "TROPHY_20",
+            "name": "Gnome Sweet Gnome",
+            "description": "In the Temple, ensure the gnome is on the tower roof once the job is complete",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "TROPHY_21",
+            "name": "Delaying the Inevitable",
+            "description": "In the Washroom, complete the toilets, toilet seats and toilet lids last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "TROPHY_22",
+            "name": "Shine Bright",
+            "description": "On the Helter Skelter, complete the objects that have lightbulbs before anything else",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "TROPHY_23",
+            "name": "Suspicious Modifications",
+            "description": "Complete the Private Jet laser and anti-gravity parts first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "TROPHY_24",
+            "name": "Tyresome",
+            "description": "Complete the Monster Truck tyres first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "TROPHY_25",
+            "name": "Best Buds",
+            "description": "Ride around the Big Wheel with a gnome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "TROPHY_26",
+            "name": "Blast from the Past",
+            "description": "In the Subway Platform, complete the advertising boards first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "TROPHY_27",
+            "name": "Bucket List",
+            "description": "At the Ancient Statue, knock over four buckets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "TROPHY_28",
+            "name": "Delicate Excavation",
+            "description": "Completely clean the Ancient Monument using only the white nozzle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "TROPHY_29",
+            "name": "All Hands on Deck",
+            "description": "Complete the Fishing Boat bow, steps and main deck first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "TROPHY_30",
+            "name": "As It Was Foretold...",
+            "description": "Complete Career Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "TROPHY_31",
+            "name": "Coconut Dodge",
+            "description": "At the Fairground, knock over all of the coconuts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "TROPHY_32",
+            "name": "Starting Out",
+            "description": "Earn 5 Stars in Career Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "TROPHY_33",
+            "name": "Raking It In",
+            "description": "Earn 50 Stars Career Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "TROPHY_34",
+            "name": "Big Business",
+            "description": "Earn 100 Stars in Career Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "TROPHY_35",
+            "name": "Super Star",
+            "description": "Earn 150 Stars in Career Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "TROPHY_36",
+            "name": "Good Dings to Come",
+            "description": "Clean 95% of any job without completing any tasks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "TROPHY_37",
+            "name": "Head First",
+            "description": "Complete the Drill head and tip first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "TROPHY_38",
+            "name": "Going for Gold",
+            "description": "Get one gold medal in Challenge Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "TROPHY_39",
+            "name": "Gold Standard",
+            "description": "Get five gold medals in Challenge Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "TROPHY_40",
+            "name": "Side Hustle",
+            "description": "Complete a Bonus Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "TROPHY_41",
+            "name": "Naughty Nautical Neighbors",
+            "description": "Complete the Conch Street job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "TROPHY_42",
+            "name": "Bus is here!",
+            "description": "Complete the Bikini Bottom Bus job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "TROPHY_43",
+            "name": "Employee of the Month",
+            "description": "Complete the Krusty Krab job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "TROPHY_44",
+            "name": "Feast Your Eyes…",
+            "description": "Complete the Patty Wagon job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "TROPHY_45",
+            "name": "It's Supposed to be Invisible!",
+            "description": "Complete the Invisible Boatmobile job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "TROPHY_46",
+            "name": "Mermaidman and Barnacleboy Unite!",
+            "description": "Complete the Mermalair job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "TROPHY_47",
+            "name": "It's not a Boulder, It's a Rock!",
+            "description": "In the Conch Street job, complete Patrick's Rock, Rock Hinge and Rock Underside last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "TROPHY_48",
+            "name": "Bucket Sweet Bucket",
+            "description": "In the Krusty Krab job, complete the Chum Bucket first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "TROPHY_49",
+            "name": "I've Come for Your Pickle",
+            "description": "In the Patty Wagon job, complete the Pickles first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "TROPHY_50",
+            "name": "It's Not My Wallet",
+            "description": "In the Mermalair job, complete Patrick's Identity Card first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "TROPHY_51",
+            "name": "Great Scott!",
+            "description": "Complete the Doc Brown's Van job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "TROPHY_52",
+            "name": "OUTAGRIME",
+            "description": "Complete the Time Machine job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "TROPHY_53",
+            "name": "Save the Clocktower!",
+            "description": "Complete the Clocktower job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "TROPHY_54",
+            "name": "2015? You Mean We're in the Future?",
+            "description": "Complete the Holomax Theater job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "TROPHY_55",
+            "name": "Your Future is Whatever You Make it",
+            "description": "Complete the Doc's Time Train job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "TROPHY_56",
+            "name": "88 Miles Per Hour!",
+            "description": "Watch the Time Machine reappear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "TROPHY_57",
+            "name": "May it Stand for All Time!",
+            "description": "In the Clocktower job, ring the bell",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "TROPHY_58",
+            "name": "Shark Still Looks Fake",
+            "description": "In the Holomax Theater Job, activate the holographic shark ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "TROPHY_59",
+            "name": "Back to the Theater",
+            "description": "In the Holomax Theater job, clean the Grid Wall first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "TROPHY_60",
+            "name": "This is What Makes Time Travel Possible",
+            "description": "In the Doc's Time Train job, clean the Flux Capacitor and its Particle Colliders first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "TROPHY_61",
+            "name": "Courage and Honor!",
+            "description": "Complete the Land Raider job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "TROPHY_62",
+            "name": "Eternal Service",
+            "description": "Complete the Redemptor Dreadnought job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "TROPHY_63",
+            "name": "Cadia Stands!",
+            "description": "Complete the Rogal Dorn Battle Tank job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "TROPHY_64",
+            "name": "Sacristan's Duty",
+            "description": "Complete the Imperial Knight Paladin job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "TROPHY_65",
+            "name": "Sanguinius Would Be Proud",
+            "description": "Complete the Thunderhawk job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "TROPHY_66",
+            "name": "We March for Macragge!",
+            "description": "In the Land Raider job, complete the \"Ultramarines II\" Plaque first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "TROPHY_67",
+            "name": "Degrees of Redemption",
+            "description": "Completely clean the Redemptor Dreadnought using only the yellow nozzle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "TROPHY_68",
+            "name": "The Emperor Protects",
+            "description": "In the Imperial Knight Paladin job, complete the Tilt Shield and Tilt Shield Purity Seals first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "TROPHY_69",
+            "name": "Astra Militarum's Secret Weapon",
+            "description": "In the Rogal Dorn Battle Tank job, complete the Stowed Shovel first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "TROPHY_70",
+            "name": "Descend into Shadow, Rise into Light",
+            "description": "In the Thunderhawk Job, complete the Retro Thrusters first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "TROPHY_71",
+            "name": "Down the Rabbit-Hole",
+            "description": "Complete the Wonderland Entrance Hall job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "TROPHY_72",
+            "name": "The Rabbit Sends in a Little Bill",
+            "description": "Complete the White Rabbit's House job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "TROPHY_73",
+            "name": "Advice from a Caterpillar",
+            "description": "Complete the Caterpillar's Mushroom job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "TROPHY_74",
+            "name": "A Mad Tea-Party",
+            "description": "Complete the Mad Tea Party job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "TROPHY_75",
+            "name": "Who Stole the Tarts?",
+            "description": "Complete the Queen of Hearts' Court job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "TROPHY_76",
+            "name": "I Really Must be Getting Home",
+            "description": "In the Wonderland Entrance Hall, attempt to climb out of the rabbit hole using a ladder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "TROPHY_77",
+            "name": "Oh My Ears and Whiskers!",
+            "description": "In the White Rabbit's House, complete all Clocks on the Clocks Wall first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "TROPHY_78",
+            "name": "Metamorphosis",
+            "description": "In the Caterpillar's Mushroom, clean the Caterpillar's Cocoon last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "TROPHY_79",
+            "name": "Like a Tea Tray in the Sky",
+            "description": "In the Mad Tea Party, balance on the Strawberry on the topmost cake on the Cake Stand for 10 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "TROPHY_80",
+            "name": "Such a Curious Croquet-Ground",
+            "description": "In the Queen of Hearts' Court, roll the pink Croquet Ball onto the Croquet Finish Heart",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "TROPHY_81",
+            "name": "A Sacrifice I am Willing to Make",
+            "description": "Complete the Duloc job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "TROPHY_82",
+            "name": "Honeymoon!? With Whom?",
+            "description": "Complete the Hansel's Honeymoon Hideaway job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 83,
+            "apiname": "TROPHY_83",
+            "name": "Get Out Of My Swamp!",
+            "description": "Complete the Shrek's Swamp job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 84,
+            "apiname": "TROPHY_84",
+            "name": "Working Hard or Hardly Working? ",
+            "description": "Complete the Fairy Godmother's Potion Factory job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "TROPHY_85",
+            "name": "That'll do, Donkey",
+            "description": "Complete the Dragon's Lair job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 86,
+            "apiname": "TROPHY_86",
+            "name": "Somebody Once Told Me…",
+            "description": "In the Shrek's Swamp job, clean the Outhouse Door and Outhouse Door Handle first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 87,
+            "apiname": "TROPHY_87",
+            "name": "Welcome to Duloc...",
+            "description": "In the Duloc job, interact with the Information Stand Lever",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 88,
+            "apiname": "TROPHY_88",
+            "name": "Are We There Yet?",
+            "description": "In the Hansel's Honeymoon Hideaway job, wait in the Onion Carriage for 30 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "TROPHY_89",
+            "name": "Look At Me Shrek, I'm Trotting",
+            "description": "In the Fairy Godmother's Potion Factory job, run on the Running Wheel for 20 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 90,
+            "apiname": "TROPHY_90",
+            "name": "Like That's Ever Gonna Happen…",
+            "description": "In the Dragon's Lair job, clean the Gallery Tapestries last",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 91,
+            "apiname": "TROPHY_91",
+            "name": "Home Sweet Home",
+            "description": "Complete the Wallace & Gromit's Dining Room & Kitchen job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 92,
+            "apiname": "TROPHY_92",
+            "name": "Right house proud",
+            "description": "Complete the Wallace & Gromit's House job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "TROPHY_93",
+            "name": "All knitted up!",
+            "description": "Complete the Knit-O-Matic job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 94,
+            "apiname": "TROPHY_94",
+            "name": "Now we’re motoring!",
+            "description": "Complete the Wallace & Gromit's Vehicles job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 95,
+            "apiname": "TROPHY_95",
+            "name": "We have touchdown!",
+            "description": "Complete the Moon Rocket job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 96,
+            "apiname": "TROPHY_96",
+            "name": "All aboard!",
+            "description": "In the Wallace & Gromit's Dining Room & Kitchen job, activate the Toy Train",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "TROPHY_97",
+            "name": "Pond possession!",
+            "description": "In the Wallace & Gromit's House job, roll the football under the pond",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 98,
+            "apiname": "TROPHY_98",
+            "name": "Baaath time!",
+            "description": "In the Knit-O-Matic job, activate the Auto-Wash",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 99,
+            "apiname": "TROPHY_99",
+            "name": "Squeaky-clean strides!",
+            "description": "In the Wallace & Gromit's Vehicles job, clean the Techno Trousers first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 100,
+            "apiname": "TROPHY_100",
+            "name": "The Art of Cleaning",
+            "description": "In the Moon Rocket job, clean the paintings inside the rocket first",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

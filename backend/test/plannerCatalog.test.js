@@ -192,6 +192,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("bioshock-remastered"));
     assert.ok(slugs.includes("bioshock-infinite"));
     assert.ok(slugs.includes("dishonored"));
+    assert.ok(slugs.includes("helldivers-2"));
+    assert.ok(slugs.includes("marvel-rivals"));
+    assert.ok(slugs.includes("powerwash-simulator"));
 
 });
 
