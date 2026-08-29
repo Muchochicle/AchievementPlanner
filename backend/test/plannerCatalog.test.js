@@ -261,6 +261,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("victoria-3"));
     assert.ok(slugs.includes("surviving-mars"));
     assert.ok(slugs.includes("fields-of-mistria"));
+    assert.ok(slugs.includes("europa-universalis-4"));
+    assert.ok(slugs.includes("necesse"));
+    assert.ok(slugs.includes("the-riftbreaker"));
 
 });
 

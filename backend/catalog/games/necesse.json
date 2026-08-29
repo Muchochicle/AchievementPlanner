@@ -1,0 +1,481 @@
+{
+    "id": 1169040,
+    "steamAppId": 1169040,
+    "name": "Necesse",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1169040/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 30,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Sandbox",
+        "Survival",
+        "Top-Down",
+        "Settlement Sim"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "spelunker",
+            "name": "Spelunker",
+            "description": "Be careful to not get lost!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "defeat_boss",
+            "name": "First of Many",
+            "description": "Defeat your first boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "get_pet",
+            "name": "Companion For Adventure",
+            "description": "Get your first pet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "start_settlement",
+            "name": "Do It Yourself",
+            "description": "Start a settlement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "set_spawn",
+            "name": "Instant Nap",
+            "description": "Change your spawn point",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "enchant_item",
+            "name": "Artificer",
+            "description": "Enchant an item using the mage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "obtain_items",
+            "name": "Complete Collector",
+            "description": "Obtain all possible items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "visit_biomes",
+            "name": "Tourist",
+            "description": "Visit all different biomes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "fish_up",
+            "name": "More Than A Hobby",
+            "description": "Fish up a total of 500 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "run_marathon",
+            "name": "Marathon Runner",
+            "description": "Run a full marathon on foot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "play_24h",
+            "name": "Time Well Spent",
+            "description": "Play the game for a full 24 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "magical_drop",
+            "name": "Magical Drop",
+            "description": "Increase max trinket slots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "hoarder",
+            "name": "Hoarder",
+            "description": "Have an inventory full of different items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "self_proclaimed",
+            "name": "Self Proclaimed",
+            "description": "Wear a gold crown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "double_catch",
+            "name": "Double Catch",
+            "description": "Catch 2 fish in 1 throw",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "complete_host",
+            "name": "Complete Host",
+            "description": "Have all possible settler professions live in the same settlement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "getting_hot",
+            "name": "Getting Hot",
+            "description": "Reach the deep caves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "my_jam",
+            "name": "My Jam",
+            "description": "Listen to a vinyl on the music player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "cloud_nine",
+            "name": "Cloud Nine",
+            "description": "Have a settler reach Unrivaled Quality of Life level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "one_tapped",
+            "name": "One Tapped",
+            "description": "Kill a Zombie in a single hit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "too_easy",
+            "name": "Too Easy",
+            "description": "Kill a boss in less than 30 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "headhunter",
+            "name": "Headhunter",
+            "description": "Recruit your first settler",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "rematch",
+            "name": "Rematch",
+            "description": "Defeat the Fallen Wizard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "defeat_pirate",
+            "name": "Washed Up",
+            "description": "Defeat the Pirate Captain",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "grave_digger",
+            "name": "Grave Digger",
+            "description": "Find and dig up a gravestone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "equip_ability",
+            "name": "Watch Me!",
+            "description": "Equip your first trinket ability",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "demolition_expert",
+            "name": "Demolition Expert",
+            "description": "Kill an enemy with a bomb",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "complete_incursion",
+            "name": "Take it to the next level",
+            "description": "Complete an incursion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "master_of_sun_and_moon",
+            "name": "Master of Sun and Moon",
+            "description": "Defeat Sunlight Champion and Moonlight Dancer at Tier 5 or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "teamwork",
+            "name": "Teamwork",
+            "description": "Have a settler join your adventure party",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "empowered",
+            "name": "Empowered",
+            "description": "Upgrade and equip a full set of Tier 5 armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "feeling_stylish",
+            "name": "Feeling Stylish",
+            "description": "Get a new look from the Stylist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "safety_last",
+            "name": "Safety Last",
+            "description": "Take damage from a bundle of TNT",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "get_4_item_sets",
+            "name": "Wardrobe on the go!",
+            "description": "Get access to 4 item sets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "hot_tub",
+            "name": "Hot Tub",
+            "description": "Swim in lava while under the effect of fire resistance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "adventure_begins",
+            "name": "Adventure Begins!",
+            "description": "Reach the first major story objective",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "dodge_this",
+            "name": "Dodge This!",
+            "description": "Defeat the Fallen Wizard while 5 Fallen Dragons are alive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "secret_service",
+            "name": "Secret Service",
+            "description": "Have only 2 guards in your adventure party, both wearing sunglasses, blazer and dress shoes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "home_alone",
+            "name": "Home Alone",
+            "description": "Kill a raider with a trap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "crystallized",
+            "name": "Crystallized",
+            "description": "Reach the full potential of the Ruby or Amethyst set",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "you_and_what_army",
+            "name": "You and what Army?",
+            "description": "Have 10 settlers in your adventure party equip a tier 5 or higher armor set and weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "me_and_this_army",
+            "name": "Me and this Army!",
+            "description": "Defeat an incursion boss with only damage from settlers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "have_40_perks",
+            "name": "That's a lot of dust!",
+            "description": "Have 40 perks active in a single Fallen Altar at a time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "overpowered",
+            "name": "Overpowered",
+            "description": "Upgrade and equip a full set of Tier 10 armor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "settling_down",
+            "name": "Settling Down",
+            "description": "Upgrade your settlement size",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "expansionist",
+            "name": "Expansionist",
+            "description": "Have a fully upgraded settlement size",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "defeated_ascended",
+            "name": "Restored Reality",
+            "description": "Find and defeat the final boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "cloud_ten",
+            "name": "Cloud Ten",
+            "description": "Achieve Unrivaled Quality of Life on 10 settlers at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "rich_character",
+            "name": "Rich Character",
+            "description": "Recruit a Settler with 6 or more personalities",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "true_love",
+            "name": "True Love",
+            "description": "Become Life Partners with one of your Settlers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "speeding_ticket",
+            "name": "Speeding Ticket",
+            "description": "Achieve MAXIMUM speed while driving a Bumper Car",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

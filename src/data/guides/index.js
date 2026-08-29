@@ -237,6 +237,9 @@ import { GUIDE as peglinAchievementGuide } from "./games/peglin.js";
 import { GUIDE as victoria3AchievementGuide } from "./games/victoria-3.js";
 import { GUIDE as survivingMarsAchievementGuide } from "./games/surviving-mars.js";
 import { GUIDE as fieldsOfMistriaAchievementGuide } from "./games/fields-of-mistria.js";
+import { GUIDE as europaUniversalis4AchievementGuide } from "./games/europa-universalis-4.js";
+import { GUIDE as necesseAchievementGuide } from "./games/necesse.js";
+import { GUIDE as theRiftbreakerAchievementGuide } from "./games/the-riftbreaker.js";
 
 export const APP_GUIDES = [
 
@@ -496,7 +499,10 @@ export const GAME_GUIDES = [
     peglinAchievementGuide,
     victoria3AchievementGuide,
     survivingMarsAchievementGuide,
-    fieldsOfMistriaAchievementGuide
+    fieldsOfMistriaAchievementGuide,
+    europaUniversalis4AchievementGuide,
+    necesseAchievementGuide,
+    theRiftbreakerAchievementGuide
 
 ];
 
