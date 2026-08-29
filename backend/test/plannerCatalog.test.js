@@ -231,6 +231,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mad-max"));
     assert.ok(slugs.includes("just-cause-4"));
     assert.ok(slugs.includes("rage-2"));
+    assert.ok(slugs.includes("barotrauma"));
+    assert.ok(slugs.includes("dinkum"));
+    assert.ok(slugs.includes("warhammer-40k-darktide"));
 
 });
 

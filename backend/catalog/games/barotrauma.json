@@ -1,0 +1,706 @@
+{
+    "id": 602960,
+    "steamAppId": 602960,
+    "name": "Barotrauma",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/602960/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Submarine Sim",
+        "Survival",
+        "Horror"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "killmoloch",
+            "name": "Killed a Moloch",
+            "description": "Take down a Moloch.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "killhammerhead",
+            "name": "Stop the Hammertime",
+            "description": "Kill a Hammerhead.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "killendworm",
+            "name": "The Bigger They Are, the Harder They Fall",
+            "description": "Kill an Endworm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "artifactmission",
+            "name": "Xenoarchaeologist",
+            "description": "Complete an artifact mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "combatmission1",
+            "name": "For the Coalition",
+            "description": "Defeat the Separatists in a PvP submarine-vs-submarine mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "combatmission2",
+            "name": "Viva la Revolution",
+            "description": "Defeat the Coalition crew in a PvP submarine-vs-submarine mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "healcrit",
+            "name": "Don't You Die on Me!",
+            "description": "Heal someone back from a critical state by performing CPR.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "repairdevice",
+            "name": "As Good As New",
+            "description": "Repair a broken device.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "traitorwin",
+            "name": "Insurgency",
+            "description": "Successfully complete a traitor objective.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "killtraitor",
+            "name": "Not On My Watch",
+            "description": "Take down a traitor before they manage to complete their objective.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "killclown",
+            "name": "No Fun Allowed",
+            "description": "Kill a clown.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "healopiateaddiction",
+            "name": "Getting Clean",
+            "description": "Recover from an opiate addiction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "survivecrushdepth",
+            "name": "A Gaze into the Abyss",
+            "description": "Take the submarine down to crush depth and survive.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "survivereactormeltdown",
+            "name": "Nuclear Blast Survivor",
+            "description": "Complete a round after a nuclear meltdown.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "healhusk",
+            "name": "I Am the Cure",
+            "description": "Cure a husk infection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "killpoison",
+            "name": "Poisoner",
+            "description": "Kill something with morbusine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "killnuke",
+            "name": "I Am Become Death",
+            "description": "Kill something with nuclear explosives.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "killtool",
+            "name": "Whatever Works",
+            "description": "Kill something with a plasma cutter, welding tool or a wrench.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "clowncostume",
+            "name": "Praise the Honkmother",
+            "description": "Obtain a full clown costume.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "lastmanstanding",
+            "name": "Last Man Standing",
+            "description": "Complete a round alone after everyone else in the crew has perished.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "lonesailor",
+            "name": "The Lone Sailor",
+            "description": "Complete a round alone from start to finish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "subhighvelocity",
+            "name": "Gotta Go Fast",
+            "description": "Accelerate a submarine to over 50 km/h.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "nodamagerun",
+            "name": "Smooth Sailing",
+            "description": "Complete a round without any casualties or damage to the submarine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "subdeep",
+            "name": "Where No Man Has Gone Before",
+            "description": "Descend below 5000 meters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "maxintensity",
+            "name": "This is Fine.",
+            "description": "Face a complete and utter disaster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "discovercoldcaverns",
+            "name": "The Cold Caverns",
+            "description": "Discover the Cold Caverns.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "discovereuropanridge",
+            "name": "The Europan Ridge",
+            "description": "Discover the Europan Ridge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "discoverhydrothermalwastes",
+            "name": "The Hydrothermal Wastes",
+            "description": "Discover the Hydrothermal Wastes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "discovertheaphoticplateau",
+            "name": "The Aphotic Plateau",
+            "description": "Discover the Aphotic Plateau",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "discoverthegreatsea",
+            "name": "The Great Sea",
+            "description": "Discover the Great Sea.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "travel10",
+            "name": "Novice Seafarer",
+            "description": "Travel over 10 kilometers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "travel100",
+            "name": "Experienced Seafarer",
+            "description": "Travel over 100 kilometers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "xenocide",
+            "name": "Xenocide",
+            "description": "Kill 100 creatures.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "genocide",
+            "name": "Genocide",
+            "description": "Kill 100 humans (fastest by repeatedly completing bandit-outpost missions).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "cargomission",
+            "name": "Freighter",
+            "description": "Complete a cargo mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "subeditor24h",
+            "name": "Naval Architect",
+            "description": "Spend 24 hours in the submarine editor in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "crewaway",
+            "name": "Extravehicular Activity",
+            "description": "Venture 500 meters away from the sub.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "captainround",
+            "name": "Here I Recognize No Superiors",
+            "description": "Complete a round as a Captain.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "securityofficerround",
+            "name": "I am the Law",
+            "description": "Complete a round as a Security Officer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "engineerround",
+            "name": "Ever Increasing in Speed and Power",
+            "description": "Complete a round as an Electrical Engineer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "mechanicround",
+            "name": "Truth in Simplicity",
+            "description": "Complete a round as a Mechanic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "medicaldoctorround",
+            "name": "According to Ability and Judgment",
+            "description": "Complete a round as a Medical Doctor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "assistantround",
+            "name": "Do What You Love",
+            "description": "Complete a round as an Assistant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "campaigncompleted",
+            "name": "The End is the Beginning",
+            "description": "Finish the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "salvagewreckmission",
+            "name": "Underwater Coffin",
+            "description": "Complete a wreck salvage mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "escortmission",
+            "name": "Safety Not Guaranteed",
+            "description": "Complete an escort mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "killcharybdis",
+            "name": "The Abyss Gazes Back",
+            "description": "Kill a Charybdis.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "killlatcher",
+            "name": "The King of Cling",
+            "description": "Kill a latcher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "killspineling_giant",
+            "name": "Spinal Tapped",
+            "description": "Kill a giant spineling.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "killcrawlerbroodmother",
+            "name": "Kill It Before It Lays Eggs!",
+            "description": "Kill a crawler Broodmother.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "ascension",
+            "name": "Ascension",
+            "description": "Become a perfect example of symbiotic harmony.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "campaignmetadata_pathofthebikehorn_7",
+            "name": "The Grandest of Jesters",
+            "description": "Learn to laugh at the Grand Joke of the Universe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "campaignmetadata_coalitionspecialhire1_hired_true",
+            "name": "Top Brass",
+            "description": "Reinforce your crew with an eminent Coalition leader.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "campaignmetadata_coalitionspecialhire2_hired_true",
+            "name": "The Cream of the Crop",
+            "description": "Employ the skills of a celebrity chef to your crew.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "campaignmetadata_separatistspecialhire1_hired_true",
+            "name": "Force for the Forceless",
+            "description": "Bolster your crew by hiring a steadfast Separatist leader.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "campaignmetadata_separatistspecialhire2_hired_true",
+            "name": "Some Men Just Want to Watch the World Burn",
+            "description": "Enlist the services of an elusive explosives expert.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "campaignmetadata_huskcultspecialhire1_hired_true",
+            "name": "Heralds of the Tide",
+            "description": "Allow an enigmatic religious leader to assist your crew.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "campaignmetadata_clownspecialhire1_hired_true",
+            "name": "The Teacher of Nothing",
+            "description": "Accept the offer of a senior humorist to join your crew.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "scanruin",
+            "name": "Ruin Raider",
+            "description": "Complete a \"scan alien ruin\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "clearruin",
+            "name": "Aggressive Archaeology",
+            "description": "Complete a \"clear alien ruin\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "beaconmission",
+            "name": "A Light in the Darkness",
+            "description": "Restore a run-down beacon station.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "abandonedoutpostrescue",
+            "name": "Knight in Rusty Armor",
+            "description": "Complete a \"rescue hostages\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "abandonedoutpostassassinate",
+            "name": "Bounty Hunter",
+            "description": "Complete an \"assassinate bandit leader\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "abandonedoutpostdestroyhumans",
+            "name": "Unwanted Guests",
+            "description": "Complete a \"destroy bandit outpost\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "abandonedoutpostdestroymonsters",
+            "name": "Pest Control",
+            "description": "Complete a \"destroy monster-infested outpost\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "nestmission",
+            "name": "Don't Count Them Before They Hatch",
+            "description": "Complete a \"destroy monster nest\" mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "miningmission",
+            "name": "Amateur Geologist",
+            "description": "Complete a mining mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "combatmissionseparatistsvscoalition",
+            "name": "Fight the Power",
+            "description": "Defeat a Coalition submarine in a PvE submarine-vs-submarine mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "combatmissioncoalitionvsseparatists",
+            "name": "Resistance is Futile",
+            "description": "Defeat a Separatist submarine in a PvE submarine-vs-submarine mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "getoutalive",
+            "name": "Get Out Alive",
+            "description": "Get through the entirety of the Cold Caverns without losing your character in permadeath mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "abyssbeckons",
+            "name": "The Abyss Beckons",
+            "description": "Lose a character permanently.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "europasfinest",
+            "name": "Europa's Finest",
+            "description": "Complete a campaign on permadeath or ironman mode in multiplayer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "kingofthehull",
+            "name": "King of the Hull",
+            "description": "Win a PvP King of the Hull mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "killmantis",
+            "name": "Hide And Seek",
+            "description": "Kill a Cave Mantis (found only in caves - mineral missions are the easiest way to find one).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "ancientnovelty",
+            "name": "Ancient Novelty",
+            "description": "Destroy an alien terminal using alien curio.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "whatsmirksbelow",
+            "name": "What Smirks Below",
+            "description": "Kill a psycho clown on a beacon station.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

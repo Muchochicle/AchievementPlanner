@@ -207,6 +207,9 @@ import { GUIDE as devourAchievementGuide } from "./games/devour.js";
 import { GUIDE as madMaxAchievementGuide } from "./games/mad-max.js";
 import { GUIDE as justCause4AchievementGuide } from "./games/just-cause-4.js";
 import { GUIDE as rage2AchievementGuide } from "./games/rage-2.js";
+import { GUIDE as barotraumaAchievementGuide } from "./games/barotrauma.js";
+import { GUIDE as dinkumAchievementGuide } from "./games/dinkum.js";
+import { GUIDE as warhammer40kDarktideAchievementGuide } from "./games/warhammer-40k-darktide.js";
 
 export const APP_GUIDES = [
 
@@ -436,7 +439,10 @@ export const GAME_GUIDES = [
     devourAchievementGuide,
     madMaxAchievementGuide,
     justCause4AchievementGuide,
-    rage2AchievementGuide
+    rage2AchievementGuide,
+    barotraumaAchievementGuide,
+    dinkumAchievementGuide,
+    warhammer40kDarktideAchievementGuide
 
 ];
 
