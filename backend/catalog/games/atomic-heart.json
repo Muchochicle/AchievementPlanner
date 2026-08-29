@@ -1,0 +1,760 @@
+{
+    "id": 668580,
+    "steamAppId": 668580,
+    "name": "Atomic Heart",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action FPS",
+        "Immersive Sim",
+        "Alternate History",
+        "Story-Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "progress100",
+            "name": "The Motherland Does Not Forget its Heroes",
+            "description": "Unlock all achievements",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "killEzhihaWithoutDamage",
+            "name": "Strike",
+            "description": "Kill Hedgie without making a single shot / destroy all statues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "killBelyash",
+            "name": "Medium Rare",
+            "description": "Kill Belyash",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "killEziha",
+            "name": "Make It Go Round",
+            "description": "Kill Hedgie",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "killIvy",
+            "name": "Plyusch Rush",
+            "description": "Kill Plyusch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 6,
+            "apiname": "killNatasha",
+            "name": "Show's Over",
+            "description": "Kill Natasha",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "killDew",
+            "name": "Dew Point",
+            "description": "Kill Dewdrop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 8,
+            "apiname": "killTwins",
+            "name": "Murderous Beauty",
+            "description": "Kill Twins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "killBelyashWithoutShoot",
+            "name": "Chop Chop Chop",
+            "description": "Kill Belyash with a melee weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "playthroughChelomey",
+            "name": "Happy Polymerization Day!",
+            "description": "Fly out of Chelomey",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "playthroughVavilov",
+            "name": "Pistils and Stamens",
+            "description": "Get out of Vavilov",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "playthroughLesnaya",
+            "name": "Tickets, Please!",
+            "description": "Take a train at the Lesnaya Maglev train station",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "playthroughVDNH",
+            "name": "Quite an Achievement",
+            "description": "Clear the VDNH complex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "playthroughTheater",
+            "name": "Curtain",
+            "description": "Finish a theater performance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "playthroughHospital",
+            "name": "Medical Checkup",
+            "description": "Get to a hospital",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "playthroughPavlov",
+            "name": "Freedom Reflex",
+            "description": "Explore Pavlov",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "playthroughAcademy",
+            "name": "Kommunism 2.0",
+            "description": "Find out the AoC's secret",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "playthroughAllGameHardcore",
+            "name": "Atomic Heart",
+            "description": "Complete the game on Armageddon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "craftFirstWeapon",
+            "name": "Artisan",
+            "description": "Create a weapon in a crafting machine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "craftFiveUniqueWeapons",
+            "name": "Weapon Master",
+            "description": "Create five types of weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "collectAllWeapons",
+            "name": "Lord of War",
+            "description": "Collect all weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "craftAllConsumable",
+            "name": "Chemist",
+            "description": "Craft consumables of all types",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "collectAllJelly",
+            "name": "Polymerization",
+            "description": "Collect 100 jelly",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "collectAllApples",
+            "name": "Apple Pie",
+            "description": "Pick all apples in Limbo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "craftUpgradeWeapons",
+            "name": "The Great Inventor",
+            "description": "Upgrade a weapon to the maximum level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "craftUpgradeSkillCategory",
+            "name": "Lefthand Mastery",
+            "description": "Fully upgrade one skill tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "researchHelloPhone",
+            "name": "How Can I Help You?",
+            "description": "Use a phone booth at Chelomey",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "researchAnimalDialogue",
+            "name": "Beast Friend",
+            "description": "Find all talking dead animals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "researchCorpseDialogue",
+            "name": "The Necromancer",
+            "description": "Talk to every dead",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "researchCollectAllAudioDiary",
+            "name": "Burning Ears",
+            "description": "Find all Chirpers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "researchLootboy",
+            "name": "More Than Profit",
+            "description": "Find all Lootyagins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "researchFindAllTestSites",
+            "name": "Explorer",
+            "description": "Find a testing ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "researchCompleteAllTestSites",
+            "name": "Clean-up",
+            "description": "Complete all testing grounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "researchAnalyzAllMobs",
+            "name": "Scanner",
+            "description": "Scan all mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "battleAvatar",
+            "name": "Avatar",
+            "description": "Kill 10 burning enemies, 10 electrified enemies, and 10 frozen enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "battleDaredevil",
+            "name": "Hothead",
+            "description": "Get 25 kills with headshots using the PM",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "battleBelowZero",
+            "name": "Below Zero",
+            "description": "Freeze a Vova mid-air",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "battleAssimilationIsIncomplete",
+            "name": "Assimilation Procedure Interrupted",
+            "description": "Don't let a sprout grow into a mutant",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "battleBullsEye",
+            "name": "Bull's Eye!",
+            "description": "Use Telekinesis to throw an object and knock down an Owl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "battleFightAgainstDrunkenness",
+            "name": "Alcoholics Anonymous",
+            "description": "Get drunk with vodka and kill 5 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "battleTriplePenetration",
+            "name": "Triple Penetration",
+            "description": "Kill 3 or more enemies with a single Railgun shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "battleKillByCar",
+            "name": "Hands on the Hood",
+            "description": "Hit 20 enemies by a car",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "playthroughWeirdScience",
+            "name": "Weird Science",
+            "description": "Get into the ORB lab",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "playthroughLordOfTheFlies",
+            "name": "Lord of the Flies",
+            "description": "Use a Strekoza for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "playthroughGirsBestFriend",
+            "name": "A Girl's Best Friend",
+            "description": "Send all BEA-Ds to NORA's brain",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "playthroughReturnToUtopia",
+            "name": "Return to Utopia",
+            "description": "Complete the Annihilation Instinct DLC",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "battleDivideEtImpera",
+            "name": "Divide et Impera",
+            "description": "Separate several combined BEA-Ds with one shot from the Secateur",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "battleBoxInBottle",
+            "name": "Time in a Bottle",
+            "description": "Kill 3 enemies while using technostasis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "battleJohnSilversCrew",
+            "name": "John Silver's Crew",
+            "description": "Kill 3 M4D-5 robots in a row while they're hopping on one foot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "battleRedOctober",
+            "name": "Ultimate Storm",
+            "description": "Destroy 15 enemies using the neuropolymeric launch module",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "craftMaximumStrength",
+            "name": "Maximum Strength",
+            "description": "Upgrade the Klusha and Secateur to max",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "appleSurfer",
+            "name": "Apple Pie 3826",
+            "description": "Collect 3,826 apples in the Trapped in Limbo DLC",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "defenderOfNature",
+            "name": "Conservationist",
+            "description": "Get a gold coin without shooting the Pchela",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 54,
+            "apiname": "iLoveThisCasino",
+            "name": "The Casino Isn't Always in the Black",
+            "description": "Get ALL items from the slot machine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 55,
+            "apiname": "cuttingThroughTheWavesOfLimbo",
+            "name": "Slashing Through the Limbo Waves",
+            "description": "Complete the Plateau of Responsibility without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "conquerorOfAnnapurna",
+            "name": "Conqueror of Annapurna",
+            "description": "Complete the Tower of Memory without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "conquerorOfChomolungma",
+            "name": "Conqueror of Chomolungma",
+            "description": "Complete the Cliff of Perseverance without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "limboSurfer",
+            "name": "Daring as a Bullet is Sharp",
+            "description": "Complete the Avenue of Speed without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "easyWalk",
+            "name": "Don't Mess With the Major",
+            "description": "Complete the Trapped in Limbo DLC without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "goldenFever",
+            "name": "Gold Rush",
+            "description": "Collect 76 gold coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "overKill",
+            "name": "Overkill",
+            "description": "In the Trapped in Limbo DLC, collect a 77th gold coin - one more than the 76 needed for Gold Rush - by farming coins from replayed levels.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "MobiDik",
+            "name": "Moby Dick",
+            "description": "While standing by the window, listen to a chirper narrating the story of the mysterious tune",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "SurvivalMaster",
+            "name": "Master of Survival",
+            "description": "Find all the Hunter's stashes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "DemonstrationOfViolence",
+            "name": "Demonstration of Violence",
+            "description": "Destroy the Robogirl at Chelomey",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "EndOfDLC3",
+            "name": "And now—CHAR-les",
+            "description": "Complete the story DLC",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "WaterSports",
+            "name": "Water Sports",
+            "description": "Toss the ball back and forth with the dolphin three times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "YouReadTheInstructions",
+            "name": "You've Read the Manual!",
+            "description": "Pull yourself close to your enemy with the Whip",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "FirstTalkDLC3",
+            "name": "I'm here if you need to talk",
+            "description": "Talk to Terentiy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "Beyond",
+            "name": "Hic Sunt Dracones",
+            "description": "Swim beyond the underwater world's borders, ignoring warnings",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "MurenaDead",
+            "name": "Marco... Polo!",
+            "description": "Fall in the water at Wave and get killed by Morays",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "LastJump",
+            "name": "Final Burn-down",
+            "description": "Destroy all of the infected plants on the submarine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "EnotDead",
+            "name": "Let's Shake on It!",
+            "description": "Exterminate the RACCOON boss",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "ValidolsTasks",
+            "name": "Validol's Our Bro",
+            "description": "Complete Validol's mission peacefully",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 74,
+            "apiname": "EasterEggFromFluffy",
+            "name": "Fluffy Easter Egg",
+            "description": "Find the secret room with the fluffball",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "RaccoonFigurine",
+            "name": "Better Late Than Never",
+            "description": "Find the dolphin figurine in the secret room",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "SecretMeet",
+            "name": "Secret Meeting",
+            "description": "Open the secret room with observers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "DeathTerminator",
+            "name": "Terminator's Death",
+            "description": "Use an industrial press to destroy robots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 78,
+            "apiname": "LastTwinsDead",
+            "name": "Clean in Two",
+            "description": "Defeat the Second Twin",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 79,
+            "apiname": "SaveSechinov",
+            "name": "For Chief's a Jolly Good Fellow",
+            "description": "Save Sechenov",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 80,
+            "apiname": "GoodbyeOldFriend",
+            "name": "Farewell, Old Friend",
+            "description": "Beat CHAR-les",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "DLC4End",
+            "name": "This Is the End",
+            "description": "Complete the story DLC",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 82,
+            "apiname": "CrystalPlatinum",
+            "name": "Crystal Platinum",
+            "description": "Collect all of the figurines hidden in the complex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

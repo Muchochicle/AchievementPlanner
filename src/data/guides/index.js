@@ -180,6 +180,9 @@ import { GUIDE as twoPointHospitalAchievementGuide } from "./games/two-point-hos
 import { GUIDE as theLastOfUsPart1AchievementGuide } from "./games/the-last-of-us-part-1.js";
 import { GUIDE as nioh2AchievementGuide } from "./games/nioh-2.js";
 import { GUIDE as forzaHorizon5AchievementGuide } from "./games/forza-horizon-5.js";
+import { GUIDE as againstTheStormAchievementGuide } from "./games/against-the-storm.js";
+import { GUIDE as sniperElite5AchievementGuide } from "./games/sniper-elite-5.js";
+import { GUIDE as atomicHeartAchievementGuide } from "./games/atomic-heart.js";
 
 export const APP_GUIDES = [
 
@@ -382,7 +385,10 @@ export const GAME_GUIDES = [
     twoPointHospitalAchievementGuide,
     theLastOfUsPart1AchievementGuide,
     nioh2AchievementGuide,
-    forzaHorizon5AchievementGuide
+    forzaHorizon5AchievementGuide,
+    againstTheStormAchievementGuide,
+    sniperElite5AchievementGuide,
+    atomicHeartAchievementGuide
 
 ];
 
