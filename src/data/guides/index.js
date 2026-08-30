@@ -327,6 +327,9 @@ import { GUIDE as seriousSam4AchievementGuide } from "./games/serious-sam-4.js";
 import { GUIDE as saintsRowTheThirdAchievementGuide } from "./games/saints-row-the-third.js";
 import { GUIDE as back4BloodAchievementGuide } from "./games/back-4-blood.js";
 import { GUIDE as worldWarZAchievementGuide } from "./games/world-war-z.js";
+import { GUIDE as fallout76AchievementGuide } from "./games/fallout-76.js";
+import { GUIDE as redFactionGuerrillaRemasteredAchievementGuide } from "./games/red-faction-guerrilla-remastered.js";
+import { GUIDE as metalHellsingerAchievementGuide } from "./games/metal-hellsinger.js";
 
 export const APP_GUIDES = [
 
@@ -676,7 +679,10 @@ export const GAME_GUIDES = [
     seriousSam4AchievementGuide,
     saintsRowTheThirdAchievementGuide,
     back4BloodAchievementGuide,
-    worldWarZAchievementGuide
+    worldWarZAchievementGuide,
+    fallout76AchievementGuide,
+    redFactionGuerrillaRemasteredAchievementGuide,
+    metalHellsingerAchievementGuide
 
 ];
 

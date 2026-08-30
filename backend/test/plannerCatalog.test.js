@@ -351,6 +351,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("saints-row-the-third"));
     assert.ok(slugs.includes("back-4-blood"));
     assert.ok(slugs.includes("world-war-z"));
+    assert.ok(slugs.includes("fallout-76"));
+    assert.ok(slugs.includes("red-faction-guerrilla-remastered"));
+    assert.ok(slugs.includes("metal-hellsinger"));
 
 });
 
