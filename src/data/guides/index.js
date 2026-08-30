@@ -306,6 +306,9 @@ import { GUIDE as prey2017AchievementGuide } from "./games/prey-2017.js";
 import { GUIDE as firewatchAchievementGuide } from "./games/firewatch.js";
 import { GUIDE as aWayOutAchievementGuide } from "./games/a-way-out.js";
 import { GUIDE as titanfall2AchievementGuide } from "./games/titanfall-2.js";
+import { GUIDE as titanQuestAchievementGuide } from "./games/titan-quest.js";
+import { GUIDE as daysGoneAchievementGuide } from "./games/days-gone.js";
+import { GUIDE as spaceMarine2AchievementGuide } from "./games/space-marine-2.js";
 
 export const APP_GUIDES = [
 
@@ -634,7 +637,10 @@ export const GAME_GUIDES = [
     prey2017AchievementGuide,
     firewatchAchievementGuide,
     aWayOutAchievementGuide,
-    titanfall2AchievementGuide
+    titanfall2AchievementGuide,
+    titanQuestAchievementGuide,
+    daysGoneAchievementGuide,
+    spaceMarine2AchievementGuide
 
 ];
 
