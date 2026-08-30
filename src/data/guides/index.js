@@ -243,6 +243,9 @@ import { GUIDE as theRiftbreakerAchievementGuide } from "./games/the-riftbreaker
 import { GUIDE as massEffectLegendaryEditionAchievementGuide } from "./games/mass-effect-legendary-edition.js";
 import { GUIDE as dragonAgeInquisitionAchievementGuide } from "./games/dragon-age-inquisition.js";
 import { GUIDE as tropico6AchievementGuide } from "./games/tropico-6.js";
+import { GUIDE as battlefield1AchievementGuide } from "./games/battlefield-1.js";
+import { GUIDE as chivalry2AchievementGuide } from "./games/chivalry-2.js";
+import { GUIDE as itTakesTwoAchievementGuide } from "./games/it-takes-two.js";
 
 export const APP_GUIDES = [
 
@@ -508,7 +511,10 @@ export const GAME_GUIDES = [
     theRiftbreakerAchievementGuide,
     massEffectLegendaryEditionAchievementGuide,
     dragonAgeInquisitionAchievementGuide,
-    tropico6AchievementGuide
+    tropico6AchievementGuide,
+    battlefield1AchievementGuide,
+    chivalry2AchievementGuide,
+    itTakesTwoAchievementGuide
 
 ];
 

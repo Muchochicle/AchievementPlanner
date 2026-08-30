@@ -267,6 +267,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mass-effect-legendary-edition"));
     assert.ok(slugs.includes("dragon-age-inquisition"));
     assert.ok(slugs.includes("tropico-6"));
+    assert.ok(slugs.includes("battlefield-1"));
+    assert.ok(slugs.includes("chivalry-2"));
+    assert.ok(slugs.includes("it-takes-two"));
 
 });
 
