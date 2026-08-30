@@ -1,0 +1,645 @@
+{
+    "id": 359870,
+    "steamAppId": 359870,
+    "name": "FINAL FANTASY X/X-2 HD Remaster",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/359870/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 90,
+        "max": 160
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "JRPG",
+        "RPG",
+        "Turn-Based",
+        "Story-Rich",
+        "Fantasy",
+        "Classic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_COMPLETION_OF_FFX",
+            "name": "FINAL FANTASY X Completion",
+            "description": "Obtain all available FINAL FANTASY X achievements",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_SPEAKING_IN_TONGUES",
+            "name": "Speaking in Tongues",
+            "description": "Find 1 Al Bhed Primer",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_TEAMWORK_OF_FFX",
+            "name": "Teamwork in FINAL FANTASY X !",
+            "description": "Win a blitzball match in FINAL FANTASY X",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_THE_RIGHT_TING",
+            "name": "The Right Thing",
+            "description": "Clear the Besaid Cloister of Trials",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_A_TALENT_FOR_ACQUISITION",
+            "name": "A Talent for Acquisition",
+            "description": "Steal successfully with Rikku 200 times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_ALL_TOGETHER",
+            "name": "All Together",
+            "description": "All party members come together",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_HEARTSTRINGS",
+            "name": "Heartstrings",
+            "description": "View the \"Underwater Date\" scene",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_SHOW_OFF",
+            "name": "Show Off!",
+            "description": "Win a blitzball tournament",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_STRIKER",
+            "name": "Striker",
+            "description": "Learn the Jecht shot",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_CHOCOBO_LICENSE",
+            "name": "Chocobo License",
+            "description": "Pass all chocobo training",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_OVERCOMING_THE_PAST",
+            "name": "Overcoming the Past",
+            "description": "Defeat Yunalesca",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_THE_DESTINATION_OF_HATRED",
+            "name": "The Destination of Hatred",
+            "description": "Defeat Seymour Omnis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_LIGHTNING_DANCER",
+            "name": "Lightning Dancer",
+            "description": "Dodge 200 lightning strikes and obtain the reward",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_FEEL_THE_PAIN",
+            "name": "Feel the Pain",
+            "description": "Obtain Anima",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_IT_ALL_ABOUT_THE_MONEY",
+            "name": "It's All About the Money",
+            "description": "Obtain Yojimbo",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_DELTA_ATTACK",
+            "name": "Delta Attack!",
+            "description": "Obtain Magus Sisters",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_THEATER_ENTHUSIAST",
+            "name": "Theater Enthusiast",
+            "description": "Buy every sphere at the Luca Theater",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_CHOCOBO_RIDER",
+            "name": "Chocobo Rider",
+            "description": "Win a race with a catcher chocobo with a total time of 0:0:0",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_POWER_STRIKE",
+            "name": "Power Strike",
+            "description": "Do 9999 damage or more in a single attack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_UNDER_THE_TABLE",
+            "name": "Under the Table",
+            "description": "Spend 100,000 gil or more in bribes",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MESSENGER_FROM_THE_PAST",
+            "name": "Messenger from the Past",
+            "description": "Obtain all Jecht Spheres",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_MEGA_STRIKE",
+            "name": "Mega Strike",
+            "description": "Deal 99999 damage with one attack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CHOCOBO_MASTER",
+            "name": "Chocobo Master",
+            "description": "Get 5 treasure chests during the Chocobo Race at Remiem Temple and win the race",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_SPHERE_MASTER",
+            "name": "Sphere Master",
+            "description": "Complete a Sphere Grid for one character",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BLITZBALL_MASTER",
+            "name": "Blitzball Master",
+            "description": "Unlock all slot reels",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_LEARNING",
+            "name": "Learning!",
+            "description": "Learn to use all enemy abilities",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SUMMON_MASTER",
+            "name": "Summon Master",
+            "description": "Obtain all Aeons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_WEAPON_MASTER",
+            "name": "Weapon Master",
+            "description": "Obtain all Celestial Weapons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_MASTER_LINGUIST",
+            "name": "Master Linguist",
+            "description": "Find all 26 Al Bhed Primers",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_PERFECT_SPHERE_MASTER",
+            "name": "Perfect Sphere Master",
+            "description": "Complete the Sphere Grids for all main characters",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_PERSEVERANCE",
+            "name": "Perseverance",
+            "description": "Defeat Penance",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_OVERCOMING_THE_NEMESIS",
+            "name": "Overcoming the Nemesis",
+            "description": "Defeat Nemesis",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_THE_ETERNAL_CALM",
+            "name": "The Eternal Calm",
+            "description": "Defeat Yu Yevon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_A_JOURNEY_CATALYST",
+            "name": "A Journey's Catalyst",
+            "description": "View \"Eternal Calm\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_COMPLETION_OF_FFX2",
+            "name": "FINAL FANTASY X-2 Completion",
+            "description": "Obtain all available FINAL FANTASY X-2 achievements",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_DRESSED_FOR_THE_OCCASION",
+            "name": "Dressed for the Occasion",
+            "description": "Change dresspheres on Yuna, Rikku, and Paine in one battle",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_SPECIALTY",
+            "name": "Specialty",
+            "description": "Obtain one special dress",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_GOOD_LISTENER",
+            "name": "Good Listener",
+            "description": "Listen to all of Maechen's stories",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_TRICKY_TRAPPER",
+            "name": "Tricky Trapper",
+            "description": "Help Clasko catch a chocobo by the end of Chapter 3",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_ZEROED_OUT",
+            "name": "Zeroed Out",
+            "description": "Defeat YSLS-Zero",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_DEFEAT_OLD_FRIEND",
+            "name": "Defeating an Old Friend",
+            "description": "Defeat Bahamut",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_DOUSING_FIRE",
+            "name": "Dousing the Fire",
+            "description": "Defeat Zalamander",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_SPHERE_BREAKER",
+            "name": "Sphere Breaker",
+            "description": "Win 10 times at Sphere Break",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_ALCHEMIST",
+            "name": "Alchemist",
+            "description": "Use Mix 30 times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_LEARNER",
+            "name": "Learner",
+            "description": "Learn 5 Blue Bullet skills",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_MILLIONAIRE",
+            "name": "Millionaire",
+            "description": "Pay off O'aka's debt",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TEAMWORK_OF_FFX2",
+            "name": "Teamwork in FINAL FANTASY X-2 !",
+            "description": "Win a blitzball match in FINAL FANTASY X-2",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_EXCELLENT_NEGOTIATOR",
+            "name": "Excellent Negotiator",
+            "description": "Use Bribe 30 times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_COMPLETE_ABILITY",
+            "name": "Complete Ability",
+            "description": "Complete the ability set for one dress",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_GAMBLES_DREAM",
+            "name": "Gambler's Dream",
+            "description": "Roll the same number on all the Gambler's Dice",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_LIFETIME_SUPPORT",
+            "name": "Lifetime Support",
+            "description": "View one complete fiend tale",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_COMPLETE_EPISODE",
+            "name": "Complete Episode ",
+            "description": "Complete an episode in Chapter 5",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_TREASURE_HUNTER",
+            "name": "Treasure Hunter",
+            "description": "Open the chest that includes the Ribbon in the Bevelle Underground",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_GUNNER",
+            "name": "The Gunner",
+            "description": "Reach the highest level (LVMAX) in Gunner's Gauntlet",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_FULL_CHAIN",
+            "name": "Full Chain",
+            "description": "Achieve a 99 chain attack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_OVERKILL",
+            "name": "Overkill",
+            "description": "Deal 99999 damage with one attack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_CHOCOBO_WHISPERER",
+            "name": "Chocobo Whisperer",
+            "description": "Catch the Amazing Chocobo",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_DRESSY",
+            "name": "Sphere Hunter",
+            "description": "Obtain all dresspheres",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_DANCING_QUEEN",
+            "name": "Dancing Queen",
+            "description": "Obtain Magical Dances, Vol. II",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_MONSTER_MASTER",
+            "name": "Monster Master",
+            "description": "Complete Shinra's Bestiary",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_CUTTING_THE_STRINGS",
+            "name": "Founder",
+            "description": "Defeat Trema",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_MACHINE_OF_WAR",
+            "name": "Machine of War",
+            "description": "Defeat Vegnagun",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_SWEET_PERFECTION",
+            "name": "Sweet Perfection",
+            "description": "Complete 100% of the main story",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_JUST_STARTING",
+            "name": "Just Starting",
+            "description": "Reach the 10th floor of Iutycyr Tower",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_STILL_A_WAYS",
+            "name": "Still a Ways ",
+            "description": "Reach the 20th floor of Iutycyr Tower and defeat the boss",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_MIDWAY_THROUGH",
+            "name": "Midway Through",
+            "description": "Reach the 40th floor of Iutycyr Tower and defeat the boss",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_ALMOST_THERE",
+            "name": "Almost There",
+            "description": "Reach the 60th floor of Iutycyr Tower and defeat the boss",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_SECRET_ROOM",
+            "name": "Tonberry's Treasure",
+            "description": "Obtain treasure in the Tonberry area",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_GIANT_TOWER",
+            "name": "Giant Tower",
+            "description": "Reach the 80th floor of Iutycyr Tower and defeat the boss",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 400
+        }
+    ]
+}

@@ -453,6 +453,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("final-fantasy-vii"));
     assert.ok(slugs.includes("final-fantasy-ix"));
     assert.ok(slugs.includes("final-fantasy-xii-zodiac-age"));
+    assert.ok(slugs.includes("dragon-quest-xi"));
+    assert.ok(slugs.includes("octopath-traveler"));
+    assert.ok(slugs.includes("final-fantasy-x-x2-hd"));
 
 });
 

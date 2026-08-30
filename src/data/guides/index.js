@@ -429,6 +429,9 @@ import { GUIDE as ashesOfTheSingularityEscalationAchievementGuide } from "./game
 import { GUIDE as finalFantasyIxAchievementGuide } from "./games/final-fantasy-ix.js";
 import { GUIDE as finalFantasyViiAchievementGuide } from "./games/final-fantasy-vii.js";
 import { GUIDE as finalFantasyXiiZodiacAgeAchievementGuide } from "./games/final-fantasy-xii-zodiac-age.js";
+import { GUIDE as dragonQuestXiAchievementGuide } from "./games/dragon-quest-xi.js";
+import { GUIDE as octopathTravelerAchievementGuide } from "./games/octopath-traveler.js";
+import { GUIDE as finalFantasyXX2HdAchievementGuide } from "./games/final-fantasy-x-x2-hd.js";
 
 export const APP_GUIDES = [
 
@@ -880,7 +883,10 @@ export const GAME_GUIDES = [
     ashesOfTheSingularityEscalationAchievementGuide,
     finalFantasyIxAchievementGuide,
     finalFantasyViiAchievementGuide,
-    finalFantasyXiiZodiacAgeAchievementGuide
+    finalFantasyXiiZodiacAgeAchievementGuide,
+    dragonQuestXiAchievementGuide,
+    octopathTravelerAchievementGuide,
+    finalFantasyXX2HdAchievementGuide
 
 ];
 
