@@ -336,6 +336,9 @@ import { GUIDE as wildermythAchievementGuide } from "./games/wildermyth.js";
 import { GUIDE as trine2AchievementGuide } from "./games/trine-2.js";
 import { GUIDE as trine4AchievementGuide } from "./games/trine-4.js";
 import { GUIDE as trine5AchievementGuide } from "./games/trine-5.js";
+import { GUIDE as journeyAchievementGuide } from "./games/journey.js";
+import { GUIDE as brothersATaleOfTwoSonsAchievementGuide } from "./games/brothers-a-tale-of-two-sons.js";
+import { GUIDE as psychonautsAchievementGuide } from "./games/psychonauts.js";
 
 export const APP_GUIDES = [
 
@@ -694,7 +697,10 @@ export const GAME_GUIDES = [
     wildermythAchievementGuide,
     trine2AchievementGuide,
     trine4AchievementGuide,
-    trine5AchievementGuide
+    trine5AchievementGuide,
+    journeyAchievementGuide,
+    brothersATaleOfTwoSonsAchievementGuide,
+    psychonautsAchievementGuide
 
 ];
 

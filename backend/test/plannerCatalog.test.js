@@ -360,6 +360,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("trine-2"));
     assert.ok(slugs.includes("trine-4"));
     assert.ok(slugs.includes("trine-5"));
+    assert.ok(slugs.includes("journey"));
+    assert.ok(slugs.includes("brothers-a-tale-of-two-sons"));
+    assert.ok(slugs.includes("psychonauts"));
 
 });
 
