@@ -282,6 +282,9 @@ import { GUIDE as besiegeAchievementGuide } from "./games/besiege.js";
 import { GUIDE as craftTheWorldAchievementGuide } from "./games/craft-the-world.js";
 import { GUIDE as automationEmpireAchievementGuide } from "./games/automation-empire.js";
 import { GUIDE as wobblyLifeAchievementGuide } from "./games/wobbly-life.js";
+import { GUIDE as badNorthAchievementGuide } from "./games/bad-north.js";
+import { GUIDE as autonautsAchievementGuide } from "./games/autonauts.js";
+import { GUIDE as colonySurvivalAchievementGuide } from "./games/colony-survival.js";
 
 export const APP_GUIDES = [
 
@@ -586,7 +589,10 @@ export const GAME_GUIDES = [
     besiegeAchievementGuide,
     craftTheWorldAchievementGuide,
     automationEmpireAchievementGuide,
-    wobblyLifeAchievementGuide
+    wobblyLifeAchievementGuide,
+    badNorthAchievementGuide,
+    autonautsAchievementGuide,
+    colonySurvivalAchievementGuide
 
 ];
 

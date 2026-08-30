@@ -306,6 +306,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("craft-the-world"));
     assert.ok(slugs.includes("automation-empire"));
     assert.ok(slugs.includes("wobbly-life"));
+    assert.ok(slugs.includes("bad-north"));
+    assert.ok(slugs.includes("autonauts"));
+    assert.ok(slugs.includes("colony-survival"));
 
 });
 
