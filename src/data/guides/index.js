@@ -423,6 +423,9 @@ import { GUIDE as theWalkingDeadSeasonTwoAchievementGuide } from "./games/the-wa
 import { GUIDE as civilizationBeyondEarthAchievementGuide } from "./games/civilization-beyond-earth.js";
 import { GUIDE as galacticCivilizations3AchievementGuide } from "./games/galactic-civilizations-3.js";
 import { GUIDE as ageOfWondersPlanetfallAchievementGuide } from "./games/age-of-wonders-planetfall.js";
+import { GUIDE as forzaHorizon4AchievementGuide } from "./games/forza-horizon-4.js";
+import { GUIDE as masterOfOrionAchievementGuide } from "./games/master-of-orion.js";
+import { GUIDE as ashesOfTheSingularityEscalationAchievementGuide } from "./games/ashes-of-the-singularity-escalation.js";
 
 export const APP_GUIDES = [
 
@@ -868,7 +871,10 @@ export const GAME_GUIDES = [
     theWalkingDeadSeasonTwoAchievementGuide,
     civilizationBeyondEarthAchievementGuide,
     galacticCivilizations3AchievementGuide,
-    ageOfWondersPlanetfallAchievementGuide
+    ageOfWondersPlanetfallAchievementGuide,
+    forzaHorizon4AchievementGuide,
+    masterOfOrionAchievementGuide,
+    ashesOfTheSingularityEscalationAchievementGuide
 
 ];
 

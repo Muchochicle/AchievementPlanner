@@ -1,0 +1,942 @@
+{
+    "id": 298050,
+    "steamAppId": 298050,
+    "name": "Master of Orion",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/298050/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 55,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Turn-Based Strategy",
+        "Space",
+        "Sci-fi",
+        "Grand Strategy",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_EARLY_FIRST_PLANET",
+            "name": "One Small Step",
+            "description": "Colonize your first planet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_EARLY_15_PIRATES",
+            "name": "Royal Navy",
+            "description": "Destroy 15 Pirate ships",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_EARLY_3_ANOMALIES",
+            "name": "Scavenger",
+            "description": "Discover 3 Anomalies and Bombard 2 Pirate bases in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_EARLY_2_MARINES",
+            "name": "Duty Calls",
+            "description": "Build 2 Marine Barracks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_EARLY_SPY_CENTER",
+            "name": "Classified",
+            "description": "Build your first Spy Center",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_EARLY_8_TECHS",
+            "name": "Crunch Time",
+            "description": "Research 8 Technologies before turn 50",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_EARLY_SHIPS_VISITS",
+            "name": "In a Hurry",
+            "description": "Colonize the first planet your Colony Ship visits in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_EARLY_WIN_TBATTLE",
+            "name": "Real Time Commander",
+            "description": "Command and win your first  Tactical Battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_EARLY_TRADE_RACE",
+            "name": "Business is Business",
+            "description": "Successful trade with another Race for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_EARLY_15_POP",
+            "name": "Populous",
+            "description": "Reach 15 Population Units before turn 35",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_EARLY_WARP_POINTS",
+            "name": "You Shall not Pass",
+            "description": "Block all warp points to your home planet before turn 20 ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_EARLY_20_FOODPOINTS",
+            "name": "Hungry Game",
+            "description": "Develop a Colony that yields 20 Food Points per turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_MID_DECLARE_WAR",
+            "name": "War Never Changes",
+            "description": "Declare War for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_MID_DEFEAT_ORION",
+            "name": "Rush",
+            "description": "Defeat Orion's Guardian before turn 150",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_MID_VISIT_SYSTEMS",
+            "name": "eXplore",
+            "description": "Visit all systems in the galaxy during a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_MID_WIN_MATCH",
+            "name": "Dinner’s ready!",
+            "description": "Win a match in less than 100 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_MID_SPY_HUMANS",
+            "name": "Area 51",
+            "description": "Spy on the Humans as a Psilon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_MID_REVOLT_DARLOK",
+            "name": "Right in the Heart",
+            "description": "Successfully Incite Revolt on a Darlok Colony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_MID_10_ASTEROIDS",
+            "name": "Resource Maniac",
+            "description": "Build 10 Asteroid mines inside your empire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_MID_PLANETS_POPULATED",
+            "name": "No Vacancy",
+            "description": "Have 2 planets fully populated",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MID_20_SHIPS",
+            "name": "Megalomaniac",
+            "description": "Build 20 Ships before turn 100",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_MID_STRIKES_COLONIES",
+            "name": "Peronism",
+            "description": "Don’t have strikes in any of your colonies for 80 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_MID_5_COLONIES",
+            "name": "Get Smart",
+            "description": "Successfully gather information on 5 Colonies in a match via espionage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_MID_BIOME_MATCH",
+            "name": "Collector",
+            "description": "Colonize a planet in each possible biome in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_MID_ENGAGE_COMBAT",
+            "name": "The More the Merrier",
+            "description": "Engage in combat using a fleet of 20 or more ships",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_MID_REVOLT_COLONIES",
+            "name": "Iran-Contra",
+            "description": "Incite Revolt in 3 different opponents' colonies ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_MID_DEPORT_SPIES",
+            "name": "Get Off My Lawn",
+            "description": "Deport 5 spies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_MID_KILL_SPIES",
+            "name": "Off With Their Heads",
+            "description": "Kill 5 spies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_MID_15_CIVTRANSP",
+            "name": "Exodus",
+            "description": "Use at least 15 Civilian Transports in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MID_BUY_SHIPS",
+            "name": "Turns are Relative",
+            "description": "Buy 30 ships in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_END_5_SYSTEMS",
+            "name": "eXpand",
+            "description": "Colonize every planet in 5 systems",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_END_ELIMINATE_SMONSTERS",
+            "name": "Monster Hunter",
+            "description": "Eliminate all Space Monsters in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_END_ELIMINATE_ALKARI",
+            "name": "Old Grudge",
+            "description": "Eliminate the Alkari first while playing as Mrrshan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_END_WIN_MULTIPLAYER",
+            "name": "First Among Equals",
+            "description": "Win a multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_END_DESTROY_PLANETS",
+            "name": "I Am Become Death",
+            "description": "Destroy 20 planets with a Doomstar in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_END_WIN_CONQUIST",
+            "name": "Unscathed",
+            "description": "Win by Conquest without losing a single colony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_END_LARGE_GALAXY",
+            "name": "Master of The Universe",
+            "description": "Have at least 1 colony on 20 different stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_END_SPY_RACES",
+            "name": "Curious George",
+            "description": "Spy on all races during a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_END_COMPL_RESEARCH",
+            "name": "Dangerous Minds",
+            "description": "Completely research the Tech Tree and win by Conquest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_END_DESTROY_OPPNONENT",
+            "name": "That's no star",
+            "description": "Destroy an opponent's Homeworld using the Doomstar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_END_5_OCEANIC",
+            "name": "Terror from the Deep",
+            "description": "Colonize at least 5 Oceanic planets in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_END_5_VOLCANIC",
+            "name": "None Like It Hot",
+            "description": "Colonize at least 5 Volcanic planets in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_END_5_DESERT",
+            "name": "Wild, Wild West",
+            "description": "Colonize at least 5 Desert planets in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_END_10_COLONIES",
+            "name": "Conqueror",
+            "description": "Invade 10 colonies in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_END_ECONOMIC_ALKARI",
+            "name": "Trade Winds",
+            "description": "Win by Economic Victory with the Alkari",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_END_TECHNO_BULRATHI",
+            "name": "Secrets of the Earth",
+            "description": "Win by Technological Victory with the Bulrathi",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_END_MILITARY_DARLOK",
+            "name": "Unseen Blade",
+            "description": "Win by Military Victory with the Darlok",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_END_ECONOMIC_HUMAN",
+            "name": "Manifest Destiny",
+            "description": "Win by Economic Victory with Humans",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_END_ECONOMIC_KLACKON",
+            "name": "Marxist Dystopia",
+            "description": "Win by Economic Victory with Klackon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_END_DIPLO_MEKLAR",
+            "name": "It is me, Your Brother! ",
+            "description": "Win by Diplomatic Victory with Meklar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_END_TECHNO_MRRSHAN",
+            "name": "Itch to Scratch",
+            "description": "Win by Technological Victory with Mrrshan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_END_ECONOMIC_PSILON",
+            "name": "The Nash Ultimatum",
+            "description": "Win by Economic victory with Psilon ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_END_DIPLO_SAKKRA",
+            "name": "Rule of the Many",
+            "description": "Win by Diplomatic Victory with Sakkra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_END_DIPLO_SILICOID",
+            "name": "Group Therapy",
+            "description": "Win by Diplomatic Victory with Silicoid",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_END_TECHNO_SAKKRA",
+            "name": "Reptilians!",
+            "description": "Win by Technological Victory with Sakkra",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_END_5_PLANETS",
+            "name": "I Like it Small",
+            "description": "Win by any victory with only 5 planets colonized including your homeworld",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_END_JUMP_GATES",
+            "name": "Jumper",
+            "description": "Use your Jump Gates 100 times during a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_END_ENTIRE_TECHTREE",
+            "name": "Science!",
+            "description": "Complete the entire tech tree for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_END_7_SPIES",
+            "name": "\"007\"",
+            "description": "Have 7 spies on 7 different races",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_END_BUILD_JUMPGATES",
+            "name": "Where we're going, we don't need Starlanes.",
+            "description": "Build 15 Jumpgates in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_END_OUTSTANDING_GMF",
+            "name": "Warren Buffet",
+            "description": "Win by Economic Victory with 80% or more of the outstanding GMF Shares.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_END_POPULATION_UNIT",
+            "name": "Alien Roommate",
+            "description": "Have a colony with at least 1 Population Unit of another race in a match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_END_SUPER_NOVA",
+            "name": "Homeless",
+            "description": "Get your capital planet blown up in a super nova",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_END_THE_CREATOR",
+            "name": "The Creator",
+            "description": "Convert 10 Asteroid Fields / Gas Giants into Inhabitable Planets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_END_ALLY_RACES",
+            "name": "Your Neutrality",
+            "description": "Ally with all Races",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_END_30_CPOINTS",
+            "name": "This Ain't Cheap",
+            "description": "Have a fleet that costs more than 30 Command Points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_END_WIN_MILITSHIP",
+            "name": "Flower Power",
+            "description": "Win the game without building a single military ship",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_END_70_RESPOINTS",
+            "name": "Terminus",
+            "description": "Have a Colony yielding 70 Research Points ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_LIFE_100_BLUEPRINTS",
+            "name": "A Rose By Any Other Name",
+            "description": "Rename 100 Blueprints",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_LIFE_INVADE_PLANETS",
+            "name": "Attila",
+            "description": "Invade 100 planets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_LIFE_5000_SHIPS",
+            "name": "Moby Dick",
+            "description": "Destroy 5000 ships",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_LIFE_100_PLANETS",
+            "name": "Galactus",
+            "description": "Destroy 100 Planets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_LIFE_100_COLONIES",
+            "name": "So Say We All",
+            "description": "Establish 100 colonies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_LIFE_SCRAP_BLUEPRINTS",
+            "name": "Can't Make Up Your Mind",
+            "description": "Scrap 600 Blueprints",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_LIFE_1000_STRUCSHIPS",
+            "name": "Shopaholic",
+            "description": "Buy 1000 structures or ships",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_LIFE_BREAK_PACTS",
+            "name": "Backstabber",
+            "description": "Break 150 pacts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_LIFE_WATCH_CREDITS",
+            "name": "Where Credit is Due",
+            "description": "Watch the credits in full",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_LIFE_INTO_INFERNO",
+            "name": "Hell-O",
+            "description": "Turn 20 planets into Inferno",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_LIFE_INTO_TROPICAL",
+            "name": "Brazil",
+            "description": "Turn 20 planets into Tropical",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_LIFE_INTO_CAVERNOUS",
+            "name": "Cave-dweller",
+            "description": "Turn 20 planets into Cavernous",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_LIFE_INTO_GRASSLAND",
+            "name": "Feline Paradise",
+            "description": "Turn 20 planets into Grassland",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_LIFE_1000_TURNS",
+            "name": "One more turn!",
+            "description": "Play 1000 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_LIFE_5000_TURNS",
+            "name": "Still here",
+            "description": "Play 5000 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_LIFE_10000_TURNS",
+            "name": "Obsession",
+            "description": "Play 10000 turns",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_LIFE_WIN_ALLVICTORIES",
+            "name": "This Is Just the Beginning",
+            "description": "Win by all Victory types with any race",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_LIFE_WIN_EXCELLENCE",
+            "name": "Top of the Class",
+            "description": "Win by Excellence Victory for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_LIFE_WIN_CONQUEST",
+            "name": "Kill many, and you're a conqueror",
+            "description": "Win by Conquest Victory for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_LIFE_WIN_TECHNOLOGICAL",
+            "name": "Transcendental",
+            "description": "Win by Technological Victory for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_LIFE_WIN_ECONOMIC",
+            "name": "Wolf of the Galaxy",
+            "description": "Win by Economic Victory for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_LIFE_WIN_DIPLOMATIC",
+            "name": "With Quill and Word",
+            "description": "Win by Diplomatic Victory for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_LIFE_ALKARI_ALLVICTORIES",
+            "name": "Alkari Mastery",
+            "description": "Win all original victory types  with the Alkari",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_LIFE_BULRATHI_ALLVICTORIES",
+            "name": "Bulrathi Mastery",
+            "description": "Win all original victory types with the  Bulrathi",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_LIFE_DARLOK_ALLVICTORIES",
+            "name": "Darlok Mastery",
+            "description": "Win all original victory types with the Darlok",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_LIFE_HUMAN_ALLVICTORIES",
+            "name": "Human Mastery",
+            "description": "Win all original victory types with the Human",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 95,
+            "apiname": "ACH_LIFE_KLACKON_ALLVICTORIES",
+            "name": "Klackon Mastery",
+            "description": "Win all original victory types with the Klackon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 96,
+            "apiname": "ACH_LIFE_MEKLAR_ALLVICTORIES",
+            "name": "Meklar Mastery",
+            "description": "Win all original victory types with the Meklar",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 97,
+            "apiname": "ACH_LIFE_MRRSHAN_ALLVICTORIES",
+            "name": "Mrrshan Mastery",
+            "description": "Win all original victory types with the Mrrshan",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 98,
+            "apiname": "ACH_LIFE_PSILON_ALLVICTORIES",
+            "name": "Psilon Mastery",
+            "description": "Win all original victory types with the Psilon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 99,
+            "apiname": "ACH_LIFE_ALLRACES_ALLVICTORIES",
+            "name": "Master of Orion",
+            "description": "Win all victory types with all races",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 100,
+            "apiname": "ACH_LIFE_HARD_DIFFICULTY",
+            "name": "Ironman",
+            "description": "Win the game with all races at least once in Hard difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 101,
+            "apiname": "ACH_LIFE_SAKKRA_ALLVICTORIES",
+            "name": "Sakkra Mastery",
+            "description": "Win all original victory types with the Sakkra",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 102,
+            "apiname": "ACH_LIFE_SILICOID_ALLVICTORIES",
+            "name": "Silicoid Mastery",
+            "description": "Win all original victory types with the Silicoid",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        }
+    ]
+}

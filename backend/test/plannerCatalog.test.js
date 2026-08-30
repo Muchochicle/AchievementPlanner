@@ -447,6 +447,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("civilization-beyond-earth"));
     assert.ok(slugs.includes("galactic-civilizations-3"));
     assert.ok(slugs.includes("age-of-wonders-planetfall"));
+    assert.ok(slugs.includes("forza-horizon-4"));
+    assert.ok(slugs.includes("master-of-orion"));
+    assert.ok(slugs.includes("ashes-of-the-singularity-escalation"));
 
 });
 
