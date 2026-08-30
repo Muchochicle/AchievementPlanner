@@ -309,6 +309,9 @@ import { GUIDE as titanfall2AchievementGuide } from "./games/titanfall-2.js";
 import { GUIDE as titanQuestAchievementGuide } from "./games/titan-quest.js";
 import { GUIDE as daysGoneAchievementGuide } from "./games/days-gone.js";
 import { GUIDE as spaceMarine2AchievementGuide } from "./games/space-marine-2.js";
+import { GUIDE as batmanArkhamAsylumAchievementGuide } from "./games/batman-arkham-asylum.js";
+import { GUIDE as sniperElite4AchievementGuide } from "./games/sniper-elite-4.js";
+import { GUIDE as streetFighter6AchievementGuide } from "./games/street-fighter-6.js";
 
 export const APP_GUIDES = [
 
@@ -640,7 +643,10 @@ export const GAME_GUIDES = [
     titanfall2AchievementGuide,
     titanQuestAchievementGuide,
     daysGoneAchievementGuide,
-    spaceMarine2AchievementGuide
+    spaceMarine2AchievementGuide,
+    batmanArkhamAsylumAchievementGuide,
+    sniperElite4AchievementGuide,
+    streetFighter6AchievementGuide
 
 ];
 

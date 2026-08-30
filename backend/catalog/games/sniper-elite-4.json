@@ -1,0 +1,789 @@
+{
+    "id": 312660,
+    "steamAppId": 312660,
+    "name": "Sniper Elite 4",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/312660/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 35,
+        "max": 55
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Tactical Shooter",
+        "Third-Person Shooter",
+        "Stealth",
+        "World War II",
+        "Sniper",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SE_REWARD_COMPLETE_M01",
+            "name": "The end of the beginning",
+            "description": "Complete Mission 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "SE_REWARD_COMPLETE_M02",
+            "name": "We shall fight on the beaches",
+            "description": "Complete Mission 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "SE_REWARD_COMPLETE_M03",
+            "name": "No compromise is possible",
+            "description": "Complete Mission 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "SE_REWARD_COMPLETE_M04",
+            "name": "Set Europe ablaze!",
+            "description": "Complete Mission 4",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "SE_REWARD_COMPLETE_M05",
+            "name": "We shall not fail or falter",
+            "description": "Complete Mission 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "SE_REWARD_COMPLETE_M06",
+            "name": "Never, never, never give up",
+            "description": "Complete Mission 6",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "SE_REWARD_COMPLETE_M07",
+            "name": "Plans are nothing; planning is everything",
+            "description": "Complete Mission 7",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "SE_REWARD_COMPLETE_M08",
+            "name": "Success is not final",
+            "description": "Complete Mission 8",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "SE_REWARD_COMPLETE_OW1",
+            "name": "Compounding Your Success",
+            "description": "Complete Overwatch 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "SE_REWARD_COMPLETE_OW2",
+            "name": "Train, Set and Match",
+            "description": "Complete Overwatch 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "SE_REWARD_MASTER_A_WEAPON",
+            "name": "A Most Singular Expert",
+            "description": "Master a single weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "SE_REWARD_PISTOL_KILLS",
+            "name": "The Pistol Pro",
+            "description": "100 Kills with a Pistol",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "SE_REWARD_SECONDARY_WEAPON_KILLS",
+            "name": "The Secondary Specialist",
+            "description": "250 Kills with a Secondary Weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "SE_REWARD_RIFLE_KILLS",
+            "name": "Rockin' the Rifle",
+            "description": "500 Kills with a Rifle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "SE_REWARD_TARGET_FOCUS",
+            "name": "I See You!",
+            "description": "Fully Target Focus 100 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "SE_REWARD_COMPLETE_50_PERT_SECONDARY_OBJECTIVES",
+            "name": "Everything by Halves",
+            "description": "Complete 50% of all Secondary Objectives in the Main Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "SE_REWARD_COMPLETE_100_PERT_SECONDARY_OBJECTIVES",
+            "name": "Following Orders",
+            "description": "Complete All Secondary Objectives in the Main Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 18,
+            "apiname": "SE_REWARD_TOTAL_KILL_DISTANCE",
+            "name": "Keeping your Distance",
+            "description": "Total kill distance of 100 Kilometres",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "SE_REWARD_TRAP_KILL",
+            "name": "Ambush King",
+            "description": "Kill 100 enemies with traps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_AUTHENTIC_DIFFICULTY",
+            "name": "Are You Insane?",
+            "description": "Complete the entire main campaign on Authentic Difficulty",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 21,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_SNIPER_ELITE_DIFFICULTY",
+            "name": "The Real Deal",
+            "description": "Complete the entire main campaign on Sniper Elite difficulty",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 22,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_MARKSMAN_DIFFICULTY",
+            "name": "The Masterful Marksman",
+            "description": "Complete the entire main campaign on Marksman difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 23,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_CADET_DIFFICULTY",
+            "name": "Mission Possible",
+            "description": "Complete the entire main campaign on Cadet difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "SE_REWARD_INCAPACITATED_TESTICLE_SHOT",
+            "name": "The Nutcracker - Sweet!",
+            "description": "Incapacitate an enemy, then shoot them in the testicles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "SE_REWARD_EVERY_ORGAN_KILL",
+            "name": "The Organ Grinder",
+            "description": "Get at least one killshot on every organ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "SE_REWARD_BOOBY_TRAP_KILL",
+            "name": "Dirty Tactics",
+            "description": "Kill an enemy via a booby trap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "SE_REWARD_SATCHEL_CHARGE_EXPLOSION",
+            "name": "Demolition Fan",
+            "description": "Satchel Charge 25 manned vehicles/pillboxes/pantherturms",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "SE_REWARD_ARTILLERY_STRIKE_KILL",
+            "name": "Fire and Brimstone",
+            "description": "Kill 5 enemies with a single artillery strike",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "SE_REWARD_SNIPER_KILLED_BEFORE_ACQUIRED",
+            "name": "Sniper Interrupted",
+            "description": "Kill 5 Snipers before they see you",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "SE_REWARD_DESTROY_PLANE_USING_BOLT_ACTION_RIFLE",
+            "name": "The Path of Most Resistance",
+            "description": "At the end of Mission 8 (Allagra Fortress), let the escaping aircraft take off, then shoot it down in flight with a bolt-action rifle instead of disabling it on the runway.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "SE_REWARD_COMPLETE_ALL_MOTHER_HEN_MISSIONS",
+            "name": "Mother knows best",
+            "description": "Complete all Mother Hen secondary Objectives in the main game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "SE_REWARD_COMPLETE_ALL_OSS_MISSIONS",
+            "name": "Weaver's Warrior",
+            "description": "Complete all OSS Secondary Objectives in the Main Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "SE_REWARD_COMPLETE_ALL_CHALLENGES_IN_ONE_MISSION",
+            "name": "Challenge Accepted",
+            "description": "Complete all challenges in a single mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 34,
+            "apiname": "SE_REWARD_UNLOCK_ALL_WEAPONS_OF_ONE_CATEGORY",
+            "name": "Variety is the Spice of Death",
+            "description": "Get a kill with every weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "SE_REWARD_SUBSONIC_AMMO_KILLS",
+            "name": "Silent But Deadly",
+            "description": "Kill 100 enemies with suppressed ammo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "SE_REWARD_COMPLETE_MISSION_WITHOUT_USING_HEALING_ITEMS",
+            "name": "Still Ain't Got Time to Bleed",
+            "description": "Complete a single player mission without using a Medikit or Bandage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "SE_REWARD_ENVIRONMENTAL_DROP_KILL",
+            "name": "On Yer Head, Son",
+            "description": "Kill enemies with 3 different environmental drop kills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "SE_REWARD_COMPLETE_MISSION_WITH_ONLY_RIFLE_KILLS",
+            "name": "My Rifle is My Best Friend",
+            "description": "Complete a main campaign mission with rifle kills only",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "SE_REWARD_COLLECT_ALL_LETTERS",
+            "name": "The Collector",
+            "description": "Collect all Last Letters, Letters From Home, and Letters To Home in the main game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 40,
+            "apiname": "SE_REWARD_FULLY_MASTER_A_RIFLE_SECONDARY_WEAPON_PISTOL",
+            "name": "Master-At-Arms",
+            "description": "Fully master a rifle, secondary weapon and pistol",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "SE_REWARD_SHOOT_ALL_FASCIST_EAGLES",
+            "name": "A Bird in the Hand...",
+            "description": "Shoot all Stone eagles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 42,
+            "apiname": "SE_REWARD_FIND_ALL_SNIPER_REPORTS",
+            "name": "Greatest Hits",
+            "description": "Find all sniper reports",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 43,
+            "apiname": "SE_REWARD_REACH_RANK_LEVEL_5",
+            "name": "Dogface",
+            "description": "Reach character rank 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "SE_REWARD_REACH_RANK_LEVEL_25",
+            "name": "Jarhead",
+            "description": "Reach character rank 25",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "SE_REWARD_REACH_RANK_LEVEL_50",
+            "name": "Veteran",
+            "description": "Reach character rank 50",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 46,
+            "apiname": "SE_REWARD_KILL_ALL_INFANTARY_TYPE",
+            "name": "Gotta Cap 'em All",
+            "description": "Kill one of each infantry type",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "SE_REWARD_SURVIVE_ALL_WAVES",
+            "name": "Survival of the Fittest",
+            "description": "Complete all waves in a survival session",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "SE_REWARD_COMPLETE_ONE_MATCH_IN_EACH_GAME_MODE",
+            "name": "Competitive Nature",
+            "description": "Complete at least one match in each mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "SE_REWARD_LAST_SECOND_SAVE",
+            "name": "Channel Changer",
+            "description": "Take control of the enemy held radio and capture it with just seconds remaining",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_AUTHENTIC_DIFFICULTY_WITH_NO_MANUAL_SAVES",
+            "name": "The Best of the Best of the Best",
+            "description": "Complete the entire main campaign on Authentic difficulty with no manual saves",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 51,
+            "apiname": "SE_REWARD_KH_TESTICLE_SHOT",
+            "name": "Albert Hall",
+            "description": "Target Führer - Kill Hitler with a testicle shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "SE_REWARD_KH_CASSEROLE_RIG",
+            "name": "Hot Pot",
+            "description": "Target Führer - Kill Hitler with the casserole",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "SE_REWARD_KH_SEAMINE_KILL",
+            "name": "Minesweeper",
+            "description": "Target Führer - Blow up Hitler on VIP boat with a sea mine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "SE_REWARD_KH_TORPEDO_RACK",
+            "name": "STRIKE!!",
+            "description": "Target Führer - Kill Hitler with a torpedo rack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "SE_REWARD_KH_EAGLE_CRUSH",
+            "name": "The Eagle Has Landed",
+            "description": "Target Führer - Crush Hitler with the Eagle at the ceremony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "SE_REWARD_KH_COMPLETE_ALL_CHALLENGES",
+            "name": "Total War",
+            "description": "Target Führer - Complete all challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 57,
+            "apiname": "SE_REWARD_KH_SUBMARINE_CRUSH",
+            "name": "Down Periscope",
+            "description": "Target Führer - Kill Hitler with the submarine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "SE_REWARD_KH_EXPLOSIVE_KILL",
+            "name": "0 Days Without Incident",
+            "description": "Target Führer - Kill Hitler with any explosive item/trap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "SE_REWARD_KH_BEAT_MISSION_WITHOUT_DETECTION",
+            "name": "Silent but Violent",
+            "description": "Target Führer - Kill Hitler and exfiltrate without being detected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "SE_REWARD_KH_COMPLETE_OPTIONALS_AND_DESTROY_BASE",
+            "name": "Base Desires",
+            "description": "Target Führer - Complete all Optional Objectives and destroy the base",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "SE_REWARD_KH_COMPLETE_MISSION",
+            "name": "Final Reckoning",
+            "description": "Target Führer - Complete the Mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "SE_REWARD_KH_BASIC",
+            "name": "Deja View to a Kill",
+            "description": "Target Führer - Kill Hitler",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "SE_REWARD_DS_COMPLETE_MISSION",
+            "name": "Shore Leave",
+            "description": "Inception - Complete the mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "SE_REWARD_DS_COMPLETE_ALL_CHALLENGES",
+            "name": "All Inclusive",
+            "description": "Inception - Complete all the challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "SE_REWARD_DS_LAUNCH_TORPEDO_WITHOUT_BEING_SPOTTED",
+            "name": "Karl Shot First",
+            "description": "Inception - Get to the destroyer and launch the torpedo without being spotted",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "SE_REWARD_DS_UNLOCK_TRAIN_DOOR",
+            "name": "Save Keys to Open Doors",
+            "description": "Inception - Unlock the train door using the keys found on the officers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "SE_REWARD_DS_MELEE_TAKEDOWN_SNIPERS",
+            "name": "Knife to a Gun Fight",
+            "description": "Inception - Melee takedown all the snipers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "SE_REWARD_DS_DESTROY_TANK_WITH_CRANE",
+            "name": "Heads Up",
+            "description": "Inception - Destroy the tank with a crane drop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "SE_REWARD_DS_DUMP_BODY_IN_WATER",
+            "name": "King of the World",
+            "description": "Inception - Dump Major Volker Grün's body into the water from the end of a boat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "SE_REWARD_DS_2_COMPLETE_MISSION",
+            "name": "Cipher Elite",
+            "description": "Infiltration - Complete the Mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "SE_REWARD_DS_2_COMPLETE_ALL_CHALLENGES",
+            "name": "Full Marks",
+            "description": "Infiltration - Complete all the Challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "SE_REWARD_DS_2_KILL_VALKYRIE_SQUAD_WITH_NEUNFAUST",
+            "name": "Faust of Fury",
+            "description": "Infiltration - Kill the Valkyrie Squad reinforcements using only the Neunfaust",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "SE_REWARD_DS_2_MULTIKILL_OFFICERS_AT_THE_BRIEFING",
+            "name": "Debriefed",
+            "description": "Infiltration - Multi-Kill the Officers during the tactical briefing in the auditorium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "SE_REWARD_DS_2_KILL_ALL_ENEMIES_ON_THE_ISLAND_WITH_EXPLOSIVES",
+            "name": "Fish-in-a-Barrel",
+            "description": "Infiltration - Kill all enemies on the island with explosives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "SE_REWARD_DS_2_EYE_SHOT_THE_BOOK_BURNING_OFFICER",
+            "name": "Read This!",
+            "description": "Infiltration - Eye shot the book burning Officer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "SE_REWARD_DS_2_COMPLETE_MISSION_WITHOUT_GETTING_SHOT_BY_A_SNIPER",
+            "name": "Untouchable",
+            "description": "Infiltration - Complete the Mission without being shot by a Sniper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "SE_REWARD_DS_3_COMPLETE_MISSION",
+            "name": "Storm Chaser",
+            "description": "Obliteration - Complete the Mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "SE_REWARD_DS_3_COMPLETE_ALL_CHALLENGES",
+            "name": "Atomic",
+            "description": "Obliteration - Complete all the Challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "SE_REWARD_DS_3_KILL_EVERYONE",
+            "name": "Ghost Town",
+            "description": "Obliteration - Kill everyone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "SE_REWARD_DS_3_I_LOVE_SCIENCE",
+            "name": "I Love Science",
+            "description": "Obliteration - Extract Wernicke, Hänel, and Kehrer in one playthrough",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "SE_REWARD_DS_3_SAVING_PRIVATE_REINER",
+            "name": "Saving Private Reiner",
+            "description": "Obliteration - Don't kill any members of the Reiner family",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "SE_REWARD_DS_3_FINGERS_OFF_TRIGGERS",
+            "name": "Fingers off Triggers",
+            "description": "Obliteration - From the bunker reach the extraction point without firing a shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "SE_REWARD_DS_3_OVERKILL",
+            "name": "Overkill",
+            "description": "Obliteration - Kill all enemy snipers with explosives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_AUTHENTIC_PLUS_DIFFICULTY",
+            "name": "You know you're REALLY insane, right?",
+            "description": "Complete the entire main campaign on Authentic Plus difficulty",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 85,
+            "apiname": "SE_REWARD_COMPLETE_THE_CAMPAIGN_ON_AUTHENTIC_PLUS_DIFFICULTY_WITH_NO_MANUAL_SAVES",
+            "name": "Better than the Best",
+            "description": "Complete the entire main campaign on Authentic Plus difficulty with no manual saves.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        }
+    ]
+}
