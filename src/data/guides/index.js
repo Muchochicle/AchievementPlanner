@@ -426,6 +426,9 @@ import { GUIDE as ageOfWondersPlanetfallAchievementGuide } from "./games/age-of-
 import { GUIDE as forzaHorizon4AchievementGuide } from "./games/forza-horizon-4.js";
 import { GUIDE as masterOfOrionAchievementGuide } from "./games/master-of-orion.js";
 import { GUIDE as ashesOfTheSingularityEscalationAchievementGuide } from "./games/ashes-of-the-singularity-escalation.js";
+import { GUIDE as finalFantasyIxAchievementGuide } from "./games/final-fantasy-ix.js";
+import { GUIDE as finalFantasyViiAchievementGuide } from "./games/final-fantasy-vii.js";
+import { GUIDE as finalFantasyXiiZodiacAgeAchievementGuide } from "./games/final-fantasy-xii-zodiac-age.js";
 
 export const APP_GUIDES = [
 
@@ -874,7 +877,10 @@ export const GAME_GUIDES = [
     ageOfWondersPlanetfallAchievementGuide,
     forzaHorizon4AchievementGuide,
     masterOfOrionAchievementGuide,
-    ashesOfTheSingularityEscalationAchievementGuide
+    ashesOfTheSingularityEscalationAchievementGuide,
+    finalFantasyIxAchievementGuide,
+    finalFantasyViiAchievementGuide,
+    finalFantasyXiiZodiacAgeAchievementGuide
 
 ];
 

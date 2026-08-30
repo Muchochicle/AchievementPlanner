@@ -450,6 +450,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("forza-horizon-4"));
     assert.ok(slugs.includes("master-of-orion"));
     assert.ok(slugs.includes("ashes-of-the-singularity-escalation"));
+    assert.ok(slugs.includes("final-fantasy-vii"));
+    assert.ok(slugs.includes("final-fantasy-ix"));
+    assert.ok(slugs.includes("final-fantasy-xii-zodiac-age"));
 
 });
 
