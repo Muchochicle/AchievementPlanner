@@ -1,0 +1,688 @@
+{
+    "id": 226840,
+    "steamAppId": 226840,
+    "name": "Age of Wonders III",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/226840/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 60,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Turn-Based Strategy",
+        "Fantasy",
+        "Tactical Combat"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_FIRST_BLOOD",
+            "name": "First Blood",
+            "description": "Win a tactical battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_SETTLING_DOWN",
+            "name": "Settling Down",
+            "description": "Found an outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_SCORCHED_EARTH",
+            "name": "Scorched Earth",
+            "description": "Raze or plunder a town",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_WARLORDS_TRIUMPH",
+            "name": "Warlord's Triumph",
+            "description": "Win any level with the Warlord leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_SORCERERS_TRIUMPH",
+            "name": "Sorcerer's Triumph",
+            "description": "Win any level with the Sorcerer leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_ROGUES_TRIUMPH",
+            "name": "Rogue's Triumph",
+            "description": "Win any level with the Rogue leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_DREADNOUGHTS_TRIUMPH",
+            "name": "Dreadnought's Triumph",
+            "description": "Win any level with the Dreadnought leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_ARCHLORDS_TRIUMPH",
+            "name": "Archdruid's Triumph",
+            "description": "Win any level with the Archdruid leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_THEOCRATS_TRIUMPH",
+            "name": "Theocrat's Triumph",
+            "description": "Win any level with the Theocrat leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_SIEGE_MASTER",
+            "name": "Siege Master",
+            "description": "Win a siege battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_REPRESENT",
+            "name": "Represent",
+            "description": "Create a custom leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ADVENTURER",
+            "name": "Adventurer",
+            "description": "Complete a quest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_SILVER_TONGUE",
+            "name": "Silver Tongue",
+            "description": "Acquire an independent town through diplomacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_TREASURE_RAIDER",
+            "name": "Treasure Raider",
+            "description": "Clear an exploration site",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_SEASONED",
+            "name": "Seasoned",
+            "description": "Promote a unit to gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_SEAWORTHY",
+            "name": "Seaworthy",
+            "description": "Embark a unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_FRIEND_OF_MONSTERS",
+            "name": "Friend of Monsters",
+            "description": "Acquire a dwelling",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_TALENT_SCOUT",
+            "name": "Talent Scout",
+            "description": "Recruit 3 heroes in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_WELL_EQUIPPED",
+            "name": "Well Equipped",
+            "description": "Fill all equipment slots on a single leader or hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_BLACKSMITH",
+            "name": "Blacksmith",
+            "description": "Create an item in the item forge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MAMA",
+            "name": "Mama?",
+            "description": "Hatch an egg",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_PARADISE_CITY",
+            "name": "Paradise City",
+            "description": "Produce all city-upgrades in a single city",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_SCHOLAR",
+            "name": "Scholar",
+            "description": "Research all skills in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_CASTER",
+            "name": "Caster",
+            "description": "Have 50 casting points on your leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_PROTECTOR_OF_THE_LIGHT",
+            "name": "Protector of the Light",
+            "description": "Get a pure good alignment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_CHAMPION_OF_THE_COMMONWEALTH",
+            "name": "Champion of the Commonwealth",
+            "description": "Win the campaign for the Commonwealth",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_CHAMPION_OF_THE_ELVEN_COURT",
+            "name": "Champion of the Elven Court",
+            "description": "Win the campaign for the Elven Court",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_REBEL_OF_THE_COMMONWEALTH",
+            "name": "Rebel of the Commonwealth",
+            "description": "Win as Commonwealth defector",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_REBEL_OF_THE_ELVEN_COURT",
+            "name": "Rebel of the Elven Court",
+            "description": "Win as Elven Court defector",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MASTER_OF_THE_UNKNOWN",
+            "name": "Master of the Unknown",
+            "description": "Win a random scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_CHALLENGER",
+            "name": "Challenger",
+            "description": "Start an online game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_TASTE_OF_VICTORY",
+            "name": "Taste of Victory",
+            "description": "Win an online game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_CHAMPION_OF_WONDERS",
+            "name": "Champion of Wonders",
+            "description": "Win 10 online games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_GRAND_MASTER_OF_WONDERS",
+            "name": "Grand Master of Wonders",
+            "description": "Win 30 online games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_OVERLORD",
+            "name": "Overlord",
+            "description": "Get a pure evil alignment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_BEST_FRIENDS_FOREVER",
+            "name": "Best Friends Forever",
+            "description": "Form an alliance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_MINE_CRAFTED",
+            "name": "Mine Crafted",
+            "description": "A Minecraft reference: recruit the special hero \"Notch\" (Per Notchson), a Human Dreadnought hero wearing a pilgrim hat and monocle who appears among your recruitable heroes. To improve the odds of finding him, start as a Human leader, enable \"Random Heroes match player race\" in Advanced Rules, and raise the Max Number of Heroes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_CHAMPION_OF_THE_GOLDEN_REALM",
+            "name": "The Importance of Being Ernest",
+            "description": "Win the campaign for the Golden Realm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_MYSTICAL_CITY",
+            "name": "Mystical City",
+            "description": "Build a city specialization upgrade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_POWER_UNLEASHED",
+            "name": "Power Unleashed",
+            "description": "Win any level by claiming a seal victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_KAMIKAZE_MISSION",
+            "name": "You Work for Me Now",
+            "description": "Force the AI to surrender to you",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_QUEST_EMPEROR",
+            "name": "First!!",
+            "description": "Complete an empire quest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_CLOVER",
+            "name": "Fortune's Favor",
+            "description": "Maximize a unit's luck",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_PARTY_POOPER",
+            "name": "Party Pooper",
+            "description": "Use throw filth on an enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_ELEPHANT_WHISPERER",
+            "name": "Elephant Whisperer",
+            "description": "Befriend an elephant",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_FOURTEENTH_BLOODLINE",
+            "name": "Fourteenth Bloodline",
+            "description": "Obtain a Naga dwelling",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_PLAY_USER_MAP",
+            "name": "Community Member",
+            "description": "Play a user created map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_MASTER_OF_ETERNAL_SILENCE",
+            "name": "Master of Eternal Silence",
+            "description": "Win the Eternal Lords campaign for the Undead",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_MASTER_OF_ETERNAL_MAGIC",
+            "name": "Master of Eternal Magic",
+            "description": "Win the Eternal Lords Campaign for the Shadowborn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_MASTER_OF_ETERNAL_WINTER",
+            "name": "Master of Eternal Winter",
+            "description": "Win the Eternal Lords Campaign for the Frostlings",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_NECROMANCERS_TRIUMPH",
+            "name": "Necromancer's Triumph",
+            "description": "Win any level with the Necromancer leader class",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_FOR_WHOM_THE_BELL_TOLLS",
+            "name": "For Whom the Bell Tolls",
+            "description": "Kill a leader with Invoke Death ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_JOIN_ME_IN_DEATH",
+            "name": "Join Me in Death",
+            "description": "Recruit a Necromancer hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_WHO_WANTS_TO_LIVE_FOREVER",
+            "name": "Who Wants to Live Forever",
+            "description": "Research Harbingers of Death",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_LIVING_IN_A_GHOST_TOWN",
+            "name": "Living in a Ghost Town",
+            "description": "Animate a ruined town",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_DONT_FEAR_THE_REAPER",
+            "name": "Don't Fear the Reaper",
+            "description": "Summon a Dread Reaper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_WINTER_HAS_COME",
+            "name": "Winter Has Come",
+            "description": "Win any level with a Frostling leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_COLD_AS_ICE",
+            "name": "Cold as Ice",
+            "description": "Freeze an enemy unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_TO_HEAL_A_FROZEN_HEART",
+            "name": "To Heal a Frozen Heart",
+            "description": "Kill a frozen enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_CATS_RULE_EVERYTHING",
+            "name": "Cats Rule Everything",
+            "description": "Win any level with a Tigran leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_KITTENS_EVERYWHERE",
+            "name": "Kittens Everywhere",
+            "description": "Have six Tigran cities in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_LADY_OF_DARKNESS",
+            "name": "Lady of Darkness",
+            "description": "Summon a Fallen Angel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_SHADOWFALL",
+            "name": "Shadowfall",
+            "description": "Win any level with a Shadowborn leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_LADY_OF_LIGHT",
+            "name": "Lady of Light",
+            "description": "Summon an Arch Angel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_KEEP_THE_FAITH",
+            "name": "Keep the Faith",
+            "description": "Win any level with a Keeper of Peace leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_LADY_OF_JUSTICE",
+            "name": "Lady of Justice",
+            "description": "Summon a Chthonic Guardian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_IRON_SKY",
+            "name": "Iron Sky",
+            "description": "Win any level with a Grey Guard leader",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_DEEP_FRIENDSHIPS",
+            "name": "Deep Friendships",
+            "description": "Obtain a Reef Colony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_GOING_POSTAL",
+            "name": "Going Postal",
+            "description": "Participate in a PBEM game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_V_MAIL",
+            "name": "V-Mail",
+            "description": "Win a PBEM game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_DEDICATED_MONOGAMIST",
+            "name": "Dedicated Monogamist",
+            "description": "Max out the race governance for one race in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_INTERRACIAL_HARMONY",
+            "name": "Interracial Harmony",
+            "description": "Max out the race governance for three races in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_LIBERATOR",
+            "name": "Liberator",
+            "description": "Liberate an oppressed enemy city via a betrayal event",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_GREAT_UNIFIER",
+            "name": "Great Unifier",
+            "description": "Win a unifier victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

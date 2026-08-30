@@ -294,6 +294,9 @@ import { GUIDE as slimeRancher2AchievementGuide } from "./games/slime-rancher-2.
 import { GUIDE as kingdomTwoCrownsAchievementGuide } from "./games/kingdom-two-crowns.js";
 import { GUIDE as totalWarShogun2AchievementGuide } from "./games/total-war-shogun-2.js";
 import { GUIDE as endlessSpace2AchievementGuide } from "./games/endless-space-2.js";
+import { GUIDE as pillarsOfEternityAchievementGuide } from "./games/pillars-of-eternity.js";
+import { GUIDE as ageOfWonders3AchievementGuide } from "./games/age-of-wonders-3.js";
+import { GUIDE as battleBrothersAchievementGuide } from "./games/battle-brothers.js";
 
 export const APP_GUIDES = [
 
@@ -610,7 +613,10 @@ export const GAME_GUIDES = [
     slimeRancher2AchievementGuide,
     kingdomTwoCrownsAchievementGuide,
     totalWarShogun2AchievementGuide,
-    endlessSpace2AchievementGuide
+    endlessSpace2AchievementGuide,
+    pillarsOfEternityAchievementGuide,
+    ageOfWonders3AchievementGuide,
+    battleBrothersAchievementGuide
 
 ];
 

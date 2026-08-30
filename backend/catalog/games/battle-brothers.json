@@ -1,0 +1,931 @@
+{
+    "id": 365360,
+    "steamAppId": 365360,
+    "name": "Battle Brothers",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/365360/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 70,
+        "max": 180
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Tactical RPG",
+        "Mercenary Company Sim",
+        "Turn-Based",
+        "Dark Fantasy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "GreenskinSlayer",
+            "name": "Greenskin Slayer",
+            "description": "Defeat the Greenskin Invasion at any difficulty level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "BaneOfTheUndead",
+            "name": "Bane Of The Undead",
+            "description": "Defeat the Undead Scourge at any difficulty level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "Kingmaker",
+            "name": "Kingmaker",
+            "description": "End the noble feud at any difficulty level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "TrialByFire",
+            "name": "Trial By Fire",
+            "description": "Defeat Hoggart at any difficulty level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "BloodMoney",
+            "name": "Blood Money",
+            "description": "Complete a contract for a settlement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "MeddlingWithNobility",
+            "name": "Meddling With Nobles",
+            "description": "Complete a contract for a noble house",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "AFullCompany",
+            "name": "A Full Company",
+            "description": "Have a company roster of 12 brothers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "PowerInNumbers",
+            "name": "Power In Numbers",
+            "description": "Have a company roster of 20 brothers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "BloodyToll",
+            "name": "Bloody Toll",
+            "description": "Lose your first mercenary in battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "BrokenPromises",
+            "name": "Broken Promises",
+            "description": "Fail a contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "BackInBusiness",
+            "name": "Back In Business",
+            "description": "Have a total of 5,000 crowns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "Moneymaker",
+            "name": "Moneymaker",
+            "description": "Have a total of 50,000 crowns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "DragonsHoard",
+            "name": "Dragon's Hoard",
+            "description": "Have a total of 250,000 crowns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ManInBlack",
+            "name": "Man In Black",
+            "description": "Kill a Necromancer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "Beastmode",
+            "name": "Beastmode",
+            "description": "Kill an Orc Warlord in melee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "Outgunned",
+            "name": "Outgunned",
+            "description": "Kill a Goblin Overseer with a ranged weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "Wildgrowth",
+            "name": "Wildgrowth",
+            "description": "Kill a Goblin Shaman",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "KingOfTheHill",
+            "name": "King Of The Hill",
+            "description": "Defeat another mercenary company",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "MakingFriends",
+            "name": "Making Friends",
+            "description": "Get to friendly relations with a settlement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "MakingAllies",
+            "name": "Making Allies",
+            "description": "Get to allied relations with a noble house",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "BlingBling",
+            "name": "Bling Bling",
+            "description": "Acquire a named item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "TrickedOut",
+            "name": "Tricked Out",
+            "description": "Acquire 5 named items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ToFightAnotherDay",
+            "name": "To Fight Another Day",
+            "description": "Flee from combat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "LessonsLearned",
+            "name": "Lessons Learned",
+            "description": "Lose a game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "RestInPieces",
+            "name": "Rest In Pieces",
+            "description": "Destroy the Black Monolith and claim its treasures",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "Trader",
+            "name": "Trader",
+            "description": "Sell 10 trading good stacks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "MasterTrader",
+            "name": "Master Trader",
+            "description": "Sell 50 trading good stacks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "PatchedUp",
+            "name": "Patched Up",
+            "description": "Have a temporary injury treated at the temple",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ScarsForLife",
+            "name": "Scars For Life",
+            "description": "Have a brother receive a permanent injury",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "Survivor",
+            "name": "Survivor",
+            "description": "Reach day 10 on veteran difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "Campaigner",
+            "name": "Campaigner",
+            "description": "Reach day 100 on veteran difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "Anniversary",
+            "name": "Anniversary",
+            "description": "Reach day 365 on veteran difficulty or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "WhoLetTheDogsOut",
+            "name": "Who Let The Dogs Out?",
+            "description": "Kill an enemy with a wardog",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "OvercomingFear",
+            "name": "Overcoming Fear",
+            "description": "Kill a Geist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "Outnumbered",
+            "name": "Outnumbered, Never Outclassed",
+            "description": "Kill 24 or more enemies in one battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "Swingin",
+            "name": "Swingin'",
+            "description": "Kill 3 enemies with one AoE attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "NotSoNoble",
+            "name": "Not So Noble",
+            "description": "Defeat a Noble House's unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "Swordmaster",
+            "name": "Swordmaster",
+            "description": "Get a brother to 90 melee skill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "Deadeye",
+            "name": "Deadeye",
+            "description": "Get a brother to 90 ranged skill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "OldAndWise",
+            "name": "Old And Wise",
+            "description": "Get a brother to level 11",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "FieldHospital",
+            "name": "Field Hospital",
+            "description": "Have 5 or more brothers with a temporary injury at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "HardToKill",
+            "name": "Hard To Kill",
+            "description": "Have a brother with 3 permanent injuries",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "Hipshooter",
+            "name": "Hip Shooter",
+            "description": "Kill 2 enemies in one turn with a ranged weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "HowToBerserk",
+            "name": "How To Berserk",
+            "description": "Kill an Orc Berserker in melee while high on mushrooms",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "TasteYourOwnMedicine",
+            "name": "Taste Your Own Medicine",
+            "description": "Kill a Bandit Marksman with a ranged weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "Ulfhednar",
+            "name": "Ulfhednar",
+            "description": "Kill a Direwolf in melee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "FirstAid",
+            "name": "First Aid",
+            "description": "Bandage a wound in combat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "Savior",
+            "name": "Savior",
+            "description": "Defeat all four late game crises on Ironman mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "NeverTrustAMercenary",
+            "name": "Never Trust A Mercenary",
+            "description": "Betray your employer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "Atheist",
+            "name": "Atheist",
+            "description": "Kill an Ancient Priest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "BackToTheGrave",
+            "name": "Back To The Grave",
+            "description": "Kill a Necrosavant",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "RestlessDead",
+            "name": "Restless Dead",
+            "description": "Kill a Fallen Hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "AKnightsTale",
+            "name": "A Knight's Tale",
+            "description": "Kill a Knight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ThereCanBeOnlyOne",
+            "name": "There Can Be Only One",
+            "description": "Kill a Swordmaster in melee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "Bullseye",
+            "name": "Bullseye",
+            "description": "Kill a Master Archer with a ranged weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "WalkingStatue",
+            "name": "Walking Statue",
+            "description": "Kill an Ancient Honor Guard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "NeverGiveUp",
+            "name": "Never Give Up",
+            "description": "Lose 10 campaigns on Ironman mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "MakingAName",
+            "name": "Making A Name",
+            "description": "Reach 1,000 renown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ManOfRenown",
+            "name": "Man Of Renown",
+            "description": "Reach 3,000 renown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "StuffOfLegends",
+            "name": "Stuff Of Legends",
+            "description": "Reach 8,000 renown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "TimeToRebuild",
+            "name": "Time To Rebuild",
+            "description": "Lose half or more of your company in one battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "Deserter",
+            "name": "Deserter",
+            "description": "Have a brother desert you",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "WelcomeBack",
+            "name": "Welcome Back",
+            "description": "Have a brother come back as undead",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ManOfIron",
+            "name": "Man Of Iron",
+            "description": "Defeat a late game crisis on Ironman mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ToughFarewell",
+            "name": "Tough Farewell",
+            "description": "Lose a level 11 or higher brother on Ironman mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "EarlyRetirement",
+            "name": "Early Retirement",
+            "description": "Retire and have your company break apart",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "ABitterEnd",
+            "name": "A Bitter End",
+            "description": "Retire and have your company go down fighting",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "LeavingAMark",
+            "name": "Leaving A Mark",
+            "description": "Retire and have your company persist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "LeavingALegacy",
+            "name": "Leaving A Legacy",
+            "description": "Retire from your legendary company",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "LuteStun",
+            "name": "Power Of Music",
+            "description": "Knock out an enemy with a lute",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "BagAHag",
+            "name": "Bag a Hag",
+            "description": "Kill a Hexe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ChoppingWood",
+            "name": "Chopping Wood",
+            "description": "Kill a Schrat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "BeastOfBeasts",
+            "name": "Beast of Beasts",
+            "description": "Kill a Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "SleepTight",
+            "name": "Sleep Tight",
+            "description": "Kill an Alp",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "ScrambledEggs",
+            "name": "Scrambled Eggs",
+            "description": "Destroy Webknecht Eggs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "FamedExplorer",
+            "name": "Famed Explorer",
+            "description": "Find 10 legendary locations",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "IMadeThis",
+            "name": "I Made This!",
+            "description": "Craft an item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "MemoryLoss",
+            "name": "Memory Loss",
+            "description": "Use a Potion of Oblivion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "AColorfulBand",
+            "name": "A Colorful Band",
+            "description": "Dye a shield in company colors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "NothingPersonal",
+            "name": "Nothing Personal",
+            "description": "Kill one of your own men while mind-controlled by a Hexe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ReproachOfTheOldGods",
+            "name": "Reproach Of The Old Gods",
+            "description": "Reassemble the legendary sword",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "VoiceOfDavkul",
+            "name": "Voice of Davkul",
+            "description": "Have a Prophet while playing as a cult of Davkul",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "KingOfTheNorth",
+            "name": "King Of The North",
+            "description": "Defeat a Barbarian King",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "TooStubbornToDie",
+            "name": "Too Stubborn To Die",
+            "description": "Have the Lone Wolf become level 11",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "GiveMeThat",
+            "name": "Give Me That!",
+            "description": "Defeat an enemy champion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "PuttingDownAGod",
+            "name": "Putting Down A God",
+            "description": "Defeat the Ijirok",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "FriendOrFoe",
+            "name": "Friend Or Foe",
+            "description": "Have an Armored Unhold turn wild",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "HumanWave",
+            "name": "Human Wave",
+            "description": "Have a full roster of 25 men when playing as peasant militia",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "GiveMeBackMyLegions",
+            "name": "Give Me Back My Legions!",
+            "description": "Lose a game to barbarians",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "Gladiator",
+            "name": "Gladiator",
+            "description": "Win 10 arena matches in a single campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "CulturalMisunderstanding",
+            "name": "Cultural Misunderstanding",
+            "description": "Win the holy war for either side",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "BurnThemAll",
+            "name": "Burn Them All!",
+            "description": "Kill an enemy with a Fire Pot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "FriendOfTheSouth",
+            "name": "Friend of the South",
+            "description": "Reach allied relations with a southern city state",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "StoneMason",
+            "name": "Stone Mason",
+            "description": "Defeat an Ifrit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "Assassin",
+            "name": "Assassin",
+            "description": "Kill an enemy with the Deathblow skill of the Qatal Dagger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "Barrage",
+            "name": "Barrage",
+            "description": "Hit 4 or more enemies with a single shot of the Handgonne",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "FullHouse",
+            "name": "Full House",
+            "description": "Use all five of your slots for non-combat followers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "CampfireCompany",
+            "name": "Campfire Company",
+            "description": "Hire your first non-combat follower",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "NewManagement",
+            "name": "Under New Management",
+            "description": "Conquer a holy site",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "DanceOff",
+            "name": "Dance Off",
+            "description": "Defeat a Blade Dancer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "Lorekeeper",
+            "name": "Hey! This is Library!",
+            "description": "Defeat the Lorekeeper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

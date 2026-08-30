@@ -318,6 +318,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-two-crowns"));
     assert.ok(slugs.includes("total-war-shogun-2"));
     assert.ok(slugs.includes("endless-space-2"));
+    assert.ok(slugs.includes("pillars-of-eternity"));
+    assert.ok(slugs.includes("age-of-wonders-3"));
+    assert.ok(slugs.includes("battle-brothers"));
 
 });
 
