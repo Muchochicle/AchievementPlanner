@@ -393,6 +393,9 @@ import { GUIDE as sniperEliteV2AchievementGuide } from "./games/sniper-elite-v2.
 import { GUIDE as halfLife2EpisodeOneAchievementGuide } from "./games/half-life-2-episode-one.js";
 import { GUIDE as halfLife2EpisodeTwoAchievementGuide } from "./games/half-life-2-episode-two.js";
 import { GUIDE as trineEnchantedEditionAchievementGuide } from "./games/trine-enchanted-edition.js";
+import { GUIDE as spaceEngineersAchievementGuide } from "./games/space-engineers.js";
+import { GUIDE as conanExilesAchievementGuide } from "./games/conan-exiles.js";
+import { GUIDE as jurassicWorldEvolutionAchievementGuide } from "./games/jurassic-world-evolution.js";
 
 export const APP_GUIDES = [
 
@@ -808,7 +811,10 @@ export const GAME_GUIDES = [
     sniperEliteV2AchievementGuide,
     halfLife2EpisodeOneAchievementGuide,
     halfLife2EpisodeTwoAchievementGuide,
-    trineEnchantedEditionAchievementGuide
+    trineEnchantedEditionAchievementGuide,
+    spaceEngineersAchievementGuide,
+    conanExilesAchievementGuide,
+    jurassicWorldEvolutionAchievementGuide
 
 ];
 

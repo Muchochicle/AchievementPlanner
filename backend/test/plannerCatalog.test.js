@@ -417,6 +417,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("half-life-2-episode-one"));
     assert.ok(slugs.includes("half-life-2-episode-two"));
     assert.ok(slugs.includes("trine-enchanted-edition"));
+    assert.ok(slugs.includes("space-engineers"));
+    assert.ok(slugs.includes("conan-exiles"));
+    assert.ok(slugs.includes("jurassic-world-evolution"));
 
 });
 

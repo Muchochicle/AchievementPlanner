@@ -1,0 +1,681 @@
+{
+    "id": 648350,
+    "steamAppId": 648350,
+    "name": "Jurassic World Evolution",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/648350/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 35,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Management",
+        "Building",
+        "Simulation",
+        "Strategy",
+        "Dinosaurs",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Unlock_Island2",
+            "name": "Not alone on this island",
+            "description": "Unlock Isla Muerta",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "Unlock_Island3",
+            "name": "Going to make a fortune with this place",
+            "description": "Unlock Isla Tacano",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "Unlock_Island4",
+            "name": "On this island there's no such thing as safe",
+            "description": "Unlock Isla Pena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "Unlock_Island5",
+            "name": "Thank God for Site B",
+            "description": "Unlock Isla Sorna",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "Unlock_IslandSandbox",
+            "name": "Spared no expense",
+            "description": "Unlock Isla Nublar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "FiveStarAllIslands",
+            "name": "How did you do this?",
+            "description": "Achieve a 5-Star Island Rating on every island in Las Cinco Muertes",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 7,
+            "apiname": "HighReputation_Science",
+            "name": "I don't understand this Luddite attitude",
+            "description": "Reach maximum Science Reputation on an island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "HighReputation_Security",
+            "name": "Instinct that we can program",
+            "description": "Reach maximum Security Reputation on an island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "HighReputation_Entertainment",
+            "name": "Bigger. Louder. More Teeth.",
+            "description": "Reach maximum Entertainment Reputation on an island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "AllStoryMissions_Science",
+            "name": "Using sophisticated techniques",
+            "description": "Complete All Missions: Science",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "AllStoryMissions_Security",
+            "name": "You got them eating out of your hand",
+            "description": "Complete All Missions: Security",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "AllStoryMissions_Entertainment",
+            "name": "An aim not devoid of merit",
+            "description": "Complete All Missions: Entertainment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "TranquiliseADinosaur",
+            "name": "Shoot her!",
+            "description": "Manually tranquillize a dinosaur with the ACU helicopter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "MedicateADinosaur",
+            "name": "Tenacious",
+            "description": "Manually medicate a diseased dinosaur with the Ranger Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "IssueVehicleCommand",
+            "name": "It's all about control with you",
+            "description": "Add a task for an ACU or Ranger Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "RepairABuilding",
+            "name": "I think we're back in business",
+            "description": "Manually repair a building with the Ranger Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "ResearchAnItem",
+            "name": "You're the top minds",
+            "description": "Research an item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "CompleteAGenome",
+            "name": "Fill in the holes and complete the code",
+            "description": "Complete a genome to 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "CompleteInGenDatabase",
+            "name": "I read your book",
+            "description": "Unlock all InGen Database entries in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "AddBuildingUpgrade",
+            "name": "You think that kind of automation is easy?",
+            "description": "Add an upgrade to a building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "Tranquiliser_Headshot",
+            "name": "Get a clear shot",
+            "description": "Manually perform a headshot with the ACU helicopter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "Tranquiliser_DuringFight",
+            "name": "War is a part of nature",
+            "description": "Manually tranquillize a dinosaur while it is fighting another dinosaur",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "Tranquiliser_Running",
+            "name": "Nobody move a muscle",
+            "description": "Manually tranquillize a dinosaur while it is running",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "Tranquiliser_SniperShot",
+            "name": "Shoooot heeer!",
+            "description": "Tranquillize a dinosaur from a distance of at least 125m",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "DriveJeep_TotalDistance",
+            "name": "I thought you failed your driver's test",
+            "description": "Manually drive a total distance of 25km in the Ranger Team's vehicle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "DriveJeep_TimeAtTopSpeed",
+            "name": "Must go faster",
+            "description": "Drive the Ranger Team's vehicle at top speed for 5 consecutive seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "DriveJeep_PowerSlide",
+            "name": "Accept you are never actually in control",
+            "description": "Power slide with the Ranger Team's vehicle for 3 seconds (within a 5-second window)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "JeepAirtime_Simple",
+            "name": "Hold on to your butts!",
+            "description": "Get 5 seconds of air time with the Ranger Team's vehicle (within a 20-second window)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "Release_AnyDinosaur",
+            "name": "Life finds a way",
+            "description": "Release a dinosaur",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "Release_GeneModDinosaur",
+            "name": "Nothing in Jurassic World is natural",
+            "description": "Release a genetically modified dinosaur",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "ConcurrentAliveDinosaurs",
+            "name": "Now you're John Hammond",
+            "description": "House at least 50 live dinosaurs on a single island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "Release_HighAggressionDinosaur",
+            "name": "Mommy's very angry",
+            "description": "Release a modified dinosaur that has over 150 Attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "Release_TRex",
+            "name": "Follow the screams!",
+            "description": "Release a T. rex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "Release_Velociraptor",
+            "name": "Clever girl",
+            "description": "Release a Velociraptor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "Release_Triceratops",
+            "name": "My favorite when I was a kid",
+            "description": "Release a Triceratops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "Release_Dilophosaurus",
+            "name": "A beautiful, but deadly addition",
+            "description": "Release a Dilophosaurus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "Release_Spinosaurus",
+            "name": "A super-predator",
+            "description": "Release a Spinosaurus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "Release_Stegasaurus",
+            "name": "Is this even possible?",
+            "description": "Release a Stegosaurus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "Release_Gallimimus",
+            "name": "Flocking this way",
+            "description": "Release a Gallimimus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "Release_Brachiosaurus",
+            "name": "Veggiesaurus",
+            "description": "Release a Brachiosaurus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "Release_IndominusRex",
+            "name": "That's no dinosaur",
+            "description": "Release an Indominus rex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "Release_OneOfAllDinosaurs",
+            "name": "Creation is an act of sheer will",
+            "description": "Release at least one of every dinosaur genus in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "Photograph_SpinosaurusVsTRex",
+            "name": "This is very dangerous territory",
+            "description": "Photograph a Spinosaurus fighting a T. rex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "Photograph_IndominusVsTRex",
+            "name": "Learning where she fits in the food chain",
+            "description": "Photograph an Indominus Rex fighting a T. rex",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "Photograph_PhotoValueSmall",
+            "name": "Whatever you study, you also change",
+            "description": "Take a Photograph worth more than $30000",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "Photograph_PhotoValueLarge",
+            "name": "A kind of biological preserve",
+            "description": "Take a Photograph worth more than $100000",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "Photograph_TRexHuntingGallimimus",
+            "name": "Look how it eats!",
+            "description": "Photograph a T. rex hunting a Gallimimus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "Photograph_VelociraptorSocialising",
+            "name": "Smarter than primates",
+            "description": "Photograph two Velociraptors socializing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "Photograph_TRexEatingLiveFood",
+            "name": "Where's the goat?",
+            "description": "Photograph a T. rex eating 'live bait'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "Photograph_CarnivoreAttackVisitor",
+            "name": "Who's hungry?",
+            "description": "Photograph a carnivore attacking a visitor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "Photograph_HerbivoreAttackVisitor",
+            "name": "I hate being right all the time",
+            "description": "Photograph a herbivore attacking visitors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "Challenge_AnyFiveStar",
+            "name": "The essence of chaos",
+            "description": "Reach 5 stars in challenge mode (any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "Challenge_Quick",
+            "name": "Clocked at 32 mph",
+            "description": "Reach 5 stars in Challenge mode in under 3 hours (medium difficulty or above)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 54,
+            "apiname": "Challenge_FiveStarJurassic",
+            "name": "Jurassic measures",
+            "description": "Reach 5 stars on Jurassic difficulty challenge mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 55,
+            "apiname": "SecretWu_AllMissions",
+            "name": "The Next Step",
+            "description": "Complete all of Dr. Wu's missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "SecretWu_PoisonPhoto",
+            "name": "Wounding tooth",
+            "description": "Photograph a Troodon as it poisons its victim",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "SecretWu_ShootSpinoraptor",
+            "name": "Shoot her...?",
+            "description": "Subdue Dr. Wu's rampaging Spinoraptor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "SecretWu_Comfort",
+            "name": "We're just used to being the cat",
+            "description": "Using Comfort Genes, create a dinosaur that is impossible to keep calm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "SecretWu_Camouflage",
+            "name": "It can camouflage!",
+            "description": "Release an Indominus Rex with the Adaptive Camouflage Gene",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "Cretaceous_CarnivoreOnly",
+            "name": "You'll never look at birds the same way!",
+            "description": "Complete challenge mode on Pena by only releasing carnivores (medium difficulty or above)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "Cretaceous_ChallengeQuick",
+            "name": "Fast for a biped?",
+            "description": "Reach 5 stars in Challenge mode in under 4 hours (hard difficulty or above)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 62,
+            "apiname": "Cretaceous_DinoQueen",
+            "name": "Ratings Master",
+            "description": "Get a dinosaur to reach 5000 or more rating",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "Claire_ChallengeSanctuary",
+            "name": "A new home",
+            "description": "Complete challenge mode on Sanctuary in under 8.5 hours (hard difficulty or above)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 64,
+            "apiname": "Claire_SanctuaryFiveStars",
+            "name": "John Hammond's dream",
+            "description": "Reach 5 stars on Sanctuary",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "Claire_HighPalaeoRating",
+            "name": "Green thumb",
+            "description": "Reach 1500 paleobotany welfare bonus on a single island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "Claire_CuredClaireDinosaursManually",
+            "name": "Executive treatment",
+            "description": "Eliminate all disease on Nublar North using a manually controlled Ranger Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 67,
+            "apiname": "Claire_PhotoContractCompleted",
+            "name": "Sharp focus",
+            "description": "Complete the photography contract on Nublar North",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 68,
+            "apiname": "JPP_HasSurvivedTRexAttack",
+            "name": "OBJECTS IN MIRROR CLOSER THAN THEY APPEAR",
+            "description": "Have a manually controlled Jurassic Park Ranger Team survive for 3 minutes after a T. rex attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 69,
+            "apiname": "JPP_Stego97AttackRangerPhoto",
+            "name": "Ooh, aah, that's how it always starts",
+            "description": "Take a photograph of a Stegosaurus with a '97 Cosmetic Variant as it attacks a Ranger Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 70,
+            "apiname": "JPP_AviaryFilled",
+            "name": "It's a birdcage",
+            "description": "Build an Aviary and fill it with Pteranodons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 71,
+            "apiname": "JPP_HasJPNublarFiveStars",
+            "name": "Return to Jurassic Park",
+            "description": "Build a 5 star park on Isla Nublar during the 'Return to Jurassic Park' campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 72,
+            "apiname": "JPP_HasTreatedStegosWithoutBeingHitByDino",
+            "name": "Ranger Danger",
+            "description": "Complete the 'Facility Recovery' mission without any dinosaur damage to Ranger Teams",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 73,
+            "apiname": "JPP_ElectricTourWithEveryDinosaur",
+            "name": "You do plan to have dinosaurs, right?",
+            "description": "Construct a tour that can see at least 18 species in Jurassic Park Campaign or Challenge mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}
