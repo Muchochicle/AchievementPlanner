@@ -414,6 +414,9 @@ import { GUIDE as artOfRallyAchievementGuide } from "./games/art-of-rally.js";
 import { GUIDE as dragonsDogmaDarkArisenAchievementGuide } from "./games/dragons-dogma-dark-arisen.js";
 import { GUIDE as commandAndConquerRemasteredAchievementGuide } from "./games/command-and-conquer-remastered.js";
 import { GUIDE as homeworldRemasteredAchievementGuide } from "./games/homeworld-remastered.js";
+import { GUIDE as lifeIsStrangeAchievementGuide } from "./games/life-is-strange.js";
+import { GUIDE as theWolfAmongUsAchievementGuide } from "./games/the-wolf-among-us.js";
+import { GUIDE as talesFromTheBorderlandsAchievementGuide } from "./games/tales-from-the-borderlands.js";
 
 export const APP_GUIDES = [
 
@@ -850,7 +853,10 @@ export const GAME_GUIDES = [
     artOfRallyAchievementGuide,
     dragonsDogmaDarkArisenAchievementGuide,
     commandAndConquerRemasteredAchievementGuide,
-    homeworldRemasteredAchievementGuide
+    homeworldRemasteredAchievementGuide,
+    lifeIsStrangeAchievementGuide,
+    theWolfAmongUsAchievementGuide,
+    talesFromTheBorderlandsAchievementGuide
 
 ];
 

@@ -438,6 +438,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dragons-dogma-dark-arisen"));
     assert.ok(slugs.includes("command-and-conquer-remastered"));
     assert.ok(slugs.includes("homeworld-remastered"));
+    assert.ok(slugs.includes("life-is-strange"));
+    assert.ok(slugs.includes("the-wolf-among-us"));
+    assert.ok(slugs.includes("tales-from-the-borderlands"));
 
 });
 
