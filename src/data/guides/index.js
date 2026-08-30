@@ -246,6 +246,9 @@ import { GUIDE as tropico6AchievementGuide } from "./games/tropico-6.js";
 import { GUIDE as battlefield1AchievementGuide } from "./games/battlefield-1.js";
 import { GUIDE as chivalry2AchievementGuide } from "./games/chivalry-2.js";
 import { GUIDE as itTakesTwoAchievementGuide } from "./games/it-takes-two.js";
+import { GUIDE as rainbowSixSiegeAchievementGuide } from "./games/rainbow-six-siege.js";
+import { GUIDE as forHonorAchievementGuide } from "./games/for-honor.js";
+import { GUIDE as shovelKnightAchievementGuide } from "./games/shovel-knight.js";
 
 export const APP_GUIDES = [
 
@@ -514,7 +517,10 @@ export const GAME_GUIDES = [
     tropico6AchievementGuide,
     battlefield1AchievementGuide,
     chivalry2AchievementGuide,
-    itTakesTwoAchievementGuide
+    itTakesTwoAchievementGuide,
+    rainbowSixSiegeAchievementGuide,
+    forHonorAchievementGuide,
+    shovelKnightAchievementGuide
 
 ];
 
