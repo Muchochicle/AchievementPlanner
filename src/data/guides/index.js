@@ -312,6 +312,9 @@ import { GUIDE as spaceMarine2AchievementGuide } from "./games/space-marine-2.js
 import { GUIDE as batmanArkhamAsylumAchievementGuide } from "./games/batman-arkham-asylum.js";
 import { GUIDE as sniperElite4AchievementGuide } from "./games/sniper-elite-4.js";
 import { GUIDE as streetFighter6AchievementGuide } from "./games/street-fighter-6.js";
+import { GUIDE as wolfensteinTheOldBloodAchievementGuide } from "./games/wolfenstein-the-old-blood.js";
+import { GUIDE as sniperElite3AchievementGuide } from "./games/sniper-elite-3.js";
+import { GUIDE as justCause2AchievementGuide } from "./games/just-cause-2.js";
 
 export const APP_GUIDES = [
 
@@ -646,7 +649,10 @@ export const GAME_GUIDES = [
     spaceMarine2AchievementGuide,
     batmanArkhamAsylumAchievementGuide,
     sniperElite4AchievementGuide,
-    streetFighter6AchievementGuide
+    streetFighter6AchievementGuide,
+    wolfensteinTheOldBloodAchievementGuide,
+    sniperElite3AchievementGuide,
+    justCause2AchievementGuide
 
 ];
 

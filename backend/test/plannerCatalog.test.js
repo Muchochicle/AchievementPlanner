@@ -336,6 +336,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("batman-arkham-asylum"));
     assert.ok(slugs.includes("sniper-elite-4"));
     assert.ok(slugs.includes("street-fighter-6"));
+    assert.ok(slugs.includes("wolfenstein-the-old-blood"));
+    assert.ok(slugs.includes("sniper-elite-3"));
+    assert.ok(slugs.includes("just-cause-2"));
 
 });
 
