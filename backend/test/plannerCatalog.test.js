@@ -468,6 +468,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mgs-v-ground-zeroes"));
     assert.ok(slugs.includes("splinter-cell-blacklist"));
     assert.ok(slugs.includes("rise-of-nations-extended"));
+    assert.ok(slugs.includes("anno-2205"));
+    assert.ok(slugs.includes("ark-survival-ascended"));
+    assert.ok(slugs.includes("steel-division-2"));
 
 });
 

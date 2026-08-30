@@ -444,6 +444,9 @@ import { GUIDE as madGamesTycoon2AchievementGuide } from "./games/mad-games-tyco
 import { GUIDE as mgsVGroundZeroesAchievementGuide } from "./games/mgs-v-ground-zeroes.js";
 import { GUIDE as splinterCellBlacklistAchievementGuide } from "./games/splinter-cell-blacklist.js";
 import { GUIDE as riseOfNationsExtendedAchievementGuide } from "./games/rise-of-nations-extended.js";
+import { GUIDE as anno2205AchievementGuide } from "./games/anno-2205.js";
+import { GUIDE as arkSurvivalAscendedAchievementGuide } from "./games/ark-survival-ascended.js";
+import { GUIDE as steelDivision2AchievementGuide } from "./games/steel-division-2.js";
 
 export const APP_GUIDES = [
 
@@ -910,7 +913,10 @@ export const GAME_GUIDES = [
     madGamesTycoon2AchievementGuide,
     mgsVGroundZeroesAchievementGuide,
     splinterCellBlacklistAchievementGuide,
-    riseOfNationsExtendedAchievementGuide
+    riseOfNationsExtendedAchievementGuide,
+    anno2205AchievementGuide,
+    arkSurvivalAscendedAchievementGuide,
+    steelDivision2AchievementGuide
 
 ];
 
