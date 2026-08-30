@@ -354,6 +354,9 @@ import { GUIDE as brightMemoryInfiniteAchievementGuide } from "./games/bright-me
 import { GUIDE as projectHighriseAchievementGuide } from "./games/project-highrise.js";
 import { GUIDE as carMechanicSimulator2021AchievementGuide } from "./games/car-mechanic-simulator-2021.js";
 import { GUIDE as visceraCleanupDetailAchievementGuide } from "./games/viscera-cleanup-detail.js";
+import { GUIDE as dirt4AchievementGuide } from "./games/dirt-4.js";
+import { GUIDE as forzaMotorsport2023AchievementGuide } from "./games/forza-motorsport-2023.js";
+import { GUIDE as theCrew2AchievementGuide } from "./games/the-crew-2.js";
 
 export const APP_GUIDES = [
 
@@ -730,7 +733,10 @@ export const GAME_GUIDES = [
     brightMemoryInfiniteAchievementGuide,
     projectHighriseAchievementGuide,
     carMechanicSimulator2021AchievementGuide,
-    visceraCleanupDetailAchievementGuide
+    visceraCleanupDetailAchievementGuide,
+    dirt4AchievementGuide,
+    forzaMotorsport2023AchievementGuide,
+    theCrew2AchievementGuide
 
 ];
 

@@ -378,6 +378,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("project-highrise"));
     assert.ok(slugs.includes("car-mechanic-simulator-2021"));
     assert.ok(slugs.includes("viscera-cleanup-detail"));
+    assert.ok(slugs.includes("dirt-4"));
+    assert.ok(slugs.includes("forza-motorsport-2023"));
+    assert.ok(slugs.includes("the-crew-2"));
 
 });
 
