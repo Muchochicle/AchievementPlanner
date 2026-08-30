@@ -303,6 +303,9 @@ import { GUIDE as northgardAchievementGuide } from "./games/northgard.js";
 import { GUIDE as subnauticaAchievementGuide } from "./games/subnautica.js";
 import { GUIDE as subnauticaBelowZeroAchievementGuide } from "./games/subnautica-below-zero.js";
 import { GUIDE as prey2017AchievementGuide } from "./games/prey-2017.js";
+import { GUIDE as firewatchAchievementGuide } from "./games/firewatch.js";
+import { GUIDE as aWayOutAchievementGuide } from "./games/a-way-out.js";
+import { GUIDE as titanfall2AchievementGuide } from "./games/titanfall-2.js";
 
 export const APP_GUIDES = [
 
@@ -628,7 +631,10 @@ export const GAME_GUIDES = [
     northgardAchievementGuide,
     subnauticaAchievementGuide,
     subnauticaBelowZeroAchievementGuide,
-    prey2017AchievementGuide
+    prey2017AchievementGuide,
+    firewatchAchievementGuide,
+    aWayOutAchievementGuide,
+    titanfall2AchievementGuide
 
 ];
 

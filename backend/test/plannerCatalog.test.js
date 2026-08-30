@@ -327,6 +327,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("subnautica"));
     assert.ok(slugs.includes("subnautica-below-zero"));
     assert.ok(slugs.includes("prey-2017"));
+    assert.ok(slugs.includes("firewatch"));
+    assert.ok(slugs.includes("a-way-out"));
+    assert.ok(slugs.includes("titanfall-2"));
 
 });
 
