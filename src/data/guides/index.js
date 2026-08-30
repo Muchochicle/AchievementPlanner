@@ -411,6 +411,9 @@ import { GUIDE as trialsFusionAchievementGuide } from "./games/trials-fusion.js"
 import { GUIDE as gridAutosportAchievementGuide } from "./games/grid-autosport.js";
 import { GUIDE as f12020AchievementGuide } from "./games/f1-2020.js";
 import { GUIDE as artOfRallyAchievementGuide } from "./games/art-of-rally.js";
+import { GUIDE as dragonsDogmaDarkArisenAchievementGuide } from "./games/dragons-dogma-dark-arisen.js";
+import { GUIDE as commandAndConquerRemasteredAchievementGuide } from "./games/command-and-conquer-remastered.js";
+import { GUIDE as homeworldRemasteredAchievementGuide } from "./games/homeworld-remastered.js";
 
 export const APP_GUIDES = [
 
@@ -844,7 +847,10 @@ export const GAME_GUIDES = [
     trialsFusionAchievementGuide,
     gridAutosportAchievementGuide,
     f12020AchievementGuide,
-    artOfRallyAchievementGuide
+    artOfRallyAchievementGuide,
+    dragonsDogmaDarkArisenAchievementGuide,
+    commandAndConquerRemasteredAchievementGuide,
+    homeworldRemasteredAchievementGuide
 
 ];
 

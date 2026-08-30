@@ -435,6 +435,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("grid-autosport"));
     assert.ok(slugs.includes("f1-2020"));
     assert.ok(slugs.includes("art-of-rally"));
+    assert.ok(slugs.includes("dragons-dogma-dark-arisen"));
+    assert.ok(slugs.includes("command-and-conquer-remastered"));
+    assert.ok(slugs.includes("homeworld-remastered"));
 
 });
 
