@@ -300,6 +300,9 @@ import { GUIDE as battleBrothersAchievementGuide } from "./games/battle-brothers
 import { GUIDE as totalWarWarhammerAchievementGuide } from "./games/total-war-warhammer.js";
 import { GUIDE as wartalesAchievementGuide } from "./games/wartales.js";
 import { GUIDE as northgardAchievementGuide } from "./games/northgard.js";
+import { GUIDE as subnauticaAchievementGuide } from "./games/subnautica.js";
+import { GUIDE as subnauticaBelowZeroAchievementGuide } from "./games/subnautica-below-zero.js";
+import { GUIDE as prey2017AchievementGuide } from "./games/prey-2017.js";
 
 export const APP_GUIDES = [
 
@@ -622,7 +625,10 @@ export const GAME_GUIDES = [
     battleBrothersAchievementGuide,
     totalWarWarhammerAchievementGuide,
     wartalesAchievementGuide,
-    northgardAchievementGuide
+    northgardAchievementGuide,
+    subnauticaAchievementGuide,
+    subnauticaBelowZeroAchievementGuide,
+    prey2017AchievementGuide
 
 ];
 

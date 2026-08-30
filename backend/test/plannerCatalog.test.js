@@ -324,6 +324,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("total-war-warhammer"));
     assert.ok(slugs.includes("wartales"));
     assert.ok(slugs.includes("northgard"));
+    assert.ok(slugs.includes("subnautica"));
+    assert.ok(slugs.includes("subnautica-below-zero"));
+    assert.ok(slugs.includes("prey-2017"));
 
 });
 
