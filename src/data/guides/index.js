@@ -459,6 +459,9 @@ import { GUIDE as unityOfCommand2AchievementGuide } from "./games/unity-of-comma
 import { GUIDE as crusaderKings2AchievementGuide } from "./games/crusader-kings-2.js";
 import { GUIDE as imperatorRomeAchievementGuide } from "./games/imperator-rome.js";
 import { GUIDE as cliffEmpireAchievementGuide } from "./games/cliff-empire.js";
+import { GUIDE as distantWorldsUniverseAchievementGuide } from "./games/distant-worlds-universe.js";
+import { GUIDE as spacechemAchievementGuide } from "./games/spacechem.js";
+import { GUIDE as exapunksAchievementGuide } from "./games/exapunks.js";
 
 export const APP_GUIDES = [
 
@@ -940,7 +943,10 @@ export const GAME_GUIDES = [
     unityOfCommand2AchievementGuide,
     crusaderKings2AchievementGuide,
     imperatorRomeAchievementGuide,
-    cliffEmpireAchievementGuide
+    cliffEmpireAchievementGuide,
+    distantWorldsUniverseAchievementGuide,
+    spacechemAchievementGuide,
+    exapunksAchievementGuide
 
 ];
 

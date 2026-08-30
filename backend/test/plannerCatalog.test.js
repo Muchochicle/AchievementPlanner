@@ -483,6 +483,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("crusader-kings-2"));
     assert.ok(slugs.includes("imperator-rome"));
     assert.ok(slugs.includes("cliff-empire"));
+    assert.ok(slugs.includes("distant-worlds-universe"));
+    assert.ok(slugs.includes("spacechem"));
+    assert.ok(slugs.includes("exapunks"));
 
 });
 
