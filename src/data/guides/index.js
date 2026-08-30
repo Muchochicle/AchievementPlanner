@@ -432,6 +432,9 @@ import { GUIDE as finalFantasyXiiZodiacAgeAchievementGuide } from "./games/final
 import { GUIDE as dragonQuestXiAchievementGuide } from "./games/dragon-quest-xi.js";
 import { GUIDE as octopathTravelerAchievementGuide } from "./games/octopath-traveler.js";
 import { GUIDE as finalFantasyXX2HdAchievementGuide } from "./games/final-fantasy-x-x2-hd.js";
+import { GUIDE as finalFantasyXiiiAchievementGuide } from "./games/final-fantasy-xiii.js";
+import { GUIDE as chronoTriggerAchievementGuide } from "./games/chrono-trigger.js";
+import { GUIDE as dirtRallyAchievementGuide } from "./games/dirt-rally.js";
 
 export const APP_GUIDES = [
 
@@ -886,7 +889,10 @@ export const GAME_GUIDES = [
     finalFantasyXiiZodiacAgeAchievementGuide,
     dragonQuestXiAchievementGuide,
     octopathTravelerAchievementGuide,
-    finalFantasyXX2HdAchievementGuide
+    finalFantasyXX2HdAchievementGuide,
+    finalFantasyXiiiAchievementGuide,
+    chronoTriggerAchievementGuide,
+    dirtRallyAchievementGuide
 
 ];
 
