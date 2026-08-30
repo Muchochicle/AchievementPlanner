@@ -339,6 +339,9 @@ import { GUIDE as trine5AchievementGuide } from "./games/trine-5.js";
 import { GUIDE as journeyAchievementGuide } from "./games/journey.js";
 import { GUIDE as brothersATaleOfTwoSonsAchievementGuide } from "./games/brothers-a-tale-of-two-sons.js";
 import { GUIDE as psychonautsAchievementGuide } from "./games/psychonauts.js";
+import { GUIDE as raymanLegendsAchievementGuide } from "./games/rayman-legends.js";
+import { GUIDE as cyberShadowAchievementGuide } from "./games/cyber-shadow.js";
+import { GUIDE as huntdownAchievementGuide } from "./games/huntdown.js";
 
 export const APP_GUIDES = [
 
@@ -700,7 +703,10 @@ export const GAME_GUIDES = [
     trine5AchievementGuide,
     journeyAchievementGuide,
     brothersATaleOfTwoSonsAchievementGuide,
-    psychonautsAchievementGuide
+    psychonautsAchievementGuide,
+    raymanLegendsAchievementGuide,
+    cyberShadowAchievementGuide,
+    huntdownAchievementGuide
 
 ];
 

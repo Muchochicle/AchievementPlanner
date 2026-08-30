@@ -363,6 +363,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("journey"));
     assert.ok(slugs.includes("brothers-a-tale-of-two-sons"));
     assert.ok(slugs.includes("psychonauts"));
+    assert.ok(slugs.includes("rayman-legends"));
+    assert.ok(slugs.includes("cyber-shadow"));
+    assert.ok(slugs.includes("huntdown"));
 
 });
 
