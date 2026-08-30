@@ -378,6 +378,9 @@ import { GUIDE as pvzBattleForNeighborvilleAchievementGuide } from "./games/pvz-
 import { GUIDE as totalWarAttilaAchievementGuide } from "./games/total-war-attila.js";
 import { GUIDE as totalWarNapoleonAchievementGuide } from "./games/total-war-napoleon.js";
 import { GUIDE as totalWarEmpireAchievementGuide } from "./games/total-war-empire.js";
+import { GUIDE as humankindAchievementGuide } from "./games/humankind.js";
+import { GUIDE as totalWarPharaohAchievementGuide } from "./games/total-war-pharaoh.js";
+import { GUIDE as foragerAchievementGuide } from "./games/forager.js";
 
 export const APP_GUIDES = [
 
@@ -778,7 +781,10 @@ export const GAME_GUIDES = [
     pvzBattleForNeighborvilleAchievementGuide,
     totalWarAttilaAchievementGuide,
     totalWarNapoleonAchievementGuide,
-    totalWarEmpireAchievementGuide
+    totalWarEmpireAchievementGuide,
+    humankindAchievementGuide,
+    totalWarPharaohAchievementGuide,
+    foragerAchievementGuide
 
 ];
 

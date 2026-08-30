@@ -402,6 +402,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("total-war-attila"));
     assert.ok(slugs.includes("total-war-napoleon"));
     assert.ok(slugs.includes("total-war-empire"));
+    assert.ok(slugs.includes("humankind"));
+    assert.ok(slugs.includes("total-war-pharaoh"));
+    assert.ok(slugs.includes("forager"));
 
 });
 

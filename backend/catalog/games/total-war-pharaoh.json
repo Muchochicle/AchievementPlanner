@@ -1,0 +1,708 @@
+{
+    "id": 1937780,
+    "steamAppId": 1937780,
+    "name": "Total War: PHARAOH",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1937780/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 45,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Grand Strategy",
+        "Real-Time Tactics",
+        "Turn-Based Strategy",
+        "Historical",
+        "Bronze Age",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "phar_main_ach_ult_victory_ramesses",
+            "name": "My Name is Ozymandias, King of All This Land",
+            "description": "Playing as Ramesses, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 2,
+            "apiname": "phar_main_ach_ult_victory_seti",
+            "name": "I am the Servant of Sutekh, He Needs No Other",
+            "description": "Playing as Seti, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 3,
+            "apiname": "phar_main_ach_ult_victory_tausret",
+            "name": "The Soul of Ra, Beloved of the Gods",
+            "description": "Playing as Tausret, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 4,
+            "apiname": "phar_main_ach_local_deities_max_2",
+            "name": "Small But Mighty",
+            "description": "Playing as any Faction Leader, worship 2 gods and reach their highest tier.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 5,
+            "apiname": "phar_main_ach_local_deities_max_3",
+            "name": "Local Gods for Local People",
+            "description": "Playing as any Faction Leader, worship 3 gods and reach their highest tier.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 6,
+            "apiname": "phar_main_ach_ult_victory_amenmesse",
+            "name": "Born of Amun",
+            "description": "Playing as Amenmesse, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 7,
+            "apiname": "phar_main_ach_ult_victory_irsu",
+            "name": "He Who Made Himself",
+            "description": "Playing as Irsu, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 8,
+            "apiname": "phar_main_ach_ult_victory_bay",
+            "name": "The Maker of Kings",
+            "description": "Playing as Bay, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 9,
+            "apiname": "phar_main_ach_ult_victory_suppiluliuma",
+            "name": "The Saviour of Hatti",
+            "description": "Playing as Suppiluliuma, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 10,
+            "apiname": "phar_main_ach_ult_victory_kurunta",
+            "name": "Horned is the Hunter",
+            "description": "Playing as Kurunta, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 11,
+            "apiname": "phar_main_ach_discover_realms_all",
+            "name": "Ultimate Explorer",
+            "description": "Discover all realms on the campaign map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 12,
+            "apiname": "phar_main_ach_discover_realms_canaan",
+            "name": "Levantine Rambler",
+            "description": "Discover all Canaanite realms on the campaign map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 13,
+            "apiname": "phar_main_ach_discover_realms_hatti",
+            "name": "Anatolian Traveller",
+            "description": "Discover all Hittite realms on the campaign map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 14,
+            "apiname": "phar_main_ach_become_pharaoh",
+            "name": "God as Man",
+            "description": "Become Egyptian Pharaoh.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 15,
+            "apiname": "phar_main_ach_become_great_king",
+            "name": "Aspire to Greatness",
+            "description": "Become the Hittite Great King.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 16,
+            "apiname": "phar_main_ach_survive_sea_people",
+            "name": "All This Mayhem",
+            "description": "Survive the invasion of the Sea Peoples.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 17,
+            "apiname": "phar_main_ach_al_akhenaten_amarna",
+            "name": "The Great Idealist",
+            "description": "Having chosen Akhenaten's Ancient Legacy, capture the Cult Centre of Aten.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 18,
+            "apiname": "phar_main_ach_al_hatshepsut_realms",
+            "name": "Foremost Among the Noble",
+            "description": "Having chosen Hatshepsut's Ancient Legacy, send a trade mission to every realm.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 19,
+            "apiname": "phar_main_ach_al_khufu_all_wonders",
+            "name": "The Divine Potter",
+            "description": "Having chosen Khufu's Ancient Legacy, complete each available Wonder.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 20,
+            "apiname": "phar_main_ach_al_thutmose_conquest",
+            "name": "Born of Thoth",
+            "description": "Having chosen Thuthmose's Ancient Legacy, use a sabotage, support and balance action before conquering the targeted settlement",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 21,
+            "apiname": "phar_main_ach_al_muwatalli_vassals",
+            "name": "Intrepid Reformer",
+            "description": "Having chosen Muwatalli's Ancient Legacy, max out 3 vassals.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 22,
+            "apiname": "phar_main_ach_al_tudhaliya_princes",
+            "name": "The Eager Beaver",
+            "description": "Having chosen Tudhaliya's Ancient Legacy, have 5 princes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 23,
+            "apiname": "phar_main_ach_al_akhenaten_max",
+            "name": "Waiting for the Sun",
+            "description": "Playing as any Faction Leader, choose Akhenaten's Ancient Legacy and reach the highest tier of Favour with Aten.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 24,
+            "apiname": "phar_main_ach_no_treaty",
+            "name": "The Isolationist",
+            "description": "Playing as any Faction Leader, achieve victory in a campaign without signing a single diplomatic treaty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 25,
+            "apiname": "phar_main_ach_bay_backstab",
+            "name": "Stabby, Stabby, Stabbiness!",
+            "description": "Playing as Bay, declare war on 2 allies and conquer their lands.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 26,
+            "apiname": "phar_main_ach_bay_court_full",
+            "name": "The Usurper",
+            "description": "Playing as Bay, become Pharaoh and use the Court Presence Power to take control of the entire court.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 27,
+            "apiname": "phar_main_ach_bay_vassals",
+            "name": "Humbler Origins",
+            "description": "Playing as Bay, have 4 vassals under your control.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 28,
+            "apiname": "phar_main_ach_bay_court_hittites",
+            "name": "Plans Within Plans",
+            "description": "Playing as Bay, complete 10 Intrigues in the Hittite Court.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 29,
+            "apiname": "phar_main_ach_amen_kill_seti",
+            "name": "Heqa-waset",
+            "description": "Playing as Amenmesse, eliminate Seti.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 30,
+            "apiname": "phar_main_ach_amen_conf_any_faction",
+            "name": "Gold Merchant",
+            "description": "Playing as Amenmesse, confederate 5 factions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 31,
+            "apiname": "phar_main_ach_amen_conquer_nile",
+            "name": "The Great Water",
+            "description": "Playing as Amenmesse, control each settlement adjacent to the Nile.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 32,
+            "apiname": "phar_main_ach_irsu_raze_cult_centre",
+            "name": "Seizure Through Stealth",
+            "description": "Playing as Irsu, raze 5 Cult Centres.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 33,
+            "apiname": "phar_main_ach_irsu_raze_ers",
+            "name": "All Property is Theft",
+            "description": "Playing as Irsu, raze 20 Outposts.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 34,
+            "apiname": "phar_main_ach_irsu_gold",
+            "name": "The Crysophilist",
+            "description": "Playing as Irsu, have 20,000 gold in your treasury.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 35,
+            "apiname": "phar_main_ach_kur_kill_suppi",
+            "name": "Tarhunna? TarhunNAH, More Like...",
+            "description": "Playing as Kurunta, defeat or take control of Suppiuliuma's lands.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 36,
+            "apiname": "phar_main_ach_kur_court_full",
+            "name": "I am the Deer King!",
+            "description": "Playing as Kurunta, become the Hittite king and take control of the entire Hittite court.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 37,
+            "apiname": "phar_main_ach_kur_hate_hittite",
+            "name": "Billy No Mates",
+            "description": "Playing as Kurunta, have bad diplomatic relations with all Hittite factions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 38,
+            "apiname": "phar_main_ach_ram_pschent",
+            "name": "The Two Powerful Ones",
+            "description": "Playing as Ramesses, acquire and equip him with the Pschent Crown.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 39,
+            "apiname": "phar_main_ach_ram_sea_people",
+            "name": "Reverse the Tide",
+            "description": "Playing as Ramesses, destroy 8 Sea Peoples armies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 40,
+            "apiname": "phar_main_ach_ram_become_pharaoh",
+            "name": "The Great Ancestor",
+            "description": "Playing as Ramesses, partake in the first Legitimacy War and become Pharaoh.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 41,
+            "apiname": "phar_main_ach_seti_kill_amenmesse",
+            "name": "Manifest Death",
+            "description": "Playing as Seti, eliminate Amenmesse.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 42,
+            "apiname": "phar_main_ach_seti_war_egypt",
+            "name": "Burn the World",
+            "description": "Playing as Seti, be at war with all major Egyptian factions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 43,
+            "apiname": "phar_main_ach_seti_become_pharaoh",
+            "name": "The Future is Now",
+            "description": "Playing as Seti, partake in the first Legitimacy War and become Pharaoh.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 44,
+            "apiname": "phar_main_ach_sup_province_growth",
+            "name": "Onwards & Upwards",
+            "description": "Playing as Suppiluliuma, have 8 provinces with growth beyond 70.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 45,
+            "apiname": "phar_main_ach_sup_annex_kurunta",
+            "name": "Internal Intrigues",
+            "description": "Playing as Suppiluliuma, become Great King and use Forced Annexation on Kurunta's faction.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 46,
+            "apiname": "phar_main_ach_sup_kill_kurunta",
+            "name": "Revenge, Served Sweet & Cold",
+            "description": "Playing as Suppiluliuma, eliminate Kurunta in the first 25 turns.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 47,
+            "apiname": "phar_main_ach_taus_vassal_seti",
+            "name": "Who is the Little One? A Pet Perhaps?",
+            "description": "Playing as Tausret, vassalise Seti's faction.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 48,
+            "apiname": "phar_main_ach_taus_court",
+            "name": "A Man's World",
+            "description": "Playing as Tausret, complete 10 court actions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 49,
+            "apiname": "phar_main_ach_taus_corvee_labour",
+            "name": "For the Public Good",
+            "description": "Playing as Tausret, become Pharaoh and use Corvee Labour to develop a settlement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 50,
+            "apiname": "phar_main_ach_taus_seti_coop",
+            "name": "Lovers in Arms",
+            "description": "Playing as Tausret and Seti, win a multiplayer co-op game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 51,
+            "apiname": "phar_main_ach_maat_collapse",
+            "name": "All Hope in Eclipse",
+            "description": "Complete a campaign with Pillars of Civilisation in Collapse.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 52,
+            "apiname": "phar_main_ach_maat_prosper",
+            "name": "Universal Balance",
+            "description": "Complete a campaign with Pillars of Civilisation in Prosperity.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 53,
+            "apiname": "phar_main_ach_maat_crisis",
+            "name": "Isfet Rising",
+            "description": "Complete a campaign with Pillars of Civilisation in Crisis.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 54,
+            "apiname": "phar_main_ach_ambitions",
+            "name": "Fortune Favours the Bold",
+            "description": "Complete 20 ambitions during a single campaign.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 55,
+            "apiname": "phar_main_ach_battle_fire",
+            "name": "Fury & Flames",
+            "description": "Set fire to 350 buildings during a battle.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 56,
+            "apiname": "phar_main_ach_discover_realms_egypt",
+            "name": "Kemetian Adventurer",
+            "description": "Discover all Egyptian realms on the campaign map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 57,
+            "apiname": "phar_sea_ach_ult_victory_iolaos",
+            "name": "Two Souls United",
+            "description": "Playing as Iolaos, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 58,
+            "apiname": "phar_sea_ach_ult_victory_walwetes",
+            "name": "Total Peleset",
+            "description": "Playing as Walwetes, achieve a Total War Ultimate Victory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 59,
+            "apiname": "phar_sea_ach_settled_horde",
+            "name": "Conqueror & Settler",
+            "description": "Playing as Iolaos or Walwetes, capture a settlement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 60,
+            "apiname": "phar_sea_ach_philistia",
+            "name": "Father of the Peleset",
+            "description": "Playing as Walwetes, conquer Yapo, Megiddo, Ashkelon and Urushalim.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 61,
+            "apiname": "phar_sea_ach_sea_people_coalition",
+            "name": "Leader of the Sea Peoples",
+            "description": "Playing as Iolaos or Walwetes, enter in Military Alliance with all other Sea Peoples factions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 62,
+            "apiname": "phar_sea_ach_sea_people_nomad",
+            "name": "Sea Squatter",
+            "description": "Playing as Iolaos or Walwetes, build a Nuraghe Tower or Peleset Village in each Outpost slot in a province not owned by you.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 63,
+            "apiname": "phar_sea_ach_isul_reigns",
+            "name": "The Divine Firestarter",
+            "description": "Playing as Iolaos or Walwetes, raze 50 settlements.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 64,
+            "apiname": "phar_sea_ach_sea_prevail",
+            "name": "I Will Be Your Villain",
+            "description": "Playing as Iolaos or Walwetes, raze 25 settlements.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 65,
+            "apiname": "phar_sea_ach_others_demise",
+            "name": "I Love the Smell of Collapse in the Morning!",
+            "description": "Playing as Iolaos or Walwetes, survive 20 turns with the civilization in Collapse.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 66,
+            "apiname": "phar_sea_ach_tribal_unity",
+            "name": "Tribal Unity",
+            "description": "Having chosen Path of the Sea Peoples, keep your faction for 25 turns in one of the 4 innermost positions on the Blades and Dwelling scales.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 67,
+            "apiname": "phar_sea_ach_tribal_excellence",
+            "name": "Tribal Excellence",
+            "description": "Having chosen Path of the Sea Peoples, keep your faction for 20 turns in one of the 4 outermost positions on the Blades and Dwelling scales.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 68,
+            "apiname": "phar_sea_ach_pleasures_of_war",
+            "name": "Spoiled by War",
+            "description": "Playing as Iolaos or Walwetes, receive 10 War Spoils rewards for razing a settlement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 69,
+            "apiname": "phar_sea_ach_sea_diplomat",
+            "name": "I Come in Peace",
+            "description": "Playing as Iolaos or Walwetes, sign 5 peace treaties with non-Sea Peoples factions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 70,
+            "apiname": "phar_sea_ach_to_the_sea",
+            "name": "To the Sea We Shall Return",
+            "description": "Playing as Iolaos or Walwetes, lose all your occupied regions while still having a Horde.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 71,
+            "apiname": "phar_sea_ach_display_of_power",
+            "name": "Look Upon Me and Despair!",
+            "description": "Having chosen Path of the Marauders, use Display of Power 3 times.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 72,
+            "apiname": "phar_sea_ach_obedience",
+            "name": "Lord of Fear",
+            "description": "Having chosen Path of the Marauders, use Domination 3 times.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 73,
+            "apiname": "phar_sea_ach_change_allegiance",
+            "name": "Join the Dark Side!",
+            "description": "Having chosen Path of the Marauders, use Promise of Glory 3 times.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 74,
+            "apiname": "phar_sea_ach_raze_and_exterminate",
+            "name": "...but the Women and Children Too!",
+            "description": "Having chosen Path of the Marauders, use Raze & Exterminate 3 times.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 75,
+            "apiname": "phar_sea_ach_hail_the_sherden_gods",
+            "name": "The Light, the Dark & the Blood Between",
+            "description": "Playing as Iolaos, worship all Sherden gods and reach their highest tier.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 76,
+            "apiname": "phar_sea_ach_hail_the_peleset_gods",
+            "name": "They Came from the Sea",
+            "description": "Playing as Walwetes, worship all Peleset gods and reach their highest tier.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        }
+    ]
+}

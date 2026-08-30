@@ -1,0 +1,951 @@
+{
+    "id": 751780,
+    "steamAppId": 751780,
+    "name": "Forager",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/751780/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 12,
+        "max": 22
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Idle",
+        "Crafting",
+        "Exploration",
+        "Sandbox",
+        "Open World",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "feat0",
+            "name": "Tycoon",
+            "description": "Own 10 lands and 5,000 coins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "feat1",
+            "name": "Miner",
+            "description": "Mine the giant crystal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "feat2",
+            "name": "Royal",
+            "description": "Gather royal steel or royal clothing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "feat3",
+            "name": "Gemologist",
+            "description": "Have one of each gem in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "feat4",
+            "name": "Tough",
+            "description": "Have 10 max health",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "feat5",
+            "name": "Tomb Raider",
+            "description": "Complete the Ancient Tomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "feat6",
+            "name": "Pathfinder",
+            "description": "Complete the Skull Maze",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "feat7",
+            "name": "Ice Breaker",
+            "description": "Complete the Crystal Cave",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "feat8",
+            "name": "Demon Hunter",
+            "description": "Complete the Fire Temple",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "feat9",
+            "name": "Ancient Astronomer",
+            "description": "Solve the Ancient Galaxy puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "feat10",
+            "name": "Skull Astronomer",
+            "description": "Solve the Skull Galaxy puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "feat11",
+            "name": "Frozen Astronomer",
+            "description": "Solve the Frozen Galaxy puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "feat12",
+            "name": "Fire Astronomer",
+            "description": "Solve the Fire Galaxy puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "feat13",
+            "name": "Unscarred",
+            "description": "Complete a dungeon without taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "feat14",
+            "name": "Occult",
+            "description": "Perform a challenging blood ritual",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "feat15",
+            "name": "Jester",
+            "description": "Fail miserably at a trivia minigame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "feat16",
+            "name": "Sharpshooter",
+            "description": "Kill an enemy with a single arrow shot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "feat17",
+            "name": "Swordmaster",
+            "description": "Kill 3 enemies or more with a single sword slash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "feat18",
+            "name": "Winner",
+            "description": "Win the jackpot at a slot machine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "feat19",
+            "name": "Greedy",
+            "description": "Kill a magic deer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "feat20",
+            "name": "Monster",
+            "description": "Kill all giant beets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "feat21",
+            "name": "Duelist",
+            "description": "Win the ice wizard challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "feat22",
+            "name": "Rainbuddy",
+            "description": "Use a bottled rainbow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "feat23",
+            "name": "Robotic",
+            "description": "Activate a droid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "feat24",
+            "name": "Bomberman",
+            "description": "Have 3 bombs active at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "feat25",
+            "name": "Spelunker",
+            "description": "Dig up an archaeology item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "feat26",
+            "name": "Gourmand",
+            "description": "Eat a gem",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "feat27",
+            "name": "Hopeless",
+            "description": "Die 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "feat28",
+            "name": "Addicted",
+            "description": "Play the game for 3 hours",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "feat29",
+            "name": "Mason",
+            "description": "Build 20 structures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "feat30",
+            "name": "Expansionist",
+            "description": "Own 5 lands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "feat31",
+            "name": "Destroyer",
+            "description": "Kill 100 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "feat32",
+            "name": "Jealous",
+            "description": "Have 100 jelly in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "feat33",
+            "name": "Disgusting",
+            "description": "Have 100 poop in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "feat34",
+            "name": "Angler",
+            "description": "Catch 50 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "feat35",
+            "name": "Hoarder",
+            "description": "Have 1,000 items in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "feat36",
+            "name": "Big Hoarder",
+            "description": "Have 5,000 items in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "feat37",
+            "name": "Irrigator",
+            "description": "Water 100 seeds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "feat38",
+            "name": "Harvester",
+            "description": "Plant 100 seeds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "feat39",
+            "name": "Wealthy",
+            "description": "Have 100,000 coins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "feat40",
+            "name": "Millonaire",
+            "description": "Have 1,000,000 coins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "feat41",
+            "name": "Smelter",
+            "description": "Craft 500 furnace items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "feat42",
+            "name": "Mint",
+            "description": "Craft 2,000 coins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "feat43",
+            "name": "Treasure Hunter",
+            "description": "Open 20 big treasure chests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "feat44",
+            "name": "Digger",
+            "description": "Dig up 50 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "feat45",
+            "name": "Artisan",
+            "description": "Craft 10,000 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "feat46",
+            "name": "Constructor",
+            "description": "Build 200 structures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "feat47",
+            "name": "Champion",
+            "description": "Open a skull chest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "feat48",
+            "name": "Waterproof",
+            "description": "Build on top of every water tile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "feat49",
+            "name": "Secret Finder",
+            "description": "Find 3 secret rooms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "feat50",
+            "name": "Enlightened",
+            "description": "Find every secret room",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "feat51",
+            "name": "Marksman",
+            "description": "Shoot 100 arrows",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "feat52",
+            "name": "Acrobat",
+            "description": "Dodge 10 attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "feat53",
+            "name": "Daredevil",
+            "description": "Dodge a lethal attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "feat54",
+            "name": "Pillager",
+            "description": "Destroy 100 gravestones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "feat55",
+            "name": "Bug Catcher",
+            "description": "Bottle 100 critters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "feat56",
+            "name": "Extrovert",
+            "description": "Talk to every NPC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "feat57",
+            "name": "Diligent",
+            "description": "Complete every NPC quest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "feat58",
+            "name": "Druid Helper",
+            "description": "Help the Druid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "feat59",
+            "name": "Princess Helper",
+            "description": "Help the Princess",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "feat60",
+            "name": "Wizard Helper",
+            "description": "Help the Wizard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "feat61",
+            "name": "Goblin Helper",
+            "description": "Help the Goblin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "feat62",
+            "name": "Fairy Helper",
+            "description": "Help the Fairy Queen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "feat63",
+            "name": "Engineer Helper",
+            "description": "Help the Engineer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "feat64",
+            "name": "Ghost Helper",
+            "description": "Help the Ghost",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "feat65",
+            "name": "Old People Helper",
+            "description": "Help the Old Man",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "feat66",
+            "name": "Fox Helper",
+            "description": "Help the Fox",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "feat67",
+            "name": "Master Forager",
+            "description": "Complete the museum Foraging bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "feat68",
+            "name": "Master Miner",
+            "description": "Complete the museum Mining bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "feat69",
+            "name": "Master Builder",
+            "description": "Complete the museum Building bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "feat70",
+            "name": "Master Farmer",
+            "description": "Complete the museum Farming bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "feat71",
+            "name": "Master Chef",
+            "description": "Complete the museum Cooking bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "feat72",
+            "name": "Master Alchemist",
+            "description": "Complete the museum Alchemy bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "feat73",
+            "name": "Master Trapper",
+            "description": "Complete the museum Trapping bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "feat74",
+            "name": "Master Archaeologist",
+            "description": "Complete the museum Archaeology bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "feat75",
+            "name": "Curator",
+            "description": "Complete every museum bundle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "feat76",
+            "name": "Skillful",
+            "description": "Learn every skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "feat77",
+            "name": "Imperialist",
+            "description": "Buy every land",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "feat78",
+            "name": "Treasure Master",
+            "description": "Open all big treasure chests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "feat79",
+            "name": "Tool Collector",
+            "description": "Collect every tool and weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "feat80",
+            "name": "Accessory Collector",
+            "description": "Collect every accessory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "feat81",
+            "name": "Seal Collector",
+            "description": "Collect every seal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "feat82",
+            "name": "Artifact Collector",
+            "description": "Collect every artifact",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "feat83",
+            "name": "Completionist",
+            "description": "Achieve every other feat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "feat84",
+            "name": "Void Scout",
+            "description": "Reach Void level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "feat85",
+            "name": "Void Explorer",
+            "description": "Reach Void level 10",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "feat86",
+            "name": "Void Champion",
+            "description": "Reach Void level 20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "feat87",
+            "name": "Void Master",
+            "description": "Reach Void level 30",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 89,
+            "apiname": "feat88",
+            "name": "Illuminator",
+            "description": "Light all torches in the Skull Maze",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "feat89",
+            "name": "Other Worldly",
+            "description": "Get a Void gear item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "feat90",
+            "name": "Galactic",
+            "description": "Get a Cosmic gear item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "feat91",
+            "name": "Summoner",
+            "description": "Obtain a sigil",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "feat92",
+            "name": "Slime Regicide",
+            "description": "Defeat the Slime King",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "feat93",
+            "name": "Bone Regicide",
+            "description": "Defeat the Skeleton King",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "feat94",
+            "name": "Not A Monster",
+            "description": "Defeat the Dark Beet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "feat95",
+            "name": "Coin Collector",
+            "description": "Make 1 million coins using banks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "feat96",
+            "name": "Unlimited Power",
+            "description": "Upgrade all rods",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "feat97",
+            "name": "Billionaire",
+            "description": "Have 1,000,000,000 coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 99,
+            "apiname": "feat98",
+            "name": "Trillionaire",
+            "description": "Have 1,000,000,000,000 coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 100,
+            "apiname": "feat99",
+            "name": "Toxic Vanquisher",
+            "description": "Defeat the Toxic Guardian",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "feat100",
+            "name": "Radioactive",
+            "description": "Obtain a Nuclear tier item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 102,
+            "apiname": "feat101",
+            "name": "Mad Scientist",
+            "description": "Upgrade a structure to use nuclear power",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 103,
+            "apiname": "feat102",
+            "name": "Production Master",
+            "description": "Own 100 nuclear structures at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 400
+        }
+    ]
+}
