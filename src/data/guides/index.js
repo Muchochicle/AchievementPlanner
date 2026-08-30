@@ -267,6 +267,9 @@ import { GUIDE as unrailedAchievementGuide } from "./games/unrailed.js";
 import { GUIDE as towerfallAchievementGuide } from "./games/towerfall.js";
 import { GUIDE as ultimateChickenHorseAchievementGuide } from "./games/ultimate-chicken-horse.js";
 import { GUIDE as peakAchievementGuide } from "./games/peak.js";
+import { GUIDE as streetsOfRage4AchievementGuide } from "./games/streets-of-rage-4.js";
+import { GUIDE as dawnOfManAchievementGuide } from "./games/dawn-of-man.js";
+import { GUIDE as songsOfSyxAchievementGuide } from "./games/songs-of-syx.js";
 
 export const APP_GUIDES = [
 
@@ -556,7 +559,10 @@ export const GAME_GUIDES = [
     unrailedAchievementGuide,
     towerfallAchievementGuide,
     ultimateChickenHorseAchievementGuide,
-    peakAchievementGuide
+    peakAchievementGuide,
+    streetsOfRage4AchievementGuide,
+    dawnOfManAchievementGuide,
+    songsOfSyxAchievementGuide
 
 ];
 

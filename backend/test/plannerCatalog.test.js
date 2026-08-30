@@ -291,6 +291,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("towerfall"));
     assert.ok(slugs.includes("ultimate-chicken-horse"));
     assert.ok(slugs.includes("peak"));
+    assert.ok(slugs.includes("streets-of-rage-4"));
+    assert.ok(slugs.includes("dawn-of-man"));
+    assert.ok(slugs.includes("songs-of-syx"));
 
 });
 
