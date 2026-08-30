@@ -1,0 +1,699 @@
+{
+    "id": 867210,
+    "steamAppId": 867210,
+    "name": "Songs of Conquest",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/867210/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Turn-Based Strategy",
+        "Turn-Based Tactics",
+        "Fantasy",
+        "Pixel Graphics",
+        "RPG",
+        "Adventure"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ApocalypseSuccession",
+            "name": "Bringer of Ruin",
+            "description": "Cast five Apocalypse spells on the same troop turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "ArleonCampaign",
+            "name": "The Song of Stoutheart",
+            "description": "Complete all Arleon campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "ArleonCampaignFinaleOnHard",
+            "name": "Death To Diplomacy",
+            "description": "Complete the last Arleon campaign map on Overwhelming difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 4,
+            "apiname": "ArtifactsEquipped",
+            "name": "Dressed For Success",
+            "description": "Have a wielder equipped with artifacts in all slots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "AttackCount",
+            "name": "Attack Bonanza",
+            "description": "Have troop perform six attacks on its turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "BaryaCampaign",
+            "name": "The Price of Freedom",
+            "description": "Complete all Barya campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 7,
+            "apiname": "BaryaCampaignFinaleOnHard",
+            "name": "A Life's Worth",
+            "description": "Complete the last Barya campaign map on Overwhelming difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 8,
+            "apiname": "BurrowBlocked",
+            "name": "This Spot's Taken",
+            "description": "Block an enemy troop from burrowing up",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "BurrowUp",
+            "name": "Hello There",
+            "description": "Burrow up next to three or more ranged enemy troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "CastEachSpell",
+            "name": "Versatile Wielder",
+            "description": "Cast each spell (over any number of games)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "ChainLightningKills",
+            "name": "Unlimited Power!",
+            "description": "Kill three enemies using Chain Lightning",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "ChargerCount",
+            "name": "Fully Charged",
+            "description": "Have ten or more Charged buffs on a troop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "ComingThrough",
+            "name": "Coming Through!",
+            "description": "Trigger three Attacks of Opportunity in a single Bull Rush",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 14,
+            "apiname": "DamageThreshold",
+            "name": "Critical Hit",
+            "description": "Deal 500 damage or more in one attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "Deepstrike",
+            "name": "Deepstrike",
+            "description": "Use Dimensional Door to position your troop in three or more Zones of Control",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "DieByTheBow",
+            "name": "Die by the Bow",
+            "description": "Kill 100 000 enemies using ranged attacks",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 17,
+            "apiname": "DieByTheStaff",
+            "name": "Die by the Staff",
+            "description": "Kill 100 000 enemies using magic damage",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 18,
+            "apiname": "DieByTheSword",
+            "name": "Die by the Sword",
+            "description": "Kill 100 000 enemies using melee attacks",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 19,
+            "apiname": "DoubleKill",
+            "name": "Double Kill",
+            "description": "Win two battles on the same turn with the same wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "FlameAttackKillCount",
+            "name": "Barbecue",
+            "description": "Kill three enemies with one flame attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "FrontlineFighterCount",
+            "name": "In The Thick Of It",
+            "description": "Have three or more Front Line Fighter buffs on a troop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "FullHouse",
+            "name": "Full House",
+            "description": "Win a battle using each of the official wielders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 23,
+            "apiname": "InfernalInfluence",
+            "name": "Infernal Influence",
+            "description": "Make enemy kill his friend using Blind Hatred",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "KillingSpree",
+            "name": "Killing Spree",
+            "description": "Win six battles in a row on the same turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "LothCampaign",
+            "name": "Together For Her",
+            "description": "Complete all Loth campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "LothCampaignFinaleOnHard",
+            "name": "An Empress's Hope",
+            "description": "Complete the last Loth campaign map on Overwhelming difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 27,
+            "apiname": "MultiKill",
+            "name": "Multi Kill",
+            "description": "Win three battles on the same turn with the same wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "MultiplayerWins",
+            "name": "Proof That Luck Can Be Consistent",
+            "description": "Win 25 multiplayer (online or hotseat) games",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 29,
+            "apiname": "PhoenixKills",
+            "name": "Death From Above",
+            "description": "Kill three enemies using Breath of the Phoenix",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "QuickRetaliationDeath",
+            "name": "Whoops!",
+            "description": "Have your troop die from a Quick retaliation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "RanaCampaign",
+            "name": "From the Ashes",
+            "description": "Complete all Rana campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "RanaCampaignFinaleOnHard",
+            "name": "The Marsh Expands",
+            "description": "Complete the last Rana campaign map on Overwhelming difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 33,
+            "apiname": "ReclaimTown",
+            "name": "Don't Touch My Stuff",
+            "description": "Reclaim your town or settlement that is being occupied/razed/converted by the enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "RepelIntoExplosiveFungi",
+            "name": "Such A Fungi",
+            "description": "Use Repel to push an enemy troop into three Explosive Fungi",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "SorcerousSpree",
+            "name": "Sorcerous Spree",
+            "description": "Cast five spells on the same troop turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 36,
+            "apiname": "SwapIntoPoisonCloud",
+            "name": "Get Over Here!",
+            "description": "Swap enemy troop into Acid Cloud",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "SweepKillCount",
+            "name": "Cleave",
+            "description": "Kill three enemies with one sweeping attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "TownCompletion",
+            "name": "Landlord Extraordinaire",
+            "description": "Max out a town in a non-campaign game (tier 5, walls, upgraded buildings on all build sites) ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "TrojanHorse",
+            "name": "Trojan Horse",
+            "description": "Use a teleport spell to get on top of or behind the walls in a town siege",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "UltraKill",
+            "name": "Ultra Kill",
+            "description": "Win four battles on the same turn with the same wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 41,
+            "apiname": "WielderLevel1",
+            "name": "Adept",
+            "description": "Reach level 8 with a wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 42,
+            "apiname": "WielderLevel2",
+            "name": "Veteran",
+            "description": "Reach level 16 with a wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 43,
+            "apiname": "WielderLevel3",
+            "name": "Master",
+            "description": "Reach level 24 with a wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 44,
+            "apiname": "WielderLevel4",
+            "name": "Grand Master",
+            "description": "Reach level 32 with a wielder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "WinBattleBeforeEnemyTurn",
+            "name": "Humiliation",
+            "description": "Win a battle before the enemy gets a turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 46,
+            "apiname": "WinBattleWithOneUnitLeft",
+            "name": "Pyrrhic Victory",
+            "description": "Win a battle with only a single one unit left",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 47,
+            "apiname": "WinBattleWithoutAttacking",
+            "name": "Expert Essence Employment",
+            "description": "Win a battle without making an attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 48,
+            "apiname": "WinSiegeAsAttacker",
+            "name": "Veni, Vidi, Vici",
+            "description": "Win a battle against a walled town",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "WinSiegeAsDefender",
+            "name": "Venisti, Vidisti, Perdidisti",
+            "description": "Defend a walled town in battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "WinsWithFactionArleon",
+            "name": "Kneel, peasant!",
+            "description": "Win 25 times on non-campaign maps with Arleon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 51,
+            "apiname": "WinsWithFactionBarya",
+            "name": "Contractually Obligated to Win",
+            "description": "Win 25 times on non-campaign maps with Barya",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 52,
+            "apiname": "WinsWithFactionLoth",
+            "name": "I Like It A Loth",
+            "description": "Win 25 times on non-campaign maps with Loth",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 53,
+            "apiname": "WinsWithFactionRana",
+            "name": "Here be Dragons",
+            "description": "Win 25 times on non-campaign maps with Rana",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 54,
+            "apiname": "Oops",
+            "name": "Oops!",
+            "description": "Have enemy kill one of your own troops when you cast Blind Hatred",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 55,
+            "apiname": "ArtifactSetCompletion",
+            "name": "Ready, Set, Go",
+            "description": "Complete an artifact set containing at least four pieces in a non-campaign game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 56,
+            "apiname": "ChallengeTargetDiesBeforeAttack",
+            "name": "No Challenge At All",
+            "description": "Challenge an enemy and have it die before it gets a chance to attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 57,
+            "apiname": "SerimnaansReturnedToPool",
+            "name": "Grisfest",
+            "description": "Have 540 Serimnaans return to be drafted",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 58,
+            "apiname": "WinBattleWithFishAttack",
+            "name": "So Long, and Thanks for All the Fish",
+            "description": "Win a battle using a fish",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 59,
+            "apiname": "WinWithoutBuyingVildra",
+            "name": "Steadfast",
+            "description": "As Vanir, win a game without ever purchasing a Vildra troop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 60,
+            "apiname": "WinsWithFactionVanir",
+            "name": "Great Deeds Done",
+            "description": "Win 25 times on non-campaign maps with Vanir",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 61,
+            "apiname": "AllRootsEssenceResearch",
+            "name": "Core Kernel of Essence",
+            "description": "As a Roots player, purchase all available essence research",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 62,
+            "apiname": "MothersLoveAbsorption",
+            "name": "Smothered",
+            "description": "Absorb 1,000 damage using the Mother's Embrace trait",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 63,
+            "apiname": "RepelAndLunge",
+            "name": "No Free Lunge",
+            "description": "Use Lunge ability to finish off an enemy after it was Repelled away",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 64,
+            "apiname": "WinBeamDuel",
+            "name": "Heart to Heart",
+            "description": "Win a beam duel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 65,
+            "apiname": "WinsWithFactionRoots",
+            "name": "Personal Growth",
+            "description": "Win 25 times on non-campaign maps with Roots",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 66,
+            "apiname": "WinWithoutBuyingAnyTroops",
+            "name": "Boycott",
+            "description": "Win a game without ever purchasing a troop",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 67,
+            "apiname": "KastusRisenArmy",
+            "name": "Zounds like a Loth",
+            "description": "Have 1000 Risen in Kastus Maal's army",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 68,
+            "apiname": "RiseEternalCampaign",
+            "name": "Rise Eternal",
+            "description": "Complete all Rise Eternal campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 69,
+            "apiname": "Risen4Sidequests",
+            "name": "Restoration of Grey Tor",
+            "description": "Restore all that the Faey have destroyed around Grey Tor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 70,
+            "apiname": "WinAsHouseLi",
+            "name": "Winning Is Like Li",
+            "description": "Win a non-campaign game using only house Li wielders and troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 71,
+            "apiname": "WinAsHouseSheng",
+            "name": "Sheng Happens",
+            "description": "Win a non-campaign game using only house Sheng wielders and troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 72,
+            "apiname": "WinAsHouseXuan",
+            "name": "There Can Be Only Xuan",
+            "description": "Win a non-campaign game using only house Xuan wielders and troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 73,
+            "apiname": "WinsWithFactionYulan",
+            "name": "Once Divided Now United",
+            "description": "Win 25 times on non-campaign maps with Yulan",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 74,
+            "apiname": "YulanCampaign",
+            "name": "Three Houses",
+            "description": "Complete all Yulan campaign maps (on any difficulty)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 75,
+            "apiname": "YulanCampaignFinaleOnHard",
+            "name": "The Houses United",
+            "description": "Complete the last Yulan campaign map on Overwhelming difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        }
+    ]
+}

@@ -462,6 +462,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sonic-mania"));
     assert.ok(slugs.includes("sonic-adventure-2"));
     assert.ok(slugs.includes("sonic-frontiers"));
+    assert.ok(slugs.includes("dawn-of-war-2"));
+    assert.ok(slugs.includes("songs-of-conquest"));
+    assert.ok(slugs.includes("mad-games-tycoon-2"));
 
 });
 

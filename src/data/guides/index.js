@@ -438,6 +438,9 @@ import { GUIDE as dirtRallyAchievementGuide } from "./games/dirt-rally.js";
 import { GUIDE as sonicAdventure2AchievementGuide } from "./games/sonic-adventure-2.js";
 import { GUIDE as sonicFrontiersAchievementGuide } from "./games/sonic-frontiers.js";
 import { GUIDE as sonicManiaAchievementGuide } from "./games/sonic-mania.js";
+import { GUIDE as dawnOfWar2AchievementGuide } from "./games/dawn-of-war-2.js";
+import { GUIDE as songsOfConquestAchievementGuide } from "./games/songs-of-conquest.js";
+import { GUIDE as madGamesTycoon2AchievementGuide } from "./games/mad-games-tycoon-2.js";
 
 export const APP_GUIDES = [
 
@@ -898,7 +901,10 @@ export const GAME_GUIDES = [
     dirtRallyAchievementGuide,
     sonicAdventure2AchievementGuide,
     sonicFrontiersAchievementGuide,
-    sonicManiaAchievementGuide
+    sonicManiaAchievementGuide,
+    dawnOfWar2AchievementGuide,
+    songsOfConquestAchievementGuide,
+    madGamesTycoon2AchievementGuide
 
 ];
 
