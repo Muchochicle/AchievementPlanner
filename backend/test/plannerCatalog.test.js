@@ -405,6 +405,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("humankind"));
     assert.ok(slugs.includes("total-war-pharaoh"));
     assert.ok(slugs.includes("forager"));
+    assert.ok(slugs.includes("grand-theft-auto-iv"));
+    assert.ok(slugs.includes("skyrim"));
+    assert.ok(slugs.includes("dark-souls-remastered"));
 
 });
 

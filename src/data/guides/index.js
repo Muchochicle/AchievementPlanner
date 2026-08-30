@@ -381,6 +381,9 @@ import { GUIDE as totalWarEmpireAchievementGuide } from "./games/total-war-empir
 import { GUIDE as humankindAchievementGuide } from "./games/humankind.js";
 import { GUIDE as totalWarPharaohAchievementGuide } from "./games/total-war-pharaoh.js";
 import { GUIDE as foragerAchievementGuide } from "./games/forager.js";
+import { GUIDE as grandTheftAutoIvAchievementGuide } from "./games/grand-theft-auto-iv.js";
+import { GUIDE as skyrimAchievementGuide } from "./games/skyrim.js";
+import { GUIDE as darkSoulsRemasteredAchievementGuide } from "./games/dark-souls-remastered.js";
 
 export const APP_GUIDES = [
 
@@ -784,7 +787,10 @@ export const GAME_GUIDES = [
     totalWarEmpireAchievementGuide,
     humankindAchievementGuide,
     totalWarPharaohAchievementGuide,
-    foragerAchievementGuide
+    foragerAchievementGuide,
+    grandTheftAutoIvAchievementGuide,
+    skyrimAchievementGuide,
+    darkSoulsRemasteredAchievementGuide
 
 ];
 
