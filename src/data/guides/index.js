@@ -315,6 +315,9 @@ import { GUIDE as streetFighter6AchievementGuide } from "./games/street-fighter-
 import { GUIDE as wolfensteinTheOldBloodAchievementGuide } from "./games/wolfenstein-the-old-blood.js";
 import { GUIDE as sniperElite3AchievementGuide } from "./games/sniper-elite-3.js";
 import { GUIDE as justCause2AchievementGuide } from "./games/just-cause-2.js";
+import { GUIDE as metalGearRisingRevengeanceAchievementGuide } from "./games/metal-gear-rising-revengeance.js";
+import { GUIDE as dmcDevilMayCryAchievementGuide } from "./games/dmc-devil-may-cry.js";
+import { GUIDE as sunsetOverdriveAchievementGuide } from "./games/sunset-overdrive.js";
 
 export const APP_GUIDES = [
 
@@ -652,7 +655,10 @@ export const GAME_GUIDES = [
     streetFighter6AchievementGuide,
     wolfensteinTheOldBloodAchievementGuide,
     sniperElite3AchievementGuide,
-    justCause2AchievementGuide
+    justCause2AchievementGuide,
+    metalGearRisingRevengeanceAchievementGuide,
+    dmcDevilMayCryAchievementGuide,
+    sunsetOverdriveAchievementGuide
 
 ];
 

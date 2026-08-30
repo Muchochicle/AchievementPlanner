@@ -1,0 +1,563 @@
+{
+    "id": 235460,
+    "steamAppId": 235460,
+    "name": "METAL GEAR RISING: REVENGEANCE",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/235460/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Hack and Slash",
+        "Character Action",
+        "Metal Gear",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_FILE_R_00_CLEAR",
+            "name": "File R-00: Status - Closed",
+            "description": "Complete File R-00: Guard Duty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_FILE_R_01_CLEAR",
+            "name": "File R-01: Status - Closed",
+            "description": "Complete File R-01: Coup d'État.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_FILE_R_02_CLEAR",
+            "name": "File R-02: Status - Closed",
+            "description": "Complete File R-02: Research Facility.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_FILE_R_03_CLEAR",
+            "name": "File R-03: Status - Closed",
+            "description": "Complete File R-03: Mile High.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FILE_R_04_CLEAR",
+            "name": "File R-04: Status - Closed",
+            "description": "Complete File R-04: Hostile Takeover.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_FILE_R_05_CLEAR",
+            "name": "File R-05: Status - Closed",
+            "description": "Complete File R-05: Escape From Denver.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_FILE_R_06_CLEAR",
+            "name": "File R-06: Status - Closed",
+            "description": "Complete File R-06: Badlands Showdown.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_FILE_R_07_CLEAR",
+            "name": "File R-07: Status - Closed",
+            "description": "Complete File R-07: Assassination Attempt.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_STORMBRINGER",
+            "name": "Stormbringer",
+            "description": "Complete story mode on Revengeance difficulty with all S rankings.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1800
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_STEEL_TAIL",
+            "name": "Steel Tail",
+            "description": "Cut off Metal Gear RAY's metal tail during File R-00.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_NO_FLASH_PHOTO",
+            "name": "No Flash Photography!",
+            "description": "Destroy all the Gun Cameras in File R-01.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_DWARF_RAIDEN",
+            "name": "Dwarf Raiden",
+            "description": "Incapacitate all the soldiers in File R-02 using a Dwarf Gekko.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_WALK_DARK",
+            "name": "A Walk in the Dark",
+            "description": "Complete the abandoned railroad sequence in File R-03 without using AR Mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_MENACE",
+            "name": "Menace to Society",
+            "description": "Cut off the finial at the top of the pagoda in File R-04.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_GREAT_ESCAPE",
+            "name": "Great Escape",
+            "description": "Complete File R-05 in less than 7 minutes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_SURPRISE_ATTACK",
+            "name": "Surprise Attack!",
+            "description": "Arrive at the objective in File R-07 without being spotted.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_PRODIGAL",
+            "name": "Prodigal Murderer",
+            "description": "Defeat Mistral without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_GENIUS",
+            "name": "Genius Destroyer",
+            "description": "Defeat Monsoon without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_TRULY",
+            "name": "Truly Human",
+            "description": "Defeat Sundowner without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CHOSEN",
+            "name": "Chosen by History",
+            "description": "Defeat Samuel without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_THE_POLITICS",
+            "name": "The Politics of Silencing Foes",
+            "description": "Defeat Sen. Armstrong without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_ANTI_CYBORG",
+            "name": "Anti-Cyborg Sentiment",
+            "description": "Destroy a total of 100 Cyborgs during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_THE_BIGGER",
+            "name": "The Bigger They Are...",
+            "description": "Destroy a total of 100 Custom Cyborgs during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_DEMILITARIZED_ZONE",
+            "name": "Demilitarized Zone",
+            "description": "Destroy a total of 100 Heavily Armed Cyborgs during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_HERPETOPHOBIA",
+            "name": "Herpetophobia",
+            "description": "Destroy a total of 10 Gekkos during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_SILVERBACK",
+            "name": "Silverback",
+            "description": "Destroy a total of 10 Mastiffs during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_EXTINCTION_LEVEL",
+            "name": "Extinction Level Event",
+            "description": "Destroy a total of 10 Raptors during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_POUND_SCUM",
+            "name": "Pond Scum",
+            "description": "Destroy a total of 5 Vodomjerka during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_WOLF_HUNTER",
+            "name": "Wolf Hunter",
+            "description": "Destroy a total of 10 Fenrirs during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_SLIDER_STRIKE",
+            "name": "Slider Strike",
+            "description": "Destroy a total of 10 Sliders during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_JUMPING_THE_SHARK",
+            "name": "Jumping the Shark",
+            "description": "Destroy a total of 10 Hammerheads during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_LOOKING_OUT",
+            "name": "Looking Out for the Little Guys",
+            "description": "Destroy a total of 30 Dwarf Gekkos during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_TEARING_AWAY",
+            "name": "Tearing Away the Disguise",
+            "description": "Destroy all of the humanoid Dwarf Gekkos during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_DATCH_RIGHT",
+            "name": "Datsu Right",
+            "description": "Successfully complete 50 Zandatsus during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_WHAT",
+            "name": "What Doesn't Kill You...",
+            "description": "In story mode, successfully parry 10 attacks in a row in one minute or less.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ASSASIN_BEHIND",
+            "name": "Assassin Behind Closed Doors",
+            "description": "Successfully complete 30 Ninja Kills during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_RUN_FROM_CHANCE",
+            "name": "You Don't Run from Chance",
+            "description": "Successfully complete 50 Executions during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_A_LOVER",
+            "name": "A Lover, Not a Fighter",
+            "description": "Successfully complete 10 No Kill battles during story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_ASSAULT_WITH_ADEADLY",
+            "name": "Assault with a Deadly Weapon",
+            "description": "Dismember three enemies during Blade Mode with a single attack.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_RIP_EM_APART",
+            "name": "Rip 'Em Apart!",
+            "description": "In story mode, kill 100 enemies by cutting them.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_LOVE_AT_FIRST_SIGHT",
+            "name": "Love at First Sight",
+            "description": "While remotely operating a Dwarf Gekko in story mode, find and communicate with all Dwarf Gekkos.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ICH_LIEBE",
+            "name": "Ich Liebe Kapitalismus!",
+            "description": "Acquire all customization items.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_A_BIG_FAN",
+            "name": "A Big Fan of Lefties",
+            "description": "Acquire all enemy officers' left arms.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_AMATEUR_RADIO_OPERATER",
+            "name": "Amateur Radio Operator",
+            "description": "Listen to most of the codec conversations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_PEEKABOO",
+            "name": "Peekaboo",
+            "description": "Discover all of the soldiers hidden in cardboard boxes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_DATA_MINING",
+            "name": "Data Mining",
+            "description": "Acquire all data storage devices.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_HUMANITARIAN",
+            "name": "Humanitarian Assistance",
+            "description": "Rescue all the civilians.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_ANALYSIS_COMPLETE",
+            "name": "Analysis Complete",
+            "description": "Unlock every VR Mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_VR_MASTER",
+            "name": "VR Master",
+            "description": "Complete every VR Mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_VIRTUALLY_FLAWLESS",
+            "name": "Virtually Flawless",
+            "description": "Set the highest score on every VR Mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_DL_VR_MASTER",
+            "name": "DL-VR Master",
+            "description": "Complete every DL-VR Mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_HERO_OF_THE_METAVERSE",
+            "name": "Hero of the Metaverse",
+            "description": "Set the highest score on every DL-VR Mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_DL_STORY_01_CLEAR",
+            "name": "DL-Story-01: Status - Closed",
+            "description": "Complete DL-Story-01: Brazilian Wind",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_YOU_ARE_HIRED",
+            "name": "You're Hired",
+            "description": "Defeat Sen. Armstrong without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_JETSTREAM",
+            "name": "Jetstream",
+            "description": "Complete DL-Story-01: Brazilian Wind on Revengeance difficulty in one hour or less. ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_DRAW_PARDNER",
+            "name": "Draw, Pardner!",
+            "description": "Defeat 100 enemies in DL-Story-01: Brazilian Wind's Story Mode using Quick Draw.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_DLC_STORY_02_CLEAR",
+            "name": "DL-Story-02: Status - Closed",
+            "description": "Complete DL-Story-02: Blade Wolf.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_WOLFS_PRIDE",
+            "name": "Wolf's Pride",
+            "description": "Defeat Khamsin without taking any damage on Hard difficulty or above.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_FANGS_OF_FURY",
+            "name": "Fangs of Fury",
+            "description": "Complete DL-Story-02: Blade Wolf on Revengeance difficulty in one hour or less. ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_PREDATORY_INSTINCTS",
+            "name": "Predatory Instincts",
+            "description": "Defeat 30 enemies in DL-Story-02: Blade Wolf via Hunt Kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

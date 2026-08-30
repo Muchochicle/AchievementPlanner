@@ -339,6 +339,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("wolfenstein-the-old-blood"));
     assert.ok(slugs.includes("sniper-elite-3"));
     assert.ok(slugs.includes("just-cause-2"));
+    assert.ok(slugs.includes("metal-gear-rising-revengeance"));
+    assert.ok(slugs.includes("dmc-devil-may-cry"));
+    assert.ok(slugs.includes("sunset-overdrive"));
 
 });
 
