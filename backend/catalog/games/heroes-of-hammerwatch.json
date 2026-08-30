@@ -1,0 +1,1050 @@
+{
+    "id": 677120,
+    "steamAppId": 677120,
+    "name": "Heroes of Hammerwatch",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/677120/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Action RPG",
+        "Hack and Slash",
+        "Pixel Graphics",
+        "Co-op",
+        "Dungeon Crawler"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "beat_forsaken_tower",
+            "name": "Forsaken Tower",
+            "description": "Beat the Forsaken Tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "beat_stone_guardian",
+            "name": "Stone Guardian",
+            "description": "Defeat the Stone Guardian.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "beat_warden",
+            "name": "Warden",
+            "description": "Defeat the Warden.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "beat_three_councilors",
+            "name": "The Three Councilors",
+            "description": "Defeat the Three Councilors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "beat_watcher",
+            "name": "Watcher",
+            "description": "Defeat the Watcher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "beat_thundersnow",
+            "name": "Thundersnow",
+            "description": "Defeat Thundersnow.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 7,
+            "apiname": "class_priest",
+            "name": "Chapter of Light",
+            "description": "Unlock the Priest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "class_thief",
+            "name": "The Old Drunkard",
+            "description": "Unlock the Thief.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "class_wizard",
+            "name": "The Pointy Hat",
+            "description": "Unlock the Wizard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "level20_paladin",
+            "name": "Expert Paladin",
+            "description": "Reach level 20 with a Paladin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "level20_priest",
+            "name": "Expert Priest",
+            "description": "Reach level 20 with a Priest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "level20_ranger",
+            "name": "Expert Ranger",
+            "description": "Reach level 20 with a Ranger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "level20_sorcerer",
+            "name": "Expert Sorcerer",
+            "description": "Reach level 20 with a Sorcerer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "level20_thief",
+            "name": "Expert Thief",
+            "description": "Reach level 20 with a Thief.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "level20_warlock",
+            "name": "Expert Warlock",
+            "description": "Reach level 20 with a Warlock.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "level20_wizard",
+            "name": "Expert Wizard",
+            "description": "Reach level 20 with a Wizard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "kill_aberrations",
+            "name": "Exorcist",
+            "description": "Kill 75,000 Aberrations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "kill_beasts",
+            "name": "Beast Slayer",
+            "description": "Kill 50,000 Beasts.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "kill_constructs",
+            "name": "Demolisher",
+            "description": "Kill 10,000 Constructs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "kill_undead",
+            "name": "Sanctifier",
+            "description": "Kill 100,000 Undead.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 21,
+            "apiname": "find_gold",
+            "name": "Gold Digger",
+            "description": "Find 1,000,000 gold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 22,
+            "apiname": "find_ore",
+            "name": "Miner",
+            "description": "Find 1,000 ore.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "town_restored",
+            "name": "The Outlook Restored",
+            "description": "Fully upgrade the Town.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "find_secrets",
+            "name": "Hidden Treasures",
+            "description": "Find 50 secrets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "combo",
+            "name": "Combo Sphere",
+            "description": "Unlock Combo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "combo_killer",
+            "name": "Combo Killer",
+            "description": "Chain a combo of 500 kills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "fountain_good",
+            "name": "Good Fortune",
+            "description": "Spend 5000 gold on positive favor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "jailbreak",
+            "name": "Jailbreak",
+            "description": "Unlock the prison cells.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "shrine",
+            "name": "Mysterious Monolith",
+            "description": "Use a monolith.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "imp",
+            "name": "Unexpected Gifts",
+            "description": "Receive a reward from the Imp.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "level40_paladin",
+            "name": "Master Paladin",
+            "description": "Reach level 40 with a Paladin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 32,
+            "apiname": "level40_priest",
+            "name": "Master Priest",
+            "description": "Reach level 40 with a Priest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 33,
+            "apiname": "level40_ranger",
+            "name": "Master Ranger",
+            "description": "Reach level 40 with a Ranger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 34,
+            "apiname": "level40_sorcerer",
+            "name": "Master Sorcerer",
+            "description": "Reach level 40 with a Sorcerer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 35,
+            "apiname": "level40_thief",
+            "name": "Master Thief",
+            "description": "Reach level 40 with a Thief.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 36,
+            "apiname": "level40_warlock",
+            "name": "Master Warlock",
+            "description": "Reach level 40 with a Warlock.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 37,
+            "apiname": "level40_wizard",
+            "name": "Master Wizard",
+            "description": "Reach level 40 with a Wizard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 38,
+            "apiname": "beat_forsaken_tower_ng",
+            "name": "Forsaken Tower NG+",
+            "description": "Beat the Forsaken Tower in NG+.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "beat_forsaken_tower_ng2",
+            "name": "Forsaken Tower NG++",
+            "description": "Beat the Forsaken Tower in NG++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "beat_forsaken_tower_ng3",
+            "name": "Forsaken Tower NG+++",
+            "description": "Beat the Forsaken Tower in NG+++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "beat_forsaken_tower_ng4",
+            "name": "Forsaken Tower NG++++",
+            "description": "Beat the Forsaken Tower in NG++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 42,
+            "apiname": "beat_forsaken_tower_ng5",
+            "name": "Forsaken Tower NG+++++",
+            "description": "Beat the Forsaken Tower in NG+++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 43,
+            "apiname": "magic_anvil",
+            "name": "Magic Anvil",
+            "description": "Find the Magic Anvil.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "magic_anvil_crafting",
+            "name": "Craftsmanship",
+            "description": "Craft 10 items at the Magic Anvil.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "magic_anvil_attunement",
+            "name": "Attunement",
+            "description": "Attune 10 items at the Magic Anvil.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "tavern_drinks",
+            "name": "A Drinking Game",
+            "description": "Consume 10 drinks at the Tavern.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "beat_vampire",
+            "name": "Vampire Lord",
+            "description": "Defeat the Vampire Lord.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "beat_pop",
+            "name": "Pyramid of Prophecy",
+            "description": "Beat the Pyramid of Prophecy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "beat_crustworm",
+            "name": "Giant Crustworm",
+            "description": "Defeat the Giant Crustworm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "beat_iris",
+            "name": "Queen Iris",
+            "description": "Defeat Queen Iris.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "beat_nerys",
+            "name": "Nerys",
+            "description": "Defeat Nerys.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "class_gladiator",
+            "name": "Gladiator",
+            "description": "Unlock the Gladiator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "beat_arena",
+            "name": "Arena Champion",
+            "description": "Reach rank 10 in the Arena.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "desert_map",
+            "name": "Desert Navigation",
+            "description": "Reach the Pyramid without encountering a great threat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "sarcophagus",
+            "name": "Cursed Relics",
+            "description": "Loot a sarcophagus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "construct_statues",
+            "name": "Ancient Legends",
+            "description": "Construct 3 statues.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "statue_ice_mage",
+            "name": "Ewran",
+            "description": "Construct the statue of Ewran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "statue_fire_mage",
+            "name": "Wylmir",
+            "description": "Construct the statue of Wylmir.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "statue_assassin",
+            "name": "Phalarath",
+            "description": "Construct the statue of Phalarath.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "statue_warrior",
+            "name": "Bolgarth",
+            "description": "Construct the statue of Bolgarth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "statue_paladin",
+            "name": "Calis",
+            "description": "Construct the statue of Calis.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 62,
+            "apiname": "statue_priest",
+            "name": "Cedric",
+            "description": "Construct the statue of Cedric.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "statue_plague_doctor",
+            "name": "Ozreth",
+            "description": "Construct the statue of Ozreth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 64,
+            "apiname": "statue_ranger",
+            "name": "Kyra",
+            "description": "Construct the statue of Kyra.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "bestiary",
+            "name": "Book of Monsters",
+            "description": "Find Baltzar's Book of Monsters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "level20_gladiator",
+            "name": "Expert Gladiator",
+            "description": "Reach level 20 with a Gladiator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 67,
+            "apiname": "level40_gladiator",
+            "name": "Master Gladiator",
+            "description": "Reach level 40 with a Gladiator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 68,
+            "apiname": "level60_gladiator",
+            "name": "Grandmaster Gladiator",
+            "description": "Reach level 60 with a Gladiator.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 69,
+            "apiname": "level60_paladin",
+            "name": "Grandmaster Paladin",
+            "description": "Reach level 60 with a Paladin.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 70,
+            "apiname": "level60_priest",
+            "name": "Grandmaster Priest",
+            "description": "Reach level 60 with a Priest.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 71,
+            "apiname": "level60_ranger",
+            "name": "Grandmaster Ranger",
+            "description": "Reach level 60 with a Ranger.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 72,
+            "apiname": "level60_sorcerer",
+            "name": "Grandmaster Sorcerer",
+            "description": "Reach level 60 with a Sorcerer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 73,
+            "apiname": "level60_thief",
+            "name": "Grandmaster Thief",
+            "description": "Reach level 60 with a Thief.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 74,
+            "apiname": "level60_warlock",
+            "name": "Grandmaster Warlock",
+            "description": "Reach level 60 with a Warlock.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 75,
+            "apiname": "level60_wizard",
+            "name": "Grandmaster Wizard",
+            "description": "Reach level 60 with a Wizard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 76,
+            "apiname": "beat_pop_ng",
+            "name": "Pyramid of Prophecy NG+",
+            "description": "Beat the Pyramid of Prophecy in NG+.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 77,
+            "apiname": "beat_pop_ng2",
+            "name": "Pyramid of Prophecy NG++",
+            "description": "Beat the Pyramid of Prophecy in NG++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 78,
+            "apiname": "beat_pop_ng3",
+            "name": "Pyramid of Prophecy NG+++",
+            "description": "Beat the Pyramid of Prophecy in NG+++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 79,
+            "apiname": "beat_pop_ng4",
+            "name": "Pyramid of Prophecy NG++++",
+            "description": "Beat the Pyramid of Prophecy in NG++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 80,
+            "apiname": "beat_pop_ng5",
+            "name": "Pyramid of Prophecy NG+++++",
+            "description": "Beat the Pyramid of Prophecy in NG+++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 81,
+            "apiname": "constellation",
+            "name": "Celestial Signs",
+            "description": "Solve the constellation puzzle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 82,
+            "apiname": "statue_red_priest",
+            "name": "Daran",
+            "description": "Construct the statue of Daran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 83,
+            "apiname": "pet_bought",
+            "name": "Friends For Life",
+            "description": "Acquire a companion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 84,
+            "apiname": "pet_gold",
+            "name": "Valuable Companion",
+            "description": "Have your companion collect 1,000,000 gold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 85,
+            "apiname": "dungeon_forge_used",
+            "name": "Magic Furnace",
+            "description": "Craft an item using the Magic Furnace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 86,
+            "apiname": "blood_altar_used",
+            "name": "Blood Altar",
+            "description": "Use a Blood Altar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 87,
+            "apiname": "blood_rites",
+            "name": "Exsanguination",
+            "description": "Obtain 10 Blood Rites at the same time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 88,
+            "apiname": "item_dealer_used",
+            "name": "Item Gambling",
+            "description": "Try your luck at item gambling.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 89,
+            "apiname": "item_dealer_legendary",
+            "name": "Legendary Winnings",
+            "description": "Win a legendary item by gambling.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 90,
+            "apiname": "level20_witch_hunter",
+            "name": "Expert Witch Hunter",
+            "description": "Reach level 20 with a Witch Hunter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 91,
+            "apiname": "level40_witch_hunter",
+            "name": "Master Witch Hunter",
+            "description": "Reach level 40 with a Witch Hunter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 92,
+            "apiname": "level60_witch_hunter",
+            "name": "Grandmaster Witch Hunter",
+            "description": "Reach level 60 with a Witch Hunter.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 93,
+            "apiname": "beat_elder_wisp",
+            "name": "Elder Wisp",
+            "description": "Defeat the Elder Wisp.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 94,
+            "apiname": "beat_wolf",
+            "name": "Krilith's Wolf",
+            "description": "Defeat Krilith's Wolf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 95,
+            "apiname": "beat_agents",
+            "name": "Agents",
+            "description": "Defeat the Agents.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 96,
+            "apiname": "beat_moon_temple",
+            "name": "Moon Temple",
+            "description": "Beat the Moon Temple.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 97,
+            "apiname": "beat_moon_temple_ng",
+            "name": "Moon Temple NG+",
+            "description": "Beat the Moon Temple in NG+.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 98,
+            "apiname": "beat_moon_temple_ng2",
+            "name": "Moon Temple NG++",
+            "description": "Beat the Moon Temple in NG++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 99,
+            "apiname": "beat_moon_temple_ng3",
+            "name": "Moon Temple NG+++",
+            "description": "Beat the Moon Temple in NG+++.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 100,
+            "apiname": "beat_moon_temple_ng4",
+            "name": "Moon Temple NG++++",
+            "description": "Beat the Moon Temple in NG++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 101,
+            "apiname": "beat_moon_temple_ng5",
+            "name": "Moon Temple NG+++++",
+            "description": "Beat the Moon Temple in NG+++++.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 102,
+            "apiname": "merc_beat_forsaken_tower",
+            "name": "Forsaken Tower Mercenary",
+            "description": "Beat the Forsaken Tower with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 103,
+            "apiname": "merc_beat_pop",
+            "name": "Pyramid of Prophecy Mercenary",
+            "description": "Beat the Pyramid of Prophecy with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 104,
+            "apiname": "merc_beat_moon_temple",
+            "name": "Moon Temple Mercenary",
+            "description": "Beat the Moon Temple with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 105,
+            "apiname": "merc_private",
+            "name": "Private",
+            "description": "Recruit a mercenary private.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 106,
+            "apiname": "merc_corporal",
+            "name": "Corporal",
+            "description": "Reach Corporal rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 107,
+            "apiname": "merc_sergeant",
+            "name": "Sergeant",
+            "description": "Reach Sergeant rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 108,
+            "apiname": "merc_lieutenant",
+            "name": "Lieutenant",
+            "description": "Reach Lieutenant rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 109,
+            "apiname": "merc_captain",
+            "name": "Captain",
+            "description": "Reach Captain rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 110,
+            "apiname": "merc_major",
+            "name": "Major",
+            "description": "Reach Major rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 111,
+            "apiname": "merc_colonel",
+            "name": "Colonel",
+            "description": "Reach Colonel rank with a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 112,
+            "apiname": "merc_general",
+            "name": "General",
+            "description": "Reach General rank with a mercenary.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 113,
+            "apiname": "legacy_shop",
+            "name": "Legacy Shop",
+            "description": "Purchase something at the Legacy Shop.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 114,
+            "apiname": "moonshield",
+            "name": "Lunar Shield",
+            "description": "Block ten damage instances with your Lunar Shield.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

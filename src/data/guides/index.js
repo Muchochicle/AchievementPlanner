@@ -366,6 +366,9 @@ import { GUIDE as aliensFireteamEliteAchievementGuide } from "./games/aliens-fir
 import { GUIDE as mortalKombatXAchievementGuide } from "./games/mortal-kombat-x.js";
 import { GUIDE as skullgirlsAchievementGuide } from "./games/skullgirls.js";
 import { GUIDE as brawlhallaAchievementGuide } from "./games/brawlhalla.js";
+import { GUIDE as heroesOfHammerwatchAchievementGuide } from "./games/heroes-of-hammerwatch.js";
+import { GUIDE as hammerwatchAchievementGuide } from "./games/hammerwatch.js";
+import { GUIDE as crawlAchievementGuide } from "./games/crawl.js";
 
 export const APP_GUIDES = [
 
@@ -754,7 +757,10 @@ export const GAME_GUIDES = [
     aliensFireteamEliteAchievementGuide,
     mortalKombatXAchievementGuide,
     skullgirlsAchievementGuide,
-    brawlhallaAchievementGuide
+    brawlhallaAchievementGuide,
+    heroesOfHammerwatchAchievementGuide,
+    hammerwatchAchievementGuide,
+    crawlAchievementGuide
 
 ];
 

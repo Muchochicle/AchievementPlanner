@@ -390,6 +390,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mortal-kombat-x"));
     assert.ok(slugs.includes("skullgirls"));
     assert.ok(slugs.includes("brawlhalla"));
+    assert.ok(slugs.includes("heroes-of-hammerwatch"));
+    assert.ok(slugs.includes("hammerwatch"));
+    assert.ok(slugs.includes("crawl"));
 
 });
 
