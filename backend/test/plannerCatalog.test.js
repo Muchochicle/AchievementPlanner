@@ -429,6 +429,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("lego-marvel-super-heroes"));
     assert.ok(slugs.includes("need-for-speed-payback"));
     assert.ok(slugs.includes("grid-2019"));
+    assert.ok(slugs.includes("burnout-paradise-remastered"));
+    assert.ok(slugs.includes("castle-crashers"));
+    assert.ok(slugs.includes("trials-fusion"));
 
 });
 

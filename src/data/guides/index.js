@@ -405,6 +405,9 @@ import { GUIDE as projectCars2AchievementGuide } from "./games/project-cars-2.js
 import { GUIDE as legoMarvelSuperHeroesAchievementGuide } from "./games/lego-marvel-super-heroes.js";
 import { GUIDE as needForSpeedPaybackAchievementGuide } from "./games/need-for-speed-payback.js";
 import { GUIDE as grid2019AchievementGuide } from "./games/grid-2019.js";
+import { GUIDE as burnoutParadiseRemasteredAchievementGuide } from "./games/burnout-paradise-remastered.js";
+import { GUIDE as castleCrashersAchievementGuide } from "./games/castle-crashers.js";
+import { GUIDE as trialsFusionAchievementGuide } from "./games/trials-fusion.js";
 
 export const APP_GUIDES = [
 
@@ -832,7 +835,10 @@ export const GAME_GUIDES = [
     projectCars2AchievementGuide,
     legoMarvelSuperHeroesAchievementGuide,
     needForSpeedPaybackAchievementGuide,
-    grid2019AchievementGuide
+    grid2019AchievementGuide,
+    burnoutParadiseRemasteredAchievementGuide,
+    castleCrashersAchievementGuide,
+    trialsFusionAchievementGuide
 
 ];
 
