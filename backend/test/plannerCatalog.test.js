@@ -465,6 +465,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dawn-of-war-2"));
     assert.ok(slugs.includes("songs-of-conquest"));
     assert.ok(slugs.includes("mad-games-tycoon-2"));
+    assert.ok(slugs.includes("mgs-v-ground-zeroes"));
+    assert.ok(slugs.includes("splinter-cell-blacklist"));
+    assert.ok(slugs.includes("rise-of-nations-extended"));
 
 });
 

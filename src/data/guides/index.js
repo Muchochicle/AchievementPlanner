@@ -441,6 +441,9 @@ import { GUIDE as sonicManiaAchievementGuide } from "./games/sonic-mania.js";
 import { GUIDE as dawnOfWar2AchievementGuide } from "./games/dawn-of-war-2.js";
 import { GUIDE as songsOfConquestAchievementGuide } from "./games/songs-of-conquest.js";
 import { GUIDE as madGamesTycoon2AchievementGuide } from "./games/mad-games-tycoon-2.js";
+import { GUIDE as mgsVGroundZeroesAchievementGuide } from "./games/mgs-v-ground-zeroes.js";
+import { GUIDE as splinterCellBlacklistAchievementGuide } from "./games/splinter-cell-blacklist.js";
+import { GUIDE as riseOfNationsExtendedAchievementGuide } from "./games/rise-of-nations-extended.js";
 
 export const APP_GUIDES = [
 
@@ -904,7 +907,10 @@ export const GAME_GUIDES = [
     sonicManiaAchievementGuide,
     dawnOfWar2AchievementGuide,
     songsOfConquestAchievementGuide,
-    madGamesTycoon2AchievementGuide
+    madGamesTycoon2AchievementGuide,
+    mgsVGroundZeroesAchievementGuide,
+    splinterCellBlacklistAchievementGuide,
+    riseOfNationsExtendedAchievementGuide
 
 ];
 
