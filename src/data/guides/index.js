@@ -276,6 +276,9 @@ import { GUIDE as duckGameAchievementGuide } from "./games/duck-game.js";
 import { GUIDE as speedrunnersAchievementGuide } from "./games/speedrunners.js";
 import { GUIDE as peoplePlaygroundAchievementGuide } from "./games/people-playground.js";
 import { GUIDE as worldOfGooAchievementGuide } from "./games/world-of-goo.js";
+import { GUIDE as humanResourceMachineAchievementGuide } from "./games/human-resource-machine.js";
+import { GUIDE as sevenBillionHumansAchievementGuide } from "./games/7-billion-humans.js";
+import { GUIDE as besiegeAchievementGuide } from "./games/besiege.js";
 
 export const APP_GUIDES = [
 
@@ -574,7 +577,10 @@ export const GAME_GUIDES = [
     duckGameAchievementGuide,
     speedrunnersAchievementGuide,
     peoplePlaygroundAchievementGuide,
-    worldOfGooAchievementGuide
+    worldOfGooAchievementGuide,
+    humanResourceMachineAchievementGuide,
+    sevenBillionHumansAchievementGuide,
+    besiegeAchievementGuide
 
 ];
 

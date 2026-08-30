@@ -300,6 +300,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("speedrunners"));
     assert.ok(slugs.includes("people-playground"));
     assert.ok(slugs.includes("world-of-goo"));
+    assert.ok(slugs.includes("human-resource-machine"));
+    assert.ok(slugs.includes("7-billion-humans"));
+    assert.ok(slugs.includes("besiege"));
 
 });
 
