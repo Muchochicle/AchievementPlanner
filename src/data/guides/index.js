@@ -291,6 +291,9 @@ import { GUIDE as everspace2AchievementGuide } from "./games/everspace-2.js";
 import { GUIDE as wizardOfLegendAchievementGuide } from "./games/wizard-of-legend.js";
 import { GUIDE as rivalsOfAetherAchievementGuide } from "./games/rivals-of-aether.js";
 import { GUIDE as slimeRancher2AchievementGuide } from "./games/slime-rancher-2.js";
+import { GUIDE as kingdomTwoCrownsAchievementGuide } from "./games/kingdom-two-crowns.js";
+import { GUIDE as totalWarShogun2AchievementGuide } from "./games/total-war-shogun-2.js";
+import { GUIDE as endlessSpace2AchievementGuide } from "./games/endless-space-2.js";
 
 export const APP_GUIDES = [
 
@@ -604,7 +607,10 @@ export const GAME_GUIDES = [
     everspace2AchievementGuide,
     wizardOfLegendAchievementGuide,
     rivalsOfAetherAchievementGuide,
-    slimeRancher2AchievementGuide
+    slimeRancher2AchievementGuide,
+    kingdomTwoCrownsAchievementGuide,
+    totalWarShogun2AchievementGuide,
+    endlessSpace2AchievementGuide
 
 ];
 

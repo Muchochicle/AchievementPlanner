@@ -1,0 +1,976 @@
+{
+    "id": 34330,
+    "steamAppId": 34330,
+    "name": "Total War: Shogun 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/34330/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 80,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Grand Strategy",
+        "Turn-Based",
+        "Real-Time Tactics",
+        "Historical"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_A_5_CLAN_REGIONS_SIMULTANEOUSLY_OWNED",
+            "name": "Stranglehold",
+            "description": "Your clan holds 5 provinces simultaneously on the multiplayer clan campaign map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_A_CAPTURE_15_AVATAR_CAMPAIGN_REGIONS",
+            "name": "Carve a Path",
+            "description": "Capture 15 provinces on the avatar campaign map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_A_CAPTURE_ALL_AVATAR_CAMPAIGN_REGIONS",
+            "name": "Uniter of Japan",
+            "description": "Capture all provinces on the avatar campaign map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_A_EARN_20_CLAN_TOKENS",
+            "name": "Loyal to the Clan",
+            "description": "Personally earn 20 clan tokens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_A_JOIN_A_CLAN",
+            "name": "Serve with Honour",
+            "description": "Join a multiplayer clan in Shogun 2.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_A_MAX_OUT_AVATAR_SKILLS_TREE",
+            "name": "Path of the Leader",
+            "description": "Spend the maximum number of points in your avatar's skill tree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_A_VETERAN_UNIT_LEVEL_10",
+            "name": "Heroic Warriors",
+            "description": "Through the avatar system, get a veteran unit to level 9.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_A_VETERAN_UNIT_LEVEL_5",
+            "name": "Exceptional Warriors",
+            "description": "Through the avatar system, get a veteran unit to level 4.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_B_4_ASHIGARU_UNITS_WHOLE_BATTLE",
+            "name": "Commander of Commoners",
+            "description": "Keep at least 4 ashigaru units for a whole battle without routing once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_B_ALL_UNITS_HIDDEN",
+            "name": "Elusive Strike force",
+            "description": "Have all your army, except the general, hidden simultaneously for more than 30 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_B_BEAT_CA_STAFF_VIRAL",
+            "name": "Spreading Like Wildfire",
+            "description": "Defeat a Creative Assembly staff member in battle, or anyone else who has gained this achievement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_B_FIELD_ENTIRELY_HEROES",
+            "name": "Legendary Force",
+            "description": "Win a battle using an army composed entirely of hero units and your general.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_B_HOLD_ALL_KEY_BUILDINGS_2_MINS",
+            "name": "Battlefield Dominance",
+            "description": "On maps with more than one key building, your alliance shows its dominance by holding all of them simultaneously.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_B_PLAY_10_BATTLES",
+            "name": "Experienced Taisho",
+            "description": "Play 10 multiplayer battles of any type.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_B_RALLY_5_UNITS",
+            "name": "Inspiring Counterattack",
+            "description": "Successfully rally 5 units at once with one use of the general's rally ability.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_B_WIN_10_ATTACKING_SIEGES",
+            "name": "Castle-stormer",
+            "description": "Win 10 siege battles as the attacker.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_B_WIN_10_DEFENDING_SIEGES",
+            "name": "Man the Defences",
+            "description": "Win 10 siege battles as the defender.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_B_WIN_100_RANKED_BATTLES",
+            "name": "The Dragon of Japan",
+            "description": "Win 100 matchmade battles in multiplayer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_B_WIN_20_NAVAL_BATTLES",
+            "name": "Master of the Waves",
+            "description": "Win 20 naval battles in multiplayer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_B_WIN_20_RANKED_BATTLES",
+            "name": "Bringer of Death",
+            "description": "Win 50 matchmade battles in multiplayer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_B_WIN_200_MULTIPLAYER_BATTLES",
+            "name": "Zen-like Dedication",
+            "description": "Win 200 multiplayer battles of any type.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_B_WIN_25_LAND_BATTLES",
+            "name": "The Army on the March",
+            "description": "Win 25 land battles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_B_WIN_25_RANKED_BATTLES",
+            "name": "Claw of the Tiger",
+            "description": "Win 25 matchmade battles in multiplayer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_50_PERCENT_MATCHLOCK",
+            "name": "Swathed in Fire",
+            "description": "Win a multiplayer battle where more than 50% of your army is made up of matchlock units.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_EVERY_TYPE_OF_UNIT",
+            "name": "Balanced Attacker",
+            "description": "Win a battle using an army composed of at least one of every class of unit (sword infantry, cavalry, archer, matchlock, spear, naginata).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_NO_CAVALRY",
+            "name": "The Gathering Storm",
+            "description": "Win a multiplayer battle using no cavalry units (excluding the general) in your army.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_NO_RANGED",
+            "name": "Berserk Charge",
+            "description": "Win a multiplayer battle using no ranged units in your army.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_NO_SPEAR",
+            "name": "Fear No Horseman",
+            "description": "Win a multiplayer battle using no spear units in your army.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_B_WIN_BATTLE_ONNA_BUGEISHA_AS_GENERAL",
+            "name": "Onna-Bugeisha",
+            "description": "Win a defensive siege battle with the lady of the house, the Onna Bushi, as your general. (Single Player Only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_B_WIN_MP_BATTLE",
+            "name": "Forged in the Hottest Flame",
+            "description": "Win your first multiplayer battle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_B_WIN_MP_BATTLE_LESS_THAN_15_PERCENT_LOSSES",
+            "name": "Swift and Deadly",
+            "description": "Win a multiplayer battle losing less than 15% of your starting troops.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_B_WIPE_OUT_A_UNIT",
+            "name": "Unnecessary Force",
+            "description": "Completely wipe out an enemy unit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_C_BECOME_SHOGUN",
+            "name": "Divine Right",
+            "description": "Achieve the ultimate goal and become Shogun in the grand campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_C_CONTROL_KYUSHU",
+            "name": "Holder of Kyushu",
+            "description": "Control all the provinces on the island of Kyushu in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_C_CONTROL_SHIKOKU",
+            "name": "Holder of Shikoku",
+            "description": "Control all the provinces on the island of Shikoku in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_C_IGA_CLAN",
+            "name": "Eradicate the Hattori",
+            "description": "Wipe out the Hattori clan in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_C_KILL_10000_ENEMY_SOLDIERS",
+            "name": "Head-Hunter",
+            "description": "Collect 10,000 heads of enemy soldiers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_C_MAX_LEVEL_GENERAL",
+            "name": "Fearsome Commander of Men",
+            "description": "Obtain a maximum level general in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_C_MAX_LEVEL_METSUKE",
+            "name": "Master Interrogator",
+            "description": "Obtain a maximum level metsuke.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_C_MAX_LEVEL_MISSIONARY",
+            "name": "Servant of God",
+            "description": "Obtain a maximum level missionary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_C_MAX_LEVEL_MONK",
+            "name": "Legendary Sohei",
+            "description": "Obtain a maximum level monk.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_C_MAX_LEVEL_NINJA",
+            "name": "Agent of the Stealthy Blade",
+            "description": "Obtain a maximum level ninja in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_C_OBTAIN_100_FAME_IN_20_TURNS",
+            "name": "Soaring Fame",
+            "description": "Obtain 100 fame within 50 turns.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_C_OBTAIN_MAX_LEVEL_UNIT",
+            "name": "Living for Battle",
+            "description": "Obtain a unit of maximum rank in the grand campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_C_POSESS_ALL_TRADE_NODES",
+            "name": "Trade Route Monopoly",
+            "description": "Control all the trade posts on the campaign map at the same time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_C_RESEARCH_EPIC_ARCHITECTURE_FIRST",
+            "name": "Glittering Grand Cities",
+            "description": "Be the first clan in the campaign to master the art of epic architecture.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_C_RESEARCH_GUNPOWDER_TECH_FIRST",
+            "name": "Advanced Firearms",
+            "description": "Be the first clan in the campaign to obtain gunpowder mastery.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_C_RESEARCH_SHIH_TECH_FIRST",
+            "name": "Military Might",
+            "description": "Be the first clan in the campaign to master the art of Shih.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_C_SINK_CARAVEL_OR_NIHON_MARU",
+            "name": "Belligerent Admiral",
+            "description": "Sink a nanban trade ship or the flagship vessel the Nihon Maru during a naval battle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_C_WIN_CAMPAIGN_AS_HOJO",
+            "name": "Hojo Victory",
+            "description": "Win a campaign as the Hojo clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_C_WIN_CAMPAIGN_AS_ODA",
+            "name": "Oda Victory",
+            "description": "Win a campaign as the Oda clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_C_WIN_CAMPAIGN_AS_TAKEDA",
+            "name": "Takeda Victory",
+            "description": "Win a campaign as the Takeda clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_C_WIN_CAMPAIGN_AS_TOKUGAWA",
+            "name": "Tokugawa Victory",
+            "description": "Win a campaign as the Tokugawa clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_C_WIN_CHOSOKABE_CAMPAIGN",
+            "name": "Chosokabe Victory",
+            "description": "Win a campaign as the Chosokabe clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_C_WIN_DATE_CAMPAIGN",
+            "name": "Date Victory",
+            "description": "Win a campaign as the Date clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_C_WIN_EASY_CAMPAIGN",
+            "name": "A Promising Beginning",
+            "description": "Win a campaign on easy difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_C_WIN_GAME_AS_CHRISTIAN",
+            "name": "One Rule Under God",
+            "description": "Win a campaign as a Christian daimyo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_C_WIN_HARD_CAMPAIGN",
+            "name": "Famed Shogun",
+            "description": "Win a campaign on hard difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_C_WIN_MEDIUM_CAMPAIGN",
+            "name": "A Respectable Rule",
+            "description": "Win a campaign on normal difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_C_WIN_MORI_CAMPAIGN",
+            "name": "Mori Victory",
+            "description": "Win a campaign as the Mori clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_C_WIN_MP_COOP_CAMPAIGN",
+            "name": "United in Conquest",
+            "description": "Win a multiplayer co-op campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_C_WIN_MP_VS_CAMPAIGN",
+            "name": "Japan Torn Asunder",
+            "description": "Win a multiplayer head to head campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_C_WIN_MP_VS_CAMPAIGN_GIVING_OTHER_PLAYER_GOLD",
+            "name": "Dishonoured Foe",
+            "description": "Win a multiplayer head to head campaign despite giving the other player 10,000 koku.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_C_WIN_SHIMAZU_CAMPAIGN",
+            "name": "Shimazu Victory",
+            "description": "Win a campaign as the Shimazu clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_C_WIN_UESUGI_CAMPAIGN",
+            "name": "Uesugi Victory",
+            "description": "Win a campaign as the Uesugi clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_C_WIPE_OUT_IKKO_IKKI",
+            "name": "Eradicate the Ikko-Ikki",
+            "description": "Wipe out the Ikko-Ikki in the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_WIN_HARD_CAMPAIGN",
+            "name": "Stubborn Pursuer of Victory",
+            "description": "Win a campaign on very hard difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_RANK_1_SHOGUN_LADDER",
+            "name": "There Can Be Only One",
+            "description": "Achieve the ultimate accolade and obtain rank 1 on the multiplayer Shogun Ladder.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_WIN_LEGENDARY_CAMPAIGN",
+            "name": "Against All Odds",
+            "description": "Win a campaign on legendary difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_STEAM_SUMMER_SALE",
+            "name": "Summer Son ",
+            "description": "Your daimyo wins 3 consecutive land battles during the summer season.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_A_MAX_POINTS_IN_BOSHIN_SKILLS_TREE",
+            "name": "Skilled Warrior",
+            "description": "Max out any [Fall of the Samurai] avatar skill tree, by spending a skill point in each skill within a single skill tree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_A_CREATE_SECOND_AVATAR",
+            "name": "Double Dragons",
+            "description": "Create a second avatar for use in avatar conquest mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_A_DEFEAT_BOSHIN_ARMY_WITH_SHOGUN",
+            "name": "Keeping to Traditions",
+            "description": "Defeat a Fall of the Samurai army with a Shogun 2 army.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_A_DEFEAT_SHOGUN_ARMY_WITH_BOSHIN",
+            "name": "Modernisation",
+            "description": "Defeat a Shogun 2 army with a Fall of the Samurai army. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_B_TOBA_FUSHIMI_1",
+            "name": "Not On My Watch",
+            "description": "Chase down and rout an enemy unit as it tries to escape the Battle of Toba-Fushimi. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_B_TOBA_FUSHIMI_2",
+            "name": "A Journey Begins",
+            "description": "Play a historical battle. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_B_OSAKA_1",
+            "name": "Uphill Struggle",
+            "description": "Win the Battle of Osaka after both bridges get blown up by the defenders. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_B_UENO_1",
+            "name": "A Blow to the Temple",
+            "description": "Win the Battle of Ueno without capturing any of the key temple buildings. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_B_AIZU_1",
+            "name": "Wrecking Ball",
+            "description": "Win the Battle of Aizu after provoking all four hidden armies at once. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_B_MIYAKO_BAY_1",
+            "name": "The Iron Lady",
+            "description": "Complete the Battle of Miyako Bay with the Kotetsu having taken less than 25% damage. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_B_HAKODATE_1",
+            "name": "Perfect Ten",
+            "description": "Complete the Battle of Hakodate without any Imperial units being routed. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_B_HAKODATE_WON",
+            "name": "Journey's End",
+            "description": "Complete all historical battles. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_C_MIDWINTER",
+            "name": "Requiem of the Dead",
+            "description": "Win a defensive siege battle with your daimyo during any winter turn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_C_GIFT_ARMY_OR_NAVY_IN_COOP",
+            "name": "Gift-wrapped",
+            "description": "Gift your co-op partner an army or navy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_C_INCITE_3_REBELLIONS_WITH_ISHIN_SHISHI",
+            "name": "Agent Provocateur",
+            "description": "Playing as the Choshu, incite 3 rebellions in the same campaign using an ishin shishi. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "ACHIEVEMENT_C_CONSTRUCT_3_TRADE_DISTRICTS_WITH_SATSUMA",
+            "name": "Gateway to the West",
+            "description": "Playing as the Satsuma, construct a trade district and trade with a foreign power within the same campaign. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "ACHIEVEMENT_C_5_NAVAL_BOMBARDMENTS_WITH_TOSA",
+            "name": "Father of the Imperial Navy",
+            "description": "Playing as the Tosa, carry out 5 naval bombardments in the same campaign. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "ACHIEVEMENT_C_3_ASSASSINATIONS_WITH_SHINSENGUMI",
+            "name": "Wolves of Mibu",
+            "description": "Playing as the Aizu, carry out 3 successful assassinations of generals in the same campaign using a shinsengumi. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "ACHIEVEMENT_C_RESEARCH_8TH_TIER_TECH_WITH_NAGOKA",
+            "name": "One Hundred Sacks of Rice",
+            "description": "Playing as the Nagaoka, research any eighth tier technology. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "ACHIEVEMENT_C_WIN_3_AMBUSH_BATTLES_WITH_JOZAI",
+            "name": "Hereditary Honour",
+            "description": "Playing as the Jozai, win 3 ambush battles in the same campaign. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "ACHIEVEMENT_C_WIN_BATTLE_WITH_AMERICAN_MARINES",
+            "name": "Semper Fi",
+            "description": "Win a battle with United States Marines in your army. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "ACHIEVEMENT_C_WIN_BATTLE_WITH_BRITISH_SHIPS",
+            "name": "Rule, Britannia!",
+            "description": "Win a battle with British ships in your navy. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "ACHIEVEMENT_C_BOMBARDMENT_WITH_FRENCH_IRONCLAD",
+            "name": "L'Ocean is Mine!",
+            "description": "Carry out a bombardment with a French ironclad in your navy. [Fall of the Samurai only]  ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "ACHIEVEMENT_C_ATTAIN_MAX_MODERNISATION",
+            "name": "Embrace the New",
+            "description": "Attain the maximum level of clan development. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "ACHIEVEMENT_C_CONNECT_A_RAILWAY",
+            "name": "All Aboard!",
+            "description": "Construct a railway between 2 provinces. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "ACHIEVEMENT_C_ATTAIN_MAX_LEVEL_ALL_AGENTS",
+            "name": "Thy Will Be Done",
+            "description": "Obtain a maximum level agent of each type. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "ACHIEVEMENT_C_WIN_LEGENDARY_CAMPAIGN_IMPERIAL",
+            "name": "Hero of the Empire",
+            "description": "Win a campaign on legendary difficulty playing as either the Satsuma, the Tosa or the Choshu. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "ACHIEVEMENT_C_WIN_LEGENDARY_CAMPAIGN_SHOGUNATE",
+            "name": "Hero of the Shogunate",
+            "description": "Win a campaign on legendary difficulty playing as either the Aizu, the Jozai or the Nagaoka. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "ACHIEVEMENT_C_FIGHT_DROP_IN_BATTLE",
+            "name": "The Duellist",
+            "description": "Fight a drop-in battle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "ACHIEVEMENT_C_WIN_CAMPAIGN_AFTER_DECLARING_INDEPENDENCE",
+            "name": "Ezo Republic",
+            "description": "Declare your independence and complete a campaign. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "ACHIEVEMENT_B_SINK_HMS_WARRIOR",
+            "name": "A Warrior's Bane",
+            "description": "Sink  an HMS Warrior-class ship. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 102,
+            "apiname": "ACHIEVEMENT_B_KILL_10000_MEN_WITH_ARTILLERY",
+            "name": "Hard Pounding",
+            "description": "Call in naval fire support during a land battle. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 103,
+            "apiname": "ACHIEVEMENT_B_SINK_ENEMY_SHIP_WITH_RAMMING",
+            "name": "Damn the Torpedoes",
+            "description": "Sink an enemy ship by ramming. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 104,
+            "apiname": "ACHIEVEMENT_B_SINK_ENEMY_SHIP_WITH_TORPEDOES",
+            "name": "Warhead",
+            "description": "Sink an enemy ship with torpedoes. [Fall of the Samurai only]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 105,
+            "apiname": "ACHIEVEMENT_B_BURN_CASTLE_DOWN_AND_WIN_BATTLE",
+            "name": "Towering Inferno",
+            "description": "As the attacker, burn a castle's gates, towers and tenshu to the ground using fire arrows and win the battle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 106,
+            "apiname": "ACHIEVEMENT_B_AS_DEFENDER_RECAPTURE_A_TOWER",
+            "name": "Redoubtable",
+            "description": "As the defender, recapture a tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
