@@ -435,6 +435,9 @@ import { GUIDE as finalFantasyXX2HdAchievementGuide } from "./games/final-fantas
 import { GUIDE as finalFantasyXiiiAchievementGuide } from "./games/final-fantasy-xiii.js";
 import { GUIDE as chronoTriggerAchievementGuide } from "./games/chrono-trigger.js";
 import { GUIDE as dirtRallyAchievementGuide } from "./games/dirt-rally.js";
+import { GUIDE as sonicAdventure2AchievementGuide } from "./games/sonic-adventure-2.js";
+import { GUIDE as sonicFrontiersAchievementGuide } from "./games/sonic-frontiers.js";
+import { GUIDE as sonicManiaAchievementGuide } from "./games/sonic-mania.js";
 
 export const APP_GUIDES = [
 
@@ -892,7 +895,10 @@ export const GAME_GUIDES = [
     finalFantasyXX2HdAchievementGuide,
     finalFantasyXiiiAchievementGuide,
     chronoTriggerAchievementGuide,
-    dirtRallyAchievementGuide
+    dirtRallyAchievementGuide,
+    sonicAdventure2AchievementGuide,
+    sonicFrontiersAchievementGuide,
+    sonicManiaAchievementGuide
 
 ];
 

@@ -459,6 +459,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("final-fantasy-xiii"));
     assert.ok(slugs.includes("chrono-trigger"));
     assert.ok(slugs.includes("dirt-rally"));
+    assert.ok(slugs.includes("sonic-mania"));
+    assert.ok(slugs.includes("sonic-adventure-2"));
+    assert.ok(slugs.includes("sonic-frontiers"));
 
 });
 
