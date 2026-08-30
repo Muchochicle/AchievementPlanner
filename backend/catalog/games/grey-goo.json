@@ -1,0 +1,339 @@
+{
+    "id": 290790,
+    "steamAppId": 290790,
+    "name": "Grey Goo",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/290790/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Strategy",
+        "Sci-fi",
+        "Base Building",
+        "Story-Rich",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "WIN_SKIRMISH_AGAINST_AI",
+            "name": "Practice Makes Perfect",
+            "description": "Win a skirmish match against an AI",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "WIN_SKIRMSH_AGAINST_AI_WITH_EACH_FACTION",
+            "name": "Hat Trick",
+            "description": "Win a skirmish match against the AI with each of the factions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "WIN_SKIRMSH_AGAINST_3_AI_ON_HARD",
+            "name": "Glutton for Punishment",
+            "description": "Win a skirmsh match against 3 AI opponents on hard difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 4,
+            "apiname": "WIN_ONE_ON_ONE_MULTIPLAYER",
+            "name": "Even Ground",
+            "description": "Win a one-on-one multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "WIN_100_SKIRMISH_MATCHES",
+            "name": "I Could Do This All Day",
+            "description": "Win 100 skirmish matches",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 6,
+            "apiname": "WIN_TWO_V_TWO_MULTIPLAYER",
+            "name": "Tag Team",
+            "description": "Win a 2v2 multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 7,
+            "apiname": "WIN_FOUR_PLAYER_FFA",
+            "name": "One Player to Rule Them All",
+            "description": "Win a four player free-for-all match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "WIN_100_MULTIPLAYER_MATCHES",
+            "name": "Full Time Job",
+            "description": "Win 100 multiplayer matches of any size or mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 9,
+            "apiname": "COMPLETE_BETA_CAMPAIGN",
+            "name": "No More Running",
+            "description": "Complete the Beta campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "COMPLETE_HUMAN_CAMPAIGN",
+            "name": "Point of First Contact",
+            "description": "Complete the Human campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "COMPLETE_GOO_CAMPAIGN",
+            "name": "Call for Help",
+            "description": "Complete the Goo campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "COMPLETE_ALL_MISSIONS",
+            "name": "End of the Beginning",
+            "description": "Complete all missions of the campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "COMPLETE_ALL_MISSIONS_HARD",
+            "name": "GG",
+            "description": "Complete all missions of the campaign on Hard difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 14,
+            "apiname": "WIN_MULTIPLAYER_AND_KILL_EPIC",
+            "name": "Game Ender",
+            "description": "Win a multiplayer match after destroying an enemy Epic unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "DESTROY_EACH_FACTION_EPIC",
+            "name": "Epic Loss",
+            "description": "Destroy each faction's Epic unit during a multiplayer or skirmish match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "BUILD_EPIC",
+            "name": "Start of Something Epic",
+            "description": "Build an Epic unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 17,
+            "apiname": "BUILD_EACH_FACTION_EPIC",
+            "name": "Epic Escalation",
+            "description": "Build the Epic unit for each faction",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 18,
+            "apiname": "TOTAL_ANNIHILATION",
+            "name": "Weapon of Mass Destruction",
+            "description": "Win a skirmish or multiplayer match in Total Annihilation mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 19,
+            "apiname": "BUILD_MAX_UNITS",
+            "name": "Maxed Out!",
+            "description": "During a multiplayer match, build the maximum possible number of units",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "NO_RESOURCE_CAP",
+            "name": "Macro Master",
+            "description": "As Human or Beta, complete a multiplayer or skirmish match without ever hitting the resource cap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "COMPLETE_BETA_BONUS",
+            "name": "Barca's Finest",
+            "description": "Win all missions and complete all bonus objectives in the Beta campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "COMPLETE_HUMAN_BONUS",
+            "name": "Galactic Explorer",
+            "description": "Win all missions and complete all bonus objectives in the Human campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 23,
+            "apiname": "COMPLETE_GOO_BONUS",
+            "name": "Evolutionary Pinnacle",
+            "description": "Win all missions and complete all bonus objectives in the Goo campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "COMPLETE_ALL_BONUS",
+            "name": "Uncompromised Conquest",
+            "description": "Win all missions and complete all bonus objectives in the campaign on any difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "COMPLETE_ALL_BONUS_HARD",
+            "name": "Completionist",
+            "description": "Win all missions and complete all bonus objectives in the campaign on hard difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 26,
+            "apiname": "FORT_AWESOME",
+            "name": "Fort Awesome",
+            "description": "Have at least 3 of every Sentinel type in your base at once during a single ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 27,
+            "apiname": "SELF_SACRIFICE",
+            "name": "Self Sacrifice",
+            "description": "Feed a Mother Goo to a Proto-Purger (in any aspect of the game)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "BACK_FROM_THE_DEAD",
+            "name": "Back from the Dead",
+            "description": "Rebuild your HQ  (in any aspect of the game)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "KICKIN'_IT_OLD_SCHOOL",
+            "name": "Kickin' It Old School",
+            "description": "Win a LAN match (against an actual person or persons)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "WORLD_WAR_G",
+            "name": "World War G",
+            "description": "Consume 100 enemy units or structures with formless Goo in a ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "SHARING_IS_CARING",
+            "name": "Sharing is Caring",
+            "description": "Destroy 5 Extractors or Mother Goos with a Mother Goo in a single ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "SEASONED_ENGINEER",
+            "name": "Seasoned Engineer",
+            "description": "Heal 1000 or more damage using the Repair Pad structure during a single ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 33,
+            "apiname": "AINT_NOBODY_GOT_TIME_FOR_THAT",
+            "name": "Ain't Nobody Got Time for That",
+            "description": "Have at least 20 units mounted on wall pillars at the same time during a single ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "MASTER_OF_TELEPORTATION",
+            "name": "Master of Teleportation",
+            "description": "Use the Teleporter structure at least 3 times and teleport at least 5 structures during a single ranked multiplayer match",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "CIVIL_SERVANT",
+            "name": "Civil Servant",
+            "description": "Complete the Mago's Pass mission without losing a single civilian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        }
+    ]
+}

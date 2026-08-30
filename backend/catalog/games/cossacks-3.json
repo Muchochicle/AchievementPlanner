@@ -1,0 +1,951 @@
+{
+    "id": 333420,
+    "steamAppId": 333420,
+    "name": "Cossacks 3",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/333420/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Strategy",
+        "Historical",
+        "Base Building",
+        "Large-Scale",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach1",
+            "name": "Captain",
+            "description": "Earned by player after one victory on a random map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "ach2",
+            "name": "Colonel",
+            "description": "Earned by player after ten victories on a random map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "ach3",
+            "name": "Field marshal",
+            "description": "Earned by player after one hundred victories on a random map.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 4,
+            "apiname": "ach4",
+            "name": "First blood",
+            "description": "Earned by player after one victory over another player.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "ach5",
+            "name": "Duelist",
+            "description": "Earned by player after ten victories over other players.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "ach6",
+            "name": "Old warrior makes a wise warrior",
+            "description": "Earned by player after one hundred victories over other players.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 7,
+            "apiname": "ach7",
+            "name": "Field marshal general of the Empire",
+            "description": "Earned by player after completing the Austrian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "ach8",
+            "name": "To punish the king",
+            "description": "Earned by player after completing the English campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "ach9",
+            "name": "Glory of the French fleet",
+            "description": "Earned by player after completing the French campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "ach10",
+            "name": "There and back again",
+            "description": "Earned by player after completing the Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "ach11",
+            "name": "Vityaz",
+            "description": "Earned by player after completing the Russian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "ach12",
+            "name": "Generalissimo",
+            "description": "Earned by player after completing the Austrian campaign on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 13,
+            "apiname": "ach13",
+            "name": "Death to the tyrants!",
+            "description": "Earned by player after completing the English campaign on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 14,
+            "apiname": "ach14",
+            "name": "Rule, France!",
+            "description": "Earned by player after completing the French campaign on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 15,
+            "apiname": "ach15",
+            "name": "Brothers, raise the crystal chalices",
+            "description": "Earned by player after completing the Ukrainian campaign on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 16,
+            "apiname": "ach16",
+            "name": "I am Tsar!",
+            "description": "Earned by player after completing the Russian campaign on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 17,
+            "apiname": "ach17",
+            "name": "Frantic struggle",
+            "description": "Earned by player after defeating two allied AI opponents on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 18,
+            "apiname": "ach18",
+            "name": "Uneven chances",
+            "description": "Earned by player after defeating four allied AI opponents on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 19,
+            "apiname": "ach19",
+            "name": "Surrounded at all sides",
+            "description": "Earned by player after defeating six allied AI opponents on highest difficulty setting.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 20,
+            "apiname": "ach20",
+            "name": "Ship's boy",
+            "description": "Earned by player after one victory on a random map with a sea.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "ach21",
+            "name": "Boatswain",
+            "description": "Earned by player after ten victories on a random map with a sea.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "ach22",
+            "name": "Sea wolf",
+            "description": "Earned by player after one hundred victories on a random map with a sea.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 23,
+            "apiname": "ach23",
+            "name": "The passage of time",
+            "description": "Earned by player who has reached XVIII century.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "ach24",
+            "name": "By the sweat of your brow",
+            "description": "Earned by player who has collected 1 000 000 resources within 20 minutes of playing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "ach25",
+            "name": "Scientific breakthrough",
+            "description": "Earned by player who has reached XVIII century within 20 minutes of playing, beginning with low or average starting resources.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "ach26",
+            "name": "Patron of sciences",
+            "description": "Earned by player who has researched all possible upgrades in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 27,
+            "apiname": "ach27",
+            "name": "To the bowels of Earth",
+            "description": "Earned by player who has boosted mine capacity to 95 workers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "ach28",
+            "name": "Sea sickness",
+            "description": "Earned by player who has crossed river on a ferry on a random map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "ach29",
+            "name": "Marching as one",
+            "description": "Earned by player who has achieved victory in alliance with another player or AI on a random map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "ach30",
+            "name": "On your shield",
+            "description": "Earned by player after ten losses to another player.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "ach31",
+            "name": "Black friday",
+            "description": "Earned by player who has sold 1 000 000 resources at the market in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "ach32",
+            "name": "Soldiers of fortune",
+            "description": "Earned by player having 100 XVIII century mercenary dragoons simultaneously.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 33,
+            "apiname": "ach33",
+            "name": "Metal hedgehog",
+            "description": "Earned by player who has researched 3 attack and defense upgrades for the XVII century pikemen.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "ach34",
+            "name": "A bayonet is stupid, a bullet is smart.",
+            "description": "Earned by player who has researched all attack upgrades for the Serduks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "ach35",
+            "name": "Big bang",
+            "description": "Earned by player who has researched all firepower upgrades at the academy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 36,
+            "apiname": "ach36",
+            "name": "Horse breeder",
+            "description": "Earned by player who has researched all cavalry production speed and attack upgrades at the smithy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "ach37",
+            "name": "Agrarian development",
+            "description": "Earned by player who has installed an upgrade at the mill.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "ach38",
+            "name": "Unbreakable walls",
+            "description": "Earned by player who has researched all toughness upgrades for buildings and fortifications.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "ach39",
+            "name": "Cannon master",
+            "description": "Earned by player who has cast 20 cannons in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "ach40",
+            "name": "Iron hailstorm",
+            "description": "Earned by player who has cast 50 mortars in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 41,
+            "apiname": "ach41",
+            "name": "Admiral",
+            "description": "Earned by player who has constructed a ship of the line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 42,
+            "apiname": "ach42",
+            "name": "Above the clouds",
+            "description": "Earned by player who has constructed a montgolfier.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 43,
+            "apiname": "ach43",
+            "name": "Shipwright",
+            "description": "Earned by player who has constructed 100 fishing boats.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 44,
+            "apiname": "ach44",
+            "name": "The Hussars can't be defeated, nor stopped, nor contained",
+            "description": "Earned by player who has researched all upgrades for the winged hussars.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "ach45",
+            "name": "The beginnings of the regular army",
+            "description": "Earned by player who has gathered soldiers into a regiment.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 46,
+            "apiname": "ach46",
+            "name": "Two thousand subjects",
+            "description": "Earned by player whose population has reached 2000 men.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 47,
+            "apiname": "ach47",
+            "name": "Four thousand subjects",
+            "description": "Earned by player whose population has reached 4000 men.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 48,
+            "apiname": "ach48",
+            "name": "The holy man",
+            "description": "Earned by player who has recruited 50 priests in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "ach49",
+            "name": "Fortification engineer",
+            "description": "Earned by player who has constructed 10 towers in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "ach50",
+            "name": "The builder of walls",
+            "description": "Earned by player who has constructed 50 wall sections in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 51,
+            "apiname": "ach51",
+            "name": "Mining development",
+            "description": "Earned by player who has researched all upgrades to wood and stone collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 52,
+            "apiname": "ach52",
+            "name": "Angelic patience",
+            "description": "Earned by player who has won a game that lasted for over an hour.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 53,
+            "apiname": "ach53",
+            "name": "Lord of the cupids",
+            "description": "Earned by player who has hired 500 mercenary bowmen in the course of a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 54,
+            "apiname": "ach54",
+            "name": "Turkish invasion",
+            "description": "Earned by player who has hired 500 mercenary light infantry in the course of a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 55,
+            "apiname": "ach55",
+            "name": "Reapers on the mountain",
+            "description": "Earned by player who has hired 50 mercenary Sich cossacks in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 56,
+            "apiname": "ach56",
+            "name": "The Thunderer",
+            "description": "Earned by player who has installed all rate of fire upgrades at a tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 57,
+            "apiname": "ach57",
+            "name": "Iron curtain",
+            "description": "Earned by player who has researched all attack and defense upgrades for the Roundshiers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 58,
+            "apiname": "ach58",
+            "name": "One for all, and all for one!",
+            "description": "Earned by player who has hired 100 royal musketeers in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 59,
+            "apiname": "ach59",
+            "name": "Scotland the Brave",
+            "description": "Earned by player who has hired 200 scottish musketeers in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 60,
+            "apiname": "ach60",
+            "name": "Heroic power",
+            "description": "Earned by player who has hired 200 vityazi in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 61,
+            "apiname": "ach61",
+            "name": "Two Ukrainians make three hetmans",
+            "description": "Earned by player who has hired 3 hetmans in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 62,
+            "apiname": "ach62",
+            "name": "The architect",
+            "description": "Earned by player who has constructed 5 town centers in the course of a single game, beginning with low or average starting resources.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 63,
+            "apiname": "ach63",
+            "name": "City builder",
+            "description": "Earned by player who has constructed 100 housing in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 64,
+            "apiname": "ach64",
+            "name": "The Lion of the North",
+            "description": "Earned by player who has hired 200 swedish reiters in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 65,
+            "apiname": "ach65",
+            "name": "Old Fritz",
+            "description": "Earned by player who has hired 200 prussian musketeers in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 66,
+            "apiname": "ach66",
+            "name": "Grand Sultan",
+            "description": "Earned by player who has hired 200 janissaries in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 67,
+            "apiname": "ach67",
+            "name": "Great Bey",
+            "description": "Earned by player who has hired 1000 algerian bowmen in the course of a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 68,
+            "apiname": "ach68",
+            "name": "The King of Croats",
+            "description": "Earned by player who has hired 200 croats in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 69,
+            "apiname": "ach69",
+            "name": "Military traditions",
+            "description": "Earned by player who has reinforced 10 times a regiment that lost over half of its manpower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 70,
+            "apiname": "ach70",
+            "name": "The conqueror",
+            "description": "Earned by player who has constructed another nation's town center using captured peasants in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 71,
+            "apiname": "ach71",
+            "name": "Turn the cannons!",
+            "description": "Earned by player who has captured 20 cannons in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 72,
+            "apiname": "ach72",
+            "name": "The destroyer",
+            "description": "Earned by player who has burnt down 10 enemy buildings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 73,
+            "apiname": "ach73",
+            "name": "The scourge of God",
+            "description": "Earned by player who has burnt down 100 enemy buildings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 74,
+            "apiname": "ach74",
+            "name": "Capable war minister",
+            "description": "Earned by player who has constructed 5 XVIII century barracks in the course of a single game, beginning with low or average starting resources.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 75,
+            "apiname": "ach75",
+            "name": "Lord of the sea",
+            "description": "Earned by player who has constructed 10 shipyards in the course of a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 76,
+            "apiname": "ach76",
+            "name": "Engineer's deed",
+            "description": "Earned by player after completing the first tutorial mission successfully.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 77,
+            "apiname": "ach77",
+            "name": "Officer's patent",
+            "description": "Earned by player after completing the second tutorial mission successfully.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 78,
+            "apiname": "ach78",
+            "name": "Sharp sight",
+            "description": "Earned by player who has discovered 10 secret tasks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 79,
+            "apiname": "ach79",
+            "name": "Noble spirit",
+            "description": "Earned by player who has shown mercy over 5 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 80,
+            "apiname": "ach80",
+            "name": "Ruthlessness",
+            "description": "Earned by player who has displayed a cruel streak over 5 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 81,
+            "apiname": "ach81",
+            "name": "Treasure hunter",
+            "description": "Earned by player who has found a treasure chest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 82,
+            "apiname": "ach82",
+            "name": "Practical thinking",
+            "description": "Earned by player who has hired brigands in one of the missions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 83,
+            "apiname": "ach83",
+            "name": "Bulldog grasp",
+            "description": "Earned by player who has raised militia in every town during first mission of English campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 84,
+            "apiname": "ach84",
+            "name": "Bloody peasants!",
+            "description": "Earned by player who was polite with the peasant during second mission of English campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 85,
+            "apiname": "ach85",
+            "name": "Successful pursue",
+            "description": "Earned by player who caught turkish wagon train during first mission of Austrian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 86,
+            "apiname": "ach86",
+            "name": "Trench warfare",
+            "description": "Earned by player who has destroyed the garrisons of turkish fortresses during second mission of Austrian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 87,
+            "apiname": "ach87",
+            "name": "Prudence",
+            "description": "Earned by player who was merciful to people of the duchy of Mantua during third mission of Austrian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 88,
+            "apiname": "ach88",
+            "name": "The devil's cunning",
+            "description": "Earned by player who has successfully used the captured turkish ship during first mission of French campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 89,
+            "apiname": "ach89",
+            "name": "It's all about respect",
+            "description": "Earned by player who was merciful to the civilians of Berber Coast and to the slave trader during second mission of French campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 90,
+            "apiname": "ach90",
+            "name": "Conscience defies compromises",
+            "description": "Earned by player who has released the captives during second mission of French campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 91,
+            "apiname": "ach91",
+            "name": "Conquest of Sicily",
+            "description": "Earned by player who has destroyed the garrison of Palermo during third mission of French campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 92,
+            "apiname": "ach92",
+            "name": "Break your chains",
+            "description": "Earned by player who has released more than a hundred of captives during first mission of Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 93,
+            "apiname": "ach93",
+            "name": "The doom of the tsar of turks",
+            "description": "Earned by player who has captured both turkish fortresses during first mission of Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 94,
+            "apiname": "ach94",
+            "name": "Payback for Samuil Kishka",
+            "description": "Earned by player who has destroyed the buildings of Weissenstein during second mission of Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 95,
+            "apiname": "ach95",
+            "name": "The towers shall fall",
+            "description": "Earned by player who has destroyed the buildings of Kafa during third mission of Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 96,
+            "apiname": "ach96",
+            "name": "Good morning!",
+            "description": "Earned by player who has destroyed the muscovite flank troops without being spotted during fourth mission of Ukrainian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 97,
+            "apiname": "ach97",
+            "name": "Hold the wall!",
+            "description": "Earned by player who has won the fifth mission of Ukrainian campaign with no losses among the bodyguards of the prince.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 98,
+            "apiname": "ach98",
+            "name": "Slayer of infidels",
+            "description": "Earned by player who has saved Oryol from destruction during first mission of Russian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 99,
+            "apiname": "ach99",
+            "name": "Master of sieges",
+            "description": "Earned by player who let no wagon train reach the besieged Vitebsk during second mission of Russian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 100,
+            "apiname": "ach100",
+            "name": "Unassailable wall",
+            "description": "Earned by player who has swiftly won the third mission of Russian campaign by defeating the besiegers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 101,
+            "apiname": "ach101",
+            "name": "Blitzkrieg",
+            "description": "Earned by player who has defeated the Lithuanians, the Poles and the Inflanty before Swedish entrance in the war during fourth mission of Russian campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 102,
+            "apiname": "ach102",
+            "name": "Sir, you're fired",
+            "description": "Earned by player who has executed the incapable commander during first tutorial mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 103,
+            "apiname": "ach103",
+            "name": "Down with the gang!",
+            "description": "Earned by player who has forced the incapable commander to retire during first tutorial mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        }
+    ]
+}

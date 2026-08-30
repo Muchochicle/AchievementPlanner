@@ -447,6 +447,9 @@ import { GUIDE as riseOfNationsExtendedAchievementGuide } from "./games/rise-of-
 import { GUIDE as anno2205AchievementGuide } from "./games/anno-2205.js";
 import { GUIDE as arkSurvivalAscendedAchievementGuide } from "./games/ark-survival-ascended.js";
 import { GUIDE as steelDivision2AchievementGuide } from "./games/steel-division-2.js";
+import { GUIDE as cossacks3AchievementGuide } from "./games/cossacks-3.js";
+import { GUIDE as greyGooAchievementGuide } from "./games/grey-goo.js";
+import { GUIDE as spaceHulkDeathwingEnhancedAchievementGuide } from "./games/space-hulk-deathwing-enhanced.js";
 
 export const APP_GUIDES = [
 
@@ -916,7 +919,10 @@ export const GAME_GUIDES = [
     riseOfNationsExtendedAchievementGuide,
     anno2205AchievementGuide,
     arkSurvivalAscendedAchievementGuide,
-    steelDivision2AchievementGuide
+    steelDivision2AchievementGuide,
+    cossacks3AchievementGuide,
+    greyGooAchievementGuide,
+    spaceHulkDeathwingEnhancedAchievementGuide
 
 ];
 

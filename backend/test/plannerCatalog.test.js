@@ -471,6 +471,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("anno-2205"));
     assert.ok(slugs.includes("ark-survival-ascended"));
     assert.ok(slugs.includes("steel-division-2"));
+    assert.ok(slugs.includes("cossacks-3"));
+    assert.ok(slugs.includes("grey-goo"));
+    assert.ok(slugs.includes("space-hulk-deathwing-enhanced"));
 
 });
 
