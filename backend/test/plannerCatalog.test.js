@@ -372,6 +372,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mini-metro"));
     assert.ok(slugs.includes("islanders"));
     assert.ok(slugs.includes("unravel-two"));
+    assert.ok(slugs.includes("helldivers-dive-harder"));
+    assert.ok(slugs.includes("shadow-warrior-3"));
+    assert.ok(slugs.includes("bright-memory-infinite"));
 
 });
 

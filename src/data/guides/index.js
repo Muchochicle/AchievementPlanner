@@ -348,6 +348,9 @@ import { GUIDE as yookaLayleeAchievementGuide } from "./games/yooka-laylee.js";
 import { GUIDE as miniMetroAchievementGuide } from "./games/mini-metro.js";
 import { GUIDE as islandersAchievementGuide } from "./games/islanders.js";
 import { GUIDE as unravelTwoAchievementGuide } from "./games/unravel-two.js";
+import { GUIDE as helldiversDiveHarderAchievementGuide } from "./games/helldivers-dive-harder.js";
+import { GUIDE as shadowWarrior3AchievementGuide } from "./games/shadow-warrior-3.js";
+import { GUIDE as brightMemoryInfiniteAchievementGuide } from "./games/bright-memory-infinite.js";
 
 export const APP_GUIDES = [
 
@@ -718,7 +721,10 @@ export const GAME_GUIDES = [
     yookaLayleeAchievementGuide,
     miniMetroAchievementGuide,
     islandersAchievementGuide,
-    unravelTwoAchievementGuide
+    unravelTwoAchievementGuide,
+    helldiversDiveHarderAchievementGuide,
+    shadowWarrior3AchievementGuide,
+    brightMemoryInfiniteAchievementGuide
 
 ];
 
