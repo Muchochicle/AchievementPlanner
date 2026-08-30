@@ -477,6 +477,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-rush"));
     assert.ok(slugs.includes("defense-grid-2"));
     assert.ok(slugs.includes("planetary-annihilation-titans"));
+    assert.ok(slugs.includes("tooth-and-tail"));
+    assert.ok(slugs.includes("dungeon-of-the-endless"));
+    assert.ok(slugs.includes("unity-of-command-2"));
 
 });
 

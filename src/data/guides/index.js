@@ -453,6 +453,9 @@ import { GUIDE as spaceHulkDeathwingEnhancedAchievementGuide } from "./games/spa
 import { GUIDE as kingdomRushAchievementGuide } from "./games/kingdom-rush.js";
 import { GUIDE as defenseGrid2AchievementGuide } from "./games/defense-grid-2.js";
 import { GUIDE as planetaryAnnihilationTitansAchievementGuide } from "./games/planetary-annihilation-titans.js";
+import { GUIDE as toothAndTailAchievementGuide } from "./games/tooth-and-tail.js";
+import { GUIDE as dungeonOfTheEndlessAchievementGuide } from "./games/dungeon-of-the-endless.js";
+import { GUIDE as unityOfCommand2AchievementGuide } from "./games/unity-of-command-2.js";
 
 export const APP_GUIDES = [
 
@@ -928,7 +931,10 @@ export const GAME_GUIDES = [
     spaceHulkDeathwingEnhancedAchievementGuide,
     kingdomRushAchievementGuide,
     defenseGrid2AchievementGuide,
-    planetaryAnnihilationTitansAchievementGuide
+    planetaryAnnihilationTitansAchievementGuide,
+    toothAndTailAchievementGuide,
+    dungeonOfTheEndlessAchievementGuide,
+    unityOfCommand2AchievementGuide
 
 ];
 
