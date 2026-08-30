@@ -372,6 +372,9 @@ import { GUIDE as crawlAchievementGuide } from "./games/crawl.js";
 import { GUIDE as kingdomNewLandsAchievementGuide } from "./games/kingdom-new-lands.js";
 import { GUIDE as thronefallAchievementGuide } from "./games/thronefall.js";
 import { GUIDE as ratropolisAchievementGuide } from "./games/ratropolis.js";
+import { GUIDE as plantsVsZombiesGotyAchievementGuide } from "./games/plants-vs-zombies-goty.js";
+import { GUIDE as sanctum2AchievementGuide } from "./games/sanctum-2.js";
+import { GUIDE as pvzBattleForNeighborvilleAchievementGuide } from "./games/pvz-battle-for-neighborville.js";
 
 export const APP_GUIDES = [
 
@@ -766,7 +769,10 @@ export const GAME_GUIDES = [
     crawlAchievementGuide,
     kingdomNewLandsAchievementGuide,
     thronefallAchievementGuide,
-    ratropolisAchievementGuide
+    ratropolisAchievementGuide,
+    plantsVsZombiesGotyAchievementGuide,
+    sanctum2AchievementGuide,
+    pvzBattleForNeighborvilleAchievementGuide
 
 ];
 
