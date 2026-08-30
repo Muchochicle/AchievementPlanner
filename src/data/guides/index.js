@@ -273,6 +273,9 @@ import { GUIDE as songsOfSyxAchievementGuide } from "./games/songs-of-syx.js";
 import { GUIDE as riskGlobalDominationAchievementGuide } from "./games/risk-global-domination.js";
 import { GUIDE as backpackHeroAchievementGuide } from "./games/backpack-hero.js";
 import { GUIDE as duckGameAchievementGuide } from "./games/duck-game.js";
+import { GUIDE as speedrunnersAchievementGuide } from "./games/speedrunners.js";
+import { GUIDE as peoplePlaygroundAchievementGuide } from "./games/people-playground.js";
+import { GUIDE as worldOfGooAchievementGuide } from "./games/world-of-goo.js";
 
 export const APP_GUIDES = [
 
@@ -568,7 +571,10 @@ export const GAME_GUIDES = [
     songsOfSyxAchievementGuide,
     riskGlobalDominationAchievementGuide,
     backpackHeroAchievementGuide,
-    duckGameAchievementGuide
+    duckGameAchievementGuide,
+    speedrunnersAchievementGuide,
+    peoplePlaygroundAchievementGuide,
+    worldOfGooAchievementGuide
 
 ];
 
