@@ -1,0 +1,922 @@
+{
+    "id": 222880,
+    "steamAppId": 222880,
+    "name": "Insurgency",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/222880/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 40,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Tactical Shooter",
+        "Multiplayer",
+        "Realistic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_HURT_LOCKER",
+            "name": "Hurt Locker",
+            "description": "Survive a C4 blast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_GENERAL_KILL_100",
+            "name": "Bodycount I",
+            "description": "Kill 100 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_GENERAL_KILL_250",
+            "name": "Bodycount II",
+            "description": "Kill 250 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_GENERAL_KILL_100000",
+            "name": "Bodycount X",
+            "description": "Kill 100,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FIRST_BLOOD",
+            "name": "First Blood ",
+            "description": "Get the first kill in a round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_FIRST_BLOOD_KNIFE",
+            "name": "First Blood 2: Blade Reckoning",
+            "description": "Get the first kill in a round with a knife",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_SILENT_BUT_DEADLY",
+            "name": "Silent But Deadly",
+            "description": "Knife 5 enemies in 1 round ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_STRIKE_AIR_TIGHT",
+            "name": "Air Tight",
+            "description": "Successfully defend all caches in Strike",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_ALL_IN",
+            "name": "All In",
+            "description": "Capture an objective with your entire team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_HEAD_HUNTER",
+            "name": "Head Hunter",
+            "description": "Get 5 headshots in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_CAPTURE_POINT_1",
+            "name": "Ground Control I",
+            "description": "Capture one control point",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_GENERAL_KILL_500",
+            "name": "Bodycount III",
+            "description": "Kill 500 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_GENERAL_KILL_1000",
+            "name": "Bodycount IV",
+            "description": "Kill 1,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_GENERAL_KILL_2500",
+            "name": "Bodycount V",
+            "description": "Kill 2,500 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_GENERAL_KILL_5000",
+            "name": "Bodycount VI",
+            "description": "Kill 5,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_GENERAL_KILL_10000",
+            "name": "Bodycount VII",
+            "description": "Kill 10,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_GENERAL_KILL_25000",
+            "name": "Bodycount VIII",
+            "description": "Kill 25,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_GENERAL_KILL_50000",
+            "name": "Bodycount IX",
+            "description": "Kill 50,000 players of the opposing team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_CAPTURE_POINT_10",
+            "name": "Ground Control II",
+            "description": "Capture 10 control points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CAPTURE_POINT_50",
+            "name": "Ground Control III",
+            "description": "Capture 50 control points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_CAPTURE_POINT_100",
+            "name": "Ground Control IV",
+            "description": "Capture 100 control points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_CAPTURE_POINT_500",
+            "name": "Ground Control V",
+            "description": "Capture 500 control points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CAPTURE_POINT_1000",
+            "name": "Ground Control VI",
+            "description": "Capture 1,000 control points",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_HURT_LOCKER_COOP",
+            "name": "Hurt Locker (Coop)",
+            "description": "Survive a C4 blast while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_FIRST_BLOOD_COOP",
+            "name": "First Blood (Coop)",
+            "description": "Get the first kill in a round while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_FIRST_BLOOD_KNIFE_COOP",
+            "name": "First Blood 2: Blade Reckoning (Coop)",
+            "description": "Get the first kill in a round with a knife while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SILENT_BUT_DEADLY_COOP",
+            "name": "Silent But Deadly (Coop)",
+            "description": "Knife 5 enemies in 1 round while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ALL_IN_COOP",
+            "name": "All In (Coop)",
+            "description": "Capture an objective with your entire team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_HEAD_HUNTER_COOP",
+            "name": "Head Hunter (Coop)",
+            "description": "Get 5 headshots in a row while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_GENERAL_KILL_COOP_100",
+            "name": "Bodycount I (Coop)",
+            "description": "Kill 100 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_GENERAL_KILL_COOP_250",
+            "name": "Bodycount II (Coop)",
+            "description": "Kill 250 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_GENERAL_KILL_COOP_500",
+            "name": "Bodycount III (Coop)",
+            "description": "Kill 500 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_GENERAL_KILL_COOP_1000",
+            "name": "Bodycount IV (Coop)",
+            "description": "Kill 1,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_GENERAL_KILL_COOP_2500",
+            "name": "Bodycount V (Coop)",
+            "description": "Kill 2,500 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_GENERAL_KILL_COOP_5000",
+            "name": "Bodycount VI (Coop)",
+            "description": "Kill 5,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_GENERAL_KILL_COOP_10000",
+            "name": "Bodycount VII (Coop)",
+            "description": "Kill 10,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_GENERAL_KILL_COOP_25000",
+            "name": "Bodycount VIII (Coop)",
+            "description": "Kill 25,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_GENERAL_KILL_COOP_50000",
+            "name": "Bodycount IX (Coop)",
+            "description": "Kill 50,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_GENERAL_KILL_COOP_100000",
+            "name": "Bodycount X (Coop)",
+            "description": "Kill 100,000 players of the opposing team while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_CAPTURE_POINT_COOP_1",
+            "name": "Ground Control I (Coop)",
+            "description": "Capture one control point while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_CAPTURE_POINT_COOP_10",
+            "name": "Ground Control II (Coop)",
+            "description": "Capture 10 control points while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_CAPTURE_POINT_COOP_50",
+            "name": "Ground Control III (Coop)",
+            "description": "Capture 50 control points while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_CAPTURE_POINT_COOP_100",
+            "name": "Ground Control IV (Coop)",
+            "description": "Capture 100 control points while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_CAPTURE_POINT_COOP_500",
+            "name": "Ground Control V (Coop)",
+            "description": "Capture 500 control points while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_CAPTURE_POINT_COOP_1000",
+            "name": "Ground Control VI (Coop)",
+            "description": "Capture 1,000 control points while playing in cooperative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_TRAINING_COMPLETE",
+            "name": "Recruited",
+            "description": "Complete the training course",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TRAINING_ACED",
+            "name": "Aced It!",
+            "description": "Complete the training course in less than 16 minutes without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_CHK_BUHRIZ",
+            "name": "Decisive Victory: Buhriz",
+            "description": "Successfully complete the cooperative checkpoint mission of Buhriz",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_CHK_CONTACT",
+            "name": "Decisive Victory: Contact",
+            "description": "Successfully complete the cooperative checkpoint mission of Contact",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_CHK_DISTRICT",
+            "name": "Decisive Victory: District",
+            "description": "Successfully complete the cooperative checkpoint mission of District",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_CHK_HEIGHTS",
+            "name": "Decisive Victory: Heights",
+            "description": "Successfully complete the cooperative checkpoint mission of Heights",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_CHK_MINISTRY",
+            "name": "Decisive Victory: Ministry",
+            "description": "Successfully complete the cooperative checkpoint mission of Ministry",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_CHK_SIEGE",
+            "name": "Decisive Victory: Siege",
+            "description": "Successfully complete the cooperative checkpoint mission of Siege",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_CHK_MARKET",
+            "name": "Decisive Victory: Market",
+            "description": "Successfully complete the cooperative checkpoint mission of Market",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_CHK_ALL",
+            "name": "Decisive Victory: Complete",
+            "description": "Successfully complete all cooperative checkpoint missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_CHK_REVOLT",
+            "name": "Decisive Victory: Revolt",
+            "description": "Successfully complete the cooperative checkpoint mission of Revolt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_CHK_SINJAR",
+            "name": "Decisive Victory: Sinjar",
+            "description": "Successfully complete the cooperative checkpoint mission of Sinjar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_WAR_HERO_1",
+            "name": "War Hero I",
+            "description": "Be the Most Valuable Player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_WAR_HERO_10",
+            "name": "War Hero II",
+            "description": "Become the MVP 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_WAR_HERO_25",
+            "name": "War Hero III",
+            "description": "Become the MVP 25 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_WAR_HERO_50",
+            "name": "War Hero IV",
+            "description": "Become the MVP 50 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_HERO_CAP_1",
+            "name": "Hero Cap I",
+            "description": "Secure an objective to revive your team if you are the last person alive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_HERO_CAP_5",
+            "name": "Hero Cap II",
+            "description": "Secure an objective to revive your team if you are the last person alive 5 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_HERO_CAP_10",
+            "name": "Hero Cap III",
+            "description": "Secure an objective to revive your team if you are the last person alive 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_HERO_CAP_25",
+            "name": "Hero Cap IV",
+            "description": "Secure an objective to revive your team if you are the last person alive 25 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_HNT_CONTACT",
+            "name": "Clean Sweep: Contact",
+            "description": "Successfully complete the cooperative hunt mission of Contact",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_HNT_DISTRICT",
+            "name": "Clean Sweep: District",
+            "description": "Successfully complete the cooperative hunt mission of District",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_HNT_HEIGHTS",
+            "name": "Clean Sweep: Heights",
+            "description": "Successfully complete the cooperative hunt mission of Heights",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_HNT_MINISTRY",
+            "name": "Clean Sweep: Ministry",
+            "description": "Successfully complete the cooperative hunt mission of Ministry",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_HNT_UPRISING",
+            "name": "Clean Sweep: Uprising",
+            "description": "Successfully complete the cooperative hunt mission of Uprising",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_HNT_ALL",
+            "name": "Clean Sweep: Complete",
+            "description": "Successfully complete all cooperative hunt missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_HNT_PANJ",
+            "name": "Clean Sweep: Panj",
+            "description": "Successfully complete the cooperative hunt mission of Panj",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_LEVEL_SURVIVAL_1",
+            "name": "Survivalist I",
+            "description": "Reach level 5 in one survival round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_LEVEL_SURVIVAL_2",
+            "name": "Survivalist II",
+            "description": "Reach level 10 in one survival round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_LEVEL_SURVIVAL_3",
+            "name": "Survivalist III",
+            "description": "Reach level 20 in one survival round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_LEVEL_SURVIVAL_4",
+            "name": "Survivalist IV",
+            "description": "Reach level 30 in one survival round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_LEVEL_SURVIVAL_5",
+            "name": "Survivalist V",
+            "description": "Reach level 50 in one survival round",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_ODA_420",
+            "name": "ODA 420",
+            "description": "Needs 3+ players on a PVE server running the \"Panj Night\" map (panj_night) in Hunt mode. Enter the small building behind spawn in the map's northeast corner and find the radio on the table inside; each of the 3 players turns it on (do not interact a second time or it switches off). A long radio negotiation between Agent Spooner and Abdul plays out over 5 minutes while you fight off the enemies hunting your squad - when it ends, the achievement unlocks. Its real description, once unlocked in-game, is the joke line \"Successfully get an enemy combatant ripping baked.\"",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_LEVEL_OUTPOST_1",
+            "name": "Stronghold I",
+            "description": "Reach wave 1 in a single round of Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_LEVEL_OUTPOST_2",
+            "name": "Stronghold II",
+            "description": "Reach wave 5 in a single round of Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_LEVEL_OUTPOST_3",
+            "name": "Stronghold III",
+            "description": "Reach wave 10 in a single round of Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_LEVEL_OUTPOST_4",
+            "name": "Stronghold IV",
+            "description": "Reach wave 15 in a single round of Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_LEVEL_OUTPOST_5",
+            "name": "Stronghold V",
+            "description": "Reach wave 20 in a single round of Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_HUMBLE_BUNDLE",
+            "name": "Humble Bundle",
+            "description": "Play Kandagal and Contact on any mode, Conquer on any map, gear up with the Galil, SLR, Sterling, .38 revolver, use the new grenade launchers with sights and hook up a drum magazine attachment to receive this humble achievement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_HNT_BUHRIZ",
+            "name": "Clean Sweep: Buhriz",
+            "description": "Successfully complete the cooperative hunt mission of Buhriz",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_HNT_DRYCANAL",
+            "name": "Clean Sweep: Dry Canal",
+            "description": "Successfully complete the cooperative hunt mission of Dry Canal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_HNT_EMBASSY",
+            "name": "Clean Sweep: Embassy",
+            "description": "Successfully complete the cooperative hunt mission of Embassy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_HNT_KANDAGAL",
+            "name": "Clean Sweep: Kandagal",
+            "description": "Successfully complete the cooperative hunt mission of Kandagal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_HNT_MARKET",
+            "name": "Clean Sweep: Market",
+            "description": "Successfully complete the cooperative hunt mission of Market",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_HNT_PEAK",
+            "name": "Clean Sweep: Peak",
+            "description": "Successfully complete the cooperative hunt mission of Peak",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_HNT_REVOLT",
+            "name": "Clean Sweep: Revolt",
+            "description": "Successfully complete the cooperative hunt mission of Revolt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_HNT_SIEGE",
+            "name": "Clean Sweep: Siege",
+            "description": "Successfully complete the cooperative hunt mission of Siege",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_HNT_SINJAR",
+            "name": "Clean Sweep: Sinjar",
+            "description": "Successfully complete the cooperative hunt mission of Sinjar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_HNT_STATION",
+            "name": "Clean Sweep: Station",
+            "description": "Successfully complete the cooperative hunt mission of Station",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "ACH_HNT_TELL",
+            "name": "Clean Sweep: Tell",
+            "description": "Successfully complete the cooperative hunt mission of Tell",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "ACH_HNT_VERTICALITY",
+            "name": "Clean Sweep: Verticality",
+            "description": "Successfully complete the cooperative hunt mission of Verticality",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "ACH_CHK_DRYCANAL",
+            "name": "Decisive Victory: Dry Canal",
+            "description": "Successfully complete the cooperative checkpoint mission of Dry Canal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "ACH_CHK_EMBASSY",
+            "name": "Decisive Victory: Embassy",
+            "description": "Successfully complete the cooperative checkpoint mission of Embassy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "ACH_CHK_TELL",
+            "name": "Decisive Victory: Tell",
+            "description": "Successfully complete the cooperative checkpoint mission of Tell",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "ACH_CHK_VERTICALITY",
+            "name": "Decisive Victory: Verticality",
+            "description": "Successfully complete the cooperative checkpoint mission of Verticality",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

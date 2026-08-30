@@ -273,6 +273,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rainbow-six-siege"));
     assert.ok(slugs.includes("for-honor"));
     assert.ok(slugs.includes("shovel-knight"));
+    assert.ok(slugs.includes("insurgency"));
+    assert.ok(slugs.includes("trombone-champ"));
+    assert.ok(slugs.includes("chivalry-medieval-warfare"));
 
 });
 

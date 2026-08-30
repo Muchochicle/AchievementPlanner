@@ -249,6 +249,9 @@ import { GUIDE as itTakesTwoAchievementGuide } from "./games/it-takes-two.js";
 import { GUIDE as rainbowSixSiegeAchievementGuide } from "./games/rainbow-six-siege.js";
 import { GUIDE as forHonorAchievementGuide } from "./games/for-honor.js";
 import { GUIDE as shovelKnightAchievementGuide } from "./games/shovel-knight.js";
+import { GUIDE as insurgencyAchievementGuide } from "./games/insurgency.js";
+import { GUIDE as tromboneChampAchievementGuide } from "./games/trombone-champ.js";
+import { GUIDE as chivalryMedievalWarfareAchievementGuide } from "./games/chivalry-medieval-warfare.js";
 
 export const APP_GUIDES = [
 
@@ -520,7 +523,10 @@ export const GAME_GUIDES = [
     itTakesTwoAchievementGuide,
     rainbowSixSiegeAchievementGuide,
     forHonorAchievementGuide,
-    shovelKnightAchievementGuide
+    shovelKnightAchievementGuide,
+    insurgencyAchievementGuide,
+    tromboneChampAchievementGuide,
+    chivalryMedievalWarfareAchievementGuide
 
 ];
 
