@@ -1,0 +1,2623 @@
+{
+    "id": 466560,
+    "steamAppId": 466560,
+    "name": "Northgard",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/466560/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 60,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "City Builder",
+        "Norse Mythology",
+        "4X"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "vmilitary",
+            "name": "Warlord",
+            "description": "Achieve a Domination Victory [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "vmoney",
+            "name": "Great Merchant",
+            "description": "Achieve a Trade Victory [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "vfame",
+            "name": "King of Northgard",
+            "description": "Achieve a Fame Victory [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "vlore",
+            "name": "The Wise",
+            "description": "Achieve a Wisdom Victory [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "vhelheim",
+            "name": "The Protector",
+            "description": "Win by guarding the Gate of Helheim [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "vyggdrasil",
+            "name": "The Mystic",
+            "description": "Win by taking control of Yggdrasil [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "vodinsword",
+            "name": "The Smith",
+            "description": "Win by forging the Sword of Odin [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "expand",
+            "name": "Expansionist",
+            "description": "Control 15 territories",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "loreseek",
+            "name": "Lore Seeker",
+            "description": "Build a Carved Stone next to the Relic of the Gods",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "draugrkill",
+            "name": "Purge",
+            "description": "Kill 20 Draugar in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "wolfkill",
+            "name": "Wolf Hunter",
+            "description": "Kill 20 Wolves in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ruinexplore",
+            "name": "Explorer",
+            "description": "Explore a ruin",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "houseswamp",
+            "name": "Squalid Living",
+            "description": "Build a House in a swamp",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "harbors",
+            "name": "Raider",
+            "description": "Build 3 Harbors in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "wyvern",
+            "name": "Dragonslayer",
+            "description": "Kill the Wyvern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "giantfriend",
+            "name": "Friend of the Jötnar",
+            "description": "Unlock the Giant's Warchief",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "vwolf",
+            "name": "Aggressor",
+            "description": "Win with the clan of the Wolf [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "vstag",
+            "name": "Proud",
+            "description": "Win with the clan of the Stag [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "vgoat",
+            "name": "Survivor",
+            "description": "Win with the clan of the Goat [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "trader",
+            "name": "Trader",
+            "description": "Have 3 active trade route in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "guardian",
+            "name": "Guardian",
+            "description": "Kill 5 Valkyries in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "leguardian",
+            "name": "Legendary Guardian",
+            "description": "Kill 10 Valkyries in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "bearhunter",
+            "name": "Bear Hunter",
+            "description": "Kill 3 bears in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "plowshares",
+            "name": "Plowshares to Swords",
+            "description": "Turn a Farmer into a Warrior",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "slaughter",
+            "name": "Slaughterhouse",
+            "description": "Slaughter 8 Sheep in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "scholar",
+            "name": "Scholar",
+            "description": "Have 6 active Runestone or Carved Stones",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "thewall",
+            "name": "The Wall",
+            "description": "Have 7 Defense Towers in your territory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ironminer",
+            "name": "Iron Miner",
+            "description": "Mine 60 Iron in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "stoneminer",
+            "name": "Stone Miner",
+            "description": "Mine 150 Stone in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "explorer",
+            "name": "Great Explorer",
+            "description": "Explore every zone of Northgard",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "storyteller",
+            "name": "Storyteller",
+            "description": "Have 5 active Skalds at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "goatmaster",
+            "name": "Sheep Master",
+            "description": "Have 8 sheeps in Sheepfolds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "berserker",
+            "name": "Berserk",
+            "description": "Hire the Berserker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "vraven",
+            "name": "Merchant",
+            "description": "Win with the clan of the Raven [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "goldGoat",
+            "name": "Goat Master",
+            "description": "Get 50 Victories with the Clan of the Goat [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "goldRaven",
+            "name": "Raven Master",
+            "description": "Get 50 Victories with the Clan of the Raven [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "goldStag",
+            "name": "Stag Master",
+            "description": "Get 50 Victories with Clan of the Stag [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "goldWolf",
+            "name": "Wolf Master",
+            "description": "Get 50 Victories with the Clan of the Wolf [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "rank1",
+            "name": "Warrior Rank",
+            "description": "Achieve 10 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "rank2",
+            "name": "Warchief Rank",
+            "description": "Achieve 25 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "rank3",
+            "name": "Thane Rank",
+            "description": "Achieve 50 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "rank4",
+            "name": "Jarl Rank",
+            "description": "Achieve 100 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "vbear",
+            "name": "Stalwart",
+            "description": "Win with the clan of the Bear [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "goldBear",
+            "name": "Bear Master",
+            "description": "Get 50 Victories with the Clan of the Bear [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "birdEnthousiast",
+            "name": "Bird Enthousiast",
+            "description": "Heal Vedrfolnir once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "birdLover",
+            "name": "Bird Lover",
+            "description": "Heal Vedrfolnir 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "hotWater",
+            "name": "Hot water",
+            "description": "Colonize 1 geyser tile",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "northernSpa",
+            "name": "Northern SPA",
+            "description": "Colonize 10 geyser tiles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "contactThor",
+            "name": "Contact with Thor",
+            "description": "Colonize the Thor Wrath tile once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "thorFanatic",
+            "name": "Thor Fanatic",
+            "description": "Colonize the Thor Wrath Tile 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "koboldWipeOut",
+            "name": "Kobold Wipe Out",
+            "description": "Destroy a Kobold camp",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "koboldsFriends",
+            "name": "Kobolds and Friends",
+            "description": "Trade with the Kobolds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "vBoar",
+            "name": "Recluse",
+            "description": "Win with the Clan of the Boar [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "goldBoar",
+            "name": "Boar Master",
+            "description": "Get 50 Victories with the Clan of the Boar [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "natureWonder",
+            "name": "Nature's Wonders",
+            "description": "Have 12 menders in your territory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "rank5",
+            "name": "King Rank",
+            "description": "Achieve 250 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "rank6",
+            "name": "High King Rank",
+            "description": "Achieve 500 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "rank7",
+            "name": "Norse God",
+            "description": "Achieve 1000 victories with any clan [not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "campwin1",
+            "name": "Chapter 1 - Exodus",
+            "description": "Complete the first chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "campwin2",
+            "name": "Chapter 2 - Foothold",
+            "description": "Complete the second chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "campwin3",
+            "name": "Chapter 3 - Settlement",
+            "description": "Complete the third chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "campwin4",
+            "name": "Chapter 4 - Trade War",
+            "description": "Complete the fourth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "campwin5",
+            "name": "Chapter 5 - Punitive Expedition",
+            "description": "Complete the fifth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "campwin6",
+            "name": "Chapter 6 - Intervention",
+            "description": "Complete the sixth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "campwin7",
+            "name": "Chapter 7 - Jötunnheim",
+            "description": "Complete the seventh chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "campwin8",
+            "name": "Chapter 8 - Contest",
+            "description": "Complete the eighth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "campwin9",
+            "name": "Chapter 9 - Tremors",
+            "description": "Complete the ninth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "campwin10",
+            "name": "Chapter 10 - Fimbulvinter",
+            "description": "Complete the tenth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "campwin11",
+            "name": "Chapter 11 - Bifrost",
+            "description": "Complete the eleventh chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "bonuses1",
+            "name": "Secrets of Exodus",
+            "description": "Complete each of the bonus objectives of the first chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "bonuses2",
+            "name": "Secrets of Foothold",
+            "description": "Complete each of the bonus objectives of the second chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "bonuses3",
+            "name": "Secrets of Settlement",
+            "description": "Complete each of the bonus objectives of the third chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "bonuses4",
+            "name": "Secrets of Trade War",
+            "description": "Complete each of the bonus objectives of the fourth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "bonuses5",
+            "name": "Secrets of Punitive Expedition",
+            "description": "Complete each of the bonus objectives of the fifth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "bonuses6",
+            "name": "Secrets of Intervention",
+            "description": "Complete each of the bonus objectives of the sixth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "bonuses7",
+            "name": "Secrets of Jötunnheim",
+            "description": "Complete each of the bonus objectives of the seventh chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "bonuses8",
+            "name": "Secrets of Contest",
+            "description": "Complete each of the bonus objectives of the eighth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "bonuses9",
+            "name": "Secrets of Tremors",
+            "description": "Complete each of the bonus objectives of the ninth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "bonuses10",
+            "name": "Secrets of Fimbulvinter",
+            "description": "Complete each of the bonus objectives of the tenth chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "bonuses11",
+            "name": "Secrets of Bifrost",
+            "description": "Complete each of the bonus objectives of the eleventh chapter of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "allbonuses",
+            "name": "Secrets of Rig's Saga",
+            "description": "Complete all the bonus objectives in every chapters of Rig's Saga",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "wcparty",
+            "name": "Hanging out with friends",
+            "description": "Have 6 warchiefs in one of your zones.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "wonderfullife",
+            "name": "It's a Wonderful Life",
+            "description": "Keep your happiness over 12 for a whole year",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "dancewolves",
+            "name": "Dances with wolves",
+            "description": "Gather 1000 food by killing wolves with the Clan of the Wolf in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "deerhunter",
+            "name": "Deer Hunter",
+            "description": "Control 4 Hunter's Lodge at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "longgame",
+            "name": "The Long Game",
+            "description": "Reach the year 810",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "moremoney",
+            "name": "For a Few More Krowns",
+            "description": "Have 3000+ krowns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "bigfish",
+            "name": "Big Fish",
+            "description": "Have 10 fishermen at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "fastexplorer",
+            "name": "The Explorer",
+            "description": "Have the whole map explored before the year 803 in a Medium or Large map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "theend",
+            "name": "The End",
+            "description": "Complete Rig's Saga in Normal difficulty (or above)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "conqueror",
+            "name": "Conqueror",
+            "description": "Complete Rig's Saga in Hard difficulty (or above)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "throughhelheim",
+            "name": "Through Helheim and back",
+            "description": "Complete Rig's Saga in Extreme difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "goldSnake",
+            "name": "Snake Master",
+            "description": "Get 50 Victories with Clan of the Snake",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "vsnake",
+            "name": "Devious",
+            "description": "Win with the Clan of the Snake",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "tearoftheearth",
+            "name": "Tear of the Earth",
+            "description": "Use Scorched Earth on an enemy tile",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "myrkiller",
+            "name": "Myr'Killer",
+            "description": "Destroy a Myrkalfar Camp",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "myrkind",
+            "name": "Myrkalfar & Co.",
+            "description": "Befriend the Myrkalfar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "graveraider",
+            "name": "Grave Raider",
+            "description": "Explore 10 Ancient Graves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "tacticianpath",
+            "name": "Tactician Expert",
+            "description": "Unlock level 4 of the Leadership Path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "guardianpath",
+            "name": "Guardian Expert",
+            "description": "Unlock level 4 of the Guardian Path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "conquerorpath",
+            "name": "Conqueror Expert",
+            "description": "Unlock level 4 of the Legion Path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 102,
+            "apiname": "rockisdead",
+            "name": "Rock Smasher",
+            "description": "Kill 10 Rock Golems",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 103,
+            "apiname": "hotrock",
+            "name": "The Melting Stones",
+            "description": "Completely mine 5 Molten Rocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 104,
+            "apiname": "ragnavictory",
+            "name": "Ragnarok",
+            "description": "Win a Ragnarok game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 105,
+            "apiname": "goldDragon",
+            "name": "Dragon Master",
+            "description": "Get 50 Victories with Clan of the Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 106,
+            "apiname": "vdragon",
+            "name": "Blood Taste",
+            "description": "Win with the Clan of the Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 107,
+            "apiname": "slavefaction",
+            "name": "You Will Fight For Me",
+            "description": "Enslave a Jotunn, a Kobold or a Myrkalf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 108,
+            "apiname": "uprising",
+            "name": "Uprising",
+            "description": "Endure a Thrall uprising",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 109,
+            "apiname": "snowman",
+            "name": "Do you want to build a snowman?",
+            "description": "Build a snowman during the Winter Festival event",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 110,
+            "apiname": "greatcauldron",
+            "name": "The Great Cauldron",
+            "description": "Build the Relic of Eldhrumnir",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 111,
+            "apiname": "hammertime",
+            "name": "Hammer Time",
+            "description": "Build the Relic of Mjöllnir",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 112,
+            "apiname": "knowledgefruit",
+            "name": "Knowledge is a Fruit",
+            "description": "Build the Relic of Jörmunr",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 113,
+            "apiname": "notbreakthisone",
+            "name": "Try Not to Break This One",
+            "description": "Build the Relic of Gefjun's Jar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 114,
+            "apiname": "tasteblood",
+            "name": "The Taste of Blood",
+            "description": "Build the Relic of Horn of Managarm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 115,
+            "apiname": "minenow",
+            "name": "This is Mine Now",
+            "description": "Build the Relic of Hlidskjalf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 116,
+            "apiname": "smalldelivery",
+            "name": "A \"Small\" Delivery",
+            "description": "Build the Relic of Naglfar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 117,
+            "apiname": "overcompensation",
+            "name": "This is not Over Compensation",
+            "description": "Build the Relic of Scabbard of Gram",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 118,
+            "apiname": "steptail",
+            "name": "Do NOT Step on its Tail",
+            "description": "Build the Relic of Mask of Gullinbursti",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 119,
+            "apiname": "soserious",
+            "name": "Why so Serious",
+            "description": "Build the Relic of Gungnir",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 120,
+            "apiname": "darkmagic",
+            "name": "The Benefits of Dark Magic",
+            "description": "Build the Relic of Skull of Hrungnir",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 121,
+            "apiname": "overcooked",
+            "name": "Overcooked",
+            "description": "Wound a Giant boar with a Mjöllnir's Thunder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 122,
+            "apiname": "nothingpersonal",
+            "name": "Nothing personal",
+            "description": "Launch a regular and a Giant Mercenary raid on the same player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 123,
+            "apiname": "educolo",
+            "name": "Educated Colonization",
+            "description": "Spend 1000 Lore in colonization in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 124,
+            "apiname": "liferated",
+            "name": "Life is Over-Rated",
+            "description": "Kill a Jötunn with a Draconic Jötunn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 125,
+            "apiname": "7wonders",
+            "name": "7 Wonders",
+            "description": "Play a game where 7 different Relics are built.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 126,
+            "apiname": "wondercollector",
+            "name": "The Wonder Collector",
+            "description": "Capture an enemy Relic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 127,
+            "apiname": "greatdefense",
+            "name": "Great Defense",
+            "description": "Control 5 upgraded towers lvl 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 128,
+            "apiname": "wonderbuilder",
+            "name": "Wonder Builder",
+            "description": "Build 2 relics in the same game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 129,
+            "apiname": "vhorse",
+            "name": "Builder",
+            "description": "Win with the Clan of the Horse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 130,
+            "apiname": "goldHorse",
+            "name": "Horse Master",
+            "description": "Get 50 Victories with Clan of the Horse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 131,
+            "apiname": "armored",
+            "name": "Let Them Be Stronger",
+            "description": "Build the Relic of Dainsleif & Tyrfing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 132,
+            "apiname": "vKraken",
+            "name": "Day of the Tentacle",
+            "description": "Win with the Clan of the Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 133,
+            "apiname": "goldKraken",
+            "name": "Kraken Master",
+            "description": "Achieve 50 Victories with the Clan of the Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 134,
+            "apiname": "krakenAttack",
+            "name": "Victorious Squid",
+            "description": "Witness a boat sunk by the mighty Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 135,
+            "apiname": "peopleSea",
+            "name": "Fresh Sea Air",
+            "description": "Win a game without colonizing any non coastal zone with the Clan of the Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 136,
+            "apiname": "krakenrelic",
+            "name": "Pride of the Kraken",
+            "description": "Build the Edda of Vor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 137,
+            "apiname": "conquestWolf",
+            "name": "Wolf Conqueror",
+            "description": "Finish a Conquest with the clan of the Wolf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 138,
+            "apiname": "conquestStag",
+            "name": "Stag Conqueror",
+            "description": "Finish a Conquest with the clan of the Stag",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 139,
+            "apiname": "conquestGoat",
+            "name": "Goat Conqueror",
+            "description": "Finish a Conquest with the clan of the Goat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 140,
+            "apiname": "conquestBear",
+            "name": "Bear Conqueror",
+            "description": "Finish a Conquest with the clan of the Bear",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 141,
+            "apiname": "conquestRaven",
+            "name": "Raven Conqueror",
+            "description": "Finish a Conquest with the clan of the Raven",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 142,
+            "apiname": "conquestBoar",
+            "name": "Boar Conqueror",
+            "description": "Finish a Conquest with the clan of the Boar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 143,
+            "apiname": "conquestSnake",
+            "name": "Snake Conqueror",
+            "description": "Finish a Conquest with the clan of the Snake",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 144,
+            "apiname": "conquestDragon",
+            "name": "Dragon Conqueror",
+            "description": "Finish a Conquest with the clan of the Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 145,
+            "apiname": "conquestHorse",
+            "name": "Horse Conqueror",
+            "description": "Finish a Conquest with the clan of the Horse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 146,
+            "apiname": "conquestKraken",
+            "name": "Kraken Conqueror",
+            "description": "Finish a Conquest with the clan of the Kraken",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 147,
+            "apiname": "marvelous6",
+            "name": "Domination",
+            "description": "Finish at least 6 Conquests with different clans",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 148,
+            "apiname": "conquestComplete",
+            "name": "Perfectionist",
+            "description": "Finish all battles of a Conquest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 149,
+            "apiname": "conquestHard",
+            "name": "Emperor",
+            "description": "Finish a Conquest in Hard difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 150,
+            "apiname": "conquestExtreme",
+            "name": "Sovereign",
+            "description": "Finish a Conquest in Extreme difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 151,
+            "apiname": "completeBattles",
+            "name": "I came, I saw, I conquered.",
+            "description": "Win each one of the different battles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 152,
+            "apiname": "vOx",
+            "name": "Unstoppable Force",
+            "description": "Win with the Clan of the Ox",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 153,
+            "apiname": "goldOx",
+            "name": "Ox Master",
+            "description": "Get 50 Victories with Clan of the Ox",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 154,
+            "apiname": "conquestOx",
+            "name": "Ox Conqueror",
+            "description": "Finish a Conquest with the clan of the Ox",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 155,
+            "apiname": "ineedram",
+            "name": "I need more RAM!",
+            "description": "Build the Relic of the Clan of the Ox",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 156,
+            "apiname": "destructionderby",
+            "name": "Destruction Derby",
+            "description": "Destroy 4 different buildings with the Ram ability in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 157,
+            "apiname": "finalform",
+            "name": "This isn't even my final form!",
+            "description": "Find 6 Legendary items in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 158,
+            "apiname": "whoneedhouses",
+            "name": "Who needs houses?",
+            "description": "Win a game with the clan of the Ox without reaching max population",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 159,
+            "apiname": "notpeakcondition",
+            "name": "I saw some lights",
+            "description": "Colonize a zone with a Ceremonial Bonfire during the \"Ceremonial Bonfire\" event",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 160,
+            "apiname": "thisisfine",
+            "name": "What is better than 1 Giant Champion ?",
+            "description": "Unlock 2 Giants' Champion in 1 game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 161,
+            "apiname": "wildvikingappears",
+            "name": "A wild Viking appears!",
+            "description": "Attack an enemy in Landvidi",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 162,
+            "apiname": "poltergeist",
+            "name": "Poltergeist",
+            "description": "In Landvidi, attack an enemy with Ghost warriors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 163,
+            "apiname": "letmeborrowthis",
+            "name": "Let me borrow this...",
+            "description": "Steal a knowledge for the first time using Mimirsbrunn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 164,
+            "apiname": "mimirsbruh",
+            "name": "Mimirsbruh",
+            "description": "Steal a knowledge 5 times using Mimirsbrunn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 165,
+            "apiname": "tisbutascratch",
+            "name": "It's just a scratch...",
+            "description": "Use the Cleanse ability for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 166,
+            "apiname": "masspurification",
+            "name": "Mass purification",
+            "description": "Heal 8 sick units with a single Cleanse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 167,
+            "apiname": "gardening",
+            "name": "Gardening",
+            "description": "Clear Naströnd for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 168,
+            "apiname": "anothershrubbery",
+            "name": "Another shrubbery!",
+            "description": "Clear Naströnd 5 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 169,
+            "apiname": "vLynx",
+            "name": "The cat's out of the bag",
+            "description": "Win with the Clan of the Lynx",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 170,
+            "apiname": "goldLynx",
+            "name": "Lynx Master",
+            "description": "Achieve 50 Victories with the Clan of the Lynx",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 171,
+            "apiname": "iseeyou",
+            "name": "I see you !",
+            "description": "Reveal an enemy Townhall with Brundr or Kaelinn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 172,
+            "apiname": "thepoachergame",
+            "name": "The Poacher Game",
+            "description": "Buy 500 Hunting Trophies in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 173,
+            "apiname": "thelastresort",
+            "name": "The Last Resort",
+            "description": "Release Oskoreia at the highest level of threat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 174,
+            "apiname": "itsatrap",
+            "name": "It's a trap!",
+            "description": "Build the Relic of the Clan of the Lynx",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 175,
+            "apiname": "conquestLynx",
+            "name": "Lynx Conqueror",
+            "description": "Finish the Conquest with the clan of the Lynx",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 176,
+            "apiname": "vSquirrel",
+            "name": "Aggressive Negotiations",
+            "description": "Win with the Clan of the Squirrel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 177,
+            "apiname": "goldSquirrel",
+            "name": "Squirrel Master",
+            "description": "Achieve 50 Victories with the Clan of the Squirrel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 178,
+            "apiname": "rootClan",
+            "name": "The Root of our Clan",
+            "description": "Build the Relic of the Clan of the Squirrel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 179,
+            "apiname": "conquestSquirrel",
+            "name": "Squirrel Conqueror",
+            "description": "Finish a Conquest with the clan of the Squirrel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 180,
+            "apiname": "generousGod",
+            "name": "I’m a Generous God",
+            "description": "Gift 1,000 resources in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 181,
+            "apiname": "littleHelp",
+            "name": "Just a little help for my friends",
+            "description": "Win a game having shared all the meals you prepare with all your teammates",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 182,
+            "apiname": "unlimitedPower",
+            "name": "UNLIMITED FLOWER!",
+            "description": "Control a territory of at least 10 Eldritch zones.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 183,
+            "apiname": "neutralophobia",
+            "name": "Live and Let Live",
+            "description": "Win a game with every started neutral faction alive and not befriended by anyone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 184,
+            "apiname": "spygame",
+            "name": "Spygame",
+            "description": "Send a scout to spy on 3 different clan's Townhall  in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 185,
+            "apiname": "cleanSlate",
+            "name": "Clean Slate",
+            "description": "Eliminate 3 different neutral factions in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 186,
+            "apiname": "littleNeutral",
+            "name": "My Little Neutral: Friendship is Magic",
+            "description": "Befriend 3 different neutral factions in a single game [Not in Story Mode]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 187,
+            "apiname": "jealous",
+            "name": "If I can't have them no one can",
+            "description": "Eliminate 5 neutral factions after they were befriended by another clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 188,
+            "apiname": "soreWinner",
+            "name": "In your face",
+            "description": "Win a competitive event in which all clans have participated",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 189,
+            "apiname": "dwarfChampionKill",
+            "name": "That still only counts as one",
+            "description": "Kill 3 enemy Dwarven Operatives in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 190,
+            "apiname": "vRat",
+            "name": "The Rat King",
+            "description": "Win with the Clan of the Rat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 191,
+            "apiname": "goldRat",
+            "name": "Rat Master",
+            "description": "Achieve 50 Victories with the Clan of the Rat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 192,
+            "apiname": "conquestRat",
+            "name": "Rat Conqueror",
+            "description": "Finish a Conquest with the clan of the Rat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 193,
+            "apiname": "watchWorldBurn",
+            "name": "Just Want to Watch the World Burn",
+            "description": "Build the Relic of the Clan of the Rat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 194,
+            "apiname": "canIGoHome",
+            "name": "Can I go home now ?",
+            "description": "Overwork the same worker 5 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 195,
+            "apiname": "lordCinder",
+            "name": "Lord of Cinder",
+            "description": "Keep the Purification Pyres burning for 12 months without interruption.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 196,
+            "apiname": "megastore",
+            "name": "Megastore",
+            "description": "Have 10 Merchants working in the same zone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 197,
+            "apiname": "vEagle",
+            "name": "Spread Your Wings",
+            "description": "Win with the Clan of the Eagle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 198,
+            "apiname": "goldEagle",
+            "name": "Eagle Master",
+            "description": "Achieve 50 Victories with the Clan of the Eagle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 199,
+            "apiname": "conquestEagle",
+            "name": "Eagle Conqueror",
+            "description": "Finish a Conquest with the clan of the Eagle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 200,
+            "apiname": "pandoraBox",
+            "name": "Pandora's Box",
+            "description": "Build the Relic of the Clan of the Eagle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 201,
+            "apiname": "youDroppedSomething",
+            "name": "Airdropped supplies",
+            "description": "Leave 200 resources or more in loot pouches to be collected by your allies in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 202,
+            "apiname": "finderKeepers",
+            "name": "Finders keepers",
+            "description": "Explore a ruin or shipwreck on a zone next to an enemy territory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 203,
+            "apiname": "dontKickEagleNest",
+            "name": "Don't kick the eagles' nest",
+            "description": "Blind 6 enemies or more in a single fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 204,
+            "apiname": "buildingAWhat",
+            "name": "Building a what?!",
+            "description": "Collect 10 Stones and 10 Iron in a single game without building a mine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 205,
+            "apiname": "vLion",
+            "name": "The Lion Queen",
+            "description": "Win with the Clan of the Lion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 206,
+            "apiname": "goldLion",
+            "name": "Lion Master",
+            "description": "Achieve 50 Victories with the Clan of the Lion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 207,
+            "apiname": "lordSavior",
+            "name": "Do you have a moment to talk about our Lord and Savior?",
+            "description": "Carry a Relic into enemy territory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 208,
+            "apiname": "everythingLightTouches",
+            "name": "Everything the light touches",
+            "description": "Control 5 forts or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 209,
+            "apiname": "guessWho",
+            "name": "Guess who's back? (everyone)",
+            "description": "Revive 20 or more units at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 210,
+            "apiname": "twelvePeers",
+            "name": "The Twelve Peers",
+            "description": "Raise an army comprised of at least 12 paladins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 211,
+            "apiname": "monkIsNotDead",
+            "name": "Monk is not dead",
+            "description": "Build the relic of the clan of the Lion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 212,
+            "apiname": "faithbook",
+            "name": "Faithbook",
+            "description": "Build the Codex Aureus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 213,
+            "apiname": "midasWasAnAmateur",
+            "name": "Midas was an amateur",
+            "description": "Build the Altar of Volvinius",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 214,
+            "apiname": "conquestLion",
+            "name": "Lion Conqueror",
+            "description": "Finish a Conquest with the clan of the Lion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 215,
+            "apiname": "camp2Win1",
+            "name": "Twilight of the Gods",
+            "description": "Complete the first chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 216,
+            "apiname": "camp2Win2",
+            "name": "Cross Roads",
+            "description": "Complete the second chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 217,
+            "apiname": "camp2Win3",
+            "name": "Paladin and the forty fiefs",
+            "description": "Complete the third chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 218,
+            "apiname": "camp2Win4",
+            "name": "Namsborg",
+            "description": "Complete the fourth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 219,
+            "apiname": "camp2Win5",
+            "name": "The Blade of Orléans",
+            "description": "Complete the fifth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 220,
+            "apiname": "camp2Win6",
+            "name": "Paris Syndrome",
+            "description": "Complete the sixth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 221,
+            "apiname": "camp2Win7",
+            "name": "Operation Neptune",
+            "description": "Complete the seventh chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 222,
+            "apiname": "camp2Win8",
+            "name": "The Sword in the stone",
+            "description": "Complete the eigth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 223,
+            "apiname": "camp2Bonuses1",
+            "name": "Arma-get-out",
+            "description": "Complete each of the bonus objectives in the first chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 224,
+            "apiname": "camp2Bonuses2",
+            "name": "Rig's brigade grabs Briga",
+            "description": "Complete each of the bonus objectives in the second chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 225,
+            "apiname": "camp2Bonuses3",
+            "name": "Pope Culture",
+            "description": "Complete each of the bonus objectives in the third chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 226,
+            "apiname": "camp2Bonuses4",
+            "name": "Serf's Up",
+            "description": "Complete each of the bonus objectives in the fourth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 227,
+            "apiname": "camp2Bonuses5",
+            "name": "Joan’s Arc",
+            "description": "Complete each of the bonus objectives in the fifth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 228,
+            "apiname": "camp2Bonuses6",
+            "name": "Noblesse Oblige",
+            "description": "Complete each of the bonus objectives in the sixth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 229,
+            "apiname": "camp2Bonuses7",
+            "name": "Hard Celtzer",
+            "description": "Complete each of the bonus objectives in the seventh chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 230,
+            "apiname": "camp2Bonuses8",
+            "name": "The Tortoise and the heir",
+            "description": "Complete each of the bonus objectives in the eigth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 231,
+            "apiname": "camp2Win9",
+            "name": "Extreme Junction",
+            "description": "Complete the ninth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 232,
+            "apiname": "camp2Win10",
+            "name": "Final Cross",
+            "description": "Complete the tenth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 233,
+            "apiname": "camp2Bonuses9",
+            "name": "Gaul Trap",
+            "description": "Complete each of the bonus objectives in the ninth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 234,
+            "apiname": "camp2Bonuses10",
+            "name": "Fenrir? More like Fen RIP",
+            "description": "Complete each of the bonus objectives in the tenth chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 235,
+            "apiname": "camp2AllBonuses",
+            "name": "Rollolo",
+            "description": "Complete all of the bonus objectives in every chapter of Cross of Vidar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 236,
+            "apiname": "camp2Easy",
+            "name": "Ragenold of Nantes",
+            "description": "Complete Cross of Vidar in Normal difficulty (or above)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 237,
+            "apiname": "camp2Medium",
+            "name": "Godfred of Frise",
+            "description": "Complete Cross of Vidar in Hard difficulty (or above)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 238,
+            "apiname": "camp2Hard",
+            "name": "Rollo of Rouen",
+            "description": "Complete Cross of Vidar in Extreme difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 239,
+            "apiname": "playWithFire",
+            "name": "PlayWithFire",
+            "description": "Build the Holy Fire Relic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 240,
+            "apiname": "vStoat",
+            "name": "Lord of Lords",
+            "description": "Win with the Clan of the Stoat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 241,
+            "apiname": "goldStoat",
+            "name": "Stoat Master",
+            "description": "Achieve 50 Victories with the Clan of the Stoat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 242,
+            "apiname": "powerPeeps",
+            "name": "Power to the People",
+            "description": "Enter an enemy territory with an army composed of 20 Sentries or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 243,
+            "apiname": "whereIsGod",
+            "name": "Where is Your God Now?",
+            "description": "Forge Mjolnir as the Kingdom of the Stoat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 244,
+            "apiname": "culturalAssimilation",
+            "name": "Cultural Assimilation",
+            "description": "Win a Lore Victory with the Kingdom of the Stoat, assigning your Monks only to Viking Artifacts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 245,
+            "apiname": "maui",
+            "name": "You're Welcome!",
+            "description": "Collect and share a Levy providing at least 3 different bonuses at their maximum value",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 246,
+            "apiname": "conquestStoat",
+            "name": "Stoat Conqueror",
+            "description": "Finish a Conquest with the clan of the Stoat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 247,
+            "apiname": "knowThatFeel",
+            "name": "Now you know how that Feels",
+            "description": "Attack Woodcutters with the Guardian of Realms in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 248,
+            "apiname": "gfitShop",
+            "name": "The little shop of Gifts",
+            "description": "Give at least 6 Knowledges to other clans in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 249,
+            "apiname": "powerKnowledge",
+            "name": "Knowledge is Power",
+            "description": "Gain access to the Lore Tree of 7 other clans in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 250,
+            "apiname": "naturalReserve",
+            "name": "Natural Reserve",
+            "description": "Have more than 10 natural resources in your territory  in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 251,
+            "apiname": "oldGuard",
+            "name": "The Old Guard",
+            "description": "Win by Unleashing the Realms' power.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 252,
+            "apiname": "wildCall",
+            "name": "Call of the Wild",
+            "description": "Build the Relic of the Clan of the Owl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 253,
+            "apiname": "conquestOwl",
+            "name": "Owl Conqueror",
+            "description": "Finish a Conquest with the clan of the Owl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 254,
+            "apiname": "vOwl",
+            "name": "I See You",
+            "description": "Win with the Clan of the Owl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 255,
+            "apiname": "goldOwl",
+            "name": "Owl Master",
+            "description": "Achieve 50 Victories with the Clan of the Owl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 256,
+            "apiname": "mealWin",
+            "name": "A Meal fit for a King",
+            "description": "Win by cooking the Banquet of Valhöll.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 257,
+            "apiname": "vPack",
+            "name": "Child of Ragnarök",
+            "description": "Win with the Clan of the Hounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 258,
+            "apiname": "goldPack",
+            "name": "Hounds Master",
+            "description": "Achieve 50 Victories with the Clan of the Hounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 259,
+            "apiname": "relicPack",
+            "name": "Unleash the Beast",
+            "description": "Build the Relic of the Clan of the Hounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 260,
+            "apiname": "toughskinBlings",
+            "name": "Toughskin Siblings",
+            "description": "Save a Boarskin from sacrificing themself using Blood Sacrifice, with the Death Deceiver ability of a Bearskin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 261,
+            "apiname": "improvisedCarpentry",
+            "name": "Improvised Carpentry",
+            "description": "Win a game without ever building a Woodcutter's Lodge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 262,
+            "apiname": "howDoYouLikeItNow",
+            "name": "How Do You Like it Now?!",
+            "description": "Attack a Wolf Den and kill a wolf with a Wolfskin in wolf form.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 263,
+            "apiname": "conquestPack",
+            "name": "Hounds Conqueror",
+            "description": "Finish a Conquest with the clan of the Hounds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 264,
+            "apiname": "bifrostExplorer",
+            "name": "Bifröst Explorer",
+            "description": "Finish a run of Bifröst in Classic or Challenge mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 265,
+            "apiname": "bifrostSurvivor",
+            "name": "Bifröst Survivor",
+            "description": "Finish a run of Bifröst in Challenge mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 266,
+            "apiname": "midgardExplorer",
+            "name": "Midgard Explorer",
+            "description": "Escape the realm of Midgard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 267,
+            "apiname": "muspelheimExplorer",
+            "name": "Muspelheim Explorer",
+            "description": "Escape the realm of Muspelheim.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 268,
+            "apiname": "niflheimExplorer",
+            "name": "Niflheim Explorer",
+            "description": "Escape the realm of Niflheim.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 269,
+            "apiname": "nidavellirExplorer",
+            "name": "Nidavellir Explorer",
+            "description": "Escape the realm of Nidavellir.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 270,
+            "apiname": "idavollExplorer",
+            "name": "Idavoll Explorer",
+            "description": "Escape the realm of Idavoll.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 271,
+            "apiname": "bifrostUltimateExplorer",
+            "name": "Bifröst Ultimate Explorer",
+            "description": "Finish a run of Bifröst in Classic or Challenge mode with each clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 272,
+            "apiname": "foreignLegion",
+            "name": "Foreign Legion",
+            "description": "Assemble an army composed of 10 different types of units or more.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 273,
+            "apiname": "enterAtYourOwnRisk",
+            "name": "Enter At Your Own Risk",
+            "description": "Build 6 defensive buildings or more in a single zone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 274,
+            "apiname": "iou",
+            "name": "I.O.U",
+            "description": "In a single realm of Bifröst, collect 1200 or more of a single resource from the shared pool.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 275,
+            "apiname": "vTurtle",
+            "name": "Solid as a Rock",
+            "description": "Win with the Clan of the Turtle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 276,
+            "apiname": "goldTurtle",
+            "name": "Turtle Master",
+            "description": "Achieve 50 Victories with the Clan of the Turtle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 277,
+            "apiname": "relicTurtle",
+            "name": "Everything has a price",
+            "description": "Build the Relic of the Clan of the Turtle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 278,
+            "apiname": "conquestTurtle",
+            "name": "Turtle Conqueror",
+            "description": "Finish a Conquest with the clan of the Turtle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 279,
+            "apiname": "caravanProdBonus",
+            "name": "It's about the journey...",
+            "description": "Reach a +30% production bonus on a caravan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 280,
+            "apiname": "hostileTakeover",
+            "name": "Hostile takeover",
+            "description": "Eliminate an enemy clan or faction, then claim their main zone with one of your caravan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 281,
+            "apiname": "smallButSturdy",
+            "name": "Small but sturdy",
+            "description": "Win a game, having a territory counting 4 zones or less.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 282,
+            "apiname": "sellRelation",
+            "name": "The Value of Friendship",
+            "description": "Gains more than 500 Kröwns selling relationship.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 283,
+            "apiname": "miningOutside",
+            "name": "No Place Like Mine",
+            "description": "Win a game by mining exclusively outside your territory.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 284,
+            "apiname": "allForgeVarangian",
+            "name": "Valhalla's Vanguard",
+            "description": "Have a Varangian guard benefit from all military forges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 285,
+            "apiname": "bigBoom",
+            "name": "Rock Solid Statement",
+            "description": "Deal 200 damage in a single catapult shot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 286,
+            "apiname": "vHippogriff",
+            "name": "Not a poney, yet not a bird",
+            "description": "Win with the Clan of the Hippogriff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 287,
+            "apiname": "goldHippogriff",
+            "name": "Hippogriff Master",
+            "description": "Achieve 50 Victories with the Clan of the Hippogriff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 288,
+            "apiname": "relicHippo",
+            "name": "Rocks are the solution",
+            "description": "Build the Relic of the Clan of the Hippogriff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 289,
+            "apiname": "conquestHippogriff",
+            "name": "Hippogriff Conqueror",
+            "description": "Finish a Conquest with the clan of the Hippogriff",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

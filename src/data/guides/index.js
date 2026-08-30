@@ -297,6 +297,9 @@ import { GUIDE as endlessSpace2AchievementGuide } from "./games/endless-space-2.
 import { GUIDE as pillarsOfEternityAchievementGuide } from "./games/pillars-of-eternity.js";
 import { GUIDE as ageOfWonders3AchievementGuide } from "./games/age-of-wonders-3.js";
 import { GUIDE as battleBrothersAchievementGuide } from "./games/battle-brothers.js";
+import { GUIDE as totalWarWarhammerAchievementGuide } from "./games/total-war-warhammer.js";
+import { GUIDE as wartalesAchievementGuide } from "./games/wartales.js";
+import { GUIDE as northgardAchievementGuide } from "./games/northgard.js";
 
 export const APP_GUIDES = [
 
@@ -616,7 +619,10 @@ export const GAME_GUIDES = [
     endlessSpace2AchievementGuide,
     pillarsOfEternityAchievementGuide,
     ageOfWonders3AchievementGuide,
-    battleBrothersAchievementGuide
+    battleBrothersAchievementGuide,
+    totalWarWarhammerAchievementGuide,
+    wartalesAchievementGuide,
+    northgardAchievementGuide
 
 ];
 

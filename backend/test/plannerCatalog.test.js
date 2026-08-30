@@ -321,6 +321,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("pillars-of-eternity"));
     assert.ok(slugs.includes("age-of-wonders-3"));
     assert.ok(slugs.includes("battle-brothers"));
+    assert.ok(slugs.includes("total-war-warhammer"));
+    assert.ok(slugs.includes("wartales"));
+    assert.ok(slugs.includes("northgard"));
 
 });
 

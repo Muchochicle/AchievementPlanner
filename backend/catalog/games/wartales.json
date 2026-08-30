@@ -1,0 +1,2137 @@
+{
+    "id": 1527950,
+    "steamAppId": 1527950,
+    "name": "Wartales",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1527950/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 80,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Tactical RPG",
+        "Open World",
+        "Mercenary Company Sim",
+        "Medieval"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "fellowship",
+            "name": "A fledgling fellowship",
+            "description": "Have a troop of 10 companions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "family",
+            "name": "One big happy family",
+            "description": "Have a troop of 20 companions (humans and/or animals)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "elite",
+            "name": "You don't scare me",
+            "description": "Defeat a Champion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "scenario",
+            "name": "Sightseer",
+            "description": "Complete all quests in a region",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "region",
+            "name": "In conclusion...",
+            "description": "Complete all scenario and secondary quests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "contract",
+            "name": "A job’s a job",
+            "description": "Complete a contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "constracts100",
+            "name": "Workaholic",
+            "description": "Complete 100 contracts in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "campmaterial",
+            "name": "A taste for comfort",
+            "description": "Build 5 different camp tools",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "explorer",
+            "name": "Explorers",
+            "description": "Complete a Tomb of the Ancients",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "rats",
+            "name": "Pest control",
+            "description": "Clean a rat invasion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "legendarywp",
+            "name": "The legend starts here",
+            "description": "Acquire 1 legendary weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "arena",
+            "name": "Are you not entertained?!",
+            "description": "Triumph in an arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ghosthound",
+            "name": "Who you gonna call?",
+            "description": "Defeat the Ghost pack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "quality3",
+            "name": "One hell of a hammering",
+            "description": "Craft an item of superior quality at forge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "death",
+            "name": "Tis but a scratch",
+            "description": "Have a companion die",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "retreat",
+            "name": "Not today, Death!",
+            "description": "Retreat from combat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "survive",
+            "name": "Survivors",
+            "description": "Reach day 100 in expert difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "multikill",
+            "name": "Please observe social distancing",
+            "description": "Kill 3 enemies with a single AoE attack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "secretfound",
+            "name": "Well, well, well, what have we here?",
+            "description": "Find a secret",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "wealth",
+            "name": "Started from the bottom... ",
+            "description": "Have a total of 5000 krowns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "relation_love",
+            "name": "Souls mates",
+            "description": "Two companions have declared their love for each other",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "relation_hate",
+            "name": "A Hate/Hate Relationship…",
+            "description": "Two companions hate each other",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "prisoner_escape_then_capture",
+            "name": "The Great Escape",
+            "description": "Catch a prisoner that had escaped",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "killed_by_whip",
+            "name": "Brought a blade to a whip fight",
+            "description": "Kill a prisoner with a whip",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "mosquito_captured",
+            "name": "What's the buzz?",
+            "description": "Capture a cardinal mosquito",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "warpaint",
+            "name": "The Colour of War",
+            "description": "Use War Paint on a companion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "tiltren_setting_completed",
+            "name": "The fate of Tiltren",
+            "description": "Finish the Tiltren scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "tiltren_champion_completed",
+            "name": "Fatherly Love",
+            "description": "Defeat the champion of Tiltren",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "tiltren_poi_completed",
+            "name": "The Tiltren Dream",
+            "description": "Complete all points of interest in Tiltren",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "arthes_setting_completed",
+            "name": "The fate of Arthes",
+            "description": "Finish the Arthes scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "arthes_champion_completed",
+            "name": "The Ghost of Harag",
+            "description": "Defeat the champion of Arthes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "arthes_poi_completed",
+            "name": "Territory at war",
+            "description": "Complete all points of interest in Arthes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "vertruse_setting_completed",
+            "name": "The fate of Vertruse",
+            "description": "Finish the Vertruse scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "vertruse_champion_completed",
+            "name": "Survive THIS!",
+            "description": "Defeat the champion of Vertruse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "vertruse_poi_completed",
+            "name": "Blood of the vines",
+            "description": "Complete all points of interest in Vertruse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ludern_setting_completed",
+            "name": "The fate of Ludern",
+            "description": "Finish the Ludern scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ludern_champion_completed",
+            "name": "28 years later",
+            "description": "Defeat the champion of Ludern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ludern_poi_completed",
+            "name": "This is my swamp.",
+            "description": "Complete all points of interest in Ludern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "merchant_heist",
+            "name": "Heist of the century",
+            "description": "Attack a Golden Merchant Caravan and win, without letting any merchants flee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "wiping_slate_clean",
+            "name": "Wiping the slate clean",
+            "description": "Go from 600 Suspicion to 0 Suspicion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "public_enemy",
+            "name": "Public enemy #1",
+            "description": "Defeat a guard whilst you are wanted",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "tiltren_ruins_done",
+            "name": "Eternal work of art",
+            "description": "Complete the Tomb of the Ancients in Tiltren",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "arthes_ruins_done",
+            "name": "Built to last",
+            "description": "Complete the Tomb of the Ancients in Arthes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ludern_ruins_done",
+            "name": "Those about to die will salute you",
+            "description": "Complete the Tomb of the Ancients in Ludern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "for_money",
+            "name": "In it for the money",
+            "description": "Have 1,000 krowns in less than 1 month",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "forge_master",
+            "name": "A job well done",
+            "description": "Complete 5 forges in a row perfectly",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "battle_no_damage",
+            "name": "In and out, nobody gets hurt",
+            "description": "Do not lose any HP in a fight where you are outnumbered",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "save_action_points",
+            "name": "Victory favours the brave... and the bold\"",
+            "description": "Win a fight using only temporary VPs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "grinmeer_champion_completed",
+            "name": "End of freedom",
+            "description": "Defeat the champion of Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "grinmeer_setting_completed",
+            "name": "The fate of Grinmeer",
+            "description": "Finish the Grinmeer scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "grinmeer_poi_completed",
+            "name": "Influence of Brokers",
+            "description": "Complete all points of interest in Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "grinmeer_ambassy_enter",
+            "name": "Let me in!",
+            "description": "Find a way to enter Alazar's Embassy, in Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "grinmeer_rooks_code",
+            "name": "Secret code",
+            "description": "Unmask Rooks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "grinmeer_hoevendorp_arena",
+            "name": "Massive weapon incoming",
+            "description": "Triumph in the Hoevendorp arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "grinmeer_bernna_arena",
+            "name": "Prepare for trouble... And make it double",
+            "description": "Triumph in the Bernna arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "vertruse_arena",
+            "name": "Poison you said?",
+            "description": "Triumph in the Smot arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "feast_food",
+            "name": "A taste for luxury",
+            "description": "Eat a feast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "pack_spirit",
+            "name": "Leader of the pack",
+            "description": "Get a company with 1 bear, 1 wolf, 1 boar and 1 crocswine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "prisoner_trust_recruited",
+            "name": "Stockholm syndrome",
+            "description": "One of your prisoners wanted to join your company, and you accepted it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "budding_trader",
+            "name": "Savvy businessman ",
+            "description": "Gain 2.000 Krowns by selling Trading Goods",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "grinmeer_treasures",
+            "name": "Treasure hunter",
+            "description": "Collect every treasure hidden in Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "cat_petted",
+            "name": "Soft kitty, warm kitty...",
+            "description": "Pet all 9 cats hidden throughout the base game's regions - clicking a cat gives it a scratch, a happy meow, and a small Happiness bonus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "friendship_power",
+            "name": "The power of friendship",
+            "description": "Complete a bounty in co-op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "team_work",
+            "name": "Teamwork makes the dream work",
+            "description": "Defeat a Champion in co-op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "first_aid",
+            "name": "First aid",
+            "description": "As a group, save a companion from dying 10 times in co-op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "entertainment",
+            "name": "Are you still not entertained?",
+            "description": "Complete 10 minigames in co-op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "alazar_arena_done",
+            "name": "High and mighty",
+            "description": "Triumph in the Lisbeth arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "alazar_poi_completed",
+            "name": "Eye to eye",
+            "description": "Complete all points of interest in Drombach",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "alazar_champion_completed",
+            "name": "Got some rare things on sale, stranger!",
+            "description": "Defeat the champion of Drombach",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "capture_snow_crawler",
+            "name": "Breaking the ice",
+            "description": "Capture a snow crawler",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "alazar_truth_dragon",
+            "name": "Pale ontology",
+            "description": "Discover the truth about dragons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "alazar_truth_eye",
+            "name": "God is playing dice",
+            "description": "Discover the truth about the Eye’s punishment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "alazar_setting_completed",
+            "name": "The fate of Drombach ",
+            "description": "Finish the Drombach scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "alazar_ruins_done",
+            "name": "Destroyer of worlds",
+            "description": "Complete the Tomb of the Ancients in Drombach",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "vertruse_ruins_done",
+            "name": "Coming from old money",
+            "description": "Complete the Tomb of the Ancients in Vertruse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "gosenberg_ruins_done",
+            "name": "This ship has sailed",
+            "description": "Complete the Tomb of the Ancients in Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "ludern_arena_done",
+            "name": "No good to man or beast",
+            "description": "Triumph in the Nairolf arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "ludern_beast_done",
+            "name": "Its vision is based on movement",
+            "description": "Behold the beast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "arthes_arena_done",
+            "name": "This isn’t even my final form",
+            "description": "Triumph in the Kriskhed arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "team_defeated_grinmeer",
+            "name": "Embrace tradition",
+            "description": "Defeat the Grinmeerian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "team_defeated_drombach",
+            "name": "Sport in a storm",
+            "description": "Defeat the Drombachian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "team_defeated_vertruse",
+            "name": "Can’t touch it",
+            "description": "Defeat the Vertrusian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "team_defeated_tiltren",
+            "name": "The balls are in your court",
+            "description": "Defeat the Tiltrenian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "team_defeated_ludern",
+            "name": "Running of the boar",
+            "description": "Defeat the Ludernian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "team_defeated_arthes",
+            "name": "Maze runner",
+            "description": "Defeat the Arthesian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "sport_team_knockdown",
+            "name": "Break a leg",
+            "description": "In a game of rouste, have every oponent on the ground at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "hunt_tiltren",
+            "name": "Big bad wolf",
+            "description": "Complete the Tiltrenian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "hunt_vertruse",
+            "name": "Not a ghost of a chance",
+            "description": "Complete the Vertrusian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "hunt_arthes",
+            "name": "The phantom pain",
+            "description": "Complete the Arthesian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "hunt_grinmeer",
+            "name": "Animal control",
+            "description": "Complete the Grinmeerian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "hunt_drombach",
+            "name": "Elected dogcatcher",
+            "description": "Complete the Drombachian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "hunt_ludern",
+            "name": "In the wolf’s mouth",
+            "description": "Complete the Ludernian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "comptoir_tiltren",
+            "name": "Feels like home",
+            "description": "Build a travel post in Tiltren",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "comptoir_vertruse",
+            "name": "Where the water tastes like wine",
+            "description": "Build a travel post in Vertruse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "comptoir_arthes",
+            "name": "War is the most profitable business",
+            "description": "Build a travel post in Arthes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "comptoir_grinmeer",
+            "name": "Rags to riches",
+            "description": "Build a travel post in Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "comptoir_drombach",
+            "name": "In all weathers",
+            "description": "Build a travel post in Drombach",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "comptoir_ludern",
+            "name": "Off the beaten track",
+            "description": "Build a travel post in Ludern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "codex_builder",
+            "name": "Rock solid",
+            "description": "Find the Builder’s treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "codex_merchant",
+            "name": "Et tu, Brute?",
+            "description": "Find the Merchant’s treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "codex_general",
+            "name": "I am become death",
+            "description": "Find the General’s treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 102,
+            "apiname": "codex_fighters",
+            "name": "Born to fight",
+            "description": "Find the Fighters’ treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 103,
+            "apiname": "codex_artist",
+            "name": "Memento mori",
+            "description": "Find the Artist’s treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 104,
+            "apiname": "codex_explorer",
+            "name": "Written in the stars",
+            "description": "Find the Explorer’s treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 105,
+            "apiname": "tool_assigned_companions",
+            "name": "The beehive",
+            "description": "Have at least 10 companions assigned to different tools in your camp",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 106,
+            "apiname": "craft_unique_tools",
+            "name": "Travelling light",
+            "description": "Build 15 different camp tools",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 107,
+            "apiname": "upgrade_unique_tools",
+            "name": "All modern comforts",
+            "description": "Upgrade 10 different camp tools",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 108,
+            "apiname": "t2_unique_weapons",
+            "name": "Dead aim",
+            "description": "Craft every ghost weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 109,
+            "apiname": "t3_unique_weapons",
+            "name": "On our way to slay Hrimgandr",
+            "description": "Craft every rimesteel weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 110,
+            "apiname": "only_oiled_weapons",
+            "name": "Only your strongest potions",
+            "description": "Equip your whole troupe with oiled weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 111,
+            "apiname": "apprentice_unique_jobs",
+            "name": "Jack of all trades",
+            "description": "Reach the apprentice level in 8 different jobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 112,
+            "apiname": "prepare_delicious_meals",
+            "name": "Spice wars",
+            "description": "Prepare 10 delicious meals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 113,
+            "apiname": "full_exigence_arena",
+            "name": "The only show in town",
+            "description": "Triumph in an arena without failing a single requirement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 114,
+            "apiname": "rat_invasion_cleaned",
+            "name": "The rat pack",
+            "description": "Clean 5 different rat invasions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 115,
+            "apiname": "fast_codex_restoration",
+            "name": "Judging the book by its cover",
+            "description": "Restore a codex in less than 6 guesses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 116,
+            "apiname": "full_helmet",
+            "name": "Safety first",
+            "description": "Equip your whole troupe with helmet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 117,
+            "apiname": "interregion_arena_done",
+            "name": "Those guys again?",
+            "description": "Triumph in the Arena of Legends",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 118,
+            "apiname": "might_path_completed",
+            "name": "Down in history",
+            "description": "Finish the Power and Glory path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 119,
+            "apiname": "trade_road_built",
+            "name": "A run for your money",
+            "description": "Establish a trade route",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 120,
+            "apiname": "trade_path_completed",
+            "name": "The rich get richer",
+            "description": "Finish the Trade and Craftsmanship path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 121,
+            "apiname": "burglary_done",
+            "name": "Property is theft",
+            "description": "Perform a burglary",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 122,
+            "apiname": "crime_path_completed",
+            "name": "Crime and accomplishment",
+            "description": "Finish the Crime and Chaos path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 123,
+            "apiname": "vernacular_artifact_found",
+            "name": "It belongs in a museum",
+            "description": "Find a vernacular artifact",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 124,
+            "apiname": "mystery_path_completed",
+            "name": "Guardians of the Ancient secrets",
+            "description": "Finish the Mysteries and Wisdom path",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 125,
+            "apiname": "belerion_arena_done",
+            "name": "Show of hands",
+            "description": "Triumph in the Oris arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 126,
+            "apiname": "belerion_ruins_done",
+            "name": "Be like water",
+            "description": "Complete the Tomb of the Ancients in Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 127,
+            "apiname": "belerion_champion_completed",
+            "name": "Hopping mad",
+            "description": "Defeat the champion of Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 128,
+            "apiname": "hunt_belerion",
+            "name": "Smoke on the water",
+            "description": "Complete the Belerian hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 129,
+            "apiname": "visit_all_wind_zones",
+            "name": "Hic Sunt Dracones",
+            "description": "Visit every wind zone in Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 130,
+            "apiname": "enter_sealords_ranking",
+            "name": "Billboard Hot 10",
+            "description": "Enter the Lords of the Sea ranking",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 131,
+            "apiname": "treasure_sealord",
+            "name": "Treasure Island",
+            "description": "Find the treasure of a Lord of the Sea",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 132,
+            "apiname": "top_sealords_ranking",
+            "name": "Most Wanted",
+            "description": "Reach the top of the Lords of the Sea ranking",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 133,
+            "apiname": "all_fish_species",
+            "name": "Gotta Catch 'Em All",
+            "description": "Catch 12 different species of fish",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 134,
+            "apiname": "team_defeated_belerion",
+            "name": "My job is just beach",
+            "description": "Defeat the Belerian team in a game of rouste",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 135,
+            "apiname": "max_repair_boat",
+            "name": "Back at sea",
+            "description": "Repair your boat after each of its components was damaged",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 136,
+            "apiname": "all_boat_comp_upgraded",
+            "name": "Wonder of the seas",
+            "description": "Upgrade every component of your boat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 137,
+            "apiname": "all_boat_comp_built",
+            "name": "Fully equipped",
+            "description": "Build all different boat components",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 138,
+            "apiname": "boat_max_speed",
+            "name": "Wave Race",
+            "description": "Reach a speed of 10 knots with your boat",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 139,
+            "apiname": "ballista_landing_shots",
+            "name": "Battleship",
+            "description": "Land 25 shots with the ballista",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 140,
+            "apiname": "one_human_on_board",
+            "name": "Single-handed sailor",
+            "description": "Set sail with just one human on board",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 141,
+            "apiname": "emergency_exit",
+            "name": "Emergency exit",
+            "description": "Use a rope to jump into the sea during the Pirates of Belerion expansion's content.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 142,
+            "apiname": "comptoir_belerion",
+            "name": "Via Maris",
+            "description": "Build a travel post in Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 143,
+            "apiname": "visit_all_islands",
+            "name": "Adventure is just bad planning",
+            "description": "Visit every island in Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 144,
+            "apiname": "belerion_poi_completed",
+            "name": "Explorers of the seven seas",
+            "description": "Complete every point of interest in Belerion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 145,
+            "apiname": "belerion_setting_completed",
+            "name": "The Miraculous Catch of Fish",
+            "description": "Finish the Belerion scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 146,
+            "apiname": "codex_admiral",
+            "name": "Beyond the Sea",
+            "description": "Find the Admiral's treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 147,
+            "apiname": "tavern_upgrade_lvl1",
+            "name": "Anyone can cook",
+            "description": "Open a tavern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 148,
+            "apiname": "tavern_first_star",
+            "name": "Best plonk in town",
+            "description": "Earn your first Taverners' Guild star",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 149,
+            "apiname": "tavern_upgrade_lvl2",
+            "name": "Scaling up",
+            "description": "Move your tavern to Marheim",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 150,
+            "apiname": "tavern_upgrade_lvl3",
+            "name": "Reaching the top",
+            "description": "Move your tavern to Gosenberg",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 151,
+            "apiname": "tavern_weapon_rack",
+            "name": "Retired heroes",
+            "description": "Fill a weapons rack with legendary weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 152,
+            "apiname": "tavern_let_him_cook",
+            "name": "Let him cook",
+            "description": "Have a companion become a Master in their craft while working in the tavern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 153,
+            "apiname": "tavern_krowns_retrieved",
+            "name": "Flourishing business",
+            "description": "Retrieve a total of 1000 krowns from your tavern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 154,
+            "apiname": "tavern_secret_food_recipes",
+            "name": "Food for thought",
+            "description": "Steal every secret cooking recipe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 155,
+            "apiname": "tavern_secret_drink_recipes",
+            "name": "Trouble brewing",
+            "description": "Steal every secret brewing recipe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 156,
+            "apiname": "tavern_faction_rewards",
+            "name": "My friend's enemy is also my friend",
+            "description": "Obtain every faction's reward",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 157,
+            "apiname": "tavern_first_rank",
+            "name": "Heaven's kitchen",
+            "description": "Top the taverns' ranking",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 158,
+            "apiname": "tavern_first_feast",
+            "name": "Haute Cuisine",
+            "description": "Serve your first feast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 159,
+            "apiname": "tavern_brandon_help",
+            "name": "That rat skewer is raw !",
+            "description": "Get some help from Brandon Lesley",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 160,
+            "apiname": "tavern_first_max_aging",
+            "name": "Patience is a virtue",
+            "description": "Bring an alcohol to its maximum aging level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 161,
+            "apiname": "tavern_animal_tools",
+            "name": "The pint glass menagerie",
+            "description": "Have a cat, a chicken and a pig in your tavern at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 162,
+            "apiname": "tavern_forcing_uprank",
+            "name": "The price of fame",
+            "description": "Surpass a tavern's ranking after taking prestige from it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 163,
+            "apiname": "tavern_honor_thieves",
+            "name": "There's honor among thieves",
+            "description": "Reach the tolerated security level while 3 or more thieves are assigned",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 164,
+            "apiname": "tavern_multiple_factions",
+            "name": "Pleasing everyone",
+            "description": "Have 10 different factions visit your tavern on the same day",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 165,
+            "apiname": "tavern_benefits_upscaled",
+            "name": "Eat, drink and be merry",
+            "description": "Make at least 100 coins in a rest with an Upscale tavern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 166,
+            "apiname": "tavern_benefits_rustic",
+            "name": "If it's expensive, it must be good",
+            "description": "Make at least 100 coins in a rest with a Working class tavern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 167,
+            "apiname": "tavern_rebranding",
+            "name": "Rebranding",
+            "description": "Upgrade your tavern's walls and floor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 168,
+            "apiname": "blackmarket_e1_finished",
+            "name": "Men of Steel",
+            "description": "Triumph in the pit of Arthes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 169,
+            "apiname": "blackmarket_s1_finished",
+            "name": "Mithridatism",
+            "description": "Triumph in the pit of Tiltren",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 170,
+            "apiname": "blackmarket_g1_finished",
+            "name": "Hot Ones",
+            "description": "Triumph in the pit of Vertruse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 171,
+            "apiname": "blackmarket_h1_finished",
+            "name": "Eye of the Cyclone",
+            "description": "Triumph in the pit of Ludern",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 172,
+            "apiname": "blackmarket_g2_finished",
+            "name": "With your eyes closed!",
+            "description": "Triumph in the pit of Grinmeer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 173,
+            "apiname": "blackmarket_all_finished",
+            "name": "Champions of the Black market",
+            "description": "Triumph in all the pits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 174,
+            "apiname": "blackmarket_no_attack",
+            "name": "Not my fault!",
+            "description": "Win a pit fight in Arthes without hitting a single enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 175,
+            "apiname": "blackmarket_poison_neutral_kills",
+            "name": "Hostile environment",
+            "description": "Win a pit fight in Tiltren by letting neutral units deal all the final blows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 176,
+            "apiname": "blackmarket_push_distance",
+            "name": "Long-distance relationship",
+            "description": "In Vertuse's pit, push an enemy 10 meters away.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 177,
+            "apiname": "blackmarket_lightning_engaged",
+            "name": "The mercenary strikes back",
+            "description": "In Ludern's pit, 2 engaged units have been struck by lighting.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 178,
+            "apiname": "blackmarket_unit_in_dark",
+            "name": "What do we do in the Shadows",
+            "description": "In Grinmeer's pit, leave at least one unit in the shadows for an entire fight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 179,
+            "apiname": "ormance_arena_done",
+            "name": "Two for the show",
+            "description": "Triumph in the Attia arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 180,
+            "apiname": "ormance_ruins_done",
+            "name": "As good as old",
+            "description": "Complete the Tomb of the Ancients in Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 181,
+            "apiname": "ormance_champion_completed",
+            "name": "The coward’s way out",
+            "description": "Defeat the champion of Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 182,
+            "apiname": "ormance_hunt",
+            "name": "Master hunter",
+            "description": "Complete the Ormance hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 183,
+            "apiname": "ormance_poi_completed",
+            "name": "My job here is done",
+            "description": "Complete every point of interest in Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 184,
+            "apiname": "ormance_setting_completed",
+            "name": "The Fate of Ormance",
+            "description": "Finish the Ormance scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 185,
+            "apiname": "comptoir_ormance",
+            "name": "Back in business",
+            "description": "Build a travel post in Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 186,
+            "apiname": "codex_citizen",
+            "name": "Friendship is magic",
+            "description": "Find the Citizen's treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 187,
+            "apiname": "arbalist_multiple_shot",
+            "name": "I had to do it to em",
+            "description": "Shoot 6 times in one turn with a crossbow",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 188,
+            "apiname": "man_power_skill",
+            "name": "The more the merrier",
+            "description": "Use a man power skill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 189,
+            "apiname": "level_15",
+            "name": "I’m too old for this",
+            "description": "Reach level 15",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 190,
+            "apiname": "capture_smilodon",
+            "name": "Beware of the cat",
+            "description": "Capture a smilodon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 191,
+            "apiname": "recruit_skelmar",
+            "name": "I got friends on the other side",
+            "description": "Recruit a Skelmar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 192,
+            "apiname": "win_siege",
+            "name": "Knock Knock",
+            "description": "Win a siege",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 193,
+            "apiname": "free_zone",
+            "name": "Land of the free",
+            "description": "Free a barony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 194,
+            "apiname": "rebuilt_place",
+            "name": "Rising from the ashes",
+            "description": "Rebuild a point of interest in Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 195,
+            "apiname": "defeat_sven",
+            "name": "King of terrors",
+            "description": "Defeat the High-Jarl Sven in the Curse of Rigel expansion's climactic scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 196,
+            "apiname": "rebuilt_all_places",
+            "name": "Disciple of Saint Lenaid",
+            "description": "Rebuild all points of interest in Ormance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 197,
+            "apiname": "brigga_setting_completed",
+            "name": "The fate of Brigga",
+            "description": "Finish the Brigga scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 198,
+            "apiname": "brigga_beast_killed_no_trap",
+            "name": "Perseverance is a quality",
+            "description": "Defeat the Beast of Brigga in the Beast Hunt content without using a Master Trap.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 199,
+            "apiname": "kill_fierce_no_bonus",
+            "name": "No need for assistance",
+            "description": "Defeat an animal group in a hunt without a trace bonus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 200,
+            "apiname": "kill_fierce_with_fierce",
+            "name": "There can be only one!",
+            "description": "Have an allied fierce animal kill an enemy fierce animal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 201,
+            "apiname": "heal_animal_influence",
+            "name": "Spirited away",
+            "description": "Prevent an animal from being transformed into a ghost pack monster after a rest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 202,
+            "apiname": "kill_beast_twice",
+            "name": "The curse of Brigga",
+            "description": "Defeat the Beast of Brigga a second time, after it returns.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 203,
+            "apiname": "craft_all_beast_weapons",
+            "name": "Ossuary",
+            "description": "Craft all the Beast weapons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 204,
+            "apiname": "wake_up_in_mist",
+            "name": "This is fine",
+            "description": "Wake up in the middle of the Beast's mist after a rest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 205,
+            "apiname": "fief_the_fairest_kingdom",
+            "name": "The Fairest Kingdom",
+            "description": "Reach the maximum fief level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 206,
+            "apiname": "fief_diversity-rules",
+            "name": "Diversity Rules",
+            "description": "Have a fief with all building types",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 207,
+            "apiname": "fief_loyal_subjects",
+            "name": "Loyal Subjects",
+            "description": "Start 50 mandates",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 208,
+            "apiname": "fief_factory",
+            "name": "Factory",
+            "description": "Produce a total of 1,000 items",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 209,
+            "apiname": "fief_paradise_on_earth",
+            "name": "Paradise on Earth",
+            "description": "Reach 90% in all needs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 210,
+            "apiname": "fief_i_have_heard_you",
+            "name": "I have heard you!",
+            "description": "Complete 50 audiences",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 211,
+            "apiname": "fief_you_got_a_friend_in_me",
+            "name": "You got a friend in me",
+            "description": "Reach maximum relation with a kingdom",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 212,
+            "apiname": "fief_caligula",
+            "name": "Caligula",
+            "description": "In The Fief expansion, appoint a pony as a General of your fief.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 213,
+            "apiname": "rigel_setting_completed",
+            "name": "The fate of Rigel",
+            "description": "Finish the Rigel Scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 214,
+            "apiname": "rigel_arena_done",
+            "name": "Together stronger",
+            "description": "Triumph in the Rigel arena",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 215,
+            "apiname": "rigel_ruins_done",
+            "name": "Belit's Knowledge",
+            "description": "Complete the Tomb of the Ancients in Rigel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 216,
+            "apiname": "rigel_champion_killed",
+            "name": "Plagueridden survivors",
+            "description": "Defeat the champion of Rigel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 217,
+            "apiname": "rigel_hunt",
+            "name": "Lesser preys",
+            "description": "Complete the Rigel hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 218,
+            "apiname": "rigel_poi_completed",
+            "name": "Sons of the forest",
+            "description": "Complete every POI in Rigel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 219,
+            "apiname": "rigel_comptoir",
+            "name": "Insane deals",
+            "description": "Build a travel post in Rigel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 220,
+            "apiname": "codex_hermit",
+            "name": "First in class",
+            "description": "Find the Hermit's treasure",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 221,
+            "apiname": "a2_cure_companions",
+            "name": "Stay with me",
+            "description": "Cure 5 companions before they become lycanthropes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 222,
+            "apiname": "a2_infect_companion",
+            "name": "Mad scientist",
+            "description": "Give lycanthropy to a companion with an item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 223,
+            "apiname": "rigel_ponies",
+            "name": "Shepherd",
+            "description": "In the Curse of Rigel expansion, find and safely bring home all three lost ponies for the Rigel Stables.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 224,
+            "apiname": "rigel_cats",
+            "name": "Catperson",
+            "description": "In the Curse of Rigel expansion, find and interact with all of the region's hidden cats.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 225,
+            "apiname": "a2_frankenstein",
+            "name": "Frankenstein",
+            "description": "Apply all grafts to a lycan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 226,
+            "apiname": "a2_impossible_love",
+            "name": "Impossible love",
+            "description": "Have a human companion in a relationship with a lycanthrope",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 227,
+            "apiname": "rigel_all_researches",
+            "name": "For Science",
+            "description": "Complete all Rigel research",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 228,
+            "apiname": "lombelle_setting_completed",
+            "name": "The fate of Lombelle",
+            "description": "Finish the Lombelle Scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 229,
+            "apiname": "lombelle_hunt",
+            "name": "City Hunter",
+            "description": "Complete the Lombelle hunt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 230,
+            "apiname": "comptoir_lombelle",
+            "name": "Risky investment",
+            "description": "Build a travel post in Lombelle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 231,
+            "apiname": "lombelle_poi_completed",
+            "name": "Urban exploration",
+            "description": "Complete every POI in Lombelle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 232,
+            "apiname": "stone_death",
+            "name": "Who threw that stone?",
+            "description": "Kill an enemy using a thrown cobblestone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 233,
+            "apiname": "chicken_catch",
+            "name": "Chicken Run",
+            "description": "Catch a chicken for your tavern's menagerie - a rare random event with a low chance of appearing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 234,
+            "apiname": "general_song",
+            "name": "General's voice",
+            "description": "Sing 5 times the Ode to the Good General",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 235,
+            "apiname": "save_civillians",
+            "name": "White Knights",
+            "description": "Save at least 10 civilians in Lombelle's fights",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
