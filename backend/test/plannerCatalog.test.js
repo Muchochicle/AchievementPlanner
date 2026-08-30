@@ -288,6 +288,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("scp-secret-laboratory"));
     assert.ok(slugs.includes("nidhogg"));
     assert.ok(slugs.includes("unrailed"));
+    assert.ok(slugs.includes("towerfall"));
+    assert.ok(slugs.includes("ultimate-chicken-horse"));
+    assert.ok(slugs.includes("peak"));
 
 });
 

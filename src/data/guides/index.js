@@ -264,6 +264,9 @@ import { GUIDE as goingMedievalAchievementGuide } from "./games/going-medieval.j
 import { GUIDE as scpSecretLaboratoryAchievementGuide } from "./games/scp-secret-laboratory.js";
 import { GUIDE as nidhoggAchievementGuide } from "./games/nidhogg.js";
 import { GUIDE as unrailedAchievementGuide } from "./games/unrailed.js";
+import { GUIDE as towerfallAchievementGuide } from "./games/towerfall.js";
+import { GUIDE as ultimateChickenHorseAchievementGuide } from "./games/ultimate-chicken-horse.js";
+import { GUIDE as peakAchievementGuide } from "./games/peak.js";
 
 export const APP_GUIDES = [
 
@@ -550,7 +553,10 @@ export const GAME_GUIDES = [
     goingMedievalAchievementGuide,
     scpSecretLaboratoryAchievementGuide,
     nidhoggAchievementGuide,
-    unrailedAchievementGuide
+    unrailedAchievementGuide,
+    towerfallAchievementGuide,
+    ultimateChickenHorseAchievementGuide,
+    peakAchievementGuide
 
 ];
 

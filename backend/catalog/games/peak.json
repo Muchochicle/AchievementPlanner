@@ -1,0 +1,598 @@
+{
+    "id": 3527290,
+    "steamAppId": 3527290,
+    "name": "PEAK",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3527290/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Climbing",
+        "Survival",
+        "Roguelike"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "PeakBadge",
+            "name": "Peak Badge",
+            "description": "Reach the PEAK.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "CookingBadge",
+            "name": "Cooking Badge",
+            "description": "Cook 20 meals at campfires.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "KnotTyingBadge",
+            "name": "Knot Tying Badge",
+            "description": "Place 100m of rope in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "BeachcomberBadge",
+            "name": "Beachcomber Badge",
+            "description": "Climb past the SHORE.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "TriedYourBestBadge",
+            "name": "Participation Badge",
+            "description": "Have a friend escape the island without you.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "TrailblazerBadge",
+            "name": "Trailblazer Badge",
+            "description": "Climb past the TROPICS.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "HappyCamperBadge",
+            "name": "Happy Camper Badge",
+            "description": "Receive 5 Morale Boosts from campfires.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "AlpinistBadge",
+            "name": "Alpinist Badge",
+            "description": "Climb past the ALPINE.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "VolcanologyBadge",
+            "name": "Volcanology Badge",
+            "description": "Climb past the CALDERA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "BoulderingBadge",
+            "name": "Bouldering Badge",
+            "description": "Place 10 pitons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ToxicologyBadge",
+            "name": "Toxicology Badge",
+            "description": "Restore 200 total poison by using items.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ForagingBadge",
+            "name": "Foraging Badge",
+            "description": "Eat 5 different berries in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "EsotericaBadge",
+            "name": "Esoterica Badge",
+            "description": "Obtain a mystical item.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "LoneWolfBadge",
+            "name": "Lone Wolf Badge",
+            "description": "Escape the island in a solo expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ClutchBadge",
+            "name": "Clutch Badge",
+            "description": "Resurrect 3 scouts in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "BalloonBadge",
+            "name": "Balloon Badge",
+            "description": "Escape the island without taking fall damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "LeaveNoTraceBadge",
+            "name": "Leave No Trace Badge",
+            "description": "Escape the island without placing anything on the mountain.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "SpeedClimberBadge",
+            "name": "Hasty Badge",
+            "description": "Escape the island in under an hour.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "BingBongBadge",
+            "name": "Bing Bong Badge",
+            "description": "Help Bing Bong escape the island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "NaturalistBadge",
+            "name": "Naturalist Badge",
+            "description": "Escape the island without eating any packaged food.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "GourmandBadge",
+            "name": "Gourmand Badge",
+            "description": "Escape the island after cooking and eating a coconut half, a honeycomb, a yellow winterberry, and an egg.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "MycologyBadge",
+            "name": "Mycology Badge",
+            "description": "Eat four different non-toxic mushrooms in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "FirstAidBadge",
+            "name": "First Aid Badge",
+            "description": "Heal your friends for 100 points of injury in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "SurvivalistBadge",
+            "name": "Survivalist Badge",
+            "description": "Escape the island without ever losing consciousness.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "AnimalSerenadingBadge",
+            "name": "Animal Serenading Badge",
+            "description": "Play the bugle for a capybara.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ArboristBadge",
+            "name": "Arborist Badge",
+            "description": "Reach the top of a really big tree.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "MentorshipBadge",
+            "name": "Mentorship Badge",
+            "description": "Have a 1-on-1 with the Scoutmaster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "EmergencyPreparednessBadge",
+            "name": "Emergency Preparedness Badge",
+            "description": "Heal an unconscious friend with an item to save them from death.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "AscenderBadge",
+            "name": "High Altitude Badge",
+            "description": "Climb 5000m total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "PlundererBadge",
+            "name": "Plunderer Badge",
+            "description": "Open 15 luggages in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "BookwormBadge",
+            "name": "Bookworm Badge",
+            "description": "Read the Scoutmaster’s final journal entry.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "EnduranceBadge",
+            "name": "Endurance Badge",
+            "description": "Climb 50m upwards without touching the ground.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "NomadBadge",
+            "name": "Nomad Badge",
+            "description": "Climb past the MESA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "UltimateBadge",
+            "name": "Ultimate Badge",
+            "description": "Catch a Flying Disc from 100m away.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "CoolCucumberBadge",
+            "name": "Cool Cucumber Badge",
+            "description": "Climb past the MESA without ever having more than 10% Heat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "NeedlepointBadge",
+            "name": "Needlepoint Badge",
+            "description": "Have a lot of cactuses stuck to you.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "AeronauticsBadge",
+            "name": "Aeronautics Badge",
+            "description": "Achieve flight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "TwentyFourKaratBadge",
+            "name": "24 Karat Badge",
+            "description": "Offer The Kiln a worthy sacrifice.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ResourcefulnessBadge",
+            "name": "Resourcefulness Badge",
+            "description": "Give in to your hunger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "DaredevilBadge",
+            "name": "Daredevil Badge",
+            "description": "Shoot across the MESA canyon in a Scout Cannon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "MegaentomologyBadge",
+            "name": "Megaentomology Badge",
+            "description": "Survive an Antlion attack.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "AstronomyBadge",
+            "name": "Astronomy Badge",
+            "description": "Look a little too closely at the blazing sun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "BundledUpBadge",
+            "name": "Bundled Up Badge",
+            "description": "Climb past the ALPINE without ever having more than 20% Cold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ForestryBadge",
+            "name": "Forestry Badge",
+            "description": "Climb past the ROOTS.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "TreadLightlyBadge",
+            "name": "Tread Lightly Badge",
+            "description": "Climb past the ROOTS without ever having more than 25% spores.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "WebSecurityBadge",
+            "name": "Web Security Badge",
+            "description": "Escape a spider's web and survive.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "UndeadEncounterBadge",
+            "name": "Undead Encounter Badge",
+            "description": "Cure yourself from a zombie bite.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "AdvancedMycologyBadge",
+            "name": "Advanced Mycology Badge",
+            "description": "Try all 5 types of Shroomberry in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "DisasterResponseBadge",
+            "name": "Disaster Response Badge",
+            "description": "Pull an unconscious friend 30m with the Rescue Claw.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "CalciumIntakeBadge",
+            "name": "Calcium Intake Badge",
+            "description": "Block 100 total damage with the Fortified Milk.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "CompetitiveEatingBadge",
+            "name": "Competitive Eating Badge",
+            "description": "Eat 3 Hot Dogs in 5 seconds or less.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "AppliedEsotericaBadge",
+            "name": "Applied Esoterica Badge",
+            "description": "Resurrect a friend using unholy means.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "MycoacrobaticsBadge",
+            "name": "Mycoacrobatics Badge",
+            "description": "Bounce up 40m off a mushroom.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "CryptogastronomyBadge",
+            "name": "Cryptogastronomy Badge",
+            "description": "Cook and eat a Mandrake.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "WandererBadge",
+            "name": "Wanderer Badge",
+            "description": "Climb past the GLOOM.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "BellringerBadge",
+            "name": "Bellringer Badge",
+            "description": "Ring 5 Belltowers in the GLOOM in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "WellRestedBadge",
+            "name": "Well Rested Badge",
+            "description": "Consume The Early Worm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "JesterBadge",
+            "name": "Jester Badge",
+            "description": "Open 2 Clown Luggage in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "HangGlidingBadge",
+            "name": "Hang Gliding Badge",
+            "description": "Fly 100m with the Glider without touching the ground.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "MedievalHistoryBadge",
+            "name": "Medieval History Badge",
+            "description": "Climb past THE CITADEL without being hit by any traps.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "LastResortBadge",
+            "name": "Last Resort Badge",
+            "description": "Heal over 75% damage at once by using the Ritual Dagger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ExorcistBadge",
+            "name": "Exorcist Badge",
+            "description": "Burn up the Ghost.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ArcheryBadge",
+            "name": "Archery Badge",
+            "description": "Remove 10 arrows from yourself in a single expedition.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "RuleZeroBadge",
+            "name": "Rule Zero Badge",
+            "description": "PEAK's secret-ending achievement. In a single expedition, collect all four Scout Gems across the biomes (Tenacity in SHORE, Initiative in ROOTS, Generosity in ALPINE, Ambition in GLOOM) and carry every one of them, without dropping any, all the way to THE PEAK. Bestow them on the Stone Scout to create Scout's Honor, commune with it, then climb down through NADIR and back up through the hidden gate to THE PEAK. Completing that sequence frees Scoutmaster Myers's soul and unlocks the badge.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        }
+    ]
+}
