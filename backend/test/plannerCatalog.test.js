@@ -393,6 +393,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("heroes-of-hammerwatch"));
     assert.ok(slugs.includes("hammerwatch"));
     assert.ok(slugs.includes("crawl"));
+    assert.ok(slugs.includes("kingdom-new-lands"));
+    assert.ok(slugs.includes("thronefall"));
+    assert.ok(slugs.includes("ratropolis"));
 
 });
 

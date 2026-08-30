@@ -369,6 +369,9 @@ import { GUIDE as brawlhallaAchievementGuide } from "./games/brawlhalla.js";
 import { GUIDE as heroesOfHammerwatchAchievementGuide } from "./games/heroes-of-hammerwatch.js";
 import { GUIDE as hammerwatchAchievementGuide } from "./games/hammerwatch.js";
 import { GUIDE as crawlAchievementGuide } from "./games/crawl.js";
+import { GUIDE as kingdomNewLandsAchievementGuide } from "./games/kingdom-new-lands.js";
+import { GUIDE as thronefallAchievementGuide } from "./games/thronefall.js";
+import { GUIDE as ratropolisAchievementGuide } from "./games/ratropolis.js";
 
 export const APP_GUIDES = [
 
@@ -760,7 +763,10 @@ export const GAME_GUIDES = [
     brawlhallaAchievementGuide,
     heroesOfHammerwatchAchievementGuide,
     hammerwatchAchievementGuide,
-    crawlAchievementGuide
+    crawlAchievementGuide,
+    kingdomNewLandsAchievementGuide,
+    thronefallAchievementGuide,
+    ratropolisAchievementGuide
 
 ];
 
