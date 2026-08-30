@@ -420,6 +420,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("space-engineers"));
     assert.ok(slugs.includes("conan-exiles"));
     assert.ok(slugs.includes("jurassic-world-evolution"));
+    assert.ok(slugs.includes("watch-dogs"));
+    assert.ok(slugs.includes("far-cry-4"));
+    assert.ok(slugs.includes("the-division"));
 
 });
 

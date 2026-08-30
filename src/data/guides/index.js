@@ -396,6 +396,9 @@ import { GUIDE as trineEnchantedEditionAchievementGuide } from "./games/trine-en
 import { GUIDE as spaceEngineersAchievementGuide } from "./games/space-engineers.js";
 import { GUIDE as conanExilesAchievementGuide } from "./games/conan-exiles.js";
 import { GUIDE as jurassicWorldEvolutionAchievementGuide } from "./games/jurassic-world-evolution.js";
+import { GUIDE as watchDogsAchievementGuide } from "./games/watch-dogs.js";
+import { GUIDE as farCry4AchievementGuide } from "./games/far-cry-4.js";
+import { GUIDE as theDivisionAchievementGuide } from "./games/the-division.js";
 
 export const APP_GUIDES = [
 
@@ -814,7 +817,10 @@ export const GAME_GUIDES = [
     trineEnchantedEditionAchievementGuide,
     spaceEngineersAchievementGuide,
     conanExilesAchievementGuide,
-    jurassicWorldEvolutionAchievementGuide
+    jurassicWorldEvolutionAchievementGuide,
+    watchDogsAchievementGuide,
+    farCry4AchievementGuide,
+    theDivisionAchievementGuide
 
 ];
 

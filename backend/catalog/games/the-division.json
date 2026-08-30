@@ -1,0 +1,564 @@
+{
+    "id": 365590,
+    "steamAppId": 365590,
+    "name": "Tom Clancy's The Division",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/365590/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 45,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Looter Shooter",
+        "Third-Person Shooter",
+        "RPG",
+        "Online Co-op",
+        "Open World",
+        "Post-apocalyptic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Division_Ach_1",
+            "name": "Activated",
+            "description": "Get to Manhattan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 2,
+            "apiname": "Division_Ach_2",
+            "name": "Outbreak",
+            "description": "Secure a sample of the original virus strain.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 3,
+            "apiname": "Division_Ach_3",
+            "name": "Can't Stand the Heat!",
+            "description": "Eliminate the leader of the Cleaners and escape the Napalm Production Site.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 4,
+            "apiname": "Division_Ach_4",
+            "name": "Crime and Punishment",
+            "description": "Eliminate the leader of the Rikers gang and her bodyguards in Lexington Event Center.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 5,
+            "apiname": "Division_Ach_5",
+            "name": "I've Got the Power",
+            "description": "Secure the power plant.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 6,
+            "apiname": "Division_Ach_6",
+            "name": "Fly on the Wall ",
+            "description": "Restore the JTF comm relay.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 7,
+            "apiname": "Division_Ach_7",
+            "name": "Last Man Standing",
+            "description": "Eliminate the leader of the Last Man Battalion.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 8,
+            "apiname": "Division_Ach_8",
+            "name": "You Win Some, You Lose Some",
+            "description": "Recover Tchernenko's research data from the Russian Consulate.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 9,
+            "apiname": "Division_Ach_9",
+            "name": "What Needs To Be Done",
+            "description": "Recover Charles Bliss' propaganda tape.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 10,
+            "apiname": "Division_Ach_10",
+            "name": "The Final Curtain",
+            "description": "Uncover the fates of Gordon Amherst and Aaron Keener.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 11,
+            "apiname": "Division_Ach_11",
+            "name": "On the Level",
+            "description": "Reach Level 30 with an Agent.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 12,
+            "apiname": "Division_Ach_12",
+            "name": "Marathon",
+            "description": "Discover ALL of the Safe Houses in Manhattan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 13,
+            "apiname": "Division_Ach_13",
+            "name": "Know No Fear",
+            "description": "Finish all of the missions at Level 30 on the Hard difficulty.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 14,
+            "apiname": "Division_Ach_14",
+            "name": "Hardened Combatant",
+            "description": "Complete a mission in Challenge mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 15,
+            "apiname": "Division_Ach_15",
+            "name": "United We Stand",
+            "description": "At lvl 30 start and complete a Co-op Mission without anyone being Downed or Dying.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 16,
+            "apiname": "Division_Ach_16",
+            "name": "Shadows of the past",
+            "description": "Activate 63 ECHO scenes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 17,
+            "apiname": "Division_Ach_17",
+            "name": "Droning on...",
+            "description": "Extract 16 aerial photos from crashed drones.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 18,
+            "apiname": "Division_Ach_18",
+            "name": "Survivalist",
+            "description": "Recover 24 Survival Guide pages.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 19,
+            "apiname": "Division_Ach_19",
+            "name": "Agent Diaries",
+            "description": "Extract 130 phone recordings from phones found in Manhattan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 20,
+            "apiname": "Division_Ach_20",
+            "name": "The Finder",
+            "description": "Retrieve 20 missing first wave Division agent profiles.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 21,
+            "apiname": "Division_Ach_21",
+            "name": "Incident Reports",
+            "description": "Extract 40 audio incident reports from JTF laptops.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 22,
+            "apiname": "Division_Ach_22",
+            "name": "Gain a Foothold",
+            "description": "Regroup with Faye Lau in the Base of Operations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 23,
+            "apiname": "Division_Ach_23",
+            "name": "The Engineer",
+            "description": "Rescue Paul Rhodes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 24,
+            "apiname": "Division_Ach_24",
+            "name": "The Doctor",
+            "description": "Rescue and extract Dr. Jessica Kandel.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 25,
+            "apiname": "Division_Ach_25",
+            "name": "The Captain",
+            "description": "Rescue Captain Roy Benitez.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 26,
+            "apiname": "Division_Ach_26",
+            "name": "State of the Art",
+            "description": "Fully Upgrade the Base of Operations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 27,
+            "apiname": "Division_Ach_27",
+            "name": "Skillz",
+            "description": "Equip 10 different skill mods.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 28,
+            "apiname": "Division_Ach_28",
+            "name": "Skill Kill",
+            "description": "Finish off 50 enemies using Skills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 29,
+            "apiname": "Division_Ach_29",
+            "name": "The Humanitarian",
+            "description": "Purchase the Canine Unit and Pediatric Care Base of Operations Upgrade.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 30,
+            "apiname": "Division_Ach_30",
+            "name": "Those Signature Moves",
+            "description": "Activate any of the Signature Skills 100 times.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 31,
+            "apiname": "Division_Ach_31",
+            "name": "Natural Talent",
+            "description": "Be attributed with a kill whilst having a talent active.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 32,
+            "apiname": "Division_Ach_32",
+            "name": "One Down, Two to Go!",
+            "description": "Completely upgrade any one wing of the Base of Operations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 33,
+            "apiname": "Division_Ach_33",
+            "name": "Fixer Upper",
+            "description": "Completely upgrade any two wings of the Base of Operations.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 34,
+            "apiname": "Division_Ach_34",
+            "name": "Bling! Bling!",
+            "description": "Equip all Equipment slots with Superior or High end Items.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 35,
+            "apiname": "Division_Ach_35",
+            "name": "Good With My Hands",
+            "description": "Craft 10 items.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 36,
+            "apiname": "Division_Ach_36",
+            "name": "Master Craftsman",
+            "description": "Craft a High end item.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 37,
+            "apiname": "Division_Ach_37",
+            "name": "Deconstructive Criticism",
+            "description": "Deconstruct 100 items.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 38,
+            "apiname": "Division_Ach_38",
+            "name": "Looking for Group",
+            "description": "Join or create a group.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 39,
+            "apiname": "Division_Ach_39",
+            "name": "Medic!",
+            "description": "Revive a team mate 20 times in co-op.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 40,
+            "apiname": "Division_Ach_40",
+            "name": "Lean On Me",
+            "description": "Heal or buff 100 times whilst in a group.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 41,
+            "apiname": "Division_Ach_41",
+            "name": "Networking",
+            "description": "Complete 20 Missions as part of a group.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 42,
+            "apiname": "Division_Ach_42",
+            "name": "Shut that door",
+            "description": "Close a car door whilst in cover.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 43,
+            "apiname": "Division_Ach_43",
+            "name": "Raid the Arsenal",
+            "description": "Kill 1 enemy with each of the 6 Gun classes.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 44,
+            "apiname": "Division_Ach_44",
+            "name": "Worth the Wait",
+            "description": "Successfully Extract a contaminated item from the Dark Zone.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 45,
+            "apiname": "Division_Ach_45",
+            "name": "Mass Extraction",
+            "description": "Extract an item at all 8 Extraction Zones.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 46,
+            "apiname": "Division_Ach_46",
+            "name": "Plundered!",
+            "description": "Extract a Superior or High end Item from the Dark Zone",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 47,
+            "apiname": "Division_Ach_47",
+            "name": "Headhunter",
+            "description": "Kill a named Elite in the Dark Zone.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 48,
+            "apiname": "Division_Ach_48",
+            "name": "You Just Made the List...",
+            "description": "Kill 10 Named Enemies in the Dark Zone.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 49,
+            "apiname": "Division_Ach_49",
+            "name": "For Justice!",
+            "description": "Kill a player who has gone Rogue.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 50,
+            "apiname": "Division_Ach_50",
+            "name": "I am the LAW!",
+            "description": "Kill 20 Rogue Agents.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 51,
+            "apiname": "Division_Ach_51",
+            "name": "Begin with a BANG",
+            "description": "Access the Tactical Operations Centre",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 52,
+            "apiname": "Division_Ach_52",
+            "name": "Objectively Experienced",
+            "description": "Complete each of the 6 different mission objectives in the Underground",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 53,
+            "apiname": "Division_Ach_53",
+            "name": "The Beast Below",
+            "description": "Reach Underground Rank 40",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 54,
+            "apiname": "Division_Ach_54",
+            "name": "Tier One",
+            "description": "In a group of 4 finish an Operation on Challenge with 5 Directives Enabled",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 55,
+            "apiname": "Division_Ach_55",
+            "name": "Gone Spelunking",
+            "description": "Retrieve all 55 Audio Logs and 25 UrbEx Diaries in Underground",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 56,
+            "apiname": "Division_Ach_56",
+            "name": "Born Survivor",
+            "description": "Successfully survive and escape in Survival Mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 57,
+            "apiname": "Division_Ach_57",
+            "name": "Subzero Hero",
+            "description": "Obtain clothing to get a survivable temperature rating of -22°C / -7°F.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 58,
+            "apiname": "Division_Ach_58",
+            "name": "For the Hoarder…",
+            "description": "Successfully extract 100 items from the Survival Dark Zone.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 59,
+            "apiname": "Division_Ach_59",
+            "name": "Tools of the Trade",
+            "description": "Craft the Virus Filter and Flare Gun in Survival mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 50
+        },
+        {
+            "id": 60,
+            "apiname": "Division_Ach_60",
+            "name": "Survival Instincts",
+            "description": "Achieve Master Rank rank in Survival Mode.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        }
+    ]
+}
