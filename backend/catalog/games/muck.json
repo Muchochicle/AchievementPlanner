@@ -1,0 +1,463 @@
+{
+    "id": 1625450,
+    "steamAppId": 1625450,
+    "name": "Muck",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1625450/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Survival",
+        "Roguelike",
+        "Co-op",
+        "Crafting"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Easy Peasy",
+            "name": "Easy Peasy",
+            "description": "Beat the game on easy difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "Learning the ropes",
+            "name": "Learning the ropes",
+            "description": "Beat the game on normal difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "Hardcore gamer",
+            "name": "Hardcore gamer",
+            "description": "Beat the game on gamer difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "A gamer move",
+            "name": "A gamer move",
+            "description": "Beat the game in less than 10 days on Gamer mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "Speedrunner_",
+            "name": "Speedrunner",
+            "description": "Beat the game in less than 8 days",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "What the muck",
+            "name": "What the muck",
+            "description": "Beat the game without any players picking up a powerup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "Set sail_",
+            "name": "Set sail",
+            "description": "Leave Muck",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "Untouchable_",
+            "name": "Untouchable",
+            "description": "Beat the game alone without taking any damage (Normal difficulty or harder)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "Dream Team_",
+            "name": "Dream Team",
+            "description": "Beat the game with 2 players, but no one can take any damage (Normal diff or harder)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "The bois_",
+            "name": "The bois",
+            "description": "Beat the game with 4 players, but no one can take any damage (Normal diff or harder)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "Sweat and tears_",
+            "name": "Sweat and tears",
+            "description": "Beat the game with 8 players, but no one can take any damage (Normal diff or harder)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "Muckinator",
+            "name": "Muckinator",
+            "description": "Kill 100 mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "Muckinator 2",
+            "name": "Muckinator 2",
+            "description": "Kill 1,000 mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "Muckinator 3",
+            "name": "Muckinator 3",
+            "description": "Kill 10,000 mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "Muckinator 4",
+            "name": "Muckinator 4",
+            "description": "Kill 100,000 mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "Underdog",
+            "name": "Underdog",
+            "description": "Kill 250 buff mobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "Bullseye",
+            "name": "Bullseye",
+            "description": "Kill 200 enemies using bows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "That's not very milk of you, sir",
+            "name": "That's not very milk of you, sir",
+            "description": "Kill 250 cows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "David vs Goliath",
+            "name": "David vs Goliath",
+            "description": "Defeat big chunk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "Gronk",
+            "name": "Gronk",
+            "description": "Defeat Gronk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "Guardian",
+            "name": "Guardian",
+            "description": "Defeat Guardian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "Fearless_",
+            "name": "Fearless",
+            "description": "Slay all bosses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "Death Wish",
+            "name": "Death Wish",
+            "description": "Start 200 battle totems",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "Goblin Slayer",
+            "name": "Goblin Slayer",
+            "description": "Slay 1000 goblins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "Big Mistake",
+            "name": "Big Mistake",
+            "description": "Play Muck for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "Pain and suffering",
+            "name": "Pain and suffering",
+            "description": "Die 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "This is fine",
+            "name": "This is fine",
+            "description": "Die 25 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "Muck off",
+            "name": "Muck off",
+            "description": "Die 50 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "Muck this game",
+            "name": "Muck this game",
+            "description": "Die 100 Times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "You're not a fish",
+            "name": "You're not a fish",
+            "description": "Drown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "Treasure Hunter",
+            "name": "Treasure Hunter",
+            "description": "Open 500 chests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "Architect",
+            "name": "Architect",
+            "description": "Build 250 builds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "Illegal work",
+            "name": "Illegal work",
+            "description": "Craft 1,000 coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "Go outside",
+            "name": "Go outside",
+            "description": "Survive for 100 days",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "The Black Swordsman_",
+            "name": "The Black Swordsman",
+            "description": "Wield the Night Blade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "Milkman_",
+            "name": "Milkman",
+            "description": "Pick up 10 Milk powerups in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "You're a fish",
+            "name": "You're a fish",
+            "description": "Swim 25km",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "Team player",
+            "name": "Team player",
+            "description": "Revive a teammate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "The red plumber man lied",
+            "name": "The red plumber man lied",
+            "description": "Eat 50 red shrooms without growing bigger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "Salty",
+            "name": "Salty",
+            "description": "Kill a friend on Survival Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "Leg day",
+            "name": "Leg day",
+            "description": "Walk 250km",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "I am Inevitable",
+            "name": "I am Inevitable",
+            "description": "Collect all 5 gems",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "Phoon",
+            "name": "Phoon",
+            "description": "Jump 10,000 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "Oh you don't know what Karlson is?",
+            "name": "Oh you don't know what Karlson is?",
+            "description": "Find Billy, a small robot with a \":)\" drawn on its TV-shaped head, hidden somewhere on the map, and press E while looking at him. Billy is a nod to the indie FPS prototype Karlson by the same developer community. On seed 931098003, walk south from spawn and check the ground on the minimap; on any other seed, turning off \"Show Grass\" in the Graphics settings makes him much easier to spot.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "Caveman_",
+            "name": "Caveman",
+            "description": "Beat the game using only a rock as your weapon / tool. This goes for all players.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "Muck_",
+            "name": "Muck",
+            "description": "Beat the game using only a rock, taking no damage and using no powerups. This goes for all players in lobby. (Normal or harder)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "Chief",
+            "name": "Chief",
+            "description": "Defeat Chief",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ChiefChest",
+            "name": "Irresistible",
+            "description": "Open Chiefs chest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "PublicEnemy",
+            "name": "Public Enemy",
+            "description": "Kill 100 Woodmen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

@@ -255,6 +255,9 @@ import { GUIDE as chivalryMedievalWarfareAchievementGuide } from "./games/chival
 import { GUIDE as warframeAchievementGuide } from "./games/warframe.js";
 import { GUIDE as monsterTrainAchievementGuide } from "./games/monster-train.js";
 import { GUIDE as wildfrostAchievementGuide } from "./games/wildfrost.js";
+import { GUIDE as killingFloor2AchievementGuide } from "./games/killing-floor-2.js";
+import { GUIDE as riskOfRainAchievementGuide } from "./games/risk-of-rain.js";
+import { GUIDE as muckAchievementGuide } from "./games/muck.js";
 
 export const APP_GUIDES = [
 
@@ -532,7 +535,10 @@ export const GAME_GUIDES = [
     chivalryMedievalWarfareAchievementGuide,
     warframeAchievementGuide,
     monsterTrainAchievementGuide,
-    wildfrostAchievementGuide
+    wildfrostAchievementGuide,
+    killingFloor2AchievementGuide,
+    riskOfRainAchievementGuide,
+    muckAchievementGuide
 
 ];
 

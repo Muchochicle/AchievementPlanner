@@ -279,6 +279,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("warframe"));
     assert.ok(slugs.includes("monster-train"));
     assert.ok(slugs.includes("wildfrost"));
+    assert.ok(slugs.includes("killing-floor-2"));
+    assert.ok(slugs.includes("risk-of-rain"));
+    assert.ok(slugs.includes("muck"));
 
 });
 
