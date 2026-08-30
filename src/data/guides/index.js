@@ -279,6 +279,9 @@ import { GUIDE as worldOfGooAchievementGuide } from "./games/world-of-goo.js";
 import { GUIDE as humanResourceMachineAchievementGuide } from "./games/human-resource-machine.js";
 import { GUIDE as sevenBillionHumansAchievementGuide } from "./games/7-billion-humans.js";
 import { GUIDE as besiegeAchievementGuide } from "./games/besiege.js";
+import { GUIDE as craftTheWorldAchievementGuide } from "./games/craft-the-world.js";
+import { GUIDE as automationEmpireAchievementGuide } from "./games/automation-empire.js";
+import { GUIDE as wobblyLifeAchievementGuide } from "./games/wobbly-life.js";
 
 export const APP_GUIDES = [
 
@@ -580,7 +583,10 @@ export const GAME_GUIDES = [
     worldOfGooAchievementGuide,
     humanResourceMachineAchievementGuide,
     sevenBillionHumansAchievementGuide,
-    besiegeAchievementGuide
+    besiegeAchievementGuide,
+    craftTheWorldAchievementGuide,
+    automationEmpireAchievementGuide,
+    wobblyLifeAchievementGuide
 
 ];
 

@@ -1,0 +1,634 @@
+{
+    "id": 1211020,
+    "steamAppId": 1211020,
+    "name": "Wobbly Life",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1211020/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Sandbox",
+        "Open World",
+        "Co-op",
+        "Ragdoll"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "COMPLETE_JOB_JELLY",
+            "name": "A Wobbly Start",
+            "description": "Complete Jelly Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "COMPLETE_JOB_PIZZA",
+            "name": "A Speedy Slice",
+            "description": "Complete Pizza Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "COMPLETE_JOB_BURGER",
+            "name": "Flipping The Perfect Burger",
+            "description": "Complete Burger Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "COMPLETE_JOB_POWER_PLANT",
+            "name": "Monster Manager",
+            "description": "Complete Power Plant Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "COMPLETE_JOB_EMERGENCY",
+            "name": "Speedy Nee-Naw",
+            "description": "Complete Emergency Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "COMPLETE_JOB_NEWROUND",
+            "name": "Rapid Delivery To Your Door",
+            "description": "Complete Newspaper Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "COMPLETE_JOB_FURNITURE",
+            "name": "Creative Courier",
+            "description": "Complete Furniture Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "COMPLETE_RACE_KART",
+            "name": "Putting The Pedal To The Metal",
+            "description": "Complete a Kart Race",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "COMPLETE_RACE_PLANE",
+            "name": "Taking To The Skies!",
+            "description": "Complete a Plane Race",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "COMPLETE_RACE_BOAT",
+            "name": "Making Waves",
+            "description": "Complete a Boat Race",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "COMPLETE_JOB_PIZZA_UFO",
+            "name": "A Supernatural Delivery",
+            "description": "Deliver Pizza to the UFO",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "COMPLETE_JOB_GARBAGE",
+            "name": "Cleaning Up The Island",
+            "description": "Complete Garbage Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "COMPLETE_TEMPLE_PUZZLE",
+            "name": "Awesome Archaeologist",
+            "description": "Complete the Temple",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "BUY_FIRST_HOUSE",
+            "name": "Making Grandma Proud",
+            "description": "Buy your first house",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "HAVE_1000_IN_THE_BANK",
+            "name": "Look At Me Grandma!",
+            "description": "Have $1000 in the bank",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "HAVE_5000_IN_THE_BANK",
+            "name": "High Roller",
+            "description": "Have $5000 in the bank",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "HAVE_10000_IN_THE_BANK",
+            "name": "There's A Big Spender In Wobbly Town",
+            "description": "Have $10000 in the bank",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "COLLECT_ALL_PRESENTS_ON_WOBBLY_ISLAND",
+            "name": "Explorer Extraordinaire",
+            "description": "Collect all presents on Wobbly Island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "FEED_MONSTER_25_TOXIC_BARRELS",
+            "name": "Powering The Whole Island",
+            "description": "Feed the Monster 25 toxic barrels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "FEED_MONSTER_50_TOXIC_BARRELS",
+            "name": "Feeding Frenzy",
+            "description": "Feed the Monster 50 toxic barrels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "COMPLETE_JOB_FARM_PLOW",
+            "name": "Plowing Ahead",
+            "description": "Complete Plowing Farm Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "COMPLETE_JOB_FARM_SEED",
+            "name": "Growing Your Own",
+            "description": "Complete Seeding Farm Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "COMPLETE_JOB_FARM_HARVEST",
+            "name": "Cream Of The Crop",
+            "description": "Complete Harvest Farm Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "PROCESS_URANIUM_IN_MINE_MACHINE",
+            "name": "Mining The Glowy Green Ore",
+            "description": "Deposit Uranium into the Mining Machine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "BUY_FIRST_PET",
+            "name": "Your New Best Friend",
+            "description": "Purchasing First Pet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "UNLOCK_GHOST_PET",
+            "name": "A Deep Spooky Wobbly Secret",
+            "description": "Unlock the Ghost Pet, a rare hidden pet found through the game's spookier side content.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "CHOOSE_WISELY",
+            "name": "Helping The Wobbly That Time Forgot",
+            "description": "Make the \"Choose Wisely\" decision at a specific story NPC encounter - the achievement is the reward for helping a Wobbly who has been forgotten by time.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "COMPLETE_JOB_QUIZ_MASTER",
+            "name": "What A Clever Wobbly",
+            "description": "Win the Wonderful Wobbly Quiz",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "COMPLETE_JOB_FIRE_FIGHTER",
+            "name": "You're My Wobbly Hero",
+            "description": "Complete Fire Fighter Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "COMPLETE_JOB_WOOD_CUTTER",
+            "name": "Lumber Legend",
+            "description": "Complete Woodcutter job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "COMPLETE_JOB_SCIENCE_MACHINE",
+            "name": "Formula Frenzy",
+            "description": "Complete Science Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "COMPLETE_BUILD_UFO_MISSION",
+            "name": "A Tiny Adventure",
+            "description": "Complete the UFO storyline mission - build and finish the UFO to trigger this main-storyline secret achievement.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "COMPLETE_FIRST_MUSEUM_COLLECTION",
+            "name": "Recovering The Past",
+            "description": "Complete your first Museum collection",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "COMPLETE_JOB_TAXI",
+            "name": "Frantic Fares",
+            "description": "Complete Taxi Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "COMPLETE_JOB_ICE_CREAM",
+            "name": "A Sweet Day At Work",
+            "description": "Complete Ice Cream Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "COMPLETE_ANCIENT_TRIALS",
+            "name": "Trivializing The Trials",
+            "description": "Complete the Ancient Wobbly Trials, a multi-stage trial sequence hidden on the island.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "COMPLETE_JOB_DISCO",
+            "name": "Dazzling On The Dance Floor",
+            "description": "Complete Disco Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "COMPLETE_JOB_FISHING",
+            "name": "Relentless Reeler",
+            "description": "Complete Fishing Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "COLLECT_ALL_FISH_ON_WOBBLY_ISLAND",
+            "name": "Marine Master",
+            "description": "Collect every fish in Wobbly Island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "COMPLETE_JELLY_CAR_MISSION",
+            "name": "A Jelly Fueled Journey",
+            "description": "Complete the Jelly Car mission - a dedicated vehicle-based side mission themed around the Jelly Job.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "COMPLETE_JOB_CONSTRUCTION_RESOURCES",
+            "name": "The Rapid Recycler",
+            "description": "Complete the Recycling Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "COMPLETE_JOB_CONSTRUCTION_BUILDING",
+            "name": "One Happy Hammerer",
+            "description": "Complete the Construction Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "COMPLETE_JOB_CONSTRUCTION_DESTRUCTION",
+            "name": "A Daring Demolition",
+            "description": "Complete the Demolition Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "COMPLETE_JOB_WEATHER",
+            "name": "The Balloon Buster",
+            "description": "Complete the Weather Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "COMPLETE_JOB_ARTSTUDIO",
+            "name": "My Best Work",
+            "description": "Complete the Art Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "COMPLETE_MISSION_DREAM",
+            "name": "One Big Sleep",
+            "description": "Wake the Sleep King during the game's dream-themed story mission.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "COMPLETE_MISSION_WEATHERMACHINE",
+            "name": "Into The Storm",
+            "description": "Fix the Weather Machine",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "COMPLETE_MISSION_SEWER",
+            "name": "Drain Diver",
+            "description": "Return the Sewer Queens crown",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "COMPLETE_MISSION_LOSTMAP",
+            "name": "Piecing It All Together",
+            "description": "Find the Bard's Treasure by following the Lost Map mission's clues.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "COMPLETE_MUSEUM_WOBBLYISLAND",
+            "name": "Committed Collector",
+            "description": "Complete the Museum",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "SPACE_COMPLETE_JOB_ASTEROIDDEFENCE",
+            "name": "Proud Protector",
+            "description": "Complete Asteroid Defence Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "SPACE_COMPLETE_JOB_ASTEROIDMINING",
+            "name": "Space Mine Specialist",
+            "description": "Complete Asteroid Mining Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "SPACE_COMPLETE_JOB_DISCO",
+            "name": "Throwing Space Shapes",
+            "description": "Complete Space Disco Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "SPACE_COMPLETE_JOB_SHIPCOURIER",
+            "name": "No Delivery Too Far",
+            "description": "Complete Space Courier Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "SPACE_COMPLETE_JOB_DINER",
+            "name": "Wonderous Waiter",
+            "description": "Complete Space Diner Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "SPACE_COMPLETE_JOB_SPACEMECHANIC",
+            "name": "Wrench Wizard",
+            "description": "Complete Spaceship Mechanic Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "SPACE_COMPLETE_JOB_SHIPRACE",
+            "name": "Rapid Rockets",
+            "description": "Complete a Spaceship Race",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "SPACE_COMPLETE_JOB_SHIPRESCUE",
+            "name": "Spaceship Saviour",
+            "description": "Complete Spaceship Rescue Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "SPACE_COMPLETE_JOB_SUITCASEDELIVERY",
+            "name": "Luggage Lifter",
+            "description": "Complete Suitcase Delivery Job",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "GO_TO_SPACE",
+            "name": "A New Frontier",
+            "description": "Go To Space",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "COMPLETE_MUSEUM_SPACE",
+            "name": "Cosmic Collector",
+            "description": "Complete The Collector's Emporium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "COMPLETE_CAPTAIN_SERIES",
+            "name": "Creative Cadet",
+            "description": "Complete the Space Cadet Mission Series",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "COMPLETE_GARDEN_SERIES",
+            "name": "Super Student",
+            "description": "Complete the Space Garden Classes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "COMPLETE_DETECTIVE_SERIES",
+            "name": "Uncovering The Clues",
+            "description": "Complete the Space Detective Missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "COLLECT_ALL_PRESENTS_IN_SPACE",
+            "name": "Galactic Gift Finder",
+            "description": "Collect all the presents in Space",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "SPACE_BEAT_VOID_BOSS",
+            "name": "Well That Was Weird",
+            "description": "In the Space DLC, defeat the Space Crystal - the void boss encountered at the far end of the space content.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "SPACE_HAVE_5000_IN_THE_BANK",
+            "name": "Hey Gran, I'm Space Rich!",
+            "description": "Have 5000 Space Credits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "COMPLETE_MISSION_ROBOTFACTORY",
+            "name": "Stealthy Sneaker",
+            "description": "Disable the Robot Factory's alarm during its stealth-focused mission.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        }
+    ]
+}

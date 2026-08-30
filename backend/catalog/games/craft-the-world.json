@@ -1,0 +1,868 @@
+{
+    "id": 248390,
+    "steamAppId": 248390,
+    "name": "Craft The World",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/248390/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Sandbox",
+        "Dwarf Fantasy",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_KILL_GOBLINS",
+            "name": "Goblinator",
+            "description": "Kill 10 Goblins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_COLLECT_999_RESOURCES",
+            "name": "Collector",
+            "description": "Collect 999 resources",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_COLLECT_100_BONES",
+            "name": "Get your own skeleton in the cupboard",
+            "description": "Collect 100 bones",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_MONSTERS_WAVE",
+            "name": "Survival",
+            "description": "Survive in monsters wave",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FIRST_CRAFT",
+            "name": "Long way begin",
+            "description": "Craft 1st item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_COLLECT_100_BRAINS",
+            "name": "Bra-a-a-ins!",
+            "description": "Collect 100 zombie's brains",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CAST_IMPS",
+            "name": "Flying assistants",
+            "description": "Cast imps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_CHIKEN_CHASER",
+            "name": "Chicken exterminator",
+            "description": "Kill 10 chickens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_FINISH_FIRST_LEVEL",
+            "name": "Land holder",
+            "description": "Complete 1st level of campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_OPEN_ALL_BEASTIARY",
+            "name": "Naturalist",
+            "description": "Study more than 50 creatures",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_OCTOBERFEST",
+            "name": "Oktoberfest",
+            "description": "Give beer to all dwarves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_CASTLE",
+            "name": "Palace",
+            "description": "Build shelter with 100% comfort",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_DWARF_KILLS",
+            "name": "Even alone is a warrior!",
+            "description": "One dwarf killed 100 foes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_ALL_SKILLS",
+            "name": "Foreman",
+            "description": "Improve all dwarf's skills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_MEGA_CRAFTER",
+            "name": "Megacrafter",
+            "description": "Craft 200 items at a time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_ARCHERS_KILLS",
+            "name": "Who needs elves!",
+            "description": "Archers killed 100 foes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_PEDESTRIAN",
+            "name": "Sinbad the pedestrian",
+            "description": "One dwarf passed 1000 blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_DWARF_GOLD",
+            "name": "True dwarf!",
+            "description": "Collect 200 gold ore",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_MORE_SLUGS",
+            "name": "More snails!",
+            "description": "Convert 50 monsters into snails",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_SKELETON_BOSS_KILL",
+            "name": "The worst that could happen",
+            "description": "Kill 10 giant skeletons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_I_FARAON",
+            "name": "I am a pharaoh",
+            "description": "Build shelter inside a pyramid",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_FINISH_SECOND_LEVEL",
+            "name": "Winter master",
+            "description": "Complete 2nd level of campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_MEGAKILL_GOBLINS",
+            "name": "Total annihilation",
+            "description": "Kill 50 Goblins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_HARDCORE_GAME",
+            "name": "Hardcore man",
+            "description": "Reach 12 level in hardcore mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_RAILWAYMAN",
+            "name": "Railwayman",
+            "description": "Build a railway 100 blocks long",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_TOMB_RAIDER",
+            "name": "Tomb rider",
+            "description": "Break the pyramid's sarcophagi",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_HEAD_OF_CLAN",
+            "name": "Underground king",
+            "description": "Reach 14 level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_IMMORTAL",
+            "name": "Invulnerable",
+            "description": "All dwarves should survive at a level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_MULTIKILLER",
+            "name": "Blood lust",
+            "description": "Kill 10 monsters in 2 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_TOTAL_CRAFT",
+            "name": "Total crafter",
+            "description": "Craft all tech tree recipes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_LONG_PLAYING",
+            "name": "Long-playing",
+            "description": "Above 100 hours in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_DWARF_KILLED_BY_MITE",
+            "name": "Bad day",
+            "description": "Giant mite killed a dwarf",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_PERSISTENCE",
+            "name": "Persistence",
+            "description": "Break 10 pyramid's blocks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_FINISH_THIRD_LEVEL",
+            "name": "Sand master",
+            "description": "Complete 3rd level of campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_GIANT_WORM_KILER",
+            "name": "Worm hunter",
+            "description": "Kill giant worm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_DEMOLITION_MAN",
+            "name": "Sapper",
+            "description": "Use Magic Explosion spell 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_GOURMET",
+            "name": "Gourmet",
+            "description": "Cook all dishes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_MANUFACTURER",
+            "name": "Manufacturer",
+            "description": "Build 10 machine-tools for items crafting at one level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_BIBLIOPHILE",
+            "name": "Bookworm",
+            "description": "Read 100 books",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_GODS_PENALTY",
+            "name": "God Hand",
+            "description": "Kill 100 monsters with your spells",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_DISINSECTOR",
+            "name": "Disinsector",
+            "description": "Destroy 10 nests of giant ants at one level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_MINER_MASTER",
+            "name": "Professional Miner",
+            "description": "Extract all minerals at one level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_ARMAGEDDON",
+            "name": "Armageddon",
+            "description": "Reach for 5 simultaneously open monsters portals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_SHOPING",
+            "name": "Shopping",
+            "description": "Spend 200 gold coins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_DUNGEON_KEEPER",
+            "name": "Dungeon Keeper",
+            "description": "Complete 4th level of campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_SLIDERS",
+            "name": "Sliders",
+            "description": "Travel to any biome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_REVIVER",
+            "name": "Reviver",
+            "description": "Revive a dwarf from soul keeper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_LIBERATOR",
+            "name": "Liberator",
+            "description": "Free 20 yetis from captivity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_MULTIDWARF",
+            "name": "Multidwarf",
+            "description": "Play 10 multiplayer battles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_GREAT_CONQUEROR",
+            "name": "Get strong together",
+            "description": "Win 10 cooperative multiplayer battles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_ALPHA_DWARF",
+            "name": "Alpha Dwarf",
+            "description": "Win 20 PvP multiplayer battles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_OVERBOOST",
+            "name": "Overboost",
+            "description": "Grab at least a half boost rooms at the biome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_GREAT_EXPLORER",
+            "name": "Great Explorer",
+            "description": "Win 50 battles at biomes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_THIEF",
+            "name": "Thief",
+            "description": "Steal at least 100 items during 1 battle at the biome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_MERCENATIES_EXPLOITER",
+            "name": "Mercenaries exploiter",
+            "description": "Use at least 50 mercenaries during 1 battle at the biome",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_BURST_OF_GREED",
+            "name": "Burst of greed",
+            "description": "Bring back from biome at least 1000 resources",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_WORLD_CREATOR",
+            "name": "Creator of the public world",
+            "description": "Create multiplayer server",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_WORLD_KEEPER",
+            "name": "World Keeper",
+            "description": "Keep server online during 3 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_GREAT_WORLD_KEEPER",
+            "name": "Great World Keeper",
+            "description": "Keep server online during 12 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_GIFTED_RESEARCHER",
+            "name": "Military Researcher",
+            "description": "Open all technologies during one session in survival mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_GNOME_KHIRD",
+            "name": "Hird of Dwarves",
+            "description": "Level up one of the battle skills for 5 dwarves to maximum in multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_BUILDERS",
+            "name": "Free Builders",
+            "description": "Play 5 hours in Creative mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_OVERPOPULATION",
+            "name": "Overpopulation",
+            "description": "Create server with maximum number of active players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_DONATOR",
+            "name": "Supplier",
+            "description": "Share resources with other players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_GREAT_DONATOR",
+            "name": "Major Supplier",
+            "description": "Share 1000 resources with other players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_YOU_WERE_DIGESTED",
+            "name": "You've been digested!",
+            "description": "Your dwarf have died inside the Crookshanks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "AHC_KILL_BANSHEE",
+            "name": "Don't even try to shout!",
+            "description": "Kill 10 banshee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_COMPLETE_ROUT",
+            "name": "Epic defeat!",
+            "description": "Lost multiplayer battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_ENGINEER",
+            "name": "Dwarfgineer",
+            "description": "Build up portal at your own server",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_GREAT_ENGINEER",
+            "name": "Military Engineer",
+            "description": "Build up portal at your own server at high level of difficulty ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_CHIEF_COLLECTOR",
+            "name": "Collector",
+            "description": "Collect maximum amount of resources for multiplayer victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_CHIEF_DEFENDER",
+            "name": "Major Defender",
+            "description": "Inflict maximum amount of damage to monsters for victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_FORTRESS_KEEPER",
+            "name": "Fortress Defender",
+            "description": "Help to defend dwarves’ shelter during 3 hours in multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_GREAT_FORTRESS_KEEPER",
+            "name": "Castle Defender",
+            "description": "Help to defend dwarves’ shelter during 12 hours in multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_PERFECTION",
+            "name": "Blameless",
+            "description": "Avoid of damage main stockpile during multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_SOMETHING_FROM_DEPTHS",
+            "name": "Monster from the Depths",
+            "description": "Defeat the Kraken in The Land of Dangerous Caves.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_RIDDLE_SPHINX",
+            "name": "The Sphinx’s Riddle",
+            "description": "Defeat the Sphinx in the Land of Dry Winds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_TWO_HEADS",
+            "name": "Two heads are better than none!",
+            "description": "Defeat the captain of the ghost ship.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_DEFEAT_BEAST_INSIDE",
+            "name": "Defeat the animal within yourself",
+            "description": "Heal a dwarf from the lycanthropy curse.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_GOBLIN_WYVERN",
+            "name": "No one will help the green-skins!",
+            "description": "Defeat the Goblin Chief from the back of a wyvern.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_CAN_DIG_CAN_FLY",
+            "name": "Those born to dig can also fly",
+            "description": "Raise a riding wyvern and equip a dwarf with it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_DESTRUCTION_ALIEN_BASE",
+            "name": "The War of the Worlds",
+            "description": "Destroy the alien base.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_DESTRUCTION_SHUTTLE",
+            "name": "UFO",
+            "description": "Destroy the alien shuttle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_FINISH_LONELY_MOUNTAIN",
+            "name": "Lonely Loner",
+            "description": "Complete the world of Lonely Mountain.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_FINISH_EVIL_HEART",
+            "name": "Right to the Heart!",
+            "description": "Complete the world of Heart of Evil.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_FINISH_WONDERWOOD",
+            "name": "Out of the Woods!",
+            "description": "Complete the world of Wonderwood.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_MOUNTAIN_GUARDIAN",
+            "name": "Guardian of the Mountain",
+            "description": "Equip the dwarf in the full Guardian of the Mountain set.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_LORD_RING",
+            "name": "Lord of the Rings",
+            "description": "Forge the Great Ring.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_WARRIOR_FUTURE",
+            "name": "Warrior of the Future",
+            "description": "Equip the gnome with a full set of alien armor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_REPAIR_SECRET_ITEM",
+            "name": "Made It!",
+            "description": "Restore a broken item.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_GALAXIAN",
+            "name": "Galaxian",
+            "description": "Destroy 10 alien bases.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_GNATS_PUMPER",
+            "name": "Nasty Things",
+            "description": "Destroy 25 clouds of midges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_MY_NAME_LEGION",
+            "name": "Their Name is Legion!",
+            "description": "Kill 50 dark elves.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_FOREST_FORCE",
+            "name": "The Power of the Forest",
+            "description": "Equip the dwarf with a full set of elven wood armor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
