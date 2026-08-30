@@ -312,6 +312,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("wingspan"));
     assert.ok(slugs.includes("sunless-sea"));
     assert.ok(slugs.includes("everspace-2"));
+    assert.ok(slugs.includes("wizard-of-legend"));
+    assert.ok(slugs.includes("rivals-of-aether"));
+    assert.ok(slugs.includes("slime-rancher-2"));
 
 });
 

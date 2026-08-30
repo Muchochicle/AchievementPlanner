@@ -288,6 +288,9 @@ import { GUIDE as colonySurvivalAchievementGuide } from "./games/colony-survival
 import { GUIDE as wingspanAchievementGuide } from "./games/wingspan.js";
 import { GUIDE as sunlessSeaAchievementGuide } from "./games/sunless-sea.js";
 import { GUIDE as everspace2AchievementGuide } from "./games/everspace-2.js";
+import { GUIDE as wizardOfLegendAchievementGuide } from "./games/wizard-of-legend.js";
+import { GUIDE as rivalsOfAetherAchievementGuide } from "./games/rivals-of-aether.js";
+import { GUIDE as slimeRancher2AchievementGuide } from "./games/slime-rancher-2.js";
 
 export const APP_GUIDES = [
 
@@ -598,7 +601,10 @@ export const GAME_GUIDES = [
     colonySurvivalAchievementGuide,
     wingspanAchievementGuide,
     sunlessSeaAchievementGuide,
-    everspace2AchievementGuide
+    everspace2AchievementGuide,
+    wizardOfLegendAchievementGuide,
+    rivalsOfAetherAchievementGuide,
+    slimeRancher2AchievementGuide
 
 ];
 
