@@ -285,6 +285,9 @@ import { GUIDE as wobblyLifeAchievementGuide } from "./games/wobbly-life.js";
 import { GUIDE as badNorthAchievementGuide } from "./games/bad-north.js";
 import { GUIDE as autonautsAchievementGuide } from "./games/autonauts.js";
 import { GUIDE as colonySurvivalAchievementGuide } from "./games/colony-survival.js";
+import { GUIDE as wingspanAchievementGuide } from "./games/wingspan.js";
+import { GUIDE as sunlessSeaAchievementGuide } from "./games/sunless-sea.js";
+import { GUIDE as everspace2AchievementGuide } from "./games/everspace-2.js";
 
 export const APP_GUIDES = [
 
@@ -592,7 +595,10 @@ export const GAME_GUIDES = [
     wobblyLifeAchievementGuide,
     badNorthAchievementGuide,
     autonautsAchievementGuide,
-    colonySurvivalAchievementGuide
+    colonySurvivalAchievementGuide,
+    wingspanAchievementGuide,
+    sunlessSeaAchievementGuide,
+    everspace2AchievementGuide
 
 ];
 

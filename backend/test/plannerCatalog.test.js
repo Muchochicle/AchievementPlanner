@@ -309,6 +309,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("bad-north"));
     assert.ok(slugs.includes("autonauts"));
     assert.ok(slugs.includes("colony-survival"));
+    assert.ok(slugs.includes("wingspan"));
+    assert.ok(slugs.includes("sunless-sea"));
+    assert.ok(slugs.includes("everspace-2"));
 
 });
 

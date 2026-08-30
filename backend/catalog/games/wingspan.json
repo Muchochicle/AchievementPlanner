@@ -1,0 +1,598 @@
+{
+    "id": 1054490,
+    "steamAppId": 1054490,
+    "name": "Wingspan",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1054490/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Board Game",
+        "Strategy",
+        "Card Game",
+        "Digital Adaptation"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Better_Luck_Nest_Time",
+            "name": "Better Luck Nest Time",
+            "description": "Score at least 80 points in a game when one of your opponents has a raven in the same habitat as a Franklin's Gull or Killdeer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ILL_EAGLE",
+            "name": "ILL EAGLE",
+            "description": "Succeed in 10 or more predator hunts in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "What_the_flock",
+            "name": "What the Flock",
+            "description": "Have more than 25 cards tucked under one bird in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "Beak_Performance",
+            "name": "Beak Performance",
+            "description": "Score 120 points or more in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "A_real_know_it_owl",
+            "name": "A Real Know-it-owl",
+            "description": "Unlock all birds in the bird atlas. (By playing each of them at least once)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "Fully_fledged",
+            "name": "Fully Fledged",
+            "description": "Play 15 birds in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "Attempted_murder",
+            "name": "Attempted Murder",
+            "description": "Play 3 ravens and/or crows in the same habitat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "This_present_caw_st_a_fortune",
+            "name": "This Present Caw-st a Fortune",
+            "description": "Have at least 60 points worth of birds at the end of one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "Toucan_of_my_appreciation",
+            "name": "Toucan of My Appreciation",
+            "description": "Give other players food tokens on at least 5 turns in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "Investing_in_the_stork_market",
+            "name": "Investing in the Stork Market",
+            "description": "Score points with the Fishery Manager and Wetland Scientist cards in the same game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "A_birds_best_subject_Owl_jay_bra",
+            "name": "A Bird’s Best Subject? Owl-jay-bra",
+            "description": "Have more than 30 points worth of bonus points in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "Heres_my_number_so_caw_me_maybe",
+            "name": "Here's My Number, so Caw Me Maybe",
+            "description": "Play one bird of each point value (0-9) in a game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "Clutch_Performance",
+            "name": "Clutch Performance",
+            "description": "Win a game with at least 35 eggs in your preserve.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "Free_for_owl",
+            "name": "Free-for-owl",
+            "description": "Win a 5-player match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "Owl_of_a_sudden",
+            "name": "Owl of a Sudden",
+            "description": "Play three or more birds in a single turn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "Wild_goose_chase",
+            "name": "Wild Goose Chase",
+            "description": "Score at least 16 points from the Omnivore bonus card.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "Egg_streme_measures",
+            "name": "Egg-streme Measures",
+            "description": "Have all eggs slots filled at the end of the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "Early_Bird_Gets_the_Worm",
+            "name": "Early Bird Gets the Worm",
+            "description": "Be the first player to play a bird that eats worms.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "Money_for_nothin_and_chicks_for_free",
+            "name": "Money for Nothin' and Chicks for Free",
+            "description": "Lay at least 10 eggs using pink powers in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "Pheasant_diversion",
+            "name": "Pheasant Diversion",
+            "description": "Win against the Automa on Hard difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "Wake_me_up_before_you_dodo",
+            "name": "Wake Me up Before You Dodo",
+            "description": "Play 5 bonus card birds in the same game. (Birds whose powers grant bonus cards are generally threatened/vulnerable/endangered species, or at least have a subspecies that is.)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "Fly_Like_an_Eagle",
+            "name": "Fly Like an Eagle",
+            "description": "Play 5 predators in a game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "By_the_pricking_of_my_thumbs_something_winged_this_way_comes",
+            "name": "By the Pricking of My Thumbs, Something Winged This Way Comes",
+            "description": "Finish your first game of Wingspan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "Birds_of_a_Feather",
+            "name": "Birds of a Feather",
+            "description": "Play 3 birds worth 5 or more VPs in the same habitat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "Fair_feather_Friends",
+            "name": "Fair-feather Friends",
+            "description": "Move a bird between habitats five times in a game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "Build_Two_Birds_with_One_Stone",
+            "name": "Build Two Birds with One Stone",
+            "description": "Play two birds in one turn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "A_Bird_in_the_Hand",
+            "name": "A Bird in the Hand",
+            "description": "Have one bird in your hand and two in your forest at the end of your turn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "Bird_brained",
+            "name": "Bird Brained",
+            "description": "Win a game against the AI.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "Once_bittern_twice_shy",
+            "name": "Once Bittern, Twice Shy",
+            "description": "Win a game with a score of at least 90 points with no more than 1 bird in your Wetland.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "Quacking_under_pressure",
+            "name": "Quacking under Pressure",
+            "description": "Finish a game having a lower point total than during the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "The_Eagle_Has_Landed",
+            "name": "The Eagle Has Landed",
+            "description": "Finish the Tutorial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "Passenger_58",
+            "name": "Passenger 57",
+            "description": "Play 16 birds in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "Eggs_istential_crisis",
+            "name": "Eggs-istential crisis",
+            "description": "End the game with 0 eggs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "Real_Know_it_owl_Europe",
+            "name": "A Real Know-it-owl: Europe",
+            "description": "Play at least once all the new birds of the Wingspan: European Expansion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "Birdnado",
+            "name": "Birdnado",
+            "description": "Score over 180 points in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "Doomsday_Prepper",
+            "name": "Doomsday Prepper",
+            "description": "Cache 15 food on birds using only the predator powers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "European_Union",
+            "name": "European Union",
+            "description": "Have five European birds in one habitat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "Full_Tuck",
+            "name": "Full Tuck!",
+            "description": "Get at least a 70 of tucked cards in your final score.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "Rat_Bird",
+            "name": "Rat Bird",
+            "description": "Use three cards to pay for bird rather than rats and tuck all three.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "Robin_Crow",
+            "name": "Robin Crow",
+            "description": "Steal 10 food from your opponents' supplies in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "Theres_always_bigger_bird",
+            "name": "There's always a bigger bird!",
+            "description": "Play a bird on top of another bird whose wingspan is larger than the previous one. ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "Wait_one_more_thing",
+            "name": "Wait, one more thing!",
+            "description": "Trigger three or more end of round powers in one round.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "Nectar_of_Life",
+            "name": "Nectar of Life",
+            "description": "Win 1st place in all 3 habitats when scoring points for nectar spent.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "Nectar_Jackpot",
+            "name": "Nectar Jackpot",
+            "description": "End the game with EXACTLY seven nectar spent in each habitat (777).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "All_Birds_Aligned",
+            "name": "All Birds, Aligned!",
+            "description": "Play 5 birds in one habitat with beaks pointing in the same direction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "Fly_me_to_the_Moor",
+            "name": "Fly me to the Moor",
+            "description": "Send the Tui or Superb Lyrebird to the grassland habitat by copying a migratory bird power.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "Unflappable",
+            "name": "Unflappable",
+            "description": "Play 3 flightless birds in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "Global_Analyst",
+            "name": "Global Analyst",
+            "description": "Score all 3 Analyst bonus cards (Forest, Grassland, and Wetland) in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "The_Tuckinator",
+            "name": "The Tuckinator",
+            "description": "Tuck at least 50 cards under one bird.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "Mellow_Yellow",
+            "name": "Mellow Yellow",
+            "description": "Win a game with 5 or more GAME END powers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "By_Our_Powers_Combined",
+            "name": "By Our Powers Combined",
+            "description": "Play 5 birds with different power types/colors in one habitat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "Sweet_Tooth",
+            "name": "Sweet Tooth",
+            "description": "Play five nectar-eating birds in a single habitat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "A_Real_Know_it_owl_Oceania",
+            "name": "A Real Know-it-owl: Oceania",
+            "description": "Play at least once all the new birds of the Wingspan: Oceania Expansion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "Tailored_Fit",
+            "name": "Tailored Fit",
+            "description": "Lay 15 eggs at once with the Common Tailorbird.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "Devoted_to_Duet",
+            "name": "Devoted to Duet",
+            "description": "Place more than 15 Tokens on the Duet Map in one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "Jackpot_Cache",
+            "name": "Jackpot Cache",
+            "description": "Use a push-your-luck bird to cache 15+ food on it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "Like_Your_Birds_But_Better",
+            "name": "Like Your Birds, But Better",
+            "description": "Score an opponent’s bonus card to earn more points from it than them.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "Owl_Hands_On_Deck",
+            "name": "Owl Hands On Deck",
+            "description": "Activate 5 predator powers at the end of a single round using the Oriental Bay-Owl.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "We_re_SO_Back",
+            "name": "We're SO Back",
+            "description": "Win a game while scoring 21 points or more on the \"Endangered Species Protector\" bonus card.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "Swan_Song_Solo",
+            "name": "Swan Song, Solo",
+            "description": "In Duet Mode, place no tokens on bonus spaces and win the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "To_Egg_Finity_and_Beyond",
+            "name": "To Egg-Finity and Beyond!",
+            "description": "End the game with at least 3 of your birds having gone over their egg nest limit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "Flying_International",
+            "name": "Flying International",
+            "description": "Send 3 birds to an opponent's preserve.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "Double_Agent",
+            "name": "Double Agent",
+            "description": "Copy another player's bird power to move a bird to another player's preserve.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "Real_Know_it_owl_Asia",
+            "name": "A Real Know-it-owl: Asia",
+            "description": "Play at least once all the new birds of the Wingspan: Asia Expansion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

@@ -1,0 +1,544 @@
+{
+    "id": 1128920,
+    "steamAppId": 1128920,
+    "name": "EVERSPACE 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1128920/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 40,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Space Combat",
+        "Action RPG",
+        "Looter Shooter",
+        "Open World"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "a_00_story_activate_homebase",
+            "name": "A New Home",
+            "description": "Revive an old hideout.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "a_01_story_find_hive",
+            "name": "In Good Company",
+            "description": "A main-story beat: find a HIVE unit.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "a_02_story_elek_to_homebase",
+            "name": "I Heart Horags",
+            "description": "A main-story beat: take in Elek.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "a_03_story_save_tareen",
+            "name": "A Friend In Need",
+            "description": "A main-story beat: save Tareen from the G&B Elite Squad.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "a_04_story_ancient_rift",
+            "name": "Still In One Piece",
+            "description": "A main-story beat: survive an Ancient Rift.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "a_05_story_escape_khione",
+            "name": "No Place Like Home",
+            "description": "A main-story beat: escape the Khione System.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "a_06_story_completed",
+            "name": "There Can Be Only One",
+            "description": "The main campaign's finale: prevent a new war from breaking out.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "a_07_highest_renown",
+            "name": "What A Legend!",
+            "description": "Reach the highest level of renown.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "a_08_buy_new_ship",
+            "name": "A New Ride",
+            "description": "Buy a new ship.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "a_09_equip_legendary",
+            "name": "My Precious!",
+            "description": "Equip a legendary item.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "a_10_master_challenge",
+            "name": "Challenge Accepted",
+            "description": "Complete a master challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "a_11_destroy_outlaws",
+            "name": "Against All Outlaws",
+            "description": "Destroy 1000 Outlaw units.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "a_12_destroy_elites",
+            "name": "Elite Eliminator",
+            "description": "Destroy 100 Elite units.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "a_13_master_device",
+            "name": "Device Master",
+            "description": "Master a device.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "a_14_static_overload_targets",
+            "name": "Unlimited Power",
+            "description": "Have the Sentinel's ULT \"Static Overload\" span electricity arcs to at least 5 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "a_15_thermo_obstacle_kill",
+            "name": "Bend it like Roslin",
+            "description": "Use a Thermo Gun to destroy an enemy that is behind an obstacle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "a_16_high_pressure_kills",
+            "name": "Under Pressure",
+            "description": "Use the Energized Boost's High-Pressure mode to destroy 3 enemies in one go.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "a_17_max_out_attributes",
+            "name": "Maxed Out",
+            "description": "Have two attributes maxed out at the same time using Mainframe Expansions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "a_18_complete_rift",
+            "name": "Rift Runner",
+            "description": "Complete a Rift",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "a_19_buy_tier4_ship",
+            "name": "Top Tier",
+            "description": "Buy a Tier 4 ship",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "a_20_change_ship_modules",
+            "name": "Spaceship of Theseus",
+            "description": "Change the front, rear and wings of a ship.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "a_21_complete_location_challenges",
+            "name": "Been There, Done That",
+            "description": "Complete 25 Location Challenges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "a_22_complete_jobs",
+            "name": "Work For Hire",
+            "description": "Complete 10 Jobs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "a_23_all_catalyst_blueprints",
+            "name": "The Catalyst Catalog",
+            "description": "Find all Catalyst Blueprints",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "a_24_all_devices",
+            "name": "Gotta Find 'Em All",
+            "description": "Find all devices",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "a_25_all_companion_perks",
+            "name": "Perky Personnel",
+            "description": "Fully upgrade all Companion Perks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "a_26_all_locations_100_percent",
+            "name": "No Asteroid Unturned",
+            "description": "Complete all locations 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "a_27_all_side_missions",
+            "name": "Sidetracked",
+            "description": "Finish all side missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "a_28_all_challenges",
+            "name": "That's All You Got?",
+            "description": "Complete all challenge collections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "a_29_complete_rift_with_lunacy_500",
+            "name": "Legendary Lunatic",
+            "description": "Complete a Rift at Lunacy 500 or higher",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "a_30_magnetic_repulsor_emp_kill",
+            "name": "Stasis Smash",
+            "description": "Use the Magnetic Repulsor to smash an EMP'ed enemy to death.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "a_31_all_races",
+            "name": "Ludicrous Speed!",
+            "description": "Finish all racing tracks with platinum rank.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "a_32_trading_profit",
+            "name": "Credits Where Credits Are Due",
+            "description": "Earn at least 5000 credits by selling one stack of commodities.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "a_33_fusion_hook_duration",
+            "name": "Spin Me Right 'Round",
+            "description": "Keep the Fusion Hook tethered for 10 seconds during a single activation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "a_34_front_shield_sniper_drone",
+            "name": "I Don't Like Bullies",
+            "description": "Use the Front Shield Generator to block two Sniper Drone shots in a single activation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "a_35_sticky_turret_kill",
+            "name": "Tower Defense",
+            "description": "Use a Sticky Turret to destroy an enemy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "a_36_mining",
+            "name": "Rock And Stone!",
+            "description": "Mine 2000 resources",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "a_37_pay_respects",
+            "name": "Press F To Pay Respects",
+            "description": "Visit a final resting place.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "a_39_dlc1_destroy_interstellar_drive",
+            "name": "It's A Sabotage",
+            "description": "In the Titans DLC: destroy the first of the Dreadnought's two interstellar drives.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "a_40_dlc1_disrupt_auction",
+            "name": "Stop! Hammer Time!",
+            "description": "In the Titans DLC: disrupt the Dreadnought auction.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "a_41_dlc1_swallowed",
+            "name": "Inner Space",
+            "description": "In the Titans DLC: get swallowed by a Leviathan creature.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "a_42_dlc1_open_pearl",
+            "name": "Catch Of The Day",
+            "description": "In the Titans DLC: break open your first Leviathan Pearl, found at the end of a Leviathan's digestive tract after being swallowed (see Inner Space) and brought to Dr. Kapadia at BRI BioPlant.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "a_43_dlc1_bomb_in_leviathan",
+            "name": "Internal Combustion",
+            "description": "Explode one of XR’s panzer bombs inside a Leviathan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "a_44_dlc1_protect_wingman",
+            "name": "I Got You Fam",
+            "description": "Protect your wingman from getting immobilized while fending off the Dreadnought.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "a_45_dlc1_decoy_missiles",
+            "name": "Stop Hitting Yourself",
+            "description": "Use one decoy to guide at least 10 missiles into the Dreadnought's launcher system.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "a_46_dlc1_break_pearls",
+            "name": "The World Is Your Oyster",
+            "description": "Break 20 Leviathan Pearls.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "a_47_dlc1_destroy_cloudgrazer",
+            "name": "A Taste Of Their Own Medicine",
+            "description": "Kill a Cloudgrazer with a weapon similar to the creature’s fiery breath.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "a_48_dlc1_pearl_low_agitation",
+            "name": "Didn't Hurt A Bit",
+            "description": "Obtain a Leviathan Pearl while agitation is below 20%.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "a_49_dlc2_mission_dax",
+            "name": "Gone Kayaking",
+            "description": "In the Wrath of the Ancients DLC: give a friend a second chance.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "a_50_dlc2_mission_wota",
+            "name": "Ancient History",
+            "description": "In the Wrath of the Ancients DLC: avert another crisis.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "a_51_dlc2_relic_hunt",
+            "name": "That Belongs In A Museum",
+            "description": "Obtain the Tactical Artillery Beam device.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "a_52_dlc2_device",
+            "name": "Backup Plan",
+            "description": "Obtain the Entropy Anchor device.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "a_53_dlc2_okkar_ship",
+            "name": "Bean There, Done That",
+            "description": "Buy the Wraith.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "a_54_dlc2_artillery_beams",
+            "name": "Beam There, Done That",
+            "description": "Have 3 Tactical Artillery Beams active at the same time.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "a_55_dlc2_mobile_base",
+            "name": "Home Is Where The Ace Is",
+            "description": "Park the Golden Ace in Ceto.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "a_56_dlc2_ancient_altar_upgrade",
+            "name": "Altar Boy",
+            "description": "Upgrade an item at an Ancient Altar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "a_57_dlc2_ascendant_rarity",
+            "name": "Power Fantasy? Power Reality!",
+            "description": "Own a rank 8 equipment item of Ascendant rarity.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "a_58_dlc2_set_bonus",
+            "name": "Now We Can Finally Play The Game!",
+            "description": "Unlock the full set bonus of the Ascendancy item set.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

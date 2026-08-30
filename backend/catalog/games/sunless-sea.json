@@ -1,0 +1,508 @@
+{
+    "id": 304650,
+    "steamAppId": 304650,
+    "name": "Sunless Sea",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/304650/header.jpg",
+    "difficulty": 7,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Narrative",
+        "Roguelike",
+        "Exploration",
+        "Naval"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_die1",
+            "name": "Sink Beneath the Waves",
+            "description": "Die for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ach_die5",
+            "name": "Sink Beneath the Waves. Again.",
+            "description": "Die 5 times in an unbroken lineage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ach_die10",
+            "name": "Never Stop Sinking...",
+            "description": "Die 10 times in an unbroken lineage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ach_dawnmachine",
+            "name": "HE SUN THE SUN THE SUN T",
+            "description": "Find the Dawn Machine, a location hidden in the south-west corner of the map.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ach_scion",
+            "name": "Zee Fever",
+            "description": "Send your child to zee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ach_terror90",
+            "name": "Thou, All-Shaking Thunder",
+            "description": "Let your terror reach 90",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ach_terror100",
+            "name": "Lose your Mind",
+            "description": "Let your terror reach 100",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ach_year1",
+            "name": "One Year at Zee",
+            "description": "Spend one year out at zee in an unbroken lineage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ach_year5",
+            "name": "Five Years at Zee",
+            "description": "Spend five years out at zee in an unbroken lineage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ach_year10",
+            "name": "Ten Years at Zee",
+            "description": "Spend ten years out at zee in an unbroken lineage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ach_dreadnaught",
+            "name": "We're Gonna Need a Bigger Boat",
+            "description": "Acquire the Eschatologue-class Dreadnaught",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ach_hunterskeep",
+            "name": "The Fall of the House",
+            "description": "See the conclusion of the Hunter's Keep storyline, a multi-stage quest chain that unfolds at that port.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ach_eye",
+            "name": "Roaring Rise",
+            "description": "Discover \"The Eye\" - a hidden location in a randomized 5-tile purple map area. The correct tile shows a \"Something forgotten is here\" message; visiting it reveals a massive closed eye beneath the waves that opens when found. The tile layout is randomized, so checking every tile in the area (and possibly reloading) may be necessary.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ach_surface",
+            "name": "The Ascent of Man",
+            "description": "Reach the surface by sailing the Cumaean Canal, which needs roughly 22 Fuel and 2 Supplies to attempt.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ach_sweetheart",
+            "name": "Sweet Sorrow",
+            "description": "Woo a sweetheart in London",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ach_cursesalt",
+            "name": "Salt's Curse",
+            "description": "Suffer Salt's Curse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ach_cursestone",
+            "name": "Stone's Curse",
+            "description": "Suffer Stone's Curse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ach_cursestorm",
+            "name": "Storm's Curse",
+            "description": "Suffer Storm's Curse",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ach_newstories",
+            "name": "Open Your Ears",
+            "description": "Download new stories",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ach_admirality10",
+            "name": "Rules the Waves",
+            "description": "Achieve Admiralty's Favour 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ach_antiquarian10",
+            "name": "Old Unhappy Far-Off Things",
+            "description": "Achieve Antiquarian 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ach_ladylilac",
+            "name": "Come Closer",
+            "description": "Trigger the \"An Old Friend\" random event by keeping your Terror above 75 while carrying a Tattoo, then accept the Lady in Lilac aboard your ship. She leaves if Terror drops below 26, so keep Terror elevated to retain her.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ach_legacyrival",
+            "name": "Rival",
+            "description": "Take the Rival legacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ach_legacypupil",
+            "name": "Pupil",
+            "description": "Take the Pupil legacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ach_legacyshipmate",
+            "name": "Shipmate",
+            "description": "Take the Shipmate legacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ach_legacycorrespondent",
+            "name": "Correspondent",
+            "description": "Take the Correspondent legacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ach_legacysalvager",
+            "name": "Salvager",
+            "description": "Take the Salvager legacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ach_will",
+            "name": "Sound Mind?",
+            "description": "Create an ironclad will",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ach_invictus",
+            "name": "I am the Captain of my Soul",
+            "description": "Complete the game without saving manually",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ach_stranger",
+            "name": "A Past Wreathed in Shadows",
+            "description": "Complete the game without ever choosing a past",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ach_dive",
+            "name": "Frightful, sheer, no-man-fathomed",
+            "description": "Venture beneath the waves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ach_deathwat",
+            "name": "Death By Water",
+            "description": "Die of suffocation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ach_deathphlebas",
+            "name": "Consider Phlebas",
+            "description": "Be killed by an underwater creature",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ach_deathofermod",
+            "name": "Ofermod",
+            "description": "Be killed by the Constant Companion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ach_constant",
+            "name": "What lies beneath",
+            "description": "Come face to face with the Constant Companion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ach_combuoy",
+            "name": "A buoyant escape",
+            "description": "Escape underwater combat by resurfacing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ach_portregret",
+            "name": "No regrets",
+            "description": "Discover Aigul",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ach_portpearls",
+            "name": "Those are pearls that were his eyes",
+            "description": "Discover Anthe",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ach_portunder",
+            "name": "Under the zee",
+            "description": "Discover Undercrow",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ach_portdeep",
+            "name": "The beauty of the deep",
+            "description": "Discover Dahut",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ach_portfish",
+            "name": "Thanks for all the fish",
+            "description": "Discover The Gant Pole",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ach_portleviathan",
+            "name": "Leviathan",
+            "description": "Discover Hideaway",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ach_portbell",
+            "name": "The Bell Tolls",
+            "description": "Discover Low Barnet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ach_portdragon",
+            "name": "The dragon in the zee",
+            "description": "Discover Nook",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ach_portrose",
+            "name": "Rosewater sailor",
+            "description": "Discover Rosegate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ach_portbones",
+            "name": "His bones in whispers",
+            "description": "Discover Scrimshander",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ach_portknife",
+            "name": "Knife, Cup and Bone",
+            "description": "Discover Wrack",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ach_undercurrent",
+            "name": "A current under zee",
+            "description": "Use underwater currents to bear you on your way",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ach_underpressure",
+            "name": "Under pressure",
+            "description": "Avoid being killed by the Unexploded Unclear Bomb",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ach_underdepth",
+            "name": "Depth charge",
+            "description": "Use an oasis to increase your oxygen levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ach_abysschange",
+            "name": "A zee-change",
+            "description": "Accept a power of the deep zee",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ach_abysslady",
+            "name": "The Lady's Parlour",
+            "description": "Perform an abyssal ritual to encounter Lady Black",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ach_controman",
+            "name": "Romans 6:9",
+            "description": "Complete the Zubmariner ambition",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ach_contdrownie",
+            "name": "A Drownie devotee",
+            "description": "Collect all of Drownie Love-song, Drownie Counterpoint and Drownie Hymn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
