@@ -456,6 +456,9 @@ import { GUIDE as planetaryAnnihilationTitansAchievementGuide } from "./games/pl
 import { GUIDE as toothAndTailAchievementGuide } from "./games/tooth-and-tail.js";
 import { GUIDE as dungeonOfTheEndlessAchievementGuide } from "./games/dungeon-of-the-endless.js";
 import { GUIDE as unityOfCommand2AchievementGuide } from "./games/unity-of-command-2.js";
+import { GUIDE as crusaderKings2AchievementGuide } from "./games/crusader-kings-2.js";
+import { GUIDE as imperatorRomeAchievementGuide } from "./games/imperator-rome.js";
+import { GUIDE as cliffEmpireAchievementGuide } from "./games/cliff-empire.js";
 
 export const APP_GUIDES = [
 
@@ -934,7 +937,10 @@ export const GAME_GUIDES = [
     planetaryAnnihilationTitansAchievementGuide,
     toothAndTailAchievementGuide,
     dungeonOfTheEndlessAchievementGuide,
-    unityOfCommand2AchievementGuide
+    unityOfCommand2AchievementGuide,
+    crusaderKings2AchievementGuide,
+    imperatorRomeAchievementGuide,
+    cliffEmpireAchievementGuide
 
 ];
 

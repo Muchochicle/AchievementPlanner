@@ -1,0 +1,672 @@
+{
+    "id": 859580,
+    "steamAppId": 859580,
+    "name": "Imperator: Rome",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/859580/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 130
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Grand Strategy",
+        "Historical",
+        "Ancient",
+        "Simulation",
+        "War",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_cincinattus",
+            "name": "Cincinnatus",
+            "description": "Appoint a Dictator, and have the same Dictator voluntarily stand down.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "ach_tribal_concord",
+            "name": "Tribal Concord",
+            "description": "Whilst you have a tribal government form, change a Law.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "ach_render_unto_caesar",
+            "name": "Render Unto Caesar",
+            "description": "Conquer a city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "ach_a_new_home",
+            "name": "A New Home",
+            "description": "Settle a new territory as a Migratory Tribe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "ach_alea_iacta_est",
+            "name": "Alea Iacta Est",
+            "description": "Have an appointed Dictator refuse to give up power.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "ach_soldier_of_fortune",
+            "name": "Soldier of Fortune",
+            "description": "Send a disloyal pretender away to be a Mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 7,
+            "apiname": "ach_panem_et_circenses",
+            "name": "Panem Et Circenses",
+            "description": "Compete in the Olympic Games on at least 10 occasions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "ach_international_relations",
+            "name": "International Relations",
+            "description": "With your current ruler, acquire two other ruler-level friends.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "ach_strategic_reserve",
+            "name": "Strategic Reserve",
+            "description": "Import at least one of each Strategic resource to your capital province.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "ach_triumvir",
+            "name": "Triumvir",
+            "description": "Survive a Civil War.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "ach_aristotle",
+            "name": "Legacy of Aristotle",
+            "description": "Have four Researchers with at least 11 finesse each.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "ach_circles",
+            "name": "Do Not Disturb My Circles",
+            "description": "Research 40 inventions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "ach_tribal_assembly",
+            "name": "Tribal Assembly",
+            "description": "As a Tribe, enact the decision to become a Republic.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "ach_hispania_universalis",
+            "name": "Hispania Universalis",
+            "description": "Form Greater Iberia",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "ach_romans_done_for_us",
+            "name": "What have the Romans ever done for us?",
+            "description": "As Rome, own at least one City with 70 or more Civilization Value in each Province within the Palestine region.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "ach_punic_ascendance",
+            "name": "Punic Ascendance",
+            "description": "As Carthage, own or have a subject own all of Hispania.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "ach_times_new_roman",
+            "name": "Times New Roman",
+            "description": "As Rome, conquer the cities of Cariala, Italica, and Aquae Helveticae.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "ach_antipaters_dream",
+            "name": "Antipater's Dream",
+            "description": "As Macedonia, own the region of Greece.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "ach_the_besieger",
+            "name": "The Besieger",
+            "description": "As the Antigonids, sack the territories of Babylon, Alexandria, Lysimacheia, and Pella.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "ach_over_9000",
+            "name": "Over 9000!",
+            "description": "Have at least 9000 pops.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "ach_romans_are_crazy",
+            "name": "The Romans are Crazy",
+            "description": "Form Gaul.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "ach_carthago_delenda_est",
+            "name": "Carthago Delenda Est",
+            "description": "As Rome, own and sack the city of Carthage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "ach_new_kingdom",
+            "name": "New Kingdom",
+            "description": "Form Egypt, enact the Egyptian Succession law, and conquer the regions of Nubia and Syria.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "ach_pyrrhic_victory",
+            "name": "Pyrrhic Victory",
+            "description": "As Epirus, own Rome.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "ach_perfidious_albion",
+            "name": "Perfidious Albion",
+            "description": "Form Albion before the year AUC 500.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "ach_imperial_ambition",
+            "name": "Imperial Ambition",
+            "description": "Adopt the Empire government form.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "ach_envy_of_the_world",
+            "name": "Envy of the World",
+            "description": "Have any owned city with 100 or more Civilization Value.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "ach_pan_hellenic_league",
+            "name": "Pan-Hellenic League",
+            "description": "As any Greek Republic, own the entire region of Greece.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "ach_stonehenge",
+            "name": "Mystery Solved",
+            "description": "As a Megalithic country, own at least 20 cities producing Stone, and the city of Cunetio.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "ach_soter",
+            "name": "Soter",
+            "description": "As Egypt, own all of the historical wonders of the world, through conquest or construction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "ach_end_of_world",
+            "name": "To the End of the World",
+            "description": "As the Seleucid Empire or Bactria, conquer the regions of Gandhara, Mahdyadesa, Pracya, Maru, and Avanti.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "ach_three_great_fires",
+            "name": "Three Great Fires",
+            "description": "Form Persia, and own Ganzak, Nevshapur, and Gur.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "ach_holy_fire",
+            "name": "Holy Fire",
+            "description": "Desecrate Holy Sites for at least 10 different religions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "ach_alexanders_empire",
+            "name": "No More Worlds Left to Conquer",
+            "description": "Reform Alexander's Empire as a successor state.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 35,
+            "apiname": "ach_garum_nobile",
+            "name": "Garum Nobile",
+            "description": "In any owned city, produce a surplus of at least 10 fish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "ach_true_vandal",
+            "name": "True Vandal",
+            "description": "As a Vandal nation, own any territory in the regions of Mauretania, Numidia, Africa, or Cyrenaica, and occupy Rome in a war.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "ach_germania_magna",
+            "name": "Germania Magna",
+            "description": "As a Germanic nation, own every city in the regions of Germania, Germania Superior, Vistulia, and Boiohaemum.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "ach_man_who_would_be_king",
+            "name": "The Man who would be King",
+            "description": "As Bactria, become independent, and conquer the regions of Ariana, Bactria, and Gandhara.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "ach_ashokas_pillars",
+            "name": "Ashoka's Pillars",
+            "description": "As the Mauryas, conquer all of India, convert to Buddhism, and have at least 80% Religious Unity.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "ach_mare_nostrum",
+            "name": "Mare Nostrum",
+            "description": "As Rome, own every city adjacent to the Mediterranean Sea.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "ach_megalopolis",
+            "name": "Megalopolis",
+            "description": "As the nation of Megalopolis, have at least 80 pops in the city of Megalopolis.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "ach_boiiiiiiiiiiii",
+            "name": "The Bois Are Back in Town",
+            "description": "As Boi, conquer or colonize the entire region of Boiohaemum.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "ach_molon_labe",
+            "name": "Molon Labe!",
+            "description": "As Sparta, conquer and sack the city of Persepolis.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "ach_spice_must_flow",
+            "name": "The Spice Must Flow",
+            "description": "As Mosylon, own every Spice producing city in the world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "ach_kingdom_of_david",
+            "name": "Kingdom of David",
+            "description": "Starting as a Jewish nation, own the regions of Palestine and Syria, as well as the areas of Sinai, Eastern Delta, Central Delta, Memphis, Euphrates, Niniveh, Mespotamia Superior, Tigris, Babylonia, Asoristan, and Veh Kavad.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 46,
+            "apiname": "ach_rednaxela",
+            "name": "rednaxelA",
+            "description": "Starting as a Hindu, Buddhist, or Jain nation, which is not the Mauryas, conquer Pataliputra, Babylon, Memphis, and Athens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "ach_heraclea_persica",
+            "name": "Heraclea Persica",
+            "description": "Starting as Heraclea Pontica, form Persia whilist your ruler belongs to the Achaemenid dynasty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "ach_tyrian_purple",
+            "name": "Tyrian Purple",
+            "description": "Form Phoenicia, own at least 500 ships, and produce a surplus of at least 5 dyes in Tyrus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "ach_pax_aeterna",
+            "name": "Pax Aeterna",
+            "description": "Conquer the world.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 50,
+            "apiname": "ach_worlds_desire",
+            "name": "City of the World's Desire",
+            "description": "Have 15 Trade Routes in Byzantium.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "ach_pentecontaetia",
+            "name": "Pentecontaetia",
+            "description": "As Athens, be independent and own Delos, Naxos, Kassandreia, Thaso, Chalkis, Samos, Sestos, Kition, Salamis, and Oreos before 500 AUC.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "ach_laconic_if",
+            "name": "Laconic If",
+            "description": "As Sparta, conquer and sack Pella before 480 AUC.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "ach_tyrant_to_king",
+            "name": "Potter to King",
+            "description": "As Syracuse, conquer all of Sicily by the death of your ruler, Agathocles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "ach_pytheas_legacy",
+            "name": "Pytheas' Legacy",
+            "description": "As Massalia, own at least one territory in Dumnonia and Cantiacia, as well as one territory in the Scandia region, and the territory of Orcades, before 550.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "ach_brennus_revenge",
+            "name": "Brennus' Revenge",
+            "description": "As a Gallic Tribe, desecrate all Hellenic Holy Sites in Greece before 480 AUC.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "ach_holy_pilgrim",
+            "name": "Holy Pilgrim",
+            "description": "As a Jewish country, own and control all original Jewish Holy Sites: Ekbatana, Oros Chorib, Apologos, Jerusalem, Ephraim, Sousa, Kadasa and Aqola.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "ach_gotta_catch_them_all",
+            "name": "Catch them All",
+            "description": "As a Polytheistic country, have a State Pantheon composed entirely of deified rulers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "ach_unexpected_turn",
+            "name": "An Unexpected Turn",
+            "description": "As Grania, Raumaricia, Suionia, Leuonia, Guthonia, Dania or Burgundia, build an Ivory Tower in Uppakra with all effects upgraded to Tier 4.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "ach_wonder_builder",
+            "name": "Wonder Builder",
+            "description": "Build a Great Wonder.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "ach_the_great_destroyer",
+            "name": "The Great Destroyer",
+            "description": "Playing as any nation from the Veneti, Germanic, Pretani, Gaelic, Gallic, Celt-Iberian, Iberian or Pre-Indo-European culture groups, conquer and destroy 10 Great Wonders.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "ach_measure_earth",
+            "name": "On the Measure of the Earth",
+            "description": "As any Greek nation, build Towers in Omboi and Alexandria.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 62,
+            "apiname": "ach_corners_of_the_world",
+            "name": "The Corners of the World",
+            "description": "As any nation, build Great Wonders in Safim, Orcades, Sadiya, Odoka and Agawe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "ach_rising_sun",
+            "name": "Land of the Rising Sun",
+            "description": "As a country in the Anatolian Culture Group, own, or have a subject own, the regions of Asia, Phrygia, Cilicia, Bithynia et Paphlagonia, Cappadocia Taurica and Armenia.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 64,
+            "apiname": "ach_gazophylax",
+            "name": "Gazophylax This!",
+            "description": "As Thrace, kill the ruler of the Antigonid Kingdom, by completing the “Poetic Justice” mission task.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "ach_king_blind",
+            "name": "King of the Blind",
+            "description": "As the Antigonid Kingdom, enact the decision “Secure Antigonid Position”.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "ach_periplus_seas",
+            "name": "Periplus of the Seas",
+            "description": "As Egypt, own or have a subject own the Aegean Islands, Rhodes, Sicily, Sardinia, Cyprus, Alalaiou (Dahkla), Devada, Diouscourides (Socotra), Tylos (Bahrain), Sri Lanka, Mliet/Malta, Yermena, Corsica, Gymnaesia (Baleares), Korkyra and Qarkna.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 67,
+            "apiname": "ach_legio_augusta",
+            "name": "Legio Augusta",
+            "description": "Own a Legion with X honors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 68,
+            "apiname": "ach_nikator",
+            "name": "Nikator",
+            "description": "As the Seleucid Empire, conquer Pella before the death of Seleucus Nikator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 69,
+            "apiname": "ach_mountain_king",
+            "name": "Hall of the Mountain King",
+            "description": "As Armenia, construct a level XV Fortress.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 70,
+            "apiname": "ach_ktistes",
+            "name": "Ktistes",
+            "description": "Starting as Kios, form Pontus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 71,
+            "apiname": "ach_proclamation_tyre",
+            "name": "Proclamation of Tyre",
+            "description": "As a Greek Republic, have Macedon, Egypt, the Seleucid Empire, Thrace or the Antigonid Empire as a subject.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 72,
+            "apiname": "ach_eumenes_footsteps",
+            "name": "Eumenes' Footsteps",
+            "description": "As Cappadocia, keeping Macedonian primary culture, become independent and conquer Alexandria and Babylon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

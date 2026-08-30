@@ -480,6 +480,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("tooth-and-tail"));
     assert.ok(slugs.includes("dungeon-of-the-endless"));
     assert.ok(slugs.includes("unity-of-command-2"));
+    assert.ok(slugs.includes("crusader-kings-2"));
+    assert.ok(slugs.includes("imperator-rome"));
+    assert.ok(slugs.includes("cliff-empire"));
 
 });
 
