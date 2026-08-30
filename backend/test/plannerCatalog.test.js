@@ -387,6 +387,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("killing-floor"));
     assert.ok(slugs.includes("book-of-demons"));
     assert.ok(slugs.includes("aliens-fireteam-elite"));
+    assert.ok(slugs.includes("mortal-kombat-x"));
+    assert.ok(slugs.includes("skullgirls"));
+    assert.ok(slugs.includes("brawlhalla"));
 
 });
 

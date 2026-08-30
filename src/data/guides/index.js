@@ -363,6 +363,9 @@ import { GUIDE as novaDriftAchievementGuide } from "./games/nova-drift.js";
 import { GUIDE as killingFloorAchievementGuide } from "./games/killing-floor.js";
 import { GUIDE as bookOfDemonsAchievementGuide } from "./games/book-of-demons.js";
 import { GUIDE as aliensFireteamEliteAchievementGuide } from "./games/aliens-fireteam-elite.js";
+import { GUIDE as mortalKombatXAchievementGuide } from "./games/mortal-kombat-x.js";
+import { GUIDE as skullgirlsAchievementGuide } from "./games/skullgirls.js";
+import { GUIDE as brawlhallaAchievementGuide } from "./games/brawlhalla.js";
 
 export const APP_GUIDES = [
 
@@ -748,7 +751,10 @@ export const GAME_GUIDES = [
     novaDriftAchievementGuide,
     killingFloorAchievementGuide,
     bookOfDemonsAchievementGuide,
-    aliensFireteamEliteAchievementGuide
+    aliensFireteamEliteAchievementGuide,
+    mortalKombatXAchievementGuide,
+    skullgirlsAchievementGuide,
+    brawlhallaAchievementGuide
 
 ];
 
