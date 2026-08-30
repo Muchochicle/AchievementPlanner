@@ -264,6 +264,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("europa-universalis-4"));
     assert.ok(slugs.includes("necesse"));
     assert.ok(slugs.includes("the-riftbreaker"));
+    assert.ok(slugs.includes("mass-effect-legendary-edition"));
+    assert.ok(slugs.includes("dragon-age-inquisition"));
+    assert.ok(slugs.includes("tropico-6"));
 
 });
 

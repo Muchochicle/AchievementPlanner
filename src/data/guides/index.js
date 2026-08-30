@@ -240,6 +240,9 @@ import { GUIDE as fieldsOfMistriaAchievementGuide } from "./games/fields-of-mist
 import { GUIDE as europaUniversalis4AchievementGuide } from "./games/europa-universalis-4.js";
 import { GUIDE as necesseAchievementGuide } from "./games/necesse.js";
 import { GUIDE as theRiftbreakerAchievementGuide } from "./games/the-riftbreaker.js";
+import { GUIDE as massEffectLegendaryEditionAchievementGuide } from "./games/mass-effect-legendary-edition.js";
+import { GUIDE as dragonAgeInquisitionAchievementGuide } from "./games/dragon-age-inquisition.js";
+import { GUIDE as tropico6AchievementGuide } from "./games/tropico-6.js";
 
 export const APP_GUIDES = [
 
@@ -502,7 +505,10 @@ export const GAME_GUIDES = [
     fieldsOfMistriaAchievementGuide,
     europaUniversalis4AchievementGuide,
     necesseAchievementGuide,
-    theRiftbreakerAchievementGuide
+    theRiftbreakerAchievementGuide,
+    massEffectLegendaryEditionAchievementGuide,
+    dragonAgeInquisitionAchievementGuide,
+    tropico6AchievementGuide
 
 ];
 
