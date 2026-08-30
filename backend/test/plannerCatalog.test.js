@@ -426,6 +426,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ghost-recon-wildlands"));
     assert.ok(slugs.includes("the-walking-dead"));
     assert.ok(slugs.includes("project-cars-2"));
+    assert.ok(slugs.includes("lego-marvel-super-heroes"));
+    assert.ok(slugs.includes("need-for-speed-payback"));
+    assert.ok(slugs.includes("grid-2019"));
 
 });
 

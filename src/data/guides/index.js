@@ -402,6 +402,9 @@ import { GUIDE as theDivisionAchievementGuide } from "./games/the-division.js";
 import { GUIDE as ghostReconWildlandsAchievementGuide } from "./games/ghost-recon-wildlands.js";
 import { GUIDE as theWalkingDeadAchievementGuide } from "./games/the-walking-dead.js";
 import { GUIDE as projectCars2AchievementGuide } from "./games/project-cars-2.js";
+import { GUIDE as legoMarvelSuperHeroesAchievementGuide } from "./games/lego-marvel-super-heroes.js";
+import { GUIDE as needForSpeedPaybackAchievementGuide } from "./games/need-for-speed-payback.js";
+import { GUIDE as grid2019AchievementGuide } from "./games/grid-2019.js";
 
 export const APP_GUIDES = [
 
@@ -826,7 +829,10 @@ export const GAME_GUIDES = [
     theDivisionAchievementGuide,
     ghostReconWildlandsAchievementGuide,
     theWalkingDeadAchievementGuide,
-    projectCars2AchievementGuide
+    projectCars2AchievementGuide,
+    legoMarvelSuperHeroesAchievementGuide,
+    needForSpeedPaybackAchievementGuide,
+    grid2019AchievementGuide
 
 ];
 
