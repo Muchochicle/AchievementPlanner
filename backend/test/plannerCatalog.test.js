@@ -282,6 +282,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("killing-floor-2"));
     assert.ok(slugs.includes("risk-of-rain"));
     assert.ok(slugs.includes("muck"));
+    assert.ok(slugs.includes("techtonica"));
+    assert.ok(slugs.includes("banished"));
+    assert.ok(slugs.includes("going-medieval"));
 
 });
 

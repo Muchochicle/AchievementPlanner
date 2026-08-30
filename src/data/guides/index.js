@@ -258,6 +258,9 @@ import { GUIDE as wildfrostAchievementGuide } from "./games/wildfrost.js";
 import { GUIDE as killingFloor2AchievementGuide } from "./games/killing-floor-2.js";
 import { GUIDE as riskOfRainAchievementGuide } from "./games/risk-of-rain.js";
 import { GUIDE as muckAchievementGuide } from "./games/muck.js";
+import { GUIDE as techtonicaAchievementGuide } from "./games/techtonica.js";
+import { GUIDE as banishedAchievementGuide } from "./games/banished.js";
+import { GUIDE as goingMedievalAchievementGuide } from "./games/going-medieval.js";
 
 export const APP_GUIDES = [
 
@@ -538,7 +541,10 @@ export const GAME_GUIDES = [
     wildfrostAchievementGuide,
     killingFloor2AchievementGuide,
     riskOfRainAchievementGuide,
-    muckAchievementGuide
+    muckAchievementGuide,
+    techtonicaAchievementGuide,
+    banishedAchievementGuide,
+    goingMedievalAchievementGuide
 
 ];
 
