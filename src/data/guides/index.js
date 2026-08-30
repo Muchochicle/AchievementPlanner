@@ -399,6 +399,9 @@ import { GUIDE as jurassicWorldEvolutionAchievementGuide } from "./games/jurassi
 import { GUIDE as watchDogsAchievementGuide } from "./games/watch-dogs.js";
 import { GUIDE as farCry4AchievementGuide } from "./games/far-cry-4.js";
 import { GUIDE as theDivisionAchievementGuide } from "./games/the-division.js";
+import { GUIDE as ghostReconWildlandsAchievementGuide } from "./games/ghost-recon-wildlands.js";
+import { GUIDE as theWalkingDeadAchievementGuide } from "./games/the-walking-dead.js";
+import { GUIDE as projectCars2AchievementGuide } from "./games/project-cars-2.js";
 
 export const APP_GUIDES = [
 
@@ -820,7 +823,10 @@ export const GAME_GUIDES = [
     jurassicWorldEvolutionAchievementGuide,
     watchDogsAchievementGuide,
     farCry4AchievementGuide,
-    theDivisionAchievementGuide
+    theDivisionAchievementGuide,
+    ghostReconWildlandsAchievementGuide,
+    theWalkingDeadAchievementGuide,
+    projectCars2AchievementGuide
 
 ];
 

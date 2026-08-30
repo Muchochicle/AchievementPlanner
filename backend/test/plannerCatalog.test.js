@@ -423,6 +423,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("watch-dogs"));
     assert.ok(slugs.includes("far-cry-4"));
     assert.ok(slugs.includes("the-division"));
+    assert.ok(slugs.includes("ghost-recon-wildlands"));
+    assert.ok(slugs.includes("the-walking-dead"));
+    assert.ok(slugs.includes("project-cars-2"));
 
 });
 

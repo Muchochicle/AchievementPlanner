@@ -1,0 +1,537 @@
+{
+    "id": 460930,
+    "steamAppId": 460930,
+    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/460930/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 35,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Open World",
+        "Tactical Shooter",
+        "Third-Person Shooter",
+        "Co-op",
+        "Stealth",
+        "Military"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "GRWildlands_Ach_1",
+            "name": "Fearless",
+            "description": "Skydived 10 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "GRWildlands_Ach_2",
+            "name": "Pull!",
+            "description": "Shot an enemy chopper out of the air with a mortar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "GRWildlands_Ach_3",
+            "name": "Road Warrior",
+            "description": "Drove a vehicle for 100 km.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 4,
+            "apiname": "GRWildlands_Ach_4",
+            "name": "Deadly Curious",
+            "description": "Interrogated 20 sources.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "GRWildlands_Ach_5",
+            "name": "Serious Collector",
+            "description": "Found 50% of the documents in the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "GRWildlands_Ach_6",
+            "name": "The Whole Story",
+            "description": "Found all documents.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 7,
+            "apiname": "GRWildlands_Ach_7",
+            "name": "Beat the Boss",
+            "description": "Defeated your first boss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "GRWildlands_Ach_8",
+            "name": "The End",
+            "description": "Finished the story.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "GRWildlands_Ach_9",
+            "name": "Smuggler's Blues",
+            "description": "Completed the Smuggling operation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "GRWildlands_Ach_10",
+            "name": "Shut Down",
+            "description": "Completed the Production operation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "GRWildlands_Ach_11",
+            "name": "Broken Locks",
+            "description": "Completed the Security operation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "GRWildlands_Ach_12",
+            "name": "Bad Reputation",
+            "description": "Completed the Influence operation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "GRWildlands_Ach_13",
+            "name": "Mission Master",
+            "description": "Completed all Story missions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 14,
+            "apiname": "GRWildlands_Ach_14",
+            "name": "With a Pistol!",
+            "description": "Took out a sniper with a pistol.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "GRWildlands_Ach_15",
+            "name": "Teamwork!",
+            "description": "Completed 3 missions with another player.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "GRWildlands_Ach_16",
+            "name": "A Good Start",
+            "description": "Completed the first mission \"Amaru's rescue\".",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 17,
+            "apiname": "GRWildlands_Ach_17",
+            "name": "Eye in the Sky",
+            "description": "Marked 100 enemies with a drone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 18,
+            "apiname": "GRWildlands_Ach_18",
+            "name": "Eagle-Eyed",
+            "description": "Marked 100 enemies with the binoculars.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 19,
+            "apiname": "GRWildlands_Ach_19",
+            "name": "Cluster Bomber",
+            "description": "Killed 7 enemies with a single C4 blast.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "GRWildlands_Ach_20",
+            "name": "A Better Mousetrap",
+            "description": "Killed 7 enemies with a single mine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "GRWildlands_Ach_21",
+            "name": "Legend Hunter",
+            "description": "Discovered one legend.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "GRWildlands_Ach_22",
+            "name": "Legendary Hunter",
+            "description": "Discovered all  legends.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 23,
+            "apiname": "GRWildlands_Ach_23",
+            "name": "Spice of Life",
+            "description": "Played each type of side mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "GRWildlands_Ach_24",
+            "name": "Highway Bandit",
+            "description": "Tagged 10 convoys.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "GRWildlands_Ach_25",
+            "name": "Ultimate Skill",
+            "description": "Bought all the upgrades of a Skill branch.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "GRWildlands_Ach_26",
+            "name": "Only the Best",
+            "description": "Bought all upgrades.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 27,
+            "apiname": "GRWildlands_Ach_27",
+            "name": "Top Drone",
+            "description": "Bought all drone-related upgrades.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "GRWildlands_Ach_28",
+            "name": "Heavy Medals",
+            "description": "Collected all the bonus medals.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "GRWildlands_Ach_29",
+            "name": "Rebel Sympathizer",
+            "description": "Unlocked a Rebel skill.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "GRWildlands_Ach_30",
+            "name": "Real Rebel",
+            "description": "Unlocked all the Rebel skills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "GRWildlands_Ach_31",
+            "name": "No Better Rebel",
+            "description": "Maxed out each Rebel skill.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "GRWildlands_Ach_32",
+            "name": "Shotguns Fanatic",
+            "description": "Collected all shotguns models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 33,
+            "apiname": "GRWildlands_Ach_33",
+            "name": "Handgun Fanatic",
+            "description": "Collected all handguns models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "GRWildlands_Ach_34",
+            "name": "The Champion",
+            "description": "Maxed out your XP and levels.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 35,
+            "apiname": "GRWildlands_Ach_35",
+            "name": "Long Shot",
+            "description": "Hit a target more than 400m away.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 36,
+            "apiname": "GRWildlands_Ach_36",
+            "name": "Death in the Dark",
+            "description": "Made a close-combat kill at night.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "GRWildlands_Ach_37",
+            "name": "Finished the Job",
+            "description": "Killed an enemy in close combat who was hurt by another player.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "GRWildlands_Ach_38",
+            "name": "Death from Above",
+            "description": "Killed an enemy with a drone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "GRWildlands_Ach_39",
+            "name": "Black-out Boomer",
+            "description": "Destroyed a generator with a C4 blast.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "GRWildlands_Ach_40",
+            "name": "Submachine-Gun Fanatic",
+            "description": "Collected all submachine-gun models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 41,
+            "apiname": "GRWildlands_Ach_41",
+            "name": "Light Machine-Gun Fanatic",
+            "description": "Collected all light machine-gun models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 42,
+            "apiname": "GRWildlands_Ach_42",
+            "name": "Sniper Rifle Fanatic",
+            "description": "Collected all sniper rifle models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 43,
+            "apiname": "GRWildlands_Ach_43",
+            "name": "Assault Rifle Fanatic",
+            "description": "Collected all assault rifle models.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 44,
+            "apiname": "GRWildlands_Ach_44",
+            "name": "Gang Leader",
+            "description": "Operation Narco Road: Kill One boss of the cartel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "GRWildlands_Ach_45",
+            "name": "El Visible",
+            "description": "Operation Narco Road: Kill the final target",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 46,
+            "apiname": "GRWildlands_Ach_46",
+            "name": "More Followers than Escobar",
+            "description": "Operation Narco Road: Fill the Followers Gauge of all regions to 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 47,
+            "apiname": "GRWildlands_Ach_47",
+            "name": "Scenic Route",
+            "description": "Narco Road: Go from Eddie's party villa to Arturo's bar in 8 minutes or less in a ground vehicle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 48,
+            "apiname": "GRWildlands_Ach_48",
+            "name": "Cristina",
+            "description": "Operation Narco Road: Kill 50 enemies with any gang's vehicle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "GRWildlands_Ach_49",
+            "name": "Mal Rodilla-Ternera",
+            "description": "Operation Narco Road: Complete an Electro™ challenge while freefalling",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "GRWildlands_Ach_50",
+            "name": "Brake a leg",
+            "description": "Operation Narco Road: Complete a trial without using the brakes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 51,
+            "apiname": "GRWildlands_Ach_51",
+            "name": "Kill list",
+            "description": "Fallen Ghosts: Kill one of each Extranjeros squad archetypes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 52,
+            "apiname": "GRWildlands_Ach_52",
+            "name": "A hero once, a hero twice",
+            "description": "Fallen Ghosts: complete the operation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 53,
+            "apiname": "GRWildlands_Ach_53",
+            "name": "Thorough supporter",
+            "description": "Fallen Ghosts: Complete every Rebel Op and Mission",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 54,
+            "apiname": "GRWildlands_Ach_54",
+            "name": "Rebel leader",
+            "description": "Fallen Ghosts: Complete a Final Rebel Op",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 55,
+            "apiname": "GRWildlands_Ach_55",
+            "name": "Tactical genius",
+            "description": "Fallen Ghosts: Blind yourself using the Flash Drone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 56,
+            "apiname": "GRWildlands_Ach_56",
+            "name": "Nondescript jungle hero",
+            "description": "Fallen Ghosts: Kill 10 Covert Ops Extranjeros using your knife",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 57,
+            "apiname": "GRWildlands_Ach_57",
+            "name": "Artisanal SAM",
+            "description": "Fallen Ghosts: Destroy an enemy helicopter using an explosive bolt.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        }
+    ]
+}
