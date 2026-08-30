@@ -294,6 +294,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("streets-of-rage-4"));
     assert.ok(slugs.includes("dawn-of-man"));
     assert.ok(slugs.includes("songs-of-syx"));
+    assert.ok(slugs.includes("risk-global-domination"));
+    assert.ok(slugs.includes("backpack-hero"));
+    assert.ok(slugs.includes("duck-game"));
 
 });
 

@@ -1,0 +1,517 @@
+{
+    "id": 1128810,
+    "steamAppId": 1128810,
+    "name": "RISK: Global Domination",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1128810/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Board Game",
+        "Strategy",
+        "Multiplayer",
+        "Turn-Based"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "card10",
+            "name": "Card Collector",
+            "description": "Turn in 10 sets of Territory cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "card50",
+            "name": "Card Connoisseur",
+            "description": "Turn in 50 sets of Territory cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "card100",
+            "name": "Full Deck",
+            "description": "Turn in 100 sets of Territory cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "defeat25",
+            "name": "Rising Star",
+            "description": "Defeat 25 computer or human players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "defeat50",
+            "name": "Unquenchable Thirst for Glory",
+            "description": "Defeat 50 computer or human players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "defeat100ai",
+            "name": "System Error",
+            "description": "Defeat 100 computer players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "defeat100human",
+            "name": "Cower Puny Humans",
+            "description": "Defeat 100 human players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "draft250",
+            "name": "Corps Creator",
+            "description": "Draft 250 troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "draft1000",
+            "name": "Battalion Builder",
+            "description": "Draft 1,000 troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "draft10000",
+            "name": "Army Assembler",
+            "description": "Draft 10,000 troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "troops1000",
+            "name": "1K Down",
+            "description": "Defeat 1,000 enemy troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "troops5000",
+            "name": "The Big 5-0-0-0",
+            "description": "Defeat 5,000 enemy troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "troops10000",
+            "name": "Take No Prisoners",
+            "description": "Defeat 10,000 enemy troops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "conquer5",
+            "name": "Short Holiday",
+            "description": "Conquer 5 territories in a single turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "conquer10",
+            "name": "Long Vacation",
+            "description": "Conquer 10 territories in a single turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "conquer15",
+            "name": "World Tour",
+            "description": "Conquer 15 territories in a single turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "defend5",
+            "name": "Shields Up",
+            "description": "Defend 5 attacks in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "defend10",
+            "name": "Stonewall",
+            "description": "Defend 10 attacks in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "defend15",
+            "name": "Impenetrable",
+            "description": "Defend 15 attacks in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "loseBeforeTurn",
+            "name": "Better Luck Next Time",
+            "description": "Be eliminated before your first turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "lose3",
+            "name": "Unlucky Streak",
+            "description": "Lose 3 games ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "lose10",
+            "name": "Slippery Slope",
+            "description": "Lose 10 games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "lose50",
+            "name": "Anti-Victor",
+            "description": "Lose 50 games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "lose3row",
+            "name": "Fourth time's a Charm",
+            "description": "Lose 3 games in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "beat5expertAIclassic",
+            "name": "The World is Yours",
+            "description": "Defeat 5 expert AIs in a single game of Classic World Domination Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "beat5expertAIfrance",
+            "name": "Magnifique",
+            "description": "Defeat 5 expert computer players in a single game of the French Revolution map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "win200",
+            "name": "Veteran",
+            "description": "Achieve 200 victories",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "winMPonline1",
+            "name": "World Debut",
+            "description": "Win 1 \"Play Online\" multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "winMPonline25",
+            "name": "Global Gamer",
+            "description": "Win 25 \"Play Online\" multiplayer games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "winMPonline50",
+            "name": "Planetary Player",
+            "description": "Win 50 \"Play Online\" multiplayer games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "winMPonline100",
+            "name": "International Champion",
+            "description": "Win 100 \"Play Online\" multiplayer games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "winSP1",
+            "name": "Solo Effort",
+            "description": "Win 1 single player game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "winSP25",
+            "name": "Make It On Your Own",
+            "description": "Win 25 single player games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "winSP50",
+            "name": "Army Of One",
+            "description": "Win 50 single player games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "winSP100",
+            "name": "Lone Wolf",
+            "description": "Win 100 single player games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "alliance1",
+            "name": "Friendship",
+            "description": "Form 1st alliance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "alliance25",
+            "name": "Peacemaker",
+            "description": "Form 25 alliances",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "alliance50",
+            "name": "Socialite",
+            "description": "Form 50 alliances",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "agreeAttackRequest10",
+            "name": "Wanna Rumble?",
+            "description": "Agree to 10 \"let's attack\" requests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "makeMPfriend",
+            "name": "Pen Pal",
+            "description": "Make one new global multiplayer friend",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "breakAlliance5",
+            "name": "No Strings Attached",
+            "description": "Break 5 alliances",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "playMPgame",
+            "name": "Making Connections",
+            "description": "Play an online multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "playGames100",
+            "name": "Fanatic",
+            "description": "Play 100 RISK games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "gameTurns15",
+            "name": "Long Engagement",
+            "description": "Compete in a game that lasts 15 turns or more",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "sameMap10",
+            "name": "Familiar Ground",
+            "description": "Play the same map 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "claimCardsEnemy50",
+            "name": "Spoils of War",
+            "description": "Claim 50 cards from defeated players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "holdTerritoryCards9",
+            "name": "Land Baron",
+            "description": "Hold 9 Territory cards at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "emojis10",
+            "name": "Smiley Face",
+            "description": "Express yourself through 10 Emojis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "rollSixes4",
+            "name": "Loaded Dice",
+            "description": "Roll 4 sixes in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "rollOnes4",
+            "name": "All Four One, One For All",
+            "description": "Roll 4 ones in a row",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "playDifferentAvatar5",
+            "name": "The Chameleon",
+            "description": "Play 5 games with different avatars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "clickPrivacyPolicy",
+            "name": "Private Eyes",
+            "description": "Click on privacy links",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "clickHelpTooltips",
+            "name": "Well Educated",
+            "description": "Tap on most of the help tooltips",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "startAutomatch",
+            "name": "Matchmaker",
+            "description": "Start a game using Automatch",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "purchaseThemePack",
+            "name": "Cashed Up",
+            "description": "Make an in-app purchase",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

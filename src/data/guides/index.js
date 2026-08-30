@@ -270,6 +270,9 @@ import { GUIDE as peakAchievementGuide } from "./games/peak.js";
 import { GUIDE as streetsOfRage4AchievementGuide } from "./games/streets-of-rage-4.js";
 import { GUIDE as dawnOfManAchievementGuide } from "./games/dawn-of-man.js";
 import { GUIDE as songsOfSyxAchievementGuide } from "./games/songs-of-syx.js";
+import { GUIDE as riskGlobalDominationAchievementGuide } from "./games/risk-global-domination.js";
+import { GUIDE as backpackHeroAchievementGuide } from "./games/backpack-hero.js";
+import { GUIDE as duckGameAchievementGuide } from "./games/duck-game.js";
 
 export const APP_GUIDES = [
 
@@ -562,7 +565,10 @@ export const GAME_GUIDES = [
     peakAchievementGuide,
     streetsOfRage4AchievementGuide,
     dawnOfManAchievementGuide,
-    songsOfSyxAchievementGuide
+    songsOfSyxAchievementGuide,
+    riskGlobalDominationAchievementGuide,
+    backpackHeroAchievementGuide,
+    duckGameAchievementGuide
 
 ];
 
