@@ -1,0 +1,690 @@
+{
+    "id": 246420,
+    "steamAppId": 246420,
+    "name": "Kingdom Rush",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/246420/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Tower Defense",
+        "Strategy",
+        "Fantasy",
+        "Casual",
+        "2D",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_HOME_IMPROVEMENT",
+            "name": "Home Improvement",
+            "description": "Upgrade all basic tower types to level3.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_STARRY",
+            "name": "Starry",
+            "description": "Earn 15 stars.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CONSTRUCTOR",
+            "name": "Constructor",
+            "description": "Build 30 towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_FIRST_BLOOD",
+            "name": "First Blood",
+            "description": "Kill one enemy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_BLOODLUST",
+            "name": "Bloodlust",
+            "description": "Kill 500 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_DARING",
+            "name": "Daring",
+            "description": "Call 10 waves early.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_WHATS_THAT",
+            "name": "What's that?",
+            "description": "Open 5 information cards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_ARMAGEDDON",
+            "name": "Armageddon",
+            "description": "Use Rain of Fire 5 times in a single stage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_SUPER_MARIO",
+            "name": "Super Mario",
+            "description": "Earn 30 stars.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_KILL_JT",
+            "name": "Is he dead yeti?",
+            "description": "Defeat J.T.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_ENGINEER",
+            "name": "Engineer",
+            "description": "Build 100 towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_SPECIALIST",
+            "name": "Specialist",
+            "description": "Build all 8 towers specializations.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_NUTS_AND_BOLTS",
+            "name": "Nuts and Bolts",
+            "description": "Defeat The Juggernaut",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_SLAYER",
+            "name": "Slayer",
+            "description": "Kill 2.500 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_DEATH_FROM_ABOVE",
+            "name": "Death from above",
+            "description": "Kill 100 enemies with meteor showers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_TACTICIAN",
+            "name": "Tactician",
+            "description": "Change soldiers' rally point 200 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_SUPERSTAR",
+            "name": "Superstar",
+            "description": "Earn 45 stars.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_THE_ARCHITECT",
+            "name": "The Architect",
+            "description": "Build 150 towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_FEARLESS",
+            "name": "Fearless",
+            "description": "Call all waves early in a single mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_TERMINATOR",
+            "name": "Terminator",
+            "description": "Kill 10.000 enemies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_DIE_HARD",
+            "name": "Die Hard",
+            "description": "Have your soldiers regenerate a total of 50.000 life.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_GI_JOE",
+            "name": "G.I. Joe",
+            "description": "Train 1.00 soldiers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CANNON_FODDER",
+            "name": "Cannon Fodder",
+            "description": "Send 1.000 soldiers to their deaths.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_REAL_ESTATE",
+            "name": "Real Estate",
+            "description": "Sell 30 towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_INDECISIVE",
+            "name": "Indecisive",
+            "description": "Sell 5 towers in a single mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_IMPATIENT",
+            "name": "Impatient",
+            "description": "Call a wave within 3 seconds of the icon showing up.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_FOREST_DIPLOMACY",
+            "name": "Forest Diplomacy",
+            "description": "Recruit max elves at The Silveroak Outpost.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_IMPERIAL_SAVIOUR",
+            "name": "Imperial Saviour",
+            "description": "Have at least 3 Imperial Guards survive in the Citadel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_HENDERSON",
+            "name": "Like a Henderson",
+            "description": "Free the sasquatch on the Icewind Pass.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_TWIN_RIVERS",
+            "name": "Twin Rivers Angler",
+            "description": "Catch a fish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_SHEPHERD",
+            "name": "Shepherd",
+            "description": "Polymorph 50 enemies into sheep.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_NOT_ENTERTAINED",
+            "name": "Are you not entertained?",
+            "description": "Have a single barbarian kill 10 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_ENTANGLED",
+            "name": "Entangled",
+            "description": "Hold 500 or more enemies with Wrath of the Forest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_MEDIC",
+            "name": "Medic!",
+            "description": "Have your Paladins heal a total of 7.000 life.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_HOLY_CHORUS",
+            "name": "Holy Chorus",
+            "description": "Have your Paladins perform 100 Holy Strikes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ACDC",
+            "name": "AC/DC",
+            "description": "Kill 300 enemies with electricity.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_CLUSTERED",
+            "name": "Clustered",
+            "description": "Drop 1.000 or more bomblets with the cluster bomb.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_ELEMENTALIST",
+            "name": "Elementalist",
+            "description": "Summon 5 rock elementals in any one stage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_ENERGY_NETWORK",
+            "name": "Energy Network",
+            "description": "Build 4 Tesla towers in any stage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_TOXICITY",
+            "name": "Toxicity",
+            "description": "Kill 50 enemies by poison damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_ROCKETEER",
+            "name": "Rocketeer",
+            "description": "Shoot 100 missiles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_SNIPER",
+            "name": "50 shots, 50 kills",
+            "description": "Snipe 50 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_AXE_RAIN",
+            "name": "Axe rain!",
+            "description": "Throw 500 or more axes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_OVINOPHOBIA",
+            "name": "Ovinophobia",
+            "description": "Kill 10 or more sheep with your hands.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_DUST_TO_DUST",
+            "name": "Dust to Dust!",
+            "description": "Disintegrate 50 or more enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_BEAM_ME_UP",
+            "name": "Beam me up, Scotty",
+            "description": "Teleport 250 or more enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_VEZNAN",
+            "name": "This is the end",
+            "description": "Defeat Vez'nan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_GREAT_DEFENDER",
+            "name": "Great Defender",
+            "description": "Complete the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_HEROIC",
+            "name": "Heroic Defender",
+            "description": "Complete all heroic stages.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_IRON",
+            "name": "Iron Defender",
+            "description": "Complete all iron stages.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_ARACHNOPHOBIA",
+            "name": "Arachnophobia",
+            "description": "Defeat Sarelgaz and its minions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_FREDO",
+            "name": "Free Fredo",
+            "description": "Help Fredo escape.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_ORCS",
+            "name": "Orcs must die",
+            "description": "Defeat Gul'Thak and its minions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_LUMBERJACK",
+            "name": "Lumberjack",
+            "description": "Defeat Greenmuck and its minions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_CHAMPION",
+            "name": "Champion of Linirea",
+            "description": "Train a hero up to level 5.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_LEGEND",
+            "name": "Legend of Linirea.",
+            "description": "Train a hero up to max level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_LAW",
+            "name": "I'am the law",
+            "description": "Do not let The Kingpin escape.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_COOLRUNNING",
+            "name": "Coolrunning",
+            "description": "Defeat 10 Troll Pathfinders while they're treading on ice.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_ACORN",
+            "name": "Scrat's Meal",
+            "description": "Find the elusive acorn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_PLANTS_TROLLS",
+            "name": "Plants vs Trolls",
+            "description": "Find the 5 legendary lost ice-shrooms.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_TROLL_BOSS",
+            "name": "Don't feed the troll",
+            "description": "Defeat Ulguk-Hai the Troll Warlord.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_DINEINHELL",
+            "name": "We dine in hell!",
+            "description": "Have your soldiers survive the explosion of 300 demons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_ARMYOFONE",
+            "name": "Army of One",
+            "description": "Defeat 9 legions before they replicate.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_KILLDEMON",
+            "name": "Hell-o!",
+            "description": "Defeat Moloch the Demon Overlord.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_KILLMUSHROOM",
+            "name": "Super Mushroom",
+            "description": "Defeat Myconid, the Rotten Fungus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_SPORE",
+            "name": "Spore",
+            "description": "Kill 25 Shrooms without them poisoning your soldiers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_STILLCOUNTSASONE",
+            "name": "Still counts as one",
+            "description": "Have your Elves deal 10000 points of damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_NEVERMORE",
+            "name": "Nevermore",
+            "description": "Capture the attention of the mysterious crow.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_NESSIE",
+            "name": "Nessie",
+            "description": "Discover the hidden monster under water.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_GOC",
+            "name": "Game of Crowns",
+            "description": "Defeat Lord Blackburn to avoid war between kingdoms.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_SPLINTER",
+            "name": "Cowabunga",
+            "description": "Find the ninja master rat.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_RATATOUILLE",
+            "name": "Ratatouille",
+            "description": "Kill 15 Wererats before they sicken any soldier.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_SUPREME_DEFENDER",
+            "name": "Supreme Defender",
+            "description": "Complete the campaign in Veteran mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_SUN_BURNER",
+            "name": "Sunburner!",
+            "description": "Fire the Sunray 20 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}

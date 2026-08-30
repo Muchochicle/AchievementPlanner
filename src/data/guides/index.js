@@ -450,6 +450,9 @@ import { GUIDE as steelDivision2AchievementGuide } from "./games/steel-division-
 import { GUIDE as cossacks3AchievementGuide } from "./games/cossacks-3.js";
 import { GUIDE as greyGooAchievementGuide } from "./games/grey-goo.js";
 import { GUIDE as spaceHulkDeathwingEnhancedAchievementGuide } from "./games/space-hulk-deathwing-enhanced.js";
+import { GUIDE as kingdomRushAchievementGuide } from "./games/kingdom-rush.js";
+import { GUIDE as defenseGrid2AchievementGuide } from "./games/defense-grid-2.js";
+import { GUIDE as planetaryAnnihilationTitansAchievementGuide } from "./games/planetary-annihilation-titans.js";
 
 export const APP_GUIDES = [
 
@@ -922,7 +925,10 @@ export const GAME_GUIDES = [
     steelDivision2AchievementGuide,
     cossacks3AchievementGuide,
     greyGooAchievementGuide,
-    spaceHulkDeathwingEnhancedAchievementGuide
+    spaceHulkDeathwingEnhancedAchievementGuide,
+    kingdomRushAchievementGuide,
+    defenseGrid2AchievementGuide,
+    planetaryAnnihilationTitansAchievementGuide
 
 ];
 

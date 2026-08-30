@@ -474,6 +474,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("cossacks-3"));
     assert.ok(slugs.includes("grey-goo"));
     assert.ok(slugs.includes("space-hulk-deathwing-enhanced"));
+    assert.ok(slugs.includes("kingdom-rush"));
+    assert.ok(slugs.includes("defense-grid-2"));
+    assert.ok(slugs.includes("planetary-annihilation-titans"));
 
 });
 

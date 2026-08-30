@@ -1,0 +1,609 @@
+{
+    "id": 221540,
+    "steamAppId": 221540,
+    "name": "Defense Grid 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/221540/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Tower Defense",
+        "Strategy",
+        "Sci-fi",
+        "Casual",
+        "Multiplayer",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "eradicator",
+            "name": "Eradicator",
+            "description": "Kill 100 aliens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "firstblood",
+            "name": "First Blood",
+            "description": "Kill 1 alien.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "annihilator",
+            "name": "Annihilator",
+            "description": "Kill 10,000 aliens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "exterminator",
+            "name": "Exterminator",
+            "description": "Kill 1000 aliens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "xenocide",
+            "name": "Xenocide",
+            "description": "Kill 50,000 aliens.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 6,
+            "apiname": "fieldpromotion",
+            "name": "Field Promotion",
+            "description": "Earn a silver (or better) medal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "flawlessvictory",
+            "name": "Flawless Victory",
+            "description": "Earn a Gold Medal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "salvagerights",
+            "name": "Salvage Rights",
+            "description": "Kill an alien boss creature. (Juggernaut, Rumbler, Turtle, or Crasher)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "liquidator",
+            "name": "Liquidator",
+            "description": "Sell 10 towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "surplus",
+            "name": "Surplus",
+            "description": "Win a mission with at least 1,000 resources remaining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "pennypincher",
+            "name": "Penny Pincher",
+            "description": "Win a mission with at least 5,000 resources remaining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "filthyrich",
+            "name": "Filthy Rich",
+            "description": "Win a mission with at least 10,000 resources remaining.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "arsenal",
+            "name": "Arsenal",
+            "description": "Build 20 towers of any type in one mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "fulldefense",
+            "name": "Full Defense",
+            "description": "Build 50 towers of any type in one mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "indecisive",
+            "name": "Indecisive",
+            "description": "Sell 10 towers or more in a single mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "happyreturns",
+            "name": "Happy Returns",
+            "description": "Recover a loose core.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "heythatsmine",
+            "name": "Hey! That's mine!",
+            "description": "Kill an alien carrying a power core.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "yellowbeatsgreen",
+            "name": "Yellow Beats Green",
+            "description": "Upgrade a level 1 tower to a level 2 tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "retry",
+            "name": "Retry",
+            "description": "Use the Reload Checkpoint option.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "retryagain",
+            "name": "If At First You Don't Succeed, Retry Again",
+            "description": "Use the reload checkpoint option five times in a single mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "leadhead",
+            "name": "Leadhead",
+            "description": "Build 100 Gun towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "burnbabyburn",
+            "name": "Burn Baby Burn",
+            "description": "Build 100 Inferno towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "pewpew",
+            "name": "Pew Pew",
+            "description": "Build 100 Laser towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "notsofast",
+            "name": "Not So Fast",
+            "description": "Build 100 Temporal towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "greatballoffire",
+            "name": "Great Ball of Fire",
+            "description": "Build 100 Meteor towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "highvoltage",
+            "name": "High Voltage",
+            "description": "Build 100 Tesla towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "kaboom",
+            "name": "Kaboom!",
+            "description": "Build 100 Cannon towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "thenotsofriendlyskies",
+            "name": "The Not-So-Friendly Skies",
+            "description": "Build 100 Missile towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "headtrauma",
+            "name": "Head Trauma",
+            "description": "Build 100 Concussion towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "wouldyoulikeaboostwiththat",
+            "name": "Would You Like a Boost With That?",
+            "description": "Build 100 Boost towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "deathfromabove",
+            "name": "Death From Above",
+            "description": "Use the Orbital Laser Special Weapon (General Cai).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "nofastblast",
+            "name": "No Fast Blast",
+            "description": "Use the Temporal Cannon Special Weapon (Colonel Rissler).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "moreplease",
+            "name": "More Please",
+            "description": "Use the Resource Reinforcement Special Weapon (Professor Briel).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "pumpeduptowers",
+            "name": "Pumped Up Towers",
+            "description": "Use the Tower Overcharge Special Weapon (Advisor Zacara).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "gotoyourhome",
+            "name": "Go To Your Home",
+            "description": "Use the Core Teleport special weapon (Professor Taylor).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "shootthatguy",
+            "name": "Shoot That Guy",
+            "description": "Use the Precision Targeting Special Weapon (Rear Admiral Phillips).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "towerexpert",
+            "name": "Tower Expert",
+            "description": "Build every tower and every upgrade for each tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "closecall",
+            "name": "Close Call",
+            "description": "Save a core that is less than 10 seconds away from the map's exit point.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "nosale",
+            "name": "No Sale",
+            "description": "Win any mission without selling any towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "diversity",
+            "name": "Diversity",
+            "description": "Build 1 of each tower type in any single mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "whatisthat",
+            "name": "What IS that?",
+            "description": "Inspect 10 aliens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "fullhouse",
+            "name": "Full House",
+            "description": "Build and fully upgrade each tower type in one mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "guncrazy",
+            "name": "Gun Crazy",
+            "description": "Using only Gun towers, Win any chapter 4 (or later) mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 44,
+            "apiname": "firebug",
+            "name": "Firebug",
+            "description": "Using only Inferno towers, Win any chapter 4 (or later) mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 45,
+            "apiname": "shellshocked",
+            "name": "Shell-shocked",
+            "description": "Using only Cannon towers, Win any chapter 4 (or later) mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 46,
+            "apiname": "minimalist",
+            "name": "Minimalist",
+            "description": "Using only level 1 towers, Win any Chapter 4 (or later) mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 47,
+            "apiname": "basedefender",
+            "name": "Base Defender",
+            "description": "Complete the single player campaign in Story Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "planetdefender",
+            "name": "Planet Defender",
+            "description": "Earn a silver medal (or better) on all missions in the Story mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "masterstrategist",
+            "name": "Master Strategist",
+            "description": "Earn 100 Gold Medals on any missions.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 50,
+            "apiname": "alientears",
+            "name": "Alien Tears",
+            "description": "Earn a gold medal on every mission in Story mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 51,
+            "apiname": "fullpotential",
+            "name": "Full Potential",
+            "description": "Win a chapter 4 (or later) mission with level 3 towers only and no selling.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "nowwithsprinkles",
+            "name": "Now With Sprinkles",
+            "description": "Enable a Tower Augmentation item on any tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "tenitemsnoless",
+            "name": "10 Items No Less",
+            "description": "Enable a Tower Augmentation Item on 10 Towers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "masterbuilder",
+            "name": "Master Builder",
+            "description": "Use the command shuttle to move 6 map sections in Mission 6.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "thepathmosttraveled",
+            "name": "The Path Most Traveled",
+            "description": "Win a Gold medal on mission 19 without using the Command Shuttle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "confident",
+            "name": "Confident",
+            "description": "Use the speed up control at 3x for a total of 60 seconds in any mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "thanksforplaying",
+            "name": "Thanks For Playing!",
+            "description": "Earn Bronze on a Single Player mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "warningshots",
+            "name": "Warning Shots",
+            "description": "Play a Competitive Multiplayer mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "winningshots",
+            "name": "Winning Shots",
+            "description": "Earn a Victory in a DG Fighter Multiplayer mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "brothersinarms",
+            "name": "Brothers in Arms",
+            "description": "Earn Bronze in a Co-Op Multiplayer mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "goteam",
+            "name": "Go Team!",
+            "description": "Earn Gold in a Co-Op Multiplayer mission.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "bootcamp",
+            "name": "Boot Camp",
+            "description": "Finish all the missions in Chapter 1 in Story Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "siegebreaker",
+            "name": "Siege Breaker",
+            "description": "Survive 100 waves on Grinder challenge mode on any mission.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 64,
+            "apiname": "mastersiegebreaker",
+            "name": "Master Siege Breaker",
+            "description": "Survive 100 waves on any Super Grinder challenge mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 180
+        },
+        {
+            "id": 65,
+            "apiname": "untouchable",
+            "name": "Untouchable",
+            "description": "Beat a Chapter 4 mission or higher with zero cores captured.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
