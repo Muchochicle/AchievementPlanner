@@ -369,6 +369,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("company-of-heroes-3"));
     assert.ok(slugs.includes("transport-fever-2"));
     assert.ok(slugs.includes("yooka-laylee"));
+    assert.ok(slugs.includes("mini-metro"));
+    assert.ok(slugs.includes("islanders"));
+    assert.ok(slugs.includes("unravel-two"));
 
 });
 

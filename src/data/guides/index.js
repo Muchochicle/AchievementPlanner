@@ -345,6 +345,9 @@ import { GUIDE as huntdownAchievementGuide } from "./games/huntdown.js";
 import { GUIDE as companyOfHeroes3AchievementGuide } from "./games/company-of-heroes-3.js";
 import { GUIDE as transportFever2AchievementGuide } from "./games/transport-fever-2.js";
 import { GUIDE as yookaLayleeAchievementGuide } from "./games/yooka-laylee.js";
+import { GUIDE as miniMetroAchievementGuide } from "./games/mini-metro.js";
+import { GUIDE as islandersAchievementGuide } from "./games/islanders.js";
+import { GUIDE as unravelTwoAchievementGuide } from "./games/unravel-two.js";
 
 export const APP_GUIDES = [
 
@@ -712,7 +715,10 @@ export const GAME_GUIDES = [
     huntdownAchievementGuide,
     companyOfHeroes3AchievementGuide,
     transportFever2AchievementGuide,
-    yookaLayleeAchievementGuide
+    yookaLayleeAchievementGuide,
+    miniMetroAchievementGuide,
+    islandersAchievementGuide,
+    unravelTwoAchievementGuide
 
 ];
 

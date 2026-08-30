@@ -1,0 +1,366 @@
+{
+    "id": 1046030,
+    "steamAppId": 1046030,
+    "name": "ISLANDERS",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1046030/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 8,
+        "max": 16
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "City Builder",
+        "Minimalist",
+        "Relaxing",
+        "Puzzle",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FINISH_FIRST_MATCH",
+            "name": "Newcomer",
+            "description": "Finish your first game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "SCORE_TOTAL_2000",
+            "name": "Mayor",
+            "description": "Earn 2,000 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "SCORE_TOTAL_10000",
+            "name": "King",
+            "description": "Earn 10,000 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "SCORE_TOTAL_20000",
+            "name": "Emperor",
+            "description": "Earn 20,000 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "BUILDINGS_TOTAL_100",
+            "name": "Builder",
+            "description": "Build 100 buildings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "BUILDINGS_TOTAL_500",
+            "name": "Constructor",
+            "description": "Build 500 buildings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "BUILDINGS_TOTAL_1000",
+            "name": "Architect",
+            "description": "Build 1000 buildings.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ISLANDS_TOTAL_10",
+            "name": "Traveler",
+            "description": "Explore 10 islands.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ISLANDS_TOTAL_20",
+            "name": "Adventurer",
+            "description": "Explore 20 islands.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ISLANDS_TOTAL_30",
+            "name": "Explorer",
+            "description": "Explore 30 islands.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "SCORE_MATCH_500",
+            "name": "Advanced",
+            "description": "Score 500 points in one match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "SCORE_MATCH_1500",
+            "name": "Professional",
+            "description": "Score 1,500 points in one match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "SCORE_MATCH_3000",
+            "name": "Expert",
+            "description": "Score 3,000 points in one match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "SPEEDRUN_FIRST_ISLAND_IN_90_SEC",
+            "name": "Sprinter",
+            "description": "Reach the 2nd island within 90 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "SPEEDRUN_SECOND_ISLAND_IN_240_SEC",
+            "name": "Athlete",
+            "description": "Reach the 3rd island within 4 minutes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ISLAND_REACH_2",
+            "name": "Settlement",
+            "description": "Reach the 2nd island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ISLAND_REACH_3",
+            "name": "Colony",
+            "description": "Reach the 3rd island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ISLAND_REACH_4",
+            "name": "Empire",
+            "description": "Reach the 4th island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "TEN_BUILDINGS_BUT_FINISH_WITH_0_SCORE",
+            "name": "Puzzle Solver",
+            "description": "Have exactly 100 points after placing a building.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "GET_A_TOTAL_OF_150_MINUS_POINTS_IN_ONE_MATCH",
+            "name": "Investor",
+            "description": "Lose a total of at least 100 points in one match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "BUILDING_WITH_25_PLUS_POINTS",
+            "name": "Nice Spot",
+            "description": "Earn 25 points from one building.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "BUILDING_WITH_50_PLUS_POINTS",
+            "name": "Brilliant Position",
+            "description": "Earn 50 points from one building.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "BUILDING_WITH_75_PLUS_POINTS",
+            "name": "Perfectly Placed",
+            "description": "Earn 75 points from one building.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "HAVE_12_OR_MORE_BUILDINGS_IN_INVENTORY",
+            "name": "Wealthy",
+            "description": "Have at least 12 buildings in your inventory at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "SCORE_1000_WITHOUT_MORE_THAN_6_BUILDINGS",
+            "name": "Slow Burn",
+            "description": "Reach a score of 1,000 without ever having more than 6 buildings in your inventory. (Individual buildings count!) Don't click the plus unless you have to.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 26,
+            "apiname": "SCORE_FIRST_ISLAND_800",
+            "name": "Islander",
+            "description": "Reach a score of 800 on the first island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ISLAND_REACH_21",
+            "name": "Conqueror",
+            "description": "Reach the 21st Island. ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 28,
+            "apiname": "ISLAND_REACH_10",
+            "name": "Master",
+            "description": "Reach the 10th Island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "PHOTO_ALL_COSMETICS",
+            "name": "Photographer",
+            "description": "Apply a filter, a frame and a sticker by using the Photo Mode. ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "SCORE_MATCH_10000",
+            "name": "Legend",
+            "description": " Score 10,000 points in one match.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ARCHIVE_ISLAND_10_BUILDINGS",
+            "name": "Guardian",
+            "description": "Save an Island with at least 10 buildings using the Island Archive.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "SCORE_15000_BEFORE_11_ISLAND",
+            "name": "Strategist",
+            "description": " Reach a score of 15,000 points before reaching the 11th Island.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 33,
+            "apiname": "BUILDINGS_200_TYPES_10_SANDBOX",
+            "name": "Mason",
+            "description": "Place 200 buildings with at least 10 different types in Sandbox Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ALL_BUILDINGS_HIGHSCORE",
+            "name": "Versatile",
+            "description": "Build all type of buildings on one island in Highscore Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "SHAMANS_3_ONE_NIGHT",
+            "name": "In the Darkness",
+            "description": "Build 3 Shamans during the same night in Highscore Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "SCORE_TOTAL_30000",
+            "name": "King of the World",
+            "description": "Earn 30,000 points",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 37,
+            "apiname": "SCORE_2000_SNOW_ISLAND",
+            "name": "Winter is Coming",
+            "description": "Score 2,000 points on a Snowy Island",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "TOWERS_4_NO_LOSS_POINTS",
+            "name": "Lord of the Towers",
+            "description": " Build 4 towers on an island without losing points between them in Highscore Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

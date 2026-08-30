@@ -1,0 +1,681 @@
+{
+    "id": 287980,
+    "steamAppId": 287980,
+    "name": "Mini Metro",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287980/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "Minimalist",
+        "Puzzle",
+        "Management",
+        "Relaxing",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "london1",
+            "name": "Oyster",
+            "description": "Deliver 200 passengers in London.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "paris1",
+            "name": "Navigo",
+            "description": "Deliver 200 passengers in Paris.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "nyc1",
+            "name": "MetroCard",
+            "description": "Deliver 200 passengers in New York.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "berlin1",
+            "name": "Monatskarten",
+            "description": "Deliver 200 passengers in Berlin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "hongkong1",
+            "name": "Octopus",
+            "description": "Deliver 200 passengers in Hong Kong.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "osaka1",
+            "name": "イコカ",
+            "description": "Deliver 500 passengers in Osaka.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "stpetersburg1",
+            "name": "Подорожник",
+            "description": "Deliver 500 passengers in Saint Petersburg.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "montreal1",
+            "name": "OPUS",
+            "description": "Deliver 500 passengers in Montréal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "saopaulo1",
+            "name": "Bilhete Único",
+            "description": "Deliver 500 passengers in São Paulo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "cairo1",
+            "name": "ركاب",
+            "description": "Deliver 500 passengers in Cairo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "auckland1",
+            "name": "Hop",
+            "description": "Deliver 600 passengers in Auckland.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "london2",
+            "name": "Thames Tunnel",
+            "description": "Deliver 1000 passengers in London using no more than one tunnel.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 13,
+            "apiname": "paris2",
+            "name": "City of Lines",
+            "description": "Deliver 1300 passengers in Paris using no more than three lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "nyc2",
+            "name": "Square Times",
+            "description": "Deliver 1600 passengers in New York City with square stations on no more than two lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "berlin2",
+            "name": "The Grey Lokomotive",
+            "description": "Deliver 1000 passengers in Berlin using no more than one locomotive per line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "hongkong2",
+            "name": "Hong Kong Eights",
+            "description": "Deliver 1100 passengers in Hong Kong with no more than eight stations per line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "osaka2",
+            "name": "Ten weeks in Osaka",
+            "description": "Reach week ten in Osaka.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "stpetersburg2",
+            "name": "Neva the Great",
+            "description": "Deliver 1500 passengers in Saint Petersburg with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "montreal2",
+            "name": "Green and orange and yellow and blue",
+            "description": "Deliver 1600 passengers in Montréal using no more than four lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "saopaulo2",
+            "name": "São Paulo Grand Prix",
+            "description": "Deliver 1200 passengers in São Paulo using only loops.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "cairo2",
+            "name": "The City of Six Carriages",
+            "description": "Deliver 1400 passengers in Cairo using no more than one carriage per line.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 22,
+            "apiname": "auckland2",
+            "name": "Second Harbor Crossing",
+            "description": "Deliver 1500 passengers in Auckland using no more than two tunnels.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "melbourne1",
+            "name": "myki",
+            "description": "Deliver 300 passengers in Melbourne.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "melbourne2",
+            "name": "Hook Turn",
+            "description": "Deliver 1000 passengers in Melbourne with at least one station connected to all lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "dailychallengeoneday",
+            "name": "Day trip",
+            "description": "Post a score in a daily challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "dailychallengeoneweek",
+            "name": "Commuter",
+            "description": "Post a score in the daily challenge every weekday for one week.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 27,
+            "apiname": "sanfrancisco1",
+            "name": "Clipper",
+            "description": "Deliver 500 passengers in San Francisco.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "sanfrancisco2",
+            "name": "Don't Have a Cow, Man",
+            "description": "Reach week nine in San Francisco.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "seoul1",
+            "name": "T-money",
+            "description": "Deliver 500 passengers in Seoul.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "seoul2",
+            "name": "Seoul Train",
+            "description": "Deliver 1400 passengers in Seoul with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "shanghai1",
+            "name": "交通一卡通",
+            "description": "Deliver 500 passengers in Shanghai.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "shanghai2",
+            "name": "Shanglow? Shanghai!",
+            "description": "Deliver 1200 passengers in Shanghai with at least one station connected to all lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "washingtondc1",
+            "name": "SmarTrip",
+            "description": "Deliver 500 passengers in Washington, D.C.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "washingtondc2",
+            "name": "Money Train",
+            "description": "Deliver 2100 passengers in Washington, D.C.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "istanbul1",
+            "name": "Istanbulkart",
+            "description": "Deliver 500 passengers in Istanbul.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "istanbul2",
+            "name": "Marmaray",
+            "description": "Deliver 1500 passengers in Istanbul using no more than one tunnel.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 37,
+            "apiname": "mumbai1",
+            "name": "स्मार्टकार्ड",
+            "description": "Deliver 500 passengers in Mumbai.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "mumbai2",
+            "name": "Elaborate Dance Number",
+            "description": "Reach week nine in Mumbai.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "stockholm1",
+            "name": "SL Access",
+            "description": "Deliver 500 passengers in Stockholm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "stockholm2",
+            "name": "Centralen",
+            "description": "Reach week eight in Stockholm with at least one station connected to all lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "singapore1",
+            "name": "EZ-Link",
+            "description": "Deliver 500 passengers in Singapore.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "singapore2",
+            "name": "Circle Line",
+            "description": "Deliver 1600 passengers in Singapore using no more than one loop.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 43,
+            "apiname": "london3",
+            "name": "Earl Grey",
+            "description": "Deliver 1000 passengers in London.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "nyc3",
+            "name": "Mustard and Sauerkraut",
+            "description": "Deliver 1000 passengers in New York City.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "paris3",
+            "name": "Baguette Tradition",
+            "description": "Deliver 1000 passengers in Paris.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "guangzhou1",
+            "name": "羊城通",
+            "description": "Deliver 500 passengers in Guangzhou.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "guangzhou2",
+            "name": "City of Rams",
+            "description": "Deliver 1500 passengers in Guangzhou with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "barcelona1",
+            "name": "T-Mobilitat",
+            "description": "Deliver 500 passengers in Barcelona.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "barcelona2",
+            "name": "This perfect dream",
+            "description": "Deliver 1200 passengers in Barcelona with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "santiago1",
+            "name": "Bip!",
+            "description": "Deliver 500 passengers in Santiago.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "santiago2",
+            "name": "Mapu chuco",
+            "description": "Deliver 1500 passengers in Santiago using no more than one tunnel.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 52,
+            "apiname": "lagos1",
+            "name": "Lagos Connect",
+            "description": "Deliver 500 passengers in Lagos.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "lagos2",
+            "name": "Mainland to Island",
+            "description": "Deliver 1200 passengers in Lagos with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "chicago1",
+            "name": "Ventra",
+            "description": "Deliver 500 passengers in Chicago.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "chicago2",
+            "name": "106 miles",
+            "description": "Deliver 1400 passengers in Chicago with no more than eight stations per line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "chongqing1",
+            "name": "宜居畅通卡",
+            "description": "Deliver 500 passengers in Chongqing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "chongqing2",
+            "name": "Fog City",
+            "description": "Deliver 1800 passengers in Chongqing using no more than one loop.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 58,
+            "apiname": "budapest1",
+            "name": "Elektra",
+            "description": "Deliver 400 passengers in Budapest.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "budapest2",
+            "name": "From Buda to Pest and back again",
+            "description": "Deliver 1200 passengers in Budapest using no more than two tunnels.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "addisababa1",
+            "name": "የአዲስ አበባ ቀላል ባቡር",
+            "description": "Deliver 500 passengers in Addis Ababa.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "addisababa2",
+            "name": "Bean there done that",
+            "description": "Deliver 1800 passengers in Addis Ababa using only loops.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "nanjing1",
+            "name": "金陵通",
+            "description": "Deliver 500 passengers in Nanjing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "nanjing2",
+            "name": "Zijin Shan",
+            "description": "Deliver 1600 passengers in Nanjing using no more than one loop.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 64,
+            "apiname": "tashkent1",
+            "name": "ATTO",
+            "description": "Deliver 500 passengers in Tashkent.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "tashkent2",
+            "name": "It's about the journey",
+            "description": "Deliver 1600 passengers in Tashkent with tunnels on no more than one line.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "boston1",
+            "name": "CharlieCard",
+            "description": "Deliver 400 passengers in Boston.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "boston2",
+            "name": "Four ways to Fenway",
+            "description": "Deliver 1600 passengers in Boston using no more than four lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "warsaw1",
+            "name": "WKM",
+            "description": "Deliver 300 passengers in Warsaw.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "warsaw2",
+            "name": "Warsaw Tourist",
+            "description": "Deliver 1600 passengers in Warsaw using no more than one loop.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 70,
+            "apiname": "lisbon1",
+            "name": "Navegante",
+            "description": "Deliver 400 passengers in Lisbon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "lisbon2",
+            "name": "Lisbon Tourist",
+            "description": "Deliver 1400 passengers in Lisbon using no more than four lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "tokyo1",
+            "name": "Pasmo",
+            "description": "Deliver 500 passengers in Tokyo.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "tokyo2",
+            "name": "Tokyo Tourist",
+            "description": "Deliver 1200 passengers in Tokyo with at least one station connected to all lines.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
