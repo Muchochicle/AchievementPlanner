@@ -417,6 +417,9 @@ import { GUIDE as homeworldRemasteredAchievementGuide } from "./games/homeworld-
 import { GUIDE as lifeIsStrangeAchievementGuide } from "./games/life-is-strange.js";
 import { GUIDE as theWolfAmongUsAchievementGuide } from "./games/the-wolf-among-us.js";
 import { GUIDE as talesFromTheBorderlandsAchievementGuide } from "./games/tales-from-the-borderlands.js";
+import { GUIDE as gameOfThronesTelltaleAchievementGuide } from "./games/game-of-thrones-telltale.js";
+import { GUIDE as lifeIsStrangeBeforeTheStormAchievementGuide } from "./games/life-is-strange-before-the-storm.js";
+import { GUIDE as theWalkingDeadSeasonTwoAchievementGuide } from "./games/the-walking-dead-season-two.js";
 
 export const APP_GUIDES = [
 
@@ -856,7 +859,10 @@ export const GAME_GUIDES = [
     homeworldRemasteredAchievementGuide,
     lifeIsStrangeAchievementGuide,
     theWolfAmongUsAchievementGuide,
-    talesFromTheBorderlandsAchievementGuide
+    talesFromTheBorderlandsAchievementGuide,
+    gameOfThronesTelltaleAchievementGuide,
+    lifeIsStrangeBeforeTheStormAchievementGuide,
+    theWalkingDeadSeasonTwoAchievementGuide
 
 ];
 
