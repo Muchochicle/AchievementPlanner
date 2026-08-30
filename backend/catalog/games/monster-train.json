@@ -1,0 +1,499 @@
+{
+    "id": 1102190,
+    "steamAppId": 1102190,
+    "name": "Monster Train",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1102190/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Deckbuilder",
+        "Roguelike",
+        "Strategy",
+        "Tower Defense"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_PLAY_IMP",
+            "name": "S-imp-le!",
+            "description": "Play an Imp card.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_BEAT_LEVEL1_BOSS",
+            "name": "Early Survivor",
+            "description": "Defeat the first boss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_LEVEL_UP",
+            "name": "Level Up!",
+            "description": "Level up any clan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_DAILY_CHALLENGE",
+            "name": "Is That a Challenge?",
+            "description": "Start a Daily Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_LOSE_RUN",
+            "name": "You Died!",
+            "description": "Lose a run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_CLASS1_LEVEL5",
+            "name": "The Breaker of Horns",
+            "description": "Reach Level 5 on The Hellhorned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CLASS1_LEVEL10",
+            "name": "Hellhorned Dominance",
+            "description": "Reach Level 10 on The Hellhorned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_CLASS2_LEVEL5",
+            "name": "A Semblance of Sentience",
+            "description": "Reach Level 5 on The Awoken.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_CLASS2_LEVEL10",
+            "name": "Fully Awakened",
+            "description": "Reach Level 10 on The Awoken.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_CLASS3_LEVEL5",
+            "name": "A Vicarious Remnant",
+            "description": "Reach Level 5 on The Melting Remnant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_CLASS3_LEVEL10",
+            "name": "An Endless Flicker",
+            "description": "Reach Level 10 on The Melting Remnant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_CLASS4_LEVEL5",
+            "name": "Guardian of the Styx",
+            "description": "Reach Level 5 on The Stygian Guard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_CLASS4_LEVEL10",
+            "name": "Stygian Defender",
+            "description": "Reach Level 10 on The Stygian Guard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_CLASS5_LEVEL5",
+            "name": "A Wisp Reanimated",
+            "description": "Reach Level 5 on The Umbra.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_CLASS5_LEVEL10",
+            "name": "Penultimate",
+            "description": "Reach Level 10 on The Umbra.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_LEVEL10_ALL",
+            "name": "Igniter of Pyre, Savior of Hell",
+            "description": "Achieve max level on all clans.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_CLASS1_COVENANTS",
+            "name": "The Hellhorned",
+            "description": "Win a run with all covenants enabled on The Hellhorned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_CLASS2_COVENANTS",
+            "name": "The Awoken",
+            "description": "Win a run with all covenants enabled on The Awoken.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_CLASS3_COVENANTS",
+            "name": "The Melting Remnant",
+            "description": "Win a run with all covenants enabled on The Melting Remnant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CLASS4_COVENANTS",
+            "name": "The Stygian Guard",
+            "description": "Win a run with all covenants enabled on The Stygian Guard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_CLASS5_COVENANTS",
+            "name": "The Umbra",
+            "description": "Win a run with all covenants enabled on The Umbra.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_WIN_NO_BLESSINGS",
+            "name": "Only Determination",
+            "description": "Win a run without collecting any artifacts.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_BEAT_LEVEL6_BOSS",
+            "name": "Angel Hunter",
+            "description": "Defeat Fel.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_BEAT_LEVEL8_BOSS",
+            "name": "Seraph the Defeated",
+            "description": "Defeat Seraph.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_CUSTOM_CHALLENGE",
+            "name": "My Game, My Rules",
+            "description": "Create a Custom Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_CHAMPION_UPGRADE_TWICE",
+            "name": "Upgraded Champion",
+            "description": "Upgrade your Champion twice.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_DAILY_CHALLENGE_TIER1",
+            "name": "Trainee of the Pyre",
+            "description": "Score at least 30,000 points in a Daily Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_DAILY_CHALLENGE_TIER2",
+            "name": "Apprentice of the Pyre",
+            "description": "Score at least 40,000 points in a Daily Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_DAILY_CHALLENGE_TIER3",
+            "name": "Master of the Pyre",
+            "description": "Score at least 50,000 points in a Daily Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MONSTER_BIG_DAMAGE",
+            "name": "Hell’s Finest",
+            "description": "Have a monster deal at least 60 damage in one hit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_SPELL_BIG_DAMAGE",
+            "name": "All Brain, No Brawn",
+            "description": "Have a spell deal at least 120 damage in one hit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_EVENT_DANTE",
+            "name": "Dante’s Inferno",
+            "description": "Recruit Dante the Deceptive. Triggered by a cavern event where you're offered 3 Candle cards that damage your own Pyre unless played each turn - survive long enough carrying them and Dante rewards you with his cloak and his unit card.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_EVENT_HIDDEN_UPGRADE",
+            "name": "It’s a Secret...",
+            "description": "Triggered by a cavern event depicting the remains of a battlefield, where you're given a Purge card. Don't use that Purge card for 2 full battles, and a follow-up event appears granting the \"Hope for Peace\" artifact - a rare flower reward.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_EVENT_PICKPOCKET",
+            "name": "Thief! Stop!",
+            "description": "First, get the 'Petty Thief' card from a cavern event. Later in the same run, find a different cavern event that asks you to sacrifice life for money - with Petty Thief in hand, a third dialogue option appears letting you discard it for gold instead of paying with life.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_ASCENSION_TIER1",
+            "name": "The Long Journey Begins",
+            "description": "Win a run at Covenant 5.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ASCENSION_TIER2",
+            "name": "The Devil is in the Details",
+            "description": "Win a run at Covenant 10.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_ASCENSION_TIER3",
+            "name": "Hell Hath No Fury",
+            "description": "Win a run at Covenant 15.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_ASCENSION_TIER4",
+            "name": "We Were Born of Monsters",
+            "description": "Win a run at Covenant 25.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_WIN_FEW_CARDS",
+            "name": "The Ragtag Bunch",
+            "description": "Win a run with 10 or fewer cards at the end of the run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_WIN_MANY_CARDS",
+            "name": "A Cramped Train",
+            "description": "Win a run with at least 40 cards at the end of the run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_CLASS3_UNLOCK",
+            "name": "Guided by Candles",
+            "description": "Unlock The Melting Remnant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_CLASS4_UNLOCK",
+            "name": "Into the Deep Sea",
+            "description": "Unlock The Stygian Guard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_CLASS5_UNLOCK",
+            "name": "Diabolical Automation",
+            "description": "Unlock The Umbra.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_VIEW_CREDITS",
+            "name": "Creators of Hell",
+            "description": "View the credits.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_BOTHER_SHOPKEEPER",
+            "name": "Buy Something, Won't You?",
+            "description": "Spam-click the shopkeeper NPC in the shop screen repeatedly until the achievement pops - purely an easter egg with no in-run cost.",
+            "difficulty": 3,
+            "missable": true,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_DEFEAT_BIGBOSS1_EARLY",
+            "name": "Dead-alus",
+            "description": "Defeat Daedalus before his combat phase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_DEFEAT_BIGBOSS2_EARLY",
+            "name": "Li-Fel-less",
+            "description": "Defeat Fel before her combat phase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_DEFEAT_BIGBOSS3_EARLY",
+            "name": "Sans Seraph",
+            "description": "Defeat Seraph before his combat phase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_WIN_ZERO_CARDS",
+            "name": "How to Deckbuilder",
+            "description": "Win a run with 0 cards at the end of the run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_WIN_NO_CHAMPION",
+            "name": "On Your Own",
+            "description": "Win a run without a Champion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_WIN_GOOGLY_EYES",
+            "name": "20/20 Vision",
+            "description": "Win a run with googly eyes enabled.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_DEFEAT_BIGBOSS1_VARIANT_EARLY",
+            "name": "Ta-ta Talos",
+            "description": "Defeat Talos before her combat phase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_DEFEAT_BIGBOSS2_VARIANT_EARLY",
+            "name": "Archpocalypse",
+            "description": "Defeat Archus before his combat phase.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

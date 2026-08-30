@@ -252,6 +252,9 @@ import { GUIDE as shovelKnightAchievementGuide } from "./games/shovel-knight.js"
 import { GUIDE as insurgencyAchievementGuide } from "./games/insurgency.js";
 import { GUIDE as tromboneChampAchievementGuide } from "./games/trombone-champ.js";
 import { GUIDE as chivalryMedievalWarfareAchievementGuide } from "./games/chivalry-medieval-warfare.js";
+import { GUIDE as warframeAchievementGuide } from "./games/warframe.js";
+import { GUIDE as monsterTrainAchievementGuide } from "./games/monster-train.js";
+import { GUIDE as wildfrostAchievementGuide } from "./games/wildfrost.js";
 
 export const APP_GUIDES = [
 
@@ -526,7 +529,10 @@ export const GAME_GUIDES = [
     shovelKnightAchievementGuide,
     insurgencyAchievementGuide,
     tromboneChampAchievementGuide,
-    chivalryMedievalWarfareAchievementGuide
+    chivalryMedievalWarfareAchievementGuide,
+    warframeAchievementGuide,
+    monsterTrainAchievementGuide,
+    wildfrostAchievementGuide
 
 ];
 
