@@ -414,6 +414,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("alan-wake"));
     assert.ok(slugs.includes("spec-ops-the-line"));
     assert.ok(slugs.includes("sniper-elite-v2"));
+    assert.ok(slugs.includes("half-life-2-episode-one"));
+    assert.ok(slugs.includes("half-life-2-episode-two"));
+    assert.ok(slugs.includes("trine-enchanted-edition"));
 
 });
 

@@ -390,6 +390,9 @@ import { GUIDE as doom3AchievementGuide } from "./games/doom-3.js";
 import { GUIDE as alanWakeAchievementGuide } from "./games/alan-wake.js";
 import { GUIDE as specOpsTheLineAchievementGuide } from "./games/spec-ops-the-line.js";
 import { GUIDE as sniperEliteV2AchievementGuide } from "./games/sniper-elite-v2.js";
+import { GUIDE as halfLife2EpisodeOneAchievementGuide } from "./games/half-life-2-episode-one.js";
+import { GUIDE as halfLife2EpisodeTwoAchievementGuide } from "./games/half-life-2-episode-two.js";
+import { GUIDE as trineEnchantedEditionAchievementGuide } from "./games/trine-enchanted-edition.js";
 
 export const APP_GUIDES = [
 
@@ -802,7 +805,10 @@ export const GAME_GUIDES = [
     doom3AchievementGuide,
     alanWakeAchievementGuide,
     specOpsTheLineAchievementGuide,
-    sniperEliteV2AchievementGuide
+    sniperEliteV2AchievementGuide,
+    halfLife2EpisodeOneAchievementGuide,
+    halfLife2EpisodeTwoAchievementGuide,
+    trineEnchantedEditionAchievementGuide
 
 ];
 
