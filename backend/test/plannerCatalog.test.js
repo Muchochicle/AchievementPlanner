@@ -408,6 +408,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("grand-theft-auto-iv"));
     assert.ok(slugs.includes("skyrim"));
     assert.ok(slugs.includes("dark-souls-remastered"));
+    assert.ok(slugs.includes("max-payne-3"));
+    assert.ok(slugs.includes("nioh-complete-edition"));
+    assert.ok(slugs.includes("doom-3"));
 
 });
 

@@ -1,0 +1,627 @@
+{
+    "id": 204100,
+    "steamAppId": 204100,
+    "name": "Max Payne 3",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204100/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 35,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Third-Person Shooter",
+        "Action",
+        "Story-Rich",
+        "Noir",
+        "Cinematic",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SP_SERIOUS_PAYNE",
+            "name": "Serious Payne",
+            "description": "Story Complete [HARD]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "SP_MAXIMUM_PAYNE",
+            "name": "Maximum Payne",
+            "description": "Story Complete [OLD SCHOOL]",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 3,
+            "apiname": "SP_FEEL_THE_PAYNE",
+            "name": "Feel The Payne",
+            "description": "Story Complete [MEDIUM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "SP_FEELS_NO_PAYNE",
+            "name": "Payne In The Ass",
+            "description": "Story Complete [HARDCORE]",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 5,
+            "apiname": "SP_PINEAPPLE_EXPRESS",
+            "name": "You Might Hurt Someone With That",
+            "description": "Shoot 10 Airborne Grenades",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "SP_OLD_PAINLESS",
+            "name": "The Fear Of Losing It",
+            "description": "Survive A Level Without Painkillers",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 7,
+            "apiname": "SPMP_DODGE_THIS",
+            "name": "You Play, You Pay, You Bastard",
+            "description": "100 Kills With Melee ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "SP_ADDICTION",
+            "name": "Past The Point Of No Return ",
+            "description": "Take 100 Painkillers",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "SP_GUNS_LOTS_OF_GUNS",
+            "name": "A Few Hundred Bullets Back",
+            "description": "Use Every Weapon In The Game",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "SP_PART_I_COMPLETE",
+            "name": "Part I Complete",
+            "description": "Complete Part I Of The Story",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "SP_PART_II_COMPLETE",
+            "name": "Part II Complete",
+            "description": "Complete Part II Of The Story",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "SP_PART_III_COMPLETE",
+            "name": "Part III Complete",
+            "description": "Complete Part III Of The Story",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "SP_ALONG_FOR_THE_RIDE",
+            "name": "Along For The Ride",
+            "description": "Trigger A Bullet Cam On The Zipline [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "SP_OUT_THE_WINDOW",
+            "name": "Out The Window",
+            "description": "Get 6 Kills While Diving Through The VIP Window [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "SP_THE_ONE_EYED_MAN_IS_KING",
+            "name": "The One Eyed Man Is King",
+            "description": "Cover Passos With Perfect Aim",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "SP_THAT_OLD_FAMILIAR_FEELING",
+            "name": "That Old Familiar Feeling",
+            "description": "Clear The Hallway Of Lasers",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "SP_AMIDST_THE_WRECKAGE",
+            "name": "Amidst The Wreckage",
+            "description": "Destroy All The Models In The Boardroom",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "SP_SO_MUCH_FOR_BEING_SUBTLE",
+            "name": "So Much For Being Subtle",
+            "description": "Get 9 Kills While Being Pulled By A Chain [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "SP_DEATH_IS_INEVITABLE",
+            "name": "The Only Choice Given",
+            "description": "Get 8 Kills While Dangling From A Chain [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "SP_IT_WAS_CHAOS_AND_LUCK",
+            "name": "It Was Chaos And Luck",
+            "description": "Get 6 Kills While Riding The Push Cart [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "SP_THERE_IS_NO_SPOON",
+            "name": "It's Fear That Gives Men Wings",
+            "description": "10 Bullet Time® Kills In A Row ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "SP_SOMETIMES_YOU_GET_LUCKY",
+            "name": "Sometimes You Get Lucky",
+            "description": "Get A Headshot During The Rooftop Tremors",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "SP_THE_ROAD_KILL_BEHIND_ME",
+            "name": "The Road-Kill Behind Me",
+            "description": "Total Everything On The Runway",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "SP_TROUBLE_HAD_COME_TO_ME",
+            "name": "Trouble Had Come To Me",
+            "description": "Clear Everyone On The Bus Ride",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "SP_ONE_BULLET_AT_A_TIME",
+            "name": "Something Wicked This Way Comes",
+            "description": "Get 7 Kills While Jumping From The Rickety Boat [FREE AIM]",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "ALL_GRINDS_COMPLETE",
+            "name": "All Of The Above",
+            "description": "Finish All Single Player Grinds",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 27,
+            "apiname": "GOLDTRIGGER",
+            "name": "A License To Kill",
+            "description": "Collect All Golden Guns",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "SP_A_BULLET_ALWAYS_TELLS_THE_TRUTH",
+            "name": "One Bullet At A Time",
+            "description": "300 Headshots",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 29,
+            "apiname": "SPMP_IM_TOO_OLD_FOR_THIS",
+            "name": "With Practiced Bravado",
+            "description": "100 Kills During Shootdodge",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "SP_THE_GUNSHOT_HOLDS_NO_FEAR",
+            "name": "Colder Than The Devil's Heart",
+            "description": "Kill 30 Enemies In 2 Minutes",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "NEW_YORK_MINUTE",
+            "name": "A New York Minute",
+            "description": "Finish In A New York Minute",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 32,
+            "apiname": "FULL_MONTY",
+            "name": "Full Monty",
+            "description": "Complete One Of Each Game Mode Including All Gang Wars",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "PAYNE_BRINGER",
+            "name": "Payne Bringer",
+            "description": "Kill 100 Other Players",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "GRAVE_ROBBER",
+            "name": "Grave Robber ",
+            "description": "Looted A Body",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "THE_GAMBLER",
+            "name": "The Gambler",
+            "description": "Won A Wager",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "SWEEP",
+            "name": "Sweep",
+            "description": "Flawless Team Gang Wars Victory",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "TRAINING_COMPLETE",
+            "name": "Training Complete",
+            "description": "Achieve Level Rank 50",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "DEATHMATCH_CHALLENGE",
+            "name": "Deathmatch Challenge",
+            "description": "Winner In Any Public Deathmatch",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "MAN_OF_MANY_FACES",
+            "name": "Man Of Many Faces",
+            "description": "Unlock All Faction Characters",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "MAN_OF_MANY_WEAPONS",
+            "name": "Man Of Many Weapons",
+            "description": "Unlock All Weapons",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "MAX_PAYNE_INVITATIONAL",
+            "name": "Max Payne Invitational",
+            "description": "Invite someone to play through the in-game contact list",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "SP_HARDCORE_NEW_YORK_MINUTE",
+            "name": "The Shadows Rushed Me",
+            "description": "Unlock And Complete New York Minute Hardcore",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "AM_I_NOT_MERCYFUL",
+            "name": "You Push A Man Too Far",
+            "description": "Don't Shoot The Dis-Armed Man",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "COP_WORK",
+            "name": "An Echo Of The Past",
+            "description": "Find All Clues",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "SP_THE_PRIVATE_AND_THE_DICK",
+            "name": "Sure Know How To Pick A Place",
+            "description": "Discover All Tourist Locations",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "DEAREST_OF_ALL_MY_FRIENDS",
+            "name": "Dearest Of All My Friends",
+            "description": "Kill Someone On Your Friends List",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "DLC2_AIR_ACE",
+            "name": "Air Ace",
+            "description": "Get 2 kills in a single Shootdodge in the Departure Lounge",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "DLC2_EXPRESS_CHECKOUT",
+            "name": "Express Checkout",
+            "description": "Kill 4 players within 3 seconds in the Imperial Palace",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "DLC2_LONG_ARM_LAW",
+            "name": "Long Arm of the Law",
+            "description": "Win 20 Vendettas in the 55th Battalion HQ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "DLC2_M4_MURDER",
+            "name": "M4 Murder",
+            "description": "Level up your M4 Assault all the way to level 10",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "DLC2_NOSE_CLEAN",
+            "name": "Keep Your Nose Clean",
+            "description": "Get 100 Kills as a member of the SPP",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "DLC5_OLD_SCHOOL_MOVES",
+            "name": "Old School Moves",
+            "description": "Perform a 720 spin while prone in Nightclub",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 53,
+            "apiname": "DLC4_EARLY_ADOPTER",
+            "name": "Early Adopter",
+            "description": "In a single game, kill the same player with both the M24 and the IA2 AR",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "DLC4_WMD",
+            "name": "WMD",
+            "description": "Get 3 kills from a single use of the level 3 explosives burst",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "DLC4_60_SECONDS_OF_INTIMIDATION",
+            "name": "60 Seconds of Intimidation",
+            "description": "Grind 60 Seconds of Intimidation on enemy players",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "DLC5_LONG_ARM_LAWLESS",
+            "name": "Long Arm of the Lawless",
+            "description": "Kill Max Payne in Panama as the De Marcos",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "DLC5_BAR_BRAWLER",
+            "name": "Bar Brawler",
+            "description": "Kill someone with a melee strike in the Bar area of Hoboken Bar",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "DLC5_OUCH_MY_HEAD",
+            "name": "Ouch My Head",
+            "description": "Headshot someone with a Hangover",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "DLC5_WELCOME_ABOARD",
+            "name": "Welcome Ashore",
+            "description": "Kill a player on the yacht from the observation platform of the Panama Canal",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "DLC5_DRINKERS_REVENGE",
+            "name": "Drinker's Revenge",
+            "description": "Kill the sniper who broke your Hip Flask in the same life",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "DL6_3_BLIND_MICE",
+            "name": "3 Blind Mice",
+            "description": "Blind 3 players simultaneously with the pepper spray",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 62,
+            "apiname": "DLC6_SWEATY_BETTY",
+            "name": "Sweaty Betty",
+            "description": "Trigger and avoid a Bouncing Betty by Shootdodging",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "DLC6_BETTY_CONFETTI",
+            "name": "Betty Confetti",
+            "description": "Kill a player with the Bouncing Betty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 64,
+            "apiname": "DLC6_RESISTING_ARREST",
+            "name": "Resisting Arrest",
+            "description": "Stun 10 players with either the cattle prod or stun gun",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "DLC6_BREAKING_AND_ENTERING",
+            "name": "Breaking and Entering",
+            "description": "Open 15 Containers or Doors in a single game of Dead Men Walking",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "DLC6_IT_LOOKED_EASY_ENOUGH",
+            "name": "It Looked Easy Enough",
+            "description": "Complete the Challenge Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 67,
+            "apiname": "DLC6_BREAKING_THE_4TH",
+            "name": "Breaking the 4th",
+            "description": "Earn a x4 multiplier in Challenge Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

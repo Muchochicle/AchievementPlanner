@@ -384,6 +384,9 @@ import { GUIDE as foragerAchievementGuide } from "./games/forager.js";
 import { GUIDE as grandTheftAutoIvAchievementGuide } from "./games/grand-theft-auto-iv.js";
 import { GUIDE as skyrimAchievementGuide } from "./games/skyrim.js";
 import { GUIDE as darkSoulsRemasteredAchievementGuide } from "./games/dark-souls-remastered.js";
+import { GUIDE as maxPayne3AchievementGuide } from "./games/max-payne-3.js";
+import { GUIDE as niohCompleteEditionAchievementGuide } from "./games/nioh-complete-edition.js";
+import { GUIDE as doom3AchievementGuide } from "./games/doom-3.js";
 
 export const APP_GUIDES = [
 
@@ -790,7 +793,10 @@ export const GAME_GUIDES = [
     foragerAchievementGuide,
     grandTheftAutoIvAchievementGuide,
     skyrimAchievementGuide,
-    darkSoulsRemasteredAchievementGuide
+    darkSoulsRemasteredAchievementGuide,
+    maxPayne3AchievementGuide,
+    niohCompleteEditionAchievementGuide,
+    doom3AchievementGuide
 
 ];
 
