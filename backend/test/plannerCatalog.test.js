@@ -345,6 +345,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dead-rising-3"));
     assert.ok(slugs.includes("devil-may-cry-hd-collection"));
     assert.ok(slugs.includes("dead-island-definitive-edition"));
+    assert.ok(slugs.includes("alien-isolation"));
+    assert.ok(slugs.includes("bayonetta"));
+    assert.ok(slugs.includes("serious-sam-4"));
 
 });
 

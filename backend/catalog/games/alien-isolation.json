@@ -1,0 +1,474 @@
+{
+    "id": 214490,
+    "steamAppId": 214490,
+    "name": "Alien: Isolation",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/214490/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Survival Horror",
+        "Stealth",
+        "First-Person",
+        "Sci-Fi",
+        "Atmospheric",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "CA_PROGRESSION_01",
+            "name": "Awake",
+            "description": "Complete the first mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "CA_PROGRESSION_02",
+            "name": "Welcome to Sevastopol",
+            "description": "Complete the second mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "CA_PROGRESSION_03",
+            "name": "A Hunt Begins",
+            "description": "Complete the third mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 4,
+            "apiname": "CA_PROGRESSION_04",
+            "name": "You Shouldn't Be There.",
+            "description": "Complete the fourth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "CA_PROGRESSION_05",
+            "name": "How Do You Feel?",
+            "description": "Complete the fifth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "CA_PROGRESSION_06",
+            "name": "Caught in the Trap",
+            "description": "Complete the sixth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 7,
+            "apiname": "CA_PROGRESSION_07",
+            "name": "An Outpost of Progress",
+            "description": "Complete the seventh mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "CA_FIRE_CATTLEPROD",
+            "name": "Shock to the System",
+            "description": "Use the stun baton",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "CA_PROGRESSION_09",
+            "name": "Bait",
+            "description": "Complete the tenth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "CA_PROGRESSION_10",
+            "name": "Hazard Containment",
+            "description": "Complete the eleventh mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "CA_PROGRESSION_11",
+            "name": "A Synthetic Solution",
+            "description": "Complete the twelfth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "CA_PROGRESSION_12",
+            "name": "Consultation",
+            "description": "Complete the thirteenth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "CA_COMPLETE_HARD_DIFFICULTY",
+            "name": "Survivor",
+            "description": "Complete the game on the hardest difficulty setting",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 14,
+            "apiname": "CA_COMPLETE_ANY_DIFFICULTY",
+            "name": "Ripley, Signing Off",
+            "description": "Complete the game on any difficulty setting",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "CA_IDTAG_COLLECT_ONE",
+            "name": "The Missing",
+            "description": "Collect an ID tag",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "CA_IDTAG_COLLECT_ALL",
+            "name": "The Taken",
+            "description": "Collect all ID tags",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 17,
+            "apiname": "CA_NOSTROMOLOG_COLLECT_ALL",
+            "name": "Archivist",
+            "description": "Collect 10 Nostromo logs in the main campaign",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 18,
+            "apiname": "CA_FIRE_FLAMETHROWER",
+            "name": "Light 'em Up",
+            "description": "Use the flamethrower",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 19,
+            "apiname": "CA_M07_NO_ATT_FROM_ANDROID",
+            "name": "Just out of Reach",
+            "description": "Contact your team and escape Comms without being attacked by an android",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "CA_FIRE_SHOTGUN",
+            "name": "Use With Caution…",
+            "description": "Use the shotgun",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "CA_FIRE_PISTOL",
+            "name": "Every Bullet Counts",
+            "description": "Use the revolver",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "CA_KILL_HUMAN",
+            "name": "Self Defense",
+            "description": "Kill 10 humans",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 23,
+            "apiname": "CA_PERFECT_ANDROIDFLEE",
+            "name": "Not a Scratch",
+            "description": "Escape from android combat without taking damage",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "CA_ALIENRETREAT_MOLOTOV",
+            "name": "Retreat From Fire",
+            "description": "Cause the Alien to retreat using a molotov",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "CA_ALIEN_ENCOUNTERED",
+            "name": "A Perfect Organism",
+            "description": "Encounter the Alien in Sevastopol for the first time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "CA_VENTUSE",
+            "name": "She's in the Vents...",
+            "description": "Use the vent system 20 times",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 27,
+            "apiname": "CA_MOTIONTRACKER",
+            "name": "I Admire its Purity",
+            "description": "Detect 30 targets with the motion tracker",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "CA_ALIENRETREAT_FLAMER",
+            "name": "Back Off",
+            "description": "Cause the Alien to retreat by using the flamethrower",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "CA_STUNNER",
+            "name": "Stunned",
+            "description": "Knock down a human or stun an android with a non-lethal attack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "CA_CONSTRUCT_ONE",
+            "name": "Build to Survive",
+            "description": "Construct an item",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "CA_M30_NO_HUMAN_KILLED",
+            "name": "Mercy or Prudence?",
+            "description": "Complete the game without killing any humans",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 32,
+            "apiname": "CA_NO_EGG_DISTURBED",
+            "name": "Mind Your Step",
+            "description": "Navigate Reactor Maintenance without dying",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 33,
+            "apiname": "CA_SUCCESSFUL_HACKS",
+            "name": "Seegson Security Bypass",
+            "description": "Perform 10 successful hacks",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "CA_SUCCESSFUL_MINIGAMES",
+            "name": "Seegson Systems Expert",
+            "description": "Complete 10 minigames successfully",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "CA_SUCCESSFUL_REWIRE",
+            "name": "Power Games",
+            "description": "Access 10 different rewire points",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 36,
+            "apiname": "CA_CONSTRUCT_ALL",
+            "name": "A True Engineer",
+            "description": "Construct one of each craftable item",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "CA_AUDIOLOG_ONE",
+            "name": "A Record of Disaster",
+            "description": "Collect an archive log",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "CA_AUDIOLOG_ALL",
+            "name": "Voices of Sevastopol",
+            "description": "Collect 100 archive logs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "CA_KILL_ANDROID",
+            "name": "Fault Detected",
+            "description": "Kill an Android",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "CA_ALIENDEATHCOUNT",
+            "name": "100 Times Too Many",
+            "description": "Be killed by the Alien 100 times over the course of your playthrough(s).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 41,
+            "apiname": "CA_PROGRESSION_13",
+            "name": "Throwing the Switch",
+            "description": "Complete Mission 13, 'The Descent'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "CA_PROGRESSION_14",
+            "name": "The Message",
+            "description": "Complete Mission 14, 'The Message'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "CA_M09_NOT_KILLED_BY_ALIEN",
+            "name": "Hide. Run. Survive.",
+            "description": "Complete Mission 5, 'The Quarantine' - your first sustained encounter with the Alien - without being killed by it.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 44,
+            "apiname": "CA_BEACON",
+            "name": "Not the First",
+            "description": "Turn off the emergency beacon.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "CA_PROGRESSION_15",
+            "name": "Transmission",
+            "description": "Complete Mission 15, 'Transmission'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "CA_COMPLETE_NODEATHS",
+            "name": "One Shot",
+            "description": "Complete the entire game from start to finish without dying once.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 1200
+        },
+        {
+            "id": 47,
+            "apiname": "CA_PROGRESSION_16",
+            "name": "Free the Torrens",
+            "description": "Complete the seventeenth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 48,
+            "apiname": "CA_PROGRESSION_17",
+            "name": "End of the Hunt",
+            "description": "Complete the eighteenth mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "CA_FIRE_BOLTGUN",
+            "name": "This Should Work",
+            "description": "Use the bolt gun",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "CA_MELEEONLY_ANDROIDKILL",
+            "name": "My Turn Now",
+            "description": "Kill an android using only the maintenance jack",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 35
+        }
+    ]
+}

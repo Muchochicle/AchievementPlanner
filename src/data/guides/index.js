@@ -321,6 +321,9 @@ import { GUIDE as sunsetOverdriveAchievementGuide } from "./games/sunset-overdri
 import { GUIDE as deadRising3AchievementGuide } from "./games/dead-rising-3.js";
 import { GUIDE as devilMayCryHdCollectionAchievementGuide } from "./games/devil-may-cry-hd-collection.js";
 import { GUIDE as deadIslandDefinitiveEditionAchievementGuide } from "./games/dead-island-definitive-edition.js";
+import { GUIDE as alienIsolationAchievementGuide } from "./games/alien-isolation.js";
+import { GUIDE as bayonettaAchievementGuide } from "./games/bayonetta.js";
+import { GUIDE as seriousSam4AchievementGuide } from "./games/serious-sam-4.js";
 
 export const APP_GUIDES = [
 
@@ -664,7 +667,10 @@ export const GAME_GUIDES = [
     sunsetOverdriveAchievementGuide,
     deadRising3AchievementGuide,
     devilMayCryHdCollectionAchievementGuide,
-    deadIslandDefinitiveEditionAchievementGuide
+    deadIslandDefinitiveEditionAchievementGuide,
+    alienIsolationAchievementGuide,
+    bayonettaAchievementGuide,
+    seriousSam4AchievementGuide
 
 ];
 
