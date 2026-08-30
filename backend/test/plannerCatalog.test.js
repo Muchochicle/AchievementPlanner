@@ -432,6 +432,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("burnout-paradise-remastered"));
     assert.ok(slugs.includes("castle-crashers"));
     assert.ok(slugs.includes("trials-fusion"));
+    assert.ok(slugs.includes("grid-autosport"));
+    assert.ok(slugs.includes("f1-2020"));
+    assert.ok(slugs.includes("art-of-rally"));
 
 });
 

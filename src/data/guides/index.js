@@ -408,6 +408,9 @@ import { GUIDE as grid2019AchievementGuide } from "./games/grid-2019.js";
 import { GUIDE as burnoutParadiseRemasteredAchievementGuide } from "./games/burnout-paradise-remastered.js";
 import { GUIDE as castleCrashersAchievementGuide } from "./games/castle-crashers.js";
 import { GUIDE as trialsFusionAchievementGuide } from "./games/trials-fusion.js";
+import { GUIDE as gridAutosportAchievementGuide } from "./games/grid-autosport.js";
+import { GUIDE as f12020AchievementGuide } from "./games/f1-2020.js";
+import { GUIDE as artOfRallyAchievementGuide } from "./games/art-of-rally.js";
 
 export const APP_GUIDES = [
 
@@ -838,7 +841,10 @@ export const GAME_GUIDES = [
     grid2019AchievementGuide,
     burnoutParadiseRemasteredAchievementGuide,
     castleCrashersAchievementGuide,
-    trialsFusionAchievementGuide
+    trialsFusionAchievementGuide,
+    gridAutosportAchievementGuide,
+    f12020AchievementGuide,
+    artOfRallyAchievementGuide
 
 ];
 
