@@ -1,0 +1,663 @@
+{
+    "id": 34030,
+    "steamAppId": 34030,
+    "name": "Total War: NAPOLEON – Definitive Edition",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/34030/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Grand Strategy",
+        "Real-Time Tactics",
+        "Turn-Based Strategy",
+        "Historical",
+        "Napoleonic",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_START_GAME",
+            "name": "Revolutionary Cocarde",
+            "description": "Start any campaign, battle or historical battle  ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_C_REGIONS_CAPTURED_10",
+            "name": "The Ribbon of the Promising Strategist ",
+            "description": "Capture 10 regions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_C_WIN_EGYPT_CAMPAIGN_EASY",
+            "name": "The Bronze Date",
+            "description": "Win Egypt Campaign in easy",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_C_WIN_EUROPE_CAMPAIGN_EASY",
+            "name": "Russian Doll on Green Ribbon",
+            "description": "Win Europe Campaign in easy",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_C_WIN_ITALIAN_CAMPAIGN_EASY",
+            "name": "Bronze Tower of Pisa",
+            "description": "Win Italian Campaign in easy ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_C_WIN_EGYPT_CAMPAIGN_MEDIUM",
+            "name": "The Silver Dromedairy Legionaire",
+            "description": "Win Egypt Campaign in medium within historic time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_C_WIN_EUROPE_CAMPAIGN_MEDIUM",
+            "name": "Quadriga in Prussian Silver",
+            "description": "Win Europe Campaign in medium within historic time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_C_WIN_ITALIAN_CAMPAIGN_MEDIUM",
+            "name": "The Silver Olive Chaplet",
+            "description": "Win Italian Campaign in medium within historic time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_C_WIN_EGYPT_CAMPAIGN_HARD",
+            "name": "Golden Obelisk of the Pharaos",
+            "description": "Win Egypt Campaign in hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_C_WIN_EUROPE_CAMPAIGN_HARD",
+            "name": "The Imperial Crown on Brocade Band",
+            "description": "Win Europe Campaign in hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_C_WIN_ITALIAN_CAMPAIGN_HARD",
+            "name": "Hero of Arcole Commemorative Medal",
+            "description": "Win Italian Campaign in hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_C_ASSASSINATE_15_PEOPLE",
+            "name": "The Hand-and-Dagger on Black Chain",
+            "description": "Assassinate 15 people",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_C_6_ALLIES_SIMULTANEOUSLY",
+            "name": "The Seal of the Grand Coalition",
+            "description": "Have 6 allies simultaneously",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_C_100_PERCENT_APPROVAL",
+            "name": "The People's Crown",
+            "description": "Have a 100% approval rating",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_B_100000_DEAD_IN_BATTLE",
+            "name": "The Hero's Skull Badge ",
+            "description": "100000 soldiers die in battles with you, friend and foe",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_C_GAIN_8000_PER_TURN_IN_TRADE",
+            "name": "The Merchant's Navy Medal of Gratitude ",
+            "description": "Gain 8000 per turn in trade revenue",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_B_WIN_10_CAMPAIGN_NAVAL_BATTLES",
+            "name": "Nautic Star Emblem",
+            "description": "Win ten SP Campaign naval battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_B_WIN_15_CAMPAIGN_LAND_BATTLES",
+            "name": "Hardened Veteran's Badge",
+            "description": "Win 15 SP Campaign land battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_C_CONQUER_EUROPE",
+            "name": "The Imperial Wreath",
+            "description": "Conquer all of Europe",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_C_HAVE_3_FULL_SKILLED_GENERALS",
+            "name": "The Imperial School of Strategy Crest",
+            "description": "Have three generals with full skill level in one campaign",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_C_HAVE_10_PROTECTORATES",
+            "name": "Shield of the Protector",
+            "description": "Have 10 protectorates at one time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_C_ALL_MAJOR_NATIONS_VERY_FRIENDLY",
+            "name": "Diplomat's Pin",
+            "description": "Make all major nations like you (very friendly)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_C_DECLARE_WAR_ON_ALL_1ST_TURN_AND_WIN",
+            "name": "The Medallion of the Imperial Psychopath",
+            "description": "Declare war on all nations the first turn, never negotiate peace, and win the game",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_C_COVER_50000_MILES_OF_SEA_OR_LAND",
+            "name": "The Explorers' Society Badge",
+            "description": "Cover 50,000 sea or land miles with your armies and fleets",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_C_WIN_ENTIRE_CAMPAIGN_USING_AUTORESOLVE",
+            "name": "The Bronze Armchair of Comfort",
+            "description": "Win any campaign by auto-resolving battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_C_WIN_ENTIRE_CAMPAIGN_NOT_USING_AUTORESOLVE",
+            "name": "The Lion and Sabers Medal",
+            "description": "Win any campaign without a single autoresolve",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_C_WIN_10_PISTOL_DUELS",
+            "name": "Marksman Brooch",
+            "description": "Win 10 pistol duels",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_C_WIN_10_SWORD_DUELS",
+            "name": "Imperial Fencing Academy Master's Needle ",
+            "description": "Win 10 sword duels",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_C_PLAY_A_HISTORICAL_BATTLE",
+            "name": "Historians' College Acknowledgement Badge",
+            "description": "Play a historical land battle ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_GAME_FOR_30_HOURS_TOTAL",
+            "name": "Palace Guard Pendant",
+            "description": "Play the game for 30 hours total",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_GAME_FOR_50_HOURS_TOTAL",
+            "name": "The Eye of the Ever Watchful General",
+            "description": "Play the game for 50 hours total ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_B_WIN_SILVER_IN_5_HISTORIC_BATTLES",
+            "name": "Grand General Star",
+            "description": "Win Silver in 5 Historic Battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_B_WIN_GOLD_IN_ALL_HISTORIC_BATTLES",
+            "name": "Platinum Star of Glory",
+            "description": "Win Gold in all Historic Battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_NAVAL_BATTLE",
+            "name": "The Leaden Seahorse",
+            "description": "Win a MP naval battle",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "MP_ACHIEVEMENT_B_PLAY_NAVAL_BATTLE_EVERY_FACTION",
+            "name": "Sailor's Medal",
+            "description": "Play a MP naval battle with every faction",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_NAVAL_ONLY_USING_FIRST_RATES",
+            "name": "Treasure Galleon Pendant",
+            "description": "Win a match with only first rates ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_ONLINE_AGAINST_DOUBLE_SKILL_RATING",
+            "name": "The Star of the Fearless Buccaneer",
+            "description": "Win a match against someone with double your skill rating",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_10_DECISIVE_VICTORIES",
+            "name": "The Navy Cross",
+            "description": "Win 10 decisive victories ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_USING_HALF_OPPONENTS_FUNDS",
+            "name": "Medal of the Unrelenting Storm",
+            "description": "Win a match having spent half as many funds as your opponent ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_USING_0_SHIPS_OF_THE_LINE",
+            "name": "The Golden Swallow",
+            "description": "Win a match without any ships of the line ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "MP_ACHIEVEMENT_B_PLAY_100_NAVAL_BATTLES",
+            "name": "Poseidon's Carriage in Gold",
+            "description": "Play 100 multiplayer naval battes",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 42,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_6_NAVAL_BATTLES_CONSECUTIVELY",
+            "name": "Pendant of the Seven Winds",
+            "description": "Win 6 MP Naval Battles in a row",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 43,
+            "apiname": "MP_ACHIEVEMENT_B_BOARD_5_SHIPS_1_BATTLE",
+            "name": "Skull and Sabres on Iron Chain",
+            "description": "Board 5 ships in a single battle ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_BATTLE_WITH_JUST_LIGHT_INF_AND_ART",
+            "name": "Defender's Cross of Honour",
+            "description": "Win a battle using only Light Infantry and Artillery ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_10_LAND_BATTLES",
+            "name": "Officer's Achievement Medal",
+            "description": "Win 10 land battles ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "MP_ACHIEVEMENT_B_PLAY_LAND_BATTLE_EVERY_FACTION",
+            "name": "Mercenary Coin",
+            "description": "Play a MP land battle with every faction ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_10_LAND_BATTLES_CONSECUTIVELY",
+            "name": "The Charging Guard Regiment Emblem",
+            "description": "Win 10 MP Land Battles in a row ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 48,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_LAND_BATTLE_WITH_NO_INFANTRY",
+            "name": "The Horse-and-Cannon",
+            "description": "Win a match without any infantry ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "MP_ACHIEVEMENT_B_WIN_50_LAND_BATTLES",
+            "name": "Veteran's Badge of Service",
+            "description": "Win 50MP Land Battles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_ITALIAN_CAMPAIGN_AS_FRANCE",
+            "name": "Bella Ragazza Locket",
+            "description": "Win a MP Italian Campaign as France ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_ITALIAN_CAMPAIGN_AS_AUSTRIA",
+            "name": "Nice City Key",
+            "description": "Win a MP Italian Campaign as Austria ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EGYPT_CAMPAIGN_AS_FRANCE",
+            "name": "The Silver Sun",
+            "description": "Win a MP Egypt Campaign as France ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EGYPT_CAMPAIGN_AS_OTTOMANS",
+            "name": "The Crossed Sabres and Crescent",
+            "description": "Win Egypt Campaign as Ottomans ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "MP_ACHIEVEMENT_C_PLAY_A_MULTIPLAYER_CAMPAIGN",
+            "name": "Bronze Star on Red Ribbon",
+            "description": "Play a MP Campaign ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 55,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EUROPEAN_CAMPAIGN",
+            "name": "The Imperial Laurels ",
+            "description": "Win European MP Campaign as France",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EUROPEAN_CAMPAIGN_RUSSIA",
+            "name": "Raging Bear Star",
+            "description": "Win Europe Campaign as Russia ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EUROPEAN_CAMPAIGN_AUSTRIA",
+            "name": "The Imperatorial Double Eagle",
+            "description": "Win Europe Campaign as Austria ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EUROPEAN_CAMPAIGN_PRUSSIA",
+            "name": "Quadriga with Iron Cross",
+            "description": "Win Europe Campaign as Prussia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "MP_ACHIEVEMENT_C_WIN_EUROPEAN_CAMPAIGN_ENGLAND",
+            "name": "Royal Navy Glorious Fleet Badge",
+            "description": "Win Europe Campaign as England ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "MP_ACHIEVEMENT_C_CAPTURE_OPPONENTS_CAPITAL_IN_20_TURNS",
+            "name": "The Golden Lightning",
+            "description": "Take other player's capital within 20 turns ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "MP_ACHIEVEMENT_C_OPPONENTS_FACTION_LAST_TO_DIE",
+            "name": "Fighting Giants Commemorative Medallion",
+            "description": "Other player's faction is last to die ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 62,
+            "apiname": "MP_ACHIEVEMENT_C_GIVE_OPPONENT_50000_THEN_WIN",
+            "name": "St. Martin's Medal",
+            "description": "Win campaign having given enemy player 50000 gold ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_GAME_FOR_10_HOURS_TOTAL",
+            "name": "The Tireless Watchman Brooch",
+            "description": "Play the game for 10 hours total",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "NAPOLEON_MP_ACHIEVEMENT_B_WIN_ONLINE_AGAINST_DOUBLE_SKILL_RATING",
+            "name": "Distinguished Service Medal",
+            "description": "Win a match against a player with double your skill rating",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 65,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_WIN_AS_FRANCE",
+            "name": "The Spanish Crown",
+            "description": "Win the Peninsular Campaign as France",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 66,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_WIN_AS_SPAIN",
+            "name": "Duke of Ciudad Rodrigo",
+            "description": "Win the Peninsular Campaign as Spain",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 67,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_WIN_AS_BRITAIN",
+            "name": "Marquis of Torres Vedras",
+            "description": "Win the Peninsular Campaign as Britain",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_CAPTURE_REGION",
+            "name": "Conquistador Medal",
+            "description": "Capture a region in the Peninsular Campaign",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_LIBERATE_AS_BRITAIN",
+            "name": "Duke of the Victory",
+            "description": "As Britain, ensure that all regions in Spain are liberated back to Spanish control",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 70,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_FRANCE_ATTAIN_50_PERCENT",
+            "name": "The Medallion of Secular Enlightenment",
+            "description": "As France, attain over 50% pro-French sentiment in 10 of your regions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "NAPOLEON_SPANISH_CAMPAIGN_ACHIEVEMENT_C_START_MULTIPLAYER",
+            "name": "Sangria Bottle of Friendship",
+            "description": "Start the Peninsular Campaign in multiplayer",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

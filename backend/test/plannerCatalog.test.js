@@ -399,6 +399,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("plants-vs-zombies-goty"));
     assert.ok(slugs.includes("sanctum-2"));
     assert.ok(slugs.includes("pvz-battle-for-neighborville"));
+    assert.ok(slugs.includes("total-war-attila"));
+    assert.ok(slugs.includes("total-war-napoleon"));
+    assert.ok(slugs.includes("total-war-empire"));
 
 });
 

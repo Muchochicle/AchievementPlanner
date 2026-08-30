@@ -375,6 +375,9 @@ import { GUIDE as ratropolisAchievementGuide } from "./games/ratropolis.js";
 import { GUIDE as plantsVsZombiesGotyAchievementGuide } from "./games/plants-vs-zombies-goty.js";
 import { GUIDE as sanctum2AchievementGuide } from "./games/sanctum-2.js";
 import { GUIDE as pvzBattleForNeighborvilleAchievementGuide } from "./games/pvz-battle-for-neighborville.js";
+import { GUIDE as totalWarAttilaAchievementGuide } from "./games/total-war-attila.js";
+import { GUIDE as totalWarNapoleonAchievementGuide } from "./games/total-war-napoleon.js";
+import { GUIDE as totalWarEmpireAchievementGuide } from "./games/total-war-empire.js";
 
 export const APP_GUIDES = [
 
@@ -772,7 +775,10 @@ export const GAME_GUIDES = [
     ratropolisAchievementGuide,
     plantsVsZombiesGotyAchievementGuide,
     sanctum2AchievementGuide,
-    pvzBattleForNeighborvilleAchievementGuide
+    pvzBattleForNeighborvilleAchievementGuide,
+    totalWarAttilaAchievementGuide,
+    totalWarNapoleonAchievementGuide,
+    totalWarEmpireAchievementGuide
 
 ];
 
