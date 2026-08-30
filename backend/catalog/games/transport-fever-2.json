@@ -1,0 +1,573 @@
+{
+    "id": 1066780,
+    "steamAppId": 1066780,
+    "name": "Transport Fever 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1066780/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Management",
+        "Transportation",
+        "Economy",
+        "Sandbox",
+        "Building"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_BUILD_BUS_STOP",
+            "name": "First bus stop",
+            "description": "Build a bus stop in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_BUILD_TRAIN_STATION",
+            "name": "First train station",
+            "description": "Build a passenger train station in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CREATE_LINE",
+            "name": "First line",
+            "description": "Create a line with at least two stops in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_FIRST_BUS_ARRIVED",
+            "name": "First bus arrived",
+            "description": "Buy a bus and run a line in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FIRST_STEAM_TRAIN_ARRIVED",
+            "name": "First steam train arrived",
+            "description": "Buy a steam train and run a line in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_FIRST_SHIP_ARRIVED",
+            "name": "First ship arrived",
+            "description": "Buy a ship and run a line in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_FIRST_ELECTRIC_TRAIN_ARRIVED",
+            "name": "First electric train arrived",
+            "description": "Buy an electric train and run a line in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_FIRST_AIRCRAFT_ARRIVED",
+            "name": "First aircraft arrived",
+            "description": "Buy an aircraft and run a line in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_FIRST_PASSENGER_WAITING",
+            "name": "First passenger waiting",
+            "description": "Setup a line so that town residents use your vehicles in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_FIRST_PASSENGER_TRANSPORTED",
+            "name": "First passenger on board",
+            "description": "Have a passenger on a vehicle in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_FIRST_INDUSTRY_UPGRADE",
+            "name": "First industry upgraded",
+            "description": "Let a manufacturing industry upgrade in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ACCUMULATE_1M",
+            "name": "Transport millionaire",
+            "description": "Accumulate a fortune of 1 million (without debt) in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_ACCUMULATE_10M",
+            "name": "Transport master",
+            "description": "Accumulate a fortune of 10 millions (without debt) in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_ACCUMULATE_100M",
+            "name": "Transport shark",
+            "description": "Accumulate a fortune of 100 millions (without debt) in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_ACCUMULATE_1B",
+            "name": "Transport tycoon",
+            "description": "Accumulate a fortune of 1 billion (without debt) in free game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_ACCUMULATE_100M_HARD",
+            "name": "Transport shark (Hard mode)",
+            "description": "Accumulate a fortune of 100 millions (without debt) in free game with hard mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_ACCUMULATE_1B_HARD",
+            "name": "Transport tycoon (Hard mode)",
+            "description": "Accumulate a fortune of 1 billion (without debt) in free game with hard mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_FIRST_CARGO_WAITING",
+            "name": "First cargo item waiting",
+            "description": "Have a cargo item waiting at a terminal in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_FIRST_CARGO_TRANSPORTED",
+            "name": "First cargo item on board",
+            "description": "Have a cargo item transported with one of your vehicles in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CROWD_IN_A_TRAIN",
+            "name": "Crowd in a train",
+            "description": "Have a train filled with at least 100 passengers in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_NO_FREE_SEATS",
+            "name": "No free seats",
+            "description": "Have a train filled with at least 200 passengers in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_HEAVILY_LOADED",
+            "name": "Heavily loaded",
+            "description": "Have a train filled with at least 250 cargo items in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CITY",
+            "name": "City",
+            "description": "Have a town with a population of at least 750 in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_METROPOLIS",
+            "name": "Metropolis",
+            "description": "Have a town with a population of at least 1500 in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_GLACIER_EXPRESS",
+            "name": "Glacier express",
+            "description": "Have a train that reaches higher than 450 meters in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_INDUSTRIALIST",
+            "name": "Industrialist",
+            "description": "Have every industry shipping items using your transport network in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_MASS_PRODUCTION",
+            "name": "Mass production",
+            "description": "Reach 400 production at a manufacturing industry in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_CANNOT_GET_ENOUGH",
+            "name": "Cannot get enough",
+            "description": "Build a train line with at least 10 trains in motion in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_TRUCK_FEVER",
+            "name": "Truck Fever",
+            "description": "Earn 50 millions not using any train in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_ANTIQUE",
+            "name": "Antique",
+            "description": "Keep a train built before 1900 running until the year 2000 in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_TRAIN_FEVER",
+            "name": "Train Fever",
+            "description": "Reach the year 2050 using only trains in free game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_MUSEUM_LINE",
+            "name": "Museum line",
+            "description": "Have a line with every passenger road vehicle type available from 1850 to 2020 in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_SMELL_OF_SUCCESS",
+            "name": "The ugly smell of success",
+            "description": "Have at least 300 passengers waiting in a train station in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_PENNY_PINCHER",
+            "name": "Penny pincher",
+            "description": "Don't take any additional loan until the year 2050 in free game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_TOP_SPEED_300",
+            "name": "Speed of light",
+            "description": "Reach a speed of at least 300 km/h with a train in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_TOP_SPEED_120",
+            "name": "High speed",
+            "description": "Reach a speed of at least 120 km/h with a train in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_COMPLETE_FIRST_MISSION",
+            "name": "Cadet",
+            "description": "Complete the first mission of the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_COMPLETE_CAMPAIGN_A",
+            "name": "Old timer",
+            "description": "Complete the first era of the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_COMPLETE_CAMPAIGN_B",
+            "name": "Campaign expert",
+            "description": "Complete the first and second era of the campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_COMPLETE_CAMPAIGN_C",
+            "name": "Campaign shark",
+            "description": "Complete the entire campaign.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_MISSION_ALL_MEDALS",
+            "name": "Exemplary student",
+            "description": "Earn all medals in one of the campaign missions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_COLLECT_ALL_MEDALS",
+            "name": "Campaign tycoon",
+            "description": "Earn all medals of the entire campaign.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_BACK_TO_THE_FUTURE",
+            "name": "Back to the future",
+            "description": "Travel back and forward in time using the time control in sandbox mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_HQ",
+            "name": "Settled down",
+            "description": "Build the company headquarters in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_HQ_20",
+            "name": "Transport corporation",
+            "description": "Reach the maximum headquarters level in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_TRAIN_FACING",
+            "name": "Now what?",
+            "description": "Have two trains stuck facing each other in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TUNNEL_LENGTH",
+            "name": "Louis Favre",
+            "description": "Have 100km of railway tunnels in free game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_BRIDGE_LENGTH",
+            "name": "Charles Alton Ellis",
+            "description": "Have 50km of railway bridges in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_TRACK_LENGTH",
+            "name": "Trans-Siberian Railway",
+            "description": "Have 400km of tracks in free game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_ALL_CLIMATES",
+            "name": "Climate change",
+            "description": "Play a free game in all three climates.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_MAINTENANCE",
+            "name": "Big spender",
+            "description": "Have a monthly maintenance cost of 200 million in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_EMISSION_LEVEL",
+            "name": "Not in my backyard",
+            "description": "Reach an emission value of 80 in a town in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_SHIP_EARNINGS",
+            "name": "The king of the sea",
+            "description": "Earn 1 million with ships within a month in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_AIRCRAFT_EARNINGS",
+            "name": "Aircraft entrepreneur",
+            "description": "Earn 1 million with airplanes within a month in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_SMELL_OF_SUCCESS_CARGO",
+            "name": "Cargo hub",
+            "description": "Have at least 300 cargo items waiting at a train station in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_ALL_ELEC_HIGH_SPEED",
+            "name": "No country for old trains",
+            "description": "Have all tracks electrified and high speed in free game. Have at least 100km of tracks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_LONGEST_TRAIN",
+            "name": "Transport belt",
+            "description": "Have a train longer than the longest possible station in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_PRESENT_REACHED",
+            "name": "The future is now, old man",
+            "description": "Reach the present in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_EPEC",
+            "name": "E.P.E.C.",
+            "description": "Deliver every product to every city that requires it in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_LANDSCAPE",
+            "name": "Sculpturer",
+            "description": "Use the terrain tool to change the terrain in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_PAINT",
+            "name": "Bob Ross",
+            "description": "Use the paint tool to change the terrain in free game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

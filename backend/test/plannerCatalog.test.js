@@ -366,6 +366,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rayman-legends"));
     assert.ok(slugs.includes("cyber-shadow"));
     assert.ok(slugs.includes("huntdown"));
+    assert.ok(slugs.includes("company-of-heroes-3"));
+    assert.ok(slugs.includes("transport-fever-2"));
+    assert.ok(slugs.includes("yooka-laylee"));
 
 });
 
