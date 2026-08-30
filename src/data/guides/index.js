@@ -387,6 +387,9 @@ import { GUIDE as darkSoulsRemasteredAchievementGuide } from "./games/dark-souls
 import { GUIDE as maxPayne3AchievementGuide } from "./games/max-payne-3.js";
 import { GUIDE as niohCompleteEditionAchievementGuide } from "./games/nioh-complete-edition.js";
 import { GUIDE as doom3AchievementGuide } from "./games/doom-3.js";
+import { GUIDE as alanWakeAchievementGuide } from "./games/alan-wake.js";
+import { GUIDE as specOpsTheLineAchievementGuide } from "./games/spec-ops-the-line.js";
+import { GUIDE as sniperEliteV2AchievementGuide } from "./games/sniper-elite-v2.js";
 
 export const APP_GUIDES = [
 
@@ -796,7 +799,10 @@ export const GAME_GUIDES = [
     darkSoulsRemasteredAchievementGuide,
     maxPayne3AchievementGuide,
     niohCompleteEditionAchievementGuide,
-    doom3AchievementGuide
+    doom3AchievementGuide,
+    alanWakeAchievementGuide,
+    specOpsTheLineAchievementGuide,
+    sniperEliteV2AchievementGuide
 
 ];
 

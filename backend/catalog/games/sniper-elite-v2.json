@@ -1,0 +1,447 @@
+{
+    "id": 63380,
+    "steamAppId": 63380,
+    "name": "Sniper Elite V2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/63380/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 28
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Third-Person Shooter",
+        "Sniper",
+        "Stealth",
+        "World War II",
+        "Tactical",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_HEADSHOT_DIST",
+            "name": "Front and Center",
+            "description": "Get a scoped headshot over 150m",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_TRIPMINE",
+            "name": "Mousetrap Fuse",
+            "description": "Use a trip mine to kill an enemy who is trying to assault your position",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_MASKED",
+            "name": "Ear Plugs",
+            "description": "Kill an enemy while your rifle fire is masked by a loud sound",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_SNIPE_KILL_TANK",
+            "name": "Fuel Tank",
+            "description": "Destroy a tank by sniping the fuel supply",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_STEALTH_KILLS",
+            "name": "Silent but Deadly",
+            "description": "Covertly kill 25 unaware enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_EYE_SHOT",
+            "name": "Deadeye",
+            "description": "Snipe an enemy through his eye",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_MARATHON_BULLET",
+            "name": "Go the Distance",
+            "description": "Get a cumulative sniped kill distance of a marathon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_BREATH_HOLD",
+            "name": "Iron Lung",
+            "description": "Hold your breath for a cumulative time of half an hour",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_EXPLODE_KILLS",
+            "name": "Potato Masher",
+            "description": "Kill 100 enemies with explosives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_SNIPER_KILLS",
+            "name": "World Record",
+            "description": "Get 506 cumulative sniper kills",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_MOVING_KILLS",
+            "name": "Gung Ho",
+            "description": "Snipe 100 moving targets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_HEADSHOTS",
+            "name": "Head Honcho",
+            "description": "Get 100 sniped headshots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_COLLECTION",
+            "name": "Jungle Juice",
+            "description": "Find and snipe all the hidden bottles throughout the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_RICOCHET_KILL",
+            "name": "Pass the Buck",
+            "description": "Get a sniped ricochet headshot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_SNIPE_MULTI",
+            "name": "Double Dose",
+            "description": "Snipe 2 people with one shot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_SNIPE_GRENADE_DIST",
+            "name": "Cooking Off",
+            "description": "Snipe a grenade on an enemy's webbing from 100m",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_RIFLE_NOMISS",
+            "name": "Make Every Bullet Count",
+            "description": "Complete a level with 100% accuracy, using only rifles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_PLAYER_UNDAMAGED",
+            "name": "Hide and Hope",
+            "description": "Complete a level without being shot a single time",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_GOLD_RUSH",
+            "name": "Gold Rush",
+            "description": "Find and retrieve all the stolen gold bars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_GOAL_1",
+            "name": "Trainee Sniper",
+            "description": "Escape the German assault",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_GOAL_2",
+            "name": "Novice Sniper",
+            "description": "Stop the convoy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_GOAL_3",
+            "name": "Apprentice Sniper",
+            "description": "Destroy the V2 Facility and escape to safety",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_GOAL_4",
+            "name": "Journeyman Sniper",
+            "description": "Hold off the Russian advance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_GOAL_5",
+            "name": "Skilled Sniper",
+            "description": "Stop the execution",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_GOAL_6",
+            "name": "Pro Sniper",
+            "description": "Collect intel from the church and make it out alive",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_GOAL_7",
+            "name": "Expert Sniper",
+            "description": "Eliminate Müller",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_GOAL_8",
+            "name": "Master Sniper",
+            "description": "Uncover Wolff's plan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_GOAL_9",
+            "name": "Veteran Sniper",
+            "description": "Discover the location of the V2 launch site",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_GOAL_10",
+            "name": "Feared Sniper",
+            "description": "Destroy the V2 rocket",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_GOAL_11",
+            "name": "Legendary Sniper",
+            "description": "Prevent Wolff from escaping",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_COMPLETE_HARD",
+            "name": "Sniper Elite",
+            "description": "Complete all missions on highest difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 150
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_SECONDARY_1",
+            "name": "Get Off the Ground",
+            "description": "Kill everyone in the convoy from ground level, except for Kreidl",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_SECONDARY_2",
+            "name": "High and Mighty",
+            "description": "Wipe out the Elite Russian Sniper Team from the rooftops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_SECONDARY_3",
+            "name": "Fish Tank",
+            "description": "Send the tank into the river by blowing up the bridge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_SECONDARY_4",
+            "name": "Kilroy was Here",
+            "description": "Make it through the tower to the winch room without being spotted",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_COOP_TAG",
+            "name": "Target Spotted!",
+            "description": "As a spotter in Overwatch, tag 50 enemies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_COOP_TAGGED_KILLS",
+            "name": "Target Eliminated!",
+            "description": "As a sniper in Overwatch, snipe 50 enemies tagged by your partner",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_COOP_RESUS",
+            "name": "Bedpan Commando",
+            "description": "Resuscitate your partner in co-op 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_COOP_BOMBRUN_ROUNDS",
+            "name": "Bomb Happy",
+            "description": "Survive 10 games of Bombing Run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_COOP_DEMO_TNT_SHOTS",
+            "name": "Detonator",
+            "description": "Career total of 50 shots on explosives",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_COOP_COMPLETE",
+            "name": "Can Do!",
+            "description": "Complete all co-op Overwatch Missions",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_DLC_SILENCE",
+            "name": "Silence is Golden",
+            "description": "Complete Neudorf Outpost without alerting any AI",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_DLC_SMOKING",
+            "name": "Smoking Kills",
+            "description": "Kill 6 smoking soldiers on Neudorf Outpost",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_DLC_ONLY_SUPPOSED_TO",
+            "name": "You were only supposed to...",
+            "description": "Allow all 3 commanders to enter the command centre in Landwehr Canal, then blow the doors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_DLC_WATCHMEN",
+            "name": "Watchmen",
+            "description": "Eliminate all 5 Snipers watching the meeting point on Landwehr Canal without them spotting you",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_DLC_SECRET_SERVICE",
+            "name": "Secret Service",
+            "description": "SAINT PIERRE – Kill all the guards before getting to the church without being detected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_DLC_SHOOT_THE_ALPS",
+            "name": "Shoot the Alps",
+            "description": "SAINT PIERRE – Get a total shot distance of over 4000 meters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

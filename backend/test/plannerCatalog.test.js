@@ -411,6 +411,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("max-payne-3"));
     assert.ok(slugs.includes("nioh-complete-edition"));
     assert.ok(slugs.includes("doom-3"));
+    assert.ok(slugs.includes("alan-wake"));
+    assert.ok(slugs.includes("spec-ops-the-line"));
+    assert.ok(slugs.includes("sniper-elite-v2"));
 
 });
 
