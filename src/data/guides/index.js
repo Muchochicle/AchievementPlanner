@@ -324,6 +324,9 @@ import { GUIDE as deadIslandDefinitiveEditionAchievementGuide } from "./games/de
 import { GUIDE as alienIsolationAchievementGuide } from "./games/alien-isolation.js";
 import { GUIDE as bayonettaAchievementGuide } from "./games/bayonetta.js";
 import { GUIDE as seriousSam4AchievementGuide } from "./games/serious-sam-4.js";
+import { GUIDE as saintsRowTheThirdAchievementGuide } from "./games/saints-row-the-third.js";
+import { GUIDE as back4BloodAchievementGuide } from "./games/back-4-blood.js";
+import { GUIDE as worldWarZAchievementGuide } from "./games/world-war-z.js";
 
 export const APP_GUIDES = [
 
@@ -670,7 +673,10 @@ export const GAME_GUIDES = [
     deadIslandDefinitiveEditionAchievementGuide,
     alienIsolationAchievementGuide,
     bayonettaAchievementGuide,
-    seriousSam4AchievementGuide
+    seriousSam4AchievementGuide,
+    saintsRowTheThirdAchievementGuide,
+    back4BloodAchievementGuide,
+    worldWarZAchievementGuide
 
 ];
 

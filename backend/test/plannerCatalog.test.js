@@ -348,6 +348,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("alien-isolation"));
     assert.ok(slugs.includes("bayonetta"));
     assert.ok(slugs.includes("serious-sam-4"));
+    assert.ok(slugs.includes("saints-row-the-third"));
+    assert.ok(slugs.includes("back-4-blood"));
+    assert.ok(slugs.includes("world-war-z"));
 
 });
 
