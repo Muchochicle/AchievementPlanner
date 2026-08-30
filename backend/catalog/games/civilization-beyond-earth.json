@@ -1,0 +1,834 @@
+{
+    "id": 65980,
+    "steamAppId": 65980,
+    "name": "Sid Meier's Civilization: Beyond Earth",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/65980/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Turn-Based Strategy",
+        "Sci-fi",
+        "Grand Strategy",
+        "Space",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_WIN_FIELDING",
+            "name": "Chief Extraterrestrial Officer",
+            "description": "Win a game as Fielding",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_WIN_HUTAMA",
+            "name": "The Big Payoff",
+            "description": "Win a game as Hutama",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_WIN_DAOMING",
+            "name": "Shining Path",
+            "description": "Win a game as Daoming",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_WIN_KOZLOV",
+            "name": "Gagarin's Legacy",
+            "description": "Win a game as Kozlov",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_WIN_BARRE",
+            "name": "Father of Nations",
+            "description": "Win a game as Barre",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_WIN_ELODIE",
+            "name": "The Art of the Infinite",
+            "description": "Win a game as Élodie",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_WIN_BOLIVAR",
+            "name": "Never Surrender",
+            "description": "Win a game as Bolivar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_WIN_KAVITHA",
+            "name": "Moksha",
+            "description": "Win a game as Kavitha",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_WIN_ALLBASELEADERS",
+            "name": "Grand Galactic Inquisitor",
+            "description": "Win at least one game with each leader (Base Game)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_SPUTNIK",
+            "name": "Beep… Beep…. Beep...",
+            "description": "Win a game on Sputnik Difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_MERCURY",
+            "name": "Godspeed",
+            "description": "Win a game on Mercury Difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_VOSTOK",
+            "name": "Поехали! (Pojexali!)",
+            "description": "Win a game on Vostok Difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_GEMINI",
+            "name": "8 Days or Bust",
+            "description": "Win a game on Gemini Difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_SOYUZ",
+            "name": "Order of Lenin",
+            "description": "Win a game on Soyuz Difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_DIFLEVEL_APOLLO",
+            "name": "The Eagle Has Landed",
+            "description": "Win a game on Apollo Difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_VICTORY_DOMINATION",
+            "name": "Resistance is Futile",
+            "description": "Achieve Domination Victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_VICTORY_CONTACT",
+            "name": "We Are Not Alone",
+            "description": "Achieve Contact Victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_VICTORY_PROMISED_LAND",
+            "name": "Phone Home",
+            "description": "Achieve Promised land",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_VICTORY_EMANCIPATION",
+            "name": "Planned Obsolescence",
+            "description": "Achieve Emancipation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_VICTORY_TRANSCENDENCE",
+            "name": "It's Full of Stars",
+            "description": "Achieve Transcendence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_VICTORY_ALL",
+            "name": "Steely Eyed Missile Man",
+            "description": "Achieve one of each other victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_MAPSIZE_DUEL",
+            "name": "Aim to Misbehave",
+            "description": "Win a game on a Duel Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_MAPSIZE_TINY",
+            "name": "Tiny Big Planet",
+            "description": "Win a game on a Tiny Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_MAPSIZE_SMALL",
+            "name": "That's No Moon",
+            "description": "Win a game on a Small Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_MAPSIZE_STANDARD",
+            "name": "Pale Blue Dot",
+            "description": "Win a game on a Standard Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_MAPSIZE_LARGE",
+            "name": "The View is Tremendous",
+            "description": "Win a game on a Large Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_MAPTYPE_ATLANTEAN",
+            "name": "Poseidon's Children",
+            "description": "Win game on Atlantean Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_MAPTYPE_PROTEAN",
+            "name": "That New Planet Smell",
+            "description": "Win game on Protean Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_MAPTYPE_TERRAN",
+            "name": "A Planet the Very Brother of Your Own",
+            "description": "Win game on Terran Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_MAPTYPE_ARCHIPELAGO",
+            "name": "When Maui Came To This World",
+            "description": "Win game on Archipelago Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_MAPS_ALL",
+            "name": "United Federation of Planets",
+            "description": "Win at least one game on each map size and type",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_WIN_MULTIPLAYER",
+            "name": "Cylon Computer Virus",
+            "description": "Win a multiplayer game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_ALL_WONDERS",
+            "name": "Valley of the Time Tombs",
+            "description": "Build all wonders (Base Game)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_ANY_WONDER",
+            "name": "The Machineries of Joy",
+            "description": "Build any wonder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_PLAY_MOD",
+            "name": "I'm in the middle of some calibrations",
+            "description": "Play with a Mod",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_CITY_100CULTURE",
+            "name": "Mighty Fine Shindig",
+            "description": "Develop a city to produce more than 100 culture per turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_CITY_100ENERGY",
+            "name": "Energize",
+            "description": "Develop a city to produce more than 100 energy per turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_CITY_100SCIENCE",
+            "name": "What Was Once Only Imagined",
+            "description": "Develop a city to produce more than 100 science per turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_RAZE_ALIEN_NESTS",
+            "name": "Making Way for a Hyperspace Bypass",
+            "description": "Raze 100 Alien nests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_UNIT_EMBARK",
+            "name": "I'm On Another Boat",
+            "description": "Embark a unit ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_ONEHITKILL",
+            "name": "Game over, man!",
+            "description": "One Hit Kill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_ALL_TECHS",
+            "name": "42",
+            "description": "Research All Techs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_POLICY_MIGHT",
+            "name": "C'mon you apes, you wanna live forever?",
+            "description": "Fully explore the Might virtue tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_POLICY_PROSPERITY",
+            "name": "Live Long and Prosper",
+            "description": "Fully explore the Prosperity virtue tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_POLICY_KNOWLEDGE",
+            "name": "Logic is the beginning of wisdom",
+            "description": "Fully explore the Knowledge virtue tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_POLICY_INDUSTRY",
+            "name": "No bucks, No Buck Rogers",
+            "description": "Fully explore the Industry virtue tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_UNIT_UPGRADED",
+            "name": "Mark II",
+            "description": "Upgrade a Unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_KILL_SPY",
+            "name": "Enemy Within",
+            "description": "Kill an enemy spy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_STOLEN_TECH",
+            "name": "Patent Pending",
+            "description": "Steal a tech",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_PURCHASE_TILES",
+            "name": "Rules of Acquisition",
+            "description": "Purchase 1000 Tiles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_SUCK_AT_WONDERS",
+            "name": "There is no Try",
+            "description": "Get beaten to wonders 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_MOD_DOWNLOADED",
+            "name": "I've made a lot of special modifications myself",
+            "description": "Download a mod",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_ALIENS_KILLED",
+            "name": "The Only Good Bug is a Dead Bug",
+            "description": "500 Aliens Killed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_KILLED_SIEGE_WORM",
+            "name": "Walk Without Rhythm",
+            "description": "Killed Siege Worm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_ORBITAL_UNIT_LAUNCHED",
+            "name": "Light This Candle",
+            "description": "Launch an orbital unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_MAPTYPE_TAIGAN",
+            "name": "Just Like Voskhod 2",
+            "description": "Win game on Taigan Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_MAPTYPE_EQUATORIAL",
+            "name": "Cruel and Unusual Geography",
+            "description": "Win game on Equatorial Map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_MAPTYPE_SKIRMISH",
+            "name": "Fearful Symmetry",
+            "description": "Win game on Skirmish Map (Base Game)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_VIRTUES_TIER1KICKERS",
+            "name": "A Fistful of Dollars",
+            "description": "Unlock All Tier 1 Virtue Synergy Bonuses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_VIRTUES_TIER2KICKERS",
+            "name": "For A Few Dollars More",
+            "description": "Unlock All Tier 2 Virtue Synergy Bonuses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_VIRTUES_TIER3KICKERS",
+            "name": "Once Upon A Time In Space",
+            "description": "Unlock All Tier 3 Virtue Synergy Bonuses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_AFFINITY_MAXHARMONY",
+            "name": "Homo Aliena",
+            "description": "Achieve Max Level in Harmony",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_AFFINITY_MAXPURITY",
+            "name": "So Say We All",
+            "description": "Achieve Max Level in Purity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_AFFINITY_MAXSUPREMACY",
+            "name": "The Sound Of Inevitability",
+            "description": "Achieve Max Level in Supremacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_XP1_1",
+            "name": "Salam",
+            "description": "Win a game as Al Falah",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_XP1_2",
+            "name": "Thy Sea So Great",
+            "description": "Win a game as North Sea Alliance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_XP1_3",
+            "name": "Willing is Not Enough",
+            "description": "Win a game as INTEGR",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_XP1_4",
+            "name": "Shadow and Light",
+            "description": "Win a game as Chungsu",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_XP1_5",
+            "name": "Splashdown",
+            "description": "Found an aquatic city",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_XP1_6",
+            "name": "The Voyageur",
+            "description": "Move an aquatic city 50 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_XP1_7",
+            "name": "Terror From the Deep",
+            "description": "Win without controlling any land cities",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_XP1_8",
+            "name": "Neptune's Glory",
+            "description": "Build all aquatic Wonders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_XP1_9",
+            "name": "Ramming Speed",
+            "description": "Kill a unit by moving an aquatic city onto it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_XP1_10",
+            "name": "Liberty Bell 7",
+            "description": "Complete an Expedition on an aquatic crashed satellite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_XP1_11",
+            "name": "Let's Make a Deal",
+            "description": "Create an Agreement",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_XP1_12",
+            "name": "The Prince",
+            "description": "Attain full Fear and full Respect with another player",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_XP1_13",
+            "name": "Lingua Franca",
+            "description": "Produce 100 Diplomatic Capital per turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_XP1_14",
+            "name": "Ahimsa",
+            "description": "Win a game without starting a war",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_XP1_15",
+            "name": "It Belongs in a Museum",
+            "description": "Find an Artifact",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_XP1_16",
+            "name": "You Have Chosen Wisely",
+            "description": "Cash in an Artifact of each category",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_XP1_17",
+            "name": "'X' Never Marks the Spot",
+            "description": "Collect 50 Artifacts",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_XP1_18",
+            "name": "Fortune and Glory",
+            "description": "Build all Artifact Wonders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_XP1_19",
+            "name": "More Than Meets The Eye",
+            "description": "Unlock a Hybrid affinity level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_XP1_20",
+            "name": "Best of Both Worlds",
+            "description": "Build a Hybrid Ultimate unique unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_XP1_21",
+            "name": "The Frontier is Everywhere",
+            "description": "Win a game on a Primordial planet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 86,
+            "apiname": "ACHIEVEMENT_XP1_22",
+            "name": "Winter is Coming",
+            "description": "Win a game on a Frigid planet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 87,
+            "apiname": "ACHIEVEMENT_XP1_23",
+            "name": "The Stuff of Legend",
+            "description": "Complete a Marvel quest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 88,
+            "apiname": "ACHIEVEMENT_XP1_24",
+            "name": "The Halls of R'lyeh",
+            "description": "Complete all Marvel quests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 89,
+            "apiname": "ACHIEVEMENT_XP1_25",
+            "name": "Shai-Hulud",
+            "description": "Leash a Colossal Alien",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 90,
+            "apiname": "ACHIEVEMENT_XP1_26",
+            "name": "Silent Service",
+            "description": "Kill 10 units with Invisible units",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

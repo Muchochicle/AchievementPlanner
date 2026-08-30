@@ -444,6 +444,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("game-of-thrones-telltale"));
     assert.ok(slugs.includes("life-is-strange-before-the-storm"));
     assert.ok(slugs.includes("the-walking-dead-season-two"));
+    assert.ok(slugs.includes("civilization-beyond-earth"));
+    assert.ok(slugs.includes("galactic-civilizations-3"));
+    assert.ok(slugs.includes("age-of-wonders-planetfall"));
 
 });
 

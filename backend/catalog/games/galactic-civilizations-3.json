@@ -1,0 +1,942 @@
+{
+    "id": 226860,
+    "steamAppId": 226860,
+    "name": "Galactic Civilizations III",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/226860/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 130
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Turn-Based Strategy",
+        "Space",
+        "Grand Strategy",
+        "Sci-fi",
+        "Sandbox"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "PLAY_5_HOURS",
+            "name": "New Recruit",
+            "description": "Play for 5 hours across all games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "PLAY_100_HOURS",
+            "name": "Space Emperor",
+            "description": "Play for 100 hours across all games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "PLAY_1000_HOURS",
+            "name": "Honorary Stardockian",
+            "description": "Play for 1000 Hours",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 4,
+            "apiname": "CAMPAIGN_BEGIN",
+            "name": "For Arcea",
+            "description": "Start the campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "CAMPAIGN_FINISH",
+            "name": "There is a crusade coming",
+            "description": "Win the campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "WIN_ALTARIAN",
+            "name": "Enlightenment Attained",
+            "description": "Win as the Altarian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "WIN_IRIDIUM",
+            "name": "Market Leader",
+            "description": "Win as the Iridium",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "WIN_DRENGIN",
+            "name": "Drengin Supremacy",
+            "description": "Win as the Drengin",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "WIN_ICONIAN",
+            "name": "From the Shadows",
+            "description": "Win as the Iconian",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "WIN_KRYNN",
+            "name": "There Is Only The Way",
+            "description": "Win as the Krynn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "WIN_TERRAN",
+            "name": "From Earth to Distant Stars",
+            "description": "Win as the Terran",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "WIN_THALAN",
+            "name": "Another Dimension Ruled",
+            "description": "Win as the Thalan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "WIN_YOR",
+            "name": "World Without Flesh",
+            "description": "Win as the Yor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "WIN_CONQUEST",
+            "name": "Conquerer",
+            "description": "Win by Conquest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "WIN_INFLUENCE",
+            "name": "They Want To Be Us",
+            "description": "Win by Cultural Influence",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "WIN_DIPLOMACY",
+            "name": "A Universe Without Enemies",
+            "description": "Win by Diplomacy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "WIN_ASCENSION",
+            "name": "Beyond This Universe",
+            "description": "Ascension victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "WIN_RESEARCH",
+            "name": "No More Secrets",
+            "description": "Technology Victory",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "WIN_MULTIPLAYER",
+            "name": "Crusher of Souls",
+            "description": "Win in Multiplayer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "WIN_INSANE_MAP",
+            "name": "Trying to Prove Something",
+            "description": "Win on an Insane sized map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "WIN_CUSTOM_FACTION",
+            "name": "Built From Nothing",
+            "description": "Win as a Custom Faction",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "WIN_QUICKLY",
+            "name": "Under Pressure",
+            "description": "Win a game in under 200 turns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "FIRST_PLANET_COLONIZED",
+            "name": "Our New Home",
+            "description": "Colonize your first planet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "FIRST_SHIP_DESIGNED",
+            "name": "Flying in Style",
+            "description": "Create your first ship design",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "FIRST_RACE_MET",
+            "name": "Aliens?!?!",
+            "description": "Meet your first Race in Galactic Civilizations III",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "FIRST_MAJOR_ALLY",
+            "name": "Friends, for now...",
+            "description": "Ally with first other major faction",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "OWN_30_PLANETS",
+            "name": "Worlds to Rule",
+            "description": "Own 30 planets",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 28,
+            "apiname": "RECAPTURE_HOME_PLANET",
+            "name": "Revenge",
+            "description": "Recapture your homeworld",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "BENEVOLENT",
+            "name": "We Care For The Least of Us",
+            "description": "Unlock all the Benevolent ideology traits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "PRAGMATIC",
+            "name": "Results Outweigh Ideals",
+            "description": "Unlock all the Pragmatic ideology traits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "MALEVOLENT",
+            "name": "Means To An End",
+            "description": "Unlock all the Malevolent ideology traits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "WORM_HOLE",
+            "name": "Boldly Go",
+            "description": "Use a Worm Hole",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "NEBULA_ANOMALY",
+            "name": "Danger Zone",
+            "description": "Survey an anomaly in a dust cloud or nebula",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "MANY_TRADEROUTES",
+            "name": "Merchant Empire",
+            "description": "Have 12 or more Trade Routes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "15_ANOMALIES",
+            "name": "Greedy",
+            "description": "Collect 15 Anomalies in a game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "CONTROL_ALL_RELICS",
+            "name": "Precursor Legacy",
+            "description": "Control all Relics on the map",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "DESTROY_FACTION",
+            "name": "All Your Base",
+            "description": "Destroy an Enemy Faction",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "DESTROY_ICONIANS_AS_YOR",
+            "name": "Exterminate",
+            "description": "Destroy the Iconian faction, as the Yor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "TAKE_ICONIA_FROM_YOR_AS_ICONIANS",
+            "name": "Vengence",
+            "description": "As the Iconians, take back Iconia (Yor's starting homeworld) from the Yor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "WAR_WITHOUT_TRANSLATOR",
+            "name": "I Assume You Were Talking Back",
+            "description": "Declare war before you have Universal Translator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "CORE_DISRUPTION",
+            "name": "Eco-Unfriendly",
+            "description": "Use Core Detonation invasion 10 times in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "WAR_WITH_5_FACTIONS",
+            "name": "Troublemaker",
+            "description": "Be at war with 5 different factions at the same time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "WIN_BATTLE",
+            "name": "Warrior",
+            "description": "Win a Battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "WIN_BATTLE_AGAINST_MANY_SHIPS",
+            "name": "Ships to Scrap",
+            "description": "Destroy more than 15 enemy ships in a battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "DESTROY_8_PIRATE_BASES",
+            "name": "Pirate Scum!",
+            "description": "Destroy more than 7 Pirate bases",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "MERCENARIES_WIN_ARCEAN",
+            "name": "Vigilant Victory",
+            "description": "Win as Arceans",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "MERCENARIES_WIN_TORIAN",
+            "name": "Out of the Deep and to the Stars",
+            "description": "Win as Torians",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "MERCENARIES_CAMPAIGN_FINISH",
+            "name": "A Little Help From My Frenemies",
+            "description": "Complete the Mercenaries campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "SNATHI_WIN_SNATHI",
+            "name": "Revenge is Ours",
+            "description": "Win as Snathi",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "SNATHI_CAMPAIGN_FINISH",
+            "name": "The Return of the True Face of Fear",
+            "description": "Complete the Snathi Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "RISEOFTERRANS_CAMPAIGN_FINISH",
+            "name": "Whatever happened to those Xendar?",
+            "description": "Complete the Rise of the Terrans campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ALTARIANPROPHECY_CAMPAIGN_FINISH",
+            "name": "Fulfilling the Prophecy",
+            "description": "Complete the Altarian Prophecy Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "CRUSADE_WIN_TERRAN_RESISTANCE",
+            "name": "Join the Resistance",
+            "description": "Win Game playing the Terran Resistance.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "CRUSADE_WIN_ONYX",
+            "name": "Rock Eater",
+            "description": "Win Game playing the Onyx Hive.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 55,
+            "apiname": "CRUSADE_WIN_SLYNE",
+            "name": "Gloriously Gelatinous",
+            "description": "Win Game playing the Slyne.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "CRUSADE_TUTORIAL_FINISH",
+            "name": "Backup Plan",
+            "description": "Complete the Crusade Tutorial.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "CRUSADE_FIRST_CITIZEN",
+            "name": "Recruiter",
+            "description": "Train your first Citizen.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "CRUSADE_FIRST_PROMOTION",
+            "name": "Human Resources",
+            "description": "Promote your first Specialist.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "CRUSADE_PLACE_SPY",
+            "name": "Spy Master",
+            "description": "Place a spy on a foreign colony.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "CRUSADE_INVADE_DEFENDED_PLANET",
+            "name": "Crush the Resistance",
+            "description": "Conquer a planet defended by enemy Legions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "CRUSADE_FIRST_CIV_DESIGNED",
+            "name": "King Maker",
+            "description": "Unleash a custom Civilization on the Galaxy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 62,
+            "apiname": "INTRIGUE_FIRST_COMMONWEALTH",
+            "name": "They Grow Up So Fast",
+            "description": "Create a commonwealth",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "INTRIGUE_FIRST_GOVERNMENT",
+            "name": "Together We Stand",
+            "description": "Form a government",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "INTRIGUE_CHANGE_GOVERNMENT",
+            "name": "Regime Change",
+            "description": "Change your government type",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 65,
+            "apiname": "CHANGE_TAXES",
+            "name": "Micro-Manager",
+            "description": "Change your tax slider for one turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 66,
+            "apiname": "NO_TAXES",
+            "name": "Trickle-Down Economics",
+            "description": "Lower your taxes to 0% for one turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 67,
+            "apiname": "FULL_TAXES",
+            "name": "Tax the wealthy (and everyone else)",
+            "description": "Raise your taxes to 100% for one turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "INTRIGUE_BUY_RESOURCE",
+            "name": "Two-Bit Buyer",
+            "description": "Buy at least one resource on the marketplace",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "INTRIGUE_SELL_RESOURCE",
+            "name": "Small-Time Seller",
+            "description": "Sell at least one resource on the marketplace",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 70,
+            "apiname": "INTRIGUE_BUY_10_RESOURCE",
+            "name": "Planetary Patron",
+            "description": "Buy at least 10 resources at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "INTRIGUE_SELL_10_RESOURCE",
+            "name": "Stellar Seller",
+            "description": "Sell at least 10 resources at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "INTRIGUE_BUY_30_RESOURCE",
+            "name": "Master Merchant",
+            "description": "Buy at least 30 resources at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 73,
+            "apiname": "INTRIGUE_SELL_30_RESOURCE",
+            "name": "Astral Agent",
+            "description": "Sell at least 30 resources at once",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 74,
+            "apiname": "INTRIGUE_FIRST_CRISIS_COMPLETED",
+            "name": "Trial by Fire",
+            "description": "Successfully complete a Crisis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 75,
+            "apiname": "INTRIGUE_ASSIGN_CRISIS_MANAGER",
+            "name": "Cool Head(s)",
+            "description": "Assign a Crisis manager",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 76,
+            "apiname": "INTRIGUE_WIN_ELECTION",
+            "name": "They Really Love You",
+            "description": "Win an Election",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 77,
+            "apiname": "INTRIGUE_WIN_ELECTION_LANDSLIDE",
+            "name": "They Really REALLY Love You",
+            "description": "Win an Election with a landslide majority",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 78,
+            "apiname": "INTRIGUE_CRISIS_APOPHIS",
+            "name": "Crisis: Apophis",
+            "description": "Complete \"Apophis\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 79,
+            "apiname": "INTRIGUE_CRISIS_ROGUE_GENERAL",
+            "name": "Crisis: Rogue General",
+            "description": "Complete \"Rogue General\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 80,
+            "apiname": "INTRIGUE_CRISIS_SECESSION",
+            "name": "Crisis: Secession",
+            "description": "Complete \"Secession\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 81,
+            "apiname": "INTRIGUE_CRISIS_SPACE_MONSTER",
+            "name": "Crisis: Space Monster",
+            "description": "Complete \"Space Monster\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 82,
+            "apiname": "INTRIGUE_CRISIS_THE_REVOLUTION",
+            "name": "Crisis: The Revolution",
+            "description": "Complete \"The Revolution\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 83,
+            "apiname": "INTRIGUE_CRISIS_THE_SIMULATION",
+            "name": "Crisis: The Simulation",
+            "description": "Complete \"The Simulation\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 84,
+            "apiname": "INTRIGUE_CRISIS_BRAIN_PARASITES",
+            "name": "Crisis: Brain Parasites",
+            "description": "Complete \"Brain Parasites\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 85,
+            "apiname": "INTRIGUE_CRISIS_BRAIN_TRUST",
+            "name": "Crisis: Brain Trust",
+            "description": "Complete \"Brain Trust\" Crisis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 86,
+            "apiname": "Mukay_Win",
+            "name": "Squik!",
+            "description": "Win as the Mu'Kay",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 87,
+            "apiname": "Mowling_Win",
+            "name": "Thanks be to Jeff",
+            "description": "Win as Mowlings",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 88,
+            "apiname": "FreeTrandal_Win",
+            "name": "Overminds meet your Overlords",
+            "description": "Win as Free Trandals",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 89,
+            "apiname": "Tywom_Win",
+            "name": "So Sweaty to Beat You",
+            "description": "Win as the Tywom",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 90,
+            "apiname": "RETRIBUTION_USE_POWER",
+            "name": "Feeling Powerful, eh?",
+            "description": "Use an Artifact Power",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 91,
+            "apiname": "RETRIBUTION_USE_X_POWERS",
+            "name": "Power Hungry",
+            "description": "Use 20 Artifact Powers in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 92,
+            "apiname": "RETRIBUTION_FIRST_HYPERGATE",
+            "name": "Hyper Hyper Hyper",
+            "description": "Build a hypergate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 93,
+            "apiname": "RETRIBUTION_FIRST_HYPERLANE",
+            "name": "Hyperdiculous Speed",
+            "description": "Build a hyperlane",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 94,
+            "apiname": "RETRIBUTION_X_HYPERLANE",
+            "name": "No Limits",
+            "description": "Build 20 hyperlanes in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 95,
+            "apiname": "RETRIBUTION_SPORE",
+            "name": "You're a Bad Person",
+            "description": "Use the spore weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 96,
+            "apiname": "Drath_Win",
+            "name": "Space Dragons!",
+            "description": "Win as Drath",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 97,
+            "apiname": "Korath_Win",
+            "name": "Shadow Masters",
+            "description": "Win as Korath",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 98,
+            "apiname": "RETRIBUTION_CAMPAIGN_FINISH",
+            "name": "Sticks and Stones",
+            "description": "Win the Retribution campaign",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 99,
+            "apiname": "Xraki_Win",
+            "name": "One more dimension conquered ...",
+            "description": "Win as Xraki",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 100,
+            "apiname": "Measured_Win",
+            "name": "Glorious Paperwork",
+            "description": "Win as Measured",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 101,
+            "apiname": "Scryve_Win",
+            "name": "Imperial March",
+            "description": "Win as Scryve",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 102,
+            "apiname": "Phamysht_Win",
+            "name": "Served for dinner",
+            "description": "Win as Phamysht",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

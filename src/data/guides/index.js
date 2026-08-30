@@ -420,6 +420,9 @@ import { GUIDE as talesFromTheBorderlandsAchievementGuide } from "./games/tales-
 import { GUIDE as gameOfThronesTelltaleAchievementGuide } from "./games/game-of-thrones-telltale.js";
 import { GUIDE as lifeIsStrangeBeforeTheStormAchievementGuide } from "./games/life-is-strange-before-the-storm.js";
 import { GUIDE as theWalkingDeadSeasonTwoAchievementGuide } from "./games/the-walking-dead-season-two.js";
+import { GUIDE as civilizationBeyondEarthAchievementGuide } from "./games/civilization-beyond-earth.js";
+import { GUIDE as galacticCivilizations3AchievementGuide } from "./games/galactic-civilizations-3.js";
+import { GUIDE as ageOfWondersPlanetfallAchievementGuide } from "./games/age-of-wonders-planetfall.js";
 
 export const APP_GUIDES = [
 
@@ -862,7 +865,10 @@ export const GAME_GUIDES = [
     talesFromTheBorderlandsAchievementGuide,
     gameOfThronesTelltaleAchievementGuide,
     lifeIsStrangeBeforeTheStormAchievementGuide,
-    theWalkingDeadSeasonTwoAchievementGuide
+    theWalkingDeadSeasonTwoAchievementGuide,
+    civilizationBeyondEarthAchievementGuide,
+    galacticCivilizations3AchievementGuide,
+    ageOfWondersPlanetfallAchievementGuide
 
 ];
 
