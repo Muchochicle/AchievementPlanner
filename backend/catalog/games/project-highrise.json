@@ -1,0 +1,816 @@
+{
+    "id": 423580,
+    "steamAppId": 423580,
+    "name": "Project Highrise",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/423580/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Management",
+        "Simulation",
+        "Building",
+        "City Builder",
+        "Economy",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_cash",
+            "name": "Baron of Business",
+            "description": "Reached $1,000,000 in cash",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 2,
+            "apiname": "ach_revs_1",
+            "name": "Cashflow Chief",
+            "description": "Reached $50,000 in daily revenues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "ach_revs_2",
+            "name": "Revenue Royalty",
+            "description": "Reached $100,000 in daily revenues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 4,
+            "apiname": "ach_revs_3",
+            "name": "It is Payday",
+            "description": "Reached $200,000 in daily revenues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "ach_profit_0",
+            "name": "In the Black",
+            "description": "Rent revenues exceed daily expenses",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "ach_profit_1",
+            "name": "Swimming in Surplus",
+            "description": "Reached $25,000 in daily profits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 7,
+            "apiname": "ach_profit_2",
+            "name": "Profound Proceeds",
+            "description": "Reached $50,000 in daily profits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "ach_pop_1",
+            "name": "People Mover",
+            "description": "Reached 250 population",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "ach_pop_2",
+            "name": "Master of Puppets",
+            "description": "Reached 500 population",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "ach_renters",
+            "name": "Lofty Landlord",
+            "description": "Have a building with more than 300 apartment residents",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "ach_100days",
+            "name": "First 100 Days",
+            "description": "Have a tenant rent for 100 days",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "ach_happy",
+            "name": "Happy Tenants",
+            "description": "Have 200 happy tenants in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "ach_veryhappy",
+            "name": "Thrilled Tenants",
+            "description": "Have 50 very happy tenants in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 14,
+            "apiname": "ach_nomoveout",
+            "name": "28 Days Later",
+            "description": "Go 28 days without a tenant moving out",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "ach_visitors_1",
+            "name": "Destination Destiny",
+            "description": "Have 100 visitors from the city in one day",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "ach_loan",
+            "name": "Don't Feel a Loan",
+            "description": "Take and fully repay a loan",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 17,
+            "apiname": "ach_drones",
+            "name": "Plebs Are Needed",
+            "description": "Have a building with more than 500 office workers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 18,
+            "apiname": "ach_office_1",
+            "name": "It's Technical",
+            "description": "Move in a tech office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 19,
+            "apiname": "ach_office_2",
+            "name": "Meet Me at HQ",
+            "description": "Move in a headquarters office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "ach_apartments_1",
+            "name": "Lux Living",
+            "description": "Move in a luxury apartment tenant",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "ach_apartments_2",
+            "name": "Penthouse in the Sky",
+            "description": "Move in a luxury loft apartment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "ach_restaurants_1",
+            "name": "Refined Palates",
+            "description": "Have 20 restaurants functioning in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 23,
+            "apiname": "ach_restaurants_2",
+            "name": "Tasty Profits",
+            "description": "Have 10 restaurants make a profit in one day in the same building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "ach_restaurants_3",
+            "name": "Dinner Dash",
+            "description": "Move in a restaurant that serves dinner",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "ach_restaurants_4",
+            "name": "Potent Potables",
+            "description": "Move in a restaurant with a bar",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "ach_restaurants_5",
+            "name": "Starred Dining",
+            "description": "Move in a gourmet restaurant",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 27,
+            "apiname": "ach_retail_1",
+            "name": "Retail Revenue",
+            "description": "Have 10 stores make a profit in one day in the same building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "ach_retail_2",
+            "name": "Emporium Empire",
+            "description": "Have 15 stores in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "ach_retail_3",
+            "name": "Leveled Up Shops",
+            "description": "Have a two-floor store",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "ach_retail_4",
+            "name": "Boutique Benefits",
+            "description": "Move in a luxury store",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "ach_floors",
+            "name": "Starting Skyward",
+            "description": "Built five floors above ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "ach_floors_1",
+            "name": "Careful Constructor",
+            "description": "Built a 50-story building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 33,
+            "apiname": "ach_floors_2",
+            "name": "Such Great Heights",
+            "description": "Build a 100-story building",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 34,
+            "apiname": "ach_area",
+            "name": "Floor Galore",
+            "description": "Have a building with 500 tiles ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "ach_area_1",
+            "name": "Under One Roof",
+            "description": "Have a building with 2,500 tiles",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 36,
+            "apiname": "ach_trash_1",
+            "name": "Terrifically Trashed",
+            "description": "Have a trashroom fill to 100% capacity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "ach_recycling_1",
+            "name": "Maximum Reuse",
+            "description": "Have a recycling room fill to 100% capacity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "ach_grime",
+            "name": "Grime is Not Good",
+            "description": "Renovate a unit in need repair",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "ach_grime_1",
+            "name": "Delegate Maintenance",
+            "description": "Renovate all units in need of repair from the maintenance office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "ach_grime_2",
+            "name": "Rehab Expert",
+            "description": "Have an expanded maintenance office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 41,
+            "apiname": "ach_support_1",
+            "name": "Smooth Service",
+            "description": "Have 250 successful service calls in a day",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 42,
+            "apiname": "ach_util_power",
+            "name": "Get Electrified",
+            "description": "Have a building using 200 electricity connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 43,
+            "apiname": "ach_util_phone",
+            "name": "Phoning It In",
+            "description": "Have a building using 200 phone connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 44,
+            "apiname": "ach_util_cable",
+            "name": "Tuned In",
+            "description": "Have a building using 100 cable TV connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "ach_util_water",
+            "name": "Pipe Up",
+            "description": "Have a building using 200 water connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 46,
+            "apiname": "ach_util_gas",
+            "name": "It's a Gas",
+            "description": "Have a building using 100 gas connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 47,
+            "apiname": "ach_contracts_1",
+            "name": "Office Bigwigs",
+            "description": "Complete the Office Bigwigs contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 48,
+            "apiname": "ach_contracts_2",
+            "name": "Loft Life",
+            "description": "Complete the Loft Life contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "ach_contracts_3",
+            "name": "Glut of Gastronomy",
+            "description": "Complete the Glut of Gastronomy contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "ach_contracts_4",
+            "name": "Luxury Boutiques",
+            "description": "Complete the Luxury Boutiques contract",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 51,
+            "apiname": "ach_prestige_1",
+            "name": "Your Prestige is Rising",
+            "description": "Achieve prestige of 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 52,
+            "apiname": "ach_prestige_2",
+            "name": "Established Fame",
+            "description": "Achieve prestige of 20",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 53,
+            "apiname": "ach_prestige_3",
+            "name": "Sky High Stature",
+            "description": "Achieve prestige of 50",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 54,
+            "apiname": "ach_consultant",
+            "name": "Need a Consult",
+            "description": "Move in a consultant's office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 55,
+            "apiname": "ach_consultant_1",
+            "name": "Upgrade Unlock",
+            "description": "Unlock a consultant upgrade",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 56,
+            "apiname": "ach_consultants_a",
+            "name": "Aestheticly Pleased",
+            "description": "Unlock all upgrades in the Aesthetics track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 57,
+            "apiname": "ach_consultants_b",
+            "name": "I'm Busy Ruling",
+            "description": "Unlock all upgrades in the Politics track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 58,
+            "apiname": "ach_consultants_c",
+            "name": "Smooth Operator",
+            "description": "Unlock all upgrades in the Operations track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 59,
+            "apiname": "ach_buzz",
+            "name": "Campaign Launch",
+            "description": "Launch a media campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 60,
+            "apiname": "ach_campaigns_1",
+            "name": "Apartment Awareness",
+            "description": "Run each media campaign in the Apartments track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 61,
+            "apiname": "ach_campaigns_2",
+            "name": "Infrastructure Info",
+            "description": "Run each media campaign in the Infrastructure track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 62,
+            "apiname": "ach_campaigns_3",
+            "name": "Commercial Campaigns",
+            "description": "Run each media campaign in the Retail and Restaurant track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 63,
+            "apiname": "ach_campaings_4",
+            "name": "Office Ovation",
+            "description": "Run each media campaign in the Office track",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 64,
+            "apiname": "ach_art",
+            "name": "Artfully Done",
+            "description": "Place an artwork",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 65,
+            "apiname": "ach_art_small",
+            "name": "Decorator's Touch",
+            "description": "Have all of the small artworks in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 66,
+            "apiname": "ach_art_medium",
+            "name": "Curated Class",
+            "description": "Have all of the medium artworks in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 67,
+            "apiname": "ach_art_large",
+            "name": "Artistic Largesse",
+            "description": "Have all of the large artworks in one bulding",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 68,
+            "apiname": "ach_plaza",
+            "name": "Plaza Plan",
+            "description": "Place an outdoor plaza",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 69,
+            "apiname": "ach_art_outside",
+            "name": "Statue Stature",
+            "description": "Have all four statues outside one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 70,
+            "apiname": "ach_fountains",
+            "name": "Water Features",
+            "description": "Have four fountains in one building",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 71,
+            "apiname": "ach_deco",
+            "name": "Proper Walls",
+            "description": "Decorate a bare wall with fancy wallpaper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 72,
+            "apiname": "ach_tutorial",
+            "name": "We Don't Need No Education",
+            "description": "Complete all the tutorial levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 73,
+            "apiname": "ach_ada",
+            "name": "Meet ADA/360",
+            "description": "Review every report in the ADA/360 report system",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 74,
+            "apiname": "ach_scenarios_1",
+            "name": "Golden Opportunity",
+            "description": "Earn a gold medal finish in one scenario",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 75,
+            "apiname": "ach_scenarios_2",
+            "name": "Scenario Success",
+            "description": "Earn a gold medal in five scenarios",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 76,
+            "apiname": "ach_scenarios_3",
+            "name": "Scenario Master",
+            "description": "Earn a gold medal in ten scenarios",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 77,
+            "apiname": "ach_mod_1",
+            "name": "Mod Squad",
+            "description": "Download a mod",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 78,
+            "apiname": "ach_mod_2",
+            "name": "Experimential Experience",
+            "description": "Play a game with a mod",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 79,
+            "apiname": "ach_ep1_reviews_1",
+            "name": "Three of a Kind",
+            "description": "Received 100 hotel reviews",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 80,
+            "apiname": "ach_ep1_reviews_2",
+            "name": "Four of a Kind",
+            "description": "Received 1000 hotel reviews",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 81,
+            "apiname": "ach_ep1_checkin_1",
+            "name": "Full House",
+            "description": "First guest checks in to the honeymoon suite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 82,
+            "apiname": "ach_ep1_checkin_2",
+            "name": "Royal Flush",
+            "description": "First guest checks in to the presidential suite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 83,
+            "apiname": "ach_ep1_revs_1",
+            "name": "Sandbagger",
+            "description": "Reached $1,000 in daily hotel revenues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 84,
+            "apiname": "ach_ep1_revs_2",
+            "name": "In the Money",
+            "description": "Reached $10,000 in daily hotel revenues",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 85,
+            "apiname": "ach_ep1_event_1",
+            "name": "Double Down",
+            "description": "Started an event at the convention hall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 86,
+            "apiname": "ach_ep1_event_2",
+            "name": "Poker Face",
+            "description": "Started an event at the concert hall",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 87,
+            "apiname": "ach_ep1_casino",
+            "name": "High Hand",
+            "description": "Have a grand casino",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 88,
+            "apiname": "ach_ep1_hvac",
+            "name": "The King of Cool",
+            "description": "Have a building using 100 HVAC connections",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        }
+    ]
+}

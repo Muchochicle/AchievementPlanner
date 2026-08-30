@@ -1,0 +1,789 @@
+{
+    "id": 246900,
+    "steamAppId": 246900,
+    "name": "Viscera Cleanup Detail",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/246900/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Cleaning",
+        "Comedy",
+        "Sandbox",
+        "First-Person",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "VCA_SpringFresh",
+            "name": "Spring Fresh",
+            "description": "Clean any map adequately",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "VCA_EmployeeOfMonth",
+            "name": "Employee of the Month",
+            "description": "Get the Employee of the Month reward for your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "VCA_Fired",
+            "name": "You're Fired!",
+            "description": "Get fired!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "VCA_Spill100Buckets",
+            "name": "Blood Soaked",
+            "description": "Spill 100 dirty buckets",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "VCA_Incinerate2000Items",
+            "name": "Blaze of Glory",
+            "description": "Incinerate 2000 items",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 6,
+            "apiname": "VCA_Mop10000Splats",
+            "name": "Bloody Hell!",
+            "description": "Mop up 10,000 splats",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 7,
+            "apiname": "VCA_GetEaten",
+            "name": "Who's for Dinner?",
+            "description": "Get eaten",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "VCA_800Casings",
+            "name": "Top Brass",
+            "description": "Pick up 800 casings",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "VCA_1000Trash",
+            "name": "Taking Out the Trash",
+            "description": "Pick up 1000 pieces of trash",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "VCA_SpeedrunPar",
+            "name": "Ubermensch",
+            "description": "Speedrun a map with at least %25 par time to spare",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "VCA_20000Footprints",
+            "name": "Pedestrian",
+            "description": "Track over 20,000 footprints",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 12,
+            "apiname": "VCA_BlowupColleague",
+            "name": "Janicide",
+            "description": "Blow up a fellow worker with the help of an ominously bright-red explosive charge",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "VCA_HelpingHand",
+            "name": "Need a Hand?",
+            "description": "Receive a total of 35 helping hands from the Slosh-O-Matic",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "VCA_BinWrath",
+            "name": "Bins? Limbs!",
+            "description": "Suffer the wrath of the Bin machine 75 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "VCA_Medkits",
+            "name": "First Aid",
+            "description": "Restock a total of 50 medkits over your cleaning career by punching out of levels with medkits",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "VCA_Sniffer",
+            "name": "The Nose Knows",
+            "description": "Use the Sniffer for a total of 2 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "VCA_FeedTheBeast",
+            "name": "Chew on This!",
+            "description": "Throw 100 items into sand traps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "VCA_PlasmaFire",
+            "name": "Disintegrator",
+            "description": "Fry 500 items with the plasma welder",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "VCA_CompleteAthena",
+            "name": "The Mops Of Wrath",
+            "description": "Complete Athena's Wrath Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "VCA_CompleteCaduceus",
+            "name": "Anti-Virus",
+            "description": "Complete Caduceus Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "VCA_CompleteCryo",
+            "name": "Ice-Cold Cleana",
+            "description": "Complete Cryogenesis Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "VCA_CompleteDigsite",
+            "name": "Sandblasted",
+            "description": "Complete Unearthly Excavation Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "VCA_CompleteGreenhouse",
+            "name": "Pine Fresh",
+            "description": "Complete Hydroponic Hell Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "VCA_CompleteMedBay",
+            "name": "Surgical Sweeper",
+            "description": "Complete Evil Science Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "VCA_CompletePaintenance",
+            "name": "Deep-Sea Dry-cleaning",
+            "description": "Complete Paintenance Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "VCA_CompleteSewer",
+            "name": "Operation Brownwash",
+            "description": "Complete Waste Disposal Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "VCA_CompleteUnrefinery",
+            "name": "Refined",
+            "description": "Complete Unrefinery Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "VCA_CompleteAllMaps",
+            "name": "One Mop To Rule Them All",
+            "description": "Complete All major Official Levels",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 29,
+            "apiname": "VCA_PassTheTorch",
+            "name": "Pass The Torch",
+            "description": "Take a lit flare from a fellow Janitor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "VCA_CompleteGravityDrive",
+            "name": "Louis and Clean",
+            "description": "Complete Gravity Drive Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "VCA_BigBanger",
+            "name": "Big Banger Burnout",
+            "description": "Tame the uncontrollable fury of the Big Banger by incinerating it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "VCA_CleanOffice",
+            "name": "Clean Freak",
+            "description": "Cleanup your own personal Office by removing any Trash, Viscera and Blood; excluding trophies, then leave",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "VCA_EmployeeOfTheYear",
+            "name": "Employee of the Year",
+            "description": "Receive 12 Employee of the Month awards",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 34,
+            "apiname": "VCA_IdentityTheft",
+            "name": "Identity Theft",
+            "description": "Steal 30 or more Personal Identification Devices (P.I.Ds) from cleaned levels and take them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "VCA_BringThunder",
+            "name": "Bring the Thunder",
+            "description": "Take the Big Banger Supernova out of Unearthly Excavation and into another work-site and turn it on",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "VCA_ContainBanger",
+            "name": "Master of the Beats",
+            "description": "Turn off the Big Banger while it's playing loudly(keep your music volume up too) in zero-gravity during a Solo game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "VCA_PlagueBearer",
+            "name": "Plague Bearer",
+            "description": "Transfer a Goo-Jar to another work-site and infect something",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "VCA_HeadHunter",
+            "name": "Head Hunter",
+            "description": "Collect a head from each species in cleaned levels and take them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "VCA_CompleteRobot",
+            "name": "Brushed Steel",
+            "description": "Complete Revolutionary Robotics Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "VCA_CompleteJungle",
+            "name": "Bushwhacked",
+            "description": "Complete Overgrowth Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "VCA_FindBob",
+            "name": "Bob's Legacy",
+            "description": "Find Bob",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "VCA_UnlockBobStash",
+            "name": "\"Red Keycard\"",
+            "description": "Unlock Bob's super secret secret stash room",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "VCA_FindCollectibles",
+            "name": "Keep It Secret, Keep It Safe",
+            "description": "Find all the unique and hidden collectibles and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "VCA_FindEggs",
+            "name": "Eggregious",
+            "description": "Find all the hidden painted eggs and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "VCA_EatenByPortal",
+            "name": "Lost in Space and Time",
+            "description": "Get consumed by an inter-dimensional crack in space-time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "VCA_FindWickedUnliving",
+            "name": "Wicked Unliving",
+            "description": "Collect the chainsaw, boomstick, cursed hand and the evil book and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "VCA_FindThursday",
+            "name": "Thursday the 12th",
+            "description": "Collect the mask and machete and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "VCA_FindBadDreams",
+            "name": "Bad Dreams on Helm Street",
+            "description": "Collect the clawed glove and return it to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "VCA_FindHarroween",
+            "name": "Harroween",
+            "description": "Collect the white mask and butcher knife and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "VCA_FindShimmering",
+            "name": "The Shimmering",
+            "description": "Collect the axe and return it to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "VCA_FindRing",
+            "name": "Never Put It On",
+            "description": "Collect the ring and return it to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "VCA_CompleteHorror",
+            "name": "House of Honor",
+            "description": "Clean the entire House of Horror level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "VCA_DestroyBadBanger",
+            "name": "Back From Whence It Came",
+            "description": "Destroy the Bad Banger",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "VCA_WoodChipper",
+            "name": "Not Quite a Lumberjack",
+            "description": "Destroy 200 items in the woodchipper",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "VCASR_CompleteCleanup",
+            "name": "Cleanliness is Godliness",
+            "description": "Completely clean all mess in Santa's Workshop and clock off",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "VCASR_ChristmasSaved",
+            "name": "Christmas Crisis Corrected",
+            "description": "Completely clean Santa's Workshop without breaking any Christmas items and clock off",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "VCASR_CleanDestruction",
+            "name": "Sanitized Earth",
+            "description": "Completely clean all mess and destroy every item in Santa's Workshop and clock off",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "VCASR_WorseMess",
+            "name": "Bloody Incompetent",
+            "description": "Prove your incompetence by leaving a worse mess in Santa's Workshop and clock off",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "VCASR_SantasShotgun",
+            "name": "St. Nick's Boomstick",
+            "description": "Collect Santa's shotgun and bring it back to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "VCASR_RudolphNose",
+            "name": "The Red Nose Knows",
+            "description": "Collect the iconic reindeer nose and bring it back to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "VCASR_CollectRooksKeep",
+            "name": "Rooks Kept",
+            "description": "Collect the different Rooks Keep figurines and take them back to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 62,
+            "apiname": "VCASR_CollectBallisticWeapons",
+            "name": "Ballistic Weaponry",
+            "description": "Collect the different Ballistic Weapons toys and bring them back to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "VCASR_TNTSuicide",
+            "name": "Thunder Candle",
+            "description": "Requisition a new replacement janitor through the use of TNT",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 64,
+            "apiname": "VCASR_CollectElfHeads",
+            "name": "Head Hunter",
+            "description": "Collect elf heads and bring them back to your office, you freakin' psycho!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "VCASR_BurnSantaCaps",
+            "name": "Santa Hats Must Die!",
+            "description": "Incinerate 50 Santa hats, the symbol of everything you hate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "VCASR_StoolStack",
+            "name": "Tower of Babel",
+            "description": "Build a stack of 10 stools",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 67,
+            "apiname": "VCASR_KillTheFunk",
+            "name": "The Day the Funk Died",
+            "description": "Bring about the sad meeting of Ice-Cold Banger and fire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 68,
+            "apiname": "VCA_CompleteIceStation",
+            "name": "Cold Storage",
+            "description": "Complete Frostbite Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 69,
+            "apiname": "VCA_CompleteIncubator",
+            "name": "Biomassive Breakdown",
+            "description": "Complete Incubation Emergency Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 70,
+            "apiname": "VCASW_CompleteCleanup",
+            "name": "Sanitary Supremacy",
+            "description": "Completely clean the entire Shadow Warrior temple level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 71,
+            "apiname": "VCASW_2Million",
+            "name": "Mr. Two Million Dollars",
+            "description": "Collect the two million dollars of cold hard cash from the Shadow Warrior level all at once and bring it back to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 72,
+            "apiname": "VCA_CompleteAdmin",
+            "name": "Swept Under The Carpet",
+            "description": "Complete Uprinsing Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 73,
+            "apiname": "VCA_CompleteEnergy",
+            "name": "Crystal Clear",
+            "description": "Complete Core Sample Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 74,
+            "apiname": "VCA_CompleteMantis",
+            "name": "Pest Control",
+            "description": "Complete Pestilent Penitentiary Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 75,
+            "apiname": "VCA_CompleteDarkening",
+            "name": "Bleach and Clear",
+            "description": "Complete Penumbra Level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 76,
+            "apiname": "VCAV_FindVulcan",
+            "name": "Audacious Oddities",
+            "description": "Find all the unique Collectibles in the Vulcan Affair and return them to your office",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 77,
+            "apiname": "VCAV_CompleteVulcan",
+            "name": "Lair Care",
+            "description": "Clean the entire Vulcan Affair level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 78,
+            "apiname": "VCAV_SharkBlastedBanger",
+            "name": "Teeth for Tunes",
+            "description": "Bring about the unfortunate meeting of Double-Oh Banger and Shark",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 79,
+            "apiname": "VCAV_SharkAtePlayer",
+            "name": "Blood in the Water",
+            "description": "Go for a swim with Sharks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 80,
+            "apiname": "VCAV_FeedSharks",
+            "name": "We're Gonna Need a Bigger Tank",
+            "description": "Feed the ever hungry Sharks 500 items they can either devour or destroy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 81,
+            "apiname": "VCAV_DeathRayFired",
+            "name": "Double-Oh Dumbass",
+            "description": "Foolishly activate the Death Ray",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 82,
+            "apiname": "VCAV_ImprisonPlayer",
+            "name": "Locked In",
+            "description": "Lock another player inside a holding cell where they belong",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 83,
+            "apiname": "VCAV_SpaceBeamPlayer",
+            "name": "Death From Above",
+            "description": "Get turned into mist by an orbital beam weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 84,
+            "apiname": "VCAV_SpaceBeamCat",
+            "name": "Cat-astrophe",
+            "description": "Using an orbital beam weapon, destroy the symbol of your most hated overlord; cats!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 85,
+            "apiname": "VCAV_SpaceBeamBanger",
+            "name": "Orbital Bang-bardment",
+            "description": "Allow the Banger to ascend to its rightful place among the heavens through the use of an orbital beam weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

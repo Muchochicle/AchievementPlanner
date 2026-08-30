@@ -351,6 +351,9 @@ import { GUIDE as unravelTwoAchievementGuide } from "./games/unravel-two.js";
 import { GUIDE as helldiversDiveHarderAchievementGuide } from "./games/helldivers-dive-harder.js";
 import { GUIDE as shadowWarrior3AchievementGuide } from "./games/shadow-warrior-3.js";
 import { GUIDE as brightMemoryInfiniteAchievementGuide } from "./games/bright-memory-infinite.js";
+import { GUIDE as projectHighriseAchievementGuide } from "./games/project-highrise.js";
+import { GUIDE as carMechanicSimulator2021AchievementGuide } from "./games/car-mechanic-simulator-2021.js";
+import { GUIDE as visceraCleanupDetailAchievementGuide } from "./games/viscera-cleanup-detail.js";
 
 export const APP_GUIDES = [
 
@@ -724,7 +727,10 @@ export const GAME_GUIDES = [
     unravelTwoAchievementGuide,
     helldiversDiveHarderAchievementGuide,
     shadowWarrior3AchievementGuide,
-    brightMemoryInfiniteAchievementGuide
+    brightMemoryInfiniteAchievementGuide,
+    projectHighriseAchievementGuide,
+    carMechanicSimulator2021AchievementGuide,
+    visceraCleanupDetailAchievementGuide
 
 ];
 
