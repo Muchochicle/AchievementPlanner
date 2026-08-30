@@ -1,0 +1,816 @@
+{
+    "id": 265550,
+    "steamAppId": 265550,
+    "name": "Dead Rising 3 Apocalypse Edition",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/265550/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Open World",
+        "Zombies",
+        "Beat ’em up",
+        "Hack and Slash",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ZOMBIE_KILLER_ACHIEVEMENT",
+            "name": "Zombie Killer",
+            "description": "Killed 100 zombies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "ZOMBIE_BUTCHER_ACHIEVEMENT",
+            "name": "Zombie Butcher",
+            "description": "Killed 1,000 zombies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "ZOMBIE_SLAYER_ACHIEVEMENT",
+            "name": "Zombie Slayer",
+            "description": "Killed 10,000 zombies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "MASTER_OF_MASSACRE_ACHIEVEMENT",
+            "name": "Master of Massacre",
+            "description": "Killed 53,597 zombies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 5,
+            "apiname": "GENIUS_OF_ZOMBIE_SLAYING_ACHIEVEMENT",
+            "name": "Genius of Zombie Slaying",
+            "description": "Killed 72,000 zombies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 6,
+            "apiname": "LEFT_100004_DEAD_ACHIEVEMENT",
+            "name": "Left 100,004 Dead",
+            "description": "Killed 100,004 zombies.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 900
+        },
+        {
+            "id": 7,
+            "apiname": "CHAPTER_0_ACHIEVEMENT",
+            "name": "Starter",
+            "description": "Chapter 0 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "CHAPTER_1_ACHIEVEMENT",
+            "name": "Quarantined",
+            "description": "Chapter 1 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "CHAPTER_2_ACHIEVEMENT",
+            "name": "Morgue-ified",
+            "description": "Chapter 2 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "CHAPTER_3_ACHIEVEMENT",
+            "name": "Family Man",
+            "description": "Chapter 3 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "CHAPTER_4_ACHIEVEMENT",
+            "name": "Happy Camper",
+            "description": "Chapter 4 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "CHAPTER_5_ACHIEVEMENT",
+            "name": "Day at the Museum",
+            "description": "Chapter 5 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "CHAPTER_6_ACHIEVEMENT",
+            "name": "The Doctor is Out",
+            "description": "Chapter 6 completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "CHAPTER_THE_FACTS_ACHIEVEMENT",
+            "name": "Them's the Facts",
+            "description": "The Facts completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "CHAPTER_OVERTIME_ACHIEVEMENT",
+            "name": "Complete Package",
+            "description": "Overtime completed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "LUSTY_ACHIEVEMENT",
+            "name": "Lusty",
+            "description": "Dylan defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "GREEDY_ACHIEVEMENT",
+            "name": "Greedy",
+            "description": "Albert defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "SLOTHFUL_ACHIEVEMENT",
+            "name": "Slothful",
+            "description": "Theodore defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "PRIDEFUL_ACHIEVEMENT",
+            "name": "Prideful",
+            "description": "Jherii defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "GLUTTONOUS_ACHIEVEMENT",
+            "name": "Gluttonous",
+            "description": "Darlene defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "WRATHFUL_ACHIEVEMENT",
+            "name": "Wrathful",
+            "description": "Zhi defeated.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "ENVIOUS_ACHIEVEMENT",
+            "name": "Envious",
+            "description": "Kenny defeated!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "LEVEL_5_ACHIEVEMENT",
+            "name": "Apprentice",
+            "description": "Level 5 reached.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "LEVEL_25_ACHIEVEMENT",
+            "name": "Expert",
+            "description": "Level 25 reached.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "LEVEL_50_ACHIEVEMENT",
+            "name": "Maxed!",
+            "description": "Level 50 reached.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 26,
+            "apiname": "BLUEPRINT_5_ACHIEVEMENT",
+            "name": "Planner",
+            "description": "5 blueprints collected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "BLUEPRINT_25_ACHIEVEMENT",
+            "name": "Journeyman",
+            "description": "25 blueprints collected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "BLUEPRINT_50_ACHIEVEMENT",
+            "name": "Engineer",
+            "description": "50 blueprints collected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "BLUEPRINT_100_ACHIEVEMENT",
+            "name": "Master Builder",
+            "description": "100 blueprints collected.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 30,
+            "apiname": "MAX_SINGLE_ATTRIBUTE_ACHIEVEMENT",
+            "name": "Specialist",
+            "description": "Maxed out a single attribute.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "FULL_POSSE_ACHIEVEMENT",
+            "name": "Gang Banger",
+            "description": "Led a full survivor posse.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "JOIN_COOP_ACHIEVEMENT",
+            "name": "Be a Dick!",
+            "description": "Joined a Co-op game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "COMBO_WEAPONS_50_ACHIEVEMENT",
+            "name": "T.I.O.D. Disciple",
+            "description": "Created 50 combo weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "ALL_COMBO_WEAPONS_ACHIEVEMENT",
+            "name": "Duct Tape Master",
+            "description": "Created every combo weapon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 35,
+            "apiname": "COMBO_VEHICLES_5_ACHIEVEMENT",
+            "name": "Customizer",
+            "description": "Created 5 combo vehicles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "ALL_COMBO_VEHICLES_ACHIEVEMENT",
+            "name": "Master Mechanic",
+            "description": "Created every combo vehicle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 37,
+            "apiname": "ATTRIBUTES_1_ACHIEVEMENT",
+            "name": "A Little Ambition",
+            "description": "Purchased one Attribute.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "ATTRIBUTES_10_ACHIEVEMENT",
+            "name": "Ladder Climber",
+            "description": "Purchased 10 Attributes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "COMPLETE_NM_ACHIEVEMENT",
+            "name": "Nightmare Master",
+            "description": "Chapter 7 completed in Nightmare Mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 40,
+            "apiname": "PPTRIALS_10_ACHIEVEMENT",
+            "name": "Prestigious",
+            "description": "Completed 10 PP Trials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "PPTRIALS_25_ACHIEVEMENT",
+            "name": "Almost Famous",
+            "description": "Completed 25 PP Trials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "ALL_PPTRIALS_ACHIEVEMENT",
+            "name": "Prestige Hound",
+            "description": "Completed all PP Trials.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 43,
+            "apiname": "BRONZE_CHALLENGES_25_ACHIEVEMENT",
+            "name": "Certified Survivalist",
+            "description": "25 Survival Training Bronze medals earned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "SILVER_CHALLENGES_25_ACHIEVEMENT",
+            "name": "Survival Training Specialist",
+            "description": "25 Survival Training Silver medals earned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "GOLD_CHALLENGES_25_ACHIEVEMENT",
+            "name": "Survival Training Master",
+            "description": "25 Survival Training Gold medals earned.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "SIDE_MISSIONS_20_ACHIEVEMENT",
+            "name": "Sideswiped",
+            "description": "Completed 20 side missions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "STRANDED_SURVIVORS_1_ACHIEVEMENT",
+            "name": "Local Hero",
+            "description": "Stranded survivor saved.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "STRANDED_SURVIVORS_15_ACHIEVEMENT",
+            "name": "Man of the People",
+            "description": "15 stranded survivors saved.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "SURVIVORS_TO_BOARD_5_ACHIEVEMENT",
+            "name": "Help Wanted",
+            "description": "5 survivors added to the survivor bulletin board.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "WEAPONS_TO_LOCKER_250_ACHIEVEMENT",
+            "name": "Collector",
+            "description": "250 weapons collected in the weapons locker.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "VEHICLES_TO_LOCKER_20_ACHIEVEMENT",
+            "name": "Driven",
+            "description": "20 vehicles collected in the vehicle lot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "CLOTHING_TO_LOCKER_100_ACHIEVEMENT",
+            "name": "Fashion Plate",
+            "description": "100 clothing items collected in the clothing closet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "EP1_EYES_IN_THE_SKY_ACHIEVEMENT",
+            "name": "Eyes in the Sky",
+            "description": "Hack all ZDC Cameras",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "EP1_COUNTER_TERRORIST_ACHIEVEMENT",
+            "name": "Counter Terrorist",
+            "description": "Infect all Safe Zones",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "EP1_LIVE_TO_FIGHT_AGAIN_ACHIEVEMENT",
+            "name": "Live to Fight Again",
+            "description": "Recover all Squad Members",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "EP1_REST_IN_PEACE_ACHIEVEMENT",
+            "name": "Rest In Peace",
+            "description": "Collect all Dog Tags",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "EP1_COVERING_THE_TRACES_ACHIEVEMENT",
+            "name": "Covering The Traces",
+            "description": "Collect precious cargo",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "EP1_CLEANING_HOUSE_ACHIEVEMENT",
+            "name": "Cleaning House",
+            "description": "Prep Base Camp for Bravo Team",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "EP1_DELIVERY_MAN_ACHIEVEMENT",
+            "name": "Delivery Man",
+            "description": "Collect Charlie's supplies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "EP1_EAGLE_HAS_LANDED_ACHIEVEMENT",
+            "name": "Eagle Has Landed",
+            "description": "Locate the President",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "EP1_DUTY_OR_DEATH_ACHIEVEMENT",
+            "name": "Duty Or Death",
+            "description": "Complete Dead Rising 3: Operation Broken Eagle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 62,
+            "apiname": "EP2_NO_PEEKING_ACHIEVEMENT",
+            "name": "No Peeking!",
+            "description": "Destroy all ZDC Cameras",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 63,
+            "apiname": "EP2_BURN_BABY_BURN_ACHIEVEMENT",
+            "name": "Burn Baby Burn",
+            "description": "Burn all propaganda Posters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 64,
+            "apiname": "EP2_GUARDIAN_ANGEL_ACHIEVEMENT",
+            "name": "Guardian Angel",
+            "description": "Rescue all Survivors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 65,
+            "apiname": "EP2_MED_TECH_ACHIEVEMENT",
+            "name": "Med Tech",
+            "description": "Collect all Medical Supplies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 66,
+            "apiname": "EP2_TALK_IT_OUT_ACHIEVEMENT",
+            "name": "Talk It Out",
+            "description": "Question Winnie",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 67,
+            "apiname": "EP2_HALL_MONITOR_ACHIEVEMENT",
+            "name": "Hall Monitor",
+            "description": "Defend the school",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 68,
+            "apiname": "EP2_WELL_STOCKED_ACHIEVEMENT",
+            "name": "Well Stocked",
+            "description": "Collect special supplies for the Safe Zone",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 69,
+            "apiname": "EP2_SHAKEDOWN_ACHIEVEMENT",
+            "name": "Shakedown",
+            "description": "Interrogate Spec Ops",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 70,
+            "apiname": "EP2_ANGEL_GETS_HER_WINGS_ACHIEVEMENT",
+            "name": "Angel Gets Her Wings",
+            "description": "Complete Dead Rising 3: Fallen Angel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 71,
+            "apiname": "EP3_STICK_IT_TO_THE_MAN_ACHIEVEMENT",
+            "name": "Stick it to the Man",
+            "description": "All Emergency Phones destroyed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 72,
+            "apiname": "EP3_THE_FINER_THINGS_ACHIEVEMENT",
+            "name": "The Finer Things",
+            "description": "All bottles of Special Reserve Whiskey collected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 73,
+            "apiname": "EP3_ADD_TO_THE_COLLECTION_ACHIEVEMENT",
+            "name": "Add to The Collection",
+            "description": "All Custom Motorcycles collected for Torque",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 74,
+            "apiname": "EP3_FLY_THE_COOP_ACHIEVEMENT",
+            "name": "Fly The Coop",
+            "description": "Escaped Los Perdidos Police Department",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 75,
+            "apiname": "EP3_THROWING_DOWN_THE_GAUNTLET_ACHIEVEMENT",
+            "name": "Throwing Down the Gauntlet",
+            "description": "Survived Spider's trial",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 76,
+            "apiname": "EP3_BUILDERS_APPRENTICE_ACHIEVEMENT",
+            "name": "Builder's Apprentice",
+            "description": "Helped Torque build a special bike",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 77,
+            "apiname": "EP3_HUNTER_AND_THE_HUNTED_ACHIEVEMENT",
+            "name": "Hunter and the Hunted",
+            "description": "All Captains defeated",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 78,
+            "apiname": "EP3_HAWG_HEAVEN_ACHIEVEMENT",
+            "name": "Hawg Heaven",
+            "description": "Torque's surprise obtained",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 79,
+            "apiname": "EP3_FIT_TO_LEAD_ACHIEVEMENT",
+            "name": "Fit to Lead",
+            "description": "Dead Rising 3: Chaos Rising completed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 80,
+            "apiname": "EP4_BAG_OF_CHIPS_ACHIEVEMENT",
+            "name": "Bag of Chips",
+            "description": "All ZDC Chips collected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 81,
+            "apiname": "EP4_BOOTLEG_OPERATOR_ACHIEVEMENT",
+            "name": "Bootleg Operator",
+            "description": "All Bootleg Zombrex collected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 82,
+            "apiname": "EP4_SWORN_TO_PROTECT_ACHIEVEMENT",
+            "name": "Sworn to Protect",
+            "description": "All Survivors rescued",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 83,
+            "apiname": "EP4_ASHES_TO_ASHES_ACHIEVEMENT",
+            "name": "Ashes to Ashes",
+            "description": "All Biohazards burned",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 84,
+            "apiname": "EP4_OUT_WITH_THE_BAD_ACHIEVEMENT",
+            "name": "Out With The Bad",
+            "description": "All Bikers defeated",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 85,
+            "apiname": "EP4_HACKING_THE_HACKER_ACHIEVEMENT",
+            "name": "Hacking the Hacker",
+            "description": "Nelson found",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 86,
+            "apiname": "EP4_SOURCED_ACHIEVEMENT",
+            "name": "Sourced",
+            "description": "Source of military signal discovered",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 87,
+            "apiname": "EP4_KANES_LAST_WORDS_ACHIEVEMENT",
+            "name": "Kane's Last Words",
+            "description": "Evidence collected",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 88,
+            "apiname": "EP4_AGENT_OF_JUSTICE_ACHIEVEMENT",
+            "name": "Agent of Justice",
+            "description": "Dead Rising 3: The Last Agent completed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

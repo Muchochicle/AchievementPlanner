@@ -342,6 +342,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("metal-gear-rising-revengeance"));
     assert.ok(slugs.includes("dmc-devil-may-cry"));
     assert.ok(slugs.includes("sunset-overdrive"));
+    assert.ok(slugs.includes("dead-rising-3"));
+    assert.ok(slugs.includes("devil-may-cry-hd-collection"));
+    assert.ok(slugs.includes("dead-island-definitive-edition"));
 
 });
 

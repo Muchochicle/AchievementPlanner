@@ -1,0 +1,914 @@
+{
+    "id": 631510,
+    "steamAppId": 631510,
+    "name": "Devil May Cry HD Collection",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/631510/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 30,
+        "max": 55
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Hack and Slash",
+        "Character Action",
+        "Devil May Cry",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "DMC2_TROPHY_EVERY_KNEE_WILL_BEND",
+            "name": "Every Knee Will Bend",
+            "description": "DMC2: Finish the game on Normal Mode with any character",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "DMC2_TROPHY_EVERY_HEAD_WILL_BOW",
+            "name": "Every Head Will Bow",
+            "description": "DMC2: Finish the game on Hard Mode with any character",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 3,
+            "apiname": "DMC2_TROPHY_EVERY_TONGUE_WILL_CONFESS",
+            "name": "Every Tongue Will Confess",
+            "description": "DMC2: Finish the game on Must Die Mode with any character",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 800
+        },
+        {
+            "id": 4,
+            "apiname": "DMC2_TROPHY_BAREHAND_BEAUTY",
+            "name": "Barehand Beauty",
+            "description": "DMC2: Finish the game on any difficulty with Trish",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "DMC2_TROPHY_A_SECRET_REVEALED",
+            "name": "A Secret Revealed ",
+            "description": "DMC2: Complete a Secret Mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "DMC2_TROPHY_FIRST_BLOOD",
+            "name": "First Blood",
+            "description": "DMC2: Pass 1000 levels in Bloody Palace Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "DMC2_TROPHY_BLOOD_LETTING",
+            "name": "Blood Letting",
+            "description": "DMC2: Pass 5000 floors in Bloody Palace Mode",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 8,
+            "apiname": "DMC2_TROPHY_OVER_9000",
+            "name": "Over 9000!",
+            "description": "DMC2: Pass 9000 floors in Bloody Palace Mode",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 9,
+            "apiname": "DMC2_TROPHY_HIGHEST_HONOR",
+            "name": "Highest Honor",
+            "description": "DMC2: Achieve an S Rank on any Mission with Dante",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 10,
+            "apiname": "DMC2_TROPHY_THE_SKYS_THE_LIMIT",
+            "name": "The Sky's The Limit",
+            "description": "DMC2: Achieve an S Rank on any Mission with Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 11,
+            "apiname": "DMC2_TROPHY_VITA_MAXIMA",
+            "name": "Vita Maxima",
+            "description": "DMC2: Max out Health Bar with any character",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "DMC2_TROPHY_MAGICA_MAXIMA",
+            "name": "Magica Maxima",
+            "description": "DMC2: Max out Devil Trigger Gauge with any character",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "DMC2_TROPHY_CAERULEUS_DIABOLUS",
+            "name": "Caeruleus Diabolus",
+            "description": "DMC2: Collect 12 Blue Orb fragments (Dante/Lucia)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "DMC2_TROPHY_TWO_HEADS_ARE_BETTER_THAN_ONE",
+            "name": "Two Heads are Better Than One",
+            "description": "DMC2: Defeat Tartarussian",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "DMC2_TROPHY_MONKEYING_AROUND",
+            "name": "Monkeying Around",
+            "description": "DMC2: Defeat Orangguerra",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "DMC2_TROPHY_NO_JOKE",
+            "name": "No Joke",
+            "description": "DMC2: Defeat Jokatgulm",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "DMC2_TROPHY_SIN_CITY",
+            "name": "Sin City",
+            "description": "DMC2: Defeat Nefasturris",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "DMC2_TROPHY_DEEP_ONE",
+            "name": "Deep One",
+            "description": "DMC2: Defeat Tateobesu",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "DMC2_TROPHY_THATS_A_BIG_MOTHER",
+            "name": "That's A Big Mother...",
+            "description": "DMC2: Defeat Noctpteran",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "DMC2_TROPHY_HUNGRY_LIKE_THE_WOLVES",
+            "name": "Hungry Like the Wolves",
+            "description": "DMC2: Defeat Bolverk",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "DMC2_TROPHY_BALL_N_CHAIN",
+            "name": "Ball 'n Chain",
+            "description": "DMC2: Defeat Plutonian",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "DMC2_TROPHY_NOT_JUST_ANY_ORDINARY_HUMAN",
+            "name": "Not Just Any Ordinary Human",
+            "description": "DMC2: Defeat Phantom",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "DMC2_TROPHY_NEVER_FORGET_A_FACE",
+            "name": "Never Forget a Face",
+            "description": "DMC2: Defeat Trismagia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "DMC2_TROPHY_EXTINGUISHED",
+            "name": "Extinguished",
+            "description": "DMC2: Defeat the final boss with either Dante or Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "DMC2_TROPHY_STYLISH",
+            "name": "Stylish!",
+            "description": "DMC2: Perform an S Rank Combo using Dante",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "DMC2_TROPHY_EN_VOGUE",
+            "name": "En Vogue",
+            "description": "DMC2: Perform an S Rank Combo using Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "DMC2_TROPHY_ARMED_AND_DANGEROUS",
+            "name": "Armed and Dangerous",
+            "description": "DMC2: Reach Level 3 on any Sword with Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "DMC2_TROPHY_ARMS_RACE",
+            "name": "Arms Race",
+            "description": "DMC2: Reach Level 3 on any Gun with Dante",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "DMC2_TROPHY_LIKE_A_HOT_KNIFE_THROUGH_BUTTER",
+            "name": "Like A Hot Knife Through Butter",
+            "description": "DMC2: Reach Level 3 on all Swords with Dante",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "DMC2_TROPHY_TO_THE_MAX",
+            "name": "To The Max",
+            "description": "DMC2: Reach Level 3 on all Arsenals with Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "DMC2_TROPHY_FULL_ARMORY",
+            "name": "Full Armory",
+            "description": "DMC2: Collect all Swords with Dante",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "DMC2_TROPHY_CHECK_OUT_MY_COLLECTION",
+            "name": "Check Out My Collection",
+            "description": "DMC2: Collect all Arsenals with Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "DMC2_TROPHY_TAKE_HEART_LUCIA",
+            "name": "Take Heart, Lucia",
+            "description": "DMC2: Collect all Devil Hearts with Lucia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "DMC1_TROPHY_Seeing_Red",
+            "name": "Seeing Red",
+            "description": "DMC: Collect 10,000 Red Orbs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "DMC3_TROPHY_LOCKED_N_LOADED",
+            "name": "Locked 'n Loaded",
+            "description": "DMC3: Reach the highest level for any gun with Dante.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "DMC3_TROPHY_GIVE_EM_HELL",
+            "name": "Give 'em Hell",
+            "description": "DMC3: Max out the Devil Trigger Gauge with Dante.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "DMC3_TROPHY_MAXIMIZE_YOUR_HEALTH",
+            "name": "Maximize Your Health",
+            "description": "DMC3: Max out the Health Bar with Dante.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "DMC3_TROPHY_TREND_SETTER",
+            "name": "Trend Setter",
+            "description": "DMC3: Reach the highest level in all Styles with Dante.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 39,
+            "apiname": "DMC3_TROPHY_THE_PATH_LESS_TRAVELLED",
+            "name": "The Path Less Travelled",
+            "description": "DMC3: Clear every mission in Yellow Orb Mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "DMC3_TROPHY_WHOS_LAUGHING_NOW",
+            "name": "Who's Laughing Now?",
+            "description": "DMC3: Defeat Jester in all of his forms.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "DMC3_TROPHY_BIG_SPENDER",
+            "name": "Big Spender",
+            "description": "DMC3: Purchase all Devil Arm skills with Dante.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "DMC3_TROPHY_ASYLUM",
+            "name": "Asylum",
+            "description": "DMC3: Defeat Arkham.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "DMC3_TROPHY_STEP_INTO_THE_LIGHT",
+            "name": "Step Into The Light",
+            "description": "DMC3: Defeat Doppelganger.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "DMC3_TROPHY_THATS_NOT_LADY_LIKE",
+            "name": "That's Not Lady-Like",
+            "description": "DMC3: Defeat Lady.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "DMC3_TROPHY_BROTHERLY_LOVE",
+            "name": "Brotherly Love",
+            "description": "DMC3: Fight Vergil a second time and prevail.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "DMC3_TROPHY_ROUGH_RIDER",
+            "name": "Rough Rider",
+            "description": "DMC3: Defeat Geryon.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "DMC3_TROPHY_LIGHTS_OUT",
+            "name": "Lights Out",
+            "description": "DMC3: Defeat Beowulf.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "DMC3_TROPHY_LIGHTNING_IN_A_BOTTLE",
+            "name": "Lightning In A Bottle",
+            "description": "DMC3: Defeat Nevan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "DMC3_TROPHY_INSIDE_OUT",
+            "name": "Inside Out",
+            "description": "DMC3: Defeat the Heart of Leviathan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "DMC3_TROPHY_SIBLING_RIVALRY",
+            "name": "Sibling Rivalry",
+            "description": "DMC3: Survive an encounter with Vergil.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "DMC3_TROPHY_DOUBLE_TROUBLE",
+            "name": "Double Trouble",
+            "description": "DMC3: Defeat Agni and Rudra.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "DMC3_TROPHY_PEST_CONTROL",
+            "name": "Pest Control",
+            "description": "DMC3: Defeat Gigapede.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "DMC3_TROPHY_MANS_BEST_FRIEND",
+            "name": "Man's Best Friend",
+            "description": "DMC3: Defeat Cerberus.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 54,
+            "apiname": "DMC3_TROPHY_HELLISH_HONOR",
+            "name": "Hellish Honor",
+            "description": "DMC3: Achieve an S Rank on all missions (any difficulty or character).",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 55,
+            "apiname": "DMC3_TROPHY_DEVILISH_DEED",
+            "name": "Devilish Deed",
+            "description": "DMC3: Achieve an S Rank on any mission with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 56,
+            "apiname": "DMC3_TROPHY_BLOODY_HELL",
+            "name": "Bloody Hell",
+            "description": "DMC3: Complete Bloody Palace Mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "DMC3_TROPHY_BLOOD_DONOR",
+            "name": "Blood Donor",
+            "description": "DMC3: Pass 5000 levels in Bloody Palace Mode.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 700
+        },
+        {
+            "id": 58,
+            "apiname": "DMC3_TROPHY_BLOOD_SWEAT_TEARS",
+            "name": "Blood, Sweat, and Tears",
+            "description": "DMC3: Pass 666 levels in Bloody Palace Mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "DMC3_TROPHY_TO_HELL_WITH_THAT",
+            "name": "To Hell With That",
+            "description": "DMC3: Kill 100 enemies during the credits.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "DMC3_TROPHY_LEFT_NO_STONE_UNTURNED",
+            "name": "Left No Stone Unturned",
+            "description": "DMC3: Complete all Secret Missions with any Character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 61,
+            "apiname": "DMC3_TROPHY_WORST_KEPT_SECRET",
+            "name": "Worst Kept Secret",
+            "description": "DMC3: Complete a Secret Mission with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 62,
+            "apiname": "DMC3_TROPHY_AM_I_MY_BROTHERS_KEEPER",
+            "name": "Am I My Brother's Keeper",
+            "description": "DMC3: Finish the game on any difficulty as Vergil.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "DMC3_TROPHY_HEAVEN_CAN_WAIT",
+            "name": "Heaven Can Wait",
+            "description": "DMC3: Finish the game on Heaven or Hell Mode with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "DMC3_TROPHY_HELL_HATH_NO_FURY",
+            "name": "Hell Hath No Fury…",
+            "description": "DMC3: Finish the game on Dante Must Die Mode with any character.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 800
+        },
+        {
+            "id": 65,
+            "apiname": "DMC3_TROPHY_TO_HELL_AND_BACK",
+            "name": "To Hell And Back",
+            "description": "DMC3: Finish the game on Very Hard Mode with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 66,
+            "apiname": "DMC3_TROPHY_GONE_TO_HELL",
+            "name": "Gone To Hell",
+            "description": "DMC3: Finish the game on Hard Mode with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 67,
+            "apiname": "DMC3_TROPHY_HELL_OF_A_START",
+            "name": "Hell of a Start",
+            "description": "DMC3: Finish the game on Normal Mode with any character.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "DMC1_TROPHY_Blood_Flows_Red",
+            "name": "Blood Flows Red",
+            "description": "DMC: Collect 25,000 Red Orbs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "DMC1_TROPHY_Redemption",
+            "name": "Redemption",
+            "description": "DMC: Collect 50,000 Red Orbs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 70,
+            "apiname": "DMC1_TROPHY_Blue_Demon",
+            "name": "Blue Demon",
+            "description": "DMC: Complete a Blue Orb",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "DMC1_TROPHY_Blue_Devil",
+            "name": "Blue Devil",
+            "description": "DMC: Max out the Health Bar",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "DMC1_TROPHY_Gun_Collector",
+            "name": "Gun Collector",
+            "description": "DMC: Collect all Guns",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 73,
+            "apiname": "DMC1_TROPHY_The_Devil_Made_Me_Do_It",
+            "name": "The Devil Made Me Do It",
+            "description": "DMC: Finish the game without using any Yellow Orbs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 74,
+            "apiname": "DMC1_TROPHY_Untouchable",
+            "name": "Untouchable",
+            "description": "DMC: Clear a mission without taking damage",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 75,
+            "apiname": "DMC1_TROPHY_I_Read_You_Like_A_Book",
+            "name": "I Read You Like A Book",
+            "description": "DMC: Unlock all the entries for every enemy file in the status menu",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 76,
+            "apiname": "DMC1_TROPHY_Bookworm",
+            "name": "Bookworm",
+            "description": "DMC: Unlock 50% of all entries for every enemy file in the status menu",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 77,
+            "apiname": "DMC1_TROPHY_Table_Of_Contents",
+            "name": "Table Of Contents",
+            "description": "DMC: Unlock every enemy file in the status menu",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 78,
+            "apiname": "DMC1_TROPHY_Hot_As_Hell",
+            "name": "Hot As Hell",
+            "description": "DMC: Perform an S Rank Combo using Ifrit",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 79,
+            "apiname": "DMC1_TROPHY_Thunderstruck",
+            "name": "Thunderstruck",
+            "description": "DMC: Perform an S Rank Combo using Alastor",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 80,
+            "apiname": "DMC1_TROPHY_The_Devil_Went_Down_To",
+            "name": "The Devil Went Down To...",
+            "description": "DMC: Defeat Mundus",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 81,
+            "apiname": "DMC1_TROPHY_The_Nightmare_is_Over",
+            "name": "The Nightmare is Over",
+            "description": "DMC: Defeat Nightmare",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 82,
+            "apiname": "DMC1_TROPHY_Good_Night",
+            "name": "Good Night",
+            "description": "DMC: Fight Nightmare a second time and prevail",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 83,
+            "apiname": "DMC1_TROPHY_Fallen_Angel",
+            "name": "Fallen Angel",
+            "description": "DMC: Defeat Nelo Angelo",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 84,
+            "apiname": "DMC1_TROPHY_Night_Terrors",
+            "name": "Night Terrors",
+            "description": "DMC: Survive an encounter with Nightmare",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 85,
+            "apiname": "DMC1_TROPHY_Plucked",
+            "name": "Plucked",
+            "description": "DMC: Defeat Griffon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 86,
+            "apiname": "DMC1_TROPHY_Cold_Turkey",
+            "name": "Cold Turkey",
+            "description": "DMC: Fight Griffon a second time and prevail",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 87,
+            "apiname": "DMC1_TROPHY_Broken_Halo",
+            "name": "Broken Halo",
+            "description": "DMC: Fight Nelo Angelo a second time and prevail",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 88,
+            "apiname": "DMC1_TROPHY_Bird_of_Prey",
+            "name": "Bird of Prey",
+            "description": "DMC: Survive an encounter with Griffon",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 89,
+            "apiname": "DMC1_TROPHY_Squashed_Like_A_Bug",
+            "name": "Squashed Like A Bug",
+            "description": "DMC: Defeat Phantom",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 90,
+            "apiname": "DMC1_TROPHY_Youre_No_Angel",
+            "name": "You're No Angel",
+            "description": "DMC: Survive an encounter with Nelo Angelo",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 91,
+            "apiname": "DMC1_TROPHY_Arachnophobia",
+            "name": "Arachnophobia",
+            "description": "DMC: Survive an encounter with Phantom",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 92,
+            "apiname": "DMC1_TROPHY_Smashing_Sensation",
+            "name": "Smashing  Sensation",
+            "description": "DMC: Achieve an S Rank on any Mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 93,
+            "apiname": "DMC1_TROPHY_The_Secrets_Out",
+            "name": "The Secret's Out",
+            "description": "DMC: Complete all Secret Missions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 94,
+            "apiname": "DMC1_TROPHY_The_Secret_Six",
+            "name": "The Secret Six",
+            "description": "DMC: Complete six Secret Missions",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 95,
+            "apiname": "DMC1_TROPHY_Can_You_Keep_A_Secret",
+            "name": "Can You Keep A Secret?",
+            "description": "DMC: Complete a Secret Mission",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 96,
+            "apiname": "DMC1_TROPHY_The_Devils_In_The_Details",
+            "name": "The Devil's In The Details",
+            "description": "DMC: Purchase all of Dante's Skills",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 97,
+            "apiname": "DMC1_TROPHY_Combustible",
+            "name": "Combustible!!!",
+            "description": "DMC: Finish the game on Dante Must Die Mode",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 800
+        },
+        {
+            "id": 98,
+            "apiname": "DMC1_TROPHY_Boiling",
+            "name": "Boiling!!",
+            "description": "DMC: Finish the Game on Hard Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 99,
+            "apiname": "DMC1_TROPHY_Warming_Up",
+            "name": "Warming Up!",
+            "description": "DMC: Finish the game on Normal Mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

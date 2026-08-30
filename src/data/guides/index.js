@@ -318,6 +318,9 @@ import { GUIDE as justCause2AchievementGuide } from "./games/just-cause-2.js";
 import { GUIDE as metalGearRisingRevengeanceAchievementGuide } from "./games/metal-gear-rising-revengeance.js";
 import { GUIDE as dmcDevilMayCryAchievementGuide } from "./games/dmc-devil-may-cry.js";
 import { GUIDE as sunsetOverdriveAchievementGuide } from "./games/sunset-overdrive.js";
+import { GUIDE as deadRising3AchievementGuide } from "./games/dead-rising-3.js";
+import { GUIDE as devilMayCryHdCollectionAchievementGuide } from "./games/devil-may-cry-hd-collection.js";
+import { GUIDE as deadIslandDefinitiveEditionAchievementGuide } from "./games/dead-island-definitive-edition.js";
 
 export const APP_GUIDES = [
 
@@ -658,7 +661,10 @@ export const GAME_GUIDES = [
     justCause2AchievementGuide,
     metalGearRisingRevengeanceAchievementGuide,
     dmcDevilMayCryAchievementGuide,
-    sunsetOverdriveAchievementGuide
+    sunsetOverdriveAchievementGuide,
+    deadRising3AchievementGuide,
+    devilMayCryHdCollectionAchievementGuide,
+    deadIslandDefinitiveEditionAchievementGuide
 
 ];
 
