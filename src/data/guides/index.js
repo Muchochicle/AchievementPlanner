@@ -261,6 +261,9 @@ import { GUIDE as muckAchievementGuide } from "./games/muck.js";
 import { GUIDE as techtonicaAchievementGuide } from "./games/techtonica.js";
 import { GUIDE as banishedAchievementGuide } from "./games/banished.js";
 import { GUIDE as goingMedievalAchievementGuide } from "./games/going-medieval.js";
+import { GUIDE as scpSecretLaboratoryAchievementGuide } from "./games/scp-secret-laboratory.js";
+import { GUIDE as nidhoggAchievementGuide } from "./games/nidhogg.js";
+import { GUIDE as unrailedAchievementGuide } from "./games/unrailed.js";
 
 export const APP_GUIDES = [
 
@@ -544,7 +547,10 @@ export const GAME_GUIDES = [
     muckAchievementGuide,
     techtonicaAchievementGuide,
     banishedAchievementGuide,
-    goingMedievalAchievementGuide
+    goingMedievalAchievementGuide,
+    scpSecretLaboratoryAchievementGuide,
+    nidhoggAchievementGuide,
+    unrailedAchievementGuide
 
 ];
 

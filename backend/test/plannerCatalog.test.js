@@ -285,6 +285,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("techtonica"));
     assert.ok(slugs.includes("banished"));
     assert.ok(slugs.includes("going-medieval"));
+    assert.ok(slugs.includes("scp-secret-laboratory"));
+    assert.ok(slugs.includes("nidhogg"));
+    assert.ok(slugs.includes("unrailed"));
 
 });
 
