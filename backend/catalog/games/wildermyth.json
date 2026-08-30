@@ -1,0 +1,870 @@
+{
+    "id": 763890,
+    "steamAppId": 763890,
+    "name": "Wildermyth",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/763890/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "Tactical RPG",
+        "Turn-Based Tactics",
+        "Procedural",
+        "Party-Based",
+        "Story Rich",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "completedStory_ulstryx",
+            "name": "Daybreak",
+            "description": "Complete Age of Ulstryx Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "completedStory_enduringWar",
+            "name": "War Endured",
+            "description": "Complete The Enduring War Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "completedStory_monarchs",
+            "name": "Echoes Die",
+            "description": "Complete Monarchs Under the Mountain Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "completedStory_ecthis",
+            "name": "Everfading",
+            "description": "Complete Eluna and the Moth Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "completedStory_cvawn",
+            "name": "In Soil, In Smoke",
+            "description": "Complete All the Bones of Summer Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "completedStory_procedural",
+            "name": "A Story of Heroes",
+            "description": "Complete a Generic Campaign (Three or Five chapter)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 7,
+            "apiname": "completedStory_legacy",
+            "name": "Another Tale to Tell",
+            "description": "Complete a Legacy Campaign (Three or Five chapter)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "achievement_beatAllStoryCampaigns",
+            "name": "Worldwalker",
+            "description": "Complete all five story campaigns",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 9,
+            "apiname": "achievement_beatGameOnWalkingLunch",
+            "name": "A Lowly Crust of Beef",
+            "description": "Complete a campaign on Walking Lunch difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "achievement_beatGameOnIronmanMode",
+            "name": "Let Me Get My Chisel",
+            "description": "Complete a Carved in Stone campaign",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 11,
+            "apiname": "achievement_kill1000Gorgons",
+            "name": "Back into the Sea",
+            "description": "Kill 1000 Gorgons (Across all campaigns)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 12,
+            "apiname": "achievement_kill1000Morthagi",
+            "name": "Bonebreakers",
+            "description": "Kill 1000 Morthagi (Across all campaigns)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 13,
+            "apiname": "achievement_kill1000Cultists",
+            "name": "Empty the Caves",
+            "description": "Kill 1000 Deepists (Across all campaigns)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 14,
+            "apiname": "achievement_kill1000Thrixl",
+            "name": "No More Nightmares",
+            "description": "Kill 1000 Thrixl (Across all campaigns)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 15,
+            "apiname": "achievement_kill1000Drauven",
+            "name": "Drauvenslayers",
+            "description": "Kill 1000 Drauven (Across all campaigns)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 16,
+            "apiname": "ulstryx_killCalabyneInOneTurn",
+            "name": "No Time for Clawmonsters",
+            "description": "Kill Calabyne in one turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "enduringWar_destroyEnduring",
+            "name": "War-Ender",
+            "description": "Destroy the last of the Enduring",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "enduringWar_destroyCores",
+            "name": "Core Failure",
+            "description": "Destroy the Morthagi Cores",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "monarchs_acceptDeepkingsOffer",
+            "name": "Turncoat",
+            "description": "Accept the Deepking's offer",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ecthis_all5PlotCharacters",
+            "name": "All My Birds, Safely Home",
+            "description": "Acquire all five plot characters, and have them survive to the end (Eluna and the Moth)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "cvawn_allDrauvenSurvivedMission",
+            "name": "Wingknight's Prowess",
+            "description": "Finish Chapter 3 intro mission without losing any units (All the Bones of Summer)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "theme_bear_kill2EnemiesSimultaneously",
+            "name": "Bears are Scary",
+            "description": "Kill 2 enemies simultaneously with Bear Swipes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "theme_crow_blind20Enemies",
+            "name": "Fight Like a Bird",
+            "description": "Blind 20 enemies with Crow Scratch or Crow Peck",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "theme_fire_hit5EnemiesAtOnce",
+            "name": "Grillmaster",
+            "description": "Hit 5 enemies simultaneously with a Cone of Fire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "theme_foothill_takeNoDamage20Times",
+            "name": "Solid as the Hills",
+            "description": "With Child of the Hills Theme, take no damage from an enemy attack 20 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "theme_gem_stunt100Times",
+            "name": "Some Say I'm Too Flashy",
+            "description": "With Gem Theme, stunt on 100 attacks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "theme_storm_kill3Enemies",
+            "name": "Tempest",
+            "description": "Kill three targets in a single use of Chain Lightning",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "theme_green_kill3Enemies",
+            "name": "Into Mulch",
+            "description": "Kill three targets in a single use of Witherbolt",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "theme_morthagi_killWithBoltAndHammer",
+            "name": "We Call That Mortificient!",
+            "description": "Kill an enemy with Mortificial Hammer and Wrist Bolt in the same turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "theme_shadow_heal30",
+            "name": "Symbiosis",
+            "description": "Recover 30 health with Harvest or Dread Harvest",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "theme_skeleton_terrify10Enemies",
+            "name": "I'm Not Smiling",
+            "description": "Terrify 10 enemies with Inscrutable Stare",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "theme_star_kill20EnemiesWithFallingStars",
+            "name": "Astrology",
+            "description": "Kill 20 Enemies using Celestial Falling Stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "theme_tree_knockback50Tiles",
+            "name": "Thwack!",
+            "description": "Use Tree Bash to knock back enemies 50 tiles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "theme_vine_poison50Enemies",
+            "name": "A Temperamental Shrub",
+            "description": "Poison 50 enemies with Botanical Thorn Lash",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "theme_wolf_killEveryEnemyType",
+            "name": "Lochias's Hunger",
+            "description": "Kill an enemy of every monster group with Wolf Bite",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "achievement_twoDifferentThemeLimbs",
+            "name": "Thematic Divergence",
+            "description": "Gain limbs from two different themes on a single hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "achievement_fullTransformation",
+            "name": "Completing the Look",
+            "description": "Get the head and all four limbs for a transformation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "achievement_10DifferentThemeLimbs",
+            "name": "We Emerge Changed",
+            "description": "Get transformed limbs from 10 different themes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "achievement_3hookQuestsResolved",
+            "name": "Storied Past",
+            "description": "Resolve all three hook quests with a hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "achievement_1petReceived",
+            "name": "Me and My Familiar",
+            "description": "Get a pet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "achievement_5petsReceived",
+            "name": "A Mythic Menagerie",
+            "description": "Get 5 different pets across all campaigns",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "achievement_friendsBlock20Times",
+            "name": "The Power of Friendship",
+            "description": "Have friendship ability \"Got your back!\" occur 20 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "achievement_rivalStuntAbility5Times",
+            "name": "Cutthroat Competitors",
+            "description": "Trigger Rival ability \"Oh yeah? Watch this!\" 5 times in a single fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "achievement_loversVengeance10Kills",
+            "name": "How Romantic!",
+            "description": "Kill 10 enemies with an attack that uses Lover's Vengeance",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "achievement_kill3EnemiesWithPoisonInOneTurn",
+            "name": "Plague Doctor",
+            "description": "Kill three enemies with poison in a single turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "achievement_use3ReactionStrikesInOneTurn",
+            "name": "Chain Reaction",
+            "description": "Use three reaction strikes (guardian/sentinel) in a single turn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "achievement_endTurnInGrayplane5Times",
+            "name": "Passing Shadow",
+            "description": "Have a hero end 5 consecutive turns in grayplane",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "achievement_maimedHero",
+            "name": "The Cost of Heroism",
+            "description": "Have a hero withdraw after being maimed",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "achievement_loseBattle",
+            "name": "This Too Shall Pass",
+            "description": "Be defeated in a battle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "achievement_victoryAfterLosingThreeHeroesInBattle",
+            "name": "Pyrrhic Victory",
+            "description": "Win a battle after losing three heroes to either maiming or death",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "achievement_mythwalker",
+            "name": "Legends Never Die",
+            "description": "Promote a Legacy Hero to the rank of Mythwalker",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "achievement_kill100Monsters",
+            "name": "Who's Counting?",
+            "description": "Kill 100 monsters with a hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 53,
+            "apiname": "achievement_kill1000Monsters",
+            "name": "Peacemaker",
+            "description": "Kill 1000 monsters with a hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 54,
+            "apiname": "achievement_150Calamities",
+            "name": "Overwhelming Monstrosity",
+            "description": "Receive 150 calamities in a campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 55,
+            "apiname": "achievement_catchAllElementalSpiritTypes",
+            "name": "Gotta Ca... Must Collect All of Them",
+            "description": "Catch All 4 elemental spirit types",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "completedStory_vultureLord",
+            "name": "A Hunger, Sated",
+            "description": "Complete The Sunswallower's Wake Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "omenroad_completedStory_glyffrix",
+            "name": "Neverbefore",
+            "description": "Complete A Walk in the Unlight Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 58,
+            "apiname": "omenroad_damageRun",
+            "name": "The Relentless",
+            "description": "Deal 1000 damage with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "omenroad_damageSingle",
+            "name": "The Lethal",
+            "description": "Deal 30 single-target damage with one attack during an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "omenroad_damageTaken",
+            "name": "The Bulwark",
+            "description": "Take (and survive) 300 damage with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 61,
+            "apiname": "omenroad_endFight1HP",
+            "name": "The Survivor",
+            "description": "Have a single hero end 6 fights with 1 health in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 62,
+            "apiname": "omenroad_killsTurn",
+            "name": "The Hurricane",
+            "description": "Kill 8 enemies in a single hero's turn in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "omenroad_rewards",
+            "name": "The Collector",
+            "description": "Pick up 15 rewards with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "omenroad_stunt",
+            "name": "The Artist",
+            "description": "Stunt 75 times with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 65,
+            "apiname": "omenroad_blockDodge",
+            "name": "The Unscathed",
+            "description": "Dodge or block at least 40 attacks with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 66,
+            "apiname": "omenroad_transformed",
+            "name": "The Monstrous",
+            "description": "Deal 500 damage with a single hero's transformation abilities in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 67,
+            "apiname": "omenroad_shred",
+            "name": "The Shredder",
+            "description": "Shred 100 armor with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "omenroad_tempHP",
+            "name": "The Hardy",
+            "description": "Have 20 temporary HP on a single hero at one time in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 69,
+            "apiname": "omenroad_poison",
+            "name": "The Virulent",
+            "description": "Poison 80 enemies with a single hero in an Omenroad challenge run",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 70,
+            "apiname": "dungeonBossDefeated|alchemist",
+            "name": "Malthides, Brute Toxinist",
+            "description": "Defeat Malthides, Brute Toxinist",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "dungeonBossDefeated|amalgorg",
+            "name": "Uur, Ancient Amalgam",
+            "description": "Deafeat Uur, Ancient Amalgam",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "dungeonBossDefeated|bogmore",
+            "name": "Bogmother",
+            "description": "Defeat the Bogmother",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 73,
+            "apiname": "dungeonBossDefeated|chef",
+            "name": "Head Chef",
+            "description": "Defeat the Head Chef",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 74,
+            "apiname": "dungeonBossDefeated|drauvthagi",
+            "name": "Gracnaw's Dragon",
+            "description": "Defeat Gracnaw's Dragon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 75,
+            "apiname": "dungeonBossDefeated|fireWitch",
+            "name": "Granny Gloomfire",
+            "description": "Defeat Granny Gloomfire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 76,
+            "apiname": "dungeonBossDefeated|gardener",
+            "name": "The Gardener",
+            "description": "Defeat the Gardener",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 77,
+            "apiname": "dungeonBossDefeated|gladiator",
+            "name": "The Glorysword Clayn",
+            "description": "Defeat the Glorysword Clayn",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 78,
+            "apiname": "dungeonBossDefeated|hornGrownup",
+            "name": "The Horn Grownup",
+            "description": "Defeat the Horn Grownup",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 79,
+            "apiname": "dungeonBossDefeated|thrixlProphet",
+            "name": "Symbiotic Advisor",
+            "description": "Defeat the Symbiotic Advisor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 80,
+            "apiname": "dungeonBossDefeated|magitaur",
+            "name": "The Umbercryst Martyr",
+            "description": "Defeat the Umbercryst Martyr",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 81,
+            "apiname": "dungeonBossDefeated|bladeMaylen",
+            "name": "Luthin the Mirrormaster",
+            "description": "Defeat Luthin the Mirrormaster",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 82,
+            "apiname": "dungeonBossDefeated|minospore",
+            "name": "The Riftspore Apostle",
+            "description": "Defeat the Riftspore Apostle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 83,
+            "apiname": "dungeonBossDefeated|pilot",
+            "name": "Admiral of the Air",
+            "description": "Defeat the Admiral of the Air",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 84,
+            "apiname": "dungeonBossDefeated|starwing",
+            "name": "Starwing",
+            "description": "Defeat Starwing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 85,
+            "apiname": "dungeonBossDefeated|tentacowl",
+            "name": "Ollend the Abductor",
+            "description": "Defeat Ollend the Abductor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 86,
+            "apiname": "dungeonBossDefeated|thumper",
+            "name": "The Doorman",
+            "description": "Defeat the Doorman",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 87,
+            "apiname": "dungeonBossDefeated|thrixlTwins",
+            "name": "The Twins",
+            "description": "Defeat the Twins, Wrune and Wrax",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 88,
+            "apiname": "dungeonBossDefeated|partyWagon",
+            "name": "Party Wagon",
+            "description": "Defeat the Party Wagon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 89,
+            "apiname": "dungeonBossDefeated|warbird",
+            "name": "King Carrion",
+            "description": "Defeat King Carrion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 90,
+            "apiname": "omenroad_peril_1",
+            "name": "Outset",
+            "description": "Win an Omenroad challenge run at Peril 1",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 91,
+            "apiname": "omenroad_peril_5",
+            "name": "Pathbeater",
+            "description": "Win an Omenroad challenge run at Peril 5",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 92,
+            "apiname": "omenroad_peril_10",
+            "name": "Making Tracks",
+            "description": "Win an Omenroad challenge run at Peril 10",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 93,
+            "apiname": "omenroad_peril_15",
+            "name": "Seasoned Traveler",
+            "description": "Win an Omenroad challenge run at Peril 15",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        },
+        {
+            "id": 94,
+            "apiname": "omenroad_peril_20",
+            "name": "Waymaster",
+            "description": "Win an Omenroad challenge run at Peril 20",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 500
+        }
+    ]
+}

@@ -330,6 +330,9 @@ import { GUIDE as worldWarZAchievementGuide } from "./games/world-war-z.js";
 import { GUIDE as fallout76AchievementGuide } from "./games/fallout-76.js";
 import { GUIDE as redFactionGuerrillaRemasteredAchievementGuide } from "./games/red-faction-guerrilla-remastered.js";
 import { GUIDE as metalHellsingerAchievementGuide } from "./games/metal-hellsinger.js";
+import { GUIDE as mountAndBladeWarbandAchievementGuide } from "./games/mount-and-blade-warband.js";
+import { GUIDE as railwayEmpireAchievementGuide } from "./games/railway-empire.js";
+import { GUIDE as wildermythAchievementGuide } from "./games/wildermyth.js";
 
 export const APP_GUIDES = [
 
@@ -682,7 +685,10 @@ export const GAME_GUIDES = [
     worldWarZAchievementGuide,
     fallout76AchievementGuide,
     redFactionGuerrillaRemasteredAchievementGuide,
-    metalHellsingerAchievementGuide
+    metalHellsingerAchievementGuide,
+    mountAndBladeWarbandAchievementGuide,
+    railwayEmpireAchievementGuide,
+    wildermythAchievementGuide
 
 ];
 

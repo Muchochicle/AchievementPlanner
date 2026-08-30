@@ -354,6 +354,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("fallout-76"));
     assert.ok(slugs.includes("red-faction-guerrilla-remastered"));
     assert.ok(slugs.includes("metal-hellsinger"));
+    assert.ok(slugs.includes("mount-and-blade-warband"));
+    assert.ok(slugs.includes("railway-empire"));
+    assert.ok(slugs.includes("wildermyth"));
 
 });
 
