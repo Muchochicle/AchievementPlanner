@@ -381,6 +381,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dirt-4"));
     assert.ok(slugs.includes("forza-motorsport-2023"));
     assert.ok(slugs.includes("the-crew-2"));
+    assert.ok(slugs.includes("mudrunner"));
+    assert.ok(slugs.includes("my-summer-car"));
+    assert.ok(slugs.includes("nova-drift"));
 
 });
 

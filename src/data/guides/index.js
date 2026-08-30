@@ -357,6 +357,9 @@ import { GUIDE as visceraCleanupDetailAchievementGuide } from "./games/viscera-c
 import { GUIDE as dirt4AchievementGuide } from "./games/dirt-4.js";
 import { GUIDE as forzaMotorsport2023AchievementGuide } from "./games/forza-motorsport-2023.js";
 import { GUIDE as theCrew2AchievementGuide } from "./games/the-crew-2.js";
+import { GUIDE as mudrunnerAchievementGuide } from "./games/mudrunner.js";
+import { GUIDE as mySummerCarAchievementGuide } from "./games/my-summer-car.js";
+import { GUIDE as novaDriftAchievementGuide } from "./games/nova-drift.js";
 
 export const APP_GUIDES = [
 
@@ -736,7 +739,10 @@ export const GAME_GUIDES = [
     visceraCleanupDetailAchievementGuide,
     dirt4AchievementGuide,
     forzaMotorsport2023AchievementGuide,
-    theCrew2AchievementGuide
+    theCrew2AchievementGuide,
+    mudrunnerAchievementGuide,
+    mySummerCarAchievementGuide,
+    novaDriftAchievementGuide
 
 ];
 

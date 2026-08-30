@@ -1,0 +1,582 @@
+{
+    "id": 675010,
+    "steamAppId": 675010,
+    "name": "MudRunner",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/675010/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Off-road",
+        "Driving",
+        "Physics",
+        "Co-op",
+        "Trucks"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_LEVEL_SIM_COAST",
+            "name": "Seashore",
+            "description": "Complete the \"Seashore\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_LEVEL_CLOAKING_COAST",
+            "name": "Explore Seashore",
+            "description": "Reach all Watchpoints in the \"Seashore\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_LEVEL_GARAGES_COAST",
+            "name": "Seashore Settler",
+            "description": "Unlock all Garages in the \"Seashore\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_LEVEL_CLOAKING_HILL",
+            "name": "Explore Downhill",
+            "description": "Reach all Watchpoints in the \"Downhill\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_LEVEL_GARAGES_HILL",
+            "name": "Downhill Settler",
+            "description": "Unlock all Garages in the \"Downhill\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_LEVEL_SIM_PLAINS",
+            "name": "The Bog",
+            "description": "Complete \"The Bog\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_LEVEL_CLOAKING_PLAINS",
+            "name": "Explore The Bog",
+            "description": "Reach all Watchpoints in \"The Bog\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_LEVEL_GARAGES_PLAINS",
+            "name": "The Bog Settler",
+            "description": "Unlock all Garages in \"The Bog\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_LEVEL_SIM_RIVER",
+            "name": "Crossing",
+            "description": "Complete the \"Crossing\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_LEVEL_CLOAKING_RIVER",
+            "name": "Explore Crossing",
+            "description": "Reach all Watchpoints in the \"Crossing\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_LEVEL_GARAGES_RIVER",
+            "name": "Crossing Settler",
+            "description": "Unlock all Garages in the \"Crossing\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_LEVEL_SIM_VOLCANO",
+            "name": "Island",
+            "description": "Complete the \"Island\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_LEVEL_CLOAKING_VOLCANO",
+            "name": "Explore Island",
+            "description": "Reach all Watchpoints in the \"Island\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_LEVEL_GARAGES_VOLCANO",
+            "name": "Island Settler",
+            "description": "Unlock all Garages in the \"Island\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_LEVEL_SIM_FLOOD",
+            "name": "Deluge",
+            "description": "Complete the \"Deluge\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_LEVEL_CLOAKING_FLOOD",
+            "name": "Explore Deluge",
+            "description": "Reach all Watchpoints in the \"Deluge\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_LEVEL_GARAGES_FLOOD",
+            "name": "Deluge Settler",
+            "description": "Unlock all Garages in the \"Deluge\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_LEVEL_SIM_HILL",
+            "name": "Downhill",
+            "description": "Complete the \"Downhill\" in Hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_SISYPHUS",
+            "name": "Sisyphus",
+            "description": "Drive with the parking brake engaged for 200 meters in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_DAVID",
+            "name": "David",
+            "description": "Use winch in Pull mode to tow another vehicle for 50 meters in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_CAR_CHASE",
+            "name": "Stunt Driver",
+            "description": "Make a quick 360 degree roll over the roof",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_STUDENT_DRIVER",
+            "name": "Student Driver",
+            "description": "Receive 500 or more damage points from a single impact",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_RISE_OF_MACHINES",
+            "name": "Eco-friendly",
+            "description": "Burn 100 litres of fuel without releasing accelerator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_FISHERMAN",
+            "name": "Fisherman",
+            "description": "Winch a disabled vehicle out of the water with another vehicle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BLIND_NAVIGATION",
+            "name": "Blind Navigation",
+            "description": "Finish a level without reaching any Watchpoints in Single Player mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_NIGHT_OPS",
+            "name": "Master Logger",
+            "description": "If capsized while delivering load, pick and pack scattered logs back",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SIZE_DOES_MATTER",
+            "name": "Size Does Matter",
+            "description": "Fill a particular Lumber Mill by delivering Long Logs only",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_SIZE_DOESNT_MATTER",
+            "name": "Size Doesn't Matter",
+            "description": "Fill a particular Lumber Mill by delivering Short Logs only",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_OLD_STILL_GOOD",
+            "name": "Old Still Good",
+            "description": "Fill a particular Lumber Mill by using Type B-130 only",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_EXPLORER",
+            "name": "Trophy-raid",
+            "description": "Reach all Watchpoints on any level with the Type A-3151 vehicle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_MECHANIC",
+            "name": "Mechanic",
+            "description": "Repair other player trucks for 1000 points in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_FORESTER",
+            "name": "Forester",
+            "description": "Finish a level without using the Navigation map in Single Player mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_DIVER",
+            "name": "Diver",
+            "description": "Drive through water so that your vehicle is submerged and then escape without the engine stalling",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_UNSTOPPABLE",
+            "name": "Unstoppable",
+            "description": "Load up a truck and drive to an Lumber Mill without releasing accelerator",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_BULL",
+            "name": "Caravan",
+            "description": "Load up two trucks and winch them together to reach Lumber Mill simultaneously",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ONLY_LOVE",
+            "name": "My Only Love",
+            "description": "Finish a level using only one vehicle in Single Player mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_CARRIER",
+            "name": "Carrier",
+            "description": "Load up Type A vehicle in the trunk of your truck and drive it for 200 meters in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_RESCUE",
+            "name": "Rescue Mission",
+            "description": "More than 150 meters away from any Garage, tow a fully damaged truck to a Garage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_DRIVE_CAREFULLY",
+            "name": "Drive Carefully",
+            "description": "Deliver the load without receiving any damage and switching to other trucks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_ALL_I_NEED",
+            "name": "I Have All I Need",
+            "description": "Finish a level without changing any vehicle addons in Single Player mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_PLUMBER",
+            "name": "Anthropologist",
+            "description": "Find and visit 2 fluorescent flower meadows in the \"Downhill\" at night in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_FUEL_TANKER",
+            "name": "Fuel Tanker",
+            "description": "Fill up other player's trucks with 1000 litres of fuel in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_DRIVER",
+            "name": "Driver",
+            "description": "Travel 100 kilometers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_VOLCANO_HONK",
+            "name": "Climber",
+            "description": "Reach the top of any 2 of 3 mountains in the \"Island\" in one game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_MUSHROOMER",
+            "name": "Mushroomer",
+            "description": "Squelch 50 mushrooms in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_FARMER",
+            "name": "Farmer",
+            "description": "Squelch 50 pumpkins in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_COOPERATION",
+            "name": "Cooperation",
+            "description": "Pass 5 log ownerships to other players",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_WORLD_CRUISE",
+            "name": "World Cruise",
+            "description": "Get in Type A-968m and drive 400 meters or more away",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_CHALLENGE_CRASH",
+            "name": "Repair & Refuel",
+            "description": "Complete all bonus objectives in the challenge \"Repair & Refuel\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_CHALLENGE_HILL",
+            "name": "Climb a Hill",
+            "description": "Complete all bonus objectives in the challenge \"Climb a hill\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_CHALLENGE_PARKING",
+            "name": "The Rig",
+            "description": "Complete all bonus objectives in the challenge \"The Rig\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_CHALLENGE_RIVER",
+            "name": "Cross a River",
+            "description": "Complete all bonus objectives in the challenge \"Cross a River\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_CHALLENGE_ROAD",
+            "name": "Visit Grandma",
+            "description": "Complete all bonus objectives in the challenge \"Visit Grandma\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_CHALLENGE_SANDS",
+            "name": "Delivery Mission",
+            "description": "Complete all bonus objectives in the challenge \"Delivery Mission\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_CHALLENGE_SWAMP",
+            "name": "Night Safari",
+            "description": "Complete all bonus objectives in the challenge \"Night Safari\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_CHALLENGE_VILLAGE",
+            "name": "Crane Operator",
+            "description": "Complete all bonus objectives in the challenge \"Crane Operator\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_CHALLENGE_VULKAN",
+            "name": "The Expedition",
+            "description": "Complete all bonus objective in challenge \"The Expedition\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_LUMBERJACK",
+            "name": "Lumberjack",
+            "description": "Knock down 100 trees it total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_SPEED_RACER",
+            "name": "Speed Racer",
+            "description": "Reach speed of 40 km/h with a loaded truck",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_BEAUTIFUL_TAN",
+            "name": "Beautiful Tan",
+            "description": "Travel 10 kilometers along the shorelines of American Wilds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_CHALLENGE_DLC3_01",
+            "name": "Crane Operator II",
+            "description": "Complete all bonus objectives in the challenge \"Crane Operator II\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_CHALLENGE_DLC3_02",
+            "name": "Freight-Ex",
+            "description": "Complete all bonus objectives in the challenge \"Freight-Ex\"",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 400
+        }
+    ]
+}
