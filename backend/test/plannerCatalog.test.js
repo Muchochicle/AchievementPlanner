@@ -384,6 +384,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mudrunner"));
     assert.ok(slugs.includes("my-summer-car"));
     assert.ok(slugs.includes("nova-drift"));
+    assert.ok(slugs.includes("killing-floor"));
+    assert.ok(slugs.includes("book-of-demons"));
+    assert.ok(slugs.includes("aliens-fireteam-elite"));
 
 });
 

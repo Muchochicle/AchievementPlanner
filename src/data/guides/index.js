@@ -360,6 +360,9 @@ import { GUIDE as theCrew2AchievementGuide } from "./games/the-crew-2.js";
 import { GUIDE as mudrunnerAchievementGuide } from "./games/mudrunner.js";
 import { GUIDE as mySummerCarAchievementGuide } from "./games/my-summer-car.js";
 import { GUIDE as novaDriftAchievementGuide } from "./games/nova-drift.js";
+import { GUIDE as killingFloorAchievementGuide } from "./games/killing-floor.js";
+import { GUIDE as bookOfDemonsAchievementGuide } from "./games/book-of-demons.js";
+import { GUIDE as aliensFireteamEliteAchievementGuide } from "./games/aliens-fireteam-elite.js";
 
 export const APP_GUIDES = [
 
@@ -742,7 +745,10 @@ export const GAME_GUIDES = [
     theCrew2AchievementGuide,
     mudrunnerAchievementGuide,
     mySummerCarAchievementGuide,
-    novaDriftAchievementGuide
+    novaDriftAchievementGuide,
+    killingFloorAchievementGuide,
+    bookOfDemonsAchievementGuide,
+    aliensFireteamEliteAchievementGuide
 
 ];
 

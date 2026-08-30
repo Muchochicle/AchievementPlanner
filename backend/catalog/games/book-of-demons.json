@@ -1,0 +1,1842 @@
+{
+    "id": 449960,
+    "steamAppId": 449960,
+    "name": "Book of Demons",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/449960/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Hack and Slash",
+        "Card Game",
+        "Roguelite",
+        "Dungeon Crawler",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "achiev_0_01_1",
+            "name": "Trek",
+            "description": "Unlock medium flexiscope game size",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 2,
+            "apiname": "achiev_0_01_2",
+            "name": "Voyage",
+            "description": "Unlock big flexiscope game size",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 3,
+            "apiname": "achiev_0_01_3",
+            "name": "Odyssey",
+            "description": "Unlock very big flexiscope game size",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 4,
+            "apiname": "achiev_0_06_1",
+            "name": "Adept Bone Collector",
+            "description": "Defeat 10 Skeletons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 5,
+            "apiname": "achiev_0_06_2",
+            "name": "Master Bone Collector",
+            "description": "Defeat 100 Skeletons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 6,
+            "apiname": "achiev_0_06_3",
+            "name": "Legendary Bone Collector",
+            "description": "Defeat 1000 Skeletons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 7,
+            "apiname": "achiev_0_08_1",
+            "name": "Adept Exterminator",
+            "description": "Defeat 10 Spiders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 8,
+            "apiname": "achiev_0_08_2",
+            "name": "Master Exterminator",
+            "description": "Defeat 100 Spiders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 9,
+            "apiname": "achiev_0_08_3",
+            "name": "Legendary Exterminator",
+            "description": "Defeat 1000 Spiders",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 10,
+            "apiname": "achiev_0_11_1",
+            "name": "Adept Goatherd",
+            "description": "Defeat 10 Goatmen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 11,
+            "apiname": "achiev_0_11_2",
+            "name": "Master Goatherd",
+            "description": "Defeat 100 Goatmen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 12,
+            "apiname": "achiev_0_11_3",
+            "name": "Legendary Goatherd",
+            "description": "Defeat 1000 Goatmen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 13,
+            "apiname": "achiev_0_07_1",
+            "name": "Adept Exorcist",
+            "description": "Defeat 10 Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 14,
+            "apiname": "achiev_0_07_2",
+            "name": "Master Exorcist",
+            "description": "Defeat 100 Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 15,
+            "apiname": "achiev_0_07_3",
+            "name": "Legendary Exorcist",
+            "description": "Defeat 1000 Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 16,
+            "apiname": "achiev_0_09_1",
+            "name": "Adept Ghostbuster",
+            "description": "Defeat 10 Ghosts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 17,
+            "apiname": "achiev_0_09_2",
+            "name": "Master Ghostbuster",
+            "description": "Defeat 100 Ghosts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 18,
+            "apiname": "achiev_0_09_3",
+            "name": "Legendary Ghostbuster",
+            "description": "Defeat 1000 Ghosts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 19,
+            "apiname": "achiev_0_10_1",
+            "name": "Adept Survivor",
+            "description": "Defeat 10 Zombies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 20,
+            "apiname": "achiev_0_10_2",
+            "name": "Master Survivor",
+            "description": "Defeat 100 Zombies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 21,
+            "apiname": "achiev_0_10_3",
+            "name": "Legendary Survivor",
+            "description": "Defeat 1000 Zombies",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 22,
+            "apiname": "achiev_0_12_1",
+            "name": "Adept Mason",
+            "description": "Defeat 10 Gargoyles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 23,
+            "apiname": "achiev_0_12_2",
+            "name": "Master Mason",
+            "description": "Defeat 100 Gargoyles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 24,
+            "apiname": "achiev_0_12_3",
+            "name": "Legendary Mason",
+            "description": "Defeat 1000 Gargoyles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 25,
+            "apiname": "achiev_0_13_1",
+            "name": "Heartbreaker",
+            "description": "Destroy 1000 monster hearts in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 26,
+            "apiname": "achiev_0_13_2",
+            "name": "Heartcracker",
+            "description": "Destroy 10000 monster hearts in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 27,
+            "apiname": "achiev_0_13_3",
+            "name": "Heartripper",
+            "description": "Destroy 100000 monster hearts in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 28,
+            "apiname": "achiev_0_14_1",
+            "name": "Path to Hell",
+            "description": "Leave 10000 footprints in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 29,
+            "apiname": "achiev_0_14_2",
+            "name": "Road to Hell",
+            "description": "Leave 100000 footprints in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 30,
+            "apiname": "achiev_0_14_3",
+            "name": "Highway to Hell",
+            "description": "Leave 200000 footprints in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 31,
+            "apiname": "achiev_0_15_1",
+            "name": "Full Armory",
+            "description": "Find all of Warrior's Cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 32,
+            "apiname": "achiev_0_15_2",
+            "name": "Grand Armory",
+            "description": "Upgrade all Warrior's Cards to level 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 33,
+            "apiname": "achiev_0_15_3",
+            "name": "Epic Armory",
+            "description": "Upgrade all Warrior's Cards to level 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 34,
+            "apiname": "achiev_0_16_1",
+            "name": "Full Library",
+            "description": "Find all of Mage's Cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 35,
+            "apiname": "achiev_0_16_2",
+            "name": "Arcane Library",
+            "description": "Upgrade all Mages's Cards to level 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 36,
+            "apiname": "achiev_0_16_3",
+            "name": "Unbelievable Library",
+            "description": "Upgrade all Mage's Cards to level 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 37,
+            "apiname": "achiev_0_17_1",
+            "name": "Full Stash",
+            "description": "Find all of Rogue's Cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 38,
+            "apiname": "achiev_0_17_2",
+            "name": "Fancy Stash",
+            "description": "Upgrade all Rogue's Cards to level 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 39,
+            "apiname": "achiev_0_17_3",
+            "name": "Legendary Stash",
+            "description": "Upgrade all Rogue's Cards to level 3",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 40,
+            "apiname": "achiev_0_18_1",
+            "name": "Hell's Kitchen",
+            "description": "Defeat the Cook with any hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 41,
+            "apiname": "achiev_0_18_2",
+            "name": "Cutthroat Kitchen",
+            "description": "Defeat the Cook with any second hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 42,
+            "apiname": "achiev_0_18_3",
+            "name": "Kitchen Nightmare",
+            "description": "Defeat the Cook with all three heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 43,
+            "apiname": "achiev_0_19_1",
+            "name": "Breaking the Ritual",
+            "description": "Defeat the Antipope with any hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 44,
+            "apiname": "achiev_0_19_2",
+            "name": "Averting the Sacrilege",
+            "description": "Defeat the Antipope with any second hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 45,
+            "apiname": "achiev_0_19_3",
+            "name": "Ending the Blasphemy",
+            "description": "Defeat the Antipope with all three heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 46,
+            "apiname": "achiev_0_20_1",
+            "name": "All Hail the New King",
+            "description": "Defeat the Archdemon with any hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 47,
+            "apiname": "achiev_0_20_2",
+            "name": "Twice the Fun",
+            "description": "Defeat the Archdemon with any second hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 48,
+            "apiname": "achiev_0_20_3",
+            "name": "Third Time's a Charm",
+            "description": "Defeat the Archdemon with all three heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 49,
+            "apiname": "achiev_0_21_1",
+            "name": "Who's the Boss?",
+            "description": "Defeat 5 boss monsters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 50,
+            "apiname": "achiev_0_21_2",
+            "name": "Don't Boss Around",
+            "description": "Defeat 50 boss monsters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 51,
+            "apiname": "achiev_0_21_3",
+            "name": "Not the Boss of Me",
+            "description": "Defeat 500 boss monsters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 52,
+            "apiname": "achiev_0_22_1",
+            "name": "Inter-raptor",
+            "description": "Interrupt 10 enemy's spells or skills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 53,
+            "apiname": "achiev_0_22_2",
+            "name": "Inter-raptor Evolved",
+            "description": "Interrupt 100 enemy's spells or skills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 54,
+            "apiname": "achiev_0_22_3",
+            "name": "Inter-raptor Rex",
+            "description": "Interrupt 500 enemy's spells or skills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 55,
+            "apiname": "achiev_0_23_1",
+            "name": "Crash!",
+            "description": "Destroy 100 enemy's shields",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 56,
+            "apiname": "achiev_0_23_2",
+            "name": "Smash!",
+            "description": "Destroy 500 enemy's shields",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 57,
+            "apiname": "achiev_0_23_3",
+            "name": "Bash!",
+            "description": "Destroy 1000 enemy's shields",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 58,
+            "apiname": "achiev_0_24_1",
+            "name": "Heartpicker",
+            "description": "Pick 50 hearts from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 59,
+            "apiname": "achiev_0_24_2",
+            "name": "Heart Hoarder",
+            "description": "Pick 500 hearts from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 60,
+            "apiname": "achiev_0_24_3",
+            "name": "Organ Harvester",
+            "description": "Pick 1000 hearts from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 61,
+            "apiname": "achiev_0_25_1",
+            "name": "Magic Sweep",
+            "description": "Pick 50 mana globes from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 62,
+            "apiname": "achiev_0_25_2",
+            "name": "Mystic Sweep",
+            "description": "Pick 500 mana globes from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 63,
+            "apiname": "achiev_0_25_3",
+            "name": "Arcane Sweep",
+            "description": "Pick 1000 mana globes from the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 64,
+            "apiname": "achiev_0_26_1",
+            "name": "Fast & Furious",
+            "description": "Defeat 100 monsters in 20 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 65,
+            "apiname": "achiev_0_26_2",
+            "name": "Faster & Furier",
+            "description": "Defeat 150 monsters in 15 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 66,
+            "apiname": "achiev_0_26_3",
+            "name": "The Fastest & the Furiest",
+            "description": "Defeat 200 monsters in 10 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 67,
+            "apiname": "achiev_0_27_1",
+            "name": "Badger",
+            "description": "Finish a big Freeplay game on Hard difficulty receiving all the badges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 68,
+            "apiname": "achiev_0_27_2",
+            "name": "Badger, Badger",
+            "description": "Finish a big Freeplay game on Nightmare difficulty receiving all the badges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 69,
+            "apiname": "achiev_0_27_3",
+            "name": "Badger, Badger, Badger",
+            "description": "Finish a big Freeplay game on Massacre difficulty receiving all the badges",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 70,
+            "apiname": "achiev_0_28_1",
+            "name": "Wearing Only a Smile",
+            "description": "Finish a medium or longer Freeplay game on Hard difficulty without equipping any card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 71,
+            "apiname": "achiev_0_28_2",
+            "name": "Birthday Suit",
+            "description": "Finish a medium or longer Freeplay game on Nightmare difficulty without equipping any card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 72,
+            "apiname": "achiev_0_28_3",
+            "name": "Hardcore Nudist",
+            "description": "Finish a medium or longer Freeplay game on Massacre difficulty without equipping any card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 73,
+            "apiname": "achiev_0_29_1",
+            "name": "Quest Master",
+            "description": "Master all level 1 quests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 74,
+            "apiname": "achiev_0_29_2",
+            "name": "Quest Champion",
+            "description": "Master all level 2 quests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 75,
+            "apiname": "achiev_0_29_3",
+            "name": "Quest Genius",
+            "description": "Master all level 3 quests",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 76,
+            "apiname": "achiev_0_30_1",
+            "name": "Unlucky",
+            "description": "Destroy 50 empty barrels in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 77,
+            "apiname": "achiev_0_30_2",
+            "name": "Jinxed",
+            "description": "Destroy 500 empty barrels in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 78,
+            "apiname": "achiev_0_30_3",
+            "name": "Cursed",
+            "description": "Destroy 5000 empty barrels in the dungeon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 79,
+            "apiname": "achiev_0_31_1",
+            "name": "Smelly Fingers",
+            "description": "Pick up 10 crap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 80,
+            "apiname": "achiev_0_31_2",
+            "name": "Dirty Hands",
+            "description": "Pick up 100 crap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 81,
+            "apiname": "achiev_0_31_3",
+            "name": "I'll Never Wash It Off",
+            "description": "Pick up 1000 crap",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 82,
+            "apiname": "achiev_0_32_1",
+            "name": "In Good Hands",
+            "description": "Let the Healer heal you 30 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 83,
+            "apiname": "achiev_0_32_2",
+            "name": "Frequent Patient",
+            "description": "Let the Healer heal you 100 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 84,
+            "apiname": "achiev_0_32_3",
+            "name": "Hypochondriac",
+            "description": "Let the Healer heal you 300 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 85,
+            "apiname": "achiev_0_33_1",
+            "name": "Tasty Soup",
+            "description": "Buy content of the Magical Cauldron for the first time",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 86,
+            "apiname": "achiev_0_33_2",
+            "name": "Yummy Brew",
+            "description": "Buy content of the Magical Cauldron 5 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 87,
+            "apiname": "achiev_0_33_3",
+            "name": "Delicious Stew",
+            "description": "Buy content of the Magical Cauldron 10 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 88,
+            "apiname": "achiev_0_34_1",
+            "name": "Occasional Buyer",
+            "description": "Charge your cards 10 times at the Fortune Teller's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 89,
+            "apiname": "achiev_0_34_2",
+            "name": "Frequent Client",
+            "description": "Charge your cards 50 times at the Fortune Teller's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 90,
+            "apiname": "achiev_0_34_3",
+            "name": "Loyal Customer",
+            "description": "Charge your cards 100 times at the Fortune Teller's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 91,
+            "apiname": "achiev_0_35_1",
+            "name": "First Riddle",
+            "description": "Identify your first card with Sage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 92,
+            "apiname": "achiev_0_35_2",
+            "name": "Shrouded in Mysteries",
+            "description": "Identify 20 cards with Sage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 93,
+            "apiname": "achiev_0_35_3",
+            "name": "No More Secrets",
+            "description": "Identify 50 cards with Sage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 94,
+            "apiname": "achiev_0_36_1",
+            "name": "Deck Shuffle",
+            "description": "Equip a slot with a card 10 times in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 95,
+            "apiname": "achiev_0_36_2",
+            "name": "Deck Tactics",
+            "description": "Equip a slot with a card 100 times in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 96,
+            "apiname": "achiev_0_36_3",
+            "name": "Deck Strategy",
+            "description": "Equip a slot with a card 500 times in total",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 97,
+            "apiname": "achiev_0_37_1",
+            "name": "Stayin' Alive",
+            "description": "Finish 5 games in a row without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 98,
+            "apiname": "achiev_0_37_2",
+            "name": "Stayin' Alive, Stayin' Alive",
+            "description": "Finish 10 games in a row without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 99,
+            "apiname": "achiev_0_37_3",
+            "name": "A! A! A! A! Stayin' Alive",
+            "description": "Finish 20 games in a row without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 100,
+            "apiname": "achiev_0_38_1",
+            "name": "Cleansing Spark",
+            "description": "Burn 30 monsters to ashes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 101,
+            "apiname": "achiev_0_38_2",
+            "name": "Cleansing Flame",
+            "description": "Burn 100 monsters to ashes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 102,
+            "apiname": "achiev_0_38_3",
+            "name": "Cleansing Fire",
+            "description": "Burn 300 monsters to ashes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 103,
+            "apiname": "achiev_0_39_1",
+            "name": "Breaking the Ice",
+            "description": "Defeat 30 monsters that are frozen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 104,
+            "apiname": "achiev_0_39_2",
+            "name": "Keep It Cool",
+            "description": "Defeat 100 monsters that are frozen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 105,
+            "apiname": "achiev_0_39_3",
+            "name": "Ice Ice Baby",
+            "description": "Defeat 300 monsters that are frozen",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 106,
+            "apiname": "achiev_0_40_1",
+            "name": "Poison Ivy",
+            "description": "Defeat 30 monsters with poison",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 107,
+            "apiname": "achiev_0_40_2",
+            "name": "Venomous Spider",
+            "description": "Defeat 100 monsters with poison",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 108,
+            "apiname": "achiev_0_40_3",
+            "name": "King Cobra",
+            "description": "Defeat 300 monsters with poison",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 109,
+            "apiname": "achiev_0_41_1",
+            "name": "Easy Come, Easy Go",
+            "description": "Spent 1000 gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 110,
+            "apiname": "achiev_0_41_2",
+            "name": "Money Isn't Everything",
+            "description": "Spent 100000 gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 111,
+            "apiname": "achiev_0_41_3",
+            "name": "Riches Have Wings",
+            "description": "Spent 1000000 gold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 112,
+            "apiname": "achiev_0_42_1",
+            "name": "Nightmare on Elm Street",
+            "description": "Unlock Hard difficulty with all heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 113,
+            "apiname": "achiev_0_42_2",
+            "name": "Hellraiser",
+            "description": "Unlock Nightmare difficulty with all heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 114,
+            "apiname": "achiev_0_42_3",
+            "name": "Texas Massacre",
+            "description": "Unlock a Massacre difficulty with all heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 115,
+            "apiname": "achiev_0_43_1",
+            "name": "Nothing More to Learn",
+            "description": "Reach a level cap (level 50) with any hero",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 116,
+            "apiname": "achiev_0_43_2",
+            "name": "Magnificent Duo",
+            "description": "Reach a level cap with two different class heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 117,
+            "apiname": "achiev_0_43_3",
+            "name": "Fantastic Three",
+            "description": "Reach a level cap with all three class heroes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 118,
+            "apiname": "achiev_0_44_1",
+            "name": "Cleanser",
+            "description": "Clear 5 dungeon levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 119,
+            "apiname": "achiev_0_44_2",
+            "name": "Pedantic",
+            "description": "Clear 50 dungeon levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 120,
+            "apiname": "achiev_0_44_3",
+            "name": "Obsessive–Compulsive",
+            "description": "Clear 500 dungeon levels",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 121,
+            "apiname": "achiev_0_45_1",
+            "name": "Slow as a Turtle",
+            "description": "Miss 50 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 122,
+            "apiname": "achiev_0_45_2",
+            "name": "Clumsy as an Ox",
+            "description": "Miss 500 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 123,
+            "apiname": "achiev_0_45_3",
+            "name": "Blind as a Bat",
+            "description": "Miss 5000 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 124,
+            "apiname": "achiev_0_46_1",
+            "name": "Commando",
+            "description": "Finish a big Freeplay game on Hard difficulty without any form of healing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 125,
+            "apiname": "achiev_0_46_2",
+            "name": "Predator",
+            "description": "Finish a big Freeplay game on Nightmare difficulty without any form of healing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 126,
+            "apiname": "achiev_0_46_3",
+            "name": "Terminator",
+            "description": "Finish a big Freeplay game on Massacre difficulty without any form of healing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 127,
+            "apiname": "achiev_0_47_1",
+            "name": "Ready for Action",
+            "description": "Equip all the card slots with at least level 1 cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 128,
+            "apiname": "achiev_0_47_2",
+            "name": "Ready for War",
+            "description": "Equip all the card slots with at least level 2 cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 129,
+            "apiname": "achiev_0_47_3",
+            "name": "Ready for Anything",
+            "description": "Equip all the card slots with at least level 3 cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 130,
+            "apiname": "achiev_0_48_1",
+            "name": "Bronze Division",
+            "description": "Gain all other bronze level achievements in Book of Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 131,
+            "apiname": "achiev_0_48_2",
+            "name": "Silver Division",
+            "description": "Gain all other silver level achievements in Book of Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 132,
+            "apiname": "achiev_0_48_3",
+            "name": "Golden Division",
+            "description": "Gain all other gold level achievements in Book of Demons",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 133,
+            "apiname": "achiev_0_49_1",
+            "name": "Don't Look Back",
+            "description": "Finish a dungeon level without backtracing your steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 134,
+            "apiname": "achiev_0_49_2",
+            "name": "Straight to the Point",
+            "description": "Finish 3 dungeon levels without backtracing your steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 135,
+            "apiname": "achiev_0_49_3",
+            "name": "Always Ahead",
+            "description": "Finish 5 dungeon levels without backtracing your steps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 136,
+            "apiname": "achiev_0_50_1",
+            "name": "Loads of Ammo",
+            "description": "Shoot 100 equiped arrows (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 137,
+            "apiname": "achiev_0_50_2",
+            "name": "Piles of Ammo",
+            "description": "Shoot 1000 equiped arrows (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 138,
+            "apiname": "achiev_0_50_3",
+            "name": "Tons of Ammo",
+            "description": "Shoot 10000 equiped arrows (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 139,
+            "apiname": "achiev_0_51_1",
+            "name": "Blast!",
+            "description": "Throw bombs 10 times (Warrior only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 140,
+            "apiname": "achiev_0_51_2",
+            "name": "Boom!",
+            "description": "Throw bombs 100 times (Warrior only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 141,
+            "apiname": "achiev_0_51_3",
+            "name": "KABOOM!",
+            "description": "Throw bombs 500 times (Warrior only) ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 142,
+            "apiname": "achiev_0_52_1",
+            "name": "Magic Friend",
+            "description": "Summon a golem 5 times (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 143,
+            "apiname": "achiev_0_52_2",
+            "name": "Mages Companion",
+            "description": "Summon a golem 50 times (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 144,
+            "apiname": "achiev_0_52_3",
+            "name": "Wizards BFF",
+            "description": "Summon a golem 200 times (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 145,
+            "apiname": "achiev_0_55_1",
+            "name": "Scary",
+            "description": "Scare 10 monsters with a single Fear card use (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 146,
+            "apiname": "achiev_0_55_2",
+            "name": "Horrifying",
+            "description": "Scare 50 monsters with a single Fear card use (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 147,
+            "apiname": "achiev_0_55_3",
+            "name": "Terrifying",
+            "description": "Scare 75 monsters with a single Fear card use (Rogue only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 148,
+            "apiname": "achiev_0_56_1",
+            "name": "Battering Ram",
+            "description": "Bash 3 monsters with a single Charge card use (Warrior only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 149,
+            "apiname": "achiev_0_56_2",
+            "name": "With All One's Strength",
+            "description": "Bash 6 monsters with a single Charge card use (Warrior only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 150,
+            "apiname": "achiev_0_56_3",
+            "name": "Push It to the Limit",
+            "description": "Bash 9 monsters with a single Charge card use (Warrior only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 151,
+            "apiname": "achiev_0_57_1",
+            "name": "Wave of Silence",
+            "description": "Dispell 3 spells and skills with a single Mass Dispell card use (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 152,
+            "apiname": "achiev_0_57_2",
+            "name": "Storm of Silence",
+            "description": "Dispell 6 spells and skills with a single Mass Dispell card use (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 153,
+            "apiname": "achiev_0_57_3",
+            "name": "Tsunami of Silence",
+            "description": "Dispell 9 spells and skills with a single Mass Dispell card use (Mage only)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 154,
+            "apiname": "achiev_0_58_1",
+            "name": "Stomp Harder",
+            "description": "Destroy 5 Slimy Spores before they explode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 155,
+            "apiname": "achiev_0_58_2",
+            "name": "Stomp Better",
+            "description": "Destroy 50 Slimy Spores before they explode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 156,
+            "apiname": "achiev_0_58_3",
+            "name": "Stomp Stronger",
+            "description": "Destroy 500 Slimy Spores before they explode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 157,
+            "apiname": "achiev_0_59_1",
+            "name": "So Far So Good",
+            "description": "Finish 5 games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 158,
+            "apiname": "achiev_0_59_2",
+            "name": "Getting Better",
+            "description": "Finish 25 games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 159,
+            "apiname": "achiev_0_59_3",
+            "name": "The Fun Goes On",
+            "description": "Finish 100 games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 160,
+            "apiname": "achiev_0_60_1",
+            "name": "Warming Up",
+            "description": "Unlock fourth card slot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 161,
+            "apiname": "achiev_0_60_2",
+            "name": "Lucky 7",
+            "description": "Unlock the 7th cards slot",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 162,
+            "apiname": "achiev_0_60_3",
+            "name": "Bull's Eye!",
+            "description": "Unlock all 10 card slots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 163,
+            "apiname": "achiev_0_61_1",
+            "name": "Chit Chat",
+            "description": "Talk 5 times with villagers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 164,
+            "apiname": "achiev_0_61_2",
+            "name": "Gossip Girl",
+            "description": "Talk 25 times with villagers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 165,
+            "apiname": "achiev_0_61_3",
+            "name": "You Have Your Way with Words!",
+            "description": "Talk 50 times with villagers",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 166,
+            "apiname": "achiev_0_02_3",
+            "name": "Game of Crows",
+            "description": "The crows are singing, winter must be coming...",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 167,
+            "apiname": "achiev_0_03_3",
+            "name": "Captain Planet",
+            "description": "By your powers combined I am Captain Planet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 168,
+            "apiname": "achiev_0_04_3",
+            "name": "Eeny, Meeny, Miny, Moe",
+            "description": "Barrel, barrel, Zombie, barrel. Barrel, barrel, Zombie, crap!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 169,
+            "apiname": "achiev_0_05_3",
+            "name": "The Alchemist",
+            "description": "Only 5 ingredients and the achievement might be yours!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 170,
+            "apiname": "achiev_0_68_1",
+            "name": "Roguelite",
+            "description": "Reach and defeat Cook in Roguelike mode without using fountains",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 171,
+            "apiname": "achiev_0_68_2",
+            "name": "Roguelikelike",
+            "description": "Reach and defeat Antipope in Roguelike mode  without using any fountain",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 172,
+            "apiname": "achiev_0_68_3",
+            "name": "Roguelike",
+            "description": "Reach and defeat Archdemon in Roguelike mode without using any fountain",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 173,
+            "apiname": "achiev_0_69_1",
+            "name": "'Tis but a Scratch!",
+            "description": "Resurect yourself once in Rogulike mode playing one character",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 174,
+            "apiname": "achiev_0_69_2",
+            "name": "Just a Flesh Wound",
+            "description": "Resurect yourself 5 times in Rogulike mode playing one character",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 175,
+            "apiname": "achiev_0_69_3",
+            "name": "I'm Invincible!",
+            "description": "Resurect yourself 8 times in Rogulike mode playing one character",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 176,
+            "apiname": "achiev_0_70_1",
+            "name": "Lay on Hands",
+            "description": "Spent 10 000 gold on healing and restoring mana at Healer's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 177,
+            "apiname": "achiev_0_70_2",
+            "name": "Lightwell",
+            "description": "Spent 50 000 gold on healing and restoring mana at Healer's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 178,
+            "apiname": "achiev_0_70_3",
+            "name": "Holy Light",
+            "description": "Spent 100 000 gold on healing and restoring mana at Healer's",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 179,
+            "apiname": "achiev_0_53_1",
+            "name": "Golden Pot",
+            "description": "Have 1 golden award in cauldron",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 180,
+            "apiname": "achiev_0_53_2",
+            "name": "Golden Bowl",
+            "description": "Have 2 golden awards in cauldron",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 181,
+            "apiname": "achiev_0_53_3",
+            "name": "Golden Vessel",
+            "description": "Have 3 golden awards in cauldron",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 182,
+            "apiname": "achiev_0_54_1",
+            "name": "1 Step Back",
+            "description": "Downgrade 1 card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 183,
+            "apiname": "achiev_0_54_2",
+            "name": "2 Steps Back",
+            "description": "Downgrade 1 magic card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 184,
+            "apiname": "achiev_0_54_3",
+            "name": "3 Steps Back",
+            "description": "Downgrade 1 legendary card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 185,
+            "apiname": "achiev_0_62_1",
+            "name": "Ready for Magic",
+            "description": "Equip all the card slots with at least level 1 magic card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 186,
+            "apiname": "achiev_0_62_2",
+            "name": "Ready for Sorcery",
+            "description": "Equip all the card slots with at least level 2 magic cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 187,
+            "apiname": "achiev_0_62_3",
+            "name": "Ready for Wizardry",
+            "description": "Equip all the card slots with level 3 magic cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 188,
+            "apiname": "achiev_0_63_1",
+            "name": "Ready for Stories",
+            "description": "Equip all the card slots with at least level 1 legendary card",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 189,
+            "apiname": "achiev_0_63_2",
+            "name": "Ready for Tales",
+            "description": "Equip all the card slots with at least level 2 legendary cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 190,
+            "apiname": "achiev_0_63_3",
+            "name": "Ready for Legends",
+            "description": "Equip all the card slots with level 3 legendary cards",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 191,
+            "apiname": "achiev_0_64_1",
+            "name": "A-maze-ing!",
+            "description": "Finish maze without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 192,
+            "apiname": "achiev_0_64_2",
+            "name": "Cata-bomb!",
+            "description": "Finish catacombs without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 193,
+            "apiname": "achiev_0_64_3",
+            "name": "Hell Yeah!",
+            "description": "Finish hell without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 194,
+            "apiname": "achiev_0_65_1",
+            "name": "Don't Die Hard",
+            "description": "Finish a big game on Hard difficulty without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 195,
+            "apiname": "achiev_0_65_2",
+            "name": "Don't Die Harder",
+            "description": "Finish a big game on Nightmare difficulty without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 196,
+            "apiname": "achiev_0_65_3",
+            "name": "Don't Die Hard with a Vengeance",
+            "description": "Finish a big game on Massacre difficulty without dying",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 197,
+            "apiname": "achiev_0_66_1",
+            "name": "Master Chef",
+            "description": "Master any quest for 1 star",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 198,
+            "apiname": "achiev_0_66_2",
+            "name": "Master of Puppets",
+            "description": "Master a quest for 2 stars",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 35
+        },
+        {
+            "id": 199,
+            "apiname": "achiev_0_66_3",
+            "name": "Master of Disaster",
+            "description": "Master any quest for 3 stars",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 200,
+            "apiname": "achiev_0_67_1",
+            "name": "Craving Battle",
+            "description": "Defeat Cook without purchasing Cauldron",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 201,
+            "apiname": "achiev_0_67_2",
+            "name": "Hungry Campaign",
+            "description": "Defeat Antipope without purchasing Cauldron",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 202,
+            "apiname": "achiev_0_67_3",
+            "name": "Starving War",
+            "description": "Defeat Archdemon without purchasing Cauldron",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 300
+        }
+    ]
+}
