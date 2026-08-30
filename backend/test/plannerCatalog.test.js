@@ -357,6 +357,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mount-and-blade-warband"));
     assert.ok(slugs.includes("railway-empire"));
     assert.ok(slugs.includes("wildermyth"));
+    assert.ok(slugs.includes("trine-2"));
+    assert.ok(slugs.includes("trine-4"));
+    assert.ok(slugs.includes("trine-5"));
 
 });
 

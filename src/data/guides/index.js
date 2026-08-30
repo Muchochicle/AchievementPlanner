@@ -333,6 +333,9 @@ import { GUIDE as metalHellsingerAchievementGuide } from "./games/metal-hellsing
 import { GUIDE as mountAndBladeWarbandAchievementGuide } from "./games/mount-and-blade-warband.js";
 import { GUIDE as railwayEmpireAchievementGuide } from "./games/railway-empire.js";
 import { GUIDE as wildermythAchievementGuide } from "./games/wildermyth.js";
+import { GUIDE as trine2AchievementGuide } from "./games/trine-2.js";
+import { GUIDE as trine4AchievementGuide } from "./games/trine-4.js";
+import { GUIDE as trine5AchievementGuide } from "./games/trine-5.js";
 
 export const APP_GUIDES = [
 
@@ -688,7 +691,10 @@ export const GAME_GUIDES = [
     metalHellsingerAchievementGuide,
     mountAndBladeWarbandAchievementGuide,
     railwayEmpireAchievementGuide,
-    wildermythAchievementGuide
+    wildermythAchievementGuide,
+    trine2AchievementGuide,
+    trine4AchievementGuide,
+    trine5AchievementGuide
 
 ];
 

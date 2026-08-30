@@ -1,0 +1,897 @@
+{
+    "id": 35720,
+    "steamAppId": 35720,
+    "name": "Trine 2: Complete Story",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/35720/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 12,
+        "max": 20
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Puzzle Platformer",
+        "Physics",
+        "Fantasy",
+        "Co-op",
+        "Side Scroller",
+        "Beautiful"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "surf",
+            "name": "Surfboard Master",
+            "description": "Stand on a plank floating on a single airflow for four seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "hazard",
+            "name": "I Didn't Do It",
+            "description": "Make goblins die of three different environmental hazards in a single level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "solo",
+            "name": "Flying Solo",
+            "description": "Complete a whole level playing one character only",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "carni",
+            "name": "A Floral Feast",
+            "description": "Feed carnivorous plants with three or more different kinds of treats",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "shatter",
+            "name": "Icebreaker",
+            "description": "Shatter three frozen enemies within one second",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "hammer",
+            "name": "Hammer Havoc",
+            "description": "Kill an enemy with a thrown hammer bouncing at least once before kill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "friendly_fire",
+            "name": "Dirty Tactics",
+            "description": "Get at least 10 enemies killed by other enemies' actions in a single level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "bounce",
+            "name": "Bouncy Bouncy",
+            "description": "Stand on a conjured box bouncing on any bouncy surface for 10 seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "arrow",
+            "name": "A Hail of Arrows",
+            "description": "Shoot 3 arrows in the air and catch them all with the Knight's shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "tower",
+            "name": "High Rise",
+            "description": "Construct a tower made of eight objects and stand on top of it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "rope",
+            "name": "Cirque de Zoya",
+            "description": "Using grapple, swing around an object and reattach grapple again without touching any surface",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "bubble",
+            "name": "This Wasn't the Plan",
+            "description": "Make a bubble sink for three seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "platinum",
+            "name": "Trine 2 hard",
+            "description": "Earn all (original) Achievements in Trine 2",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 5
+        },
+        {
+            "id": 14,
+            "apiname": "game_completed",
+            "name": "I want more!",
+            "description": "Complete the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "level1_completed",
+            "name": "Into the Story",
+            "description": "Complete The Story Begins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "level2_completed",
+            "name": "Wild in Wilderness",
+            "description": "Complete Forlorn Wilderness",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "level3_completed",
+            "name": "Mudproof Hero",
+            "description": "Complete Mudwater Dale",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "level4_completed",
+            "name": "March Through the Marsh",
+            "description": "Complete Mosslight Marsh",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "level5_completed",
+            "name": "Treehouse Adventure",
+            "description": "Complete Petrified Tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "level6_completed",
+            "name": "No More Lizard Soup",
+            "description": "Complete Shadowed Halls",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "level7_completed",
+            "name": "Hostile Gardening",
+            "description": "Complete Hushing Grove",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "level8_completed",
+            "name": "Funs with Fungi",
+            "description": "Complete Mushroom Caves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "level9_completed",
+            "name": "Shrooms and Glooms",
+            "description": "Complete Mushroom Murk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "level10_completed",
+            "name": "Pearl Diver",
+            "description": "Complete Searock Castle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "level11_completed",
+            "name": "Sinister Plumbing",
+            "description": "Complete Eldritch Passages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "level12_completed",
+            "name": "Hot and Cold",
+            "description": "Complete Icewarden Keep",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "level13_completed",
+            "name": "Through Dangers Untold",
+            "description": "Complete The Final Chapter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "level1_exp",
+            "name": "The Story Begins Collector",
+            "description": "Collect all experience pickups in The Story Begins",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "level2_exp",
+            "name": "Forlorn Wilderness Collector",
+            "description": "Collect all experience pickups in Forlorn Wilderness",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "level3_exp",
+            "name": "Mudwater Dale Collector",
+            "description": "Collect all experience pickups in Mudwater Dale",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "level4_exp",
+            "name": "Mosslight Marsh Collector",
+            "description": "Collect all experience pickups in Mosslight Marsh",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "level5_exp",
+            "name": "Petrified Tree Collector",
+            "description": "Collect all experience pickups in Petrified Tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "level6_exp",
+            "name": "Shadowed Halls Collector",
+            "description": "Collect all experience pickups in Shadowed Halls",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "level7_exp",
+            "name": "Hushing Grove Collector",
+            "description": "Collect all experience pickups in Hushing Grove",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "level8_exp",
+            "name": "Mushroom Caves Collector",
+            "description": "Collect all experience pickups in Mushroom Caves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "level9_exp",
+            "name": "Mushroom Murk Collector",
+            "description": "Collect all experience pickups in Mushroom Murk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "level10_exp",
+            "name": "Searock Castle Collector",
+            "description": "Collect all experience pickups in Searock Castle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "level11_exp",
+            "name": "Eldritch Passages Collector",
+            "description": "Collect all experience pickups in Eldritch Passages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "level12_exp",
+            "name": "Icewarden Keep Collector",
+            "description": "Collect all experience pickups in Icewarden Keep",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "level2_chest",
+            "name": "Secrets of Forlorn Wilderness",
+            "description": "Find all chests in Forlorn Wilderness",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "level3_chest",
+            "name": "Secrets of Mudwater Dale",
+            "description": "Find all chests in Mudwater Dale",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "level4_chest",
+            "name": "Secrets of Mosslight Marsh",
+            "description": "Find all chests in Mosslight Marsh",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "level5_chest",
+            "name": "Secrets of Petrified Tree",
+            "description": "Find all chests in Petrified Tree",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "level6_chest",
+            "name": "Secrets of Shadowed Halls",
+            "description": "Find all chests in Shadowed Halls",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "level7_chest",
+            "name": "Secrets of Hushing Grove",
+            "description": "Find all chests in Hushing Grove",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "level8_chest",
+            "name": "Secrets of Mushroom Caves",
+            "description": "Find all chests in Mushroom Caves",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "level9_chest",
+            "name": "Secrets of Mushroom Murk",
+            "description": "Find all chests in Mushroom Murk",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "level10_chest",
+            "name": "Secrets of Searock Castle",
+            "description": "Find all chests in Searock Castle",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "level11_chest",
+            "name": "Secrets of Eldritch Passages",
+            "description": "Find all chests in Eldritch Passages",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "level12_chest",
+            "name": "Secrets of Icewarden Keep",
+            "description": "Find all chests in Icewarden Keep",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "level13_chest",
+            "name": "Rosabel's Secrets",
+            "description": "Find all chests in The Final Chapter",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "expbottle",
+            "name": "Sharp-Eyed",
+            "description": "Collect all experience pickups in any level",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "allexp",
+            "name": "Master Collector",
+            "description": "Collect all experience pickups in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 54,
+            "apiname": "allchest",
+            "name": "Lost and Found",
+            "description": "Find all chests in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 55,
+            "apiname": "frozen_tower",
+            "name": "Snowman",
+            "description": "Freeze two enemies and stack them on top of each other",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "hard_hc",
+            "name": "Challenge is My Middle Name",
+            "description": "Complete any level with hardcore mode on and difficulty set to hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 57,
+            "apiname": "allhc",
+            "name": "Walk in the Park",
+            "description": "Complete the game on hard using hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 58,
+            "apiname": "solo_amadeus",
+            "name": "O Solo Mio",
+            "description": "Complete a level with only Amadeus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "solo_zoya",
+            "name": "Like a Shadow",
+            "description": "Complete a level with only Zoya",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "solo_pontius",
+            "name": "Alone and Mighty",
+            "description": "Complete a level with only Pontius",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "solo_all",
+            "name": "Trine Kaput?",
+            "description": "Complete a level with only Amadeus, a level with only Zoya and a level with only Pontius",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "charge",
+            "name": "Catch This!",
+            "description": "Kill an enemy with an airborne object tossed with the Knight's charge ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "no_damage",
+            "name": "All Too Easy!",
+            "description": "Finish a level without taking any damage (Not the Tutorial)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "pontiustower",
+            "name": "The Leaning Tower of Pontius",
+            "description": "Build a three-piece or three-character tower where lowest part is Pontius and his shield, tower must stand at least five seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "level14_completed",
+            "name": "No Time to Change Clothes",
+            "description": "Complete The Heroes Return",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "level15_completed",
+            "name": "Sunstroke",
+            "description": "Complete Deadly Dustland",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "level16_completed",
+            "name": "Indigestion",
+            "description": "Complete Belly of the Beast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 68,
+            "apiname": "level17_completed",
+            "name": "Grand Theft Aviation",
+            "description": "Complete Brackenridge Rise",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 69,
+            "apiname": "level18_completed",
+            "name": "I'm Walking in the Air",
+            "description": "Complete Cloudy Isles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "level19_completed",
+            "name": "Happy Reunion",
+            "description": "Complete Goblin Machinations",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "level14_exp",
+            "name": "The Heroes Return Collector",
+            "description": "Collect all level experience in The Heroes Return",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 72,
+            "apiname": "level15_exp",
+            "name": "Deadly Dustland Collector",
+            "description": "Collect all level experience in Deadly Dustland",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 73,
+            "apiname": "level16_exp",
+            "name": "Belly of the Beast Collector",
+            "description": "Collect all level experience in Belly of the Beast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 74,
+            "apiname": "level17_exp",
+            "name": "Brackenridge Rise Collector",
+            "description": "Collect all level experience in Brackenridge Rise",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 75,
+            "apiname": "level18_exp",
+            "name": "Cloudy Isles Collector",
+            "description": "Collect all level experience in Cloudy Isles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 76,
+            "apiname": "allchest_dlc",
+            "name": "The Treasurer",
+            "description": "Find all chests in the Goblin Menace expansion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 77,
+            "apiname": "expbottle_dlc",
+            "name": "Sharpeyed II (Goblin Menace Expansion)",
+            "description": "Find all level experience in any level in the expansion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 78,
+            "apiname": "allexp_dlc",
+            "name": "Goblin Menace Collector",
+            "description": "Collect all level experience in the Goblin Menace expansion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 79,
+            "apiname": "platinum_dlc",
+            "name": "Trine 2 Hard II (Goblin Menace Expansion)",
+            "description": "Earn all Achievements in Trine 2: The Goblin Menace",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 5
+        },
+        {
+            "id": 80,
+            "apiname": "trapstack",
+            "name": "Wicked Collection",
+            "description": "Capture three different types of enemies inside boxes and stack them on top of another",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 81,
+            "apiname": "allexp_both",
+            "name": "Grand Collector",
+            "description": "Collect all experience pickups in both the main game and the Goblin Menace expansion",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 200
+        },
+        {
+            "id": 82,
+            "apiname": "grenade",
+            "name": "Cannonball Rebound",
+            "description": "Kill a grenadier goblin with its own cannonball",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 83,
+            "apiname": "sandworm",
+            "name": "Mutually Assured Destruction",
+            "description": "Make a sandworm kill another sandworm",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 84,
+            "apiname": "air_hammer",
+            "name": "Pontius Baseball",
+            "description": "Launch an object with Knight's magnetic shield and break it with hammer before the object touches the ground",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 85,
+            "apiname": "hard_hc_dlc",
+            "name": "Rise to the Challenge",
+            "description": "Complete any level of the Goblin Menace expansion with hardcore mode on and difficulty set to hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 86,
+            "apiname": "solo_dlc_levels",
+            "name": "Trine Kaput For Good?",
+            "description": "Complete each expansion level using only one character",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 87,
+            "apiname": "allhc_dlc",
+            "name": "Easy as Pie",
+            "description": "Complete the Goblin Menace expansion on hard using hardcore mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 250
+        },
+        {
+            "id": 88,
+            "apiname": "catch",
+            "name": "Play Catch",
+            "description": "Throw a box with Pontius' magnetic shield and catch it or have another player catch it",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 89,
+            "apiname": "raft",
+            "name": "Rafting",
+            "description": "Create a makeshift raft of three separate parts and have a goblin sail it for five seconds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 90,
+            "apiname": "pontiusglide",
+            "name": "Pontius Transportation Company",
+            "description": "Glide for five seconds with Kitesail Shield while having an object or character on top of the shield",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 91,
+            "apiname": "pit",
+            "name": "This is Trine!",
+            "description": "Kick five enemies of the same kind into a bottomless pit with the Thief's grappling hook kick or the Knight's Kitesail Shield glide kick",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 92,
+            "apiname": "catapult",
+            "name": "Off You Go",
+            "description": "Capture a goblin in a Monster Prison and then launch it with a catapult",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 93,
+            "apiname": "level14_chest",
+            "name": "Secrets of the Heroes Return",
+            "description": "Find all secret chests in The Heroes Return",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 94,
+            "apiname": "level15_chest",
+            "name": "Secrets of Deadly Dustland",
+            "description": "Find all secret chests in Deadly Dustland",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 95,
+            "apiname": "level16_chest",
+            "name": "Secrets of Belly of the Beast",
+            "description": "Find all secret chests in Belly of the Beast",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 96,
+            "apiname": "level17_chest",
+            "name": "Secrets of Brackenridge Rise",
+            "description": "Find all secret chests in Brackenridge Rise",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 97,
+            "apiname": "level18_chest",
+            "name": "Secrets of Cloudy Isles",
+            "description": "Find all secret chests in Cloudy Isles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
