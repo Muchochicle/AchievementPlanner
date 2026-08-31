@@ -692,6 +692,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dragon-ball-fighterz"));
     assert.ok(slugs.includes("octopath-traveler-ii"));
     assert.ok(slugs.includes("six-days-in-fallujah"));
+    assert.ok(slugs.includes("gang-beasts"));
+    assert.ok(slugs.includes("pummel-party"));
+    assert.ok(slugs.includes("stick-fight-the-game"));
 
 });
 

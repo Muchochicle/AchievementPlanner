@@ -668,6 +668,9 @@ import { GUIDE as sessionSkateSimAchievementGuide } from "./games/session-skate-
 import { GUIDE as dragonBallFighterzAchievementGuide } from "./games/dragon-ball-fighterz.js";
 import { GUIDE as octopathTravelerIiAchievementGuide } from "./games/octopath-traveler-ii.js";
 import { GUIDE as sixDaysInFallujahAchievementGuide } from "./games/six-days-in-fallujah.js";
+import { GUIDE as gangBeastsAchievementGuide } from "./games/gang-beasts.js";
+import { GUIDE as pummelPartyAchievementGuide } from "./games/pummel-party.js";
+import { GUIDE as stickFightTheGameAchievementGuide } from "./games/stick-fight-the-game.js";
 
 export const APP_GUIDES = [
 
@@ -1358,7 +1361,10 @@ export const GAME_GUIDES = [
     sessionSkateSimAchievementGuide,
     dragonBallFighterzAchievementGuide,
     octopathTravelerIiAchievementGuide,
-    sixDaysInFallujahAchievementGuide
+    sixDaysInFallujahAchievementGuide,
+    gangBeastsAchievementGuide,
+    pummelPartyAchievementGuide,
+    stickFightTheGameAchievementGuide
 
 ];
 
