@@ -1,0 +1,546 @@
+{
+    "id": 282440,
+    "steamAppId": 282440,
+    "name": "Quake Live",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/282440/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Arena Shooter",
+        "Fast-Paced",
+        "Multiplayer",
+        "Competitive",
+        "Free to Play"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "AW_TESTING",
+            "name": "Testing One..Two..",
+            "description": "Complete 1 match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "AW_VICTORY",
+            "name": "Victory",
+            "description": "Win a match for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "AW_TRAINING_3_1",
+            "name": "Hall Monitor",
+            "description": "Reach the end of the skill test hallway in the Crash Course.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "AW_TRAINING_3_2",
+            "name": "Crash Test",
+            "description": "Win the Crash Course match against our trainer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "AW_TRAINING_1_1",
+            "name": "Elevate Beginner",
+            "description": "Finish the first hall in the Elevate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "AW_TRAINING_1_2",
+            "name": "Elevate Adept",
+            "description": "Finish the second hall in the Elevate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "AW_TRAINING_1_3",
+            "name": "Elevate Expert",
+            "description": "Finish the final hall in the Elevate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "AW_TRAINING_2_1",
+            "name": "Accelerate Beginner",
+            "description": "Finish the first hall in the Accelerate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "AW_TRAINING_2_2",
+            "name": "Accelerate Adept",
+            "description": "Finish the second hall in the Accelerate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "AW_TRAINING_2_3",
+            "name": "Accelerate Expert",
+            "description": "Finish the final hall in the Accelerate training level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "AW_RAPTOR",
+            "name": "Raptor",
+            "description": "Frag an opponent while you are in the air.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "AW_SPEED_KILLS",
+            "name": "Speed Kills",
+            "description": "Frag an enemy while moving at over 500 units per second.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "AW_PSYCHIC",
+            "name": "Psychic",
+            "description": "Use a rocket to kill an opponent who is in the air.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "AW_FIRST_FRAG",
+            "name": "First Frag",
+            "description": "Score the first kill in a match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "AW_HAT_TRICK",
+            "name": "Hat Trick",
+            "description": "Record 3 Excellent medals in 1 game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "AW_AIM_BOT",
+            "name": "Aim Bot",
+            "description": "Win a match with 60% or greater accuracy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "AW_PLUS_ONE",
+            "name": "Plus One",
+            "description": "Frag an opponent when you have only 1 health.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "AW_FIRST_TASTE",
+            "name": "First Taste",
+            "description": "Accumulate 100 Frags.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "AW_CAMPER",
+            "name": "Camper",
+            "description": "Record 15 or more frags in a single match with the Rail Gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "AW_OVERKILL",
+            "name": "Overkill",
+            "description": "Use the Rail Gun to frag an opponent with only 1 point of health.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "AW_BANDIT",
+            "name": "Bandit",
+            "description": "Deny Quad Damage from your opponent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "AW_KILLJOY",
+            "name": "Killjoy",
+            "description": "Frag an opponent who has Quad Damage when you have no power-up.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "AW_BRAWLER",
+            "name": "Brawler",
+            "description": "Record 5 Gauntlet frags in one match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "AW_JESSE_JAMES",
+            "name": "Jesse James",
+            "description": "Win a Duel without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "AW_AIR_HAMMER",
+            "name": "Air Hammer",
+            "description": "Frag an opponent with Gauntlet while both of you are in the air.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "AW_HERE_GOES_NOTHING",
+            "name": "Here Goes Nothing",
+            "description": "Frag your opponent with Gauntlet in a Duel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "AW_NADE_SPAM",
+            "name": "Nade Spam",
+            "description": "Win a CA round using the Grenade Launcher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "AW_FULL_HOUSE",
+            "name": "Full House",
+            "description": "Earn at least 1 Capture, Defense, and Assist medal in a CTF match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "AW_HOOKED",
+            "name": "Hooked",
+            "description": "Accumulate 500 Frags.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "AW_LAST_HOPE",
+            "name": "Last Hope",
+            "description": "In Clan Arena, frag 3 or more opposing players to win the round, when you're the last alive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "AW_PUNCH_OUT",
+            "name": "Punch Out",
+            "description": "Get the last frag in a CA round with gauntlet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "AW_SMACK_DOWN",
+            "name": "Smack Down",
+            "description": "Accumulate 10 or more Quad Damage frags in 1 game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "AW_ASSASSIN",
+            "name": "Assassin",
+            "description": "Accumulate 250 Impressive Medals.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "AW_GUARDIAN",
+            "name": "Guardian",
+            "description": "Accumulate 100 Defense Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "AW_EVIL_EYE",
+            "name": "Evil Eye",
+            "description": "Accumulate 100 Revenge Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "AW_MISSED_OPPORTUNITY",
+            "name": "Missed Opportunity",
+            "description": "Kill the opposing team in Attack & Defend without touching the flag.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "AW_ROCKET_MAN",
+            "name": "Rocket Man",
+            "description": "Accumulate 500 frags using the Rocket Launcher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "AW_FEAR_ME",
+            "name": "Fear Me",
+            "description": "Accumulate 1000 Frags.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "AW_PULL",
+            "name": "Pull",
+            "description": "Record 5 Shotgun frags of opponents in the air in one match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "AW_BIG_TIME",
+            "name": "Big Time",
+            "description": "Complete 250 matches.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "AW_POINT_DENIED",
+            "name": "Point Denied",
+            "description": "Hold 3 Domination control points in an arena for at least 30 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "AW_RESOURCE_HOG",
+            "name": "Resource Hog",
+            "description": "Get Quad and Battle Suit in one match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "AW_TRIFECTA",
+            "name": "Trifecta",
+            "description": "Earn 3 or more Capture, Defense, and Assist medals in a CTF match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "AW_SKULL_TRUMPET",
+            "name": "Head Hunter",
+            "description": "Capture at least 3 skulls at once in Harvester.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "AW_SUCKER_PUNCH",
+            "name": "Sucker Punch",
+            "description": "Use the Gauntlet to frag an opponent who has Quad Damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "AW_WTF_WAS_THAT",
+            "name": "WTF Was That",
+            "description": "Record your first frag with the Kamikaze Item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "AW_MIRACLE_MAKER",
+            "name": "Miracle Maker",
+            "description": "Kill two enemy flag carriers moments before their cap in 1 game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "AW_2_IN_2",
+            "name": "2 in 2",
+            "description": "Accumulate 250 Excellent Medals.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "AW_FIGHT_CLUB",
+            "name": "Fight Club",
+            "description": "Accumulate 50 Humiliation Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "AW_MIDAIR",
+            "name": "Midair",
+            "description": "Get 25 frags using projectiles on opponents midair.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "AW_WICKED",
+            "name": "Wicked",
+            "description": "Record a final score of 666 in Capture the Flag.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "AW_CLUTCH",
+            "name": "Clutch",
+            "description": "Win a Capture the Flag match by 1 capture, ending the match with your winning flag run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "AW_NINJA_CAP",
+            "name": "Ninja Cap",
+            "description": "Capture the flag in Attack & Defend without killing anyone on the team, minimum size 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "AW_PRIZE_FIGHTER",
+            "name": "Prize Fighter",
+            "description": "Complete 1000 matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "AW_MVP",
+            "name": "MVP",
+            "description": "Accumulate 1000 combined total Capture the Flag Medals (Capture, Assist, Defense).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "AW_COLOR_GUARD",
+            "name": "Color Guard",
+            "description": "Accumulate 100 Capture Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "AW_SIDEKICK",
+            "name": "Sidekick",
+            "description": "Accumulate 100 Assist Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "AW_VADRIGAR",
+            "name": "Vadri'gar",
+            "description": "Accumulate 10000 Frags.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

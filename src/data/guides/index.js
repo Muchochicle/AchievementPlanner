@@ -591,6 +591,9 @@ import { GUIDE as beatHazardAchievementGuide } from "./games/beat-hazard.js";
 import { GUIDE as falloutShelterAchievementGuide } from "./games/fallout-shelter.js";
 import { GUIDE as fallenEnchantressLegendaryHeroesAchievementGuide } from "./games/fallen-enchantress-legendary-heroes.js";
 import { GUIDE as doorKickersAchievementGuide } from "./games/door-kickers.js";
+import { GUIDE as sidMeiersStarshipsAchievementGuide } from "./games/sid-meiers-starships.js";
+import { GUIDE as settlementSurvivalAchievementGuide } from "./games/settlement-survival.js";
+import { GUIDE as quakeLiveAchievementGuide } from "./games/quake-live.js";
 
 export const APP_GUIDES = [
 
@@ -1204,7 +1207,10 @@ export const GAME_GUIDES = [
     beatHazardAchievementGuide,
     falloutShelterAchievementGuide,
     fallenEnchantressLegendaryHeroesAchievementGuide,
-    doorKickersAchievementGuide
+    doorKickersAchievementGuide,
+    sidMeiersStarshipsAchievementGuide,
+    settlementSurvivalAchievementGuide,
+    quakeLiveAchievementGuide
 
 ];
 
