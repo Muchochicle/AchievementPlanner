@@ -746,6 +746,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("marvels-spider-man-2"));
     assert.ok(slugs.includes("red-dead-redemption"));
     assert.ok(slugs.includes("hunt-showdown-1896"));
+    assert.ok(slugs.includes("the-last-of-us-part-i"));
+    assert.ok(slugs.includes("grand-theft-auto-san-andreas-the-definitive-edition"));
+    assert.ok(slugs.includes("marvel-s-spider-man-miles-morales"));
 
 });
 
