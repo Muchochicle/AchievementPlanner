@@ -606,6 +606,9 @@ import { GUIDE as snowTheUltimateEditionAchievementGuide } from "./games/snow-th
 import { GUIDE as dinoDDayAchievementGuide } from "./games/dino-d-day.js";
 import { GUIDE as melodysEscapeAchievementGuide } from "./games/melodys-escape.js";
 import { GUIDE as planetExplorersAchievementGuide } from "./games/planet-explorers.js";
+import { GUIDE as ageOfMythologyExtendedEditionAchievementGuide } from "./games/age-of-mythology-extended-edition.js";
+import { GUIDE as theSwapperAchievementGuide } from "./games/the-swapper.js";
+import { GUIDE as fateAchievementGuide } from "./games/fate.js";
 
 export const APP_GUIDES = [
 
@@ -1234,7 +1237,10 @@ export const GAME_GUIDES = [
     snowTheUltimateEditionAchievementGuide,
     dinoDDayAchievementGuide,
     melodysEscapeAchievementGuide,
-    planetExplorersAchievementGuide
+    planetExplorersAchievementGuide,
+    ageOfMythologyExtendedEditionAchievementGuide,
+    theSwapperAchievementGuide,
+    fateAchievementGuide
 
 ];
 

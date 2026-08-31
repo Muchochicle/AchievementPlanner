@@ -1,0 +1,654 @@
+{
+    "id": 266840,
+    "steamAppId": 266840,
+    "name": "Age of Mythology: Extended Edition",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/266840/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Strategy",
+        "Mythology",
+        "Base Building",
+        "Historical",
+        "Classic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "campaign_fall_of_the_trident_complete",
+            "name": "Ruler of the Trident",
+            "description": "Complete the Fall of the Trident campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "campaign_the_new_atlantis_complete",
+            "name": "Ruler of Atlantis",
+            "description": "Complete the New Atlantis campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "campaign_the_golden_gift_complete",
+            "name": "Ruler of Gold",
+            "description": "Complete the Golden Gift campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "campaign_learn_to_play_complete",
+            "name": "Ruler of Knowledge",
+            "description": "Complete the Learn to Play campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "supremacy_games_played",
+            "name": "Supremacy Certified",
+            "description": "Play 100 Supremacy games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "conquest_games_played",
+            "name": "Conquest Certified",
+            "description": "Play 100 Conquest games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "lightning_games_played",
+            "name": "Lightning Certified",
+            "description": "Play 100 Lightning games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "deathmatch_games_played",
+            "name": "Deathmatch Certified",
+            "description": "Play 100 Deathmatch games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "treaty_games_played",
+            "name": "Treaty Certified",
+            "description": "Play 100 Treaty games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "supremacy_games_won",
+            "name": "Master of Supremacy",
+            "description": "Be victorious in 10 Supremacy games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "conquest_games_won",
+            "name": "Master of Conquest",
+            "description": "Be victorious in 10 Conquest games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "lightning_games_won",
+            "name": "Master of Lightning",
+            "description": "Be victorious in 10 Lightning games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "deathmatch_games_won",
+            "name": "Master of Deathmatch",
+            "description": "Be victorious in 10 Deathmatch games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "treaty_games_won",
+            "name": "Master of Treaty",
+            "description": "Be victorious in 10 Treaty games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "victories_with_zeus",
+            "name": "Commander of Zeus",
+            "description": "Lead Zeus to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "victories_with_hades",
+            "name": "Commander of Hades",
+            "description": "Lead Hades to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "victories_with_poseidon",
+            "name": "Commander of Poseidon",
+            "description": "Lead Poseidon to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "victories_with_ra",
+            "name": "Commander of Ra",
+            "description": "Lead Ra to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "victories_with_isis",
+            "name": "Commander of Isis",
+            "description": "Lead Isis to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "victories_with_set",
+            "name": "Commander of Set",
+            "description": "Lead Set to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "victories_with_thor",
+            "name": "Commander of Thor",
+            "description": "Lead Thor to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "victories_with_odin",
+            "name": "Commander of Odin",
+            "description": "Lead Odin to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "victories_with_loki",
+            "name": "Commander of Loki",
+            "description": "Lead Loki to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "victories_with_kronos",
+            "name": "Commander of Kronos",
+            "description": "Lead Kronos to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "victories_with_oranos",
+            "name": "Commander of Oranos",
+            "description": "Lead Oranos to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "victories_with_gaia",
+            "name": "Commander of Gaia",
+            "description": "Lead Gaia to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "victories_over_zeus",
+            "name": "Foe of Zeus",
+            "description": "Defeat Zeus 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "victories_over_hades",
+            "name": "Foe of Hades",
+            "description": "Defeat Hades 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "victories_over_poseidon",
+            "name": "Foe of Poseidon",
+            "description": "Defeat Poseidon 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "victories_over_ra",
+            "name": "Foe of Ra",
+            "description": "Defeat Ra 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "victories_over_isis",
+            "name": "Foe of Isis",
+            "description": "Defeat Isis 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "victories_over_set",
+            "name": "Foe of Set",
+            "description": "Defeat Set 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "victories_over_thor",
+            "name": "Foe of Thor",
+            "description": "Defeat Thor 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "victories_over_odin",
+            "name": "Foe of Odin",
+            "description": "Defeat Odin 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "victories_over_loki",
+            "name": "Foe of Loki",
+            "description": "Defeat Loki 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "victories_over_kronos",
+            "name": "Foe of Kronos",
+            "description": "Defeat Kronos 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "victories_over_oranos",
+            "name": "Foe of Oranos",
+            "description": "Defeat Oranos 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "victories_over_gaia",
+            "name": "Foe of Gaia",
+            "description": "Defeat Gaia 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "mp_hosted_games",
+            "name": "Leader of the Fearless",
+            "description": "Host 25 multiplayer games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "mp_quickmatch_games",
+            "name": "One Among the Eager",
+            "description": "Play 50 quickmatch games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "mp_victories",
+            "name": "Champion of the Community",
+            "description": "Be victorious in 100 online games",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "mp_games",
+            "name": "One Among the Flock",
+            "description": "Play 1000 online games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "random_maps_played",
+            "name": "Aimless Wonderer",
+            "description": "Play 100 random map games",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "units_lost",
+            "name": "Remember the Fallen",
+            "description": "Lose 5000 units in battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "units_killed",
+            "name": "Annihilation",
+            "description": "Kill 10000 units in battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "buildings_lost",
+            "name": "Time to Rebuild",
+            "description": "Lose 1000 buildings in battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "buildings_razed",
+            "name": "Demolition",
+            "description": "Destroy 2000 buildings in battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "wonders_built",
+            "name": "Creating a Masterpiece",
+            "description": "Complete 10 Wonders",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "titans_built",
+            "name": "Horror Unleashed",
+            "description": "Complete 25 Titans",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "fortresses_built",
+            "name": "Stone and Steel",
+            "description": "Complete 100 Fortress type buildings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "sp_vs_ai_victories",
+            "name": "Eradicator of the Machine",
+            "description": "Be victorious against 100 AI opponents",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "sp_1_vs_1_ai",
+            "name": "Defeat the Soldier",
+            "description": "Defeat 1 AI opponent single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "sp_1_vs_2_ai",
+            "name": "Defeat the Squad",
+            "description": "Defeat 2 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "sp_1_vs_3_ai",
+            "name": "Defeat the Troop",
+            "description": "Defeat 3 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "sp_1_vs_4_ai",
+            "name": "Defeat the Platoon",
+            "description": "Defeat 4 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "sp_1_vs_5_ai",
+            "name": "Defeat the Company",
+            "description": "Defeat 5 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "sp_1_vs_6_ai",
+            "name": "Defeat the Battalion",
+            "description": "Defeat 6 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "sp_1_vs_7_ai",
+            "name": "Defeat the Regiment",
+            "description": "Defeat 7 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "sp_1_vs_8_ai",
+            "name": "Defeat the Brigade",
+            "description": "Defeat 8 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "sp_1_vs_9_ai",
+            "name": "Defeat the Division",
+            "description": "Defeat 9 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "sp_1_vs_10_ai",
+            "name": "Defeat the Army",
+            "description": "Defeat 10 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "sp_1_vs_11_ai",
+            "name": "Defeat the Horde",
+            "description": "Defeat 11 AI opponents single handedly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "alpaca_hour",
+            "name": "Hour of Alpacas",
+            "description": "Play any game (a single-player skirmish vs the AI counts) while the developer-run 'Alpaca Hour' event is active - it runs at random intervals and is announced on the official Age of Empires Twitch and social channels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "victories_with_fuxi",
+            "name": "Commander of Fu Xi",
+            "description": "Lead Fu Xi to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "victories_with_nuwa",
+            "name": "Commander of Nü Wa",
+            "description": "Lead Nü Wa to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "victories_with_shennong",
+            "name": "Commander of Shennong",
+            "description": "Lead Shennong to victory 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "victories_over_fuxi",
+            "name": "Foe of Fu Xi",
+            "description": "Defeat Fu Xi 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "victories_over_nuwa",
+            "name": "Foe of Nü Wa",
+            "description": "Defeat Nü Wa 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "victories_over_shennong",
+            "name": "Foe of Shennong",
+            "description": "Defeat Shennong 10 times!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ruler_of_dragons",
+            "name": "Ruler of Dragons",
+            "description": "Complete the Tale of the Dragon campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

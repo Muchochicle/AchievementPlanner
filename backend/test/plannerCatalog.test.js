@@ -630,6 +630,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dino-d-day"));
     assert.ok(slugs.includes("melodys-escape"));
     assert.ok(slugs.includes("planet-explorers"));
+    assert.ok(slugs.includes("age-of-mythology-extended-edition"));
+    assert.ok(slugs.includes("the-swapper"));
+    assert.ok(slugs.includes("fate"));
 
 });
 
