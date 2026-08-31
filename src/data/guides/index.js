@@ -623,6 +623,9 @@ import { GUIDE as middleEarthShadowOfWarAchievementGuide } from "./games/middle-
 import { GUIDE as styxMasterOfShadowsAchievementGuide } from "./games/styx-master-of-shadows.js";
 import { GUIDE as justCause2MultiplayerModAchievementGuide } from "./games/just-cause-2-multiplayer-mod.js";
 import { GUIDE as sonicAdventureDxAchievementGuide } from "./games/sonic-adventure-dx.js";
+import { GUIDE as vvvvvvAchievementGuide } from "./games/vvvvvv.js";
+import { GUIDE as zenoClashAchievementGuide } from "./games/zeno-clash.js";
+import { GUIDE as nightskyAchievementGuide } from "./games/nightsky.js";
 
 export const APP_GUIDES = [
 
@@ -1268,7 +1271,10 @@ export const GAME_GUIDES = [
     middleEarthShadowOfWarAchievementGuide,
     styxMasterOfShadowsAchievementGuide,
     justCause2MultiplayerModAchievementGuide,
-    sonicAdventureDxAchievementGuide
+    sonicAdventureDxAchievementGuide,
+    vvvvvvAchievementGuide,
+    zenoClashAchievementGuide,
+    nightskyAchievementGuide
 
 ];
 

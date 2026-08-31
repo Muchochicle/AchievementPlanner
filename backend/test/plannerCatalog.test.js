@@ -647,6 +647,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("styx-master-of-shadows"));
     assert.ok(slugs.includes("just-cause-2-multiplayer-mod"));
     assert.ok(slugs.includes("sonic-adventure-dx"));
+    assert.ok(slugs.includes("vvvvvv"));
+    assert.ok(slugs.includes("zeno-clash"));
+    assert.ok(slugs.includes("nightsky"));
 
 });
 
