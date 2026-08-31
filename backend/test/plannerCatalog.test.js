@@ -674,6 +674,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("football-manager-2023"));
     assert.ok(slugs.includes("motorsport-manager"));
     assert.ok(slugs.includes("hotshot-racing"));
+    assert.ok(slugs.includes("thief"));
+    assert.ok(slugs.includes("dishonored-2"));
+    assert.ok(slugs.includes("shadow-warrior-2"));
 
 });
 

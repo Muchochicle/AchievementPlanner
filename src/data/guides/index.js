@@ -650,6 +650,9 @@ import { GUIDE as discstormAchievementGuide } from "./games/discstorm.js";
 import { GUIDE as footballManager2023AchievementGuide } from "./games/football-manager-2023.js";
 import { GUIDE as motorsportManagerAchievementGuide } from "./games/motorsport-manager.js";
 import { GUIDE as hotshotRacingAchievementGuide } from "./games/hotshot-racing.js";
+import { GUIDE as thiefAchievementGuide } from "./games/thief.js";
+import { GUIDE as dishonored2AchievementGuide } from "./games/dishonored-2.js";
+import { GUIDE as shadowWarrior2AchievementGuide } from "./games/shadow-warrior-2.js";
 
 export const APP_GUIDES = [
 
@@ -1322,7 +1325,10 @@ export const GAME_GUIDES = [
     discstormAchievementGuide,
     footballManager2023AchievementGuide,
     motorsportManagerAchievementGuide,
-    hotshotRacingAchievementGuide
+    hotshotRacingAchievementGuide,
+    thiefAchievementGuide,
+    dishonored2AchievementGuide,
+    shadowWarrior2AchievementGuide
 
 ];
 
