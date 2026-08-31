@@ -659,6 +659,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-escapists-2"));
     assert.ok(slugs.includes("hand-of-fate"));
     assert.ok(slugs.includes("60-seconds"));
+    assert.ok(slugs.includes("orcs-must-die"));
+    assert.ok(slugs.includes("orcs-must-die-3"));
+    assert.ok(slugs.includes("mordhau"));
 
 });
 

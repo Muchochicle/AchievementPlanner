@@ -635,6 +635,9 @@ import { GUIDE as momodoraReverieUnderTheMoonlightAchievementGuide } from "./gam
 import { GUIDE as theEscapists2AchievementGuide } from "./games/the-escapists-2.js";
 import { GUIDE as handOfFateAchievementGuide } from "./games/hand-of-fate.js";
 import { GUIDE as sixtySecondsAchievementGuide } from "./games/60-seconds.js";
+import { GUIDE as orcsMustDieAchievementGuide } from "./games/orcs-must-die.js";
+import { GUIDE as orcsMustDie3AchievementGuide } from "./games/orcs-must-die-3.js";
+import { GUIDE as mordhauAchievementGuide } from "./games/mordhau.js";
 
 export const APP_GUIDES = [
 
@@ -1292,7 +1295,10 @@ export const GAME_GUIDES = [
     momodoraReverieUnderTheMoonlightAchievementGuide,
     theEscapists2AchievementGuide,
     handOfFateAchievementGuide,
-    sixtySecondsAchievementGuide
+    sixtySecondsAchievementGuide,
+    orcsMustDieAchievementGuide,
+    orcsMustDie3AchievementGuide,
+    mordhauAchievementGuide
 
 ];
 
