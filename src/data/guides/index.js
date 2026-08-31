@@ -555,6 +555,9 @@ import { GUIDE as justCause3AchievementGuide } from "./games/just-cause-3.js";
 import { GUIDE as batmanArkhamOriginsAchievementGuide } from "./games/batman-arkham-origins.js";
 import { GUIDE as xcom2AchievementGuide } from "./games/xcom-2.js";
 import { GUIDE as borderlandsGameOfTheYearAchievementGuide } from "./games/borderlands-game-of-the-year.js";
+import { GUIDE as assassinsCreed3AchievementGuide } from "./games/assassins-creed-3.js";
+import { GUIDE as assassinsCreedRogueAchievementGuide } from "./games/assassins-creed-rogue.js";
+import { GUIDE as assassinsCreedRevelationsAchievementGuide } from "./games/assassins-creed-revelations.js";
 
 export const APP_GUIDES = [
 
@@ -1132,7 +1135,10 @@ export const GAME_GUIDES = [
     justCause3AchievementGuide,
     batmanArkhamOriginsAchievementGuide,
     xcom2AchievementGuide,
-    borderlandsGameOfTheYearAchievementGuide
+    borderlandsGameOfTheYearAchievementGuide,
+    assassinsCreed3AchievementGuide,
+    assassinsCreedRogueAchievementGuide,
+    assassinsCreedRevelationsAchievementGuide
 
 ];
 

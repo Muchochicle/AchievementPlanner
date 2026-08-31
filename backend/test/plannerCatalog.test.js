@@ -579,6 +579,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("batman-arkham-origins"));
     assert.ok(slugs.includes("xcom-2"));
     assert.ok(slugs.includes("borderlands-game-of-the-year"));
+    assert.ok(slugs.includes("assassins-creed-3"));
+    assert.ok(slugs.includes("assassins-creed-rogue"));
+    assert.ok(slugs.includes("assassins-creed-revelations"));
 
 });
 
