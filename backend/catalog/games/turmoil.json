@@ -1,0 +1,375 @@
+{
+    "id": 361280,
+    "steamAppId": 361280,
+    "name": "Turmoil",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/361280/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Strategy",
+        "Economy",
+        "Management",
+        "Indie",
+        "Casual"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_level_profit_50000",
+            "name": "Serious Money",
+            "description": "Earn a profit of more than $50,000 in a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ach_level_profit_100000",
+            "name": "The Big Haul",
+            "description": "Earn a profit of more than $100,000 in a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ach_money_1000000",
+            "name": "Millionaire",
+            "description": "Have more than one million in your bank account",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ach_campaign_won_normal",
+            "name": "Cake!",
+            "description": "Beat the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ach_campaign_won_expert",
+            "name": "Expert",
+            "description": "Beat the campaign in expert mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ach_campaign_won_money_1000000",
+            "name": "Filthy Rich",
+            "description": "Beat the campaign and have more than one million in your bank account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ach_campaign_won_stocks_99",
+            "name": "Mayor Shareholder",
+            "description": "Own all the shares.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ach_campaign_won_money_1000000_stocks_99",
+            "name": "Oil Tycoon",
+            "description": "Own all the shares and have one million in your bank account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ach_bonus_oil_depleted",
+            "name": "Empty Milkshake",
+            "description": "Get all the oil in a level above ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ach_oilprice_200",
+            "name": "Good Deal",
+            "description": "Boost the oil price above $2.00.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ach_oilprice_250",
+            "name": "Great Deal",
+            "description": "Boost the oil price above $2.50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ach_oil_sold_below_25",
+            "name": "Dubious Deal",
+            "description": "Sell oil at a price below $0.25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ach_upgrades_factory_all",
+            "name": "Factory Man",
+            "description": "Buy all the factory upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ach_upgrades_workshop_all",
+            "name": "Workshopper",
+            "description": "Buy all the workshop upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ach_upgrades_stable_all",
+            "name": "Stablelized",
+            "description": "Buy all the stable upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ach_diamond_pickup",
+            "name": "Shiny",
+            "description": "Get a diamond.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ach_mayorstips_bought_all",
+            "name": "Tip Top",
+            "description": "Read all the Mayor's Tips.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ach_level_spillage_10000",
+            "name": "Big Spiller",
+            "description": "Get a spillage fine of over $10,000.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ach_auction_overbid",
+            "name": "Overbidder",
+            "description": "Overbid someone at the land auction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ach_auction_estateprice_10000",
+            "name": "Big Spender",
+            "description": "Pay $10,000 or more for a piece of land.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 21,
+            "apiname": "ach_level_profit_10000",
+            "name": "Promising",
+            "description": "Earn a profit of more than $10,000 in a single level.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 22,
+            "apiname": "ach_level_profit_25000",
+            "name": "Juicy",
+            "description": "Earn a profit of more than $25,000 in a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ach_oilprice_350",
+            "name": "Tree Fiddy",
+            "description": "Boost the oil price up to $3.50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ach_bird_shot",
+            "name": "Dove Hunt",
+            "description": "Practice shooting on the dove. (The Heat Is On)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ach_cat_talk",
+            "name": "Cat Whisperer",
+            "description": "Acquaint yourself with the village cat. (The Heat Is On)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ach_artefact_highprice",
+            "name": "As Good As It Gets",
+            "description": "Sell a treasure for $2,000 or more (The Heat Is On)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ach_artefacts_all",
+            "name": "Digging It",
+            "description": "Complete Anthony’s treasure collection. (The Heat Is On)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ach_level_convertandtriple",
+            "name": "Magmificent",
+            "description": "Convert an oil well to gas and triple its size. (The Heat Is On)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ach_upgrades_warehouse_all",
+            "name": "Methodical",
+            "description": "Buy all the shed upgrades. (The Heat Is On)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ach_campaign_won_dlc",
+            "name": "Taking the Heat",
+            "description": "Beat the The Heat Is On campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ach_campaign_won_dlcexpert",
+            "name": "On Fire",
+            "description": "Beat the The Heat Is On campaign in expert mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ach_campaign_won_du",
+            "name": "There's no more panic in this town",
+            "description": "Beat the Deeper Underground campaign (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ach_ruby_get",
+            "name": "Ruby ruby ruby ruby!",
+            "description": "Get a ruby (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ach_1000_deep",
+            "name": "Truly, Madly, Deeply",
+            "description": "Reach a depth of 1000 meters in Deep Mode (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ach_dice_win",
+            "name": "Know when to hold 'em",
+            "description": "Win a game of Dice Dice Dice (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ach_hard_boom",
+            "name": "Boom, boom, boom, boom!!",
+            "description": "Blow up hard rock with dynamite (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ach_water_research",
+            "name": "Chasing Waterfalls",
+            "description": "Do a water map research (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ach_refinery_boost",
+            "name": "Gasolina",
+            "description": "Boost a refinery (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ach_campaign_expertwon_du",
+            "name": "You're the Best",
+            "description": "Beat the Deeper Underground campaign in expert mode (Deeper Underground)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

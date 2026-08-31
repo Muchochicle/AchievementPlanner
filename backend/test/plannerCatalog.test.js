@@ -618,6 +618,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sid-meiers-starships"));
     assert.ok(slugs.includes("settlement-survival"));
     assert.ok(slugs.includes("quake-live"));
+    assert.ok(slugs.includes("star-wars-kotor-2"));
+    assert.ok(slugs.includes("turmoil"));
+    assert.ok(slugs.includes("hacknet"));
 
 });
 

@@ -594,6 +594,9 @@ import { GUIDE as doorKickersAchievementGuide } from "./games/door-kickers.js";
 import { GUIDE as sidMeiersStarshipsAchievementGuide } from "./games/sid-meiers-starships.js";
 import { GUIDE as settlementSurvivalAchievementGuide } from "./games/settlement-survival.js";
 import { GUIDE as quakeLiveAchievementGuide } from "./games/quake-live.js";
+import { GUIDE as starWarsKotor2AchievementGuide } from "./games/star-wars-kotor-2.js";
+import { GUIDE as turmoilAchievementGuide } from "./games/turmoil.js";
+import { GUIDE as hacknetAchievementGuide } from "./games/hacknet.js";
 
 export const APP_GUIDES = [
 
@@ -1210,7 +1213,10 @@ export const GAME_GUIDES = [
     doorKickersAchievementGuide,
     sidMeiersStarshipsAchievementGuide,
     settlementSurvivalAchievementGuide,
-    quakeLiveAchievementGuide
+    quakeLiveAchievementGuide,
+    starWarsKotor2AchievementGuide,
+    turmoilAchievementGuide,
+    hacknetAchievementGuide
 
 ];
 
