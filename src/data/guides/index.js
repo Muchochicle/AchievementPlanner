@@ -701,6 +701,9 @@ import { GUIDE as dukeNukemForeverAchievementGuide } from "./games/duke-nukem-fo
 import { GUIDE as sniperEliteV2RemasteredAchievementGuide } from "./games/sniper-elite-v2-remastered.js";
 import { GUIDE as riptideGp2AchievementGuide } from "./games/riptide-gp2.js";
 import { GUIDE as chasmAchievementGuide } from "./games/chasm.js";
+import { GUIDE as warnoAchievementGuide } from "./games/warno.js";
+import { GUIDE as ultimateGeneralCivilWarAchievementGuide } from "./games/ultimate-general-civil-war.js";
+import { GUIDE as fieldOfGloryIiAchievementGuide } from "./games/field-of-glory-ii.js";
 
 export const APP_GUIDES = [
 
@@ -1424,7 +1427,10 @@ export const GAME_GUIDES = [
     dukeNukemForeverAchievementGuide,
     sniperEliteV2RemasteredAchievementGuide,
     riptideGp2AchievementGuide,
-    chasmAchievementGuide
+    chasmAchievementGuide,
+    warnoAchievementGuide,
+    ultimateGeneralCivilWarAchievementGuide,
+    fieldOfGloryIiAchievementGuide
 
 ];
 

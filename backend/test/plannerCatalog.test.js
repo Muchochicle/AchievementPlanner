@@ -725,6 +725,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sniper-elite-v2-remastered"));
     assert.ok(slugs.includes("riptide-gp2"));
     assert.ok(slugs.includes("chasm"));
+    assert.ok(slugs.includes("warno"));
+    assert.ok(slugs.includes("ultimate-general-civil-war"));
+    assert.ok(slugs.includes("field-of-glory-ii"));
 
 });
 
