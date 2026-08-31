@@ -520,6 +520,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sins-of-a-solar-empire-rebellion"));
     assert.ok(slugs.includes("payday-the-heist"));
     assert.ok(slugs.includes("adventure-capitalist"));
+    assert.ok(slugs.includes("yu-gi-oh-master-duel"));
+    assert.ok(slugs.includes("yu-gi-oh-duel-links"));
+    assert.ok(slugs.includes("alien-swarm"));
 
 });
 

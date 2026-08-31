@@ -496,6 +496,9 @@ import { GUIDE as theBannerSagaAchievementGuide } from "./games/the-banner-saga.
 import { GUIDE as sinsOfASolarEmpireRebellionAchievementGuide } from "./games/sins-of-a-solar-empire-rebellion.js";
 import { GUIDE as paydayTheHeistAchievementGuide } from "./games/payday-the-heist.js";
 import { GUIDE as adventureCapitalistAchievementGuide } from "./games/adventure-capitalist.js";
+import { GUIDE as yuGiOhMasterDuelAchievementGuide } from "./games/yu-gi-oh-master-duel.js";
+import { GUIDE as yuGiOhDuelLinksAchievementGuide } from "./games/yu-gi-oh-duel-links.js";
+import { GUIDE as alienSwarmAchievementGuide } from "./games/alien-swarm.js";
 
 export const APP_GUIDES = [
 
@@ -1014,7 +1017,10 @@ export const GAME_GUIDES = [
     theBannerSagaAchievementGuide,
     sinsOfASolarEmpireRebellionAchievementGuide,
     paydayTheHeistAchievementGuide,
-    adventureCapitalistAchievementGuide
+    adventureCapitalistAchievementGuide,
+    yuGiOhMasterDuelAchievementGuide,
+    yuGiOhDuelLinksAchievementGuide,
+    alienSwarmAchievementGuide
 
 ];
 

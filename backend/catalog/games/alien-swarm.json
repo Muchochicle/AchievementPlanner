@@ -1,0 +1,618 @@
+{
+    "id": 630,
+    "steamAppId": 630,
+    "name": "Alien Swarm",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/630/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Top-Down Shooter",
+        "Free to Play",
+        "Aliens",
+        "Action",
+        "Twin Stick Shooter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ASW_KILL_WITHOUT_FRIENDLY_FIRE",
+            "name": "Clear Firing",
+            "description": "Kill 25 drones without friendly fire.  Four marines must be present in the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ASW_NO_FRIENDLY_FIRE",
+            "name": "Short Controlled Bursts",
+            "description": "Complete a mission with no friendly fire incidents.  Four marines must be present in the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ASW_SHIELDBUG",
+            "name": "Shield Down",
+            "description": "Deliver the finishing blow to a Swarm Shieldbug.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ASW_GRENADE_MULTI_KILL",
+            "name": "Blast Radius",
+            "description": "Kill 6 Swarm with a single Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ASW_ACCURACY",
+            "name": "Sharpshooter",
+            "description": "Complete a mission with better than 90% accuracy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ASW_NO_DAMAGE_TAKEN",
+            "name": "Perfect",
+            "description": "Complete a mission on Normal difficulty or harder without receiving any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ASW_EGGS_BEFORE_HATCH",
+            "name": "Scrambled Eggs",
+            "description": "Destroy all Swarm Eggs in a mission without allowing any to hatch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ASW_GRUB_KILLS",
+            "name": "Bug Stomper",
+            "description": "Kill 100 Swarm Grubs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ASW_MELEE_PARASITE",
+            "name": "Parasite Puncher",
+            "description": "Kill a Swarm Parasite with a melee attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ASW_MELEE_KILLS",
+            "name": "Close Encounters",
+            "description": "Kill 20 Swarm with melee attacks in a single mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ASW_BARREL_KILLS",
+            "name": "Smoking Barrels",
+            "description": "Kill 5 Swarm with explosive barrels in a single mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ASW_INFESTATION_CURING",
+            "name": "Infestation Savior",
+            "description": "Cure an Infested marine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ASW_FAST_WIRE_HACKS",
+            "name": "Circuit Breaker",
+            "description": "Complete 10 wire hacks without access being logged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ASW_FAST_COMPUTER_HACKS",
+            "name": "Security Expert",
+            "description": "Complete 10 computer hacks without access being logged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ASW_GROUP_HEAL",
+            "name": "Group Heal",
+            "description": "Heal all 4 marines with a single Heal Beacon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ASW_GROUP_DAMAGE_AMP",
+            "name": "Damage Amped",
+            "description": "Kill 15 Swarm with all four marines under the effects of a Damage Amp in a single mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ASW_FAST_RELOADS_IN_A_ROW",
+            "name": "Gunslinger",
+            "description": "Successfully perform 5 fast reloads in a row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ASW_FAST_RELOAD",
+            "name": "Quick Load",
+            "description": "Successfully perform a fast reload.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ASW_ALL_HEALING",
+            "name": "Peace Medic",
+            "description": "Heal 300 points of damage in a single mission without dealing any non-melee damage to the Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ASW_PROTECT_TECH",
+            "name": "Protect the Tech",
+            "description": "Guard the squad's tech so that he takes no damage during the hack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ASW_TECH_SURVIVES",
+            "name": "Technician Secured",
+            "description": "Finish a mission without the tech getting killed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ASW_STUN_GRENADE",
+            "name": "Electro-Stunned",
+            "description": "Stun 6 Swarm with a single Stun Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ASW_WELD_DOOR",
+            "name": "Seal of Quality",
+            "description": "Seal a door with the welder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ASW_DODGE_RANGER_SHOT",
+            "name": "Under the Gun",
+            "description": "Roll under a Swarm Ranger projectile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ASW_BOOMER_KILL_EARLY",
+            "name": "Quick and Dead",
+            "description": "Kill a Swarm Boomer before it inflates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ASW_FREEZE_GRENADE",
+            "name": "Stay Frosty",
+            "description": "Freeze 6 Swarm with a single Freeze Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ASW_AMMO_RESUPPLY",
+            "name": "Ammo Technician",
+            "description": "Deploy 10 ammo stashes that are used by other marines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ASW_SENTRY_GUN_KILLS",
+            "name": "Static Defender",
+            "description": "Kill 500 Swarm with deployable Sentry Guns.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ASW_RIFLE_KILLS",
+            "name": "Assault Specialist",
+            "description": "Kill 250 Swarm with the Assault Rifle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ASW_PRIFLE_KILLS",
+            "name": "Prototype Professional",
+            "description": "Kill 250 Swarm with a Prototype Rifle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "ASW_AUTOGUN_KILLS",
+            "name": "Autogun Expert",
+            "description": "Kill 250 Swarm with an Autogun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "ASW_SHOTGUN_KILLS",
+            "name": "Shotgun Specialist",
+            "description": "Kill 250 Swarm with a Shotgun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 33,
+            "apiname": "ASW_VINDICATOR_KILLS",
+            "name": "Vindicator Veteran",
+            "description": "Kill 250 Swarm with a Vindicator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "ASW_PISTOL_KILLS",
+            "name": "Pistols Expert",
+            "description": "Kill 250 Swarm with Twin Pistols.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "ASW_PDW_KILLS",
+            "name": "Small Arms Specialist",
+            "description": "Kill 250 Swarm with PDWs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "ASW_TESLA_GUN_KILLS",
+            "name": "High Voltage Expert",
+            "description": "Kill 250 Swarm with a Tesla Cannon.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "ASW_RAILGUN_KILLS",
+            "name": "Railgun Specialist",
+            "description": "Kill 250 Swarm with a Rail Rifle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ASW_FLAMER_KILLS",
+            "name": "Pyrotechnician",
+            "description": "Kill 250 Swarm with a Flamethrower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ASW_CHAINSAW_KILLS",
+            "name": "Slaughter Soldier",
+            "description": "Kill 250 Swarm with a Chainsaw.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "ASW_MINIGUN_KILLS",
+            "name": "Minigun Master",
+            "description": "Kill 250 Swarm with a Minigun.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 41,
+            "apiname": "ASW_SNIPER_RIFLE_KILLS",
+            "name": "Professional Marksman",
+            "description": "Kill 250 Swarm with a Marksman Rifle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ASW_GRENADE_LAUNCHER_KILLS",
+            "name": "Grenadier Expert",
+            "description": "Kill 250 Swarm with a Grenade Launcher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "ASW_HORNET_KILLS",
+            "name": "Hornet Barrage Expert",
+            "description": "Kill 100 Swarm with Hornet Barrages.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ASW_LASER_MINE_KILLS",
+            "name": "Tactical Explosives Expert",
+            "description": "Kill 100 Swarm with Laser Tripmines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ASW_MINE_KILLS",
+            "name": "Firewall Specialist",
+            "description": "Kill 100 Swarm with Incendiary Mines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ASW_UNLOCK_ALL_WEAPONS",
+            "name": "Armory Access",
+            "description": "Unlock all the available weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ASW_EASY_CAMPAIGN",
+            "name": "Easy Campaign",
+            "description": "Complete the Jacob's Rest campaign on Easy difficulty or harder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ASW_NORMAL_CAMPAIGN",
+            "name": "Normal Campaign",
+            "description": "Complete the Jacob's Rest campaign on Normal difficulty or harder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ASW_HARD_CAMPAIGN",
+            "name": "Hard Campaign",
+            "description": "Complete the Jacob's Rest campaign on Hard difficulty or harder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ASW_INSANE_CAMPAIGN",
+            "name": "Insane Campaign",
+            "description": "Awarded for finishing the Jacob campaign on Insane difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ASW_KILL_GRIND_1",
+            "name": "On the Ready Line",
+            "description": "Kill 1,000 Swarm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "ASW_KILL_GRIND_2",
+            "name": "Another Bughunt",
+            "description": "Kill 5,000 Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ASW_KILL_GRIND_3",
+            "name": "Kill Them All",
+            "description": "Kill 25,000 Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ASW_KILL_GRIND_4",
+            "name": "Nuke From Orbit",
+            "description": "Kill 100,000 Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ASW_SPEEDRUN_LANDING_BAY",
+            "name": "Landing Bay Speed Run",
+            "description": "Complete Landing Bay within 1:25 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ASW_SPEEDRUN_DESCENT",
+            "name": "Cargo Elevator Speed Run",
+            "description": "Complete Cargo Elevator within 2:50 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ASW_SPEEDRUN_DEIMA",
+            "name": "Deima Surface Bridge Speed Run",
+            "description": "Complete Deima Surface Bridge within 2:30 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ASW_SPEEDRUN_RYDBERG",
+            "name": "Rydberg Reactor Speed Run",
+            "description": "Complete Rydberg Reactor within 3:10 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ASW_SPEEDRUN_RESIDENTIAL",
+            "name": "SynTek Residential Speed Run",
+            "description": "Complete SynTek Residential within 2:30 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ASW_SPEEDRUN_SEWER",
+            "name": "Sewer Junction Speed Run",
+            "description": "Complete Sewer Junction within 1:30 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ASW_SPEEDRUN_TIMOR",
+            "name": "Timor Station Speed Run",
+            "description": "Complete Timor Station within 4:25 on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ASW_CAMPAIGN_NO_DEATHS",
+            "name": "Outstanding Execution",
+            "description": "Complete a campaign on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ASW_MISSION_NO_DEATHS",
+            "name": "Zero Mortality",
+            "description": "Complete a mission on Normal difficulty or harder without any marines dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ASW_PARA_HAT",
+            "name": "Hat Trick",
+            "description": "Complete 2 co-op missions online. Earns a Team Fortress 2 parasite hat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ASW_IMBA_CAMPAIGN",
+            "name": "Brutal Campaign",
+            "description": "Awarded for finishing the Jacob campaign on Brutal difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ASW_HARDCORE",
+            "name": "Hardcore",
+            "description": "Complete any mission on Brutal difficulty with Onslaught and Hardcore Friendly Fire enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
