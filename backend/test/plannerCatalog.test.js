@@ -529,6 +529,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sniper-elite-nazi-zombie-army"));
     assert.ok(slugs.includes("robocraft"));
     assert.ok(slugs.includes("order-of-battle-world-war-ii"));
+    assert.ok(slugs.includes("kingdom-classic"));
+    assert.ok(slugs.includes("orion-prelude"));
+    assert.ok(slugs.includes("airmech-strike"));
 
 });
 

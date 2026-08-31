@@ -505,6 +505,9 @@ import { GUIDE as killerIsDeadAchievementGuide } from "./games/killer-is-dead.js
 import { GUIDE as sniperEliteNaziZombieArmyAchievementGuide } from "./games/sniper-elite-nazi-zombie-army.js";
 import { GUIDE as robocraftAchievementGuide } from "./games/robocraft.js";
 import { GUIDE as orderOfBattleWorldWarIIAchievementGuide } from "./games/order-of-battle-world-war-ii.js";
+import { GUIDE as kingdomClassicAchievementGuide } from "./games/kingdom-classic.js";
+import { GUIDE as orionPreludeAchievementGuide } from "./games/orion-prelude.js";
+import { GUIDE as airmechStrikeAchievementGuide } from "./games/airmech-strike.js";
 
 export const APP_GUIDES = [
 
@@ -1032,7 +1035,10 @@ export const GAME_GUIDES = [
     killerIsDeadAchievementGuide,
     sniperEliteNaziZombieArmyAchievementGuide,
     robocraftAchievementGuide,
-    orderOfBattleWorldWarIIAchievementGuide
+    orderOfBattleWorldWarIIAchievementGuide,
+    kingdomClassicAchievementGuide,
+    orionPreludeAchievementGuide,
+    airmechStrikeAchievementGuide
 
 ];
 

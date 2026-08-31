@@ -1,0 +1,843 @@
+{
+    "id": 206500,
+    "steamAppId": 206500,
+    "name": "AirMech Strike",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/206500/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Free to Play",
+        "MOBA",
+        "RTS",
+        "Action",
+        "Multiplayer",
+        "Vehicular Combat"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "DoTutorial",
+            "name": "Getting Started",
+            "description": "Complete the Tutorial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Tutorial1",
+            "name": "Getting Started (part 2)",
+            "description": "Build 10 or more units in a single match, online or offline, win or lose.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "KillTanks10",
+            "name": "Destroy 10 Tanks",
+            "description": "Destroy 10 Tanks with your AirMech, in a single match; online or offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "KillTanks1000",
+            "name": "Destroy 1000 Tanks",
+            "description": "Destroy 1000 Tanks with your AirMech, over the lifetime of your account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "KillTanks20",
+            "name": "Destroy 20 Tanks",
+            "description": "Destroy 20 Tanks with your AirMech, in a single match; online or offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "KillTanks50",
+            "name": "Destroy 50 Tanks",
+            "description": "Destroy 50 Tanks with your AirMech, in a single match; online or offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "WinOnline",
+            "name": "Win online Match",
+            "description": "Be on the winning team in any match online!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "WinOnline2",
+            "name": "Win 10 online Matches",
+            "description": "Win 10 Online Matches",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Win1v2",
+            "name": "Win 1v2 Match",
+            "description": "Win a 1v2 Match against AIs on any map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Win1v3",
+            "name": "Win 1v3 Match",
+            "description": "Win a 1v3 Match against AIs on any map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Win1v3Fast",
+            "name": "Fast Win 1v3 Match",
+            "description": "Win a 1v3 Match against AIs on any map in under 10 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ReplDown1",
+            "name": "Replicators Down! (part 1)",
+            "description": "Win a Match on any map without building anything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ReplDown2",
+            "name": "Replicators Down! (part 2)",
+            "description": "Win a Match on any map in 1v2 mode without building anything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "CloseEncounter1",
+            "name": "Close Encounter (part 1)",
+            "description": "Abduct 10 Enemy units with the Saucer, on any map, win or lose.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "CloseEncounter2",
+            "name": "Close Encounter (part 2)",
+            "description": "Abduct 25 Enemy units with the Saucer, on any map, and win the match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Chopper1",
+            "name": "Helix Superiority (part 1)",
+            "description": "Use the air missiles on the Helix to destroy 5 or more enemy AirMechs in a single match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Chopper2",
+            "name": "Helix Superiority (part 2)",
+            "description": "Use the ground rockets on the Helix to destroy 30 or more enemy units in a single match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Bomber1",
+            "name": "Bomber Superiority (part 1)",
+            "description": "Use the Bomber AirMech to destroy 30 or more enemy units with the Bombs ability in a single match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Bomber2",
+            "name": "Bomber Superiority (part 2)",
+            "description": "Use the Bomber AirMech's melee attack to decimate 30 or more enemy units in a single match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Striker1",
+            "name": "Striker Superiority (part 1)",
+            "description": "Use the Striker AirMech's power sword melee attack to destroy 10 or more enemy units in a single match.  Online or Offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Striker2",
+            "name": "Striker Superiority (part 2)",
+            "description": "Use the Striker AirMech's power sword melee attack to destroy 15 or more enemy units and 2 or more enemy AirMechs in a single match.  Online or Offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Striker3",
+            "name": "Striker Superiority (part 3)",
+            "description": "Use the Striker AirMech's power sword melee attack to destroy 20 or more enemy units and 3 or more enemy AirMechs in a single Online match, and win.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Striker4",
+            "name": "Striker Samurai",
+            "description": "Use the Striker AirMech's power sword melee attack to destroy 1000 or more enemy units over the lifetime of your account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Osprey1",
+            "name": "Osprey Debut",
+            "description": "Use the Osprey AirMech to help win an Online Co-op match against AI.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Osprey2",
+            "name": "Osprey - Combat Support",
+            "description": "Use the Osprey AirMech to heal friendly units and AirMechs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "MineLayer",
+            "name": "Mine Layer (part 1)",
+            "description": "Use mines to destroy at least 15 enemy units in a match, and go on to win the match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "MineLayer2",
+            "name": "Mine Layer (part 2)",
+            "description": "Destroy 1000 enemy Units with Mines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "MineSwp",
+            "name": "Mine Sweeper (part 1)",
+            "description": "Deactivate 5 or more enemy mines in a single online match, and win.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "MineSwp2",
+            "name": "Mine Sweeper (part 2)",
+            "description": "Deactivate 50 or more enemy mines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "MineSwp3",
+            "name": "Mine Sweeper (part 3)",
+            "description": "Deactivate 200 or more enemy mines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "MaxLevel",
+            "name": "High Level",
+            "description": "Reach Level 10 in any AirMech in an online or offline game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "MaxLevel2",
+            "name": "Max Level",
+            "description": "Reach Level 15 in any AirMech in an online or offline game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Miser",
+            "name": "Miser",
+            "description": "Reach Level 10 in any AirMech in an online or offline game and win without spending any Ability points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "NoTanksWin",
+            "name": "A Win without Tanks",
+            "description": "Win a match, online or offline, without building any Tanks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "NoTurretsWin",
+            "name": "A Win without Turrets",
+            "description": "Win a match, online or offline, without building any Turrets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "NoTanksOrTurretsWin",
+            "name": "Replicators Failing!",
+            "description": "Win a match, online or offline, without building any Tanks or Turrets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "HandsClean",
+            "name": "My hands are clean...",
+            "description": "Win a match, online or offline, without destroying any Units with your AirMech.  Let your units do the dirty work!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "PvPer",
+            "name": "Gladiator",
+            "description": "Accumulate 100 Direct AirMech Kills online against human opponents.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Phalanx",
+            "name": "AirMech Phalanx",
+            "description": "Shoot down 500 enemy missiles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Creeps",
+            "name": "Destroy 1000 Creeps",
+            "description": "Destroy 1000 Creeps with your AirMech, over the lifetime of your account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Art1",
+            "name": "Death from Above",
+            "description": "Destroy 1000 Enemy Units with your Artillery, over the lifetime of your account.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "UseAM1",
+            "name": "Kicking Tires",
+            "description": "Use each of the AirMech types at least once in game; online or offline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "BldThr",
+            "name": "Blood Thirsty",
+            "description": "Destroy 3 Human piloted AirMechs in the first 3 minutes of an online match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "KillAA",
+            "name": "Can't Touch This",
+            "description": "Destroy 100 Anti-Air enemy units (HAAT and Seeker).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "TrtBrk",
+            "name": "Turret Breaker",
+            "description": "Destroy 200 enemy Turrets with Bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Bstr1",
+            "name": "Boosted",
+            "description": "Win a match, online or offline, using Boosters, all in Air mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Grinder1",
+            "name": "Mince Meat",
+            "description": "Get 300 unit kills using Gatties.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "KillMM",
+            "name": "Project Lehman",
+            "description": "Destroy 100 Money Makers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "MapCtrl1",
+            "name": "Map Control (part 1)",
+            "description": "Capture 3 neutral outposts in a single online game and win.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "MapCtrl2",
+            "name": "Map Control (part 2)",
+            "description": "Capture 50 neutral outposts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "MapCtrl3",
+            "name": "Map Control (part 3)",
+            "description": "Re-capture 250 enemy controlled outposts.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "FAtk1",
+            "name": "Fortress Assault (part 1)",
+            "description": "Inflict 500 damage on the Enemy Fort's shields with your AirMech in an online match and win.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "FAtk2",
+            "name": "Fortress Assault (part 2)",
+            "description": "Accumulate 10,000 damage inflicted on the armor of your enemies Fortresses.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 54,
+            "apiname": "NrvOfStl",
+            "name": "Nerves of Steel",
+            "description": "Accumulate 10 human piloted enemy AirMech kills each made while your own health is less than 5%.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "AMDmg1",
+            "name": "Damage Inc.",
+            "description": "Do 1,000,000 damage with your AirMech.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "CloseEncounter3",
+            "name": "Master Thief",
+            "description": "Abduct 200 Enemy units with the Saucer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Chopper3",
+            "name": "Hellfire",
+            "description": "Use the ground rockets on the Helix to destroy 500 enemy units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "KillTanks250",
+            "name": "Kill 250 Tanks",
+            "description": "Destroy 250 Tanks with your AirMech, over the lifetime of your account.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 59,
+            "apiname": "PLvl1",
+            "name": "Moving on Up",
+            "description": "Win an online match after reaching player level 10",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "PLvl2",
+            "name": "Going Pro",
+            "description": "Win an online match after reaching player level 20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "PLvl3",
+            "name": "King of the Mountain",
+            "description": "Win an online match after reaching player level 30",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "SeqWin1",
+            "name": "On a Roll",
+            "description": "Win 3 consecutive online matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "FDestroy1",
+            "name": "Rock you like a Hurricane!",
+            "description": "Win an online game where 100% of the enemy's base health is taken within 1 minute before being destroyed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "Int1",
+            "name": "Interceptor",
+            "description": "Accumulate 20 human piloted enemy AirMech kills, each made while the enemy is carrying a unit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "FinishHim1",
+            "name": "Finish Him!",
+            "description": "Make the killing blow on the enemy fort with your AirMech in an online game, 5 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "InfOnly",
+            "name": "Called to Duty",
+            "description": "Win a match using only infantry units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "Skin1",
+            "name": "New Pair of Shoes",
+            "description": "Win in an online match using a custom skin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "Skin2",
+            "name": "Costume Quest",
+            "description": "Win in a 3v3 PVP with all teammates using different custom skins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "Skin3",
+            "name": "Masquerade Ball",
+            "description": "Win in a 3v3 PVP with all players using different custom skins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "Val1",
+            "name": "Valedictorian",
+            "description": "Win in a 3v3 online game at least 3 levels above anyone else.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "Warthog1",
+            "name": "Tank Killer",
+            "description": "Destroy 10 Tanks from the Air with the Warthog AirMech",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "Warthog2",
+            "name": "Creep Killer",
+            "description": "Destroy 50 Creeps from the Air with the Warthog AirMech",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "Warthog3",
+            "name": "Guns Blazin'",
+            "description": "Destroy 10 enemy AirMechs in ground form from your airborn Warthog.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "Warthog4",
+            "name": "From Below",
+            "description": "Destroy 10 enemy AirMechs in air form from your grounded Warthog.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "MMP1",
+            "name": "Let's do this",
+            "description": "Complete 10 matched games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "MMP2",
+            "name": "Coming back for more!",
+            "description": "Complete 100 matched games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "MMW1",
+            "name": "Match made in heaven",
+            "description": "Win 20 matched games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "MMW2",
+            "name": "Serious Competitor",
+            "description": "Win 200 matched games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "Cake1",
+            "name": "So good!",
+            "description": "Share 28 cakes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "Cake2",
+            "name": "Can't stop eating!",
+            "description": "Share 496 cakes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "HSpirit1",
+            "name": "I put on my robe and Santa hat.",
+            "description": "Win in an online match with a total Team Holiday Spirit of 100% or greater.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 82,
+            "apiname": "HSpirit2",
+            "name": "Deck the halls!",
+            "description": "Win in an online match with a total Team Holiday Spirit of 250% or greater.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "HSpirit3",
+            "name": "FA LA LA LA LA, LA LA LA LA!",
+            "description": "Win in an online match with a total Team Holiday Spirit of 500% or greater.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "Style1",
+            "name": "Functional and Stylish",
+            "description": "Win in an online match with a total Team Style of 100% or greater.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 85,
+            "apiname": "Style2",
+            "name": "20% Cooler",
+            "description": "Win in an online match with a total Team Style of 250% or greater.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "Style3",
+            "name": "Do a barrel roll!",
+            "description": "Win in an online match with a total Team Style of 500% or greater.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "Faction1",
+            "name": "United in Combat",
+            "description": "Join or create a Faction",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "PPlay2",
+            "name": "Power Play +2",
+            "description": "In a 2v2 Matchmade game, be in a position where all enemy AirMechs are destroyed while your teams is full force.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "Chal10",
+            "name": "Challenger: 12 Stars",
+            "description": "Accumulate 12 Stars in the Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "Chal25",
+            "name": "Challenger: 24 Stars",
+            "description": "Accumulate 24 Stars in the Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "Chal45",
+            "name": "Challenger: 36 Stars",
+            "description": "Accumulate 36 Stars in the Challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
