@@ -621,6 +621,8 @@ import { GUIDE as oceanhornMonsterOfUnchartedSeasAchievementGuide } from "./game
 import { GUIDE as mountainAchievementGuide } from "./games/mountain.js";
 import { GUIDE as middleEarthShadowOfWarAchievementGuide } from "./games/middle-earth-shadow-of-war.js";
 import { GUIDE as styxMasterOfShadowsAchievementGuide } from "./games/styx-master-of-shadows.js";
+import { GUIDE as justCause2MultiplayerModAchievementGuide } from "./games/just-cause-2-multiplayer-mod.js";
+import { GUIDE as sonicAdventureDxAchievementGuide } from "./games/sonic-adventure-dx.js";
 
 export const APP_GUIDES = [
 
@@ -1264,7 +1266,9 @@ export const GAME_GUIDES = [
     oceanhornMonsterOfUnchartedSeasAchievementGuide,
     mountainAchievementGuide,
     middleEarthShadowOfWarAchievementGuide,
-    styxMasterOfShadowsAchievementGuide
+    styxMasterOfShadowsAchievementGuide,
+    justCause2MultiplayerModAchievementGuide,
+    sonicAdventureDxAchievementGuide
 
 ];
 

@@ -645,6 +645,8 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mountain"));
     assert.ok(slugs.includes("middle-earth-shadow-of-war"));
     assert.ok(slugs.includes("styx-master-of-shadows"));
+    assert.ok(slugs.includes("just-cause-2-multiplayer-mod"));
+    assert.ok(slugs.includes("sonic-adventure-dx"));
 
 });
 
