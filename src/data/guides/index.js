@@ -582,6 +582,9 @@ import { GUIDE as battlebornAchievementGuide } from "./games/battleborn.js";
 import { GUIDE as metro2033AchievementGuide } from "./games/metro-2033.js";
 import { GUIDE as duskAchievementGuide } from "./games/dusk.js";
 import { GUIDE as seriousSam2AchievementGuide } from "./games/serious-sam-2.js";
+import { GUIDE as microsoftFlightSimulator2020AchievementGuide } from "./games/microsoft-flight-simulator-2020.js";
+import { GUIDE as deadlyPremonitionDirectorsCutAchievementGuide } from "./games/deadly-premonition-directors-cut.js";
+import { GUIDE as hyperdimensionNeptuniaRebirth1AchievementGuide } from "./games/hyperdimension-neptunia-rebirth1.js";
 
 export const APP_GUIDES = [
 
@@ -1186,7 +1189,10 @@ export const GAME_GUIDES = [
     battlebornAchievementGuide,
     metro2033AchievementGuide,
     duskAchievementGuide,
-    seriousSam2AchievementGuide
+    seriousSam2AchievementGuide,
+    microsoftFlightSimulator2020AchievementGuide,
+    deadlyPremonitionDirectorsCutAchievementGuide,
+    hyperdimensionNeptuniaRebirth1AchievementGuide
 
 ];
 

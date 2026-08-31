@@ -606,6 +606,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("metro-2033"));
     assert.ok(slugs.includes("dusk"));
     assert.ok(slugs.includes("serious-sam-2"));
+    assert.ok(slugs.includes("microsoft-flight-simulator-2020"));
+    assert.ok(slugs.includes("deadly-premonition-directors-cut"));
+    assert.ok(slugs.includes("hyperdimension-neptunia-rebirth1"));
 
 });
 
