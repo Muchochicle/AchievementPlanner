@@ -716,6 +716,9 @@ import { GUIDE as scheduleIAchievementGuide } from "./games/schedule-i.js";
 import { GUIDE as theLastOfUsPartIiRemasteredAchievementGuide } from "./games/the-last-of-us-part-ii-remastered.js";
 import { GUIDE as theFinalsAchievementGuide } from "./games/the-finals.js";
 import { GUIDE as monsterHunterWildsAchievementGuide } from "./games/monster-hunter-wilds.js";
+import { GUIDE as diabloIvAchievementGuide } from "./games/diablo-iv.js";
+import { GUIDE as metaphorRefantazioAchievementGuide } from "./games/metaphor-refantazio.js";
+import { GUIDE as starWarsJediFallenOrderAchievementGuide } from "./games/star-wars-jedi-fallen-order.js";
 
 export const APP_GUIDES = [
 
@@ -1454,7 +1457,10 @@ export const GAME_GUIDES = [
     scheduleIAchievementGuide,
     theLastOfUsPartIiRemasteredAchievementGuide,
     theFinalsAchievementGuide,
-    monsterHunterWildsAchievementGuide
+    monsterHunterWildsAchievementGuide,
+    diabloIvAchievementGuide,
+    metaphorRefantazioAchievementGuide,
+    starWarsJediFallenOrderAchievementGuide
 
 ];
 

@@ -740,6 +740,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-last-of-us-part-ii-remastered"));
     assert.ok(slugs.includes("the-finals"));
     assert.ok(slugs.includes("monster-hunter-wilds"));
+    assert.ok(slugs.includes("diablo-iv"));
+    assert.ok(slugs.includes("metaphor-refantazio"));
+    assert.ok(slugs.includes("star-wars-jedi-fallen-order"));
 
 });
 
