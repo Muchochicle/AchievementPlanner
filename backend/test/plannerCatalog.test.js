@@ -719,6 +719,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("grip-combat-racing"));
     assert.ok(slugs.includes("bus-simulator-18"));
     assert.ok(slugs.includes("distance"));
+    assert.ok(slugs.includes("destiny-2"));
+    assert.ok(slugs.includes("crysis-remastered"));
+    assert.ok(slugs.includes("duke-nukem-forever"));
 
 });
 

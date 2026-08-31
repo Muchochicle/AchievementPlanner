@@ -1,0 +1,582 @@
+{
+    "id": 57900,
+    "steamAppId": 57900,
+    "name": "Duke Nukem Forever",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/57900/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": true,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Action",
+        "Comedy",
+        "Mature",
+        "Aliens",
+        "Classic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_SomeKills",
+            "name": "Extermination",
+            "description": "Kill 50 aliens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_MoreKills",
+            "name": "Annihilation",
+            "description": "Kill 100 aliens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_ManyKills",
+            "name": "Nuclear Devastation",
+            "description": "Kill 250 aliens",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_StompKills",
+            "name": "Hippy-Stomper",
+            "description": "Foot stomp 12 aliens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_Executions",
+            "name": "Judge, Jury, Executioner",
+            "description": "Execute 20 aliens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_TripMineKills",
+            "name": "Trapper",
+            "description": "Kill 10 aliens with Trip Mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_FrozenKills",
+            "name": "Freeze Well!",
+            "description": "Kill 15 frozen aliens",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_MonsterTruckKills",
+            "name": "Road Rage",
+            "description": "Kill 15 aliens with the monster truck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_ForkliftKills",
+            "name": "Fork the Pork",
+            "description": "Kill 6 aliens with the forklift",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_ExplosiveKills",
+            "name": "Dead Useful",
+            "description": "Kill 10 aliens with environmental explosives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_PhysicsImpactKills",
+            "name": "Tosser... in the Literal Sense",
+            "description": "Kill 10 aliens with tossed objects",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_SteroidKills",
+            "name": "Duke Angry, Duke Smash!",
+            "description": "Kill 15 aliens with melee attacks while on steroids",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_FoodEaten",
+            "name": "Noms",
+            "description": "Eat 10 pieces of food during the SP campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_HeadShotKills",
+            "name": "On the Noggin'",
+            "description": "Kill 30 aliens with headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_SubstanceAbuse",
+            "name": "Substance Abuser",
+            "description": "Drink beer while on steroids or vice-versa in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_TripleKill",
+            "name": "Natural Disaster 3x",
+            "description": "Kill 3 aliens at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_KnockedDown",
+            "name": "Full Body Tourettes",
+            "description": "Get knocked down 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_PooGrabbed",
+            "name": "Turd Burglar",
+            "description": "Find and steal a piece of poo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_JizzedOn",
+            "name": "I Need a Towel",
+            "description": "Get hit by 10 Pregnator bombs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_AlienFighterKills",
+            "name": "Baron von Nukem",
+            "description": "Shoot down 20 alien fighters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_CalendarFullyViewed",
+            "name": "I Need a Date",
+            "description": "Look at every page of a calendar in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_TripmineStuck",
+            "name": "Sticky Bomb Like You!",
+            "description": "Put a Trip Mine on a live alien",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_GunskipKill",
+            "name": "Big Guns, Big Ships",
+            "description": "Blow up 5 enemy gunships or dropships",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_AirHockeyWon",
+            "name": "Air-Duke",
+            "description": "Win air hockey with a score of 7-0 in the strip club",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_PinballScore",
+            "name": "Balls of Steel",
+            "description": "Earn a 1,000,000 pinball score in SP",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_BeerImbibed",
+            "name": "Flagon of Chuckles",
+            "description": "Drink a beer in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SteroidsEaten",
+            "name": "Juiced",
+            "description": "Take steroids in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_HolodukeActivated",
+            "name": "He's Got a Hologram!",
+            "description": "Use a Holoduke in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_WhiteboardDrawing",
+            "name": "Drawrings",
+            "description": "Doodle something on the whiteboard in SP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MaxEgoAchieved",
+            "name": "I Am All That Is Man",
+            "description": "Discover all ego cap rewards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_GoldPistolCompletion",
+            "name": "Gunslinger",
+            "description": "Carry the gold pistol through the whole SP campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_EasyCompleted",
+            "name": "Piece of Cake",
+            "description": "Complete the SP campaign on Easy Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_NormalCompleted",
+            "name": "Let's Rock",
+            "description": "Complete the SP campaign on Normal Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_HardCompleted",
+            "name": "Come Get Some",
+            "description": "Complete the SP campaign on Hard Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_ExpertCompleted",
+            "name": "Damn, I'm Good",
+            "description": "Complete the SP campaign on Insane Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_CreditsViewed",
+            "name": "Special Thanks",
+            "description": "Watch the credits all the way through",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_HelmetsDiscovered",
+            "name": "Bucket Head",
+            "description": "Find all 3 helmets in the SP campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_PhoneMessages",
+            "name": "Call Waiting",
+            "description": "Listen to all phone messages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_DrankAllBeer",
+            "name": "Party Animal",
+            "description": "Drink all of the beers in the strip club",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_CatfishKilled",
+            "name": "Pescaphobe",
+            "description": "Kill all of the catfish in the underwater level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_BlimpDestroyed",
+            "name": "Sunday, Black Sunday",
+            "description": "Shoot down the blimp above the stadium",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_TalentKnockedOut",
+            "name": "Nobody Likes a Whiner",
+            "description": "Knock out the talent at the talk show",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_AliensAborted",
+            "name": "Lots of Whacking",
+            "description": "Win a game of Alien Abortion in the strip club",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_CompanionBarrel",
+            "name": "Companion Barrel",
+            "description": "Unlock the secret closet at the end of the Forkstop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_CycloidDefeated0",
+            "name": "One-Eyed Freak",
+            "description": "Defeat the Cycloid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_BattlelordDefeated0",
+            "name": "Pit Champion",
+            "description": "Defeat the Battlelord in Las Vegas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_AlienQueenDefeated",
+            "name": "Not Bad for a Human",
+            "description": "Defeat the Alien Queen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_BattlelordDefeated1",
+            "name": "A Good Dam Fight",
+            "description": "Defeat the Battlelord on the Hoover Dam",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_OctakingDefeated",
+            "name": "Octacide",
+            "description": "Defeat the Octaking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_LeechDefeated",
+            "name": "Beating the One-Eyed Worm",
+            "description": "Defeat the Energy Leech",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_BubbleBuster",
+            "name": "Bubble Buster",
+            "description": "Kill 10 expanded (bubble-trapped) enemies with melee attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_Threesome",
+            "name": "Threesome",
+            "description": "Kill 3 enemies within 3 seconds with the Impregnader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_PassiveAggressive",
+            "name": "Passive Aggressive",
+            "description": "Let 20 enemies die by someone else's hand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_MoonBuggyKills",
+            "name": "Bloody Red Rover",
+            "description": "Kill 30 enemies with the moon rover (The Doctor Who Cloned Me DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_SciencePinballScore",
+            "name": "Scientits",
+            "description": "Earn a 1,000,000 pinball score on the Scientits pinball machine (DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_DefeatDrProton",
+            "name": "Heart to Heart",
+            "description": "Defeat Dr. Proton, the final boss of The Doctor Who Cloned Me DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_EasyCompletedDLC03",
+            "name": "Another Piece of Cake",
+            "description": "Complete 'The Doctor Who Cloned Me' DLC on Easy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_NormalCompletedDLC03",
+            "name": "Let's Rock Out",
+            "description": "Complete the DLC on Normal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_HardCompletedDLC03",
+            "name": "Come Get a Little More",
+            "description": "Complete the DLC on Hard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_ExpertCompletedDLC03",
+            "name": "Damn, I'm REALLY Good",
+            "description": "Complete the DLC on Insane.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_MaxEgoAchievedDLC03",
+            "name": "I Am All That Is Man - Again!",
+            "description": "Discover all ego cap rewards in the DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_Chauvinist",
+            "name": "Hedonist, not Misogynist",
+            "description": "In the DLC, discover the arcade game that lets you slap women, and reject it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

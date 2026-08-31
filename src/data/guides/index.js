@@ -695,6 +695,9 @@ import { GUIDE as dragonsDogma2AchievementGuide } from "./games/dragons-dogma-2.
 import { GUIDE as gripCombatRacingAchievementGuide } from "./games/grip-combat-racing.js";
 import { GUIDE as busSimulator18AchievementGuide } from "./games/bus-simulator-18.js";
 import { GUIDE as distanceAchievementGuide } from "./games/distance.js";
+import { GUIDE as destiny2AchievementGuide } from "./games/destiny-2.js";
+import { GUIDE as crysisRemasteredAchievementGuide } from "./games/crysis-remastered.js";
+import { GUIDE as dukeNukemForeverAchievementGuide } from "./games/duke-nukem-forever.js";
 
 export const APP_GUIDES = [
 
@@ -1412,7 +1415,10 @@ export const GAME_GUIDES = [
     dragonsDogma2AchievementGuide,
     gripCombatRacingAchievementGuide,
     busSimulator18AchievementGuide,
-    distanceAchievementGuide
+    distanceAchievementGuide,
+    destiny2AchievementGuide,
+    crysisRemasteredAchievementGuide,
+    dukeNukemForeverAchievementGuide
 
 ];
 
