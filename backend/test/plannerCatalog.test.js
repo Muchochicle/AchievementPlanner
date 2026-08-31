@@ -544,6 +544,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("monday-night-combat"));
     assert.ok(slugs.includes("red-faction-armageddon"));
     assert.ok(slugs.includes("mass-effect-3"));
+    assert.ok(slugs.includes("zombie-army-trilogy"));
+    assert.ok(slugs.includes("atom-zombie-smasher"));
+    assert.ok(slugs.includes("frozen-synapse"));
 
 });
 

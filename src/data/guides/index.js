@@ -520,6 +520,9 @@ import { GUIDE as troveAchievementGuide } from "./games/trove.js";
 import { GUIDE as mondayNightCombatAchievementGuide } from "./games/monday-night-combat.js";
 import { GUIDE as redFactionArmageddonAchievementGuide } from "./games/red-faction-armageddon.js";
 import { GUIDE as massEffect3AchievementGuide } from "./games/mass-effect-3.js";
+import { GUIDE as zombieArmyTrilogyAchievementGuide } from "./games/zombie-army-trilogy.js";
+import { GUIDE as atomZombieSmasherAchievementGuide } from "./games/atom-zombie-smasher.js";
+import { GUIDE as frozenSynapseAchievementGuide } from "./games/frozen-synapse.js";
 
 export const APP_GUIDES = [
 
@@ -1062,7 +1065,10 @@ export const GAME_GUIDES = [
     troveAchievementGuide,
     mondayNightCombatAchievementGuide,
     redFactionArmageddonAchievementGuide,
-    massEffect3AchievementGuide
+    massEffect3AchievementGuide,
+    zombieArmyTrilogyAchievementGuide,
+    atomZombieSmasherAchievementGuide,
+    frozenSynapseAchievementGuide
 
 ];
 

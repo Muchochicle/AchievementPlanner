@@ -1,0 +1,636 @@
+{
+    "id": 301640,
+    "steamAppId": 301640,
+    "name": "Zombie Army Trilogy",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/301640/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Zombies",
+        "Third-Person Shooter",
+        "Sniper",
+        "Action",
+        "Horde"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP1_LVL1",
+            "name": "Don't mention the Z word!",
+            "description": "Successfully complete Village of the Dead",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP1_LVL2",
+            "name": "Resurrection Day",
+            "description": "Successfully complete Cathedral of Resurrection",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP1_LVL3",
+            "name": "Play it Thule",
+            "description": "Successfully complete Labyrinth of Death",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP1_LVL4",
+            "name": "The pen is mightier than the sidearm",
+            "description": "Successfully complete Library of Evil",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP1_LVL5",
+            "name": "No more room in Hell",
+            "description": "Successfully complete Subway to Hell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP2_LVL1",
+            "name": "Hell on earth, that's it",
+            "description": "Successfully complete Purgatory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP2_LVL2",
+            "name": "Into the fire",
+            "description": "Successfully complete Gateway to Hell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP2_LVL3",
+            "name": "Descent into Hell",
+            "description": "Successfully complete Crucible of Evil",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP2_LVL4",
+            "name": "This is going to be a bumpy ride",
+            "description": "Successfully complete Terminal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP2_LVL5",
+            "name": "Code Red",
+            "description": "Successfully complete Tower of Hellfire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP3_LVL1",
+            "name": "I think we'll start with a reign of terror",
+            "description": "Successfully complete City of Ashes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP3_LVL2",
+            "name": "You got rid of those stiffs yet?",
+            "description": "Successfully complete Freight Train of Fear",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP3_LVL3",
+            "name": "There's something in the mist!",
+            "description": "Successfully complete Forest of Corpses",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP3_LVL4",
+            "name": "Broadsword calling Danny Boy",
+            "description": "Successfully complete The Keep",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_COMPLETE_EP3_LVL5",
+            "name": "Taste some of Mama's home cookin', Adolf!",
+            "description": "Successfully complete Army of Darkness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_COMPLETE_ALL_SE",
+            "name": "This calls for divine intervention!",
+            "description": "Successfully complete all Chapters on Sniper Elite difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_KILL_ANY_5000",
+            "name": "Don't get all stingy with your bullets",
+            "description": "Kill 5,000 enemies of any kind",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_KILL_SKELETON_500",
+            "name": "The head bone's connected to the...oh, wait",
+            "description": "Kill 500 Skeletons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_KILL_ZSNIPER_100",
+            "name": "Naughty little boys get what they deserve",
+            "description": "Kill 100 Zombie Snipers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_KILL_SUICIDE_50",
+            "name": "We don't need a stretcher. We need a mop!",
+            "description": "Kill 50 Suicide Zombies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_KILL_SUPER_50",
+            "name": "Good, bad, I'm the guy with the gun",
+            "description": "Kill 50 Super Elites",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_KILL_FIRE_25",
+            "name": "Snuff them out",
+            "description": "Kill 25 Fire Demons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_KILL_SUMMONER_25",
+            "name": "Headache relief",
+            "description": "Kill 25 Summoners",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_KILL_OCCULT",
+            "name": "You want me to salute that pile of..?",
+            "description": "Kill an Occult General",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_WEAPON_PICKUP_PANZERFAUST",
+            "name": "Explosive personality!",
+            "description": "Pick up a Panzerfaust",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_WEAPON_PICKUP_PREACHER",
+            "name": "I kick arse for the Lord!",
+            "description": "Pick up the Preacher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_WEAPON_5TO1_SNIPER",
+            "name": "Every bullet counts",
+            "description": "Get a 5-for-1 kill with any sniper rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_WEAPON_SHOT_DISTANCE",
+            "name": "We got this by the ass!",
+            "description": "Reach a total shot distance of 50km",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_SEVER_LIMB_1000",
+            "name": "It's just a flesh wound!",
+            "description": "Sever 1,000 limbs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_SEVER_LIMB_10000",
+            "name": "Leave the limbs you've lost",
+            "description": "Sever 10,000 limbs",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_LOOT_SUPERELITE",
+            "name": "Elite pickpocket",
+            "description": "Loot a Super Elite's corpse",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_LOOT_FIREDEMON",
+            "name": "Burning a hole in your pocket",
+            "description": "Loot a Chainsaw Elite's corpse",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_KILL_ZSNIPER_MIDAIR",
+            "name": "Give me something to shoot",
+            "description": "Kill a Zombie Sniper in mid-air",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_HEADSHOT_STREAK_10",
+            "name": "We all go a little mad sometimes",
+            "description": "Get an unbroken 10-headshot streak",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_KILL_REVIVE_20",
+            "name": "Like a drunk who's lost a bet",
+            "description": "Kill 20 enemies as they revive",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_KILL_SUICIDE_GRENADE",
+            "name": "Got you, didn't I, you little sucker!",
+            "description": "Kill a Suicide Zombie by hitting his grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_EXPLOSIVE_KILL_10",
+            "name": "Somebody's got to survive!",
+            "description": "Get at least 10 for 1 with an explosive kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_EXPLOSIVE_KILL_15",
+            "name": "My family's always been in meat",
+            "description": "Get at least 15 for 1 with an explosive kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_EXPLOSIVE_KILL_20",
+            "name": "Come and get it! It's a running buffet!",
+            "description": "Get at least 20 for 1 with an explosive kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_KILL_HEAVYARMOURED_NOHELMET",
+            "name": "Your blood pressure is zero over zero",
+            "description": "Headshot a Heavy Armour Zombie without removing his helmet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_KILL_ANY_HEADSHOT_500",
+            "name": "Headshots are the very best",
+            "description": "Defeat 500 enemies with headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_KICK_ANY_50",
+            "name": "And stay down!",
+            "description": "Kick 50 enemies down",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_SCORE_SNIPER_5000",
+            "name": "Resurrect this!",
+            "description": "Score 5,000 with a  single sniper round",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_CHAIN_10",
+            "name": "I will not negotiate with the Undead!",
+            "description": "Reach a Chain Count of 10",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_CHAIN_20",
+            "name": "Scourge of zombiekind",
+            "description": "Reach a Chain Count of 20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_CHAIN_30",
+            "name": "You've got red on you",
+            "description": "Reach a Chain Count of 30",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_BECOME_POSESSED",
+            "name": "Nine tenths of the law",
+            "description": "Become possessed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_PICKUP_PHONE",
+            "name": "Answer the Devil's call",
+            "description": "Pick up a phone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_SAVE_PATIENT",
+            "name": "We can still fix him",
+            "description": "Save the man in the hospital",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_KILL_TORTURED_SOULS",
+            "name": "Merciful death",
+            "description": "Put the tortured souls in the Forest out of their misery",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_KILL_RAVENS_3",
+            "name": "Don't worry, they're evil!",
+            "description": "Shoot the 3 Zombie Ravens outside the Folterschloss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_HORDE_COAST_W10",
+            "name": "Zombies, man, they creep me out!",
+            "description": "Reach at least Wave 10 in Horde Mode – Waves of Despair",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_HORDE_CATHEDRAL_W10",
+            "name": "You're going to meet Death now...",
+            "description": "Reach at least Wave 10 in Horde Mode – No Sanctuary",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_HORDE_FACTORY_W10",
+            "name": "You're going to have to work for your meal",
+            "description": "Reach at least Wave 10 in Horde Mode – Flood of Tears",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_HORDE_ANY_HIGHEST_SCORE_W10",
+            "name": "I'll teach ya how to shoot!",
+            "description": "Reach at least Wave 10 with the highest score in any Horde Mode map",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_HORDE_ANY_MORE_GOLD_W10",
+            "name": "Guts and glory",
+            "description": "Reach at least Wave 10 with more gold medals than your companions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_SAVIOUR_ATTACK_50",
+            "name": "Got your back",
+            "description": "Kill 50 enemies that are actively attacking other players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_SAVIOUR_REVIVE_50",
+            "name": "A friend in need",
+            "description": "Revive other players 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_COOP_KILL_ELITE_20",
+            "name": "Got the killshot!",
+            "description": "Kill 20 Elites in co-op",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_COOP_COMPLETE_ANY_EP_4P",
+            "name": "You're so dead, you don't even know it",
+            "description": "Complete any Campaign chapter in 4-player co-op at any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_KILL_ANY_INCAPACITATED_20",
+            "name": "Down but not out",
+            "description": "Kill a total of 20 enemies while incapacitated",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_COMPLETE_ALL_SIDEQUEST",
+            "name": "Man, you sure know a lot about monsters",
+            "description": "Complete every Survivor sidequest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_KILL_SURVIVOR",
+            "name": "We have a Judas in our midst!",
+            "description": "Kill a Survivor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_COMPLETE_LEVELS_EVERY_CHARACTER",
+            "name": "Gratuitous violence from the lot of you",
+            "description": "Complete levels as every playable character",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_COLLECT_ALL_GOLD",
+            "name": "Just in case we make it",
+            "description": "Collect every Gold Bar",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_SHOOT_ALL_BOTTLES",
+            "name": "They must be destroyed on sight!",
+            "description": "Find and shoot every Bottle of Blood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_WAVE_10_HORDE_1",
+            "name": "You have...death around you",
+            "description": "Reach Wave 10 in Horde Mode – Dead End",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_WAVE_10_HORDE_6",
+            "name": "They're coming to get you, Barbra!",
+            "description": "Reach Wave 10 in Horde Mode – Dead Man's Bluff",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

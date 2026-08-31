@@ -1,0 +1,384 @@
+{
+    "id": 55040,
+    "steamAppId": 55040,
+    "name": "Atom Zombie Smasher",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/55040/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 10,
+        "max": 25
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "Zombies",
+        "Indie",
+        "Real-Time Tactics",
+        "Top-Down",
+        "Roguellike"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_allcomics",
+            "name": "Bookworm",
+            "description": "Unlock all the vignettes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ach_completed",
+            "name": "Zed Industrial Complex",
+            "description": "Complete the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ach_sniperkills",
+            "name": "Long Arm",
+            "description": "Accrue 10,000 sniper kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 4,
+            "apiname": "ach_heli40",
+            "name": "Big Dipper",
+            "description": "Rescue 40 or more people in one helicopter pickup.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ach_infantrykills",
+            "name": "The Operators",
+            "description": "Accrue 10,000 infantry kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 6,
+            "apiname": "ach_artillerykills",
+            "name": "The Big Stick",
+            "description": "Accrue 10,000 artillery kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 7,
+            "apiname": "ach_landminekills",
+            "name": "Remote Control",
+            "description": "Accrue 10,000 landmine kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 8,
+            "apiname": "ach_dynamitekills",
+            "name": "Wrecking Crew",
+            "description": "Accrue 10,000 dynamite kills.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 9,
+            "apiname": "ach_llamas",
+            "name": "Llama-rama",
+            "description": "Launch 500 Llama Bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ach_llamafour",
+            "name": "Tactical Camelid",
+            "description": "Cleanse four Zed territories with one Llama Bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ach_triplets",
+            "name": "Multiplicity",
+            "description": "Complete a campaign with the Triplets modifier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ach_hardcore",
+            "name": "International Killing Machine",
+            "description": "Complete a campaign with the Hardcore and Permadeath modifier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ach_longcampaign",
+            "name": "Long November",
+            "description": "Complete a 20,000 point campaign.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 14,
+            "apiname": "ach_gold",
+            "name": "The Gold Standard",
+            "description": "Accrue 500 gold medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ach_llamaspurchase",
+            "name": "Llamas on Demand",
+            "description": "Purchase a Llama Bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ach_saveall",
+            "name": "Champion of the People",
+            "description": "Rescue everyone in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ach_rescue100",
+            "name": "Choplifter",
+            "description": "Rescue 100 people in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ach_rescue200",
+            "name": "Rescue Raider",
+            "description": "Rescue 200 people in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ach_rescue300",
+            "name": "Maximum Overrescue",
+            "description": "Rescue 300 people in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ach_quickrescue",
+            "name": "How Fast They Are",
+            "description": "Complete a mission under 30 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ach_killsuperzombie",
+            "name": "Giant's Drink",
+            "description": "Destroy a Mega Zed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ach_night",
+            "name": "Night Owl",
+            "description": "Survive the night.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ach_bigrescue",
+            "name": "The Lucky Ones",
+            "description": "Rescue 100,000 people.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ach_bigscientists",
+            "name": "Hypothesis Now",
+            "description": "Rescue 10,000 scientists.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 25,
+            "apiname": "ach_level3",
+            "name": "The Big Leagues",
+            "description": "Complete a level-3 outbreak mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ach_level4",
+            "name": "The Worm has Turned",
+            "description": "Complete a level-4 outbreak mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ach_killzed",
+            "name": "Spring Cleaning",
+            "description": "Destroy all Zed in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ach_sniperperf",
+            "name": "Snipe Hunt",
+            "description": "Use snipers to destroy 100 Zed in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ach_infantryperf",
+            "name": "Street Sweeper",
+            "description": "Get 100 infantry kills in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ach_artilleryperf",
+            "name": "Bombardier",
+            "description": "Destroy 50 Zed in one artillery strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ach_dynamiteperf",
+            "name": "Powder Keg",
+            "description": "Destroy 50 Zed in one dynamite explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ach_landmineperf",
+            "name": "Watch Your Step",
+            "description": "Destroy 50 Zed in one landmine explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ach_altspawn",
+            "name": "They Live",
+            "description": "Complete a campaign with the Alt. Spawning modifier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ach_artillery100",
+            "name": "From Above",
+            "description": "Get 100 artillery kills in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ach_dynamite100",
+            "name": "Lit Fuse",
+            "description": "Get 100 dynamite kills in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ach_landmine100",
+            "name": "Hit Somebody",
+            "description": "Get 100 landmine kills in a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ach_coop",
+            "name": "The Diplomats",
+            "description": "Complete a mission with 3 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ach_5star",
+            "name": "Ten Thousand Hours",
+            "description": "Have a merc reach Level 5 veterancy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ach_dogdays",
+            "name": "Dog Days",
+            "description": "Rescue at least 100 people in July.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ach_christmas",
+            "name": "KringleJammer",
+            "description": "Defeat Wave 7 in the KringleJammer mini-game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
