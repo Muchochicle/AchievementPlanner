@@ -686,6 +686,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("circuit-superstars"));
     assert.ok(slugs.includes("descenders"));
     assert.ok(slugs.includes("ancestors-legacy"));
+    assert.ok(slugs.includes("planet-coaster-2"));
+    assert.ok(slugs.includes("workers-resources-soviet-republic"));
+    assert.ok(slugs.includes("session-skate-sim"));
 
 });
 
