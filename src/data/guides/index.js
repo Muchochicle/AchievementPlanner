@@ -707,6 +707,9 @@ import { GUIDE as fieldOfGloryIiAchievementGuide } from "./games/field-of-glory-
 import { GUIDE as megaquariumAchievementGuide } from "./games/megaquarium.js";
 import { GUIDE as guacameleeSuperTurboChampionshipEditionAchievementGuide } from "./games/guacamelee-super-turbo-championship-edition.js";
 import { GUIDE as prospectorAchievementGuide } from "./games/prospector.js";
+import { GUIDE as aTotalWarSagaTroyAchievementGuide } from "./games/a-total-war-saga-troy.js";
+import { GUIDE as fightNRageAchievementGuide } from "./games/fight-n-rage.js";
+import { GUIDE as discRoomAchievementGuide } from "./games/disc-room.js";
 
 export const APP_GUIDES = [
 
@@ -1436,7 +1439,10 @@ export const GAME_GUIDES = [
     fieldOfGloryIiAchievementGuide,
     megaquariumAchievementGuide,
     guacameleeSuperTurboChampionshipEditionAchievementGuide,
-    prospectorAchievementGuide
+    prospectorAchievementGuide,
+    aTotalWarSagaTroyAchievementGuide,
+    fightNRageAchievementGuide,
+    discRoomAchievementGuide
 
 ];
 

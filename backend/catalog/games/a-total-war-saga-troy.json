@@ -1,0 +1,645 @@
+{
+    "id": 1099410,
+    "steamAppId": 1099410,
+    "name": "A Total War Saga: TROY",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1099410/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "Grand Strategy",
+        "Turn-Based Strategy",
+        "Real-Time Tactics",
+        "Historical",
+        "Mythology",
+        "War"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "troy_main_achievement_any_tbtm_tw_victory",
+            "name": "Homer's Favourite",
+            "description": "Achieve a Total War victory with any faction in the main campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "troy_mth_achievement_any_myth_tw_victory",
+            "name": "Your Likeness in the Sky",
+            "description": "Achieve a Total War victory with any faction in the mythic campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "troy_hist_achievement_any_hist_tw_victory",
+            "name": "King of the Bronze Age",
+            "description": "Achieve a Total War Victory with any Faction on the Historic campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "troy_adi_achievement_ajax_win_homeric",
+            "name": "Bulwark of the Achaeans",
+            "description": "Playing as Salamis, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "troy_main_achievement_achilles_win_homeric",
+            "name": "The Greatest Warrior",
+            "description": "Playing as Phthia, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "troy_main_achievement_aeneas_win_homeric",
+            "name": "Destiny Awaits",
+            "description": "Playing as Dardania, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "troy_main_achievement_agamemnon_win_homeric",
+            "name": "Shepherd of the People",
+            "description": "Playing as Mycenae, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "troy_adi_achievement_dio_win_homeric",
+            "name": "Surpassed Tydeus",
+            "description": "Playing as Argos, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "troy_main_achievement_hector_win_homeric",
+            "name": "Of the Shining Helm",
+            "description": "Playing as Hector of Troy, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "troy_dlc1_achievement_hippolyta_win_homeric",
+            "name": "A Queen's Legacy",
+            "description": "Playing as Hippolyta's Amazons, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "troy_main_achievement_menelaus_win_homeric",
+            "name": "Honour Restored",
+            "description": "Playing as Sparta, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "troy_main_achievement_odysseus_win_homeric",
+            "name": "Master of Trickery",
+            "description": "Playing as Ithaca, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "troy_main_achievement_paris_win_homeric",
+            "name": "Godlike Alexandros",
+            "description": "Playing as Paris of Troy, achieve a Homeric victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "troy_dlc1_achievement_penthesilea_win_homeric",
+            "name": "Vengeance Incarnate",
+            "description": "Playing as Penthesilea's Amazons, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "troy_main_achievement_sarpedon_win_homeric",
+            "name": "Heir of Two Kingdoms",
+            "description": "Playing as Lycia, achieve a Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "troy_mth_achievement_any_capture_monster_cerberus",
+            "name": "Hound of Hell",
+            "description": "Capture Cerberus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "troy_mth_achievement_any_capture_monster_griffin",
+            "name": "King of all Animals",
+            "description": "Capture the Griffin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "troy_mth_achievement_any_capture_monster_hydra",
+            "name": "Immortal Serpent",
+            "description": "Capture the Hydra.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "troy_main_achievement_any_trade_food",
+            "name": "Bread Feeds War",
+            "description": "Collect 100,000 Food only from barters over a single campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "troy_mth_achievement_any_pet_the_cerberus",
+            "name": "Good Boy!",
+            "description": "Pet Cerberus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "troy_main_achievement_any_win_battle_troy_using_palladium",
+            "name": "Broken Prophecy",
+            "description": "Win a battle for Troy after successfully Stealing the Palladium.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "troy_main_achievement_any_achaean_win_earthquake_troy",
+            "name": "Poseidon's Wrath",
+            "description": "Win the battle for Troy on the \"earthquake\" map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "troy_main_achievement_any_achaean_win_ruse_troy",
+            "name": "My Kingdom for a Horse",
+            "description": "Win the battle for Troy with Odysseus' Ruse active.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "troy_adi_achievement_dio_confederate_using_dominance",
+            "name": "A Deal They Can't Refuse",
+            "description": "Playing as Argos, confederate a faction by spending 200 Dominance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "troy_main_achievement_hector_paris_dow_brother_turn_one",
+            "name": "Sole Heir",
+            "description": "Playing as Paris of Troy or Hector of Troy, win a campaign where you declared war on your brother on turn 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "troy_dlc1_achievement_hippolyta_penthesilea_win_battle_using_max_upgrade_army",
+            "name": "Daughters of Ares",
+            "description": "Playing as Hippolyta's Amazons or Penthesilea's Amazons, win a battle an army that contains only Amazon units which cannot be upgraded.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "troy_dlc1_achievement_hippolyta_penthesilea_win_battle_using_mounted_only",
+            "name": "All the Queen's Horses",
+            "description": "Playing as Hippolyta's Amazons or Penthesilea's Amazons, win a battle with an army that contains only mounted units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "troy_dlc1_achievement_hippolyta_penthesilea_win_battle_athens",
+            "name": "For Themiscyra!",
+            "description": "Playing as Hippolyta's Amazons or Penthesilea's Amazons, win a battle for the settlement of Athens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "troy_main_achievement_menelaus_win_battle_helen_settlement",
+            "name": "Reunited",
+            "description": "Playing as Sparta, win a battle for Helen's settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "troy_main_achievement_any_this_is_total_war",
+            "name": "This is Total War",
+            "description": "Win the game having declared war on every faction the turn you encountered them, as well as never negotiating a peace treaty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "troy_adi_achievement_ajax_challenge_and_defeat_all_paragons",
+            "name": "Challenge Accepted",
+            "description": "Playing as Salamis, challenge and defeat all Paragons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "troy_main_achievement_achilles_spend_turns_enraged",
+            "name": "The Rage of Achilles",
+            "description": "Have Achilles in \"Enraged\" mood for 25 turns in one campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "troy_main_achievement_achilles_wound_hector",
+            "name": "Face Me!",
+            "description": "Playing as Phthia, wound Hector in battle with Achilles present.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "troy_main_achievement_aeneas_divine_mission_for_every_god",
+            "name": "Speak to the Divine",
+            "description": "Playing as Dardania, complete a mission for each god over a single campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "troy_main_achievement_aeneas_speak_to_the_dead_unlock_all",
+            "name": "Speak to the Dead",
+            "description": "Playing as Dardania, unlock all dead heroes in Stygian Voices.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "troy_main_achievement_agamemnon_appoint_achilles_or_ajax_as_lawagetas",
+            "name": "The Host's Champion",
+            "description": "Playing as Mycenae, have Achilles or Ajax as your Lawagetas.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "troy_main_achievement_any_use_photo_mode",
+            "name": "Say Cheese!",
+            "description": "Take a screenshot using the Photo Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "troy_main_achievement_any_conquer_cyclops_island",
+            "name": "Hidden Island",
+            "description": "Conquer the mystery Cyclops island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "troy_main_achievement_any_win_without_signing_treaties",
+            "name": "Isolationist",
+            "description": "Win the game without signing any treaties",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "troy_main_achievement_hector_max_trojan_alliance",
+            "name": "Protector of Ilion",
+            "description": "Playing as Hector of Troy, achieve the highest level of Trojan Alliance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "troy_main_achievement_menelaus_win_battle_using_only_foreign_units",
+            "name": "The Great Cause\t",
+            "description": "Playing as Sparta, win a battle with an army that contains 19 units from other factions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "troy_main_achievement_paris_wound_achilles",
+            "name": "An Arrow to the Heel",
+            "description": "Playing as Paris of Troy, wound Achilles in battle with Paris present.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "troy_dlc1_achievement_penthesilea_get_war_spoils_for_every_god",
+            "name": "Making Sacrifices",
+            "description": "Playing as Penthesilea's Amazons, gain War Spoils for each god",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "troy_main_achievement_any_complete_all_realms",
+            "name": "Realm Conqueror",
+            "description": "Complete all Realm missions in one campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "troy_mth_achievement_any_speedrun_quest_battle",
+            "name": "First!",
+            "description": "Win a mythic monster quest battle by turn 50. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "troy_main_achievement_odysseus_round_trip_to_troy",
+            "name": "Odyssey",
+            "description": "Playing as Ithaca, conquer Troy and then get back home to Ithaca.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "troy_main_achievement_paris_favour_with_the_goddesses",
+            "name": "Marriage Over Lust",
+            "description": "Playing as Paris of Troy, have neglected status with Aphrodite and worshipped status with Hera or Athena.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "troy_main_achievement_any_multiplayer_plague",
+            "name": "Apollo's Plague",
+            "description": "Defeat someone who already has this achievement in any multiplayer battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "troy_main_achievement_agamemnon_fill_king_of_men",
+            "name": "King of all Men",
+            "description": "Playing as Mycenae, have all King of Men positions occupied at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_aphrodite",
+            "name": "Love and Beauty",
+            "description": "Reach the highest tier of favour with Aphrodite.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_apollo",
+            "name": "Healing and Music",
+            "description": "Reach the highest tier of favour with Apollo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_ares",
+            "name": "War Ensemble",
+            "description": "Reach the highest tier of favour with Ares.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_artemis",
+            "name": "The Great Hunt",
+            "description": "Reach the highest tier of favour with Artemis.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_athena",
+            "name": "Wisdom and Strategy",
+            "description": "Reach the highest tier of favour with Athena.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_hephaestus",
+            "name": "Hammer of the Gods",
+            "description": "Reach the highest tier of favour with Hephaestus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_hera",
+            "name": "Protector of the Hearth",
+            "description": "Reach the highest tier of favour with Hera.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_poseidon",
+            "name": "The Sea's Favour",
+            "description": "Reach the highest tier of favour with Poseidon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "troy_main_achievement_any_divine_will_max_favour_zeus",
+            "name": "Ruler of Olympus",
+            "description": "Reach the highest tier of favour with Zeus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "troy_main_achievement_sarpedon_break_barters",
+            "name": "Bamboozle",
+            "description": "Playing as Lycia, break 5 barter agreements in a single campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "troy_main_achievement_sarpedon_steal_barters",
+            "name": "Yoink",
+            "description": "Playing as Lycia, steal 5 barter agreements in a single campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "troy_dlc3_achievement_any_river_of_blood",
+            "name": "Let it Flow",
+            "description": "Win a campaign battle that results in a river of blood.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "troy_dlc3_achievement_any_tropaion",
+            "name": "Tropaion",
+            "description": "Win a campaign battle that results in a Blood totem appearing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "troy_hist_achievement_any_bodyguard_max",
+            "name": "Heroic Retinue",
+            "description": "Unlock and equip the strongest bodyguard unit available to a Hero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "troy_rem_achievement_mem_win_homeric",
+            "name": "The Adventurer King",
+            "description": "Playing as Memnon, achieve Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "troy_rem_achievement_mem_fame_war_spoils",
+            "name": "Fame Everlasting",
+            "description": "Playing as Memnon raze 10 settlements with \"Fame\" War Spoils.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "troy_rem_achievement_mem_sherden_warriors",
+            "name": "Doom that crossed the sea",
+            "description": "Playing as Memnon have at least 10 Sherden Warriors recruited in your armies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "troy_rem_achievement_rhes_win_homeric",
+            "name": "Thrace Triumphant",
+            "description": "Playing as Rhesus, achieve Homeric Victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "troy_rem_achievement_rhes_spend_devotion",
+            "name": "The Old Gods Speak",
+            "description": "Playing as Rhesus, spend at least 100 Devotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "troy_rem_achievement_rhes_countless_hosts",
+            "name": "Countless Hosts of Thrace",
+            "description": "Playing as Rhesus have 6 Countless Host armies at one time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
