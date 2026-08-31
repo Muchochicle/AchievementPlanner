@@ -574,6 +574,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("metro-last-light-redux"));
     assert.ok(slugs.includes("call-of-duty-black-ops"));
     assert.ok(slugs.includes("tropico-5"));
+    assert.ok(slugs.includes("saints-row-iv"));
+    assert.ok(slugs.includes("just-cause-3"));
+    assert.ok(slugs.includes("batman-arkham-origins"));
 
 });
 

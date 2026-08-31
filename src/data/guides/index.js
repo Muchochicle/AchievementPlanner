@@ -550,6 +550,9 @@ import { GUIDE as wormsUltimateMayhemAchievementGuide } from "./games/worms-ulti
 import { GUIDE as metroLastLightReduxAchievementGuide } from "./games/metro-last-light-redux.js";
 import { GUIDE as callOfDutyBlackOpsAchievementGuide } from "./games/call-of-duty-black-ops.js";
 import { GUIDE as tropico5AchievementGuide } from "./games/tropico-5.js";
+import { GUIDE as saintsRowIvAchievementGuide } from "./games/saints-row-iv.js";
+import { GUIDE as justCause3AchievementGuide } from "./games/just-cause-3.js";
+import { GUIDE as batmanArkhamOriginsAchievementGuide } from "./games/batman-arkham-origins.js";
 
 export const APP_GUIDES = [
 
@@ -1122,7 +1125,10 @@ export const GAME_GUIDES = [
     wormsUltimateMayhemAchievementGuide,
     metroLastLightReduxAchievementGuide,
     callOfDutyBlackOpsAchievementGuide,
-    tropico5AchievementGuide
+    tropico5AchievementGuide,
+    saintsRowIvAchievementGuide,
+    justCause3AchievementGuide,
+    batmanArkhamOriginsAchievementGuide
 
 ];
 
