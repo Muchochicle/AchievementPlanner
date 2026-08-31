@@ -469,6 +469,9 @@ import { GUIDE as apexLegendsAchievementGuide } from "./games/apex-legends.js";
 import { GUIDE as haloTheMasterChiefCollectionAchievementGuide } from "./games/halo-the-master-chief-collection.js";
 import { GUIDE as attackOnTitan2AchievementGuide } from "./games/attack-on-titan-2.js";
 import { GUIDE as jojosBizarreAdventureAllStarBattleRAchievementGuide } from "./games/jojos-bizarre-adventure-all-star-battle-r.js";
+import { GUIDE as eaSportsFc25AchievementGuide } from "./games/ea-sports-fc-25.js";
+import { GUIDE as nba2k24AchievementGuide } from "./games/nba-2k24.js";
+import { GUIDE as fifa23AchievementGuide } from "./games/fifa-23.js";
 
 export const APP_GUIDES = [
 
@@ -960,7 +963,10 @@ export const GAME_GUIDES = [
     apexLegendsAchievementGuide,
     haloTheMasterChiefCollectionAchievementGuide,
     attackOnTitan2AchievementGuide,
-    jojosBizarreAdventureAllStarBattleRAchievementGuide
+    jojosBizarreAdventureAllStarBattleRAchievementGuide,
+    eaSportsFc25AchievementGuide,
+    nba2k24AchievementGuide,
+    fifa23AchievementGuide
 
 ];
 

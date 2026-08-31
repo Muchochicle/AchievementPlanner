@@ -493,6 +493,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("halo-the-master-chief-collection"));
     assert.ok(slugs.includes("attack-on-titan-2"));
     assert.ok(slugs.includes("jojos-bizarre-adventure-all-star-battle-r"));
+    assert.ok(slugs.includes("ea-sports-fc-25"));
+    assert.ok(slugs.includes("nba-2k24"));
+    assert.ok(slugs.includes("fifa-23"));
 
 });
 
