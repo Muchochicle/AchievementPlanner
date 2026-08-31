@@ -616,6 +616,9 @@ import { GUIDE as spiralKnightsAchievementGuide } from "./games/spiral-knights.j
 import { GUIDE as snuggleTruckAchievementGuide } from "./games/snuggle-truck.js";
 import { GUIDE as battleblockTheaterAchievementGuide } from "./games/battleblock-theater.js";
 import { GUIDE as lyneAchievementGuide } from "./games/lyne.js";
+import { GUIDE as beatSaberAchievementGuide } from "./games/beat-saber.js";
+import { GUIDE as oceanhornMonsterOfUnchartedSeasAchievementGuide } from "./games/oceanhorn-monster-of-uncharted-seas.js";
+import { GUIDE as mountainAchievementGuide } from "./games/mountain.js";
 
 export const APP_GUIDES = [
 
@@ -1254,7 +1257,10 @@ export const GAME_GUIDES = [
     spiralKnightsAchievementGuide,
     snuggleTruckAchievementGuide,
     battleblockTheaterAchievementGuide,
-    lyneAchievementGuide
+    lyneAchievementGuide,
+    beatSaberAchievementGuide,
+    oceanhornMonsterOfUnchartedSeasAchievementGuide,
+    mountainAchievementGuide
 
 ];
 
