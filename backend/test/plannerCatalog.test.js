@@ -517,6 +517,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("bioshock-2"));
     assert.ok(slugs.includes("world-of-warships"));
     assert.ok(slugs.includes("the-banner-saga"));
+    assert.ok(slugs.includes("sins-of-a-solar-empire-rebellion"));
+    assert.ok(slugs.includes("payday-the-heist"));
+    assert.ok(slugs.includes("adventure-capitalist"));
 
 });
 

@@ -493,6 +493,9 @@ import { GUIDE as residentEvilRevelationsAchievementGuide } from "./games/reside
 import { GUIDE as bioshock2AchievementGuide } from "./games/bioshock-2.js";
 import { GUIDE as worldOfWarshipsAchievementGuide } from "./games/world-of-warships.js";
 import { GUIDE as theBannerSagaAchievementGuide } from "./games/the-banner-saga.js";
+import { GUIDE as sinsOfASolarEmpireRebellionAchievementGuide } from "./games/sins-of-a-solar-empire-rebellion.js";
+import { GUIDE as paydayTheHeistAchievementGuide } from "./games/payday-the-heist.js";
+import { GUIDE as adventureCapitalistAchievementGuide } from "./games/adventure-capitalist.js";
 
 export const APP_GUIDES = [
 
@@ -1008,7 +1011,10 @@ export const GAME_GUIDES = [
     residentEvilRevelationsAchievementGuide,
     bioshock2AchievementGuide,
     worldOfWarshipsAchievementGuide,
-    theBannerSagaAchievementGuide
+    theBannerSagaAchievementGuide,
+    sinsOfASolarEmpireRebellionAchievementGuide,
+    paydayTheHeistAchievementGuide,
+    adventureCapitalistAchievementGuide
 
 ];
 

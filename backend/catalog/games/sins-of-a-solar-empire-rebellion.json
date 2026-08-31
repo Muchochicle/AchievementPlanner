@@ -1,0 +1,636 @@
+{
+    "id": 204880,
+    "steamAppId": 204880,
+    "name": "Sins of a Solar Empire: Rebellion",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/204880/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "4X",
+        "RTS",
+        "Space",
+        "Grand Strategy",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "HasWonAsTech",
+            "name": "Ensign",
+            "description": "Win the game as a TEC player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "HasWonAsPsi",
+            "name": "Acolyte",
+            "description": "Win the game as an Advent player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "HasWonAsPhase",
+            "name": "Initiate",
+            "description": "Win the game as a Vasari player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "HasWonAsRandom",
+            "name": "Master of Any Domain",
+            "description": "Win the game as a Random player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "HasWonAgainst1AI",
+            "name": "Plug Puller",
+            "description": "Win the game by yourself against at least one Hard AI player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "HasWonAgainst2AI",
+            "name": "Toaster Roaster",
+            "description": "Win the game by yourself against at least two Hard AI players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "HasWonAgainst3AI",
+            "name": "Comp Stomper",
+            "description": "Win the game by yourself against at least three Hard AI players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "HasWonAgainst4AI",
+            "name": "Actually HAL, I can do that.",
+            "description": "Win the game by yourself against at least four Hard AI players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "HasWonWithNoCapitalShips",
+            "name": "Fear of Icebergs",
+            "description": "Win the game without building any Capital Ships.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "HasWonWithNoSquads",
+            "name": "No Exhaust Port Found",
+            "description": "Win the game without building any strike craft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "HasWonWithNoTacticalModules",
+            "name": "Best Defense is a Good Offense",
+            "description": "Win the game without building any Tactical Structures.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "HasWonWithNoFrigates",
+            "name": "Go Big or Go Home",
+            "description": "Win the game without building any Frigates, Cruisers or Corvettes. You will probably need Capital Ships for this! (Not achievable with Quick Start.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "HasResearchedAllCombatTech",
+            "name": "TEC Military Researcher",
+            "description": "Research every subject in the Military Tree while researching no subjects in the Civilian, Defense or Diplomacy Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "HasResearchedAllCombatPsi",
+            "name": "Advent Hostility Researcher",
+            "description": "Research every subject in the Hostility Tree while researching no subjects in the Harmony, Security, or Understanding Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "HasResearchedAllCombatPhase",
+            "name": "Vasari Warfare Researcher",
+            "description": "Research every subject in the Warfare Tree while researching no subjects in the Empire, Fortification or Manipulation Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "HasResearchedAllNonCombatTech",
+            "name": "TEC Civilian Researcher",
+            "description": "Research every subject in the Civilian Tree while researching no subjects in the Military, Defense or Diplomacy trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "HasResearchedAllNonCombatPsi",
+            "name": "Advent Harmony Researcher",
+            "description": "Research every subject in the Harmony Tree while researching no subjects in the Hostility, Security or Understanding Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "HasResearchedAllNonCombatPhase",
+            "name": "Vasari Empire Researcher",
+            "description": "Research every subject in the Empire Tree while researching no subjects in the Warfare, Fortification or Manipulation Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "HasFoundEveryArtifact",
+            "name": "Archaeologist",
+            "description": "Find and own every artifact at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "HasBuiltEveryCapitalShipTypeTech",
+            "name": "TEC Fleet Diversification",
+            "description": "Have at least one of every TEC Capital Ship built at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "HasBuiltEveryCapitalShipTypePsi",
+            "name": "Advent Fleet Diversification",
+            "description": "Have at least one of every Advent Capital Ship built at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "HasBuiltEveryCapitalShipTypePhase",
+            "name": "Vasari Fleet Diversification",
+            "description": "Have at least one of every Vasari Capital Ship built at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "HasReachedMaxCapitalShipLevel",
+            "name": "Capital Ship Captain",
+            "description": "Get a Capital Ship to maximum experience level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "HasBuiltSquads",
+            "name": "Squadron Leader",
+            "description": "Own at least 100 Squadrons at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "HasMaxedCapitalShipSlots",
+            "name": "Capital Ship Armada",
+            "description": "Own the maximum number of Capital Ships possible. Your fleet research must also be max level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "HasMaxedShipSlots",
+            "name": "Ship Swarm",
+            "description": "Own the maximum number of ships your fleet points can support. Your fleet research must also be at max level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "HasDoneQuests",
+            "name": "Outstanding Resume",
+            "description": "Complete at least 30 missions in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "HasTravelledStarLane",
+            "name": "Star Explorer",
+            "description": "Travel to another star system.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "HasTravelledWormHole",
+            "name": "Escape From Max",
+            "description": "Travel through a wormhole to discover where it leads to.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "HasGivenCredits",
+            "name": "Money Lender",
+            "description": "Give 25,000 Credits to other players in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "HasGivenMetal",
+            "name": "Metal Lender",
+            "description": "Give 20,000 Metal to other players in a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 32,
+            "apiname": "HasGivenCrystal",
+            "name": "Crystal Lender",
+            "description": "Give 20,000 Crystal to other players in a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 33,
+            "apiname": "HasFormedAllianceCeaseFire",
+            "name": "Road to Peace",
+            "description": "Form a Cease Fire with another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "HasFormedAlliancePeaceTreaty",
+            "name": "Pacifist",
+            "description": "Form a Peace Treaty with another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "HasFormedAllianceTrade",
+            "name": "Mutual Trader",
+            "description": "Form a Trade Alliance with another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "HasFormedAllianceInternalVision",
+            "name": "Planet Visionary",
+            "description": "Form a Planet Vision alliance with another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "HasFormedAllianceExternalVision",
+            "name": "Ship Visionary",
+            "description": "Form a Ship Vision alliance with another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "HasPopulation",
+            "name": "Family Planning",
+            "description": "Your empire must support at least 6,000 population at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "HasMadeTaxIncome",
+            "name": "Tax Collector",
+            "description": "Collect 200,000 Credits from taxes in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "HasMadeTradeIncome",
+            "name": "Export Maven",
+            "description": "Collect 20,000 Credits from trade ships in a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 41,
+            "apiname": "HasMadeMetalIncome",
+            "name": "Metal Miner",
+            "description": "Collect 35,000 Metal from resource extractors in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "HasMadeCrystalIncome",
+            "name": "Crystal Miner",
+            "description": "Collect 35,000 Crystal from resource extractors in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "HasMadeRefineryIncome",
+            "name": "Refining Magnate",
+            "description": "Collect 20,000 Metal or Crystal from refinery ships in a single game.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 44,
+            "apiname": "HasUsedCulture",
+            "name": "Pop Idol",
+            "description": "Spread your Culture to 75% of the galaxy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "HasBombedPlanet",
+            "name": "Expert Bombardier",
+            "description": "Do 15,750 damage to planets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "HasKilledFrigates",
+            "name": "Frigate Killer",
+            "description": "Destroy 1,000 enemy frigates in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 47,
+            "apiname": "HasKilledCapitalShips",
+            "name": "Capital Ship Assassin",
+            "description": "Destroy 30 enemy capital ships in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "HasKilledModules",
+            "name": "Wrecking Crew",
+            "description": "Destroy 200 enemy planet structures in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "HasKilledFighters",
+            "name": "Pilot's Bane",
+            "description": "Destroy 2,500 enemy strike craft in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "HasKilledPirates",
+            "name": "Pirate Exterminator",
+            "description": "Destroy 1,000 Pirate ships in a single game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "HasKilledTradeShips",
+            "name": "Anti-Globalization",
+            "description": "Destroy 100 trade ships in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "HasKilledRefineryShips",
+            "name": "Dead Canaries",
+            "description": "Destroy 50 refinery ships in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "HasKilledModuleConstructors",
+            "name": "Union Buster",
+            "description": "Destroy 50 construction ships in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "HasColonizedPiratePlanet",
+            "name": "Pirate Baron",
+            "description": "Colonize a Pirate base.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "HasFoundSpacePonies",
+            "name": "Space Ponies!",
+            "description": "Um...What?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "HasColonizedPlanets",
+            "name": "Colonizer",
+            "description": "Have 30 planets colonized at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "HasBoughtMetal",
+            "name": "Metal Speculator",
+            "description": "Buy 10,000 Metal from the Black Market.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 58,
+            "apiname": "HasSoldMetalToMarket",
+            "name": "Metal Merchant",
+            "description": "Sell 10,000 Metal directly to the Black Market.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 59,
+            "apiname": "HasBoughtCrystal",
+            "name": "Crystal Speculator",
+            "description": "Buy 10,000 Crystal from the Black Market.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 60,
+            "apiname": "HasSoldCrystalToMarket",
+            "name": "Crystal Merchant",
+            "description": "Sell 10,000 Crystal from the Black Market.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 61,
+            "apiname": "HasSoldResourcesToPlayers",
+            "name": "Resource Opportunist",
+            "description": "Gain 15,000 Credits from other players buying up your resources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "HasIncreasedBounty",
+            "name": "He's no good to me dead!",
+            "description": "Spend 66,000 Credits increasing the bounty on other players in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "HasPreviewedRandomGalaxy",
+            "name": "World Builder",
+            "description": "Create your own custom galaxy and preview the results.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "HasAllPlanetTypes",
+            "name": "Equal Opportunity",
+            "description": "Occupy the 10 planet types simultaneously (Forbidden Worlds DLC required).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "HasFerrusPlanetWithFullIndustry",
+            "name": "Drill Baby Drill",
+            "description": "Fully specialize a Ferrous planet in industry (Forbidden Worlds DLC required).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "HasOceanicPlanetWithFullSocial",
+            "name": "Vacation Getaway",
+            "description": "Fully specialize a Oceanic planet in social upgrades (Forbidden Worlds DLC required).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "HasDestroyedPlanets",
+            "name": "Destroyer of Worlds",
+            "description": "Destroy 20 planets in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "HasDifferentPlanetBonuses",
+            "name": "Intrepid Explorer",
+            "description": "Control 20 different planet bonuses in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
