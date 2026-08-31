@@ -627,6 +627,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("resident-evil-6"));
     assert.ok(slugs.includes("sid-meiers-ace-patrol-pacific-skies"));
     assert.ok(slugs.includes("snow-the-ultimate-edition"));
+    assert.ok(slugs.includes("dino-d-day"));
+    assert.ok(slugs.includes("melodys-escape"));
+    assert.ok(slugs.includes("planet-explorers"));
 
 });
 

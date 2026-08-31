@@ -603,6 +603,9 @@ import { GUIDE as cookServeDeliciousAchievementGuide } from "./games/cook-serve-
 import { GUIDE as residentEvil6AchievementGuide } from "./games/resident-evil-6.js";
 import { GUIDE as sidMeiersAcePatrolPacificSkiesAchievementGuide } from "./games/sid-meiers-ace-patrol-pacific-skies.js";
 import { GUIDE as snowTheUltimateEditionAchievementGuide } from "./games/snow-the-ultimate-edition.js";
+import { GUIDE as dinoDDayAchievementGuide } from "./games/dino-d-day.js";
+import { GUIDE as melodysEscapeAchievementGuide } from "./games/melodys-escape.js";
+import { GUIDE as planetExplorersAchievementGuide } from "./games/planet-explorers.js";
 
 export const APP_GUIDES = [
 
@@ -1228,7 +1231,10 @@ export const GAME_GUIDES = [
     cookServeDeliciousAchievementGuide,
     residentEvil6AchievementGuide,
     sidMeiersAcePatrolPacificSkiesAchievementGuide,
-    snowTheUltimateEditionAchievementGuide
+    snowTheUltimateEditionAchievementGuide,
+    dinoDDayAchievementGuide,
+    melodysEscapeAchievementGuide,
+    planetExplorersAchievementGuide
 
 ];
 

@@ -1,0 +1,717 @@
+{
+    "id": 70000,
+    "steamAppId": 70000,
+    "name": "Dino D-Day",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/70000/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 15,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Multiplayer",
+        "Dinosaurs",
+        "WW2",
+        "Class-Based",
+        "Action"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "BITE_THE_HAND",
+            "name": "Bite the Hand that Feeds You",
+            "description": "Kill a developer in online play.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "HELMET_TRICK",
+            "name": "Helmet Trick",
+            "description": "Kill 3 Hardgraves in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "THE_RAPTURE",
+            "name": "It's the Rapture!",
+            "description": "Capture a point with only raptors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "OUT_BUT_NOT_DOWN",
+            "name": "Out, but not down",
+            "description": "Kill an enemy with a melee attack while out of bullets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "PAINT_THE_TOWN_RED",
+            "name": "Paint the town red",
+            "description": "Kill an enemy player by throwing him into a wall.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "REICH_ROLLED",
+            "name": "Reich Rolled",
+            "description": "As Axis, get the Styracosaur to his goal without taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "SNEAKY_SNACKER",
+            "name": "Sneaky Snacker",
+            "description": "Finish eating 3 jackrabbits in the same life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "STAR_SPANGLED_HAMMER",
+            "name": "Star Spangled Hammer",
+            "description": "Get five fist-kills in Berserk mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "DINE_IN_HELL",
+            "name": "Tonight, you dine in Hell!",
+            "description": "Kill a raptor while she's feeding.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "CLEVER_GIRL",
+            "name": "Clever Girl",
+            "description": "As a Raptor, kill Ilona after she's deployed a rabbit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "GRIEFOSAURUS",
+            "name": "Griefosaurus",
+            "description": "Pounce the same player twice in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHILLES_MEAL",
+            "name": "Achilles Meal",
+            "description": "As the Raptor, finish eating a jackrabbit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "GRIEFOSAURUS_REX",
+            "name": "Griefosaurus Rex",
+            "description": "Pounce 5 different enemy players in the same life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "WHAT_HAPPEN_GOAT",
+            "name": "What's gonna happen to the goat?",
+            "description": "Use a goat to kill an enemy player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "THROWNAGE",
+            "name": "ThrOWNAGE",
+            "description": "Score a double-kill with a bite victim.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "NAZIS_HATE_GUYS",
+            "name": "Nazis...I hate these guys.",
+            "description": "Kill one of each Nazi class in the same life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "PULL",
+            "name": "Pull!",
+            "description": "Shoot and kill a leaping raptor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "BAD_HARE_DAY",
+            "name": "Bad Hare Day",
+            "description": "Kill two raptors with the same rabbit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "THATS_GARAND",
+            "name": "That's just Garand",
+            "description": "Score 7 kills in a single life with the M1 Garand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "KEEP_CALM",
+            "name": "Keep Calm and Carry One",
+            "description": "Score a kill with every PIAT round in a single life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "OPEN_BAR",
+            "name": "Open BAR, dude",
+            "description": "Score 7 kills in a single life with the BAR.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "FRENCH_PERSISTENCE",
+            "name": "French Persistence",
+            "description": "Score 7 kills in a single life with the Sten gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "UZ_PRIEKSU",
+            "name": "Uz Prieksu!",
+            "description": "Score 7 kills in a single life with the Mosin-Nagant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "STOMPSON",
+            "name": "More like \"Stompson\"",
+            "description": "Score 7 kills in a single life with the Thompson SMG.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "DIVINE_WIND",
+            "name": "Divine Wind",
+            "description": "Use a pterosaur to kill an enemy capturing a point.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "REST_FOR_UNWARY",
+            "name": "Rest for the Unwary",
+            "description": "Use a pterosaur to kill 3 or more enemies simultaneously.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "AVENGE_ME",
+            "name": "Avenge me!",
+            "description": "Score a pterosaur kill after you've died.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "STRUCK_BY_STREICHER",
+            "name": "Struck by the Streicher",
+            "description": "Score 7 kills in a single life using the k98.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "STRICKEN_BY_STREICHER",
+            "name": "Stricken by the Streicher",
+            "description": "Score 7 kills in a single life using the MP-40.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "BAD_MEDICINE",
+            "name": "Bad Medicine",
+            "description": "Score 7 kills in a single life using the MP-44.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "COMBO_MEAL",
+            "name": "Combo Meal",
+            "description": "As T-Rex, eat 3 enemy players in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "MOURNING_BREATH",
+            "name": "Mourning Breath",
+            "description": "As T-Rex, knock 3 enemies down with one roar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "PRIMAL_PURGE",
+            "name": "Primal Purge",
+            "description": "As T-Rex, get 7 MG kills in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "SNACK_ATTACK",
+            "name": "Snack Attack",
+            "description": "As T-Rex, eat an enemy player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "SPIT_BOMB",
+            "name": "Spit Us Out The Bomb",
+            "description": "As T-Rex, kill an enemy player with a 500lb bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "PAINT_TOWN_YELLOW",
+            "name": "Paint the Town Yellow",
+            "description": "Pee on a downed enemy, then kill them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "HORNED_DEVIL",
+            "name": "Horned Devil",
+            "description": "As the Stygimoloch, kill 7 enemies with your MG34.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "TRIGGER_TIME",
+            "name": "Trigger Time",
+            "description": "As Trigger, kill 7 enemies with your .30 cal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "GIVE_EM_BIRD",
+            "name": "Give 'Em the Bird",
+            "description": "Make your first kill as the Microraptor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "PARTY_FOWL",
+            "name": "Party Fowl",
+            "description": "Capture a two-man control point with Microraptors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "WALL_ART",
+            "name": "Wall Art",
+            "description": "As the Microraptor, kill an enemy while clinging to the wall.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "THANKSKILLING",
+            "name": "Thankskilling",
+            "description": "As the Microraptor, kill 7 enemies in a single life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "HOCK_LUGER",
+            "name": "Hock a Luger",
+            "description": "As Microraptor, hit an enemy in the head with your poison spit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "KISS_THE_COOK",
+            "name": "Kiss the Cook",
+            "description": "As Microraptor, spit in Nigel's face while you are on fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "INSULT_TO_INJURY",
+            "name": "Adding Insult to Injury",
+            "description": "As Microraptor, kill an enemy with your claws after spitting in their face.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "BURN_WHEN_YOU_PEE",
+            "name": "It DOES burn when you pee!",
+            "description": "As Nigel, burn a dinosaur that is peeing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "TURKEY_DINNER",
+            "name": "Turkey Dinner",
+            "description": "As Nigel, kill a Microraptor with your flamethrower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "OPERATION_TORCH",
+            "name": "Operation Torch",
+            "description": "As Nigel, kill 7 enemies with the Flamethrower in a single life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "REGRET_NOTHING",
+            "name": "I regret nothing!",
+            "description": "As the Compy, kill an enemy with a suicide detonation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "TWO_FOR_ONE",
+            "name": "Two for One Special",
+            "description": "As the Compy, kill two enemies with one suicide detonation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "THREEPEAT",
+            "name": "Threepeat",
+            "description": "As the Compy, kill three enemies with one suicide detonation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "BAD_TIME",
+            "name": "Is this a bad time?",
+            "description": "As the Compy, kill an enemy that is capturing a point.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "MY_BOOMSTICKY",
+            "name": "This is my BOOM stick(y)!",
+            "description": "As Joe, kill an enemy with your sticky bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "BEING_GREASY",
+            "name": "It ain't easy being greasy...",
+            "description": "As Joe, get 7 kills in one life with the grease gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "CHANCE_OF_DEATH",
+            "name": "Cloudy with a chance of Death!",
+            "description": "As Joe, get 3 kills with a single artillery strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "BANDAGE_A_TROIS",
+            "name": "Bandage a Trois",
+            "description": "As Camille, heal yourself and three others with a thrown healthkit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "COMBAT_VET",
+            "name": "Combat Vet(erinarian)",
+            "description": "As von Graff, heal a dinosaur teammate.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "GERMAN_EFFICIENCY",
+            "name": "German Efficiency",
+            "description": "As Hissman kill two enemies with two consecutive bullets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "FRANKENHURTER",
+            "name": "Frankenhurter",
+            "description": "As Jakob, use your fists to kill two enemies in a single life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "CONTROLS_THE_POINTS",
+            "name": "He who controls the points...",
+            "description": "Be on the winning team in a Capture Point game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "NO_I_IN_PLANE",
+            "name": "There's no 'I' in plane",
+            "description": "Help capture the Ju-52 in Troina.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "CHOOSE_YOU",
+            "name": "I choose you!",
+            "description": "Equip an alternate weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "EXERCISE_YOUR_OPTIONS",
+            "name": "Exercise your options",
+            "description": "Kill an enemy with an alternate weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "THE_BIGGER_THEY_ARE",
+            "name": "The bigger they are...",
+            "description": "Land the killing blow on a T-Rex.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "THE_HARDER_THEY_FALL",
+            "name": "...the harder they fall.",
+            "description": "Land the killing blow on a Styracosaur.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "CAPPED",
+            "name": "Cap'd",
+            "description": "Headshot an enemy that is capturing a point.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "SANTAS_HELPER",
+            "name": "Santa's Little Helper",
+            "description": "In one match, collect 15 of Santa's lost presents.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "FREAKING_AMAZING",
+            "name": "THAT WAS FREAKING AMAZING!",
+            "description": "In Hardgrave's berserk mode, punch a T-Rex to death.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "CANT_GO_HOME",
+            "name": "You Can't Go Home Again",
+            "description": "As an Axis player, kill the 2 German defectors in one life (Trigger and Jakob).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "IF_IT_BLEEDS",
+            "name": "If it bleeds we can kill it...",
+            "description": "Kill a Hardgrave while he's in berserk mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "REGRET_EVERYTHING",
+            "name": "I Regret Everything",
+            "description": "As Compy, get 3 claw kills but fail to kill anyone with your suicide detonation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "KELLYS_HEROES",
+            "name": "Kelly's Heroes",
+            "description": "Get one kill as each Allied class in a single round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "RAGNAROK",
+            "name": "Let's Ragnaroooooook!",
+            "description": "Get 3 kills while in berserk mode as Hardgrave.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "SHOOT_HER",
+            "name": "Shoot her!",
+            "description": "Save a teammate by killing a raptor that has pounced them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "SILENCE",
+            "name": "The Silence of the Lambs",
+            "description": "Save a teammate or yourself from a thrown goat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "TANKS_ALOT",
+            "name": "Tanks a lot",
+            "description": "Kill 7 enemies in a single life as the Desmatosuchus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ONLY_ONE",
+            "name": "There Can Be Only One",
+            "description": "Stay alive for an entire round and score at least 5 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
