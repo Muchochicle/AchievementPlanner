@@ -463,6 +463,9 @@ import { GUIDE as distantWorldsUniverseAchievementGuide } from "./games/distant-
 import { GUIDE as spacechemAchievementGuide } from "./games/spacechem.js";
 import { GUIDE as exapunksAchievementGuide } from "./games/exapunks.js";
 import { GUIDE as menOfWarAssaultSquad2AchievementGuide } from "./games/men-of-war-assault-squad-2.js";
+import { GUIDE as gwentAchievementGuide } from "./games/gwent.js";
+import { GUIDE as legoStarWarsTheForceAwakensAchievementGuide } from "./games/lego-star-wars-the-force-awakens.js";
+import { GUIDE as apexLegendsAchievementGuide } from "./games/apex-legends.js";
 
 export const APP_GUIDES = [
 
@@ -948,7 +951,10 @@ export const GAME_GUIDES = [
     distantWorldsUniverseAchievementGuide,
     spacechemAchievementGuide,
     exapunksAchievementGuide,
-    menOfWarAssaultSquad2AchievementGuide
+    menOfWarAssaultSquad2AchievementGuide,
+    gwentAchievementGuide,
+    legoStarWarsTheForceAwakensAchievementGuide,
+    apexLegendsAchievementGuide
 
 ];
 

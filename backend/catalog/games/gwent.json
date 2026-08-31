@@ -1,0 +1,438 @@
+{
+    "id": 1284410,
+    "steamAppId": 1284410,
+    "name": "GWENT: The Witcher Card Game",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1284410/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Card Game",
+        "Strategy",
+        "Free to Play",
+        "PvP",
+        "Turn-Based Strategy",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Agressor",
+            "name": "Agressor",
+            "description": "Deal a total of 30 damage to units in one multiplayer game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 2,
+            "apiname": "Alchemist",
+            "name": "Alchemist",
+            "description": "Transmute a card.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 3,
+            "apiname": "Artifanatic",
+            "name": "Artifanatic",
+            "description": "Have 4 artifacts in play at any time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 4,
+            "apiname": "ArtOfWar",
+            "name": "Art Of War",
+            "description": "Order at least 3 units in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 5,
+            "apiname": "BaptizedWithFire",
+            "name": "Baptized With Fire",
+            "description": "Play a card from 5 different factions during a match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 6,
+            "apiname": "BasicsMastered",
+            "name": "Basics Mastered",
+            "description": "Complete the basic tutorial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 7,
+            "apiname": "Blacksmith",
+            "name": "Blacksmith",
+            "description": "Play a bronze and a gold card in a multiplayer game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 8,
+            "apiname": "Blitz",
+            "name": "Blitz",
+            "description": "Play 5 cards in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 9,
+            "apiname": "CatchEmAll",
+            "name": "CatchEmAll",
+            "description": "Collect 50 unique cards from 1 faction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "CommonDenominator",
+            "name": "Common Denominator",
+            "description": "Win a multiplayer game without Golden cards in your deck.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 11,
+            "apiname": "Destroyer",
+            "name": "Destroyer",
+            "description": "Destroy 3 or more units with single card.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 12,
+            "apiname": "FantasticFive",
+            "name": "Fantastic Five",
+            "description": "Obtain at least one leader from each faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 13,
+            "apiname": "GlovesOff",
+            "name": "Gloves Off",
+            "description": "Finish 3 online matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 14,
+            "apiname": "GoAllIn",
+            "name": "Go All In",
+            "description": "Fully deplete your deck.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "GreatestAdmirer",
+            "name": "Greatest Admirer",
+            "description": "Send \"GG\" 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 16,
+            "apiname": "HadEnoughYet",
+            "name": "Had Enough Yet",
+            "description": "Win a game with 2 cards remaining in hand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 17,
+            "apiname": "HallOfHeroes",
+            "name": "Hall Of Heroes",
+            "description": "Reach Prestige 1.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "HeadStart",
+            "name": "Head Start",
+            "description": "Start a round with 10 points on the board.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 19,
+            "apiname": "HeadToHead",
+            "name": "Head To Head",
+            "description": "Get a draw in a multiplayer game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 20,
+            "apiname": "HeartOfGold",
+            "name": "Heart Of Gold",
+            "description": "Win a battle without killing any of the opponent's units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 21,
+            "apiname": "HurricaneSeason",
+            "name": "Hurricane Season",
+            "description": "Fill your opponent's side of the board with row effects.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 22,
+            "apiname": "IronFist",
+            "name": "Iron Fist",
+            "description": "Win a round with only Order units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 23,
+            "apiname": "KickinUpDust",
+            "name": "Kickin' Up Dust",
+            "description": "Play one ranked game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 24,
+            "apiname": "Leviathan",
+            "name": "Leviathan",
+            "description": "Boost unit to over a 30 points in a multiplayer game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 25,
+            "apiname": "MasterTactician",
+            "name": "Master Tactician",
+            "description": "Have card advantage of 3 cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 26,
+            "apiname": "Milestone",
+            "name": "Milestone",
+            "description": "Reach level 15.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 27,
+            "apiname": "MissionImpossible",
+            "name": "Mission Impossible",
+            "description": "Destroy a unit that is Immune.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 28,
+            "apiname": "Munchkin",
+            "name": "Munchkin",
+            "description": "Reach level 40.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "NapoleonComplex",
+            "name": "Napoleon Complex",
+            "description": "Destroy a Legendary enemy with a Common ally.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 30,
+            "apiname": "Next",
+            "name": "Next",
+            "description": "Have a winstreak of 3 in any multiplayer game mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "NoManLeftBehind",
+            "name": "No Man Left Behind",
+            "description": "Resurrect at least 5 cards in a match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 32,
+            "apiname": "NothingWasted",
+            "name": "Nothing Wasted",
+            "description": "Mill 50 cards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "Overkill",
+            "name": "Overkill",
+            "description": "Win the final round of a multiplayer game by 50 or more points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 34,
+            "apiname": "QuickBefore",
+            "name": "Quick, Before-",
+            "description": "Destroy a unit with Zeal before its triggered.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 35,
+            "apiname": "Quintuplets",
+            "name": "Quintuplets",
+            "description": "Control at least 5 cards with the same power.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 36,
+            "apiname": "ReadyForBattle",
+            "name": "Ready For Battle",
+            "description": "Equip a vanity leader skin, an avatar, a border and a title.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 37,
+            "apiname": "RomeoAndJuliet",
+            "name": "Romeo And Juliet",
+            "description": "Destroy a Doomed enemy with a Doomed ally.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 38,
+            "apiname": "Shiny",
+            "name": "Shiny!",
+            "description": "Own at least 150 premium cards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "Smashsmash",
+            "name": "Uman make smashsmash?!",
+            "description": "Smash 100 kegs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "Specialist",
+            "name": "Specialist",
+            "description": "Win a game using 15 special cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 41,
+            "apiname": "TablesTurned",
+            "name": "Tables Turned",
+            "description": "Win a round and game, after losing by 20 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 42,
+            "apiname": "ThanksButNoThanks",
+            "name": "Thanks, but No Thanks",
+            "description": "Win a Regular Battle without redrawing any cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 43,
+            "apiname": "TheMoreTheMerrier",
+            "name": "The More The Merrier",
+            "description": "Play a maximum number of units into any single row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 44,
+            "apiname": "Trouper",
+            "name": "Trouper",
+            "description": "Reach Rank 20.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "WeAreLegion",
+            "name": "We Are Legion",
+            "description": "Spawn five allies in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 46,
+            "apiname": "YourWishIsOurCommand",
+            "name": "Your wish is our command",
+            "description": "Use 10 order charges in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        }
+    ]
+}

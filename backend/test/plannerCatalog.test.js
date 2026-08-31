@@ -487,6 +487,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("spacechem"));
     assert.ok(slugs.includes("exapunks"));
     assert.ok(slugs.includes("men-of-war-assault-squad-2"));
+    assert.ok(slugs.includes("gwent"));
+    assert.ok(slugs.includes("lego-star-wars-the-force-awakens"));
+    assert.ok(slugs.includes("apex-legends"));
 
 });
 
