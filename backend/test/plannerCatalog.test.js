@@ -553,6 +553,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("doom-plus-doom-ii"));
     assert.ok(slugs.includes("aliens-vs-predator-2010"));
     assert.ok(slugs.includes("worms-reloaded"));
+    assert.ok(slugs.includes("worms-wmd"));
+    assert.ok(slugs.includes("demolition-inc"));
+    assert.ok(slugs.includes("savage-lands"));
 
 });
 

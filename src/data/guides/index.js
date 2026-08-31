@@ -529,6 +529,9 @@ import { GUIDE as intrusion2AchievementGuide } from "./games/intrusion-2.js";
 import { GUIDE as doomPlusDoomIIAchievementGuide } from "./games/doom-plus-doom-ii.js";
 import { GUIDE as aliensVsPredator2010AchievementGuide } from "./games/aliens-vs-predator-2010.js";
 import { GUIDE as wormsReloadedAchievementGuide } from "./games/worms-reloaded.js";
+import { GUIDE as wormsWmdAchievementGuide } from "./games/worms-wmd.js";
+import { GUIDE as demolitionIncAchievementGuide } from "./games/demolition-inc.js";
+import { GUIDE as savageLandsAchievementGuide } from "./games/savage-lands.js";
 
 export const APP_GUIDES = [
 
@@ -1080,7 +1083,10 @@ export const GAME_GUIDES = [
     intrusion2AchievementGuide,
     doomPlusDoomIIAchievementGuide,
     aliensVsPredator2010AchievementGuide,
-    wormsReloadedAchievementGuide
+    wormsReloadedAchievementGuide,
+    wormsWmdAchievementGuide,
+    demolitionIncAchievementGuide,
+    savageLandsAchievementGuide
 
 ];
 
