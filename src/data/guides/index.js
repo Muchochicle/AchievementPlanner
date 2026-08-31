@@ -656,6 +656,9 @@ import { GUIDE as shadowWarrior2AchievementGuide } from "./games/shadow-warrior-
 import { GUIDE as catQuestAchievementGuide } from "./games/cat-quest.js";
 import { GUIDE as miniMotorwaysAchievementGuide } from "./games/mini-motorways.js";
 import { GUIDE as strayAchievementGuide } from "./games/stray.js";
+import { GUIDE as earthDefenseForce41AchievementGuide } from "./games/earth-defense-force-4-1.js";
+import { GUIDE as earthDefenseForce5AchievementGuide } from "./games/earth-defense-force-5.js";
+import { GUIDE as paladinsAchievementGuide } from "./games/paladins.js";
 
 export const APP_GUIDES = [
 
@@ -1334,7 +1337,10 @@ export const GAME_GUIDES = [
     shadowWarrior2AchievementGuide,
     catQuestAchievementGuide,
     miniMotorwaysAchievementGuide,
-    strayAchievementGuide
+    strayAchievementGuide,
+    earthDefenseForce41AchievementGuide,
+    earthDefenseForce5AchievementGuide,
+    paladinsAchievementGuide
 
 ];
 

@@ -680,6 +680,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("cat-quest"));
     assert.ok(slugs.includes("mini-motorways"));
     assert.ok(slugs.includes("stray"));
+    assert.ok(slugs.includes("earth-defense-force-4-1"));
+    assert.ok(slugs.includes("earth-defense-force-5"));
+    assert.ok(slugs.includes("paladins"));
 
 });
 
