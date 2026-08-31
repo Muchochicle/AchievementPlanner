@@ -553,6 +553,8 @@ import { GUIDE as tropico5AchievementGuide } from "./games/tropico-5.js";
 import { GUIDE as saintsRowIvAchievementGuide } from "./games/saints-row-iv.js";
 import { GUIDE as justCause3AchievementGuide } from "./games/just-cause-3.js";
 import { GUIDE as batmanArkhamOriginsAchievementGuide } from "./games/batman-arkham-origins.js";
+import { GUIDE as xcom2AchievementGuide } from "./games/xcom-2.js";
+import { GUIDE as borderlandsGameOfTheYearAchievementGuide } from "./games/borderlands-game-of-the-year.js";
 
 export const APP_GUIDES = [
 
@@ -1128,7 +1130,9 @@ export const GAME_GUIDES = [
     tropico5AchievementGuide,
     saintsRowIvAchievementGuide,
     justCause3AchievementGuide,
-    batmanArkhamOriginsAchievementGuide
+    batmanArkhamOriginsAchievementGuide,
+    xcom2AchievementGuide,
+    borderlandsGameOfTheYearAchievementGuide
 
 ];
 
