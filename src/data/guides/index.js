@@ -487,6 +487,9 @@ import { GUIDE as letsBuildAZooAchievementGuide } from "./games/lets-build-a-zoo
 import { GUIDE as ultraStreetFighter4AchievementGuide } from "./games/ultra-street-fighter-4.js";
 import { GUIDE as streetFighter5AchievementGuide } from "./games/street-fighter-5.js";
 import { GUIDE as injusticeGodsAmongUsAchievementGuide } from "./games/injustice-gods-among-us.js";
+import { GUIDE as residentEvil5AchievementGuide } from "./games/resident-evil-5.js";
+import { GUIDE as residentEvil7AchievementGuide } from "./games/resident-evil-7.js";
+import { GUIDE as residentEvilRevelationsAchievementGuide } from "./games/resident-evil-revelations.js";
 
 export const APP_GUIDES = [
 
@@ -996,7 +999,10 @@ export const GAME_GUIDES = [
     letsBuildAZooAchievementGuide,
     ultraStreetFighter4AchievementGuide,
     streetFighter5AchievementGuide,
-    injusticeGodsAmongUsAchievementGuide
+    injusticeGodsAmongUsAchievementGuide,
+    residentEvil5AchievementGuide,
+    residentEvil7AchievementGuide,
+    residentEvilRevelationsAchievementGuide
 
 ];
 

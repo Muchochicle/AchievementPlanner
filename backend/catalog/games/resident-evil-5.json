@@ -1,0 +1,654 @@
+{
+    "id": 21690,
+    "steamAppId": 21690,
+    "name": "Resident Evil 5",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/21690/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 30,
+        "max": 55
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Horror",
+        "Third-Person Shooter",
+        "Co-op",
+        "Zombies",
+        "Survival Horror"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_CHAPTER11_CLEAR",
+            "name": "Completed Chapter 1 - 1",
+            "description": "Complete Chapter 1 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_CHAPTER12_CLEAR",
+            "name": "Completed Chapter 1 - 2",
+            "description": "Complete Chapter 1 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CHAPTER21_CLEAR",
+            "name": "Completed Chapter 2 - 1",
+            "description": "Complete Chapter 2 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_CHAPTER22_CLEAR",
+            "name": "Completed Chapter 2 - 2",
+            "description": "Complete Chapter 2 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_CHAPTER23_CLEAR",
+            "name": "Completed Chapter 2 - 3",
+            "description": "Complete Chapter 2 - 3 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_CHAPTER31_CLEAR",
+            "name": "Completed Chapter 3 - 1",
+            "description": "Complete Chapter 3 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CHAPTER32_CLEAR",
+            "name": "Completed Chapter 3 - 2",
+            "description": "Complete Chapter 3 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_CHAPTER33_CLEAR",
+            "name": "Completed Chapter 3 - 3",
+            "description": "Complete Chapter 3 - 3 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_CHAPTER41_CLEAR",
+            "name": "Completed Chapter 4 - 1",
+            "description": "Complete Chapter 4 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_CHAPTER42_CLEAR",
+            "name": "Completed Chapter 4 - 2",
+            "description": "Complete Chapter 4 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_CHAPTER51_CLEAR",
+            "name": "Completed Chapter 5 - 1",
+            "description": "Complete Chapter 5 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_CHAPTER52_CLEAR",
+            "name": "Completed Chapter 5 - 2",
+            "description": "Complete Chapter 5 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_CHAPTER53_CLEAR",
+            "name": "Completed Chapter 5 - 3",
+            "description": "Complete Chapter 5 - 3 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_CHAPTER61_CLEAR",
+            "name": "Completed Chapter 6 - 1",
+            "description": "Complete Chapter 6 - 1 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_CHAPTER62_CLEAR",
+            "name": "Completed Chapter 6 - 2",
+            "description": "Complete Chapter 6 - 2 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_CHAPTER63_CLEAR",
+            "name": "Completed Chapter 6 - 3",
+            "description": "Complete Chapter 6 - 3 on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_AMATEUR_PLAYER",
+            "name": "Recruit",
+            "description": "Complete all chapters on Amateur.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_NORMAL_PLAYER",
+            "name": "Soldier",
+            "description": "Complete all chapters on Normal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_PROFESSIONAL_PLAYER",
+            "name": "Veteran",
+            "description": "Complete all chapters on Veteran.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_AGENT_PLAYER",
+            "name": "War Hero",
+            "description": "Complete all chapters on Professional.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_EGG_COMPLETE",
+            "name": "Egg Hunt",
+            "description": "Find all 4 types of eggs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_COSTUME_COMPLETE",
+            "name": "All Dressed Up",
+            "description": "Purchase all available alternative costumes in Bonus Features.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_WEAPON_COMPLETE",
+            "name": "Stockpile",
+            "description": "Obtain all available weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_UPGRADE_COMPLETE",
+            "name": "Take It to the Max",
+            "description": "Completely upgrade all weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_TREASURE_COMPLETE",
+            "name": "They Belong in a Museum",
+            "description": "Obtain all treasures in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_COIN_COMPLETE",
+            "name": "Badge of Honor",
+            "description": "Find all the BSAA emblems.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_FIGURE_COMPLETE",
+            "name": "They're ACTION Figures!",
+            "description": "Collect all the figurines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_HELPER",
+            "name": "A Friend in Need",
+            "description": "Save partner 10 times when HELP is displayed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_LIFESAVER",
+            "name": "Lifeguard",
+            "description": "Save partner 10 times when DYING is displayed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_CRITICAL_SNIPE",
+            "name": "Exploding Heads",
+            "description": "Pull off 20 headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_KNIFE_MANIA",
+            "name": "A Cut Above",
+            "description": "Defeat 5 enemies with the Knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_THUNDERBOLT",
+            "name": "Cattle Prod",
+            "description": "Defeat 30 enemies with the Stun rod.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_GATLING_SOLDIER",
+            "name": "Crowd Control",
+            "description": "Defeat 30 enemies with the Gatling gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_BOW_SOLDIER",
+            "name": "Bull's-eye",
+            "description": "Defeat 30 enemies with the Longbow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_MATERIAL_COMBAT",
+            "name": "Get Physical",
+            "description": "Defeat 20 enemies with physical attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_COMBO_ATTACK",
+            "name": "The Works",
+            "description": "Chain the maximum number of combos together in one go.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_ASCENSION",
+            "name": "Lead Aspirin",
+            "description": "Defeat a Majini with a headshot while it's jumping.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_HOTSHOT",
+            "name": "Fireworks",
+            "description": "Shoot an enemy Molotov cocktail, dynamite stick, or hand grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_INSIGHT",
+            "name": "Be the Knife",
+            "description": "Deflect a bow gun arrow with your knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_MEAT_SHOWER",
+            "name": "Meat Shower",
+            "description": "Defeat 3 Majini with one grenade or proximity bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_WEAK_POINT",
+            "name": "Go into the Light",
+            "description": "Defeat 2 enemies with one flash grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ELECTRO_SHOCK",
+            "name": "Ride the Lightning",
+            "description": "Defeat a Majini using the electric current from a transformer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_SEA_OF_FIRE",
+            "name": "Stop, Drop, & Roll",
+            "description": "Defeat 3 Majini at once by setting oil canisters on fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_EXPLOSION",
+            "name": "Baptism by Fire",
+            "description": "Defeat 3 Majini at once with a drum or gas tank explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_STAND_PLAY",
+            "name": "Masters of Removing",
+            "description": "Work together to save someone special.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_FATE",
+            "name": "Bad Blood",
+            "description": "During the first fight with Wesker, damage him a set number of times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_CRASH_MAKER",
+            "name": "Drive By",
+            "description": "Stop an armored truck by taking out the driver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_KILLER_SMELL",
+            "name": "Egg on Your Face",
+            "description": "Defeat a Majini with a rotten egg.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_HEART_ATTACK",
+            "name": "Heart Stopper",
+            "description": "Defeat a certain enemy by stabbing it in the heart.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_TRUE_TRUST",
+            "name": "Who Do You Trust?",
+            "description": "Build up a certain level of trust with your partner.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_SLAYERS",
+            "name": "Army of One",
+            "description": "Win 30 matches in Slayers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_SURVIVORS",
+            "name": "Eye of the Tiger",
+            "description": "Win 30 matches in Survivors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_TEAM_SLAYERS",
+            "name": "The Team That Slays Together...",
+            "description": "Win 30 matches in Team Slayers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_TEAM_SURVIVORS",
+            "name": "We Will Survive",
+            "description": "Win 30 matches in Team Survivors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_COMBO_MASTER",
+            "name": "Keep the Good Times Rolling",
+            "description": "Chain a 20-defeated combo in Slayers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_COMBO_MASTER_DUO",
+            "name": "It Takes Two to Tango",
+            "description": "Chain a 40-defeated combo in Team Slayers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_SCORE_ATTACK",
+            "name": "It's All About the Points",
+            "description": "Score at least 40,000 points in Survivors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_SCORE_ATTACK_DUO",
+            "name": "There's no \"I\" in Team",
+            "description": "Score at least 80,000 points in Team Survivors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_CHARACTER_COMPLETE",
+            "name": "Let's Get This Party Started!",
+            "description": "Unlock all selectable characters in Versus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_VAIR_KNUCKLE",
+            "name": "Bringing the Pain",
+            "description": "Defeat 100 players using physical attacks in Versus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_LN_CLEAR",
+            "name": "Must've Got Lost",
+            "description": "Complete \"Lost in Nightmares\" on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_LN_CLEAR_S",
+            "name": "It's Just a Bad Dream!",
+            "description": "Complete \"Lost in Nightmares\" with an S rank.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_LN_CLEAR_PRO",
+            "name": "Night Terrors",
+            "description": "Complete \"Lost in Nightmares\" on Professional.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_WESKERS_FURY",
+            "name": "Kung Fu Fighting",
+            "description": "Inflict a set amount of damage to Wesker in \"Lost in Nightmares.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_SCORE_HANTER",
+            "name": "Wish Upon a Star",
+            "description": "Destroy all 18 of the Score stars found throughout \"Lost in Nightmares.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_DE_CLEAR",
+            "name": "Getaway",
+            "description": "Complete \"Desperate Escape\" on any difficulty setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_DE_CLEAR_S",
+            "name": "The Great Escape",
+            "description": "Complete \"Desperate Escape\" with an S rank.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_DE_CLEAR_PRO",
+            "name": "Run the Gauntlet",
+            "description": "Complete \"Desperate Escape\" on Professional.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_BATTLE_MASTER",
+            "name": "Way of the Warrior",
+            "description": "Defeat 150 enemies singlehandedly in one playthrough of \"Desperate Escape.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_HEAD_HUNTING",
+            "name": "Shoot the Messenger",
+            "description": "Defeat 3 Agitator Majini in one playthrough of \"Desperate Escape.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
