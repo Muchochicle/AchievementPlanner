@@ -532,6 +532,9 @@ import { GUIDE as wormsReloadedAchievementGuide } from "./games/worms-reloaded.j
 import { GUIDE as wormsWmdAchievementGuide } from "./games/worms-wmd.js";
 import { GUIDE as demolitionIncAchievementGuide } from "./games/demolition-inc.js";
 import { GUIDE as savageLandsAchievementGuide } from "./games/savage-lands.js";
+import { GUIDE as magickaAchievementGuide } from "./games/magicka.js";
+import { GUIDE as painkillerHellAndDamnationAchievementGuide } from "./games/painkiller-hell-and-damnation.js";
+import { GUIDE as offspringFlingAchievementGuide } from "./games/offspring-fling.js";
 
 export const APP_GUIDES = [
 
@@ -1086,7 +1089,10 @@ export const GAME_GUIDES = [
     wormsReloadedAchievementGuide,
     wormsWmdAchievementGuide,
     demolitionIncAchievementGuide,
-    savageLandsAchievementGuide
+    savageLandsAchievementGuide,
+    magickaAchievementGuide,
+    painkillerHellAndDamnationAchievementGuide,
+    offspringFlingAchievementGuide
 
 ];
 

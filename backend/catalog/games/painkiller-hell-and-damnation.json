@@ -1,0 +1,987 @@
+{
+    "id": 214870,
+    "steamAppId": 214870,
+    "name": "Painkiller Hell & Damnation",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/214870/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 12,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Action",
+        "Fast-Paced",
+        "Demons",
+        "Gothic",
+        "Arena Shooter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "EPKA_UNLOCKED_CARD_G_ENDURANCE",
+            "name": "Endurance",
+            "description": "Cemetery: Beat the level (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "EPKA_UNLOCKED_CARD_G_HASTE",
+            "name": "Haste",
+            "description": "Tutorial: Destroy all objects  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "EPKA_UNLOCKED_CARD_G_TIMEBONUS",
+            "name": "Time Bonus",
+            "description": "Oriental Castle: Gib 123 enemies  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "EPKA_UNLOCKED_CARD_G_SPEED",
+            "name": "Speed",
+            "description": "Cathedral: Collect 330 pieces of gold dropped by enemies  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "EPKA_UNLOCKED_CARD_G_FURY",
+            "name": "Fury",
+            "description": "Loonypark: Kill 3 monsters in a row using saw blade  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "EPKA_UNLOCKED_CARD_G_DOUBLEHASTE",
+            "name": "Double Haste",
+            "description": "Opera: Collect 100 souls  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "EPKA_UNLOCKED_CARD_G_DEXTERITY",
+            "name": "Dexterity",
+            "description": "Swamp: Kill SwampThing in under 4:00  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "EPKA_UNLOCKED_CARD_G_IRONWILL",
+            "name": "Iron Will",
+            "description": "Orphanage: Gib 50 frozen enemies  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "EPKA_UNLOCKED_CARD_G_RAGE",
+            "name": "Rage",
+            "description": "Shadowland: Collect all Holy Items  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "EPKA_UNLOCKED_CARD_G_DOUBLETIMEBONUS",
+            "name": "Double Time Bonus",
+            "description": "Colloseum: Pick up every ammo box  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "EPKA_UNLOCKED_CARD_G_TRIPLEHASTE",
+            "name": "Triple Haste",
+            "description": "Alastor: Kill Alastor in under 5:00  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "EPKA_UNLOCKED_CARD_S_SOULKEEPER",
+            "name": "Soul Keeper",
+            "description": "Atrium Complex: Finish level in under 7:00  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "EPKA_UNLOCKED_CARD_S_BLESSING",
+            "name": "Blessing",
+            "description": "Enclave: Kill Necrogiant in under 2:00  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "EPKA_UNLOCKED_CARD_S_REPLENISH",
+            "name": "Replenish",
+            "description": "Colloseum: Morph into demon 3 times  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "EPKA_UNLOCKED_CARD_S_DARKSOUL",
+            "name": "Dark Soul",
+            "description": "Opera: Find all secret areas  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "EPKA_UNLOCKED_CARD_S_SOULCATCHER",
+            "name": "Soul Catcher",
+            "description": "Trainstation: Cut limbs of 100 enemies using Soul Catcher  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "EPKA_UNLOCKED_CARD_S_FORGIVENESS",
+            "name": "Forgiveness",
+            "description": "Factory: Kill 30 enemies in demon mode  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "EPKA_UNLOCKED_CARD_S_GREED",
+            "name": "Greed",
+            "description": "Orphanage: Kill all monsters  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "EPKA_UNLOCKED_CARD_S_VITALITY",
+            "name": "Vitality",
+            "description": "Cathedral: Collect 500 gold  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "EPKA_UNLOCKED_CARD_S_DIVINEINTERVENTION",
+            "name": "Divine Intervention",
+            "description": "Loonypark: Possess 25 enemies using Soul Catcher  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "EPKA_UNLOCKED_CARD_S_SOULREDEEMER",
+            "name": "Soul Redeemer",
+            "description": "Oriental Castle: Collect all Holy Items  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "EPKA_UNLOCKED_CARD_S_MERCY",
+            "name": "Mercy",
+            "description": "Shadowland: Kill Grim Reaper  (Solo Campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "EPKA_KILL_666_ENEMIES",
+            "name": "Name of the Beast",
+            "description": "Kill 666 enemies with Soul Catcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "EPKA_KILL_999_ENEMIES",
+            "name": "Upside Down Beast",
+            "description": "Kill 999 enemies with Shotgun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "EPKA_COLLECT_2012_GOLD",
+            "name": "Farmer",
+            "description": "Solo Campaign: Collect 2012 pieces of gold from fallen enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "EPKA_FIND_25_SECRET_AREAS",
+            "name": "Adventurer",
+            "description": "Solo Campaign: Find 25 secret areas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "EPKA_FINISH_FIRST_CHAPTER",
+            "name": "Grave Digger",
+            "description": "Solo Campaign: Finish 1st chapter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "EPKA_FINISH_SECOND_CHAPTER",
+            "name": "Penthouse Down",
+            "description": "Finish 2nd chapter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "EPKA_FINISH_THIRDCHAPTER",
+            "name": "Evil's Orphans",
+            "description": "Solo Campaign: Finish 3rd chapter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "EPKA_COLLECT_667_SOULS",
+            "name": "Neighbor of the Beast",
+            "description": "Collect 667 souls of dismembered enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "EPKA_SHOOT_50000_TIMES",
+            "name": "Spammer",
+            "description": "Shoot 50000 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "EPKA_PLAY_10_LEVELS_IN_COOP",
+            "name": "I have friends",
+            "description": "Play 10 different levels in cooperative mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "EPKA_COLLECT_500_AMMO_CRATES",
+            "name": "Warehouseman",
+            "description": "Collect 500 ammo crates",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "EPKA_DESTROY_300_EXPLO_BARRELS",
+            "name": "Barrel hater",
+            "description": "Destroy 300 barrels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "EPKA_KILL_333_ENEMIES_WITH_EXPLOSIVES",
+            "name": "Tornado",
+            "description": "Kill 333 enemies with explosive weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "EPKA_KILL_5_ENEMIES_WITH_ONE_ROCKET",
+            "name": "Five Points",
+            "description": "Kill 5 enemies with one rocket",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "EPKA_SPEND_666_SEC_BUNNY_HOP",
+            "name": "Demon Kangaroo",
+            "description": "Spend 666 seconds on bunny-hopping",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "EPKA_GIB_100_ENEMIES",
+            "name": "Mass Chopper",
+            "description": "Gib 500 enemies entirely with rockets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "EPKA_FINISH_GAME_ON_NIGHTMARE",
+            "name": "Nightmare Lover",
+            "description": "Solo Campaign: Play whole game on Nightmare difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "EPKA_FINISH_GAME_ON_TRAUMA",
+            "name": "Sweet dreams",
+            "description": "Solo Campaign: Play whole game on Trauma difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "EPKA_COLLECT_40_ARMORS",
+            "name": "Militarist",
+            "description": "Collect 40 armors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "EPKA_FINISH_LEVEL_WITH_STAKEGUN_ONLY",
+            "name": "Sniping Elite",
+            "description": "Solo Campaign: Finish the level using stakes only and don't miss any hit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "EPKA_KILL_10000_ENEMIES",
+            "name": "Plague",
+            "description": "Kill 6666 enemies with stakes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "EPKA_KILL_1000_ENEMIES_IN_SV",
+            "name": "Beard Grill",
+            "description": "Kill 1000 enemies in Survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "EPKA_COLLECT_ALL_AVAILABLE_TAROTS",
+            "name": "Collector",
+            "description": "Collect all available Black Tarrot cards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "EPKA_KILL_500_ENEMIES_WITH_ENV_DAMAGE",
+            "name": "Twister",
+            "description": "Kill 500 enemies with environmental explosions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "EPKA_KILL_123_ENEMIES_WITH_COMBO_DMG",
+            "name": "Mountebank",
+            "description": "Kill 123 enemies with combo damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "EPKA_CAPTURE_3_FLAGS_AS_EVE",
+            "name": "Sport Season",
+            "description": "Capture 3 flags playing as Eve in one game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "EPKA_30KILLSIN3MIN_INDEATHMATCH",
+            "name": "Insolent",
+            "description": "Get 30 kills in 3 minutes in Deathmatch mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "EPKA_FINISH_LEVEL_WITHOUT_BEING_HURT",
+            "name": "Ghost",
+            "description": "Finish level without being hurt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "EPKA_DONT_LET_YOUR_PARTNER_DIE_COOP",
+            "name": "Surgeon",
+            "description": "Play cooperative level and don't let your partner die",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "EPKA_KILLS_ENEMY_WHEN_HE_KILLS_U",
+            "name": "Mirror Effect",
+            "description": "Kill enemy at the same time he kills you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "EPKA_KILL_3_ENEMIES_WITH_1_BOLTGUN_SHOT",
+            "name": "Skewers",
+            "description": "Kill 3 enemies with one Boltgun shot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "EPKA_BRING_ENEMY_FLAG_TO_YOUR_BASE",
+            "name": "Robber",
+            "description": "Bring enemy flag to your base",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "EPKA_DONT_DIE_AND_WIN_MULTI_GAME",
+            "name": "Untouched",
+            "description": "Don't die and win multiplayer game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "EPKA_DONT_LET_ANY_ENEMIES_COLLECT_QUAD",
+            "name": "Malicious",
+            "description": "Don't let any of your enemies collect Quad Damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "EPKA_GATHER_4_MORE_FRAGS_THAN_ANY_OF_YOUR_ENEMIES",
+            "name": "4x4",
+            "description": "Play with at least 4 other people and collect 4 frags more than any of your enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "EPKA_WIN_TD_WITH_HIGHHEST_SCORE_IN_YOUR_TEAM",
+            "name": "Best of the Best",
+            "description": "Win Team Deathmatch with the highest score in your team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "EPKA_WIN_CTF_AND_BRING_FLAG_TO_YOUR_BASE_IN_10_SECONDS_OF_GAME",
+            "name": "Last moment",
+            "description": "Win Capture The Flag by bringing the flag to your base in last 10 seconds of the game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "EPKA_WIN_SV_WITH_2_TIMES_KILLED_MONSTERS_THAN_U_ENEMIES",
+            "name": "Employee of the month",
+            "description": "Win Survival killing at least 2 times more monsters than your rivals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "EPKA_KILL_3_ENEMIES_WITH_SHOTGUN_BLAST",
+            "name": "Scavenger",
+            "description": "Kill 3 enemies with one shotgun blast",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "EPKA_KILL_256_ENEMIES_WHEN_BUNNYHOPPING",
+            "name": "Jumping Death",
+            "description": "Kill 256 enemies when bunnyhopping",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "EPKA_KEEP_HIT_RATIO_ABOVE_90_PERCENT",
+            "name": "Hygienic",
+            "description": "Keep the hit ratio above 90% in whole level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "EPKA_WIN_SURVIVAL_MATCH",
+            "name": "Hard-bitten",
+            "description": "Win Survival match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "EPKA_FINISH_HALLOWEEN_MAP",
+            "name": "Halloween",
+            "description": "Finish special Halloween map and collect all lollipops for Lucipher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "EPKA_FINISH_XMAS_MAP",
+            "name": "Satan Claus",
+            "description": "Defeat Satan Claus on special Christmas map",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "EPKA_DLC1_WIN_DM_ON_PSYCHO",
+            "name": "Psycho",
+            "description": "Win deathmatch game on Psycho",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "EPKA_DLC1_WIN_SV_ON_ILLUMINATI",
+            "name": "Illuminati",
+            "description": "Win survival game on Illuminati",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "EPKA_DLC2_KILLALLENEMIES_ON_BRIDGE",
+            "name": "Bridge Player",
+            "description": "Kill all enemies on Bridge map (solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "EPKA_DLC2_FINISH_TOWN_MAP",
+            "name": "Town Cleaner",
+            "description": "Finish Town map (solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "EPKA_FINISH_CONCLAVE_LEVEL",
+            "name": "Conclave",
+            "description": "Select your own Pope in Conclave level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "EPKA_DLC3_FIND_ALL_SECRETS_ON_BUNKER",
+            "name": "Battle Robber",
+            "description": "Find all secrets on Bunker map(solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "EPKA_DLC3_WIN_DM_ON_FRAGENSTEIN",
+            "name": "Frag'n'Stein",
+            "description": "Win Deathmatch match on Fragenstein",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "EPKA_FINISH_EASTEREGG_LEVEL",
+            "name": "Evil Eggs",
+            "description": "Collect all Satan's Eggs on Easter level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "EPKA_CHALLENGE_ATRIUMCOMPLEX",
+            "name": "Monk",
+            "description": "Beat the Atrium Complex challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "EPKA_CHALLENGE_CITYONWATER",
+            "name": "Gondolier",
+            "description": "Beat the City on Water challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "EPKA_CHALLENGE_OPERA",
+            "name": "Tenor",
+            "description": "Beat the Opera challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "EPKA_CHALLENGE_TRAINSTATION",
+            "name": "Railwayman",
+            "description": "Beat the Trainstation challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "EPKA_CHALLENGE_UNSEEN",
+            "name": "Priest",
+            "description": "Beat the Unseen challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "EPKA_CHALLENGE_CHAOS",
+            "name": "Pope",
+            "description": "Beat the Chaos challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "EPKA_CHALLENGE_ILLUMINATI",
+            "name": "Savant",
+            "description": "Beat the Illuminati challenge in solo survival mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "EPKA_CHALLENGE_INHUMATOR",
+            "name": "Mourner",
+            "description": "Beat the Inhumator challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "EPKA_CHALLENGE_PSYCHO",
+            "name": "Psychiatrist",
+            "description": "Beat the Psycho challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "EPKA_CHALLENGE_FRAGENSTEIN",
+            "name": "Doctor",
+            "description": "Beat the Fragenstein challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "EPKA_CHALLENGE_COMMUNITY_BLINK",
+            "name": "Squint",
+            "description": "Beat the Blink challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "EPKA_CHALLENGE_COMMUNITY_MEATLESS",
+            "name": "Pigsticker",
+            "description": "Beat the Meatless challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "EPKA_CHALLENGE_COMMUNITY_MINES",
+            "name": "Miner",
+            "description": "Beat the Mines challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "EPKA_CHALLENGE_COMMUNITY_PRISON",
+            "name": "Prisoner",
+            "description": "Beat the Prison challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "EPKA_CHALLENGE_COMMUNITY_SNOWTOWN",
+            "name": "Snowman",
+            "description": "Beat the Snow Town challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "EPKA_DLC5_FINISH_GRAVEYARD",
+            "name": "Undertaker",
+            "description": "Finish the Graveyard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "EPKA_DLC5_FINISH_TOWN",
+            "name": "City Lights",
+            "description": "Make your way through the Town",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "EPKA_DLC5_FINISH_BABEL",
+            "name": "Bin Garner",
+            "description": "Kill final enemy on Babel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "EPKA_DLC5_FINISH_ANGKOR",
+            "name": "Stoned",
+            "description": "Defeat the Stone Golem on Angkor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "EPKA_DLC5_FINISH_PENTAGON",
+            "name": "Tank Killer",
+            "description": "Beat the tank hordes on Pentagon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "EPKA_DLC5_BABEL_DONT_KILL_ZOMBIES_WHILE_SOLVING_PUZZLES",
+            "name": "Merciful",
+            "description": "Don't kill any zombies while solving the puzzles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "EPKA_DLC5_BABEL_AVOID_BURNS_ON_FIRE_PLATE_PUZZLE",
+            "name": "Fireproof",
+            "description": "Avoid any burns on Fire Plate Puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "EPKA_DLC5_GRAVEYARD_USE_5_ELECTRIC_SPARKS",
+            "name": "Charged",
+            "description": "Use 5 electric sparks under 20 seconds during boss fight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "EPKA_DLC5_GRAVEYARD_SUMMON_GHOSTSHIP",
+            "name": "I ain't afraid o' no ghost",
+            "description": "Discover how to summon Ghostship",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "EPKA_DLC5_GRAVEYARD_DESTROY_3_AMBULANCES",
+            "name": "Medical Supply",
+            "description": "Let them burn: Destroy all 3 ambulances",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "EPKA_DLC5_TOWN_KILL_ALL_CASTLE_GUARDS",
+            "name": "Castle Break",
+            "description": "Kill all the castle guards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "EPKA_DLC5_TOWN_SOLVE_POPE_PUZZLE",
+            "name": "Pope Up",
+            "description": "Solve the pope puzzle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "EPKA_DLC5_ANGKOR_FLIP_16_COLUMNS",
+            "name": "Flipper",
+            "description": "Flip all 16 columns.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "EPKA_DLC5_ANGKOR_FINISH_ARENA_WITHOUT_USING_MONK_TRAP",
+            "name": "DYI",
+            "description": "Finish 3rd arena without using MonkTrap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 104,
+            "apiname": "EPKA_DLC6_COLLECT_ALL_HOLY_ON_MONASTERY",
+            "name": "Holy Sheet",
+            "description": "Collect all holy items on Monastery map (solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "EPKA_DLC6_DESTROY_ALL_OBJECTS_ON_RUINS",
+            "name": "Destroyer",
+            "description": "Destroy all objects on Ruins map (solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "EPKA_DLC7_COLLECT_ALL_AMMO_ON_PENTAGON",
+            "name": "Hamster",
+            "description": "Collect all ammo on Pentagon map  (solo campaign)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "EPKA_CHALLENGE_FACTORY",
+            "name": "Factorize",
+            "description": "Beat the Factory challenge in solo survival mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -1,0 +1,816 @@
+{
+    "id": 42910,
+    "steamAppId": 42910,
+    "name": "Magicka",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/42910/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Action",
+        "Comedy",
+        "Spellcasting",
+        "Fantasy",
+        "Twin Stick Shooter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "cookingbythebook",
+            "name": "Cooking by the book",
+            "description": "Cast a Magick successfully.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "aneyeforaneye",
+            "name": "An eye for an eye",
+            "description": "Defeat Behold, the watcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "nomoretrolling",
+            "name": "No more trolling",
+            "description": "Defeat Ygg.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "solidsnake",
+            "name": "Solid Snake",
+            "description": "Defeat Jormungandr.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "thereisnogoatlevel",
+            "name": "There is no goat level ",
+            "description": "Defeat Jotunn. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "savedbytheking",
+            "name": "Saved by the king ",
+            "description": "Defeat the Warlock and Machine. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "khaaaaaaaan",
+            "name": "KHAAAAAAAAN!",
+            "description": "Defeat Khan ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "88mph",
+            "name": "88mph ",
+            "description": "Get thrown back in time by Vlad. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "morelikethearistocat",
+            "name": "More like the Aristocats ",
+            "description": "Defeat the Aristocrats. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "playitagainvlad",
+            "name": "Play it again, Vlad ",
+            "description": "Defeat Vlad. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "dontfearthereaper",
+            "name": "Don't fear the reaper ",
+            "description": "Defeat Death. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "dragonslayer",
+            "name": "Dragon \"Slayer\" ",
+            "description": "Defeat Fafnir. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ithinkmagickaisapret",
+            "name": "I think Magicka is a pretty cool guy ",
+            "description": "Defeat Assatur. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "basicelement",
+            "name": "Basic Element ",
+            "description": "Use all basic elements at least once. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "vanillaice",
+            "name": "Vanilla Ice ",
+            "description": "Create a spell containing only Ice. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "letoffsomesteam",
+            "name": "Let off some steam ",
+            "description": "Create a spell containing Steam. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "statealchemist",
+            "name": "State Alchemist ",
+            "description": "Create a spell that contains at least 3 different elements. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "imthewizardkingicand",
+            "name": "I'm the wizard king, I can do anything! ",
+            "description": "Create a spell that contains 5 different elements. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "theenchanter",
+            "name": "The Enchanter",
+            "description": "Imbue your weapon with a spell. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "houdini",
+            "name": "Houdini ",
+            "description": "Break free from entanglement without using spells or magicks. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "immafirinmahlazer",
+            "name": "IMMA FIRIN' MAH LAZER!!!! ",
+            "description": "Successfully cross two beams into a more powerful one. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "rpgmuch",
+            "name": "RPG much? ",
+            "description": "Complete all side quests in the game. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "itsoverninethousand",
+            "name": "It's over nine thousand!!!! ",
+            "description": "Deal over 9000 damage to one enemy. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "nevercrossthebeams",
+            "name": "Never cross the beams ",
+            "description": "Cross opposite beams so that at least someone dies from it. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "therecanbeonlyone",
+            "name": "There can be only one ",
+            "description": "Kill MacLeod. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "wingardiumleviosa",
+            "name": "Wingardium Leviosa ",
+            "description": "Push someone off a cliff. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ohgravitythouartahea",
+            "name": "\"Oh gravity, thou art a heartless bitch\" ",
+            "description": "Die from falling damage. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "itsrainingbeastmen",
+            "name": "It's raining (beast)men ",
+            "description": "Gib 5 beastmen in 5 seconds. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "101stairborne",
+            "name": "101st Airborne ",
+            "description": "Jump off a cliff and save yourself by teleporting. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "firstblood",
+            "name": "First Blood ",
+            "description": "Kill one enemy using the M60. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "thisismagicka",
+            "name": "This is Magicka! ",
+            "description": "Push the soldier in battlefield down the hole. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "theperfectstorm",
+            "name": "The perfect storm ",
+            "description": "All players survived a thunderstorm. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "oneinamillion",
+            "name": "One in a million? ",
+            "description": "Get struck by a thunderbolt and survive. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "omgtheykilledyellow",
+            "name": "OMG! They killed Yellow! ",
+            "description": "Die with yellow robes. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "bluenoyelloooow",
+            "name": "Blue… No Yelloooow! ",
+            "description": "Have a hard time settling on a color. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "betteryouthanme",
+            "name": "Better you than me ",
+            "description": "Be invisible while one other player dies. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "killingyourfriendsyo",
+            "name": "Killing your friends, you're doing it wrong ",
+            "description": "Heal a total of 100 000 hit points. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "finderskeepers",
+            "name": "Finders keepers ",
+            "description": "Steal your friends equipment after he has died. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "deepimpact",
+            "name": "Deep Impact ",
+            "description": "Kill 5 enemies with a single Earth projectile. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "wearethechampions",
+            "name": "We are the champions ",
+            "description": "Survive all waves of a challenge. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "icallitahawkinghole",
+            "name": "I call it a Hawking Hole ",
+            "description": "Make 50 enemies get sucked into the same Vortex. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "missionimprobable",
+            "name": "Mission improbable ",
+            "description": "Complete Adventure in less than 4 hours. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "stuffoflegends",
+            "name": "Stuff of legends ",
+            "description": "Defeat Fafnir by striking him with Gram. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "iputonmyrobeandwizar",
+            "name": "I put on my robe and wizard hat ",
+            "description": "Aquire all Magicks in adventure mode. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "sherlockholmes",
+            "name": "Sherlock Holmes ",
+            "description": "Find all secret areas in the game. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "mumumumultikill",
+            "name": "MU-MU-MU-MULTIKILL! ",
+            "description": "Kill 20 enemies with one spell or magick. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "toofancyforfireballs",
+            "name": "Too fancy for fireballs? ",
+            "description": "Complete one level using only magicks. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "badtaste",
+            "name": "Bad Taste ",
+            "description": "Overkill 1000 enemies. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "kingsquest",
+            "name": "King's Quest ",
+            "description": "Find all the moose. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ledfarmer",
+            "name": "Lead farmer",
+            "description": "Kill 1000 enemies using firearms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "goodcompany",
+            "name": "Good Company",
+            "description": "Accomplish all objectives in the Vietnam rescue mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "nothingbutaman",
+            "name": "Nothing but a man, who can never fail",
+            "description": "Win 20 versus matches in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "daycruise",
+            "name": "Seven day cruise",
+            "description": "Play one game per day on the Lonely Island Cruise for seven consecutive days.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "swedishsummer",
+            "name": "Swedish Summer Achievement",
+            "description": "Experience Rain and/or Blizzard 20 times during one Versus match to unlock a much needed treat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "nopower",
+            "name": "No Power = No Responsibility",
+            "description": "Defeat Parker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "fromwhenceyoucame",
+            "name": "From whence you came...",
+            "description": "Get sucked into the portal to R'lyeh",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "fhtagnoncemore",
+            "name": "Fhtagn once more!",
+            "description": "Put great Cthulhu to sleep once more.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "banisherofhorrors",
+            "name": "Banisher of horrors",
+            "description": "Vanquish 1000 creatures of the Cthulhu mytos.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "breezedthrough",
+            "name": "Breezed through",
+            "description": "Complete Chapter 1 in one sitting without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "handlingthefrustration",
+            "name": "Handling the frustration",
+            "description": "Complete Chapter 2 in one sitting without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "drivenmad",
+            "name": "Driven mad",
+            "description": "Complete Chapter 3 in one sitting without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "iceage",
+            "name": "Ice Age",
+            "description": "It's what killed the dinosaurs. Smash 100 frozen creatures to bits.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "friendship",
+            "name": "Friendship is Magicka",
+            "description": "Find all the elven horses",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "letmein",
+            "name": "Let Me In",
+            "description": "Enter the house of Elwenhús",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "crusking",
+            "name": "The Crusader Breakings",
+            "description": "Defeat the first Guardian",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "bridgenear",
+            "name": "A Bridge too Near",
+            "description": "Defeat the second Guardian",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "amarth",
+            "name": "Amarth Faeg!",
+            "description": "Defeat the third Guardian",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "interring",
+            "name": "Interred with the Vampire",
+            "description": "Finish The Other Side of the Coin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "dng1hardon",
+            "name": "Hurt me plenty",
+            "description": "Find and leave the brazier of Bizzlebob aflame.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "dng1nodeath",
+            "name": "Just a breeze of blue cheese",
+            "description": "Finish the chapter without any player dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "dng1nodeathhard",
+            "name": "Hey, mach-arena!",
+            "description": "Finish the chapter on hard difficulty without any player dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "dng1error37",
+            "name": "Not what they signed up for",
+            "description": "Disrupt the service of 37 minions by the means of spinning saws.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "dng1win",
+            "name": "Is that the wurst you can do?",
+            "description": "Defeat the Wurstmacher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "dng1winhard",
+            "name": "Tenderized!",
+            "description": "Finish the chapter on hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "dng1noorcs",
+            "name": "I don't believe in Orcs",
+            "description": "Get to the Old Library without killing any Orcs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "dng1tide",
+            "name": "Enduring the Tide",
+            "description": "Survive the entire onslaught at the end of Courtyard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "dng1tidehard",
+            "name": "Being the Tide",
+            "description": "Survive the entire onslaught at the end of Courtyard on hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "dng1nosaw",
+            "name": "Don't mach such a mess",
+            "description": "Defeat the Wurstmacher without destroying any spinning saws.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "dng2finishnormal",
+            "name": "Wiped Out",
+            "description": "Finish Dungeons & Gargoyles on normal difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "dng2finishhard",
+            "name": "Khan't we all just get along?",
+            "description": "Finish Dungeons & Gargoyles on hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "dng2readentireletter",
+            "name": "The postwizard",
+            "description": "Read the entire letter from Meach in Dungeons & Gargoyles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "dng2hardon",
+            "name": "Ultra-Violence",
+            "description": "Find and leave the radio of Bizzlepop in Dungeons & Gargoyles on.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "dng2finishnormalwithnodeath",
+            "name": "Street smart",
+            "description": "Finish Dungeons & Gargoyles without any player dying on normal difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "dng2finishhardwithnodeath",
+            "name": "City tour guide",
+            "description": "Finish Dungeons & Gargoyles without any player dying on hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "dng2notrolls",
+            "name": "I don't believe in Trolls",
+            "description": "Finish the bankrobbery encounter with all trolls still alive",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "dng2assassinlast",
+            "name": "The others were dwarfed by you",
+            "description": "Defeat the adventurers in Dungeons & Gargoyles by defeating the Assassin last.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "dng2championlast",
+            "name": "That was a fairy fight",
+            "description": "Defeat the adventurers in Dungeons & Gargoyles by defeating the Champion last.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "dng2magicianlast",
+            "name": "The clone wars",
+            "description": "Defeat the adventurers in Dungeons & Gargoyles by defeating the Magician last.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

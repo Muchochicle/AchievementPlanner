@@ -556,6 +556,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("worms-wmd"));
     assert.ok(slugs.includes("demolition-inc"));
     assert.ok(slugs.includes("savage-lands"));
+    assert.ok(slugs.includes("magicka"));
+    assert.ok(slugs.includes("painkiller-hell-and-damnation"));
+    assert.ok(slugs.includes("offspring-fling"));
 
 });
 
