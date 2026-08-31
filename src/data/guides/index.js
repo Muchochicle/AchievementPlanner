@@ -619,6 +619,8 @@ import { GUIDE as lyneAchievementGuide } from "./games/lyne.js";
 import { GUIDE as beatSaberAchievementGuide } from "./games/beat-saber.js";
 import { GUIDE as oceanhornMonsterOfUnchartedSeasAchievementGuide } from "./games/oceanhorn-monster-of-uncharted-seas.js";
 import { GUIDE as mountainAchievementGuide } from "./games/mountain.js";
+import { GUIDE as middleEarthShadowOfWarAchievementGuide } from "./games/middle-earth-shadow-of-war.js";
+import { GUIDE as styxMasterOfShadowsAchievementGuide } from "./games/styx-master-of-shadows.js";
 
 export const APP_GUIDES = [
 
@@ -1260,7 +1262,9 @@ export const GAME_GUIDES = [
     lyneAchievementGuide,
     beatSaberAchievementGuide,
     oceanhornMonsterOfUnchartedSeasAchievementGuide,
-    mountainAchievementGuide
+    mountainAchievementGuide,
+    middleEarthShadowOfWarAchievementGuide,
+    styxMasterOfShadowsAchievementGuide
 
 ];
 
