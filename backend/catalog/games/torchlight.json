@@ -1,0 +1,618 @@
+{
+    "id": 41500,
+    "steamAppId": 41500,
+    "name": "Torchlight",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/41500/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Hack and Slash",
+        "Dungeon Crawler",
+        "Fantasy",
+        "Loot",
+        "Isometric"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TORCHLIGHT_ACHIEVEMENT_FIRSTLEVEL",
+            "name": "The Adventure Begins",
+            "description": "Find the entrance to the mine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "BREAKABLES",
+            "name": "Master Smasher",
+            "description": "Smash 1500 Breakables",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "BEAST_OF_BURDEN",
+            "name": "Beast of Burden",
+            "description": "Fill your pet's inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "PLAYER_GOLD_COLLECTED",
+            "name": "Rich",
+            "description": "Collect 250,000 gold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "PLAYER_GOLD_IN_POCKET",
+            "name": "Deep Pockets",
+            "description": "Have 100,000 gold in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "CRITICAL_STRIKE_ON_DEATH",
+            "name": "Gibbed",
+            "description": "Blow 25 enemies to pieces with critical strikes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "REACH_LVL_50",
+            "name": "Deep Delver",
+            "description": "Reach the 50th floor of a dungeon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "MAX_DMG_DONE",
+            "name": "Epic Strike",
+            "description": "Do at least 10,000 damage to an enemy in a single strike",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 9,
+            "apiname": "REACH_LVL_100",
+            "name": "True Delver",
+            "description": "Reach level 100",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "FISH_CAUGHT_50",
+            "name": "Angler",
+            "description": "Catch 50 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "FISH_CAUGHT_100",
+            "name": "Fisherman",
+            "description": "Catch 100 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "FISH_CAUGHT_1000",
+            "name": "Fisher King",
+            "description": "Catch 1000 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "PET_TRAINER",
+            "name": "Pet Trainer",
+            "description": "Equip a spell on your pet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "PET_MIMIC",
+            "name": "Sorcelator's Servant",
+            "description": "Transform your pet into a Mimic by feeding it the right fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ENCHANTER_SUCCESS_5",
+            "name": "Enchanted",
+            "description": "Successfully enchant one item 5 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ENCHANTER_SUCCESS_10",
+            "name": "Enchantment Overload",
+            "description": "Successfully enchant one item 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "PET_FEED_FISH_ANY",
+            "name": "Shape-Shifter",
+            "description": "Change your pet by feeding it fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "PET_FEED_FISH_PERMANENT",
+            "name": "Transmogrifier",
+            "description": "Permanently transform your pet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "PET_SEND_TO_TOWN",
+            "name": "Fetch a Fair Price",
+            "description": "Send your pet to town",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ENCHANTER_FAILURE_20",
+            "name": "The Need for Greed",
+            "description": "Suffer 20 disenchants from the enchanter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ENCHANTER_FAILURE_FIRST",
+            "name": "Bum Luck",
+            "description": "Have an item disenchanted on the first enchantment attempt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "RECIPES_25",
+            "name": "Sir Mixes-a-lot",
+            "description": "Successfully create 25 items using the transmuter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "QUESTS_COMPLETE_200",
+            "name": "Questor",
+            "description": "Complete 200 Quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "QUESTS_COMPLETE_HATCH_50",
+            "name": "Down the Hatch",
+            "description": "Complete 50 Hatch Quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "GAMBLER_20",
+            "name": "Gambling Enthusiast",
+            "description": "Gamble 20 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "GAMBLER_50",
+            "name": "Gambling Addict",
+            "description": "Gamble 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "GAMBLER_100",
+            "name": "Gambling Fiend",
+            "description": "Gamble 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "MODS_1",
+            "name": "Mod Squad",
+            "description": "1 game mod installed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "MODS_5",
+            "name": "Mod Maniac",
+            "description": "5 mods installed at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "MODS_10",
+            "name": "Modpocalypse",
+            "description": "10 mods used at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "GAMBLE_UNIQUE",
+            "name": "Lucky Gambler",
+            "description": "Gamble a unique item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "PLAYER_LEVEL_65",
+            "name": "Pension Plan",
+            "description": "Achieve player level 65",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "PLAYER_LEVEL_100",
+            "name": "The Long Haul",
+            "description": "Achieve player level 100",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "RETIRE_1",
+            "name": "Passing the Torch",
+            "description": "Retire a character",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "RETIRE_2",
+            "name": "Noble Lineage",
+            "description": "Retire two characters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "RETIRE_300",
+            "name": "Line of Kings",
+            "description": "Retire over 300 levels worth of characters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "PULLED_LEVERS_100",
+            "name": "Ka-Chunk!",
+            "description": "Pull 100 levers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "PET_POTIONS_50",
+            "name": "Price of Loyalty",
+            "description": "Use 50 potions on your pet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MAX_FAME",
+            "name": "Superstar",
+            "description": "Achieve maximum fame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "TRAVEL_25000",
+            "name": "Walkabout",
+            "description": "Take 25,000 steps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "DIE_500",
+            "name": "Tormented",
+            "description": "Die 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "KILL_25_TROLL_CHMPS",
+            "name": "Trolling for Punishment",
+            "description": "Kill 25 champion trolls",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "KILL_5000_MONSTERS",
+            "name": "Wabam!",
+            "description": "Kill 5000 Monsters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "KILL_50000_MONSTERS",
+            "name": "Supreme Slayer",
+            "description": "Kill 50,000 monsters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "KILL_BRINK",
+            "name": "Over the Brink",
+            "description": "Defeat Brink",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "KILL_LICH",
+            "name": "A Lich to Scratch",
+            "description": "Defeat the Overseer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "KILL_ROOT_GOLEM",
+            "name": "Tree Hugger",
+            "description": "Defeat the Root Golem",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "KILL_EMBER_COLOSSUS",
+            "name": "When this Town's a Rockin'",
+            "description": "Defeat the Ember Colossus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "KILL_TROLL_BOSS",
+            "name": "Big and Green and Dead all Over",
+            "description": "Defeat Krag",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "KILL_MEDEA",
+            "name": "Purple People Defeater",
+            "description": "Defeat Medea",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "KILL_ALRIC",
+            "name": "Only a Master of Evil",
+            "description": "Defeat Alric",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "PERFECT_VICTORY",
+            "name": "Perfect Victory",
+            "description": "Defeat Ordrak with no deaths",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "BEASTSLAYERI",
+            "name": "Beast Slayer I",
+            "description": "Defeat Ordrak on Easy or Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "BEASTSLAYERII",
+            "name": "Beast Slayer II",
+            "description": "Defeat Ordrak on Hard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "BEASTSLAYERIII",
+            "name": "Beast Slayer III",
+            "description": "Defeat Ordrak on Very Hard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "HARDCORE_VICTOR",
+            "name": "Hardcore Victor",
+            "description": "Defeat Ordrak on Easy Hardcore",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "HARDCORE_HERO",
+            "name": "Hardcore Hero",
+            "description": "Defeat Ordrak on Normal Hardcore",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "HARDCORE_CHAMPION",
+            "name": "Hardcore Champion",
+            "description": "Defeat Ordrak on Hard Hardcore",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "HARDCORE_GOD",
+            "name": "Hardcore God",
+            "description": "Defeat Ordrak on Very Hard Hardcore",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "SPEEDY",
+            "name": "Swift Execution",
+            "description": "Defeat Ordrak in 8 hours or less",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "SPEED_KING",
+            "name": "Speed King",
+            "description": "Defeat Ordrak in less than 5 hours",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "HAT_TRICK",
+            "name": "Hat Trick",
+            "description": "Beat the game with all three classes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "DRINK_POTIONS",
+            "name": "Potion Whiz",
+            "description": "Drink 5,000 potions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "SELL_ITEMS",
+            "name": "Cash for Trash",
+            "description": "Sell 10,000 items to vendors",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 65,
+            "apiname": "HORSE_TALK",
+            "name": "The Horse Whisperer",
+            "description": "Click on the horse in town (next to the gem collectors Gorn and Furl) 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "QUESTS_COMPLETE_GAR_25",
+            "name": "Universally Understood",
+            "description": "Complete 25 Gar Quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

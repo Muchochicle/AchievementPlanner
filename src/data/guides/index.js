@@ -689,6 +689,9 @@ import { GUIDE as shapezAchievementGuide } from "./games/shapez.js";
 import { GUIDE as farmingSimulator25AchievementGuide } from "./games/farming-simulator-25.js";
 import { GUIDE as bugsnaxAchievementGuide } from "./games/bugsnax.js";
 import { GUIDE as gears5AchievementGuide } from "./games/gears-5.js";
+import { GUIDE as torchlightAchievementGuide } from "./games/torchlight.js";
+import { GUIDE as theAltersAchievementGuide } from "./games/the-alters.js";
+import { GUIDE as dragonsDogma2AchievementGuide } from "./games/dragons-dogma-2.js";
 
 export const APP_GUIDES = [
 
@@ -1400,7 +1403,10 @@ export const GAME_GUIDES = [
     shapezAchievementGuide,
     farmingSimulator25AchievementGuide,
     bugsnaxAchievementGuide,
-    gears5AchievementGuide
+    gears5AchievementGuide,
+    torchlightAchievementGuide,
+    theAltersAchievementGuide,
+    dragonsDogma2AchievementGuide
 
 ];
 
