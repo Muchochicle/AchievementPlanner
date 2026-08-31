@@ -1,0 +1,492 @@
+{
+    "id": 1030300,
+    "steamAppId": 1030300,
+    "name": "Hollow Knight: Silksong",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 45,
+        "max": 90
+    },
+    "missable": true,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Metroidvania",
+        "Souls-like",
+        "Action",
+        "Platformer",
+        "Difficult",
+        "Atmospheric"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FIRST_TOOL",
+            "name": "Equipped",
+            "description": "Acquire your first Tool",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ALL_TOOLS",
+            "name": "Arsenal",
+            "description": "Acquire all Tools",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "FIRST_SILK_SKILL",
+            "name": "Bound",
+            "description": "Bind your first Silk Skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ALL_SILK_SKILLS",
+            "name": "Woven",
+            "description": "Bind all Silk Skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "FIRST_CREST",
+            "name": "Claimed",
+            "description": "Claim your first Crest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ALL_CRESTS",
+            "name": "Consumed",
+            "description": "Claim all Crests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "FIRST_MASK",
+            "name": "Protected",
+            "description": "Acquire 4 Mask Shards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ALL_MASKS",
+            "name": "Masked",
+            "description": "Acquire all Mask Shards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "FIRST_SILK_SPOOL",
+            "name": "Restored",
+            "description": "Acquire 2 Spool Fragments",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ALL_SILK_SPOOLS",
+            "name": "Extended",
+            "description": "Acquire all Spool Fragments",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ALL_SILK_HEARTS",
+            "name": "Regenerated",
+            "description": "Acquire all Silk Hearts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ALL_MAPS",
+            "name": "Cartographer",
+            "description": "Acquire a map of each area",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "BELLWAYS_FULL",
+            "name": "Connected",
+            "description": "Open all of Pharloom's Bellways",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "BELLWAY_MELODY",
+            "name": "Bonded",
+            "description": "Learn the Beastling Call by defeating the Bell Eater in Act 3, letting the Bell Beast carry you between Bellways.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "TUBES_FULL",
+            "name": "Transported",
+            "description": "Open all of the Citadel's Ventrica Stations",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "JOURNAL_HALF",
+            "name": "Keen Hunter",
+            "description": "Grant Nuu's wish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "JOURNAL_FULL",
+            "name": "True Hunter",
+            "description": "Receive the Hunter's Memento",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "FLEAS_HALF",
+            "name": "Flea Finder",
+            "description": "Rescue half of Pharloom's lost fleas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "FLEAS_ALL",
+            "name": "Fleafriend",
+            "description": "Rescue all of Pharloom's lost fleas and receive their final gift",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "DEFEATED_BELLBEAST",
+            "name": "Liberated",
+            "description": "Defeat the Bell Beast",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "DEFEATED_LACE_1",
+            "name": "Pharloom's Welcome",
+            "description": "Defeat Lace in Deep Docks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "DEFEATED_SONG_GOLEM",
+            "name": "Servant",
+            "description": "Defeat Fourth Chorus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "DEFEATED_WIDOW",
+            "name": "Fanatic",
+            "description": "Defeat Widow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "DEFEATED_LAST_JUDGE_1",
+            "name": "Judge",
+            "description": "Defeat the Last Judge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "DEFEATED_COGWORK_DANCERS",
+            "name": "Last Dance",
+            "description": "Defeat the Cogwork Dancers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "DEFEATED_TROBBIO",
+            "name": "Tragedian",
+            "description": "Defeat Trobbio",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "DEFEATED_LACE_2",
+            "name": "White Knight",
+            "description": "Defeat Lace in the Cradle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "DEFEATED_PHANTOM_1",
+            "name": "Grey Ghost",
+            "description": "Defeat Phantom in the Exhaust Organ, reached through The Mist in Sinner's Road.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "DEFEATED_FIRST_SINNER",
+            "name": "Heretic",
+            "description": "Defeat the First Sinner in The Slab, after acquiring the Key of the Apostate.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "DEFEATED_CORAL_KING",
+            "name": "Tyrant",
+            "description": "Defeat Crust King Khann inside the Coral Tower during Act 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "DEFEATED_FLOWER_QUEEN",
+            "name": "Seed",
+            "description": "Defeat Nyleth in a hidden section of the Grand Gate during Act 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "DEFEATED_HUNTER_QUEEN",
+            "name": "Diva",
+            "description": "Defeat Skarrsinger Karmelita in the new Far Fields area during Act 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "DEFEATED_GREEN_PRINCE",
+            "name": "Lamenter",
+            "description": "Save the Green Prince, then defeat the Clover Dancers in Verdania during Act 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "FIRST_WISH",
+            "name": "Granted",
+            "description": "Grant your first wish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "GOURMAND_WISH",
+            "name": "Glutton",
+            "description": "Satiate the Grand Gourmand",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "SHAKRA_FINAL_QUEST",
+            "name": "Trail's End",
+            "description": "Grant Shakra's wish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "GARMOND_FINAL_QUEST",
+            "name": "Hero's Call",
+            "description": "Complete the Hero's Call wish: find Garmond and Zaza in Far Fields three times, then defeat Lost Garmond in the Blasted Steps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "PINSTRESS_WISH",
+            "name": "Fatal Resolve",
+            "description": "Complete the Fatal Resolve wish: obtain Needle Strike from Pinstress's house, then defeat Pinstress at Mount Fay.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "EVA_FINAL_QUEST",
+            "name": "Entwined",
+            "description": "Bind Eva in Weavenest Atla, completing her questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "BELLHOME",
+            "name": "Resident",
+            "description": "Acquire your own Bellhome",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "CITADEL_SONG",
+            "name": "Harmonious",
+            "description": "Learn the Citadel's Threefold song",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "WHITE_FLOWER_GAINED",
+            "name": "Remembrance",
+            "description": "Claim the Everbloom from within a distant memory: collect all three Old Hearts and clear the Red Memory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ENDING_A",
+            "name": "Weaver Queen",
+            "description": "Defeat Grand Mother Silk and bind her power - the standard ending.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ENDING_C",
+            "name": "Snared Silk",
+            "description": "Complete the Silk and Soul wish, then defeat Grand Mother Silk and entrap her with the Soul Snare - the bad ending.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ENDING_D",
+            "name": "Twisted Child",
+            "description": "Complete the Rite of Rebirth wish to curse Hornet, then defeat Grand Mother Silk while cursed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ENDING_E",
+            "name": "Sister of the Void",
+            "description": "After obtaining all Old Hearts, defeat Lost Lace in The Abyss to free Pharloom - the true ending.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "HERALD_WISH",
+            "name": "Passing of the Age",
+            "description": "Grant the Herald's wish and defeat the final boss at Act 3's conclusion - the secret ending.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "COMPLETION",
+            "name": "Completion",
+            "description": "Achieve 100% game completion and finish the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 49,
+            "apiname": "SPEEDRUN_1",
+            "name": "Speedrunner",
+            "description": "Complete the game in under 5 hours",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "SPEED_COMPLETION",
+            "name": "Speed Completion",
+            "description": "Achieve 100% game completion and finish the game in under 30 hours",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 51,
+            "apiname": "STEEL_SOUL",
+            "name": "Steel Soul",
+            "description": "Finish the game in Steel Soul mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "STEEL_SOUL_FULL",
+            "name": "Steel Heart",
+            "description": "Achieve 100% game completion and finish the game in Steel Soul mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        }
+    ]
+}

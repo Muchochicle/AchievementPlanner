@@ -710,6 +710,9 @@ import { GUIDE as prospectorAchievementGuide } from "./games/prospector.js";
 import { GUIDE as aTotalWarSagaTroyAchievementGuide } from "./games/a-total-war-saga-troy.js";
 import { GUIDE as fightNRageAchievementGuide } from "./games/fight-n-rage.js";
 import { GUIDE as discRoomAchievementGuide } from "./games/disc-room.js";
+import { GUIDE as hollowKnightSilksongAchievementGuide } from "./games/hollow-knight-silksong.js";
+import { GUIDE as nineSolsAchievementGuide } from "./games/nine-sols.js";
+import { GUIDE as scheduleIAchievementGuide } from "./games/schedule-i.js";
 
 export const APP_GUIDES = [
 
@@ -1442,7 +1445,10 @@ export const GAME_GUIDES = [
     prospectorAchievementGuide,
     aTotalWarSagaTroyAchievementGuide,
     fightNRageAchievementGuide,
-    discRoomAchievementGuide
+    discRoomAchievementGuide,
+    hollowKnightSilksongAchievementGuide,
+    nineSolsAchievementGuide,
+    scheduleIAchievementGuide
 
 ];
 

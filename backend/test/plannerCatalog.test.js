@@ -734,6 +734,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("a-total-war-saga-troy"));
     assert.ok(slugs.includes("fight-n-rage"));
     assert.ok(slugs.includes("disc-room"));
+    assert.ok(slugs.includes("hollow-knight-silksong"));
+    assert.ok(slugs.includes("nine-sols"));
+    assert.ok(slugs.includes("schedule-i"));
 
 });
 
