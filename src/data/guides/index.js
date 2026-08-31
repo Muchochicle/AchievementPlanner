@@ -579,6 +579,9 @@ import { GUIDE as costumeQuestAchievementGuide } from "./games/costume-quest.js"
 import { GUIDE as mafia2ClassicAchievementGuide } from "./games/mafia-2-classic.js";
 import { GUIDE as dayzAchievementGuide } from "./games/dayz.js";
 import { GUIDE as battlebornAchievementGuide } from "./games/battleborn.js";
+import { GUIDE as metro2033AchievementGuide } from "./games/metro-2033.js";
+import { GUIDE as duskAchievementGuide } from "./games/dusk.js";
+import { GUIDE as seriousSam2AchievementGuide } from "./games/serious-sam-2.js";
 
 export const APP_GUIDES = [
 
@@ -1180,7 +1183,10 @@ export const GAME_GUIDES = [
     costumeQuestAchievementGuide,
     mafia2ClassicAchievementGuide,
     dayzAchievementGuide,
-    battlebornAchievementGuide
+    battlebornAchievementGuide,
+    metro2033AchievementGuide,
+    duskAchievementGuide,
+    seriousSam2AchievementGuide
 
 ];
 

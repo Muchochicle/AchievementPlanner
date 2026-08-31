@@ -603,6 +603,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("mafia-2-classic"));
     assert.ok(slugs.includes("dayz"));
     assert.ok(slugs.includes("battleborn"));
+    assert.ok(slugs.includes("metro-2033"));
+    assert.ok(slugs.includes("dusk"));
+    assert.ok(slugs.includes("serious-sam-2"));
 
 });
 

@@ -1,0 +1,456 @@
+{
+    "id": 43110,
+    "steamAppId": 43110,
+    "name": "Metro 2033",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/43110/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 10,
+        "max": 25
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Post-apocalyptic",
+        "Story Rich",
+        "Atmospheric",
+        "Survival",
+        "Horror"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_Air_gunner",
+            "name": "Air gunner",
+            "description": "Kill 30 enemies using pneumatic weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ach_Boom",
+            "name": "Ka-Boom!",
+            "description": "Explode 10 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ach_Cowboy",
+            "name": "Cowboy",
+            "description": "Kill 30 enemies using revolvers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ach_Demolitionist",
+            "name": "Demolitionist",
+            "description": "Blow up the tunnel and airlock at 'Cursed' station.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ach_Enlightened",
+            "name": "Enlightened",
+            "description": "Reach the 'Enlightened' (good) ending - accumulate enough Moral Points over the game, then shoot the missile guidance laser immediately before the final cutscene.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ach_Fire_in_the_hole",
+            "name": "Fire in the hole",
+            "description": "Kill 20 lurkers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ach_first_blood",
+            "name": "First blood",
+            "description": "What doesn't kill you, makes you stronger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ach_frontline_kill_everyone",
+            "name": "Hedge-hopper",
+            "description": "On the level 'Frontline' kill all of the enemy Red Army and Fascist Soldiers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ach_frontline_stealth",
+            "name": "Invisible man",
+            "description": "Complete 'Frontline' level without killing anyone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ach_Fugitive",
+            "name": "Fugitive",
+            "description": "Complete level 'Armory' without getting caught.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ach_Ghost_buster",
+            "name": "Exorcist",
+            "description": "Complete levels 'Ghosts' and 'Anomaly' without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ach_heavy_metal",
+            "name": "Heavy Metal",
+            "description": "Kill 15 enemies using stationary machine gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ach_hostile",
+            "name": "If it's hostile, you kill it.",
+            "description": "Reach the default 'Ranger' ending - finish the game without enough Moral Points, or do not destroy the missile guidance system at the end.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ach_Inquisitor",
+            "name": "Inquisitor",
+            "description": "Kill 2 demons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ach_Machete",
+            "name": "Slice & Dice",
+            "description": "Kill 20 enemies with the knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ach_Merciful",
+            "name": "Merciful",
+            "description": "Complete the level 'Black Station' without killing any Fascist Soldiers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ach_Ninja",
+            "name": "Ninja",
+            "description": "Kill 10 enemies with throwing knives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ach_Nosalis_hunter",
+            "name": "Nosalis hunter",
+            "description": "Kill 30 nosalises.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ach_Old_school",
+            "name": "Old school",
+            "description": "Kill 30 enemies with the double-barreled shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ach_Pathoanatomist",
+            "name": "Pathoanatomist",
+            "description": "Kill 5 amoebas.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ach_Pyro",
+            "name": "Pyro",
+            "description": "Kill 5 enemies with a flamethrower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ach_quick_witted",
+            "name": "Quick-witted",
+            "description": "Break the support and activate the chandelier in less than 20 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ach_Radio_DJ",
+            "name": "DJ Artyom",
+            "description": "On the level 'Outpost' reach the radio tower and broadcast the commander's message.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ach_Raider",
+            "name": "Raider",
+            "description": "On the level 'Depot' silently kill the first guard and break into the Fascist station unnoticed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ach_Ranger",
+            "name": "Rescue Ranger",
+            "description": "Save a group of 'Reds' from Fascist captivity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ach_Reader",
+            "name": "Heavy Reader",
+            "description": "Kill a librarian.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ach_Sapper",
+            "name": "Soft Touch",
+            "description": "Disarm 10 wire traps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ach_scrooge",
+            "name": "Scrooge",
+            "description": "Save 500 military-grade rounds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ach_sniper",
+            "name": "Sniper",
+            "description": "Make 25 headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ach_speculator",
+            "name": "Wheeler-Dealer",
+            "description": "Exchange 500 Military-Grade 5.45 rounds at Exchange kiosks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ach_Stalker",
+            "name": "Ranger",
+            "description": "Find all Ranger stashes in Dead City 1 and 2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ach_Swift one",
+            "name": "Quick Draw",
+            "description": "On the level 'Hunter' kill the nosalises before they break through the ventilation grilles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ach_T_34",
+            "name": "Tank Buster",
+            "description": "Destroy fascists' Panzer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ach_trader",
+            "name": "Metro Trader",
+            "description": "Make 10 deals in weapon shops.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "explorer",
+            "name": "Explorer",
+            "description": "There is no place in metro you did not visit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "generous",
+            "name": "Generous",
+            "description": "Help the poor, a coin for the kid, medicine for the sick. You help everyone you see.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "metro_d",
+            "name": "Metro dweller",
+            "description": "A true metro citizen. You know everyone and have seen everything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "realist",
+            "name": "Realist",
+            "description": "A coin for a hungry kid? Get a job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "sherlock",
+            "name": "Sherlock",
+            "description": "Found all gold ammo, hidden throughout the stations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ach_air_bender",
+            "name": "Air Bender",
+            "description": "Kill 30 humans with only pneumatic weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ach_gunman",
+            "name": "Gunman",
+            "description": "Kill 50 enemies with heavy automatic shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ach_shocking",
+            "name": "Shocking",
+            "description": "Get 50 kills with Volt Driver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ach_sterling",
+            "name": "Sterling Effort",
+            "description": "Kill 50 mutants with your knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ach_sticky",
+            "name": "Sticks like a bur",
+            "description": "Kill 15 enemies using sticky grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ach_stunning",
+            "name": "Stunning",
+            "description": "Get 25 kills with alternative fire of Volt Driver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ach_Survivor",
+            "name": "Survivor",
+            "description": "Complete the game in Ranger Mode Easy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ach_weaponsmith",
+            "name": "Weaponsmith",
+            "description": "Kill at least one enemy with each weapon available in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ach_survivav_hard",
+            "name": "Last Man Standing",
+            "description": "Complete the game in Ranger Mode Hardcore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
