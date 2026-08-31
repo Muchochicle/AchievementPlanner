@@ -508,6 +508,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ea-sports-fc-26"));
     assert.ok(slugs.includes("football-manager-2021"));
     assert.ok(slugs.includes("lets-build-a-zoo"));
+    assert.ok(slugs.includes("ultra-street-fighter-4"));
+    assert.ok(slugs.includes("street-fighter-5"));
+    assert.ok(slugs.includes("injustice-gods-among-us"));
 
 });
 

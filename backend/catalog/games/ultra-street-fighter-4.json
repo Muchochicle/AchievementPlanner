@@ -1,0 +1,627 @@
+{
+    "id": 45760,
+    "steamAppId": 45760,
+    "name": "Ultra Street Fighter IV",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/45760/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 30,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Fighting",
+        "2D Fighter",
+        "Arcade",
+        "Multiplayer",
+        "Competitive",
+        "Classic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_ID_COMPLETE",
+            "name": "Overachiever",
+            "description": "Attain all the Achievements! The path of the warrior demands this from those who walk on it!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_ID_UNLOCK_COLOR",
+            "name": "Fashion Plate",
+            "description": "Even a top rate fighter needs to coordinate properly! You gotta get all of the Colors first!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_ID_UNLOCK_APPEAL",
+            "name": "Dan the Man",
+            "description": "Mastery of the Saikyo arts requires mastery of the Personal Action! Collect 'em all, punk!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_ID_UNLOCK_TITLE",
+            "name": "Entitled",
+            "description": "A Title does not tell all of a man, sir, but if I were to see one Title, I'd want them all...",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_ID_UNLOCK_ICON",
+            "name": "Iconoclast",
+            "description": "Oh my gosh, those Icons are so adorable! I gotta find Don-chan and catch 'em all!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_ID_HIT_SM",
+            "name": "Special Movement",
+            "description": "Do a Special Move 100 times! If you're a true student of the Rindo-kan dojo, it's your duty!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_ID_HIT_EX",
+            "name": "EXtra! EXtra!",
+            "description": "Battle requires courage! Train by using your EX Gauge to successfully land 100 EX Moves!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_ID_HIT_SC",
+            "name": "Super, Man!",
+            "description": "To battle is to win a fight with overwhelming strength! Show me you can do 100 Super Combos!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_ID_HIT_UC",
+            "name": "Ultra, Man!",
+            "description": "If yer gonna fight, give it your all, pal. Performing 100 Ultra Combos oughta do it, eh?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_ID_HIT_SAVING",
+            "name": "It Takes Focus",
+            "description": "Your mission, should you wish to join Delta Red, is to connect with 100 Focus Attacks! ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_ID_FINISH_SC",
+            "name": "Superior Super",
+            "description": "Trust your instincts and winning will come easy. Let's begin with 50 Super Combo finishes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ID_FINISH_UC",
+            "name": "Ultimate Ultra",
+            "description": "Candy always says you gotta win with style, so go out there and perform 50 Ultra Combo finishes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_ID_FINISH_AKEBONO",
+            "name": "Sunspotter",
+            "description": "Amigo, perform 365 Super or Ultra Combo finishes against your opponents! The dawn is coming!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_ID_FINISH_PERFECT",
+            "name": "Absolute Perfection",
+            "description": "Lauren's waiting, so how about you finish your fights quickly and get 30 Perfects. Sound good?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_ID_ARCADE_CLEAR_0",
+            "name": "Clear Headed",
+            "description": "Hey! Got time to kill? Try to clear Arcade Mode on Medium or higher! That's all you gotta do!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_ID_ARCADE_CLEAR_1",
+            "name": "All Clear",
+            "description": "To get strong takes lots of fighting! Clear Arcade Mode on Medium or higher with all characters!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_ID_ARCADE_CLEAR_NOCONTINUE",
+            "name": "Herculean Effort",
+            "description": "Can you finish Arcade Mode on Medium or higher without using a continue? Show me you can!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_ID_ARCADE_CLEAR_HARDEST_0",
+            "name": "Hard Times",
+            "description": "To escape death is to beat the strongest of the strong. Finish Arcade Mode on Hardest, kid!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_ID_ARCADE_CLEAR_HARDEST_1",
+            "name": "Long Time No See",
+            "description": "Do you wish for defeat? If so, complete Arcade Mode on Hardest difficulty and beat Gouken!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_ID_ARCADE_CLEAR_RIVAL",
+            "name": "Rival Schooled",
+            "description": "See your future by clearing every Rival Battle on Medium or higher with every character.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_ID_ARCADE_CLEAR_RAPID_TIME",
+            "name": "Speed Freak",
+            "description": "Finish each round in Arcade Mode on Medium or higher in 20 seconds or less. Too easy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_ID_TRIAL_CLEAR_0",
+            "name": "Good Start",
+            "description": "All of nature must withstand a trial. You must clear 10 trials in Trial mode to succeed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_ID_TRIAL_CLEAR_1",
+            "name": "Trail of Trials",
+            "description": "There is no shortcut in the art of Yoga. Aim to clear any character's Trial mode!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_ID_TRIAL_CLEAR_2",
+            "name": "Trial Athlete",
+            "description": "I shall assimilate all and be all-powerful! Clear all Trial challenges, and so can you!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_ID_BONUS_CLEAR_0",
+            "name": "Oh! My Car!",
+            "description": "Hee hee, destruction is so much fun! Score 80,000 points or more in the Car Crusher bonus stage!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_ID_BONUS_CLEAR_1",
+            "name": "Barrel of Laughs",
+            "description": "No need for barrels without oil! Score 110,000 points or more in the Barrel Buster bonus stage!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_ID_CUSTOMIZE",
+            "name": "It Begins",
+            "description": "The fight starts here! Set your Title and Icon, and begin fighting on Multiplayer Battle!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ID_RANKMATCH_WIN_0",
+            "name": "First Timer",
+            "description": "I'll never forget my first time for Ryu's sake! Win one Ranked Match! Gotta aim for the top!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_ID_RANKMATCH_WIN_1",
+            "name": "Threepeat",
+            "description": "You think being this good is easy? Let's see you win 3 Ranked Matches in a row, champ!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_ID_RANKMATCH_WIN_2",
+            "name": "Fivepeat",
+            "description": "This is your real power, child? Show me it's not luck by winning 5 Ranked Matches in a row!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_ID_RANKMATCH_WIN_3",
+            "name": "Tenpeat",
+            "description": "Don't hold back your true potential! Win 10 Ranked Matches in a row!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_ID_RANKMATCH_RANKUP_0",
+            "name": "Moving On Up",
+            "description": "Ya need to do anything to reach the top of the food chain! Let's see a Rank Up via Ranked Match!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_ID_RANKMATCH_RANKUP_1",
+            "name": "Now You C Me...",
+            "description": "I wrestle only the strong! You shall rank up to C Rank if you wanna face me, comrade!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_ID_RANKMATCH_RANKUP_2",
+            "name": "From C to Shining C",
+            "description": "You think you're good, don't you? Prove it by ranking up all characters to C Rank!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_ID_NETBATTLE_WIN_0",
+            "name": "Road to Victory",
+            "description": "You wanna get that fight money? You're gonna have to win 10 Multiplayer Battle matches first, sucka!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ID_NETBATTLE_WIN_1",
+            "name": "Battle Master",
+            "description": "Only winners can attain such beauty. Win 30 Multiplayer Battle matches and I may share my beauty secrets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_ID_NETBATTLE_WIN_2",
+            "name": "Legendary Fighter",
+            "description": "I shall make you the right hand of Shadaloo if you can win 100 Multiplayer Battle matches!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_ID_NETBATTLE_PLAY_0",
+            "name": "Worldly Warrior",
+            "description": "Let's do this, amigo! Fight 50 Multiplayer Battle matches, because that's the only way to become strong!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_ID_NETBATTLE_PLAY_1",
+            "name": "Bring it on!",
+            "description": "No comrade, this will not do! We must become stronger, for our fans! Fight 100 Multiplayer Battle matches!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_ID_NETBATTLE_PLAY_2",
+            "name": "This is Madness!",
+            "description": "Fighting is fun, huh? Well then, let's aim for 300 Multiplayer Battle matches fought, OK buddy?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_ID_TEAMBATTLE_PLAY",
+            "name": "Team Player",
+            "description": "A 1-on-1 fight is fun, but it's more fun with friends! Try fighting in a Team Battle!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ID_TEAMBATTLE_WIN_0",
+            "name": "Team Mate",
+            "description": "Win 1 Team Battle match, and you will learn that teamwork can help you become stronger!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_ID_TEAMBATTLE_WIN_1",
+            "name": "Teamworker",
+            "description": "A pro can win with any team. Win 10 Team Battles but don't forget, you have to win too!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_ID_ENDLESSBATTLE_PLAY",
+            "name": "Keep on Truckin'",
+            "description": "If you want to focus on nothing but the fight, entering an Endless Battle is for you!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_ID_ENDLESSBATTLE_WIN_0",
+            "name": "Three For The Road",
+            "description": "In the pursuit of strength, one must have a goal! In Endless Battle win 3 matches in a row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_ID_ENDLESSBATTLE_WIN_1",
+            "name": "Endless Ten",
+            "description": "Throw away your fears and focus on the fight! Win 10 fights in a row in Endless Battle!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_ID_WATCH_REPLAY",
+            "name": "Replayer",
+            "description": "Watch 30 Replays via the Replay Channel! Isn't it fun watching people go at it tooth and nail!?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_ID_ENDLESSBATTLE_LOBBY",
+            "name": "Endless Lobbyist",
+            "description": "It's only natural for warriors to seek fights! Create 30 Endless Battle lobbies!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_ID_TEAMBATTLE_LOBBY",
+            "name": "Team Lobbyist",
+            "description": "Hey mon, battlin' is fun, no? Go out and create 30 Team Battle lobbies and enjoy the rhythm!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_ID_NETBATTLE_INTRUDE",
+            "name": "Quarter Up",
+            "description": "Fight 30 opponents via Arcade Fight Request. It'd be easy with the right bait, he he.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_ID_ARCADE_CLEAR_HARDEST_2",
+            "name": "The Awakening",
+            "description": "As if you could ever defeat Evil Ryu in Arcade Mode on the hardest difficulty.  See for yourself!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_ID_ARCADE_CLEAR_HARDEST_3",
+            "name": "Birth of the Oni",
+            "description": "To surpass the power of Oni, you must defeat him in Arcade Mode on the hardest setting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_ID_ARCADE_CLEAR_CHARA_0",
+            "name": "Just Enough!",
+            "description": "Dude, just clear Arcade Mode on Medium or higher without using a continue with Yun!  Piece of cake!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_ID_ARCADE_CLEAR_CHARA_1",
+            "name": "Up to Snuff",
+            "description": "Clear Arcade Mode on Medium or higher without using a continue with Yang. It's simple!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_ID_ARCADE_CLEAR_CHARA_2",
+            "name": "Overwhelming Power",
+            "description": "If you seek power, clear Arcade Mode on Medium or higher without using a continue with Evil Ryu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_ID_ARCADE_CLEAR_CHARA_3",
+            "name": "Transcendent",
+            "description": "Ascend beyond oneself by clearing Arcade Mode on Medium or higher without using a continue with Oni.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_ID_RANKING_FOLLOW",
+            "name": "Prep Time",
+            "description": "You need study materials to make your battle plan. Follow one player in the Leaderboards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_ID_CUSTOMIZE_TU3",
+            "name": "New Threads",
+            "description": "Use a new Title and Icon, and fight in one Multiplayer Battle match. Right on!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_ID_ARCADE_CLEAR_RLN",
+            "name": "For the Utopia!",
+            "description": "Assert leadership and clear Arcade Mode on Medium or higher without using a continue with Rolento.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_ID_ARCADE_CLEAR_ELN",
+            "name": "The world is my stage",
+            "description": "Dance with everyone! Clear Arcade Mode on Medium or higher without using a continue with Elena!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_ID_ARCADE_CLEAR_PSN",
+            "name": "Toxic Beauty",
+            "description": "No more mocking! Clear Arcade Mode on Medium or higher without using a continue with Poison.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_ID_ARCADE_CLEAR_HUG",
+            "name": "Giant Attack",
+            "description": "Reach the league's top and clear Arcade Mode on Medium or higher without using a continue with Hugo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_ID_ARCADE_CLEAR_DCP",
+            "name": "A dish best served cold",
+            "description": "Follow your anger by clearing Arcade Mode on Medium or higher without using a continue with Decapre.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_ID_DOUBLE_FEATURE",
+            "name": "Double Feature",
+            "description": "Initiative is everything! Surprise the enemy by using both Ultra Combos in a single Ranked Match!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_ID_ALL_FOR_ONE",
+            "name": "All For One",
+            "description": "Strength in numbers! Gather a team of four and defeat another in any Team Battle!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_ID_ULTRA_EFFECTIVE",
+            "name": "Ultra Effective",
+            "description": "New adventures await! Win a Ranked Match with a character added in Ultra Street Fighter IV!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_ID_GOOLD_OLD_TIMES",
+            "name": "Good old times",
+            "description": "A strong fighter has no fear of change! Defeat your Street Fighter IV self on the Hardest difficulty!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
