@@ -704,6 +704,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("split-fiction"));
     assert.ok(slugs.includes("dead-rising"));
     assert.ok(slugs.includes("sackboy-a-big-adventure"));
+    assert.ok(slugs.includes("the-case-of-the-golden-idol"));
+    assert.ok(slugs.includes("patricks-parabox"));
+    assert.ok(slugs.includes("gorogoa"));
 
 });
 

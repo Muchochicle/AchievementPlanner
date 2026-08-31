@@ -680,6 +680,9 @@ import { GUIDE as helltakerAchievementGuide } from "./games/helltaker.js";
 import { GUIDE as splitFictionAchievementGuide } from "./games/split-fiction.js";
 import { GUIDE as deadRisingAchievementGuide } from "./games/dead-rising.js";
 import { GUIDE as sackboyABigAdventureAchievementGuide } from "./games/sackboy-a-big-adventure.js";
+import { GUIDE as theCaseOfTheGoldenIdolAchievementGuide } from "./games/the-case-of-the-golden-idol.js";
+import { GUIDE as patricksParaboxAchievementGuide } from "./games/patricks-parabox.js";
+import { GUIDE as gorogoaAchievementGuide } from "./games/gorogoa.js";
 
 export const APP_GUIDES = [
 
@@ -1382,7 +1385,10 @@ export const GAME_GUIDES = [
     helltakerAchievementGuide,
     splitFictionAchievementGuide,
     deadRisingAchievementGuide,
-    sackboyABigAdventureAchievementGuide
+    sackboyABigAdventureAchievementGuide,
+    theCaseOfTheGoldenIdolAchievementGuide,
+    patricksParaboxAchievementGuide,
+    gorogoaAchievementGuide
 
 ];
 
