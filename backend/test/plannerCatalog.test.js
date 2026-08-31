@@ -523,6 +523,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("yu-gi-oh-master-duel"));
     assert.ok(slugs.includes("yu-gi-oh-duel-links"));
     assert.ok(slugs.includes("alien-swarm"));
+    assert.ok(slugs.includes("spelunky"));
+    assert.ok(slugs.includes("dungeon-defenders"));
+    assert.ok(slugs.includes("killer-is-dead"));
 
 });
 

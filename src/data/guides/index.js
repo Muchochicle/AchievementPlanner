@@ -499,6 +499,9 @@ import { GUIDE as adventureCapitalistAchievementGuide } from "./games/adventure-
 import { GUIDE as yuGiOhMasterDuelAchievementGuide } from "./games/yu-gi-oh-master-duel.js";
 import { GUIDE as yuGiOhDuelLinksAchievementGuide } from "./games/yu-gi-oh-duel-links.js";
 import { GUIDE as alienSwarmAchievementGuide } from "./games/alien-swarm.js";
+import { GUIDE as spelunkyAchievementGuide } from "./games/spelunky.js";
+import { GUIDE as dungeonDefendersAchievementGuide } from "./games/dungeon-defenders.js";
+import { GUIDE as killerIsDeadAchievementGuide } from "./games/killer-is-dead.js";
 
 export const APP_GUIDES = [
 
@@ -1020,7 +1023,10 @@ export const GAME_GUIDES = [
     adventureCapitalistAchievementGuide,
     yuGiOhMasterDuelAchievementGuide,
     yuGiOhDuelLinksAchievementGuide,
-    alienSwarmAchievementGuide
+    alienSwarmAchievementGuide,
+    spelunkyAchievementGuide,
+    dungeonDefendersAchievementGuide,
+    killerIsDeadAchievementGuide
 
 ];
 
