@@ -1,0 +1,3732 @@
+{
+    "id": 206210,
+    "steamAppId": 206210,
+    "name": "Gotham City Impostors",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/206210/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 80,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Free to Play",
+        "Multiplayer",
+        "Class-Based",
+        "Comedy",
+        "Superhero"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "CompleteTutorial",
+            "name": "Initiated",
+            "description": "Complete the Initiation mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "AchieveGoldMedals2",
+            "name": "Shower of Gold",
+            "description": "Earn 60 gold medals in Challenge mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "GainPrestige",
+            "name": "Prestigious",
+            "description": "Accept your first Promotion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "NemesisBecome5",
+            "name": "Fear the Nemesaurus",
+            "description": "Become a Nemesis 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ThanksForPlaying",
+            "name": "Thanks for Playing!",
+            "description": "Finish one match of Gotham City Impostors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "UnlockSomething",
+            "name": "Customizer",
+            "description": "Unlock any locked loadout or costume item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "WinEveryModeOnEveryMap",
+            "name": "Total Victory",
+            "description": "Win each game mode in Ace Chemical, Amusement Mile, Crime Alley, Gotham Power and The Docks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "DDScoreReversal",
+            "name": "Turning the Tide",
+            "description": "Turn the tables in Fumigation when the enemy team's victory is imminent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "DiveBombDuelWon",
+            "name": "Bogey Down ",
+            "description": "Win 1 mid-air Dive Bomb duels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "DiveBombKills",
+            "name": "Dive Bomber",
+            "description": "Kill 75 enemies by Dive Bombing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "EnemyVisionKillTagged",
+            "name": "Target Hunter",
+            "description": "Kill 250 enemies that are tagged by Targeting Goggles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "EnemyVisionTagEnemy",
+            "name": "Target Painter",
+            "description": "Tag 500 enemies with the Targeting Goggles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "GlideDistance",
+            "name": "Frequent Flier",
+            "description": "Glide 70 total kilometers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "GrappleDistance",
+            "name": "Strung Along",
+            "description": "Grapple 50 total kilometers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "GrappleGunKills",
+            "name": "Grapple Gunned",
+            "description": "Kill 25 enemies with a Grapple Gun impact.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "InflatedInsolesKills",
+            "name": "Insoles to Injury",
+            "description": "Kill 250 enemies while Double-Jumping.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "InflatedInsolesUse",
+            "name": "Insole Addict",
+            "description": "Use the Inflated Insoles 1000 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "InvisioGadgetDistance",
+            "name": "Cross-Country Cloaker",
+            "description": "Travel 7 kilometers while invisible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "JetpackDistance",
+            "name": "Thrustasaurus",
+            "description": "Travel 30 total kilometers while the Jetpack is active.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "JetpackFallKills",
+            "name": "Sky is Falling",
+            "description": "Kill 7 enemies by dropping onto them with the Jetpack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "JetpackKills",
+            "name": "Jetpack Attackaroo",
+            "description": "Kill 250 enemies while the Jetpack is active.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "RollerSkateDistance",
+            "name": "Roller Patroller",
+            "description": "Travel 100 kilometers on Roller Skates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "RollerSkateKills",
+            "name": "Death on Wheels",
+            "description": "Get 250 kills while Rollerskating.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "SkateJumpKills",
+            "name": "Rampicide",
+            "description": "Kill 7 enemies while jumping a Skate Ramp on Rollerskates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "SkateJumpUse",
+            "name": "Ramp It Up",
+            "description": "Jump a Skate Ramp 75 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "SpringBootKills",
+            "name": "Spring Boot Squash",
+            "description": "Kill 30 enemies by landing on them with Spring Boots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "SpringBootUse",
+            "name": "Springs Have Sprung",
+            "description": "Use the Spring Boots 1000 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "InvisioGadgetAmbushKills",
+            "name": "Invisible Ambusher",
+            "description": "Kill 100 enemies within 5 seconds of becoming visible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "BatteryAttach",
+            "name": "All Hooked Up",
+            "description": "Attach the Battery 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "BatteryDisarm",
+            "name": "Unplugger",
+            "description": "Detach the Battery 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "BatteryRecover",
+            "name": "Battery Collector",
+            "description": "Pick up a dropped Battery 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "CarrierKills",
+            "name": "Carrier Killer",
+            "description": "Kill an enemy carrying the Battery 150 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "CPCapture",
+            "name": "Feverish Fumigator",
+            "description": "Capture 250 Gasblasters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 34,
+            "apiname": "CPDefend",
+            "name": "Gas Guardian",
+            "description": "Defend 250 Gasblasters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "DDFinishedFirst",
+            "name": "Gas Master",
+            "description": "In Fumigation, finish a match in first place 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "DDFinishedTopThree",
+            "name": "Fumigation's Most Wanted",
+            "description": "In Fumigation, appear in the end-match lineup 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "DDWinBats",
+            "name": "When Bats Attack",
+            "description": "Successfully release enough Bat Pheromones to cause a Fumigation Defeat for the Jokerz 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "DDWinJokers",
+            "name": "Laughter is the Worst Medicine",
+            "description": "Successfully release enough Joker Gas to cause a Fumigation Defeat for the Bats 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "DemoralizedKills",
+            "name": "Shooting Fish in a Barrel",
+            "description": "Kill 25 Demoralized enemies in Psych Warfare.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "PanicKill",
+            "name": "Slap Happy",
+            "description": "Kill 25 enemies with Panic Slap attacks while demoralized in Psych Warfare.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "PanicSurvive",
+            "name": "Panic Survivor",
+            "description": "Survive 25 enemy Brainwashing Events.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "PWFinishedFirst",
+            "name": "Propaganda Minister",
+            "description": "In Psych Warfare, finish a match in first place 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "PWFinishedTopThree",
+            "name": "Propaganda Posterboy",
+            "description": "In Psych Warfare, appear in the end-match lineup 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "PWWin",
+            "name": "Time Well Spent",
+            "description": "Complete 50 matches of Psych Warfare.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "TDMFinishedFirst",
+            "name": "Where's the 'I' in 'Team'?",
+            "description": "In Team Deathmatch, finish a match in first place 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "TDMFinishedTopThree",
+            "name": "Photogenic",
+            "description": "In Team Deathmatch, appear in the end-match lineup 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "TDMWin",
+            "name": "Team Oriented",
+            "description": "Complete 50 matches of Team Deathmatch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "TTDMFinishedFirst",
+            "name": "Head Hunter",
+            "description": "In Bounty Hunter, finish a match in first place 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "TTDMFinishedTopThree",
+            "name": "Bountiful Harvest",
+            "description": "In Bounty Hunter, appear in the end-match lineup 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "TTDMPickupEnemy",
+            "name": "Enemy Bounty ",
+            "description": "Collect 100 enemy tokens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "TTDMPickupFriendly",
+            "name": "Friendly Bounty",
+            "description": "Retrieve 100 teammate tokens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "TTDMWin",
+            "name": "Bounty Winner",
+            "description": "Complete 50 matches of Bounty Hunter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Assists",
+            "name": "Assists Awarded",
+            "description": "Earn a Kill Assist 50000 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "DamageGiven",
+            "name": "Damage Dealt",
+            "description": "Deal 25000000 damage points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "DistanceTravelled",
+            "name": "Distance Traveled",
+            "description": "Travel 21000 kilometers (Multiplayer Only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "FinishedFirst",
+            "name": "MVP Finishes",
+            "description": "Finish in first place 250 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "FinishedTopThree",
+            "name": "Lineup Finishes",
+            "description": "Finish in the top 3 lineup 500 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Headshots",
+            "name": "Headshots",
+            "description": "Kill 32000 enemies with headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "HealingGiven",
+            "name": "Team Damage Healed",
+            "description": "Heal 2500000 points of damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Kills",
+            "name": "Enemies Killed",
+            "description": "Kill 64000 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "MatchesPlayed",
+            "name": "Matches Completed",
+            "description": "Play 10000 matches to completion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "Playtime",
+            "name": "Time Played",
+            "description": "Play Gotham City Impostors for 2000 total hours (Multiplayer Only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "SurviveHeadshots",
+            "name": "Headshots Survived",
+            "description": "Survive 25000 headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "XPEarned",
+            "name": "Experience Earned",
+            "description": "Earn 10000000 Experience Points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "MatchesWon",
+            "name": "Matches Won",
+            "description": "Win 5000 matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "AngryHedgeHogAbsorb",
+            "name": "Hardy Hedgehog",
+            "description": "Take 10000 damage during Angry Hedgehog Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "AngryHedgeHogUse",
+            "name": "Angry Hedgehog",
+            "description": "Use the Angry Hedgehog Rampage 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "DeathRacerDistance",
+            "name": "Death Racer Rally",
+            "description": "Travel 5 kilometers during Death Racer Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "DeathRacerUse",
+            "name": "Death Racer",
+            "description": "Use the Death Racer Rampage 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "EagleEyeUse",
+            "name": "Eagle Eye",
+            "description": "Use the Eagle Eye Rampage 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "GunRunnerDistance",
+            "name": "Gun Runner Marathon",
+            "description": "Travel 5 kilometers during Gun Runner Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "KillCrazyRampageKills",
+            "name": "Bloody Rampage",
+            "description": "Kill 25 enemies during Kill Crazy Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "KillCrazyRampageUse",
+            "name": "Kill Crazy",
+            "description": "Use the Kill Crazy Rampage 25 Times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "PowderKegKills",
+            "name": "Powder Keg Vengeance",
+            "description": "Kill 25 enemies during Powder Keg Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "PowderKegUse",
+            "name": "Powder Keg",
+            "description": "Use the Powder Keg Rampage 25 Times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ToughAsNailsAbsorb",
+            "name": "Tough Enough",
+            "description": "Take 10000 damage during Tough as Nails Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ToughAsNailsUse",
+            "name": "Tough as Nails",
+            "description": "Use the Tough As Nails Rampage 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "WolfPackUse",
+            "name": "Wolf Pack",
+            "description": "Use the Wolf Pack Rampage 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "GunRunnerUse",
+            "name": "Gun Runner",
+            "description": "Use the Gun Runner Rampage 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "AverageEnemyKills",
+            "name": "Burly Hunter",
+            "description": "Kill 250 Burly enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 81,
+            "apiname": "BodyArmoredTargetsKilled",
+            "name": "Anti-Armor Specialist",
+            "description": "Kill 250 enemies that are wearing Body Armor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 82,
+            "apiname": "CrouchKills",
+            "name": "Pop a Squat",
+            "description": "Kill 50 enemies while crouched.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "DazedKill",
+            "name": "Daze of Glory",
+            "description": "Kill 7 enemies while dazed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "DiveBombInterrupt",
+            "name": "Dive Bomb Denial",
+            "description": "Thwart 7 Dive Bomb attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "HeavyEnemyKills",
+            "name": "Mighty Hunter",
+            "description": "Kill 250 Mighty enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 86,
+            "apiname": "KillEveryone",
+            "name": "Equalogist",
+            "description": "Kill everyone on the opposite team 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "NemesisKill",
+            "name": "Sweet Revenge",
+            "description": "Kill your Nemesis 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "NimbleEnemyKills",
+            "name": "Nimble Hunter",
+            "description": "Kill 250 Nimble enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 89,
+            "apiname": "Revive",
+            "name": "No Man Left Behind",
+            "description": "Revive 25 teammates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "SpeedyEnemyKills",
+            "name": "Speedy Hunter",
+            "description": "Kill 250 Speedy enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 91,
+            "apiname": "SprintDistance",
+            "name": "Where's the Fire?",
+            "description": "Sprint 25 kilometers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "TargetGrappleKills",
+            "name": "Cut 'Em Down",
+            "description": "Kill a Grappling Enemy 30 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "TargetInvisibleKills",
+            "name": "Second Sight",
+            "description": "Kill an enemy who is using the Ninja Smoke Bomb 30 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "TargetJetpackKills",
+            "name": "Flyswatter",
+            "description": "Kill 60 Jetpacking Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "TargetSkateJumpKills",
+            "name": "Skeet Shooting",
+            "description": "Kill a Skate-Jumping enemy in mid-air 7 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "ToughEnemyKills",
+            "name": "Tough Hunter",
+            "description": "Kill 250 Tough enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 97,
+            "apiname": "AntisocialBonus",
+            "name": "Antisocial",
+            "description": "Accrue 50000 bonus XP by using the 'Antisocial' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "AnxiousBonus",
+            "name": "Anxious",
+            "description": "Accrue 50000 bonus XP by using the 'Anxious' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "Bipolar",
+            "name": "Bipolar",
+            "description": "Accrue 50000 bonus XP by using the 'Bipolar' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "BodyDysmorphic",
+            "name": "Body Dysmorphic",
+            "description": "Accrue 50000 bonus XP by using the 'Body Dysmorphic' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "Codependant",
+            "name": "Codependent",
+            "description": "Accrue 50000 bonus XP by using the 'Codependent' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "Histrionic",
+            "name": "Histrionic",
+            "description": "Accrue 50000 bonus XP by using the 'Histrionic' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "Kleptomaniacal",
+            "name": "Kleptomaniacal",
+            "description": "Accrue 50000 bonus XP by using the 'Kleptomaniacal' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 104,
+            "apiname": "Masochistic",
+            "name": "Masochistic",
+            "description": "Accrue 50000 bonus XP by using the 'Masochistic' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "NarcissisticNEW",
+            "name": "Narcissistic",
+            "description": "Accrue  240 Costume Coins by using the 'Narcissistic' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "Paranoid",
+            "name": "Paranoid",
+            "description": "Accrue 50000 bonus XP by using the 'Paranoid' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "PassiveAggressive",
+            "name": "Passive Aggresive",
+            "description": "Accrue 50000 bonus XP by using the 'Passive Aggresive' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 108,
+            "apiname": "Sadistic",
+            "name": "Sadistic",
+            "description": "Accrue 50000 bonus XP by using the 'Sadistic' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 109,
+            "apiname": "Tyrannical",
+            "name": "Tyrannical",
+            "description": "Accrue 50000 bonus XP by using the 'Tyrannical' Psychological Profile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 110,
+            "apiname": "AlarmDeploy",
+            "name": "Sensor Dispenser",
+            "description": "Deploy 250 Motion Sensors.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 111,
+            "apiname": "AlarmTag",
+            "name": "Motion Tracker",
+            "description": "Tag 500 Enemies with Motion Sensors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 112,
+            "apiname": "AntiAirTrapDeploy",
+            "name": "Gnome Fly Zone",
+            "description": "Deploy 250 Airspace Deniers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 113,
+            "apiname": "AntiAirTrapHit",
+            "name": "Gnome Syndrome",
+            "description": "Damage 100 Enemies with the Airspace Denier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 114,
+            "apiname": "BearTrapTargetsKilled",
+            "name": "Mercy Killer",
+            "description": "Kill 100 enemies caught in a Bear Trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 115,
+            "apiname": "BearTrapTrip",
+            "name": "Ankle Biter",
+            "description": "Catch 250 enemies with a Bear Trap.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 116,
+            "apiname": "BodyArmorDeflectDmg",
+            "name": "Bullet Sponge",
+            "description": "Absorb 250000 damage with the Body Armor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 117,
+            "apiname": "BoomerangDeadHit",
+            "name": "Dizzy Beyond Death",
+            "description": "Damage 3 enemies with a Boomerang impact after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 118,
+            "apiname": "BoomerangHit",
+            "name": "Boomerwrangler",
+            "description": "Successfully daze 50 enemies with the Boomerang.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 119,
+            "apiname": "BoomerangKill",
+            "name": "Felt That Welt",
+            "description": "Kill 7 enemies with a Boomerang impact.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 120,
+            "apiname": "BoomerangMultiHit",
+            "name": "Party Daze",
+            "description": "Successfully daze multiple enemies with a single Boomerang 7 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 121,
+            "apiname": "BoomerangTargetsKilled",
+            "name": "Opportunist",
+            "description": "Kill 100 enemies dazed by a Boomerang.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 122,
+            "apiname": "CarePackageDeploy",
+            "name": "Dare to Care",
+            "description": "Deploy 250 Care Packages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 123,
+            "apiname": "CarePackageReplenish",
+            "name": "Effusive Enabler",
+            "description": "Have 100000 health or ammo replenished by your Care Package.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 124,
+            "apiname": "ConchHit",
+            "name": "Conch Honker",
+            "description": "Hit 250 enemies with a Conch Shell blast.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 125,
+            "apiname": "ConchHitMulti",
+            "name": "Blow Hard",
+            "description": "Hit multiple enemies with a single Conch Shell blast 15 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 126,
+            "apiname": "ConchKills",
+            "name": "Blow Me Down",
+            "description": "Kill 25 enemies with a blast from the Conch Shell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 127,
+            "apiname": "HealingPotionHeal",
+            "name": "Sugar Rush",
+            "description": "Heal yourself 250 times with the Energy Drink.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 128,
+            "apiname": "HealingPotionSave",
+            "name": "Second Wind",
+            "description": "Use an Energy Drink when you have 10 health or less 30 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 129,
+            "apiname": "ImpactGrenadeDeadKill",
+            "name": "Lasting Impact",
+            "description": "Kill 3 enemies with an Impact Grenade after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 130,
+            "apiname": "ImpactGrenadeKill",
+            "name": "Major Impact",
+            "description": "Kill 100 enemies with the Impact Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 131,
+            "apiname": "ImpactGrenadeMultiKill",
+            "name": "Multiple Impacts",
+            "description": "Kill multiple enemies with a single Impact Grenade 7 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 132,
+            "apiname": "PipeBombDeadKill",
+            "name": "Postmortem Piper",
+            "description": "Kill 5 enemies with a Pipe Bomb after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 133,
+            "apiname": "PipeBombImpactKill",
+            "name": "Pipe Bomb Bonk",
+            "description": "Kill 7 enemies with a direct hit from a Pipe Bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 134,
+            "apiname": "PipeBombKill",
+            "name": "Timed to Die",
+            "description": "Kill 250 enemies with the Pipe Bomb.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 135,
+            "apiname": "PipeBombMultiKill",
+            "name": "Pipe Bomb Multi-Kill",
+            "description": "Kill multiple enemies with a single Pipe Bomb 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 136,
+            "apiname": "ProximityMineDeadKill",
+            "name": "Final Surprise",
+            "description": "Kill 5 enemies with your Trap-in-the-Box after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 137,
+            "apiname": "ProximityMineKill",
+            "name": "Pop Goes Your Face",
+            "description": "Kill 250 enemies with your Trap-in-the-Box.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 138,
+            "apiname": "ProximityMineMultiKill",
+            "name": "Surprise Party",
+            "description": "Kill multiple enemies with your single Trap-in-the-Box 25 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 139,
+            "apiname": "ShurikenDeadKill",
+            "name": "Fading Star",
+            "description": "Kill 1 enemies with the Shuriken after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 140,
+            "apiname": "ShurikenKill",
+            "name": "Star Struck",
+            "description": "Kill 50 enemies with the Shuriken.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 141,
+            "apiname": "ThrowingAxeDeadKill",
+            "name": "Axe You Later",
+            "description": "Kill 3 enemies with a Hatchet after you die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 142,
+            "apiname": "ThrowingAxeKill",
+            "name": "Just Axein'",
+            "description": "Kill 100 enemies with the Hatchet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 143,
+            "apiname": "ThrowingAxePickup",
+            "name": "Cleaned Up My Axe",
+            "description": "Retrieve 50 thrown Hatchets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 144,
+            "apiname": "ToxicGasDamageDone",
+            "name": "Plausible Deniability",
+            "description": "Inflict 25000 Damage with the Toxic Gas.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 145,
+            "apiname": "ToxicGasDeploy",
+            "name": "Skunk Ninja",
+            "description": "Deploy 250 Toxic Gas.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 146,
+            "apiname": "AntiqueSniperRifleHeadShots",
+            "name": "Buccaneer Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 147,
+            "apiname": "AntiqueSniperRifleKills",
+            "name": "Buccaneer Pro",
+            "description": "Get 750 kills with the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 148,
+            "apiname": "AssaultRifleHeadshots",
+            "name": "Dawn Patrol Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 149,
+            "apiname": "AssaultRifleKills",
+            "name": "Dawn Patrol Pro",
+            "description": "Get 750 kills with the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 150,
+            "apiname": "AutoShotgunCloseKills",
+            "name": "Chaperone Close Kills Pro",
+            "description": "Get 375 kills at a range of 4 meters or less while using the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 151,
+            "apiname": "AutoShotgunKills",
+            "name": "Chaperone Pro",
+            "description": "Get 750 kills with the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 152,
+            "apiname": "BallBearingGunHeadshots",
+            "name": "Shredder Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 153,
+            "apiname": "BallBearingGunKills",
+            "name": "Shredder Pro",
+            "description": "Get 750 kills with the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 154,
+            "apiname": "BazookaKills",
+            "name": "Thunder Dragon Pro",
+            "description": "Get 750 kills with the Thunder Dragon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 155,
+            "apiname": "BazookaMultiKills",
+            "name": "Thunder Dragon Multi-Kill Pro",
+            "description": "Kill multiple enemies with a single rocket 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 156,
+            "apiname": "BoardingPartyDamageDone",
+            "name": "Boarding Party Damage Pro",
+            "description": "Inflict 18000 Damage with the Boarding Party.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 157,
+            "apiname": "BoardingPartyKills",
+            "name": "Boarding Party Kills Pro",
+            "description": "Kill 375 Enemies with the Boarding Party.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 158,
+            "apiname": "BurstFireRifleHeadshots",
+            "name": "Partisan Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 159,
+            "apiname": "BurstFireRifleKills",
+            "name": "Partisan Pro",
+            "description": "Get 750 kills with the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 160,
+            "apiname": "CompactSMGHeadshots",
+            "name": "Desperado Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 161,
+            "apiname": "CompactSMGKills",
+            "name": "Desperado Pro",
+            "description": "Get 750 kills with the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 162,
+            "apiname": "ElectricGunDamageDone",
+            "name": "Witch Doctor Damage Pro",
+            "description": "Cause 100000 damage with the Witch Doctor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 163,
+            "apiname": "ElectricGunKills",
+            "name": "Witch Doctor Kills Pro",
+            "description": "Kill 375 enemies with the Witch Doctor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 164,
+            "apiname": "FreezeGunDamageDone",
+            "name": "Deep Freezer Pro",
+            "description": "Inflict 50000 Damage with the Deep Freezer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 165,
+            "apiname": "FreezeGunShatterEnemy",
+            "name": "Ice and Dice",
+            "description": "Shatter 50 Frozen Enemies with your Knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 166,
+            "apiname": "HealingToolHealed",
+            "name": "Motivatory Motivation",
+            "description": "Heal 750000 Life with the Motivator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 167,
+            "apiname": "HMGHeadshots",
+            "name": "Jackhammer Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 168,
+            "apiname": "HuntingBowHeadshots",
+            "name": "Bear-Stalker Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Bear-Stalker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 169,
+            "apiname": "HuntingBowKills",
+            "name": "Bear-Stalker Pro",
+            "description": "Get 750 kills with the Bear-Stalker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 170,
+            "apiname": "KatanaBlocks",
+            "name": "Falcon Blade Block Pro",
+            "description": "Block 3750 attacks with the Falcon Blade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 171,
+            "apiname": "KatanaKills",
+            "name": "Falcon Blade Kill Pro",
+            "description": "Get 750 kills with the Falcon Blade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 172,
+            "apiname": "MeleeBackStabs",
+            "name": "Knife Backstab Pro",
+            "description": "Get 30 backstab kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 173,
+            "apiname": "MeleeKills",
+            "name": "Knife Kill Pro",
+            "description": "Get 375 kills with the Knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 174,
+            "apiname": "PistolHeadShots",
+            "name": "Kingmaker Headshot Pro",
+            "description": "Get 375 headshots with the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 175,
+            "apiname": "PistolKills",
+            "name": "Kingmaker Kill Pro",
+            "description": "Get 750 kills with the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 176,
+            "apiname": "PumpShotgunCloseKills",
+            "name": "Persuader Close Kills Pro",
+            "description": "Get 375 kills at a range of 4 meters or less while using the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 177,
+            "apiname": "PumpShotgunKills",
+            "name": "Persuader Pro",
+            "description": "Get 750 kills with the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 178,
+            "apiname": "SemiAutoSniperRifleHeadshots",
+            "name": "The Marshal Headshot Pro",
+            "description": "Kill 375 enemies with headshots using The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 179,
+            "apiname": "SemiAutoSniperRifleKills",
+            "name": "The Marshal Pro",
+            "description": "Get 750 kills with The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 180,
+            "apiname": "SlingShotKills",
+            "name": "Bombardier Pro",
+            "description": "Get 750 kills with the Bombardier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 181,
+            "apiname": "SlingShotMultiKills",
+            "name": "Bombardier Multi Pro",
+            "description": "Kill multiple enemies with a single Bombardier explosion 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 182,
+            "apiname": "SMGHeadshots",
+            "name": "Gatekeeper Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 183,
+            "apiname": "SMGKills",
+            "name": "Gatekeeper Pro",
+            "description": "Get 750 kills with the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 184,
+            "apiname": "SportRifleHeadshots",
+            "name": "Huntsman Headshot Pro",
+            "description": "Kill 375 enemies with headshots using the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 185,
+            "apiname": "SportRifleKills",
+            "name": "Huntsman Pro",
+            "description": "Get 750 kills with the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 186,
+            "apiname": "AveragePlayerKills",
+            "name": "Death-Dealer (Burly)",
+            "description": "Kill 1000 enemies while using the Burly Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 187,
+            "apiname": "AveragePlayerMeleeKills",
+            "name": "Cutthroat (Burly)",
+            "description": "Knife-kill 80 enemies while using the Burly Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 188,
+            "apiname": "HeavyPlayerKills",
+            "name": "Death-Dealer (Mighty)",
+            "description": "Kill 1000 enemies while using the Mighty Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 189,
+            "apiname": "HeavyPlayerMeleeKills",
+            "name": "Cutthroat (Mighty)",
+            "description": "Knife-kill 100 enemies while using the Mighty Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 190,
+            "apiname": "NimblePlayerKills",
+            "name": "Death-Dealer (Nimble)",
+            "description": "Kill 1000 enemies while using the Nimble Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 191,
+            "apiname": "NimblePlayerMeleeKills",
+            "name": "Cutthroat (Nimble)",
+            "description": "Knife-kill 40 enemies while using the Nimble Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 192,
+            "apiname": "SpeedyPlayerKills",
+            "name": "Death-Dealer (Speedy)",
+            "description": "Kill 1000 enemies while using the Speedy Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 193,
+            "apiname": "SpeedyPlayerMeleeKills",
+            "name": "Cutthroat (Speedy)",
+            "description": "Knife-kill 20 enemies while using the Burly Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 194,
+            "apiname": "ToughPlayerKills",
+            "name": "Death-Dealer (Tough)",
+            "description": "Kill 1000 enemies while using the Tough Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 195,
+            "apiname": "ToughPlayerMeleeKills",
+            "name": "Cutthroat (Tough)",
+            "description": "Knife-kill 60 enemies while using the Tough Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 196,
+            "apiname": "NoNemesis",
+            "name": "Nary a Nemesis",
+            "description": "Play 10 rounds without anyone becoming your Nemesis.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 197,
+            "apiname": "HMGKills",
+            "name": "Jackhammer Pro",
+            "description": "Get 750 kills with the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 198,
+            "apiname": "AverageDamageTaken",
+            "name": "Damage Eater (Burly)",
+            "description": "Absorb 1200 points of damage without dying while using the Burly Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 199,
+            "apiname": "AverageSurvivedRound",
+            "name": "Survivalist (Burly)",
+            "description": "Avoid death for an entire match while only using the Burly Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 200,
+            "apiname": "HeavyDamageTaken",
+            "name": "Damage Eater (Mighty)",
+            "description": "Absorb 1400 points of damage without dying while using the Mighty Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 201,
+            "apiname": "HeavySurvivedRound",
+            "name": "Survivalist (Mighty)",
+            "description": "Avoid death for an entire match while only using the Mighty Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 202,
+            "apiname": "NimbleDamageTaken",
+            "name": "Damage Eater (Nimble)",
+            "description": "Absorb 700 points of damage without dying while using the Nimble Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 203,
+            "apiname": "NimbleSurvivedRound",
+            "name": "Survivalist (Nimble)",
+            "description": "Avoid death for an entire match while only using the Nimble Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 204,
+            "apiname": "SpeedyDamageTaken",
+            "name": "Damage Eater (Speedy)",
+            "description": "Absorb 500 points of damage without dying while using the Speedy Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 205,
+            "apiname": "SpeedySurvivedRound",
+            "name": "Survivalist (Speedy)",
+            "description": "Avoid death for an entire match while only using the Speedy Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 206,
+            "apiname": "ToughDamageTaken",
+            "name": "Damage Eater (Tough)",
+            "description": "Absorb 900 points of damage without dying while using the Tough Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 207,
+            "apiname": "ToughSurvivedRound",
+            "name": "Survivalist (Tough)",
+            "description": "Avoid death for an entire match while only using the Tough Body Type.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 208,
+            "apiname": "GlideDistanceContinuous",
+            "name": "Let It Glide",
+            "description": "Glide 1 kilometer without landing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 209,
+            "apiname": "GlideTimeContinuous",
+            "name": "Hang-Time Hero",
+            "description": "Stay aloft for 60 seconds without landing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 210,
+            "apiname": "CPAllHoldTime",
+            "name": "All Gassed Up",
+            "description": "Hold all three Gasblasters for a full minute.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 211,
+            "apiname": "CPAnyHoldTime",
+            "name": "Gas Guzzler",
+            "description": "Hold any single Gasblaster for five consecutive minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 212,
+            "apiname": "DDFirstPlaceScoreAhead",
+            "name": "Hero of the Hour",
+            "description": "In Fumigation, finish a match with double the score of the player in second place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 213,
+            "apiname": "BatteryDisarmClose",
+            "name": "Close Call",
+            "description": "Detach the Battery with less than 30 seconds left until machine activation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 214,
+            "apiname": "PWFirstPlaceScoreAhead",
+            "name": "Eat My Dust",
+            "description": "In Psych Warfare, finish a match with double the score of the player in second place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 215,
+            "apiname": "PWWinByShutout",
+            "name": "Psychological Shutout",
+            "description": "Win a game of Psych Warfare without the other team ever scoring.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 216,
+            "apiname": "TDMFirstPlaceScoreAhead",
+            "name": "Glory Hog",
+            "description": "In Team Deathmatch, finish a match with double the score of the player in second place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 217,
+            "apiname": "TokenTDMFirstPlaceScoreAhead",
+            "name": "Yay Me!",
+            "description": "In Bounty Hunter, finish a match with double the score of the player in second place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 218,
+            "apiname": "KillEveryoneFast",
+            "name": "The Pwny Express",
+            "description": "Kill everyone on the enemy team in under 5 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 219,
+            "apiname": "KillStreak",
+            "name": "Just Try to Stop Me",
+            "description": "Get a 5 Kill Streak.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 220,
+            "apiname": "KillStreak2",
+            "name": "Unstoppable",
+            "description": "Get a 10 Kill Streak.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 221,
+            "apiname": "KillStreak3",
+            "name": "Invincible",
+            "description": "Get a 20 Kill Streak.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 222,
+            "apiname": "DiveBombKillMulti",
+            "name": "Earthquake",
+            "description": "Kill 3 enemies with a single dive bomb attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 223,
+            "apiname": "EnemyVisionTagMulti",
+            "name": "Radiology",
+            "description": "Tag 5 enemies within 3 seconds using the targeting goggles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 224,
+            "apiname": "FreezeGunStompKill",
+            "name": "Avalanche!",
+            "description": "Stomp kill a frozen enemy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 225,
+            "apiname": "GrappleGunKillGrappler",
+            "name": "Gone Grappling",
+            "description": "Kill a grappling enemy with the grapple gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 226,
+            "apiname": "KnifeMultiKill",
+            "name": "Home Run",
+            "description": "Kill two enemies with a single knife attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 227,
+            "apiname": "PanicKillMulti",
+            "name": "Psychotic",
+            "description": "Kill 3 enemies with the panic slap attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 228,
+            "apiname": "ProxMineKillThree",
+            "name": "Surprise!",
+            "description": "Kill 3 or more enemies with a single Trap-in-the-Box blast.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 229,
+            "apiname": "SniperBulletDoubleKill",
+            "name": "Crackshot",
+            "description": "Kill 2 enemies with the same bullet while using The Marshal or the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 230,
+            "apiname": "ThrowingAxeKillGrappler",
+            "name": "Timber!",
+            "description": "Kill a grappling enemy with a hatchet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 231,
+            "apiname": "NoJump",
+            "name": "Bunnyhop Boycott",
+            "description": "Play 2 entire rounds without ever using the jump button.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 232,
+            "apiname": "SprintTime",
+            "name": "Rush Hour",
+            "description": "Sprint for 60 seconds straight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 233,
+            "apiname": "NemesisMulti",
+            "name": "Nemesaurus",
+            "description": "Become the Nemesis of 2 players in the same match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 234,
+            "apiname": "NemesisMulti2",
+            "name": "Nemesaurus Rex",
+            "description": "Become the Nemesis of 3 players in the same match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 235,
+            "apiname": "NemesisMulti3",
+            "name": "Nemesaurus Prime",
+            "description": "Become the Nemesis of 4 players in the same match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 236,
+            "apiname": "RainbowAntiqueSniperRifle",
+            "name": "Buccaneer - Rainbow Attack!",
+            "description": "Get 5000 kills with the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 237,
+            "apiname": "RainbowAssaultRifle",
+            "name": "Dawn Patrol - Rainbow Attack!",
+            "description": "Get 5000 kills with the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 238,
+            "apiname": "RainbowAutoShotgun",
+            "name": "Chaperone - Rainbow Attack!",
+            "description": "Get 5000 kills with the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 239,
+            "apiname": "RainbowBazooka",
+            "name": "Thunder Dragon - Rainbow Attack!",
+            "description": "Get 5000 kills with the Thunder Dragon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 240,
+            "apiname": "RainbowBBGun",
+            "name": "Shredder - Rainbow Attack!",
+            "description": "Get 5000 kills with the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 241,
+            "apiname": "RainbowBoardingParty",
+            "name": "Boarding Party - Rainbow Attack!",
+            "description": "Kill 2000 Enemies with the Boarding Party.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 242,
+            "apiname": "ReviveSameGuy",
+            "name": "BFF",
+            "description": "Revive 3 teammates in a single round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 243,
+            "apiname": "BatmanKills",
+            "name": "Rodent Removal",
+            "description": "Kill 10 Bats in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 244,
+            "apiname": "JokerKills",
+            "name": "Who's Laughing Now?",
+            "description": "Kill 10 Jokerz in one life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 245,
+            "apiname": "RainbowBurstFireRifle",
+            "name": "Partisan - Rainbow Attack!",
+            "description": "Get 5000 kills with the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 246,
+            "apiname": "RainbowCompactSMG",
+            "name": "Desperado - Rainbow Attack!",
+            "description": "Get 5000 kills with the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 247,
+            "apiname": "RainbowElectricGun",
+            "name": "Witch Doctor - Rainbow Attack!",
+            "description": "Get 3750 kills with the Witch Doctor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 248,
+            "apiname": "RainbowFreezeGun",
+            "name": "Deep Freezer - Rainbow Attack!",
+            "description": "Inflict 1250000 Damage with the Deep Freezer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 249,
+            "apiname": "RainbowHealingTool",
+            "name": "Motivator - Rainbow Attack!",
+            "description": "Heal 5000000 Life with the Motivator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 250,
+            "apiname": "RainbowHMG",
+            "name": "Jackhammer - Rainbow Attack!",
+            "description": "Get 5000 kills with the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 251,
+            "apiname": "RainbowHuntingBow",
+            "name": "Bear-Stalker - Rainbow Attack!",
+            "description": "Get 5000 kills with the Bear-Stalker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 252,
+            "apiname": "RainbowKatana",
+            "name": "Falcon Blade - Rainbow Attack!",
+            "description": "Get 3750 kills with the Falcon Blade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 253,
+            "apiname": "RainbowPistol",
+            "name": "Kingmaker - Rainbow Attack!",
+            "description": "Get 5000 kills with the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 254,
+            "apiname": "RainbowPumpShotgun",
+            "name": "Persuader - Rainbow Attack!",
+            "description": "Get 5000 kills with the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 255,
+            "apiname": "RainbowSemiAutoSniper",
+            "name": "The Marshal - Rainbow Attack!",
+            "description": "Get 5000 kills with The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 256,
+            "apiname": "RainbowSlingshot",
+            "name": "Bombardier - Rainbow Attack!",
+            "description": "Get 5000 kills with the Bombardier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 257,
+            "apiname": "RainbowSMG",
+            "name": "Gatekeeper - Rainbow Attack!",
+            "description": "Get 5000 kills with the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 258,
+            "apiname": "RainbowSportRifle",
+            "name": "Huntsman - Rainbow Attack!",
+            "description": "Get 5000 kills with the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 259,
+            "apiname": "ShurikenMultiHit",
+            "name": "Star Shower",
+            "description": "Hit 3 enemies with a single Shuriken volley.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 260,
+            "apiname": "ShurikenMultiKill",
+            "name": "Star Struck Multi",
+            "description": "Kill 2 enemies with a single Shuriken volley.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 261,
+            "apiname": "AntiqueSniperRifleRedDot",
+            "name": "Buccaneer 4x Scope Lens Pro",
+            "description": "Get 50 kills using the 4x Scope Lens Mod for the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 262,
+            "apiname": "AntiqueSniperRifleSensor",
+            "name": "Buccaneer B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 263,
+            "apiname": "AntiqueSniperRifleSilencer",
+            "name": "Buccaneer Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 264,
+            "apiname": "AntiqueSniperRifleStabilizer",
+            "name": "Buccaneer Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Buccaneer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 265,
+            "apiname": "AssaultRifleExtMags",
+            "name": "Dawn Patrol Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 266,
+            "apiname": "AssaultRiflePenetrator",
+            "name": "Dawn Patrol Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 267,
+            "apiname": "AssaultRifleRedDot",
+            "name": "Dawn Patrol Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 268,
+            "apiname": "AssaultRifleReflex",
+            "name": "Dawn Patrol Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 269,
+            "apiname": "AssaultRifleSensor",
+            "name": "Dawn Patrol B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 270,
+            "apiname": "AssaultRifleSilencer",
+            "name": "Dawn Patrol Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 271,
+            "apiname": "AssaultRifleStabilizer",
+            "name": "Dawn Patrol Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Dawn Patrol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 272,
+            "apiname": "AutoShotgunExtMags",
+            "name": "Chaperone Expanded Drum Pro",
+            "description": "Get 50 kills using the Expanded Drum Mod for the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 273,
+            "apiname": "AutoShotgunPenetrator",
+            "name": "Chaperone Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 274,
+            "apiname": "AutoShotgunReflex",
+            "name": "Chaperone Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 275,
+            "apiname": "AutoShotgunSensor",
+            "name": "Chaperone B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 276,
+            "apiname": "AutoShotgunStabilizer",
+            "name": "Chaperone Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Chaperone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 277,
+            "apiname": "BazookaHellFire",
+            "name": "Thunder Dragon Missiles Pro",
+            "description": "Get 100 kills using the Missiles for the Thunder Dragon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 278,
+            "apiname": "BBGunExtMags",
+            "name": "Shredder Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 279,
+            "apiname": "BBGunPenetrator",
+            "name": "Shredder Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 280,
+            "apiname": "BBGunRedDot",
+            "name": "Shredder Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 281,
+            "apiname": "BBGunReflex",
+            "name": "Shredder Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 282,
+            "apiname": "BBGunSensor",
+            "name": "Shredder B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 283,
+            "apiname": "BBGunStabilizer",
+            "name": "Shredder Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Shredder.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 284,
+            "apiname": "BurstFireRifleExtMags",
+            "name": "Partisan Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 285,
+            "apiname": "BurstFireRiflePenetrator",
+            "name": "Partisan Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 286,
+            "apiname": "BurstFireRifleRedDot",
+            "name": "Partisan Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 287,
+            "apiname": "BurstFireRifleReflex",
+            "name": "Partisan Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 288,
+            "apiname": "BurstFireRifleSensor",
+            "name": "Partisan B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 289,
+            "apiname": "BurstFireRifleSilencer",
+            "name": "Partisan Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 290,
+            "apiname": "BurstFireRifleStabilizer",
+            "name": "Partisan Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Partisan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 291,
+            "apiname": "CompactSMGExtMags",
+            "name": "Desperado Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 292,
+            "apiname": "CompactSMGPenetrator",
+            "name": "Desperado Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 293,
+            "apiname": "CompactSMGRedDot",
+            "name": "Desperado Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 294,
+            "apiname": "CompactSMGReflex",
+            "name": "Desperado Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 295,
+            "apiname": "CompactSMGSensor",
+            "name": "Desperado B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 296,
+            "apiname": "CompactSMGSilencer",
+            "name": "Desperado Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 297,
+            "apiname": "CompactSMGStabilizer",
+            "name": "Desperado Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Desperado.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 298,
+            "apiname": "ElectricGunBouncyKills",
+            "name": "Witch Doctor Deflective Charge Pro",
+            "description": "Get 45 kills using the Deflective Charge Mod for the Witch Doctor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 299,
+            "apiname": "FreezeGunSensorDamage",
+            "name": "Deep Freezer B.O. Sniffer Pro ",
+            "description": "Inflict 10000 Damage using the B.O. Sniffer Mod for the Deep Freezer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 300,
+            "apiname": "HealingToolTimed",
+            "name": "Motivation Elation",
+            "description": "Heal 500 Life in ten seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 301,
+            "apiname": "HealingToolTimed2",
+            "name": "Motivation Celebration",
+            "description": "Heal 750 Life in ten seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 302,
+            "apiname": "HealingToolTimed3",
+            "name": "Motivation Sensation",
+            "description": "Heal 1000 Life in ten seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 303,
+            "apiname": "HMGExtMags",
+            "name": "Jackhammer Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 304,
+            "apiname": "HMGPenetrator",
+            "name": "Jackhammer Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 305,
+            "apiname": "HMGRedDot",
+            "name": "Jackhammer Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 306,
+            "apiname": "HMGReflex",
+            "name": "Jackhammer Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 307,
+            "apiname": "HMGSensor",
+            "name": "Jackhammer B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 308,
+            "apiname": "HMGStabilizer",
+            "name": "Jackhammer Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Jackhammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 309,
+            "apiname": "HuntingBowSensor",
+            "name": "Bear-Stalker B.O. Sniffer Pro",
+            "description": "Get 100 kills using the B.O. Sniffer Mod for the Bear-Stalker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 310,
+            "apiname": "KatanaMultiKill",
+            "name": "Buzzsaw",
+            "description": "Kill 3 enemies in 2 seconds or less with the Falcon Blade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 311,
+            "apiname": "PistolExtMags",
+            "name": "Kingmaker Extended Magazines Pro",
+            "description": "Kill 50 using the Extended Magazines mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 312,
+            "apiname": "PistolFullAuto",
+            "name": "Kingmaker Full Auto Pro",
+            "description": "Kill 50 using the Full Auto mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 313,
+            "apiname": "PistolJHP",
+            "name": "Kingmaker Jacketed Hollow Point Pro",
+            "description": "Kill 50 using the Jacketed Hollow Point Ammo mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 314,
+            "apiname": "PistolPenetrator",
+            "name": "Kingmaker Penetrator Pro",
+            "description": "Kill 25 using the Penetrator Ammo mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 315,
+            "apiname": "PistolReflex",
+            "name": "Kingmaker Reflex Sight Pro",
+            "description": "Kill 50 using the Reflex Sight mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 316,
+            "apiname": "PistolSilencer",
+            "name": "Kingmaker Silencer Pro",
+            "description": "Kill 50 using the Silencer mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 317,
+            "apiname": "PistolStabilizer",
+            "name": "Kingmaker Muzzle Break Pro",
+            "description": "Kill 50 using the Muzzle Break mod for the Kingmaker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 318,
+            "apiname": "PumpShotgunExtMags",
+            "name": "Persuader Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 319,
+            "apiname": "PumpShotgunPenetrator",
+            "name": "Persuader Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 320,
+            "apiname": "PumpShotgunReflex",
+            "name": "Persuader Reflex Sight Pro",
+            "description": "Get 30 kills using the Reflex Sight Mod for the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 321,
+            "apiname": "PumpShotgunSensor",
+            "name": "Persuader B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 322,
+            "apiname": "PumpShotgunStabilizer",
+            "name": "Persuader Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Persuader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 323,
+            "apiname": "SemiAutoSniperExtMags",
+            "name": "The Marshal Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 324,
+            "apiname": "SemiAutoSniperRedDot",
+            "name": "The Marshal 4x Scope Lens Pro",
+            "description": "Get 50 kills using the 4x Scope Lens Mod for The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 325,
+            "apiname": "SemiAutoSniperSensor",
+            "name": "The Marshal B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 326,
+            "apiname": "SemiAutoSniperSilencer",
+            "name": "The Marshal Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 327,
+            "apiname": "SemiAutoSniperStabilizer",
+            "name": "The Marshal Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for The Marshal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 328,
+            "apiname": "SlingShotMortar",
+            "name": "Bombardier Mortar Pro",
+            "description": "Get 50 kills using Mortar Ammo for the Bombardier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 329,
+            "apiname": "SMGExtMags",
+            "name": "Gatekeeper Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 330,
+            "apiname": "SMGPenetrator",
+            "name": "Gatekeeper Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 331,
+            "apiname": "SMGRedDot",
+            "name": "Gatekeeper Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 332,
+            "apiname": "SMGReflex",
+            "name": "Gatekeeper Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 333,
+            "apiname": "SMGSensor",
+            "name": "Gatekeeper B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 334,
+            "apiname": "SMGSilencer",
+            "name": "Gatekeeper Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 335,
+            "apiname": "SMGStabilizer",
+            "name": "Gatekeeper Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Gatekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 336,
+            "apiname": "SportRifleExtMags",
+            "name": "Huntsman Extended Magazines Pro",
+            "description": "Get 50 kills using the Extended Magazines Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 337,
+            "apiname": "SportRiflePenetrator",
+            "name": "Huntsman Penetrator Pro",
+            "description": "Kill 25 armored enemies using the Penetrator Ammo Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 338,
+            "apiname": "SportRifleRedDot",
+            "name": "Huntsman Red Dot Sight Pro",
+            "description": "Get 50 kills using the Red Dot Sight Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 339,
+            "apiname": "SportRifleReflex",
+            "name": "Huntsman Reflex Sight Pro",
+            "description": "Get 50 kills using the Reflex Sight Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 340,
+            "apiname": "SportRifleSensor",
+            "name": "Huntsman B.O. Sniffer Pro",
+            "description": "Get 50 kills using the B.O. Sniffer Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 341,
+            "apiname": "SportRifleSilencer",
+            "name": "Huntsman Silencer Pro",
+            "description": "Get 50 kills using the Silencer Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 342,
+            "apiname": "SportRifleStabilizer",
+            "name": "Huntsman Muzzle Break Pro",
+            "description": "Get 50 kills using the Muzzle Break Mod for the Huntsman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 343,
+            "apiname": "FreezeGunExtMagsDamage",
+            "name": "Deep Freezer Extended Magazines Pro ",
+            "description": "Inflict 10000 Damage using the Extended Magazines Mod for the Deep Freezer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 344,
+            "apiname": "BodyTypesAverage",
+            "name": "Burly Elite",
+            "description": "Complete all Burly Body Type Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 345,
+            "apiname": "BodyTypesHeavy",
+            "name": "Mighty Elite",
+            "description": "Complete all Mighty Body Type Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 346,
+            "apiname": "BodyTypesNimble",
+            "name": "Nimble Elite",
+            "description": "Complete all Nimble Body Type Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 347,
+            "apiname": "BodyTypesSpeedy",
+            "name": "Speedy Elite",
+            "description": "Complete all Speedy Body Type Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 348,
+            "apiname": "BodyTypesTough",
+            "name": "Tough Elite",
+            "description": "Complete all Tough Body Type Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 349,
+            "apiname": "GadgetsEnemyVision",
+            "name": "Targeting Goggles Expert",
+            "description": "Complete all Targeting Goggles Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 350,
+            "apiname": "GadgetsGlider",
+            "name": "Glider Rig Expert",
+            "description": "Complete all Glider Rig Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 351,
+            "apiname": "GadgetsGrappleGun",
+            "name": "Grapple Gun Expert",
+            "description": "Complete all Grapple Gun Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 352,
+            "apiname": "GadgetsInflatedInsoles",
+            "name": "Inflated Insoles Expert",
+            "description": "Complete all Inflated Insoles Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 353,
+            "apiname": "GadgetsInvisioGadget",
+            "name": "Ninja Smoke Bomb Expert",
+            "description": "Complete all Ninja Smoke Bomb Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 354,
+            "apiname": "GadgetsJetpack",
+            "name": "Jetpack Expert",
+            "description": "Complete all Jetpack Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 355,
+            "apiname": "GadgetsRollerSkates",
+            "name": "Rollerskates Expert",
+            "description": "Complete all Rollerskate Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 356,
+            "apiname": "GadgetsSpringBoots",
+            "name": "Spring Boots Expert",
+            "description": "Complete all Spring Boot Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 357,
+            "apiname": "GameModesDoomsday",
+            "name": "Fumigator of the Year",
+            "description": "Complete all Fumigation Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 358,
+            "apiname": "GameModesDoomsdayAllMaps",
+            "name": "Smog Alert",
+            "description": "Win a Fumigation game on Ace Chemical, Amusement Mile, Crime Alley, Gotham Power and The Docks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 359,
+            "apiname": "GameModesPsychologicalWarfare",
+            "name": "Propagandist",
+            "description": "Complete all Psych Warfare Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 360,
+            "apiname": "GameModesPsychWarfareAllMaps",
+            "name": "Spreading the Word",
+            "description": "Win a Psych Warfare game on Ace Chemical, Amusement Mile, Crime Alley, Gotham Power and The Docks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 361,
+            "apiname": "GameModesTeamDeathmatch",
+            "name": "Delighted with Deathmatch ",
+            "description": "Complete All Team Deathmatch Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 362,
+            "apiname": "GameModesTDMAllMaps",
+            "name": "Urban Unrest",
+            "description": "Win a Team Deathmatch game on Ace Chemical, Amusement Mile, Crime Alley, Gotham Power and The Docks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 363,
+            "apiname": "GameModesTokenTDM",
+            "name": "Bounty Hunter",
+            "description": "Complete all Bounty Hunter Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 364,
+            "apiname": "GameModesTTDMAllMaps",
+            "name": "Wide and Far",
+            "description": "Win a Bounty Hunter game on Ace Chemical, Amusement Mile, Crime Alley, Gotham Power, The Docks, 25th Floor and East End.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 365,
+            "apiname": "Legendary",
+            "name": "Legendary Master",
+            "description": "Complete all Legendary Feats.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 366,
+            "apiname": "MeteredAbilityAngryHedgeHog",
+            "name": "Hedgehog Hero",
+            "description": "Complete all Angry Hedgehog Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 367,
+            "apiname": "MeteredAbilityDeathRacer",
+            "name": "Ultimate Death Racer",
+            "description": "Complete all Death Racer Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 368,
+            "apiname": "MeteredAbilityGunRunner",
+            "name": "Gun Runner Supreme",
+            "description": "Complete all Gun Runner Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 369,
+            "apiname": "MeteredAbilityPowderKeg",
+            "name": "Ready to Blow",
+            "description": "Complete all Powder Keg Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 370,
+            "apiname": "MeteredAbilityToughAsNails",
+            "name": "Very Tough Stuff",
+            "description": "Complete all Tough as Nails Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 371,
+            "apiname": "MiscKill",
+            "name": "Lambs to the Slaughter",
+            "description": "Complete all Basic Kill Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 372,
+            "apiname": "MiscKillEnemyBodyType",
+            "name": "No Body Left Behind",
+            "description": "Complete all Body Type Kill Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 373,
+            "apiname": "MiscKillEnemyGadget",
+            "name": "Gadget Phobia",
+            "description": "Complete all Gadgeteer Kills Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 374,
+            "apiname": "MiscMovement",
+            "name": "Shuck and Jive",
+            "description": "Complete all Movement Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 375,
+            "apiname": "MiscNemesis",
+            "name": "Your Worst Nightmare",
+            "description": "Complete all Basic Nemesis Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 376,
+            "apiname": "SupportItemsAlarmTrap",
+            "name": "Motion Sensor Expert",
+            "description": "Complete all Motion Sensor Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 377,
+            "apiname": "SupportItemsAntiAirTrap",
+            "name": "Airspace Denier Expert",
+            "description": "Complete all Airspace Denier Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 378,
+            "apiname": "SupportItemsBearTrap",
+            "name": "Bear Trap Expert",
+            "description": "Complete all Bear Trap Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 379,
+            "apiname": "SupportItemsBodyArmor",
+            "name": "Body Armor Expert",
+            "description": "Complete All Body Armor Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 380,
+            "apiname": "SupportItemsBoomerang",
+            "name": "Boomerang Expert",
+            "description": "Complete all Boomerang Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 381,
+            "apiname": "SupportItemsCarePackage",
+            "name": "Care Package Expert",
+            "description": "Complete all Care Package Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 382,
+            "apiname": "SupportItemsConch",
+            "name": "Conch Shell Expert",
+            "description": "Complete all Conch Shell Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 383,
+            "apiname": "SupportItemsHealingPotion",
+            "name": "Energy Drink Expert",
+            "description": "Complete All Energy Drink feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 384,
+            "apiname": "SupportItemsImpactGrenade",
+            "name": "Impact Grenade Expert",
+            "description": "Complete all Impact Grenade feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 385,
+            "apiname": "SupportItemsPipeBomb",
+            "name": "Pipe Bomb Expert",
+            "description": "Complete all Pipe Bomb feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 386,
+            "apiname": "SupportItemsProximityMine",
+            "name": "Trap-in-the-Box Expert",
+            "description": "Complete all Trap-in-the-Box feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 387,
+            "apiname": "SupportItemsShuriken",
+            "name": "Shuriken Expert",
+            "description": "Complete all Shuriken Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 388,
+            "apiname": "SupportItemsThrowingAxe",
+            "name": "Hatchet Expert",
+            "description": "Complete all Hatchet Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 389,
+            "apiname": "SupportItemsToxicGas",
+            "name": "Toxic Gas Expert",
+            "description": "Complete all Toxic Gas Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 390,
+            "apiname": "WeaponsAntiqueSniperRifle",
+            "name": "Buccaneer Master",
+            "description": "Complete all Buccaneer Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 391,
+            "apiname": "WeaponsAssaultRifle",
+            "name": "Dawn Patrol Master",
+            "description": "Complete all Dawn Patrol Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 392,
+            "apiname": "WeaponsAutoShotgun",
+            "name": "Chaperone Master",
+            "description": "Complete all Chaperone Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 393,
+            "apiname": "WeaponsBallBearingGun",
+            "name": "Shredder Master",
+            "description": "Complete all Shredder Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 394,
+            "apiname": "WeaponsBazooka",
+            "name": "Thunder Dragon Master",
+            "description": "Complete all Thunder Dragon Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 395,
+            "apiname": "WeaponsBoardingParty",
+            "name": "Boarding Party Master",
+            "description": "Complete all Boarding Party Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 396,
+            "apiname": "WeaponsBurstFireRifle",
+            "name": "Partisan Master",
+            "description": "Complete all Partisan Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 397,
+            "apiname": "WeaponsCompactSMG",
+            "name": "Desperado Master",
+            "description": "Complete all Desperado Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 398,
+            "apiname": "WeaponsElectricGun",
+            "name": "Witch Doctor Master",
+            "description": "Complete all Witch Doctor Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 399,
+            "apiname": "WeaponsFreezeGun",
+            "name": "Deep Freezer Master",
+            "description": "Complete all Deep Freezer Feats",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 400,
+            "apiname": "WeaponsHealingTool",
+            "name": "Motivator Master",
+            "description": "Complete all Motivator Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 401,
+            "apiname": "WeaponsHMG",
+            "name": "Jackhammer Master",
+            "description": "Complete all Jackhammer Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 402,
+            "apiname": "WeaponsHuntingBow",
+            "name": "Bear-Stalker Master",
+            "description": "Complete all Bear-Stalker Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 403,
+            "apiname": "WeaponsKatana",
+            "name": "Falcon Blade Master",
+            "description": "Complete all Falcon Blade Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 404,
+            "apiname": "WeaponsMelee",
+            "name": "Knife Master",
+            "description": "Complete all Knife Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 405,
+            "apiname": "WeaponsPistol",
+            "name": "Kingmaker Master",
+            "description": "Complete all Kingmaker Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 406,
+            "apiname": "WeaponsPumpShotgun",
+            "name": "Persuader Master",
+            "description": "Complete all Persuader Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 407,
+            "apiname": "WeaponsSemiAutoSniperRifle",
+            "name": "The Marshal Master",
+            "description": "Complete all The Marshal Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 408,
+            "apiname": "WeaponsSlingShot",
+            "name": "Bombardier Master",
+            "description": "Complete all Bombardier Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 409,
+            "apiname": "WeaponsSMG",
+            "name": "Gatekeeper Master",
+            "description": "Complete all Gatekeeper Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 410,
+            "apiname": "WeaponsSportRifle",
+            "name": "Huntsman Master",
+            "description": "Complete all Huntsman Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 411,
+            "apiname": "MiscHealth",
+            "name": "Doctor Knows Best",
+            "description": "Complete all Basic Health Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 412,
+            "apiname": "MeteredAbilityKillCrazyRampage",
+            "name": "Rampage is all the Rage",
+            "description": "Complete all Kill Crazy Rampage Feats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

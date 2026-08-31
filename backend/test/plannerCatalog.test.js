@@ -559,6 +559,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("magicka"));
     assert.ok(slugs.includes("painkiller-hell-and-damnation"));
     assert.ok(slugs.includes("offspring-fling"));
+    assert.ok(slugs.includes("gotham-city-impostors"));
+    assert.ok(slugs.includes("closure"));
+    assert.ok(slugs.includes("sonic-cd"));
 
 });
 

@@ -535,6 +535,9 @@ import { GUIDE as savageLandsAchievementGuide } from "./games/savage-lands.js";
 import { GUIDE as magickaAchievementGuide } from "./games/magicka.js";
 import { GUIDE as painkillerHellAndDamnationAchievementGuide } from "./games/painkiller-hell-and-damnation.js";
 import { GUIDE as offspringFlingAchievementGuide } from "./games/offspring-fling.js";
+import { GUIDE as gothamCityImpostorsAchievementGuide } from "./games/gotham-city-impostors.js";
+import { GUIDE as closureAchievementGuide } from "./games/closure.js";
+import { GUIDE as sonicCdAchievementGuide } from "./games/sonic-cd.js";
 
 export const APP_GUIDES = [
 
@@ -1092,7 +1095,10 @@ export const GAME_GUIDES = [
     savageLandsAchievementGuide,
     magickaAchievementGuide,
     painkillerHellAndDamnationAchievementGuide,
-    offspringFlingAchievementGuide
+    offspringFlingAchievementGuide,
+    gothamCityImpostorsAchievementGuide,
+    closureAchievementGuide,
+    sonicCdAchievementGuide
 
 ];
 
