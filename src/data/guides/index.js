@@ -629,6 +629,9 @@ import { GUIDE as nightskyAchievementGuide } from "./games/nightsky.js";
 import { GUIDE as fezAchievementGuide } from "./games/fez.js";
 import { GUIDE as machinariumAchievementGuide } from "./games/machinarium.js";
 import { GUIDE as titanSoulsAchievementGuide } from "./games/titan-souls.js";
+import { GUIDE as hardWestAchievementGuide } from "./games/hard-west.js";
+import { GUIDE as invisibleIncAchievementGuide } from "./games/invisible-inc.js";
+import { GUIDE as momodoraReverieUnderTheMoonlightAchievementGuide } from "./games/momodora-reverie-under-the-moonlight.js";
 
 export const APP_GUIDES = [
 
@@ -1280,7 +1283,10 @@ export const GAME_GUIDES = [
     nightskyAchievementGuide,
     fezAchievementGuide,
     machinariumAchievementGuide,
-    titanSoulsAchievementGuide
+    titanSoulsAchievementGuide,
+    hardWestAchievementGuide,
+    invisibleIncAchievementGuide,
+    momodoraReverieUnderTheMoonlightAchievementGuide
 
 ];
 

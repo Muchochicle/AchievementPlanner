@@ -1,0 +1,231 @@
+{
+    "id": 243970,
+    "steamAppId": 243970,
+    "name": "Invisible, Inc.",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/243970/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "Turn-Based Tactics",
+        "Stealth",
+        "Roguelike",
+        "Strategy",
+        "Cyberpunk",
+        "Indie"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "META_HACKING",
+            "name": "Meta-Hacking",
+            "description": "Hack the game itself: back up scripts.zip, edit client/states/state-main-menu.lua to uncomment the KLEIAchievements:achieve( \"META_HACKING\" ) line, blank hashes.dat to 0 bytes, and relaunch. Klei intended this achievement to be earned by modifying the game files.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ANT_SOCIETY",
+            "name": "Ant Society",
+            "description": "Beat the game on Experienced difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "INVISIBLE_INC",
+            "name": "Invisible Inc.",
+            "description": "Beat the game on Expert difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "FULLY_EQUIPPED",
+            "name": "Fully Equipped",
+            "description": "Unlock every agent, agent alternate, and starting mainframe program.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "THE_LIMIT",
+            "name": "The Limit",
+            "description": "Beat a level after reaching Alarm level 6 in the level on Expert difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "GHOST_MOVES",
+            "name": "Ghost Moves",
+            "description": "Beat a level without ever being spotted by a guard or camera on Beginner or Expert difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "NEVER_LOOK_BACK",
+            "name": "Never Look Back",
+            "description": "Beat the game with rewinds set to 0 on Expert difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "REBUILDING_THE_FIRM",
+            "name": "Rebuilding the Firm",
+            "description": "Survive 5 days in Endless mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "CORPORATE_LADDER",
+            "name": "Corporate Ladder",
+            "description": "Survive 10 days in Endless mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACCEPTABLE_HOST",
+            "name": "Acceptable Host",
+            "description": "Beat the game on Expert Plus difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "MEAT_MACHINE",
+            "name": "Meat Machine",
+            "description": "Install 4 augments on an agent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "DAEMON_CODE",
+            "name": "Daemon Code",
+            "description": "Beat the game with Faust and Brimstone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "CONTACT",
+            "name": "Contact Re-established",
+            "description": "Survive for 24 Hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "NEARING_THRESHOLD",
+            "name": "Nearing Confidence Threshold",
+            "description": "Survive for 48 Hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "TARGET_RESOLVED",
+            "name": "Target Resolved",
+            "description": "Survive for 72 Hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ATTENTION_TO_DETAIL",
+            "name": "Attention to Detail",
+            "description": "Steal from every safe in a level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "SMOOTH_OPERATOR",
+            "name": "Smooth Operator",
+            "description": "Survive 5 days in Endless Plus mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "TIME_ATTACK",
+            "name": "Time Attack",
+            "description": "Beat the game in Time Attack mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "TRAINING_WHEELS",
+            "name": "Training Wheels",
+            "description": "Beat the game on Beginner difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "POWERFUL_TOAST",
+            "name": "Powerful Toast",
+            "description": "Beat the Contingency Plan extended Campaign on Experienced difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "TECHNICAL_MACGUFFIN",
+            "name": "Technical Macguffin",
+            "description": "Beat the Contingency Plan extended Campaign on Expert difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SURPRISED_FACE",
+            "name": "\"surprised\" Face",
+            "description": "Beat the Contingency Plan extended Campaign on Expert Plus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "EMPIRE_BUILDER",
+            "name": "Empire builder",
+            "description": "Survive 20 days in Endless mode with the Contingency Plan DLC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
