@@ -1,0 +1,573 @@
+{
+    "id": 22600,
+    "steamAppId": 22600,
+    "name": "Worms Reloaded",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/22600/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Artillery",
+        "Turn-Based Strategy",
+        "Comedy",
+        "Multiplayer",
+        "Local Multiplayer",
+        "Strategy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ARMAGEDDON_AN_AWARD",
+            "name": "Armageddon An Award",
+            "description": "Use the Armageddon weapon 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "CHEEKY_FLOCKER",
+            "name": "Cheeky Flocker",
+            "description": "Deploy 25 Sheep in any ranked match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "FAST_PINK_AND_HARD",
+            "name": "Fast, Pink And Hard",
+            "description": "Win a Pro ranked match in under 3 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "FIRE_STARTER",
+            "name": "Fire Starter",
+            "description": "Use fire weapons 200 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "GET_YOUR_LOB_ON",
+            "name": "Get Your Lob On",
+            "description": "Win a game using just the Grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "GOING_SOLO",
+            "name": "Going Solo",
+            "description": "Complete the single player campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "HALLELUJAH",
+            "name": "Hallelujah!",
+            "description": "Deploy the fabled Holy Hand Grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "LIKES_THE_DRINK",
+            "name": "Likes The Drink",
+            "description": "Drown 170 enemy worms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "OLDEST_SWINGER_IN_TOWN",
+            "name": "Oldest Swinger In Town",
+            "description": "Use the Ninja Rope 1000 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "PROD_FOR_VICTORY",
+            "name": "Prod For Victory",
+            "description": "Win a game by using the Prod",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "RANKED_MASTER",
+            "name": "Ranked Master",
+            "description": "Achieve 17 wins in all ranked match types",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "SIX_PEST",
+            "name": "Six Pest",
+            "description": "Kill 6 enemy worms in a single turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "COMMUNITYMISSIONS",
+            "name": "People's Champ!",
+            "description": "Complete all of the community-created missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "DEATH_MATCHED",
+            "name": "Death Matched",
+            "description": "Forts Pack: Complete any deathmatch mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "KINGS_DEFENDER",
+            "name": "King's Defender",
+            "description": "Forts Pack: Complete any defend vital worm mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "CRATE_SCOTT",
+            "name": "Crate Scott",
+            "description": "Forts Pack: Complete any vital crate mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "VITAL_BALLISTICS",
+            "name": "Vital Ballistics",
+            "description": "Forts Pack: Complete any kill vital worm mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "BRIDGE_BURNER",
+            "name": "Bridge Burner",
+            "description": "Forts Pack: Collect the vital crate on Fort 13 without using the Bridge Kit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "CALL_OFF_THE_STRIKE",
+            "name": "Call off the Strike",
+            "description": "Forts Pack: Complete Fort 14 without using the Airstrike",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "GONE_BANANAS",
+            "name": "Gone Bananas",
+            "description": "Forts Pack: Complete Fort 16 by using the Banana Bomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "HOLY_MOLY",
+            "name": "Holy Moly",
+            "description": "Forts Pack: Complete Fort 11 by using the Holy Hand Grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "HEAD_HUNTER",
+            "name": "Head Hunter",
+            "description": "Forts Pack: Complete Fort 20 ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "DREAM_TEAM",
+            "name": "Dream Team",
+            "description": "Forts Pack: Complete Fort 19 without losing a worm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "STALWART",
+            "name": "Stalwart",
+            "description": "Forts Pack: Complete Fort 17 without vital worm taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "SOAK_CRATES",
+            "name": "Soak-Crates",
+            "description": "Forts Pack: Collect the vital crate on Fort 18 before sudden death kicks in",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "AMATEUR_PUZZLER",
+            "name": "Amateur Puzzler",
+            "description": "Puzzle Pack: Complete Puzzles 1-7",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "DETECTIVE",
+            "name": "Detective",
+            "description": "Puzzle Pack: Complete Puzzles 8-15",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "SUPER_SLEUTH",
+            "name": "Super Sleuth",
+            "description": "Puzzle Pack: Complete Puzzles 16-20",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "DAMAGE_DEALER",
+            "name": "Damage Dodger",
+            "description": "Puzzle Pack: Complete Puzzle 6 without taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "PAIN_PREVENTION",
+            "name": "Pain Prevention",
+            "description": "Puzzle Pack: Complete Puzzle 5 without taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ODYNOPHOBIAC",
+            "name": "Odynophobiac",
+            "description": "Puzzle Pack: Complete Puzzle 11 without taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ECONOMICAL",
+            "name": "Economical",
+            "description": "Puzzle Pack: Complete Puzzle 3 but have at least 1 item left in your inventory that isn't Skip Go or Surrender",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "THRIFTY",
+            "name": "Thrifty",
+            "description": "Puzzle Pack: Complete Puzzle 17 but have at least 1 item left in your inventory that isn't Skip Go or Surrender",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "GNATS_NOSTRIL",
+            "name": "Gnat's Nostril",
+            "description": "Puzzle Pack: Complete Puzzle 20 but have at least 1 item left in your inventory that isn't Skip Go or Surrender",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "LIGHTFOOT",
+            "name": "Lightfoot",
+            "description": "Puzzle Pack: Complete Puzzle 15 before Sudden Death kicks in",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "AINT_GOT_TIME_TO_SPEED",
+            "name": "Ain't Got Time to Speed",
+            "description": "Puzzle Pack: Complete Puzzle 19 before Sudden Death kicks in",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "DONE_IN_20_SECONDS",
+            "name": "Done in 20 Seconds",
+            "description": "Puzzle Pack: Complete Puzzle 18 before Sudden Death kicks in",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SWIFT_EXIT",
+            "name": "Swift Exit",
+            "description": "Time Attack: Set fastest times on all the A-to-B (exit point) Time Attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "AINT_NO_LAPDOG",
+            "name": "Ain't No Lap Dog",
+            "description": "Time Attack: Set fastest times on all the lap-based Time Attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "THE_CRATEST",
+            "name": "The Cratest",
+            "description": "Time Attack: Set fastest times on all the Crate Collect Time Attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "BULLET_DODGER",
+            "name": "Bullet Dodger ",
+            "description": "Time Attack: Complete Time Attack 7 by setting the fastest time and without taking Sentry Gun fire damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "GUN_SHY",
+            "name": "Gun Shy",
+            "description": "Time Attack: Complete Time Attack 3 by setting the fastest time and without taking Sentry Gun fire damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "TWINKLE_TOES",
+            "name": "Twinkle Toes",
+            "description": "Time Attack: Complete Time Attack 13 by setting the fastest time and without taking Mine damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "DEFUSED",
+            "name": "Defused",
+            "description": "Time Attack: Complete Time Attack 1 by setting the fastest time and without taking Mine damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "FALL_GUY",
+            "name": "Fall Guy",
+            "description": "Time Attack: Complete Time Attack 2 by setting the fastest time and without taking Fall damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "DOWN_TO_EARTH",
+            "name": "Down-to-Earth",
+            "description": "Time Attack: Complete Time Attack 17 by setting the fastest time and without taking Fall damage ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "LIGHTNING_BOLT",
+            "name": "Lightning Bolt",
+            "description": "Time Attack: Complete Time Attack 6 in under 70 Seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ME_SANE_BOLT",
+            "name": "Me Sane Bolt",
+            "description": "Time Attack: Complete Time Attack 9 in under 50 Seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "NUT_N_BOLT",
+            "name": "Nut 'n' Bolt",
+            "description": "Time Attack: Complete Time Attack 4 in under 20 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "LAST_WORM_SCOUT",
+            "name": "Last Worm Scout",
+            "description": "Retro Pack: Complete Retro 1 without the Mayor taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "CANT_BE_ROCKED",
+            "name": "Can't Be Rocked",
+            "description": "Retro Pack: Complete Retro 4 without taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "AN_APPLE_A_DAY",
+            "name": "An Apple a Day...",
+            "description": "Retro Pack: Complete Retro 6 without picking up a Health Crate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "WORMINATOR",
+            "name": "Worminator",
+            "description": "Retro Pack: Complete Retro 7 and kill all the enemy worms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "LEAVE_NO_WORM_BEHIND",
+            "name": "Leave No Worm Behind",
+            "description": "Retro Pack: Complete Retro 10 with all 3 player worms alive",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "CHILDS_PLAY",
+            "name": "Child's Play",
+            "description": "Retro Pack: Complete Retro 11 without the Toy Master taking damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "CRATE_FISHING",
+            "name": "Crate Fishing",
+            "description": "Retro Pack: Collect all the crates on Retro 12",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "MODERNIST",
+            "name": "Modernist",
+            "description": "Retro Pack: Complete Retro 1-5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "SO_LAST_YEAR",
+            "name": "So Last Year",
+            "description": "Retro Pack: Complete Retro 6-10",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "STUCK_IN_THE_90S",
+            "name": "Stuck in the 90s",
+            "description": "Retro Pack: Complete Retro 11-15",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "SUMMEROF69",
+            "name": "Summer of '69",
+            "description": "Deal exactly 31 damage to a worm with 100 health. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "12_DAYS_OF_WINTERVAL",
+            "name": "12 Days of Winterval",
+            "description": "Deal exactly 12 damage to a worm with 100 health. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -547,6 +547,12 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("zombie-army-trilogy"));
     assert.ok(slugs.includes("atom-zombie-smasher"));
     assert.ok(slugs.includes("frozen-synapse"));
+    assert.ok(slugs.includes("ares-extinction-agenda"));
+    assert.ok(slugs.includes("universe-sandbox-legacy"));
+    assert.ok(slugs.includes("intrusion-2"));
+    assert.ok(slugs.includes("doom-plus-doom-ii"));
+    assert.ok(slugs.includes("aliens-vs-predator-2010"));
+    assert.ok(slugs.includes("worms-reloaded"));
 
 });
 

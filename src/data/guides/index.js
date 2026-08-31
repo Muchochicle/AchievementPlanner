@@ -523,6 +523,12 @@ import { GUIDE as massEffect3AchievementGuide } from "./games/mass-effect-3.js";
 import { GUIDE as zombieArmyTrilogyAchievementGuide } from "./games/zombie-army-trilogy.js";
 import { GUIDE as atomZombieSmasherAchievementGuide } from "./games/atom-zombie-smasher.js";
 import { GUIDE as frozenSynapseAchievementGuide } from "./games/frozen-synapse.js";
+import { GUIDE as aresExtinctionAgendaAchievementGuide } from "./games/ares-extinction-agenda.js";
+import { GUIDE as universeSandboxLegacyAchievementGuide } from "./games/universe-sandbox-legacy.js";
+import { GUIDE as intrusion2AchievementGuide } from "./games/intrusion-2.js";
+import { GUIDE as doomPlusDoomIIAchievementGuide } from "./games/doom-plus-doom-ii.js";
+import { GUIDE as aliensVsPredator2010AchievementGuide } from "./games/aliens-vs-predator-2010.js";
+import { GUIDE as wormsReloadedAchievementGuide } from "./games/worms-reloaded.js";
 
 export const APP_GUIDES = [
 
@@ -1068,7 +1074,13 @@ export const GAME_GUIDES = [
     massEffect3AchievementGuide,
     zombieArmyTrilogyAchievementGuide,
     atomZombieSmasherAchievementGuide,
-    frozenSynapseAchievementGuide
+    frozenSynapseAchievementGuide,
+    aresExtinctionAgendaAchievementGuide,
+    universeSandboxLegacyAchievementGuide,
+    intrusion2AchievementGuide,
+    doomPlusDoomIIAchievementGuide,
+    aliensVsPredator2010AchievementGuide,
+    wormsReloadedAchievementGuide
 
 ];
 

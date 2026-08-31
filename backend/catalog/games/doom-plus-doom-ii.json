@@ -1,0 +1,321 @@
+{
+    "id": 2280,
+    "steamAppId": 2280,
+    "name": "DOOM + DOOM II",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2280/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 10,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Classic",
+        "Retro",
+        "Action",
+        "Demons",
+        "Fast-Paced"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_FISTS",
+            "name": "Guns Are For Wusses",
+            "description": "Get 25 kills with your Fists in a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_CHAINSAW",
+            "name": "Until It Is Done",
+            "description": "Get 100 Chainsaw kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_PISTOL",
+            "name": "Shoot It Until It Dies",
+            "description": "Finish off a Cyberdemon with the Pistol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_SHOTGUN",
+            "name": "Groovy",
+            "description": "Get 3 multi-kills with the Shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_SUPER_SHOTGUN",
+            "name": "Skeet Shooting",
+            "description": "Kill 4 enemies in 1 shot with the Super Shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_CHAINGUN",
+            "name": "Heavenly Joy",
+            "description": "Shoot 200 bullets consecutively with the Chaingun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_ROCKET_LAUNCHER",
+            "name": "Bowling for Gibs",
+            "description": "Gib three or more enemies with a single rocket explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_PLASMA",
+            "name": "Cookin' With Plasma",
+            "description": "Kill 5 enemies in 5 seconds with the Plasma Rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_BFG",
+            "name": "Overkill",
+            "description": "Kill only a single enemy with a BFG9000 blast.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_BARREL",
+            "name": "Timing Is Everything",
+            "description": "Kill 2 enemies with a single barrel explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_DOOR_CRUSH",
+            "name": "Doormat",
+            "description": "Crush a corpse in a door.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ARMOR_AND_HEALTH",
+            "name": "Overprepared",
+            "description": "Finish a level with 200% armor and 200% health.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_KILL_ENEMY_TYPES",
+            "name": "Indiscriminate Headhunter",
+            "description": "Kill one of every enemy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_ENEMY_FRIENDLY_FIRE",
+            "name": "Not So Friendly Fire",
+            "description": "Cause an enemy to kill another enemy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_NIGHTMARE",
+            "name": "More Like a Dream",
+            "description": "Complete a level on Nightmare difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_HOARDER",
+            "name": "Hoarder",
+            "description": "Finish a level with 100% items picked up.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_UNTOUCHABLE",
+            "name": "The Only Thing They Fear Is You",
+            "description": "Complete any monster-filled level with 100% kills without taking any damage on Ultra-Violence or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_SECRET_AREA",
+            "name": "An Important Looking Door",
+            "description": "Find a secret area.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_SECRET_LEVEL",
+            "name": "Alternate Dimension",
+            "description": "Find a secret level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_KILL_ALL",
+            "name": "Clean Slate",
+            "description": "Kill all monsters in any monster-filled level on 'Hurt me plenty' or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_HUNDO",
+            "name": "Burning Out of Control",
+            "description": "Complete any monster-filled level with 100% kills, items, and secrets.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_BERSERK",
+            "name": "A Man and a Half",
+            "description": "Get 20 kills using the berserk powerup in a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_PAR",
+            "name": "Untouchable",
+            "description": "Complete 8 different levels sequentially under par time without dying on Ultra-Violence or higher.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_FLAMETHROWER",
+            "name": "Kill It With Fire",
+            "description": "Immolate a total of 30 arachnoid enemies with the Incinerator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_SUPERWEAPON",
+            "name": "Screen Wipe",
+            "description": "Obliterate 50 enemies with a single shot of the Calamity Blade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_CAMPAIGN_DOOM",
+            "name": "DOOM",
+            "description": "Reach the end of 'DOOM'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_CAMPAIGN_SIGIL",
+            "name": "Sigil",
+            "description": "Reach the end of 'Sigil'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_CAMPAIGN_DOOM2",
+            "name": "DOOM II",
+            "description": "Reach the end of 'DOOM II'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_CAMPAIGN_NOREST",
+            "name": "No Rest for the Living",
+            "description": "Reach the end of 'No Rest for the Living'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_CAMPAIGN_MASTER",
+            "name": "Master Levels",
+            "description": "Reach the end of 'Master Levels for DOOM II'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_CAMPAIGN_EVILUTION",
+            "name": "Evilution",
+            "description": "Reach the end of 'TNT: Evilution'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_CAMPAIGN_PLUTONIA",
+            "name": "Plutonia",
+            "description": "Reach the end of 'The Plutonia Experiment'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_CAMPAIGN_NEWDOOM",
+            "name": "Legacy of Rust",
+            "description": "Reach the end of 'Legacy of Rust'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
