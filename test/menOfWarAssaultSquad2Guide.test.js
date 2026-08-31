@@ -1,0 +1,70 @@
+import { test } from "node:test";
+import assert from "node:assert";
+
+import { GUIDE } from "../src/data/guides/games/men-of-war-assault-squad-2.js";
+
+test("the Men of War: Assault Squad 2 guide identifies itself correctly as its Game Guide", () => {
+
+    assert.strictEqual(GUIDE.slug, "men-of-war-assault-squad-2-achievement-guide");
+    assert.strictEqual(GUIDE.category, "game");
+    assert.strictEqual(GUIDE.gameSlug, "men-of-war-assault-squad-2");
+
+});
+
+test("the Men of War: Assault Squad 2 guide has all 16 proposed sections, in order", () => {
+
+    assert.deepStrictEqual(
+        GUIDE.sections.map(section => section.heading),
+        [
+            "Overview",
+            "Skirmish: Introduction & USA Missions 2-4",
+            "Skirmish: USA Missions 5-8",
+            "Skirmish: Germany Missions 2-8",
+            "Skirmish: Commonwealth Missions 2-8",
+            "Skirmish: Soviet Union Missions 2-8",
+            "Skirmish: Japanese Empire Missions 2-8",
+            "Bonus Objectives (Part 1)",
+            "Skirmish: First Missions & More Bonus Objectives",
+            "Skirmish: Missions 9",
+            "Bonus Objectives (Part 2)",
+            "Skirmish: Missions 10",
+            "Bonus Objectives (Part 3)",
+            "Origins DLC: USA & Germany Campaigns",
+            "Origins DLC: Soviet Union Campaign",
+            "Suggested Order",
+        ]
+    );
+
+});
+
+test("the Overview states the verified 415-achievement fact", () => {
+
+    const overview = GUIDE.sections[0].body.join(" ");
+
+    assert.match(overview, /415 Steam achievements/);
+
+});
+
+test("every one of the 415 official Men of War: Assault Squad 2 achievement names is mentioned somewhere in the guide", () => {
+
+    const officialAchievementNames = ["Introduction - easy", "Introduction - normal", "Introduction - hard", "Introduction - heroic", "Beachhead", "Ambush", "Road Block", "Fortification", "USA mission 2 - easy", "USA mission 2 - normal", "USA mission 2 - hard", "USA mission 2 - heroic", "USA mission 3 - easy", "USA mission 3 - normal", "USA mission 3 - hard", "USA mission 3 - heroic", "USA mission 4 - easy", "USA mission 4 - normal", "USA mission 4 - hard", "USA mission 4 - heroic", "USA mission 5 - easy", "USA mission 5 - normal", "USA mission 5 - hard", "USA mission 5 - heroic", "USA mission 6 - easy", "USA mission 6 - normal", "USA mission 6 - hard", "USA mission 6 - heroic", "USA mission 7 - easy", "USA mission 7 - normal", "USA mission 7 - hard", "USA mission 7 - heroic", "USA mission 8 - easy", "USA mission 8 - normal", "USA mission 8 - hard", "USA mission 8 - heroic", "Germany mission 2 - easy", "Germany mission 2 - normal", "Germany mission 2 - hard", "Germany mission 2 - heroic", "Germany mission 3 - easy", "Germany mission 3 - normal", "Germany mission 3 - hard", "Germany mission 3 - heroic", "Germany mission 4 - easy", "Germany mission 4 - normal", "Germany mission 4 - hard", "Germany mission 4 - heroic", "Germany mission 5 - easy", "Germany mission 5 - normal", "Germany mission 5 - hard", "Germany mission 5 - heroic", "Germany mission 6 - easy", "Germany mission 6 - normal", "Germany mission 6 - hard", "Germany mission 6 - heroic", "Germany mission 7 - easy", "Germany mission 7 - normal", "Germany mission 7 - hard", "Germany mission 7 - heroic", "Germany mission 8 - easy", "Germany misson 8 - normal", "Germany misson 8 - hard", "Germany mission 8 - heroic", "Commonwealth mission 2 - easy", "Commonwealth mission 2 - normal", "Commonwealth mission 2 - hard", "Commonwealth mission 2 - heroic", "Commonwealth mission 3 - easy", "Commonwealth mission 3 - normal", "Commonwealth mission 3 - hard", "Commonwealth mission 3 - heroic", "Commonwealth mission 4 - easy", "Commonwealth mission 4 - normal", "Commonwealth mission 4 - hard", "Commonwealth mission 4 - heroic", "Commonwealth misson 5 - easy", "Commonwealth mission 5 - normal", "Commonwealth mission 5 - hard", "Commonwealth mission 5 - heroic", "Commonwealth mission 6 - easy", "Commonwealth mission 6 - normal", "Commonwealth misson 6 - hard", "Commonwealth mission 6 - heroic", "Commonwealth mission 7 - easy", "Commonwealth mission 7 - normal", "Commonwealth mission 7 - hard", "Commonwealth mission 7 - heroic", "Commonwealth mission 8 - easy", "Commonwealth mission 8 - normal", "Commonwealth mission 8 - hard", "Commonwealth mission 8 - heroic", "Soviet Union mission 2 - easy", "Soviet Union mission 2 - normal", "Soviet Union mission 2 - hard", "Soviet Union mission 2 - heroic", "Soviet Union mission 3 - easy", "Soviet Union mission 3 - normal", "Soviet Union mission 3 - hard", "Soviet Union mission 3 - heroic", "Soviet Union mission 4 - easy", "Soviet Union mission 4 - normal", "Soviet Union mission 4 - hard", "Soviet Union mission 4 - heroic", "Soviet Union mission 5 - easy", "Soviet Union mission 5 - normal", "Soviet Union mission 5 - hard", "Soviet Union mission 5 - heroic", "Soviet Union mission 6 - easy", "Soviet Union mission 6 - normal", "Soviet Union mission 6 - hard", "Soviet Union mission 6 - heroic", "Soviet Union mission 7 - easy", "Soviet Union mission 7 - normal", "Soviet Union mission 7 - hard", "Soviet Union mission 7 - heroic", "Soviet Union mission 8 - easy", "Soviet Union mission 8 - normal", "Soviet Union mission 8 - hard", "Soviet Union mission 8 - heroic", "Japanese Empire mission 2 - easy", "Japanese Empire mission 2 - normal", "Japanese Empire mission 2 - hard", "Japanese Empire mission 2 - heroic", "Japanese Empire mission 3 - easy", "Japanese Empire mission 3 - normal", "Japanese Empire mission 3 - hard", "Japanese Empire mission 3 - heroic", "Japanese Empire mission 4 - easy", "Japanese Empire mission 4 - normal", "Japanese Empire mission 4 - hard", "Japanese Empire mission 4 - heroic", "Japanese Empire mission 5 - easy", "Japanese Empire mission 5 - normal", "Japanese Empire mission 5 - hard", "Japanese Empire mission 5 - heroic", "Japanese Empire mission 6 - easy", "Japanese Empire mission 6 - normal", "Japanese Empire mission 6 - hard", "Japanese Empire mission 6 - heroic", "Japanese Empire mission 7 - easy", "Japanese Empire mission 7 - normal", "Japanese Empire mission 7 - hard", "Japanese Empire mission 7 - heroic", "Japanese Empire mission 8 - easy", "Japanese Empire mission 8 - normal", "Japanese Empire mission 8 - hard", "Japanese Empire mission 8 - heroic", "P51 Airstrike", "Goliath", "Artillery Strike", "For the Motherland", "Banzai", "101st Airborne", "Veteran Tiger", "Commandos", "203mm B-4M", "200mm Type 4", "U.S. Marines", "Brandenburger", "ANZAC", "Guards Rifle", "Kamikaze", "U.S. Radio Operator", "German Radio Operator", "British Radio Operator", "Soviet Radio Operator", "Japanese Radio Operator", "High Value Target", "High Value Target", "High Value Target", "High Value Target", "High Value Target", "M5A1 Stuart", "PzKpfw II Luchs", "Mk. VII Tetrach", "T-70", "Chi-Ha 57", "Baptism of Fire", "Baptism of Fire", "Baptism of Fire", "Baptism of Fire", "Baptism of Fire", "Spearhead", "Spearhead", "Spearhead", "Spearhead", "Spearhead", "Saviour", "Saviour", "Saviour", "Saviour", "Saviour", "Super Pershing", "King Tiger", "Mk.VII Churchill", "SU-100", "Ho-Ri 2", "Silent Hunter", "Silent Hunter", "Silent Hunter", "Silent Hunter", "Silent Hunter", "Behind Enemy Lines", "Behind Enemy Lines", "Behind Enemy Lines", "Behind Enemy Lines", "Behind Enemy Lines", "USA mission 1 - easy", "USA mission 1 - normal", "USA mission 1 - hard", "USA mission 1 - heroic", "Germany mission 1 easy", "Germany mission 1 normal", "Germany mission 1 hard", "Germany mission 1 heroic", "Commonwealth mission 1 - easy", "Commonwealth mission 1 - normal", "Commonwealth mission 1 - hard", "Commonwealth mission 1 - heroic", "Soviet Union mission 1 - easy", "Soviet Union mission 1 - normal", "Soviet Union mission 1 - hard", "Soviet Union mission 1 - heroic", "Japanese Empire mission 1 - easy", "Japanese Empire mission 1 - normal", "Japanese Empire mission 1 - hard", "Japanese Empire mission 1 - heroic", "Mechanic", "Mechanic", "Mechanic", "Mechanic", "Mechanic", "Conquerer", "Conquerer", "Conquerer", "Conquerer", "Conquerer", "Five Star General", "500 XP", "2.000 XP", "5.000 XP", "15.000 XP", "50.000 XP", "500 XP", "2.000 XP", "5.000 XP", "15.000 XP", "50.000 XP", "500 XP", "2.000 XP", "5.000 XP", "15.000 XP", "50.000 XP", "500 XP", "2.000 XP", "5.000 XP", "15.000 XP", "50.000 XP", "500 XP", "2.000 XP", "5.000 XP", "15.000 XP", "50.000 XP", "USA mission 9 - easy", "USA mission 9 - normal", "USA mission 9 - hard", "USA mission 9 - heroic", "Germany mission 9 - easy", "Germany mission 9 - normal", "Germany mission 9 - hard", "Germany mission 9 - heroic", "Commonwealth mission 9 - easy", "Commonwealth mission 9 - normal", "Commonwealth mission 9 - hard", "Commonwealth mission 9 - heroic", "Soviet Union mission 9 - easy", "Soviet Union mission 9 - normal", "Soviet Union mission 9 - hard", "Soviet Union mission 9 - heroic", "Japanese Empire mission 9 - easy", "Japanese Empire mission 9 - normal", "Japanese Empire mission 9 - hard", "Japanese Empire mission 9 - heroic", "Fireworks", "Fireworks", "Fireworks", "Fireworks", "Fireworks", "Ace of Aces", "Ace of Aces", "Ace of Aces", "Ace of Aces", "Ace of Aces", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "Master Tanker", "USA mission 10 - easy", "USA mission 10 - normal", "USA mission 10 - hard", "USA mission 10 - heroic", "Germany mission 10 - easy", "Germany mission 10 - normal", "Germany mission 10 - hard", "Germany mission 10 - heroic", "Commonwealth mission 10 - easy", "Commonwealth mission 10 - normal", "Commonwealth mission 10 - hard", "Commonwealth mission 10 - heroic", "Soviet Union mission 10 - easy", "Soviet Union mission 10 - normal", "Soviet Union mission 10 - hard", "Soviet Union mission 10 - heroic", "Japanese Empire mission 10 - easy", "Japanese Empire mission 10 - normal", "Japanese Empire mission 10 - hard", "Japanese Empire mission 10 - heroic", "Stealth", "Stealth", "Stealth", "Stealth", "Stealth", "Completionist", "Completionist", "Completionist", "Completionist", "Completionist", "Origins - USA mission 1 - easy", "Origins - USA mission 1 - normal", "Origins - USA mission 1 - hard", "Origins - USA mission 1 - heroic", "Origins - USA mission 2 - easy", "Origins - USA mission 2 - normal", "Origins - USA mission 2 - hard", "Origins - USA mission 2 - heroic", "Origins - USA mission 3 - easy", "Origins - USA mission 3 - normal", "Origins - USA mission 3 - hard", "Origins - USA mission 3 - heroic", "Origins - USA mission 4 - easy", "Origins - USA mission 4 - normal", "Origins - USA mission 4 - hard", "Origins - USA mission 4 - heroic", "Origins - USA mission 5 - easy", "Origins - USA mission 5 - normal", "Origins - USA mission 5 - hard", "Origins - USA mission 5 - heroic", "Origins - Germany mission 1 - easy", "Origins - Germany mission 1 - normal", "Origins - Germany mission 1 - hard", "Origins - Germany mission 1 - heroic", "Origins - Germany mission 2 - easy", "Origins - Germany mission 2 - normal", "Origins - Germany mission 2 - hard", "Origins - Germany mission 2 - heroic", "Origins - Germany mission 3 - easy", "Origins - Germany mission 3 - normal", "Origins - Germany mission 3 - hard", "Origins - Germany mission 3 - heroic", "Origins - Germany mission 4 - easy", "Origins - Germany mission 4 - normal", "Origins - Germany mission 4 - hard", "Origins - Germany mission 4 - heroic", "Origins - Germany mission 5 - easy", "Origins - Germany mission 5 - normal", "Origins - Germany mission 5 - hard", "Origins - Germany mission 5 - heroic", "Origins - Soviet Union mission 1 - easy", "Origins - Soviet Union mission 1 - normal", "Origins - Soviet Union mission 1 - hard", "Origins - Soviet Union mission 1 - heroic", "Origins - Soviet Union mission 2 - easy", "Origins - Soviet Union mission 2 - normal", "Origins - Soviet Union mission 2 - hard", "Origins - Soviet Union mission 2 - heroic", "Origins - Soviet Union mission 3 - easy", "Origins - Soviet Union mission 3 - normal", "Origins - Soviet Union mission 3 - hard", "Origins - Soviet Union mission 3 - heroic", "Origins - Soviet Union mission 4 - easy", "Origins - Soviet Union mission 4 - normal", "Origins - Soviet Union mission 4 - hard", "Origins - Soviet Union mission 4 - heroic", "Origins - Soviet Union mission 5 - easy", "Origins - Soviet Union mission 5 - normal", "Origins - Soviet Union mission 5 - hard", "Origins - Soviet Union mission 5 - heroic", "Origins - Soviet Union mission 6 - easy", "Origins - Soviet Union mission 6 - normal", "Origins - Soviet Union mission 6 - hard", "Origins - Soviet Union mission 6 - heroic", "Origins - Soviet Union mission 7 - easy", "Origins - Soviet Union mission 7 - normal", "Origins - Soviet Union mission 7 - hard", "Origins - Soviet Union mission 7 - heroic", "Origins - Soviet Union mission 8 - easy", "Origins - Soviet Union mission 8 - normal", "Origins - Soviet Union mission 8 - hard", "Origins - Soviet Union mission 8 - heroic", "Origins - Soviet Union mission 9 - easy", "Origins - Soviet Union mission 9 - normal", "Origins - Soviet Union mission 9 - hard", "Origins - Soviet Union mission 9 - heroic"];
+
+    assert.strictEqual(officialAchievementNames.length, 415, "sanity check on this test's own reference list");
+
+    const fullText = GUIDE.sections.map(section => section.body.join(" ")).join(" ");
+
+    const missing = officialAchievementNames.filter(name => !fullText.includes(name));
+
+    assert.deepStrictEqual(missing, [], "every official achievement name must be mentioned somewhere in the guide");
+
+});
+
+test("Tip: paragraphs (strategy) are distinguishable from the surrounding factual paragraphs", () => {
+
+    const tipParagraphs = GUIDE.sections
+        .flatMap(section => section.body)
+        .filter(paragraph => paragraph.startsWith("Tip:"));
+
+    assert.ok(tipParagraphs.length > 0, "expected at least one clearly-labeled strategy paragraph");
+
+});

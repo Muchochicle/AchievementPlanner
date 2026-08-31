@@ -1,0 +1,3759 @@
+{
+    "id": 244450,
+    "steamAppId": 244450,
+    "name": "Men of War: Assault Squad 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/244450/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 80,
+        "max": 160
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Real-Time Tactics",
+        "World War II",
+        "Strategy",
+        "Co-op",
+        "Military"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "skirmish_00_tutorial_easy",
+            "name": "Introduction - easy",
+            "description": "Complete the introduction on easy difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "skirmish_00_tutorial_normal",
+            "name": "Introduction - normal",
+            "description": "Complete the introduction on normal difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "skirmish_00_tutorial_hard",
+            "name": "Introduction - hard",
+            "description": "Complete the introduction on hard difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "skirmish_00_tutorial_heroic",
+            "name": "Introduction - heroic",
+            "description": "Complete the introduction on heroic difficulty.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "skirmish_00_tutorial_bonus1",
+            "name": "Beachhead",
+            "description": "Clean the beach of enemies in introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "skirmish_00_tutorial_bonus2",
+            "name": "Ambush",
+            "description": "Ambush the Japanese reinforcments in introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "skirmish_00_tutorial_bonus3",
+            "name": "Road Block",
+            "description": "Clear the road block in introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "skirmish_00_tutorial_bonus4",
+            "name": "Fortification",
+            "description": "Capture the Japanese fortification in introduction.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "skirmish_01_usa_easy",
+            "name": "USA mission 2 - easy",
+            "description": "Complete the second US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "skirmish_01_usa_normal",
+            "name": "USA mission 2 - normal",
+            "description": "Complete the second US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "skirmish_01_usa_hard",
+            "name": "USA mission 2 - hard",
+            "description": "Complete the second US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "skirmish_01_usa_heroic",
+            "name": "USA mission 2 - heroic",
+            "description": "Complete the second US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "skirmish_01b_usa_easy",
+            "name": "USA mission 3 - easy",
+            "description": "Complete the third US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "skirmish_01b_usa_normal",
+            "name": "USA mission 3 - normal",
+            "description": "Complete the third US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "skirmish_01b_usa_hard",
+            "name": "USA mission 3 - hard",
+            "description": "Complete the third US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "skirmish_01b_usa_heroic",
+            "name": "USA mission 3 - heroic",
+            "description": "Complete the third US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "skirmish_02_usa_easy",
+            "name": "USA mission 4 - easy",
+            "description": "Complete the fourth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "skirmish_02_usa_normal",
+            "name": "USA mission 4 - normal",
+            "description": "Complete the fourth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "skirmish_02_usa_hard",
+            "name": "USA mission 4 - hard",
+            "description": "Complete the fourth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "skirmish_02_usa_heroic",
+            "name": "USA mission 4 - heroic",
+            "description": "Complete the fourth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "skirmish_02b_usa_easy",
+            "name": "USA mission 5 - easy",
+            "description": "Complete the fifth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "skirmish_02b_usa_normal",
+            "name": "USA mission 5 - normal",
+            "description": "Complete the fifth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "skirmish_02b_usa_hard",
+            "name": "USA mission 5 - hard",
+            "description": "Complete the fifth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "skirmish_02b_usa_heroic",
+            "name": "USA mission 5 - heroic",
+            "description": "Complete the fifth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "skirmish_03_usa_easy",
+            "name": "USA mission 6 - easy",
+            "description": "Complete the sixth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "skirmish_03_usa_normal",
+            "name": "USA mission 6 - normal",
+            "description": "Complete the sixth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "skirmish_03_usa_hard",
+            "name": "USA mission 6 - hard",
+            "description": "Complete the sixth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "skirmish_03_usa_heroic",
+            "name": "USA mission 6 - heroic",
+            "description": "Complete the sixth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "skirmish_04_usa_easy",
+            "name": "USA mission 7 - easy",
+            "description": "Complete the seventh US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "skirmish_04_usa_normal",
+            "name": "USA mission 7 - normal",
+            "description": "Complete the seventh US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "skirmish_04_usa_hard",
+            "name": "USA mission 7 - hard",
+            "description": "Complete the seventh US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "skirmish_04_usa_heroic",
+            "name": "USA mission 7 - heroic",
+            "description": "Complete the seventh US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "skirmish_05_usa_easy",
+            "name": "USA mission 8 - easy",
+            "description": "Complete the eighth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "skirmish_05_usa_normal",
+            "name": "USA mission 8 - normal",
+            "description": "Complete the eighth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "skirmish_05_usa_hard",
+            "name": "USA mission 8 - hard",
+            "description": "Complete the eighth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "skirmish_05_usa_heroic",
+            "name": "USA mission 8 - heroic",
+            "description": "Complete the eighth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "skirmish_01_ger_easy",
+            "name": "Germany mission 2 - easy",
+            "description": "Complete the second German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "skirmish_01_ger_normal",
+            "name": "Germany mission 2 - normal",
+            "description": "Complete the second German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "skirmish_01_ger_hard",
+            "name": "Germany mission 2 - hard",
+            "description": "Complete the second German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "skirmish_01_ger_heroic",
+            "name": "Germany mission 2 - heroic",
+            "description": "Complete the second German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "skirmish_01b_ger_easy",
+            "name": "Germany mission 3 - easy",
+            "description": "Complete the third German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "skirmish_01b_ger_normal",
+            "name": "Germany mission 3 - normal",
+            "description": "Complete the third German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "skirmish_01b_ger_hard",
+            "name": "Germany mission 3 - hard",
+            "description": "Complete the third German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "skirmish_01b_ger_heroic",
+            "name": "Germany mission 3 - heroic",
+            "description": "Complete the third German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "skirmish_02_ger_easy",
+            "name": "Germany mission 4 - easy",
+            "description": "Complete the fourth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "skirmish_02_ger_normal",
+            "name": "Germany mission 4 - normal",
+            "description": "Complete the fourth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "skirmish_02_ger_hard",
+            "name": "Germany mission 4 - hard",
+            "description": "Complete the fourth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "skirmish_02_ger_heroic",
+            "name": "Germany mission 4 - heroic",
+            "description": "Complete the fourth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "skirmish_02b_ger_easy",
+            "name": "Germany mission 5 - easy",
+            "description": "Complete the fifth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "skirmish_02b_ger_normal",
+            "name": "Germany mission 5 - normal",
+            "description": "Complete the fifth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "skirmish_02b_ger_hard",
+            "name": "Germany mission 5 - hard",
+            "description": "Complete the fifth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 52,
+            "apiname": "skirmish_02b_ger_heroic",
+            "name": "Germany mission 5 - heroic",
+            "description": "Complete the fifth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "skirmish_03_ger_easy",
+            "name": "Germany mission 6 - easy",
+            "description": "Complete the sixth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "skirmish_03_ger_normal",
+            "name": "Germany mission 6 - normal",
+            "description": "Complete the sixth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "skirmish_03_ger_hard",
+            "name": "Germany mission 6 - hard",
+            "description": "Complete the sixth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "skirmish_03_ger_heroic",
+            "name": "Germany mission 6 - heroic",
+            "description": "Complete the sixth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "skirmish_04_ger_easy",
+            "name": "Germany mission 7 - easy",
+            "description": "Complete the seventh German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "skirmish_04_ger_normal",
+            "name": "Germany mission 7 - normal",
+            "description": "Complete the seventh German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "skirmish_04_ger_hard",
+            "name": "Germany mission 7 - hard",
+            "description": "Complete the seventh German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "skirmish_04_ger_heroic",
+            "name": "Germany mission 7 - heroic",
+            "description": "Complete the seventh German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "skirmish_05_ger_easy",
+            "name": "Germany mission 8 - easy",
+            "description": "Complete the eighth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "skirmish_05_ger_normal",
+            "name": "Germany misson 8 - normal",
+            "description": "Complete the eighth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "skirmish_05_ger_hard",
+            "name": "Germany misson 8 - hard",
+            "description": "Complete the eighth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 64,
+            "apiname": "skirmish_05_ger_heroic",
+            "name": "Germany mission 8 - heroic",
+            "description": "Complete the eighth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "skirmish_01_eng_easy",
+            "name": "Commonwealth mission 2 - easy",
+            "description": "Complete the second British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "skirmish_01_eng_normal",
+            "name": "Commonwealth mission 2 - normal",
+            "description": "Complete the second British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "skirmish_01_eng_hard",
+            "name": "Commonwealth mission 2 - hard",
+            "description": "Complete the second British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 68,
+            "apiname": "skirmish_01_eng_heroic",
+            "name": "Commonwealth mission 2 - heroic",
+            "description": "Complete the second British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "skirmish_01b_eng_easy",
+            "name": "Commonwealth mission 3 - easy",
+            "description": "Complete the third British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "skirmish_01b_eng_normal",
+            "name": "Commonwealth mission 3 - normal",
+            "description": "Complete the third British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "skirmish_01b_eng_hard",
+            "name": "Commonwealth mission 3 - hard",
+            "description": "Complete the third British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "skirmish_01b_eng_heroic",
+            "name": "Commonwealth mission 3 - heroic",
+            "description": "Complete the third British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "skirmish_02_eng_easy",
+            "name": "Commonwealth mission 4 - easy",
+            "description": "Complete the fourth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 74,
+            "apiname": "skirmish_02_eng_normal",
+            "name": "Commonwealth mission 4 - normal",
+            "description": "Complete the third British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 75,
+            "apiname": "skirmish_02_eng_hard",
+            "name": "Commonwealth mission 4 - hard",
+            "description": "Complete the fourth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 76,
+            "apiname": "skirmish_02_eng_heroic",
+            "name": "Commonwealth mission 4 - heroic",
+            "description": "Complete the fourth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 77,
+            "apiname": "skirmish_02b_eng_easy",
+            "name": "Commonwealth misson 5 - easy",
+            "description": "Complete the fifth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 78,
+            "apiname": "skirmish_02b_eng_normal",
+            "name": "Commonwealth mission 5 - normal",
+            "description": "Complete the fifth British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 79,
+            "apiname": "skirmish_02b_eng_hard",
+            "name": "Commonwealth mission 5 - hard",
+            "description": "Complete the fifth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 80,
+            "apiname": "skirmish_02b_eng_heroic",
+            "name": "Commonwealth mission 5 - heroic",
+            "description": "Complete the fifth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 81,
+            "apiname": "skirmish_03_eng_easy",
+            "name": "Commonwealth mission 6 - easy",
+            "description": "Complete the sixth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 82,
+            "apiname": "skirmish_03_eng_normal",
+            "name": "Commonwealth mission 6 - normal",
+            "description": "Complete the sixth British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 83,
+            "apiname": "skirmish_03_eng_hard",
+            "name": "Commonwealth misson 6 - hard",
+            "description": "Complete the sixth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 84,
+            "apiname": "skirmish_03_eng_heroic",
+            "name": "Commonwealth mission 6 - heroic",
+            "description": "Complete the sixth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 85,
+            "apiname": "skirmish_04_eng_easy",
+            "name": "Commonwealth mission 7 - easy",
+            "description": "Complete the seventh British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 86,
+            "apiname": "skirmish_04_eng_normal",
+            "name": "Commonwealth mission 7 - normal",
+            "description": "Complete the seventh British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 87,
+            "apiname": "skirmish_04_eng_hard",
+            "name": "Commonwealth mission 7 - hard",
+            "description": "Complete the seventh British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 88,
+            "apiname": "skirmish_04_eng_heroic",
+            "name": "Commonwealth mission 7 - heroic",
+            "description": "Complete the seventh British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 89,
+            "apiname": "skirmish_05_eng_easy",
+            "name": "Commonwealth mission 8 - easy",
+            "description": "Complete the eighth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 90,
+            "apiname": "skirmish_05_eng_normal",
+            "name": "Commonwealth mission 8 - normal",
+            "description": "Complete the eighth British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 91,
+            "apiname": "skirmish_05_eng_hard",
+            "name": "Commonwealth mission 8 - hard",
+            "description": "Complete the eighth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 92,
+            "apiname": "skirmish_05_eng_heroic",
+            "name": "Commonwealth mission 8 - heroic",
+            "description": "Complete the eighth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "skirmish_01_rus_easy",
+            "name": "Soviet Union mission 2 - easy",
+            "description": "Complete the second Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 94,
+            "apiname": "skirmish_01_rus_normal",
+            "name": "Soviet Union mission 2 - normal",
+            "description": "Complete the second Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 95,
+            "apiname": "skirmish_01_rus_hard",
+            "name": "Soviet Union mission 2 - hard",
+            "description": "Complete the second Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 96,
+            "apiname": "skirmish_01_rus_heroic",
+            "name": "Soviet Union mission 2 - heroic",
+            "description": "Complete the second Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "skirmish_01b_rus_easy",
+            "name": "Soviet Union mission 3 - easy",
+            "description": "Complete the third Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 98,
+            "apiname": "skirmish_01b_rus_normal",
+            "name": "Soviet Union mission 3 - normal",
+            "description": "Complete the third Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 99,
+            "apiname": "skirmish_01b_rus_hard",
+            "name": "Soviet Union mission 3 - hard",
+            "description": "Complete the third Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 100,
+            "apiname": "skirmish_01b_rus_heroic",
+            "name": "Soviet Union mission 3 - heroic",
+            "description": "Complete the third Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 101,
+            "apiname": "skirmish_02_rus_easy",
+            "name": "Soviet Union mission 4 - easy",
+            "description": "Complete the fourth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 102,
+            "apiname": "skirmish_02_rus_normal",
+            "name": "Soviet Union mission 4 - normal",
+            "description": "Complete the fourth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 103,
+            "apiname": "skirmish_02_rus_hard",
+            "name": "Soviet Union mission 4 - hard",
+            "description": "Complete the fourth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 104,
+            "apiname": "skirmish_02_rus_heroic",
+            "name": "Soviet Union mission 4 - heroic",
+            "description": "Complete the fourth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 105,
+            "apiname": "skirmish_02b_rus_easy",
+            "name": "Soviet Union mission 5 - easy",
+            "description": "Complete the fifth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 106,
+            "apiname": "skirmish_02b_rus_normal",
+            "name": "Soviet Union mission 5 - normal",
+            "description": "Complete the fifth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 107,
+            "apiname": "skirmish_02b_rus_hard",
+            "name": "Soviet Union mission 5 - hard",
+            "description": "Complete the fifth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 108,
+            "apiname": "skirmish_02b_rus_heroic",
+            "name": "Soviet Union mission 5 - heroic",
+            "description": "Complete the fifth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 109,
+            "apiname": "skirmish_03_rus_easy",
+            "name": "Soviet Union mission 6 - easy",
+            "description": "Complete the sixth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 110,
+            "apiname": "skirmish_03_rus_normal",
+            "name": "Soviet Union mission 6 - normal",
+            "description": "Complete the sixth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 111,
+            "apiname": "skirmish_03_rus_hard",
+            "name": "Soviet Union mission 6 - hard",
+            "description": "Complete the sixth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 112,
+            "apiname": "skirmish_03_rus_heroic",
+            "name": "Soviet Union mission 6 - heroic",
+            "description": "Complete the sixth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 113,
+            "apiname": "skirmish_04_rus_easy",
+            "name": "Soviet Union mission 7 - easy",
+            "description": "Complete the seventh Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 114,
+            "apiname": "skirmish_04_rus_normal",
+            "name": "Soviet Union mission 7 - normal",
+            "description": "Complete the seventh Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 115,
+            "apiname": "skirmish_04_rus_hard",
+            "name": "Soviet Union mission 7 - hard",
+            "description": "Complete the seventh Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 116,
+            "apiname": "skirmish_04_rus_heroic",
+            "name": "Soviet Union mission 7 - heroic",
+            "description": "Complete the seventh Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 117,
+            "apiname": "skirmish_05_rus_easy",
+            "name": "Soviet Union mission 8 - easy",
+            "description": "Complete the eighth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 118,
+            "apiname": "skirmish_05_rus_normal",
+            "name": "Soviet Union mission 8 - normal",
+            "description": "Complete the eighth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 119,
+            "apiname": "skirmish_05_rus_hard",
+            "name": "Soviet Union mission 8 - hard",
+            "description": "Complete the eighth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 120,
+            "apiname": "skirmish_05_rus_heroic",
+            "name": "Soviet Union mission 8 - heroic",
+            "description": "Complete the eighth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 121,
+            "apiname": "skirmish_01_jap_easy",
+            "name": "Japanese Empire mission 2 - easy",
+            "description": "Complete the second Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 122,
+            "apiname": "skirmish_01_jap_normal",
+            "name": "Japanese Empire mission 2 - normal",
+            "description": "Complete the second Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 123,
+            "apiname": "skirmish_01_jap_hard",
+            "name": "Japanese Empire mission 2 - hard",
+            "description": "Complete the second Japanese mission on hard",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 124,
+            "apiname": "skirmish_01_jap_heroic",
+            "name": "Japanese Empire mission 2 - heroic",
+            "description": "Complete the second Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 125,
+            "apiname": "skirmish_01b_jap_easy",
+            "name": "Japanese Empire mission 3 - easy",
+            "description": "Complete the third Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 126,
+            "apiname": "skirmish_01b_jap_normal",
+            "name": "Japanese Empire mission 3 - normal",
+            "description": "Complete the third Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 127,
+            "apiname": "skirmish_01b_jap_hard",
+            "name": "Japanese Empire mission 3 - hard",
+            "description": "Complete the third Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 128,
+            "apiname": "skirmish_01b_jap_heroic",
+            "name": "Japanese Empire mission 3 - heroic",
+            "description": "Complete the third Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 129,
+            "apiname": "skirmish_02_jap_easy",
+            "name": "Japanese Empire mission 4 - easy",
+            "description": "Complete the fourth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 130,
+            "apiname": "skirmish_02_jap_normal",
+            "name": "Japanese Empire mission 4 - normal",
+            "description": "Complete the fourth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 131,
+            "apiname": "skirmish_02_jap_hard",
+            "name": "Japanese Empire mission 4 - hard",
+            "description": "Complete the fourth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 132,
+            "apiname": "skirmish_02_jap_heroic",
+            "name": "Japanese Empire mission 4 - heroic",
+            "description": "Complete the fourth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "skirmish_02b_jap_easy",
+            "name": "Japanese Empire mission 5 - easy",
+            "description": "Complete the fifth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 134,
+            "apiname": "skirmish_02b_jap_normal",
+            "name": "Japanese Empire mission 5 - normal",
+            "description": "Complete the fifth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 135,
+            "apiname": "skirmish_02b_jap_hard",
+            "name": "Japanese Empire mission 5 - hard",
+            "description": "Complete the fifth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 136,
+            "apiname": "skirmish_02b_jap_heroic",
+            "name": "Japanese Empire mission 5 - heroic",
+            "description": "Complete the fifth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "skirmish_03_jap_easy",
+            "name": "Japanese Empire mission 6 - easy",
+            "description": "Complete the sixth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 138,
+            "apiname": "skirmish_03_jap_normal",
+            "name": "Japanese Empire mission 6 - normal",
+            "description": "Complete the sixth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 139,
+            "apiname": "skirmish_03_jap_hard",
+            "name": "Japanese Empire mission 6 - hard",
+            "description": "Complete the sixth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 140,
+            "apiname": "skirmish_03_jap_heroic",
+            "name": "Japanese Empire mission 6 - heroic",
+            "description": "Complete the sixth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 141,
+            "apiname": "skirmish_04_jap_easy",
+            "name": "Japanese Empire mission 7 - easy",
+            "description": "Complete the seventh Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 142,
+            "apiname": "skirmish_04_jap_normal",
+            "name": "Japanese Empire mission 7 - normal",
+            "description": "Complete the seventh Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 143,
+            "apiname": "skirmish_04_jap_hard",
+            "name": "Japanese Empire mission 7 - hard",
+            "description": "Complete the seventh Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 144,
+            "apiname": "skirmish_04_jap_heroic",
+            "name": "Japanese Empire mission 7 - heroic",
+            "description": "Complete the seventh Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 145,
+            "apiname": "skirmish_05_jap_easy",
+            "name": "Japanese Empire mission 8 - easy",
+            "description": "Complete the eighth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 146,
+            "apiname": "skirmish_05_jap_normal",
+            "name": "Japanese Empire mission 8 - normal",
+            "description": "Complete the eighth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 147,
+            "apiname": "skirmish_05_jap_hard",
+            "name": "Japanese Empire mission 8 - hard",
+            "description": "Complete the eighth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 148,
+            "apiname": "skirmish_05_jap_heroic",
+            "name": "Japanese Empire mission 8 - heroic",
+            "description": "Complete the eighth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 149,
+            "apiname": "skirmish_usa_bonus1",
+            "name": "P51 Airstrike",
+            "description": "Call-in a P51 Airstrike in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 150,
+            "apiname": "skirmish_ger_bonus1",
+            "name": "Goliath",
+            "description": "Call-in a Goliath in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 151,
+            "apiname": "skirmish_eng_bonus1",
+            "name": "Artillery Strike",
+            "description": "Call-in an Artillery Strike in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 152,
+            "apiname": "skirmish_rus_bonus1",
+            "name": "For the Motherland",
+            "description": "Call-in Charge in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 153,
+            "apiname": "skirmish_jap_bonus1",
+            "name": "Banzai",
+            "description": "Call-in Banzai in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 154,
+            "apiname": "skirmish_usa_hero1",
+            "name": "101st Airborne",
+            "description": "Call-in 101st Airborne in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 155,
+            "apiname": "skirmish_ger_hero1",
+            "name": "Veteran Tiger",
+            "description": "Call-in a Veteran Tiger in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 156,
+            "apiname": "skirmish_eng_hero1",
+            "name": "Commandos",
+            "description": "Call-in Commandos in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 157,
+            "apiname": "skirmish_rus_hero1",
+            "name": "203mm B-4M",
+            "description": "Call-in a 203mm B-4M in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 158,
+            "apiname": "skirmish_jap_hero1",
+            "name": "200mm Type 4",
+            "description": "Call-in a 200mm Type 4 in Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 159,
+            "apiname": "skirmish_usa_bonus2",
+            "name": "U.S. Marines",
+            "description": "Call-in U.S. Marines in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 160,
+            "apiname": "skirmish_ger_bonus2",
+            "name": "Brandenburger",
+            "description": "Call-in German Brandenburger in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 161,
+            "apiname": "skirmish_eng_bonus2",
+            "name": "ANZAC",
+            "description": "Call-in ANZAC in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 162,
+            "apiname": "skirmish_rus_bonus2",
+            "name": "Guards Rifle",
+            "description": "Call-in Guards Rifle in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 163,
+            "apiname": "skirmish_jap_bonus2",
+            "name": "Kamikaze",
+            "description": "Call-in Kamikaze in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 164,
+            "apiname": "skirmish_usa_hero2",
+            "name": "U.S. Radio Operator",
+            "description": "Call-in an American Radio Operator in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 165,
+            "apiname": "skirmish_ger_hero2",
+            "name": "German Radio Operator",
+            "description": "Call-in a German Radio Operator in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 166,
+            "apiname": "skirmish_eng_hero2",
+            "name": "British Radio Operator",
+            "description": "Call-in a British Radio Operator in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 167,
+            "apiname": "skirmish_rus_hero2",
+            "name": "Soviet Radio Operator",
+            "description": "Call-in a Soviet Radio Operator in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 168,
+            "apiname": "skirmish_jap_hero2",
+            "name": "Japanese Radio Operator",
+            "description": "Call-in a Japanese Radio Operator in defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 169,
+            "apiname": "skirmish_usa_bonus3",
+            "name": "High Value Target",
+            "description": "Take out the commanding officer in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 170,
+            "apiname": "skirmish_ger_bonus3",
+            "name": "High Value Target",
+            "description": "Take out the commanding officer in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 171,
+            "apiname": "skirmish_eng_bonus3",
+            "name": "High Value Target",
+            "description": "Take out the commanding officer in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 172,
+            "apiname": "skirmish_rus_bonus3",
+            "name": "High Value Target",
+            "description": "Take out the commanding officer in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 173,
+            "apiname": "skirmish_jap_bonus3",
+            "name": "High Value Target",
+            "description": "Take out the commanding officer in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 174,
+            "apiname": "skirmish_usa_hero3",
+            "name": "M5A1 Stuart",
+            "description": "Call-in a M5A1 Stuart in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 175,
+            "apiname": "skirmish_ger_hero3",
+            "name": "PzKpfw II Luchs",
+            "description": "Call-in a PzKpfw II Luchs in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 176,
+            "apiname": "skirmish_eng_hero3",
+            "name": "Mk. VII Tetrach",
+            "description": "Call-in a Mk. VII Tetrach in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 177,
+            "apiname": "skirmish_rus_hero3",
+            "name": "T-70",
+            "description": "Call-in a T-70 in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 178,
+            "apiname": "skirmish_jap_hero3",
+            "name": "Chi-Ha 57",
+            "description": "Call-in a Chi-ha 57 in stealth Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 179,
+            "apiname": "skirmish_usa_bonus4",
+            "name": "Baptism of Fire",
+            "description": "Repell the enemy attack in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 180,
+            "apiname": "skirmish_ger_bonus4",
+            "name": "Baptism of Fire",
+            "description": "Repell the enemy attack in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 181,
+            "apiname": "skirmish_eng_bonus4",
+            "name": "Baptism of Fire",
+            "description": "Repell the enemy attack in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 182,
+            "apiname": "skirmish_rus_bonus4",
+            "name": "Baptism of Fire",
+            "description": "Repell the enemy attack in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 183,
+            "apiname": "skirmish_jap_bonus4",
+            "name": "Baptism of Fire",
+            "description": "Repell the enemy attack in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 184,
+            "apiname": "skirmish_usa_hero4",
+            "name": "Spearhead",
+            "description": "Break through the enemy defenses in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 185,
+            "apiname": "skirmish_ger_hero4",
+            "name": "Spearhead",
+            "description": "Break through the enemy defenses in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 186,
+            "apiname": "skirmish_eng_hero4",
+            "name": "Spearhead",
+            "description": "Break through the enemy defenses in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 187,
+            "apiname": "skirmish_rus_hero4",
+            "name": "Spearhead",
+            "description": "Break through the enemy defenses in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 188,
+            "apiname": "skirmish_jap_hero4",
+            "name": "Spearhead",
+            "description": "Break through the enemy defenses in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 189,
+            "apiname": "skirmish_usa_bonus5",
+            "name": "Saviour",
+            "description": "Repair and recover the secret allied tank in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 190,
+            "apiname": "skirmish_ger_bonus5",
+            "name": "Saviour",
+            "description": "Repair and recover the secret allied tank in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 191,
+            "apiname": "skirmish_eng_bonus5",
+            "name": "Saviour",
+            "description": "Repair and recover the secret allied tank in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 192,
+            "apiname": "skirmish_rus_bonus5",
+            "name": "Saviour",
+            "description": "Repair and recover the secret allied tank in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 193,
+            "apiname": "skirmish_jap_bonus5",
+            "name": "Saviour",
+            "description": "Repair and recover the secret allied tank in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 194,
+            "apiname": "skirmish_usa_hero5",
+            "name": "Super Pershing",
+            "description": "Call-in a Super Pershing in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 195,
+            "apiname": "skirmish_ger_hero5",
+            "name": "King Tiger",
+            "description": "Call-in a King Tiger in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 196,
+            "apiname": "skirmish_eng_hero5",
+            "name": "Mk.VII Churchill",
+            "description": "Call-in a Mk.VII Churchill in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 197,
+            "apiname": "skirmish_rus_hero5",
+            "name": "SU-100",
+            "description": "Call-in a SU-100 in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 198,
+            "apiname": "skirmish_jap_hero5",
+            "name": "Ho-Ri 2",
+            "description": "Call-in a Ho-Ri 2 in tank defense Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 199,
+            "apiname": "skirmish_usa_bonus6",
+            "name": "Silent Hunter",
+            "description": "Kill all enemy snipers or armor without any reinforcements in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 200,
+            "apiname": "skirmish_ger_bonus6",
+            "name": "Silent Hunter",
+            "description": "Kill all enemy snipers or armor without any reinforcements in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 201,
+            "apiname": "skirmish_eng_bonus6",
+            "name": "Silent Hunter",
+            "description": "Kill all enemy snipers or armor without any reinforcements in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 202,
+            "apiname": "skirmish_rus_bonus6",
+            "name": "Silent Hunter",
+            "description": "Kill all enemy snipers or armor without any reinforcements in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 203,
+            "apiname": "skirmish_jap_bonus6",
+            "name": "Silent Hunter",
+            "description": "Kill all enemy snipers or armor without any reinforcements in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 204,
+            "apiname": "skirmish_usa_hero6",
+            "name": "Behind Enemy Lines",
+            "description": "Destroy the enemy artillery emplacement in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 205,
+            "apiname": "skirmish_ger_hero6",
+            "name": "Behind Enemy Lines",
+            "description": "Destroy the enemy artillery emplacement in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 206,
+            "apiname": "skirmish_eng_hero6",
+            "name": "Behind Enemy Lines",
+            "description": "Destroy the enemy artillery emplacement in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 207,
+            "apiname": "skirmish_rus_hero6",
+            "name": "Behind Enemy Lines",
+            "description": "Destroy the enemy artillery emplacement in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 208,
+            "apiname": "skirmish_jap_hero6",
+            "name": "Behind Enemy Lines",
+            "description": "Destroy the enemy artillery emplacement in sniper Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 209,
+            "apiname": "skirmish_00b_usa_easy",
+            "name": "USA mission 1 - easy",
+            "description": "Complete the first US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 210,
+            "apiname": "skirmish_00b_usa_normal",
+            "name": "USA mission 1 - normal",
+            "description": "Complete the first US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 211,
+            "apiname": "skirmish_00b_usa_hard",
+            "name": "USA mission 1 - hard",
+            "description": "Complete the first US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 212,
+            "apiname": "skirmish_00b_usa_heroic",
+            "name": "USA mission 1 - heroic",
+            "description": "Complete the first US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 213,
+            "apiname": "skirmish_00b_ger_easy",
+            "name": "Germany mission 1 easy",
+            "description": "Complete the first German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 214,
+            "apiname": "skirmish_00b_ger_normal",
+            "name": "Germany mission 1 normal",
+            "description": "Complete the first German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 215,
+            "apiname": "skirmish_00b_ger_hard",
+            "name": "Germany mission 1 hard",
+            "description": "Complete the first German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 216,
+            "apiname": "skirmish_00b_ger_heroic",
+            "name": "Germany mission 1 heroic",
+            "description": "Complete the first German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 217,
+            "apiname": "skirmish_00b_eng_easy",
+            "name": "Commonwealth mission 1 - easy",
+            "description": "Complete the first British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 218,
+            "apiname": "skirmish_00b_eng_normal",
+            "name": "Commonwealth mission 1 - normal",
+            "description": "Complete the first British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 219,
+            "apiname": "skirmish_00b_eng_hard",
+            "name": "Commonwealth mission 1 - hard",
+            "description": "Complete the first British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 220,
+            "apiname": "skirmish_00b_eng_heroic",
+            "name": "Commonwealth mission 1 - heroic",
+            "description": "Complete the first British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 221,
+            "apiname": "skirmish_00b_rus_easy",
+            "name": "Soviet Union mission 1 - easy",
+            "description": "Complete the first Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 222,
+            "apiname": "skirmish_00b_rus_normal",
+            "name": "Soviet Union mission 1 - normal",
+            "description": "Complete the first Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 223,
+            "apiname": "skirmish_00b_rus_hard",
+            "name": "Soviet Union mission 1 - hard",
+            "description": "Complete the first Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 224,
+            "apiname": "skirmish_00b_rus_heroic",
+            "name": "Soviet Union mission 1 - heroic",
+            "description": "Complete the first Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 225,
+            "apiname": "skirmish_00b_jap_easy",
+            "name": "Japanese Empire mission 1 - easy",
+            "description": "Complete the first Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 226,
+            "apiname": "skirmish_00b_jap_normal",
+            "name": "Japanese Empire mission 1 - normal",
+            "description": "Complete the first Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 227,
+            "apiname": "skirmish_00b_jap_hard",
+            "name": "Japanese Empire mission 1 - hard",
+            "description": "Complete the first Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 228,
+            "apiname": "skirmish_00b_jap_heroic",
+            "name": "Japanese Empire mission 1 - heroic",
+            "description": "Complete the first Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 229,
+            "apiname": "skirmish_usa_bonus4b",
+            "name": "Mechanic",
+            "description": "Repair the friendly knocked out tank in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 230,
+            "apiname": "skirmish_ger_bonus4b",
+            "name": "Mechanic",
+            "description": "Repair the friendly knocked out tank in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 231,
+            "apiname": "skirmish_eng_bonus4b",
+            "name": "Mechanic",
+            "description": "Repair the friendly knocked out tank in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 232,
+            "apiname": "skirmish_rus_bonus4b",
+            "name": "Mechanic",
+            "description": "Repair the friendly knocked out tank in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 233,
+            "apiname": "skirmish_jap_bonus4b",
+            "name": "Mechanic",
+            "description": "Repair the friendly knocked out tank in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 234,
+            "apiname": "skirmish_usa_hero4b",
+            "name": "Conquerer",
+            "description": "Conquer all strategic points and set-up a new field HQ in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 235,
+            "apiname": "skirmish_ger_hero4b",
+            "name": "Conquerer",
+            "description": "Conquer all strategic points and set-up a new field HQ in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 236,
+            "apiname": "skirmish_eng_hero4b",
+            "name": "Conquerer",
+            "description": "Conquer all strategic points and set-up a new field HQ in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 237,
+            "apiname": "skirmish_rus_hero4b",
+            "name": "Conquerer",
+            "description": "Conquer all strategic points and set-up a new field HQ in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 238,
+            "apiname": "skirmish_jap_hero4b",
+            "name": "Conquerer",
+            "description": "Conquer all strategic points and set-up a new field HQ in first Skirmish.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 239,
+            "apiname": "deluxe_edition",
+            "name": "Five Star General",
+            "description": "Reward for owning the Digital Deluxe edition!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 240,
+            "apiname": "xp_usa_01",
+            "name": "500 XP",
+            "description": "Collect 500 XP as USA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 241,
+            "apiname": "xp_usa_02",
+            "name": "2.000 XP",
+            "description": "Collect 2.000 XP as USA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 242,
+            "apiname": "xp_usa_03",
+            "name": "5.000 XP",
+            "description": "Collect 5.000 XP as USA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 243,
+            "apiname": "xp_usa_04",
+            "name": "15.000 XP",
+            "description": "Collect 15.000 XP as USA.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 244,
+            "apiname": "xp_usa_05",
+            "name": "50.000 XP",
+            "description": "Collect 50.000 XP as USA.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 245,
+            "apiname": "xp_ger_01",
+            "name": "500 XP",
+            "description": "Collect 500 XP as Germany.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 246,
+            "apiname": "xp_ger_02",
+            "name": "2.000 XP",
+            "description": "Collect 2.000 XP as Germany.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 247,
+            "apiname": "xp_ger_03",
+            "name": "5.000 XP",
+            "description": "Collect 5.000 XP as Germany.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 248,
+            "apiname": "xp_ger_04",
+            "name": "15.000 XP",
+            "description": "Collect 15.000 XP as Germany.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 249,
+            "apiname": "xp_ger_05",
+            "name": "50.000 XP",
+            "description": "Collect 50.000 XP as Germany.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 250,
+            "apiname": "xp_eng_01",
+            "name": "500 XP",
+            "description": "Collect 500 XP as Commonwealth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 251,
+            "apiname": "xp_eng_02",
+            "name": "2.000 XP",
+            "description": "Collect 2.000 XP as Commonwealth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 252,
+            "apiname": "xp_eng_03",
+            "name": "5.000 XP",
+            "description": "Collect 5.000 XP as Commonwealth.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 253,
+            "apiname": "xp_eng_04",
+            "name": "15.000 XP",
+            "description": "Collect 15.000 XP as Commonwealth.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 254,
+            "apiname": "xp_eng_05",
+            "name": "50.000 XP",
+            "description": "Collect 50.000 XP as Commonwealth.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 255,
+            "apiname": "xp_rus_01",
+            "name": "500 XP",
+            "description": "Collect 500 XP as Soviet Union.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 256,
+            "apiname": "xp_rus_02",
+            "name": "2.000 XP",
+            "description": "Collect 2.000 XP as Soviet Union.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 257,
+            "apiname": "xp_rus_03",
+            "name": "5.000 XP",
+            "description": "Collect 5.000 XP as Soviet Union.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 258,
+            "apiname": "xp_rus_04",
+            "name": "15.000 XP",
+            "description": "Collect 15.000 XP as Soviet Union.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 259,
+            "apiname": "xp_rus_05",
+            "name": "50.000 XP",
+            "description": "Collect 50.000 XP as Soviet Union.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 260,
+            "apiname": "xp_jap_01",
+            "name": "500 XP",
+            "description": "Collect 500 XP as Japan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 261,
+            "apiname": "xp_jap_02",
+            "name": "2.000 XP",
+            "description": "Collect 2.000 XP as Japan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 262,
+            "apiname": "xp_jap_03",
+            "name": "5.000 XP",
+            "description": "Collect 5.000 XP as Japan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 263,
+            "apiname": "xp_jap_04",
+            "name": "15.000 XP",
+            "description": "Collect 15.000 XP as Japan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 264,
+            "apiname": "xp_jap_05",
+            "name": "50.000 XP",
+            "description": "Collect 50.000 XP as Japan.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 265,
+            "apiname": "skirmish_06_usa_easy",
+            "name": "USA mission 9 - easy",
+            "description": "Complete the ninth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 266,
+            "apiname": "skirmish_06_usa_normal",
+            "name": "USA mission 9 - normal",
+            "description": "Complete the ninth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 267,
+            "apiname": "skirmish_06_usa_hard",
+            "name": "USA mission 9 - hard",
+            "description": "Complete the ninth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 268,
+            "apiname": "skirmish_06_usa_heroic",
+            "name": "USA mission 9 - heroic",
+            "description": "Complete the ninth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 269,
+            "apiname": "skirmish_06_ger_easy",
+            "name": "Germany mission 9 - easy",
+            "description": "Complete the ninth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 270,
+            "apiname": "skirmish_06_ger_normal",
+            "name": "Germany mission 9 - normal",
+            "description": "Complete the ninth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 271,
+            "apiname": "skirmish_06_ger_hard",
+            "name": "Germany mission 9 - hard",
+            "description": "Complete the ninth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 272,
+            "apiname": "skirmish_06_ger_heroic",
+            "name": "Germany mission 9 - heroic",
+            "description": "Complete the ninth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 273,
+            "apiname": "skirmish_06_eng_easy",
+            "name": "Commonwealth mission 9 - easy",
+            "description": "Complete the ninth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 274,
+            "apiname": "skirmish_06_eng_normal",
+            "name": "Commonwealth mission 9 - normal",
+            "description": "Complete the ninth British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 275,
+            "apiname": "skirmish_06_eng_hard",
+            "name": "Commonwealth mission 9 - hard",
+            "description": "Complete the ninth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 276,
+            "apiname": "skirmish_06_eng_heroic",
+            "name": "Commonwealth mission 9 - heroic",
+            "description": "Complete the ninth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 277,
+            "apiname": "skirmish_06_rus_easy",
+            "name": "Soviet Union mission 9 - easy",
+            "description": "Complete the ninth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 278,
+            "apiname": "skirmish_06_rus_normal",
+            "name": "Soviet Union mission 9 - normal",
+            "description": "Complete the ninth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 279,
+            "apiname": "skirmish_06_rus_hard",
+            "name": "Soviet Union mission 9 - hard",
+            "description": "Complete the ninth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 280,
+            "apiname": "skirmish_06_rus_heroic",
+            "name": "Soviet Union mission 9 - heroic",
+            "description": "Complete the ninth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 281,
+            "apiname": "skirmish_06_jap_easy",
+            "name": "Japanese Empire mission 9 - easy",
+            "description": "Complete the ninth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 282,
+            "apiname": "skirmish_06_jap_normal",
+            "name": "Japanese Empire mission 9 - normal",
+            "description": "Complete the ninth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 283,
+            "apiname": "skirmish_06_jap_hard",
+            "name": "Japanese Empire mission 9 - hard",
+            "description": "Complete the ninth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 284,
+            "apiname": "skirmish_06_jap_heroic",
+            "name": "Japanese Empire mission 9 - heroic",
+            "description": "Complete the ninth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 285,
+            "apiname": "skirmish_usa_bonus7",
+            "name": "Fireworks",
+            "description": "Burn down the enemy fuel depot in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 286,
+            "apiname": "skirmish_ger_bonus7",
+            "name": "Fireworks",
+            "description": "Burn down the enemy fuel depot in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 287,
+            "apiname": "skirmish_eng_bonus7",
+            "name": "Fireworks",
+            "description": "Burn down the enemy fuel depot in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 288,
+            "apiname": "skirmish_rus_bonus7",
+            "name": "Fireworks",
+            "description": "Burn down the enemy fuel depot in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 289,
+            "apiname": "skirmish_jap_bonus7",
+            "name": "Fireworks",
+            "description": "Burn down the enemy fuel depot in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 290,
+            "apiname": "skirmish_usa_hero7",
+            "name": "Ace of Aces",
+            "description": "Destroy the enemy tank ace in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 291,
+            "apiname": "skirmish_ger_hero7",
+            "name": "Ace of Aces",
+            "description": "Destroy the enemy tank ace in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 292,
+            "apiname": "skirmish_eng_hero7",
+            "name": "Ace of Aces",
+            "description": "Destroy the enemy tank ace in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 293,
+            "apiname": "skirmish_rus_hero7",
+            "name": "Ace of Aces",
+            "description": "Destroy the enemy tank ace in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 294,
+            "apiname": "skirmish_jap_hero7",
+            "name": "Ace of Aces",
+            "description": "Destroy the enemy tank ace in 3rd person tank Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 295,
+            "apiname": "skirmish_usa_extra1",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your M4A3E2(76) Jumbo!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 296,
+            "apiname": "skirmish_usa_extra2",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your M26 Pershing!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 297,
+            "apiname": "skirmish_usa_extra3",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your M26E4 Super Pershing",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 298,
+            "apiname": "skirmish_ger_extra1",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your PzKpfw V Panther!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 299,
+            "apiname": "skirmish_ger_extra2",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Jagdpanther!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 300,
+            "apiname": "skirmish_ger_extra3",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Veteran Tiger!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 301,
+            "apiname": "skirmish_eng_extra1",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Comet I (A34)!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 302,
+            "apiname": "skirmish_eng_extra2",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your M4A4 Firefly!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 303,
+            "apiname": "skirmish_eng_extra3",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Mk. VII Churchill!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 304,
+            "apiname": "skirmish_rus_extra1",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your SU-100!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 305,
+            "apiname": "skirmish_rus_extra2",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your KV-85!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 306,
+            "apiname": "skirmish_rus_extra3",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your IS-2!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 307,
+            "apiname": "skirmish_jap_extra1",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Chi-To!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 308,
+            "apiname": "skirmish_jap_extra2",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Chi-Ri!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 309,
+            "apiname": "skirmish_jap_extra3",
+            "name": "Master Tanker",
+            "description": "Fight your way through the enemy lines with your Ho-Ri I!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 310,
+            "apiname": "skirmish_07_usa_easy",
+            "name": "USA mission 10 - easy",
+            "description": "Complete the tenth US mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 311,
+            "apiname": "skirmish_07_usa_normal",
+            "name": "USA mission 10 - normal",
+            "description": "Complete the tenth US mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 312,
+            "apiname": "skirmish_07_usa_hard",
+            "name": "USA mission 10 - hard",
+            "description": "Complete the tenth US mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 313,
+            "apiname": "skirmish_07_usa_heroic",
+            "name": "USA mission 10 - heroic",
+            "description": "Complete the tenth US mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 314,
+            "apiname": "skirmish_07_ger_easy",
+            "name": "Germany mission 10 - easy",
+            "description": "Complete the tenth German mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 315,
+            "apiname": "skirmish_07_ger_normal",
+            "name": "Germany mission 10 - normal",
+            "description": "Complete the tenth German mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 316,
+            "apiname": "skirmish_07_ger_hard",
+            "name": "Germany mission 10 - hard",
+            "description": "Complete the tenth German mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 317,
+            "apiname": "skirmish_07_ger_heroic",
+            "name": "Germany mission 10 - heroic",
+            "description": "Complete the tenth German mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 318,
+            "apiname": "skirmish_07_eng_easy",
+            "name": "Commonwealth mission 10 - easy",
+            "description": "Complete the tenth British mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 319,
+            "apiname": "skirmish_07_eng_normal",
+            "name": "Commonwealth mission 10 - normal",
+            "description": "Complete the tenth British mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 320,
+            "apiname": "skirmish_07_eng_hard",
+            "name": "Commonwealth mission 10 - hard",
+            "description": "Complete the tenth British mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 321,
+            "apiname": "skirmish_07_eng_heroic",
+            "name": "Commonwealth mission 10 - heroic",
+            "description": "Complete the tenth British mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 322,
+            "apiname": "skirmish_07_rus_easy",
+            "name": "Soviet Union mission 10 - easy",
+            "description": "Complete the tenth Soviet mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 323,
+            "apiname": "skirmish_07_rus_normal",
+            "name": "Soviet Union mission 10 - normal",
+            "description": "Complete the tenth Soviet mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 324,
+            "apiname": "skirmish_07_rus_hard",
+            "name": "Soviet Union mission 10 - hard",
+            "description": "Complete the tenth Soviet mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 325,
+            "apiname": "skirmish_07_rus_heroic",
+            "name": "Soviet Union mission 10 - heroic",
+            "description": "Complete the tenth Soviet mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 326,
+            "apiname": "skirmish_07_jap_easy",
+            "name": "Japanese Empire mission 10 - easy",
+            "description": "Complete the tenth Japanese mission on easy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 327,
+            "apiname": "skirmish_07_jap_normal",
+            "name": "Japanese Empire mission 10 - normal",
+            "description": "Complete the tenth Japanese mission on normal.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 328,
+            "apiname": "skirmish_07_jap_hard",
+            "name": "Japanese Empire mission 10 - hard",
+            "description": "Complete the tenth Japanese mission on hard.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 329,
+            "apiname": "skirmish_07_jap_heroic",
+            "name": "Japanese Empire mission 10 - heroic",
+            "description": "Complete the tenth Japanese mission on heroic.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 330,
+            "apiname": "skirmish_usa_bonus8",
+            "name": "Stealth",
+            "description": "Destroy the bonus objective without alerting the enemy in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 331,
+            "apiname": "skirmish_ger_bonus8",
+            "name": "Stealth",
+            "description": "Destroy the bonus objective without alerting the enemy in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 332,
+            "apiname": "skirmish_eng_bonus8",
+            "name": "Stealth",
+            "description": "Destroy the bonus objective without alerting the enemy in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 333,
+            "apiname": "skirmish_rus_bonus8",
+            "name": "Stealth",
+            "description": "Destroy the bonus objective without alerting the enemy in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 334,
+            "apiname": "skirmish_jap_bonus8",
+            "name": "Stealth",
+            "description": "Destroy the bonus objective without alerting the enemy in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 335,
+            "apiname": "skirmish_usa_hero8",
+            "name": "Completionist",
+            "description": "Fulfill the second bonus objective in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 336,
+            "apiname": "skirmish_ger_hero8",
+            "name": "Completionist",
+            "description": "Fulfill the second bonus objective in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 337,
+            "apiname": "skirmish_eng_hero8",
+            "name": "Completionist",
+            "description": "Fulfill the second bonus objective in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 338,
+            "apiname": "skirmish_rus_hero8",
+            "name": "Completionist",
+            "description": "Fulfill the second bonus objective in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 339,
+            "apiname": "skirmish_jap_hero8",
+            "name": "Completionist",
+            "description": "Fulfill the second bonus objective in airborne Skirmish!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 340,
+            "apiname": "origins_01_usa_easy",
+            "name": "Origins - USA mission 1 - easy",
+            "description": "Arsenal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 341,
+            "apiname": "origins_01_usa_normal",
+            "name": "Origins - USA mission 1 - normal",
+            "description": "Arsenal",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 342,
+            "apiname": "origins_01_usa_hard",
+            "name": "Origins - USA mission 1 - hard",
+            "description": "Arsenal",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 343,
+            "apiname": "origins_01_usa_heroic",
+            "name": "Origins - USA mission 1 - heroic",
+            "description": "Arsenal",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 344,
+            "apiname": "origins_02_usa_easy",
+            "name": "Origins - USA mission 2 - easy",
+            "description": "Armistice",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 345,
+            "apiname": "origins_02_usa_normal",
+            "name": "Origins - USA mission 2 - normal",
+            "description": "Armistice",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 346,
+            "apiname": "origins_02_usa_hard",
+            "name": "Origins - USA mission 2 - hard",
+            "description": "Armistice",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 347,
+            "apiname": "origins_02_usa_heroic",
+            "name": "Origins - USA mission 2 - heroic",
+            "description": "Armistice",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 348,
+            "apiname": "origins_03_usa_easy",
+            "name": "Origins - USA mission 3 - easy",
+            "description": "Meeting the Enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 349,
+            "apiname": "origins_03_usa_normal",
+            "name": "Origins - USA mission 3 - normal",
+            "description": "Meeting the Enemy",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 350,
+            "apiname": "origins_03_usa_hard",
+            "name": "Origins - USA mission 3 - hard",
+            "description": "Meeting the Enemy",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 351,
+            "apiname": "origins_03_usa_heroic",
+            "name": "Origins - USA mission 3 - heroic",
+            "description": "Meeting the Enemy",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 352,
+            "apiname": "origins_04_usa_easy",
+            "name": "Origins - USA mission 4 - easy",
+            "description": "Disaster in Tunisia",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 353,
+            "apiname": "origins_04_usa_normal",
+            "name": "Origins - USA mission 4 - normal",
+            "description": "Disaster in Tunisia",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 354,
+            "apiname": "origins_04_usa_hard",
+            "name": "Origins - USA mission 4 - hard",
+            "description": "Disaster in Tunisia",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 355,
+            "apiname": "origins_04_usa_heroic",
+            "name": "Origins - USA mission 4 - heroic",
+            "description": "Disaster in Tunisia",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 356,
+            "apiname": "origins_05_usa_easy",
+            "name": "Origins - USA mission 5 - easy",
+            "description": "Turning Point",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 357,
+            "apiname": "origins_05_usa_normal",
+            "name": "Origins - USA mission 5 - normal",
+            "description": "Turning Point",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 358,
+            "apiname": "origins_05_usa_hard",
+            "name": "Origins - USA mission 5 - hard",
+            "description": "Turning Point",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 359,
+            "apiname": "origins_05_usa_heroic",
+            "name": "Origins - USA mission 5 - heroic",
+            "description": "Turning Point",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 360,
+            "apiname": "origins_01_ger_easy",
+            "name": "Origins - Germany mission 1 - easy",
+            "description": "Mercury",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 361,
+            "apiname": "origins_01_ger_normal",
+            "name": "Origins - Germany mission 1 - normal",
+            "description": "Mercury",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 362,
+            "apiname": "origins_01_ger_hard",
+            "name": "Origins - Germany mission 1 - hard",
+            "description": "Mercury",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 363,
+            "apiname": "origins_01_ger_heroic",
+            "name": "Origins - Germany mission 1 - heroic",
+            "description": "Mercury",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 364,
+            "apiname": "origins_02_ger_easy",
+            "name": "Origins - Germany mission 2 - easy",
+            "description": "Scorching Sands",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 365,
+            "apiname": "origins_02_ger_normal",
+            "name": "Origins - Germany mission 2 - normal",
+            "description": "Scorching Sands",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 366,
+            "apiname": "origins_02_ger_hard",
+            "name": "Origins - Germany mission 2 - hard",
+            "description": "Scorching Sands",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 367,
+            "apiname": "origins_02_ger_heroic",
+            "name": "Origins - Germany mission 2 - heroic",
+            "description": "Scorching Sands",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 368,
+            "apiname": "origins_03_ger_easy",
+            "name": "Origins - Germany mission 3 - easy",
+            "description": "Desert Stronghold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 369,
+            "apiname": "origins_03_ger_normal",
+            "name": "Origins - Germany mission 3 - normal",
+            "description": "Desert Stronghold",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 370,
+            "apiname": "origins_03_ger_hard",
+            "name": "Origins - Germany mission 3 - hard",
+            "description": "Desert Stronghold",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 371,
+            "apiname": "origins_03_ger_heroic",
+            "name": "Origins - Germany mission 3 - heroic",
+            "description": "Desert Stronghold",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 372,
+            "apiname": "origins_04_ger_easy",
+            "name": "Origins - Germany mission 4 - easy",
+            "description": "On the way to Tunis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 373,
+            "apiname": "origins_04_ger_normal",
+            "name": "Origins - Germany mission 4 - normal",
+            "description": "On the way to Tunis",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 374,
+            "apiname": "origins_04_ger_hard",
+            "name": "Origins - Germany mission 4 - hard",
+            "description": "On the way to Tunis",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 375,
+            "apiname": "origins_04_ger_heroic",
+            "name": "Origins - Germany mission 4 - heroic",
+            "description": "On the way to Tunis",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 376,
+            "apiname": "origins_05_ger_easy",
+            "name": "Origins - Germany mission 5 - easy",
+            "description": "Borg's Last Fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 377,
+            "apiname": "origins_05_ger_normal",
+            "name": "Origins - Germany mission 5 - normal",
+            "description": "Borg's Last Fight",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 378,
+            "apiname": "origins_05_ger_hard",
+            "name": "Origins - Germany mission 5 - hard",
+            "description": "Borg's Last Fight",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 379,
+            "apiname": "origins_05_ger_heroic",
+            "name": "Origins - Germany mission 5 - heroic",
+            "description": "Borg's Last Fight",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 380,
+            "apiname": "origins_01_rus_easy",
+            "name": "Origins - Soviet Union mission 1 - easy",
+            "description": "Baptism by Fire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 381,
+            "apiname": "origins_01_rus_normal",
+            "name": "Origins - Soviet Union mission 1 - normal",
+            "description": "Baptism by Fire",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 382,
+            "apiname": "origins_01_rus_hard",
+            "name": "Origins - Soviet Union mission 1 - hard",
+            "description": "Baptism by Fire",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 383,
+            "apiname": "origins_01_rus_heroic",
+            "name": "Origins - Soviet Union mission 1 - heroic",
+            "description": "Baptism by Fire",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 384,
+            "apiname": "origins_02_rus_easy",
+            "name": "Origins - Soviet Union mission 2 - easy",
+            "description": "Evacuation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 385,
+            "apiname": "origins_02_rus_normal",
+            "name": "Origins - Soviet Union mission 2 - normal",
+            "description": "Evacuation",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 386,
+            "apiname": "origins_02_rus_hard",
+            "name": "Origins - Soviet Union mission 2 - hard",
+            "description": "Evacuation",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 387,
+            "apiname": "origins_02_rus_heroic",
+            "name": "Origins - Soviet Union mission 2 - heroic",
+            "description": "Evacuation",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 388,
+            "apiname": "origins_03_rus_easy",
+            "name": "Origins - Soviet Union mission 3 - easy",
+            "description": "P.O.W.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 389,
+            "apiname": "origins_03_rus_normal",
+            "name": "Origins - Soviet Union mission 3 - normal",
+            "description": "P.O.W.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 390,
+            "apiname": "origins_03_rus_hard",
+            "name": "Origins - Soviet Union mission 3 - hard",
+            "description": "P.O.W.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 391,
+            "apiname": "origins_03_rus_heroic",
+            "name": "Origins - Soviet Union mission 3 - heroic",
+            "description": "P.O.W.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 392,
+            "apiname": "origins_04_rus_easy",
+            "name": "Origins - Soviet Union mission 4 - easy",
+            "description": "Moscow is Behind Us!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 393,
+            "apiname": "origins_04_rus_normal",
+            "name": "Origins - Soviet Union mission 4 - normal",
+            "description": "Moscow is Behind Us!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 394,
+            "apiname": "origins_04_rus_hard",
+            "name": "Origins - Soviet Union mission 4 - hard",
+            "description": "Moscow is Behind Us!",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 395,
+            "apiname": "origins_04_rus_heroic",
+            "name": "Origins - Soviet Union mission 4 - heroic",
+            "description": "Moscow is Behind Us!",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 396,
+            "apiname": "origins_05_rus_easy",
+            "name": "Origins - Soviet Union mission 5 - easy",
+            "description": "The Penal Unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 397,
+            "apiname": "origins_05_rus_normal",
+            "name": "Origins - Soviet Union mission 5 - normal",
+            "description": "The Penal Unit",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 398,
+            "apiname": "origins_05_rus_hard",
+            "name": "Origins - Soviet Union mission 5 - hard",
+            "description": "The Penal Unit",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 399,
+            "apiname": "origins_05_rus_heroic",
+            "name": "Origins - Soviet Union mission 5 - heroic",
+            "description": "The Penal Unit",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 400,
+            "apiname": "origins_06_rus_easy",
+            "name": "Origins - Soviet Union mission 6 - easy",
+            "description": "The Last Stand",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 401,
+            "apiname": "origins_06_rus_normal",
+            "name": "Origins - Soviet Union mission 6 - normal",
+            "description": "The Last Stand",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 402,
+            "apiname": "origins_06_rus_hard",
+            "name": "Origins - Soviet Union mission 6 - hard",
+            "description": "The Last Stand",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 403,
+            "apiname": "origins_06_rus_heroic",
+            "name": "Origins - Soviet Union mission 6 - heroic",
+            "description": "The Last Stand",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 404,
+            "apiname": "origins_07_rus_easy",
+            "name": "Origins - Soviet Union mission 7 - easy",
+            "description": "Behind Enemy Lines",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 405,
+            "apiname": "origins_07_rus_normal",
+            "name": "Origins - Soviet Union mission 7 - normal",
+            "description": "Behind Enemy Lines",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 406,
+            "apiname": "origins_07_rus_hard",
+            "name": "Origins - Soviet Union mission 7 - hard",
+            "description": "Behind Enemy Lines",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 407,
+            "apiname": "origins_07_rus_heroic",
+            "name": "Origins - Soviet Union mission 7 - heroic",
+            "description": "Behind Enemy Lines",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 408,
+            "apiname": "origins_08_rus_easy",
+            "name": "Origins - Soviet Union mission 8 - easy",
+            "description": "Chasing Shadows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 409,
+            "apiname": "origins_08_rus_normal",
+            "name": "Origins - Soviet Union mission 8 - normal",
+            "description": "Chasing Shadows",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 410,
+            "apiname": "origins_08_rus_hard",
+            "name": "Origins - Soviet Union mission 8 - hard",
+            "description": "Chasing Shadows",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 411,
+            "apiname": "origins_08_rus_heroic",
+            "name": "Origins - Soviet Union mission 8 - heroic",
+            "description": "Chasing Shadows",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 412,
+            "apiname": "origins_09_rus_easy",
+            "name": "Origins - Soviet Union mission 9 - easy",
+            "description": "The Flying Dutchman",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 413,
+            "apiname": "origins_09_rus_normal",
+            "name": "Origins - Soviet Union mission 9 - normal",
+            "description": "The Flying Dutchman",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 414,
+            "apiname": "origins_09_rus_hard",
+            "name": "Origins - Soviet Union mission 9 - hard",
+            "description": "The Flying Dutchman",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 415,
+            "apiname": "origins_09_rus_heroic",
+            "name": "Origins - Soviet Union mission 9 - heroic",
+            "description": "The Flying Dutchman",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

@@ -486,6 +486,7 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("distant-worlds-universe"));
     assert.ok(slugs.includes("spacechem"));
     assert.ok(slugs.includes("exapunks"));
+    assert.ok(slugs.includes("men-of-war-assault-squad-2"));
 
 });
 

@@ -462,6 +462,7 @@ import { GUIDE as cliffEmpireAchievementGuide } from "./games/cliff-empire.js";
 import { GUIDE as distantWorldsUniverseAchievementGuide } from "./games/distant-worlds-universe.js";
 import { GUIDE as spacechemAchievementGuide } from "./games/spacechem.js";
 import { GUIDE as exapunksAchievementGuide } from "./games/exapunks.js";
+import { GUIDE as menOfWarAssaultSquad2AchievementGuide } from "./games/men-of-war-assault-squad-2.js";
 
 export const APP_GUIDES = [
 
@@ -946,7 +947,8 @@ export const GAME_GUIDES = [
     cliffEmpireAchievementGuide,
     distantWorldsUniverseAchievementGuide,
     spacechemAchievementGuide,
-    exapunksAchievementGuide
+    exapunksAchievementGuide,
+    menOfWarAssaultSquad2AchievementGuide
 
 ];
 
