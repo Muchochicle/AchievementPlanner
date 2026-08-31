@@ -1,0 +1,753 @@
+{
+    "id": 265000,
+    "steamAppId": 265000,
+    "name": "FORCED SHOWDOWN",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/265000/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "Roguelike Deckbuilder",
+        "Twin Stick Shooter",
+        "Card Game",
+        "Arena Shooter",
+        "Action",
+        "Indie"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Quest_1",
+            "name": "Take A Bow",
+            "description": "Finish your first Campaign (win or lose).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Quest_2",
+            "name": "You're Fired!",
+            "description": "Complete The Crucible.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Quest_3",
+            "name": "Eat It!",
+            "description": "Defeat Graw in Frontline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Quest_4",
+            "name": "Calcium Deficiency",
+            "description": "Defeat Mordar in Frontline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Quest_5",
+            "name": "Tanks For Nothing",
+            "description": "Defeat Ruby von Wouthingtonne IV in Frontline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Quest_15",
+            "name": "The Spice of Life",
+            "description": "Beat Frontline or higher with 2 different contestants.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Quest_16",
+            "name": "PokéMaster",
+            "description": "Beat Frontline or higher with 3 different companions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Quest_17",
+            "name": "Crowd Pleaser",
+            "description": "Reach 300 Points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Quest_31",
+            "name": "Keep 'em Coming",
+            "description": "Kill 400 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Quest_32",
+            "name": "Reaper Man",
+            "description": "Kill 1500 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Quest_40",
+            "name": "Contender",
+            "description": "Win 10 battles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Quest_44",
+            "name": "Champion",
+            "description": "Win 100 battles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Quest_50",
+            "name": "Showmanship",
+            "description": "Collect 100 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Quest_51",
+            "name": "Loot Ninja",
+            "description": "Collect 300 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Quest_100",
+            "name": "MacGyverism",
+            "description": "Play a Spell, an Upgrade and a Consumable card in one turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Quest_101",
+            "name": "Just In Case",
+            "description": "Have 10 consumables in your consumable inventory at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Quest_103",
+            "name": "Float Like a Butterfly",
+            "description": "Reach 85% block chance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Quest_104",
+            "name": "Fit as a Fiddle",
+            "description": "Reach 400 health.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Quest_105",
+            "name": "Critical Mass",
+            "description": "Reach 100% crit chance.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "Quest_106",
+            "name": "/ignore",
+            "description": "Win a battle without killing any summoned enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Quest_107",
+            "name": "Caaareful",
+            "description": "Win a battle without personally destroying any barrels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Quest_108",
+            "name": "Can't Touch This",
+            "description": "Clear 3 arenas in a row without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Quest_109",
+            "name": "Dat Mana Curve Tho'",
+            "description": "Win a battle with no mana unspent (all arenas).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "Quest_110",
+            "name": "Cheater",
+            "description": "Play 8 cards in one turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Quest_111",
+            "name": "Gotta Go Fast",
+            "description": "Take no more than 20 seconds in any one arena in a battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "Quest_112",
+            "name": "Flawless Victory",
+            "description": "Beat a boss without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Quest_113",
+            "name": "Anti-Mage",
+            "description": "Win a battle without playing any spells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Quest_114",
+            "name": "Tough Enough",
+            "description": "Win a battle without playing more than 2 upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Quest_115",
+            "name": "Tamagochi Master",
+            "description": "Win a battle without letting your companion die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "Quest_116",
+            "name": "Show Off",
+            "description": "Win a battle without using your basic attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "Quest_117",
+            "name": "Record Breaker",
+            "description": "Clear 5 arenas in less than 12 seconds each.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Quest_118",
+            "name": "Just Supplements",
+            "description": "Play 350 upgrade cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Quest_119",
+            "name": "Putting the Magic in MTG",
+            "description": "Play 150 spell cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Quest_120",
+            "name": "Trinkets 'r' Me",
+            "description": "Play 150 consumable cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Quest_122",
+            "name": "Mana Surplus",
+            "description": "Win a battle with no cards left in hand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Quest_123",
+            "name": "Don't Need 'em",
+            "description": "Win a battle without picking up any health globes. Globes sent to you by companion pickup or arena completion are allowed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Quest_124",
+            "name": "All Spent",
+            "description": "Win a battle with no cards or mana left.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Quest_125",
+            "name": "Bend it Like Beckham",
+            "description": "Play a kicker-effect with 8+ extra mana.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Quest_126",
+            "name": "Big Spender",
+            "description": "Spend 20 mana in one card phase.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Quest_127",
+            "name": "Straight",
+            "description": "Win a battle, having played cards of mana cost 0, 1, 2, 3, 4, 5, 6, 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Quest_128",
+            "name": "Daylight Robbery",
+            "description": "Play a card that costs more than 8 mana.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Quest_134",
+            "name": "¡Toro! ¡Toro!",
+            "description": "Win 3 battles with Denver as companion, without getting hit by him.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Quest_135",
+            "name": "You are The One",
+            "description": "Win a battle with the Heat Wave rule without getting hit by the fireballs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Quest_136",
+            "name": "Spare The Rod",
+            "description": "Win a battle with the Raff's Son modifier without ever letting him survive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Quest_137",
+            "name": "Pacifist Pet",
+            "description": "Win a battle without your companion killing any enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Quest_138",
+            "name": "Locked and Loaded",
+            "description": "Have consumables in all 4 slots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Quest_139",
+            "name": "Where are my Rupees?",
+            "description": "Destroy 14 barrels within 2 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Quest_141",
+            "name": "The Revolver",
+            "description": "Kill 6 enemies in 6 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Quest_1111",
+            "name": "Close One",
+            "description": "Prevent 100 damage with a single Guardian Light.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Quest_1150",
+            "name": "Guardian Light On Cooldown",
+            "description": "Beat a boss with Squire of Light without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Quest_1151",
+            "name": "Lighting the Way",
+            "description": "Beat The Grand Return with Squire of Light.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Quest_1211",
+            "name": "Strike!",
+            "description": "Kill 6 enemies with 1 Volcanic Strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Quest_1220",
+            "name": "Instant Karma",
+            "description": "Knock 30 enemies down with Magma Shield.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Quest_1250",
+            "name": "Burned",
+            "description": "Beat a boss with Volco without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Quest_1251",
+            "name": "Trailblazer",
+            "description": "Beat The Grand Return with Volco.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "Quest_1311",
+            "name": "All Yours",
+            "description": "Beat 5 arenas with Stormy getting all kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Quest_1350",
+            "name": "Greased Lightning",
+            "description": "Beat a boss with Stormbringer without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Quest_1351",
+            "name": "Thunderous Applause",
+            "description": "Beat The Grand Return with Stormbringer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Quest_1400",
+            "name": "Getting Miffed",
+            "description": "Gain 1000 frenzy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Quest_1411",
+            "name": "Too Much Coffee",
+            "description": "Perform 5 strafes within 8 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Quest_1450",
+            "name": "Not a Scratch",
+            "description": "Beat a boss with Ravager without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "Quest_1451",
+            "name": "Carnage Complete",
+            "description": "Beat The Grand Return with Ravager.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "Quest_8001",
+            "name": "Best Pals",
+            "description": "Beat 15 arenas with your companion surviving.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "Quest_8002",
+            "name": "Beware of Companion",
+            "description": "Kill 100 enemies with your companion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "Quest_2001",
+            "name": "Surpassing The Mentor",
+            "description": "Complete The Mentor's Maze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "Quest_2002",
+            "name": "Maze Runner",
+            "description": "Complete The Mentor's Maze in 12 battles or less (bonus battles don't count).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "Quest_2003",
+            "name": "R3-KT Got Wrecked",
+            "description": "Complete The Mentor's Maze in 9 battles or less (bonus battles don't count).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "Quest_2004",
+            "name": "Points Of The Maze",
+            "description": "Collect 5000 points in The Mentor's Maze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "Quest_2005",
+            "name": "Every Nook And Cranny",
+            "description": "Reach 1000 Points in The Mentor's Maze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "Quest_2006",
+            "name": "Dismantler",
+            "description": "Dismantle 30 cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "Quest_2007",
+            "name": "Pinball Master",
+            "description": "Kill 10 enemies with the Pinball.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "Quest_2008",
+            "name": "Assembly Line",
+            "description": "Use 30 zapperbots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "Quest_1152",
+            "name": "Light At The End",
+            "description": "Beat The Mentor's Maze with Squire of Light.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "Quest_1252",
+            "name": "Blazing Through",
+            "description": "Beat The Mentor's Maze with Volco.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "Quest_1352",
+            "name": "In Charge",
+            "description": "Beat The Mentor's Maze with Stormbringer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "Quest_1452",
+            "name": "Uncaged",
+            "description": "Beat The Mentor's Maze with Ravager.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "Quest_1552",
+            "name": "Maze Mission Accomplished",
+            "description": "Beat The Mentor's Maze with Settsu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "Quest_1500",
+            "name": "Line 'em up",
+            "description": "Kill 4 enemies with one Pulse Rifle piercing shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "Quest_1501",
+            "name": "Bubble Pop",
+            "description": "Burst 5 plasma balls in 10 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "Quest_1502",
+            "name": "Brace for Impact",
+            "description": "Hit 6 enemies with one Jetpack Jump.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "Quest_131",
+            "name": "Punching Bag",
+            "description": "Win a battle, having taken 1000+ damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

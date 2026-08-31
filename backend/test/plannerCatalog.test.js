@@ -668,6 +668,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dungeons-3"));
     assert.ok(slugs.includes("aven-colony"));
     assert.ok(slugs.includes("foundation"));
+    assert.ok(slugs.includes("code-vein"));
+    assert.ok(slugs.includes("forced-showdown"));
+    assert.ok(slugs.includes("discstorm"));
 
 });
 

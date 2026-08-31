@@ -644,6 +644,9 @@ import { GUIDE as trailmakersAchievementGuide } from "./games/trailmakers.js";
 import { GUIDE as dungeons3AchievementGuide } from "./games/dungeons-3.js";
 import { GUIDE as avenColonyAchievementGuide } from "./games/aven-colony.js";
 import { GUIDE as foundationAchievementGuide } from "./games/foundation.js";
+import { GUIDE as codeVeinAchievementGuide } from "./games/code-vein.js";
+import { GUIDE as forcedShowdownAchievementGuide } from "./games/forced-showdown.js";
+import { GUIDE as discstormAchievementGuide } from "./games/discstorm.js";
 
 export const APP_GUIDES = [
 
@@ -1310,7 +1313,10 @@ export const GAME_GUIDES = [
     trailmakersAchievementGuide,
     dungeons3AchievementGuide,
     avenColonyAchievementGuide,
-    foundationAchievementGuide
+    foundationAchievementGuide,
+    codeVeinAchievementGuide,
+    forcedShowdownAchievementGuide,
+    discstormAchievementGuide
 
 ];
 
