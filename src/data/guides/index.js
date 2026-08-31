@@ -692,6 +692,9 @@ import { GUIDE as gears5AchievementGuide } from "./games/gears-5.js";
 import { GUIDE as torchlightAchievementGuide } from "./games/torchlight.js";
 import { GUIDE as theAltersAchievementGuide } from "./games/the-alters.js";
 import { GUIDE as dragonsDogma2AchievementGuide } from "./games/dragons-dogma-2.js";
+import { GUIDE as gripCombatRacingAchievementGuide } from "./games/grip-combat-racing.js";
+import { GUIDE as busSimulator18AchievementGuide } from "./games/bus-simulator-18.js";
+import { GUIDE as distanceAchievementGuide } from "./games/distance.js";
 
 export const APP_GUIDES = [
 
@@ -1406,7 +1409,10 @@ export const GAME_GUIDES = [
     gears5AchievementGuide,
     torchlightAchievementGuide,
     theAltersAchievementGuide,
-    dragonsDogma2AchievementGuide
+    dragonsDogma2AchievementGuide,
+    gripCombatRacingAchievementGuide,
+    busSimulator18AchievementGuide,
+    distanceAchievementGuide
 
 ];
 

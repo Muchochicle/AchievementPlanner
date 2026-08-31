@@ -716,6 +716,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("torchlight"));
     assert.ok(slugs.includes("the-alters"));
     assert.ok(slugs.includes("dragons-dogma-2"));
+    assert.ok(slugs.includes("grip-combat-racing"));
+    assert.ok(slugs.includes("bus-simulator-18"));
+    assert.ok(slugs.includes("distance"));
 
 });
 
