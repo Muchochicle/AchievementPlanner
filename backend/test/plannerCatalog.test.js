@@ -695,6 +695,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("gang-beasts"));
     assert.ok(slugs.includes("pummel-party"));
     assert.ok(slugs.includes("stick-fight-the-game"));
+    assert.ok(slugs.includes("overcooked-all-you-can-eat"));
+    assert.ok(slugs.includes("tricky-towers"));
+    assert.ok(slugs.includes("stacklands"));
 
 });
 

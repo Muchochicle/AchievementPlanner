@@ -671,6 +671,9 @@ import { GUIDE as sixDaysInFallujahAchievementGuide } from "./games/six-days-in-
 import { GUIDE as gangBeastsAchievementGuide } from "./games/gang-beasts.js";
 import { GUIDE as pummelPartyAchievementGuide } from "./games/pummel-party.js";
 import { GUIDE as stickFightTheGameAchievementGuide } from "./games/stick-fight-the-game.js";
+import { GUIDE as overcookedAllYouCanEatAchievementGuide } from "./games/overcooked-all-you-can-eat.js";
+import { GUIDE as trickyTowersAchievementGuide } from "./games/tricky-towers.js";
+import { GUIDE as stacklandsAchievementGuide } from "./games/stacklands.js";
 
 export const APP_GUIDES = [
 
@@ -1364,7 +1367,10 @@ export const GAME_GUIDES = [
     sixDaysInFallujahAchievementGuide,
     gangBeastsAchievementGuide,
     pummelPartyAchievementGuide,
-    stickFightTheGameAchievementGuide
+    stickFightTheGameAchievementGuide,
+    overcookedAllYouCanEatAchievementGuide,
+    trickyTowersAchievementGuide,
+    stacklandsAchievementGuide
 
 ];
 
