@@ -600,6 +600,9 @@ import { GUIDE as hacknetAchievementGuide } from "./games/hacknet.js";
 import { GUIDE as satelliteReignAchievementGuide } from "./games/satellite-reign.js";
 import { GUIDE as rustyLakeHotelAchievementGuide } from "./games/rusty-lake-hotel.js";
 import { GUIDE as cookServeDeliciousAchievementGuide } from "./games/cook-serve-delicious.js";
+import { GUIDE as residentEvil6AchievementGuide } from "./games/resident-evil-6.js";
+import { GUIDE as sidMeiersAcePatrolPacificSkiesAchievementGuide } from "./games/sid-meiers-ace-patrol-pacific-skies.js";
+import { GUIDE as snowTheUltimateEditionAchievementGuide } from "./games/snow-the-ultimate-edition.js";
 
 export const APP_GUIDES = [
 
@@ -1222,7 +1225,10 @@ export const GAME_GUIDES = [
     hacknetAchievementGuide,
     satelliteReignAchievementGuide,
     rustyLakeHotelAchievementGuide,
-    cookServeDeliciousAchievementGuide
+    cookServeDeliciousAchievementGuide,
+    residentEvil6AchievementGuide,
+    sidMeiersAcePatrolPacificSkiesAchievementGuide,
+    snowTheUltimateEditionAchievementGuide
 
 ];
 
