@@ -597,6 +597,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("grid-2"));
     assert.ok(slugs.includes("panzer-corps-2"));
     assert.ok(slugs.includes("warhammer-40k-mechanicus"));
+    assert.ok(slugs.includes("rise-of-the-triad"));
+    assert.ok(slugs.includes("downwell"));
+    assert.ok(slugs.includes("costume-quest"));
 
 });
 

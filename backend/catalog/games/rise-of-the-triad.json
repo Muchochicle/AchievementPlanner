@@ -1,0 +1,744 @@
+{
+    "id": 217140,
+    "steamAppId": 217140,
+    "name": "Rise of the Triad",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/217140/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Retro",
+        "Action",
+        "Arcade",
+        "Gore",
+        "Fast-Paced"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ERA_LEVEL_InTheThickOfIt",
+            "name": "In the Thick of It",
+            "description": "Complete E1L1 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 2,
+            "apiname": "ERA_LEVEL_BurnedAndAmazed",
+            "name": "Burned and Amazed",
+            "description": "Complete E1L2 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 3,
+            "apiname": "ERA_LEVEL_TooMuchRoom",
+            "name": "Too Much Room",
+            "description": "Complete E1L3 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 4,
+            "apiname": "ERA_LEVEL_SpringSurprise",
+            "name": "Spring Surprise",
+            "description": "Complete E1L4 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ERA_LEVEL_GeneralDarianLair",
+            "name": "General Darian's Lair",
+            "description": "Complete E1L5 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ERA_LEVEL_BuriedInALunchbox",
+            "name": "Buried in a Lunchbox",
+            "description": "Complete Episode 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ERA_LEVEL_AssaultTheBase",
+            "name": "Assault the Base",
+            "description": "Complete Episode 1 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ERA_LEVEL_IntoTheCastle",
+            "name": "Into the Castle",
+            "description": "Complete E2L1 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ERA_LEVEL_TheRoom",
+            "name": "You're Tearing Me Apart!",
+            "description": "Complete E2L2 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "ERA_LEVEL_SpiralingIn",
+            "name": "Spiraling In",
+            "description": "Complete E2L3 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "ERA_LEVEL_FourWayChamber",
+            "name": "Four Way Chamber",
+            "description": "Complete E2L4 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 12,
+            "apiname": "ERA_LEVEL_LookMaNoLegs",
+            "name": "Look Ma! No Legs!",
+            "description": "Complete E2L5 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "ERA_LEVEL_DoYouEvenStand",
+            "name": "Do You Even Stand?",
+            "description": "Complete Episode 2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ERA_LEVEL_BreachTheCastle",
+            "name": "Breach the Castle",
+            "description": "Complete Episode 2 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 15,
+            "apiname": "ERA_LEVEL_Robotricks",
+            "name": "Robotricks",
+            "description": "Complete E3L1 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 16,
+            "apiname": "ERA_LEVEL_DownAndOver",
+            "name": "Down and Over",
+            "description": "Complete E3L2 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "ERA_LEVEL_DeadIn5Seconds",
+            "name": "Dead in 5 Seconds",
+            "description": "Complete E3L3 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "ERA_LEVEL_ClearAndPresentDangers",
+            "name": "Clear and Present Dangers",
+            "description": "Complete E3L4 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 19,
+            "apiname": "ERA_LEVEL_KnowThineNME",
+            "name": "Know Thine NME",
+            "description": "Complete E3L5 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 20,
+            "apiname": "ERA_LEVEL_Enemosity",
+            "name": "Enemosity",
+            "description": "Complete Episode 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ERA_LEVEL_WhatLiesBeneath",
+            "name": "What Lies Beneath",
+            "description": "Complete Episode 3 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "ERA_LEVEL_MonkyBusiness",
+            "name": "Monky Business",
+            "description": "Complete E4L1 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ERA_LEVEL_FireAndBrimstone",
+            "name": "Fire and Brimstone",
+            "description": "Complete E4L2 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ERA_LEVEL_Backfire",
+            "name": "Backfire",
+            "description": "Complete E4L3 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ERA_LEVEL_CirclesOfFire",
+            "name": "Circles of Fire",
+            "description": "Complete E4L4 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ERA_LEVEL_ElOscuro",
+            "name": "El Oscuro",
+            "description": "Complete E4L5 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ERA_LEVEL_CultFollowing",
+            "name": "Cult Following",
+            "description": "Complete Episode 4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ERA_LEVEL_CultClassic",
+            "name": "Cult Classic",
+            "description": "Complete Episode 4 100%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 29,
+            "apiname": "ERA_LEVEL_1On1",
+            "name": "1 On 1",
+            "description": "Beat General Darian in 3 Minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ERA_LEVEL_WeakLegs",
+            "name": "Weak Legs",
+            "description": "Beat Krist in 3 Minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ERA_LEVEL_RoboNono",
+            "name": "Robo Nono",
+            "description": "Beat NME in 5 Minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ERA_LEVEL_DeckTheHall",
+            "name": "Deck the Hall",
+            "description": "Beat El Oscuro in 3 Minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ERA_GAME_WalkInThePark",
+            "name": "Walk in the Park",
+            "description": "Beat the Game on Easy Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ERA_GAME_OverEasy",
+            "name": "Over Easy",
+            "description": "Beat the Game on Medium Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ERA_GAME_WithAVengeance",
+            "name": "With a Vengeance!",
+            "description": "Beat the Game on Hard Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ERA_GAME_OldSchool",
+            "name": "Old School",
+            "description": "Beat the Game on Ludicrous difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ERA_EP_BulletTimePartIII",
+            "name": "Knife Party",
+            "description": "Kill 666 Enemies with Knives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ERA_GAME_Beaglefaaaace",
+            "name": "Beaglefaaaace!",
+            "description": "Kill 3 Enemies at Once with the Barkblast",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ERA_GAME_RainingBlood",
+            "name": "Raining Blood",
+            "description": "Kill 5 People at Once with Explosives or Magical Weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ERA_GAME_DatNostalgia",
+            "name": "Dat Nostalgia",
+            "description": "Activate the Original Soundtrack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ERA_GAME_SlowYourTollBro",
+            "name": "Slow Your Roll, Bro",
+            "description": "Finish the Game in 4 Hours or Less",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ERA_GAME_ConsiderThisAnIntervention",
+            "name": "Consider This An Intervention",
+            "description": "Get Shrooms Mode for the First Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ERA_GAME_AaronThePorridgeBaron",
+            "name": "Aaron the Porridge Baron",
+            "description": "Eat 3 Porridge Bowls in 5 Seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ERA_GAME_ImAPlumberByTrade",
+            "name": "I'm a Plumber By Trade",
+            "description": "Collect 10 Coins in 5 Seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ERA_GAME_ElFabioSelvaggio",
+            "name": "This is my Doomstick!",
+            "description": "Kill 666 Enemies with the Doomstick",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ERA_GAME_Ludicrosity",
+            "name": "Ludicrosity",
+            "description": "Get \"Ludicrous gibs\" With All Weapons that are Capable of Gibbing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ERA_GAME_ATGM",
+            "name": "ATGM",
+            "description": "Kill an Enemy While Under the Effects of a Jump Pad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ERA_GAME_HeadHunter",
+            "name": "Head Hunter",
+            "description": "Find Scott's Mystical Head",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ERA_GAME_SteppinRazer",
+            "name": "Steppin' Razer",
+            "description": "Kill 50 Enemies by Using Their Own Traps Against Them",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ERA_GAME_Sausagefest",
+            "name": "Sausage Fest",
+            "description": "Eat 50 Meals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ERA_GAME_GibFest",
+            "name": "Gib Fest",
+            "description": "Gib 50 Enemies ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ERA_GAME_CollateralDamage",
+            "name": "Collateral Damage",
+            "description": "Kill an Enemy with an Exploding Barrel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ERA_GAME_SevenTen",
+            "name": "Seven Ten",
+            "description": "Gib 2 Enemies with the Split Missile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ERA_GAME_RocketScientist",
+            "name": "Rocket Scientist",
+            "description": "Kill an Enemy During a Rocket Jump",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ERA_GAME_Munchies",
+            "name": "Munchies",
+            "description": "Eat 4 Health Pickups While in Shrooms Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ERA_GAME_Juiced",
+            "name": "Juiced",
+            "description": "Kill 666 Enemies with the Excalibat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ERA_GAME_Tequila",
+            "name": "Tequila",
+            "description": "Kill 666 Enemies with Pistols",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ERA_GAME_SprayAndPray",
+            "name": "Spray and Pray",
+            "description": "Kill 666 Enemies with the MP40",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ERA_GAME_RockItMan",
+            "name": "Rock-It Man",
+            "description": "Kill 666 Enemies with the Rocket Launcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ERA_GAME_HotBlooded",
+            "name": "Hot Blooded",
+            "description": "Kill 666 Enemies with the Heat Seeker",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ERA_GAME_DoubleVision",
+            "name": "Double Vision",
+            "description": "Kill 666 Enemies with the Split Missile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ERA_GAME_ShitFaced",
+            "name": "Shit Faced",
+            "description": "Kill 666 Enemies with the Drunk Missile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ERA_GAME_YouShallNotPass",
+            "name": "You Shall Not Pass",
+            "description": "Kill 666 Enemies with the Dark Staff",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ERA_GAME_Nukem",
+            "name": "Nukem",
+            "description": "Kill 666 Enemies with the Firebomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ERA_GAME_GlobalWarming",
+            "name": "Global Warming",
+            "description": "Kill 666 Enemies with the Flamewall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ERA_GAME_XGonGiveItToYa",
+            "name": "You're The Dog Now, Man!",
+            "description": "Kill 666 Enemies While in Dog Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ERA_GAME_JudgementDay",
+            "name": "Judgement Day",
+            "description": "Kill 666 Enemies While in God Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ERA_GAME_ItsLikeDLCButFree",
+            "name": "It's Like DLC, But Free!",
+            "description": "Run the Game with a Custom Mod or Map Installed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ERA_GAME_ComeAtMeWorld",
+            "name": "Come at me World",
+            "description": "Submit a Score to the Leaderboard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ERA_GAME_Executioner",
+            "name": "Executioner",
+            "description": "Kill an Enemy While He's Begging for His Life",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ERA_GAME_YouSuck",
+            "name": "You Suck",
+            "description": "Get the Bad Ending",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ERA_GAME_WARPZONED",
+            "name": "WARP ZONED",
+            "description": "Play Through All The Secret Levels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ERA_GAME_HolyShit",
+            "name": "Holy Shit",
+            "description": "Run the Game on Maximum Ludicrous Settings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ERA_GAME_Unreal",
+            "name": "Shop Smart, Shop S Mart",
+            "description": "Pick up the Doomstick for the first time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ERA_GAME_Picasso",
+            "name": "Grandma's Boy",
+            "description": "Disable Gore",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ERA_GAME_ThatDope",
+            "name": "That's Dope",
+            "description": "Find the Dopefish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ERA_GAME_BonusBonus",
+            "name": "Bonus Bonus",
+            "description": "Get 2000000 Points in One Level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ERA_GAME_Tryhard",
+            "name": "Tryhard",
+            "description": "Kill an Enforcer with a Single Pistol",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ERA_GAME_FoolMeOnce",
+            "name": "Fool Me Once",
+            "description": "Get Killed by an Enemy Who Was Previously Begging for His Life",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ERA_GAME_TripleTriad",
+            "name": "Triple Triad",
+            "description": "Kill 3 Different Types of Triads with One Attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

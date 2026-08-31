@@ -573,6 +573,9 @@ import { GUIDE as underrailAchievementGuide } from "./games/underrail.js";
 import { GUIDE as grid2AchievementGuide } from "./games/grid-2.js";
 import { GUIDE as panzerCorps2AchievementGuide } from "./games/panzer-corps-2.js";
 import { GUIDE as warhammer40kMechanicusAchievementGuide } from "./games/warhammer-40k-mechanicus.js";
+import { GUIDE as riseOfTheTriadAchievementGuide } from "./games/rise-of-the-triad.js";
+import { GUIDE as downwellAchievementGuide } from "./games/downwell.js";
+import { GUIDE as costumeQuestAchievementGuide } from "./games/costume-quest.js";
 
 export const APP_GUIDES = [
 
@@ -1168,7 +1171,10 @@ export const GAME_GUIDES = [
     underrailAchievementGuide,
     grid2AchievementGuide,
     panzerCorps2AchievementGuide,
-    warhammer40kMechanicusAchievementGuide
+    warhammer40kMechanicusAchievementGuide,
+    riseOfTheTriadAchievementGuide,
+    downwellAchievementGuide,
+    costumeQuestAchievementGuide
 
 ];
 
