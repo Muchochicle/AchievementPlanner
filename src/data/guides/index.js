@@ -541,6 +541,12 @@ import { GUIDE as sonicCdAchievementGuide } from "./games/sonic-cd.js";
 import { GUIDE as theLegoMovieVideogameAchievementGuide } from "./games/the-lego-movie-videogame.js";
 import { GUIDE as legoJurassicWorldAchievementGuide } from "./games/lego-jurassic-world.js";
 import { GUIDE as finalFantasyVAchievementGuide } from "./games/final-fantasy-v.js";
+import { GUIDE as farmingSimulator19AchievementGuide } from "./games/farming-simulator-19.js";
+import { GUIDE as farmingSimulator15AchievementGuide } from "./games/farming-simulator-15.js";
+import { GUIDE as bloodyGoodTimeAchievementGuide } from "./games/bloody-good-time.js";
+import { GUIDE as nba2k23AchievementGuide } from "./games/nba-2k23.js";
+import { GUIDE as deadRising2AchievementGuide } from "./games/dead-rising-2.js";
+import { GUIDE as wormsUltimateMayhemAchievementGuide } from "./games/worms-ultimate-mayhem.js";
 
 export const APP_GUIDES = [
 
@@ -1104,7 +1110,13 @@ export const GAME_GUIDES = [
     sonicCdAchievementGuide,
     theLegoMovieVideogameAchievementGuide,
     legoJurassicWorldAchievementGuide,
-    finalFantasyVAchievementGuide
+    finalFantasyVAchievementGuide,
+    farmingSimulator19AchievementGuide,
+    farmingSimulator15AchievementGuide,
+    bloodyGoodTimeAchievementGuide,
+    nba2k23AchievementGuide,
+    deadRising2AchievementGuide,
+    wormsUltimateMayhemAchievementGuide
 
 ];
 

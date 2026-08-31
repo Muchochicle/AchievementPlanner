@@ -1,0 +1,474 @@
+{
+    "id": 45740,
+    "steamAppId": 45740,
+    "name": "Dead Rising 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/45740/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Zombies",
+        "Open World",
+        "Survival",
+        "Sandbox",
+        "Comedy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_1_ZOMBIE_SLAUGHTER",
+            "name": "Zombie Slaughter",
+            "description": "Killed 500 zombies. Not a bad start.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_2_ZOMBIE_DESTRUCTION",
+            "name": "Zombie Destruction",
+            "description": "Killed 5,000 zombies. Is that all you've got?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_3_ZOMBIE_GENOCIDER_2_GENOCIDE_HARDER",
+            "name": "Z-Genocider 2: Genocide Harder",
+            "description": "Killed 53,596 zombies. You left them all for dead!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_4_ZOMBIE_GENOCIDE_MASTER",
+            "name": "Zombie Genocide Master",
+            "description": "Killed 72,000 zombies. King of carnage!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_5_VIGILANTE_JUSTICE",
+            "name": "Vigilante Justice",
+            "description": "Defeated 5 psychopaths. There's a new sheriff in town!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_6_JUDGE_JURY_EXECUTIONER",
+            "name": "Judge, Jury and Executioner",
+            "description": "Defeated 10 psychopaths. The world is a safer place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_7_ZOMBIE_FU",
+            "name": "Zombie Fu",
+            "description": "Killed 1,000 zombies barehanded. Those were some killer moves!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_8_WRONG_KIND_OF_CHOPPER",
+            "name": "Wrong Kind of \"Chopper\"",
+            "description": "Killed 1,000 zombies while riding a motorcycle. Chainsaws on the side make it easier.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_9_HE_HASNT_COVERED_WARS",
+            "name": "He Hasn't Covered Wars...",
+            "description": "Used every type of firearm on a zombie. Bang!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_10_HEAD_TRAUMA",
+            "name": "Head Trauma",
+            "description": "Used every type of melee weapon on a zombie. Anything is deadly in the right hands.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_11_DEATH_FROM_AFAR",
+            "name": "Death From Afar",
+            "description": "Used every type of ranged weapon on a zombie. They can't bite you if they're already dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_12_EXPLOSIVE_TEMPER",
+            "name": "Explosive Temper",
+            "description": "Used every type of explosive on a zombie. Kaboom!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_13_DEATH_OF_COMEDY",
+            "name": "Slaughter - S = Laughter!",
+            "description": "Used every type of novelty weapon on a zombie. Lighten up a bit!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_14_COME_ON_FOLLOW_ME",
+            "name": "Come on! Follow Me!",
+            "description": "Escorted 8 survivors at once. It's a party, everyone is invited!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_15_SAVING_THE_DAY",
+            "name": "Saving the Day",
+            "description": "Saved 10 survivors. But more are still out there...",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_16_HERO_OF_FORTUNE_CITY",
+            "name": "Hero of Fortune City",
+            "description": "Saved 50 survivors. What a great guy!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_17_NEEDS_MORE_CHAINSAW",
+            "name": "Needs More Chainsaw",
+            "description": "Created a combo weapon. Introduce it to the nearest zombie!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_18_DUCT_TAPE_FTW",
+            "name": "Duct Tape FTW",
+            "description": "Created all combo weapons. Now put them to use!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_19_APPRENTICE_RISING",
+            "name": "Apprentice Rising",
+            "description": "Reached level 25. Halfway there!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_20_PROFESSIONAL_RISING",
+            "name": "Professional Rising",
+            "description": "Reached level 50. You're a machine!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_21_FASHION_EFFICIENATO",
+            "name": "Fashion Aficionado",
+            "description": "Changed into 10 different pieces of clothing. Looking dapper, chap!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_22_CHUCK_GREENE_CROSS_DRESSER",
+            "name": "Chuck Greene: Cross-Dresser?",
+            "description": "Changed into all the clothes in the game. Zombie invasion is no excuse for poor style.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_23_CLEAN_RECORD",
+            "name": "Clean Record",
+            "description": "Completed The Facts. The End... or is it?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_24_BARTENDER",
+            "name": "Bartender",
+            "description": "Mixed a drink. Tasty stuff!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_25_LOOK_AT_ALL_THAT_JUICE",
+            "name": "Look at All That Juice!",
+            "description": "Created and consumed all mixed drinks in the game. Just like Mom used to make.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_26_FINALLY_FULL",
+            "name": "Finally Full",
+            "description": "Ate all types of food in the game. That can't be healthy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_27_HAVING_A_GAS",
+            "name": "Having a Gas",
+            "description": "Killed 1,000 gas zombies. As if zombies weren't bad enough...",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_28_FATHER_OF_THE_MONTH",
+            "name": "Father of the Month",
+            "description": "Gave Katey a gift. It's good to spoil her sometimes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_29_FATHER_OF_THE_YEAR",
+            "name": "Father of the Year",
+            "description": "Gave Katey every possible gift. Bribery is the fastest way to earn a child's love!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_30_JUSTICE_SERVED",
+            "name": "Justice Served ",
+            "description": "Completed Overtime Mode. TK got what he deserved.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_31_BETTER_WITH_A_FRIEND",
+            "name": "Better With a Friend",
+            "description": "Solved all case files in Co-op. You're a great friend!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_32_DONT_YOU_DIE_ON_ME",
+            "name": "Don't You Die on Me!",
+            "description": "Revived another player in Co-op. He owes you one.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_33_BIG_SPENDER",
+            "name": "Big Spender",
+            "description": "Spent $6,000,000 total in Fortune City. Where did you get all that money?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_34_WINDOW_SHOPPER",
+            "name": "Window Shopper",
+            "description": "Entered all the stores in the game. Did you buy anything?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_35_MASQUERADE",
+            "name": "Masquerade",
+            "description": "Had 10 zombies with masks on at once. You showed them who's boss!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_36_IMPROPER_BEHAVIOUR",
+            "name": "Improper Behavior",
+            "description": "Spray-painted all Zombrex posters. They didn't do much good in the first place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_37_TKS_FAVOURITE",
+            "name": "TK's Favorite",
+            "description": "Played and won in all 9 TIR events. A true American hero!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_38_RISING_STAR",
+            "name": "Rising Star",
+            "description": "Came in first place in a single TIR event. Victory tastes sweet!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_39_WIN_BIG",
+            "name": "Win Big!",
+            "description": "Finished in first place in a TIR episode. Don and Paul love watching you go!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_40_CUSTOM_FINISH",
+            "name": "Custom Finish",
+            "description": "Gave your bike a custom paint job. Sweet ride!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_41_CURIOUSLY_INVENTIVE",
+            "name": "Curiously Inventive",
+            "description": "Collected all combo cards hidden in Fortune City. Inspiration is all around you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_42_LIFE_SAVER",
+            "name": "Life Saver",
+            "description": "Collected all combo cards from survivors. The gift of zombie killing!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_43_TOUGH_GUY",
+            "name": "Tough Guy",
+            "description": "Collected all combo cards from psychopaths. Pried from their cold, dead fingers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_44_HALF_DECK",
+            "name": "Half Deck",
+            "description": "Collected 25 combo cards. So many combinations, so little time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_45_FULL_DECK",
+            "name": "Full Deck",
+            "description": "Collected all combo cards. All 49. Seems odd, doesn't it?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_46_DATA_MINER",
+            "name": "Data Miner",
+            "description": "Filled all entries in the notebook and made some friends along the way.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_47_SMASHY",
+            "name": "Smashy",
+            "description": "Smashed 100 zombies using the Smash skill move. Brains everywhere!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_48_STICK_EM_UP",
+            "name": "Stick 'em up",
+            "description": "Covered a zombie in objects. That sure was funny!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_49_SKILL_TO_SURVIVE",
+            "name": "The Skill to Survive",
+            "description": "Tamed Snowflake. Keep some steak handy, just in case.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_50_TAPE_IT_OR_DIE",
+            "name": "Tape It or DIE!",
+            "description": "Created the secret combo weapon, the Wingman - combine Nectar (mix two Orange Juices, or Orange Juice and Beer) with a Queen (dropped by certain zombies, available after giving Katey Zombrex on Day 2) in a Maintenance Room.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

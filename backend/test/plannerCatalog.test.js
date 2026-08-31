@@ -565,6 +565,12 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-lego-movie-videogame"));
     assert.ok(slugs.includes("lego-jurassic-world"));
     assert.ok(slugs.includes("final-fantasy-v"));
+    assert.ok(slugs.includes("farming-simulator-19"));
+    assert.ok(slugs.includes("farming-simulator-15"));
+    assert.ok(slugs.includes("bloody-good-time"));
+    assert.ok(slugs.includes("nba-2k23"));
+    assert.ok(slugs.includes("dead-rising-2"));
+    assert.ok(slugs.includes("worms-ultimate-mayhem"));
 
 });
 
