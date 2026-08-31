@@ -1,0 +1,510 @@
+{
+    "id": 228260,
+    "steamAppId": 228260,
+    "name": "Fallen Enchantress: Legendary Heroes",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/228260/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 150
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Strategy",
+        "Turn-Based",
+        "Fantasy",
+        "RPG",
+        "Empire Building"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "MONSTER_KILLER",
+            "name": "Monster Killer",
+            "description": "You killed a monster!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "DEFEAT_SOVEREIGN",
+            "name": "Defeated Sovereign in Battle",
+            "description": "You defeated a sovereign in battle!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "CAPTURED_CITY",
+            "name": "Captured a City",
+            "description": "You have captured an enemy city!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "BUILT_CITY",
+            "name": "Built a City",
+            "description": "All nations start with one.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "RECRUITED_NPC",
+            "name": "Recruited an NPC",
+            "description": "Your Fame has lead a hero to your cause.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "DEFEATED_ARMY",
+            "name": "Defeated an Army",
+            "description": "You have defeated an army!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "DRAGON_SLAYER",
+            "name": "Dragon Slayer",
+            "description": "Not since Peter MacNicol has one been slain!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "DEFEAT_ABEIX",
+            "name": "Defeat the Lord Who Dwells Below",
+            "description": "You've managed to slay Abeix!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "DEFEAT_DELIN",
+            "name": "Defeat the Pyre of Man",
+            "description": "You've managed to slay Delin!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "DEFEAT_MORIAN",
+            "name": "Defeat the Ruin of Summer",
+            "description": "You've managed to slay Morian!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "DEFEAT_TORAX",
+            "name": "Defeat the Lord Who Levels Mountains",
+            "description": "You've managed to slay Torax!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "DEFEAT_VETRAR",
+            "name": "Defeat the Guardian of the World's End",
+            "description": "You've managed to slay Vetrar!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "VICTORY_CAMPAIGN",
+            "name": "Legendary Hero",
+            "description": "Awarded for completion of the Legendary Hero scenario.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "VICTORY_CONQUEST",
+            "name": "A Leader of Men",
+            "description": "Win by defeating all of your opponents.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "VICTORY_QUEST",
+            "name": "A Great Seeker",
+            "description": "Win by completing the Master Quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "VICTORY_SPELL",
+            "name": "A Mighty Sorcerer",
+            "description": "Win by casting the Spell of Making.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "VICTORY_DIPLOMACY",
+            "name": "Peacemaker",
+            "description": "Win by forging an alliance with all players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "VICTORY_TURNLIMIT",
+            "name": "Waiting Out the Clock",
+            "description": "Win by having the highest score by the turn limit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "VICTORY_POPULATION",
+            "name": "Population Manager",
+            "description": "Win and have at least 3,000 population.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "RISE_OF_ALTAR",
+            "name": "Rise of Altar",
+            "description": "Win as Altar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "RISE_OF_GILDEN",
+            "name": "Rise of Gilden",
+            "description": "Win as Gilden.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "RISE_OF_PARIDEN",
+            "name": "Rise of Pariden",
+            "description": "Win as Pariden.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "RISE_OF_TARTH",
+            "name": "Rise of Tarth",
+            "description": "Win as Tarth.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "RISE_OF_KRAXIS",
+            "name": "Rise of Kraxis",
+            "description": "Win as Kraxis.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "RISE_OF_MAGNAR",
+            "name": "Rise of Magnar",
+            "description": "Win as Magnar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "RISE_OF_RESOLN",
+            "name": "Rise of Resoln",
+            "description": "Win as Resoln.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "RISE_OF_YITHRIL",
+            "name": "Rise of Yithril",
+            "description": "Win as Yithril.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "LEVEL_5_CHAMP",
+            "name": "Hero",
+            "description": "Reach level 5 with a champion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "LEVEL_15_CHAMP",
+            "name": "Champion",
+            "description": "Reach level 15 with a champion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "COMPLETE_1_QUEST",
+            "name": "Adventurer",
+            "description": "Complete a quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "COMPLETE_10_QUESTS",
+            "name": "Ratslayer",
+            "description": "Complete 10 quests in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "SHOPPING",
+            "name": "Shopper",
+            "description": "Buy an item from a shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "MERCHANT",
+            "name": "Trader",
+            "description": "Make 1000 gildar from selling items in shops.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "PLAY_5_HOURS",
+            "name": "Experienced",
+            "description": "Play for 5 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "PLAY_10_HOURS",
+            "name": "Expert",
+            "description": "Play for 10 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "PLAY_20_HOURS",
+            "name": "Veteran",
+            "description": "Play for 20 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "PLAY_40_HOURS",
+            "name": "Hardcore",
+            "description": "Play for 40 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "PLAY_100_HOURS",
+            "name": "One...More...Turn....",
+            "description": "Play for 100 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "LEVEL_5_CITY",
+            "name": "Urban Sprawl",
+            "description": "Get a city to level 5 in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "EXPAND",
+            "name": "Expansionist",
+            "description": "Control 5 cities in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "EXPLOIT",
+            "name": "Exploiter",
+            "description": "Tap 10 resources in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "EXPLORE",
+            "name": "Explorer",
+            "description": "Explore 10 goodie huts in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "EXTERMINATE",
+            "name": "Exterminator",
+            "description": "Defeat a faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "CUSTOM_SOV",
+            "name": "Nice Pants!",
+            "description": "Create a custom sovereign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "DESIGN_A_UNIT",
+            "name": "Forging Armies",
+            "description": "Design a unit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "RECRUIT_MAUSOLOS",
+            "name": "Guard from the Tomb",
+            "description": "Recruit Mausolos",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "RECRUIT_RAZA_THE_WILD",
+            "name": "The Desert Mage",
+            "description": "Recruit Raza the Wild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "RECRUIT_KASST",
+            "name": "The Brood Warden Champion",
+            "description": "Recruit Kasst",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "RECRUIT_TUATHA",
+            "name": "Ally from the Swamp",
+            "description": "Recruit Tuatha",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "RECRUIT_GALLOWMAN",
+            "name": "Lord of Necromancy",
+            "description": "Recruit Gallowman",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "RECRUIT_NEN_RATCATCHER",
+            "name": "Darkling Allies",
+            "description": "Recruit Nen Ratcatcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "RECRUIT_ASCIAN",
+            "name": "Lady Umber's Assassin",
+            "description": "Recruit Ascian",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "RISE_OF_CAPITAR",
+            "name": "Rise of Capitar",
+            "description": "Win as Capitar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "RISE_OF_UMBER",
+            "name": "Rise of Umber",
+            "description": "Win as Umber.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

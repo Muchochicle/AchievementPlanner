@@ -588,6 +588,9 @@ import { GUIDE as hyperdimensionNeptuniaRebirth1AchievementGuide } from "./games
 import { GUIDE as plagueIncEvolvedAchievementGuide } from "./games/plague-inc-evolved.js";
 import { GUIDE as keepTalkingAndNobodyExplodesAchievementGuide } from "./games/keep-talking-and-nobody-explodes.js";
 import { GUIDE as beatHazardAchievementGuide } from "./games/beat-hazard.js";
+import { GUIDE as falloutShelterAchievementGuide } from "./games/fallout-shelter.js";
+import { GUIDE as fallenEnchantressLegendaryHeroesAchievementGuide } from "./games/fallen-enchantress-legendary-heroes.js";
+import { GUIDE as doorKickersAchievementGuide } from "./games/door-kickers.js";
 
 export const APP_GUIDES = [
 
@@ -1198,7 +1201,10 @@ export const GAME_GUIDES = [
     hyperdimensionNeptuniaRebirth1AchievementGuide,
     plagueIncEvolvedAchievementGuide,
     keepTalkingAndNobodyExplodesAchievementGuide,
-    beatHazardAchievementGuide
+    beatHazardAchievementGuide,
+    falloutShelterAchievementGuide,
+    fallenEnchantressLegendaryHeroesAchievementGuide,
+    doorKickersAchievementGuide
 
 ];
 

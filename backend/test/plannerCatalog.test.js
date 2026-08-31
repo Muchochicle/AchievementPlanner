@@ -612,6 +612,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("plague-inc-evolved"));
     assert.ok(slugs.includes("keep-talking-and-nobody-explodes"));
     assert.ok(slugs.includes("beat-hazard"));
+    assert.ok(slugs.includes("fallout-shelter"));
+    assert.ok(slugs.includes("fallen-enchantress-legendary-heroes"));
+    assert.ok(slugs.includes("door-kickers"));
 
 });
 
