@@ -698,6 +698,9 @@ import { GUIDE as distanceAchievementGuide } from "./games/distance.js";
 import { GUIDE as destiny2AchievementGuide } from "./games/destiny-2.js";
 import { GUIDE as crysisRemasteredAchievementGuide } from "./games/crysis-remastered.js";
 import { GUIDE as dukeNukemForeverAchievementGuide } from "./games/duke-nukem-forever.js";
+import { GUIDE as sniperEliteV2RemasteredAchievementGuide } from "./games/sniper-elite-v2-remastered.js";
+import { GUIDE as riptideGp2AchievementGuide } from "./games/riptide-gp2.js";
+import { GUIDE as chasmAchievementGuide } from "./games/chasm.js";
 
 export const APP_GUIDES = [
 
@@ -1418,7 +1421,10 @@ export const GAME_GUIDES = [
     distanceAchievementGuide,
     destiny2AchievementGuide,
     crysisRemasteredAchievementGuide,
-    dukeNukemForeverAchievementGuide
+    dukeNukemForeverAchievementGuide,
+    sniperEliteV2RemasteredAchievementGuide,
+    riptideGp2AchievementGuide,
+    chasmAchievementGuide
 
 ];
 

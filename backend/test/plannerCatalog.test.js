@@ -722,6 +722,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("destiny-2"));
     assert.ok(slugs.includes("crysis-remastered"));
     assert.ok(slugs.includes("duke-nukem-forever"));
+    assert.ok(slugs.includes("sniper-elite-v2-remastered"));
+    assert.ok(slugs.includes("riptide-gp2"));
+    assert.ok(slugs.includes("chasm"));
 
 });
 
