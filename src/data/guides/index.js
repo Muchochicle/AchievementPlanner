@@ -597,6 +597,9 @@ import { GUIDE as quakeLiveAchievementGuide } from "./games/quake-live.js";
 import { GUIDE as starWarsKotor2AchievementGuide } from "./games/star-wars-kotor-2.js";
 import { GUIDE as turmoilAchievementGuide } from "./games/turmoil.js";
 import { GUIDE as hacknetAchievementGuide } from "./games/hacknet.js";
+import { GUIDE as satelliteReignAchievementGuide } from "./games/satellite-reign.js";
+import { GUIDE as rustyLakeHotelAchievementGuide } from "./games/rusty-lake-hotel.js";
+import { GUIDE as cookServeDeliciousAchievementGuide } from "./games/cook-serve-delicious.js";
 
 export const APP_GUIDES = [
 
@@ -1216,7 +1219,10 @@ export const GAME_GUIDES = [
     quakeLiveAchievementGuide,
     starWarsKotor2AchievementGuide,
     turmoilAchievementGuide,
-    hacknetAchievementGuide
+    hacknetAchievementGuide,
+    satelliteReignAchievementGuide,
+    rustyLakeHotelAchievementGuide,
+    cookServeDeliciousAchievementGuide
 
 ];
 

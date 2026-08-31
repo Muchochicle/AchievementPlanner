@@ -1,0 +1,384 @@
+{
+    "id": 268870,
+    "steamAppId": 268870,
+    "name": "Satellite Reign",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/268870/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Real-Time Tactics",
+        "Cyberpunk",
+        "Strategy",
+        "Stealth",
+        "Squad-Based",
+        "Sci-fi"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FIRST_BLOOD",
+            "name": "First Blood",
+            "description": "Killed a Corp Soldier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "FISH_IN_BARREL",
+            "name": "Fish in a Barrel",
+            "description": "Kill 100 Civilians",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "NO_BIG_BROTHER_TUTORIAL",
+            "name": "No Big Brother: Tutorial",
+            "description": "Destroy all cameras in the Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "NO_BIG_BROTHER_DOWNTOWN",
+            "name": "No Big Brother: Downtown",
+            "description": "Destroy all CCTV cameras in Downtown",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "NO_BIG_BROTHER_INDUSTRIAL",
+            "name": "No Big Brother: Industrial",
+            "description": "Destroy all CCTV cameras in the Industrial District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "NO_BIG_BROTHER_GRID",
+            "name": "No Big Brother: Grid",
+            "description": "Destroy all CCTV cameras in the Grid District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "NO_BIG_BROTHER_CBD",
+            "name": "No Big Brother: CBD",
+            "description": "Destroy all CCTV cameras in the CBD",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "NO_BIG_BROTHER_DRACOGENICS",
+            "name": "No Big Brother: Dracogenics",
+            "description": "Destroy all CCTV cameras in the final boss area",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "TEN_RESEARCHERS",
+            "name": "Science, bitch!",
+            "description": "Acquire ten scientists",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "KILLED_THE_DEVS",
+            "name": "No More Lives",
+            "description": "Found and killed all 5 Lives devs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "CLONED_THE_DEVS",
+            "name": "Infinite Lives",
+            "description": "Find and capture all 5 Lives devs for cloning",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "TEN_STEALTH_KILLS",
+            "name": "5 Stealth Kills in a row",
+            "description": "Kills in a row without being seen being suspicious",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "FIFTY_STEALTH_KILLS",
+            "name": "10 Stealth Kills in a row",
+            "description": "Kills in a row without being seen being suspicious",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "HUNDRED_STEALTH_KILLS",
+            "name": "15 Stealth Kills in a row",
+            "description": "Kills in a row without being seen being suspicious",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "INDUSTRIAL_PACIFIST",
+            "name": "Industrial Pacifist",
+            "description": "Make it to the Industrial District without getting blood on your hands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "DOWNTOWN_PACIFIST",
+            "name": "Downtown Pacifist",
+            "description": "Make it to Downtown without getting blood on your hands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "CBD_PACIFIST",
+            "name": "CBD Pacifist",
+            "description": "Make it to the CBD without getting blood on your hands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "GRID_PACIFIST",
+            "name": "Grid Pacifist",
+            "description": "Make it to The Grid without getting blood on your hands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "DRACOGENICS_PACIFIST",
+            "name": "Dracogenics Pacifist",
+            "description": "Make it to the Dracogenics district without getting blood on your hands",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "HUNDRED_HIJACKED_KILLS",
+            "name": "100 Kills By Hijacked",
+            "description": "Use Hijacked to kill 100 Enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "COLD_WAR",
+            "name": "Cold War",
+            "description": "Kill 100 Uzy Korps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "HOLY_WAR",
+            "name": "Holy War",
+            "description": "Kill 100 Eternals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "TEN_IN_ONE",
+            "name": "10 Kills One Explosion",
+            "description": "Get 10 kills with a single explosion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "CLOAKED_KILLS",
+            "name": "Invisible Death",
+            "description": "Kill 20 enemies while cloaked",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "MELEE_KILLS",
+            "name": "I know Kung Fu",
+            "description": "50 Melee Kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "KILL_DENGLER",
+            "name": "Fire the CEO",
+            "description": "With extreme prejudice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ENTER_GRID",
+            "name": "Enter The Grid",
+            "description": "Enter The Grid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ENTER_INDUSTRIAL",
+            "name": "Enter the Industrial area",
+            "description": "Enter the Industrial area",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ENTER_DRACOGENICS",
+            "name": "Enter Dracogenics",
+            "description": "Enter Dracogenics",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ENTER_CBD",
+            "name": "Enter the CBD",
+            "description": "Enter the CBD",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ALL_ATMS_GAME",
+            "name": "Master of Coin",
+            "description": "Place a syphon on every ATM in the city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ALL_ATMS_DOWNTOWN",
+            "name": "Easy Money: Downtown",
+            "description": "Place a syphon on every ATM in the Downtown District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ALL_ATMS_GRID",
+            "name": "Easy Money: Grid",
+            "description": "Place a syphon on every ATM in the Grid District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ALL_ATMS_INDUSTRIAL",
+            "name": "Easy Money: Industrial",
+            "description": "Place a syphon on every ATM in the Industrial District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ALL_ATMS_CBD",
+            "name": "Easy Money: CBD",
+            "description": "Place a syphon on every ATM in the CBD",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ALL_TERMINALS_GAME",
+            "name": "Key Logger",
+            "description": "Access all data terminals in the city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ALL_TERMINALS_DOWNTOWN",
+            "name": "Script Kiddie: Downtown",
+            "description": "Access all data terminals in the Downtown District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ALL_TERMINALS_GRID",
+            "name": "Script Kiddie: Grid",
+            "description": "Access all data terminals in the Grid District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ALL_TERMINALS_INDUSTRIAL",
+            "name": "Script Kiddie: Industrial",
+            "description": "Access all data terminals in the Industrial District",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ALL_TERMINALS_CBD",
+            "name": "Script Kiddie: CBD",
+            "description": "Access all data terminals in the CBD",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

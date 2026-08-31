@@ -621,6 +621,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("star-wars-kotor-2"));
     assert.ok(slugs.includes("turmoil"));
     assert.ok(slugs.includes("hacknet"));
+    assert.ok(slugs.includes("satellite-reign"));
+    assert.ok(slugs.includes("rusty-lake-hotel"));
+    assert.ok(slugs.includes("cook-serve-delicious"));
 
 });
 
