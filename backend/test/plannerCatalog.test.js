@@ -650,6 +650,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("vvvvvv"));
     assert.ok(slugs.includes("zeno-clash"));
     assert.ok(slugs.includes("nightsky"));
+    assert.ok(slugs.includes("fez"));
+    assert.ok(slugs.includes("machinarium"));
+    assert.ok(slugs.includes("titan-souls"));
 
 });
 

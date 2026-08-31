@@ -626,6 +626,9 @@ import { GUIDE as sonicAdventureDxAchievementGuide } from "./games/sonic-adventu
 import { GUIDE as vvvvvvAchievementGuide } from "./games/vvvvvv.js";
 import { GUIDE as zenoClashAchievementGuide } from "./games/zeno-clash.js";
 import { GUIDE as nightskyAchievementGuide } from "./games/nightsky.js";
+import { GUIDE as fezAchievementGuide } from "./games/fez.js";
+import { GUIDE as machinariumAchievementGuide } from "./games/machinarium.js";
+import { GUIDE as titanSoulsAchievementGuide } from "./games/titan-souls.js";
 
 export const APP_GUIDES = [
 
@@ -1274,7 +1277,10 @@ export const GAME_GUIDES = [
     sonicAdventureDxAchievementGuide,
     vvvvvvAchievementGuide,
     zenoClashAchievementGuide,
-    nightskyAchievementGuide
+    nightskyAchievementGuide,
+    fezAchievementGuide,
+    machinariumAchievementGuide,
+    titanSoulsAchievementGuide
 
 ];
 
