@@ -558,6 +558,9 @@ import { GUIDE as borderlandsGameOfTheYearAchievementGuide } from "./games/borde
 import { GUIDE as assassinsCreed3AchievementGuide } from "./games/assassins-creed-3.js";
 import { GUIDE as assassinsCreedRogueAchievementGuide } from "./games/assassins-creed-rogue.js";
 import { GUIDE as assassinsCreedRevelationsAchievementGuide } from "./games/assassins-creed-revelations.js";
+import { GUIDE as farCryPrimalAchievementGuide } from "./games/far-cry-primal.js";
+import { GUIDE as homefrontAchievementGuide } from "./games/homefront.js";
+import { GUIDE as seriousSam3BfeAchievementGuide } from "./games/serious-sam-3-bfe.js";
 
 export const APP_GUIDES = [
 
@@ -1138,7 +1141,10 @@ export const GAME_GUIDES = [
     borderlandsGameOfTheYearAchievementGuide,
     assassinsCreed3AchievementGuide,
     assassinsCreedRogueAchievementGuide,
-    assassinsCreedRevelationsAchievementGuide
+    assassinsCreedRevelationsAchievementGuide,
+    farCryPrimalAchievementGuide,
+    homefrontAchievementGuide,
+    seriousSam3BfeAchievementGuide
 
 ];
 

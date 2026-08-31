@@ -582,6 +582,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("assassins-creed-3"));
     assert.ok(slugs.includes("assassins-creed-rogue"));
     assert.ok(slugs.includes("assassins-creed-revelations"));
+    assert.ok(slugs.includes("far-cry-primal"));
+    assert.ok(slugs.includes("homefront"));
+    assert.ok(slugs.includes("serious-sam-3-bfe"));
 
 });
 
