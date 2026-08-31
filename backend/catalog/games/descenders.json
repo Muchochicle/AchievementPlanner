@@ -1,0 +1,402 @@
+{
+    "id": 681280,
+    "steamAppId": 681280,
+    "name": "Descenders",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/681280/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Sports",
+        "Cycling",
+        "Roguelike",
+        "Extreme Sports",
+        "Procedural Generation",
+        "Indie"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FOREST",
+            "name": "Into The Woods",
+            "description": "Reach the forest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "CANYON",
+            "name": "The Rampage Begins",
+            "description": "Reach the canyon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "PEAKS",
+            "name": "The Final Challenge",
+            "description": "Reach the peaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "COMPLETED",
+            "name": "Made It",
+            "description": "Complete boss jump in peaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SPONSORED",
+            "name": "It Begins",
+            "description": "Get sponsored by a team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "10KREP",
+            "name": "Carving a Path",
+            "description": "Get 10.000 REP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "50KREP",
+            "name": "Found Your Flow",
+            "description": "Get 50.000 REP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "250KREP",
+            "name": "Ain't No Scrub",
+            "description": "Get 250.000 REP",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "UNLOCK10",
+            "name": "Get Some Gear",
+            "description": "Unlock 10 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "UNLOCK25",
+            "name": "It's Getting Cluttered in Here",
+            "description": "Unlock 25 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "UNLOCK50",
+            "name": "Quite a Collection",
+            "description": "Unlock 50 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "REKT",
+            "name": "Wipeout",
+            "description": "Get REKT",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MINIBOSS",
+            "name": "Gap in the Market",
+            "description": "Complete 10 mini-bosses",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "BOSSJUMP",
+            "name": "Show em who's Boss",
+            "description": "Survive a boss jump",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "OVERTRAIN",
+            "name": "The training was worth it",
+            "description": "Jump over the train",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "TEAMNODE",
+            "name": "Represent your style",
+            "description": "Complete a team node",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "BOSSBONUS",
+            "name": "Dialed in",
+            "description": "Unlock a shortcut",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "DOUBLEFLIP",
+            "name": "Flipping Heck",
+            "description": "Land a double frontflip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "360FRONT",
+            "name": "Every Axis",
+            "description": "Land a 360 frontflip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "720DOUBLEBACK",
+            "name": "Getting Dizzy",
+            "description": "Land a 720 double backflip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "HISPEED",
+            "name": "Speed Demon",
+            "description": "Reach 100kmh/62mph",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "FULLRUN",
+            "name": "A True Descender",
+            "description": "Finish a session from highlands to peaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "NOBAILS",
+            "name": "The Golden Run",
+            "description": "Finish a session from highlands to peaks without bailing a single time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "VOLCANO",
+            "name": "It's Getting Hot In Here",
+            "description": "Reach the Volcano bonus world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "COMPLETEDVOLCANO",
+            "name": "Hotshot",
+            "description": "Complete the boss jump in the Volcano.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "FIREBOSS",
+            "name": "The Ring Of Fire",
+            "description": "Complete the Volcano's fire-ring boss jump.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "WHOOPEE",
+            "name": "Pull My Finger",
+            "description": "Use the whoopee cushion 200 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "BONUSWORLDS",
+            "name": "Go The Extra Mile",
+            "description": "Complete all bonus worlds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "BAILFINISH",
+            "name": "Flying Finish",
+            "description": "Cross a level's finish line after bailing (crashing).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "COMPLETESPONSOR",
+            "name": "Veteran",
+            "description": "Complete a sponsorship",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "MULTIPLAY",
+            "name": "Bring A Friend",
+            "description": "Finish a level together with someone else",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "CREWCOMPLETE",
+            "name": "Get The Gang Together",
+            "description": "Finish a session with 3 different crew members",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "CREDITS",
+            "name": "You're Still Here?",
+            "description": "Finish the credits",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "MASTER",
+            "name": "What A Legend",
+            "description": "Finish Career+ in one session",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "MISSIONSET1",
+            "name": "No More Robots Amateur Tour",
+            "description": "Complete all of the missions in the No More Robots Amateur Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "MISSIONSET2",
+            "name": "Power Up Audio Amateur Tour",
+            "description": "Complete all of the missions in the Power Up Audio Amateur Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MISSIONSET3",
+            "name": "Liquicity Amateur Tour",
+            "description": "Complete all of the missions in the Liquicity Amateur Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MISSIONSET4",
+            "name": "RageSquid Amateur Tour",
+            "description": "Complete all of the missions in the RageSquid Amateur Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MISSIONSET5",
+            "name": "No More Robots Pro Tour",
+            "description": "Complete all of the missions in the No More Robots Pro Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MISSIONSET6",
+            "name": "Power Up Audio Pro Tour",
+            "description": "Complete all of the missions in the Power Up Audio Pro Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MISSIONSET7",
+            "name": "Liquicity Pro Tour",
+            "description": "Complete all of the missions in the Liquicity Pro Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MISSIONSET8",
+            "name": "RageSquid Pro Tour",
+            "description": "Complete all of the missions in the RageSquid Pro Tour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

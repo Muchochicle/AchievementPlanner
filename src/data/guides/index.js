@@ -659,6 +659,9 @@ import { GUIDE as strayAchievementGuide } from "./games/stray.js";
 import { GUIDE as earthDefenseForce41AchievementGuide } from "./games/earth-defense-force-4-1.js";
 import { GUIDE as earthDefenseForce5AchievementGuide } from "./games/earth-defense-force-5.js";
 import { GUIDE as paladinsAchievementGuide } from "./games/paladins.js";
+import { GUIDE as circuitSuperstarsAchievementGuide } from "./games/circuit-superstars.js";
+import { GUIDE as descendersAchievementGuide } from "./games/descenders.js";
+import { GUIDE as ancestorsLegacyAchievementGuide } from "./games/ancestors-legacy.js";
 
 export const APP_GUIDES = [
 
@@ -1340,7 +1343,10 @@ export const GAME_GUIDES = [
     strayAchievementGuide,
     earthDefenseForce41AchievementGuide,
     earthDefenseForce5AchievementGuide,
-    paladinsAchievementGuide
+    paladinsAchievementGuide,
+    circuitSuperstarsAchievementGuide,
+    descendersAchievementGuide,
+    ancestorsLegacyAchievementGuide
 
 ];
 

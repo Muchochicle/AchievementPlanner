@@ -1,0 +1,582 @@
+{
+    "id": 620590,
+    "steamAppId": 620590,
+    "name": "Ancestors Legacy",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/620590/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Real-Time Strategy",
+        "Real-Time Tactics",
+        "Medieval",
+        "War",
+        "Historical",
+        "Strategy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_BASIC_TRAINING",
+            "name": "Off the Course",
+            "description": "Complete the basic training mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_SQUAD_TRAINING",
+            "name": "Rebuilding Forces",
+            "description": "Complete the squad training mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_ECO_TRAINING",
+            "name": "Unexpected Allies",
+            "description": "Complete the economy training mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_BUILDING_TRAINING",
+            "name": "The Last Impediment",
+            "description": "Complete the base building training mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_ULF_CAMPAIGN",
+            "name": "Lindisfarne Riches",
+            "description": "Complete Ulf Ironbeard's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_RURIK_CAMPAIGN",
+            "name": "Rurik's Reign",
+            "description": "Complete Rurik's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_EDWARD_CAMPAIGN",
+            "name": "Edward and Godwin",
+            "description": "Complete Edward's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_HAROLD_CAMPAIGN",
+            "name": "Harold's Guerilla Warriors",
+            "description": "Complete Harold's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_RUDOLF_CAMPAIGN",
+            "name": "Rudolf of Habsburg",
+            "description": "Complete Rudolf's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_MIESZKO_CAMPAIGN",
+            "name": "Mieszko",
+            "description": "Complete Mieszko's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_START_MULTI_VS_AI",
+            "name": "Firestarter",
+            "description": "Start a match in Multiplayer or against AI",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_WIN_MULTI_VS_AI",
+            "name": "Conqueror",
+            "description": "Win a match in Multiplayer or against AI",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_LOSE_MILTI_VS_AI",
+            "name": "Fallen Warrior",
+            "description": "Lose a match in Multiplayer or against AI",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_WIN_MULTI_IN_8MIN",
+            "name": "Indisputable",
+            "description": "Win a Multiplayer match or AI Skirmish in less than 8 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_WIN_VS_INSANE_AI",
+            "name": "Uber Micro",
+            "description": "Win a match against an AI on Insane difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_CHOSE_SQUAD_SPEC",
+            "name": "Squad Proficiency",
+            "description": "Specialize ten squads",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_UNLOCK_SQUAD_VET",
+            "name": "Squad Veterancy",
+            "description": "Unlock a veterancy ten times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_REPLENISH_SQUAD",
+            "name": "Lost Ones",
+            "description": "Replenish a squad ten times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_ELITE_SQUAD",
+            "name": "Elite Unit",
+            "description": "Reach maximum level with any squad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_SQUAD_MAX_ARMOR",
+            "name": "Rock-Solid",
+            "description": "Raise a squad's armor to its maximum level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_DESTROY_GOLDEN_VILLAGE",
+            "name": "Through Defenses",
+            "description": "Destroy a village with Gold defense ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_DESTROY_BUILDING_WITH_WAR_MACHINE",
+            "name": "War Machine",
+            "description": "Destroy any building with a siege machine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_DEFEAT_ALL_TYPE_OF_UNITS",
+            "name": "War Veteran",
+            "description": "Defeat each type of unit in the game at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_RECRUIT_ALL_TYPE_OF_UNITS",
+            "name": "Commander Veteran",
+            "description": "Recruit each type of unit in the game at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BUILD_TRAP",
+            "name": "It's a... trap.",
+            "description": "Make an enemy trigger a trap you built",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_DETECT_TRAP",
+            "name": "It's a TRAP!",
+            "description": "Detect and destroy five enemy traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_PEASANT_COLLECT_RESOURCES",
+            "name": "Time to Work",
+            "description": "Send peasants to work at a resource point 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_DEF_ENEMY_SQUAD_WITH_RANGED_ATTACK_ONLY",
+            "name": "Untouchable",
+            "description": "Defeat an entire enemy squad with ranged attacks only",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_RAISE_VILLAGE_DEF",
+            "name": "Protector",
+            "description": "Raise the defense level of your village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_RAISE_VILLAGE_ALARM",
+            "name": "Panic",
+            "description": "Raise the alarm in your village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_COMPLETE_SECRETS_ULF",
+            "name": "A Ship That Doesn't Sink",
+            "description": "Find all the hidden secrets in Ulf Ironbeard's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_COMPLETE_SECRETS_RURIK",
+            "name": "All for Rurik",
+            "description": "Find all the hidden secrets in Rurik's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_COMPLETE_SECRETS_EDWARD",
+            "name": "Edward Needs Those",
+            "description": "Find all the hidden secrets in Edward's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_COMPLETE_SECRETS_HAROLD",
+            "name": "Dunstan's Revenge",
+            "description": "Find all the hidden secrets in Harold's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_COMPLETE_SECRETS_RUDOLF",
+            "name": "Vienna's Finest Armor",
+            "description": "Find all the hidden secrets in Rudolf's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_COMPLETE_SECRETS_MIESZKO",
+            "name": "Under Mieszko's Banner",
+            "description": "Find all the hidden secrets in Mieszko's campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_NOLIFE",
+            "name": "NO LIFE IS WORTH SAVING...",
+            "description": "Kill 2000 peasants - the resource-gathering villagers with a name icon, not the peasant troop units - across your whole playtime.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_SLA06_SNEAKING",
+            "name": "Who is there?",
+            "description": "Sneak into the enemy base undetected",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_SLA07_HUNTER",
+            "name": "Deer hunter",
+            "description": "Don't let any of the enemy convoys pass through the outpost",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_SLA08_DISCOVER_CULT",
+            "name": "Church of misery",
+            "description": "Find out what happened to the villagers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_SLA09_DESTROY_ALL_DRAKKARS",
+            "name": "Not on my watch!",
+            "description": "Destroy all enemy ships",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_SLA10_PROTECT_CATAPULTS",
+            "name": "Whack a mole",
+            "description": "Don't let the enemy attack any of the catapults from your team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_BOLESLAV_CAMPAIGN",
+            "name": "Boleslav the Brave",
+            "description": "Complete Boleslav's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_GER01_GOOD_GUY",
+            "name": "Goodfella",
+            "description": "Get rid of all the bandits and save all the villagers in Pokarvis",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_GER02_SHARPSHOOTER",
+            "name": "Elite Marksman",
+            "description": "Defend Lubawa only using ranged units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_GER03_SCRUPULOUS",
+            "name": "Teutonic Meticulousness",
+            "description": "Capture all the villages near Christburg",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_GER04_SAPER",
+            "name": "Trap Sweeper",
+            "description": "Disarm all the traps without being detected in Natangia forest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_GER05_BLITZKRIEG",
+            "name": "Blitzkrieg",
+            "description": "Finish the Battle of Lidzbark in less than 25 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_KONRAD_CAMPAIGN",
+            "name": "Konrad von Thierberg",
+            "description": "Complete Konrad's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_HERKUS",
+            "name": "The Knights of the Cross",
+            "description": "Start Konrad's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_SAR01_NO_LOSSES",
+            "name": "Perfect Commander",
+            "description": "Don't lose any squads in the mission 'Battle of The Horns of Hattin'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_SAR02_KILL",
+            "name": "Hard To Kill",
+            "description": "Complete all the quests with only one Hassassins squad in Akka",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_SAR03_WATER",
+            "name": "Waterkeeper",
+            "description": "Claim all the wells in the mission 'Impatient Vengeance'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_SAR04_PAIN",
+            "name": "No Pain, No Gain",
+            "description": "Claim all the villages and expand your base in 30 minutes in 'The Final Straw'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_SAR05_HOLYWAR",
+            "name": "Holy War",
+            "description": "Kill all the Christian preachers in the mission, 'Siege of Jerusalem'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_SALADIN_CAMPAIGN",
+            "name": "Salah ad-Din Yusuf",
+            "description": "Complete Salah ad-Din Yusuf's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_SARACENS",
+            "name": "Righteousness of the Faith",
+            "description": "Start Salah ad-Din Yusuf's campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_ASSASSINATED",
+            "name": "Assassinated",
+            "description": "Kill an enemy hero in a Multiplayer or Skirmish match with a Hassassin squad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_LITTLEBOYS",
+            "name": "Boy Scouts",
+            "description": "Kill 5 enemy squads in 1 minute only using Grenadiers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_TANNED",
+            "name": "Tanned",
+            "description": "Win a match on Desert and Wilderness, Crusade of Anarchy or Scorching Quarrel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_JIHAD",
+            "name": "Divine Duty",
+            "description": "Win a match as the Saracens in Anihilation Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_DESTSTINGER",
+            "name": "Destructive Stinger",
+            "description": "Destroy the enemy's Town Hall using Scorpions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

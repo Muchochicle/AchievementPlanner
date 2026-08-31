@@ -683,6 +683,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("earth-defense-force-4-1"));
     assert.ok(slugs.includes("earth-defense-force-5"));
     assert.ok(slugs.includes("paladins"));
+    assert.ok(slugs.includes("circuit-superstars"));
+    assert.ok(slugs.includes("descenders"));
+    assert.ok(slugs.includes("ancestors-legacy"));
 
 });
 
