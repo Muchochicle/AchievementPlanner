@@ -600,6 +600,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rise-of-the-triad"));
     assert.ok(slugs.includes("downwell"));
     assert.ok(slugs.includes("costume-quest"));
+    assert.ok(slugs.includes("mafia-2-classic"));
+    assert.ok(slugs.includes("dayz"));
+    assert.ok(slugs.includes("battleborn"));
 
 });
 

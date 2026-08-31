@@ -576,6 +576,9 @@ import { GUIDE as warhammer40kMechanicusAchievementGuide } from "./games/warhamm
 import { GUIDE as riseOfTheTriadAchievementGuide } from "./games/rise-of-the-triad.js";
 import { GUIDE as downwellAchievementGuide } from "./games/downwell.js";
 import { GUIDE as costumeQuestAchievementGuide } from "./games/costume-quest.js";
+import { GUIDE as mafia2ClassicAchievementGuide } from "./games/mafia-2-classic.js";
+import { GUIDE as dayzAchievementGuide } from "./games/dayz.js";
+import { GUIDE as battlebornAchievementGuide } from "./games/battleborn.js";
 
 export const APP_GUIDES = [
 
@@ -1174,7 +1177,10 @@ export const GAME_GUIDES = [
     warhammer40kMechanicusAchievementGuide,
     riseOfTheTriadAchievementGuide,
     downwellAchievementGuide,
-    costumeQuestAchievementGuide
+    costumeQuestAchievementGuide,
+    mafia2ClassicAchievementGuide,
+    dayzAchievementGuide,
+    battlebornAchievementGuide
 
 ];
 

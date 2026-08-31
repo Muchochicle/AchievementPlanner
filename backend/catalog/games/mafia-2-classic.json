@@ -1,0 +1,627 @@
+{
+    "id": 50130,
+    "steamAppId": 50130,
+    "name": "Mafia II (Classic)",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/50130/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Open World",
+        "Story Rich",
+        "Third-Person Shooter",
+        "Crime",
+        "Mafia"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "MDL_HOME_SWEET_HOME",
+            "name": "Home Sweet Home",
+            "description": "Complete Chapter 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "MDL_BACK_IN_BUSSINESS",
+            "name": "Back in Business",
+            "description": "Do your first job for Mike Bruski.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "MDL_BIG_BROTHER",
+            "name": "Big Brother",
+            "description": "Protect Francesca.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "MDL_A_REAL_GENTLEMAN",
+            "name": "A Real Gentleman",
+            "description": "Help the woman fix her car in Home Sweet Home.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "MDL_THE_PRICE_OF_OIL",
+            "name": "The Price of Oil",
+            "description": "Complete Chapter 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "MDL_THE_PROFESSIONAL",
+            "name": "The Professional",
+            "description": "Obtain the ration stamps without raising the alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "MDL_MAIL_MAN",
+            "name": "Mail Man",
+            "description": "Sell all the gas stamps before the time runs out.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "MDL_NIGHT_SHIFT",
+            "name": "Night Shift",
+            "description": "Complete Chapter 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "MDL_GOOD_SPIRITS",
+            "name": "Good Spirits",
+            "description": "Complete Chapter 5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "MDL_TIME_WELL_SPENT",
+            "name": "Time Well Spent",
+            "description": "Complete Chapter 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "MDL_LAST_RESPECTS",
+            "name": "Last Respects",
+            "description": "Complete Chapter 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "MDL_THE_WILD_ONES",
+            "name": "The Wild Ones",
+            "description": "Complete Chapter 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MDL_MAN_OF_HONOR",
+            "name": "Man of Honor",
+            "description": "Complete Chapter 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "MDL_CHECKING_OUT",
+            "name": "Checking Out",
+            "description": "Complete Chapter 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "MDL_OUR_GOOD_FRIEND",
+            "name": "Our Good Friend",
+            "description": "Complete Chapter 11.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "MDL_WAKE_UP_CALL",
+            "name": "Wake Up Call",
+            "description": "Help Leo out of a tricky situation without getting caught.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MDL_CHASING_THE_DRAGON",
+            "name": "Chasing the Dragon",
+            "description": "Complete Chapter 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "MDL_CHOP_CHOP!",
+            "name": "Chop Chop!",
+            "description": "Complete Chapter 13.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "MDL_MEN_AT_WORK",
+            "name": "Men at Work",
+            "description": "Complete Chapter 14.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MDL_FINISH_HIM",
+            "name": "Finish Him",
+            "description": "Finish what you started.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "MDL_MADE_MAN",
+            "name": "Made Man",
+            "description": "Finish the story on Medium difficulty level or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "MDL_TOUGH_NUT",
+            "name": "Tough Nut",
+            "description": "Finish the story on Hard difficulty level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "MDL_AUTO_PILOT",
+            "name": "Get Rich or Die Flyin'",
+            "description": "Keep a vehicle in the air for over 5 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "MDL_PEDAL_TO_THE_METAL",
+            "name": "Pedal to the Metal",
+            "description": "Travel at 125 mph.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "MDL_ONE_CAREFUL_OWNER",
+            "name": "One Careful Owner",
+            "description": "Travel a total of 50 miles in one vehicle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "MDL_PROPER_SCRAPPER",
+            "name": "Proper Scrapper",
+            "description": "Sell 5 vehicles to Mike Bruski at the scrapyard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "MDL_EXPORTER",
+            "name": "Exporter",
+            "description": "Sell 5 vehicles to Derek at the dock.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "MDL_CRUISE_CONTROL",
+            "name": "Cruise Control",
+            "description": "Keep any vehicle at 30mph or over for 5 or more minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "MDL_HAIRDRESSER",
+            "name": "Hairdresser",
+            "description": "Kill 5 enemies in rapid succession with a headshot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "MDL_KNUCKLEHEAD",
+            "name": "Knucklehead",
+            "description": "Kill a total of 30 enemies using melee attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "MDL_STUCK_UP",
+            "name": "Stuck Up",
+            "description": "Rob 5 stores in under 5 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "MDL_THE_ENFORCER",
+            "name": "The Enforcer",
+            "description": "Kill 50 street gangsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "MDL_SHARP_SUITER",
+            "name": "Sharp Suiter",
+            "description": "Buy your first luxury suit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "MDL_TUNED_RIDE",
+            "name": "Tuned Ride",
+            "description": "Upgrade one of your cars one level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "MDL_DREAM_HANDLING",
+            "name": "Dream Handling",
+            "description": "Upgrade one of your cars to the maximum level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "MDL_HARD_TO_KILL",
+            "name": "Hard to Kill",
+            "description": "The police want you dead.  Survive for 10 minutes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MDL_COLLECTORS_ITEM",
+            "name": "Collector's Item",
+            "description": "Find at least one collectible in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MDL_PETROL_HEAD",
+            "name": "Petrol Head",
+            "description": "Drive at least 30 different vehicles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MDL_LADIES_MAN",
+            "name": "Ladies Man",
+            "description": "Find all of the Playboy magazines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MDL_CARD_SHARP",
+            "name": "Card Sharp",
+            "description": "Find all of the Wanted posters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MDL_HE_WHO_PAYS_THE_BARBER",
+            "name": "He Who Pays the Barber",
+            "description": "Improve the dockworkers' hair cuts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MDL_A_LESSON_IN_MANNERS",
+            "name": "A Lesson in Manners",
+            "description": "Show you know how to talk to a hooker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "MDL_HEY_JOE",
+            "name": "Hey Joe",
+            "description": "Clean up after Joe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "MDL_END_OF_THE_RAINBOW",
+            "name": "End of the Rainbow",
+            "description": "Settle the score with Irish once and for all.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "MDL_THE_MAFIA_NEVER_FORGETS",
+            "name": "The Mafia Never Forgets",
+            "description": "Pay a visit to an old friend.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MDL_OUT_FOR_JUSTICE",
+            "name": "Out for Justice",
+            "description": "Learn what it means to be a Scaletta.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "MDL_DLC_RTR_FIRST_STEP",
+            "name": "First Step",
+            "description": "Complete your first mission in \"Jimmy's Vendetta.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "MDL_DLC_RTR_FASTER_THAN_LIGHT",
+            "name": "Faster than Light",
+            "description": "Achieve a 10x point multiplier in \"Jimmy's Vendetta.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "MDL_DLC_RTR_EXPLORER",
+            "name": "Explorer",
+            "description": "Drive a total of 1,000 miles in vehicles in \"Jimmy's Vendetta.\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 50,
+            "apiname": "MDL_DLC_RTR_ARMAMENT_KING",
+            "name": "Armament King",
+            "description": "Kill your enemies in \"Jimmy's Vendetta\" with every weapon available in the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "MDL_DLC_RTR_FIREWORKER",
+            "name": "Firebug",
+            "description": "Destroy 100 vehicles in \"Jimmy’s Vendetta.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "MDL_DLC_RTR_SHARP_SHOOTER",
+            "name": "Sharp Shooter",
+            "description": "Kill 100 enemies by headshots in \"Jimmy's Vendetta.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "MDL_DLC_RTR_CARNAPPER",
+            "name": "Carnapper",
+            "description": "Finish all Car Dealer missions in \"Jimmy's Vendetta.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "MDL_DLC_RTR_REVENGED",
+            "name": "Revenged",
+            "description": "Finish \"Jimmy's Vendetta\" on any difficulty level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "MDL_DLC_RTR_MILLIONAIRE",
+            "name": "Millionaire",
+            "description": "Earn 1,000,000 points in \"Jimmy's Vendetta.\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "MDL_DLC_RTR_MASSACRE",
+            "name": "Massacre",
+            "description": "Kill 1,000 enemies in \"Jimmy's Vendetta.\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "MDL_VIVA_LA_RESISTANCE",
+            "name": "Viva la Resistenza!",
+            "description": "Complete Chapter 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "MDL_DLC_JA_WHAT_WITNESS",
+            "name": "What Witness?",
+            "description": "Finish the Witness level in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "MDL_DLC_JA_ARCTIC_GRAVE",
+            "name": "Arctic Grave",
+            "description": "Push the chief witness into the ice lake in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "MDL_DLC_JA_DOCKYARD_DISCORD",
+            "name": "Dockyard Discord",
+            "description": "Finish the Connection level in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "MDL_DLC_JA_FIVE_FINGER_DISCOUNT",
+            "name": "Five Finger Discount",
+            "description": "Finish the Supermarket level in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "MDL_DLC_JA_MIND_THE_GOODS",
+            "name": "Mind the Goods",
+            "description": "Finish the Cathouse level in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "MDL_DLC_JA_SAME_SHIRT_DIFFERENT_DAY",
+            "name": "Same Shirt Different Day",
+            "description": "Finish Joe's Adventures on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "MDL_DLC_JA_HYPERSONIC",
+            "name": "Hypersonic",
+            "description": "Reach 2000 points for one velocity run in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "MDL_DLC_JA_JACKED_JUMPER",
+            "name": "Jacked Jumper",
+            "description": "Reach 200 points for one Jump in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "MDL_DLC_JA_DRIFTIN_DADDY_O",
+            "name": "Driftin' Daddy-O",
+            "description": "Reach 200 points for one Drift in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "MDL_DLC_JA_JACK_OF_ALL_TRADES",
+            "name": "Jack of all Trades",
+            "description": "Reach 10 different score actions in one mission in \"Joe's Adventures.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
