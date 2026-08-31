@@ -1,0 +1,474 @@
+{
+    "id": 2246340,
+    "steamAppId": 2246340,
+    "name": "Monster Hunter Wilds",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Hunting",
+        "Co-op",
+        "Open World",
+        "Third Person",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "MEDAL_000",
+            "name": "Eastward Wings",
+            "description": "Obtained all other awards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "MEDAL_001",
+            "name": "Windward Lands",
+            "description": "Complete the story mission 'The Desert Trotters' (reaching the Windward Plains).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "MEDAL_002",
+            "name": "Shadow in the Downpour",
+            "description": "Complete the story mission 'Beyond the Deluge' (the Scarlet Forest chapter).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "MEDAL_003",
+            "name": "Guardians of the Forge",
+            "description": "Complete the story mission 'Long-forgotten Flame' (the Oilwell Basin chapter).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "MEDAL_004",
+            "name": "Bringer of Harmony",
+            "description": "Complete the story mission 'Monster Hunter'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "MEDAL_005",
+            "name": "New Ecosystems",
+            "description": "Complete the story mission 'New Ecosystems' (the start of High Rank).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "MEDAL_006",
+            "name": "A Bitter Environment",
+            "description": "Complete the story mission 'Wyvern Sparks and Rose Thorns'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "MEDAL_007",
+            "name": "Beyond the Black Wings",
+            "description": "Complete the story mission 'A World Turned Upside Down'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "MEDAL_008",
+            "name": "One Corner of the World",
+            "description": "Complete the final story mission 'What Lies Ahead' and see the ending.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "MEDAL_009",
+            "name": "A True Hunter Is Never Satisfied",
+            "description": "Completed 50 quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "MEDAL_010",
+            "name": "Let the Investigations Begin!",
+            "description": "Completed your first investigation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "MEDAL_011",
+            "name": "The Hunt Is On!",
+            "description": "Completed your first Field Survey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MEDAL_012",
+            "name": "A Step Toward Mutual Understanding",
+            "description": "Completed your first side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "MEDAL_013",
+            "name": "East to West, A Hunter Never Rests",
+            "description": "Completed 30 different side missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "MEDAL_014",
+            "name": "Angling for a Bite",
+            "description": "Successfully fished for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "MEDAL_015",
+            "name": "Mmm, So Tasty!",
+            "description": "Successfully cooked a well-done steak for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MEDAL_016",
+            "name": "Was It a Meal to Remember?",
+            "description": "Cooked over the BBQ Grill for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "MEDAL_017",
+            "name": "The Bigger They Are...",
+            "description": "Successfully mounted a monster for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "MEDAL_018",
+            "name": "Hunter-Assassin",
+            "description": "Performed your first successful Sneak Attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MEDAL_019",
+            "name": "Hit 'Em Where It Hurts!",
+            "description": "Landed 50 successful attacks on weak points or wounds in Focus Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "MEDAL_020",
+            "name": "A Prize Held High",
+            "description": "Catch a Curioshell Crab - which bears an Ancient Wyvern Coin - at the Flowering Rocks in the Scarlet Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "MEDAL_021",
+            "name": "I Caught a Shooting Star!",
+            "description": "Catch a Baunos, the desert creature that shines like a shooting star, in the Windward Plains at night.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "MEDAL_022",
+            "name": "Monster (Squid) Hunter",
+            "description": "Caught a giant squid while fishing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "MEDAL_023",
+            "name": "A-fish-ionado",
+            "description": "Reeled in 30 whoppers while fishing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "MEDAL_024",
+            "name": "Campmaster",
+            "description": "Established Pop-up Camps in 10 places.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "MEDAL_025",
+            "name": "Glamper",
+            "description": "Customized a Pop-up Camp for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "MEDAL_026",
+            "name": "A Keen-eyed Observation",
+            "description": "Used the binoculars to spot a gold-crown large monster.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "MEDAL_027",
+            "name": "Ride-or-die Companion",
+            "description": "Customized your Seikret or changed its decorations for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "MEDAL_028",
+            "name": "Established Hunter",
+            "description": "Reached Hunter Rank 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "MEDAL_029",
+            "name": "Impregnable Defense",
+            "description": "Forged five different pieces of armor with Rarity 7 or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "MEDAL_030",
+            "name": "Power Is Everything",
+            "description": "Forged five different weapons with Rarity 7 or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "MEDAL_031",
+            "name": "Someone Worth Following",
+            "description": "Completed 100 quests with your Palico deployed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "MEDAL_032",
+            "name": "A Legacy Restored",
+            "description": "Craft an Artian Weapon of Rarity 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "MEDAL_033",
+            "name": "Bourgeois Hunter",
+            "description": "Possessed 1,000,000 zenny.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 35,
+            "apiname": "MEDAL_034",
+            "name": "Explorer of the Eastlands",
+            "description": "Obtained 10 different special items of Rarity 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "MEDAL_035",
+            "name": "Monster Ph.D.",
+            "description": "Hunted many different large monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MEDAL_036",
+            "name": "Seasoned Hunter",
+            "description": "Hunt 50 Tempered monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MEDAL_037",
+            "name": "Miniature Crown",
+            "description": "Obtained your first miniature crown in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MEDAL_038",
+            "name": "Miniature Crown Collector",
+            "description": "Obtained a miniature crown for 10 or more monsters in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MEDAL_039",
+            "name": "Miniature Crown Master",
+            "description": "Obtained a miniature crown for many monsters in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MEDAL_040",
+            "name": "Giant Crown",
+            "description": "Obtained your first silver crown or higher in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MEDAL_041",
+            "name": "Giant Crown Collector",
+            "description": "Obtained a gold crown for 10 or more monsters in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "MEDAL_042",
+            "name": "Giant Crown Master",
+            "description": "Obtained a gold crown for many monsters in the Hunting Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "MEDAL_043",
+            "name": "Capture Pro",
+            "description": "Captured 50 monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "MEDAL_044",
+            "name": "Monster Slayer",
+            "description": "Hunted 100 large monsters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MEDAL_045",
+            "name": "Top of the Food Chain",
+            "description": "Hunt 50 Apex Predators.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "MEDAL_046",
+            "name": "Hunters United",
+            "description": "Completed a quest via multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "MEDAL_047",
+            "name": "Hunters United Forever",
+            "description": "Completed 100 quests via multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "MEDAL_048",
+            "name": "Gossip Hunter",
+            "description": "Viewed 30 different Hunter Profiles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "MEDAL_049",
+            "name": "Newly Forged Bonds",
+            "description": "Followed someone for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

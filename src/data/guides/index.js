@@ -713,6 +713,9 @@ import { GUIDE as discRoomAchievementGuide } from "./games/disc-room.js";
 import { GUIDE as hollowKnightSilksongAchievementGuide } from "./games/hollow-knight-silksong.js";
 import { GUIDE as nineSolsAchievementGuide } from "./games/nine-sols.js";
 import { GUIDE as scheduleIAchievementGuide } from "./games/schedule-i.js";
+import { GUIDE as theLastOfUsPartIiRemasteredAchievementGuide } from "./games/the-last-of-us-part-ii-remastered.js";
+import { GUIDE as theFinalsAchievementGuide } from "./games/the-finals.js";
+import { GUIDE as monsterHunterWildsAchievementGuide } from "./games/monster-hunter-wilds.js";
 
 export const APP_GUIDES = [
 
@@ -1448,7 +1451,10 @@ export const GAME_GUIDES = [
     discRoomAchievementGuide,
     hollowKnightSilksongAchievementGuide,
     nineSolsAchievementGuide,
-    scheduleIAchievementGuide
+    scheduleIAchievementGuide,
+    theLastOfUsPartIiRemasteredAchievementGuide,
+    theFinalsAchievementGuide,
+    monsterHunterWildsAchievementGuide
 
 ];
 

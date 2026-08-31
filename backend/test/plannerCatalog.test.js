@@ -737,6 +737,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hollow-knight-silksong"));
     assert.ok(slugs.includes("nine-sols"));
     assert.ok(slugs.includes("schedule-i"));
+    assert.ok(slugs.includes("the-last-of-us-part-ii-remastered"));
+    assert.ok(slugs.includes("the-finals"));
+    assert.ok(slugs.includes("monster-hunter-wilds"));
 
 });
 
