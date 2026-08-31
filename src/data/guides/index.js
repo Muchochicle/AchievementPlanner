@@ -683,6 +683,9 @@ import { GUIDE as sackboyABigAdventureAchievementGuide } from "./games/sackboy-a
 import { GUIDE as theCaseOfTheGoldenIdolAchievementGuide } from "./games/the-case-of-the-golden-idol.js";
 import { GUIDE as patricksParaboxAchievementGuide } from "./games/patricks-parabox.js";
 import { GUIDE as gorogoaAchievementGuide } from "./games/gorogoa.js";
+import { GUIDE as riseOfIndustryAchievementGuide } from "./games/rise-of-industry.js";
+import { GUIDE as productionLineAchievementGuide } from "./games/production-line.js";
+import { GUIDE as shapezAchievementGuide } from "./games/shapez.js";
 
 export const APP_GUIDES = [
 
@@ -1388,7 +1391,10 @@ export const GAME_GUIDES = [
     sackboyABigAdventureAchievementGuide,
     theCaseOfTheGoldenIdolAchievementGuide,
     patricksParaboxAchievementGuide,
-    gorogoaAchievementGuide
+    gorogoaAchievementGuide,
+    riseOfIndustryAchievementGuide,
+    productionLineAchievementGuide,
+    shapezAchievementGuide
 
 ];
 

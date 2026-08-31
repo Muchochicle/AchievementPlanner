@@ -707,6 +707,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-case-of-the-golden-idol"));
     assert.ok(slugs.includes("patricks-parabox"));
     assert.ok(slugs.includes("gorogoa"));
+    assert.ok(slugs.includes("rise-of-industry"));
+    assert.ok(slugs.includes("production-line"));
+    assert.ok(slugs.includes("shapez"));
 
 });
 
