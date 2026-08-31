@@ -689,6 +689,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("planet-coaster-2"));
     assert.ok(slugs.includes("workers-resources-soviet-republic"));
     assert.ok(slugs.includes("session-skate-sim"));
+    assert.ok(slugs.includes("dragon-ball-fighterz"));
+    assert.ok(slugs.includes("octopath-traveler-ii"));
+    assert.ok(slugs.includes("six-days-in-fallujah"));
 
 });
 

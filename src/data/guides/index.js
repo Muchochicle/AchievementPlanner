@@ -665,6 +665,9 @@ import { GUIDE as ancestorsLegacyAchievementGuide } from "./games/ancestors-lega
 import { GUIDE as planetCoaster2AchievementGuide } from "./games/planet-coaster-2.js";
 import { GUIDE as workersResourcesSovietRepublicAchievementGuide } from "./games/workers-resources-soviet-republic.js";
 import { GUIDE as sessionSkateSimAchievementGuide } from "./games/session-skate-sim.js";
+import { GUIDE as dragonBallFighterzAchievementGuide } from "./games/dragon-ball-fighterz.js";
+import { GUIDE as octopathTravelerIiAchievementGuide } from "./games/octopath-traveler-ii.js";
+import { GUIDE as sixDaysInFallujahAchievementGuide } from "./games/six-days-in-fallujah.js";
 
 export const APP_GUIDES = [
 
@@ -1352,7 +1355,10 @@ export const GAME_GUIDES = [
     ancestorsLegacyAchievementGuide,
     planetCoaster2AchievementGuide,
     workersResourcesSovietRepublicAchievementGuide,
-    sessionSkateSimAchievementGuide
+    sessionSkateSimAchievementGuide,
+    dragonBallFighterzAchievementGuide,
+    octopathTravelerIiAchievementGuide,
+    sixDaysInFallujahAchievementGuide
 
 ];
 
