@@ -710,6 +710,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rise-of-industry"));
     assert.ok(slugs.includes("production-line"));
     assert.ok(slugs.includes("shapez"));
+    assert.ok(slugs.includes("farming-simulator-25"));
+    assert.ok(slugs.includes("bugsnax"));
+    assert.ok(slugs.includes("gears-5"));
 
 });
 

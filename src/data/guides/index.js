@@ -686,6 +686,9 @@ import { GUIDE as gorogoaAchievementGuide } from "./games/gorogoa.js";
 import { GUIDE as riseOfIndustryAchievementGuide } from "./games/rise-of-industry.js";
 import { GUIDE as productionLineAchievementGuide } from "./games/production-line.js";
 import { GUIDE as shapezAchievementGuide } from "./games/shapez.js";
+import { GUIDE as farmingSimulator25AchievementGuide } from "./games/farming-simulator-25.js";
+import { GUIDE as bugsnaxAchievementGuide } from "./games/bugsnax.js";
+import { GUIDE as gears5AchievementGuide } from "./games/gears-5.js";
 
 export const APP_GUIDES = [
 
@@ -1394,7 +1397,10 @@ export const GAME_GUIDES = [
     gorogoaAchievementGuide,
     riseOfIndustryAchievementGuide,
     productionLineAchievementGuide,
-    shapezAchievementGuide
+    shapezAchievementGuide,
+    farmingSimulator25AchievementGuide,
+    bugsnaxAchievementGuide,
+    gears5AchievementGuide
 
 ];
 
