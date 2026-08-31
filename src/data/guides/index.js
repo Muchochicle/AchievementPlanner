@@ -490,6 +490,9 @@ import { GUIDE as injusticeGodsAmongUsAchievementGuide } from "./games/injustice
 import { GUIDE as residentEvil5AchievementGuide } from "./games/resident-evil-5.js";
 import { GUIDE as residentEvil7AchievementGuide } from "./games/resident-evil-7.js";
 import { GUIDE as residentEvilRevelationsAchievementGuide } from "./games/resident-evil-revelations.js";
+import { GUIDE as bioshock2AchievementGuide } from "./games/bioshock-2.js";
+import { GUIDE as worldOfWarshipsAchievementGuide } from "./games/world-of-warships.js";
+import { GUIDE as theBannerSagaAchievementGuide } from "./games/the-banner-saga.js";
 
 export const APP_GUIDES = [
 
@@ -1002,7 +1005,10 @@ export const GAME_GUIDES = [
     injusticeGodsAmongUsAchievementGuide,
     residentEvil5AchievementGuide,
     residentEvil7AchievementGuide,
-    residentEvilRevelationsAchievementGuide
+    residentEvilRevelationsAchievementGuide,
+    bioshock2AchievementGuide,
+    worldOfWarshipsAchievementGuide,
+    theBannerSagaAchievementGuide
 
 ];
 

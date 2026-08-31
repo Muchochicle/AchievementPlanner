@@ -514,6 +514,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("resident-evil-5"));
     assert.ok(slugs.includes("resident-evil-7"));
     assert.ok(slugs.includes("resident-evil-revelations"));
+    assert.ok(slugs.includes("bioshock-2"));
+    assert.ok(slugs.includes("world-of-warships"));
+    assert.ok(slugs.includes("the-banner-saga"));
 
 });
 
