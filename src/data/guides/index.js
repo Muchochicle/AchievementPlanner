@@ -564,6 +564,9 @@ import { GUIDE as seriousSam3BfeAchievementGuide } from "./games/serious-sam-3-b
 import { GUIDE as rageAchievementGuide } from "./games/rage.js";
 import { GUIDE as seriousSamHdTfeAchievementGuide } from "./games/serious-sam-hd-tfe.js";
 import { GUIDE as seriousSamHdTseAchievementGuide } from "./games/serious-sam-hd-tse.js";
+import { GUIDE as verdunAchievementGuide } from "./games/verdun.js";
+import { GUIDE as farmingSimulator17AchievementGuide } from "./games/farming-simulator-17.js";
+import { GUIDE as projectCarsAchievementGuide } from "./games/project-cars.js";
 
 export const APP_GUIDES = [
 
@@ -1150,7 +1153,10 @@ export const GAME_GUIDES = [
     seriousSam3BfeAchievementGuide,
     rageAchievementGuide,
     seriousSamHdTfeAchievementGuide,
-    seriousSamHdTseAchievementGuide
+    seriousSamHdTseAchievementGuide,
+    verdunAchievementGuide,
+    farmingSimulator17AchievementGuide,
+    projectCarsAchievementGuide
 
 ];
 

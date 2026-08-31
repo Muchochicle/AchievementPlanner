@@ -588,6 +588,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rage"));
     assert.ok(slugs.includes("serious-sam-hd-tfe"));
     assert.ok(slugs.includes("serious-sam-hd-tse"));
+    assert.ok(slugs.includes("verdun"));
+    assert.ok(slugs.includes("farming-simulator-17"));
+    assert.ok(slugs.includes("project-cars"));
 
 });
 

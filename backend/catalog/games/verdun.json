@@ -1,0 +1,555 @@
+{
+    "id": 242860,
+    "steamAppId": 242860,
+    "name": "Verdun",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/242860/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "World War I",
+        "Multiplayer",
+        "Tactical",
+        "Historical",
+        "Hardcore"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "VERDUN_ACH_LEVEL25",
+            "name": "Level 25",
+            "description": "Reach personal level 25",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "VERDUN_ACH_LEVEL50",
+            "name": "Level 50",
+            "description": "Reach personal level 50",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "VERDUN_ACH_LEVEL75",
+            "name": "Level 75",
+            "description": "Reach personal level 75",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "VERDUN_ACH_LEVEL100",
+            "name": "Level 100",
+            "description": "Reach personal level 100",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "VERDUN_ACH_COOP1",
+            "name": "War is better with friends I",
+            "description": "Gain 10k co-op XP with a player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "VERDUN_ACH_COOP2",
+            "name": "War is better with friends II",
+            "description": "Gain 50k co-op XP with a player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "VERDUN_ACH_COOP3",
+            "name": "War is better with friends III",
+            "description": "Gain 100k co-op XP with a player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "VERDUN_ACH_COOP4",
+            "name": "War is better with friends IV",
+            "description": "Gain 250k co-op XP with a player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "VERDUN_ACH_HEADSHOTS1",
+            "name": "Headhunter",
+            "description": "Make 100 headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "VERDUN_ACH_KILLS1",
+            "name": "Corpseman I",
+            "description": "Reach 500 kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "VERDUN_ACH_NCOKILLS",
+            "name": "Setting an example",
+            "description": "Kill 10 enemies as a squad NCO in 1 match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "VERDUN_ACH_TRIPLEEXPL",
+            "name": "Blast fishing",
+            "description": "Make a triple kill with explosives/grenades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "VERDUN_ACH_JOINFRIEND",
+            "name": "Not alone",
+            "description": "Join a friend",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "VERDUN_ACH_100MKILL",
+            "name": "Eagle Eye",
+            "description": "Kill an enemy from over 100 meters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "VERDUN_ACH_MELEEKILLS1",
+            "name": "Manual Labour I",
+            "description": "Make 10 melee kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "VERDUN_ACH_KILLWHILEDEAD",
+            "name": "Worth It",
+            "description": "Kill an enemy player while you are dead",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "VERDUN_ACH_CREDITS",
+            "name": "Developers, Developers, Developers",
+            "description": "Check out the credits screen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "VERDUN_ACH_SAMEFRIEND1",
+            "name": "Buddy",
+            "description": "Play together with the same friend 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "VERDUN_ACH_SAMEFRIEND2",
+            "name": "Comrade",
+            "description": "Play together with the same friend 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "VERDUN_ACH_SAMEFRIEND3",
+            "name": "Blood Brother",
+            "description": "Play together with the same friend 250 times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "VERDUN_ACH_POILUS",
+            "name": "Honneur et Patrie",
+            "description": "Unlock all specializations for the Poilus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "VERDUN_ACH_LANDSERS",
+            "name": "Gott Mit Uns",
+            "description": "Unlock all specializations for the Landsers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "VERDUN_ACH_CHASSEURS",
+            "name": "Sidi Brahim",
+            "description": "Unlock all specializations for the Chasseurs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "VERDUN_ACH_ALPENJAGER",
+            "name": "In Treue Fest",
+            "description": "Unlock all specializations for the Alpenjäger",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "VERDUN_ACH_CANADIANS",
+            "name": "We Stand on Guard",
+            "description": "Unlock all specializations for the Canadians",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "VERDUN_ACH_TOMMIES",
+            "name": "For King and Country",
+            "description": "Unlock all specializations for the Tommies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "VERDUN_ACH_STOSSTRUPPEN",
+            "name": "Providentiae Memor",
+            "description": "Unlock all specializations for the Stoßtrupp",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "VERDUN_ACH_GOLD100",
+            "name": "Gold x100",
+            "description": "Receive a total of 100 gold medals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "VERDUN_ACH_SILVER100",
+            "name": "Silver x100",
+            "description": "Receive a total of 100 silver medals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "VERDUN_ACH_BRONZE100",
+            "name": "Bronze x100",
+            "description": "Receive a total of 100 bronze medals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "VERDUN_ACH_ALLGOLD1",
+            "name": "Gold Collector",
+            "description": "Receive all gold medals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "VERDUN_ACH_ALLGOLD10",
+            "name": "Gold Hoarder",
+            "description": "Receive all gold medals 10x",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "VERDUN_ACH_ALLSILVER1",
+            "name": "Silver Collector",
+            "description": "Receive all silver medals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "VERDUN_ACH_ALLSILVER10",
+            "name": "Silver Hoarder",
+            "description": "Receive all silver medals 10x",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "VERDUN_ACH_GOLD10_KILLSTREAK",
+            "name": "That's another one down!",
+            "description": "Receive the gold medal \"Longest killstreak\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "VERDUN_ACH_GOLD10_HEADSHOTS",
+            "name": "Golden Headhunter",
+            "description": "Receive the gold medal \"Most headshots\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "VERDUN_ACH_GOLD10_KILLS",
+            "name": "Shoot, Cover, Reload, Repeat",
+            "description": "Receive the gold medal \"Most kills\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "VERDUN_ACH_GOLD10_BESTKD",
+            "name": "Hunting the Hun",
+            "description": "Receive the gold medal \"Best Kill/Death ratio over 10 kills\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "VERDUN_ACH_GOLD10_FLBESTSQUAD",
+            "name": "There is no I in team",
+            "description": "Receive the gold medal \"Best squad of match\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "VERDUN_ACH_GOLD10_FLBESTATTACK",
+            "name": "Offense is the best defence",
+            "description": "Receive the gold medal \"Best advancing squad\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "VERDUN_ACH_GOLD10_FLBESTDEFENCE",
+            "name": "Let them, come to us",
+            "description": "Receive the gold medal \"Best defence squad\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "VERDUN_ACH_GOLD10_BESTPLAYER",
+            "name": "#1",
+            "description": "Receive the gold medal \"Best player\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "VERDUN_ACH_GOLD10_NOMISSES",
+            "name": "Aimbot",
+            "description": "Receive the gold medal \"Most shots & none missed\" 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "VERDUN_ACH_HEADSHOTS2",
+            "name": "Headhunter II",
+            "description": "Make 1,000 headshots",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "VERDUN_ACH_HEADSHOTS3",
+            "name": "Headhunter III",
+            "description": "Make 5,000 headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "VERDUN_ACH_KILLS2",
+            "name": "Corpseman II",
+            "description": "Reach 5,000 kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "VERDUN_ACH_KILLS3",
+            "name": "Corpseman III",
+            "description": "Reach 10,000 kills",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 48,
+            "apiname": "VERDUN_ACH_MELEEKILLS2",
+            "name": "Manual Labour II",
+            "description": "Make 100 melee kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "VERDUN_ACH_MELEEKILLS3",
+            "name": "Manual Labour III",
+            "description": "Make 500 melee kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "VERDUN_ACH_BELGIANS",
+            "name": "Voor De Koning",
+            "description": "Unlock all specializations for the Belgians",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "VERDUN_ACH_DOUGHBOYS",
+            "name": "This We'll Defend!",
+            "description": "Unlock all specializations for the Doughboys",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "VERDUN_ACH_MARINES",
+            "name": "Semper Fidelis!",
+            "description": "Unlock all specializations for the Marines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "VERDUN_ACH_PIONIERS",
+            "name": "Anker wirf!",
+            "description": "Unlock all specializations for the Pioniere",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "VERDUN_ACH_SCHUTZEN",
+            "name": "Furchtlos und Treu",
+            "description": "Unlock all specializations for the Schutzen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "VERDUN_ACH_SCOTTISH",
+            "name": "In My Defens God Me Defend",
+            "description": "Unlock all specializations for the Highlanders",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "VERDUN_ACH_ANZAC",
+            "name": "Advance Australia",
+            "description": "Unlock all specializations for the ANZACs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "VERDUN_ACH_TIRAILLEURS",
+            "name": "Impavidum Ferient Bella!",
+            "description": "Unlock all specializations for the Tirailleurs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "VERDUN_ACH_GOLD10_NODEATHS",
+            "name": "Do You Even Die?",
+            "description": "Survive a full Frontlines match without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "VERDUN_ACH_GOLD10_ONLYHEADSHOTS",
+            "name": "Extreme Headhunter",
+            "description": "In a Frontlines match headshot 5 enemies in a row without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
