@@ -508,6 +508,18 @@ import { GUIDE as orderOfBattleWorldWarIIAchievementGuide } from "./games/order-
 import { GUIDE as kingdomClassicAchievementGuide } from "./games/kingdom-classic.js";
 import { GUIDE as orionPreludeAchievementGuide } from "./games/orion-prelude.js";
 import { GUIDE as airmechStrikeAchievementGuide } from "./games/airmech-strike.js";
+import { GUIDE as callOfDutyModernWarfare2AchievementGuide } from "./games/call-of-duty-modern-warfare-2.js";
+import { GUIDE as callOfDutyBlackOps2AchievementGuide } from "./games/call-of-duty-black-ops-2.js";
+import { GUIDE as prototype2AchievementGuide } from "./games/prototype-2.js";
+import { GUIDE as callOfDutyModernWarfare2019AchievementGuide } from "./games/call-of-duty-modern-warfare-2019.js";
+import { GUIDE as carxDriftRacingOnlineAchievementGuide } from "./games/carx-drift-racing-online.js";
+import { GUIDE as fistfulOfFragsAchievementGuide } from "./games/fistful-of-frags.js";
+import { GUIDE as bloodAndBaconAchievementGuide } from "./games/blood-and-bacon.js";
+import { GUIDE as dirt3CompleteEditionAchievementGuide } from "./games/dirt-3-complete-edition.js";
+import { GUIDE as troveAchievementGuide } from "./games/trove.js";
+import { GUIDE as mondayNightCombatAchievementGuide } from "./games/monday-night-combat.js";
+import { GUIDE as redFactionArmageddonAchievementGuide } from "./games/red-faction-armageddon.js";
+import { GUIDE as massEffect3AchievementGuide } from "./games/mass-effect-3.js";
 
 export const APP_GUIDES = [
 
@@ -1038,7 +1050,19 @@ export const GAME_GUIDES = [
     orderOfBattleWorldWarIIAchievementGuide,
     kingdomClassicAchievementGuide,
     orionPreludeAchievementGuide,
-    airmechStrikeAchievementGuide
+    airmechStrikeAchievementGuide,
+    callOfDutyModernWarfare2AchievementGuide,
+    callOfDutyBlackOps2AchievementGuide,
+    prototype2AchievementGuide,
+    callOfDutyModernWarfare2019AchievementGuide,
+    carxDriftRacingOnlineAchievementGuide,
+    fistfulOfFragsAchievementGuide,
+    bloodAndBaconAchievementGuide,
+    dirt3CompleteEditionAchievementGuide,
+    troveAchievementGuide,
+    mondayNightCombatAchievementGuide,
+    redFactionArmageddonAchievementGuide,
+    massEffect3AchievementGuide
 
 ];
 

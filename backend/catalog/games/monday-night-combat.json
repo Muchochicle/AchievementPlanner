@@ -1,0 +1,483 @@
+{
+    "id": 63200,
+    "steamAppId": 63200,
+    "name": "Monday Night Combat",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/63200/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Class-Based Shooter",
+        "Tower Defense",
+        "Third-Person Shooter",
+        "Multiplayer",
+        "Action",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_EXHIBITOR",
+            "name": "Exhibitor",
+            "description": "Completed \"Exhibition\" Blitz Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_SACKER",
+            "name": "Sacker",
+            "description": "Achieved 15 kills in a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_KILLSTREAK",
+            "name": "Hot Streak",
+            "description": "Achieved a 3 kill streak in a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_VET",
+            "name": "Seasoned Veteran",
+            "description": "Completed \"Season\" Blitz Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_ALLSTAR",
+            "name": "All Star",
+            "description": "Completed \"Playoff\" Blitz Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_RINGER",
+            "name": "Outta My House!",
+            "description": "Achieved a Ring Out during a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_GRAPPLER",
+            "name": "Grappler",
+            "description": "Achieved 10 grapple kills in a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_PANCAKE",
+            "name": "Flapjack Master",
+            "description": "Achieved a pancake on an opposing player using the Gunner's Ground Slam ability",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_MVP",
+            "name": "MVP",
+            "description": "Achieved \"Most Valuable Player\" in a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_ELUSIVE",
+            "name": "Elusive",
+            "description": "Completed \"The Scramble\" Blitz Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_NAPPIN",
+            "name": "Caught 'em Nappin'",
+            "description": "Achieved a kill on an opposing player while they were upgrading skills in a Crossfire match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_TRIPLE",
+            "name": "3-fer",
+            "description": "Achieved a Triple Kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "HL_GROUNDZERO",
+            "name": "Ground Zero",
+            "description": "Attach a Support Air Strike Beacon to an enemy Pro",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "HL_ALLTIMEGREAT",
+            "name": "All Time Great",
+            "description": "Score a 6 Kill Multikill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "HL_UBERSTREAK",
+            "name": "Uber Streak",
+            "description": "Score a 25 Kill Streak",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "KILLS_ASSAULT_RIFLE",
+            "name": "Center of Attention",
+            "description": "Score 2500 Kills with Assault's Rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "KILLS_HEALHURT_GUN",
+            "name": "The Draw",
+            "description": "Score 2500 Kills with Support's Heal/Hurt Gun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "KILLS_MINIGUN",
+            "name": "Keep 'Em Down",
+            "description": "Score 2500 Kills with the Gunner's Minigun or Dual Minigun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "KILLS_JETGUN",
+            "name": "Red Hot",
+            "description": "Score 2500 Kills with the Tank's Jet Gun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "KILLS_SNIPER_RIFLE",
+            "name": "Drop The Boom",
+            "description": "Score 2500 Kills with the Sniper Rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "KILLS_BLADE_KILLS",
+            "name": "Ninja",
+            "description": "Score 2500 Kills with the Assassin's Dagger or Sword",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "PICKUP_BACON",
+            "name": "Bacon Hunter",
+            "description": "Collect 100 Bacon Pickups",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "HL_OVER9000",
+            "name": "Over 9000",
+            "description": "Receive over $9000 in lifetime earnings after a Crossfire Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "HL_TEAM_LEADER",
+            "name": "Team Leader",
+            "description": "Score the most kills in a single Crossfire Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "HL_TEAM_PLAYER",
+            "name": "Team Player",
+            "description": "Score the most assists in a single Crossfire Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "HL_STRIKEIT_XL",
+            "name": "Strike It XL",
+            "description": "Score 2 Jackbot Kills in a single Crossfire Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "HL_HEADCRAB",
+            "name": "Head Crab",
+            "description": "Attach an Assault Bomb to an enemy Pro",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "HL_HUMILIATION",
+            "name": "Humiliation",
+            "description": "Score a Kill with a melee attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "HL_SPIN_N_JUICE",
+            "name": "Spin N Juice",
+            "description": "Score a Kill with the Jet Gun's alternate fire spin while juiced",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "HL_I_GOT_CANDY",
+            "name": "I Got Candy!",
+            "description": "Pickup a total of 100 prizes in one match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "HL_OVERDOSE",
+            "name": "Overdose",
+            "description": "Use Juice 7 times in one match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "CM_RINGOUTS",
+            "name": "Ringouts",
+            "description": "Score 150 Ringouts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "CM_EJECTORKILLS",
+            "name": "Get Out Of Here",
+            "description": "Score 150 Ejector Kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "CM_BUILD_LAZER_BLAZER",
+            "name": "Pew Pew",
+            "description": "Build or Upgrade a Lazer Blazer Turret 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "CM_BUILD_ROCKIT",
+            "name": "Stand N Deliver",
+            "description": "Build or Upgrade a RockIt Turret 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "CM_BUILD_SHAVEICE",
+            "name": "Speed Kills",
+            "description": "Build or Upgrade a Shave Ice Turret 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "CM_DESTROY_LAZERBLAZER",
+            "name": "Into The Breach",
+            "description": "Destroy 2500 Lazer Blazer Turrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "CM_DESTROY_ROCKIT",
+            "name": "Break The Armor",
+            "description": "Destroy 2500 RockIt Turrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "CM_DESTROY_LONGSHOT",
+            "name": "Hell Mary",
+            "description": "Destroy 2500 Long Shot Turrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "CM_DESTROY_SHAVEICE",
+            "name": "Global Warming",
+            "description": "Destroy 2500 Shave Ice Turrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "CM_KILLS_SLIM",
+            "name": "Big Break",
+            "description": "Score 100,000 Kills on Slim Bots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "CM_KILLS_BLACKJACK",
+            "name": "House Wins",
+            "description": "Score 100,000 Kills on Black Jacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "CM_KILLS_BUZZER",
+            "name": "Bzzz",
+            "description": "Score 100,000 Kills on Buzzers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "CM_KILLS_BOUNCER",
+            "name": "Thrown Out",
+            "description": "Score 2500 Kills on Bouncers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "CM_KILLS_SCRAMBLER",
+            "name": "Lich",
+            "description": "Score 2500 Kills on Scramblers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "CM_KILLS_GREMLIN",
+            "name": "G's",
+            "description": "Score 100,000 Kills on Gremlins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "CM_KILLS_GAPSHOT",
+            "name": "Ground Rule",
+            "description": "Score 2500 Kills on Gap Shots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "CM_KILLS_JACKBOT",
+            "name": "Grand Prize",
+            "description": "Score 1000 Kills on Jackbot XLs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "HL_ROOKIE",
+            "name": "Rookie",
+            "description": "Finish Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "HL_ALLSTAR_SACKER",
+            "name": "All Star Sacker",
+            "description": "Score 30 Kills in a Crossfire Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "HON_BAYHEIMER",
+            "name": "Bayheimer",
+            "description": "Cool guys don't look at explosions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

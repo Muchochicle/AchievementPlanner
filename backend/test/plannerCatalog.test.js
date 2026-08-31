@@ -532,6 +532,18 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-classic"));
     assert.ok(slugs.includes("orion-prelude"));
     assert.ok(slugs.includes("airmech-strike"));
+    assert.ok(slugs.includes("call-of-duty-modern-warfare-2"));
+    assert.ok(slugs.includes("call-of-duty-black-ops-2"));
+    assert.ok(slugs.includes("prototype-2"));
+    assert.ok(slugs.includes("call-of-duty-modern-warfare-2019"));
+    assert.ok(slugs.includes("carx-drift-racing-online"));
+    assert.ok(slugs.includes("fistful-of-frags"));
+    assert.ok(slugs.includes("blood-and-bacon"));
+    assert.ok(slugs.includes("dirt-3-complete-edition"));
+    assert.ok(slugs.includes("trove"));
+    assert.ok(slugs.includes("monday-night-combat"));
+    assert.ok(slugs.includes("red-faction-armageddon"));
+    assert.ok(slugs.includes("mass-effect-3"));
 
 });
 
