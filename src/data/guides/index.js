@@ -466,6 +466,9 @@ import { GUIDE as menOfWarAssaultSquad2AchievementGuide } from "./games/men-of-w
 import { GUIDE as gwentAchievementGuide } from "./games/gwent.js";
 import { GUIDE as legoStarWarsTheForceAwakensAchievementGuide } from "./games/lego-star-wars-the-force-awakens.js";
 import { GUIDE as apexLegendsAchievementGuide } from "./games/apex-legends.js";
+import { GUIDE as haloTheMasterChiefCollectionAchievementGuide } from "./games/halo-the-master-chief-collection.js";
+import { GUIDE as attackOnTitan2AchievementGuide } from "./games/attack-on-titan-2.js";
+import { GUIDE as jojosBizarreAdventureAllStarBattleRAchievementGuide } from "./games/jojos-bizarre-adventure-all-star-battle-r.js";
 
 export const APP_GUIDES = [
 
@@ -954,7 +957,10 @@ export const GAME_GUIDES = [
     menOfWarAssaultSquad2AchievementGuide,
     gwentAchievementGuide,
     legoStarWarsTheForceAwakensAchievementGuide,
-    apexLegendsAchievementGuide
+    apexLegendsAchievementGuide,
+    haloTheMasterChiefCollectionAchievementGuide,
+    attackOnTitan2AchievementGuide,
+    jojosBizarreAdventureAllStarBattleRAchievementGuide
 
 ];
 

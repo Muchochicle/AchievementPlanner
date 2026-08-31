@@ -490,6 +490,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("gwent"));
     assert.ok(slugs.includes("lego-star-wars-the-force-awakens"));
     assert.ok(slugs.includes("apex-legends"));
+    assert.ok(slugs.includes("halo-the-master-chief-collection"));
+    assert.ok(slugs.includes("attack-on-titan-2"));
+    assert.ok(slugs.includes("jojos-bizarre-adventure-all-star-battle-r"));
 
 });
 
