@@ -701,6 +701,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("roguebook"));
     assert.ok(slugs.includes("project-winter"));
     assert.ok(slugs.includes("helltaker"));
+    assert.ok(slugs.includes("split-fiction"));
+    assert.ok(slugs.includes("dead-rising"));
+    assert.ok(slugs.includes("sackboy-a-big-adventure"));
 
 });
 

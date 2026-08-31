@@ -1,0 +1,438 @@
+{
+    "id": 1599660,
+    "steamAppId": 1599660,
+    "name": "Sackboy: A Big Adventure",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1599660/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "3D Platformer",
+        "Co-op",
+        "Family Friendly",
+        "Cute",
+        "Local Multiplayer",
+        "Adventure"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "AllTrophies",
+            "name": "Big Adventurer",
+            "description": "Even Scarlet didn't get all the achievements, you're truly a Knitted Knight of legend.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Potential",
+            "name": "You've got potential, squire!",
+            "description": "Defeat the Master of the Uproar boss on The Soaring Summit (the first world's boss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "MetamericMalady",
+            "name": "Metameric Malady",
+            "description": "Complete 'Centipedal Force', the final level of the Colossal Canopy, defeating its boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "YouAgain",
+            "name": "Sonar So Good",
+            "description": "Complete 'The Deep End', the final level of the Kingdom of Crablantis, defeating the Bringer of Nightmares.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "CrashOverride",
+            "name": "Crash Override",
+            "description": "Complete 'Nervous System', the final level of the Interstellar Junction, cleaning up N.A.O.M.I's code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "IsHeGone",
+            "name": "Vex Vanquisher!",
+            "description": "Defeat Vex in 'Until Vex Time', near the end of the Centre of Craftworld.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "HesGone",
+            "name": "Verified Vex Vanquisher!",
+            "description": "Beat Vex for the fourth and final time, destroy the Topsy Turver and complete the story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "DayDream",
+            "name": "Daydream Believer",
+            "description": "Push back the Uproar for the first time (a story beat).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "BookOfDreams",
+            "name": "Book of Dreams",
+            "description": "Collect all the stickers in a single World.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "LearnedSquire",
+            "name": "Squired Up",
+            "description": "Discover the Trials of the Knitted Knights.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "OutOfBounds",
+            "name": "Out of bounds",
+            "description": "Pick up and throw 30 of Vex's minions to their doom.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "PopNLobber",
+            "name": "Pop 'n' Lobber",
+            "description": "Defeat 30 of Vex's minions from a distance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Multitasking",
+            "name": "Multitasking",
+            "description": "Defeat multiple minions simultaneously 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Bounder",
+            "name": "Bounder",
+            "description": "Defeat 30 of Vex's minions by bouncing on them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Stunner",
+            "name": "Stunner",
+            "description": "Stun 30 of Vex's minions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Fashionista",
+            "name": "Fashionista!",
+            "description": "Complete your first Costume.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ReMixALot",
+            "name": "Re-Mix-Master",
+            "description": "Earn a Gold rank in any Remix level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "CouldntAvoidIt",
+            "name": "Knights of Gold",
+            "description": "Earn a Gold rank in any Knitted Knight Trial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "CutItOut",
+            "name": "Cut it out!",
+            "description": "Complete Highs and Glows... without throwing the Whirltool.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "SlideAway",
+            "name": "Slide Away",
+            "description": "Over the course of your adventure, collect 3000 points while sliding.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "BubbleTrouble",
+            "name": "Bubble Binger",
+            "description": "Collect a full chain of Timed Score Bubbles 30 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "GymnasticFantastic",
+            "name": "Gymnastic Fantastic",
+            "description": "While in the air, perform four actions before touching the ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "BeeArghBee",
+            "name": "BEE! ARGH! BEE!",
+            "description": "Pick up, and hold on to, a Boomblebee Hive for 60 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "BuddyBeater",
+            "name": "Buddy Beater",
+            "description": "In multiplayer, get the top score on the scoreboard 20 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Thespian",
+            "name": "Thespian",
+            "description": "Create your own custom Emote in Zom Zom's shop then show the world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "IconOfStyle",
+            "name": "Icon of Style",
+            "description": "Save a custom-made costume to your Wardrobe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "LetsTwistAgain",
+            "name": "Let's twist again...",
+            "description": "In multiplayer, start a dance party with your friends.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "UpHigh",
+            "name": "Up high!",
+            "description": "In multiplayer, high five with a friend.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "SoreWinner",
+            "name": "Sore Winner",
+            "description": "In multiplayer, clobber one of your chums as the champ.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "StopThief",
+            "name": "Stop! Thief!",
+            "description": "In multiplayer, snatch an item from the clutches of another player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "SlapAttack",
+            "name": "Slap Attack",
+            "description": "In multiplayer, have two players slap each other at exactly the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "BeastOfBurden",
+            "name": "Beast of burden",
+            "description": "In multiplayer, get gold in any Knitted Knight Trial while carrying another Sackperson.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "FunMultiplied",
+            "name": "Fun Multiplied",
+            "description": "In multiplayer, complete a Teamwork Level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Capitalist",
+            "name": "Capitalist",
+            "description": "In multiplayer, snag the most Collectabells in a level 20 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Saviour",
+            "name": "Saviour",
+            "description": "In multiplayer, save your fallen friends from certain doom!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Naturalist",
+            "name": "Naturalist",
+            "description": "Find all of Gerald's secret spots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "PlayersPlayer",
+            "name": "Player's Player",
+            "description": "Find and pick up every fish, paintbrush and cocktail umbrella on your journey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "AmazingAce",
+            "name": "Amazing Ace",
+            "description": "Ace 30 levels by completing them without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "BestFriends",
+            "name": "Best Friends",
+            "description": "In multiplayer mode, earn 10 Ace level goals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "WalkInWardrobe",
+            "name": "Walk-in Wardrobe",
+            "description": "Fill your wardrobe with 300 costume pieces.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MasterOfOne",
+            "name": "Master of One",
+            "description": "Get a golden level badge by completing all the Level Goals for a single level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "TotalMastery",
+            "name": "Multi-Master",
+            "description": "Achieve all the level goals for 10 different levels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "BestFriendsForever",
+            "name": "Best Friends Forever",
+            "description": "In multiplayer, defeat the Topsy Turver (the final boss) as a team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "WonderplaneWorkout",
+            "name": "Wonderplane Workout",
+            "description": "Mop up the last remnants of the Uproar (a late-game story beat).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "GoldenBoy",
+            "name": "Golden Boy",
+            "description": "Earn Gold on the scoreboard in 50 different levels!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "StringItTogether",
+            "name": "String it Together",
+            "description": "Get a Gold on the Knitted Knight’s ultimate trial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

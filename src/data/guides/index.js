@@ -677,6 +677,9 @@ import { GUIDE as stacklandsAchievementGuide } from "./games/stacklands.js";
 import { GUIDE as roguebookAchievementGuide } from "./games/roguebook.js";
 import { GUIDE as projectWinterAchievementGuide } from "./games/project-winter.js";
 import { GUIDE as helltakerAchievementGuide } from "./games/helltaker.js";
+import { GUIDE as splitFictionAchievementGuide } from "./games/split-fiction.js";
+import { GUIDE as deadRisingAchievementGuide } from "./games/dead-rising.js";
+import { GUIDE as sackboyABigAdventureAchievementGuide } from "./games/sackboy-a-big-adventure.js";
 
 export const APP_GUIDES = [
 
@@ -1376,7 +1379,10 @@ export const GAME_GUIDES = [
     stacklandsAchievementGuide,
     roguebookAchievementGuide,
     projectWinterAchievementGuide,
-    helltakerAchievementGuide
+    helltakerAchievementGuide,
+    splitFictionAchievementGuide,
+    deadRisingAchievementGuide,
+    sackboyABigAdventureAchievementGuide
 
 ];
 
