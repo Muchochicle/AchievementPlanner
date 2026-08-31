@@ -704,6 +704,9 @@ import { GUIDE as chasmAchievementGuide } from "./games/chasm.js";
 import { GUIDE as warnoAchievementGuide } from "./games/warno.js";
 import { GUIDE as ultimateGeneralCivilWarAchievementGuide } from "./games/ultimate-general-civil-war.js";
 import { GUIDE as fieldOfGloryIiAchievementGuide } from "./games/field-of-glory-ii.js";
+import { GUIDE as megaquariumAchievementGuide } from "./games/megaquarium.js";
+import { GUIDE as guacameleeSuperTurboChampionshipEditionAchievementGuide } from "./games/guacamelee-super-turbo-championship-edition.js";
+import { GUIDE as prospectorAchievementGuide } from "./games/prospector.js";
 
 export const APP_GUIDES = [
 
@@ -1430,7 +1433,10 @@ export const GAME_GUIDES = [
     chasmAchievementGuide,
     warnoAchievementGuide,
     ultimateGeneralCivilWarAchievementGuide,
-    fieldOfGloryIiAchievementGuide
+    fieldOfGloryIiAchievementGuide,
+    megaquariumAchievementGuide,
+    guacameleeSuperTurboChampionshipEditionAchievementGuide,
+    prospectorAchievementGuide
 
 ];
 

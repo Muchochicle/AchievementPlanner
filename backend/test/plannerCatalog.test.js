@@ -728,6 +728,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("warno"));
     assert.ok(slugs.includes("ultimate-general-civil-war"));
     assert.ok(slugs.includes("field-of-glory-ii"));
+    assert.ok(slugs.includes("megaquarium"));
+    assert.ok(slugs.includes("guacamelee-super-turbo-championship-edition"));
+    assert.ok(slugs.includes("prospector"));
 
 });
 
