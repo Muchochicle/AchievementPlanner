@@ -641,6 +641,9 @@ import { GUIDE as mordhauAchievementGuide } from "./games/mordhau.js";
 import { GUIDE as empyrionGalacticSurvivalAchievementGuide } from "./games/empyrion-galactic-survival.js";
 import { GUIDE as bridgeConstructorPortalAchievementGuide } from "./games/bridge-constructor-portal.js";
 import { GUIDE as trailmakersAchievementGuide } from "./games/trailmakers.js";
+import { GUIDE as dungeons3AchievementGuide } from "./games/dungeons-3.js";
+import { GUIDE as avenColonyAchievementGuide } from "./games/aven-colony.js";
+import { GUIDE as foundationAchievementGuide } from "./games/foundation.js";
 
 export const APP_GUIDES = [
 
@@ -1304,7 +1307,10 @@ export const GAME_GUIDES = [
     mordhauAchievementGuide,
     empyrionGalacticSurvivalAchievementGuide,
     bridgeConstructorPortalAchievementGuide,
-    trailmakersAchievementGuide
+    trailmakersAchievementGuide,
+    dungeons3AchievementGuide,
+    avenColonyAchievementGuide,
+    foundationAchievementGuide
 
 ];
 

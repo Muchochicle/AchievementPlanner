@@ -665,6 +665,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("empyrion-galactic-survival"));
     assert.ok(slugs.includes("bridge-constructor-portal"));
     assert.ok(slugs.includes("trailmakers"));
+    assert.ok(slugs.includes("dungeons-3"));
+    assert.ok(slugs.includes("aven-colony"));
+    assert.ok(slugs.includes("foundation"));
 
 });
 

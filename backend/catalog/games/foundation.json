@@ -1,0 +1,429 @@
+{
+    "id": 690830,
+    "steamAppId": 690830,
+    "name": "Foundation",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/690830/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Medieval",
+        "Sandbox",
+        "Simulation",
+        "Economy",
+        "Building"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_RUSTIC_CHURCH",
+            "name": "Your First Church",
+            "description": "Build a Rustic Church",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_PURCHASE_YOUR_FIRST_HEX",
+            "name": "Expansion",
+            "description": "Purchase your first Territory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_10000_GOLD",
+            "name": "Bathing in Gold",
+            "description": "Amass 10,000 Coins",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_100_POP",
+            "name": "A Growing Village!",
+            "description": "Have a population of 100 or more",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_500_POP",
+            "name": "A Thriving City!",
+            "description": "Have a population of 500 or more",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SPAWN_BLACK_SHEEP",
+            "name": "Ye Noble Black Prince!",
+            "description": "A rare black sheep randomly spawns among your flock. Build a sheep farm with a large pasture and keep as many sheep as possible to improve the odds - it is a Very Rare achievement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_FIRST_MILITARY_CAMPAIGN",
+            "name": "Sound the Trumpets!",
+            "description": "Complete a Military Mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_PROMOTE_KNIGHT",
+            "name": "A Legend is Born",
+            "description": "Promote a Soldier to Knight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_OWNTERRITORY_30",
+            "name": "A Fief Too Far",
+            "description": "Own 30 Territories",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_OWNTERRITORY_30_CHALLENGE",
+            "name": "Feudal Overlord",
+            "description": "Own at least 30 Territories (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_POPULATION_500_CHALLENGE",
+            "name": "Civitas Maxima",
+            "description": "Have a population of 500 or more (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_PRODUCE_TOOLS",
+            "name": "Hammer Time!",
+            "description": "Produce Tools",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_BUILD_EXTENSION",
+            "name": "Room for One More?",
+            "description": "Build a Workplace Extension",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_TRADE_ROUTE_FIRST",
+            "name": "Spices of Life",
+            "description": "Start a Trade Route",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_TRADE_ROUTE_UPGRADE_2",
+            "name": "Hanseatic Spirit",
+            "description": "Upgrade all Trade Routes at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_TRADE_ROUTE_UPGRADE_5",
+            "name": "Merchant Prince",
+            "description": "Upgrade a Trade Route to Level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_PROFIT_MONTHLY_1000000",
+            "name": "King Midas",
+            "description": "Earn 15,000 Coins within 30 days",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_LEVY_MANDATE",
+            "name": "Just this once... I promise!",
+            "description": "Earn Coins from the Levy Mandate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_ENACT_EDICT",
+            "name": "Calling a Ban",
+            "description": "Enact an Edict",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_TAX_VILLAGER",
+            "name": "Serf and Turf",
+            "description": "Tax a Villager",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_ALL_TAXES",
+            "name": "The Gabelle Gambit",
+            "description": "Enact all seven Taxes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_TAXE_MONTHLY_5000",
+            "name": "The Exchequer's Haul",
+            "description": "Collect 5,000 Tax Coins in a single month",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_PRODUCE_TAVERN_MEAL",
+            "name": "The Boar's Head Feast",
+            "description": "Produce a Tavern Meal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_VILLAGER_HAPPINESS_150",
+            "name": "Happy as a Lark",
+            "description": "Have a Villager with 150% Happiness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_GREAT_HALL_SPLENDOR_100",
+            "name": "The Big Cheese of Cheddar Palace",
+            "description": "Build a Great Hall worth 100 Labour Splendour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_PRIVILEGE_TRADE_TAXATION_CHALLENGE",
+            "name": "Teloneum",
+            "description": "Enact the Merchandise Taxes Privilege (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_VC_PRESTIGIOUS_BURG",
+            "name": "One of the People",
+            "description": "Complete the Aspiration: A Prestigious Burg",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_VC_PRESTIGIOUS_BURG_CHALLENGE",
+            "name": "The Burgomaster",
+            "description": "Complete the Aspiration: A Prestigious Burg (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_FORM_COMPANY",
+            "name": "Marching On!",
+            "description": "Form a Company",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MISSION_GRADE_3",
+            "name": "Veni, Vidi, Vici",
+            "description": "Complete a Military Mission of Grade 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_DEPLOY_CAMPAIGN",
+            "name": "Montjoie! Saint Denis!",
+            "description": "Deploy a Battalion to a Military Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_MILITARY_CAMPAIGN_CHALLENGE",
+            "name": "Against All Odds",
+            "description": "Complete a Military Campaign (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_HOST_ROYAL_KNIGHTS",
+            "name": "Honi soit qui mal y pense!",
+            "description": "Successfully host a Company of Royal Knights",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_QUARTERS_SPLENDOR_100",
+            "name": "Fit for a King",
+            "description": "Build Private Quarters worth 100 Kingdom Splendour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_STOCK_RATION_400",
+            "name": "Salt Fish and Pottage",
+            "description": "Stock 400 War Rations",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ARMYSIZE_100",
+            "name": "Centuria",
+            "description": "Have an army of 100 Combatants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_VC_KINGDOM_FORTRESS",
+            "name": "Iron and Oak",
+            "description": "Complete the Aspiration: A Mighty Stronghold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_VC_KINGDOM_FORTRESS_CHALLENGE",
+            "name": "Steel and Stone",
+            "description": "Complete the Aspiration: A Mighty Stronghold (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_HOST_PILGRIM",
+            "name": "The Way of Saint James",
+            "description": "Host a Pilgrim",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_PRODUCE_MONASTIC_MEAL",
+            "name": "Ora et Labora",
+            "description": "Produce a Monastic Meal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_MONTHLY_TRADE_VOLUME_500",
+            "name": "Via Commercii, Via Dei",
+            "description": "Trade 500 resources with Kinstone Abbey over 30 days",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ABBATIAL_SPLENDOR_100",
+            "name": "Divine Architecture",
+            "description": "Build an Abbatial Church worth 100 Clergy Splendour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_PRIVILEGE_WINE_IMPORT_CHALLENGE",
+            "name": "First Growth",
+            "description": "Enact the Seal of Prestige Privilege (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_VC_PROSPEROUS_PRIORY",
+            "name": "Prior of Plenty",
+            "description": "Complete the Aspiration: A Prosperous Priory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_VC_PROSPEROUS_PRIORY_CHALLENGE",
+            "name": "Abbey of Abundance",
+            "description": "Complete the Aspiration: A Prosperous Priory (Challenge rules or harder)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

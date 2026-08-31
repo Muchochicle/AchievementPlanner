@@ -1,0 +1,564 @@
+{
+    "id": 493900,
+    "steamAppId": 493900,
+    "name": "Dungeons 3",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/493900/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Dungeon Management",
+        "Real-Time Strategy",
+        "Simulation",
+        "Comedy",
+        "Base Building",
+        "Fantasy"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_D3_Campaign_Shadow_Completed",
+            "name": "The Shadow strikes",
+            "description": "Successfully complete the mission “The Shadow of Absolute Evil”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_D3_Campaign_Shadow_1",
+            "name": "Death and destruction!",
+            "description": "Destroy 9 Heroes with Thalya's “Fire Bomb” in the mission “The Shadow of Absolute Evil”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_D3_Campaign_Shadow_2",
+            "name": "Shadow hunter",
+            "description": "Don’t let the Shadow take any damage from light in the mission “The Shadow of Absolute Evil”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_D3_Campaign_Cathedral_Completed",
+            "name": "Twistram is devastated",
+            "description": "Complete the mission “Twistram in Ruins”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_D3_Campaign_Cathedral_1",
+            "name": "The Evilest Evil",
+            "description": "Collect a total of 1000 Evilness in the mission “Twistram in Ruins”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_D3_Campaign_Cathedral_2",
+            "name": "No one has to die today!",
+            "description": "Complete the mission “Twistram in Ruins” without losing more than 3 creatures.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_D3_Campaign_DemonStones_Completed",
+            "name": "The Gehenna Stones",
+            "description": "Complete the mission “The Gehenna Stones”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_D3_Campaign_DemonStones_1",
+            "name": "The Stones’ Power",
+            "description": "Kill at least 15 Heroes using the Stones’ magic in the mission “The Gehenna Stones”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_D3_Campaign_DemonStones_2",
+            "name": "The White Knight",
+            "description": "Don’t let Thalya's Life Energy fall below 75% during the mission “The Gehenna Stones”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_D3_Campaign_Graves_Completed",
+            "name": "The Swamplanders from the swamplands",
+            "description": "Complete the mission “The Ashspring Swamplands”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_D3_Campaign_Graves_1",
+            "name": "Braiiiiins!",
+            "description": "Awaken at least 98 Undead in the mission “The Ashspring Swamplands”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_D3_Campaign_Graves_2",
+            "name": "Night of the Living Dead (on Speed)",
+            "description": "Conquer all Graveyards in less than 25 minutes in the mission “The Ashspring Swamplands”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_D3_Campaign_Hammer_Completed",
+            "name": "Rusty Steel",
+            "description": "Complete the mission “The Battle of Steelsmith”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_D3_Campaign_Hammer_1",
+            "name": "The One-Huge-Army-Building Evil",
+            "description": "Own at least 15 creatures at the same time in the mission “The Battle of Steelsmith”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_D3_Campaign_Hammer_2",
+            "name": "Hands off the Dungeonheart!",
+            "description": "The Dungeonheart must not fall below 50% life in the mission “The Battle of Steelsmith”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_D3_Campaign_FancyFoods_Completed",
+            "name": "The last burger",
+            "description": "Complete the mission “The End of Burgers' End”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_D3_Campaign_FancyFoods_1",
+            "name": "MASS-O-BOT",
+            "description": "Own 5 Gob-O-Bots at any time in the mission “The End of Burgers' End”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_D3_Campaign_FancyFoods_2",
+            "name": "Then let them eat cake!",
+            "description": "Don’t allow any deliveries to reach the city in the mission “The End of Burgers' End”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_D3_Campaign_DayNight_Completed",
+            "name": "A trip on sea, what fun it can be",
+            "description": "Complete the mission “The Crossing”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_D3_Campaign_DayNight_1",
+            "name": "Master of Traps",
+            "description": "Kill at least 30 Heroes with the “Thrasher” Trap in the mission “The Crossing”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_D3_Campaign_DayNight_2",
+            "name": "Ignore The Level Designer’s Plan",
+            "description": "Destroy at least 3 Hero tent camps during daylight in the mission “The Crossing”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_D3_Campaign_Sacrifice_Completed",
+            "name": "Damned good",
+            "description": "Complete the mission “The Prince of Hell”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_D3_Campaign_Sacrifice_1",
+            "name": "Factory farming",
+            "description": "Hold at least 7 Heroes in the Prison at the same time in the mission “The Prince of Hell”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_D3_Campaign_Sacrifice_2",
+            "name": "A little something extra",
+            "description": "Get all of the bonus creatures in the mission “The Prince of Hell”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_D3_Campaign_Demonicon_Completed",
+            "name": "Stock Market Crash",
+            "description": "Complete the mission “The Storming of Dollaran”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_D3_Campaign_Demonicon_1",
+            "name": "Spawner Killer",
+            "description": "Destroy all of the Hero camps in the mission “The Storming of Dollaran”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_D3_Campaign_Demonicon_2",
+            "name": "Storm And Stress",
+            "description": "Complete the mission “The Storming of Dollaran” in less than 40 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_D3_Campaign_Warlock_Completed",
+            "name": "Not-So-Overproud",
+            "description": "Complete the mission “The End of Yaina Overproud”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_D3_Campaign_Warlock_1",
+            "name": "We don’t have time!",
+            "description": "Destroy every Arcane Tear in mission “The End of Yaina Overproud” within 60 seconds maximum.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_D3_Campaign_Warlock_2",
+            "name": "Hearts are trump",
+            "description": "Never let the Dungeonhearts Life Energy fall under 75% in “The End of Yaina Overproud”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_D3_Campaign_Renegade_Completed",
+            "name": "For a handfull of Catapults",
+            "description": "Complete the mission “Once Upon A Catapult”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_D3_Campaign_Renegade_1",
+            "name": "Flat as a pancake",
+            "description": "Kill 50 Heroes by Catapult bombardment in the mission “Once Upon A Catapult”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_D3_Campaign_Renegade_2",
+            "name": "I love the smell of Catapult fire!",
+            "description": "Capture all of the Catapults in the mission “Once Upon A Catapult” in less than 30 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_D3_Campaign_Hungry_Completed",
+            "name": "Ogre Solo!",
+            "description": "Complete the mission “The Hungry, Hungry Ogre”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_D3_Campaign_Hungry_1",
+            "name": "Thirst quencher",
+            "description": "Own more than 42 Barrels of Beer at the same time in the mission “The Hungry, Hungry Ogre”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_D3_Campaign_Hungry_2",
+            "name": "Can’t stand to see an Ogre bleed",
+            "description": "The Ogre in the mission “The Hungry, Hungry Ogre” must not fall below 75% Life Energy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_D3_Campaign_Water_Completed",
+            "name": "Tide Master",
+            "description": "Complete the mission “Ups and Downs”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_D3_Campaign_Water_1",
+            "name": "Lifeguard",
+            "description": "Don’t lose a single creature to the water in the mission “Ups and Downs”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_D3_Campaign_Water_2",
+            "name": "Please, no interruptions!",
+            "description": "Stop anyone from interrupting Thalya while she contaminates the water in mission “Ups and Downs”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_D3_Campaign_Infested_Completed",
+            "name": "Destroy the thing",
+            "description": "Complete the mission “The Titan of Alphaas”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_D3_Campaign_Infested_1",
+            "name": "Lifesaver",
+            "description": "Don’t lose more than 8 units in the mission “The Titan of Alphaas”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_D3_Campaign_Infested_2",
+            "name": "Chorus of damnation",
+            "description": "Own at least 5 Banshees at the same time in the mission “The Titan of Alphaas”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_D3_Campaign_Darksword_Completed",
+            "name": "Difficult family relationships",
+            "description": "Complete the mission “I Am Your Father!”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_D3_Campaign_Darksword_1",
+            "name": "This is fun, I’m going to keep doing this!",
+            "description": "Sacrifice more Heroes than needed in mission “I Am Your Father!” – until the Narrator is satisfied.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_D3_Campaign_Darksword_2",
+            "name": "Hearts of Iron",
+            "description": "Complete the mission “I Am Your Father!” without the Dungeonheart taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_D3_Campaign_Fire_Completed",
+            "name": "Angel of Fire",
+            "description": "Complete the mission “Baptism of Fire”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_D3_Campaign_Fire_1",
+            "name": "Prepare the grave",
+            "description": "Don’t let the Grave Golem’s Life Energy fall below 50%.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_D3_Campaign_Fire_2",
+            "name": "Not a scratch",
+            "description": "Complete the mission “Baptism of Fire” without Thalya taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_D3_Campaign_Pain_Completed",
+            "name": "Where there is Light, there is Shadow",
+            "description": "Complete the mission “Light and Shadow”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_D3_Campaign_Pain_1",
+            "name": "I need a hero!",
+            "description": "Kill 100 Heroes in the mission “Light and Shadow”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_D3_Campaign_Pain_2",
+            "name": "Prison Break",
+            "description": "Free Thalya in less than 45 minutes in the “Light and Shadow” mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_D3_Campaign_ColdLight_Completed",
+            "name": "At the foot of Mount Destiny",
+            "description": "Complete the mission “Two Sides Of A Medal”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_D3_Campaign_ColdLight_1",
+            "name": "Use the terrain",
+            "description": "Kill 30 Heroes using an Obelisk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_D3_Campaign_ColdLight_2",
+            "name": "Discoverer",
+            "description": "Find the two Obelisks in less than 25 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_D3_Campaign_Ritual_Completed",
+            "name": "The Force disturbed",
+            "description": "Complete the mission “A Disturbance In The Force”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_D3_Campaign_Ritual_1",
+            "name": "Can’t stand the sight of Dark Elf blood",
+            "description": "Never let Thalya's Life Energy fall below 75% during the ritual.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_D3_Campaign_Ritual_2",
+            "name": "Sacrifices!",
+            "description": "Sacrifice all of the Titans within 40 minutes in the mission “A Disturbance In The Force”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_D3_Campaign_TheLast_Completed",
+            "name": "The Victorious Evil",
+            "description": "Complete the mission “Everything Has An End…”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_D3_Campaign_TheLast_1",
+            "name": "The Benevolent Evil",
+            "description": "Save all of the Heroes Tanos wants to punish in the mission “Everything Has An End…”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_D3_Campaign_TheLast_2",
+            "name": "Band of Brothers",
+            "description": "Don’t lose a single creature to Tanos in battle in the mission “Everything Has An End…”.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
