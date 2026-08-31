@@ -674,6 +674,9 @@ import { GUIDE as stickFightTheGameAchievementGuide } from "./games/stick-fight-
 import { GUIDE as overcookedAllYouCanEatAchievementGuide } from "./games/overcooked-all-you-can-eat.js";
 import { GUIDE as trickyTowersAchievementGuide } from "./games/tricky-towers.js";
 import { GUIDE as stacklandsAchievementGuide } from "./games/stacklands.js";
+import { GUIDE as roguebookAchievementGuide } from "./games/roguebook.js";
+import { GUIDE as projectWinterAchievementGuide } from "./games/project-winter.js";
+import { GUIDE as helltakerAchievementGuide } from "./games/helltaker.js";
 
 export const APP_GUIDES = [
 
@@ -1370,7 +1373,10 @@ export const GAME_GUIDES = [
     stickFightTheGameAchievementGuide,
     overcookedAllYouCanEatAchievementGuide,
     trickyTowersAchievementGuide,
-    stacklandsAchievementGuide
+    stacklandsAchievementGuide,
+    roguebookAchievementGuide,
+    projectWinterAchievementGuide,
+    helltakerAchievementGuide
 
 ];
 

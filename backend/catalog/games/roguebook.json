@@ -1,0 +1,573 @@
+{
+    "id": 1076200,
+    "steamAppId": 1076200,
+    "name": "Roguebook",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1076200/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 4,
+    "hasGuide": true,
+    "genres": [
+        "Roguelike Deckbuilder",
+        "Card Game",
+        "Turn-Based",
+        "Strategy",
+        "Fantasy",
+        "Indie"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "UNLOCK_5_SHARRA_CARDS",
+            "name": "Studying the Blade",
+            "description": "Unlock 5 Sharra cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "UNLOCK_ALL_SHARRA_CARDS",
+            "name": "Sharra Completionist",
+            "description": "Unlock all Sharra cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "PLAY_EVERY_SHARRA_CARD",
+            "name": "Sharra Mastery",
+            "description": "Play every Sharra card at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "UNLOCK_5_SOROCCO_CARDS",
+            "name": "Bulking up",
+            "description": "Unlock 5 Sorocco cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "UNLOCK_ALL_SOROCCO_CARDS",
+            "name": "Sorocco Completionist",
+            "description": "Unlock all Sorocco cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "PLAY_EVERY_SOROCCO_CARD",
+            "name": "Sorocco Mastery",
+            "description": "Play every Sorocco card at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "UNLOCK_5_SEIFER_CARDS",
+            "name": "Cutting Through",
+            "description": "Unlock 5 Seifer cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "UNLOCK_ALL_SEIFER_CARDS",
+            "name": "Seifer Completionist",
+            "description": "Unlock all Seifer cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "PLAY_EVERY_SEIFER_CARD",
+            "name": "Seifer Mastery",
+            "description": "Play every Seifer card at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "UNLOCK_5_AURORA_CARDS",
+            "name": "Slowly but Steady",
+            "description": "Unlock 5 Aurora cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "UNLOCK_ALL_AURORA_CARDS",
+            "name": "Aurora Completionist",
+            "description": "Unlock all Aurora cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "PLAY_EVERY_AURORA_CARD",
+            "name": "Aurora Mastery",
+            "description": "Play every Aurora card at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "REACH_PARTY_LEVEL_2",
+            "name": "Level Up",
+            "description": "Reach Party level 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "REACH_PARTY_LEVEL_MAX",
+            "name": "The Full Experience",
+            "description": "Reach Maximum Party level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "PURCHASE_EVERY_RANK_1_PERK",
+            "name": "Major Embellishment",
+            "description": "Purchase at least 1 Rank of every embellishment",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ENTER_VAULTS_10_TIMES",
+            "name": "Vault Discovery",
+            "description": "Enter 10 Magic Vaults.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ENTER_VAULTS_100_TIMES",
+            "name": "Vault Explorer",
+            "description": "Enter 100 Magic Vaults.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ENTER_VAULTS_1000_TIMES",
+            "name": "Archivist",
+            "description": "Enter 1000 Magic Vaults.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ENTER_GEM_MINES_10_TIMES",
+            "name": "Prospector",
+            "description": "Open 10 Gem stones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ENTER_GEM_MINES_100_TIMES",
+            "name": "Miner",
+            "description": "Open 100 Gem stones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ENTER_GEM_MINES_500_TIMES",
+            "name": "Excavator",
+            "description": "Open 500 Gem stones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "COLLECT_10_MAP_TREASURES",
+            "name": "Archaeologist",
+            "description": "Collect 10 Treasures from the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "COLLECT_100_MAP_TREASURES",
+            "name": "Expert Archaeologist",
+            "description": "Collect 100 Treasures from the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "COLLECT_500_MAP_TREASURES",
+            "name": "Master Archaeologist",
+            "description": "Collect 500 Treasures from the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "VISIT_10_SKY_TOWERS",
+            "name": "Climbing High",
+            "description": "Visit 10 Sky Towers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "VISIT_100_SKY_TOWERS",
+            "name": "New Horizons",
+            "description": "Visit 100 Sky Towers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "VISIT_500_SKY_TOWERS",
+            "name": "I can see my house from here",
+            "description": "Visit 500 Sky Towers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "FUGORO_RETRIEVING_10_TIMES",
+            "name": "Come back here, Frog.",
+            "description": "Recover your treasure from Fugoro 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "REVEAL_10000_TILES",
+            "name": "Happy Little Tiles",
+            "description": "Reveal 10,000 tiles.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 30,
+            "apiname": "USE_ALL_INKS",
+            "name": "Ink Mastery",
+            "description": "Use every type of ink at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "DEFEAT_10_GOLDEN_FAERIES",
+            "name": "Golden Pinatas",
+            "description": "Defeat 10 Golden Faeries.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "COMPLETE_CHAPTER_1",
+            "name": "The Forest of Erianor",
+            "description": "Complete Chapter 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "DEFEAT_ALL_BOSS_CHAPTER_1",
+            "name": "Conquering the Forest",
+            "description": "Defeat every boss in Chapter 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "COMPLETE_CHAPTER_2",
+            "name": "The Oversky",
+            "description": "Complete Chapter 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "DEFEAT_ALL_BOSS_CHAPTER_2",
+            "name": "Conquering the Oversky",
+            "description": "Defeat every boss in Chapter 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "COMPLETE_CHAPTER_3",
+            "name": "The Ruins of Heartforge",
+            "description": "Complete Chapter 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "DEFEAT_AVATAR_OF_MIST",
+            "name": "Avatar of Mist",
+            "description": "Defeat the Avatar of Mist.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "DEFEAT_AVATAR_OF_GREED",
+            "name": "Avatar of Greed",
+            "description": "Defeat the Avatar of Greed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "VISIT_ALL_NARRATIVES",
+            "name": "Neverending Story",
+            "description": "Visit every original story event at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "UNLOCK_SEIFER",
+            "name": "Unmask the Maniac",
+            "description": "Unlock Seifer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "UNLOCK_AURORA",
+            "name": "Ancient One",
+            "description": "Unlock Aurora",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "WIN_WITH_EPILOGUE_LEVEL_1",
+            "name": "New Game +",
+            "description": "Complete an Epilogue challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "WIN_WITH_EPILOGUE_LEVEL_10",
+            "name": "Roguebook Expert",
+            "description": "Complete a run at Epilogue level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "WIN_WITH_EPILOGUE_LEVEL_MAX",
+            "name": "Roguebook Mastery",
+            "description": "Complete a run at max Epilogue level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "DEAL_1000_DAGGER_DAMAGES",
+            "name": "Forbidden Frisbees",
+            "description": "Deal 1000 damage with Daggers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "DEAL_1000_SOROCCO_AREA_DAMAGES",
+            "name": "Fire Breath",
+            "description": "Have Sorocco deal 1000 area of effect damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "GAIN_1000_SEIFER_RAGE",
+            "name": "Carnage",
+            "description": "Gain 1000 Rage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "USE_TEAPOT_50_TIMES",
+            "name": "Tea Party",
+            "description": "Actively use Aurora's Teapot 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "COMPLETE_RUN_WITH_1000_GOLD",
+            "name": "Greed",
+            "description": "Complete a run with 1000 gold remaining.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "GAIN_100000_GOLD",
+            "name": "Blessed Coin",
+            "description": "Earn over 100,000 gold.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "WIN_WITH_ALL_HERO_PAIRS",
+            "name": "Adventuring Party",
+            "description": "Defeat the Roguebook with every pair of heroes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "FINISH_GEM_MINE",
+            "name": "Master the Mine",
+            "description": "Reach the end of a Gem Mine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "DEFEAT_TWINS_CHAOS",
+            "name": "Twins Chaos",
+            "description": "Defeat the Twins Chaos",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "TOURNAMENT_CONTENDER",
+            "name": "Contender",
+            "description": "Participate in a Story tournament.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "TOURNAMENT_FINALIST",
+            "name": "Finalist",
+            "description": "Complete a Story tournament.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "TOURNAMENT_CHAMPION",
+            "name": "Champion",
+            "description": "Finish in the top 50% of a Story tournament.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "STEAM_UNLOCK_5_FUGORO_CARDS",
+            "name": "Just Borrowing",
+            "description": "Unlock 5 Fugoro cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "STEAM_UNLOCK_ALL_FUGORO_CARDS",
+            "name": "Fugoro Completionist",
+            "description": "Unlock all Fugoro cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "STEAM_PLAY_EVERY_FUGORO_CARD",
+            "name": "Fugoro Mastery",
+            "description": "Play every Fugoro card at least once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "STEAM_PLAY_100_COINS",
+            "name": "Numismatist",
+            "description": "Play 100 coins.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "STEAM_MARK_100_ENEMIES",
+            "name": "You Are Known",
+            "description": "Mark 100 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
