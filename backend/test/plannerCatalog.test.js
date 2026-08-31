@@ -633,6 +633,8 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("age-of-mythology-extended-edition"));
     assert.ok(slugs.includes("the-swapper"));
     assert.ok(slugs.includes("fate"));
+    assert.ok(slugs.includes("state-of-decay"));
+    assert.ok(slugs.includes("wreckfest"));
 
 });
 

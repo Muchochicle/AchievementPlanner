@@ -609,6 +609,8 @@ import { GUIDE as planetExplorersAchievementGuide } from "./games/planet-explore
 import { GUIDE as ageOfMythologyExtendedEditionAchievementGuide } from "./games/age-of-mythology-extended-edition.js";
 import { GUIDE as theSwapperAchievementGuide } from "./games/the-swapper.js";
 import { GUIDE as fateAchievementGuide } from "./games/fate.js";
+import { GUIDE as stateOfDecayAchievementGuide } from "./games/state-of-decay.js";
+import { GUIDE as wreckfestAchievementGuide } from "./games/wreckfest.js";
 
 export const APP_GUIDES = [
 
@@ -1240,7 +1242,9 @@ export const GAME_GUIDES = [
     planetExplorersAchievementGuide,
     ageOfMythologyExtendedEditionAchievementGuide,
     theSwapperAchievementGuide,
-    fateAchievementGuide
+    fateAchievementGuide,
+    stateOfDecayAchievementGuide,
+    wreckfestAchievementGuide
 
 ];
 
