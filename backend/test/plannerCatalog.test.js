@@ -594,6 +594,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("legend-of-grimrock"));
     assert.ok(slugs.includes("legend-of-grimrock-2"));
     assert.ok(slugs.includes("underrail"));
+    assert.ok(slugs.includes("grid-2"));
+    assert.ok(slugs.includes("panzer-corps-2"));
+    assert.ok(slugs.includes("warhammer-40k-mechanicus"));
 
 });
 

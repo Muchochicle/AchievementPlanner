@@ -570,6 +570,9 @@ import { GUIDE as projectCarsAchievementGuide } from "./games/project-cars.js";
 import { GUIDE as legendOfGrimrockAchievementGuide } from "./games/legend-of-grimrock.js";
 import { GUIDE as legendOfGrimrock2AchievementGuide } from "./games/legend-of-grimrock-2.js";
 import { GUIDE as underrailAchievementGuide } from "./games/underrail.js";
+import { GUIDE as grid2AchievementGuide } from "./games/grid-2.js";
+import { GUIDE as panzerCorps2AchievementGuide } from "./games/panzer-corps-2.js";
+import { GUIDE as warhammer40kMechanicusAchievementGuide } from "./games/warhammer-40k-mechanicus.js";
 
 export const APP_GUIDES = [
 
@@ -1162,7 +1165,10 @@ export const GAME_GUIDES = [
     projectCarsAchievementGuide,
     legendOfGrimrockAchievementGuide,
     legendOfGrimrock2AchievementGuide,
-    underrailAchievementGuide
+    underrailAchievementGuide,
+    grid2AchievementGuide,
+    panzerCorps2AchievementGuide,
+    warhammer40kMechanicusAchievementGuide
 
 ];
 

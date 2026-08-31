@@ -1,0 +1,1194 @@
+{
+    "id": 1072040,
+    "steamAppId": 1072040,
+    "name": "Panzer Corps 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1072040/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": true,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Wargame",
+        "Turn-Based Strategy",
+        "WW2",
+        "Hex Grid",
+        "Strategy",
+        "Historical"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_YOU_ARE_THE_BEST",
+            "name": "You are the Best",
+            "description": "Launch the game once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_PREPPED_FOR_BATTLE",
+            "name": "Prepped for Battle",
+            "description": "Finish the Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_MOUSE_HUNTER",
+            "name": "Mouse Hunter",
+            "description": "Solve \"Mouse Hunt\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_SUCCESSFUL_SURRENDER",
+            "name": "Successful Surrender",
+            "description": "Solve \"Successful Suppress\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_THE_GREAT_ESCAPE",
+            "name": "The Great Escape",
+            "description": "Solve \"Bring them Home\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_IMPOSSIBLE_IS_POSSIBLE",
+            "name": "Impossible is Possible",
+            "description": "Solve \"Impossible Siege\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CAT_HUNTER",
+            "name": "Cat Hunter",
+            "description": "Solve \"Cat Trap\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_PANTHER_HUNTER",
+            "name": "Panther Hunter",
+            "description": "Solve \"River Panther\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_VICTORY_FIREWORKS",
+            "name": "Victory Fireworks",
+            "description": "Solve \"Fireworks\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_USEFUL_ENEMY",
+            "name": "Helpful Enemy",
+            "description": "Solve \"Enemy of my Enemy\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_DOUBLE_SMART",
+            "name": "Double Smart",
+            "description": "Solve \"Double Strike\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_XOLVED",
+            "name": "Xolved",
+            "description": "Solve \"Operation X\" puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_HERO_OF_RZHEV",
+            "name": "Hero of Rzhev",
+            "description": "Win \"Battle of Rzhev\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_HERO_OF_PRAGUE_OFFENSIVE",
+            "name": "Hero of Prague Offensive",
+            "description": "Win \"Prague Offensive\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_HERO_OF_GOTHIC_LINE",
+            "name": "Hero of Gothic Line",
+            "description": "Win \"Gothic Line\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_HERO_OF_LORRAINE",
+            "name": "Hero of Lorraine",
+            "description": "Win \"Lorraine\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_HERO_OF_CRETE",
+            "name": "Hero of Crete",
+            "description": "Win \"Crete\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_HERO_OF_FALL_WEISS",
+            "name": "Hero of Fall Weiss",
+            "description": "Win \"Fall Weiss\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_DEFENDER_OF_THE_REICH",
+            "name": "Defender of the Reich",
+            "description": "Win \"Defender of the Reich\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CONQUERED_THE_FJORDS",
+            "name": "Conquered the Fjords",
+            "description": "Win \"Fjord War\" scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_WEHRMACHT_MAJOR",
+            "name": "Wehrmacht Major",
+            "description": "Finish Wehrmacht campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_WEHRMACHT_COLONEL",
+            "name": "Wehrmacht Colonel",
+            "description": "Finish Wehrmacht campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_WEHRMACHT_GENERAL",
+            "name": "Wehrmacht General",
+            "description": "Finish Wehrmacht campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_WEHRMACHT_FIELD_MARSHAL",
+            "name": "Wehrmacht Field Marshal",
+            "description": "Finish Wehrmacht campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_WEHRMACHT_GENERALISSIMUS",
+            "name": "Wehrmacht Generalissimus",
+            "description": "Finish Wehrmacht campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_ELITE_TANK",
+            "name": "Elite Tank",
+            "description": "Gain five stars on a tank unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_ELITE_INFANTRY",
+            "name": "Elite Infantry",
+            "description": "Gain five stars on an infantry unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ELITE_RECON",
+            "name": "Elite Recon",
+            "description": "Gain five stars on a recon unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_ELITE_ARTILLERY",
+            "name": "Elite Artillery",
+            "description": "Gain five stars on an artillery unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_ELITE_ANTI_TANK",
+            "name": "Elite Anti-Tank",
+            "description": "Gain five stars on an anti-tank unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_ELITE_ANTY_AIR",
+            "name": "Elite Anti-Air",
+            "description": "Gain five stars on an anti-air unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_ELITE_FIGHTER",
+            "name": "Elite Fighter",
+            "description": "Gain five stars on a fighter unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_ELITE_TACTICAL_BOMBER",
+            "name": "Elite Tactical Bomber",
+            "description": "Gain five stars on a tactical bomber unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_ELITE_STRATEGIC_BOMBER",
+            "name": "Elite Strategic Bomber",
+            "description": "Gain five stars on a strategic bomber unit in a campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_SPAIN_MAJOR",
+            "name": "Spanish Major",
+            "description": "Finish Spanish Civil War campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_SPAIN_COLONEL",
+            "name": "Spanish Colonel",
+            "description": "Finish Spanish Civil War campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_SPAIN_GENERAL",
+            "name": "Spanish General",
+            "description": "Finish Spanish Civil War campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_SPAIN_FIELD_MARSHAL",
+            "name": "Spanish Field Marshal",
+            "description": "Finish Spanish Civil War campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_SPAIN_GENERALISSIMUS",
+            "name": "Spanish Generalissimus",
+            "description": "Finish Spanish Civil War campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_AO1939_MAJOR",
+            "name": "1939 Major",
+            "description": "Finish Axis Operations 1939 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_AO1939_COLONEL",
+            "name": "1939 Colonel",
+            "description": "Finish Axis Operations 1939 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_AO1939_GENERAL",
+            "name": "1939 General",
+            "description": "Finish Axis Operations 1939 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_AO1939_FIELD_MARSHAL",
+            "name": "1939 Field Marshal",
+            "description": "Finish Axis Operations 1939 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_AO1939_GENERALISSIMUS",
+            "name": "1939 Generalissimus",
+            "description": "Finish Axis Operations 1939 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_AO1940_MAJOR",
+            "name": "1940 Major",
+            "description": "Finish Axis Operations 1940 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_AO1940_COLONEL",
+            "name": "1940 Colonel",
+            "description": "Finish Axis Operations 1940 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_AO1940_GENERAL",
+            "name": "1940 General",
+            "description": "Finish Axis Operations 1940 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_AO1940_FIELD_MARSHAL",
+            "name": "1940 Field Marshal",
+            "description": "Finish Axis Operations 1940 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_AO1940_GENERALISSIMUS",
+            "name": "1940 Generalissimus",
+            "description": "Finish Axis Operations 1940 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_AO1941_MAJOR",
+            "name": "1941 Major",
+            "description": "Finish Axis Operations 1941 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_AO1941_COLONEL",
+            "name": "1941 Colonel",
+            "description": "Finish Axis Operations 1941 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_AO1941_GENERAL",
+            "name": "1941 General",
+            "description": "Finish Axis Operations 1941 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_AO1941_FIELD_MARSHAL",
+            "name": "1941 Field Marshal",
+            "description": "Finish Axis Operations 1941 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_AO1941_GENERALISSIMUS",
+            "name": "1941 Generalissimus",
+            "description": "Finish Axis Operations 1941 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_AO1942_MAJOR",
+            "name": "1942 Major",
+            "description": "Finish Axis Operations 1942 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_AO1942_COLONEL",
+            "name": "1942 Colonel",
+            "description": "Finish Axis Operations 1942 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_AO1942_GENERAL",
+            "name": "1942 General",
+            "description": "Finish Axis Operations 1942 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_AO1942_FIELD_MARSHAL",
+            "name": "1942 Field Marshal",
+            "description": "Finish Axis Operations 1942 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_AO1942_GENERALISSIMUS",
+            "name": "1942 Generalissimus",
+            "description": "Finish Axis Operations 1942 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_AO1943_MAJOR",
+            "name": "1943 Major",
+            "description": "Finish Axis Operations 1943 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_AO1943_COLONEL",
+            "name": "1943 Colonel",
+            "description": "Finish Axis Operations 1943 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_AO1943_GENERAL",
+            "name": "1943 General",
+            "description": "Finish Axis Operations 1943 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_AO1943_FIELD_MARSHAL",
+            "name": "1943 Field Marshal",
+            "description": "Finish Axis Operations 1943 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_AO1943_GENERALISSIMUS",
+            "name": "1943 Generalissimus",
+            "description": "Finish Axis Operations 1943 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_AO1944_MAJOR",
+            "name": "1944 Major",
+            "description": "Finish Axis Operations 1944 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_AO1944_COLONEL",
+            "name": "1944 Colonel",
+            "description": "Finish Axis Operations 1944 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_AO1944_GENERAL",
+            "name": "1944 General",
+            "description": "Finish Axis Operations 1944 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_AO1944_FIELD_MARSHAL",
+            "name": "1944 Field Marshal",
+            "description": "Finish Axis Operations 1944 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_AO1944_GENERALISSIMUS",
+            "name": "1944 Generalissimus",
+            "description": "Finish Axis Operations 1944 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_AO1945_MAJOR",
+            "name": "1945 Major",
+            "description": "Finish Axis Operations 1945 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_AO1945_COLONEL",
+            "name": "1945 Colonel",
+            "description": "Finish Axis Operations 1945 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_AO1945_GENERAL",
+            "name": "1945 General",
+            "description": "Finish Axis Operations 1945 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_AO1945_FIELD_MARSHAL",
+            "name": "1945 Field Marshal",
+            "description": "Finish Axis Operations 1945 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_AO1945_GENERALISSIMUS",
+            "name": "1945 Generalissimus",
+            "description": "Finish Axis Operations 1945 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_AO1946_MAJOR",
+            "name": "1946 Major",
+            "description": "Finish Axis Operations 1946 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_AO1946_COLONEL",
+            "name": "1946 Colonel",
+            "description": "Finish Axis Operations 1946 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_AO1946_GENERAL",
+            "name": "1946 General",
+            "description": "Finish Axis Operations 1946 campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_AO1946_FIELD_MARSHAL",
+            "name": "1946 Field Marshal",
+            "description": "Finish Axis Operations 1946 campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_AO1946_GENERALISSIMUS",
+            "name": "1946 Generalissimus",
+            "description": "Finish Axis Operations 1946 campaign on Generalissimus difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_ULTIMATE_VETERAN",
+            "name": "Ultimate Veteran",
+            "description": "Bring a unit that served in the Spanish Civil War into the 1946 Amerika Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_BULGE_MAJOR",
+            "name": "Bulge Major",
+            "description": "Finish Frontlines - Bulge campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_BULGE_COLONEL",
+            "name": "Bulge Colonel",
+            "description": "Finish Frontlines - Bulge campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_BULGE_GENERAL",
+            "name": "Bulge General",
+            "description": "Finish Frontlines - Bulge campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_BULGE_FIELD_MARSHAL",
+            "name": "Bulge Field Marshal",
+            "description": "Finish Frontlines - Bulge campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_BULGE_GENERALISSIMUS",
+            "name": "Bulge Generalissimus",
+            "description": "Finish Frontlines - Bulge campaign on Generalissimus difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_POLAND_MAJOR",
+            "name": "Poland Major",
+            "description": "Finish War Stories - Fall of Poland campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_POLAND_COLONEL",
+            "name": "Poland Colonel",
+            "description": "Finish War Stories - Fall of Poland campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_POLAND_GENERAL",
+            "name": "Poland General",
+            "description": "Finish War Stories - Fall of Poland campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_POLAND_FIELD_MARSHAL",
+            "name": "Poland Field Marshal",
+            "description": "Finish War Stories - Fall of Poland campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_POLAND_GENERALISSIMUS",
+            "name": "Poland Generalissimus",
+            "description": "Finish War Stories - Fall of Poland campaign on Generalissimus difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_POLAND_THE_CAPTAIN",
+            "name": "The Captain",
+            "description": "Guide Captain Orkan safely through the Fall of Poland DLC Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_POLAND_THE_LIEUTENANT",
+            "name": "The Lieutenant",
+            "description": "Guide Lieutenant Urbanowicz safely through the Fall of Poland DLC Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_POLAND_THE_NURSE",
+            "name": "The Nurse",
+            "description": "Guide Nurse Lewinski safely through the Fall of Poland DLC Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_POLAND_THE_CIVILIAN",
+            "name": "The Civilian",
+            "description": "Guide Civilian Paszkowski safely through the Fall of Poland DLC Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "ACH_POLAND_THE_TANKER",
+            "name": "The Tanker",
+            "description": "Guide Commander Balinski safely through the Fall of Poland DLC Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "ACH_CYRENAICA_IT_MAJOR",
+            "name": "Cyrenaica Italian Major",
+            "description": "Finish the Frontlines - Cyrenaica's Italian campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "ACH_CYRENAICA_IT_COLONEL",
+            "name": "Cyrenaica Italian Colonel",
+            "description": "Finish the Frontlines - Cyrenaica's Italian campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "ACH_CYRENAICA_IT_GENERAL",
+            "name": "Cyrenaica Italian General",
+            "description": "Finish the Frontlines - Cyrenaica's Italian campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "ACH_CYRENAICA_IT_FIELD_MARSHAL",
+            "name": "Cyrenaica Italian Field Marshal",
+            "description": "Finish the Frontlines - Cyrenaica's Italian campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "ACH_CYRENAICA_IT_GENERALISSIMUS",
+            "name": "Cyrenaica Italian Generalissimus",
+            "description": "Finish the Frontlines - Cyrenaica's Italian campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "ACH_CYRENAICA_GB_MAJOR",
+            "name": "Cyrenaica British Major",
+            "description": "Finish the Frontlines - Cyrenaica's British campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "ACH_CYRENAICA_GB_COLONEL",
+            "name": "Cyrenaica British Colonel",
+            "description": "Finish the Frontlines - Cyrenaica's British campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "ACH_CYRENAICA_GB_GENERAL",
+            "name": "Cyrenaica British General",
+            "description": "Finish the Frontlines - Cyrenaica's British campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 104,
+            "apiname": "ACH_CYRENAICA_GB_FIELD_MARSHAL",
+            "name": "Cyrenaica British Field Marshal",
+            "description": "Finish the Frontlines - Cyrenaica's British campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "ACH_CYRENAICA_GB_GENERALISSIMUS",
+            "name": "Cyrenaica British Generalissimus ",
+            "description": "Finish the Frontlines - Cyrenaica's British campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "ACH_GHOST_DIVISION_MAJOR",
+            "name": "Ghost Division Major",
+            "description": "Finish the Ghost Division campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "ACH_GHOST_DIVISION_COLONEL",
+            "name": "Ghost Division Colonel",
+            "description": "Finish the Ghost Division campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 108,
+            "apiname": "ACH_GHOST_DIVISION_GENERAL",
+            "name": "Ghost Division General",
+            "description": "Finish the Ghost Division campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 109,
+            "apiname": "ACH_GHOST_DIVISION_FIELD_MARSHAL",
+            "name": "Ghost Division Field Marshal",
+            "description": "Finish the Ghost Division campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 110,
+            "apiname": "ACH_GHOST_DIVISION_GENERALISSIMUS",
+            "name": "Ghost Division Generalissimus",
+            "description": "Finish the Ghost Division campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 111,
+            "apiname": "ACH_WESTWALL_MAJOR",
+            "name": "Westwall Major",
+            "description": "Finish Frontlines - Westwall campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 112,
+            "apiname": "ACH_WESTWALL_COLONEL",
+            "name": "Westwall Colonel",
+            "description": "Finish Frontlines - Westwall campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 113,
+            "apiname": "ACH_WESTWALL_GENERAL",
+            "name": "Westwall General",
+            "description": "Finish Frontlines - Westwall campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 114,
+            "apiname": "ACH_WESTWALL_FIELD_MARSHAL",
+            "name": "Westwall Field Marshal",
+            "description": "Finish Frontlines - Westwall campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 115,
+            "apiname": "ACH_WESTWALL_GENERALISSIMUS",
+            "name": "Westwall Generalissimus",
+            "description": "Finish Frontlines - Westwall campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 116,
+            "apiname": "ACH_1ST_GUARDS_MAJOR",
+            "name": "First Guards Major",
+            "description": "Finish the First Guards campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 117,
+            "apiname": "ACH_1ST_GUARDS_COLONEL",
+            "name": "First Guards Colonel",
+            "description": "Finish the First Guards campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 118,
+            "apiname": "ACH_1ST_GUARDS_GENERAL",
+            "name": "First Guards General",
+            "description": "Finish the First Guards campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 119,
+            "apiname": "ACH_1ST_GUARDS_FIELD_MARSHAL",
+            "name": "First Guards Field Marshall",
+            "description": "Finish the First Guards campaign on Field Marshall difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 120,
+            "apiname": "ACH_1ST_GUARDS_GENERALISSIMUS",
+            "name": "First Guards Generalissimus",
+            "description": "Finish the First Guards campaign on Generalissimus difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 121,
+            "apiname": "ACH_ITALY_VOL1_MAJOR",
+            "name": "Italy Vol.1 Major",
+            "description": "Finish the Italy Vol.1 campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 122,
+            "apiname": "ACH_ITALY_VOL1_COLONEL",
+            "name": "Italy Vol.1 Colonel",
+            "description": "Finish the Italy Vol.1 campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 123,
+            "apiname": "ACH_ITALY_VOL1_GENERAL",
+            "name": "Italy Vol.1 General",
+            "description": "Finish the Italy Vol.1 campaign on  General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 124,
+            "apiname": "ACH_ITALY_VOL1_FIELD_MARSHAL",
+            "name": "Italy Vol.1 Field Marshall",
+            "description": "Finish the Italy Vol.1 campaign on  Field Marshall difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 125,
+            "apiname": "ACH_ITALY_VOL1_GENERALISSIMUS",
+            "name": "Italy Vol.1 Generalissimus",
+            "description": "Finish the Italy Vol.1 campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 126,
+            "apiname": "ACH_ALL_AMERICAN_MAJOR",
+            "name": "All American Major",
+            "description": "Finish the All American campaign on Major difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 127,
+            "apiname": "ACH_ALL_AMERICAN_COLONEL",
+            "name": "All American Colonel",
+            "description": "Finish the All American campaign on Colonel difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 128,
+            "apiname": "ACH_ALL_AMERICAN_GENERAL",
+            "name": "All American General",
+            "description": "Finish the All American campaign on General difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 129,
+            "apiname": "ACH_ALL_AMERICAN_FIELD_MARSHAL",
+            "name": "All American Field Marshal",
+            "description": "Finish the All American campaign on Field Marshal difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 130,
+            "apiname": "ACH_ALL_AMERICAN_GENERALISSIMUS",
+            "name": "All American Generalissimus",
+            "description": "Finish the All American campaign on Generalissimus difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
