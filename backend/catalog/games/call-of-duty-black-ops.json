@@ -1,0 +1,636 @@
+{
+    "id": 42700,
+    "steamAppId": 42700,
+    "name": "Call of Duty: Black Ops",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Military",
+        "Action",
+        "Zombies",
+        "Singleplayer",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SP_LVL_CUBA_CASTRO_ONESHOT",
+            "name": "Death to Dictators",
+            "description": "Take down Castro with a headshot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "SP_WIN_CUBA",
+            "name": "Sacrifice ",
+            "description": "Ensure your squad escapes safely from Cuba.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SP_LVL_VORKUTA_VEHICULAR",
+            "name": "Vehicular Slaughter",
+            "description": "Destroy all enemies on vehicles during the prison break.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "SP_WIN_VORKUTA",
+            "name": "Give me liberty, or give me death",
+            "description": "Escape Vorkuta.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SP_LVL_VORKUTA_SLINGSHOT",
+            "name": "Slingshot Kid ",
+            "description": "Destroy all slingshot targets in 3 attempts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "SP_WIN_PENTAGON",
+            "name": "VIP",
+            "description": "Receive orders from Lancer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "SP_WIN_FLASHPOINT",
+            "name": "A safer place",
+            "description": "Sabotage the Soviet space program.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "SP_LVL_KHESANH_MISSILES",
+            "name": "Tough Economy",
+            "description": "Use no more than 6 TOW guided missiles to destroy the tanks in the defense of Khe Sanh.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "SP_WIN_KHE_SANH",
+            "name": "Looks don't count",
+            "description": "Break the siege in the battle of Khe Sanh.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "SP_WIN_HUE_CITY",
+            "name": "SOG Rules",
+            "description": "Retrieve the dossier and the defector from Hue City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "SP_LVL_HUECITY_AIRSUPPORT",
+            "name": "Raining Pain",
+            "description": "Rack up a body count of 20 NVA using air support in Hue City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "SP_LVL_HUECITY_DRAGON",
+            "name": "The Dragon Within",
+            "description": "Kill 10 NVA with Dragon's Breath rounds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "SP_LVL_CREEK1_DESTROY_MG",
+            "name": "Heavy Hand",
+            "description": "Use the Grim Reaper to destroy the MG emplacement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "SP_LVL_CREEK1_KNIFING",
+            "name": "Up close and personal",
+            "description": "Silently take out 3 VC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "SP_LVL_KOWLOON_DUAL",
+            "name": "Double Trouble",
+            "description": "Use only dual wield weapons to escape Kowloon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "SP_WIN_KOWLOON",
+            "name": "Broken English",
+            "description": "Escape Kowloon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "SP_LVL_RIVER_TARGETS",
+            "name": "Lord Nelson",
+            "description": "Destroy all targets and structures while making your way up the river.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "SP_WIN_RIVER",
+            "name": "Never get off the boat",
+            "description": "Find the Soviet connection in Laos.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "SP_LVL_WMD_RSO",
+            "name": "Pathfinder",
+            "description": "Guide the squad through the Soviet outpost without them getting killed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "SP_LVL_WMD_RELAY",
+            "name": "Mr. Black OP",
+            "description": "Enter the Soviet relay station undetected.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "SP_LVL_POW_HIND",
+            "name": "With extreme prejudice",
+            "description": "Get to the POW compound in the Hind using only rockets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SP_LVL_POW_FLAMETHROWER",
+            "name": "Russian bar-b-q",
+            "description": "Incinerate 10 enemies with the flamethrower attachment in the POW compound.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "SP_LVL_FULLAHEAD_2MIN",
+            "name": "Light Foot",
+            "description": "Escape the ship with 2:15 left on the timer in Veteran.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "SP_WIN_FULLAHEAD",
+            "name": "Some wounds never heal",
+            "description": "Escape the past.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "SP_LVL_REBIRTH_MONKEYS",
+            "name": "I hate monkeys",
+            "description": "Kill 7 monkeys in under 10 seconds in the Rebirth labs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "SP_LVL_REBIRTH_NOLEAKS",
+            "name": "No Leaks",
+            "description": "Make it through the NOVA 6 gas without dying on Rebirth Island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "SP_WIN_INTERROGATION_ESCAPE",
+            "name": "Clarity",
+            "description": "Crack the code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "SP_LVL_UNDERWATERBASE_MINI",
+            "name": "Double Whammy",
+            "description": "Destroy both helicopters with one Valkyrie missile from the deck of the ship.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "SP_GEN_MASTER",
+            "name": "BLACK OP MASTER",
+            "description": "Complete the campaign on Hardened or Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "SP_WIN_UNDERWATERBASE",
+            "name": "Stand Down",
+            "description": "Complete the campaign on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "SP_GEN_FRAGMASTER",
+            "name": "Frag Master",
+            "description": "Kill 5 enemies with a single frag grenade in the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "SP_GEN_ROUGH_ECO",
+            "name": "Sally Likes Blood",
+            "description": "Demonstrate killer economic sensibilities by taking down 3 enemies with a single bullet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "SP_GEN_CROSSBOW",
+            "name": "Unconventional Warfare",
+            "description": "Use the explosive bolts to kill 30 enemies in the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "SP_VWIN_FLASHPOINT",
+            "name": "Cold Warrior",
+            "description": "Complete \"Operation 40,\" \"Vorkuta,\" and \"Executive Order\" on Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "SP_VWIN_HUE_CITY",
+            "name": "Down and Dirty",
+            "description": "Complete \"SOG\" and \"The Defector\" on Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "SP_VWIN_FULLAHEAD",
+            "name": "It's your funeral",
+            "description": "Complete \"Numbers,\" \"Project Nova,\" and \"Victor Charlie\" on Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "SP_VWIN_RIVER",
+            "name": "Not Today",
+            "description": "Complete \"Crash Site,\" \"WMD,\" and \"Payback\" on Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SP_VWIN_UNDERWATERBASE",
+            "name": "Burn Notice",
+            "description": "Complete \"Rebirth\" and \"Redemption\" on Veteran difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "SP_GEN_FOUNDFILMS",
+            "name": "Closer Analysis",
+            "description": "Find all the hidden intel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "SP_ZOM_COLLECTOR",
+            "name": "The Collector",
+            "description": "Buy every weapon off the walls in a single Zombies game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "SP_ZOM_NODAMAGE",
+            "name": "See Me, Stab Me, Heal Me",
+            "description": "In Zombies, fire a Pack-a-Punched Ballistic Knife at a downed ally to revive them from a distance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "SP_ZOM_TRAPS",
+            "name": "Hands Off the Merchandise",
+            "description": "Kill the Pentagon thief before it can steal your load-out.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "SP_ZOM_SILVERBACK",
+            "name": "Sacrificial Lamb",
+            "description": "Kill 6 zombies after getting shot by a Pack-a-Punched Crossbow bolt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "SP_ZOM_FLAMINGBULL",
+            "name": "\"Insert Coin\"",
+            "description": "Access the terminal and battle the forces of the Cosmic Silverback in Dead Ops Arcade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "SP_ZOM_CHICKENS",
+            "name": "Easy Rhino",
+            "description": "In Dead Ops Arcade, use a Speed Boost to blast through 20 or more enemies at one time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "SP_LVL_FRONTEND_CHAIR",
+            "name": "Just ask me nicely",
+            "description": "Break free from the interrogation chair in the main menu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "SP_LVL_FRONTEND_ZORK",
+            "name": "Eaten by a Grue",
+            "description": "Play the hidden text adventure Zork on the main-menu terminal (type 'zork').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "DLC2_ZOM_LUNARLANDERS",
+            "name": "The eagle has landers",
+            "description": "In Ascension, escape on all 3 lunar landers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "DLC2_ZOM_BLACKHOLE",
+            "name": "They are going THROUGH!",
+            "description": "In Ascension, kill at least 5 zombies with 1 Gersh Device.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "DLC2_ZOM_PACKAPUNCH",
+            "name": "Space Race",
+            "description": "In Ascension, Pack-a-Punch a weapon by round 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "DLC2_ZOM_FIREMONKEY",
+            "name": "Chimp on the barbie",
+            "description": "In Ascension, kill a space monkey with a fire trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "DLC3_ZOM_STAND_IN",
+            "name": "Stand-in",
+            "description": "In Call of the Dead, send the crew to Paradise in solo or co-op.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "DLC3_ZOM_ENSEMBLE_CAST",
+            "name": "Ensemble Cast",
+            "description": "In Call of the Dead, send the crew to Paradise in co-op",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "DLC3_ZOM_STUNTMAN",
+            "name": "Stuntman",
+            "description": "In Call of the Dead, make a zombie explode using the V-R11",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "DLC3_ZOM_SHOOTING_ON_LOCATION",
+            "name": "Shooting on Location",
+            "description": "In Call of the Dead, kill 10 zombies with one Scavenger shot from over 100 feet away",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "DLC3_ZOM_QUIET_ON_THE_SET",
+            "name": "Quiet on the Set",
+            "description": "In Call of the Dead, cut the lights on the Director",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "DLC4_ZOM_TEMPLE_SIDEQUEST",
+            "name": "Time Travel Will Tell",
+            "description": "In Shangri-La, acquire the focusing stone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "DLC4_ZOM_BLINDED_BY_THE_FRIGHT",
+            "name": "Blinded By the Fright",
+            "description": "In Shangri-La, kill a Shrieker zombie while blinded by it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "DLC4_ZOM_ZOMB_DISPOSAL",
+            "name": "Zomb Disposal",
+            "description": "In Shangri-La, dispose of a Napalm zombie without it harming any players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "DLC4_ZOM_MONKEY_SEE_MONKEY_DONT",
+            "name": "Monkey See, Monkey Don't",
+            "description": "In Shangri-La, get something from the monkeys.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "DLC4_ZOM_SMALL_CONSOLATION",
+            "name": "Small Consolation",
+            "description": "In Shangri-La, use the 31-79 JGb215 on each type of zombie.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "DLC5_ZOM_CRYOGENIC_PARTY",
+            "name": "Cryogenic Slumber Party",
+            "description": "In Moon, complete Richtofen's grand scheme.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "DLC5_ZOM_ONE_SMALL_HACK",
+            "name": "One Small Hack for a Man... ",
+            "description": "In Moon, hack something.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "DLC5_ZOM_ONE_GIANT_LEAP",
+            "name": "One Giant Leap ",
+            "description": "In Moon, become trapped in the Receiving Area and free yourself through resurrection in co-op.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "DLC5_ZOM_PERKS_IN_SPACE",
+            "name": "Perks in Spaaaaace! ",
+            "description": "In Moon, purchase every perk in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "DLC5_ZOM_FULLY_ARMED",
+            "name": "Fully Armed and Operational ",
+            "description": "In Moon, acquire 3 pack-a-punched weapons at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "DLC5_ZOM_GROUND_CONTROL",
+            "name": "Ground Control ",
+            "description": "In Moon, prevent each excavator from breaching the base in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "DLC5_ZOM_BIG_BANG_THEORY",
+            "name": "Big Bang Theory ",
+            "description": "In Moon, gain sweet, sweet, revenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -1,0 +1,654 @@
+{
+    "id": 245620,
+    "steamAppId": 245620,
+    "name": "Tropico 5",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/245620/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 30,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Strategy",
+        "Political Sim",
+        "Management",
+        "Economy",
+        "Sandbox"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Finish tutorials",
+            "name": "Dictatorship 101",
+            "description": "Finish all tutorials",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Campaign progress 1",
+            "name": "A New Dawn",
+            "description": "Complete campaign mission 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Campaign progress 2",
+            "name": "Day 0",
+            "description": "Complete campaign mission 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Campaign progress 3",
+            "name": "Back to the Past",
+            "description": "Complete campaign mission 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Campaign progress 4",
+            "name": "Leon Must Die!",
+            "description": "Complete campaign mission 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Campaign progress 5",
+            "name": "Hope",
+            "description": "Complete campaign mission 5 (the final campaign mission).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Finish multiplayer game",
+            "name": "Good Sportsmanship",
+            "description": "Finish a multiplayer game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Win multiplayer game by points",
+            "name": "Project Beale",
+            "description": "Win a multiplayer game by points",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Win multiplayer game by money",
+            "name": "It Prints Money!",
+            "description": "Win a multiplayer game by money",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Win multiplayer game by construction",
+            "name": "Architerissimo",
+            "description": "Win a multiplayer game by construction",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Connect 2 cities in multiplayer",
+            "name": "Naughty Docks",
+            "description": "Connect a dock with that of another player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Share 1 000 MW",
+            "name": "What Energy Crisis?",
+            "description": "Produce and share 1 000 MW of power with another player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "12 trade ships",
+            "name": "Sheep For Wood",
+            "description": "Have a fleet of 12 trade ships",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "100 000 minerals in a single mission",
+            "name": "Mine! All Mine!",
+            "description": "Mine 100 000 ores and coal in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "15 managers",
+            "name": "Middle Manager Of The Revolution",
+            "description": "Have managers in more than 15 buildings in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "90 standing with all Modern Era factions",
+            "name": "Friends With Benefits",
+            "description": "Have relations higher than 90 with all factions in the Modern Era",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "100 months in the Colonial Era",
+            "name": "Everlasting Colony",
+            "description": "Rule for 100 months as a colonial governor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Export 100 000 Luxury Goods",
+            "name": "Made In Tropico",
+            "description": "Export 100 000 Luxury Goods",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "20 plantations ranches and farms",
+            "name": "Agricultural Community",
+            "description": "Have more than 20 Plantations, Hydroponic Farms, Factory Farms and Ranches in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "500 population",
+            "name": "The Madness Of Crowds",
+            "description": "Have more than 500 citizens in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "150 buildings",
+            "name": "The Town Of Cityville",
+            "description": "Build 150 buildings in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "200 000 in Swiss account",
+            "name": "Pension Plan",
+            "description": "Earn over $$200 000 Swiss bank account",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "2 000 meters of roads",
+            "name": "Infrastructor",
+            "description": "Build more than 2 000 meters of roads in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "5 trades with China",
+            "name": "The China Card",
+            "description": "Successfully complete 5 trade routes with China in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Finish a game with 100 US relations",
+            "name": "United States of Tropico",
+            "description": "Finish a game with relations of 100 with the US",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "5 embassies",
+            "name": "Globalist",
+            "description": "Have 5 foreign powers in your Embassies at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "All tourist classes",
+            "name": "Booked Solid",
+            "description": "Have Slob, Family, Cultural, Eco and Wealthy tourists at the same time on the island",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "50 000 yearly revenue from Entertainment",
+            "name": "A Barrel Of Monkeys",
+            "description": "Earn $50 000 yearly revenue from Entertainment buildings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "10 different industry buildings",
+            "name": "The Great Mogul",
+            "description": "Have 10 different industry buildings in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "All happiness values above 50",
+            "name": "Extraordinary Popular Delusions",
+            "description": "Have all happiness values above 50",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "77 overall happiness",
+            "name": "In Seventh Heaven",
+            "description": "Reach overall happiness of 77 ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Execute a Rebel Leader",
+            "name": "Cause of Death",
+            "description": "Execute a Rebel Leader",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Bribe a Faction Leader",
+            "name": "Greasing Palms",
+            "description": "Bribe a Faction Leader",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Dynasty member with skill at lvl 5",
+            "name": "Overqualified",
+            "description": "Have a dynasty member with a level 5 skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "New heir",
+            "name": "Heir And Now",
+            "description": "Recognize a new heir",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Change dynasty member outlook",
+            "name": "Mirror, Mirror On The Wall",
+            "description": "Change the looks of a dynasty member",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "7 dynasty members",
+            "name": "Presidente's Seven",
+            "description": "Have 7 Dynasty members",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Survive rebel attack against the Palace",
+            "name": "History Will Absolve Me",
+            "description": "Survive a rebel attack against the Palace",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Survive an uprising",
+            "name": "Let Them Eat Cake",
+            "description": "Survive an uprising",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Survive a coup",
+            "name": "Putsch and Judy",
+            "description": "Survive a Military Coup",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Survive US invasion",
+            "name": "The Bay Of Pigs",
+            "description": "Survive an invasion from the USA",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "5 Army Base",
+            "name": "Think Tanks",
+            "description": "Have 5 Army Bases in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "20 Guard Towers",
+            "name": "Tower Defense",
+            "description": "Have 20 Guard Towers in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Advance to Modern Era before 1960",
+            "name": "Retro-futurism",
+            "description": "Advance to the Modern Era before the year 1960",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Research everything",
+            "name": "For Science!",
+            "description": "Research all technologies at least once before the year 2005 in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Amend the constitution 6 times",
+            "name": "Fundamental Principles",
+            "description": "Amend the Constitution 6 times in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "20 edicts",
+            "name": "Bureaucrat",
+            "description": "Issue 20 edicts in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Host the Olympics",
+            "name": "... But To Take Part",
+            "description": "Issue the \"Host the Olympics\" edict",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Win a game on Tiny Island",
+            "name": "Claustrophilia",
+            "description": "Win a Sandbox game on a Tiny island",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Win a game with Relentless Disasters",
+            "name": "To Live In Interesting Times",
+            "description": "Win a Sandbox game on an island with Relentless Disasters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Complete Waterborne mission 1",
+            "name": "The Black Pearl",
+            "description": "Complete \"Treasure Hunt\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Complete Waterborne campaing",
+            "name": "Surfin' Tropico!",
+            "description": "Complete Waterborne campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Defeat Captain Plant in combat",
+            "name": "Herbivore",
+            "description": "Defeat Captain Plant in the final battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Finish Waterborne with the Black Pearl",
+            "name": "My Precious",
+            "description": "Finish the Waterborne campaign with the Black Pearl in your possession",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "3 Fishing Trawlers",
+            "name": "Thanks for all the fish!",
+            "description": "Have a fleet of 3 Fishing Trawlers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "3 Oyster Farms and Jewelry Workshop",
+            "name": "The King of Pearls",
+            "description": "Have 3 Oyster Farms and a Jewelry Workshop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Fire Nuclear Submarine against a player",
+            "name": "Do not press!",
+            "description": "Fire missiles from a Nuclear Submarine during a battle against another player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Only 10 Floating Apartments",
+            "name": "Waterworld",
+            "description": "Have 10 Floating Apartments and no residential buildings on land (excluding shacks)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "All waterborne buildings constructed",
+            "name": "Seasteading",
+            "description": "Have 1 of each waterborne buildings in a single playthrough",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "5 Foreign Powers in Offshore Offices",
+            "name": "Offshore Haven",
+            "description": "Have 5 superpowers in Offshore Offices",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Complete Espionage mission 1",
+            "name": "The Maltese Toucan",
+            "description": "Complete mission 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "Complete Espionage campaing",
+            "name": "Presidente 007",
+            "description": "Complete Espionage campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "Sabotage in Multiplayer",
+            "name": "The Silent Front",
+            "description": "Complete a Sabotage action in multiplayer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "Expose Secrets",
+            "name": "Tropicoleaks",
+            "description": "Expose secrets of 2 different superpowers in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "Deal with 10 foreign spies",
+            "name": "Catch me a Spy",
+            "description": "Deal with 10 foreign spies in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "MI and Dungeon and 10 SC",
+            "name": "Antiutopia",
+            "description": "Have Ministry of Information, Dungeon and 10 Security Checkpoint",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "5 Police Blimps",
+            "name": "Big Brother",
+            "description": "Have 5 Police Blimps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "13 spy agents",
+            "name": "From Tropico with love",
+            "description": "Have 13 loyal spies at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "20 prisoners",
+            "name": "The Greybar Hotel",
+            "description": "Have 20 prisoners in Dungeons and Supermax Prisons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "20 drone kills",
+            "name": "Kill all Humans",
+            "description": "Eliminate 20 undesirable citizens with drones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

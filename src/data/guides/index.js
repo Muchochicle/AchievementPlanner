@@ -547,6 +547,9 @@ import { GUIDE as bloodyGoodTimeAchievementGuide } from "./games/bloody-good-tim
 import { GUIDE as nba2k23AchievementGuide } from "./games/nba-2k23.js";
 import { GUIDE as deadRising2AchievementGuide } from "./games/dead-rising-2.js";
 import { GUIDE as wormsUltimateMayhemAchievementGuide } from "./games/worms-ultimate-mayhem.js";
+import { GUIDE as metroLastLightReduxAchievementGuide } from "./games/metro-last-light-redux.js";
+import { GUIDE as callOfDutyBlackOpsAchievementGuide } from "./games/call-of-duty-black-ops.js";
+import { GUIDE as tropico5AchievementGuide } from "./games/tropico-5.js";
 
 export const APP_GUIDES = [
 
@@ -1116,7 +1119,10 @@ export const GAME_GUIDES = [
     bloodyGoodTimeAchievementGuide,
     nba2k23AchievementGuide,
     deadRising2AchievementGuide,
-    wormsUltimateMayhemAchievementGuide
+    wormsUltimateMayhemAchievementGuide,
+    metroLastLightReduxAchievementGuide,
+    callOfDutyBlackOpsAchievementGuide,
+    tropico5AchievementGuide
 
 ];
 

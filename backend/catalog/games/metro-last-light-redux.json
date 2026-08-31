@@ -1,0 +1,465 @@
+{
+    "id": 287390,
+    "steamAppId": 287390,
+    "name": "Metro: Last Light Redux",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/287390/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Post-apocalyptic",
+        "Story Rich",
+        "Atmospheric",
+        "Stealth",
+        "Survival"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "air",
+            "name": "Air!",
+            "description": "Spend 30 minutes' worth of Filters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "antibiotic",
+            "name": "Antibiotic",
+            "description": "Kill 100 Mutants.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "back_to_the_past",
+            "name": "Back to the Past",
+            "description": "See all Visions in the Dead City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "big_momma",
+            "name": "Big Momma",
+            "description": "Kill the Rhino.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "cest_la_vie",
+            "name": "C'est la vie",
+            "description": "Reach the 'Ranger' ending - the default outcome when Artyom finishes the game with too many negative or too few positive moral points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "clean_jailbreak",
+            "name": "Clean Escape",
+            "description": "Escape the chasing Nazis on the REICH level without being caught once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "commando",
+            "name": "Commando",
+            "description": "Rescue the Women and Children on the BANDITS level without raising alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "derailed",
+            "name": "Derailed",
+            "description": "Kill all armed enemies on the REVOLUTION level, including all reinforcements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "edison",
+            "name": "Edison",
+            "description": "Turn off 40 Lights without breaking them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "engineer",
+            "name": "Engineer",
+            "description": "Use 10 Lever Switches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ever_vigilant",
+            "name": "Ever Vigilant",
+            "description": "Disarm 10 Traps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "forest_guardian",
+            "name": "Forest Guardian",
+            "description": "Save the Bear from the Watchmen after the fight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "freedom",
+            "name": "Freedom!",
+            "description": "Free the Prisoners.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "invisible_intruder",
+            "name": "Invisible Intruder",
+            "description": "Complete the SEPARATION level without killing or raising alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "invisible_savior",
+            "name": "Invisible Savior",
+            "description": "Complete the FACILITY level without killing or raising alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "invisible_soldier",
+            "name": "Invisible Soldier",
+            "description": "Complete the REVOLUTION level without killing and raising an alarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "max",
+            "name": "Cheers!",
+            "description": "Drink at every occasion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "mouse",
+            "name": "Mouse",
+            "description": "Complete the ECHOES level undetected by the Watchmen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "no_shooting_allowed",
+            "name": "No shooting allowed",
+            "description": "Kill 10 enemies in a row with Throwing Knives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "not_a_rabbit",
+            "name": "Not A Rabbit",
+            "description": "Finish the ASHES level without taking a hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "patron_of_the_arts",
+            "name": "Patron of the Arts",
+            "description": "Watch the entire Theater Show.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "published",
+            "name": "Published",
+            "description": "Complete all 43 of Artyom's hidden Diary pages.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "pyromaniac",
+            "name": "Pyromaniac",
+            "description": "Burn 50 Cobwebs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "rabbit",
+            "name": "Rabbit",
+            "description": "Complete training sequence.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "rain_man",
+            "name": "Rain Man",
+            "description": "Complete the BRIDGE level without a kill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "redemption",
+            "name": "Redemption",
+            "description": "Reach the 'Redemption' ending by accumulating enough positive moral points over the course of the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "reunion",
+            "name": "Reunion",
+            "description": "Find and return the crying child's Teddy Bear.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "revelation",
+            "name": "Revelation",
+            "description": "Reveal Secretary Moskvin's true plans during the level POLIS.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "revenge",
+            "name": "Revenge",
+            "description": "Let Pavel die on the RED SQUARE level - do not help him when hands drag him under during the Vision.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "savior",
+            "name": "Savior",
+            "description": "On the CONTAGION level, take off your gas mask when Lesnitsky demands it instead of shooting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "scram",
+            "name": "Scram",
+            "description": "Kill the Watchmen attacking the Railcar without taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "secret",
+            "name": "Secret",
+            "description": "Complete the level DEPOT on any difficulty - the Little Dark One reveals the Reds' plans in a cutscene.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "shadow",
+            "name": "Shadow",
+            "description": "Stealthily kill 15 Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "soldier",
+            "name": "Soldier",
+            "description": "Kill 100 Human Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "tortoise",
+            "name": "Tortoise",
+            "description": "Make 10 Spiders flip belly-up.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "veteran",
+            "name": "Veteran",
+            "description": "Choose three primary weapons that use different ammo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "within_a_hair_of_death",
+            "name": "Within a Hair of Death",
+            "description": "Escape from the Red Line.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "survival",
+            "name": "Survivor 2034",
+            "description": "Complete the game in Survival Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "spartan",
+            "name": "Spartan 2034",
+            "description": "Complete the game in Spartan Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "safecracker",
+            "name": "Master Thief",
+            "description": "Open 10 locked safe boxes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "saboteur",
+            "name": "Saboteur",
+            "description": "Complete the SNIPER TEAM level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "kshatriya",
+            "name": "Kshatriya",
+            "description": "Complete the KSHATRIYA level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "heil_reich",
+            "name": "Hail Reich!",
+            "description": "Complete the HEAVY SQUAD level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "testcomplete",
+            "name": "Test Complete",
+            "description": "Complete the TOWER level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "through_fire",
+            "name": "Through the Fire",
+            "description": "Complete the SPIDER LAIR level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "developer",
+            "name": "Developer",
+            "description": "Spend 1 hour on the DEVELOPER level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "atas",
+            "name": "Heads Up!",
+            "description": "Complete the PAVEL level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "nowayout",
+            "name": "No Way Out",
+            "description": "Complete the KHAN level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "sunsetofhope",
+            "name": "The Sunset of Hope",
+            "description": "Complete the ANNA level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -571,6 +571,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("nba-2k23"));
     assert.ok(slugs.includes("dead-rising-2"));
     assert.ok(slugs.includes("worms-ultimate-mayhem"));
+    assert.ok(slugs.includes("metro-last-light-redux"));
+    assert.ok(slugs.includes("call-of-duty-black-ops"));
+    assert.ok(slugs.includes("tropico-5"));
 
 });
 
