@@ -585,6 +585,9 @@ import { GUIDE as seriousSam2AchievementGuide } from "./games/serious-sam-2.js";
 import { GUIDE as microsoftFlightSimulator2020AchievementGuide } from "./games/microsoft-flight-simulator-2020.js";
 import { GUIDE as deadlyPremonitionDirectorsCutAchievementGuide } from "./games/deadly-premonition-directors-cut.js";
 import { GUIDE as hyperdimensionNeptuniaRebirth1AchievementGuide } from "./games/hyperdimension-neptunia-rebirth1.js";
+import { GUIDE as plagueIncEvolvedAchievementGuide } from "./games/plague-inc-evolved.js";
+import { GUIDE as keepTalkingAndNobodyExplodesAchievementGuide } from "./games/keep-talking-and-nobody-explodes.js";
+import { GUIDE as beatHazardAchievementGuide } from "./games/beat-hazard.js";
 
 export const APP_GUIDES = [
 
@@ -1192,7 +1195,10 @@ export const GAME_GUIDES = [
     seriousSam2AchievementGuide,
     microsoftFlightSimulator2020AchievementGuide,
     deadlyPremonitionDirectorsCutAchievementGuide,
-    hyperdimensionNeptuniaRebirth1AchievementGuide
+    hyperdimensionNeptuniaRebirth1AchievementGuide,
+    plagueIncEvolvedAchievementGuide,
+    keepTalkingAndNobodyExplodesAchievementGuide,
+    beatHazardAchievementGuide
 
 ];
 

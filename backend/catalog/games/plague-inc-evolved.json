@@ -1,0 +1,2274 @@
+{
+    "id": 246620,
+    "steamAppId": 246620,
+    "name": "Plague Inc: Evolved",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/246620/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Strategy",
+        "Simulation",
+        "Real Time",
+        "Management",
+        "Dark",
+        "Replay Value"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "A_WormFood",
+            "name": "Worm Food",
+            "description": "Win a game by eradicating humanity with the Neurax Worm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "A_NotAnotherZombieGame",
+            "name": "Not Another Zombie Game",
+            "description": "Win a game with the Necroa Virus without making a single zombie",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "A_TheGloriousDead",
+            "name": "The Glorious Dead",
+            "description": "Win a game with the Necroa Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "A_InsaneBolt",
+            "name": "Insane Bolt",
+            "description": "Sprint to victory and set a world record by winning the game with Bacteria in under 365 days",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "A_CompleteBacteria",
+            "name": "Bacteria Victory",
+            "description": "Win a game with Bacteria on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "A_CompleteVirus",
+            "name": "Virus Victory",
+            "description": "Win a game with Virus on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "A_CompleteFungus",
+            "name": "Fungus Victory",
+            "description": "Win a game with Fungus on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "A_CompleteParasite",
+            "name": "Parasite Victory",
+            "description": "Win a game with Parasite on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "A_CompletePrion",
+            "name": "Prion Victory",
+            "description": "Win a game with Prion on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "A_CompleteNanoVirus",
+            "name": "Nano-Virus Victory",
+            "description": "Win a game with Nano-Virus on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "A_UnlockCheats",
+            "name": "Unlock Cheatmodes",
+            "description": "Unlock the cheats by winning a game on Normal for ALL disease types",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "A_BananaSkin",
+            "name": "Banana Skin",
+            "description": "Prevent PfiGlax modifing the Necroa Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "A_BigBang",
+            "name": "Big Bang",
+            "description": "Kill the DarkWater research team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "A_BottleSmasher",
+            "name": "Bottle Smasher",
+            "description": "Smash a Blue cure bubble and slow down the Research Team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "A_Brainzzzz",
+            "name": "Brainzzzz",
+            "description": "Discover the Waking Dead combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "A_BreatheDeep",
+            "name": "Breathe Deep",
+            "description": "Infect the Chernobyl research team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "A_BrownStreets",
+            "name": "Brown Streets",
+            "description": "Discover the Public Defecation combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "A_ChineseNuclearRetaliation",
+            "name": "Chinese Nuclear Retaliation",
+            "description": "Make the USA nuke China",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "A_ContaminatedPackage",
+            "name": "Contaminated Package",
+            "description": "Let humans spread the disease via blood transfusion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "A_DeadEnd",
+            "name": "Dead End",
+            "description": "Stop DarkWater from discovering a Necroa Virus weakness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "A_DontAskMe",
+            "name": "Don't Ask Me",
+            "description": "Make the PfiGlax modification project fail",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "A_DueDiligence",
+            "name": "Due Diligence",
+            "description": "Stop PfiGlax finding a link to the Necroa Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "A_EvolveYourDisease",
+            "name": "Evolve your disease",
+            "description": "Evolve your disease to become stronger",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "A_FlashMob",
+            "name": "Flash Mob",
+            "description": "Successfully use the Zombie Horde active ability",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "A_GettingColder",
+            "name": "Getting Colder",
+            "description": "Trick the Egyptian DNA tests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "A_HideAndSeek",
+            "name": "Hide and Seek",
+            "description": "Prevent link with Chernobyl exclusion zone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "A_IllBeBack",
+            "name": "I'll Be Back",
+            "description": "Successfully use the Zombie re-animate active ability",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "A_IsItABird",
+            "name": "Is it a bird?",
+            "description": "Discover the Vampire Bat combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "A_ItsATrap",
+            "name": "It's a Trap!",
+            "description": "Wipe out the Giza expedition",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "A_Jaws",
+            "name": "Jaws",
+            "description": "Discover the Blood in the Air combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "A_LongShot",
+            "name": "Long Shot",
+            "description": "Discover the Projectile Vomiting combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "A_NotStarter",
+            "name": "Non Starter",
+            "description": "Stop DarkWater from analysing the Necroa Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "A_OinkOink",
+            "name": "Oink oink",
+            "description": "Discover the Swineflu Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "A_OlympicSpoiler",
+            "name": "Olympic Spoiler",
+            "description": "Help the Olympics go viral",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "A_PatientWho",
+            "name": "Patient Who?",
+            "description": "Stop the CDC finding Patient Zero",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "A_PeerPressure",
+            "name": "Peer Pressure",
+            "description": "Have your plague discovered after riots force a government investigation",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "A_PlagueInSpace",
+            "name": "Plague in Space",
+            "description": "Infect astronauts before they launch a space mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "A_RedRain",
+            "name": "Red Rain",
+            "description": "Discover the Profuse Bleeding combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "A_RevengeOfOsiris",
+            "name": "Revenge of Osiris",
+            "description": "Invalidate the knowledge of the pharaohs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "A_RMSWatchList",
+            "name": "RMS Watch List",
+            "description": "Get your Plague on the RMS Watch List",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "A_Runner",
+            "name": "Runner",
+            "description": "Discover the Runner combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "A_RussianNuclearRetaliation",
+            "name": "Russian Nuclear Retaliation",
+            "description": "Make the USA nuke Russia",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "A_Spitter",
+            "name": "Spitter",
+            "description": "Discover the Spitter combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "A_StalkersDelight",
+            "name": "STALKERs delight",
+            "description": "Cause a nuclear meltdown",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "A_Tank",
+            "name": "Tank",
+            "description": "Discover the Tank combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "A_Tasty",
+            "name": "Tasty",
+            "description": "Discover the Bath Time combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "A_TestThis",
+            "name": "Test This!",
+            "description": "Force Chernobyl research to be put on hold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "A_TheEndPlague",
+            "name": "The End Plague",
+            "description": "Win one game with any disease type and any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "A_TouchscreenTrash",
+            "name": "Touchscreen Trash",
+            "description": "Disrupt the iCure and stop it helping cure research",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "A_UhOh",
+            "name": "Uh Oh",
+            "description": "Discover the Oops symptom combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "A_UseYourHead",
+            "name": "Use your head",
+            "description": "Discover the Cranial Dispersion combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "A_WalkingContradiction",
+            "name": "Walking Contradiction",
+            "description": "Discover the Walking Contradiction combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "A_WhoNeedsDEET",
+            "name": "Who needs DEET",
+            "description": "Avoid insect bites",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "A_InvoluntaryWithdrawal",
+            "name": "Z Com: Enemy Undead",
+            "description": "Destroy a Z Com fortress",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "A_AssumingDirectControlPC",
+            "name": "Assuming Direct Control",
+            "description": "Win a game by enslaving humanity with the Neurax Worm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "A_CompleteNeurax",
+            "name": "Neurax Worm Victory",
+            "description": "Win a game with Neurax Worm on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "A_CompleteBioWeapon",
+            "name": "Bio-Weapon Victory",
+            "description": "Win a game with Bio-Weapon on Normal Difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "A_completeblackdeath",
+            "name": "Complete Black Death",
+            "description": "Score 3 biohazards with Black Death scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "A_completecreatedequal",
+            "name": "Complete Created Equal",
+            "description": "Score 3 biohazards with Created Equal scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "A_completeglobalwarming",
+            "name": "Complete Global Warming",
+            "description": "Score 3 biohazards with Global Warming scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "A_completegoldenage",
+            "name": "Complete Golden Age",
+            "description": "Score 3 biohazards with Golden Age scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "A_completeiceage",
+            "name": "Complete Ice Age",
+            "description": "Score 3 biohazards with Ice Age scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "A_completemirrorearth",
+            "name": "Complete Mirror Earth",
+            "description": "Score 3 biohazards with Mirror Earth scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "A_completepirateplague",
+            "name": "Complete Pirate Plague",
+            "description": "Score 3 biohazards in the Pirate Plague scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "A_completeshutdowneverything",
+            "name": "Complete Shut Down Everything",
+            "description": "Score 3 biohazards in the Shut Down Everything scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "A_completesmallpox",
+            "name": "Complete Smallpox",
+            "description": "Score 3 biohazards with Smallpox scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "A_completesovereigndefault",
+            "name": "Complete Sovereign Default",
+            "description": "Score 3 biohazards with Sovereign Default scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "A_completeswineflu",
+            "name": "Complete Swine Flu",
+            "description": "Score 3 biohazards with Swine Flu scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "A_completevolcanicash",
+            "name": "Complete Volcanic Ash",
+            "description": "Score 3 biohazards in the Volcanic Ash scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "A_completewhocares",
+            "name": "Complete Who Cares",
+            "description": "Score 3 biohazards with Who Cares scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "A_completexenophobia",
+            "name": "Complete Xenophobia",
+            "description": "Score 3 biohazards with Xenophobia scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "A_supersparrow",
+            "name": "Super Sparrow",
+            "description": "Get 3 biohazards with each disease on Normal or higher in the Pirate Plague Scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "A_lavagod",
+            "name": "Lava God",
+            "description": "Get 3 biohazards with each disease on Normal or higher in Volcanic Ash scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "A_mrpresident",
+            "name": "Mr President",
+            "description": "Get 3 biohazards with each disease on Normal or higher in the Shut Down Everything Scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "A_UnknownOrigin",
+            "name": "Unknown Origin",
+            "description": "Score 3 biohazards with Unknown Origin scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "A_NipahVirus",
+            "name": "Nipah Virus",
+            "description": "Score 3 biohazards with Nipah Virus scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "A_FrozenVirus",
+            "name": "Frozen Virus",
+            "description": "Score 3 biohazards with Frozen Virus scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "A_ArtificialOrgans",
+            "name": "Artificial Organs",
+            "description": "Score 3 biohazards with Artificial Organs scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "A_CallPETA",
+            "name": "Call PETA",
+            "description": "Make a celebrity cry",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "A_ContagionCancelled",
+            "name": "Contagion Cancelled",
+            "description": "Prevent a film about your plague being made",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "A_WhoNeedsScience",
+            "name": "Who needs Science",
+            "description": "Show the world how useful homeopathy is",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "A_WhoNeedsBrains",
+            "name": "Who needs brains",
+            "description": "Take humanity back to the stone age",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "A_INeverAskedForThis",
+            "name": "I never asked for this",
+            "description": "Feel the negative side of artificial organs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "A_BacteriaMaster",
+            "name": "Bacteria Master",
+            "description": "Beat Bacteria on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "A_VirusMaster",
+            "name": "Virus Master",
+            "description": "Beat Virus disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "A_FungusMaster",
+            "name": "Fungus Master",
+            "description": "Beat Fungus disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "A_ParasiteMaster",
+            "name": "Parasite Master",
+            "description": "Beat Parasite disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "A_PrionMaster",
+            "name": "Prion Master",
+            "description": "Beat Prion disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "A_NanovirusMaster",
+            "name": "Nano-Virus Master",
+            "description": "Beat Nano-Virus disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "A_BioweaponMaster",
+            "name": "Bioweapon Master",
+            "description": "Beat Bioweapon disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "A_NeuraxMaster",
+            "name": "Neurax Master",
+            "description": "Beat Neurax Worm disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "A_NecroaMaster",
+            "name": "Necroa Master",
+            "description": "Beat Necroa Virus disease type on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "A_NormalShuffle",
+            "name": "Normal Shuffle",
+            "description": "Win 5 times in a row on normal difficulty with the shuffle strain enabled",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "A_MegabrutalShuffle",
+            "name": "Mega-Brutal Shuffle",
+            "description": "Win 5 times in a row on mega-brutal difficulty with the shuffle strain enabled",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "A_Bingo",
+            "name": "Bingo!",
+            "description": "Win 5 times in a row on normal difficulty with the lucky dip strain enabled",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "A_LotteryWinner",
+            "name": "Lottery Winner!",
+            "description": "Win 5 times in a row on mega brutal difficulty with the lucky dip strain enabled",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "A_Boomer",
+            "name": "Boomer",
+            "description": "Discover the Boomer combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "A_apeswillrise",
+            "name": "Apes will Rise!",
+            "description": "Destroy humanity with the Simian Flu and let the apes take over",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "A_notjustaprettyface",
+            "name": "Not Just a Pretty Face",
+            "description": "Make every ape in the world intelligent",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "A_filmfanatic",
+            "name": "Film Fanatic",
+            "description": "Recreate the setting of the Dawn of the Planet of the Apes film",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "A_greatescape",
+            "name": "Great EscApe",
+            "description": "Break apes out of the primate shelter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "A_TrojanHorse",
+            "name": "Trojan Horse",
+            "description": "Create a trojan plane and use it to infect a new country with the Neurax Worm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "A_PublishedScenario",
+            "name": "Published Scenario",
+            "description": "Publish a Plague Inc:Evolved Scenario to Steam Workshop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 104,
+            "apiname": "A_didimeantodothat",
+            "name": "Did I mean to do that?",
+            "description": "Reverse Simian evolution",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "A_familyfuture",
+            "name": "Family. Future.",
+            "description": "Create an ape colony to bring intelligent apes together",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "A_gosimianfaeces",
+            "name": "Go Simian-faeces",
+            "description": "Destroy a Gen-Sys lab",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "A_thetraveller",
+            "name": "The Traveller",
+            "description": "Move intelligent apes to a new country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 108,
+            "apiname": "A_evacuape",
+            "name": "EvacuApe",
+            "description": "Evade a drone attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 109,
+            "apiname": "A_apestogetherstrong",
+            "name": "Apes. Together. Strong.",
+            "description": "Gather 500,000 apes in a single country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 110,
+            "apiname": "A_Exterminape",
+            "name": "ExterminApe",
+            "description": "Scare humans into becoming hostile to apes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 111,
+            "apiname": "A_shouldntkeeppets",
+            "name": "Shouldn't Keep Pets",
+            "description": "Allow all the apes to die",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 112,
+            "apiname": "A_anapeisforlife",
+            "name": "An Ape is for Life…",
+            "description": "…Not just for Christmas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 113,
+            "apiname": "A_simianmaster",
+            "name": "Simian Master",
+            "description": "Beat the Simian Flu on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 114,
+            "apiname": "A_noidea",
+            "name": "No Idea",
+            "description": "Evolve 'Total Brain Death' in the first year and win",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 115,
+            "apiname": "A_doitliketheydo",
+            "name": "Do it like they do",
+            "description": "Discover the Discovery Channel Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 116,
+            "apiname": "A_apescreed",
+            "name": "Ape's Creed",
+            "description": "Discover the Assassin Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 117,
+            "apiname": "A_likefliesround",
+            "name": "Like flies round…",
+            "description": "Discover the Fly Magnet Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 118,
+            "apiname": "A_rudeawakening",
+            "name": "Rude Awakening",
+            "description": "Discover the Rude Awakening Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 119,
+            "apiname": "A_redaperedemption",
+            "name": "Red Ape Redemption",
+            "description": "Discover the Red Ape Redemption Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 120,
+            "apiname": "A_blindgenius",
+            "name": "Blind Genius",
+            "description": "Discover the Blind Genius Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 121,
+            "apiname": "A_notnecroa",
+            "name": "Not Necroa",
+            "description": "Discover the Zombie Panic Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 122,
+            "apiname": "A_attackofthedrones",
+            "name": "Attack of the Drones",
+            "description": "Have a colony destroyed by a drone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 123,
+            "apiname": "A_onthenaughtylist",
+            "name": "On The Naughty List",
+            "description": "Put humanity on Santa's naughty list",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 124,
+            "apiname": "A_ultimatechristmas",
+            "name": "Ultimate Christmas",
+            "description": "Discover the Ultimate Christmas Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 125,
+            "apiname": "A_completeteleportation",
+            "name": "Complete Teleportation",
+            "description": "Score 3 biohazards in the Teleportation scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 126,
+            "apiname": "A_completesantaslittlehelper",
+            "name": "Complete Santa's Little Helper",
+            "description": "Score 3 biohazards in the Santa's Little Helper scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 127,
+            "apiname": "A_gladossayshi",
+            "name": "GLaDOS Says Hi",
+            "description": "Make a teleport attempt end in tragedy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 128,
+            "apiname": "A_thefutureisbright",
+            "name": "The Future is Bright",
+            "description": "End the game with apes and humans living together peacefully",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 129,
+            "apiname": "A_MP_GeneticChallenger",
+            "name": "Genetic Challenger",
+            "description": "Play a VS multiplayer game through to the end",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 130,
+            "apiname": "A_MP_GeneticDomination",
+            "name": "Genetic Domination",
+            "description": "Play and win a VS multiplayer game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 131,
+            "apiname": "A_MP_BetaInfection",
+            "name": "Beta Infection",
+            "description": "Play a multiplayer VS game to completion with someone who already has the Beta Infection achievement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 132,
+            "apiname": "A_MP_NdemicInfection",
+            "name": "Ndemic Infection",
+            "description": "Play a multiplayer VS game with someone who already has the Ndemic Infection",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 133,
+            "apiname": "A_TutorialComplete",
+            "name": "Tutorial",
+            "description": "Complete the Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 134,
+            "apiname": "A_MP_Nuclear_Warfare",
+            "name": "Nuclear Warfare",
+            "description": "Launch a Nuclear Strike in a multiplayer game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 135,
+            "apiname": "A_MP_Brief_Acquaintance",
+            "name": "Brief Acquaintance",
+            "description": "Play a Co-op multiplayer game through to the end",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 136,
+            "apiname": "A_MP_One_Night_Stand",
+            "name": "One Night Stand",
+            "description": "Win a Quick Match Co-op multiplayer game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 137,
+            "apiname": "A_MP_Friends_With_Benefits",
+            "name": "Friends With benefits",
+            "description": "Win a Co-op multiplayer game on Casual Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 138,
+            "apiname": "A_MP_BFF",
+            "name": "BFF",
+            "description": "Win a Co-op multiplayer game on Brutal Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 139,
+            "apiname": "A_MP_Comrade_In_Arms",
+            "name": "Comrade-In-Arms",
+            "description": "Win a Co-op multiplayer game on Normal Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 140,
+            "apiname": "A_Disease_Master",
+            "name": "Disease Master",
+            "description": "Complete all disease types on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 141,
+            "apiname": "A_Scenario_Master",
+            "name": "Scenario Master",
+            "description": "Score 3 biohazards in every Official scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 142,
+            "apiname": "A_Fully_Evolved",
+            "name": "Fully Evolved",
+            "description": "Unlock all other Achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 143,
+            "apiname": "A_luckofthedevil",
+            "name": "Luck of the Devil",
+            "description": "Destroy a Templar fort with near death vampire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 144,
+            "apiname": "A_heartofdarkness",
+            "name": "Heart of Darkness",
+            "description": "Send your vampire into a Blood Rage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 145,
+            "apiname": "A_batmobile",
+            "name": "Batmobile",
+            "description": "Transform vampire into a bat and fly somewhere",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 146,
+            "apiname": "A_vampiremaster",
+            "name": "Vampire Master",
+            "description": "Beat Shadow Plague on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 147,
+            "apiname": "A_bloodpets",
+            "name": "Blood Pets",
+            "description": "Create slaves for your vampire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 148,
+            "apiname": "A_purityofthechosen",
+            "name": "Purity of the Chosen",
+            "description": "Create a new vampire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 149,
+            "apiname": "A_homesweethome",
+            "name": "Home Sweet Home",
+            "description": "Set up a vampire lair",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 150,
+            "apiname": "A_vanhelsingsdoom",
+            "name": "Van Helsing's Doom",
+            "description": "Destroy a Templar fort",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 151,
+            "apiname": "A_twilightlied",
+            "name": "Twilight Lied",
+            "description": "Let Humanity discover your vampire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 152,
+            "apiname": "A_rockbottom",
+            "name": "Rock Bottom",
+            "description": "Consume the cavers exploring the Shadow Pool",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 153,
+            "apiname": "A_waterygrave",
+            "name": "Watery Grave",
+            "description": "Drown Templar scientists in the Shadow Pool",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 154,
+            "apiname": "A_pusexplosion",
+            "name": "Pus Explosion",
+            "description": "Oooze pus everywhere!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 155,
+            "apiname": "A_wolfpack",
+            "name": "Wolf Pack",
+            "description": "Hunt down historian searching for Dracula's tomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 156,
+            "apiname": "A_iamyourfather",
+            "name": "I am your Father",
+            "description": "Resurrect Count Dracula",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 157,
+            "apiname": "A_makingamends",
+            "name": "Making Amends",
+            "description": "Help tourists repair the damage to Stonehenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 158,
+            "apiname": "A_greyscale",
+            "name": "Greyscale",
+            "description": "Infect Stonehenge explorers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 159,
+            "apiname": "A_poweroverwhelming",
+            "name": "Power Overwhelming",
+            "description": "Consume the bones at Stonehenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 160,
+            "apiname": "A_sadomasicist",
+            "name": "Sadomasochist",
+            "description": "Beat Shadow Plague with no Shadow Slaves",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 161,
+            "apiname": "A_countcountula",
+            "name": "Count Countula",
+            "description": "Carefully count your vampire's feeds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 162,
+            "apiname": "A_mruniverse",
+            "name": "Mr. Universe",
+            "description": "Discover the Mr. Universe Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 163,
+            "apiname": "A_darknight",
+            "name": "Dark Night",
+            "description": "Discover the Dark Night Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 164,
+            "apiname": "A_silentbutdeadly",
+            "name": "Silent but Deadly",
+            "description": "Discover the Silent but Deadly Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 165,
+            "apiname": "A_dentistsdream",
+            "name": "Dentist's Dream",
+            "description": "Discover the Dentist's Dream Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 166,
+            "apiname": "A_uphilliceskating",
+            "name": "Uphill Ice Skating",
+            "description": "Discover the Uphill Ice Skating Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 167,
+            "apiname": "A_evilisapointofview",
+            "name": "Evil is a point of view",
+            "description": "Discover the Evil is a point of view Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 168,
+            "apiname": "A_bloodtrumpsall",
+            "name": "Blood Trumps All",
+            "description": "Discover the Blood Trumps All Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 169,
+            "apiname": "A_carpejugulum",
+            "name": "Carpe Jugulum",
+            "description": "Discover the Carpe Jugulum Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 170,
+            "apiname": "A_welcometohellmouth",
+            "name": "Welcome to Hellmouth",
+            "description": "Discover the Welcome to Hellmouth Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 171,
+            "apiname": "A_diamondskin",
+            "name": "Diamond Skin",
+            "description": "Discover the Diamond Skin Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 172,
+            "apiname": "A_batcave",
+            "name": "Bat Cave",
+            "description": "Discover the Bat Cave Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 173,
+            "apiname": "A_essentialvitamins",
+            "name": "Essential Vitamins",
+            "description": "Discover the Essential Vitamins Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 174,
+            "apiname": "A_plaguedogs",
+            "name": "Plague Dogs",
+            "description": "Discover the Plague Dogs Combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 175,
+            "apiname": "A_chiroptophobia",
+            "name": "Chiroptophobia",
+            "description": "Drive out cavers before sampling the Shadow Pool",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 176,
+            "apiname": "A_NoBrexit",
+            "name": "No Brexit",
+            "description": "Stop Britain leaving the EU",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 177,
+            "apiname": "A_SoftBrexit",
+            "name": "Soft Brexit",
+            "description": "Help Britain softly leave the EU",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 178,
+            "apiname": "A_HardBrexit",
+            "name": "Hard Brexit",
+            "description": "Encourage Britain to have a 'hard' Brexit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 179,
+            "apiname": "A_BrutalBrexit",
+            "name": "Brutal Brexit",
+            "description": "Put Britain on the road to madness when it leaves the EU",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 180,
+            "apiname": "A_completemaddcow",
+            "name": "Complete Mad Cow Disease",
+            "description": "Score 3 biohazards in the Mad Cow scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 181,
+            "apiname": "A_sushicrisis",
+            "name": "Sushi Crisis",
+            "description": "Start a Sushi Crisis in Japan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 182,
+            "apiname": "A_completeflightclub",
+            "name": "Complete Flight Club",
+            "description": "Score 3 biohazards in the Flight Club scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 183,
+            "apiname": "A_completewhereiseveryone",
+            "name": "Complete Where is Everyone?",
+            "description": "Score 3 biohazards in the Where is Everyone? scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 184,
+            "apiname": "A_kindofabigdeal",
+            "name": "Kind Of A Big Deal",
+            "description": "Discover the Poker board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 185,
+            "apiname": "A_acoltclassic",
+            "name": "A Colt Classic",
+            "description": "Discover the Steeplechase board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 186,
+            "apiname": "A_infectingtabletops",
+            "name": "Infecting Tabletops",
+            "description": "Discover a very familiar board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 187,
+            "apiname": "A_sinkingfeelings",
+            "name": "Sinking Feelings",
+            "description": "Discover the Battleship board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 188,
+            "apiname": "A_partyhard",
+            "name": "Party Hard",
+            "description": "Discover a compulsory enjoyment board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 189,
+            "apiname": "A_takingrisks",
+            "name": "Taking Risks",
+            "description": "Discover the Risk board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 190,
+            "apiname": "A_catanyoubelieveit",
+            "name": "Catan You Believe It?",
+            "description": "Discover the Settlers Of Catan board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 191,
+            "apiname": "A_spellingoutsuccess",
+            "name": "Spelling Out Success",
+            "description": "Discover the Scrabble board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 192,
+            "apiname": "A_killercombo",
+            "name": "Killer Combo",
+            "description": "Discover the Cluedo/Clue board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 193,
+            "apiname": "A_anythingbuttrivial",
+            "name": "Anything But Trivial",
+            "description": "Discover the Trivial Pursuit board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 194,
+            "apiname": "A_welcometothejungle",
+            "name": "Welcome To The Jungle!",
+            "description": "Discover a cursed board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 195,
+            "apiname": "A_plagueopoly",
+            "name": "Plague-opoly",
+            "description": "Discover the Monopoly board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 196,
+            "apiname": "A_awkward",
+            "name": "Awkward!",
+            "description": "Discover an inappropriate board game combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 197,
+            "apiname": "A_completeultimateboardgames",
+            "name": "Complete Ultimate Board Games",
+            "description": "Score three biohazards in the Ultimate Board Games scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 198,
+            "apiname": "A_completesciencedenial",
+            "name": "Complete Science Denial",
+            "description": "Score three biohazards in the Science Denial scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 199,
+            "apiname": "A_thecureisalie",
+            "name": "The Cure Is A Lie",
+            "description": "Inspire an anti-cure protest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 200,
+            "apiname": "A_makingHeatWaves",
+            "name": "Making 'heat' waves",
+            "description": "Convince the world there is no environment crisis",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 201,
+            "apiname": "A_hackJob",
+            "name": "Hack Job",
+            "description": "Convince the world that the elections were rigged",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 202,
+            "apiname": "A_gamegate",
+            "name": "Gamergate",
+            "description": "Please don't review bomb us",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 203,
+            "apiname": "A_generationalTensions",
+            "name": "Generational tension",
+            "description": "Convince the world. Divide the world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 204,
+            "apiname": "A_district9",
+            "name": "District 9",
+            "description": "Convince the world that the newcomers don't belong",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 205,
+            "apiname": "A_independenceDay",
+            "name": "Independence Day",
+            "description": "Convince the world with an otherworldly threat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 206,
+            "apiname": "A_lochNessMonster",
+            "name": "Loch Ness Monster",
+            "description": "Convince the world of a legend in the loch",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 207,
+            "apiname": "A_tooCuteToLie",
+            "name": "Too cute to lie",
+            "description": "Convince the world it's not feline fine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 208,
+            "apiname": "A_filterBubble",
+            "name": "Filter bubble",
+            "description": "Beat the Fake News Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 209,
+            "apiname": "A_postTruthSociety",
+            "name": "Post-truth society",
+            "description": "Beat the Fake News Scenario on Brutal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 210,
+            "apiname": "A_weLoveFactCheckers",
+            "name": "We love fact checkers",
+            "description": "Get Fact Checked",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 211,
+            "apiname": "A_onTheFence",
+            "name": "On the fence",
+            "description": "Tear the world in two with indecision",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 212,
+            "apiname": "A_bacteriacured",
+            "name": "Bacteria Cured!",
+            "description": "Save the world from Bacteria on any difficulty ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 213,
+            "apiname": "A_viruscured",
+            "name": "Virus Cured!",
+            "description": "Save the world from Virus on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 214,
+            "apiname": "A_parasitecured",
+            "name": "Parasite Cured!",
+            "description": "Save the world from Parasite on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 215,
+            "apiname": "A_nanoviruscured",
+            "name": "Nano-Virus Cured!",
+            "description": "Save the world from Nano-Virus on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 216,
+            "apiname": "A_funguscured",
+            "name": "Fungus Cured!",
+            "description": "Save the world from Fungus on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 217,
+            "apiname": "A_prioncured",
+            "name": "Prion Cured!",
+            "description": "Save the world from Prion on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 218,
+            "apiname": "A_bioweaponcured",
+            "name": "Bio-Weapon Cured!",
+            "description": "Save the world from Bio-Weapon on any difficulty with a vaccine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 219,
+            "apiname": "A_antivaxxer",
+            "name": "Anti Vaxxer",
+            "description": "Save the world without using a vaccine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 220,
+            "apiname": "A_doomsdaysave",
+            "name": "Doomsday Save",
+            "description": "Save the world with less than 5% of the world's population left",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 221,
+            "apiname": "A_iwillfindyou",
+            "name": "I will find you",
+            "description": "Investigate a new disease outbreak",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 222,
+            "apiname": "A_shutdowneverything",
+            "name": "Shut down everything",
+            "description": "Do as Madagascar does",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 223,
+            "apiname": "A_inittogether",
+            "name": "In it together",
+            "description": "Initiative combo: In it together",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 224,
+            "apiname": "A_humanswerentmeanttofly",
+            "name": "Humans weren't meant to fly",
+            "description": "Initiative combo: Humans weren't meant to fly",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 225,
+            "apiname": "A_wereheretohelp",
+            "name": "We're here to help",
+            "description": "Initiative combo: We're here to help",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 226,
+            "apiname": "A_reportthyneighbour",
+            "name": "Report thy neighbour",
+            "description": "Initiative combo: Report thy neighbour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 227,
+            "apiname": "A_happyfrogs",
+            "name": "Happy Frogs",
+            "description": "Initiative combo: Happy Frogs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 228,
+            "apiname": "A_rulesareforlosers",
+            "name": "Rules are for losers",
+            "description": "Initiative combo: Rules are for losers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 229,
+            "apiname": "A_weaponx",
+            "name": "Weapon X",
+            "description": "Initiative combo: Weapon X",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 230,
+            "apiname": "A_frozenviruscured",
+            "name": "Frozen Virus Cured!",
+            "description": "Save the world from Frozen Virus on any difficulty with a vaccine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 231,
+            "apiname": "A_supportbubble",
+            "name": "Support Bubble",
+            "description": "Fund all the special Field Operative upgrades in Frozen Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 232,
+            "apiname": "A_snowway",
+            "name": "Snow Way",
+            "description": "Try to cover up the DrillZero site",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 233,
+            "apiname": "A_icefind",
+            "name": "Ice Find",
+            "description": "Study the DrillZero site",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 234,
+            "apiname": "A_freezethingshappen",
+            "name": "Freeze things happen",
+            "description": "Unleash a new outbreak of the Frozen Virus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 235,
+            "apiname": "A_OutbreakSurvivor",
+            "name": "Outbreak Survivor",
+            "description": "Win 5 Outbreaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 236,
+            "apiname": "A_OutbreakVeteran",
+            "name": "Outbreak Veteran",
+            "description": "Win 10 Outbreaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 237,
+            "apiname": "A_OutbreakLegend",
+            "name": "Outbreak Legend",
+            "description": "Win 20 Outbreaks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 238,
+            "apiname": "A_XenolithWin",
+            "name": "Diamonds Are Forever",
+            "description": "Turn the planet into a crystal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 239,
+            "apiname": "A_XenolithAI",
+            "name": "Hello, World!",
+            "description": "Awaken an alien consciousness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 240,
+            "apiname": "A_XenolithSeed",
+            "name": "To Infinity and Beyond",
+            "description": "Shatter the planet into fragments",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 241,
+            "apiname": "A_XenolithSignal",
+            "name": "Phone Home",
+            "description": "Emit a powerful void signal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 242,
+            "apiname": "A_therecanbeonlyone",
+            "name": "There Can Be Only One",
+            "description": "Turn the planet into a crystal without using meteors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 243,
+            "apiname": "A_onevisiononepurpose",
+            "name": "One Vision, One Purpose",
+            "description": "Beat Xenolith on mega-brutal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 244,
+            "apiname": "A_winterhascome",
+            "name": "Winter Has Come",
+            "description": "Beat the Zombies Vs Earth Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 245,
+            "apiname": "A_coopmode",
+            "name": "Co-Op Mode",
+            "description": "Beat the Anti-Vax Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 246,
+            "apiname": "A_highwaytohell",
+            "name": "Highway to Hell",
+            "description": "Beat the Hell On Earth Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 247,
+            "apiname": "A_thinningtheherd",
+            "name": "Thinning the Herd",
+            "description": "Beat the Herd Immunity Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 248,
+            "apiname": "A_connectthedots",
+            "name": "Connect the Dots",
+            "description": "Beat the Measles Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 249,
+            "apiname": "A_outoftheblue",
+            "name": "Out of the Blue",
+            "description": "Beat the Cure Mania Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 250,
+            "apiname": "A_gottahandittoyou",
+            "name": "Gotta Hand It to you",
+            "description": "Beat the Leprosy Scenario on Normal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
