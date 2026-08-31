@@ -591,6 +591,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("verdun"));
     assert.ok(slugs.includes("farming-simulator-17"));
     assert.ok(slugs.includes("project-cars"));
+    assert.ok(slugs.includes("legend-of-grimrock"));
+    assert.ok(slugs.includes("legend-of-grimrock-2"));
+    assert.ok(slugs.includes("underrail"));
 
 });
 

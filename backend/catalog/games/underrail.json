@@ -1,0 +1,519 @@
+{
+    "id": 250520,
+    "steamAppId": 250520,
+    "name": "UnderRail",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/250520/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": true,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "CRPG",
+        "Turn-Based Combat",
+        "Post-apocalyptic",
+        "Isometric",
+        "Story Rich",
+        "Exploration"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_FIRST_BLOOD",
+            "name": "First Blood!",
+            "description": "Kill a living creature",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_KILL_X_RATHOUNDS",
+            "name": "Somebody Called For an Exterminator?",
+            "description": "Kill 100 rathounds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_KILL_X_INSECTOIDS",
+            "name": "It's Buggy",
+            "description": "Kill 100 insectoids",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_KILL_X_ROBOTS",
+            "name": "Terminator Exterminator",
+            "description": "Kill 50 robots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_KILL_X_HUMANS",
+            "name": "Antisocial Tendencies",
+            "description": "Kill 100 humans",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_KILL_X_WITH_FISTS",
+            "name": "Backalley Pugilism",
+            "description": "Kill 50 enemies unarmed or with fist weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_KILL_X_WITH_KNIFE",
+            "name": "Mr. Stabby",
+            "description": "Kill 50 enemies with a knife",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_KILL_X_WITH_SLEDGEHAMMER",
+            "name": "It's Hammer Time!",
+            "description": "Kill 50 enemies with a sledgehammer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_KILL_X_WITH_FIREARMS",
+            "name": "Run and Gun",
+            "description": "Kill 50 enemies with firearms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_KILL_X_WITH_ENERGY_WEAPONS",
+            "name": "Phasers Set to Kill",
+            "description": "Kill 50 enemies with energy weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_KILL_X_WITH_ACID",
+            "name": "Acid Trip",
+            "description": "Kill 50 enemies with acid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_KILL_X_WITH_GRENADES",
+            "name": "Fire in the Hole!",
+            "description": "Kill 50 enemies with grenades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_KILL_X_WITH_CROSSBOW",
+            "name": "Put this Apple on Your Head",
+            "description": "Kill 50 enemies with a crossbow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_KILL_X_WITH_METATHERMICS",
+            "name": "Fire and Ice",
+            "description": "Kill 50 enemies with metathermic psi abilities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_KILL_X_WITH_THOUGHT_CONTROL",
+            "name": "Look Into My Eyes",
+            "description": "Kill 50 enemies with thought control psi abilities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_KILL_X_WITH_PSYCHOKINETICS",
+            "name": "Reach Out and Touch Somebody",
+            "description": "Kill 50 enemies with psychokinetic psi abilities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_KILL_X_WITH_TRAPS",
+            "name": "Mine, All Mine!",
+            "description": "Kill 50 enemies with traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_HACK_X_LOCKS",
+            "name": "Manual Override",
+            "description": "Hack 50 electronic locks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_PICK_X_LOCKS",
+            "name": "Skeleton Key",
+            "description": "Pick 50 mechanical locks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_DISARM_X_TRAPS",
+            "name": "It's Always the Blue Wire",
+            "description": "Disarm 50 traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_DISCOVER_X_SECRETS",
+            "name": "Snoop Dog",
+            "description": "Discover 10 hidden objects or passages (traps don't count)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_USE_X_HEALTH_HYPOS",
+            "name": "Universal Recipient",
+            "description": "Use 50 health hypos",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_USE_X_PSI_BOOSTERS",
+            "name": "The Other Side",
+            "description": "Use 50 psi boosters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_USE_X_ADRENALINE_SHOTS",
+            "name": "Thrill Junkie",
+            "description": "Use 30 adrenaline shots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_USE_X_MORPHINE_SHOTS",
+            "name": "Pain Free",
+            "description": "Use 15 morphine shots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_STEAL_X_ITEMS",
+            "name": "Kleptomaniac",
+            "description": "Steal 30 items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_PICK_X_MUSHROOMS",
+            "name": "Shroomhead",
+            "description": "Pick 100 mushrooms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_CHILL_X_ENEMIES",
+            "name": "Someone Need A Chill Pill?",
+            "description": "Chill enemies 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_FREEZE_X_ENEMIES",
+            "name": "Mr. Freeze",
+            "description": "Freeze enemies 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_STUN_X_ENEMIES",
+            "name": "Look At All The Pretty Stars",
+            "description": "Stun enemies 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_SHORTCIRCUIT_X_ENEMIES",
+            "name": "What Does This Button Do?",
+            "description": "Short-circuit enemies 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_INCAPACITATE_X_ENEMIES",
+            "name": "Resisted Arrest",
+            "description": "Incapacitate enemies 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_IGNITE_X_ENEMIES",
+            "name": "Pyromaniac",
+            "description": "Ignite enemies 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_MISS_X_AIMED_SHOTS",
+            "name": "Back To The Shooting Range...",
+            "description": "Miss 10 aimed shots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_EAT_X_MEALS",
+            "name": "Rat Meat Gourmand",
+            "description": "Eat 50 meals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_EXECUTE_X_HUMANS",
+            "name": "Hitman",
+            "description": "Kill 10 humans using the Execute attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_KILL_ENEMY_WITH_DIRTY_KICK",
+            "name": "Chuck Attack",
+            "description": "Kill an enemy with Dirty Kick",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_LEAVE_ZONE_IN_COMBAT",
+            "name": "Tactical Retreat",
+            "description": "Leave an area during combat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_KILL_ENEMY_WITH_LAST_BULLET",
+            "name": "Do You Feel Lucky, Punk?",
+            "description": "Kill an enemy with the last bullet in the magazine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_DEAL_OVERKILL_DAMAGE_WITH_WEAPON",
+            "name": "It's Super Effective!",
+            "description": "Deal over 500 damage with a weapon or an unarmed attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_SURVIVE_WITH_1_HP",
+            "name": "Just a Flesh Wound",
+            "description": "Survive an attack with 1 health",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_GET_KILLED_BY_SAME_ROBOT_3_TIMES",
+            "name": "I'm Afraid I Can't Let You Do That",
+            "description": "Get killed by the same robot 3 times in one sitting",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_RESTEALTH_IN_COMBAT",
+            "name": "Now You See Me...",
+            "description": "Successfully restealth during combat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_SNIPE_FULL_HP_ENEMY",
+            "name": "One Shot - One Kill",
+            "description": "Snipe down a full health enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_EVADE_3_ATTACKS",
+            "name": "Can't Touch This!",
+            "description": "Evade 3 attacks in a row in a single turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_SHATTER_ENEMY",
+            "name": "Rest In Pieces",
+            "description": "Shatter an enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_KILL_YOUR_DOPPELGANGER",
+            "name": "There Can Be Only One",
+            "description": "Kill your doppelganger",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_KILL_ONLY_YOURSELF_WITH_GRENADE",
+            "name": "You Throw Like a Girl",
+            "description": "Kill only yourself with a grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_KILL_X_WITH_ONE_GRENADE",
+            "name": "Within The Budget",
+            "description": "Kill 5 enemies with a single grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_KILL_X_WITH_ONE_BURST",
+            "name": "Spray And Pray",
+            "description": "Kill 3 enemies with a single burst attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_KILL_X_WITH_TEMPORAL_MANIPULATION",
+            "name": "Your Time is Up!",
+            "description": "Kill 50 enemies with temporal manipulation psi abilities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_KILL_X_WITH_SWORD",
+            "name": "Die by the Sword",
+            "description": "Kill 50 enemies with a sword",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_KILL_X_WITH_SPEAR",
+            "name": "Impaler",
+            "description": "Kill 50 enemies with a spear",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_KILL_TCHORT",
+            "name": "Biodeicide",
+            "description": "Kill Tchort, the game's final boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_FINISH_AS_MUTANT",
+            "name": "Mutated Happily Ever After",
+            "description": "Finish the game through the mutant-exclusive endgame - available only after transforming via Mutagen D5 and following the Mutant questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

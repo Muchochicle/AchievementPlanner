@@ -1,0 +1,564 @@
+{
+    "id": 251730,
+    "steamAppId": 251730,
+    "name": "Legend of Grimrock 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/251730/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Dungeon Crawler",
+        "RPG",
+        "Grid-based",
+        "Puzzle",
+        "First-Person",
+        "Old School"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "island_master",
+            "name": "Island Master",
+            "description": "Enter the Nexus",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "complete_game_hard",
+            "name": "Hard Boiled",
+            "description": "Complete the game with hard difficulty setting",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "oldschool",
+            "name": "Doin’ It Old School",
+            "description": "Complete the game with old school mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "backstabber",
+            "name": "Backstabber",
+            "description": "Defeat a monster with a backstab attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "monster_killer",
+            "name": "Monster Killer",
+            "description": "Kill 250 monsters",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "swordsman",
+            "name": "Swordsman",
+            "description": "Perform 500 melee weapon attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "marksman",
+            "name": "Marksman",
+            "description": "Perform 500 missile or throwing weapon attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "specialist",
+            "name": "Specialist",
+            "description": "Perform 100 power attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "traveller",
+            "name": "Go the Extra Mile",
+            "description": "Travel 10000 tiles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "diver",
+            "name": "Holy Diver",
+            "description": "Dive 250 tiles",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "apprentice_wizard",
+            "name": "Apprentice Wizard",
+            "description": "Cast 25 spells",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "master_wizard",
+            "name": "Master Wizard",
+            "description": "Cast 250 Spells",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "archmage",
+            "name": "Archmage",
+            "description": "Cast 500 spells",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "sage",
+            "name": "Sage",
+            "description": "Learn 15 spells",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "apprentice_alchemist",
+            "name": "Apprentice Alchemist",
+            "description": "Mix a total of 10 potions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "master_alchemist",
+            "name": "Master Alchemist",
+            "description": "Mix a total of 50 potions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "shape_shifter",
+            "name": "Identity Crisis",
+            "description": "Polymorph 10 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "secret_spotter_1",
+            "name": "Secret Spotter",
+            "description": "Find 10 secrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "secret_spotter_2",
+            "name": "Secret Sniffer",
+            "description": "Find 25 secrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "secret_spotter_3",
+            "name": "Secret Searcher",
+            "description": "Find 50 secrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "find_all_secrets",
+            "name": "Seeker of Secrets",
+            "description": "Find all secrets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "treasure_hunter",
+            "name": "Booty Addict",
+            "description": "Dig up three treasure chests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "find_all_treasures",
+            "name": "Treasure Hunter",
+            "description": "Dig up all treasure chests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "skull_collector",
+            "name": "Skull Snatcher",
+            "description": "Find 8 skulls",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "find_essence",
+            "name": "Elementary",
+            "description": "Collect an elemental essence",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "find_four_essences",
+            "name": "Master of the Elements",
+            "description": "Collect four elemental essences",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "find_bane",
+            "name": "Chop Chop",
+            "description": "Find Bane",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "find_pie",
+            "name": "Piece of the Pie",
+            "description": "Find the pie",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "find_meteor_hammer",
+            "name": "Watcher of the Skies",
+            "description": "Assemble the Meteor Hammer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "fish_catcher",
+            "name": "Rodman",
+            "description": "Catch 25 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "gold_keys",
+            "name": "Golden Boy",
+            "description": "Open 5 gold locks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "skill_expert",
+            "name": "Expert",
+            "description": "Max out a skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "skill_master",
+            "name": "Guru",
+            "description": "Max out three skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "explorer",
+            "name": "Explorer",
+            "description": "Visit 10 levels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "master_explorer",
+            "name": "Cartographer",
+            "description": "Visit all levels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "armor_set_archmage",
+            "name": "I Have the Power!",
+            "description": "Collect and wear archmage's uniform (4 pieces)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "armor_set_rogue",
+            "name": "Like a Shadow",
+            "description": "Collect and wear rogue's wardrobe (5 pieces)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "armor_set_crystal",
+            "name": "Shiniest Knight of Them All",
+            "description": "Collect and wear full set of Crystal armor (6 pieces)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "armor_set_meteor",
+            "name": "Hard as a Rock",
+            "description": "Collect and wear full set of Meteor armor (6 pieces)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "defeat_viper_roots",
+            "name": "Extreme Gardening",
+            "description": "Defeat the Viper Roots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "defeat_summon_stones",
+            "name": "Having a Gneiss Time",
+            "description": "Defeat the Summon Stones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "defeat_ratling_boss",
+            "name": "Pest Control",
+            "description": "Defeat the Ratling Boss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "defeat_herders",
+            "name": "Fumigation",
+            "description": "Defeat Herder's Den",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "defeat_wormbounds",
+            "name": "Rest in Peace",
+            "description": "Defeat the Wormbound brothers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "defeat_lindworm",
+            "name": "Dragon Slayer",
+            "description": "Defeat the Lindworm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "enter_balance_shrine",
+            "name": "Enlightenment",
+            "description": "Enter the Shrine of Balance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "enter_archives",
+            "name": "Code Cracker",
+            "description": "Open the door to the Archives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "enter_pyramid",
+            "name": "Snake Charmer",
+            "description": "Enter the Pyramid of Umas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "enter_cemetery",
+            "name": "Hallowed Ground",
+            "description": "Open the gate to the Cemetery",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "enter_castle",
+            "name": "Castle Crasher",
+            "description": "Enter the Castle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "enter_mine",
+            "name": "Mine Sweeper",
+            "description": "Enter the Crystal Mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "speed_run_viper_root",
+            "name": "Gotta Go Fast",
+            "description": "Summon the Viper Roots in under 6 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "full_monty",
+            "name": "Full Monty",
+            "description": "Kill a monster by throwing pants at it",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "gluttony",
+            "name": "Gluttony",
+            "description": "Reach level 10 with a farmer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "unstoppable",
+            "name": "Unstoppable",
+            "description": "Kill a monster with a single blow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "defeat_magma_golem",
+            "name": "Turn off the Heat",
+            "description": "Defeat a Magma Golem",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "find_cube",
+            "name": "Relic",
+            "description": "Dig three times on a single hidden spot in the Barren Desert to unearth the Cube relic - it also counts as a secret, and the clue is shown in one of the ending cinematics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "fist_fighter",
+            "name": "Fist Fighter",
+            "description": "Deal a killing blow with unarmed attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "telefrag",
+            "name": "Telefragged",
+            "description": "Kill a monster by teleporting on it",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ironman",
+            "name": "Insane Ironman",
+            "description": "Complete the game with Ironman and Single-use Crystals modes turned on",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

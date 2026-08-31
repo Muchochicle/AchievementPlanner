@@ -567,6 +567,9 @@ import { GUIDE as seriousSamHdTseAchievementGuide } from "./games/serious-sam-hd
 import { GUIDE as verdunAchievementGuide } from "./games/verdun.js";
 import { GUIDE as farmingSimulator17AchievementGuide } from "./games/farming-simulator-17.js";
 import { GUIDE as projectCarsAchievementGuide } from "./games/project-cars.js";
+import { GUIDE as legendOfGrimrockAchievementGuide } from "./games/legend-of-grimrock.js";
+import { GUIDE as legendOfGrimrock2AchievementGuide } from "./games/legend-of-grimrock-2.js";
+import { GUIDE as underrailAchievementGuide } from "./games/underrail.js";
 
 export const APP_GUIDES = [
 
@@ -1156,7 +1159,10 @@ export const GAME_GUIDES = [
     seriousSamHdTseAchievementGuide,
     verdunAchievementGuide,
     farmingSimulator17AchievementGuide,
-    projectCarsAchievementGuide
+    projectCarsAchievementGuide,
+    legendOfGrimrockAchievementGuide,
+    legendOfGrimrock2AchievementGuide,
+    underrailAchievementGuide
 
 ];
 
