@@ -1,0 +1,681 @@
+{
+    "id": 415200,
+    "steamAppId": 415200,
+    "name": "Motorsport Manager",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/415200/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Management",
+        "Sports",
+        "Racing",
+        "Simulation",
+        "Strategy",
+        "Motorsport"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Hund_Millionaire",
+            "name": "Millionaire's Club",
+            "description": "Have a budget of over 100 million",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Ten_Pole_Positions_In_One_Season",
+            "name": "Top Grid Guru",
+            "description": "Start 10 races on pole position in one season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Last_To_First_In_One_Race",
+            "name": "Backmarker to Best",
+            "description": "Have a driver win a race after starting last on the grid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Hire_A_Driver",
+            "name": "Welcome Aboard!",
+            "description": "Hire a driver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Fire_A_Driver",
+            "name": "Retired",
+            "description": "Fire a driver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Hire_Driver_20m_pa",
+            "name": "Kaching!",
+            "description": "Hire a driver with an agreed wage of 20 million a year or more",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Bottom_To_Top",
+            "name": "Every Dog Has Its Day",
+            "description": "Complete the \"Underdog Challenge\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Race_On_All_Track_Variations",
+            "name": "Track Literate",
+            "description": "Finish a race on every track variation of every track",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Win_1_Race",
+            "name": "\"In Order to Finish First, You First Have To Finish.\"",
+            "description": "Have a driver win a race",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Win_3_Races_In_A_Row",
+            "name": "Hat-Trick",
+            "description": "Have one of your drivers win 3 races consecutively",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Win_Practice",
+            "name": "Practice Makes Perfect!",
+            "description": "Finish top in practice",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Qualify_3_Poles_In_A_Row",
+            "name": "Lap Time Leader",
+            "description": "Qualify in pole position 3 times in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Qualify_Pole_By_1s",
+            "name": "Hot Lap",
+            "description": "Qualify in pole position by over a second",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Win_Race_By_1m",
+            "name": "Blue Flag",
+            "description": "Win a race by over a minute",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Finish_Race_With_5pct_Engine",
+            "name": "\"Do You Smell Smoke?\"",
+            "description": "Have a driver pass the chequered flag in a race with their engine's condition under 5%",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Finish_Race_Using_All_Compounds",
+            "name": "Variety Is The Spice Of Life",
+            "description": "Finish a race having used 3 different tyre compound types on one car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Reach_Max_Marketability",
+            "name": "So Hot Right Now",
+            "description": "Reach 100% Marketability",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 18,
+            "apiname": "Fully_Upgrade_HQ",
+            "name": "State of the Art",
+            "description": "Fully upgrade your HQ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Podium_Reserve_Driver",
+            "name": "Drivers Are Overrated",
+            "description": "Have a temporary driver get a podium position in a race",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Hire_Driver_Mech_Combo",
+            "name": "Dream Team",
+            "description": "Hire a driver and mechanic who have worked together in the past",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Promote_Reserve_Driver",
+            "name": "Time To Shine",
+            "description": "Promote a reserve driver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Both_Driver_Mech_Relationships_Maxed",
+            "name": "Relationship Counsellor",
+            "description": "Max out the driver/mechanic relationship for both your No. 1 and No. 2 drivers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Scout_Five_Star_Driver",
+            "name": "Struck Gold",
+            "description": "Scout a 4.5 star (or above) driver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Scout_Five_Star_Pot_Youngster",
+            "name": "Rising Star",
+            "description": "Scout an under-18 driver with 5-star potential",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Max_Morale_Driver",
+            "name": "World's Best Boss",
+            "description": "Have a driver reach 100% morale",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "Min_Morale_Driver",
+            "name": "You're Here to Race, Not to Have Fun...",
+            "description": "Have a driver reach 1% morale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Win_A_Vote",
+            "name": "Democracy Reigns",
+            "description": "Win a vote",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Win_A_Vote_With_3_Power",
+            "name": "Friends in High Places",
+            "description": "Win a vote with 3 voting power or more",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Build_Level_5_Part",
+            "name": "Tinkerer",
+            "description": "Build a 'Legendary' part",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 30,
+            "apiname": "Fit_All_Level_5_Parts",
+            "name": "Rattletrap to Pocket Rocket",
+            "description": "Fit a car exclusively with 'Legendary' parts",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 31,
+            "apiname": "Spend_30m_On_New_Car",
+            "name": "Nothing But The Best",
+            "description": "Spend over 30 million on a new season's car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Win_Any_Champ_With_Min_HQ",
+            "name": "I like it how it is!",
+            "description": "Win a championship by going through the whole season without building or upgrading anything in the HQ.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Sign_Sponsor_1m",
+            "name": "Jet Skis for Everyone!",
+            "description": "Sign a sponsorship deal worth over 1 million",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Sign_Five_Star_Sponsor",
+            "name": "I'm Kind of a Big Deal...",
+            "description": "Sign a 5-star sponsor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Win_Team_Champ",
+            "name": "No \"I\" In Team",
+            "description": "Win the Teams' Championship",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Win_Both_Champ",
+            "name": "Pit Wall Wunderkind",
+            "description": "Win both the Teams' and Drivers' Championships in one season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Win_Driver_Champ",
+            "name": "\"I Like to Race, Not to Do Laps Alone\"",
+            "description": "Win a 'Driver's Championship'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Win_Any_Champ_No_Part_Upgrades",
+            "name": "If It Ain't Broke...",
+            "description": "Win a championship by going through the whole season without improving the performance or reliability of any car parts through the Part Improvement screen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Win_Any_Champ_No_Sponsors",
+            "name": "Money's Overrated",
+            "description": "Win a championship by going through the whole season without signing any new sponsors.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Finish_A_Season",
+            "name": "Seasoned",
+            "description": "Complete a Season",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Win_7_Champs",
+            "name": "\"Let's Put it This Way, I Like Number Seven.\"",
+            "description": "Win 7 'Driver's Championships'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Avoid_Chairman_Ultimatum",
+            "name": "\"You Can Cut The Tension With a Cricket Stump\"",
+            "description": "Survived the chairman's ultimatum",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Get_Fired",
+            "name": "Black Flag",
+            "description": "Get fired",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Get_Hired",
+            "name": "Re-Entering",
+            "description": "Get hired",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Bottom_To_Top_Manager",
+            "name": "Managerial Mogul",
+            "description": "Complete the 'Top Manager' challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Rogue_Driver_Victory",
+            "name": "\"Just Leave Me Alone, I Know What I'm Doing\"",
+            "description": "Have a driver win a race while they have 'Gone Rogue'",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Finish_First_Race",
+            "name": "Chequered Flag",
+            "description": "Finish your first race",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Caught_Breaking_Rules",
+            "name": "It Came Like That!",
+            "description": "Have a risky part be discoverd by the GMA",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Win_WMC_With_Silva",
+            "name": "Silva's Legacy",
+            "description": "Win the WMC's 'Team' or 'Driver' championship as the race team Silva",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Win_Driver_Champ_Predator",
+            "name": "Predator",
+            "description": "Win a 'Driver's Championship' as Predator Team Racing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Win_WMC_With_Kruger",
+            "name": "Former Glory",
+            "description": "Win the WMC's 'Team' or 'Driver' championship as Kruger Motorsport",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Hire_Five_Star_Designer_Zamp",
+            "name": "Living Up To Their Namesake",
+            "description": "Hire a 5-star designer as Zampelli Engineering",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Team_Champ_Thornton",
+            "name": "Thorn in My Side",
+            "description": "Win the Teams' Championship as Thornton Motorsport",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Win_Both_Champs_Together_Chariot",
+            "name": "Swing Low...",
+            "description": "In the same season, win both the Teams' and Drivers' Championships in WMC as Chariot Motor Group",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Create_A_Team",
+            "name": "Building a Legend",
+            "description": "Create a new team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "Win_Both_WMC_Custom_Team",
+            "name": "Ultimate Victory",
+            "description": "Win the WMC’s ‘Driver’ and ‘Team’ Championship in the same year with a customly created new team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Win_Both_IGTC_Custom_Team",
+            "name": "Adaptable ",
+            "description": "Win the IGTC’s ‘Driver’ and ‘Team’ Championship in the same year with a customly created new team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Will_Evans_Win_Race",
+            "name": "Where There’s a Will There’s a Way",
+            "description": "Have the driver William Evans win a race",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Win_By_2017_ERS_Predator",
+            "name": "Hasty Hunters",
+            "description": "Win the ERS ‘Team Championship’ as Predator Team Racing by 2017",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Win_By_2018_WMC_Kitano",
+            "name": "Waiting in the Wings",
+            "description": "Win the WMC’s ‘Team Championship’ by the end of the 2018 season as Kitano Sport",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Rafael_Win_2016_IGTC_Driver_as_Oranje",
+            "name": "Once a King, Always a King",
+            "description": "Have the driver Rafael Rodrigues win the 2016 IGTC ‘Driver’s Championship’ as Oranje GT",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "Challenged",
+            "name": "Challenged",
+            "description": "Successfully complete your first challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "Rookie",
+            "name": "Rookie",
+            "description": "Complete all challenges in the 'Rookie' Tier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "Pro",
+            "name": "Pro",
+            "description": "Complete all challenges in the 'Pro' Tier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "All_Star",
+            "name": "All-Star",
+            "description": "Complete all challenges in the 'All-Star' Tier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "Achievement_3_1",
+            "name": "Endurance Champion",
+            "description": "Win the IEC-A",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "Achievement_3_2",
+            "name": "There's Always Time",
+            "description": "Win an endurance race after being at least 120 seconds behind the leader in IEC-A",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "Achievement_3_3",
+            "name": "Highway to the Danger Zone",
+            "description": "Finish a race with a driver in the danger zone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "Achievement_3_4",
+            "name": "Rising Tigers",
+            "description": "Get promoted to the IEC-A as the Sangju Tigers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "Achievement_3_5",
+            "name": "Dynamic Duo",
+            "description": "Win an endurance racing with only 2 drivers having driven",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "Achievement_3_6",
+            "name": "Jack of All Trades",
+            "description": "Win the IEC-A championship with each of the three ERS types",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "Achievement_3_7",
+            "name": "Fastest Crew in the World",
+            "description": "Do a sub 1.92 second pit stop (must include a tyre change)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "Achievement_3_8",
+            "name": "20/20 Vision",
+            "description": "Have a pit crew where each active member has a 20 rating for their job",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

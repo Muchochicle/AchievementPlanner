@@ -647,6 +647,9 @@ import { GUIDE as foundationAchievementGuide } from "./games/foundation.js";
 import { GUIDE as codeVeinAchievementGuide } from "./games/code-vein.js";
 import { GUIDE as forcedShowdownAchievementGuide } from "./games/forced-showdown.js";
 import { GUIDE as discstormAchievementGuide } from "./games/discstorm.js";
+import { GUIDE as footballManager2023AchievementGuide } from "./games/football-manager-2023.js";
+import { GUIDE as motorsportManagerAchievementGuide } from "./games/motorsport-manager.js";
+import { GUIDE as hotshotRacingAchievementGuide } from "./games/hotshot-racing.js";
 
 export const APP_GUIDES = [
 
@@ -1316,7 +1319,10 @@ export const GAME_GUIDES = [
     foundationAchievementGuide,
     codeVeinAchievementGuide,
     forcedShowdownAchievementGuide,
-    discstormAchievementGuide
+    discstormAchievementGuide,
+    footballManager2023AchievementGuide,
+    motorsportManagerAchievementGuide,
+    hotshotRacingAchievementGuide
 
 ];
 
