@@ -481,6 +481,9 @@ import { GUIDE as narutoShippudenUltimateNinjaStorm4AchievementGuide } from "./g
 import { GUIDE as assassinsCreed4BlackFlagAchievementGuide } from "./games/assassins-creed-4-black-flag.js";
 import { GUIDE as assassinsCreedUnityAchievementGuide } from "./games/assassins-creed-unity.js";
 import { GUIDE as assassinsCreedSyndicateAchievementGuide } from "./games/assassins-creed-syndicate.js";
+import { GUIDE as eaSportsFc26AchievementGuide } from "./games/ea-sports-fc-26.js";
+import { GUIDE as footballManager2021AchievementGuide } from "./games/football-manager-2021.js";
+import { GUIDE as letsBuildAZooAchievementGuide } from "./games/lets-build-a-zoo.js";
 
 export const APP_GUIDES = [
 
@@ -984,7 +987,10 @@ export const GAME_GUIDES = [
     narutoShippudenUltimateNinjaStorm4AchievementGuide,
     assassinsCreed4BlackFlagAchievementGuide,
     assassinsCreedUnityAchievementGuide,
-    assassinsCreedSyndicateAchievementGuide
+    assassinsCreedSyndicateAchievementGuide,
+    eaSportsFc26AchievementGuide,
+    footballManager2021AchievementGuide,
+    letsBuildAZooAchievementGuide
 
 ];
 

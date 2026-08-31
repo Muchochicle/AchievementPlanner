@@ -505,6 +505,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("assassins-creed-4-black-flag"));
     assert.ok(slugs.includes("assassins-creed-unity"));
     assert.ok(slugs.includes("assassins-creed-syndicate"));
+    assert.ok(slugs.includes("ea-sports-fc-26"));
+    assert.ok(slugs.includes("football-manager-2021"));
+    assert.ok(slugs.includes("lets-build-a-zoo"));
 
 });
 
