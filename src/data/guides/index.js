@@ -653,6 +653,9 @@ import { GUIDE as hotshotRacingAchievementGuide } from "./games/hotshot-racing.j
 import { GUIDE as thiefAchievementGuide } from "./games/thief.js";
 import { GUIDE as dishonored2AchievementGuide } from "./games/dishonored-2.js";
 import { GUIDE as shadowWarrior2AchievementGuide } from "./games/shadow-warrior-2.js";
+import { GUIDE as catQuestAchievementGuide } from "./games/cat-quest.js";
+import { GUIDE as miniMotorwaysAchievementGuide } from "./games/mini-motorways.js";
+import { GUIDE as strayAchievementGuide } from "./games/stray.js";
 
 export const APP_GUIDES = [
 
@@ -1328,7 +1331,10 @@ export const GAME_GUIDES = [
     hotshotRacingAchievementGuide,
     thiefAchievementGuide,
     dishonored2AchievementGuide,
-    shadowWarrior2AchievementGuide
+    shadowWarrior2AchievementGuide,
+    catQuestAchievementGuide,
+    miniMotorwaysAchievementGuide,
+    strayAchievementGuide
 
 ];
 

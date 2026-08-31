@@ -677,6 +677,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("thief"));
     assert.ok(slugs.includes("dishonored-2"));
     assert.ok(slugs.includes("shadow-warrior-2"));
+    assert.ok(slugs.includes("cat-quest"));
+    assert.ok(slugs.includes("mini-motorways"));
+    assert.ok(slugs.includes("stray"));
 
 });
 
