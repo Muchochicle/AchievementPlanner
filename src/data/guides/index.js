@@ -638,6 +638,9 @@ import { GUIDE as sixtySecondsAchievementGuide } from "./games/60-seconds.js";
 import { GUIDE as orcsMustDieAchievementGuide } from "./games/orcs-must-die.js";
 import { GUIDE as orcsMustDie3AchievementGuide } from "./games/orcs-must-die-3.js";
 import { GUIDE as mordhauAchievementGuide } from "./games/mordhau.js";
+import { GUIDE as empyrionGalacticSurvivalAchievementGuide } from "./games/empyrion-galactic-survival.js";
+import { GUIDE as bridgeConstructorPortalAchievementGuide } from "./games/bridge-constructor-portal.js";
+import { GUIDE as trailmakersAchievementGuide } from "./games/trailmakers.js";
 
 export const APP_GUIDES = [
 
@@ -1298,7 +1301,10 @@ export const GAME_GUIDES = [
     sixtySecondsAchievementGuide,
     orcsMustDieAchievementGuide,
     orcsMustDie3AchievementGuide,
-    mordhauAchievementGuide
+    mordhauAchievementGuide,
+    empyrionGalacticSurvivalAchievementGuide,
+    bridgeConstructorPortalAchievementGuide,
+    trailmakersAchievementGuide
 
 ];
 

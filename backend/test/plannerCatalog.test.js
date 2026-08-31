@@ -662,6 +662,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("orcs-must-die"));
     assert.ok(slugs.includes("orcs-must-die-3"));
     assert.ok(slugs.includes("mordhau"));
+    assert.ok(slugs.includes("empyrion-galactic-survival"));
+    assert.ok(slugs.includes("bridge-constructor-portal"));
+    assert.ok(slugs.includes("trailmakers"));
 
 });
 
