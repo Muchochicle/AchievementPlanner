@@ -1,0 +1,510 @@
+{
+    "id": 99900,
+    "steamAppId": 99900,
+    "name": "Spiral Knights",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/99900/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "MMO",
+        "Action",
+        "Dungeon Crawler",
+        "Co-op",
+        "Free to Play",
+        "Sci-fi"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "REACHED_RESCUE_CAMP",
+            "name": "First Steps",
+            "description": "Successfully reach the Rescue Camp.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "REACHED_HAVEN",
+            "name": "Welcome, Stranger",
+            "description": "Cross the chasm into Haven.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "REACHED_TERMINAL_1",
+            "name": "Mission Accomplished",
+            "description": "Reach the first Clockworks Terminal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "REACHED_SUBTOWN_1",
+            "name": "World of Moorcraft",
+            "description": "Pay a visit to Moorcraft Manor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "EARNED_TIER_2",
+            "name": "Spiral Spelunker",
+            "description": "Earn clearance to explore Tier 2 of the Clockworks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "REACHED_SUBTOWN_2",
+            "name": "An Emberlight in the Dark",
+            "description": "Pay a visit to Emberlight, the town of gremlin outcasts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "EARNED_TIER_3",
+            "name": "Go Deep",
+            "description": "Earn clearance to explore Tier 3 of the Clockworks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "REACHED_CORE_TERMINAL",
+            "name": "Hardcore",
+            "description": "Descend to the Core Terminal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "DEFEATED_ROYAL_JELLY",
+            "name": "Royal Pain",
+            "description": "Defeat the Royal Jelly squatting in the Royal Jelly Palace.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "DEFEATED_VANADUKE",
+            "name": "Free Spirit",
+            "description": "Defeat Lord Vanaduke in the heart of the Firestorm Citadel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "DEFEATED_SNARBOLAX",
+            "name": "O Frabjous Day!",
+            "description": "Defeat the fabled Snarbolax that lives deep within the Gloaming Wildwoods.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "CRAFTED_RARITY_1",
+            "name": "One-Star Smith",
+            "description": "Alchemize a 1 star item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "CRAFTED_RARITY_2",
+            "name": "Two-Star Smith",
+            "description": "Alchemize a 2 star item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "CRAFTED_RARITY_3",
+            "name": "Three-Star Smith",
+            "description": "Alchemize a 3 star item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "CRAFTED_RARITY_4",
+            "name": "Four-Star Smith",
+            "description": "Alchemize a 4 star item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "CRAFTED_RARITY_5",
+            "name": "Five-Star Smith",
+            "description": "Alchemize a 5 star item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ITEMS_CRAFTED_1",
+            "name": "Apprentice Alchemist",
+            "description": "Alchemize 5 items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ITEMS_CRAFTED_2",
+            "name": "Adept Alchemist",
+            "description": "Alchemize 10 items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ITEMS_CRAFTED_3",
+            "name": "Accomplished Alchemist",
+            "description": "Alchemize 25 items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ITEMS_CRAFTED_4",
+            "name": "Ascendant Alchemist",
+            "description": "Alchemize 50 items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "SWORDS_OWNED_1",
+            "name": "Swordsman",
+            "description": "Amass 3 swords in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SWORDS_OWNED_2",
+            "name": "Expert Swordsman",
+            "description": "Amass 5 swords in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "SWORDS_OWNED_3",
+            "name": "Master Swordsman",
+            "description": "Amass 10 swords in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "HANDGUNS_OWNED_1",
+            "name": "Gunslinger",
+            "description": "Amass 3 guns in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "HANDGUNS_OWNED_2",
+            "name": "Expert Gunslinger",
+            "description": "Amass 5 guns in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "HANDGUNS_OWNED_3",
+            "name": "Master Gunslinger",
+            "description": "Amass 10 guns in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "BOMBS_OWNED_1",
+            "name": "Bombardier",
+            "description": "Amass 3 bombs in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "BOMBS_OWNED_2",
+            "name": "Expert Bombardier",
+            "description": "Amass 5 bombs in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "BOMBS_OWNED_3",
+            "name": "Master Bombardier",
+            "description": "Amass 10 bombs in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "HELMS_OWNED_1",
+            "name": "Hatter",
+            "description": "Amass 3 helmets in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "HELMS_OWNED_2",
+            "name": "Expert Hatter",
+            "description": "Amass 5 helmets in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "HELMS_OWNED_3",
+            "name": "Mad Hatter",
+            "description": "Amass 10 helmets in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ARMORS_OWNED_1",
+            "name": "Armorer",
+            "description": "Amass 3 armors in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ARMORS_OWNED_2",
+            "name": "Expert Armorer",
+            "description": "Amass 5 armors in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ARMORS_OWNED_3",
+            "name": "Master Armorer",
+            "description": "Amass 10 armors in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "SHIELDS_OWNED_1",
+            "name": "Shieldbearer",
+            "description": "Amass 3 shields in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "SHIELDS_OWNED_2",
+            "name": "Expert Shieldbearer",
+            "description": "Amass 5 shields in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SHIELDS_OWNED_3",
+            "name": "Master Shieldbearer",
+            "description": "Amass 10 shields in your Arsenal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "RARITY_SET_1",
+            "name": "Stellar Set",
+            "description": "Amass an Arsenal that includes a 5 star helmet, armor, shield, gun and bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "LEVELLED_ITEM_1",
+            "name": "Applied Entropy",
+            "description": "Build an item to heat level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "SLOTS_FILLED_1",
+            "name": "Fully Loaded",
+            "description": "Unlock and fill every equipment slot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "REVIVE_SELF",
+            "name": "Jump Start",
+            "description": "Revive yourself.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "REVIVE_FRIEND",
+            "name": "Helping Hand",
+            "description": "Revive a downed party member.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "HEALTH_CAPSULES_USED_1",
+            "name": "Pharma Suitable",
+            "description": "Use 10 Health Capsules.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "REMEDY_CAPSULES_USED_1",
+            "name": "Conditioned Response",
+            "description": "Use 10 Remedy Capsules.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MECHA_KNIGHT_ACTIVATED",
+            "name": "Energize!",
+            "description": "Power up a derelict Mecha Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "REVIVELESS_COMPLETE_TIER_1",
+            "name": "Bronze Survivor",
+            "description": "Complete a Tier 1 expedition without having to revive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "REVIVELESS_COMPLETE_TIER_2",
+            "name": "Silver Survivor",
+            "description": "Complete a Tier 2 expedition without having to revive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "REVIVELESS_COMPLETE_TIER_3",
+            "name": "Gold Survivor",
+            "description": "Complete a Tier 3 expedition without having to revive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "FULL_RUN",
+            "name": "Cradle and All",
+            "description": "Travel the entire Clockworks from depth 0 to depth 29 in a single expedition.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "REVIVELESS_FULL_RUN",
+            "name": "Dauntless Delver",
+            "description": "Travel the entire Clockworks from depth 0 to depth 29 in a single expedition without having to revive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "DEFEATED_ROARMULUS",
+            "name": "Terrible Twin Turrets",
+            "description": "Defeat the Roarmulus Twins.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "FIRECRACKER_BOMB_OWNED",
+            "name": "Star-Spangled Bomber",
+            "description": "Obtain a Firecracker bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "LOCKDOWN_SNOWBALL",
+            "name": "Son of a Nutcracker!",
+            "description": "Hit an opponent with a snowball in Lockdown.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

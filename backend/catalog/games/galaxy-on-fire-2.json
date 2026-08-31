@@ -1,0 +1,852 @@
+{
+    "id": 212010,
+    "steamAppId": 212010,
+    "name": "Galaxy on Fire 2 Full HD",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/212010/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Space Sim",
+        "Shooter",
+        "Open World",
+        "Trading",
+        "Sci-fi",
+        "Exploration"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "MEDAL_0_1",
+            "name": "Veteran",
+            "description": "You got this medal from Admiral Smith for outstanding services to the Terran Space Fleet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "MEDAL_1_3",
+            "name": "Survivor Bronze",
+            "description": "Arrived with less than 30% of hull energy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "MEDAL_1_2",
+            "name": "Survivor Silver",
+            "description": "Arrived with less than 15% of hull energy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "MEDAL_1_1",
+            "name": "Survivor Gold",
+            "description": "Arrived with less than 5% of hull energy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "MEDAL_2_3",
+            "name": "Geologist Bronze",
+            "description": "Mined at least 5 different types of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "MEDAL_2_2",
+            "name": "Geologist Silver",
+            "description": "Mined at least 8 different types of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "MEDAL_2_1",
+            "name": "Geologist Gold",
+            "description": "Mined at least 11 different types of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "MEDAL_3_3",
+            "name": "Adv. Geologist Bronze",
+            "description": "Mined at least 5 different cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "MEDAL_3_2",
+            "name": "Adv. Geologist Silver",
+            "description": "Mined at least 8 different cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "MEDAL_3_1",
+            "name": "Adv. Geologist Gold",
+            "description": "Mined at least 11 different cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "MEDAL_4_3",
+            "name": "Killer Bronze",
+            "description": "More than 50 kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "MEDAL_4_2",
+            "name": "Killer Silver",
+            "description": "More than 100 kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MEDAL_4_1",
+            "name": "Killer Gold",
+            "description": "More than 250 kills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 14,
+            "apiname": "MEDAL_5_3",
+            "name": "Carrier Bronze",
+            "description": "Transported more than 25t of goods on courier missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "MEDAL_5_2",
+            "name": "Carrier Silver",
+            "description": "Transported more than 100t of goods on courier missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "MEDAL_5_1",
+            "name": "Carrier Gold",
+            "description": "Transported more than 200t of goods on courier missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MEDAL_6_3",
+            "name": "Miner Bronze",
+            "description": "Mined more than 100t of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "MEDAL_6_2",
+            "name": "Miner Silver",
+            "description": "Mined more than 500t of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "MEDAL_6_1",
+            "name": "Miner Gold",
+            "description": "Mined more than 1000t of ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MEDAL_7_3",
+            "name": "Adv. Miner Bronze",
+            "description": "Mined more than 3t of cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "MEDAL_7_2",
+            "name": "Adv. Miner Silver",
+            "description": "Mined more than 10t of cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "MEDAL_7_1",
+            "name": "Adv. Miner Gold",
+            "description": "Mined more than 25t of cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "MEDAL_8_3",
+            "name": "Personal Need Bronze",
+            "description": "Bought more than 25t of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "MEDAL_8_2",
+            "name": "Personal Need Silver",
+            "description": "Bought more than 100t of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "MEDAL_8_1",
+            "name": "Personal Need Gold",
+            "description": "Bought more than 1000t of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "MEDAL_9_3",
+            "name": "Barkeeper Bronze",
+            "description": "Owned at least 5 different types of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "MEDAL_9_2",
+            "name": "Barkeeper Silver",
+            "description": "Owned at least 16 different types of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "MEDAL_9_1",
+            "name": "Barkeeper Gold",
+            "description": "Owned at least 22 different types of booze.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "MEDAL_10_3",
+            "name": "Garbage Man Bronze",
+            "description": "Destroyed more than 30t of space junk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "MEDAL_10_2",
+            "name": "Garbage Man Silver",
+            "description": "Destroyed more than 100t of space junk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "MEDAL_10_1",
+            "name": "Garbage Man Gold",
+            "description": "Destroyed more than 150t of space junk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "MEDAL_11_3",
+            "name": "Space Tourist Bronze",
+            "description": "Been to at least 25 different stations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "MEDAL_11_2",
+            "name": "Space Tourist Silver",
+            "description": "Been to at least 50 different stations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "MEDAL_11_1",
+            "name": "Space Tourist Gold",
+            "description": "Been to at least 100 different stations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "MEDAL_12_3",
+            "name": "Explorer Bronze",
+            "description": "Been to at least 5 different systems.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "MEDAL_12_2",
+            "name": "Explorer Silver",
+            "description": "Been to at least 10 different systems.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MEDAL_12_1",
+            "name": "Explorer Gold",
+            "description": "Been to at least 22 different systems.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MEDAL_13_3",
+            "name": "Handyman Bronze",
+            "description": "Owned at least 3 blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MEDAL_13_2",
+            "name": "Handyman Silver",
+            "description": "Owned at least 6 blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MEDAL_13_1",
+            "name": "Handyman Gold",
+            "description": "Owned at least 13 blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MEDAL_14_3",
+            "name": "Engineer Bronze",
+            "description": "Finished at least 3 different blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MEDAL_14_2",
+            "name": "Engineer Silver",
+            "description": "Finished at least 6 different blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "MEDAL_14_1",
+            "name": "Engineer Gold",
+            "description": "Finished at least 13 different blueprints.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "MEDAL_15_3",
+            "name": "Addict Bronze",
+            "description": "Played for more than 5 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "MEDAL_15_2",
+            "name": "Addict Silver",
+            "description": "Played for more than 10 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MEDAL_15_1",
+            "name": "Addict Gold",
+            "description": "Played for more than 20 hours.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "MEDAL_16_3",
+            "name": "Workaholic Bronze",
+            "description": "Finished more than 5 missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "MEDAL_16_2",
+            "name": "Workaholic Silver",
+            "description": "Finished more than 25 missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "MEDAL_16_1",
+            "name": "Workaholic Gold",
+            "description": "Finished more than 50 missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "MEDAL_17_3",
+            "name": "Globetrotter Bronze",
+            "description": "Used the jumpgate at least 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "MEDAL_17_2",
+            "name": "Globetrotter Silver",
+            "description": "Used the jumpgate at least 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "MEDAL_17_1",
+            "name": "Globetrotter Gold",
+            "description": "Used the jumpgate at least 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "MEDAL_18_3",
+            "name": "Tour Operator Bronze",
+            "description": "Carried more than 5 passengers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "MEDAL_18_2",
+            "name": "Tour Operator Silver",
+            "description": "Carried more than 20 passengers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "MEDAL_18_1",
+            "name": "Tour Operator Gold",
+            "description": "Carried more than 50 passengers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "MEDAL_19_3",
+            "name": "Ninja Bronze",
+            "description": "Invisible for more than 2 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "MEDAL_19_2",
+            "name": "Ninja Silver",
+            "description": "Invisible for more than 3 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "MEDAL_19_1",
+            "name": "Ninja Gold",
+            "description": "Invisible for more than 5 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "MEDAL_20_3",
+            "name": "Nuclear Armament Bronze",
+            "description": "Detonated more than 5 bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "MEDAL_20_2",
+            "name": "Nuclear Armament Silver",
+            "description": "Detonated more than 20 bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "MEDAL_20_1",
+            "name": "Nuclear Armament Gold",
+            "description": "Detonated more than 50 bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "MEDAL_21_3",
+            "name": "Alien Hunter Bronze",
+            "description": "Collected more than 5t of alien remains.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "MEDAL_21_2",
+            "name": "Alien Hunter Silver",
+            "description": "Collected more than 10t of alien remains.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "MEDAL_21_1",
+            "name": "Alien Hunter Gold",
+            "description": "Collected more than 25t of alien remains.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "MEDAL_22_1",
+            "name": "Harum-Scarum",
+            "description": "Left a station without weapons or equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "MEDAL_23_3",
+            "name": "Weapon Fanatic Bronze",
+            "description": "Mounted 2 primary weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "MEDAL_23_2",
+            "name": "Weapon Fanatic Silver",
+            "description": "Mounted 3 primary weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "MEDAL_23_1",
+            "name": "Weapon Fanatic Gold",
+            "description": "Mounted 4 primary weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "MEDAL_24_3",
+            "name": "Looter Bronze",
+            "description": "Salvaged more than 50t of freight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "MEDAL_24_2",
+            "name": "Looter Silver",
+            "description": "Salvaged more than 200t of freight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "MEDAL_24_1",
+            "name": "Looter Gold",
+            "description": "Salvaged more than 500t of freight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "MEDAL_25_3",
+            "name": "Moneybags Bronze",
+            "description": "Earned more than 125000$.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "MEDAL_25_2",
+            "name": "Moneybags Silver",
+            "description": "Earned more than 500000$.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "MEDAL_25_1",
+            "name": "Moneybags Gold",
+            "description": "Earned more than 1000000$.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "MEDAL_26_3",
+            "name": "Chatterbox Bronze",
+            "description": "Spoke with more than 20 people.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "MEDAL_26_2",
+            "name": "Chatterbox Silver",
+            "description": "Spoke with more than 50 people.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "MEDAL_26_1",
+            "name": "Chatterbox Gold",
+            "description": "Spoke with more than 100 people.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "MEDAL_27_3",
+            "name": "Commander Bronze",
+            "description": "Commanded more than 3 wingmen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "MEDAL_27_2",
+            "name": "Commander Silver",
+            "description": "Commanded more than 10 wingmen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "MEDAL_27_1",
+            "name": "Commander Gold",
+            "description": "Commanded more than 20 wingmen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "MEDAL_28_1",
+            "name": "Renegade",
+            "description": "Evoked hostility in one faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "MEDAL_29_3",
+            "name": "Mason Bronze",
+            "description": "Destroyed more than 50 asteroids.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "MEDAL_29_2",
+            "name": "Mason Silver",
+            "description": "Destroyed more than 150 asteroids.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "MEDAL_29_1",
+            "name": "Mason Gold",
+            "description": "Destroyed more than 250 asteroids.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 85,
+            "apiname": "MEDAL_30_1",
+            "name": "Void Terror",
+            "description": "Congratulations! You fought off the Voids.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "MEDAL_31_3",
+            "name": "Space Saver Bronze",
+            "description": "Had more than 100t of free cargo space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "MEDAL_31_2",
+            "name": "Space Saver Silver",
+            "description": "Had more than 250t of free cargo space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "MEDAL_31_1",
+            "name": "Space Saver Gold",
+            "description": "Had more than 500t of free cargo space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "MEDAL_32_1",
+            "name": "Naysayer",
+            "description": "Rejected more than 50 job offers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "MEDAL_33_1",
+            "name": "Daredevil",
+            "description": "Accepted 10 missions without asking about the difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "MEDAL_34_1",
+            "name": "Tracker",
+            "description": "Accepted 12 missions without asking about the location.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "MEDAL_35_1",
+            "name": "Champion",
+            "description": "You got all the medals!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

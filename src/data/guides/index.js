@@ -611,6 +611,9 @@ import { GUIDE as theSwapperAchievementGuide } from "./games/the-swapper.js";
 import { GUIDE as fateAchievementGuide } from "./games/fate.js";
 import { GUIDE as stateOfDecayAchievementGuide } from "./games/state-of-decay.js";
 import { GUIDE as wreckfestAchievementGuide } from "./games/wreckfest.js";
+import { GUIDE as galaxyOnFire2AchievementGuide } from "./games/galaxy-on-fire-2.js";
+import { GUIDE as spiralKnightsAchievementGuide } from "./games/spiral-knights.js";
+import { GUIDE as snuggleTruckAchievementGuide } from "./games/snuggle-truck.js";
 
 export const APP_GUIDES = [
 
@@ -1244,7 +1247,10 @@ export const GAME_GUIDES = [
     theSwapperAchievementGuide,
     fateAchievementGuide,
     stateOfDecayAchievementGuide,
-    wreckfestAchievementGuide
+    wreckfestAchievementGuide,
+    galaxyOnFire2AchievementGuide,
+    spiralKnightsAchievementGuide,
+    snuggleTruckAchievementGuide
 
 ];
 
