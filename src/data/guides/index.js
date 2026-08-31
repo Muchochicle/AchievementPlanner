@@ -719,6 +719,9 @@ import { GUIDE as monsterHunterWildsAchievementGuide } from "./games/monster-hun
 import { GUIDE as diabloIvAchievementGuide } from "./games/diablo-iv.js";
 import { GUIDE as metaphorRefantazioAchievementGuide } from "./games/metaphor-refantazio.js";
 import { GUIDE as starWarsJediFallenOrderAchievementGuide } from "./games/star-wars-jedi-fallen-order.js";
+import { GUIDE as marvelsSpiderMan2AchievementGuide } from "./games/marvels-spider-man-2.js";
+import { GUIDE as redDeadRedemptionAchievementGuide } from "./games/red-dead-redemption.js";
+import { GUIDE as huntShowdown1896AchievementGuide } from "./games/hunt-showdown-1896.js";
 
 export const APP_GUIDES = [
 
@@ -1460,7 +1463,10 @@ export const GAME_GUIDES = [
     monsterHunterWildsAchievementGuide,
     diabloIvAchievementGuide,
     metaphorRefantazioAchievementGuide,
-    starWarsJediFallenOrderAchievementGuide
+    starWarsJediFallenOrderAchievementGuide,
+    marvelsSpiderMan2AchievementGuide,
+    redDeadRedemptionAchievementGuide,
+    huntShowdown1896AchievementGuide
 
 ];
 

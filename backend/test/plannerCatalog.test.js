@@ -743,6 +743,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("diablo-iv"));
     assert.ok(slugs.includes("metaphor-refantazio"));
     assert.ok(slugs.includes("star-wars-jedi-fallen-order"));
+    assert.ok(slugs.includes("marvels-spider-man-2"));
+    assert.ok(slugs.includes("red-dead-redemption"));
+    assert.ok(slugs.includes("hunt-showdown-1896"));
 
 });
 
