@@ -632,6 +632,9 @@ import { GUIDE as titanSoulsAchievementGuide } from "./games/titan-souls.js";
 import { GUIDE as hardWestAchievementGuide } from "./games/hard-west.js";
 import { GUIDE as invisibleIncAchievementGuide } from "./games/invisible-inc.js";
 import { GUIDE as momodoraReverieUnderTheMoonlightAchievementGuide } from "./games/momodora-reverie-under-the-moonlight.js";
+import { GUIDE as theEscapists2AchievementGuide } from "./games/the-escapists-2.js";
+import { GUIDE as handOfFateAchievementGuide } from "./games/hand-of-fate.js";
+import { GUIDE as sixtySecondsAchievementGuide } from "./games/60-seconds.js";
 
 export const APP_GUIDES = [
 
@@ -1286,7 +1289,10 @@ export const GAME_GUIDES = [
     titanSoulsAchievementGuide,
     hardWestAchievementGuide,
     invisibleIncAchievementGuide,
-    momodoraReverieUnderTheMoonlightAchievementGuide
+    momodoraReverieUnderTheMoonlightAchievementGuide,
+    theEscapists2AchievementGuide,
+    handOfFateAchievementGuide,
+    sixtySecondsAchievementGuide
 
 ];
 

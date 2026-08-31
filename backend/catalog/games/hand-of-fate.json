@@ -1,0 +1,501 @@
+{
+    "id": 266510,
+    "steamAppId": 266510,
+    "name": "Hand of Fate",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/266510/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Roguelike Deckbuilder",
+        "Action RPG",
+        "Card Game",
+        "Dungeon Crawler",
+        "Hack and Slash",
+        "Indie"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_STAT_HEALTH_150",
+            "name": "Juggernaut",
+            "description": "Possess 150 or more health.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_STAT_FOOD_120",
+            "name": "Well Supplied",
+            "description": "Possess 120 or more food.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_STAT_GOLD_200",
+            "name": "Wealthy Lord",
+            "description": "Possess 200 or more gold.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_STARTSESSION_1_LEVEL_NODAMAGE",
+            "name": "Squire",
+            "description": "Complete the first level of a play session, without taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_STARTSESSION_3_LEVEL_NODAMAGE",
+            "name": "Adventurer",
+            "description": "Complete the first 3 levels of a play session, without taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SUCCESSCARDS_SINGLESESSION_15",
+            "name": "Very Lucky",
+            "description": "Get 15 'Success' or 'Huge Success' chance cards in a single session.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_FAILURECARDS_SINGLESESSION_12",
+            "name": "Very Unlucky",
+            "description": "Get 12 'Failure' or 'Huge Failure' chance cards in a single session.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_COMBATS_3_SINGLESESSION_NODAMAGE",
+            "name": "Master Combatant",
+            "description": "Complete 3 combats in a single run, without taking any damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_REFLECT_PROJECTILES_100",
+            "name": "Quick Reflexes",
+            "description": "Reflect 100 projectiles over multiple play sessions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_WINCOMBAT_LESSTHAN_5_HEALTH",
+            "name": "Close Shave",
+            "description": "Win a combat with less than 5 health remaining.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_STARTCOMBAT_LESSTHAN_5_HEALTH",
+            "name": "Very Brave or Very Stupid",
+            "description": "Enter a combat with less than 5 health remaining.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_KILL_TRAPS_10",
+            "name": "Hunter",
+            "description": "Land the killing blow on 10 enemies with a trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_CONSECUTIVE_PRONEATTACKS_2",
+            "name": "Slayer",
+            "description": "Perform 2 prone attacks in a row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_KILL_OWN_PROJECTILE",
+            "name": "Ninja",
+            "description": "Kill an enemy with their own reflected projectile.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_SHIELDBASH_TRAPS_5",
+            "name": "Master of Traps",
+            "description": "Bash 5 enemies into traps in a single session.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_KILL_ALL_TYPES",
+            "name": "Champion",
+            "description": "Kill one of each monster type in a single session.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_UNLOCK_ALL_EQUIPMENT",
+            "name": "Well Equipped",
+            "description": "Unlock every equipment card.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_UNLOCK_ALL_ENCOUNTERS",
+            "name": "Well Travelled",
+            "description": "Unlock every encounter card.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_EQUIP_ALL_DRAGONRELIC",
+            "name": "Dragon Slayer",
+            "description": "Equip all the Dragon Relic items at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_EQUIP_ALL_SKELETONKING",
+            "name": "King of the Undead",
+            "description": "Equip all the Skeleton King items at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_EQUIP_ALL_MAGE",
+            "name": "Arch Mage",
+            "description": "Equip all the Mage items at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_INVENTORY_TRINKETS_10",
+            "name": "Bling",
+            "description": "Have 10 rings in your inventory at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_INVENTORY_FULL_EQUIP",
+            "name": "Combat Ready",
+            "description": "Have at least 1 of each type of equipment in your inventory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_DEFEAT_DEALER",
+            "name": "Dungeon Master",
+            "description": "Defeat the Dealer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_COMPLETE_FIREINTHEDEEP",
+            "name": "Release the Lava Golems!",
+            "description": "Complete the Fire in the Deep encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_COMPLETE_MAGES",
+            "name": "Release the Mages!",
+            "description": "Complete the Mages encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_COMPLETE_LICH",
+            "name": "Release the Lich!",
+            "description": "Complete the Lich encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_COMPLETE_MINOTAUR",
+            "name": "Release the Minotaur!",
+            "description": "Complete the Minotaur encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_COMPLETE_ALL_CHARITY",
+            "name": "Humbled",
+            "description": "Complete all 6 Charity encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_COMPLETE_ALL_DEMONTRADER",
+            "name": "Corrupted",
+            "description": "Complete all 6 Demon Trader encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_COMPLETE_ALL_BLOODAUCTION",
+            "name": "Drained",
+            "description": "Complete all 6 Blood Auction encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_STAT_BLESSINGS_10",
+            "name": "Pure Enlightenment",
+            "description": "Possess 10 Blessings at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_STAT_CURSES_10",
+            "name": "Wretched Soul",
+            "description": "Possess 10 Curses at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_DEFEAT_DEALER_AS_WARLORD",
+            "name": "Dungeon Conqueror",
+            "description": "Defeat the Dealer as the Warlord.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_COMPLETE_ALL_APPRENTICE",
+            "name": "Graduation",
+            "description": "Complete all Apprentice encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_COMPLETE_ALL_WARLORD",
+            "name": "Lord of War",
+            "description": "Complete all Warlord encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_COMPLETE_ALL_COWARD",
+            "name": "Master of the Shadows",
+            "description": "Complete all Shadow Agent encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_COMPLETE_ALL_CURSEOFTHELIONPRINCE",
+            "name": "The Lion Prince",
+            "description": "Complete all Curse of the Lion Prince encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_COMPLETE_ALL_EXPLORERSGIFT",
+            "name": "Explorer",
+            "description": "Complete all Explorer's Gift encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_COMPLETE_ALL_HOARDERSDESIRE",
+            "name": "Never Enough",
+            "description": "Complete all Hoarder's Desire encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_COMPLETE_ALL_IRONHUNGER",
+            "name": "Hunger Satiated.",
+            "description": "Complete all Iron Hunger encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_COMPLETE_ALL_MERCHANTGUARD",
+            "name": "Merchant's Saviour",
+            "description": "Complete all Merchant Guard encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_COMPLETE_ALL_MONK",
+            "name": "Holy Champion",
+            "description": "Complete all Monk encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_COMPLETE_ALL_NOMAD",
+            "name": "The Wanderer",
+            "description": "Complete all Nomad encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_COMPLETE_ALL_SOLDIERSTRAINING",
+            "name": "Elite Training",
+            "description": "Complete all Soldier's Training encounters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_QUEST_KRAKEN",
+            "name": "Kraken Master",
+            "description": "Defeat the Kraken.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_EQUIP_ALL_KRAKEN",
+            "name": "One with the Kraken",
+            "description": "Equip the Kraken Sword and Mask at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_STAT_ORE_300",
+            "name": "Metal Mogul",
+            "description": "Possess 300 or more Ore.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_QUEST_ELDER",
+            "name": "The Elder Lizard",
+            "description": "Trade with the Elder Lizard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_QUEST_WHITEMINOTAUR",
+            "name": "Great Hunter",
+            "description": "Defeat the White Minotaur.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_STAT_ENDLESS_30",
+            "name": "Deep Delver",
+            "description": "Reach level 30 in Endless Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_QUEST_GOBLINKINGHALLS",
+            "name": "Vault Raider",
+            "description": "Complete the Goblin King's Halls IV encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_QUEST_UNDERWORLD",
+            "name": "World Saviour",
+            "description": "Turn back the invasion from the Underworld.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

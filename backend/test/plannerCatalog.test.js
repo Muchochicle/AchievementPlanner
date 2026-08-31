@@ -656,6 +656,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hard-west"));
     assert.ok(slugs.includes("invisible-inc"));
     assert.ok(slugs.includes("momodora-reverie-under-the-moonlight"));
+    assert.ok(slugs.includes("the-escapists-2"));
+    assert.ok(slugs.includes("hand-of-fate"));
+    assert.ok(slugs.includes("60-seconds"));
 
 });
 
