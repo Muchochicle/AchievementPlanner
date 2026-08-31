@@ -638,6 +638,8 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("galaxy-on-fire-2"));
     assert.ok(slugs.includes("spiral-knights"));
     assert.ok(slugs.includes("snuggle-truck"));
+    assert.ok(slugs.includes("battleblock-theater"));
+    assert.ok(slugs.includes("lyne"));
 
 });
 

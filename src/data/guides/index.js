@@ -614,6 +614,8 @@ import { GUIDE as wreckfestAchievementGuide } from "./games/wreckfest.js";
 import { GUIDE as galaxyOnFire2AchievementGuide } from "./games/galaxy-on-fire-2.js";
 import { GUIDE as spiralKnightsAchievementGuide } from "./games/spiral-knights.js";
 import { GUIDE as snuggleTruckAchievementGuide } from "./games/snuggle-truck.js";
+import { GUIDE as battleblockTheaterAchievementGuide } from "./games/battleblock-theater.js";
+import { GUIDE as lyneAchievementGuide } from "./games/lyne.js";
 
 export const APP_GUIDES = [
 
@@ -1250,7 +1252,9 @@ export const GAME_GUIDES = [
     wreckfestAchievementGuide,
     galaxyOnFire2AchievementGuide,
     spiralKnightsAchievementGuide,
-    snuggleTruckAchievementGuide
+    snuggleTruckAchievementGuide,
+    battleblockTheaterAchievementGuide,
+    lyneAchievementGuide
 
 ];
 
