@@ -561,6 +561,9 @@ import { GUIDE as assassinsCreedRevelationsAchievementGuide } from "./games/assa
 import { GUIDE as farCryPrimalAchievementGuide } from "./games/far-cry-primal.js";
 import { GUIDE as homefrontAchievementGuide } from "./games/homefront.js";
 import { GUIDE as seriousSam3BfeAchievementGuide } from "./games/serious-sam-3-bfe.js";
+import { GUIDE as rageAchievementGuide } from "./games/rage.js";
+import { GUIDE as seriousSamHdTfeAchievementGuide } from "./games/serious-sam-hd-tfe.js";
+import { GUIDE as seriousSamHdTseAchievementGuide } from "./games/serious-sam-hd-tse.js";
 
 export const APP_GUIDES = [
 
@@ -1144,7 +1147,10 @@ export const GAME_GUIDES = [
     assassinsCreedRevelationsAchievementGuide,
     farCryPrimalAchievementGuide,
     homefrontAchievementGuide,
-    seriousSam3BfeAchievementGuide
+    seriousSam3BfeAchievementGuide,
+    rageAchievementGuide,
+    seriousSamHdTfeAchievementGuide,
+    seriousSamHdTseAchievementGuide
 
 ];
 

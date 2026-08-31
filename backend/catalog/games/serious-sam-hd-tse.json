@@ -1,0 +1,654 @@
+{
+    "id": 41010,
+    "steamAppId": 41010,
+    "name": "Serious Sam HD: The Second Encounter",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/41010/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Action",
+        "Arcade",
+        "Co-op",
+        "Bullet Hell",
+        "Old School"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SeriousBeginner",
+            "name": "Serious Beginner",
+            "description": "Complete any level in single player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "GameMaster",
+            "name": "Game Master",
+            "description": "Complete the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SeriousSam",
+            "name": "Serious Sam",
+            "description": "Complete the game in single player on serious difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "SeriousRun",
+            "name": "Serious Run",
+            "description": "Complete the game in single player by beating estimated time on each level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Matador",
+            "name": "Matador",
+            "description": "Kill 50 Syrian Werebulls with a knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "LookItsASecret",
+            "name": "Look, it's a secret",
+            "description": "Find at least 80 secrets in single player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "CathedralKing",
+            "name": "Cathedral King",
+            "description": "Complete The Grand Cathedral level on serious difficulty without dying or loading.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "SamIAm",
+            "name": "Sam I am",
+            "description": "Accumulate a total of 100,001 enemy kills and frags combined.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "CoopBeginner",
+            "name": "Co-op Beginner",
+            "description": "Complete any level in at least 3 player cooperative game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "CoinopCoop",
+            "name": "Coin-op Co-op",
+            "description": "Complete a Coin-op cooperative game on normal or higher difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "DeathmatchBeginner",
+            "name": "Deathmatch Beginner",
+            "description": "Complete a deathmatch game with at least 1 frag.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "DeathmatchMaster",
+            "name": "Deathmatch Master",
+            "description": "Win 100 deathmatch games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "RocketJumper",
+            "name": "Rocket Jumper",
+            "description": "Perform 100 rocket jumps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "BurnBabyBurn",
+            "name": "Burn Baby, Burn",
+            "description": "Burn 500 enemies to death.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "SouthAmericaMaster",
+            "name": "South America Master",
+            "description": "Complete the South America episode in single player or cooperative.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "PersiaMaster",
+            "name": "Persia Master",
+            "description": "Complete the Persia episode in single player or cooperative.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MedievalMaster",
+            "name": "Medieval Master",
+            "description": "Complete the Medieval episode in single player or cooperative.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "TopSecret",
+            "name": "Top Secret",
+            "description": "Find all secrets in single player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "BirdHunter",
+            "name": "Bird Hunter",
+            "description": "Kill 100 Harpies with the Sniper rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "SpaceMarine",
+            "name": "Space Marine",
+            "description": "Kill 1000 enemies with the Laser gun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "BoneCrusher",
+            "name": "Bone Crusher",
+            "description": "Kill 300 Kleers with the Cannon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "RocketMan",
+            "name": "Rocket Man",
+            "description": "Get all 3 Rocket launchers in Palenque - Sierra de Chiapas.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "BallsofSteel",
+            "name": "Balls of Steel",
+            "description": "Find all 3 Cannons in Teotihuacan - The City of the Gods.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Braveheart",
+            "name": "Braveheart",
+            "description": "Deliver the final blow to Mordekai with the Knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "LookMaIWon",
+            "name": "Look Ma, I won!",
+            "description": "Win a Deathmatch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "DeathmatchChampion",
+            "name": "Deathmatch Champion",
+            "description": "Win 1000 Deathmatch games.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "DeathmatchVeteran",
+            "name": "Deathmatch Veteran",
+            "description": "Complete 100 Deathmatches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "DeathmatchDuelist",
+            "name": "Deathmatch Duelist",
+            "description": "Win 25 1-on-1 Deathmatches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Untouchable",
+            "name": "Untouchable",
+            "description": "Win an at least 4 player Deathmatch by reaching frag limit of at least 25 without dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "Fragger",
+            "name": "Fragger",
+            "description": "Frag a total of 100 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "CrazyFragger",
+            "name": "Crazy Fragger",
+            "description": "Frag a total of 500 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "SeriousFragger",
+            "name": "Serious Fragger",
+            "description": "Frag a total of 1000 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "1337Fragger",
+            "name": "1337 Fragger",
+            "description": "Frag a total of 1337 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "DesperateFragger",
+            "name": "Desperate Fragger",
+            "description": "Frag 25 players with a knife while having no more than 10 health left.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Butcher",
+            "name": "Butcher",
+            "description": "Frag 100 players with a knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Swordsman",
+            "name": "Swordsman",
+            "description": "Frag 100 players in a knife-to-knife fight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Backstabber",
+            "name": "Backstabber",
+            "description": "Frag 100 players with a knife from behind.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "DiverseFragger",
+            "name": "Diverse Fragger",
+            "description": "Frag 100 different players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "DeathmatchMarathon",
+            "name": "Deathmatch Marathon",
+            "description": "Complete a Deathmatch with frag limit set to at least 200. (Frag limit must be reached!)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "DeathmatchMarathonWinner",
+            "name": "Deathmatch Marathon Winner",
+            "description": "Win a Deathmatch Marathon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Grudge",
+            "name": "Grudge",
+            "description": "Frag the same player 5 times in a row in at least 4 player match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Nemesis",
+            "name": "Nemesis",
+            "description": "Frag the same player 10 times during a single round in at least 4 player match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "FragCombo",
+            "name": "Frag Combo",
+            "description": "Perform 4 frags with each being no more than 10 seconds apart from the previous frag in at least 4 player Deathmatch.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "RoyalFragCombo",
+            "name": "Royal Frag Combo",
+            "description": "Frag all players in a single frag combo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "CoinopLifeSaver",
+            "name": "Coin-op Life Saver",
+            "description": "Pick up at least 10 extra life items in Cooperative Coin-op game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "CoinopGoldRush",
+            "name": "Coin-op Gold Rush",
+            "description": "Pick up 100 gold coins in Coin-op Cooperative game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "BeastHuntBeginner",
+            "name": "Beast Hunt Beginner",
+            "description": "Win a Beast Hunt match on any level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "BeastHuntMaster",
+            "name": "Beast Hunt Master",
+            "description": "Win a Beast Hunt match on all game levels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "TeamBeastHuntBeginner",
+            "name": "Team Beast Hunt Beginner",
+            "description": "Win a Team Beast Hunt match on any level with least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "TeamBeastHuntMaster",
+            "name": "Team Beast Hunt Master",
+            "description": "Win a Team Beast Hunt match on all game levels with least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "CaptureTheFlagBeginner",
+            "name": "Capture The Flag Beginner",
+            "description": "Win a CTF match with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "CaptureTheFlagMaster",
+            "name": "Capture The Flag Master",
+            "description": "Win 25 CTF matches with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "FlagThief",
+            "name": "Flag Thief",
+            "description": "Score a total of 100 points in CTF matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "InstantKillBeginner",
+            "name": "Instant Kill Beginner",
+            "description": "Make at least 3 kills in one Instant Kill match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "InstantKillMaster",
+            "name": "Instant Kill Master",
+            "description": "Win 100 Instant Kill matches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "InstantKillPro",
+            "name": "Instant Kill Pro",
+            "description": "Frag 10 players without being killed in at least 4 player Instant Kill match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "LastManStandingBeginner",
+            "name": "Last Man Standing Beginner",
+            "description": "Win one round in Last Man Standing game with at least 4 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "LastManStandingMaster",
+            "name": "Last Man Standing Master",
+            "description": "Win 100 Last Man Standing matches with at least 4 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "LastTeamStandingBeginner",
+            "name": "Last Team Standing Beginner",
+            "description": "Earn a round for your team in Last Team Standing game with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "MyBurdenBeginner",
+            "name": "My Burden Beginner",
+            "description": "Win one My Burden match with at least 3 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "MyBurdenMaster",
+            "name": "My Burden Master",
+            "description": "Win 100 My Burden matches with at least 3 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "HeavyWeightChampion",
+            "name": "Heavy Weight Champion",
+            "description": "Hold the Burden for at least 10 minutes in My Burden match with at least 3 players.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "TeamDeathmatchBeginner",
+            "name": "Team Deathmatch Beginner",
+            "description": "Win one Team Deathmatch with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "TeamDeathmatchMaster",
+            "name": "Team Deathmatch Master",
+            "description": "Win 100 Team Deathmatches with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "SurvivalBeginner",
+            "name": "Survival Beginner",
+            "description": "Earn at least a bronze medal on any level in single player Survival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "SurvivalMaster",
+            "name": "Survival Master",
+            "description": "Earn gold medals on all Survival levels in single player Survival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "CooperativeSurvivalBeginner",
+            "name": "Cooperative Survival Beginner",
+            "description": "Earn at least a bronze medal on any level in cooperative Survival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "CooperativeSurvivalMaster",
+            "name": "Cooperative Survival Master",
+            "description": "Earn gold medals on all Survival levels in cooperative Survival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "LastTeamStandingMaster",
+            "name": "Last Team Standing Master",
+            "description": "Win 100 Last Team Standing matches with at least 2 players on each team.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "TreasureDiver",
+            "name": "Treasure Diving",
+            "description": "Find a secret under water.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

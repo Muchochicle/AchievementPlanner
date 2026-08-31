@@ -585,6 +585,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("far-cry-primal"));
     assert.ok(slugs.includes("homefront"));
     assert.ok(slugs.includes("serious-sam-3-bfe"));
+    assert.ok(slugs.includes("rage"));
+    assert.ok(slugs.includes("serious-sam-hd-tfe"));
+    assert.ok(slugs.includes("serious-sam-hd-tse"));
 
 });
 

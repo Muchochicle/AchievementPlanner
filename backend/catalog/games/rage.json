@@ -1,0 +1,564 @@
+{
+    "id": 9200,
+    "steamAppId": 9200,
+    "name": "RAGE",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/9200/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Post-apocalyptic",
+        "Open World",
+        "Action",
+        "Vehicular Combat",
+        "Shooter"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_1",
+            "name": "Arts and Crafts",
+            "description": "Construct 10 Engineering Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ach_2",
+            "name": "Tinkerer",
+            "description": "Construct 50 Engineering Items",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ach_3",
+            "name": "Passive Aggressive",
+            "description": "Get 3 kills with a single Sentry Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ach_4",
+            "name": "Three Birds, One Bomb Car",
+            "description": "Kill 3 Enemies with one RC Bomb Car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ach_5",
+            "name": "Keep 'Em Coming",
+            "description": "Get 5 kills with one deployed Sentry Turret",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ach_6",
+            "name": "Mechanocide",
+            "description": "Kill 100 Enemies with Sentry Bots, Sentry Turrets, or RC Bomb Cars",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ach_7",
+            "name": "Jetpacker",
+            "description": "Kill an Authority Enforcer during Jetpack descent",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ach_8",
+            "name": "Silent But Deadly",
+            "description": "Stealth kill 10 Enemies with the Striker Crossbow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ach_9",
+            "name": "Hat Trick",
+            "description": "Kill at least 3 Enemies with a single Mind Controlled Enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ach_10",
+            "name": "Decapathon",
+            "description": "Get 10 Headshot kills with the Wingstick",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ach_11",
+            "name": "Open Minded",
+            "description": "Get 10 Headshot kills with the Sniper Rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ach_12",
+            "name": "Jumper",
+            "description": "Perform all 18 Vehicle Jumps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ach_13",
+            "name": "Gotta Have 'Em All",
+            "description": "Collect all Playing Cards on one play-through",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ach_14",
+            "name": "Master Chef",
+            "description": "Collect all Recipes and Schematics in one play-through",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ach_15",
+            "name": "Hardest Deck",
+            "description": "Beat Teague's hardest Deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ach_16",
+            "name": "JACKPOT!",
+            "description": "Roll 4 Targets in the first round of Tombstones",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ach_17",
+            "name": "Just a Flesh Wound",
+            "description": "Complete the final round of 5 Finger Filet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ach_18",
+            "name": "Deliverance",
+            "description": "Complete the final round of Strum",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ach_19",
+            "name": "Minigamer",
+            "description": "Win all Minigames",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ach_20",
+            "name": "Lead Foot",
+            "description": "Win a Race in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ach_21",
+            "name": "Rage Cup",
+            "description": "Win all Races in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ach_22",
+            "name": "Demolition Man",
+            "description": "Destroy 100 Enemy Cars",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ach_23",
+            "name": "It's Good!",
+            "description": "Score each of the 3 Field Goals from the ATV",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ach_24",
+            "name": "Roadkill",
+            "description": "Run over 10 Mutants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ach_25",
+            "name": "Ghost Buster",
+            "description": "Complete Ghost Hideout in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ach_26",
+            "name": "Waste Management",
+            "description": "Complete Wasted Garage in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ach_27",
+            "name": "Gladiator",
+            "description": "Complete Mutant Bash TV in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ach_28",
+            "name": "It's Alive!",
+            "description": "Complete Dead City in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ach_29",
+            "name": "Wellness Plan",
+            "description": "Complete The Well in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ach_30",
+            "name": "Debunked",
+            "description": "Complete Shrouded Bunker in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ach_31",
+            "name": "ytiC daeD",
+            "description": "Complete Dead City Reverse in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ach_32",
+            "name": "Jail Break",
+            "description": "Complete Authority Prison in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ach_33",
+            "name": "Vault Assault",
+            "description": "Complete Gearhead Vault in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ach_34",
+            "name": "Power Struggle",
+            "description": "Complete Power Plant in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ach_35",
+            "name": "Decrypted",
+            "description": "Complete Jackal Canyon in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ach_36",
+            "name": "Mutie Blues",
+            "description": "Complete Blue Line Station in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ach_37",
+            "name": "Bringin' Home the Bacon",
+            "description": "Earn 750 Dollars in one episode of Bash TV in the Campaign",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ach_38",
+            "name": "Mr. Oddjob",
+            "description": "Complete 5 Job Board Quests in one play-through",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ach_39",
+            "name": "Dev Graffiti",
+            "description": "Find the secret Developer Graffiti Room",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ach_40",
+            "name": "Hey, not too rough",
+            "description": "Finish the Campaign on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ach_41",
+            "name": "Hurt me plenty",
+            "description": "Finish the Campaign on at least Normal difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ach_42",
+            "name": "Ultra-violence",
+            "description": "Finish the Campaign on at least Hard difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ach_43",
+            "name": "RAGE Nightmare",
+            "description": "Finish the Campaign on Nightmare difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ach_44",
+            "name": "Obsessive Compulsive",
+            "description": "Reach 100% Completion in the Campaign",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 45,
+            "apiname": "ach_45",
+            "name": "The Legend Begins...",
+            "description": "Complete a Legend of the Wasteland",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ach_46",
+            "name": "Anthology",
+            "description": "Complete all Legends of the Wasteland",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ach_47",
+            "name": "A True Legend",
+            "description": "Complete a Legend of the Wasteland on Nightmare difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ach_48",
+            "name": "No Room for Sidekicks",
+            "description": "Complete a Legend of the Wasteland without any player(s) becoming incapacitated",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ach_49",
+            "name": "Fresh Meat",
+            "description": "Complete a public Road RAGE match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ach_50",
+            "name": "MVP",
+            "description": "Get first place in a public Road RAGE match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ach_51",
+            "name": "Night Terrors",
+            "description": "Finish the Campaign on Ultra Nightmare difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ach_52",
+            "name": "Cavernous Stumble",
+            "description": "Complete Hagar Caves in The Scorchers job path",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ach_53",
+            "name": "Plans Refined",
+            "description": "Complete Refinery in The Scorchers job path",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ach_54",
+            "name": "Thrash Canyon",
+            "description": "Complete Bash Canyon in The Scorchers job path",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ach_55",
+            "name": "Fired Up!",
+            "description": "Complete Scorcher Base in the The Scorchers job path",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ach_56",
+            "name": "Lucky  Charms",
+            "description": "Bet and win on Green in the Roly-Poly minigame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ach_57",
+            "name": "Foursome",
+            "description": "Win with a Four of a Kind in the Video Poker minigame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ach_58",
+            "name": "Wall Hack",
+            "description": "Kill 2 enemies with one Railgun Slug shot through a wall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ach_59",
+            "name": "Rebar Pie",
+            "description": "Pin an enemy to a surface with a Rebar ammo shot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ach_60",
+            "name": "Rite of Passage",
+            "description": "Complete Wellspring Tunnels in The Scorchers job path",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
