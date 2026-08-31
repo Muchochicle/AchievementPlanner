@@ -562,6 +562,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("gotham-city-impostors"));
     assert.ok(slugs.includes("closure"));
     assert.ok(slugs.includes("sonic-cd"));
+    assert.ok(slugs.includes("the-lego-movie-videogame"));
+    assert.ok(slugs.includes("lego-jurassic-world"));
+    assert.ok(slugs.includes("final-fantasy-v"));
 
 });
 

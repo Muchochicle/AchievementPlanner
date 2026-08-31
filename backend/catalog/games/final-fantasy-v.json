@@ -1,0 +1,888 @@
+{
+    "id": 382890,
+    "steamAppId": 382890,
+    "name": "FINAL FANTASY V",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/382890/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "JRPG",
+        "RPG",
+        "Turn-Based",
+        "Story Rich",
+        "Classic",
+        "Job System"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "com.square_enix.kvin.achieve1",
+            "name": "FINAL FANTASY V Master",
+            "description": "You earned all achievements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "com.square_enix.kvin.achieve2",
+            "name": "Say Hello, Syldra!",
+            "description": "You obtained the pirate ship.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "com.square_enix.kvin.achieve3",
+            "name": "What!?",
+            "description": "You obtained a job from the wind crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "com.square_enix.kvin.achieve4",
+            "name": "He's a She!",
+            "description": "You found out Faris is a woman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "com.square_enix.kvin.achieve5",
+            "name": "Fear of Heights",
+            "description": "You obtained a wind drake.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "com.square_enix.kvin.achieve6",
+            "name": "Too Late",
+            "description": "You obtained a job from the water crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "com.square_enix.kvin.achieve7",
+            "name": "Scientific Genius",
+            "description": "You met Cid.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "com.square_enix.kvin.achieve8",
+            "name": "Our Only Hope",
+            "description": "You obtained a job from the fire crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "com.square_enix.kvin.achieve9",
+            "name": "Couldn't Tell",
+            "description": "You discovered Faris's true identity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "com.square_enix.kvin.achieve10",
+            "name": "The Skies Are Yours!",
+            "description": "You obtained an airship.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "com.square_enix.kvin.achieve11",
+            "name": "The Return",
+            "description": "You obtained a job from the earth crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "com.square_enix.kvin.achieve12",
+            "name": "Galuf's World",
+            "description": "You arrived in Galuf's world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "com.square_enix.kvin.achieve13",
+            "name": "Enough of a Beating",
+            "description": "You defeated Gilgamesh.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "com.square_enix.kvin.achieve14",
+            "name": "Kupo!",
+            "description": "You met a moogle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "com.square_enix.kvin.achieve15",
+            "name": "Lupine Attack",
+            "description": "You mastered lupine attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "com.square_enix.kvin.achieve16",
+            "name": "Under the Sea",
+            "description": "You obtained a submarine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "com.square_enix.kvin.achieve17",
+            "name": "Not Dead Yet!",
+            "description": "Krile inherited Galuf's power.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "com.square_enix.kvin.achieve18",
+            "name": "Morphing Time!",
+            "description": "You defeated Gilgamesh again.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "com.square_enix.kvin.achieve19",
+            "name": "Mwa-hahahaha!",
+            "description": "You defeated Exdeath.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "com.square_enix.kvin.achieve20",
+            "name": "Turtle!",
+            "description": "You reunited with Ghido in the third world.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "com.square_enix.kvin.achieve21",
+            "name": "Tablets in the Bag!",
+            "description": "\"You got the four tablets for unsealing the legendary weapons.\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 22,
+            "apiname": "com.square_enix.kvin.achieve22",
+            "name": "Lali-ho!",
+            "description": "You met the dwarves.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "com.square_enix.kvin.achieve23",
+            "name": "Made It!",
+            "description": "You pinned your hopes on Gilgamesh.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "com.square_enix.kvin.achieve24",
+            "name": "Forget Something?",
+            "description": "You escaped from the final battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "com.square_enix.kvin.achieve25",
+            "name": "Warriors of Light",
+            "description": "You defeated Neo Exdeath.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "com.square_enix.kvin.achieve26",
+            "name": "The Real Letter",
+            "description": "\"You defeated Neo Exdeath without anyone in your party dying.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "com.square_enix.kvin.achieve27",
+            "name": "Dimensional Assassins",
+            "description": "\"You defeated Exdeath's servants--assassins from another dimension.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "com.square_enix.kvin.achieve28",
+            "name": "Master Mimic",
+            "description": "You defeated the mime Gogo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "com.square_enix.kvin.achieve29",
+            "name": "Mechanical Warrior",
+            "description": "You defeated Omega.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "com.square_enix.kvin.achieve30",
+            "name": "Mechanical Warrior II",
+            "description": "You defeated Omega Mk.II.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "com.square_enix.kvin.achieve31",
+            "name": "Demon Dragon",
+            "description": "You defeated Shinryu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "com.square_enix.kvin.achieve32",
+            "name": "Neo Demon Dragon",
+            "description": "You defeated Neo Shinryu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "com.square_enix.kvin.achieve33",
+            "name": "The Void",
+            "description": "You defeated Enuo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "com.square_enix.kvin.achieve34",
+            "name": "Fallen Warrior",
+            "description": "You cleared the Cloister of the Dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "com.square_enix.kvin.achieve35",
+            "name": "Legendary Weapons",
+            "description": "You obtained the twelve legendary weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 36,
+            "apiname": "com.square_enix.kvin.achieve36",
+            "name": "Bronze Hunter",
+            "description": "You defeated 100 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "com.square_enix.kvin.achieve37",
+            "name": "Silver Hunter",
+            "description": "You defeated 300 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "com.square_enix.kvin.achieve38",
+            "name": "Gold Hunter",
+            "description": "You defeated 1,000 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "com.square_enix.kvin.achieve39",
+            "name": "Platinum Hunter",
+            "description": "You defeated 2,000 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 40,
+            "apiname": "com.square_enix.kvin.achieve40",
+            "name": "Bestiary (32 Pages)",
+            "description": "You completed 10% of the Bestiary.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "com.square_enix.kvin.achieve41",
+            "name": "Bestiary (96 Pages)",
+            "description": "You completed 30% of the Bestiary.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "com.square_enix.kvin.achieve42",
+            "name": "Bestiary (192 Pages)",
+            "description": "You completed 60% of the Bestiary.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "com.square_enix.kvin.achieve43",
+            "name": "Bestiary (323 Pages)",
+            "description": "You completed the entire Bestiary.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "com.square_enix.kvin.achieve44",
+            "name": "Low Cash Flow",
+            "description": "You earned 10,000 gil.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 45,
+            "apiname": "com.square_enix.kvin.achieve45",
+            "name": "Gil Cave Time!",
+            "description": "You earned 50,000 gil.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "com.square_enix.kvin.achieve46",
+            "name": "Flush with Gil",
+            "description": "You earned 200,000 gil.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "com.square_enix.kvin.achieve47",
+            "name": "Gil to Burn",
+            "description": "You earned 500,000 gil.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "com.square_enix.kvin.achieve48",
+            "name": "Piano Master",
+            "description": "You mastered the piano by playing all the pianos.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "com.square_enix.kvin.achieve49",
+            "name": "Treasure Hunter",
+            "description": "You opened all the treasure chests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "com.square_enix.kvin.achieve50",
+            "name": "Master of Attack & Defense",
+            "description": "All four characters mastered the knight job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "com.square_enix.kvin.achieve51",
+            "name": "Don't Think, Feel!",
+            "description": "All four characters mastered the monk job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "com.square_enix.kvin.achieve52",
+            "name": "Band of Thieves",
+            "description": "All four characters mastered the thief job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "com.square_enix.kvin.achieve53",
+            "name": "Wind Rider",
+            "description": "All four characters mastered the dragoon job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "com.square_enix.kvin.achieve54",
+            "name": "Ninja Legend",
+            "description": "All four characters mastered the ninja job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "com.square_enix.kvin.achieve55",
+            "name": "Four Samurai",
+            "description": "All four characters mastered the samurai job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "com.square_enix.kvin.achieve56",
+            "name": "Skull Buster",
+            "description": "All four characters mastered the berserker job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "com.square_enix.kvin.achieve57",
+            "name": "Marksman",
+            "description": "All four characters mastered the ranger job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "com.square_enix.kvin.achieve58",
+            "name": "One Deadly Blow",
+            "description": "All four characters mastered the mystic knight job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "com.square_enix.kvin.achieve59",
+            "name": "Master of White Magic",
+            "description": "All four characters mastered the white mage job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "com.square_enix.kvin.achieve60",
+            "name": "Master of Black Magic",
+            "description": "All four characters mastered the black mage job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "com.square_enix.kvin.achieve61",
+            "name": "Master of Time and Space",
+            "description": "All four characters mastered the time mage job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "com.square_enix.kvin.achieve62",
+            "name": "Master Summoner",
+            "description": "All four characters mastered the summoner job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "com.square_enix.kvin.achieve63",
+            "name": "Learns from Monsters",
+            "description": "All four characters mastered the blue mage job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "com.square_enix.kvin.achieve64",
+            "name": "Ebony and Ivory",
+            "description": "All four characters mastered the red mage job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "com.square_enix.kvin.achieve65",
+            "name": "Catch and Release",
+            "description": "All four characters mastered the beastmaster job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "com.square_enix.kvin.achieve66",
+            "name": "Trial and Error",
+            "description": "All four characters mastered the chemist job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "com.square_enix.kvin.achieve67",
+            "name": "Child of the Earth",
+            "description": "All four characters mastered the geomancer job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "com.square_enix.kvin.achieve68",
+            "name": "The Music Man",
+            "description": "All four characters mastered the bard job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "com.square_enix.kvin.achieve69",
+            "name": "A One and a Two...",
+            "description": "All four characters mastered the dancer job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "com.square_enix.kvin.achieve70",
+            "name": "Undead Freak",
+            "description": "All four characters mastered the necromancer job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "com.square_enix.kvin.achieve71",
+            "name": "Prediction Machine",
+            "description": "All four characters mastered the oracle job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "com.square_enix.kvin.achieve72",
+            "name": "Blistering Bombardment",
+            "description": "All four characters mastered the cannoneer job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "com.square_enix.kvin.achieve73",
+            "name": "Battle Master",
+            "description": "All four characters mastered the gladiator job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "com.square_enix.kvin.achieve74",
+            "name": "Master of Mimicry",
+            "description": "All four characters mastered the mime job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "com.square_enix.kvin.achieve75",
+            "name": "Job Master",
+            "description": "All four characters mastered every job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "com.square_enix.kvin.achieve76",
+            "name": "The Wind Calls",
+            "description": "You raised Bartz to level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "com.square_enix.kvin.achieve77",
+            "name": "It's Not Over Yet",
+            "description": "You raised Bartz to level 25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "com.square_enix.kvin.achieve78",
+            "name": "The Wind Won't Stop!",
+            "description": "You raised Bartz to level 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "com.square_enix.kvin.achieve79",
+            "name": "Check Me Out!",
+            "description": "You raised Bartz to level 75.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "com.square_enix.kvin.achieve80",
+            "name": "Don't Mess with Me",
+            "description": "You raised Bartz to level 99.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "com.square_enix.kvin.achieve81",
+            "name": "Safe Journey!",
+            "description": "You raised Lenna to level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "com.square_enix.kvin.achieve82",
+            "name": "A Promise to Return",
+            "description": "You raised Lenna to level 25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "com.square_enix.kvin.achieve83",
+            "name": "Didn't Mean to Worry You",
+            "description": "You raised Lenna to level 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "com.square_enix.kvin.achieve84",
+            "name": "In Your Debt",
+            "description": "You raised Lenna to level 75.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "com.square_enix.kvin.achieve85",
+            "name": "Chancellor' Relief",
+            "description": "You raised Lenna to level 99.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "com.square_enix.kvin.achieve86",
+            "name": "Where Am I?",
+            "description": "You raised Galuf to level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "com.square_enix.kvin.achieve87",
+            "name": "Give Me Strength",
+            "description": "You raised Galuf to level 25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "com.square_enix.kvin.achieve88",
+            "name": "Thanks Everyone!",
+            "description": "You raised Galuf to level 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "com.square_enix.kvin.achieve89",
+            "name": "Gotta Be Kidding",
+            "description": "You raised Galuf to level 75.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "com.square_enix.kvin.achieve90",
+            "name": "Gone Too Far!",
+            "description": "You raised Galuf to level 99.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "com.square_enix.kvin.achieve91",
+            "name": "That Long Journey Smell",
+            "description": "You raised Faris to level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "com.square_enix.kvin.achieve92",
+            "name": "Careful Captain!",
+            "description": "You raised Faris to level 25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "com.square_enix.kvin.achieve93",
+            "name": "Time's a-Wasting!",
+            "description": "You raised Faris to level 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "com.square_enix.kvin.achieve94",
+            "name": "It'll Work Out!",
+            "description": "You raised Faris to level 75.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "com.square_enix.kvin.achieve95",
+            "name": "Look at Me Now!",
+            "description": "You raised Faris to level 99.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "com.square_enix.kvin.achieve0",
+            "name": "Customer Appreciation",
+            "description": "You played a new game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

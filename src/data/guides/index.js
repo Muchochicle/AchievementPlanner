@@ -538,6 +538,9 @@ import { GUIDE as offspringFlingAchievementGuide } from "./games/offspring-fling
 import { GUIDE as gothamCityImpostorsAchievementGuide } from "./games/gotham-city-impostors.js";
 import { GUIDE as closureAchievementGuide } from "./games/closure.js";
 import { GUIDE as sonicCdAchievementGuide } from "./games/sonic-cd.js";
+import { GUIDE as theLegoMovieVideogameAchievementGuide } from "./games/the-lego-movie-videogame.js";
+import { GUIDE as legoJurassicWorldAchievementGuide } from "./games/lego-jurassic-world.js";
+import { GUIDE as finalFantasyVAchievementGuide } from "./games/final-fantasy-v.js";
 
 export const APP_GUIDES = [
 
@@ -1098,7 +1101,10 @@ export const GAME_GUIDES = [
     offspringFlingAchievementGuide,
     gothamCityImpostorsAchievementGuide,
     closureAchievementGuide,
-    sonicCdAchievementGuide
+    sonicCdAchievementGuide,
+    theLegoMovieVideogameAchievementGuide,
+    legoJurassicWorldAchievementGuide,
+    finalFantasyVAchievementGuide
 
 ];
 
