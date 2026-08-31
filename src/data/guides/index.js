@@ -472,6 +472,15 @@ import { GUIDE as jojosBizarreAdventureAllStarBattleRAchievementGuide } from "./
 import { GUIDE as eaSportsFc25AchievementGuide } from "./games/ea-sports-fc-25.js";
 import { GUIDE as nba2k24AchievementGuide } from "./games/nba-2k24.js";
 import { GUIDE as fifa23AchievementGuide } from "./games/fifa-23.js";
+import { GUIDE as starWarsBattlefrontAchievementGuide } from "./games/star-wars-battlefront.js";
+import { GUIDE as starWarsOutlawsAchievementGuide } from "./games/star-wars-outlaws.js";
+import { GUIDE as theWalkingDeadTelltaleDefinitiveSeriesAchievementGuide } from "./games/the-walking-dead-telltale-definitive-series.js";
+import { GUIDE as battlefield2042AchievementGuide } from "./games/battlefield-2042.js";
+import { GUIDE as battlefield5AchievementGuide } from "./games/battlefield-5.js";
+import { GUIDE as narutoShippudenUltimateNinjaStorm4AchievementGuide } from "./games/naruto-shippuden-ultimate-ninja-storm-4.js";
+import { GUIDE as assassinsCreed4BlackFlagAchievementGuide } from "./games/assassins-creed-4-black-flag.js";
+import { GUIDE as assassinsCreedUnityAchievementGuide } from "./games/assassins-creed-unity.js";
+import { GUIDE as assassinsCreedSyndicateAchievementGuide } from "./games/assassins-creed-syndicate.js";
 
 export const APP_GUIDES = [
 
@@ -966,7 +975,16 @@ export const GAME_GUIDES = [
     jojosBizarreAdventureAllStarBattleRAchievementGuide,
     eaSportsFc25AchievementGuide,
     nba2k24AchievementGuide,
-    fifa23AchievementGuide
+    fifa23AchievementGuide,
+    starWarsBattlefrontAchievementGuide,
+    starWarsOutlawsAchievementGuide,
+    theWalkingDeadTelltaleDefinitiveSeriesAchievementGuide,
+    battlefield2042AchievementGuide,
+    battlefield5AchievementGuide,
+    narutoShippudenUltimateNinjaStorm4AchievementGuide,
+    assassinsCreed4BlackFlagAchievementGuide,
+    assassinsCreedUnityAchievementGuide,
+    assassinsCreedSyndicateAchievementGuide
 
 ];
 

@@ -1,0 +1,555 @@
+{
+    "id": 2842040,
+    "steamAppId": 2842040,
+    "name": "Star Wars Outlaws",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2842040/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Open World",
+        "Star Wars",
+        "Action-Adventure",
+        "Stealth",
+        "Third-Person",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Outlaws_Ach_1",
+            "name": "It wasn't me",
+            "description": "Bribe an Imperial Officer to clear Wanted Level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Outlaws_Ach_2",
+            "name": "They live up to the name",
+            "description": "Clear Wanted status by completing a death trooper confrontation event",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Outlaws_Ach_3",
+            "name": "Shoot first",
+            "description": "Defeat 6 enemies simultaneously using Adrenaline Rush",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Outlaws_Ach_4",
+            "name": "No match for a good blaster",
+            "description": "Fully upgrade a blaster module configuration",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Outlaws_Ach_5",
+            "name": "Got you something",
+            "description": "Collect all Nix treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Outlaws_Ach_6",
+            "name": "Galactic gourmet",
+            "description": "Sample all galactic street food",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Outlaws_Ach_7",
+            "name": "Good listener",
+            "description": "Listen to the longest sob story in the galaxy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Outlaws_Ach_8",
+            "name": "Experience outranks everything",
+            "description": "Complete all Expert quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Outlaws_Ach_9",
+            "name": "Adventure and excitement",
+            "description": "Discover all planet areas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Outlaws_Ach_10",
+            "name": "Give me the good stuff",
+            "description": "Buy an item from a merchant's VIP stock",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Outlaws_Ach_11",
+            "name": "Old school cool",
+            "description": "Acquire the Disruptor gear set",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Outlaws_Ach_12",
+            "name": "Honest work",
+            "description": "Complete 40 contracts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Outlaws_Ach_13",
+            "name": "Cut-throat politics",
+            "description": "Reach maximum reputation with the Pyke Syndicate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Outlaws_Ach_14",
+            "name": "Cloak and dagger",
+            "description": "Reach maximum reputation with Crimson Dawn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Outlaws_Ach_15",
+            "name": "What you see is what you get",
+            "description": "Reach maximum reputation with the Hutt Cartel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Outlaws_Ach_16",
+            "name": "The Queen's word is law",
+            "description": "Reach maximum reputation with the Ashiga Clan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Outlaws_Ach_17",
+            "name": "Think I had a choice?",
+            "description": "Reach the lowest possible reputation with a faction",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Outlaws_Ach_18",
+            "name": "It's mine now",
+            "description": "Acquire the scoundrel gear set",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Outlaws_Ach_19",
+            "name": "Stay on target",
+            "description": "Complete your first Intel chain",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Outlaws_Ach_20",
+            "name": "Easy pickings",
+            "description": "Pickpocket a customer in a cantina on each planet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Outlaws_Ach_21",
+            "name": "Against all odds",
+            "description": "Win your first fixed fathier race",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Outlaws_Ach_22",
+            "name": "No such thing as luck",
+            "description": "Cheat and win a Sabacc game against Lando",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Outlaws_Ach_23",
+            "name": "There is no try",
+            "description": "Get a high score in an arcade game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Outlaws_Ach_24",
+            "name": "Right back at you",
+            "description": "Defeat 20 enemies using items fetched by Nix",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Outlaws_Ach_25",
+            "name": "How rude!",
+            "description": "Blind 30 enemies with Nix attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "Outlaws_Ach_26",
+            "name": "Punching up",
+            "description": "Defeat each syndicate's capital ship without taking hull damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Outlaws_Ach_27",
+            "name": "Might want to buckle up",
+            "description": "Fly into space in a fully upgraded Trailblazer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Outlaws_Ach_28",
+            "name": "I'll bet you have",
+            "description": "Defeat 20 enemies distracted by Fast-Talk",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Outlaws_Ach_29",
+            "name": "The heavier they fall",
+            "description": "Defeat a Raider to clear Wanted status",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "Outlaws_Ach_30",
+            "name": "Sometimes I amaze even myself",
+            "description": "Defeat an enemy ship after doing a loop maneuver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "Outlaws_Ach_31",
+            "name": "Never tell me the odds",
+            "description": "Defeat an enemy ship without dealing the finishing blow with lasers or missiles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Outlaws_Ach_32",
+            "name": "Into darkness",
+            "description": "Destroy 10 enemy ships inside the Kijimi nebula",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Outlaws_Ach_33",
+            "name": "Like a bantha",
+            "description": "Perform a perfect landing with the speeder",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Outlaws_Ach_34",
+            "name": "Galaxy drift",
+            "description": "Perform a 30 second powerslide drift",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Outlaws_Ach_35",
+            "name": "Don't get cocky",
+            "description": "Defeat 5 enemies with Adrenaline Rush on the speeder simultaneously",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Outlaws_Ach_36",
+            "name": "Into the main frame",
+            "description": "Slice 10 advanced terminals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Outlaws_Ach_37",
+            "name": "Slice like you",
+            "description": "Slice 20 terminals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Outlaws_Ach_38",
+            "name": "Now you see me, now you don't",
+            "description": "Disable an alarm using a security terminal while the alarm is active",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Outlaws_Ach_39",
+            "name": "Get rhythm",
+            "description": "Pick 20 locks with the data spike",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Outlaws_Ach_40",
+            "name": "Made it somehow",
+            "description": "Acquire a blaster, a starship, and a speeder",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Outlaws_Ach_41",
+            "name": "Tip the scales",
+            "description": "Complete all main quests on Toshara",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Outlaws_Ach_42",
+            "name": "One job at a time",
+            "description": "Complete all main quests on Kijimi",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Outlaws_Ach_43",
+            "name": "Making friends",
+            "description": "Escape from Jabba's palace",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Outlaws_Ach_44",
+            "name": "Rare friends",
+            "description": "Complete all main quests on Tatooine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Outlaws_Ach_45",
+            "name": "Spiked",
+            "description": "Liberate the original Super Viper Droid",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Outlaws_Ach_46",
+            "name": "Best of the best",
+            "description": "Complete all main quests on Akiva",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Outlaws_Ach_47",
+            "name": "The Director",
+            "description": "Learn Sliro's secret",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Outlaws_Ach_48",
+            "name": "Eye on the score",
+            "description": "Complete all main quests in Canto Bight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Outlaws_Ach_49",
+            "name": "Calling in some favors",
+            "description": "Destroy the Revelator",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Outlaws_Ach_50",
+            "name": "All in",
+            "description": "Find the Morenia",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Outlaws_Ach_51",
+            "name": "All out",
+            "description": "Escape the Morenia",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Outlaws_Ach_52",
+            "name": "Take your own advice",
+            "description": "Save Aksali Noll",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Outlaws_Ach_53",
+            "name": "A moon in your hand",
+            "description": "Retrieve the map to Okala V",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Outlaws_Ach_54",
+            "name": "Stranger Tides",
+            "description": "Escape from the Khepi Tomb",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Outlaws_Ach_55",
+            "name": "Price of Loyalty",
+            "description": "Get the Khepi scepter hilt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "Outlaws_Ach_56",
+            "name": "Pirate's Honor",
+            "description": "Steal a Rokana Raider ship",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Outlaws_Ach_57",
+            "name": "Together",
+            "description": "Discover the secrets of the Khepi",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Outlaws_Ach_58",
+            "name": "First Voyage",
+            "description": "Complete a contract with a Refractor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Outlaws_Ach_59",
+            "name": "Wordsmith",
+            "description": "Help compose a pirate's poem",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

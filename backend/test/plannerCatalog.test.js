@@ -496,6 +496,15 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ea-sports-fc-25"));
     assert.ok(slugs.includes("nba-2k24"));
     assert.ok(slugs.includes("fifa-23"));
+    assert.ok(slugs.includes("star-wars-battlefront"));
+    assert.ok(slugs.includes("star-wars-outlaws"));
+    assert.ok(slugs.includes("the-walking-dead-telltale-definitive-series"));
+    assert.ok(slugs.includes("battlefield-2042"));
+    assert.ok(slugs.includes("battlefield-5"));
+    assert.ok(slugs.includes("naruto-shippuden-ultimate-ninja-storm-4"));
+    assert.ok(slugs.includes("assassins-creed-4-black-flag"));
+    assert.ok(slugs.includes("assassins-creed-unity"));
+    assert.ok(slugs.includes("assassins-creed-syndicate"));
 
 });
 
