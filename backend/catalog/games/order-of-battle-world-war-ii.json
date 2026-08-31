@@ -1,0 +1,366 @@
+{
+    "id": 312450,
+    "steamAppId": 312450,
+    "name": "Order of Battle: World War II",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/312450/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Wargame",
+        "Turn-Based Strategy",
+        "World War II",
+        "Strategy",
+        "Military",
+        "Hex Grid"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_CAMPAIGN_JAPAN_COMPLETED",
+            "name": "Hero of the Rising Sun",
+            "description": "Complete the Japanese campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_CAMPAIGN_USA_COMPLETED",
+            "name": "Pax Americana",
+            "description": "Complete the US campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CAMPAIGN_TUTORIAL_COMPLETED",
+            "name": "Graduated for War",
+            "description": "Complete the tutorial campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_TUTORIAL_COMPLETED_NO_LOSSES",
+            "name": "Summa Cum Laude",
+            "description": "Complete the tutorial campaign without losing any unit. Difficulty level III or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_ADVANCE_MOVE_CAPTURE",
+            "name": "Taken by Force",
+            "description": "Capture a Victory Point with an advance move.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_CORE_COUNT_YAMATO",
+            "name": "Imperial Trinity",
+            "description": "Accumulate 3 Yamato class battleships during a campaign game, each with at least 2 kills. Difficulty level III or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CORE_COUNT_TANKS",
+            "name": " Tank Specialist",
+            "description": " Accumulate 8 tank class units during a campaign game, each with at least 2 kills. Difficulty level III or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_CORE_COUNT_MARINES",
+            "name": "Semper Fi",
+            "description": "Accumulate 5 US Marines during a campaign game, each with at least 2 kills. Difficulty level III or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_RESOURCES_RESERVE",
+            "name": "Hoarder",
+            "description": "Accumulate a reserve of 1000 Resource Points in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_KILLS_TANK_BRONZE",
+            "name": "Tank Buster Bronze",
+            "description": "Destroy 5 tanks with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_KILLS_TANK_SILVER",
+            "name": "Tank Buster Silver",
+            "description": "Destroy 10 tanks with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_KILLS_TANK_GOLD",
+            "name": "Tank Buster Gold",
+            "description": "Destroy 15 tanks with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_KILLS_INFANTRY_BRONZE",
+            "name": "Grim Reaper Bronze",
+            "description": "Destroy 5 infantry units with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_KILLS_INFANTRY_SILVER",
+            "name": "Grim Reaper Silver",
+            "description": "Destroy 10 infantry units with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_KILLS_INFANTRY_GOLD",
+            "name": "Grim Reaper Gold",
+            "description": "Destroy 15 infantry units with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_KILLS_AIRCRAFT_BRONZE",
+            "name": "Air Ace Bronze",
+            "description": "Destroy 5 aircraft with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_KILLS_AIRCRAFT_SILVER",
+            "name": "Air Ace Silver",
+            "description": "Destroy 10 aircraft with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_KILLS_AIRCRAFT_GOLD",
+            "name": "Air Ace Gold",
+            "description": "Destroy 15 aircraft with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_KILLS_NAVAL_BRONZE",
+            "name": "Naval Legend Bronze",
+            "description": "Destroy 5 ships with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_KILLS_NAVAL_SILVER",
+            "name": "Naval Legend Silver",
+            "description": "Destroy 10 ships with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_KILLS_NAVAL_GOLD",
+            "name": "Naval Legend Gold",
+            "description": "Destroy 15 ships with a single unit in a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_ELITE_INFANTRY",
+            "name": "Elite infantry",
+            "description": "Gain 5 experience stars on an Infantry class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_ELITE_RECON",
+            "name": "Elite Recon",
+            "description": "Gain 5 experience stars on a Reconaissance class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_ELITE_TANK",
+            "name": "Elite Tank",
+            "description": "Gain 5 experience stars on a Tank class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_ELITE_ANTITANK",
+            "name": "Elite Anti-Tank",
+            "description": "Gain 5 experience stars on an Anit-Tank class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_ELITE_ARTILLERY",
+            "name": "Elite Artillery",
+            "description": "Gain 5 experience stars on an Artillery class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_ELITE_ANTIAIR",
+            "name": "Elite Anti-Air",
+            "description": "Gain 5 experience stars on an Anti-Air class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ELITE_FIGHTER",
+            "name": "Elite Fighter",
+            "description": "Gain 5 experience stars on a Fighter class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_ELITE_TACBOMBER",
+            "name": "Elite Tactical Bomber",
+            "description": "Gain 5 experience stars on a Tactical Bomber class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_ELITE_STRATBOMBER",
+            "name": "Elite Strategic Bomber",
+            "description": "Gain 5 experience stars on a Strategic Bomber class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_ELITE_DESTROYER",
+            "name": "Elite Destroyer",
+            "description": "Gain 5 experience stars on a Destroyer class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_ELITE_CRUISER",
+            "name": "Elite Cruiser",
+            "description": "Gain 5 experience stars on a Cruiser class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_ELITE_BATTLESHIP",
+            "name": "Elite Battleship",
+            "description": "Gain 5 experience stars on a Battleship class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_ELITE_SUBMARINE",
+            "name": "Elite Submarine",
+            "description": "Gain 5 experience stars on a Submarine class unit during a campaign game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_GHOST_SHIP",
+            "name": "Ghost Ship",
+            "description": "Reform a single naval unit 5 times during a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ORDER_RISING_SUN",
+            "name": "Order of the Rising Sun",
+            "description": "Use the Banzai Charge ability to destroy an enemy unit, dealing at least 5 points of damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_PURPLE_HEART",
+            "name": "Purple Heart",
+            "description": "Accumulate over 100 points of damage taken on a single land unit during a campaign game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_MAP_EDITOR",
+            "name": "Architect of War",
+            "description": "Using the scenario editor, launch a custom scenario with as least 2 units for each player.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

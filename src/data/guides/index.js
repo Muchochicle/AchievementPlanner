@@ -502,6 +502,9 @@ import { GUIDE as alienSwarmAchievementGuide } from "./games/alien-swarm.js";
 import { GUIDE as spelunkyAchievementGuide } from "./games/spelunky.js";
 import { GUIDE as dungeonDefendersAchievementGuide } from "./games/dungeon-defenders.js";
 import { GUIDE as killerIsDeadAchievementGuide } from "./games/killer-is-dead.js";
+import { GUIDE as sniperEliteNaziZombieArmyAchievementGuide } from "./games/sniper-elite-nazi-zombie-army.js";
+import { GUIDE as robocraftAchievementGuide } from "./games/robocraft.js";
+import { GUIDE as orderOfBattleWorldWarIIAchievementGuide } from "./games/order-of-battle-world-war-ii.js";
 
 export const APP_GUIDES = [
 
@@ -1026,7 +1029,10 @@ export const GAME_GUIDES = [
     alienSwarmAchievementGuide,
     spelunkyAchievementGuide,
     dungeonDefendersAchievementGuide,
-    killerIsDeadAchievementGuide
+    killerIsDeadAchievementGuide,
+    sniperEliteNaziZombieArmyAchievementGuide,
+    robocraftAchievementGuide,
+    orderOfBattleWorldWarIIAchievementGuide
 
 ];
 
