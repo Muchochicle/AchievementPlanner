@@ -779,6 +779,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("bopl-battle"));
     assert.ok(slugs.includes("shotgun-cop-man"));
     assert.ok(slugs.includes("fabledom"));
+    assert.ok(slugs.includes("death-must-die"));
+    assert.ok(slugs.includes("fights-in-tight-spaces"));
+    assert.ok(slugs.includes("ravenswatch"));
 
 });
 

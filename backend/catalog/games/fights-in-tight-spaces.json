@@ -1,0 +1,654 @@
+{
+    "id": 1265820,
+    "steamAppId": 1265820,
+    "name": "Fights in Tight Spaces",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1265820/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Tactics",
+        "Deckbuilder",
+        "Turn-Based",
+        "Spy Action",
+        "Roguelite",
+        "Puzzle"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_MISSION_TRAINING",
+            "name": "Rookie",
+            "description": "Complete the Section 11 Training",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_MISSION_BIKERS",
+            "name": "Off With Their Head",
+            "description": "Complete the Death's Head Biker Gang mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_MISSION_PRISONERS",
+            "name": "Inside Out",
+            "description": "Complete the Insiders mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_MISSION_NINJAS",
+            "name": "Ninja! Go!",
+            "description": "Complete the Jade Staff mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_MISSION_GANGSTERS",
+            "name": "Stepping on Toes",
+            "description": "Complete the iCompleti mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SESSION_COMPLETE",
+            "name": "Mission Accomplished",
+            "description": "Complete a full run (all missions)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_SESSION_PURISTCOMPLETE",
+            "name": "Purity",
+            "description": "Complete a full run on Purist difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_SESSION_DAILYPLAYCOMPLETE",
+            "name": "Carpe Kill'em",
+            "description": "Complete a Daily Play",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_DECK_BALANCEDWIN",
+            "name": "The All-Rounder",
+            "description": "Win a run using the Balanced deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_DECK_COUNTERWIN",
+            "name": "The Defender",
+            "description": "Win a run using the Counter deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_DECK_AGGRESSIVEWIN",
+            "name": "The Fighter",
+            "description": "Win a run using the Aggressive deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_DECK_SLASHERWIN",
+            "name": "The Slasher",
+            "description": "Win a run using the Slasher deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_DECK_GRAPPLERWIN",
+            "name": "The Wrestler",
+            "description": "Win a run using the Grappler deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_DECK_TRICKSTERWIN",
+            "name": "The Trickster",
+            "description": "Win a run using the Trickster deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_DECK_COMPLETIONDECKSMALL",
+            "name": "Specialist",
+            "description": "Win a run with 16 or fewer cards in your deck at the end of the run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_DECK_COMPLETIONDECKBIG",
+            "name": "Bag of Tricks",
+            "description": "Win a run with at least 50 cards in your deck at the end of the run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_SESSION_COMPLETETIME",
+            "name": "Speed Run",
+            "description": "Win a run in under an hour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_SESSION_NOUPGRADES",
+            "name": "Basic B",
+            "description": "Win a run without upgrading any cards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_SESSION_NOPARTNERDEATHS",
+            "name": "He Protecc",
+            "description": "Complete a run without losing an Informant or Ambassador",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_MINIBOSSES_BIKERS",
+            "name": "Death to Death's Head",
+            "description": "Encounter and defeat all 3 lieutenants in the Death's Head Biker Gang mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MINIBOSSES_PRISONERS",
+            "name": "Parole Denied",
+            "description": "Encounter and defeat all 3 lieutenants in The Insiders mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_MINIBOSSES_NINJAS",
+            "name": "Shur-You-Can",
+            "description": "Encounter and defeat all 3 lieutenants in the Jade Staff mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_MINIBOSSES_GANGSTERS",
+            "name": "Three Gs",
+            "description": "Encounter and defeat all 3 lieutenants in the i Completi mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_MINIBOSSES_RENEGADES",
+            "name": "Double Crossed Out",
+            "description": "Encounter and defeat both lieutenants in the Renegade Agents mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BOARD_NOATTACKWIN",
+            "name": "Pacifist",
+            "description": "Win a fight without playing an Attack card",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_BOARD_NOMOVEWIN",
+            "name": "Immovable Object",
+            "description": "Win a fight without using any movement cards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_BOARD_ALLVOIDKILLSWIN",
+            "name": "Yeet",
+            "description": "Win a fight by throwing ALL enemies into the void",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_BOARD_1HPWIN",
+            "name": "Tis But a Scratch",
+            "description": "Win a fight with 1 HP remaining",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_BOARD_BEATBOSSNODAMAGE",
+            "name": "Untouchable",
+            "description": "Win a boss fight without taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_BOARD_COMBO",
+            "name": "Combo Master",
+            "description": "Get a 20 combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_DAMAGE_SINGLEHIT",
+            "name": "Overpowered",
+            "description": "Deal 50 damage in a single hit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_DAMAGE_SINGLEATTACK",
+            "name": "Almighty",
+            "description": "Deal 100 damage in a single attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_STAT_ENEMYKILLS",
+            "name": "Unfriendly Fire",
+            "description": "Get 100 enemies killed by other enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_STAT_VOIDKILLS",
+            "name": "Into the Void",
+            "description": "Throw 100 enemies out of the board",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_STAT_ALLYKILL",
+            "name": "Death by Diplomat",
+            "description": "Push a heavily damaged enemy (under 4 HP) into a killing blow using your Informant or Ambassador partner - a push, not a taunt or redirect.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_STAT_POCKETSANDKILL",
+            "name": "Sand Blasted",
+            "description": "Kill an enemy using the Pocket Sand card.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_DAMAGE_DARTBOARD",
+            "name": "Bullseye",
+            "description": "Hit an enemy with a Stun Dart card in front of the dartboard in the bar, during the Death's Head Biker Gang mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_STAT_MONEY",
+            "name": "Pocket Change",
+            "description": "Have £1,000 at any stage in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_COMPENDIUM_ALLCARDS",
+            "name": "Binders of Power",
+            "description": "Unlock all cards in the compendium",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_COMPENDIUM_EVERYTHING",
+            "name": "All the Things",
+            "description": "Unlock all cards and help screens in the compendium",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_DLC2_HANDLER_COMPLETE",
+            "name": "A Close Shave",
+            "description": "Defeat the Carlton Boys with the K-9 Handler deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_DLC2_SUPPORT_COMPLETE",
+            "name": "A Cut Above",
+            "description": "Defeat the Carlton Boys with the K-9 Support deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_DLC2_PURIST_COMPLETE",
+            "name": "Pawfection",
+            "description": "Complete a run on Purist with a K-9 deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_DLC2_PUSHES",
+            "name": "That'll Do",
+            "description": "Push 100 enemies with Come-Bye",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_DLC2_DISTRACT",
+            "name": "What's Updog?",
+            "description": "Distract 100 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_DLC2_SUPPORT_ATTACKS",
+            "name": "Bestest Friends",
+            "description": "Deal 1000 Damage with Support Attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_DLC2_TESTEKILLS",
+            "name": "Crown Jewels",
+            "description": "Use Testekill on 100 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_DLC2_NO_DOWNS",
+            "name": "Can't Touch This",
+            "description": "Complete a run without Agent K being downed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_DLC2_NO_DOG_MOVEMENT",
+            "name": "Stay",
+            "description": "Win a fight without using any dog movement cards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_DLC2_PANIC",
+            "name": "Panik!",
+            "description": "Panic 4 enemies on the board during the same turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_DLC2_LURE_PUSH",
+            "name": "Hook, Line, and Sinker",
+            "description": "Kill an enemy by using Lure before pushing them into a void",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_DLC2_PUSH_MULTIPLE",
+            "name": "Lemmings",
+            "description": "Push 3 enemies off the board at once using Come-Bye",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_DLC2_DEAL_DOG_DAMAGE",
+            "name": "Primal Rage",
+            "description": "Deal 50 Damage with a single dog attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_DLC2_TREAT_CARDS",
+            "name": "Overfeeding",
+            "description": "Have 5 Treat cards in your deck at one time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_DLC1_GUN_CARDS",
+            "name": "Hair Trigger",
+            "description": "Play 6 gun cards in a single turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_DLC1_CHANGE_STANCES",
+            "name": "Wild West",
+            "description": "Change stances 4 times in a single turn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_DLC1_PURIST_COMPLETE",
+            "name": "Flawless Aim",
+            "description": "Complete a Weapon of Choice campaign on Purist",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_DLC1_BOSS_NEAR_MISS",
+            "name": "I Wasn't Aiming At You",
+            "description": "Kill a Boss using Near Miss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_DLC1_PIERCING_SHOT",
+            "name": "Line 'em Up, Knock 'em Down",
+            "description": "Kill 3 enemies with a single bullet using Piercing Shot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_DLC1_DLC2_GUN_AND_DOG",
+            "name": "Pistol Pooch",
+            "description": "Complete a run with both gun and dog cards in your deck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_DLC3_NO_SUPPORTS",
+            "name": "Divide and Conquer",
+            "description": "Complete a fight with Cultists without triggering any support attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_DLC3_SUPPORT_COUNTERS",
+            "name": "Peripheral Punishment",
+            "description": "Kill 25 enemies by countering their support attacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_DLC3_JUMPSCARE_COMBO",
+            "name": "Cheap Jumpscare",
+            "description": "End a turn with 5 or more Combo after being jumpscared in the Crypt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_DLC3_TRAP_KILLS",
+            "name": "Trapaholic",
+            "description": "Have 50 enemies killed by Traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_DLC3_BOSS_TRAPS",
+            "name": "Woulda gotten away with it, too...",
+            "description": "Complete a run in which all three bosses are killed by traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_DLC3_NO_RELIC_DAMAGE",
+            "name": "These should be in a museum",
+            "description": "Win 5 fights in which Relics are present, without them taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_DLC3_ALL_RELICS_KILLED",
+            "name": "Antique Horror Show",
+            "description": "Destroy all four Relic types",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_DLC3_COMPLETE",
+            "name": "Part of the Job",
+            "description": "Complete Frights in Tight Spaces",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_DLC3_PURIST_COMPLETE",
+            "name": "Purification Ritual",
+            "description": "Complete Frights in Tight Spaces on Purist difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_DLC3_AMBASSADOR_SAVED",
+            "name": "Ambassador's Commendation",
+            "description": "Rescue the Ambassador from the Occultists",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

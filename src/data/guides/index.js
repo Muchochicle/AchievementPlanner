@@ -755,6 +755,9 @@ import { GUIDE as dungeonsOfHinterbergAchievementGuide } from "./games/dungeons-
 import { GUIDE as boplBattleAchievementGuide } from "./games/bopl-battle.js";
 import { GUIDE as shotgunCopManAchievementGuide } from "./games/shotgun-cop-man.js";
 import { GUIDE as fabledomAchievementGuide } from "./games/fabledom.js";
+import { GUIDE as deathMustDieAchievementGuide } from "./games/death-must-die.js";
+import { GUIDE as fightsInTightSpacesAchievementGuide } from "./games/fights-in-tight-spaces.js";
+import { GUIDE as ravenswatchAchievementGuide } from "./games/ravenswatch.js";
 
 export const APP_GUIDES = [
 
@@ -1532,7 +1535,10 @@ export const GAME_GUIDES = [
     dungeonsOfHinterbergAchievementGuide,
     boplBattleAchievementGuide,
     shotgunCopManAchievementGuide,
-    fabledomAchievementGuide
+    fabledomAchievementGuide,
+    deathMustDieAchievementGuide,
+    fightsInTightSpacesAchievementGuide,
+    ravenswatchAchievementGuide
 
 ];
 
