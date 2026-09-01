@@ -806,6 +806,9 @@ import { GUIDE as sonsOfTheForestAchievementGuide } from "./games/sons-of-the-fo
 import { GUIDE as ghostOfTsushimaDirectorsCutAchievementGuide } from "./games/ghost-of-tsushima-directors-cut.js";
 import { GUIDE as controlUltimateEditionAchievementGuide } from "./games/control-ultimate-edition.js";
 import { GUIDE as ratchetAndClankRiftApartAchievementGuide } from "./games/ratchet-and-clank-rift-apart.js";
+import { GUIDE as theOuterWorldsAchievementGuide } from "./games/the-outer-worlds.js";
+import { GUIDE as armoredCoreViFiresOfRubiconAchievementGuide } from "./games/armored-core-vi-fires-of-rubicon.js";
+import { GUIDE as godOfWarRagnarokAchievementGuide } from "./games/god-of-war-ragnarok.js";
 
 export const APP_GUIDES = [
 
@@ -836,6 +839,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  godOfWarRagnarokAchievementGuide,
+  armoredCoreViFiresOfRubiconAchievementGuide,
+  theOuterWorldsAchievementGuide,
   ratchetAndClankRiftApartAchievementGuide,
   controlUltimateEditionAchievementGuide,
   ghostOfTsushimaDirectorsCutAchievementGuide,

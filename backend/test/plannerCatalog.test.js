@@ -830,6 +830,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("ghost-of-tsushima-directors-cut"));
     assert.ok(slugs.includes("control-ultimate-edition"));
     assert.ok(slugs.includes("ratchet-and-clank-rift-apart"));
+    assert.ok(slugs.includes("the-outer-worlds"));
+    assert.ok(slugs.includes("armored-core-vi-fires-of-rubicon"));
+    assert.ok(slugs.includes("god-of-war-ragnarok"));
 
 });
 
