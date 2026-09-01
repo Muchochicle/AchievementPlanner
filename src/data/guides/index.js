@@ -827,6 +827,9 @@ import { GUIDE as callOfDutyBlackOpsIiiAchievementGuide } from "./games/call-of-
 import { GUIDE as danganronpa2GoodbyeDespairAchievementGuide } from "./games/danganronpa-2-goodbye-despair.js";
 import { GUIDE as theFinalStationAchievementGuide } from "./games/the-final-station.js";
 import { GUIDE as rhythmDoctorAchievementGuide } from "./games/rhythm-doctor.js";
+import { GUIDE as assassinsCreedMirageAchievementGuide } from "./games/assassins-creed-mirage.js";
+import { GUIDE as borderlandsThePreSequelAchievementGuide } from "./games/borderlands-the-pre-sequel.js";
+import { GUIDE as wasteland2DirectorsCutAchievementGuide } from "./games/wasteland-2-directors-cut.js";
 
 export const APP_GUIDES = [
 
@@ -857,6 +860,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  wasteland2DirectorsCutAchievementGuide,
+  borderlandsThePreSequelAchievementGuide,
+  assassinsCreedMirageAchievementGuide,
   rhythmDoctorAchievementGuide,
   theFinalStationAchievementGuide,
   danganronpa2GoodbyeDespairAchievementGuide,

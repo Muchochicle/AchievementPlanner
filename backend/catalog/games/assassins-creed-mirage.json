@@ -1,0 +1,573 @@
+{
+    "id": 3035570,
+    "steamAppId": 3035570,
+    "name": "Assassin's Creed Mirage",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3035570/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Open World",
+        "Action",
+        "Stealth",
+        "Historical",
+        "Assassin",
+        "Adventure"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACMirage_Ach_1",
+            "name": "The Master Thief of Anbar",
+            "description": "Complete the prologue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACMirage_Ach_2",
+            "name": "La shay'a waqi'un mutlaq",
+            "description": "Become an Initiate of the Hidden Ones.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACMirage_Ach_3",
+            "name": "The Blood of a Ghoul",
+            "description": "Eliminate Al-Ghul.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACMirage_Ach_4",
+            "name": "The Blood of a Demon",
+            "description": "Eliminate Al-Rabisu.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACMirage_Ach_5",
+            "name": "The Blood of an Enchantress",
+            "description": "Eliminate Al-Pairika.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACMirage_Ach_6",
+            "name": "The Blood of a Spymaster",
+            "description": "Eliminate Al-Mardikhwar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACMirage_Ach_7",
+            "name": "The Head of the Snake",
+            "description": "Eliminate the Head of the Order.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACMirage_Ach_8",
+            "name": "Bal kullun mumkin",
+            "description": "Discover Basim's past (finish the game).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACMirage_Ach_9",
+            "name": "Serving the Light",
+            "description": "Reach the maximum Hidden One Rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACMirage_Ach_10",
+            "name": "Self-Improvement",
+            "description": "Unlock 23 Skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACMirage_Ach_11",
+            "name": "Cutting Edge",
+            "description": "Fully upgrade a weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACMirage_Ach_12",
+            "name": "Thick Skin",
+            "description": "Fully upgrade an outfit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACMirage_Ach_13",
+            "name": "Fashion Statement",
+            "description": "Apply dye to an outfit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACMirage_Ach_14",
+            "name": "Masquerader",
+            "description": "Obtain the two disguises in Baghdad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACMirage_Ach_15",
+            "name": "Treasure Seeker",
+            "description": "Open a token chest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACMirage_Ach_16",
+            "name": "Potion Collector",
+            "description": "Purchase 10 elixirs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACMirage_Ach_17",
+            "name": "Fearless",
+            "description": "Synchronize all Viewpoints in the Baghdad region",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACMirage_Ach_18",
+            "name": "Bird of Prey",
+            "description": "Tag 100 guards using Enkidu",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACMirage_Ach_19",
+            "name": "Explorer",
+            "description": "Explore all the Baghdad region territories",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACMirage_Ach_20",
+            "name": "Defender of the People",
+            "description": "Complete 10 faction contracts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACMirage_Ach_21",
+            "name": "Crossing Paths",
+            "description": "Complete a Tale from Baghdad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACMirage_Ach_22",
+            "name": "Sage",
+            "description": "Collect all lost books",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACMirage_Ach_23",
+            "name": "Riddle Me This",
+            "description": "Obtain a treasure by solving an enigma",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACMirage_Ach_24",
+            "name": "Tools of the Trade",
+            "description": "Fully upgrade all tools",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACMirage_Ach_25",
+            "name": "Eagle's Eye",
+            "description": "Kill 75 guards with throwing knives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACMirage_Ach_26",
+            "name": "Headhunter",
+            "description": "Headshot 20 guards with throwing knives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACMirage_Ach_27",
+            "name": "Sleep Tight",
+            "description": "Put 10 guards to sleep with blowdarts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACMirage_Ach_28",
+            "name": "Ambush",
+            "description": "Have 10 guards trigger traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACMirage_Ach_29",
+            "name": "Up in Smoke",
+            "description": "Affect 20 guards with smoke bombs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACMirage_Ach_30",
+            "name": "Attention Seeker",
+            "description": "Attract 10 guards with noisemakers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACMirage_Ach_31",
+            "name": "The Hands of a Thief",
+            "description": "Pickpocket 50 people",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACMirage_Ach_32",
+            "name": "You Snooze, You Lose",
+            "description": "Pickpocket a guard affected by a blowdart",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACMirage_Ach_33",
+            "name": "Curio Collector",
+            "description": "Pickpocket all 18 artifacts and bring them to Dervis.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACMirage_Ach_34",
+            "name": "Hoarder",
+            "description": "Save up 2007 dirhams",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACMirage_Ach_35",
+            "name": "Dawn and Dusk",
+            "description": "Use benches to pass time 5 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACMirage_Ach_36",
+            "name": "Patron of the Arts",
+            "description": "Pay musicians 5 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACMirage_Ach_37",
+            "name": "Patron of Sell-Swords",
+            "description": "Pay mercenaries 5 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACMirage_Ach_38",
+            "name": "Patron of Industry",
+            "description": "Pay merchant groups 5 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACMirage_Ach_39",
+            "name": "Blade in the Crowd",
+            "description": "Assassinate 10 guards while blending with the crowd",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACMirage_Ach_40",
+            "name": "Surprise!",
+            "description": "Assassinate 10 guards from hiding spots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACMirage_Ach_41",
+            "name": "The Shadow and the Flame",
+            "description": "Defeat a Shakiriyya in combat (they appear at maximum notoriety).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACMirage_Ach_42",
+            "name": "Silencer",
+            "description": "Destroy a Horn Bearer's horn with a throwing knife.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACMirage_Ach_43",
+            "name": "Notorious",
+            "description": "Stay at maximum notoriety for 10 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACMirage_Ach_44",
+            "name": "Poster Boy",
+            "description": "Lower maximum notoriety by ripping wanted posters only",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACMirage_Ach_45",
+            "name": "Spread the News",
+            "description": "Use the services of a Munadi 3 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACMirage_Ach_46",
+            "name": "Unstoppable",
+            "description": "Kill 5 guards with one use of Assassin's Focus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACMirage_Ach_47",
+            "name": "Eagle's Will",
+            "description": "Survive 10 minutes in open conflict",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACMirage_Ach_48",
+            "name": "Gifted Escapist",
+            "description": "Collapse 20 scaffolding structures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACMirage_Ach_49",
+            "name": "A True Hidden One",
+            "description": "Assassinate 10 guards in a row without triggering open conflict",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACMirage_Ach_50",
+            "name": "Street Cleaner",
+            "description": "Hide 5 bodies in bales of hay",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACMirage_Ach_51",
+            "name": "Lost and Found",
+            "description": "Return all stolen goods to Hind",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACMirage_Ach_52",
+            "name": "Once Upon a Time",
+            "description": "Listen to all folktales",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACMirage_Ach_53",
+            "name": "Pro Musician",
+            "description": "Collect all Oud melodies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACMirage_Ach_54",
+            "name": "If I Recall Correctly",
+            "description": "Replay an Animus Sequence",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACMirage_Ach_55",
+            "name": "Perfect Memory",
+            "description": "Complete all challenges of an Animus Sequence",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACMirage_Ach_56",
+            "name": "Playback",
+            "description": "Unlock all Animus Sequence rewards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACMirage_Ach_57",
+            "name": "Taste Your Own Medicine",
+            "description": "Poison a Poisoner",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACMirage_Ach_58",
+            "name": "Like a Local",
+            "description": "Complete all the AlUla territories",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACMirage_Ach_59",
+            "name": "Make a Break",
+            "description": "Escape the AlUla prison",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACMirage_Ach_60",
+            "name": "Turn the Page",
+            "description": "Say goodbye to Is'haq",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACMirage_Ach_61",
+            "name": "Give it the Slip",
+            "description": "Escape the AlUla prison undetected",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -851,6 +851,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("danganronpa-2-goodbye-despair"));
     assert.ok(slugs.includes("the-final-station"));
     assert.ok(slugs.includes("rhythm-doctor"));
+    assert.ok(slugs.includes("assassins-creed-mirage"));
+    assert.ok(slugs.includes("borderlands-the-pre-sequel"));
+    assert.ok(slugs.includes("wasteland-2-directors-cut"));
 
 });
 
