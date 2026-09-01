@@ -857,6 +857,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-evil-within-2"));
     assert.ok(slugs.includes("little-kitty-big-city"));
     assert.ok(slugs.includes("xcom-enemy-unknown"));
+    assert.ok(slugs.includes("layers-of-fear-2016"));
+    assert.ok(slugs.includes("persona-5-strikers"));
+    assert.ok(slugs.includes("need-for-speed-heat"));
 
 });
 

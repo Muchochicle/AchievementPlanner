@@ -833,6 +833,9 @@ import { GUIDE as wasteland2DirectorsCutAchievementGuide } from "./games/wastela
 import { GUIDE as theEvilWithin2AchievementGuide } from "./games/the-evil-within-2.js";
 import { GUIDE as littleKittyBigCityAchievementGuide } from "./games/little-kitty-big-city.js";
 import { GUIDE as xcomEnemyUnknownAchievementGuide } from "./games/xcom-enemy-unknown.js";
+import { GUIDE as layersOfFear2016AchievementGuide } from "./games/layers-of-fear-2016.js";
+import { GUIDE as persona5StrikersAchievementGuide } from "./games/persona-5-strikers.js";
+import { GUIDE as needForSpeedHeatAchievementGuide } from "./games/need-for-speed-heat.js";
 
 export const APP_GUIDES = [
 
@@ -863,6 +866,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  needForSpeedHeatAchievementGuide,
+  persona5StrikersAchievementGuide,
+  layersOfFear2016AchievementGuide,
   xcomEnemyUnknownAchievementGuide,
   littleKittyBigCityAchievementGuide,
   theEvilWithin2AchievementGuide,
