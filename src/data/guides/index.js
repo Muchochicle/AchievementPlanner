@@ -797,6 +797,9 @@ import { GUIDE as pacificDriveAchievementGuide } from "./games/pacific-drive.js"
 import { GUIDE as clairObscurExpedition33AchievementGuide } from "./games/clair-obscur-expedition-33.js";
 import { GUIDE as silentHill2AchievementGuide } from "./games/silent-hill-2.js";
 import { GUIDE as marvelsSpiderManRemasteredAchievementGuide } from "./games/marvels-spider-man-remastered.js";
+import { GUIDE as haloInfiniteAchievementGuide } from "./games/halo-infinite.js";
+import { GUIDE as assassinsCreedShadowsAchievementGuide } from "./games/assassins-creed-shadows.js";
+import { GUIDE as eldenRingNightreignAchievementGuide } from "./games/elden-ring-nightreign.js";
 
 export const APP_GUIDES = [
 
@@ -827,6 +830,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  eldenRingNightreignAchievementGuide,
+  assassinsCreedShadowsAchievementGuide,
+  haloInfiniteAchievementGuide,
   marvelsSpiderManRemasteredAchievementGuide,
   silentHill2AchievementGuide,
   clairObscurExpedition33AchievementGuide,

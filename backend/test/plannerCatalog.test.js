@@ -821,6 +821,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("clair-obscur-expedition-33"));
     assert.ok(slugs.includes("silent-hill-2"));
     assert.ok(slugs.includes("marvels-spider-man-remastered"));
+    assert.ok(slugs.includes("halo-infinite"));
+    assert.ok(slugs.includes("assassins-creed-shadows"));
+    assert.ok(slugs.includes("elden-ring-nightreign"));
 
 });
 
