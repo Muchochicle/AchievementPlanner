@@ -830,6 +830,9 @@ import { GUIDE as rhythmDoctorAchievementGuide } from "./games/rhythm-doctor.js"
 import { GUIDE as assassinsCreedMirageAchievementGuide } from "./games/assassins-creed-mirage.js";
 import { GUIDE as borderlandsThePreSequelAchievementGuide } from "./games/borderlands-the-pre-sequel.js";
 import { GUIDE as wasteland2DirectorsCutAchievementGuide } from "./games/wasteland-2-directors-cut.js";
+import { GUIDE as theEvilWithin2AchievementGuide } from "./games/the-evil-within-2.js";
+import { GUIDE as littleKittyBigCityAchievementGuide } from "./games/little-kitty-big-city.js";
+import { GUIDE as xcomEnemyUnknownAchievementGuide } from "./games/xcom-enemy-unknown.js";
 
 export const APP_GUIDES = [
 
@@ -860,6 +863,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  xcomEnemyUnknownAchievementGuide,
+  littleKittyBigCityAchievementGuide,
+  theEvilWithin2AchievementGuide,
   wasteland2DirectorsCutAchievementGuide,
   borderlandsThePreSequelAchievementGuide,
   assassinsCreedMirageAchievementGuide,

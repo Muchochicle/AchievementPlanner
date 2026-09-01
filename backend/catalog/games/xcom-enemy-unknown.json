@@ -1,0 +1,789 @@
+{
+    "id": 200510,
+    "steamAppId": 200510,
+    "name": "XCOM: Enemy Unknown",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/200510/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Turn-Based Strategy",
+        "Tactical",
+        "Sci-fi",
+        "Aliens",
+        "Squad-Based",
+        "Permadeath"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_0",
+            "name": "No Looking Back",
+            "description": "Beat the game in Ironman mode on Classic or Impossible Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_1",
+            "name": "Meet New People. Then Kill Them.",
+            "description": "Win a multiplayer match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_2",
+            "name": "Xavier",
+            "description": "Mind Control an Ethereal. Single player only.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_3",
+            "name": "Humanity's Savior",
+            "description": "Beat the game on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_4",
+            "name": "Earth First",
+            "description": "Beat the game on Classic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_5",
+            "name": "Our Finest Hour",
+            "description": "Beat the game on Impossible difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_6",
+            "name": "Lone Wolf",
+            "description": "Clear a UFO crash site with one soldier on Classic or Impossible difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_7",
+            "name": "Bada Boom",
+            "description": "Kill 50 aliens with explosive weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_8",
+            "name": "Welcoming Committee",
+            "description": "Kill 150 aliens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_9",
+            "name": "Pale Horse",
+            "description": "Kill 500 aliens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_10",
+            "name": "Shooting Stars",
+            "description": "Shoot down 40 UFOs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_11",
+            "name": "Ain't No Cavalry Comin'",
+            "description": "Have a soldier survive every mission in a full game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_12",
+            "name": "As A Scalpel",
+            "description": "Earn the \"Excellent\" rating in every performance category on a terror mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_13",
+            "name": "Edison",
+            "description": "In a single game, complete every Research Project.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_14",
+            "name": "Angel of Death",
+            "description": "Kill an alien while flying. Single player only.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_15",
+            "name": "All Employees Must Wash Hands…",
+            "description": "In a single game, complete every Autopsy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_16",
+            "name": "Beyond the Veil",
+            "description": "Find a soldier with the Gift (psionic potential).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_17",
+            "name": "Prisoner of War",
+            "description": "Capture a live alien.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_18",
+            "name": "The Gatekeeper",
+            "description": "Stun an Outsider.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_19",
+            "name": "X Marks the Spot",
+            "description": "Uncover the alien base's location.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_20",
+            "name": "See All, Know All",
+            "description": "Build the Hyperwave Relay.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_21",
+            "name": "On the Shoulders of Giants",
+            "description": "Build the Gollop Chamber.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_22",
+            "name": "Ride the Lightning",
+            "description": "Build a Firestorm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_23",
+            "name": "Eye in the Sky",
+            "description": "Launch a Satellite.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_24",
+            "name": "All Together Now",
+            "description": "Get satellite coverage over every country on one continent.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_25",
+            "name": "Hunter/Killer",
+            "description": "In a single game, shoot down one of each alien craft.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_26",
+            "name": "Man No More",
+            "description": "Build a suit of powered armor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_27",
+            "name": "Bubonic",
+            "description": "Play a multiplayer match against someone with this achievement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_28",
+            "name": "We Happy Few ",
+            "description": "Complete a mission without losing a soldier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_29",
+            "name": "The Hardest Road",
+            "description": "Advance one of your soldiers to Colonel rank.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_30",
+            "name": "Worth Every Penny",
+            "description": "Acquire 1000 credits in one month.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_31",
+            "name": "Oppenheimer",
+            "description": "Staff the Research Labs with 80 scientists.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_32",
+            "name": "One Gun at a Time",
+            "description": "Staff the Engineering Department with 80 engineers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_33",
+            "name": "Skunkworks",
+            "description": "In a single game, complete every Foundry project.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_34",
+            "name": "You Have 5 Seconds to Comply",
+            "description": "Build a S.H.I.V.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_35",
+            "name": "Theory...",
+            "description": "Build a Laboratory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_36",
+            "name": "...and Practice.",
+            "description": "Build a Workshop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_37",
+            "name": "Wet Work",
+            "description": "Complete a Very Hard abduction mission in five turns or less on Classic or Impossible difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_38",
+            "name": "A Continental Fellow",
+            "description": "Win the game from each of the 5 starting locations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_39",
+            "name": "What Wonders Await",
+            "description": "Complete a Research Project.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_40",
+            "name": "Up and Running",
+            "description": "Build a base facility.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_41",
+            "name": "Combat Ready",
+            "description": "Build an item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_42",
+            "name": "Drums in the Deep",
+            "description": "Gain access to the lowest level in your base.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_43",
+            "name": "Happy to Oblige",
+            "description": "Fulfill a Council request.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_44",
+            "name": "And Hell's Coming With Me",
+            "description": "Successfully assault an Overseer UFO.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_45",
+            "name": "Off My Planet",
+            "description": "Recover the Hyperwave Beacon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_46",
+            "name": "Tables Turned",
+            "description": "Shoot down a UFO.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_47",
+            "name": "And So It Begins…",
+            "description": "Complete the tutorial mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_48",
+            "name": "The Volunteer",
+            "description": "Make contact with the Ethereal hive mind (use the Gollop Chamber with a psi-soldier).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_49",
+            "name": "Flight of the Valkyries",
+            "description": "Win a mission with an all-female squad. Single player only.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_50",
+            "name": "New Friend",
+            "description": "(Slingshot DLC) Complete the mission 'Friends in Low Places'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_51",
+            "name": "Bait the Hook",
+            "description": "(Slingshot DLC) Complete the mission 'Confounding Light'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_52",
+            "name": "The Bigger They Are",
+            "description": "(Slingshot DLC) Complete the mission 'Gangplank'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_53",
+            "name": "Rising Dragon",
+            "description": "(Slingshot DLC) Bring Shaojie Zhang into the final Temple Ship mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_54",
+            "name": "All Aboard",
+            "description": "(Slingshot DLC) Complete 'Confounding Light' with 4 or more turns left on the timer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_55",
+            "name": "Who Needs Limbs?",
+            "description": "Augment a soldier in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_56",
+            "name": "A Little Bit Alien",
+            "description": "Modify a soldier in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_57",
+            "name": "Enemy Within",
+            "description": "Get a Soldier to have 5 modifications in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_58",
+            "name": "Steel Martyr",
+            "description": "Deploy three tactical subsystems on a single soldier in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_59",
+            "name": "Apotheosis Denied",
+            "description": "Deal with the newest global threat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_60",
+            "name": "They Shall Not Pass",
+            "description": "Eliminate all alien waves",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_61",
+            "name": "Zom-B-Gone",
+            "description": "Eradicate the infestation",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_62",
+            "name": "An Army Of Four",
+            "description": "Beat the game without buying a Squad Size upgrade (Classic+ difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_63",
+            "name": "The Meld Squad",
+            "description": "Field a fully enhanced squad and win the mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_64",
+            "name": "Shieldbuster",
+            "description": "Eliminate an enemy's shield and kill it on the same turn in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_65",
+            "name": "Someone Your Own Size",
+            "description": "Kill a Muton Berserker in melee combat in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_66",
+            "name": "Taking A Load Off",
+            "description": "Stop a squad member from suffocating in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_67",
+            "name": "Where in the World",
+            "description": "Make certain of the new threat's location",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_68",
+            "name": "Mind the Step",
+            "description": "Jump two stories in one move in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_69",
+            "name": "Nice Cover",
+            "description": "Use Collateral Damage to blow up a car in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_70",
+            "name": "By Our Powers Combined",
+            "description": "Field a squad with 4 augmented soldiers, each with a different base ability and win the mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_71",
+            "name": "Rise of the Machines",
+            "description": "Field a squad consisting entirely of augmented soldiers and SHIVs (min. 4) and win the mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_72",
+            "name": "Mutatis Mutandis",
+            "description": "Field a squad where all members have at least two modifications (min. 4) and win the mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_73",
+            "name": "Mental Minefield",
+            "description": "Kill an enemy as it is psionically attacking you in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_74",
+            "name": "Anger Management",
+            "description": "Proc Combat Rush on the entire squad (min. 4)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_75",
+            "name": "Remington… Max Remington",
+            "description": "Have your special-duty soldier kill three enemies in the same mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_76",
+            "name": "G’day",
+            "description": "Kill an elite enemy Sniper with one of your own snipers in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_77",
+            "name": "Regenerate This",
+            "description": "Kill an elite enemy Medic with explosive damage in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_78",
+            "name": "Tingling Sensation",
+            "description": "Kill an unseen enemy detected by a specially modified soldier in single player",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_79",
+            "name": "Pain in the Neck",
+            "description": "Cause an enemy to suicide",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_80",
+            "name": "Solid Prospect",
+            "description": "Complete Deluge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_81",
+            "name": "Ours are the Furies",
+            "description": "Complete Furies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_82",
+            "name": "Elite Defense",
+            "description": "Beat a new special mission without losing any assets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_83",
+            "name": "Guardian of Earth",
+            "description": "Designate a highly decorated soldier as the Volunteer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_84",
+            "name": "All Hands on Deck",
+            "description": "Get at least 4 kills with XCOM Base Security personnel",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

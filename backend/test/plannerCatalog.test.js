@@ -854,6 +854,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("assassins-creed-mirage"));
     assert.ok(slugs.includes("borderlands-the-pre-sequel"));
     assert.ok(slugs.includes("wasteland-2-directors-cut"));
+    assert.ok(slugs.includes("the-evil-within-2"));
+    assert.ok(slugs.includes("little-kitty-big-city"));
+    assert.ok(slugs.includes("xcom-enemy-unknown"));
 
 });
 
