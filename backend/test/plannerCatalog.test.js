@@ -788,6 +788,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("buckshot-roulette"));
     assert.ok(slugs.includes("turbo-overkill"));
     assert.ok(slugs.includes("anger-foot"));
+    assert.ok(slugs.includes("children-of-the-sun"));
+    assert.ok(slugs.includes("selaco"));
+    assert.ok(slugs.includes("el-paso-elsewhere"));
 
 });
 

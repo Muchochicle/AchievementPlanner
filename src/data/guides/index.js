@@ -764,6 +764,9 @@ import { GUIDE as bombRushCyberfunkAchievementGuide } from "./games/bomb-rush-cy
 import { GUIDE as buckshotRouletteAchievementGuide } from "./games/buckshot-roulette.js";
 import { GUIDE as turboOverkillAchievementGuide } from "./games/turbo-overkill.js";
 import { GUIDE as angerFootAchievementGuide } from "./games/anger-foot.js";
+import { GUIDE as childrenOfTheSunAchievementGuide } from "./games/children-of-the-sun.js";
+import { GUIDE as selacoAchievementGuide } from "./games/selaco.js";
+import { GUIDE as elPasoElsewhereAchievementGuide } from "./games/el-paso-elsewhere.js";
 
 export const APP_GUIDES = [
 
@@ -1550,7 +1553,10 @@ export const GAME_GUIDES = [
     bombRushCyberfunkAchievementGuide,
     buckshotRouletteAchievementGuide,
     turboOverkillAchievementGuide,
-    angerFootAchievementGuide
+    angerFootAchievementGuide,
+    childrenOfTheSunAchievementGuide,
+    selacoAchievementGuide,
+    elPasoElsewhereAchievementGuide
 
 ];
 
