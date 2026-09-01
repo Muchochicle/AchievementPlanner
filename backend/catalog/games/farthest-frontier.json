@@ -1,0 +1,690 @@
+{
+    "id": 1044720,
+    "steamAppId": 1044720,
+    "name": "Farthest Frontier",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1044720/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 60,
+        "max": 120
+    },
+    "missable": false,
+    "playthroughs": 4,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Survival",
+        "Strategy",
+        "Base Building",
+        "Medieval",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH027",
+            "name": "Philosopher",
+            "description": "Complete all Research in the Technology Tree.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH058",
+            "name": "Barren Land",
+            "description": "Upgrade the Town Center to Tier 4 while never building crop fields on Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH074",
+            "name": "Bearly Tried",
+            "description": "Activate Bear Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH068",
+            "name": "Black Death",
+            "description": "Have a bubonic plague outbreak that sickens 50 villagers at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH031",
+            "name": "Academia",
+            "description": "Contruct the Academy and upgrade it to Tier 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH034",
+            "name": "Dig Greedily and Deeply",
+            "description": "Construct 10 Deep Mines of any kind in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH029",
+            "name": "Guild Dues",
+            "description": "Construct the Guild Hall.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH035",
+            "name": "Era of Civility",
+            "description": "Construct the Civic Monument.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH036",
+            "name": "Monumental Era of Civility",
+            "description": "Construct the Civic Monument on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH037",
+            "name": "Golden Age",
+            "description": "Construct the Economic Monument.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH038",
+            "name": "Monumental Golden Age",
+            "description": "Construct the Economic Monument on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH039",
+            "name": "Age of Heroes",
+            "description": "Construct the Military Monument.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH040",
+            "name": "Monumental Age of Heroes",
+            "description": "Construct the Military Monument on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH008",
+            "name": "Ward",
+            "description": "Construct 100 Shelters in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH006",
+            "name": "Neighborhood",
+            "description": "Construct 25 Shelters in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH007",
+            "name": "Locality",
+            "description": "Construct 50 Shelters in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH005",
+            "name": "Sheltering",
+            "description": "Construct 6 Shelters in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH070",
+            "name": "Extreme Living",
+            "description": "Construct 5 Shelters on the tallest mountain tops.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH009",
+            "name": "Renovation",
+            "description": "Upgrade 20 Shelters to Tier 2 in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH010",
+            "name": "Moving Up",
+            "description": "Upgrade 20 Shelters to Tier 3 in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH011",
+            "name": "Gentrification",
+            "description": "Upgrade 20 Shelters to Tier 4 in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH012",
+            "name": "Generational Wealth",
+            "description": "Upgrade 20 Shelters to Tier 5 in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH001",
+            "name": "Founding a Settlement",
+            "description": "Construct the Town Center.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH002",
+            "name": "Establishing a Foothold",
+            "description": "Upgrade the Town Center to Tier 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH003",
+            "name": "Heart of the Frontier",
+            "description": "Upgrade the Town Center to Tier 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH004",
+            "name": "Master of the Frontier",
+            "description": "Upgrade the Town Center to Tier 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH032",
+            "name": "Piety",
+            "description": "Construct the Temple and upgrade it to Tier 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH028",
+            "name": "Curator of the Arts",
+            "description": "Construct the Theater and upgrade it to Tier 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH030",
+            "name": "Market Forces",
+            "description": "Construct the Trading Post and upgrade it to Tier 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH071",
+            "name": "Death Rites",
+            "description": "Bury 10 dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH072",
+            "name": "Mourn the Dead",
+            "description": "Bury 100 dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH073",
+            "name": "Honor the Dead",
+            "description": "Bury 1000 dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH057",
+            "name": "Conscientious Diet",
+            "description": "Upgrade the Town Center to Tier 4 without producing or consuming any meat on Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH064",
+            "name": "Cry Wolf",
+            "description": "Destroy a wolf den on Vanquisher, using only villagers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH033",
+            "name": "Beautification",
+            "description": "Construct 100 Decorative Structures in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH056",
+            "name": "Elite Squad",
+            "description": "Defeat all raider camps on the map on non-pacifist Vanquisher Difficulty without training any tier 2 or cavalry units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH017",
+            "name": "The First Winter",
+            "description": "Survive the first winter without losing a villager.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH018",
+            "name": "The First Winter Vanquished",
+            "description": "Survive the first winter without losing a villager on Vanquisher difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH059",
+            "name": "Barely a Scratch",
+            "description": "Crush raiders in 3 consecutive Flawless Victories in a row on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH060",
+            "name": "Finish Them!",
+            "description": "Crush raiders in 3 consecutive Flawless Victories in a row on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH041",
+            "name": "Playing the Market",
+            "description": "Generate 1,000,000 Gold Ingots in total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACH042",
+            "name": "Stocks Only Go Up",
+            "description": "Generate 1,000,000 Gold Ingots in total on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 43,
+            "apiname": "ACH067",
+            "name": "My Happy Place",
+            "description": "Reach 100% overall happiness in a Tier 4 Settlement on Vanquisher difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 44,
+            "apiname": "ACH055",
+            "name": "Not on My Watch",
+            "description": "Recover all of your loot after being robbed by raiders, on non-pacifist Vanquisher difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH048",
+            "name": "Raider Threat",
+            "description": "Defeat 100 Raiders on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH050",
+            "name": "Raider Invasion",
+            "description": "Defeat 1000 Raiders on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH054",
+            "name": "Vanquished Raider Horde",
+            "description": "Defeat 10,000 Raiders on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 48,
+            "apiname": "ACH051",
+            "name": "Raider Menace",
+            "description": "Defeat 2000 Raiders on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH052",
+            "name": "Vanquished Raider Menace",
+            "description": "Defeat 2000 Raiders on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH049",
+            "name": "Raider Incursion",
+            "description": "Defeat 500 Raiders on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH053",
+            "name": "Vanquished Raider Scourge",
+            "description": "Defeat 5000 Raiders on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH025",
+            "name": "Intellectual Scholar",
+            "description": "Earn 10 Knowledge Points in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH026",
+            "name": "Distinguished Scholar",
+            "description": "Earn 25 Knowledge Points in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH024",
+            "name": "Scholar",
+            "description": "Earn 5 Knowledge Points in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH063",
+            "name": "Most Dangerous Game",
+            "description": "Kill 10 raiders with a hunter in a single settlement on non-pacifist difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH061",
+            "name": "Highlanders",
+            "description": "Survive to 500 population without building a single defensive wall in non-pacifist mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH062",
+            "name": "There can only be 500",
+            "description": "Survive to 500 population without building a single defensive wall or gate on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH013",
+            "name": "Town",
+            "description": "Reach 100 population in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH014",
+            "name": "City",
+            "description": "Reach 250 population in a single settlement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 60,
+            "apiname": "ACH015",
+            "name": "Metropolis",
+            "description": "Reach 500 population in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH016",
+            "name": "Jewel in the Desert",
+            "description": "Reach 500 population in the Arid Highlands on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH047",
+            "name": "Standing Army",
+            "description": "Recruit 100 military units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH045",
+            "name": "Militia",
+            "description": "Recruit 12 military units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH046",
+            "name": "Garrison",
+            "description": "Recruit 50 military units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH019",
+            "name": "The Collector",
+            "description": "Find or purchase 10 relics in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH020",
+            "name": "True Devotion",
+            "description": "Discover all Relics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH021",
+            "name": "Faith through Sacrifice",
+            "description": "Discover all Martyr Relics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH022",
+            "name": "Faith through Conquest",
+            "description": "Discover all Warrior Relics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH023",
+            "name": "Faith through Harmony",
+            "description": "Discover all Wilds Relics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH069",
+            "name": "Forbidden Flesh",
+            "description": "Buy 2000 meat from Scorv the Butcher in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACH043",
+            "name": "Rainy Day Fund",
+            "description": "Accumulate 100,000 Gold Ingots in a single settlement.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACH044",
+            "name": "Legendary Hoard",
+            "description": "Accumulate 100,000 Gold Ingots in a single settlement on non-pacifist Vanquisher Difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 73,
+            "apiname": "ACH065",
+            "name": "Vengeful Survivor",
+            "description": "Survive for 10 consecutive years while the Ark of the Vengeful Dead is active within your Temple in non-pacifist mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACH066",
+            "name": "Vengeful Vanquisher",
+            "description": "Survive for 10 consecutive years on non-pacifist Vanquisher Difficulty while the Ark of the Vengeful Dead is active within your Temple.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

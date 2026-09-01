@@ -884,6 +884,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("sniper-elite-resistance"));
     assert.ok(slugs.includes("the-precinct"));
     assert.ok(slugs.includes("two-point-campus"));
+    assert.ok(slugs.includes("farthest-frontier"));
+    assert.ok(slugs.includes("crypt-custodian"));
+    assert.ok(slugs.includes("mullet-madjack"));
 
 });
 

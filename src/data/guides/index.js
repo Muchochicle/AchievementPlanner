@@ -860,6 +860,9 @@ import { GUIDE as timberbornAchievementGuide } from "./games/timberborn.js";
 import { GUIDE as sniperEliteResistanceAchievementGuide } from "./games/sniper-elite-resistance.js";
 import { GUIDE as thePrecinctAchievementGuide } from "./games/the-precinct.js";
 import { GUIDE as twoPointCampusAchievementGuide } from "./games/two-point-campus.js";
+import { GUIDE as farthestFrontierAchievementGuide } from "./games/farthest-frontier.js";
+import { GUIDE as cryptCustodianAchievementGuide } from "./games/crypt-custodian.js";
+import { GUIDE as mulletMadjackAchievementGuide } from "./games/mullet-madjack.js";
 
 export const APP_GUIDES = [
 
@@ -890,6 +893,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  mulletMadjackAchievementGuide,
+  cryptCustodianAchievementGuide,
+  farthestFrontierAchievementGuide,
   twoPointCampusAchievementGuide,
   thePrecinctAchievementGuide,
   sniperEliteResistanceAchievementGuide,
