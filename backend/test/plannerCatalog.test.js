@@ -776,6 +776,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("baby-steps"));
     assert.ok(slugs.includes("duck-detective-the-secret-salami"));
     assert.ok(slugs.includes("dungeons-of-hinterberg"));
+    assert.ok(slugs.includes("bopl-battle"));
+    assert.ok(slugs.includes("shotgun-cop-man"));
+    assert.ok(slugs.includes("fabledom"));
 
 });
 

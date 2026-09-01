@@ -752,6 +752,9 @@ import { GUIDE as towaAndTheGuardiansOfTheSacredTreeAchievementGuide } from "./g
 import { GUIDE as babyStepsAchievementGuide } from "./games/baby-steps.js";
 import { GUIDE as duckDetectiveTheSecretSalamiAchievementGuide } from "./games/duck-detective-the-secret-salami.js";
 import { GUIDE as dungeonsOfHinterbergAchievementGuide } from "./games/dungeons-of-hinterberg.js";
+import { GUIDE as boplBattleAchievementGuide } from "./games/bopl-battle.js";
+import { GUIDE as shotgunCopManAchievementGuide } from "./games/shotgun-cop-man.js";
+import { GUIDE as fabledomAchievementGuide } from "./games/fabledom.js";
 
 export const APP_GUIDES = [
 
@@ -1526,7 +1529,10 @@ export const GAME_GUIDES = [
     towaAndTheGuardiansOfTheSacredTreeAchievementGuide,
     babyStepsAchievementGuide,
     duckDetectiveTheSecretSalamiAchievementGuide,
-    dungeonsOfHinterbergAchievementGuide
+    dungeonsOfHinterbergAchievementGuide,
+    boplBattleAchievementGuide,
+    shotgunCopManAchievementGuide,
+    fabledomAchievementGuide
 
 ];
 
