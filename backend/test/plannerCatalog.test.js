@@ -893,6 +893,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("tiny-rogues"));
     assert.ok(slugs.includes("norland"));
     assert.ok(slugs.includes("lorelei-and-the-laser-eyes"));
+    assert.ok(slugs.includes("rivals-of-aether-ii"));
+    assert.ok(slugs.includes("kaiserpunk"));
+    assert.ok(slugs.includes("star-birds"));
 
 });
 

@@ -869,6 +869,9 @@ import { GUIDE as sengokuDynastyAchievementGuide } from "./games/sengoku-dynasty
 import { GUIDE as tinyRoguesAchievementGuide } from "./games/tiny-rogues.js";
 import { GUIDE as norlandAchievementGuide } from "./games/norland.js";
 import { GUIDE as loreleiAndTheLaserEyesAchievementGuide } from "./games/lorelei-and-the-laser-eyes.js";
+import { GUIDE as rivalsOfAetherIiAchievementGuide } from "./games/rivals-of-aether-ii.js";
+import { GUIDE as kaiserpunkAchievementGuide } from "./games/kaiserpunk.js";
+import { GUIDE as starBirdsAchievementGuide } from "./games/star-birds.js";
 
 export const APP_GUIDES = [
 
@@ -899,6 +902,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  starBirdsAchievementGuide,
+  kaiserpunkAchievementGuide,
+  rivalsOfAetherIiAchievementGuide,
   loreleiAndTheLaserEyesAchievementGuide,
   norlandAchievementGuide,
   tinyRoguesAchievementGuide,

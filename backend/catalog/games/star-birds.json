@@ -1,0 +1,555 @@
+{
+    "id": 2719750,
+    "steamAppId": 2719750,
+    "name": "Star Birds",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2719750/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 10,
+        "max": 25
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Automation",
+        "Puzzle",
+        "Factory",
+        "Space",
+        "Relaxing",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SS1_LV01_Completed",
+            "name": "Sector 1 completed!",
+            "description": "Complete sector 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "SS1_LV01_Score",
+            "name": "Hatchling",
+            "description": "Reach a score of 20 in sector 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SS1_LV01_Challenge",
+            "name": "Space Falcon",
+            "description": "Complete sector 1 in under 3.5 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "SS1_LV02_Completed",
+            "name": "Sector 2 completed!",
+            "description": "Complete sector 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SS1_LV02_Challenge",
+            "name": "Logistics",
+            "description": "Transport 8 different types of resources between asteroids.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "SS1_LV02_Score",
+            "name": "Fledgling",
+            "description": "Reach a score of 32 in sector 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "SS1_LV02_1_Completed",
+            "name": "Sector 2.1 completed!",
+            "description": "Complete sector 2.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "SS1_LV02_1_Score",
+            "name": "Hummingbird",
+            "description": "Reach 75% of the maximum score in sector 2.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "SS1_LV02_1_Challenge",
+            "name": "Resident Bird",
+            "description": "Complete sector 2.1 without claiming more than 3 asteroids.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "SS1_LV03_Completed",
+            "name": "Sector 3 completed!",
+            "description": "Complete sector 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "SS1_LV03_Challenge",
+            "name": "Ruthlessly Efficient",
+            "description": "Reach station level 14   without purchasing more than one of each production building.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "SS1_LV03_1_Completed",
+            "name": "Sector 3.1 completed!",
+            "description": "Complete sector 3.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "SS2_LV04_Completed",
+            "name": "Sector 4 completed!",
+            "description": "Complete sector 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "SS2_LV05_Completed",
+            "name": "Sector 5 completed!",
+            "description": "Complete sector 5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "SS2_LV05_Challenge",
+            "name": "Overload",
+            "description": "Create an energy network transmitting at least 40   in sector 5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "SS1_LV05_1_Completed",
+            "name": "Sector 5.1 completed!",
+            "description": "Complete sector 5.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "SS2_LV06_Completed",
+            "name": "Sector 6 completed!",
+            "description": "Complete sector 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "SS2_LV06_Challenge",
+            "name": "Hard Melting",
+            "description": "Melt all ice on any fully covered asteroid in sector 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "SS2_LV07_Completed",
+            "name": "Sector 7 completed!",
+            "description": "Complete sector 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "SS1_LV03_Score",
+            "name": "Finch",
+            "description": "Reach a score of 52 in sector 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "SS1_LV03_1_Score",
+            "name": "Gold Finch",
+            "description": "Reach a score of 55 in sector 3.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SS2_LV04_Score",
+            "name": "Kingfisher",
+            "description": "Reach a score of 64 in sector 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "SS2_LV05_Score",
+            "name": "Robin",
+            "description": "Reach a score of 76 in sector 5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "SS1_LV05_1_Score",
+            "name": "Crow",
+            "description": "Reach a score of 40 in sector 5.1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "SS2_LV06_Score",
+            "name": "Chickadee",
+            "description": "Reach a score of 85 in sector 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "SS2_LV07_Score",
+            "name": "Wren",
+            "description": "Reach a score of 70 in sector 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "SS2_LV08_Completed",
+            "name": "Sector 8 completed!",
+            "description": "Complete sector 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "SS2_LV08_Challenge",
+            "name": "Fungi Friend",
+            "description": "Complete sector 8 without recalling or moving any Volt Shrooms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "SS2_LV08_Score",
+            "name": "Warbler",
+            "description": "Reach a score of 75 in sector 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "SS2_LV09_Completed",
+            "name": "Sector 9 completed!",
+            "description": "Complete sector 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "SS2_LV09_Challenge",
+            "name": "Green Alula",
+            "description": "Cultivate at least 10 plants in sector 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "SS2_LV09_Score",
+            "name": "Owl",
+            "description": "Reach a score of 85 in sector 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "SS2_LV10_Completed",
+            "name": "Sector 10 completed!",
+            "description": "Complete sector 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "SS2_LV10_Challenge",
+            "name": "Mostly Organic",
+            "description": "Complete sector 10 without using more than 1 extractor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "SS2_LV10_Score",
+            "name": "Duck",
+            "description": "Reach a score of 85 in sector 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "SS3_LV11_Completed",
+            "name": "Sector 11 completed!",
+            "description": "Complete sector 11.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "SS3_LV11_Challenge",
+            "name": "On the Shoulders of Dwarves",
+            "description": "Complete sector 11 without using pipes to transport resources to a launch pad.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SS3_LV11_Score",
+            "name": "Cuckoo",
+            "description": "Reach a score of 70 in sector 11.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "SS3_LV12_Completed",
+            "name": "Sector 12 completed!",
+            "description": "Complete sector 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "SS3_LV12_Score",
+            "name": "Cuckoo",
+            "description": "Reach a score of 70 in sector 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "SS4_LV13_Completed",
+            "name": "Sector 13 completed!",
+            "description": "Complete sector 13.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "SS4_LV13_Score",
+            "name": "Cuckoo",
+            "description": "Reach a score of 70 in sector 13.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "SS4_LV14_Completed",
+            "name": "Sector 14 completed!",
+            "description": "Complete sector 14.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "SS4_LV14_Score",
+            "name": "Cuckoo",
+            "description": "Reach a score of 70 in sector 14.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Challenge_StarSystem_Ravsicle",
+            "name": "Cold Comfort",
+            "description": "Reach 25  in a small free play mode sector.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Challenge_StarSystem_Paradeira",
+            "name": "Bloom Boom",
+            "description": "Reach 50  in a medium-sized free play mode sector.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Challenge_StarSystem_Cinnakeet",
+            "name": "Scorching Star",
+            "description": "Reach 75  in a large free play mode sector.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Challenge_KardashevScale_0_6",
+            "name": "Sunny Side Up",
+            "description": "Complete a sector in free play mode with a Kardashev scale value of 0.5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Challenge_KardashevScale_0_7",
+            "name": "Atomic Habits",
+            "description": "Complete a sector in free play mode with a Kardashev scale value of 0.6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Challenge_KardashevScale_0_8",
+            "name": "Earthly Delights",
+            "description": "Complete a sector in free play mode with a Kardashev scale value of 0.7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Challenge_Feature_Plateaus",
+            "name": "Things Are Looking Up",
+            "description": "Collect a total of 10  in free play mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Challenge_Feature_Ice",
+            "name": "Ice Breaker",
+            "description": "Complete a small free play mode sector at any complexity with one feature enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Challenge_Feature_Plants",
+            "name": "Branching Out",
+            "description": "Complete a medium-sized free play mode sector at any complexity with 2 features enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Challenge_Feature_Seedlings",
+            "name": "Sprout Scout",
+            "description": "Collect 100 nuggets with your rover in free play mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Challenge_Feature_Wigglers",
+            "name": "Crater Caterer",
+            "description": "Collect a total of 250  in free play mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 56,
+            "apiname": "Challenge_Feature_SpiderDucks",
+            "name": "Leg Day",
+            "description": "Complete a medium-sized free play mode sector at medium complexity with 3 features enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Challenge_Feature_Slime",
+            "name": "Prime Slime",
+            "description": "Collect a total of 100  in free play mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Challenge_Feature_Lava",
+            "name": "Melting and Molting",
+            "description": "Complete a large free play mode sector at medium complexity with 4 features enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Challenge_Feature_AlienTrader",
+            "name": "Rare Finds",
+            "description": "Complete a large free play mode sector at high complexity with 6 features enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
