@@ -809,6 +809,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("creaks"));
     assert.ok(slugs.includes("feist"));
     assert.ok(slugs.includes("old-mans-journey"));
+    assert.ok(slugs.includes("necrobarista"));
+    assert.ok(slugs.includes("the-longing"));
+    assert.ok(slugs.includes("betrayal-at-club-low"));
 
 });
 

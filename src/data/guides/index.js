@@ -785,6 +785,9 @@ import { GUIDE as franBowAchievementGuide } from "./games/fran-bow.js";
 import { GUIDE as creaksAchievementGuide } from "./games/creaks.js";
 import { GUIDE as feistAchievementGuide } from "./games/feist.js";
 import { GUIDE as oldMansJourneyAchievementGuide } from "./games/old-mans-journey.js";
+import { GUIDE as necrobaristaAchievementGuide } from "./games/necrobarista.js";
+import { GUIDE as theLongingAchievementGuide } from "./games/the-longing.js";
+import { GUIDE as betrayalAtClubLowAchievementGuide } from "./games/betrayal-at-club-low.js";
 
 export const APP_GUIDES = [
 
@@ -1592,7 +1595,10 @@ export const GAME_GUIDES = [
     franBowAchievementGuide,
     creaksAchievementGuide,
     feistAchievementGuide,
-    oldMansJourneyAchievementGuide
+    oldMansJourneyAchievementGuide,
+    necrobaristaAchievementGuide,
+    theLongingAchievementGuide,
+    betrayalAtClubLowAchievementGuide
 
 ];
 
