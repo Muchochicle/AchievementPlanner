@@ -782,6 +782,9 @@ import { GUIDE as iconoclastsAchievementGuide } from "./games/iconoclasts.js";
 import { GUIDE as mutazioneAchievementGuide } from "./games/mutazione.js";
 import { GUIDE as littleMisfortuneAchievementGuide } from "./games/little-misfortune.js";
 import { GUIDE as franBowAchievementGuide } from "./games/fran-bow.js";
+import { GUIDE as creaksAchievementGuide } from "./games/creaks.js";
+import { GUIDE as feistAchievementGuide } from "./games/feist.js";
+import { GUIDE as oldMansJourneyAchievementGuide } from "./games/old-mans-journey.js";
 
 export const APP_GUIDES = [
 
@@ -1586,7 +1589,10 @@ export const GAME_GUIDES = [
     iconoclastsAchievementGuide,
     mutazioneAchievementGuide,
     littleMisfortuneAchievementGuide,
-    franBowAchievementGuide
+    franBowAchievementGuide,
+    creaksAchievementGuide,
+    feistAchievementGuide,
+    oldMansJourneyAchievementGuide
 
 ];
 
