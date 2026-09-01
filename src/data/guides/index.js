@@ -734,6 +734,9 @@ import { GUIDE as whereWindsMeetAchievementGuide } from "./games/where-winds-mee
 import { GUIDE as doomTheDarkAgesAchievementGuide } from "./games/doom-the-dark-ages.js";
 import { GUIDE as twoPointMuseumAchievementGuide } from "./games/two-point-museum.js";
 import { GUIDE as nevaAchievementGuide } from "./games/neva.js";
+import { GUIDE as rematchAchievementGuide } from "./games/rematch.js";
+import { GUIDE as skateStoryAchievementGuide } from "./games/skate-story.js";
+import { GUIDE as mycopunkAchievementGuide } from "./games/mycopunk.js";
 
 export const APP_GUIDES = [
 
@@ -1490,7 +1493,10 @@ export const GAME_GUIDES = [
     whereWindsMeetAchievementGuide,
     doomTheDarkAgesAchievementGuide,
     twoPointMuseumAchievementGuide,
-    nevaAchievementGuide
+    nevaAchievementGuide,
+    rematchAchievementGuide,
+    skateStoryAchievementGuide,
+    mycopunkAchievementGuide
 
 ];
 

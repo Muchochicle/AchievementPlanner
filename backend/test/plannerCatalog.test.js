@@ -758,6 +758,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("doom-the-dark-ages"));
     assert.ok(slugs.includes("two-point-museum"));
     assert.ok(slugs.includes("neva"));
+    assert.ok(slugs.includes("rematch"));
+    assert.ok(slugs.includes("skate-story"));
+    assert.ok(slugs.includes("mycopunk"));
 
 });
 
