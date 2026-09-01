@@ -1,0 +1,564 @@
+{
+    "id": 55150,
+    "steamAppId": 55150,
+    "name": "Warhammer 40,000: Space Marine",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/55150/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 12,
+        "max": 28
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Third Person Shooter",
+        "Hack and Slash",
+        "Action",
+        "Sci-fi",
+        "Warhammer 40K",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SP_COMBAT_VOLUME_KILL_1",
+            "name": "The Might of the Righteous",
+            "description": "Kill 100 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "SP_COMBAT_VOLUME_MELEE_KILL",
+            "name": "Success is Measured in Blood",
+            "description": "Kill 500 enemies using Melee weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SP_COMBAT_VOLUME_RANGED_KILL",
+            "name": "Angel of Death",
+            "description": "Kill 500 enemies using Ranged weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "SP_COMBAT_VOLUME_KILL_2",
+            "name": "Visible, Violent Death",
+            "description": "Kill 2500 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SP_COMBAT_VOLUME_EXOTIC_KILL",
+            "name": "Firepower",
+            "description": "Kill 250 enemies using Exotic weapons.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "SP_COMBAT_SKILL_MELLE_NOB_KILL",
+            "name": "The Bigger They Are...",
+            "description": "Kill 25 Ork Nobs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "SP_COMBAT_SKILL_ARD_BOYZ_KILL",
+            "name": "Not So Tough",
+            "description": "Kill 10 'Ard Boyz.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "SP_COMBAT_SKILL_CHAOS_SPACE_MARINE_KILL",
+            "name": "Die, Heretics",
+            "description": "Kill 50 Chaos Space Marines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "SP_COMBAT_SKILL_SYNC_KILL",
+            "name": "Glorious Slaughter",
+            "description": "Kill 75 enemies using Executions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "SP_PROGRESS_CRASHED_ROK",
+            "name": "Into the Breach",
+            "description": "Fight your way to the crashed Ork Rok (Chapter 2). Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "SP_COMBAT_SKILL_HEADSHOT_1",
+            "name": "Put Them Down",
+            "description": "Get 100 Headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "SP_COMBAT_SKILL_HEADSHOT_2",
+            "name": "Master of the Clean Kill",
+            "description": "Get 250 Headshots.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "SP_COMBAT_SKILL_BULLRUSH_KILL",
+            "name": "Shock & Awe",
+            "description": "Kill 150 enemies using the Charge attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "SP_COMBAT_SKILL_GROUND_POUND_KILL",
+            "name": "Death from Above",
+            "description": "Kill 25 enemies with Ground Pound.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "SP_FURY_COMBAT_RANGED_KILL",
+            "name": "The Emperor's Marksman",
+            "description": "Kill 10 enemies in a row in a single Ranged Fury activation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "SP_FURY_COMBAT_MELEE_KILL",
+            "name": "Feel My Wrath",
+            "description": "Kill 250 enemies using Melee Fury attacks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 17,
+            "apiname": "SP_DIFFICULTY_FIRST_ACT_HARD",
+            "name": "The Emperor Protects",
+            "description": "Complete Part 1 of the game on Hard difficulty in a single session without dying or restarting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "SP_DIFFICULTY_WHOLE_GAME_HARD",
+            "name": "None Can Stand Before You",
+            "description": "Complete the entire game on Hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "SP_SPECIAL_COMBAT_MELLE_NOB_STRUGGLE",
+            "name": "Nob Down",
+            "description": "Win 10 struggles against the Ork Nob.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MP_COMBAT_ARMOR_CHALLENGE_1",
+            "name": "Armored in Glory",
+            "description": "Complete 10 armor challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "SP_SPECIAL_COMBAT_MULTI_KILL_FRAG_GRENADE",
+            "name": "Blast Radius",
+            "description": "Multi-kill -- 5 enemies with 1 Frag grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SP_SPECIAL_COMBAT_MULTI_KILL_STALKER_PATTERN",
+            "name": "Precision Killer",
+            "description": "Multi-kill -- 2 enemies with 1 Stalker-Pattern bolter shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "SP_SPECIAL_COMBAT_MULTI_KILL_CHAIN_GRENADE",
+            "name": "Chain of Death",
+            "description": "Multi-kill -- Detonate a chain of 5 consecutive Vengeance Launcher rounds, killing 10 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "SP_SPECIAL_COMBAT_RESTRICT_BOLT_PISTOL_CHAINSWORD",
+            "name": "Master of Sword and Gun",
+            "description": "Complete a Chapter of the single-player campaign using only the Bolt Pistol and Chainsword.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "SP_SPECIAL_COMBAT_RESTRICT_PLASMA",
+            "name": "Burn Them All",
+            "description": "Complete a Chapter of the single-player campaign using only Plasma weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "SP_SPECIAL_COMBAT_RESTRICT_GRENADE_LAUNCHER_POWER_AXE",
+            "name": "Brute Force...Unleashed  ",
+            "description": "Complete a Chapter of the single-player game using only the Vengeance Launcher and Power Axe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "SP_SPECIAL_COMBAT_RESTRICT_STALKER_PATTERN_CHAINSWORD",
+            "name": "Finesse and Fury",
+            "description": "Complete a Chapter of the single-player game using only Stalker-Pattern Bolter and Chainsword.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "SP_PROGRESS_REUNITE",
+            "name": "Command Squad",
+            "description": "Reunite with your Space Marine brothers (Chapter 2). Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "SP_PROGRESS_ORBITAL_GUN",
+            "name": "Silence the Cannon",
+            "description": "Destroy the Orbital Gun (Chapter 3). Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "SP_PROGRESS_POWER_SOURCE",
+            "name": "You Must Carry It",
+            "description": "Retrieve the Power Source (Chapter 6). Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "SP_PROGRESS_PSYCHIC_SCOURGE",
+            "name": "We Take Our Chances",
+            "description": "Fire the Psychic Scourge (Chapter 11). Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "SP_PROGRESS_WARBOSS_GRIMSKULL",
+            "name": "But I Am Finished With You",
+            "description": "Kill Warboss Grimskull once and for all. Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "SP_PROGRESS_ORBITAL_SPIRE",
+            "name": "Hammer of the Imperium",
+            "description": "Use the Invictus Titan to destroy the Orbital Spire. Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "SP_PROGRESS_DAEMON_PRINCE_NEMEROTH",
+            "name": "Here, At the End of All Things",
+            "description": "Kill Daemon Prince Nemeroth, the final boss. Story-related, unmissable.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "SP_EXPLORATION_SERVO_SKULLS_1",
+            "name": "Lexicanum",
+            "description": "Collect 10 Servo Skulls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "SP_EXPLORATION_SERVO_SKULLS_2",
+            "name": "Librarian of Macragge",
+            "description": "Collect all Servo Skulls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MP_GRINDING_LEVEL_10",
+            "name": "Battle Brother",
+            "description": "Get a Multiplayer character to Lvl 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MP_GRINDING_LEVEL_20",
+            "name": "Veteran",
+            "description": "Get a Multiplayer character to Lvl 20.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MP_GRINDING_LEVEL_30",
+            "name": "Captain",
+            "description": "Get a Multiplayer character to Lvl 30.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MP_GRINDING_LEVEL_40",
+            "name": "Chapter Master",
+            "description": "Get a Multiplayer character to Lvl 40.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "PVP_GRINDING_EACH_RACE_1",
+            "name": "Warrior of Darkness and Light",
+            "description": "Play 10 Multiplayer games as Space Marine and 10 Multiplayer games as Chaos Marine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MP_EXPLORATION_EACH_ROLE_1",
+            "name": "Shapeshifter",
+            "description": "Play each class in Multiplayer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "MP_EXPLORATION_EACH_ROLE_2",
+            "name": "Jack of All Trades",
+            "description": "Play 10 Multiplayer games using each class.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "MP_COMBAT_WEAPON_CHALLENGE_1",
+            "name": "Master of Arms",
+            "description": "Complete 5 weapon challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "MP_COMBAT_WEAPON_CHALLENGE_2",
+            "name": "Keeper of the Armory",
+            "description": "Complete all the weapon challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MP_COMBAT_CAPTURING_KILL",
+            "name": "Defender",
+            "description": "Kill 25 opponents who are capturing your Control Point in Seize Ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "MP_COMBAT_KD_RATIO",
+            "name": "Devastation!",
+            "description": "Have 10 times more kills than deaths in a single game of Annihilation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "MP_CUSTOMIZER_ARMOR",
+            "name": "Master Crafted",
+            "description": "Fully customize a Space Marine and a Chaos Space Marine character.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "MP_COMBAT_MOTION_JUMPING_KILL",
+            "name": "Down to Earth",
+            "description": "Kill 50 Assault Marines/Raptors in mid-air.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "MP_KILL",
+            "name": "True Son of the Emperor",
+            "description": "Kill 40,000 enemies in the game (all game modes combined).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_ARENA_1",
+            "name": "Death to the False Emperor",
+            "description": "Complete Chaos Invasion Arena 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_ARENA_2",
+            "name": "Blood for the Blood God",
+            "description": "Complete Chaos Invasion Arena 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_ARENA_3",
+            "name": "Skulls for the Skull Throne",
+            "description": "Complete Chaos Invasion Arena 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_COMPLETE",
+            "name": "Let the Galaxy Burn",
+            "description": "Complete the Chaos Invasion mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_BONUS_WAVE",
+            "name": "Let the Heavens Bleed",
+            "description": "Defeat the Chaos Invasion bonus wave.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_PERFECT",
+            "name": "Frugal Spenders",
+            "description": "Complete a Chaos Invasion Arena without your team using any lives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_X_CHALLENGES_ARENA",
+            "name": "Kill, for the Sake of Killing",
+            "description": "Complete 3 challenges in one Chaos Invasion Arena.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_X_TEAM_SCORE",
+            "name": "Glory to the Dark Gods!",
+            "description": "Achieve a team score of higher than 270,000 in the Chaos Invasion mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_DLC_60_CHAOS_INVASION_PUBLIC_COOP",
+            "name": "Heretic",
+            "description": "Complete a public Co-op game in the Chaos Invasion mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_DLC_2_STEAM_WINTER",
+            "name": "Sector Cleared",
+            "description": "Successfully complete a Space Marine Exterminatus Arena (Kalkys Facility Escape or Hab Center Assault).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

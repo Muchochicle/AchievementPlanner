@@ -1,0 +1,555 @@
+{
+    "id": 1062090,
+    "steamAppId": 1062090,
+    "name": "Timberborn",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1062090/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Colony Sim",
+        "Survival",
+        "Base Building",
+        "Management",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "REACH_MAX_AVERAGE_WELLBEING_POPULATED",
+            "name": "Smile, everybeaver!",
+            "description": "Have the maximum possible average well-being with a beaver population of at least 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "PLUG_ALL_BADWATER_SOURCES",
+            "name": "No More Leaks",
+            "description": "Cap all badwater sources on the map using the dedicated buildings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACTIVATE_WONDER_IRONTEETH",
+            "name": "So Long, and Thanks for the Coffee!",
+            "description": "Build and launch the wonder as Iron Teeth.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACTIVATE_WONDER_FOLKTAILS",
+            "name": "Ninety-nine Balloons and Counting",
+            "description": "Build and launch the wonder as Folktails.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "REACH_POPULATION_WITHOUT_DWELLINGS",
+            "name": "Unnecessary Expenses",
+            "description": "As Iron Teeth, reach a beaver population of 200 without building any housing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACTIVATE_MULTIPLE_WONDERS",
+            "name": "Overachiever",
+            "description": "Launch three wonders at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "BUILD_WONDER_BEFORE_CYCLE",
+            "name": "Rush B-eaver!",
+            "description": "Build a wonder before cycle 15 ends.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "GENERATE_POWER_WITH_WATER_WHEELS_ONLY",
+            "name": "Mastered the Flow",
+            "description": "Generate 10,000 hp using only water wheels in a single power network.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 9,
+            "apiname": "MAPLE_PASTRY_ONLY",
+            "name": "Sweet Teeth",
+            "description": "As Folktails, have 1,000 Maple Pastries and no other food at the end of a day.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 10,
+            "apiname": "PRODUCE_PLANKS_IN_DAY",
+            "name": "Plankster",
+            "description": "As Iron Teeth, produce 500 Planks in a single day.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "BATTERY_CHARGE_STORAGE",
+            "name": "Power Around the Clock",
+            "description": "Store at least 655,321 hph worth of power using Gravity Batteries.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "GENERATE_POWER_WITH_POWER_WHEELS_ONLY",
+            "name": "Enough to Power a Car Battery",
+            "description": "Generate 2,000 hp using only power wheels in a single power network.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "WORK_ALL_DAY_FOR_WEEK",
+            "name": "Endless Crunch",
+            "description": "Have a 24-hour work time for 7 days in a row.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "REACH_BUILD_HEIGHT_LIMIT",
+            "name": "Sky Is the Limit",
+            "description": "Build a structure at the highest allowed height.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "WORKING_REFINERY_FOR_EACH_RECIPE",
+            "name": "Refined Refinement",
+            "description": "As Folktails, have working Refineries producing each available recipe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "GENERATE_POWER_WITH_WIND_TURBINES_ONLY",
+            "name": "Windy Day",
+            "description": "As Folktails, generate 10,000 hp using only wind turbines in a single power network. ",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 17,
+            "apiname": "BUILD_MANY_HEDGES",
+            "name": "Hedge Fund",
+            "description": "As Folktails, build 200 Hedges on one map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "EXPLODE_DYNAMITE_IN_SINGLE_DAY",
+            "name": "I Am Become Deaf",
+            "description": "Explode 200 dynamite in a single day.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ZIPLINE_NETWORK_LENGTH",
+            "name": "Shaka Bra!",
+            "description": "As Folktails, have a zipline network with a combined length of 1 kilometer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "LARGE_TUBEWAY_NETWORK",
+            "name": "Tube City",
+            "description": "As Iron Teeth, have at least 10 Tubeway Stations and 1,000 Tubeways.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 21,
+            "apiname": "BUILD_STACKED_HYDROPONIC_GARDENS",
+            "name": "Hanging Gardens",
+            "description": "As Iron Teeth, build 8 Hydroponic Gardens stacked upon each other.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "PLANT_1000_TREES",
+            "name": "Beaver-made Thicket",
+            "description": "Plant 1,000 trees during a single playthrough.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "PLANT_5000_TREES",
+            "name": "Beaver-made Forest",
+            "description": "Plant 5,000 trees during a single playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "PLANT_10000_TREES",
+            "name": "Beaver-made Wilderness",
+            "description": "Plant 10,000 trees during a single playthrough.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 25,
+            "apiname": "REACH_POPULATION_OF_100_BEAVERS",
+            "name": "One Big Family",
+            "description": "Reach a population of 100 beavers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "REACH_POPULATION_OF_250_BEAVERS",
+            "name": "One Big Colony",
+            "description": "Reach a population of 250 beavers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "REACH_POPULATION_OF_500_BEAVERS",
+            "name": "One Big... Horde?",
+            "description": "Reach a population of 500 beavers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "SURVIVE_5_CYCLES",
+            "name": "Survivor",
+            "description": "Survive 5 cycles on one map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "SURVIVE_10_CYCLES",
+            "name": "Survival 101",
+            "description": "Survive 10 cycles on one map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "SURVIVE_20_CYCLES",
+            "name": "Wasteland Expert",
+            "description": "Survive 20 cycles on one map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "SURVIVE_50_CYCLES",
+            "name": "Legendary Pioneer",
+            "description": "Survive 50 cycles on one map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 32,
+            "apiname": "BORN_BEAVER_AFTER_BEAVER_EXTINCTION",
+            "name": "Castor Posthumus",
+            "description": "As Iron Teeth, have a beaver born after the beaver population has dropped to 0 (bots keep the colony alive).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "BUILD_BOT_AFTER_BEAVER_EXTINCTION",
+            "name": "Time of the Bots",
+            "description": "Build a bot after all beavers have gone extinct.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "EXPLODE_UNIT_WITH_DYNAMITE",
+            "name": "Oops!",
+            "description": "Have a beaver (or bot) on the same tile as a stick of dynamite when it detonates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "BEAVER_DIES_HUNGRY_THIRSTY_INJURED_SICK",
+            "name": "Quadfecta of Misery",
+            "description": "Have a beaver die while affected by injury, contamination, hunger and thirst all at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "BADTIDE_STREAK",
+            "name": "Not Again!",
+            "description": "Experience two badtides in a row (a badtide immediately followed by another).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "BEAVER_STUNG_BY_BEE",
+            "name": "Not the Bees!",
+            "description": "As Folktails, have a beaver be stung by a bee.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "INJURED_JUST_BORN_BEAVER",
+            "name": "Desert of the Real",
+            "description": "As Iron Teeth, have a beaver born from an Advanced Breeding Pod and get injured on the same day.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "FLOOD_BUILDING",
+            "name": "Wet Floor",
+            "description": "Flood a building with water.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "DEMOLISH_AND_REBUILD",
+            "name": "It Happens.",
+            "description": "Demolish a building and place an identical one in its spot right afterwards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "PLACE_DYNAMITE_AT_BOTTOM",
+            "name": "Rock Bottom",
+            "description": "Attempt to place dynamite at the lowest level of the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "CURE_CONTAMINATED_BEAVER",
+            "name": "We Have the Technology",
+            "description": "Cure a contaminated beaver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "UNLOCK_IRON_TEETH",
+            "name": "Iron Teeth at the Ready",
+            "description": "Unlock the Iron Teeth faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "REACH_4_AVERAGE_WELLBEING",
+            "name": "That's... Acceptable",
+            "description": "Reach average well-being of 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "REACH_10_AVERAGE_WELLBEING",
+            "name": "That's... Okay",
+            "description": "Reach average well-being of 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "REACH_20_AVERAGE_WELLBEING",
+            "name": "That's... Nice",
+            "description": "Reach average well-being of 20.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "REACH_30_AVERAGE_WELLBEING",
+            "name": "That's... Good",
+            "description": "Reach average well-being of 30.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "REACH_40_AVERAGE_WELLBEING",
+            "name": "That's... Awesome",
+            "description": "Reach average well-being of 40.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "REACH_50_AVERAGE_WELLBEING",
+            "name": "That's... Amazing",
+            "description": "Reach average well-being of 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "REACH_60_AVERAGE_WELLBEING",
+            "name": "That's... Incredible",
+            "description": "Reach average well-being of 60.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "REACH_MAX_AVERAGE_WELLBEING",
+            "name": "That's... Paradise!",
+            "description": "Reach max average well-being.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "BUILD_BOT",
+            "name": "Created in Beaver’s Image",
+            "description": "Build a bot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "PLUG_ANY_BADWATER_SOURCE",
+            "name": "Fixed a Leak",
+            "description": "Cover a badwater source on the map using one of the dedicated buildings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "BUILD_EVERY_STRUCTURE_FOLKTAILS",
+            "name": "Folktails Master Builder",
+            "description": "Build one of every building and structure available to Folktails.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "BUILD_EVERY_STRUCTURE_IRONTEETH",
+            "name": "Iron Teeth Master Builder",
+            "description": "Build one of every building and structure available to Iron Teeth.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "BUILD_DAM",
+            "name": "It's an Instinct",
+            "description": "Build a Dam.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "BUILD_CAMPFIRE",
+            "name": "Crackling with Ideas",
+            "description": "Build a Campfire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "SURVIVE_BADTIDE",
+            "name": "Not Bad!",
+            "description": "Survive your first badtide.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "SURVIVE_DROUGHT",
+            "name": "Smell of Water in the Morning",
+            "description": "Survive your first drought.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

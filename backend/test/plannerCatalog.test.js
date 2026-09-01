@@ -878,6 +878,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("pentiment"));
     assert.ok(slugs.includes("stronghold-crusader-definitive-edition"));
     assert.ok(slugs.includes("tempest-rising"));
+    assert.ok(slugs.includes("robocop-rogue-city"));
+    assert.ok(slugs.includes("warhammer-40000-space-marine"));
+    assert.ok(slugs.includes("timberborn"));
 
 });
 
