@@ -812,6 +812,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("necrobarista"));
     assert.ok(slugs.includes("the-longing"));
     assert.ok(slugs.includes("betrayal-at-club-low"));
+    assert.ok(slugs.includes("superbrothers-sword-sworcery-ep"));
+    assert.ok(slugs.includes("the-gardens-between"));
+    assert.ok(slugs.includes("return-to-monkey-island"));
 
 });
 

@@ -788,6 +788,9 @@ import { GUIDE as oldMansJourneyAchievementGuide } from "./games/old-mans-journe
 import { GUIDE as necrobaristaAchievementGuide } from "./games/necrobarista.js";
 import { GUIDE as theLongingAchievementGuide } from "./games/the-longing.js";
 import { GUIDE as betrayalAtClubLowAchievementGuide } from "./games/betrayal-at-club-low.js";
+import { GUIDE as superbrothersSwordSworceryEpAchievementGuide } from "./games/superbrothers-sword-sworcery-ep.js";
+import { GUIDE as theGardensBetweenAchievementGuide } from "./games/the-gardens-between.js";
+import { GUIDE as returnToMonkeyIslandAchievementGuide } from "./games/return-to-monkey-island.js";
 
 export const APP_GUIDES = [
 
@@ -818,6 +821,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  returnToMonkeyIslandAchievementGuide,
+  theGardensBetweenAchievementGuide,
+  superbrothersSwordSworceryEpAchievementGuide,
 
     hadesAchievementGuide,
     portal2AchievementGuide,
