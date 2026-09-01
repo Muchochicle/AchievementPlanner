@@ -880,6 +880,9 @@ import { GUIDE as megabonkAchievementGuide } from "./games/megabonk.js";
 import { GUIDE as dustAnElysianTailAchievementGuide } from "./games/dust-an-elysian-tail.js";
 import { GUIDE as haikuTheRobotAchievementGuide } from "./games/haiku-the-robot.js";
 import { GUIDE as sanabiAchievementGuide } from "./games/sanabi.js";
+import { GUIDE as supermarketSimulatorAchievementGuide } from "./games/supermarket-simulator.js";
+import { GUIDE as chainedTogetherAchievementGuide } from "./games/chained-together.js";
+import { GUIDE as lightyearFrontierAchievementGuide } from "./games/lightyear-frontier.js";
 
 export const APP_GUIDES = [
 
@@ -910,6 +913,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  lightyearFrontierAchievementGuide,
+  chainedTogetherAchievementGuide,
+  supermarketSimulatorAchievementGuide,
   sanabiAchievementGuide,
   haikuTheRobotAchievementGuide,
   dustAnElysianTailAchievementGuide,
