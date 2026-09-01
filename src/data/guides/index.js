@@ -809,6 +809,9 @@ import { GUIDE as ratchetAndClankRiftApartAchievementGuide } from "./games/ratch
 import { GUIDE as theOuterWorldsAchievementGuide } from "./games/the-outer-worlds.js";
 import { GUIDE as armoredCoreViFiresOfRubiconAchievementGuide } from "./games/armored-core-vi-fires-of-rubicon.js";
 import { GUIDE as godOfWarRagnarokAchievementGuide } from "./games/god-of-war-ragnarok.js";
+import { GUIDE as returnalAchievementGuide } from "./games/returnal.js";
+import { GUIDE as lostJudgmentAchievementGuide } from "./games/lost-judgment.js";
+import { GUIDE as museDashAchievementGuide } from "./games/muse-dash.js";
 
 export const APP_GUIDES = [
 
@@ -839,6 +842,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  museDashAchievementGuide,
+  lostJudgmentAchievementGuide,
+  returnalAchievementGuide,
   godOfWarRagnarokAchievementGuide,
   armoredCoreViFiresOfRubiconAchievementGuide,
   theOuterWorldsAchievementGuide,

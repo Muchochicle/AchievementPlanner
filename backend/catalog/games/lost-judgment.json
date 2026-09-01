@@ -1,0 +1,528 @@
+{
+    "id": 2058190,
+    "steamAppId": 2058190,
+    "name": "Lost Judgment",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2058190/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Open World",
+        "Detective",
+        "Beat 'em up",
+        "Story Rich",
+        "Japan"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "COYOTE_PLATINUM",
+            "name": "Master Detective",
+            "description": "Obtained all achievements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "COYOTE_MAIN_STORY_FIRST",
+            "name": "The Game is Afoot",
+            "description": "Resolved Keiko's dilemma.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "COYOTE_MAIN_STORY_01",
+            "name": "The First Penguin",
+            "description": "Stopped the bullying at Seiryo High School.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "COYOTE_MAIN_STORY_02",
+            "name": "Trending Video",
+            "description": "Completed Chapter 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "COYOTE_MAIN_STORY_03",
+            "name": "Unexpected Guests",
+            "description": "Completed Chapter 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "COYOTE_MAIN_STORY_04",
+            "name": "All Are Punished",
+            "description": "Completed Chapter 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "COYOTE_MAIN_STORY_05",
+            "name": "To Survive",
+            "description": "Completed Chapter 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "COYOTE_MAIN_STORY_06",
+            "name": "Lessons Taught",
+            "description": "Completed Chapter 9.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "COYOTE_MAIN_STORY_07",
+            "name": "The Mole",
+            "description": "Completed Chapter 11.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "COYOTE_MAIN_STORY_08",
+            "name": "Scales of Justice",
+            "description": "Completed Chapter 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "COYOTE_MAIN_STORY_09",
+            "name": "The Cycle is Broken",
+            "description": "Thank you for playing to the end!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "COYOTE_MOST_DIFFICULT_CLEAR",
+            "name": "Legendary Detective",
+            "description": "Beat the main story on the highest difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 13,
+            "apiname": "COYOTE_DANCE_CLEAR",
+            "name": "Hop, Step, Rabbits",
+            "description": "Completed the investigation of the dance club.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "COYOTE_ROBOT_CLEAR",
+            "name": "Revenge of the Nerds",
+            "description": "Completed the investigation of the robotics club.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "COYOTE_BOXING_CLAER",
+            "name": "Everybody Can Change",
+            "description": "Completed the investigation of the boxing gym.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "COYOTE_BIKE_CLAER",
+            "name": "Born to Ride",
+            "description": "Completed the investigation of the biker gang.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "COYOTE_PROFESSOR_CLEAR",
+            "name": "High School Drama",
+            "description": "Complete the investigation of the Professor (School Stories side content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "COYOTE_SIDE_CASE_A",
+            "name": "On the Case",
+            "description": "Cleared 10 Side Cases.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "COYOTE_SIDE_CASE_B",
+            "name": "Private Eye",
+            "description": "Cleared 30 Side Cases.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "COYOTE_SIDE_CASE_ALL",
+            "name": "Elementary, My Dear",
+            "description": "Cleared all Side Cases (not including DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "COYOTE_GET_SKATE_BOARD",
+            "name": "Kick Flip",
+            "description": "Get the skateboard for free (story-related).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "COYOTE_SURRENDER",
+            "name": "Merciful",
+            "description": "Made one enemy surrender.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "COYOTE_SIDE_CASE_RETURNS",
+            "name": "A Man Among Amons",
+            "description": "Defeat the Amon superboss - after completing the first 41 side cases, take the final case from the Yokohama 99 notice board.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "COYOTE_USE_ACTIVE_SEARCH",
+            "name": "Very Observant",
+            "description": "Find ten targets in Observation Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "COYOTE_USE_RADER",
+            "name": "Receiving Signals",
+            "description": "Find ten targets with the Detector.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "COYOTE_USE_COLLECTOR",
+            "name": "Eavesdropping",
+            "description": "Find ten targets with the Noise Amp.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "COYOTE_USE_DOG",
+            "name": "Who's a Good Boy?",
+            "description": "Find ten targets with the dog.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "COYOTE_GIRL_FREND_A",
+            "name": "Irresistible Charm",
+            "description": "Get asked out by a girl (progress School Stories to the Girls' Bar investigation to unlock dating).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "COYOTE_SKILL_A",
+            "name": "Skill Dabbler",
+            "description": "Obtained 30 skills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "COYOTE_SKILL_B",
+            "name": "Skill Pro",
+            "description": "Obtained 100 skills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "COYOTE_SKILL_ALL",
+            "name": "Skill Master",
+            "description": "Obtained all skills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "COYOTE_TOWN_ACT_SHOP_A",
+            "name": "TownGo Casual",
+            "description": "Completed 30 stores in TownGo's Shop Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "COYOTE_TOWN_ACT_SHOP_B",
+            "name": "TownGo Whale",
+            "description": "Completed all of TownGo's Shop Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "COYOTE_TOWN_ACT_COMPLETE_A",
+            "name": "TownGo Tourist",
+            "description": "Completed 20 TownGo City Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "COYOTE_TOWN_ACT_COMPLETE_B",
+            "name": "TownGo Tour Guide",
+            "description": "Completed all TownGo City Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "COYOTE_TOWN_ACT_SEISHUN_A",
+            "name": "TownGo Freshman",
+            "description": "Completed ten TownGo School Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "COYOTE_TOWN_ACT_SEISHUN_B",
+            "name": "TownGo Senior",
+            "description": "Completed all TownGo School Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "COYOTE_TOWN_ACT_ALL_COMPLETE",
+            "name": "TownGo Master",
+            "description": "Achieved 100% completion of TownGo. Wow!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 39,
+            "apiname": "COYOTE_GET_ALL_EQUIP",
+            "name": "An Ounce of Prevention",
+            "description": "Obtained all equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "COYOTE_GET_ALL_SKATE_BOARD",
+            "name": "Skate or Die",
+            "description": "Obtained all skateboards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "COYOTE_GET_ALL_RECORD",
+            "name": "Sweet Jams",
+            "description": "Obtained all records.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "COYOTE_ANIMAL_PAINT_CLEAR",
+            "name": "Bad Fur Day",
+            "description": "Complete all of Squirrel Search (find all 56 squirrel graffiti across Yokohama and Kamurocho).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "COYOTE_DRONE_LEAGUE_ALL_CLEAR",
+            "name": "The Aviator",
+            "description": "Won first place in every Grand Prix drone race.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "COYOTE_ALL_DAIQ_STAGE_WIN",
+            "name": "Party Star",
+            "description": "Clear all of the stages in Dice & Cube.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "COYOTE_AIRSERIOUS_LAST_STAGE_CLEAR",
+            "name": "No Blind Spots in Any Direction",
+            "description": "Completed the final stage of Aircelios.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "COYOTE_SKATE_BOARD_LAST_RACE_1ST",
+            "name": "Yagami Pro Skater",
+            "description": "Get first place on the final course of the skateboard race.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "COYOTE_SURVIVAL_SUPPORT",
+            "name": "Suffer Like G Did",
+            "description": "Obtained 50 pickups in Hama of the Dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "COYOTE_ALL_ARCADE_GAME_PLAYED",
+            "name": "The Gamer Life",
+            "description": "Played every arcade game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "COYOTE_GIRL_FRIEND_B",
+            "name": "Such a Flirt",
+            "description": "Get asked out by two girls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "COYOTE_GIRL_FRIEND_C",
+            "name": "Hopeless Romantic",
+            "description": "Get asked out by three girls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "COYOTE_GIRL_FRIEND_D",
+            "name": "All's Fair in Love",
+            "description": "Get asked out by four girls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "COYOTE_KAITO_STORY_CLEAER_1",
+            "name": "What Goes Around",
+            "description": "Complete Chapter 1 of The Kaito Files DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "COYOTE_KAITO_STORY_CLEAER_2",
+            "name": "Like Father, Like Son",
+            "description": "Complete Chapter 2 of The Kaito Files DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "COYOTE_KAITO_STORY_CLEAER_3",
+            "name": "Out for Blood",
+            "description": "Complete Chapter 3 of The Kaito Files DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "COYOTE_KAITO_STORY_CLEAER_4",
+            "name": "Cat & Mouse",
+            "description": "Complete Chapter 4 of The Kaito Files DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "COYOTE_KAITO_DEFEATED_LAST_BOSS",
+            "name": "Escaping a Daydream",
+            "description": "Defeat all masked warriors (The Kaito Files DLC finale).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

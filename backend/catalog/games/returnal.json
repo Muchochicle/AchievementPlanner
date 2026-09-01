@@ -1,0 +1,366 @@
+{
+    "id": 1649240,
+    "steamAppId": 1649240,
+    "name": "Returnal",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1649240/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 30,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelike",
+        "Bullet Hell",
+        "Third Person Shooter",
+        "Sci-fi",
+        "Psychological Horror",
+        "Action"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "OnboardingComplete",
+            "name": "Atropian Survival",
+            "description": "Learn the basics of survival on Atropos",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "AF_Mastery",
+            "name": "Past the Ruins",
+            "description": "Finish Overgrown Ruins Survey",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "CD_Mastery",
+            "name": "Ascending the Mountain",
+            "description": "Complete the Crimson Wastes survey (collect all of that biome's collectibles).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "CI_Mastery",
+            "name": "Through the Forgotten City",
+            "description": "Complete the Derelict Citadel survey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SW_Mastery",
+            "name": "Echoes of the Past",
+            "description": "Complete the Echoing Ruins survey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "IC_Mastery",
+            "name": "Frozen in Time",
+            "description": "Complete the Fractured Wastes survey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "UR_Mastery",
+            "name": "Submerged in Memories",
+            "description": "Complete the Abyssal Scar survey.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "FirstBoss",
+            "name": "A Shadow in the Fog",
+            "description": "Defeat Phrike, the Overgrown Ruins boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "SecondBoss",
+            "name": "Ascension",
+            "description": "Defeat Ixion, the Crimson Wastes boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ThirdBoss",
+            "name": "Trial by Judgement",
+            "description": "Defeat Nemesis, the Derelict Citadel boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "FourthBoss",
+            "name": "Silence the Song",
+            "description": "Defeat Hyperion, the Echoing Ruins boss.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "FifthBoss",
+            "name": "Inner Darkness",
+            "description": "Defeat Ophion, the Abyssal Scar boss (the final boss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Act1Complete",
+            "name": "Failed Escape",
+            "description": "Complete Act 1 (after defeating Nemesis).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Act2Complete",
+            "name": "Last Drive",
+            "description": "Complete Act 2 (after defeating Ophion).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Act3Complete",
+            "name": "White Shadow",
+            "description": "Collect all six Sunface Fragments and complete Act 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "FirstResurrect",
+            "name": "Second Chance",
+            "description": "Die while carrying the Astronaut Figurine artifact (and revive on the spot).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "FoundXenoglyph",
+            "name": "Cryptic Messages",
+            "description": "Scan a Xenoglyph",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "FinishedXenoglyph",
+            "name": "Cryptic Translations",
+            "description": "Unlock all translation tiers of a Xenoglyph",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ReloadCombo",
+            "name": "Surgical Precision",
+            "description": "Perform 5 successful Overloads in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MaxProficiency",
+            "name": "Adapting to Circumstance",
+            "description": "Achieve Weapon Proficiency level 30",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "DailyChallenge",
+            "name": "In-Field Training",
+            "description": "Complete a daily challenge in Simulation Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "MaxHP",
+            "name": "Hardened Shell",
+            "description": "Achieve 200% Max Integrity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "CurseActivity",
+            "name": "Risk Assessment",
+            "description": "Finish Calculated Risk",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "MaxAdrenaline",
+            "name": "Adrenaline Spike",
+            "description": "Achieve maximum Adrenaline Level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "MaxParasites",
+            "name": "Irreversibly Contaminated",
+            "description": "Have 5 Parasites simultaneously",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "FirstDeath",
+            "name": "Eternal Return",
+            "description": "Die for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "FindLogs",
+            "name": "Alternate Fates",
+            "description": "Retrieve 10 Scout Logs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "FinishHouse",
+            "name": "Welcome Home",
+            "description": "Complete the first House sequence.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "FinishAllHouses",
+            "name": "Sins of the Mother",
+            "description": "Complete all six House sequences.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "FinishMural",
+            "name": "Visions of the Past",
+            "description": "Complete a Xeno-archive set (excluding Tower of Sisyphus)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "AllTrophies",
+            "name": "Helios",
+            "description": "Collect all main Achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "FirstDeathInTower",
+            "name": "Eternal Ascent",
+            "description": "Die and return in the Tower of Sisyphus (Ascension update).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "SinglePhaseBoss",
+            "name": "The Watcher",
+            "description": "Defeat Algos' first form (the Tower of Sisyphus boss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ThreePhaseBoss",
+            "name": "Eyes Closed",
+            "description": "Defeat Algos' final form.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "KillWithSuperWeapons",
+            "name": "Destroyer",
+            "description": "Kill 100 hostiles with Disgorgers (Tower of Sisyphus consumables).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "FinishHospital",
+            "name": "Broken, Restored, Empty",
+            "description": "Complete the first Hospital sequence (Ascension update).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "DLCEnding",
+            "name": "Empty Embrace",
+            "description": "Unlock the Hospital ending - after collecting all six poppies, completing every Hospital sequence and defeating Algos' final form, go through the opened Hospital door.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SecretEnding",
+            "name": "Find Release",
+            "description": "Trigger the final Hospital cutscene by interacting with the bed after 'Empty Embrace'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

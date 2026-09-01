@@ -833,6 +833,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-outer-worlds"));
     assert.ok(slugs.includes("armored-core-vi-fires-of-rubicon"));
     assert.ok(slugs.includes("god-of-war-ragnarok"));
+    assert.ok(slugs.includes("returnal"));
+    assert.ok(slugs.includes("lost-judgment"));
+    assert.ok(slugs.includes("muse-dash"));
 
 });
 
