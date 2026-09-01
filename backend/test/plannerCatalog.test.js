@@ -755,6 +755,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("wanderstop"));
     assert.ok(slugs.includes("civilization-vii"));
     assert.ok(slugs.includes("where-winds-meet"));
+    assert.ok(slugs.includes("doom-the-dark-ages"));
+    assert.ok(slugs.includes("two-point-museum"));
+    assert.ok(slugs.includes("neva"));
 
 });
 

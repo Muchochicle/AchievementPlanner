@@ -731,6 +731,9 @@ import { GUIDE as starWarsJediSurvivorAchievementGuide } from "./games/star-wars
 import { GUIDE as wanderstopAchievementGuide } from "./games/wanderstop.js";
 import { GUIDE as civilizationViiAchievementGuide } from "./games/civilization-vii.js";
 import { GUIDE as whereWindsMeetAchievementGuide } from "./games/where-winds-meet.js";
+import { GUIDE as doomTheDarkAgesAchievementGuide } from "./games/doom-the-dark-ages.js";
+import { GUIDE as twoPointMuseumAchievementGuide } from "./games/two-point-museum.js";
+import { GUIDE as nevaAchievementGuide } from "./games/neva.js";
 
 export const APP_GUIDES = [
 
@@ -1484,7 +1487,10 @@ export const GAME_GUIDES = [
     starWarsJediSurvivorAchievementGuide,
     wanderstopAchievementGuide,
     civilizationViiAchievementGuide,
-    whereWindsMeetAchievementGuide
+    whereWindsMeetAchievementGuide,
+    doomTheDarkAgesAchievementGuide,
+    twoPointMuseumAchievementGuide,
+    nevaAchievementGuide
 
 ];
 
