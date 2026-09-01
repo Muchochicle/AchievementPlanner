@@ -845,6 +845,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("blasphemous"));
     assert.ok(slugs.includes("blasphemous-2"));
     assert.ok(slugs.includes("jurassic-world-evolution-2"));
+    assert.ok(slugs.includes("kingdom-come-deliverance-ii"));
+    assert.ok(slugs.includes("danganronpa-trigger-happy-havoc"));
+    assert.ok(slugs.includes("call-of-duty-black-ops-iii"));
 
 });
 

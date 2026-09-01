@@ -821,6 +821,9 @@ import { GUIDE as seaOfStarsAchievementGuide } from "./games/sea-of-stars.js";
 import { GUIDE as blasphemousAchievementGuide } from "./games/blasphemous.js";
 import { GUIDE as blasphemous2AchievementGuide } from "./games/blasphemous-2.js";
 import { GUIDE as jurassicWorldEvolution2AchievementGuide } from "./games/jurassic-world-evolution-2.js";
+import { GUIDE as kingdomComeDeliveranceIiAchievementGuide } from "./games/kingdom-come-deliverance-ii.js";
+import { GUIDE as danganronpaTriggerHappyHavocAchievementGuide } from "./games/danganronpa-trigger-happy-havoc.js";
+import { GUIDE as callOfDutyBlackOpsIiiAchievementGuide } from "./games/call-of-duty-black-ops-iii.js";
 
 export const APP_GUIDES = [
 
@@ -851,6 +854,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  callOfDutyBlackOpsIiiAchievementGuide,
+  danganronpaTriggerHappyHavocAchievementGuide,
+  kingdomComeDeliveranceIiAchievementGuide,
   jurassicWorldEvolution2AchievementGuide,
   blasphemous2AchievementGuide,
   blasphemousAchievementGuide,

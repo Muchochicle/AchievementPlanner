@@ -1,0 +1,906 @@
+{
+    "id": 311210,
+    "steamAppId": 311210,
+    "name": "Call of Duty: Black Ops III",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Zombies",
+        "Multiplayer",
+        "Action",
+        "Sci-fi",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "CP_COMPLETE_PROLOGUE",
+            "name": "Disavowed",
+            "description": "Complete Black Ops on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "CP_COMPLETE_NEWWORLD",
+            "name": "A Second Chance",
+            "description": "Complete New World on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "CP_COMPLETE_BLACKSTATION",
+            "name": "High Tide",
+            "description": "Complete In Darkness on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "CP_COMPLETE_BIODOMES",
+            "name": "Belly of the Beast",
+            "description": "Complete Provocation on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "CP_COMPLETE_SGEN",
+            "name": "Into the Abyss",
+            "description": "Complete Hypocenter on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "CP_COMPLETE_VENGEANCE",
+            "name": "Blood for Blood",
+            "description": "Complete Vengeance on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "CP_COMPLETE_RAMSES",
+            "name": "Friends and Foes",
+            "description": "Complete Rise and Fall on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "CP_COMPLETE_INFECTION",
+            "name": "Understanding Madness",
+            "description": "Complete Demon Within on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "CP_COMPLETE_AQUIFER",
+            "name": "Fly, Swim, Shoot",
+            "description": "Complete Sand Castle on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "CP_COMPLETE_LOTUS",
+            "name": "200 Stories of Sheer Adventure!",
+            "description": "Complete Lotus Towers on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "CP_HARD_COMPLETE",
+            "name": "Full Circle",
+            "description": "Complete Campaign on Hardened, Veteran, or Realistic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "CP_REALISTIC_COMPLETE",
+            "name": "No One Will Believe You",
+            "description": "Complete the Campaign on Realistic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "CP_CAMPAIGN_COMPLETE",
+            "name": "Another Side of the Story",
+            "description": "Complete the Campaign on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "CP_FIREFLIES_KILL",
+            "name": "Hold Still!",
+            "description": "Kill 6 enemies affected by one Blinding Swarm or Firefly Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "CP_UNSTOPPABLE_KILL",
+            "name": "Rolling Heavy",
+            "description": "Kill 5 enemies using one burst of Unstoppable Force.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "CP_FLYING_WASP_KILL",
+            "name": "Sting like a Talon",
+            "description": "In Campaign, kill 20 enemies while flying the same Talon.  ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "CP_TIMED_KILL",
+            "name": "Decimator",
+            "description": "In Campaign, kill 10 enemies in under 3 seconds. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "CP_ALL_COLLECTIBLES",
+            "name": "Curator",
+            "description": "Discover all of the collectibles in the Campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "CP_DIFFERENT_GUN_KILL",
+            "name": "Gun Game",
+            "description": "In Campaign, kill 5 enemies with 5 different guns in under 30 seconds. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "CP_ALL_DECORATIONS",
+            "name": "Personal Decorator",
+            "description": "Earn all Decorations.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "CP_ALL_WEAPON_CAMOS",
+            "name": "Doing Camo Right",
+            "description": "In Campaign, unlock all camos for any weapon. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "CP_CONTROL_QUAD",
+            "name": "Maximum Firepower",
+            "description": "Take control of an ASP.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "CP_MISSION_COLLECTIBLES",
+            "name": "Walking Encyclopedia",
+            "description": "Discover all of the collectibles in any Mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "CP_DISTANCE_KILL",
+            "name": "Crackshot",
+            "description": "In Campaign, kill 5 enemies from over 100m away. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "CP_OBSTRUCTED_KILL",
+            "name": "Can't Hide",
+            "description": "Can't Hide\tIn Campaign, kill an enemy through a wall or obstruction.  ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "CP_MELEE_COMBO_KILL",
+            "name": "Biff! Bap! KaPow!",
+            "description": "Kill three enemies in a melee combo.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "CP_COMPLETE_WALL_RUN",
+            "name": "Inertial Distance",
+            "description": "In Campaign, wall run over 250 meters.  ",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "CP_TRAINING_GOLD",
+            "name": "For real this time",
+            "description": "Earn a Gold Rating in the training simulator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "CP_COMBAT_ROBOT_KILL",
+            "name": "Foe To Friend",
+            "description": "Use an enemy combat robot to kill 10 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "CP_KILL_WASPS",
+            "name": "Throwing Flak",
+            "description": "Kill 3 Talons with a single mid-air grenade detonation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "CP_CYBERCORE_UPGRADE",
+            "name": "Unlocked Potential",
+            "description": "Fully upgrade a Cybernetics Core.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "CP_ALL_WEAPON_ATTACHMENTS",
+            "name": "Lock, Stock, And Then Some",
+            "description": "In Campaign, unlock all attachments for any weapon. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "CP_TIMED_STUNNED_KILL",
+            "name": "In Their Sleep",
+            "description": "In Campaign, kill 5 stunned enemies in under 3 seconds.   ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "CP_UNLOCK_DOA",
+            "name": "Silverback In Black",
+            "description": "Unlock Dead Ops Arcade 2 (by completing the Campaign).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ZM_COMPLETE_RITUALS",
+            "name": "The Beginning of the End",
+            "description": "In Shadows of Evil, complete all Rituals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ZM_SPOT_SHADOWMAN",
+            "name": "From the Shadows",
+            "description": "In Shadows of Evil, spot the Shadowman fives times in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ZM_GOBBLE_GUM",
+            "name": "Not out of Gobblegum!",
+            "description": "In Shadows of Evil, purchase and chew every type of GobbleGum in your Pack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ZM_STORE_KILL",
+            "name": "Sorry, we’re DEAD",
+            "description": "In Shadows of Evil, kill 10 zombies that are inside of a store in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ZM_ROCKET_SHIELD_KILL",
+            "name": "Strike!",
+            "description": "In Shadows of Evil, use the rocket shield attack to kill at least 10 zombies in one burst.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ZM_CIVIL_PROTECTOR",
+            "name": "Beat CoP",
+            "description": "In Shadows of Evil, summon the Civil Protector in every district in a single game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ZM_WINE_GRENADE_KILL",
+            "name": "The Spider and the Fly",
+            "description": "In Shadows of Evil, kill 10 zombies ensnared by a Widow’s Wine grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ZM_MARGWA_KILL",
+            "name": "Margwa Party",
+            "description": "In Shadows of Evil, kill 2 Margwas in a single round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ZM_PARASITE_KILL",
+            "name": "Parasite-Seeing",
+            "description": "In Shadows of Evil, kill 5 Parasites while riding on the train.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "MP_REACH_SERGEANT",
+            "name": "Welcome to the Club",
+            "description": "Reach Sergeant (Level 10) in Multiplayer while playing online.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "MP_REACH_ARENA",
+            "name": "Battle Tested",
+            "description": "Reach Commander (Level 55) in Multiplayer while playing online.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "MP_SPECIALIST_MEDALS",
+            "name": "Tactical Specialist",
+            "description": "Get 5 Medals based on a Specialist Ability in a single game. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "MP_MULTI_KILL_MEDALS",
+            "name": "Deadly Specialist",
+            "description": "Get a Specialist-based medal that requires 3 or more rapid kills while using any Specialist Weapon. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ZM_CASTLE_EE",
+            "name": "My Brother’s Keeper",
+            "description": "Complete the main Easter-egg quest on Der Eisendrache ('My Brother's Keeper').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ZM_CASTLE_ALL_BOWS",
+            "name": "Der Meisterbogenschuetze",
+            "description": "In Der Eisendrache, obtain all of the ancient bows.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ZM_CASTLE_MINIGUN_MURDER",
+            "name": "None Left Standing",
+            "description": "In Der Eisendrache, kill every type of zombie using a minigun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ZM_CASTLE_UPGRADED_BOW",
+            "name": "Take a Bow",
+            "description": "In Der Eisendrache, upgrade the Wrath of the Ancients.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ZM_CASTLE_MECH_TRAPPER",
+            "name": "Not Big Enough",
+            "description": "In Der Eisendrache, trap and kill a Panzer Soldat using the Ragnarok DG-4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ZM_CASTLE_SPIKE_REVIVE",
+            "name": "Time to Slam",
+            "description": "In Der Eisendrache, revive two players protected by the Ragnarok DG-4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ZM_CASTLE_WALL_RUNNER",
+            "name": "Quick Off Your Feet",
+            "description": "In Der Eisendrache, wallbuy the BRM.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ZM_CASTLE_ELECTROCUTIONER",
+            "name": "That’s a lot of Jigawatts!",
+            "description": "In Der Eisendrache, electrocute 121 zombies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ZM_CASTLE_WUNDER_TOURIST",
+            "name": "Fling Me to the Moon",
+            "description": "In Der Eisendrache, use every Wundersphere twice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ZM_CASTLE_WUNDER_SNIPER",
+            "name": "Death From Above",
+            "description": "In Der Eisendrache, kill a zombie while being flung by a Wundersphere.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ZM_ISLAND_COMPLETE_EE",
+            "name": "Seeds of Doubt ",
+            "description": "Complete the main Easter-egg quest on Zetsubou No Shima ('Seeds of Doubt').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ZM_ISLAND_DRINK_WINE",
+            "name": "Sanguine Serum",
+            "description": "In Zetsubou No Shima, drink fresh Widow's Wine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ZM_ISLAND_CLONE_REVIVE",
+            "name": "Herbal Remedy",
+            "description": "In Zetsubou No Shima, use a plant to return to life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ZM_ISLAND_OBTAIN_SKULL",
+            "name": "The Ultimate Sacrifice ",
+            "description": "In Zetsubou No Shima, retrieve the Skull of Nan Sapwe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ZM_ISLAND_WONDER_KILL",
+            "name": "Crop Duster",
+            "description": "In Zetsubou No Shima, kill 10 zombies with a single shot of the KT-4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ZM_ISLAND_STAY_UNDERWATER",
+            "name": "Iron Lung",
+            "description": "In Zetsubou No Shima, stay underwater for one minute. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ZM_ISLAND_THRASHER_RESCUE",
+            "name": "In the Belly of the Beast",
+            "description": "In Zetsubou No Shima, survive getting consumed. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ZM_ISLAND_ELECTRIC_SHIELD",
+            "name": "Assault With Battery",
+            "description": "In Zetsubou No Shima, electrocute a zombie with a shield. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ZM_ISLAND_DESTROY_WEBS",
+            "name": "Web of Defeat",
+            "description": "In Zetsubou No Shima, remove webs in every possible way in one game. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ZM_ISLAND_EAT_FRUIT",
+            "name": "One Too Many",
+            "description": "In Zetsubou No Shima, throw up. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ZM_STALINGRAD_NIKOLAI",
+            "name": "Love And War",
+            "description": "Complete the main Easter-egg quest on Gorod Krovi ('Love And War').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ZM_STALINGRAD_WIELD_DRAGON",
+            "name": "Wield a Fist of Iron",
+            "description": "In Gorod Krovi, wield the Gauntlet of Siegfried.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ZM_STALINGRAD_TWENTY_ROUNDS",
+            "name": "Time Attack",
+            "description": "In Gorod Krovi, complete Time Attack: Round 20.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ZM_STALINGRAD_RIDE_DRAGON",
+            "name": "Taking Flight",
+            "description": "In Gorod Krovi, ride a Dragon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ZM_STALINGRAD_LOCKDOWN",
+            "name": "Not One Inch",
+            "description": "In Gorod Krovi, complete a Lockdown Event.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ZM_STALINGRAD_SOLO_TRIALS",
+            "name": "Viktorious Revenge",
+            "description": "In Gorod Krovi, complete all solo Trials in one Zombies game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ZM_STALINGRAD_BEAM_KILL",
+            "name": "Vaporeyezed",
+            "description": "In Gorod Krovi, use the Gigant Beam to kill 20 Zombies in one activation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ZM_STALINGRAD_STRIKE_DRAGON",
+            "name": "Fire Mission",
+            "description": "In Gorod Krovi, kill 8 zombies with a single Dragon Strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ZM_STALINGRAD_FAFNIR_KILL",
+            "name": "Blown Away",
+            "description": "In Gorod Krovi, kill 10 zombies at once with the Guard of Fafnir.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ZM_STALINGRAD_AIR_ZOMBIES",
+            "name": "Zombiepult",
+            "description": "In Gorod Krovi, launch 10 zombies into the air at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ZM_GENESIS_EE",
+            "name": "For The Good Of All",
+            "description": "Complete the main Easter-egg quest on Revelations ('For The Good Of All').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ZM_GENESIS_SUPER_EE",
+            "name": "A Better Tomorrow",
+            "description": "Complete the Easter eggs on Der Eisendrache, Zetsubou No Shima, Gorod Krovi and Revelations, lighting all five Gateworm icons ('A Better Tomorrow').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ZM_GENESIS_PACKECTOMY",
+            "name": "Pack-A-Punch-ectomy",
+            "description": "In Revelations, recover the Pack-a-Punch machine from its abductor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ZM_GENESIS_KEEPER_ASSIST",
+            "name": "Keep Close",
+            "description": "In Revelations, assist a Keeper in defeating every type of enemy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ZM_GENESIS_DEATH_RAY",
+            "name": "Death Ray",
+            "description": "In Revelations, kill 40 enemies with a single activation of a Corruption Turret.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ZM_GENESIS_GRAND_TOUR",
+            "name": "The Grand Tour",
+            "description": "In Revelations, visit every unique location within 2 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ZM_GENESIS_WARDROBE_CHANGE",
+            "name": "Wardrobe Change",
+            "description": "In Revelations, wear three different hats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ZM_GENESIS_WONDERFUL",
+            "name": "Wonderful",
+            "description": "In Revelations, kill 10 enemies in one shot with each wonder weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "ZM_GENESIS_CONTROLLED_CHAOS",
+            "name": "Controlled Chaos",
+            "description": "In Revelations, override all of the Corruption Engines before round 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "DLC2_ZOMBIE_ALL_TRAPS",
+            "name": "It's a Trap!",
+            "description": "In Shi No Numa, kill at least one zombie with three different traps in a single round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "DLC2_ZOM_LUNARLANDERS",
+            "name": "The Eagle has Landers",
+            "description": "In Ascension, escape on all three lunar landers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "DLC2_ZOM_FIREMONKEY",
+            "name": "Chimp on the Barbie",
+            "description": "In Ascension, kill a space monkey with a fire trap.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "DLC4_ZOM_TEMPLE_SIDEQUEST",
+            "name": "Time Travel Will Tell",
+            "description": "In Shangri-La, acquire the Focusing Stone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "DLC4_ZOM_SMALL_CONSOLATION",
+            "name": "Small Consolation ",
+            "description": "In Shangri-La, use the 31-79 JGb215 on each type of zombie.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "DLC5_ZOM_CRYOGENIC_PARTY",
+            "name": "Cryogenic Slumber Party",
+            "description": "In Moon, complete Richtofen's Grand Scheme.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "DLC5_ZOM_GROUND_CONTROL",
+            "name": "Ground Control",
+            "description": "In Moon, prevent each excavator from breaching the base in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "ZM_DLC4_TOMB_SIDEQUEST",
+            "name": "Little Lost Girl",
+            "description": "In Origins, release Samantha.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "ZM_DLC4_OVERACHIEVER",
+            "name": "Overachiever",
+            "description": "In Origins, complete all 4 Challenges in one game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "ZM_PROTOTYPE_I_SAID_WERE_CLOSED",
+            "name": "I said we’re CLOSED!",
+            "description": "In Nacht Der Untoten, do not let any zombies enter the building during the first 3 rounds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "ZM_ASYLUM_ACTED_ALONE",
+            "name": "Acted Alone",
+            "description": "In Verrückt, headshot 20 zombies in the courtyard from the second floor of the Asylum.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "ZM_THEATER_IVE_SEEN_SOME_THINGS",
+            "name": "I’ve seen some things…",
+            "description": "In Kino Der Toten, visit every location the teleporter can take you to.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
