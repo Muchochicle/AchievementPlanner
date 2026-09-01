@@ -1,0 +1,690 @@
+{
+    "id": 1676130,
+    "steamAppId": 1676130,
+    "name": "Deadlink",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1676130/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 4,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Roguelite",
+        "Cyberpunk",
+        "Fast-Paced",
+        "Character Action",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_DIE_SELFDAMAGE",
+            "name": "An honest man",
+            "description": "Die to self-damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_WIN_DEEP",
+            "name": "Go no farther.",
+            "description": "Complete a full run on Deep Dive difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_WIN_NEURO",
+            "name": "Johnny Neurotic",
+            "description": "Complete a full run on Neuromancy difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_WIN_VR",
+            "name": "Trivial information",
+            "description": "Complete a full run on VR Orientation difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_WIN_SOLDIER",
+            "name": "Mars",
+            "description": "Complete a full run using the Soldier Combat Shell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_WIN_HUNTER",
+            "name": "Nimrud",
+            "description": "Complete a full run using the Hunter Combat Shell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_WIN_ENGINEER",
+            "name": "Vishnu",
+            "description": "Complete a full run using the Engineer Combat Shell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_WIN_JUGG",
+            "name": "Hercules",
+            "description": "Complete a full run using the Juggernaut Combat Shell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_WIN_CREDIT",
+            "name": "Sisyphus",
+            "description": "Complete a full run without spending a single Credit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_WIN_LOW_HP",
+            "name": "Close call",
+            "description": "Complete a full run with 5 or less HP.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_GRENADE_OBJECTS",
+            "name": "Demolition Man",
+            "description": "Destroy 5 objects with a single grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_DIE_BARREL",
+            "name": "Hisashi OSHA",
+            "description": "Die to every type of elemental explosive barrel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_CODEX_FULL",
+            "name": "Alexandria",
+            "description": "Unlock all Codex entries.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_GRENADE_KILLS",
+            "name": "Fire in the hole!",
+            "description": "Kill 3 enemies with a single grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_TUTORIAL_COMPLETE",
+            "name": "Baseline",
+            "description": "Complete the tutorial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_TUTORIAL_SKIP",
+            "name": "College dropout",
+            "description": "Skip the tutorial.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_TUTORIAL_DEATH",
+            "name": "Hard Lesson",
+            "description": "Get killed in the tutorial twice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_DIE_BRIDGE",
+            "name": "Call Of The Void",
+            "description": "In the Interport section (before the third boss), jump over the walkway railing into the bottomless pit and die.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_SPEED_NEURO",
+            "name": "Games Done Quick",
+            "description": "Complete a full run in under 40 minutes on Neuromancy difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_SPEED_DEEP",
+            "name": "Backwards longjump",
+            "description": "Complete a full run in under 30 minutes on Deep Dive difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_SPEED_VR",
+            "name": "Half o-pressed",
+            "description": "Complete a full run in under 20 minutes on VR Orientation difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_IMPLANT_LEGENDARY",
+            "name": "Better than sex",
+            "description": "Insert a Legendary Implant into Implant Matrix.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_IMPLANT_MAXOUT",
+            "name": "Min-max",
+            "description": "Max out 1 Implant during a single run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_IMPLANT_MAXOUT_QUANTITY",
+            "name": "Followed a guide",
+            "description": "Max out 3 Implants during a single run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_FIND_HIDDENIMPLANTS",
+            "name": "Open Source",
+            "description": "Find all the secret Implants.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_WIN_FULL",
+            "name": "I read Plato",
+            "description": "Beat the story campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_SHOTGUN_KILLS",
+            "name": "Duck Hunt",
+            "description": "Kill 500 enemies at point-blank range with the Scrapper Shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ROCKET_KILLS",
+            "name": "Mujafedin",
+            "description": "Kill 200 enemies from at least 20 meters with the Bonegrinder Rocket Launcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_EM_KILLS",
+            "name": "Butlerian Jihad",
+            "description": "Kill 50 robotic enemies with EM Charges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_PROXY_KILLS",
+            "name": "Toxic attitude\t",
+            "description": "Kill 300 enemies with Prox Mines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_FAP_KILLS",
+            "name": "Flame War",
+            "description": "Kill 50 enemies with Flame Assault grenades that bounced off surfaces.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_PEACEKEEPER_KILLS",
+            "name": "Big Iron",
+            "description": "Kill 500 enemies with headshots using the Peacekeeper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_MATTER_ARMOR",
+            "name": "Blow your load",
+            "description": "Break armor with Matter Converter salvo 200 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_TARBALL_KILLS",
+            "name": "Dissociative violence",
+            "description": "Kill 200 enemies with unattached Tarball Launcher grenades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_LOCUST_KILLS",
+            "name": "Exodus 10:1",
+            "description": "Kill 50 enemies with toxic puddles left by the Locust Swarm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_ARC_HS",
+            "name": "Longinus Podbipięta",
+            "description": "Score 3 headshots with a single shot from the ARC Cannon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_ARC_ELECTRO",
+            "name": "It's just a fucking laser!",
+            "description": "Keep firing the Electrolaser for at least 15 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_ARC_FIRE",
+            "name": "Excellent!",
+            "description": "Kill 3 enemies with a single shot from the Particle Accelerator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_STORM_LINKHITS",
+            "name": "Imagine my shock",
+            "description": "Zap 5 enemies with single link from Stormblight Cascade activation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_HOTROD_IGNITE",
+            "name": "Shish kebab",
+            "description": "Ignite 3 enemies with a single Fire Ant round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_ARENA_SEXCLUB",
+            "name": "Eyes Wide Shut",
+            "description": "Find the secret Sex Club room in Tora territory (the first area of the game).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ARENA_HEADHUNTER",
+            "name": "Headhunter",
+            "description": "Destroy all head sculptures.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_ARENA_SURVIVE",
+            "name": "You are locked in here with me",
+            "description": "In a Survival Event arena, defeat every enemy that spawns before the timer reaches zero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_ARENA_ZEROFIRE",
+            "name": "Pussifist",
+            "description": "Beat a single combat arena without firing a single shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_APEX_MELEE_KILL",
+            "name": "Mike Conley",
+            "description": "Kill the Phoenix Apex with a melee attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_HEAVY_FALLDAMAGE_KILL",
+            "name": "Newt-owned",
+            "description": "Kill a heavy enemy with fall damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TORANTULA_FIRE_KILL",
+            "name": "It werfers flammens",
+            "description": "Kill the Torantula with fire damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_ARENA_AIRKILLS",
+            "name": "Air superiority",
+            "description": "Kill 6 enemies in a row without touching the ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_ARENA_AIRTIME",
+            "name": "Speedrunner",
+            "description": "Stay airborne for 15 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_TORANTULA_NOIMP_KILL",
+            "name": "Arachnophobe",
+            "description": "Kill the Torantula without using any implant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_APEX_NOIMP_KILL",
+            "name": "Apex twin",
+            "description": "Kill the Phoenix Apex without using any implant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_ISKRA_NOIMP_KILL",
+            "name": "Amish paradise",
+            "description": "Destroy the Trinary Iskra without using any implant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_UPGRADE_HP",
+            "name": "Man of integrity",
+            "description": "Buy all 'Shell Integrity' Deadlink upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_UPGRADE_SHIELDS",
+            "name": "What a riot",
+            "description": "Buy all 'Shield Boost' Deadlink upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_UPGRADE_MARKED_DAMAGE",
+            "name": "Gruby Damage",
+            "description": "Buy all 'Damage vs Marked' Deadlink upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_UPGRADE_CREDITS",
+            "name": "Capitalism, hoe!",
+            "description": "Buy all 'Deep Pockets' Deadlink upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_UPGRADE_SOLDIER",
+            "name": "Military Industrial Complex",
+            "description": "Buy all Soldier shell upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_UPGRADE_HUNTER",
+            "name": "The Black Rider",
+            "description": "Buy all Hunter shell upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_UPGRADE_ENGI",
+            "name": "Erecting a sentry",
+            "description": "Buy all Engineer shell upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_UPGRADE_JUG",
+            "name": "I'm the Juggernaut, bitch!",
+            "description": "Buy all Juggernaut shell upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_MERCIFUL",
+            "name": "Merciful",
+            "description": "Kill an enemy that is ignited, corroded, and recently got shocked.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_MELEE_ONESHOT",
+            "name": "I cast FIST!",
+            "description": "One shot an enemy with a melee attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_ARENA_TORA",
+            "name": "Little Boy",
+            "description": "Reach Tora streets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_TORANTULA_KILL",
+            "name": "Fat Man",
+            "description": "Defeat the Torantula.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_ARENA_WATTS",
+            "name": "Watt's Up Doc?",
+            "description": "Reach Watts-Rucker labs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_APEX_KILL",
+            "name": "Evolutionary Dead-End",
+            "description": "Defeat  the Phoenix Apex.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_ARENA_INTERPORT",
+            "name": "Wage Slavery",
+            "description": "Reach Interport warehouses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_ISKRA_KILL",
+            "name": "Iconoclasm",
+            "description": "Defeat the Trinary Iskra.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_ARENA_FEMTO",
+            "name": "Size doesn't matter",
+            "description": "Reach Femto offices.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_CEO_KILL",
+            "name": "Actually, it does",
+            "description": "Defeat the Femto CEO.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_ENDLESS_20",
+            "name": "Black Hole Sun",
+            "description": "Survive 20 waves in Extant Existence mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_ENDLESS_40",
+            "name": "Proton Decay",
+            "description": "Survive 40 waves in Extant Existence mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_ENDLESS_50",
+            "name": "Big Freeze",
+            "description": "Survive 50 waves in Extant Existence mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_ENDLESS_100",
+            "name": "The Big Crunch",
+            "description": "Survive 100 waves in Extant Existence mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

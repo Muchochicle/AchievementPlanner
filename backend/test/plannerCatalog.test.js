@@ -907,6 +907,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("supermarket-simulator"));
     assert.ok(slugs.includes("chained-together"));
     assert.ok(slugs.includes("lightyear-frontier"));
+    assert.ok(slugs.includes("medieval-dynasty"));
+    assert.ok(slugs.includes("deadlink"));
+    assert.ok(slugs.includes("ozymandias-bronze-age-empire-sim"));
 
 });
 

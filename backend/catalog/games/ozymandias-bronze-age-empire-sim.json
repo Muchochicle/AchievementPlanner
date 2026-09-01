@@ -1,0 +1,492 @@
+{
+    "id": 1768280,
+    "steamAppId": 1768280,
+    "name": "Ozymandias: Bronze Age Empire Sim",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1768280/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "4X",
+        "Strategy",
+        "Turn-Based",
+        "Historical",
+        "Grand Strategy",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Mediterranean_Britons_achievement",
+            "name": "Britons on Mediterranean",
+            "description": "Win as Britons on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Mediterranean_Celts_achievement",
+            "name": "Celts on Mediterranean",
+            "description": "Win as Celts on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Mediterranean_Gauls_achievement",
+            "name": "Gauls on Mediterranean",
+            "description": "Win as Gauls on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Mediterranean_Phoenicians_achievement",
+            "name": "Carthaginians on Mediterranean",
+            "description": "Win as Carthaginians on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Mediterranean_Mycenaeans_achievement",
+            "name": "Mycenaeans on Mediterranean",
+            "description": "Win as Mycenaeans on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Mediterranean_Sarmatians_achievement",
+            "name": "Cimmerians on Mediterranean",
+            "description": "Win as Cimmerians on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Mediterranean_Scythians_achievement",
+            "name": "Scythians on Mediterranean",
+            "description": "Win as Scythians on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Mediterranean_Hittites_achievement",
+            "name": "Hittites on Mediterranean",
+            "description": "Win as Hittites on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Mediterranean_Egyptians_achievement",
+            "name": "Egyptians on Mediterranean",
+            "description": "Win as Egyptians on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Mediterranean_Babylonians_achievement",
+            "name": "Babylonians on Mediterranean",
+            "description": "Win as Babylonians on Mediterranean at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "MiddleEast_Mycenaeans_achievement",
+            "name": "Mycenaeans on Near East",
+            "description": "Win as Mycenaeans on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "MiddleEast_Egyptians_achievement",
+            "name": "Egyptians on Near East",
+            "description": "Win as Egyptians on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MiddleEast_Hittites_achievement",
+            "name": "Hittites on Near East",
+            "description": "Win as Hittites on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "MiddleEast_Canaanites_achievement",
+            "name": "Canaanites on Near East",
+            "description": "Win as Canaanites on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "MiddleEast_Mitanni_achievement",
+            "name": "Mitanni on Near East",
+            "description": "Win as Mitanni on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "MiddleEast_Babylonians_achievement",
+            "name": "Babylonians on Near East",
+            "description": "Win as Babylonians on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MiddleEast_Assyrians_achievement",
+            "name": "Assyrians on Near East",
+            "description": "Win as Assyrians on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "MiddleEast_Elamites_achievement",
+            "name": "Elamites on Near East",
+            "description": "Win as Elamites on Near East at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Greece_Pylosians_achievement",
+            "name": "Pylos on Greece",
+            "description": "Win as Pylos on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Greece_Spartans_achievement",
+            "name": "Sparta on Greece",
+            "description": "Win as Sparta on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Greece_Mycenaeans_achievement",
+            "name": "Mycenaeans on Greece",
+            "description": "Win as Mycenaeans on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Greece_Iolcosians_achievement",
+            "name": "Iolcos on Greece",
+            "description": "Win as Iolcos on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Greece_Minyans_achievement",
+            "name": "Orchomenos on Greece",
+            "description": "Win as Orchomenos on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Greece_Thebans_achievement",
+            "name": "Thebes on Greece",
+            "description": "Win as Thebes on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Greece_Athenians_achievement",
+            "name": "Athens on Greece",
+            "description": "Win as Athens on Greece at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "FertileCrescent_Babylonians_achievement",
+            "name": "Babylonians on Fertile Crescent",
+            "description": "Win as Babylonians on Fertile Crescent at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "FertileCrescent_Elamites_achievement",
+            "name": "Elamites on Fertile Crescent",
+            "description": "Win as Elamites on Fertile Crescent at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "FertileCrescent_Assyrians_achievement",
+            "name": "Assyrians on Fertile Crescent",
+            "description": "Win as Assyrians on Fertile Crescent at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "FertileCrescent_Hittites_achievement",
+            "name": "Hittites on Fertile Crescent",
+            "description": "Win as Hittites on Fertile Crescent at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "FertileCrescent_Canaanites_achievement",
+            "name": "Canaanites on Fertile Crescent",
+            "description": "Win as Canaanites on Fertile Crescent at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "IndusValley_Harappans_achievement",
+            "name": "Harappans on Indus Valley",
+            "description": "Win as Harappans on Indus Valley at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "IndusValley_MohenjoDara_achievement",
+            "name": "Mohenjo-Dara on Indus Valley",
+            "description": "Win as Mohenjo-Dara on Indus Valley at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "IndusValley_Dholavira_achievement",
+            "name": "Dholavira on Indus Valley",
+            "description": "Win as Dholavira on Indus Valley at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "China_Zhou_achievement",
+            "name": "Zhou on China",
+            "description": "Win as Zhou on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "China_Jin_achievement",
+            "name": "Jin on China",
+            "description": "Win as Jin on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "China_Chu_achievement",
+            "name": "Chu on China",
+            "description": "Win as Chu on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "China_Song_achievement",
+            "name": "Song on China",
+            "description": "Win as Song on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "China_Qi_achievement",
+            "name": "Qi on China",
+            "description": "Win as Qi on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "China_Wu_achievement",
+            "name": "Wu on China",
+            "description": "Win as Wu on China at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Asia_Oxus_achievement",
+            "name": "Oxus on Asia",
+            "description": "Win as Oxus on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Asia_Harappans_achievement",
+            "name": "Harappans on Asia",
+            "description": "Win as Harappans on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Asia_Kuru_achievement",
+            "name": "Kuru on Asia",
+            "description": "Win as Kuru on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Asia_Zhou_achievement",
+            "name": "Zhou on Asia",
+            "description": "Win as Zhou on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Asia_BanChiang_achievement",
+            "name": "Ban Chiang on Asia",
+            "description": "Win as Ban Chiang on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Asia_Gojoseon_achievement",
+            "name": "Gojoseon on Asia",
+            "description": "Win as Gojoseon on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Asia_DongSon_achievement",
+            "name": "Dong Son on Asia",
+            "description": "Win as Dong Son on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Asia_Mongols_achievement",
+            "name": "Huns on Asia",
+            "description": "Win as Huns on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Asia_Polynesians_achievement",
+            "name": "Polynesians on Asia",
+            "description": "Win as Polynesians on Asia at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "VedicPeriod_Kuru_achievement",
+            "name": "Kuru on Ganges Plain",
+            "description": "Win as Kuru on Ganges Plain at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "VedicPeriod_Pancala_achievement",
+            "name": "Pancala on Ganges Plain",
+            "description": "Win as Pancala on Ganges Plain at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "VedicPeriod_Kosala_achievement",
+            "name": "Kosala on Ganges Plain",
+            "description": "Win as Kosala on Ganges Plain at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "VedicPeriod_Videha_achievement",
+            "name": "Videha on Ganges Plain",
+            "description": "Win as Videha on Ganges Plain at Scholar difficulty or higher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

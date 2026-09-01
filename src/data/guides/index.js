@@ -883,6 +883,9 @@ import { GUIDE as sanabiAchievementGuide } from "./games/sanabi.js";
 import { GUIDE as supermarketSimulatorAchievementGuide } from "./games/supermarket-simulator.js";
 import { GUIDE as chainedTogetherAchievementGuide } from "./games/chained-together.js";
 import { GUIDE as lightyearFrontierAchievementGuide } from "./games/lightyear-frontier.js";
+import { GUIDE as medievalDynastyAchievementGuide } from "./games/medieval-dynasty.js";
+import { GUIDE as deadlinkAchievementGuide } from "./games/deadlink.js";
+import { GUIDE as ozymandiasBronzeAgeEmpireSimAchievementGuide } from "./games/ozymandias-bronze-age-empire-sim.js";
 
 export const APP_GUIDES = [
 
@@ -913,6 +916,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  ozymandiasBronzeAgeEmpireSimAchievementGuide,
+  deadlinkAchievementGuide,
+  medievalDynastyAchievementGuide,
   lightyearFrontierAchievementGuide,
   chainedTogetherAchievementGuide,
   supermarketSimulatorAchievementGuide,
