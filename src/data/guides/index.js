@@ -746,6 +746,9 @@ import { GUIDE as wizardryProvingGroundsOfTheMadOverlordAchievementGuide } from 
 import { GUIDE as catQuestIiiAchievementGuide } from "./games/cat-quest-iii.js";
 import { GUIDE as ondeAchievementGuide } from "./games/onde.js";
 import { GUIDE as mindDiverAchievementGuide } from "./games/mind-diver.js";
+import { GUIDE as tempopoAchievementGuide } from "./games/tempopo.js";
+import { GUIDE as metalEdenAchievementGuide } from "./games/metal-eden.js";
+import { GUIDE as towaAndTheGuardiansOfTheSacredTreeAchievementGuide } from "./games/towa-and-the-guardians-of-the-sacred-tree.js";
 
 export const APP_GUIDES = [
 
@@ -1514,7 +1517,10 @@ export const GAME_GUIDES = [
     wizardryProvingGroundsOfTheMadOverlordAchievementGuide,
     catQuestIiiAchievementGuide,
     ondeAchievementGuide,
-    mindDiverAchievementGuide
+    mindDiverAchievementGuide,
+    tempopoAchievementGuide,
+    metalEdenAchievementGuide,
+    towaAndTheGuardiansOfTheSacredTreeAchievementGuide
 
 ];
 

@@ -770,6 +770,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("cat-quest-iii"));
     assert.ok(slugs.includes("onde"));
     assert.ok(slugs.includes("mind-diver"));
+    assert.ok(slugs.includes("tempopo"));
+    assert.ok(slugs.includes("metal-eden"));
+    assert.ok(slugs.includes("towa-and-the-guardians-of-the-sacred-tree"));
 
 });
 
