@@ -761,6 +761,9 @@ import { GUIDE as ravenswatchAchievementGuide } from "./games/ravenswatch.js";
 import { GUIDE as nubbysNumberFactoryAchievementGuide } from "./games/nubbys-number-factory.js";
 import { GUIDE as vernalEdgeAchievementGuide } from "./games/vernal-edge.js";
 import { GUIDE as bombRushCyberfunkAchievementGuide } from "./games/bomb-rush-cyberfunk.js";
+import { GUIDE as buckshotRouletteAchievementGuide } from "./games/buckshot-roulette.js";
+import { GUIDE as turboOverkillAchievementGuide } from "./games/turbo-overkill.js";
+import { GUIDE as angerFootAchievementGuide } from "./games/anger-foot.js";
 
 export const APP_GUIDES = [
 
@@ -1544,7 +1547,10 @@ export const GAME_GUIDES = [
     ravenswatchAchievementGuide,
     nubbysNumberFactoryAchievementGuide,
     vernalEdgeAchievementGuide,
-    bombRushCyberfunkAchievementGuide
+    bombRushCyberfunkAchievementGuide,
+    buckshotRouletteAchievementGuide,
+    turboOverkillAchievementGuide,
+    angerFootAchievementGuide
 
 ];
 

@@ -785,6 +785,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("nubbys-number-factory"));
     assert.ok(slugs.includes("vernal-edge"));
     assert.ok(slugs.includes("bomb-rush-cyberfunk"));
+    assert.ok(slugs.includes("buckshot-roulette"));
+    assert.ok(slugs.includes("turbo-overkill"));
+    assert.ok(slugs.includes("anger-foot"));
 
 });
 
