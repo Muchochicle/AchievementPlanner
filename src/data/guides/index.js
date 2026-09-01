@@ -839,6 +839,9 @@ import { GUIDE as needForSpeedHeatAchievementGuide } from "./games/need-for-spee
 import { GUIDE as halfLifeAlyxAchievementGuide } from "./games/half-life-alyx.js";
 import { GUIDE as oneshotAchievementGuide } from "./games/oneshot.js";
 import { GUIDE as tropico4AchievementGuide } from "./games/tropico-4.js";
+import { GUIDE as nierReplicantVer122474487139AchievementGuide } from "./games/nier-replicant-ver-1-22474487139.js";
+import { GUIDE as aPlagueTaleInnocenceAchievementGuide } from "./games/a-plague-tale-innocence.js";
+import { GUIDE as weWereHereTooAchievementGuide } from "./games/we-were-here-too.js";
 
 export const APP_GUIDES = [
 
@@ -869,6 +872,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  weWereHereTooAchievementGuide,
+  aPlagueTaleInnocenceAchievementGuide,
+  nierReplicantVer122474487139AchievementGuide,
   tropico4AchievementGuide,
   oneshotAchievementGuide,
   halfLifeAlyxAchievementGuide,
