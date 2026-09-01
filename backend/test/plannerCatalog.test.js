@@ -782,6 +782,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("death-must-die"));
     assert.ok(slugs.includes("fights-in-tight-spaces"));
     assert.ok(slugs.includes("ravenswatch"));
+    assert.ok(slugs.includes("nubbys-number-factory"));
+    assert.ok(slugs.includes("vernal-edge"));
+    assert.ok(slugs.includes("bomb-rush-cyberfunk"));
 
 });
 

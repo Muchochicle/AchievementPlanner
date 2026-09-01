@@ -758,6 +758,9 @@ import { GUIDE as fabledomAchievementGuide } from "./games/fabledom.js";
 import { GUIDE as deathMustDieAchievementGuide } from "./games/death-must-die.js";
 import { GUIDE as fightsInTightSpacesAchievementGuide } from "./games/fights-in-tight-spaces.js";
 import { GUIDE as ravenswatchAchievementGuide } from "./games/ravenswatch.js";
+import { GUIDE as nubbysNumberFactoryAchievementGuide } from "./games/nubbys-number-factory.js";
+import { GUIDE as vernalEdgeAchievementGuide } from "./games/vernal-edge.js";
+import { GUIDE as bombRushCyberfunkAchievementGuide } from "./games/bomb-rush-cyberfunk.js";
 
 export const APP_GUIDES = [
 
@@ -1538,7 +1541,10 @@ export const GAME_GUIDES = [
     fabledomAchievementGuide,
     deathMustDieAchievementGuide,
     fightsInTightSpacesAchievementGuide,
-    ravenswatchAchievementGuide
+    ravenswatchAchievementGuide,
+    nubbysNumberFactoryAchievementGuide,
+    vernalEdgeAchievementGuide,
+    bombRushCyberfunkAchievementGuide
 
 ];
 
