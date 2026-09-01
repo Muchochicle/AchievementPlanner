@@ -794,6 +794,9 @@ import { GUIDE as returnToMonkeyIslandAchievementGuide } from "./games/return-to
 import { GUIDE as hiFiRushAchievementGuide } from "./games/hi-fi-rush.js";
 import { GUIDE as princeOfPersiaTheLostCrownAchievementGuide } from "./games/prince-of-persia-the-lost-crown.js";
 import { GUIDE as pacificDriveAchievementGuide } from "./games/pacific-drive.js";
+import { GUIDE as clairObscurExpedition33AchievementGuide } from "./games/clair-obscur-expedition-33.js";
+import { GUIDE as silentHill2AchievementGuide } from "./games/silent-hill-2.js";
+import { GUIDE as marvelsSpiderManRemasteredAchievementGuide } from "./games/marvels-spider-man-remastered.js";
 
 export const APP_GUIDES = [
 
@@ -824,6 +827,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  marvelsSpiderManRemasteredAchievementGuide,
+  silentHill2AchievementGuide,
+  clairObscurExpedition33AchievementGuide,
   pacificDriveAchievementGuide,
   princeOfPersiaTheLostCrownAchievementGuide,
   hiFiRushAchievementGuide,

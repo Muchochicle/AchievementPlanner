@@ -818,6 +818,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hi-fi-rush"));
     assert.ok(slugs.includes("prince-of-persia-the-lost-crown"));
     assert.ok(slugs.includes("pacific-drive"));
+    assert.ok(slugs.includes("clair-obscur-expedition-33"));
+    assert.ok(slugs.includes("silent-hill-2"));
+    assert.ok(slugs.includes("marvels-spider-man-remastered"));
 
 });
 
