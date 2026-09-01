@@ -913,6 +913,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("severed-steel"));
     assert.ok(slugs.includes("fashion-police-squad"));
     assert.ok(slugs.includes("nightmare-reaper"));
+    assert.ok(slugs.includes("teardown"));
+    assert.ok(slugs.includes("from-the-depths"));
+    assert.ok(slugs.includes("instruments-of-destruction"));
 
 });
 

@@ -889,6 +889,9 @@ import { GUIDE as ozymandiasBronzeAgeEmpireSimAchievementGuide } from "./games/o
 import { GUIDE as severedSteelAchievementGuide } from "./games/severed-steel.js";
 import { GUIDE as fashionPoliceSquadAchievementGuide } from "./games/fashion-police-squad.js";
 import { GUIDE as nightmareReaperAchievementGuide } from "./games/nightmare-reaper.js";
+import { GUIDE as teardownAchievementGuide } from "./games/teardown.js";
+import { GUIDE as fromTheDepthsAchievementGuide } from "./games/from-the-depths.js";
+import { GUIDE as instrumentsOfDestructionAchievementGuide } from "./games/instruments-of-destruction.js";
 
 export const APP_GUIDES = [
 
@@ -919,6 +922,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  instrumentsOfDestructionAchievementGuide,
+  fromTheDepthsAchievementGuide,
+  teardownAchievementGuide,
   nightmareReaperAchievementGuide,
   fashionPoliceSquadAchievementGuide,
   severedSteelAchievementGuide,
