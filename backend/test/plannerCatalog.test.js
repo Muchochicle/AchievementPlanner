@@ -815,6 +815,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("superbrothers-sword-sworcery-ep"));
     assert.ok(slugs.includes("the-gardens-between"));
     assert.ok(slugs.includes("return-to-monkey-island"));
+    assert.ok(slugs.includes("hi-fi-rush"));
+    assert.ok(slugs.includes("prince-of-persia-the-lost-crown"));
+    assert.ok(slugs.includes("pacific-drive"));
 
 });
 

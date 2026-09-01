@@ -1,0 +1,663 @@
+{
+    "id": 1817230,
+    "steamAppId": 1817230,
+    "name": "Hi-Fi RUSH",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1817230/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 20
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action",
+        "Rhythm",
+        "Hack and Slash",
+        "Comedy",
+        "Colorful",
+        "Character Action"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_001",
+            "name": "Start with a bang!",
+            "description": "Defeat QA-1MIL, the last line of defense in Quality Assurance, in Track 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_002",
+            "name": "Cream of the Crop",
+            "description": "Defeat Rekka, the Head of Production, in Track 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_003",
+            "name": "This will cost you big time",
+            "description": "Remove the Head of Development's creative control by defeating them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_004",
+            "name": "The Negotiator",
+            "description": "Defeat Korsica, the Head of Security.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_005",
+            "name": "Headliner",
+            "description": "Defeat the Head of Marketing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_006",
+            "name": "Time to pay up!",
+            "description": "Settle the bill with the Head of Finance by defeating them.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_007",
+            "name": "Who's the boss now?",
+            "description": "Defeat the CEO, Kale Vandelay.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_008",
+            "name": "Easy Listening",
+            "description": "Finish the game completing every level on the Easy difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_009",
+            "name": "Well that was a rush!",
+            "description": "Finish the game and complete every level on the Normal difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_010",
+            "name": "I think I deserve some praise, here!",
+            "description": "Finish the game and complete every level on the Hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_011",
+            "name": "And the crowd goes wild!",
+            "description": "Finish the game and complete every level on the Very Hard difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_012",
+            "name": "Didn't skip a beat!",
+            "description": "Finish the game and complete every level on the Rhythm Master difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_013",
+            "name": "Problem solved... wait, what?",
+            "description": "Discover the deeper mystery behind the SPECTRA doors scattered across the campus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_014",
+            "name": "I can't see this ever being a problem again",
+            "description": "Solve the SPECTRA mystery once and for all in an epic battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_015",
+            "name": "Thanks for the free chip, Peppermint!",
+            "description": "Purchase and equip your first upgrade chip.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_016",
+            "name": "Chip-tuned",
+            "description": "Increase your chip slots to the maximum capacity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_017",
+            "name": "I play my own way!",
+            "description": "Purchase and equip your first Special Attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_018",
+            "name": "Whoa! There's ANOTHER health bar!?",
+            "description": "Increase your health to where you unlock a second tier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_019",
+            "name": "I think that's enough health for now",
+            "description": "Fully upgrade your health bar by collecting all Life Gauges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_020",
+            "name": "Fully Powered Up!",
+            "description": "Fully upgrade your Reverb Gauge to the maximum.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_021",
+            "name": "I have to read these things?",
+            "description": "Find and read half of the Vandelay Vlogs on the campus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_022",
+            "name": "I have to read ALL of these things?",
+            "description": "Find and read every Vandelay Vlog on the campus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_023",
+            "name": "Feeling the beat!",
+            "description": "Land 20 beat-hit attacks on enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_024",
+            "name": "Beat-hit mania",
+            "description": "Land 500 beat-hit attacks on enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_025",
+            "name": "You got this, Peppermint?",
+            "description": "Destroy 10 barriers by calling in Peppermint.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_026",
+            "name": "You must like calling me in, Chai",
+            "description": "Destroy 50 barriers by calling in Peppermint.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_027",
+            "name": "Z-shielding's got nothing on us!",
+            "description": "Shatter 10 enemy shields by calling in Macaron.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_028",
+            "name": "I think I found your calling, Macaron",
+            "description": "Shatter 50 enemy shields by calling in Macaron.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_029",
+            "name": "Out in a puff of smoke",
+            "description": "Put out 10 fires in battle with Korsica.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_030",
+            "name": "This is a breeze!",
+            "description": "Put out 50 fires in battle with Korsica.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_031",
+            "name": "Perfect Parry",
+            "description": "Sucessfully parry with perfect timing 15 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_032",
+            "name": "Perfecter Parry-er!",
+            "description": "Sucessfully parry with perfect timing 200 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_033",
+            "name": "Uh, they were broken when I got here",
+            "description": "Destroy 200 Vandelay security robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_034",
+            "name": "That's a lot of junk metal…",
+            "description": "Destroy 500 Vandelay security robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_035",
+            "name": "OK, well THEY came after ME!",
+            "description": "Destroy 1000 Vandelay security robots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_036",
+            "name": "Kissing the sky!",
+            "description": "Perform 50 Aerial Raves.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_037",
+            "name": "We're Jammin'",
+            "description": "Successfully pull off 20 Jam Combos",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_038",
+            "name": "I'm not done with you yet",
+            "description": "Overkill 20 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_039",
+            "name": "First we parry, then we counter",
+            "description": "Perform 20 parry counters using any partner.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_040",
+            "name": "Now this is how you fight like a team!",
+            "description": "Perform 100 parry counters using any partner.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_041",
+            "name": "My Ultimate Setlist",
+            "description": "Complete all the floors in the Rhythm Tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_042",
+            "name": "I look cool. But I can look COOLER.",
+            "description": "Equip any costume.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_043",
+            "name": "What a journey it was...",
+            "description": "Complete the Wall of Fame in the hideout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_044",
+            "name": "This was... not what I expected.",
+            "description": "Have \"The Artist\" decorate your hideout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_045",
+            "name": "There's such a thing as TOO helpful",
+            "description": "Find and engage with every Smidge, while completing all of his practice tips.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_046",
+            "name": "Have we met before?",
+            "description": "Find Vandelay HR's investigator and hear all of its monologues.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_047",
+            "name": "Who put gears in there?",
+            "description": "Destroyed your first golden statue of Kale.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_048",
+            "name": "Alright, that felt AWESOME!",
+            "description": "Defeated your first enemy with a Rhythm Parry Attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_049",
+            "name": "I hit things with a guitar really well.",
+            "description": "Finish a stage with a S rank for every Chorus. (Any difficulty.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_050",
+            "name": "I'm untouchable!",
+            "description": "Finish a stage without taking any damage. (Any difficulty.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_051",
+            "name": "You can pet the cat!",
+            "description": "Play with 808 in the hideout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_052",
+            "name": "Wanna hear my playlist?",
+            "description": "Change the background music in the hideout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_053",
+            "name": "Does that say weakpoint?",
+            "description": "Destroy QA-1MIL's face, revealing its shame.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_054",
+            "name": "I told you I'd be fine, Peppermint!",
+            "description": "Complete the ride through production on the transit rail without taking damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_055",
+            "name": "You ever parry a volcano?",
+            "description": "Successfully parry a volcanic rock outside of research and development.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_056",
+            "name": "I am a good person who likes to help",
+            "description": "Help out 3 Vandelay robots with their pressing issues.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_057",
+            "name": "I'm trying to FOCUS HERE!",
+            "description": "Find and shoot down every hovering announcement drone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_058",
+            "name": "With our powers combined…and to the rhythm…",
+            "description": "Perfectly time your take down of your largest foe yet in a musical finale.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_059",
+            "name": "I saw all those hits coming a measure away!",
+            "description": "Perfectly parry every non-boss enemy's Rhythm Parry attack. (Only for enemies in the main game.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_060",
+            "name": "Check out my moves!",
+            "description": "Purchase every combo and partner attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_061",
+            "name": "OK, I THINK I know what I'm doing now",
+            "description": "Successfully pull off every combo and attack in the Training Room.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_062",
+            "name": "NOW we got a kickass hideout!",
+            "description": "Interact with the arcade machine after completing the main story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_063",
+            "name": "Call me Turbo Chai",
+            "description": "Finish a BPM RUSH run without dying, on Easy or Normal difficulty, across all 6 waves.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_064",
+            "name": "Choose your own adventure",
+            "description": "Complete all 25 floors of the Power Up! Tower Up! mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_065",
+            "name": "It'll do, CNMN",
+            "description": "Unlock the CNMANIAC special attack through arcade points, then use it in combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_066",
+            "name": "Please don't make this awkward",
+            "description": "Obtain the My Hero! special attack via arcade points and deploy it in battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_067",
+            "name": "That was just EVIL",
+            "description": "Clear a run of BPM RUSH in EX Mode (unlocked by earning an S rank on Easy or Normal).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_068",
+            "name": "New bad guys? No problem!",
+            "description": "Execute perfect rhythm parries against both of the Arcade Update's new enemies, KEM-N0 and DM-ET1L.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_069",
+            "name": "It was all for this",
+            "description": "Collect the gift basket in the secret room, unlocked after clearing 40 arcade challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_070",
+            "name": "Voices from within",
+            "description": "Read every developer message scattered throughout the secret room.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_071",
+            "name": "Low budget finish",
+            "description": "Defeat the final boss while Chai and 808 are both wearing their Low Budget costumes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

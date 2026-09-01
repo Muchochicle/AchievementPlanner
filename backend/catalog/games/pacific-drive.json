@@ -1,0 +1,465 @@
+{
+    "id": 1458140,
+    "steamAppId": 1458140,
+    "name": "Pacific Drive",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1458140/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Survival",
+        "Driving",
+        "Roguelite",
+        "Horror",
+        "Exploration",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "q00",
+            "name": "The Auto Shop",
+            "description": "Make contact with Oppy and plan your first route into the Zone from her Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "q01",
+            "name": "Into the Wilderness",
+            "description": "Install the Zone Scanner above the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "q015",
+            "name": "Investigate the Zone",
+            "description": "Return to the Auto Shop after scanning five Anomalies or resources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "q02",
+            "name": "A Leap of Faith",
+            "description": "Successfully test Oppy's theory and return to her Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "q03",
+            "name": "Stabilizing the Route",
+            "description": "Activate the Zone Stabilizers in the Outer Zone and escape back to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "q05",
+            "name": "The Mid-Zone Crossing",
+            "description": "Gain access to the Mid-Zone and escape from there to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "q06a",
+            "name": "Hack the Planet!",
+            "description": "Find Oppy's secret hideaway in the Auto Shop and deliver the hard drive she stashed there to Francis and Tobias.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "q06b",
+            "name": "The Visions",
+            "description": "Uncover some of the Zone's history in the Mid-Zone, then escape back to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "q07",
+            "name": "The Red Meadow Records",
+            "description": "Return to the Auto Shop after recovering data ARDA hid in the Red Meadow Research Facility.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "q08",
+            "name": "The Deep Zone Crossing",
+            "description": "Gain access to the Deep-Zone and escape from there to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "q10",
+            "name": "The Anomaly Barricade",
+            "description": "Overcharge the car's ARC Device and escape back to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "q11",
+            "name": "The End of the Road",
+            "description": "Return from the Well.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "CryptidBobble",
+            "name": "Along for the Ride",
+            "description": "Equip the cryptid bobblehead item during the final mission, 'The Well', and escape back to the Auto Shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "DriveFar",
+            "name": "Long Haul",
+            "description": "Drive an exceptional distance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "InventNew",
+            "name": "Patent Pending",
+            "description": "Invent something new after installing the Zone Scanner",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "InventStationMax",
+            "name": "Garage Barrage",
+            "description": "Upgrade the Auto Shop into its prime",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "InventHalf",
+            "name": "DIY Expert",
+            "description": "Unlock quite a few things in the Fabrication Station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "InventMax",
+            "name": "DIY Master",
+            "description": "Unlock not everything, but really quite a lot of things in the Fabrication Station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "LogHalf",
+            "name": "ARDA Record-Keeper",
+            "description": "Discover 300 Logbook entries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "LogMax",
+            "name": "ARDA Lorekeeper",
+            "description": "Discover 600 Logbook entries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "DriveFast",
+            "name": "Great Scott!",
+            "description": "Reach 88mph",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "StormScan",
+            "name": "Scientific Pursuit",
+            "description": "Scan an Anomaly while the storm is approaching",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "StormCollapsed",
+            "name": "The Eye of the Storm",
+            "description": "Escape through a Gateway after the storm has completely collapsed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "CarReplace",
+            "name": "Car Of Theseus",
+            "description": "Replace all of your car's original doors, panels, wheels and engine so none remain the ones you started with.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "CarEquipped",
+            "name": "Fully Outfitted",
+            "description": "Equip or install something in every possible slot on the car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "CarStorage",
+            "name": "Packrat",
+            "description": "Load enough items into your car to fill 150 inventory grid slots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "DecoFull",
+            "name": "Personal Methods of Creative Expression are Highly Encouraged",
+            "description": "Fully decorate your car by equipping one of each kind of cosmetic item, and applying a paint or decal to installed car parts in every possible slot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "StormAir",
+            "name": "Fly Homeward",
+            "description": "Escape through a Gateway while the car's wheels are airborne",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "RunLong",
+            "name": "Streets Ahead",
+            "description": "Complete a run with at least seven junctions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "RunDoubleJuice",
+            "name": "Juiced Up",
+            "description": "Complete a run with at least two junctions, and with twice the anchor charge necessary to escape through the Gateway",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "RunNoFuel",
+            "name": "Running on Empty",
+            "description": "Complete a run with at least two junctions, and with the car always having a low or empty fuel tank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "RunNoBreak",
+            "name": "It Would Take a Miracle",
+            "description": "Complete a run with at least four junctions, and without breaking or removing any car parts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "RunStructureless",
+            "name": "With the Top Down",
+            "description": "Complete a run with at least three junctions, and without any panels, doors, or bumpers on the car at any point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "RunNoPark",
+            "name": "No Parking",
+            "description": "Complete a run with at least three junctions, and without the car ever being in park",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "DrivePark",
+            "name": "Driver's Ed Dropout",
+            "description": "Forget to put the car in drive before hitting the gas, twenty times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "DriveTrees",
+            "name": "Lumberjack",
+            "description": "Destroy 1,000 trees",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "StealWreck",
+            "name": "They Weren't Using It",
+            "description": "Liberate and equip a part from an abandoned car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "NaturalRecharge",
+            "name": "Renewable Power",
+            "description": "Fully charge a car battery from under 50% using only natural energy sources",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "DmgHatTrick",
+            "name": "Just Walk it Off",
+            "description": "Get electrocuted, acid-burned, and physically hurt all within a minute",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "DmgCar",
+            "name": "Et tu?",
+            "description": "Get hit hard by your car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Tombstone",
+            "name": "Graverobber",
+            "description": "Discover your Remnant Ghost from a previous death, and retrieve any lost items or equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "DriveBunny",
+            "name": "Watch Out for Hop-ons!",
+            "description": "Drive several miles with a Bunny on your car",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "KickAnomaly",
+            "name": "Nothing Personnel, Zone",
+            "description": "Kick a Tourist, Tour Bus, or Ticking Tumbler Anomaly.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Distraction",
+            "name": "Sleight of Hand",
+            "description": "Distract an Anomaly with a light source",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "FixStreakSE",
+            "name": "Certified Mechanic",
+            "description": "Fix six status effects on the same car component",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "QuirkFirst",
+            "name": "Car Whisperer",
+            "description": "Diagnose and cure a Quirk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "KickCar",
+            "name": "Troubleshooting",
+            "description": "Give your car a few swift kicks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ShredResource",
+            "name": "I Don’t Know What I Expected",
+            "description": "Deconstruct a resource",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "CarFly",
+            "name": "Where We're Going, We Don't Need Roads",
+            "description": "While driving, remain airborne for six seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

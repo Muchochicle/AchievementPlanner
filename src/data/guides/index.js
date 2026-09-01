@@ -791,6 +791,9 @@ import { GUIDE as betrayalAtClubLowAchievementGuide } from "./games/betrayal-at-
 import { GUIDE as superbrothersSwordSworceryEpAchievementGuide } from "./games/superbrothers-sword-sworcery-ep.js";
 import { GUIDE as theGardensBetweenAchievementGuide } from "./games/the-gardens-between.js";
 import { GUIDE as returnToMonkeyIslandAchievementGuide } from "./games/return-to-monkey-island.js";
+import { GUIDE as hiFiRushAchievementGuide } from "./games/hi-fi-rush.js";
+import { GUIDE as princeOfPersiaTheLostCrownAchievementGuide } from "./games/prince-of-persia-the-lost-crown.js";
+import { GUIDE as pacificDriveAchievementGuide } from "./games/pacific-drive.js";
 
 export const APP_GUIDES = [
 
@@ -821,6 +824,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  pacificDriveAchievementGuide,
+  princeOfPersiaTheLostCrownAchievementGuide,
+  hiFiRushAchievementGuide,
   returnToMonkeyIslandAchievementGuide,
   theGardensBetweenAchievementGuide,
   superbrothersSwordSworceryEpAchievementGuide,
