@@ -743,6 +743,9 @@ import { GUIDE as promiseMascotAgencyAchievementGuide } from "./games/promise-ma
 import { GUIDE as despeloteAchievementGuide } from "./games/despelote.js";
 import { GUIDE as fatalFuryCityOfTheWolvesAchievementGuide } from "./games/fatal-fury-city-of-the-wolves.js";
 import { GUIDE as wizardryProvingGroundsOfTheMadOverlordAchievementGuide } from "./games/wizardry-proving-grounds-of-the-mad-overlord.js";
+import { GUIDE as catQuestIiiAchievementGuide } from "./games/cat-quest-iii.js";
+import { GUIDE as ondeAchievementGuide } from "./games/onde.js";
+import { GUIDE as mindDiverAchievementGuide } from "./games/mind-diver.js";
 
 export const APP_GUIDES = [
 
@@ -1508,7 +1511,10 @@ export const GAME_GUIDES = [
     promiseMascotAgencyAchievementGuide,
     despeloteAchievementGuide,
     fatalFuryCityOfTheWolvesAchievementGuide,
-    wizardryProvingGroundsOfTheMadOverlordAchievementGuide
+    wizardryProvingGroundsOfTheMadOverlordAchievementGuide,
+    catQuestIiiAchievementGuide,
+    ondeAchievementGuide,
+    mindDiverAchievementGuide
 
 ];
 
