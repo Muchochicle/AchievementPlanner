@@ -776,6 +776,9 @@ import { GUIDE as consumeMeAchievementGuide } from "./games/consume-me.js";
 import { GUIDE as kineAchievementGuide } from "./games/kine.js";
 import { GUIDE as beaconPinesAchievementGuide } from "./games/beacon-pines.js";
 import { GUIDE as signsOfTheSojournerAchievementGuide } from "./games/signs-of-the-sojourner.js";
+import { GUIDE as assembleWithCareAchievementGuide } from "./games/assemble-with-care.js";
+import { GUIDE as golfPeaksAchievementGuide } from "./games/golf-peaks.js";
+import { GUIDE as iconoclastsAchievementGuide } from "./games/iconoclasts.js";
 
 export const APP_GUIDES = [
 
@@ -1574,7 +1577,10 @@ export const GAME_GUIDES = [
     consumeMeAchievementGuide,
     kineAchievementGuide,
     beaconPinesAchievementGuide,
-    signsOfTheSojournerAchievementGuide
+    signsOfTheSojournerAchievementGuide,
+    assembleWithCareAchievementGuide,
+    golfPeaksAchievementGuide,
+    iconoclastsAchievementGuide
 
 ];
 
