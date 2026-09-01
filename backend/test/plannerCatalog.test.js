@@ -836,6 +836,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("returnal"));
     assert.ok(slugs.includes("lost-judgment"));
     assert.ok(slugs.includes("muse-dash"));
+    assert.ok(slugs.includes("remnant-ii"));
+    assert.ok(slugs.includes("core-keeper"));
+    assert.ok(slugs.includes("tmnt-shredders-revenge"));
 
 });
 

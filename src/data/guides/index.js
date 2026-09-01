@@ -812,6 +812,9 @@ import { GUIDE as godOfWarRagnarokAchievementGuide } from "./games/god-of-war-ra
 import { GUIDE as returnalAchievementGuide } from "./games/returnal.js";
 import { GUIDE as lostJudgmentAchievementGuide } from "./games/lost-judgment.js";
 import { GUIDE as museDashAchievementGuide } from "./games/muse-dash.js";
+import { GUIDE as remnantIiAchievementGuide } from "./games/remnant-ii.js";
+import { GUIDE as coreKeeperAchievementGuide } from "./games/core-keeper.js";
+import { GUIDE as tmntShreddersRevengeAchievementGuide } from "./games/tmnt-shredders-revenge.js";
 
 export const APP_GUIDES = [
 
@@ -842,6 +845,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  tmntShreddersRevengeAchievementGuide,
+  coreKeeperAchievementGuide,
+  remnantIiAchievementGuide,
   museDashAchievementGuide,
   lostJudgmentAchievementGuide,
   returnalAchievementGuide,

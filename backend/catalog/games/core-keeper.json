@@ -1,0 +1,519 @@
+{
+    "id": 1621690,
+    "steamAppId": 1621690,
+    "name": "Core Keeper",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 30,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Survival",
+        "Sandbox",
+        "Mining",
+        "Base Building",
+        "Co-op",
+        "Exploration"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "DefeatGlurch",
+            "name": "A Slimey Encounter",
+            "description": "Defeat Glurch the Abominous Mass.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "DefeatGhorm",
+            "name": "Bugging Out",
+            "description": "Defeat Ghorm the Devourer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "DefeatHivemother",
+            "name": "Watch Your Step",
+            "description": "Defeat the Hive Mother.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "DefeatAzeos",
+            "name": "From the Skies!",
+            "description": "Defeat Azeos the Sky Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "DefeatMalugaz",
+            "name": "You're a Wizard",
+            "description": "Defeat Malugaz the Corrupted.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "DefeatIvy",
+            "name": "Toxic Personality",
+            "description": "Defeat Ivy the Poisonous Mass.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "DefeatOmoroth",
+            "name": "From the Depths!",
+            "description": "Defeat Omoroth the Sea Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "DefeatMorpha",
+            "name": "Slippery When Wet",
+            "description": "Defeat Morpha the Aquatic Mass.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "DefeatRaAkar",
+            "name": "Just Deserts",
+            "description": "Defeat Ra-Akar the Sand Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "DefeatIgneous",
+            "name": "Burning Through",
+            "description": "Defeat Igneous the Molten Mass.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "DefeatKingSlime",
+            "name": "Slippery Shinobi",
+            "description": "Defeat King Slime.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "MaxedOutMining",
+            "name": "Diggy Diggy Hole",
+            "description": "Gained 100 skill points in mining",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "MaxedOutCooking",
+            "name": "Cheese it!",
+            "description": "Gained 100 skill points in cooking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "MaxedOutFishing",
+            "name": "Completely Hooked",
+            "description": "Gained 100 skill points in fishing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "MaxedOutGardening",
+            "name": "Nature Nurturer",
+            "description": "Gained 100 skill points in gardening",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "MaxedOutMelee",
+            "name": "...Sting like a bee",
+            "description": "Gained 100 skill points in melee",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "MaxedOutRange",
+            "name": "Robin Hood",
+            "description": "Gained 100 skill points in range",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "MaxedOutVitality",
+            "name": "Health Conscious",
+            "description": "Gained 100 skill points in vitality",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "MaxedOutRunning",
+            "name": "Float like a butterfly...",
+            "description": "Gained 100 skill points in running",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "MaxedOutCrafting",
+            "name": "Crafty Explorer",
+            "description": "Gained 100 skill points in crafting",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ObtainTheOracleDeck",
+            "name": "The Heart of the Cards",
+            "description": "Obtain the Oracle Card deck (collect all nine Oracle Cards from across the biomes).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ObtainRuneSong",
+            "name": "The Rune Song",
+            "description": "Obtain the Rune Song legendary sword.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ObtainPhantomSpark",
+            "name": "The Phantom Spark",
+            "description": "Obtain the Phantom Spark legendary bow (from the three ancient Sunken Sea cities).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ObtainSoulSeeker",
+            "name": "The Soul Seeker",
+            "description": "Obtain the Soul Seeker (an upgraded pickaxe crafted at the Ancient Forge).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "TalkToBigLarva",
+            "name": "Gossip Group",
+            "description": "Talked to a Big Larva",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "CatchStarlightNautilus",
+            "name": "Legendary Fossil",
+            "description": "Catch the Starlight Nautilus in the Molten Quarry with the Galaxite Fishing Rod.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "GainOver200MovementSpeed",
+            "name": "In a Rush",
+            "description": "Reach over 200 movement speed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Discover100CookBookRecipes",
+            "name": "Certified Chef",
+            "description": "Discovered 100 recipes in the cook book",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "HarvestGoldenIngredient",
+            "name": "Farmer Midas",
+            "description": "Harvested a golden plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "SitOnCavelingToiletWithACrown",
+            "name": "A Throne Fit for a King",
+            "description": "Sit on a Caveling Toilet while wearing the King Slime Crown.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "EquipRingOfRockAndStone",
+            "name": "Rock and Stone!",
+            "description": "Equipped the Ring of Rock and Ring of Stone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "KeyArtCharacter",
+            "name": "Impersonator Syndrome",
+            "description": "Use a Magic Mirror to dress your character to match a key-art illustration character.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "CherryBlossomTrees",
+            "name": "5 Centimeters Per Second",
+            "description": "Planted 10 Cherry Trees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "StormSong",
+            "name": "A Strange Song",
+            "description": "Play the Tune of Tempest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "FirstPet",
+            "name": "Your Very First",
+            "description": "Hatched your first pet from an egg",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "DefeatAtlanteanWorm",
+            "name": "Thalassophobia",
+            "description": "Defeat the Atlantean Worm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "PetColors",
+            "name": "I want ’em all!",
+            "description": "Stored all color variations of one pet type in a chest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "FeedCattle",
+            "name": "A Good Life",
+            "description": "Fed cattle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "PetMaxLevel",
+            "name": "Pet Prodigy",
+            "description": "Reached max level on a pet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MaxedOutMagic",
+            "name": "A Wizard Is Never Late",
+            "description": "Gained 100 skill points in magic",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MaxedOutSummoning",
+            "name": "Stay Away From The Summoner!",
+            "description": "Gained 100 skill points in summoning",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "DefeatDruidra",
+            "name": "Song of the Woods",
+            "description": "Defeat Druidra the Wild Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "DefeatCrydra",
+            "name": "Howl of the Sea",
+            "description": "Defeat Crydra the Ice Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "DefeatPyrdra",
+            "name": "Roar of the Flames",
+            "description": "Defeat Pyrdra the Fire Titan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "DefeatCoreCommander",
+            "name": "Visitor From A Dying World",
+            "description": "Defeat the Core Commander.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "DefeatUrschleim",
+            "name": "Cambrian Behemoth",
+            "description": "Defeat Urschleim.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "SummonManyMinions",
+            "name": "Legion Commander",
+            "description": "Had 8 or more active minions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ObtainStormbringer",
+            "name": "Wielder of Legends",
+            "description": "Obtain the Stormbringer legendary weapon at a Rift Statue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "UseWayPoint",
+            "name": "Beam Me Up",
+            "description": "Used a waypoint",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "MaxedOutExplosives",
+            "name": "Explosion Mastery",
+            "description": "Gained 100 skill points in explosions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "DefeatNimruza",
+            "name": "Silence the Symphony",
+            "description": "Defeat Nimruza, Queen of the Burrowed Sands.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "DefeatOblidra",
+            "name": "Whisper of the Void",
+            "description": "Defeat Oblidra the Void Lord (after collecting 10 Oblivion Fragments).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "DefeatSahabar",
+            "name": "Calculated Prophecy",
+            "description": "Defeat S.A.H.A.B.A.R.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ObtainCredenceOfRuin",
+            "name": "The Credence of Ruin",
+            "description": "Obtain the Credence of Ruin (two parts from puzzle structures, one from S.A.H.A.B.A.R.).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ObtainTitanBreath",
+            "name": "The Titan Breath",
+            "description": "Obtain the Titan Breath (combine drops from the three Hydra bosses).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
