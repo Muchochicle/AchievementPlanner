@@ -910,6 +910,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("medieval-dynasty"));
     assert.ok(slugs.includes("deadlink"));
     assert.ok(slugs.includes("ozymandias-bronze-age-empire-sim"));
+    assert.ok(slugs.includes("severed-steel"));
+    assert.ok(slugs.includes("fashion-police-squad"));
+    assert.ok(slugs.includes("nightmare-reaper"));
 
 });
 

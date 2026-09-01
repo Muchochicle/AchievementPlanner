@@ -886,6 +886,9 @@ import { GUIDE as lightyearFrontierAchievementGuide } from "./games/lightyear-fr
 import { GUIDE as medievalDynastyAchievementGuide } from "./games/medieval-dynasty.js";
 import { GUIDE as deadlinkAchievementGuide } from "./games/deadlink.js";
 import { GUIDE as ozymandiasBronzeAgeEmpireSimAchievementGuide } from "./games/ozymandias-bronze-age-empire-sim.js";
+import { GUIDE as severedSteelAchievementGuide } from "./games/severed-steel.js";
+import { GUIDE as fashionPoliceSquadAchievementGuide } from "./games/fashion-police-squad.js";
+import { GUIDE as nightmareReaperAchievementGuide } from "./games/nightmare-reaper.js";
 
 export const APP_GUIDES = [
 
@@ -916,6 +919,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  nightmareReaperAchievementGuide,
+  fashionPoliceSquadAchievementGuide,
+  severedSteelAchievementGuide,
   ozymandiasBronzeAgeEmpireSimAchievementGuide,
   deadlinkAchievementGuide,
   medievalDynastyAchievementGuide,

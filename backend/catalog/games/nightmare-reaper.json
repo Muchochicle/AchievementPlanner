@@ -1,0 +1,1365 @@
+{
+    "id": 1051690,
+    "steamAppId": 1051690,
+    "name": "Nightmare Reaper",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1051690/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Retro",
+        "Loot",
+        "Roguelite Elements",
+        "Fast-Paced",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_5X_COMBO",
+            "name": "Offender",
+            "description": "Obtain a 5x combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_15X_COMBO",
+            "name": "Repeat offender",
+            "description": "Obtain a 15x combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_25X_COMBO",
+            "name": "Killer",
+            "description": "Obtain a 25x combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_35X_COMBO",
+            "name": "Unstoppable",
+            "description": "Obtain a 35x combo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_REACH_BUNNYHOP_MAX_SPEED",
+            "name": "Bunny hopper",
+            "description": "Reach bunnyhop max speed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_DO_20_ROCKET_JUMPS",
+            "name": "Burning soles",
+            "description": "Do 20 rocket jumps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_KICK_50_ENEMIES_TO_DEATH",
+            "name": "Soccer",
+            "description": "Kick 50 enemies to death",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_50_HIGH_FALLS_INTO_WATER",
+            "name": "Watch your step",
+            "description": "50 high falls into water",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_DOUSE_YOURSELF_50_TIMES",
+            "name": "Refreshing",
+            "description": "Douse yourself 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_GET_ALL_KILLS_IN_A_LEVEL",
+            "name": "Monster",
+            "description": "Get all kills in a level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_GET_ALL_SECRETS_IN_A_LEVEL",
+            "name": "Wall hugger",
+            "description": "Get all secrets in a level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_GET_ALL_TREASURES_IN_A_LEVEL",
+            "name": "Raider",
+            "description": "Get all treasures in a level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_GET_ALL_BONUSES_IN_A_LEVEL",
+            "name": "Completionist",
+            "description": "Get all bonuses in a level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_BUY_A_SKILL_FROM_THE_TREE",
+            "name": "Birch",
+            "description": "Buy a skill from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_BUY_10_SKILLS_FROM_THE_TREE",
+            "name": "Maple",
+            "description": "Buy 10 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_BUY_25_SKILLS_FROM_THE_TREE",
+            "name": "Oak",
+            "description": "Buy 25 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_BUY_50_SKILLS_FROM_THE_TREE",
+            "name": "Pine",
+            "description": "Buy 50 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_BUY_75_SKILLS_FROM_THE_TREE",
+            "name": "Aspen",
+            "description": "Buy 75 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_BUY_100_SKILLS_FROM_THE_TREE",
+            "name": "Fir",
+            "description": "Buy 100 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_BUY_125_SKILLS_FROM_THE_TREE",
+            "name": "Spruce",
+            "description": "Buy 125 skills from the tree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_1",
+            "name": "Dirt digger",
+            "description": "Buy all skills from world 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_2",
+            "name": "Ice climber",
+            "description": "Buy all skills from world 2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_3",
+            "name": "Cemetary man",
+            "description": "Buy all skills from world 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_4",
+            "name": "Valley of the gods",
+            "description": "Buy all skills from world 4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_5",
+            "name": "Big hands",
+            "description": "Buy all skills from world 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_6",
+            "name": "Breaststroke",
+            "description": "Buy all skills from world 6",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_7",
+            "name": "Factory worker",
+            "description": "Buy all skills from world 7",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_BUY_ALL_SKILLS_FROM_WORLD_8",
+            "name": "Climate change",
+            "description": "Buy all skills from world 8",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_COMPLETE_HOLLOW_STONE",
+            "name": "Claustrophobia",
+            "description": "Complete hollow stone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_COMPLETE_SPORE_PIT",
+            "name": "Psychedelic",
+            "description": "Complete spore pit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_COMPLETE_IMMEMORIAL_WOODS",
+            "name": "The hunter",
+            "description": "Complete immemorial woods",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_COMPLETE_FORSAKEN_VILLAGE",
+            "name": "Schamalayan",
+            "description": "Complete forsaken village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_COMPLETE_SULFURIC_MINES",
+            "name": "Red gold",
+            "description": "Complete sulfuric mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_COMPLETE_DISAVOWED_TOWN",
+            "name": "On the roof",
+            "description": "Complete disavowed town",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_COMPLETE_PUTRID_SEWERS",
+            "name": "Its",
+            "description": "Complete putrid sewers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_COMPLETE_DRUDGE_VILLAGE",
+            "name": "Dead evil",
+            "description": "Complete drudge village",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_COMPLETE_GLOOM_MANSION",
+            "name": "Overlook hotel",
+            "description": "Complete gloom mansion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_COMPLETE_THE_DESCENT",
+            "name": "Brimstone",
+            "description": "Complete the descent",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_OBTAIN_AN_UNCOMMON_WEAPON",
+            "name": "Loot",
+            "description": "Obtain an uncommon weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_RARE_WEAPON",
+            "name": "Shiny",
+            "description": "Obtain a rare weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_LEGENDARY_WEAPON",
+            "name": "Wait for it",
+            "description": "Obtain a legendary weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_LEVEL_2_WEAPON",
+            "name": "A real weapon",
+            "description": "Obtain a level 2 weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_OBTAIN_A_LEVEL_3_WEAPON",
+            "name": "Epic",
+            "description": "Obtain a level 3 weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_WAKE_UP_PREMATURELY",
+            "name": "Just a dream",
+            "description": "Wake up prematurely",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_SELL_10_WEAPONS",
+            "name": "Garage sale",
+            "description": "Sell 10 weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_SELL_25_WEAPONS",
+            "name": "Convenience store",
+            "description": "Sell 25 weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_SELL_50_WEAPONS",
+            "name": "Department store",
+            "description": "Sell 50 weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_SELL_500_WEAPONS",
+            "name": "Worldwide chain",
+            "description": "Sell 500 weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_KILL_30_ENEMIES",
+            "name": "Bloody hands",
+            "description": "Kill 30 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_KILL_100_ENEMIES",
+            "name": "It won't come out",
+            "description": "Kill 100 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_KILL_500_ENEMIES",
+            "name": "Wardrobe change",
+            "description": "Kill 500 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_KILL_5000_ENEMIES",
+            "name": "Pleasant bath",
+            "description": "Kill 5000 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_TREASURES",
+            "name": "The things",
+            "description": "Obtain 20 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_OBTAIN_100_TREASURES",
+            "name": "You own",
+            "description": "Obtain 100 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_OBTAIN_1000_TREASURES",
+            "name": "End up",
+            "description": "Obtain 1000 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_OBTAIN_10000_TREASURES",
+            "name": "Owning you",
+            "description": "Obtain 10000 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_OBTAIN_10000_GOLD",
+            "name": "Money",
+            "description": "Obtain 10000 gold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_OBTAIN_50000_GOLD",
+            "name": "Does not",
+            "description": "Obtain 50000 gold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_OBTAIN_150000_GOLD",
+            "name": "Bring",
+            "description": "Obtain 150000 gold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_OBTAIN_1000000_GOLD",
+            "name": "Happiness",
+            "description": "Obtain 1000000 gold",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_BREAK_100_CLUTTER_OBJECTS",
+            "name": "Bull",
+            "description": "Break 100 clutter objects",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_BREAK_250_CLUTTER_OBJECTS",
+            "name": "Tornado",
+            "description": "Break 250 clutter objects",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_BREAK_2500_CLUTTER_OBJECTS",
+            "name": "Volcano",
+            "description": "Break 2500 clutter objects",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_BREAK_10000_CLUTTER_OBJECTS",
+            "name": "Asteroid",
+            "description": "Break 10000 clutter objects",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_OBTAIN_V",
+            "name": "Old man",
+            "description": "Obtain V",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_OBTAIN_5_VS",
+            "name": "Turtle",
+            "description": "Obtain 5 Vs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_VS",
+            "name": "Sloth",
+            "description": "Obtain 20 Vs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_OBTAIN_500_VS",
+            "name": "Snail",
+            "description": "Obtain 500 Vs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_OBTAIN_HORSE_WATER",
+            "name": "Hare",
+            "description": "Obtain horse water",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_OBTAIN_5_HORSE_WATERS",
+            "name": "Horse",
+            "description": "Obtain 5 horse waters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_HORSE_WATERS",
+            "name": "Greyhound",
+            "description": "Obtain 20 horse waters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_OBTAIN_500_HORSE_WATERS",
+            "name": "Cheetah",
+            "description": "Obtain 500 horse waters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_OBTAIN_REFLECTION",
+            "name": "River",
+            "description": "Obtain reflection",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_OBTAIN_5_REFLECTIONS",
+            "name": "Glass",
+            "description": "Obtain 5 reflections",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_REFLECTIONS",
+            "name": "Gold",
+            "description": "Obtain 20 reflections",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_OBTAIN_500_REFLECTIONS",
+            "name": "Mirror",
+            "description": "Obtain 500 reflections",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_OBTAIN_NIGHTMARE_REAPER",
+            "name": "Street fight",
+            "description": "Obtain nightmare reaper",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_OBTAIN_5_NIGHTMARE_REAPERS",
+            "name": "Hold up",
+            "description": "Obtain 5 nightmare reapers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_NIGHTMARE_REAPERS",
+            "name": "Bank robbery",
+            "description": "Obtain 20 nightmare reapers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_OBTAIN_500_NIGHTMARE_REAPERS",
+            "name": "War",
+            "description": "Obtain 500 nightmare reapers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_OBTAIN_20_HEADSHOT_KILLS",
+            "name": "Headshot",
+            "description": "Obtain 20 headshot kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_OBTAIN_100_HEADSHOT_KILLS",
+            "name": "Sniper",
+            "description": "Obtain 100 headshot kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_OBTAIN_1000_HEADSHOT_KILLS",
+            "name": "Surgeon",
+            "description": "Obtain 1000 headshot kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_OBTAIN_10000_HEADSHOT_KILLS",
+            "name": "Brain fetish",
+            "description": "Obtain 10000 headshot kills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_KILL_3_ENEMIES_WITH_ONE_BULLET",
+            "name": "Kebab",
+            "description": "Kill 3 enemies with one bullet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "ACHIEVEMENT_COMPLETE_5_RANDOM_EVENTS",
+            "name": "Loot slime",
+            "description": "Complete 5 random events",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "ACHIEVEMENT_COMPLETE_15_RANDOM_EVENTS",
+            "name": "Flame trap",
+            "description": "Complete 15 random events",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "ACHIEVEMENT_COMPLETE_75_RANDOM_EVENTS",
+            "name": "Ghost head",
+            "description": "Complete 75 random events",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "ACHIEVEMENT_COMPLETE_250_RANDOM_EVENTS",
+            "name": "Slot machine",
+            "description": "Complete 250 random events",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 90,
+            "apiname": "ACHIEVEMENT_COMPLETE_CARNAGE_WAY",
+            "name": "Heavy traffic",
+            "description": "Complete carnage way",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "ACHIEVEMENT_COMPLETE_TOWER_OF_TOIL",
+            "name": "I hate mondays",
+            "description": "Complete tower of toil",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "ACHIEVEMENT_COMPLETE_GARDENS_OF_WOE",
+            "name": "Poison ivy",
+            "description": "Complete gardens of woe",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "ACHIEVEMENT_COMPLETE_MURKY_DOCKS",
+            "name": "Contraband",
+            "description": "Complete murky docks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "ACHIEVEMENT_COMPLETE_VERMILION_PRINCESS",
+            "name": "Rusty bucket",
+            "description": "Complete vermilion princess",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "ACHIEVEMENT_COMPLETE_RUST_WORKS",
+            "name": "Industrial revolution",
+            "description": "Complete rust works",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "ACHIEVEMENT_COMPLETE_VOID_BENEATH",
+            "name": "Ticket please",
+            "description": "Complete void beneath",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "ACHIEVEMENT_COMPLETE_GIBBS_MEDICAL_CENTER",
+            "name": "Blood donator",
+            "description": "Complete gibbs medical center",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "ACHIEVEMENT_COMPLETE_BOULDER_PENITENTIARY",
+            "name": "Cholinesterase",
+            "description": "Complete boulder penitentiary",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "ACHIEVEMENT_COMPLETE_5_LEVELS_WITH_PILLS",
+            "name": "Painkiller",
+            "description": "Complete 5 levels with pills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "ACHIEVEMENT_COMPLETE_15_LEVELS_WITH_PILLS",
+            "name": "Patient",
+            "description": "Complete 15 levels with pills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "ACHIEVEMENT_COMPLETE_45_LEVELS_WITH_PILLS",
+            "name": "Problematic",
+            "description": "Complete 45 levels with pills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "ACHIEVEMENT_COMPLETE_135_LEVELS_WITH_PILLS",
+            "name": "Addict",
+            "description": "Complete 135 levels with pills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "ACHIEVEMENT_COMPLETE_405_LEVELS_WITH_PILLS",
+            "name": "Breaking good",
+            "description": "Complete 250 levels with pills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 104,
+            "apiname": "ACHIEVEMENT_FIND_EVERYTHING_IN_THE_HOSPITAL",
+            "name": "Clear!",
+            "description": "Find everything in the hospital",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "ACHIEVEMENT_SACRIFICE_ENDING",
+            "name": "Salvation",
+            "description": "Get the sacrifice ending",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "ACHIEVEMENT_CONTROL_ENDING",
+            "name": "Condemnation",
+            "description": "Get the control ending",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "ACHIEVEMENT_COMPLETE_THE_WASTELAND",
+            "name": "Mixed bag",
+            "description": "Complete The wasteland",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 108,
+            "apiname": "ACHIEVEMENT_COMPLETE_FIELDS_OF_DEATH",
+            "name": "Private savings",
+            "description": "Complete Fields of death",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 109,
+            "apiname": "ACHIEVEMENT_COMPLETE_MOON_TERROR",
+            "name": "Extraterrestrial",
+            "description": "Complete Moon terror",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 110,
+            "apiname": "ACHIEVEMENT_COMPLETE_SORCERERS_MANSION",
+            "name": "Hallowbrook",
+            "description": "Complete Sorcerer's mansion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 111,
+            "apiname": "ACHIEVEMENT_COMPLETE_THE_EMPTY",
+            "name": "Where am I?",
+            "description": "Complete The empty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 112,
+            "apiname": "ACHIEVEMENT_COMPLETE_CRUSHING_DEPTHS",
+            "name": "Hold your breath",
+            "description": "Complete Crushing depths",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 113,
+            "apiname": "ACHIEVEMENT_COMPLETE_BURIED_RUINS",
+            "name": "Cara loft",
+            "description": "Complete Buried ruins",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 114,
+            "apiname": "ACHIEVEMENT_COMPLETE_BLOOD_AND_BRIMSTONE",
+            "name": "Sulfur",
+            "description": "Complete Blood and brimstone",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 115,
+            "apiname": "ACHIEVEMENT_COMPLETE_THE_FLESH_PITS",
+            "name": "Barbecue",
+            "description": "Complete The flesh pits",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 116,
+            "apiname": "ACHIEVEMENT_SELL_A_WEAPON_FOR_1_MIL",
+            "name": "Art of the deal",
+            "description": "Sell a weapon for 1000000",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 117,
+            "apiname": "ACHIEVEMENT_ACCEPT_5_MERCHANT_OFFERS",
+            "name": "Game of chance",
+            "description": "Accept 5 merchant offers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 118,
+            "apiname": "ACHIEVEMENT_CARRIED_BARREL_EXPLODES_IN_FACE",
+            "name": "Overconfidence",
+            "description": "Have a carried barrel explode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 119,
+            "apiname": "ACHIEVEMENT_START_LEVEL_WITH_NO_WEAPON",
+            "name": "Hardcore pat",
+            "description": "Start a level with no weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 120,
+            "apiname": "ACHIEVEMENT_KICK_A_BOSS",
+            "name": "Disrespect",
+            "description": "Kick a boss",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 121,
+            "apiname": "ACHIEVEMENT_BURN_FREEZE_SHOCK_ENEMY",
+            "name": "Storm ice and fire",
+            "description": "Burn freeze and shock an enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 122,
+            "apiname": "ACHIEVEMENT_LOSE_2000_LIFE_FROM_BLOOD_AMMO",
+            "name": "Blood is fuel",
+            "description": "Lose 2000 life as blood ammo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 123,
+            "apiname": "ACHIEVEMENT_PICKUP_WEAPON_AFTER_DEATH",
+            "name": "Last laugh",
+            "description": "Pickup a weapon after death",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 124,
+            "apiname": "ACHIEVEMENT_CHANGE_STAT_TO_PLUS_2_ATTACK",
+            "name": "Bold and brash",
+            "description": "Change a stat to +2 attack",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 125,
+            "apiname": "ACHIEVEMENT_CHANGE_STAT_TO_BLOOD_AMMO",
+            "name": "Belongs in the trash",
+            "description": "Change a stat to blood ammo",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 126,
+            "apiname": "ACHIEVEMENT_COMPLETE_LEVEL_20_TOXICITY",
+            "name": "Lead",
+            "description": "Complete a level with 20 toxicity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 127,
+            "apiname": "ACHIEVEMENT_COMPLETE_LEVEL_100_TOXICITY",
+            "name": "Mercury",
+            "description": "Complete a level with 100 toxicity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 128,
+            "apiname": "ACHIEVEMENT_COMPLETE_LEVEL_250_TOXICITY",
+            "name": "Uranium",
+            "description": "Complete a level with 250 toxicity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 129,
+            "apiname": "ACHIEVEMENT_OBTAIN_20000_JADE",
+            "name": "Grape",
+            "description": "Obtain 20000 jade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 130,
+            "apiname": "ACHIEVEMENT_OBTAIN_60000_JADE",
+            "name": "Lime",
+            "description": "Obtain 60000 jade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 131,
+            "apiname": "ACHIEVEMENT_OBTAIN_240000_JADE",
+            "name": "Avocado",
+            "description": "Obtain 240000 jade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 132,
+            "apiname": "ACHIEVEMENT_OBTAIN_1000000_JADE",
+            "name": "Watermelon",
+            "description": "Obtain 1000000 jade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 133,
+            "apiname": "ACHIEVEMENT_BUY_10_JADE_UPGRADES",
+            "name": "Mac",
+            "description": "Buy 10 jade upgrades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 134,
+            "apiname": "ACHIEVEMENT_BUY_50_JADE_UPGRADES",
+            "name": "Ta",
+            "description": "Buy 50 jade upgrades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 135,
+            "apiname": "ACHIEVEMENT_BUY_100_JADE_UPGRADES",
+            "name": "Bi",
+            "description": "Buy 100 jade upgrades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 136,
+            "apiname": "ACHIEVEMENT_BUY_180_JADE_UPGRADES",
+            "name": "Lis",
+            "description": "Buy 180 jade upgrades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 137,
+            "apiname": "ACHIEVEMENT_REACH_ARENA_LEVEL_10",
+            "name": "Perseverance",
+            "description": "Reach round 10 in an arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 138,
+            "apiname": "ACHIEVEMENT_REACH_ARENA_LEVEL_50",
+            "name": "Courage",
+            "description": "Reach round 50 in an arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 139,
+            "apiname": "ACHIEVEMENT_REACH_ARENA_LEVEL_100",
+            "name": "Foolishness",
+            "description": "Reach round 75 in an arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 140,
+            "apiname": "ACHIEVEMENT_UNLOCK_2_ARENAS",
+            "name": "Court",
+            "description": "Unlock 2 arenas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 141,
+            "apiname": "ACHIEVEMENT_UNLOCK_5_ARENAS",
+            "name": "Field",
+            "description": "Unlock 5 arenas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 142,
+            "apiname": "ACHIEVEMENT_UNLOCK_8_ARENAS",
+            "name": "Stadium",
+            "description": "Unlock 8 arenas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 143,
+            "apiname": "ACHIEVEMENT_EQUIP_2_SKILLS_ON_A_PET",
+            "name": "Good doggy",
+            "description": "Have a pet with 2 skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 144,
+            "apiname": "ACHIEVEMENT_EQUIP_2_PETS",
+            "name": "Raining cats and dogs",
+            "description": "Have 2 pets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 145,
+            "apiname": "ACHIEVEMENT_UNLOCK_ALL_PETS",
+            "name": "Kennel",
+            "description": "Unlock all pets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 146,
+            "apiname": "ACHIEVEMENT_UNLOCK_ALL_PET_SKILLS",
+            "name": "Pet training",
+            "description": "Unlock all pet skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 147,
+            "apiname": "ACHIEVEMENT_REACH_NEW_GAME_PLUS_1",
+            "name": "Not too rough",
+            "description": "Reach New game+ 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 148,
+            "apiname": "ACHIEVEMENT_REACH_NEW_GAME_PLUS_2",
+            "name": "Hurt me plenty",
+            "description": "Reach New game+ 2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 149,
+            "apiname": "ACHIEVEMENT_REACH_NEW_GAME_PLUS_3",
+            "name": "Ultra-violence",
+            "description": "Reach New game+ 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
