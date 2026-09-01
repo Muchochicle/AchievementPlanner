@@ -896,6 +896,8 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rivals-of-aether-ii"));
     assert.ok(slugs.includes("kaiserpunk"));
     assert.ok(slugs.includes("star-birds"));
+    assert.ok(slugs.includes("the-slormancer"));
+    assert.ok(slugs.includes("crow-country"));
 
 });
 

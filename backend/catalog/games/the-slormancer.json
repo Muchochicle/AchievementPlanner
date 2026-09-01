@@ -1,0 +1,771 @@
+{
+    "id": 1104280,
+    "steamAppId": 1104280,
+    "name": "The Slormancer",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1104280/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Hack and Slash",
+        "Pixel Graphics",
+        "Character Build",
+        "Loot",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_0",
+            "name": "A Funny Recipe",
+            "description": "Accidentally murder the Champion of Arah.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_1",
+            "name": "From Zero to Hero",
+            "description": "Reach Level 100 with any character.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_2",
+            "name": "Monster Slayer",
+            "description": "Kill 1 000 000 Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_3",
+            "name": "Elite Slayer",
+            "description": "Kill 10 000 Elite Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_4",
+            "name": "Pockets Full",
+            "description": "Find 10 000 000 Goldus on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_5",
+            "name": "A Beautiful Day for Pedro",
+            "description": "Complete all Missions from The Graveyard..",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_6",
+            "name": "The Chain Breaker",
+            "description": "Complete all Missions from The Prison.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_7",
+            "name": "School Vacations",
+            "description": "Complete all Missions from The Mage Academy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_8",
+            "name": "Well-Trimmed Hedges",
+            "description": "Complete all Missions from The Luxurious Gardens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_9",
+            "name": "Castle Renovations",
+            "description": "Complete all Missions from The Royal Wing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_10",
+            "name": "Always Two There Are",
+            "description": "Defeat The Traitor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_11",
+            "name": "Another Magical Rock!",
+            "description": "Unlock your first Ancestral Stone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_12",
+            "name": "Ancestral Rock Lover",
+            "description": "Unlock 7 Ancestral Stones.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_13",
+            "name": "The First Trial",
+            "description": "Complete Part I of Adam Nostrus' Trials.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_14",
+            "name": "The Second Trial",
+            "description": "Complete Part II of Adam Nostrus' Trials.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_15",
+            "name": "The Last Trial",
+            "description": "Complete Part III of Adam Nostrus' Trials.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_16",
+            "name": "The End of the Slormancer",
+            "description": "Defeat Omh Agad, The Slormancer !",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_17",
+            "name": "Slorm Feast",
+            "description": "Reap 10 000 000 Slorm on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_18",
+            "name": "Upgraded Upgrade",
+            "description": "Invest enough Slorm to reach Rank 10 with a Class Upgrade or Passive.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_19",
+            "name": "Galvanized Legacy",
+            "description": "Invest enough Slorm to reach Rank 10 with an Ancestral Legacy Upgrade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_20",
+            "name": "Battlefield Veteran",
+            "description": "Complete 2 500 Floors in Battlefield Expeditions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_21",
+            "name": "First-Class Annihilator",
+            "description": "Kill 100 Battlefield Expeditions Bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_22",
+            "name": "Negotiating with Crows",
+            "description": "Complete 250 Floors in The Graveyard.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_23",
+            "name": "Behind Bars",
+            "description": "Complete 250 Floors in The Prison.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_24",
+            "name": "Wizarding School of Witchcraft",
+            "description": "Complete 250 Floors in The Mage Academy.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_25",
+            "name": "Raking the Lawn",
+            "description": "Complete 250 Floors in The Luxurious Gardens.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_26",
+            "name": "Carpet Cleaner",
+            "description": "Complete 250 Floors in The Royal Wing.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_27",
+            "name": "The New Temple Guardian",
+            "description": "Defeat The Temple Guardian at Floor 150 in The Slorm Temple.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_28",
+            "name": "A Forgotten Treasure",
+            "description": "Find your first Ultimatum in The Slorm Temple.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_29",
+            "name": "Artifact Hunter",
+            "description": "Find 15 Ultimatums in The Slorm Temple.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_30",
+            "name": "Lift the Siege",
+            "description": "Defeat The Siege Leader in The Great Forge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_31",
+            "name": "Never Enough",
+            "description": "Complete 100 Waves in a single Expedition in The Great Forge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_32",
+            "name": "Rune Raider",
+            "description": "Find your first Reaper Rune in The Great Forge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_33",
+            "name": "Slorm Reaper Runes",
+            "description": "Find 28 Reaper Runes in The Great Forge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_34",
+            "name": "The Lord of Chests",
+            "description": "Loot the War Chest 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_35",
+            "name": "The Weapon of Champions",
+            "description": "Find a Slorm Reaper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_36",
+            "name": "A Pleasant Surprise!",
+            "description": "Evolve a Slorm Reaper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_37",
+            "name": "Infinite Power!",
+            "description": "Unlock a Primordial Slorm Reaper.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_38",
+            "name": "Master of Arms",
+            "description": "Reach the Max Level with 360 Slorm Reapers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_39",
+            "name": "Ultimate Perfectionist",
+            "description": "Reach the Max Level with 360 Primordial Slorm Reapers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_40",
+            "name": "Master of the Arsenal",
+            "description": "Find All Slorm Reapers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_41",
+            "name": "Master of the Primordial Arsenal",
+            "description": "Find All Primordial Slorm Reapers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_42",
+            "name": "The First of Many",
+            "description": "Find and equip your first piece of Equipment.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_43",
+            "name": "Equipment Finder",
+            "description": "Find 2 500 Pieces of Equipment on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_44",
+            "name": "Excellence or Nothing",
+            "description": "Find 100 pieces of Equipment of Legendary Quality on Enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_45",
+            "name": "Novice Slormitologist",
+            "description": "Find 10 000 Slormites on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_46",
+            "name": "Amateur Slormitologist",
+            "description": "Find 10 000 Slormelines on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_47",
+            "name": "Confirmed Slormitologist",
+            "description": "Find 10 000 Slormandrites on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_48",
+            "name": "Gather Pieces",
+            "description": "Find 1 000 000 Fragments on Enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_49",
+            "name": "The Almighty Knight",
+            "description": "Reach Level 100 with The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_50",
+            "name": "A Sharpened Sword is Worth Two",
+            "description": "Kill 1 000 000 Enemies with The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_51",
+            "name": "The Guillotine Falls",
+            "description": "Close 5 000 Breaches with The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_52",
+            "name": "Sword Collection",
+            "description": "Find 120 Slorm Reapers for The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_53",
+            "name": "Primordial Sword Collection",
+            "description": "Find 120 Primordial Slorm Reapers for The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_54",
+            "name": "Master of Power",
+            "description": "Reach Mastery 15 with all your Skills with The Mighty Knight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_55",
+            "name": "Serenity and Torment",
+            "description": "Reach Level 100 with The Fierce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_56",
+            "name": "Bullseye",
+            "description": "Kill 1 000 000 Enemies with The Fierce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_57",
+            "name": "Breach Predator",
+            "description": "Close 5 000 Breaches with The Fierce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_58",
+            "name": "Bow Collection",
+            "description": "Find 120 Slorm Reapers for The Fierce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_59",
+            "name": "Primordial Bow Collection",
+            "description": "Find 120 Primordial Slorm Reapers for The Fierce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_60",
+            "name": "Master of Ferocity",
+            "description": "Reach Mastery 15 with all your Skills with The FIerce Huntress.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_61",
+            "name": "Spell Class",
+            "description": "Reach Level 100 with The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_62",
+            "name": "Putting into Practice",
+            "description": "Kill 1 000 000 Enemies with The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_63",
+            "name": "Drawn to the Light",
+            "description": "Close 5 000 Breaches with The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_64",
+            "name": "Staff Collection",
+            "description": "Find 120 Slorm Reapers for The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_65",
+            "name": "Primordial Staff Collection",
+            "description": "Find 120 Primordial Slorm Reapers for The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_66",
+            "name": "Master of Trickery",
+            "description": "Reach Mastery 15 with all your Skills with The Mischievous Mage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_67",
+            "name": "It Can Always Be Useful",
+            "description": "Purchase 100 Items from Jemma.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_68",
+            "name": "Heat the Hammer!",
+            "description": "Reforge Equipment 1 000 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_69",
+            "name": "Break and Recycle",
+            "description": "Salvage 250 Items with Friedrich.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_70",
+            "name": "Legendary Object Collection",
+            "description": "Complete your Legendary Chest Collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_71",
+            "name": "Slormitologist Member Card",
+            "description": "Craft 1 000 Slormites by merging Slormites with Rick Manalan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_72",
+            "name": "Reinforce! It's Stronger!",
+            "description": "Reinforce Equipment 500 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_73",
+            "name": "Perfection Achieved",
+            "description": "Purchase Every Upgrade from Olorin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_74",
+            "name": "These Rocks Are Really Shiny",
+            "description": "Reach Max Level with all Ultimatums.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_75",
+            "name": "Adreart's Best Runist",
+            "description": "Reach Max Level with all Reaper Runes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_76",
+            "name": "Astorias' Chaos",
+            "description": "Increase your Astorias Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_77",
+            "name": "Adrianne's War",
+            "description": "Increase your Adrianne Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_78",
+            "name": "Beigarth's Vigilance",
+            "description": "Increase your Beigarth Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_79",
+            "name": "Cory Ironbender's Journey",
+            "description": "Increase your Cory Ironbender Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_80",
+            "name": "Smaloron's Betrayal",
+            "description": "Increase your Smaloron Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_81",
+            "name": "Fulgurorn's Silence",
+            "description": "Increase your Fulgurorn Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_82",
+            "name": "Hagan's Exile",
+            "description": "Increase your Hagan Affinity to Level 100.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
