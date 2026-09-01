@@ -845,6 +845,9 @@ import { GUIDE as weWereHereTooAchievementGuide } from "./games/we-were-here-too
 import { GUIDE as dyingLight2AchievementGuide } from "./games/dying-light-2.js";
 import { GUIDE as greedfallAchievementGuide } from "./games/greedfall.js";
 import { GUIDE as chronoArkAchievementGuide } from "./games/chrono-ark.js";
+import { GUIDE as superMeatBoyAchievementGuide } from "./games/super-meat-boy.js";
+import { GUIDE as persona4GoldenAchievementGuide } from "./games/persona-4-golden.js";
+import { GUIDE as darkSoulsIiScholarOfTheFirstSinAchievementGuide } from "./games/dark-souls-ii-scholar-of-the-first-sin.js";
 
 export const APP_GUIDES = [
 
@@ -875,6 +878,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  darkSoulsIiScholarOfTheFirstSinAchievementGuide,
+  persona4GoldenAchievementGuide,
+  superMeatBoyAchievementGuide,
   chronoArkAchievementGuide,
   greedfallAchievementGuide,
   dyingLight2AchievementGuide,

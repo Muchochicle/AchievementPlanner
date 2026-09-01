@@ -869,6 +869,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("dying-light-2"));
     assert.ok(slugs.includes("greedfall"));
     assert.ok(slugs.includes("chrono-ark"));
+    assert.ok(slugs.includes("super-meat-boy"));
+    assert.ok(slugs.includes("persona-4-golden"));
+    assert.ok(slugs.includes("dark-souls-ii-scholar-of-the-first-sin"));
 
 });
 
