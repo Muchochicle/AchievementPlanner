@@ -767,6 +767,9 @@ import { GUIDE as angerFootAchievementGuide } from "./games/anger-foot.js";
 import { GUIDE as childrenOfTheSunAchievementGuide } from "./games/children-of-the-sun.js";
 import { GUIDE as selacoAchievementGuide } from "./games/selaco.js";
 import { GUIDE as elPasoElsewhereAchievementGuide } from "./games/el-paso-elsewhere.js";
+import { GUIDE as aMusicalStoryAchievementGuide } from "./games/a-musical-story.js";
+import { GUIDE as umurangiGenerationAchievementGuide } from "./games/umurangi-generation.js";
+import { GUIDE as venbaAchievementGuide } from "./games/venba.js";
 
 export const APP_GUIDES = [
 
@@ -1556,7 +1559,10 @@ export const GAME_GUIDES = [
     angerFootAchievementGuide,
     childrenOfTheSunAchievementGuide,
     selacoAchievementGuide,
-    elPasoElsewhereAchievementGuide
+    elPasoElsewhereAchievementGuide,
+    aMusicalStoryAchievementGuide,
+    umurangiGenerationAchievementGuide,
+    venbaAchievementGuide
 
 ];
 

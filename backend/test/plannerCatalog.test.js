@@ -791,6 +791,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("children-of-the-sun"));
     assert.ok(slugs.includes("selaco"));
     assert.ok(slugs.includes("el-paso-elsewhere"));
+    assert.ok(slugs.includes("a-musical-story"));
+    assert.ok(slugs.includes("umurangi-generation"));
+    assert.ok(slugs.includes("venba"));
 
 });
 
