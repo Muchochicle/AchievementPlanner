@@ -842,6 +842,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("noita"));
     assert.ok(slugs.includes("new-world-aeternum"));
     assert.ok(slugs.includes("sea-of-stars"));
+    assert.ok(slugs.includes("blasphemous"));
+    assert.ok(slugs.includes("blasphemous-2"));
+    assert.ok(slugs.includes("jurassic-world-evolution-2"));
 
 });
 

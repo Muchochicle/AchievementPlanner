@@ -818,6 +818,9 @@ import { GUIDE as tmntShreddersRevengeAchievementGuide } from "./games/tmnt-shre
 import { GUIDE as noitaAchievementGuide } from "./games/noita.js";
 import { GUIDE as newWorldAeternumAchievementGuide } from "./games/new-world-aeternum.js";
 import { GUIDE as seaOfStarsAchievementGuide } from "./games/sea-of-stars.js";
+import { GUIDE as blasphemousAchievementGuide } from "./games/blasphemous.js";
+import { GUIDE as blasphemous2AchievementGuide } from "./games/blasphemous-2.js";
+import { GUIDE as jurassicWorldEvolution2AchievementGuide } from "./games/jurassic-world-evolution-2.js";
 
 export const APP_GUIDES = [
 
@@ -848,6 +851,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  jurassicWorldEvolution2AchievementGuide,
+  blasphemous2AchievementGuide,
+  blasphemousAchievementGuide,
   seaOfStarsAchievementGuide,
   newWorldAeternumAchievementGuide,
   noitaAchievementGuide,
