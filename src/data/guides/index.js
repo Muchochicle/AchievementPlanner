@@ -770,6 +770,9 @@ import { GUIDE as elPasoElsewhereAchievementGuide } from "./games/el-paso-elsewh
 import { GUIDE as aMusicalStoryAchievementGuide } from "./games/a-musical-story.js";
 import { GUIDE as umurangiGenerationAchievementGuide } from "./games/umurangi-generation.js";
 import { GUIDE as venbaAchievementGuide } from "./games/venba.js";
+import { GUIDE as frogDetective1TheHauntedIslandAchievementGuide } from "./games/frog-detective-1-the-haunted-island.js";
+import { GUIDE as elHijoAWildWestTaleAchievementGuide } from "./games/el-hijo-a-wild-west-tale.js";
+import { GUIDE as consumeMeAchievementGuide } from "./games/consume-me.js";
 
 export const APP_GUIDES = [
 
@@ -1562,7 +1565,10 @@ export const GAME_GUIDES = [
     elPasoElsewhereAchievementGuide,
     aMusicalStoryAchievementGuide,
     umurangiGenerationAchievementGuide,
-    venbaAchievementGuide
+    venbaAchievementGuide,
+    frogDetective1TheHauntedIslandAchievementGuide,
+    elHijoAWildWestTaleAchievementGuide,
+    consumeMeAchievementGuide
 
 ];
 
