@@ -67,7 +67,7 @@ test("every one of the 22 Towa and the Guardians of the Sacred Tree achievement 
         ["Guardian", "Finish a Journey with Towa herself as the Tsurugi - a secret ninth companion route."],
         ["Here I Come!", "Finish a Journey with Mutsumi as the Tsurugi."],
         ["I've Got It!", "Fulfill a request in the village."],
-        ["I've Missed You", "Progress a companion's Journey through every one of its Ages to reach a reunion story beat."],
+        ["I've Missed You", "Unclear from community guides beyond its name - likely progressing a companion's Journey through all of its Ages toward a reunion story beat."],
         ["It's a Big One!", "Catch 10 fish."],
         ["Jump Rope Honcho", "Jump rope 100 times in a row."],
         ["Lady Towa's Personal Guard", "Finish a Journey with Rekka as the Tsurugi."],
@@ -77,7 +77,7 @@ test("every one of the 22 Towa and the Guardians of the Sacred Tree achievement 
         ["Path to Moniya", "Finish a Journey with Nishiki as the Tsurugi."],
         ["Revenge Is Sweet", "Finish a Journey with Shigin as the Tsurugi."],
         ["The First Sacred Rite", "Defeat a Magatsu-hi for the first time."],
-        ["The Real Fight Starts Here", "Defeat a Magatsu-hi again on the harder 'Back Route' of a Journey, unlocked after your first clear."],
+        ["The Real Fight Starts Here", "Likely defeat a Magatsu-hi again on a harder 'Back Route' of a Journey, unlocked after your first clear - community guides confirm the achievement exists but not its exact trigger."],
     ];
 
     assert.strictEqual(officialAchievements.length, 22, "sanity check on this test's own reference list");

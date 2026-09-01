@@ -35,7 +35,7 @@ export const GUIDE = {
             "heading": "The Magatsu-hi & Endings",
             "body": [
                 "Defeating a Magatsu-hi for the first time, the hidden harder Back Route clear, a hidden reunion story beat, and the game's two hidden endings.",
-                "The achievements here: The First Sacred Rite (Defeat a Magatsu-hi for the first time.); The Real Fight Starts Here (Defeat a Magatsu-hi again on the harder 'Back Route' of a Journey, unlocked after your first clear.); I've Missed You (Progress a companion's Journey through every one of its Ages to reach a reunion story beat.); At Time's End (See the game's ending.); Dawn of a New Age (See the game's true ending.)."
+                "The achievements here: The First Sacred Rite (Defeat a Magatsu-hi for the first time.); The Real Fight Starts Here (Likely defeat a Magatsu-hi again on a harder 'Back Route' of a Journey, unlocked after your first clear - community guides confirm the achievement exists but not its exact trigger.); I've Missed You (Unclear from community guides beyond its name - likely progressing a companion's Journey through all of its Ages toward a reunion story beat.); At Time's End (See the game's ending.); Dawn of a New Age (See the game's true ending.)."
             ]
         },
         {
