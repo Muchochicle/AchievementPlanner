@@ -824,6 +824,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("halo-infinite"));
     assert.ok(slugs.includes("assassins-creed-shadows"));
     assert.ok(slugs.includes("elden-ring-nightreign"));
+    assert.ok(slugs.includes("final-fantasy-vii-remake-intergrade"));
+    assert.ok(slugs.includes("nier-automata"));
+    assert.ok(slugs.includes("sons-of-the-forest"));
 
 });
 

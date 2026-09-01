@@ -800,6 +800,9 @@ import { GUIDE as marvelsSpiderManRemasteredAchievementGuide } from "./games/mar
 import { GUIDE as haloInfiniteAchievementGuide } from "./games/halo-infinite.js";
 import { GUIDE as assassinsCreedShadowsAchievementGuide } from "./games/assassins-creed-shadows.js";
 import { GUIDE as eldenRingNightreignAchievementGuide } from "./games/elden-ring-nightreign.js";
+import { GUIDE as finalFantasyViiRemakeIntergradeAchievementGuide } from "./games/final-fantasy-vii-remake-intergrade.js";
+import { GUIDE as nierAutomataAchievementGuide } from "./games/nier-automata.js";
+import { GUIDE as sonsOfTheForestAchievementGuide } from "./games/sons-of-the-forest.js";
 
 export const APP_GUIDES = [
 
@@ -830,6 +833,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  sonsOfTheForestAchievementGuide,
+  nierAutomataAchievementGuide,
+  finalFantasyViiRemakeIntergradeAchievementGuide,
   eldenRingNightreignAchievementGuide,
   assassinsCreedShadowsAchievementGuide,
   haloInfiniteAchievementGuide,
