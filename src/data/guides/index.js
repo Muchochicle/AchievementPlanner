@@ -779,6 +779,9 @@ import { GUIDE as signsOfTheSojournerAchievementGuide } from "./games/signs-of-t
 import { GUIDE as assembleWithCareAchievementGuide } from "./games/assemble-with-care.js";
 import { GUIDE as golfPeaksAchievementGuide } from "./games/golf-peaks.js";
 import { GUIDE as iconoclastsAchievementGuide } from "./games/iconoclasts.js";
+import { GUIDE as mutazioneAchievementGuide } from "./games/mutazione.js";
+import { GUIDE as littleMisfortuneAchievementGuide } from "./games/little-misfortune.js";
+import { GUIDE as franBowAchievementGuide } from "./games/fran-bow.js";
 
 export const APP_GUIDES = [
 
@@ -1580,7 +1583,10 @@ export const GAME_GUIDES = [
     signsOfTheSojournerAchievementGuide,
     assembleWithCareAchievementGuide,
     golfPeaksAchievementGuide,
-    iconoclastsAchievementGuide
+    iconoclastsAchievementGuide,
+    mutazioneAchievementGuide,
+    littleMisfortuneAchievementGuide,
+    franBowAchievementGuide
 
 ];
 

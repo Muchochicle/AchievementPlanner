@@ -803,6 +803,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("assemble-with-care"));
     assert.ok(slugs.includes("golf-peaks"));
     assert.ok(slugs.includes("iconoclasts"));
+    assert.ok(slugs.includes("mutazione"));
+    assert.ok(slugs.includes("little-misfortune"));
+    assert.ok(slugs.includes("fran-bow"));
 
 });
 
