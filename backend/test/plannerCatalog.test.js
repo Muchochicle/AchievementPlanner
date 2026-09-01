@@ -749,6 +749,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-last-of-us-part-i"));
     assert.ok(slugs.includes("grand-theft-auto-san-andreas-the-definitive-edition"));
     assert.ok(slugs.includes("marvel-s-spider-man-miles-morales"));
+    assert.ok(slugs.includes("lies-of-p"));
+    assert.ok(slugs.includes("persona-3-reload"));
+    assert.ok(slugs.includes("star-wars-jedi-survivor"));
 
 });
 

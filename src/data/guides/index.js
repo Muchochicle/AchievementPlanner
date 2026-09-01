@@ -725,6 +725,9 @@ import { GUIDE as huntShowdown1896AchievementGuide } from "./games/hunt-showdown
 import { GUIDE as theLastOfUsPartIAchievementGuide } from "./games/the-last-of-us-part-i.js";
 import { GUIDE as grandTheftAutoSanAndreasTheDefinitiveEditionAchievementGuide } from "./games/grand-theft-auto-san-andreas-the-definitive-edition.js";
 import { GUIDE as marvelsSpiderManMilesMoralesAchievementGuide } from "./games/marvel-s-spider-man-miles-morales.js";
+import { GUIDE as liesOfPAchievementGuide } from "./games/lies-of-p.js";
+import { GUIDE as persona3ReloadAchievementGuide } from "./games/persona-3-reload.js";
+import { GUIDE as starWarsJediSurvivorAchievementGuide } from "./games/star-wars-jedi-survivor.js";
 
 export const APP_GUIDES = [
 
@@ -1472,7 +1475,10 @@ export const GAME_GUIDES = [
     huntShowdown1896AchievementGuide,
     theLastOfUsPartIAchievementGuide,
     grandTheftAutoSanAndreasTheDefinitiveEditionAchievementGuide,
-    marvelsSpiderManMilesMoralesAchievementGuide
+    marvelsSpiderManMilesMoralesAchievementGuide,
+    liesOfPAchievementGuide,
+    persona3ReloadAchievementGuide,
+    starWarsJediSurvivorAchievementGuide
 
 ];
 
