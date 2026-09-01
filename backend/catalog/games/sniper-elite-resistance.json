@@ -1,0 +1,654 @@
+{
+    "id": 2169200,
+    "steamAppId": 2169200,
+    "name": "Sniper Elite: Resistance",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2169200/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 15,
+        "max": 32
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Tactical Shooter",
+        "Stealth",
+        "Third Person Shooter",
+        "World War II",
+        "Sniper",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "REWARD_1_PROLOGUE",
+            "name": "Dam Buster",
+            "description": "Sabotage the Dam and destroy the AA guns.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "REWARD_2_WELCOME_TO_THE_RESISTANC",
+            "name": "Welcome to the Resistance",
+            "description": "Find the Mole and uncover the Superweapon plot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "REWARD_3_TRAINWRECK",
+            "name": "Trainwreck",
+            "description": "Raid the Hotel Terminus and sabotage the Sonderzüge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "REWARD_4_CATALYST",
+            "name": "Bomb Squad",
+            "description": "Ensure Allied secrets remain unknown and confirm the location of Site D.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "REWARD_5_INDUSTRIAL_ACTION",
+            "name": "Industrial Action",
+            "description": "Complete Mission 5: destroy the underground chemical weapons plant and stop Kleine Blume production.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "REWARD_6_BLAST_FROM_THE_PAST",
+            "name": "Blast from the Past",
+            "description": "Complete Mission 6: infiltrate Fort Rouge and escape before the Allied bombers strike.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "REWARD_7_GRAPES_OF_WRATH",
+            "name": "Grapes of Wrath",
+            "description": "Complete Mission 7: infiltrate the V1 rocket site and destroy the Zugwerfer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "REWARD_8_WHATEVER_IT_TAKES",
+            "name": "Whatever it Takes",
+            "description": "Complete Mission 8: stop the Zugwerfers from launching and disrupting the D-Day landings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "REWARD_9_CLIMBING_THE_RANKS",
+            "name": "Climbing the Ranks",
+            "description": "Reach rank 40.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "REWARD_10_VIVA_LA_RESISTANCE",
+            "name": "Vive La Résistance",
+            "description": "Complete the campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "REWARD_11_CREME_DE_LA_CREME",
+            "name": "Crème de la Crème",
+            "description": "Complete the entire campaign on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "REWARD_12_FULL_ENGLISH",
+            "name": "Full English",
+            "description": "Complete 11 Optional objectives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "REWARD_13_HOSTILE_TAKEOVER",
+            "name": "Hostile Takeover",
+            "description": "Win one Axis Invasion as an Invader.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "REWARD_14_HOLD_THE_LINE",
+            "name": "Hold the Line",
+            "description": "Defeat an invading Sniper Jager.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "REWARD_15_BROTHERS_IN_ARMS",
+            "name": "Brothers in Arms",
+            "description": "Play one team-based PVP match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "REWARD_16_JUST_A_SCRATCH",
+            "name": "Just a Scratch",
+            "description": "Complete any mission, excluding Mission 1 and Mission 9, on any difficulty without healing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "REWARD_17_OPEN_SURGERY",
+            "name": "Open Surgery",
+            "description": "Hit every Organ at least once with a Rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "REWARD_18_TACTICIAN",
+            "name": "Tactician",
+            "description": "Make a Tank shoot and destroy another enemy Vehicle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "REWARD_19_MASTER_OF_PISTOLS",
+            "name": "Pistol Perfectionist",
+            "description": "Obtain Six Pistol-related Mastery Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "REWARD_20_MASTER_OF_SECONDARIES",
+            "name": "Secondary Supremacy",
+            "description": "Obtain Eight Secondary-related Mastery Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "REWARD_21_MASTER_OF_RIFLES",
+            "name": "Revered with Rifles",
+            "description": "Obtain Seven Rifle-related Mastery Medals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "REWARD_22_MASTER_AT_ARMS",
+            "name": "Master-at-arms",
+            "description": "Become the Master of each Weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "REWARD_23_GUNSLINGER",
+            "name": "Gunslinger",
+            "description": "Kill 150 enemies with a Pistol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "REWARD_24_SKIRMISHER",
+            "name": "Skirmisher",
+            "description": "Kill 300 enemies with a Secondary Weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "REWARD_25_SHARPSHOOTER",
+            "name": "Sharpshooter",
+            "description": "Kill 350 enemies with a Rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "REWARD_26_GOING_THE_DISTANCE",
+            "name": "Going the Distance",
+            "description": "Total kill distance of 100,000 meters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "REWARD_27_BLAZE_OF_GLORY",
+            "name": "Blaze of Gory",
+            "description": "Kill 50 enemies with Traps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "REWARD_28_EYES_ON_THE_PRIZE",
+            "name": "Eyes on the Prize",
+            "description": "Kill 150 enemies with any weapon while in Iron Sights.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "REWARD_29_SCOPING_MECHANISM",
+            "name": "Scoping Mechanism",
+            "description": "Kill 150 enemies with a Rifle while in Iron Sights.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "REWARD_30_SET_TO_BLOW",
+            "name": "Set to Blow",
+            "description": "Kill 20 soldiers using Booby traps.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "REWARD_31_THE_BIG_GUNS",
+            "name": "The Big Guns",
+            "description": "Kill 50 soldiers with Heavy weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "REWARD_32_THREE_BIRDS_ONE_STONE",
+            "name": "Three Birds, One Stone",
+            "description": "Kill 3 on-foot soldiers with one Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "REWARD_33_JACK_OF_ALL_TRADES",
+            "name": "Jack of All Trades",
+            "description": "Get a kill with 20 different Weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "REWARD_34_DAS_NUTS",
+            "name": "Das Nuts!",
+            "description": "Get a testicle shot with a Rifle from a distance of 100 meters or more.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "REWARD_35_FINDERS_KEEPERS",
+            "name": "Finders Keepers",
+            "description": "Kill 50 enemy soldiers with Found Weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "REWARD_36_LE_FANTOME",
+            "name": "Le Fantôme",
+            "description": "Achieve 250 Ghost Kills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 37,
+            "apiname": "REWARD_37_SILENT_BUT_DEADLY",
+            "name": "Silent but Deadly",
+            "description": "Kill 50 enemies during a Sound Mask.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "REWARD_38_KNIVES_FOR_A_PRO",
+            "name": "Knives for a Pro",
+            "description": "Perform 100 lethal Takedowns.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "REWARD_39_ALWAYS_GREENER",
+            "name": "Always Greener",
+            "description": "While in Tall Grass, kill 50 Soldiers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "REWARD_40_PEN_PAL",
+            "name": "Pen Pal",
+            "description": "Collect 35 Personal Letters.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "REWARD_41_TOP_SECRET",
+            "name": "Top Secret",
+            "description": "Collect 35 Classified Documents.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "REWARD_42_TREASURE_HUNTER",
+            "name": "Treasure Hunter",
+            "description": "Collect 22 Hidden Items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "REWARD_43_SPREAD_YOUR_WINGS",
+            "name": "Spread Your Wings",
+            "description": "Destroy 21 Dead-eye Targets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "REWARD_44_INNOVATOR",
+            "name": "Innovator",
+            "description": "Interact with 22 Workbenches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "REWARD_45_SURVIVALIST",
+            "name": "Survivalist",
+            "description": "Complete an entire Survival mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "REWARD_46_FILE_O_FACTS",
+            "name": "File O' Facts",
+            "description": "Recover all evidence implicating Resistance members within the Library in Dead Drop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "REWARD_47_COMMUNICATIONS_BREAKDOWN",
+            "name": "Sprung a Leak",
+            "description": "Sabotage the Dam's pump room in Collision Course.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "REWARD_48_STOPPING_TRAFFIC",
+            "name": "Stopping Traffic",
+            "description": "Destroy the Trucks carrying Kleine Blume ingredients in Devil's Cauldron.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "REWARD_49_TANKS_FOR_NOTHING",
+            "name": "Lost its way Gnome",
+            "description": "Find the French Resistance Gnome and take a Picture.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "REWARD_51_TAKING_INVENTORY",
+            "name": "Tanks for Nothing!",
+            "description": "Destroy the Panzer Tank in End of the Line.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "REWARD_52_MASTERMIND",
+            "name": "Mastermind",
+            "description": "Headshot Kruger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "REWARD_53_PROPAGANDIST",
+            "name": "Propagandist",
+            "description": "Complete all Propaganda missions with a 3 star rating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "REWARD_54_PROPAGANDA_MACHINE",
+            "name": "Propaganda Machine",
+            "description": "Complete all Propaganda missions with a 3 star rating on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "REWARD_DLC01_01_TAKE_5_AND_ACHTUNG!",
+            "name": "Take 5, and... ACHTUNG!",
+            "description": "Lights, Camera, ACHTUNG! - Kill Hitler 5 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "REWARD_DLC01_02_FAST_AND_THE_FUHRER_LESS",
+            "name": "Fast and Fuhrer-less",
+            "description": "Lights, Camera, ACHTUNG! - Kill only Hitler and exfiltrate.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "REWARD_DLC01_03_HE_DID_NAZI_IT_COMING",
+            "name": "He did Nazi-it Coming",
+            "description": "Lights, Camera, ACHTUNG! - Kill Hitler at a distance of 250 meters or more.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 57,
+            "apiname": "REWARD_DLC01_04_IN_THE_DEAD_OF_REICH",
+            "name": "In The Dead Of Reich",
+            "description": "Lights, Camera, ACHTUNG! - Kill Hitler and exfiltrate without ever being detected.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "REWARD_DLC01_05_BLOCKBUSTER",
+            "name": "Blockbuster",
+            "description": "Lights, Camera, ACHTUNG! - Complete the mission on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "REWARD_DLC01_06_THATS_A_WRAP",
+            "name": "That’s a Wrap!",
+            "description": "Lights, Camera, ACHTUNG! - Complete the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "REWARD_DLC01_07_B_MOVIE",
+            "name": "B-Movie",
+            "description": "Lights, Camera, ACHTUNG! - Complete the mission with a 2 star rating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "REWARD_DLC01_08_MEIN_JUEWEL",
+            "name": "Mein Juewel",
+            "description": "Lights, Camera, ACHTUNG! - Kill Hitler with a testicle shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "REWARD_M11_MORTAR_COMBAT",
+            "name": "Mortar Combat",
+            "description": "Vercors Vendetta - Complete the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "REWARD_M11_NEIN_A_BLUME",
+            "name": "Nein-a Blume",
+            "description": "Vercors Vendetta - Complete the mission with a 2 star rating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "REWARD_M11_VERCORS_VENGEANCE",
+            "name": "Vercors' Vengeance",
+            "description": "Vercors Vendetta - Complete the mission on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "REWARD_M12_VERGELTUNGSWAFFE",
+            "name": "Vergeltungswaffe",
+            "description": "Striking Range - Complete the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "REWARD_M12_COMMUNICATION_BREAKDOWN",
+            "name": "Jailbreak",
+            "description": "Striking Range - Complete the mission on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "REWARD_M12_JAILBREAK",
+            "name": "Communication Breakdown",
+            "description": "Striking Range - Complete the mission with a 2 star rating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "REWARD_DLC03_CLEARING_COMPLETE",
+            "name": "Mis-guided-missile",
+            "description": "Mud and Thunder - Complete the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "REWARD_DLC03_CLEARING_COMPLETE_STAR",
+            "name": "Lethal Love letter",
+            "description": "Mud and Thunder - Complete the mission with a 2 star rating.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "REWARD_DLC03_CLEARING_COMPLETE_AUTH",
+            "name": "The Path of Most Resistance",
+            "description": "Mud and Thunder - Complete the mission on Authentic difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

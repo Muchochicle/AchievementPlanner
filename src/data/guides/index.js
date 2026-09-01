@@ -857,6 +857,9 @@ import { GUIDE as tempestRisingAchievementGuide } from "./games/tempest-rising.j
 import { GUIDE as robocopRogueCityAchievementGuide } from "./games/robocop-rogue-city.js";
 import { GUIDE as warhammer40000SpaceMarineAchievementGuide } from "./games/warhammer-40000-space-marine.js";
 import { GUIDE as timberbornAchievementGuide } from "./games/timberborn.js";
+import { GUIDE as sniperEliteResistanceAchievementGuide } from "./games/sniper-elite-resistance.js";
+import { GUIDE as thePrecinctAchievementGuide } from "./games/the-precinct.js";
+import { GUIDE as twoPointCampusAchievementGuide } from "./games/two-point-campus.js";
 
 export const APP_GUIDES = [
 
@@ -887,6 +890,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  twoPointCampusAchievementGuide,
+  thePrecinctAchievementGuide,
+  sniperEliteResistanceAchievementGuide,
   timberbornAchievementGuide,
   warhammer40000SpaceMarineAchievementGuide,
   robocopRogueCityAchievementGuide,

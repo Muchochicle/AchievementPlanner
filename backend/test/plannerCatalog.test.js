@@ -881,6 +881,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("robocop-rogue-city"));
     assert.ok(slugs.includes("warhammer-40000-space-marine"));
     assert.ok(slugs.includes("timberborn"));
+    assert.ok(slugs.includes("sniper-elite-resistance"));
+    assert.ok(slugs.includes("the-precinct"));
+    assert.ok(slugs.includes("two-point-campus"));
 
 });
 
