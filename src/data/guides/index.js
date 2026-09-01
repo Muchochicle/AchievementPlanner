@@ -749,6 +749,9 @@ import { GUIDE as mindDiverAchievementGuide } from "./games/mind-diver.js";
 import { GUIDE as tempopoAchievementGuide } from "./games/tempopo.js";
 import { GUIDE as metalEdenAchievementGuide } from "./games/metal-eden.js";
 import { GUIDE as towaAndTheGuardiansOfTheSacredTreeAchievementGuide } from "./games/towa-and-the-guardians-of-the-sacred-tree.js";
+import { GUIDE as babyStepsAchievementGuide } from "./games/baby-steps.js";
+import { GUIDE as duckDetectiveTheSecretSalamiAchievementGuide } from "./games/duck-detective-the-secret-salami.js";
+import { GUIDE as dungeonsOfHinterbergAchievementGuide } from "./games/dungeons-of-hinterberg.js";
 
 export const APP_GUIDES = [
 
@@ -1520,7 +1523,10 @@ export const GAME_GUIDES = [
     mindDiverAchievementGuide,
     tempopoAchievementGuide,
     metalEdenAchievementGuide,
-    towaAndTheGuardiansOfTheSacredTreeAchievementGuide
+    towaAndTheGuardiansOfTheSacredTreeAchievementGuide,
+    babyStepsAchievementGuide,
+    duckDetectiveTheSecretSalamiAchievementGuide,
+    dungeonsOfHinterbergAchievementGuide
 
 ];
 
