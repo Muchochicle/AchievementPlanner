@@ -815,6 +815,9 @@ import { GUIDE as museDashAchievementGuide } from "./games/muse-dash.js";
 import { GUIDE as remnantIiAchievementGuide } from "./games/remnant-ii.js";
 import { GUIDE as coreKeeperAchievementGuide } from "./games/core-keeper.js";
 import { GUIDE as tmntShreddersRevengeAchievementGuide } from "./games/tmnt-shredders-revenge.js";
+import { GUIDE as noitaAchievementGuide } from "./games/noita.js";
+import { GUIDE as newWorldAeternumAchievementGuide } from "./games/new-world-aeternum.js";
+import { GUIDE as seaOfStarsAchievementGuide } from "./games/sea-of-stars.js";
 
 export const APP_GUIDES = [
 
@@ -845,6 +848,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  seaOfStarsAchievementGuide,
+  newWorldAeternumAchievementGuide,
+  noitaAchievementGuide,
   tmntShreddersRevengeAchievementGuide,
   coreKeeperAchievementGuide,
   remnantIiAchievementGuide,
