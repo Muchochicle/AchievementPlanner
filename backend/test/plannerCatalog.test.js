@@ -797,6 +797,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("frog-detective-1-the-haunted-island"));
     assert.ok(slugs.includes("el-hijo-a-wild-west-tale"));
     assert.ok(slugs.includes("consume-me"));
+    assert.ok(slugs.includes("kine"));
+    assert.ok(slugs.includes("beacon-pines"));
+    assert.ok(slugs.includes("signs-of-the-sojourner"));
 
 });
 

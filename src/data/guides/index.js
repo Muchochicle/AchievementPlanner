@@ -773,6 +773,9 @@ import { GUIDE as venbaAchievementGuide } from "./games/venba.js";
 import { GUIDE as frogDetective1TheHauntedIslandAchievementGuide } from "./games/frog-detective-1-the-haunted-island.js";
 import { GUIDE as elHijoAWildWestTaleAchievementGuide } from "./games/el-hijo-a-wild-west-tale.js";
 import { GUIDE as consumeMeAchievementGuide } from "./games/consume-me.js";
+import { GUIDE as kineAchievementGuide } from "./games/kine.js";
+import { GUIDE as beaconPinesAchievementGuide } from "./games/beacon-pines.js";
+import { GUIDE as signsOfTheSojournerAchievementGuide } from "./games/signs-of-the-sojourner.js";
 
 export const APP_GUIDES = [
 
@@ -1568,7 +1571,10 @@ export const GAME_GUIDES = [
     venbaAchievementGuide,
     frogDetective1TheHauntedIslandAchievementGuide,
     elHijoAWildWestTaleAchievementGuide,
-    consumeMeAchievementGuide
+    consumeMeAchievementGuide,
+    kineAchievementGuide,
+    beaconPinesAchievementGuide,
+    signsOfTheSojournerAchievementGuide
 
 ];
 
