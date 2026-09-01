@@ -752,6 +752,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("lies-of-p"));
     assert.ok(slugs.includes("persona-3-reload"));
     assert.ok(slugs.includes("star-wars-jedi-survivor"));
+    assert.ok(slugs.includes("wanderstop"));
+    assert.ok(slugs.includes("civilization-vii"));
+    assert.ok(slugs.includes("where-winds-meet"));
 
 });
 

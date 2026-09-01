@@ -728,6 +728,9 @@ import { GUIDE as marvelsSpiderManMilesMoralesAchievementGuide } from "./games/m
 import { GUIDE as liesOfPAchievementGuide } from "./games/lies-of-p.js";
 import { GUIDE as persona3ReloadAchievementGuide } from "./games/persona-3-reload.js";
 import { GUIDE as starWarsJediSurvivorAchievementGuide } from "./games/star-wars-jedi-survivor.js";
+import { GUIDE as wanderstopAchievementGuide } from "./games/wanderstop.js";
+import { GUIDE as civilizationViiAchievementGuide } from "./games/civilization-vii.js";
+import { GUIDE as whereWindsMeetAchievementGuide } from "./games/where-winds-meet.js";
 
 export const APP_GUIDES = [
 
@@ -1478,7 +1481,10 @@ export const GAME_GUIDES = [
     marvelsSpiderManMilesMoralesAchievementGuide,
     liesOfPAchievementGuide,
     persona3ReloadAchievementGuide,
-    starWarsJediSurvivorAchievementGuide
+    starWarsJediSurvivorAchievementGuide,
+    wanderstopAchievementGuide,
+    civilizationViiAchievementGuide,
+    whereWindsMeetAchievementGuide
 
 ];
 
