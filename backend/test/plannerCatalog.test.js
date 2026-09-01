@@ -890,6 +890,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("star-trucker"));
     assert.ok(slugs.includes("ufo-50"));
     assert.ok(slugs.includes("sengoku-dynasty"));
+    assert.ok(slugs.includes("tiny-rogues"));
+    assert.ok(slugs.includes("norland"));
+    assert.ok(slugs.includes("lorelei-and-the-laser-eyes"));
 
 });
 

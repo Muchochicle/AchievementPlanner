@@ -866,6 +866,9 @@ import { GUIDE as mulletMadjackAchievementGuide } from "./games/mullet-madjack.j
 import { GUIDE as starTruckerAchievementGuide } from "./games/star-trucker.js";
 import { GUIDE as ufo50AchievementGuide } from "./games/ufo-50.js";
 import { GUIDE as sengokuDynastyAchievementGuide } from "./games/sengoku-dynasty.js";
+import { GUIDE as tinyRoguesAchievementGuide } from "./games/tiny-rogues.js";
+import { GUIDE as norlandAchievementGuide } from "./games/norland.js";
+import { GUIDE as loreleiAndTheLaserEyesAchievementGuide } from "./games/lorelei-and-the-laser-eyes.js";
 
 export const APP_GUIDES = [
 
@@ -896,6 +899,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  loreleiAndTheLaserEyesAchievementGuide,
+  norlandAchievementGuide,
+  tinyRoguesAchievementGuide,
   sengokuDynastyAchievementGuide,
   ufo50AchievementGuide,
   starTruckerAchievementGuide,

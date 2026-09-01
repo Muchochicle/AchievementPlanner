@@ -1,0 +1,798 @@
+{
+    "id": 2088570,
+    "steamAppId": 2088570,
+    "name": "Tiny Rogues",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2088570/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 40,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Bullet Hell",
+        "Dungeon Crawler",
+        "Pixel Graphics",
+        "Character Build",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_01_BORN_TO_LOSE",
+            "name": "Born To Lose",
+            "description": "Defeat all world 1 floor 1 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_02_MASTER_OF_PUPPETS",
+            "name": "Master Of Puppets",
+            "description": "Defeat all world 1 floor 2 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_03_WELCOME_TO_THE_JUNGLE",
+            "name": "Welcome To The Jungle",
+            "description": "Defeat all world 1 floor 3 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_04_THRILLER",
+            "name": "Thriller",
+            "description": "Defeat all world 1 floor 4 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_05_HAVE_YOU_EVER_SEEN_THE_RAIN",
+            "name": "Have You Ever Seen The Rain",
+            "description": "Defeat all world 1 floor 5 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_06_SMOKE_ON_THE_WATER",
+            "name": "Smoke On The Water",
+            "description": "Defeat all world 1 floor 6 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_07_THROUGH_THE_FIRE_AND_FLAMES",
+            "name": "Through The Fire And Flames",
+            "description": "Defeat all world 1 floor 7 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_08_LOSING_MY_RELIGION",
+            "name": "Losing My Religion",
+            "description": "Defeat all world 1 floor 8 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_09_DOWN_UNDER",
+            "name": "Down Under",
+            "description": "Defeat all world 1 floor 9 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_10_DONT_FEAR_THE_REAPER",
+            "name": "(Don't fear) The Reaper",
+            "description": "Defeat Death.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_11_FOR_WHOM_THE_BELL_TOLLS",
+            "name": "For Whom The Bell Tolls",
+            "description": "Defeat Death with 5 different classes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_12_WE_ARE_THE_CHAMPIONS",
+            "name": "We Are The Champions",
+            "description": "Unlock all character classes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_14_IRON_MAN",
+            "name": "Iron Man",
+            "description": "Defeat Death as the Deprived while having at least 10 curse.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_15_THUNDERSTRUCK",
+            "name": "Thunderstruck",
+            "description": "Defeat Death in under 25 minutes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_16_WITH_OR_WITHOUT_YOU",
+            "name": "With or Without You",
+            "description": "Defeat Death with 17 different classes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_17_ANGEL_OF_DEATH",
+            "name": "Angel of Death",
+            "description": "Defeat Primal Death.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_18_HOUSE_OF_THE_RISING_SUN",
+            "name": "House Of The Rising Sun",
+            "description": "Defeat Death as the Gunslinger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_19_HOLDING_OUT_FOR_A_HERO",
+            "name": "Holding Out For A Hero",
+            "description": "Fully repair the Broken Hero Sword.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_20_MONEY_FOR_NOTHING",
+            "name": "Money For Nothing",
+            "description": "Sell a combined total worth of 500G to the pawn shop.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_21_WHERE_IS_MY_MIND",
+            "name": "Where Is My Mind?",
+            "description": "Defeat Death as the Doppelganger while having completed every floor with a different form. (10 Total Forms)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_22_STAND_ON_YOUR_OWN",
+            "name": "Stand On Your Own",
+            "description": "Defeat Death without using any Mastery Perks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_23_NO_EASY_WAY_OUT",
+            "name": "No Easy Way Out",
+            "description": "Defeat Death at Cinder 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_24_THE_HEAT_IS_ON",
+            "name": "The Heat Is On",
+            "description": "Defeat Death at Cinder 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_25_DANGER_ZONE",
+            "name": "Danger Zone",
+            "description": "Defeat Death at Cinder 12.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_26_EDGE_OF_SEVENTEEN",
+            "name": "Edge Of Seventeen",
+            "description": "Defeat Death at Cinder 16.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_27_THE_CHAIN",
+            "name": "The Chain",
+            "description": "Reach a Cinder sum streak of 32 or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_28_THE_GAMBLER",
+            "name": "The Gambler",
+            "description": "Use 50 or more dice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_29_IM_STILL_STANDING",
+            "name": "I'm Still Standing",
+            "description": "Survive a fight against Death at 1 heart or less.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_30_A_SECRET_PLACE",
+            "name": "A Secret Place",
+            "description": "Find and uncover 3 secret rooms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_31_DRINK",
+            "name": "Drink",
+            "description": "Take a sip from your health flask.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_32_HOTEL_CALIFORNIA",
+            "name": "Hotel California",
+            "description": "Stay over night at the tavern.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_33_RUNNING_UP_THAT_HILL",
+            "name": "Running up that Hill",
+            "description": "Level up to Mastery Level 10.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_34_CANT_STOP",
+            "name": "Can't Stop",
+            "description": "Level up to Mastery Level 20.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_35_ITS_MY_LIFE",
+            "name": "It's My Life",
+            "description": "Level up to Mastery Level 30.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_36_IN_TOO_DEEP",
+            "name": "In Too Deep",
+            "description": "Level up to Paragon Level 25.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_37_MANIAC",
+            "name": "Maniac",
+            "description": "Level up to Paragon Level 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_38_HIGHWAY_TO_HELL",
+            "name": "Highway to Hell",
+            "description": "Enter the Burning Hells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_39_STAIRWAY_TO_HEAVEN",
+            "name": "Stairway to Heaven",
+            "description": "Enter the High Heavens.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_40_DANCING_IN_THE_DARK",
+            "name": "Dancing in the Dark",
+            "description": "Enter the Shadow Planes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_41_SYMPATHY_FOR_THE_DEVIL",
+            "name": "Sympathy For The Devil",
+            "description": "Ascend the Infernal Throne.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_42_PARADISE_CITY",
+            "name": "Paradise City",
+            "description": "Ascend the Celestial Throne.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_43_ITS_A_LONG_WAY_TO_THE_TOP",
+            "name": "It’s a Long Way to the Top",
+            "description": "Ascend the Primordial Throne.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_44_WITH_A_LITTLE_HELP_FROM_MY_FRIENDS",
+            "name": "With A Little Help From My Friends",
+            "description": "Defeat Death while having at least 10 active companions at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_45_BREAKING_THE_LAW",
+            "name": "Breaking the Law",
+            "description": "Defeat Death with a weapon that has at least upgrade level 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_46_DONT_YOU_FORGET_ABOUT_ME",
+            "name": "Don't You (Forget About Me)",
+            "description": "Defeat Death with every class.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_47_NEVER_TOO_MUCH",
+            "name": "Never Too Much",
+            "description": "Defeat Death while having at least 10 Luck.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_48_MATERIAL_GIRL",
+            "name": "Material Girl",
+            "description": "Open a Treasure Chest while having at least +5 Magic Find.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_49_TAKE_ON_ME",
+            "name": "Take On Me",
+            "description": "Progress to and defeat Death while never attacking an enemy with a weapon. (Tip: Turn off auto equip.)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_50_HEAVEN_IS_A_PLACE_ON_EARTH",
+            "name": "Heaven Is a Place on Earth",
+            "description": "Enter the High Heavens Level 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_51_TOTAL_ECLIPSE_OF_THE_HEART",
+            "name": "Total Eclipse of the Heart",
+            "description": "Enter the Burning Hells Level 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_52_KARMA_CHAMELEON",
+            "name": "Karma Chameleon",
+            "description": "Enter the Shadow Planes Level 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_53_WHATS_UP",
+            "name": "Whats Up",
+            "description": "Complete the world objective \"Brave the Unknown\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_54_AROUND_THE_WORLD",
+            "name": "Around the World",
+            "description": "Complete the world objective \"A New Dawn\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_55_HERE_I_GO_AGAIN",
+            "name": "Here I Go Again",
+            "description": "Complete the world objective \"Beyond Tomorrow\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_56_BRING_ME_TO_LIFE",
+            "name": "Bring Me to Life",
+            "description": "Complete the world objective \"Echoes of the Forgotten\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_57_BACK_IN_BLACK",
+            "name": "Back In Black",
+            "description": "Complete the world objective \"The End\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_58_KNOCKIN_ON_HEAVENS_DOOR",
+            "name": "Knockin' On Heaven's Door",
+            "description": "Complete the world objective \"Visions of Starlight\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_59_HELLS_BELLS",
+            "name": "Hells Bells",
+            "description": "Complete the world objective \"Whispers of Brimstone\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_60_EVERYBODY_WANTS_TO_RULE_THE_WORLD",
+            "name": "Everybody Wants to Rule the World",
+            "description": "Complete the world objective \"The Pact\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_61_MAGICAL_MYSTERY_TOUR",
+            "name": "Magical Mystery Tour",
+            "description": "Defeat all world 2 floor 1 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_62_TNT",
+            "name": "T.N.T",
+            "description": "Defeat all world 2 floor 2 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_63_MANEATER",
+            "name": "Maneater",
+            "description": "Defeat all world 2 floor 3 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_64_TOXICITY",
+            "name": "Toxicity",
+            "description": "Defeat all world 2 floor 4 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_65_THE_TROOPER",
+            "name": "The Trooper",
+            "description": "Defeat all world 2 floor 5 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_66_ANOTHER_BRICK_IN_THE_WALL",
+            "name": "Another Brick in the Wall",
+            "description": "Defeat all the world 2 floor 6 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_67_TRAPPED_UNDER_ICE",
+            "name": "Trapped Under Ice",
+            "description": "Defeat all the world 2 floor 7 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_68_WAR_PIGS",
+            "name": "War Pigs",
+            "description": "Defeat all the world 2 floor 8 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_69_OTHERSIDE",
+            "name": "Otherside",
+            "description": "Defeat all the world 2 floor 9 bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_70_GIMME_CHOCOLATE",
+            "name": "Gimme chocolate!!",
+            "description": "Defeat Death while having at least 50 Intelligence.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_71_GONNA_FLY_NOW",
+            "name": "Gonna Fly Now",
+            "description": "Defeat Death while having at least 50 Strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_72_U_CANT_TOUCH_THIS",
+            "name": "U Can't Touch This",
+            "description": "Defeat Death while having at least 50 Dexterity.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_73_CRAZY_TRAIN",
+            "name": "Crazy Train",
+            "description": "Play as Chaos and have 2 strength traits, 2 dexterity traits and 2 intelligence traits.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_74_DONT_STOP_BELIEVIN",
+            "name": "Don't Stop Believin'",
+            "description": "Activate a total of 10 different set bonuses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_75_IF_YOU_WANT_BLOOD",
+            "name": "If You Want Blood (You've Got It)",
+            "description": "Sacrifice a total of 10 hearts.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_76_HAVE_A_DRINK_ON_ME",
+            "name": "Have a Drink on Me",
+            "description": "Defeat Death while having at least 5 different booze buffs active.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_77_THE_BAD_TOUCH",
+            "name": "The Bad Touch",
+            "description": "Defeat Death while having at least 4 different infusion buffs active.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_78_THE_ALCHEMIST",
+            "name": "The Alchemist",
+            "description": "Defeat Death while having at least 9 different potion buffs active.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_79_HIT_ME_WITH_YOUR_BEST_SHOT",
+            "name": "Hit Me With Your Best Shot",
+            "description": "Defeat Death while having over 500% critical hit damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_80_RAINBOW_IN_THE_DARK",
+            "name": "Rainbow in the Dark",
+            "description": "Defeat Death while having at least 3 auras.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_81_CHERRY_BOMB",
+            "name": "Cherry Bomb",
+            "description": "Trigger more than 10 damaging effects within 1 second.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_82_BORN_TO_BE_WILD",
+            "name": "Born To Be Wild",
+            "description": "Unlock all 16 Doppelganger forms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_83_ALL_STAR",
+            "name": "All Star",
+            "description": "Defeat Eden, Amon and Primal Death as Doppelganger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_84_IM_A_BELIEVER",
+            "name": "I'm a Believer",
+            "description": "Receive at least 20 blessings from Shrines or Cursed Shrines. ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_85_THANK_GOD_ITS_CHRISTMAS",
+            "name": "Livin' on a Prayer",
+            "description": "Defeat Eden on at least Cinder 14 as the Super Hero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_86_MERRY_XMAS_EVERYBODY",
+            "name": "You Give Love a Bad Name",
+            "description": "Defeat Amon on at least Cinder 14 as the Super Hero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_87_JINGLE_BELL_ROCK",
+            "name": "Wanted Dead or Alive",
+            "description": "Defeat Primal Death on at least Cinder 14 as the Super Hero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
