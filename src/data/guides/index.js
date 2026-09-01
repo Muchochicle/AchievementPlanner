@@ -737,6 +737,9 @@ import { GUIDE as nevaAchievementGuide } from "./games/neva.js";
 import { GUIDE as rematchAchievementGuide } from "./games/rematch.js";
 import { GUIDE as skateStoryAchievementGuide } from "./games/skate-story.js";
 import { GUIDE as mycopunkAchievementGuide } from "./games/mycopunk.js";
+import { GUIDE as windblownAchievementGuide } from "./games/windblown.js";
+import { GUIDE as getInTheCarLoserAchievementGuide } from "./games/get-in-the-car-loser.js";
+import { GUIDE as promiseMascotAgencyAchievementGuide } from "./games/promise-mascot-agency.js";
 
 export const APP_GUIDES = [
 
@@ -1496,7 +1499,10 @@ export const GAME_GUIDES = [
     nevaAchievementGuide,
     rematchAchievementGuide,
     skateStoryAchievementGuide,
-    mycopunkAchievementGuide
+    mycopunkAchievementGuide,
+    windblownAchievementGuide,
+    getInTheCarLoserAchievementGuide,
+    promiseMascotAgencyAchievementGuide
 
 ];
 

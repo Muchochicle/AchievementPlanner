@@ -761,6 +761,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("rematch"));
     assert.ok(slugs.includes("skate-story"));
     assert.ok(slugs.includes("mycopunk"));
+    assert.ok(slugs.includes("windblown"));
+    assert.ok(slugs.includes("get-in-the-car-loser"));
+    assert.ok(slugs.includes("promise-mascot-agency"));
 
 });
 
