@@ -1,0 +1,393 @@
+{
+    "id": 3024040,
+    "steamAppId": 3024040,
+    "name": "Stronghold: Crusader - Definitive Edition",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3024040/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Base Building",
+        "Medieval",
+        "Strategy",
+        "Castle Sim",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_Tut_Complete",
+            "name": "Top of the Class",
+            "description": "Complete the Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_Kill_10k_Units",
+            "name": "Meanie",
+            "description": "Kill 10,000 Units",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_Kill_100k_Units",
+            "name": "Bully",
+            "description": "Kill 100,000 Units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_Kill_1M_Units",
+            "name": "Tyrant",
+            "description": "Kill 1,000,000 Units",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_Store_Food_1000",
+            "name": "Lord v. Food",
+            "description": "Store 1,000 food in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_Store_Wood_10000",
+            "name": "No More Wood Needed",
+            "description": "Store 10,000 wood in a single game",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_Store_Weapons_1000",
+            "name": "Calm down, Rambo!",
+            "description": "Store 1,000 weapons in a single game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_Amass_Gold_10000",
+            "name": "The Midas Touch",
+            "description": "Amass 50,000 gold in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_Population_300",
+            "name": "Sprawling Metropolis",
+            "description": "Get a population of 300",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_Kill_1000_Lions",
+            "name": "Banned from the Circus",
+            "description": "Kill 1000 Lions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_Upload_Map",
+            "name": "Muhammad al-Idrisi",
+            "description": "Make a map and upload it to the Steam Workshop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_Campaign_1",
+            "name": "Rally the Troops!",
+            "description": "Complete Historical Campaign, \"The Call to Arms\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_Campaign_2",
+            "name": "Iron Banner",
+            "description": "Complete Historical Campaign, \"Saladin's Conquest\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_Campaign_3",
+            "name": "King of the Sandcastle",
+            "description": "Complete Historical Campaign, \"The Kings' Crusade\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_Campaign_4",
+            "name": "Lounging About The Levant",
+            "description": "Complete Historical Campaign, \"Crusader States\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_Campaign_5",
+            "name": "No Sleep 'til Ascalon",
+            "description": "Complete Historical Campaign, \"The Barons' Crusade\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_Campaign_6",
+            "name": "A King's Ransom",
+            "description": "Complete Historical Campaign, \"The Seventh Crusade\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_Trail_1",
+            "name": "Right In The Childhood",
+            "description": "Complete the \"First Edition\" Skirmish Trail",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_Trail_2",
+            "name": "Perseverance Pays Off",
+            "description": "Complete the \"Warchest\" Skirmish Trail",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_Trail_3",
+            "name": "More Than Words",
+            "description": "Complete the Crusader Extreme Skirmish Trail",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_Sands_Warrior",
+            "name": "Room for Improvement",
+            "description": "Complete any Sands of Time mission with a 'Warrior' ranking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_Sands_Champion",
+            "name": "Almost There",
+            "description": "Complete any Sands of Time mission with a 'Champion' ranking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_Sands_Prince",
+            "name": "Nailed It!",
+            "description": "Complete any Sands of Time mission with a 'Prince of the Sands' ranking",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_Sands_Trail_1",
+            "name": "Sheep Farmer",
+            "description": "Complete The Trail of the Lamb within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_Sands_Trail_2",
+            "name": "Goat Herder",
+            "description": "Complete The Trail of the Goat within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_Sands_Trail_3",
+            "name": "Falconer",
+            "description": "Complete The Trail of the Falcon within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_Sands_Trail_4",
+            "name": "Zoo Keeper",
+            "description": "Complete The Trail of the Leopard within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_Game",
+            "name": "Wow. Like I'm Really Impressed!?",
+            "description": "Win a skirmish game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_Game_vs_7",
+            "name": "Almost Impressive",
+            "description": "Win a skirmish game against 7 opponents",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_Game_vs_Team_of_7",
+            "name": "Genuinely Impressive",
+            "description": "Win a skirmish game against a team of 7 opponents",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_Game_vs_New_Lords",
+            "name": "New Kids On The Block",
+            "description": "Win a skirmish match against a team of The Jewel, Sentinel, Nomad & Kāhinah",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_Skirmish_Beating_All_Lords",
+            "name": "Are you not entertained?!",
+            "description": "Win at least one match against all 20 different Lords & Ladies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_No_Ranged",
+            "name": "Up Close & Personal",
+            "description": "Win a skirmish match without recruiting any ranged units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_Win_Skirmish_All_Ranged",
+            "name": "Stay Back!",
+            "description": "Win a skirmish match while only recruiting ranged units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_Scribe_Unlock",
+            "name": "Subscribe to play as The Scribe",
+            "description": "Sign up to the Firefly newsletter to unlock The Scribe lord skin ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_Dairy_Farms",
+            "name": "Welcome, Lord Bessy!",
+            "description": "Place 30 Dairy Farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_Campaign_7",
+            "name": "Mick Dundee",
+            "description": "Complete Economic Campaign, \"The Realm of the Crocodile\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_Sands_Trail_5",
+            "name": "Dog Breeder",
+            "description": "Complete The Trail of the Jackal within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_Sands_Trail_6",
+            "name": "Snake Charmer",
+            "description": "Complete The Trail of the Cobra within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_Sands_Trail_7",
+            "name": "Apex Predator",
+            "description": "Complete The Trail of the Eagle within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_Sands_Trail_8",
+            "name": "Bone Collector",
+            "description": "Complete The Trail of the Vulture within the Target Time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

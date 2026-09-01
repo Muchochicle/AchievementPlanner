@@ -875,6 +875,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-elder-scrolls-iv-oblivion-remastered"));
     assert.ok(slugs.includes("starfield"));
     assert.ok(slugs.includes("frostpunk-2"));
+    assert.ok(slugs.includes("pentiment"));
+    assert.ok(slugs.includes("stronghold-crusader-definitive-edition"));
+    assert.ok(slugs.includes("tempest-rising"));
 
 });
 

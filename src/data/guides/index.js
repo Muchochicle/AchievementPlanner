@@ -851,6 +851,9 @@ import { GUIDE as darkSoulsIiScholarOfTheFirstSinAchievementGuide } from "./game
 import { GUIDE as theElderScrollsIvOblivionRemasteredAchievementGuide } from "./games/the-elder-scrolls-iv-oblivion-remastered.js";
 import { GUIDE as starfieldAchievementGuide } from "./games/starfield.js";
 import { GUIDE as frostpunk2AchievementGuide } from "./games/frostpunk-2.js";
+import { GUIDE as pentimentAchievementGuide } from "./games/pentiment.js";
+import { GUIDE as strongholdCrusaderDefinitiveEditionAchievementGuide } from "./games/stronghold-crusader-definitive-edition.js";
+import { GUIDE as tempestRisingAchievementGuide } from "./games/tempest-rising.js";
 
 export const APP_GUIDES = [
 
@@ -881,6 +884,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  tempestRisingAchievementGuide,
+  strongholdCrusaderDefinitiveEditionAchievementGuide,
+  pentimentAchievementGuide,
   frostpunk2AchievementGuide,
   starfieldAchievementGuide,
   theElderScrollsIvOblivionRemasteredAchievementGuide,

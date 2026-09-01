@@ -1,0 +1,906 @@
+{
+    "id": 1486920,
+    "steamAppId": 1486920,
+    "name": "Tempest Rising",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1486920/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "RTS",
+        "Base Building",
+        "Strategy",
+        "Military",
+        "Singleplayer",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SignalLost",
+            "name": "Signal Lost",
+            "description": "Complete the first mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "SignalLostPlus",
+            "name": "Signal Lost +",
+            "description": "Complete the first mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "TheHornetsNest",
+            "name": "The Hornet's Nest",
+            "description": "Complete the second mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "TheHornetsNestPlus",
+            "name": "The Hornet's Nest +",
+            "description": "Complete the second mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Paradropped",
+            "name": "Paradropped",
+            "description": "Complete the third mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ParadroppedPlus",
+            "name": "Paradropped +",
+            "description": "Complete the third mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Retaliation",
+            "name": "Retaliation",
+            "description": "Complete the fourth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "RetaliationPlus",
+            "name": "Retaliation +",
+            "description": "Complete the fourth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ThePass",
+            "name": "The Pass",
+            "description": "Complete the fifth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ThePassPlus",
+            "name": "The Pass +",
+            "description": "Complete the fifth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "PullThatBaseApart",
+            "name": "Pull That Base Apart",
+            "description": "Complete the sixth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "PullThatBaseApartPlus",
+            "name": "Pull That Base Apart +",
+            "description": "Complete the sixth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "PublicRelations",
+            "name": "Public Relations",
+            "description": "Complete the seventh mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "PublicRelationsPlus",
+            "name": "Public Relations +",
+            "description": "Complete the seventh mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "TheAncientBasin",
+            "name": "The Ancient Basin",
+            "description": "Complete the eighth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "TheAncientBasinPlus",
+            "name": "The Ancient Basin +",
+            "description": "Complete the eighth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "AncientPower",
+            "name": "Ancient Power",
+            "description": "Complete the ninth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "AncientPowerPlus",
+            "name": "Ancient Power +",
+            "description": "Complete the ninth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "TheFallofAlexandria",
+            "name": "The Fall of Alexandria",
+            "description": "Complete the tenth mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "TheFallofAlexandriaPlus",
+            "name": "The Fall of Alexandria +",
+            "description": "Complete the tenth mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "HeartofGlass",
+            "name": "Heart of Glass",
+            "description": "Complete the eleventh and final mission of the GDF Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "HeartofGlassPlus",
+            "name": "Heart of Glass +",
+            "description": "Complete the eleventh mission of the GDF Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "GDFRecruit",
+            "name": "GDF Recruit",
+            "description": "Complete the GDF Campaign on Easy Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "GDFSergeant",
+            "name": "GDF Sergeant",
+            "description": "Complete the GDF Campaign on Normal Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "GDFColonel",
+            "name": "GDF Colonel",
+            "description": "Complete the GDF Campaign on Hard Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "GDFGeneral",
+            "name": "GDF General",
+            "description": "Complete the GDF Campaign on Insane Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "HarvestTheTempest",
+            "name": "Harvest The Tempest",
+            "description": "Complete the first mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "HarvestTheTempestPlus",
+            "name": "Harvest The Tempest +",
+            "description": "Complete the first mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "TheInformant",
+            "name": "The Informant",
+            "description": "Complete the second mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "TheInformantPlus",
+            "name": "The Informant +",
+            "description": "Complete the second mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "Redirection",
+            "name": "Redirection",
+            "description": "Complete the third mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "RedirectionPlus",
+            "name": "Redirection +",
+            "description": "Complete the third mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "WhereitHurts",
+            "name": "Where it Hurts",
+            "description": "Complete the fourth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "WhereitHurtsPlus",
+            "name": "Where it Hurts +",
+            "description": "Complete the fourth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "RatCatcher",
+            "name": "Rat Catcher",
+            "description": "Complete the fifth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "RatCatcherPlus",
+            "name": "Rat Catcher +",
+            "description": "Complete the fifth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "HarvestingDuty",
+            "name": "Harvesting Duty",
+            "description": "Complete the sixth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "HarvestingDutyPlus",
+            "name": "Harvesting Duty +",
+            "description": "Complete the sixth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "SinsoftheSon",
+            "name": "Sins of the Son",
+            "description": "Complete the seventh mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "SinsoftheSonPlus",
+            "name": "Sins of the Son +",
+            "description": "Complete the seventh mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Buried",
+            "name": "Buried",
+            "description": "Complete the eighth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "BuriedPlus",
+            "name": "Buried +",
+            "description": "Complete the eighth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "PoweroftheTempest",
+            "name": "Power of the Tempest",
+            "description": "Complete the ninth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "PoweroftheTempestPlus",
+            "name": "Power of the Tempest +",
+            "description": "Complete the ninth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "TheFallofaDynasty",
+            "name": "The Fall of a Dynasty",
+            "description": "Complete the tenth mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "TheFallofaDynastyPlus",
+            "name": "The Fall of a Dynasty +",
+            "description": "Complete the tenth mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "FireOfTheGods",
+            "name": "Fire Of The Gods",
+            "description": "Complete the eleventh and final mission of the Dynasty Campaign on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "FireOfTheGodsPlus",
+            "name": "Fire Of The Gods +",
+            "description": "Complete the eleventh mission of the Dynasty Campaign, alongside all of its secondary objectives on any difficulty level",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "DynastyConscript",
+            "name": "Dynasty Conscript",
+            "description": "Complete the Dynasty Campaign on Easy Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "DynastyFieldOfficer",
+            "name": "Dynasty Field Officer",
+            "description": "Complete the Dynasty Campaign on Normal Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "DynastyMajor",
+            "name": "Dynasty Major",
+            "description": "Complete the Dynasty Campaign on Hard Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "DynastyMinisterofWar",
+            "name": "Dynasty Minister of War",
+            "description": "Complete the Dynasty Campaign on Insane Difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Deprived",
+            "name": "Deprived",
+            "description": "Complete any Campaign without putting any points into the Doctrine and Armory systems",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "WesternBBQ",
+            "name": "Western BBQ",
+            "description": "Kill 25 Field Scout units with Ignitor units in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ClayPigeons",
+            "name": "Clay Pigeons",
+            "description": "Destroy 100 Combat Drones with Missile Troopers in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "SquattersRights",
+            "name": "Squatters Rights",
+            "description": "Capture 15 enemy buildings with either Engineers or Technicians in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "DudeWheresMyCar",
+            "name": "Dude! Where's my car?",
+            "description": "Flatten 50 Vehicles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "MakingBaconPancakes",
+            "name": "Making Bacon Pancakes",
+            "description": "Crush 50 infantry units by running them over with vehicles in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "MarkedForLife",
+            "name": "Marked for life",
+            "description": "Intel Mark 98 units over one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "NotAStepBack",
+            "name": "Not a step back!",
+            "description": "'Inspire' 25 units with the Line Officer at once in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Firewatch",
+            "name": "Firewatch",
+            "description": "Use the Engineer to deploy 10 Guard Towers in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "PlowingTheFields",
+            "name": "Plowing the Fields",
+            "description": "Harvest 200,000$ worth of tempest in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "HighVoltage",
+            "name": "High Voltage!",
+            "description": "Activate Distribution Mode from two Dynasty Power Plants on one building",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ReduceReuseRecycle",
+            "name": "Reduce, Reuse, Recycle!",
+            "description": "Salvage' 25 vehicles from the Salvage Center in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "RoadPavedWithBadIntentions",
+            "name": "Road paved with bad intentions",
+            "description": "Use Technicians to lay down 200 Mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ImAMechanicalMan",
+            "name": "I'm a mechanical man",
+            "description": "Disarm 200 mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "WhatMineIsMineWhatsYoursIsNowMineToo",
+            "name": "What's mine is mine, what's yours is now mine too",
+            "description": "Use the Hijacker's 'Override' ability 5 times over the course of a mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "DriveByMechanic",
+            "name": "Drive By Mechanic",
+            "description": "Deploy the Shieldmaiden's 'Repair Turret' 20 times in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "SameDayDelivery",
+            "name": "Same-Day Delivery",
+            "description": "Use 150 support powers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "DoctorsVisit",
+            "name": "Doctor's Visit",
+            "description": "Deploy the Riot Medic's 'Healing Turret' 10 times in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "CloudyWithAChanceOfExplosions",
+            "name": "Cloudy with a Chance of Explosions",
+            "description": "Use the Commando's Airstrike ability 10 times in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "HiddenInPlainSight",
+            "name": "Hidden in Plain Sight",
+            "description": "Make the Sniper go into Stealth mode 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "KeepRollinRollin",
+            "name": "Keep rollin', rollin'",
+            "description": "Activate the 'Tempest Engines' ability on the Tempest Sphere 50 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "HoveringHammerOfDoom",
+            "name": "Hovering Hammer of Doom",
+            "description": "Use the Leveler's 'Barrage' ability 30 times in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "BaseBuilderFiesta",
+            "name": "Base-Builder’s Fiesta",
+            "description": "Produce 5 MCVs in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "TheUltimateSiloFest",
+            "name": "The Ultimate Silo-fest",
+            "description": "Construct 10 Silos in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "AirTrafficController",
+            "name": "Air Traffic Controller",
+            "description": "Construct 12 Air Pads in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "FortressOfSolitude",
+            "name": "Fortress of Solitude",
+            "description": "Construct 50 Concrete Walls in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "TempestHoarder",
+            "name": "Tempest Hoarder",
+            "description": "Produce 15 Tempest Rigs in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "TheGreatExplosiveBarrelMassacre",
+            "name": "The Great Explosive Barrel Massacre",
+            "description": "Blow up 999 Explosive Barrels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "YouCantSeeMe",
+            "name": "You Can't See Me",
+            "description": "Have 25 Units be Invisible at one time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "Multitasker",
+            "name": "Multitasker",
+            "description": "Have 10 Construction Sites active at one time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "MarkedForDeath",
+            "name": "Marked for Death",
+            "description": "Kill 50 Intel Marked enemy units with 'Networked' units in one mission or match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "BugZapper",
+            "name": "Bug Zapper",
+            "description": "Use the Voltaic Reaction Perk to Kill 100 Units affected with Tempest Overflow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "PinataParty",
+            "name": "Pinata Party",
+            "description": "Blow up a Hammerhead or Skycrane Carrier filled up with units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "Rambo",
+            "name": "Rambo",
+            "description": "Kill 60 units using the Assault Gunner's 'Tempest Dynamos' Ability",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "ObstacleCourse",
+            "name": "Obstacle Course",
+            "description": "Beat the Skirmish AI on \"Easy\" while playing as GDF",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "BootCamp",
+            "name": "Boot Camp",
+            "description": "Beat the Skirmish AI on \"Normal\" while playing as GDF",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "LiveFireExercise",
+            "name": "Live Fire Exercise",
+            "description": "Beat the Skirmish AI on \"Hard\" while playing as GDF",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "Conscription",
+            "name": "Conscription",
+            "description": "Beat the Skirmish AI on \"Easy\" while playing as Dynasty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "TrainingGrounds",
+            "name": "Training Grounds",
+            "description": "Beat the Skirmish AI on \"Normal\" while playing as Dynasty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "AcademyofWar",
+            "name": "Academy of War",
+            "description": "Beat the Skirmish AI on \"Hard\" while playing as Dynasty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "ALastManStanding",
+            "name": "Last Man Standing",
+            "description": "Win a Skirmish Match against 3 AI Players that are on the same team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "GoingCommando",
+            "name": "Going Commando",
+            "description": "Win a Skirmish Match only using Infantry Units",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "PartyingLikeIts1998",
+            "name": "Partying like its 1998",
+            "description": "Win 1 Multiplayer Match",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "TheMidasTouch",
+            "name": "The Midas Touch",
+            "description": "Win 5 Multiplayer Matches",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "Aroundtheblock",
+            "name": "Around the block",
+            "description": "Play 25 Multiplayer Matches",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "ParticipationTrophy",
+            "name": "Participation Trophy",
+            "description": "Lose your first ranked/multiplayer match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
