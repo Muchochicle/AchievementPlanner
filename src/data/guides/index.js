@@ -836,6 +836,9 @@ import { GUIDE as xcomEnemyUnknownAchievementGuide } from "./games/xcom-enemy-un
 import { GUIDE as layersOfFear2016AchievementGuide } from "./games/layers-of-fear-2016.js";
 import { GUIDE as persona5StrikersAchievementGuide } from "./games/persona-5-strikers.js";
 import { GUIDE as needForSpeedHeatAchievementGuide } from "./games/need-for-speed-heat.js";
+import { GUIDE as halfLifeAlyxAchievementGuide } from "./games/half-life-alyx.js";
+import { GUIDE as oneshotAchievementGuide } from "./games/oneshot.js";
+import { GUIDE as tropico4AchievementGuide } from "./games/tropico-4.js";
 
 export const APP_GUIDES = [
 
@@ -866,6 +869,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  tropico4AchievementGuide,
+  oneshotAchievementGuide,
+  halfLifeAlyxAchievementGuide,
   needForSpeedHeatAchievementGuide,
   persona5StrikersAchievementGuide,
   layersOfFear2016AchievementGuide,

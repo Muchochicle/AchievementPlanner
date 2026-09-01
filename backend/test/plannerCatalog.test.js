@@ -860,6 +860,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("layers-of-fear-2016"));
     assert.ok(slugs.includes("persona-5-strikers"));
     assert.ok(slugs.includes("need-for-speed-heat"));
+    assert.ok(slugs.includes("half-life-alyx"));
+    assert.ok(slugs.includes("oneshot"));
+    assert.ok(slugs.includes("tropico-4"));
 
 });
 

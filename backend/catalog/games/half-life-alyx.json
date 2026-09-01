@@ -1,0 +1,402 @@
+{
+    "id": 546560,
+    "steamAppId": 546560,
+    "name": "Half-Life: Alyx",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 12,
+        "max": 20
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "VR",
+        "FPS",
+        "Sci-fi",
+        "Story Rich",
+        "Atmospheric",
+        "Zombies"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TRACK_A1_INTRO_WORLD_2",
+            "name": "Hit and Run",
+            "description": "Break out of the Combine prisoner transport vehicle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "TRACK_A2_QUARANTINE_ENTRANCE",
+            "name": "Quaranta Giorni",
+            "description": "Enter the Quarantine Zone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SIDE_GLOBAL_BREAK_BOTTLES",
+            "name": "Mazel Tov",
+            "description": "Pick up and smash 50 glass bottles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "SIDE_FEED_SNARK",
+            "name": "Good Grub",
+            "description": "Feed the snark.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "SIDE_HL2_PLAYGROUND",
+            "name": "On a Roll",
+            "description": "Interact with the playground somehow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "SIDE_RUSSELL_SCENE",
+            "name": "Little Slugger",
+            "description": "Represent yourself with a specific prop on Russell's map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "SIDE_GEIGER_COUNTER",
+            "name": "Eye of the Geiger",
+            "description": "Measure Russell with the Geiger counter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "SIDE_CATCH_AMMO_CLIP",
+            "name": "Mag-Snagger",
+            "description": "Catch Russell's ammo magazine before it hits the ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "TRACK_A2_HIDEOUT",
+            "name": "Sustenance",
+            "description": "Receive a tasty treat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "SIDE_SQUEEZE_HC_HEART",
+            "name": "Freshly Squeezed",
+            "description": "Test your grip on a headcrab heart.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "TRACK_A2_HEADCRABS_TUNNEL",
+            "name": "Zombie with a Shotgun",
+            "description": "Collect the shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "TRACK_A2_DRAINAGE",
+            "name": "Xen Garden",
+            "description": "Enter the explosive Xen infestation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "TRACK_A2_TRAIN_YARD",
+            "name": "Off the Rails",
+            "description": "Stop the prisoner transport train.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "TRACK_A3_STATION_STREET",
+            "name": "Checking In",
+            "description": "Reach the Northern Star.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "TRACK_A3_HOTEL_LOBBY_BASEMENT",
+            "name": "Heart-Breaker Hotel",
+            "description": "Get creative turning the hotel power back on.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "TRACK_A3_HOTEL_UNDERGROUND_PIT",
+            "name": "Surface Tension",
+            "description": "Escape the underground pit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "TRACK_A3_HOTEL_INTERIOR_ROOFTOP",
+            "name": "Unbonded",
+            "description": "Collect the SMG.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "TRACK_A3_HOTEL_STREET",
+            "name": "Cord-Cutter",
+            "description": "Shut down the substation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "TRACK_A3_C17_PROCESSING_PLANT",
+            "name": "Blast From the Past",
+            "description": "Defuse a roomful of explosive barrels.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "TRACK_A3_DISTILLERY_NOKILLBZ",
+            "name": "Sound Strategy",
+            "description": "Escape the distillery without killing Jeff.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "TRACK_A3_DISTILLERY_KILLBZ",
+            "name": "Flat Note",
+            "description": "Kill Jeff.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "SIDE_KILL_ANNOYING_HC",
+            "name": "Crustacean Frustration",
+            "description": "Kill the annoying headcrab before it breaks everything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "SIDE_CATCH_FALLING_BOTTLE",
+            "name": "Hold Your Liquor",
+            "description": "Catch a bottle falling out of a cupboard before it breaks and alerts Jeff.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "TRACK_A4_C17_ZOO",
+            "name": "Sea Level",
+            "description": "Reach the aquatic exhibits.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "TRACK_A4_C17_TANKER_YARD",
+            "name": "Triple Bypass",
+            "description": "Solve the tanker yard's electrical puzzle and escape.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "TRACK_A4_C17_WATER_TOWER",
+            "name": "High Water March",
+            "description": "Start climbing the water tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "TRACK_A4_C17_PARKING_GARAGE",
+            "name": "Textbook Jinxing",
+            "description": "Wake the Strider.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "TRACK_A5_VAULT",
+            "name": "Point Extraction",
+            "description": "Get to the superweapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "TRACK_A5_ENDING",
+            "name": "Consequences",
+            "description": "Make your choice (the ending).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "TRAINING_LOOT_ZOMBIE",
+            "name": "Dead Giveaway",
+            "description": "Loot a corpse.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "TRAINING_BREAK_ITEM_CRATE",
+            "name": "Smash and Grab",
+            "description": "Break open a supply crate with your hands.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "TRAINING_FIRST_PISTOL_UPGRADE",
+            "name": "Up in Arms",
+            "description": "Install your first pistol upgrade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "TRAINING_KILL_SOLDIER_WITH_GASTANK",
+            "name": "Pro-Pain",
+            "description": "Kill a grunt by shooting their gas tank.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "SKILL_KILL_CHARGER_WHILE_SHIELD_UP",
+            "name": "Indirect Approach",
+            "description": "Kill a Combine Heavy while their shield is up.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "TRAINING_LOOT_LIVING_SOLDIER",
+            "name": "Combine Harvester",
+            "description": "Use the gravity gloves to loot an item off a living Combine soldier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "TRAINING_STEAL_XEN_GRENADE",
+            "name": "Xen Lootism",
+            "description": "Snatch a Xen grenade from its resting place.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "SIDE_HACK_TRIPMINE",
+            "name": "Safe Trip",
+            "description": "Use the multitool to hack a tripmine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "SKILL_GGENEMY_GRENADE_MID_FLIGHT",
+            "name": "Deadliest Catch",
+            "description": "Use the gravity gloves to intercept an incoming enemy grenade in mid-flight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "SIDE_CLOSE_TO_BLIND_ZOMBIE",
+            "name": "Near-Jeff Experience",
+            "description": "Stay close to Jeff for 10 seconds - but not too close.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "SIDE_BRING_RUSSELL_VODKA",
+            "name": "Team Spirit",
+            "description": "Bring Russell a bottle of vodka.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "HIDDEN_CARRY_GNOME",
+            "name": "Gnome Vault of My Own",
+            "description": "Bring a garden gnome with you all the way to the Vault.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "GLOBAL_GNOME_ALONE",
+            "name": "Gnome Alone",
+            "description": "If you are reading this achievement, Gabe Newell has successfully launched Gnome Chompski into space. If you did not also receive the achievement 'Manufacturing Ascent', Newell has abandoned his plans to shoot Noam Chomsky into space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

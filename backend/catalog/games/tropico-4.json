@@ -1,0 +1,654 @@
+{
+    "id": 57690,
+    "steamAppId": 57690,
+    "name": "Tropico 4",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/57690/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 25,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Management",
+        "Political Sim",
+        "Strategy",
+        "Economy",
+        "Humor"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Survive a Coup",
+            "name": "Coup de Grace",
+            "description": "Suppress a Military Coup",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Survive an uprising",
+            "name": "Iron Fist",
+            "description": "Suppress an uprising",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Construct 1337 buildings",
+            "name": "Elitist",
+            "description": "Construct 1337 buildings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Money in Swiss account",
+            "name": "Filthy Rich",
+            "description": "Make $100 000 for your Swiss Bank account in a mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Roads and garages",
+            "name": "Heavy Traffic",
+            "description": "Construct at least 1000 meters of roads and 4 Garages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Population over 300 and no shacks",
+            "name": "Homes for Everyone",
+            "description": "Have population of over 300 and no Shacks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "200 buildings on one island",
+            "name": "Metropolis",
+            "description": "Construct 200 buildings on one island",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "20 soldiers and generals",
+            "name": "Militarist",
+            "description": "Have more than 20 soldiers and generals in one game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Earn 1 000 000 from tourism",
+            "name": "Paradise Island",
+            "description": "Earn $1 000 000 from tourism profits in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Export 1 000 000 from industry",
+            "name": "Top Exporter",
+            "description": "Earn $1 000 000 from industry in a single game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Finish a game high happiness",
+            "name": "Tropican Fiesta",
+            "description": "Finish a game with overall Happines of your citizens above 70%",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Finish a game Sandbox God mode",
+            "name": "God Complex",
+            "description": "Finish a Sandbox game in God mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Finish all tutorials",
+            "name": "Dictatorship for Dummies",
+            "description": "Finish all tutorial missions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Campaign milestone 1",
+            "name": "Tropico VS The World",
+            "description": "Reach the first milestone of the base campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Campaign milestone 2",
+            "name": "Scapegoat",
+            "description": "Reach the second milestone of the base campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Campaign milestone 3",
+            "name": "The Mastermind",
+            "description": "Reach the third milestone of the base campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Campaign milestone 4",
+            "name": "On Top of the World",
+            "description": "Complete the base campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "20 national tasks",
+            "name": "National Agenda",
+            "description": "Complete 20 agenda tasks in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "10 faction tasks",
+            "name": "Domestic Agenda",
+            "description": "Complete 10 Faction tasks in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "10 foreign tasks",
+            "name": "Foreign Agenda",
+            "description": "Complete 10 Foreign tasks in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Arrest 10 criminals",
+            "name": "War on Crime",
+            "description": "Arrest 10 Criminals in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Hire all ministers",
+            "name": "The Full Monty",
+            "description": "Have a full Ministry cabinet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Fire minister for a gaffe",
+            "name": "You are Fired!",
+            "description": "Fire a Minister because of his gaffe",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Your lucky day",
+            "name": "Your Lucky Day",
+            "description": "Hire an unemployed citizen as a Minister",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Clean oil spill fast",
+            "name": "The Golf Balls Solution",
+            "description": "Clean an Oil Spill in less than 4 months",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "Put out 10 fires in a mission",
+            "name": "Year Of the Dragon",
+            "description": "Put out 10 buildings on fire in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Survive 3 volcanic eruptions",
+            "name": "Old Faithful",
+            "description": "Survive 3 Volcanic eruptions in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Survive a tornado outbreak no casualties",
+            "name": "Tornado Valley",
+            "description": "Survive a Tornado Outbreak with no human casualties",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "No dry fields at the end of a drought",
+            "name": "Modern Agriculture",
+            "description": "Have no dry fields at the end of a Drought",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "Survive a tsunami no casualties",
+            "name": "Head for High Ground",
+            "description": "Survive a Tsunami with no human casualties",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "Unlock all blueprints",
+            "name": "Building Blues",
+            "description": "Unlock 20 Blueprints in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Generate power from nuclear plant",
+            "name": "The Power of the Atom",
+            "description": "Generate 1 000 MW of electricity in a Nuclear Power Plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Nuclear plant and nuclear program",
+            "name": "Nuclear Future",
+            "description": "Have a Nuclear Power Plant and a Nuclear Program built on your island",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Distribute 1000 luxury goods",
+            "name": "Made In China",
+            "description": "Distribute more than 1 000 Luxury Goods from a Shopping mall ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Upgraded Chemical plant",
+            "name": "Smells Like Chemistry",
+            "description": "Buy all upgrades for a Chemical Plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Earn money from Tropican art",
+            "name": "Mona Llama",
+            "description": "Earn more than $30 000 from selling Tropican art in a Museum of Modern Art",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Swiss account from customs office",
+            "name": "Special Taxes",
+            "description": "Gain $15 000 for your Swiss account from a Customs Office",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Have your clone die",
+            "name": "The Rumors of my Death...",
+            "description": "Have one of your clones die instead of you during an assassination attempt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Kill rebels with the Masuoleum trap",
+            "name": "It's a Trap!",
+            "description": "Kill 5 rebels at once with a trap in your Mausoleum",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Roller coaster aqua park ferris wheel",
+            "name": "Theme Park",
+            "description": "Have a Roller Coaster near a Ferris Wheel and an Aqua park",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Upgraded Weather station",
+            "name": "Prepared For Everything",
+            "description": "Buy all upgrades for a Weather Station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Dungeon and Colonial Museum",
+            "name": "Past and Present",
+            "description": "Have both a Dungeon and a Colonial Museum in the same mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Trait at level 5",
+            "name": "Competent",
+            "description": "Have Character Trait at level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Have 3 traits at level 5",
+            "name": "Specialist",
+            "description": "Have 3 Character Traits  at level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Have all traits at level 5",
+            "name": "Expert",
+            "description": "Have all Character Traits at level 5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Import 2000 food",
+            "name": "Foreign Cuisine",
+            "description": "Import 2 000 food",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Import 10 000 resources",
+            "name": "IMPORTant business",
+            "description": "Import 10 000 resources",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Kill Juanito",
+            "name": "Kill Juanito",
+            "description": "Issue an Execution order on a citizen called Juanito",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Quick build 10 constructions",
+            "name": "Instant Construction",
+            "description": "Issue the Quick-build command on 10 constructions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Survive 10 disasters",
+            "name": "Curse of the Llama",
+            "description": "Survive 10 disasters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Megalopolis",
+            "name": "Megalopolis",
+            "description": "Reach a population of 1000",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Touristico",
+            "name": "Touristico",
+            "description": "Have 10 hotels and 15 tourist attractions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Generalissimo",
+            "name": "Generalissimo",
+            "description": "Have a total of 100 Soldiers and Generals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Domestic Affairs",
+            "name": "Domestic Affairs",
+            "description": "Have maximum respect with all factions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Foreign Affairs",
+            "name": "Foreign Affairs",
+            "description": "Have maximum relations with all foreign powers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "Tropico for the Tropicans",
+            "name": "Tropico for the Tropicans",
+            "description": "Finish a sandbox game with the \"No immigrants\" option",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Down with the Tyrant",
+            "name": "Down with the Tyrant",
+            "description": "Finish a sandbox game with the \"Rebel Yell\" option",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "The Big House",
+            "name": "The Big House",
+            "description": "Have 40 inmates in your Prisons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "From Rags to Riches",
+            "name": "From Rags to Riches",
+            "description": "Have 30 Mansions and 10 Tenements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Philanthropist",
+            "name": "Philanthropist",
+            "description": "Issue the \"Tax Cut\" edict 10 times in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Finish expansion mission 1",
+            "name": "Crisis Measures",
+            "description": "Complete Modern Times campaign mission 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "Finish expansion mission 4",
+            "name": "The Conclave",
+            "description": "Complete Modern Times campaign mission 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "Finish expansion mission 6",
+            "name": "Averted World War 3",
+            "description": "Complete Modern Times campaign mission 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "Completed the expansion campaign",
+            "name": "Zeitgeist",
+            "description": "Complete the Modern Times expansion campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "Babel tower with 50 workers",
+            "name": "Office Space",
+            "description": "Have a Babel Tower with 50 employees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "Ziggurat with 50 families",
+            "name": "Better Than Tenements",
+            "description": "Have a Ziggurat with 50 families as tenants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "Have Presidency",
+            "name": "Capo Di Tutti Capi",
+            "description": "Renovate your Palace",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "4 Biofarms and 4 Organic ranches",
+            "name": "Going Green",
+            "description": "Build 4 Bio Farms and 4 Organic Ranches in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "Crystal Cathedral before 1990",
+            "name": "Heaven On Earth",
+            "description": "Build a Diamond Cathedral before 1990",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "Have Aerodrome and SevenStar hotel",
+            "name": "A Better Tourist Trap",
+            "description": "Build an Aerodrome and a Seven-star hotel in a single mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
