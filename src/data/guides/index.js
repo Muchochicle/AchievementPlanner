@@ -848,6 +848,9 @@ import { GUIDE as chronoArkAchievementGuide } from "./games/chrono-ark.js";
 import { GUIDE as superMeatBoyAchievementGuide } from "./games/super-meat-boy.js";
 import { GUIDE as persona4GoldenAchievementGuide } from "./games/persona-4-golden.js";
 import { GUIDE as darkSoulsIiScholarOfTheFirstSinAchievementGuide } from "./games/dark-souls-ii-scholar-of-the-first-sin.js";
+import { GUIDE as theElderScrollsIvOblivionRemasteredAchievementGuide } from "./games/the-elder-scrolls-iv-oblivion-remastered.js";
+import { GUIDE as starfieldAchievementGuide } from "./games/starfield.js";
+import { GUIDE as frostpunk2AchievementGuide } from "./games/frostpunk-2.js";
 
 export const APP_GUIDES = [
 
@@ -878,6 +881,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  frostpunk2AchievementGuide,
+  starfieldAchievementGuide,
+  theElderScrollsIvOblivionRemasteredAchievementGuide,
   darkSoulsIiScholarOfTheFirstSinAchievementGuide,
   persona4GoldenAchievementGuide,
   superMeatBoyAchievementGuide,

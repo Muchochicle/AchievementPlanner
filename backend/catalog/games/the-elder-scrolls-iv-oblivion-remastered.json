@@ -1,0 +1,564 @@
+{
+    "id": 2623190,
+    "steamAppId": 2623190,
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2623190/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Open World",
+        "RPG",
+        "Fantasy",
+        "Singleplayer",
+        "First Person",
+        "Moddable"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Main_EscapedTheImperialSewers",
+            "name": "Escaped the Imperial Sewers",
+            "description": "Escaped the Imperial Sewers, Main Quest Beginning",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Main_ClosedAnOblivionGate",
+            "name": "Closed an Oblivion Gate",
+            "description": "Closed an Oblivion Gate, Main Quest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "Main_LocatedTheShrineOfDragon",
+            "name": "Located the Shrine of Dagon",
+            "description": "Located the Shrine of Dagon, Main Quest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Main_DeliveredDaedricArtifact",
+            "name": "Delivered Daedric Artifact",
+            "description": "Delivered Daedric Artifact, Main Quest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Main_DestroyedTheGreatGate",
+            "name": "Destroyed the Great Gate",
+            "description": "Destroyed the Great Gate, Main Quest",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Main_ChampionOfCyrodiil",
+            "name": "Champion of Cyrodiil",
+            "description": "Completed the Main Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Brother_Murderer",
+            "name": "Murderer, Dark Brotherhood",
+            "description": "Join the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Brother_Slayer",
+            "name": "Slayer, Dark Brotherhood",
+            "description": "Reached Slayer rank in the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Brother_Eliminator",
+            "name": "Eliminator, Dark Brotherhood",
+            "description": "Reached Eliminator rank in the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Brother_Assassin",
+            "name": "Assassin, Dark Brotherhood",
+            "description": "Reached Assassin rank in the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "Brother_Silencer",
+            "name": "Silencer, Dark Brotherhood",
+            "description": "Reached Silencer rank in the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Brother_Speaker",
+            "name": "Speaker, Dark Brotherhood",
+            "description": "Reached Speaker rank in the Dark Brotherhood",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Brother_Listener",
+            "name": "Listener, Dark Brotherhood",
+            "description": "Completed the Dark Brotherhood Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "Arena_PitDog",
+            "name": "Pit Dog, Arena",
+            "description": "Joined the Arena in the Imperial City",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Arena_Brawler",
+            "name": "Brawler, Arena",
+            "description": "Reached Brawler rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Arena_Bloodletter",
+            "name": "Bloodletter, Arena",
+            "description": "Reached Bloodletter rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "Arena_Myrmidon",
+            "name": "Myrmidon, Arena",
+            "description": "Reached Myrmidon rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Arena_Warrior",
+            "name": "Warrior, Arena",
+            "description": "Reached Warrior rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Arena_Gladiator",
+            "name": "Gladiator, Arena",
+            "description": "Reached Gladiator rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Arena_Hero",
+            "name": "Hero, Arena",
+            "description": "Reached Hero rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "Arena_Champion",
+            "name": "Champion, Arena",
+            "description": "Reached Champion rank in the Arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "Arena_GrandChampion",
+            "name": "Grand Champion, Arena",
+            "description": "Completed the Arena Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "Thief_Pickpocket",
+            "name": "Pickpocket, Thieves Guild",
+            "description": "Joined the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "Thief_Footpad",
+            "name": "Footpad, Thieves Guild",
+            "description": "Reached Footpad rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "Thief_Bandit",
+            "name": "Bandit, Thieves Guild",
+            "description": "Reached Bandit rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "Thief_Prowler",
+            "name": "Prowler, Thieves Guild",
+            "description": "Reached Prowler rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Thief_CatBurglar",
+            "name": "Cat Burglar, Thieves Guild",
+            "description": "Reached Cat Burglar rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Thief_Shadowfoot",
+            "name": "Shadowfoot, Thieves Guild",
+            "description": "Reached Shadowfoot rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Thief_MasterThief",
+            "name": "Master Thief, Thieves Guild",
+            "description": "Reached Master Thief rank in the Thieves Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "Thief_Guildmaster",
+            "name": "Guildmaster, Thieves Guild",
+            "description": "Completed the Thieves Guild Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "Mage_Associate",
+            "name": "Associate, Mages Guild",
+            "description": "Joined the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Mage_Apprentice",
+            "name": "Apprentice, Mages Guild",
+            "description": "Reached Apprentice rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "Mage_Journeyman",
+            "name": "Journeyman, Mages Guild",
+            "description": "Reached Journeyman rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Mage_Evoker",
+            "name": "Evoker, Mages Guild",
+            "description": "Reached Evoker rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Mage_Conjurer",
+            "name": "Conjurer, Mages Guild",
+            "description": "Reached Conjurer rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Mage_Magician",
+            "name": "Magician, Mages Guild",
+            "description": "Reached Magician rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Mage_Warlock",
+            "name": "Warlock, Mages Guild",
+            "description": "Reached Warlock rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Mage_Wizard",
+            "name": "Wizard, Mages Guild",
+            "description": "Reached Wizard rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Mage_MasterWizard",
+            "name": "Master-Wizard, Mages Guild",
+            "description": "Reached Master-Wizard rank in the Mages Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Mage_ArchMage",
+            "name": "Arch-Mage, Mages Guild",
+            "description": "Completed the Mages Guild Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Fighter_Associate",
+            "name": "Associate, Fighters Guild",
+            "description": "Joined the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Fighter_Apprentice",
+            "name": "Apprentice, Fighters Guild",
+            "description": "Reached Apprentice rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Fighter_Journeyman",
+            "name": "Journeyman, Fighters Guild",
+            "description": "Reached Journeyman rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Fighter_Swordsman",
+            "name": "Swordsman, Fighters Guild",
+            "description": "Reached Swordsman rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Fighter_Protector",
+            "name": "Protector, Fighters Guild",
+            "description": "Reached Protector rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Fighter_Defender",
+            "name": "Defender, Fighters Guild",
+            "description": "Reached Defender rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "Fighter_Warder",
+            "name": "Warder, Fighters Guild",
+            "description": "Reached Warder rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Fighter_Guardian",
+            "name": "Guardian, Fighters Guild",
+            "description": "Reached Guardian rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "Fighter_Champion",
+            "name": "Champion, Fighters Guild",
+            "description": "Reached Champion rank in the Fighters Guild",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Fighter_Master",
+            "name": "Master, Fighters Guild",
+            "description": "Completed the Fighters Guild Questline",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "Isles_Tourist",
+            "name": "Tourist, Shivering Isles",
+            "description": "Entered the Shivering Isles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Isles_Aspirant",
+            "name": "Aspirant, Shivering Isles",
+            "description": "Reached Aspirant Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Isles_Citizen",
+            "name": "Citizen, Shivering Isles",
+            "description": "Reached Citizen Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Isles_Madman",
+            "name": "Madman, Shivering Isles",
+            "description": "Reached Madman Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "Isles_HonoredMadman",
+            "name": "Honored Madman, Shivering Isles",
+            "description": "Reached Honored Madman Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "Isles_DukeDementia",
+            "name": "Duke Dementia, Shivering Isles",
+            "description": "Reached Duke of Dementia Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "Isles_DukeMania",
+            "name": "Duke Mania, Shivering Isles",
+            "description": "Reached Duke of Mania Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "Isles_Regent",
+            "name": "Regent, Shivering Isles",
+            "description": "Reached Regent Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Isles_Defender",
+            "name": "Defender, Shivering Isles",
+            "description": "Reached Defender of the Realm Rank in the Court of Madness",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Isles_Madgod",
+            "name": "Madgod, Shivering Isles",
+            "description": "Stopped the Greymarch",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

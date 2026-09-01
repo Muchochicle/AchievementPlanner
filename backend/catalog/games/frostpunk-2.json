@@ -1,0 +1,735 @@
+{
+    "id": 1601580,
+    "steamAppId": 1601580,
+    "name": "Frostpunk 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg",
+    "difficulty": 6,
+    "completionTime": {
+        "min": 30,
+        "max": 70
+    },
+    "missable": true,
+    "playthroughs": 4,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Survival",
+        "Strategy",
+        "Society Sim",
+        "Dark",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FrostCity",
+            "name": "FrostCity",
+            "description": "Have at least 5 different area effects applied to the district",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "Planner",
+            "name": "Urban Planner",
+            "description": "Have 10 districts affected by hubs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "SneakPeek",
+            "name": "Sneak a Peek",
+            "description": "See 10 different situations near a district hub (zoom into a district and let situations appear before resolving them).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "Feedback",
+            "name": "Thank you for your feedback",
+            "description": "Disregard a community's requested solution to a situation 5 times in one playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "Revered",
+            "name": "Revered Leader",
+            "description": "Have \"Devoted\" relations with all communities and factions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "Pork",
+            "name": "Pork Barrel",
+            "description": "Fulfil at least 1 promise to 5 different communities and factions in one playthrough",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "Likeable",
+            "name": "Likeable",
+            "description": "Never have relations worse than Sceptical with any community or faction.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "Lawmaker",
+            "name": "Lawmaker",
+            "description": "Pass at least 20 new laws in a single playthrough",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "Democrat",
+            "name": "Checks and balances",
+            "description": "Complete the Story without passing any Rule laws on at least Captain difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "Unanimity",
+            "name": "No-brainer",
+            "description": "Have 100% of delegates vote in favour of any law",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 11,
+            "apiname": "Expansionist",
+            "name": "Settler",
+            "description": "Set up 3 colonies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "Isolate",
+            "name": "Isolationist",
+            "description": "Complete a playthrough without gathering any resources from the frostland or colonies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "Power20",
+            "name": "Power Overwhelming 2.0",
+            "description": "Have twice as much heat abundance as heat demand across the city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "GreenPower",
+            "name": "Green Power",
+            "description": "Fulfil at least 300 Heat demand using Steam and have absent Squalor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "Consistency",
+            "name": "Consistency",
+            "description": "Never research a building or pass a law of the opposite affinity to the one you already have",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "Oxbridge",
+            "name": "New Oxbridge",
+            "description": "Double starting Research speed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "NoDeaths",
+            "name": "Not on my watch",
+            "description": "Complete a playthrough without any avoidable deaths",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "Trusted",
+            "name": "People person",
+            "description": "Have maximum trust",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "Paradise",
+            "name": "Paradise City",
+            "description": "Have all problems absent for 50 weeks in the City with at least 15k population",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "Beginning",
+            "name": "The End is Just the Beginning",
+            "description": "In the prologue, make sure the Wanderers survive the Whiteout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "NoEvil",
+            "name": "No lesser evil",
+            "description": "In the prologue, ensure the Wanderers survive by saving the seals and without driving away the elders (no Seal Colony food extraction, no expelling elders).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "NLStory",
+            "name": "The Ambitions of New London",
+            "description": "Complete the Story on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "NLChallenge",
+            "name": "The Temptations of New London",
+            "description": "Complete the Story on at least Steward difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "NLLegacy",
+            "name": "The Demons of New London",
+            "description": "Complete the Story on Captain difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "AnotherDay",
+            "name": "Another day in paradise",
+            "description": "Complete a playthrough in Utopia Builder mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "Ambitious",
+            "name": "Ambitious",
+            "description": "Complete all Ambitions in Utopia Builder mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "Coredigger",
+            "name": "Coredigger",
+            "description": "In the New London story (Winterhome chapter), salvage all core deposits in Winterhome before toxic gases engulf the city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "Plumber",
+            "name": "Plumber",
+            "description": "In the New London story (Winterhome chapter, Settle Winterhome path), clog all gas sources before the first rise of toxicity, on at least Steward difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "Storm",
+            "name": "Bring it on!",
+            "description": "Complete the 'Defeat the Frost' or 'Embrace the Frost' research path before the Whiteout arrives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "DontStarve",
+            "name": "Don't starve",
+            "description": "Have no Hunger in New London for the entire duration of the Whiteout.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "FirmButCivil",
+            "name": "Firm, But Civil",
+            "description": "No deaths caused by Civil War during the whole game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "Bankster",
+            "name": "Chancellor of the Exchequer",
+            "description": "Have at least 50 income of heatstamps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "MovingOut",
+            "name": "Moving out",
+            "description": "Have a banished faction leave New London of their own accord (give them a colony with basic provisions rather than forcing them out).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "Anger",
+            "name": "Anger management",
+            "description": "Complete a playthrough without letting any faction's Fervour reach its maximum level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "Bonfire",
+            "name": "Bonfire",
+            "description": "Don't let Civil War spread over 5 or more districts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Confident",
+            "name": "Primus inter pares",
+            "description": "Never be in danger of losing your position due to low Trust or high Tension",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "Democracy",
+            "name": "I love democracy",
+            "description": "Have no votes against Captain's Authority policy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "Megalopolis",
+            "name": "Megalopolis",
+            "description": "Reach over 60,000 population in your main city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "Expanse",
+            "name": "… and fill the earth",
+            "description": "Reach over 50,000 population outside of your main city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "Peacemaker",
+            "name": "Peacemaker",
+            "description": "End the civil war through the Path of Reconciliation (negotiate peace with both sides).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "Progress",
+            "name": "Can't stop progress",
+            "description": "Have Squalor Absent despite having at least 1000 Material Demand",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "Adaptation",
+            "name": "Adapted to Weather",
+            "description": "Have Disease Absent and Cold Absent for 20 weeks, when there is at least -100 Celsius degrees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "Order",
+            "name": "Law and Order",
+            "description": "Have Crime and Tension Absent in the City with at least 30k population",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "Change",
+            "name": "Visionary",
+            "description": "Research 60 different ideas under 600 weeks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "Equality",
+            "name": "To each according to his needs",
+            "description": "Have at least 20k heatstamps and over 200k Goods stockpile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "Merit",
+            "name": "Idle Hands are the Devil's Playthings",
+            "description": "Have at least 90% of the population be active workers in your city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "AllFactions",
+            "name": "We Are Not The Same",
+            "description": "Meet all factions in Utopia Builder mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "Colonist",
+            "name": "Quiet Backwater",
+            "description": "Have no problem higher than Minor in a colony for 300 consecutive weeks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "StewardLittle",
+            "name": "Steward Little",
+            "description": "Have negative relations with every community and faction at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "Mixed",
+            "name": "Mixed Signals",
+            "description": "Have rallies and protests in the City at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "DifferentPlace",
+            "name": "There is No Final Design",
+            "description": "Enact a law, replace it with another from the same category, then pass the original law again.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "Beacon",
+            "name": "Guiding Light",
+            "description": "Complete the ‘Beacon of Hope’ Tale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "Apocalyptic",
+            "name": "Apocalypse Nah",
+            "description": "Complete the ‘Apocalyptic Whiteout’ Tale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "Depleted",
+            "name": "Raiders of the Lost Cores",
+            "description": "Complete the ‘Depleted Cores’ Tale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ThreeAtOnce",
+            "name": "Born Ready",
+            "description": "Complete three Tales in a single playthrough on at least Steward difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "BeaconExtra",
+            "name": "No One Left Behind",
+            "description": "Complete the ‘Beacon of Hope’ Tale without any deaths on at least Steward difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ApocalypticExtra",
+            "name": "Seen Worse",
+            "description": "Complete ‘Apocalyptic Whiteout’ without Hunger and Disease over Minor on at least Steward difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "DepletedExtra",
+            "name": "Gotta Go Fast",
+            "description": "Complete the ‘Depleted Cores’ Tale under 200 weeks on at least Steward difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "Healer",
+            "name": "Healer",
+            "description": "Complete the 'Plague' Tale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "Optimist",
+            "name": "Optimist",
+            "description": "Complete the 'Doomsayers' Tale",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "Wrong",
+            "name": "Prove Them Wrong",
+            "description": "Complete the 'Doomsayers' Tale without ever triggering the Tension or Trust crises.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "MiracleWorker",
+            "name": "Miracle Worker",
+            "description": "Complete the 'Plague' Tale without suffering any death from the plague",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "SmallStep",
+            "name": "A Small Step...",
+            "description": "Unlock a Utopia Tree Node",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ApexPredator",
+            "name": "Apex Predator",
+            "description": "Survive until week 500 without building a single Extraction District (Icebloods' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "Pinot",
+            "name": "π not?",
+            "description": "Generate exactly 314 Compute (Technocrats' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "Artinruins",
+            "name": "Art in Ruins",
+            "description": "Survive 100 weeks with 50% Wear in at least 20 Districts (Bohemians' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "IRemember",
+            "name": "I Remember",
+            "description": "Display 130 Mementos (Overseers' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "TrickleDownEconomics",
+            "name": "Trickle-Down Economics",
+            "description": "Generate at least 1 Heatstamp Income per 100 Citizens (Venturers' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ReindeerArePeople",
+            "name": "Got Milk?",
+            "description": "Survive until week 500 without building a single Food District (Menders' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ProteanShake",
+            "name": "Protean Shake",
+            "description": "Have a Workforce 2x your Population size without any Automaton Factory (Proteans' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "FullyDeployed",
+            "name": "Fully Deployed",
+            "description": "Reach week 500 without ever Frostbreaking or demolishing a Deployment Base (Legionnaires' Utopia)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "FinishS2Act1",
+            "name": "We're So Back",
+            "description": "In the 'Breach of Trust' scenario, regain access to Aurora.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "FinishS2Act2",
+            "name": "Who Saw That Coming?",
+            "description": "In the 'Breach of Trust' scenario, remain in power in New Edinburgh until the mountain awakes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "FinishS2Story",
+            "name": "What Dreams May Come",
+            "description": "Finish the 'Breach of Trust' scenario",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "Evacuation",
+            "name": "Way Ahead of You",
+            "description": "In the 'Breach of Trust' scenario, evacuate everybody and everything valuable before the final eruption.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "Comeback",
+            "name": "Comeback Kid",
+            "description": "Have 'Reviled' level of Trust and then win the next First Citizen Election",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "FlawlessVictory",
+            "name": "Flawless Victory",
+            "description": "In the 'Breach of Trust' scenario, conquer Aurora without losing a single battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "Prepper",
+            "name": "Prepper",
+            "description": "In the 'Breach of Trust' scenario, ensure no one dies during the tremors in New Edinburgh up until the first eruption.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "S2StoryNoDeaths",
+            "name": "Pure Dead Brilliant",
+            "description": "Finish the 'Breach of Trust' scenario without any deaths (on at least Steward difficulty)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

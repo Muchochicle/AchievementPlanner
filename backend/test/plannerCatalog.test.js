@@ -872,6 +872,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("super-meat-boy"));
     assert.ok(slugs.includes("persona-4-golden"));
     assert.ok(slugs.includes("dark-souls-ii-scholar-of-the-first-sin"));
+    assert.ok(slugs.includes("the-elder-scrolls-iv-oblivion-remastered"));
+    assert.ok(slugs.includes("starfield"));
+    assert.ok(slugs.includes("frostpunk-2"));
 
 });
 
