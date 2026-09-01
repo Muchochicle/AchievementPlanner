@@ -803,6 +803,9 @@ import { GUIDE as eldenRingNightreignAchievementGuide } from "./games/elden-ring
 import { GUIDE as finalFantasyViiRemakeIntergradeAchievementGuide } from "./games/final-fantasy-vii-remake-intergrade.js";
 import { GUIDE as nierAutomataAchievementGuide } from "./games/nier-automata.js";
 import { GUIDE as sonsOfTheForestAchievementGuide } from "./games/sons-of-the-forest.js";
+import { GUIDE as ghostOfTsushimaDirectorsCutAchievementGuide } from "./games/ghost-of-tsushima-directors-cut.js";
+import { GUIDE as controlUltimateEditionAchievementGuide } from "./games/control-ultimate-edition.js";
+import { GUIDE as ratchetAndClankRiftApartAchievementGuide } from "./games/ratchet-and-clank-rift-apart.js";
 
 export const APP_GUIDES = [
 
@@ -833,6 +836,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  ratchetAndClankRiftApartAchievementGuide,
+  controlUltimateEditionAchievementGuide,
+  ghostOfTsushimaDirectorsCutAchievementGuide,
   sonsOfTheForestAchievementGuide,
   nierAutomataAchievementGuide,
   finalFantasyViiRemakeIntergradeAchievementGuide,

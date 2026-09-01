@@ -827,6 +827,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("final-fantasy-vii-remake-intergrade"));
     assert.ok(slugs.includes("nier-automata"));
     assert.ok(slugs.includes("sons-of-the-forest"));
+    assert.ok(slugs.includes("ghost-of-tsushima-directors-cut"));
+    assert.ok(slugs.includes("control-ultimate-edition"));
+    assert.ok(slugs.includes("ratchet-and-clank-rift-apart"));
 
 });
 
