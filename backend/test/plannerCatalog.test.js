@@ -848,6 +848,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-come-deliverance-ii"));
     assert.ok(slugs.includes("danganronpa-trigger-happy-havoc"));
     assert.ok(slugs.includes("call-of-duty-black-ops-iii"));
+    assert.ok(slugs.includes("danganronpa-2-goodbye-despair"));
+    assert.ok(slugs.includes("the-final-station"));
+    assert.ok(slugs.includes("rhythm-doctor"));
 
 });
 

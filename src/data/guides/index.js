@@ -824,6 +824,9 @@ import { GUIDE as jurassicWorldEvolution2AchievementGuide } from "./games/jurass
 import { GUIDE as kingdomComeDeliveranceIiAchievementGuide } from "./games/kingdom-come-deliverance-ii.js";
 import { GUIDE as danganronpaTriggerHappyHavocAchievementGuide } from "./games/danganronpa-trigger-happy-havoc.js";
 import { GUIDE as callOfDutyBlackOpsIiiAchievementGuide } from "./games/call-of-duty-black-ops-iii.js";
+import { GUIDE as danganronpa2GoodbyeDespairAchievementGuide } from "./games/danganronpa-2-goodbye-despair.js";
+import { GUIDE as theFinalStationAchievementGuide } from "./games/the-final-station.js";
+import { GUIDE as rhythmDoctorAchievementGuide } from "./games/rhythm-doctor.js";
 
 export const APP_GUIDES = [
 
@@ -854,6 +857,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  rhythmDoctorAchievementGuide,
+  theFinalStationAchievementGuide,
+  danganronpa2GoodbyeDespairAchievementGuide,
   callOfDutyBlackOpsIiiAchievementGuide,
   danganronpaTriggerHappyHavocAchievementGuide,
   kingdomComeDeliveranceIiAchievementGuide,
