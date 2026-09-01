@@ -863,6 +863,9 @@ import { GUIDE as twoPointCampusAchievementGuide } from "./games/two-point-campu
 import { GUIDE as farthestFrontierAchievementGuide } from "./games/farthest-frontier.js";
 import { GUIDE as cryptCustodianAchievementGuide } from "./games/crypt-custodian.js";
 import { GUIDE as mulletMadjackAchievementGuide } from "./games/mullet-madjack.js";
+import { GUIDE as starTruckerAchievementGuide } from "./games/star-trucker.js";
+import { GUIDE as ufo50AchievementGuide } from "./games/ufo-50.js";
+import { GUIDE as sengokuDynastyAchievementGuide } from "./games/sengoku-dynasty.js";
 
 export const APP_GUIDES = [
 
@@ -893,6 +896,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  sengokuDynastyAchievementGuide,
+  ufo50AchievementGuide,
+  starTruckerAchievementGuide,
   mulletMadjackAchievementGuide,
   cryptCustodianAchievementGuide,
   farthestFrontierAchievementGuide,
