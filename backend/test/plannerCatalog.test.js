@@ -866,6 +866,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("nier-replicant-ver-1-22474487139"));
     assert.ok(slugs.includes("a-plague-tale-innocence"));
     assert.ok(slugs.includes("we-were-here-too"));
+    assert.ok(slugs.includes("dying-light-2"));
+    assert.ok(slugs.includes("greedfall"));
+    assert.ok(slugs.includes("chrono-ark"));
 
 });
 

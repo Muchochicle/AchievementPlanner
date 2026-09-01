@@ -842,6 +842,9 @@ import { GUIDE as tropico4AchievementGuide } from "./games/tropico-4.js";
 import { GUIDE as nierReplicantVer122474487139AchievementGuide } from "./games/nier-replicant-ver-1-22474487139.js";
 import { GUIDE as aPlagueTaleInnocenceAchievementGuide } from "./games/a-plague-tale-innocence.js";
 import { GUIDE as weWereHereTooAchievementGuide } from "./games/we-were-here-too.js";
+import { GUIDE as dyingLight2AchievementGuide } from "./games/dying-light-2.js";
+import { GUIDE as greedfallAchievementGuide } from "./games/greedfall.js";
+import { GUIDE as chronoArkAchievementGuide } from "./games/chrono-ark.js";
 
 export const APP_GUIDES = [
 
@@ -872,6 +875,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  chronoArkAchievementGuide,
+  greedfallAchievementGuide,
+  dyingLight2AchievementGuide,
   weWereHereTooAchievementGuide,
   aPlagueTaleInnocenceAchievementGuide,
   nierReplicantVer122474487139AchievementGuide,

@@ -1,0 +1,591 @@
+{
+    "id": 606880,
+    "steamAppId": 606880,
+    "name": "GreedFall",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/606880/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 30,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "RPG",
+        "Open World",
+        "Choices Matter",
+        "Story Rich",
+        "Fantasy",
+        "Action RPG"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FinishPrologue",
+            "name": "All sails set!",
+            "description": "Travel to Teer Fradee (finish the prologue).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "FinishMQ05",
+            "name": "The Prince's secrets",
+            "description": "Discover the secret of the Congregation and your origins.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "FinishMQ11A",
+            "name": "Missed coup",
+            "description": "Prevent the Coin Guard from attempting a coup.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "FinishMQ11B",
+            "name": "Betrayal in blood",
+            "description": "Kill the companion who betrays you during the Treason quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "FinishMQ12A",
+            "name": "In the name of the Enlightened",
+            "description": "Save Theleme during the coup attempt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "FinishMQ12B",
+            "name": "A preserved Alliance",
+            "description": "Save San Matheus during the coup attempt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "FinishMQ14",
+            "name": "Waterproof",
+            "description": "Pass Glendan's test.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "FinishMQ19",
+            "name": "Outside the stone prison",
+            "description": "Free Constantin from the claws of Vinbarr.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "FinishMQ21",
+            "name": "Influence game",
+            "description": "Influence the election so your favoured candidate becomes high king.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "FinishMQ22",
+            "name": "En on míl frichtimen",
+            "description": "Enter the shrine and speak to En on mil frichtimen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "FinishMQ25",
+            "name": "Something is rotten",
+            "description": "Discover Constantin's actions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "FullAllianceMQ27",
+            "name": "All for one, one for all!",
+            "description": "Unite all of the factions against Constantin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "EndingPositive",
+            "name": "A better world",
+            "description": "Reach the 'A better world' ending (reconcile all factions).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "EndingNegativeOldLand",
+            "name": "Back to the roots",
+            "description": "Reach the 'Back to the roots' ending (the natives banish the others from the island).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "EndingNeutral",
+            "name": "A big step towards peace",
+            "description": "Reach the 'A big step towards peace' ending (kill Constantin, missing one or two alliances).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "EndingNegative",
+            "name": "Island for sale",
+            "description": "Reach the 'Island for sale' ending (favour the old world over the natives).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "EndingChaos",
+            "name": "New gods",
+            "description": "Reach the 'New gods' ending (unite with Constantin).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "FinishExtreme",
+            "name": "A passion for extreme",
+            "description": "Complete the game in extreme mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "FinishSideQuests",
+            "name": "Serve to convince",
+            "description": "Complete 20 secondary quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "FinishCompQuests",
+            "name": "Friendship above all",
+            "description": "Finish all companion quests",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "RomanceKurt",
+            "name": "Guardian of love",
+            "description": "Be in a relationship with Kurt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "RomanceSiora",
+            "name": "Minundhanem",
+            "description": "Be in a relationship with Siora",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "RomanceAphra",
+            "name": "Love and botany",
+            "description": "Be in a relationship with Aphra",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "RomanceVasco",
+            "name": "Love and the sea",
+            "description": "Be in a relationship with Vasco",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "FinishArena",
+            "name": "Arena Excellence",
+            "description": "Succeed in all the challenges of the arena",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "NativeReputationFull",
+            "name": "Carants",
+            "description": "Have a good reputation with the natives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ThelemeReputationFull",
+            "name": "Thélème's chosen",
+            "description": "Have a good reputation with Thélème",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "BridgeReputationFull",
+            "name": "Favoured with the Bridge Alliance",
+            "description": "Have a good reputation with the Bridge Alliance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "UnlockAllCamps",
+            "name": "Explorer",
+            "description": "Find and set all camp fires",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "HitMelee",
+            "name": "Melee virtuoso",
+            "description": "Do damage 500 times with a melee weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "HitMagicOffensive",
+            "name": "War mage",
+            "description": "Do damage 500 times with an offensive spell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "HitShoot",
+            "name": "Musketeer",
+            "description": "Do damage 300 times with shots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "HitTraps",
+            "name": "Deceitful",
+            "description": "Do damage 200 times with traps",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "HitPoison",
+            "name": "Poisoning artist",
+            "description": "Poison enemies 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "PotionUse",
+            "name": "Another sip?",
+            "description": "Use 50 potions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "Assassinate",
+            "name": "Shadow blade",
+            "description": "Use your assassination skills 30 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "KillGuardian1",
+            "name": "Master of the woods",
+            "description": "Defeat the forest region Guardian (a Nadaig superboss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "KillGuardian2",
+            "name": "King of the peaks",
+            "description": "Defeat the mountain region Guardian (a Nadaig superboss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "KillGuardian3",
+            "name": "Swamp creature",
+            "description": "Defeat the swamp region Guardian (a Nadaig superboss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "KillGuardian4",
+            "name": "The wrecker",
+            "description": "Defeat the coastal region Guardian (a Nadaig superboss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "KillGuardian5",
+            "name": "The legend of the plains",
+            "description": "Defeat the plains region Guardian (a Nadaig superboss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "KillAnimals",
+            "name": "Hunting with hounds",
+            "description": "Hunt 20 animals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "KillMonsters",
+            "name": "The monsters' nightmare",
+            "description": "Kill 600 monsters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "KillHumans",
+            "name": "Coercive diplomacy",
+            "description": "Kill 300 humans",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "LootChests",
+            "name": "Full pockets",
+            "description": "Empty 100 containers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "CollectRessources",
+            "name": "Curiosity cabinet",
+            "description": "Collect ingredients 200 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "FirstLegendary",
+            "name": "Worthy of legends",
+            "description": "Acquire a legendary item",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 48,
+            "apiname": "FirstSkill",
+            "name": "In the footsteps of the masters",
+            "description": "Unlock a new skill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "WarriorSkillFull",
+            "name": "The art of war",
+            "description": "Unlock all the warrior skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "TechniqueSkillFull",
+            "name": "Incomparable technique",
+            "description": "Unlock all Technical skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "MagicSkillFull",
+            "name": "Magical perfection",
+            "description": "Unlock all Magic skills",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "FirstTalent",
+            "name": "Full of talent",
+            "description": "Allocate a new talent point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "FullTalentUnlocked",
+            "name": "Expertise",
+            "description": "Unlock the 3 levels of a talent",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "UnlockThings",
+            "name": "Cat burglar",
+            "description": "Pick 20 locks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "CraftEquipements",
+            "name": "Artisan",
+            "description": "Craft 10 equipment improvements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "CraftAlchemy",
+            "name": "Alchemist",
+            "description": "Craft 10 alchemical elements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "FirstAttribute",
+            "name": "On the path to power",
+            "description": "Allocate a new attribute point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "FullAttributeUnlocked",
+            "name": "In search of perfection",
+            "description": "Unlock the 5 levels of an attribute",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "KillMonstersEE",
+            "name": "Wildcat Hunter",
+            "description": "Kill 20 Egsregatts",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "GearsEE",
+            "name": "Unique Weapons",
+            "description": "Find all unique weapons hidden in the Aidág ol creidaw region",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "SQCM01EE",
+            "name": "A Dangerous Fiancée",
+            "description": "(De Vespe Conspiracy DLC) Bring the chest back to Aurelia De Vespe.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "SQCMFinishEE",
+            "name": "Cancelled Wedding",
+            "description": "(De Vespe Conspiracy DLC) Put an end to Aurelia De Vespe's schemes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "SQCMAllFilesEE",
+            "name": "De Vespe Secret Archives",
+            "description": "(De Vespe Conspiracy DLC) Collect all of the notes during the DLC quest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
