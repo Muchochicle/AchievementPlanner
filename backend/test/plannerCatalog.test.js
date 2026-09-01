@@ -764,6 +764,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("windblown"));
     assert.ok(slugs.includes("get-in-the-car-loser"));
     assert.ok(slugs.includes("promise-mascot-agency"));
+    assert.ok(slugs.includes("despelote"));
+    assert.ok(slugs.includes("fatal-fury-city-of-the-wolves"));
+    assert.ok(slugs.includes("wizardry-proving-grounds-of-the-mad-overlord"));
 
 });
 

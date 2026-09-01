@@ -740,6 +740,9 @@ import { GUIDE as mycopunkAchievementGuide } from "./games/mycopunk.js";
 import { GUIDE as windblownAchievementGuide } from "./games/windblown.js";
 import { GUIDE as getInTheCarLoserAchievementGuide } from "./games/get-in-the-car-loser.js";
 import { GUIDE as promiseMascotAgencyAchievementGuide } from "./games/promise-mascot-agency.js";
+import { GUIDE as despeloteAchievementGuide } from "./games/despelote.js";
+import { GUIDE as fatalFuryCityOfTheWolvesAchievementGuide } from "./games/fatal-fury-city-of-the-wolves.js";
+import { GUIDE as wizardryProvingGroundsOfTheMadOverlordAchievementGuide } from "./games/wizardry-proving-grounds-of-the-mad-overlord.js";
 
 export const APP_GUIDES = [
 
@@ -1502,7 +1505,10 @@ export const GAME_GUIDES = [
     mycopunkAchievementGuide,
     windblownAchievementGuide,
     getInTheCarLoserAchievementGuide,
-    promiseMascotAgencyAchievementGuide
+    promiseMascotAgencyAchievementGuide,
+    despeloteAchievementGuide,
+    fatalFuryCityOfTheWolvesAchievementGuide,
+    wizardryProvingGroundsOfTheMadOverlordAchievementGuide
 
 ];
 
