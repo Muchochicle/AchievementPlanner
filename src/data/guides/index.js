@@ -892,6 +892,9 @@ import { GUIDE as nightmareReaperAchievementGuide } from "./games/nightmare-reap
 import { GUIDE as teardownAchievementGuide } from "./games/teardown.js";
 import { GUIDE as fromTheDepthsAchievementGuide } from "./games/from-the-depths.js";
 import { GUIDE as instrumentsOfDestructionAchievementGuide } from "./games/instruments-of-destruction.js";
+import { GUIDE as cobaltCoreAchievementGuide } from "./games/cobalt-core.js";
+import { GUIDE as monsterTrain2AchievementGuide } from "./games/monster-train-2.js";
+import { GUIDE as rabbitAndSteelAchievementGuide } from "./games/rabbit-and-steel.js";
 
 export const APP_GUIDES = [
 
@@ -922,6 +925,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  rabbitAndSteelAchievementGuide,
+  monsterTrain2AchievementGuide,
+  cobaltCoreAchievementGuide,
   instrumentsOfDestructionAchievementGuide,
   fromTheDepthsAchievementGuide,
   teardownAchievementGuide,

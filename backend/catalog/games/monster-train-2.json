@@ -1,0 +1,555 @@
+{
+    "id": 2742830,
+    "steamAppId": 2742830,
+    "name": "Monster Train 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2742830/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 30,
+        "max": 100
+    },
+    "missable": false,
+    "playthroughs": 4,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Deckbuilder",
+        "Strategy",
+        "Card Battler",
+        "Turn-Based",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_CLASS1_LEVEL10",
+            "name": "Divinity Restored",
+            "description": "Reach Level 10 on The Banished.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_CLASS2_LEVEL10",
+            "name": "Throne of Gold",
+            "description": "Reach Level 10 on The Pyreborne.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CLASS3_LEVEL10",
+            "name": "Total Eclipse",
+            "description": "Reach Level 10 on The Luna Coven.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_CLASS4_LEVEL10",
+            "name": "Mushroom Mayhem",
+            "description": "Reach Level 10 on The Underlegion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_CLASS5_LEVEL10",
+            "name": "The Doctors Are In",
+            "description": "Reach Level 10 on The Lazarus League.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_CLASSOG1_LEVEL10",
+            "name": "Demonic Domination",
+            "description": "Reach clan level 10 with The Hellhorned (a returning clan from the first game).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_CLASSOG2_LEVEL10",
+            "name": "Roots Run Deep",
+            "description": "Reach clan level 10 with The Awoken.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_CLASSOG3_LEVEL10",
+            "name": "In Their Depth",
+            "description": "Reach clan level 10 with The Stygian Guard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_CLASSOG4_LEVEL10",
+            "name": "Candlelit Champions",
+            "description": "Reach clan level 10 with The Melting Remnant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_CLASSOG5_LEVEL10",
+            "name": "Gluttony Fulfilled",
+            "description": "Reach clan level 10 with The Umbra.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_MONSTER_BIG_DAMAGE",
+            "name": "Hell's Finest",
+            "description": "Have a monster deal at least 100 damage in one hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_SPELL_BIG_DAMAGE",
+            "name": "Overkill",
+            "description": "Have a spell deal at least 175 damage in one hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_CLASS1_COVENANTS",
+            "name": "Kinslayer",
+            "description": "Win a run with all covenants enabled on The Banished.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_CLASS2_COVENANTS",
+            "name": "Golden Gods",
+            "description": "Win a run with all covenants enabled on The Pyreborne.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_CLASS3_COVENANTS",
+            "name": "War of the Heavens",
+            "description": "Win a run with all covenants enabled on The Luna Coven.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_CLASS4_COVENANTS",
+            "name": "Hive Minded",
+            "description": "Win a run with all covenants enabled on The Underlegion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_CLASS5_COVENANTS",
+            "name": "Professors of Pain",
+            "description": "Win a run with all covenants enabled on The Lazarus League.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_CLASSOG1_COVENANTS",
+            "name": "Rightful Rulers",
+            "description": "Win a run with all covenants enabled on The Hellhorned.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_CLASSOG2_COVENANTS",
+            "name": "Natural Order",
+            "description": "Win a run with all covenants enabled on The Awoken.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_CLASSOG3_COVENANTS",
+            "name": "Magical Tsunami",
+            "description": "Win a run with all covenants enabled on The Stygian Guard.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_CLASSOG4_COVENANTS",
+            "name": "Waxen Warriors",
+            "description": "Win a run with all covenants enabled on The Melting Remnant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_CLASSOG5_COVENANTS",
+            "name": "Master of Morsels",
+            "description": "Win a run with all covenants enabled on The Umbra.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_DAILY_CHALLENGE_TIER1",
+            "name": "Running Up the Score",
+            "description": "Score at least 50,000 points in a Daily Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_WIN_NO_UPGRADES",
+            "name": "Back to Basics",
+            "description": "Win a run without upgrading any cards.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_EQUIPMENT_ONE_BATTLE",
+            "name": "Quartermaster",
+            "description": "Add equipment to six units in one battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_TRAIN_ALL_FLOORS_UPGRADE",
+            "name": "Monster of a Train",
+            "description": "Play a room card on all floors in one battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_WIN_RUN",
+            "name": "The First but Not the Last",
+            "description": "Win a Standard Run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_TRAIN_COSMETIC",
+            "name": "Travel In Style",
+            "description": "Customize your train.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_LEVEL_UP",
+            "name": "Moving On Up",
+            "description": "Level up any clan.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_CLASS_MAX_ALL",
+            "name": "Monster Master",
+            "description": "Achieve max level on all clans.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_CUSTOM_CHALLENGE",
+            "name": "Rule Breaker",
+            "description": "Create a Custom Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_WIN_NO_UNITS",
+            "name": "Masterful Magician",
+            "description": "Win a run without summoning any units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_PLAY_DIALOGUE",
+            "name": "Tell Me More",
+            "description": "Trigger an optional dialogue in the Covenant Outpost.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_BEAT_LEVEL8_BOSS",
+            "name": "Tyrant Overthrown",
+            "description": "Defeat Seraph Aeternus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_CLASS3_UNLOCK",
+            "name": "From the Stars",
+            "description": "Unlock The Luna Coven.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_CLASS4_UNLOCK",
+            "name": "Fungus Among Us",
+            "description": "Unlock The Underlegion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_CLASS5_UNLOCK",
+            "name": "Mad Science",
+            "description": "Unlock The Lazarus League.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_WIN_NO_SPELLS",
+            "name": "Commander At Arms",
+            "description": "Win a run without playing any spells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_ENDLESS_LOOP_MAP",
+            "name": "Will It Ever End?",
+            "description": "Win three consecutive battles in Endless mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_BEAT_LEVEL8_BOSS_EARLY",
+            "name": "Swift Demise",
+            "description": "Defeat Seraph Aeternus before his combat phase.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_COVENANT_TIER1",
+            "name": "A Pact in Blood",
+            "description": "Win a run at Covenant 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_COVENANT_TIER2",
+            "name": "Titans' Torment",
+            "description": "Win a run at Covenant 8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_THANKS_SERVICE",
+            "name": "Out With the Old",
+            "description": "Purge all Steward cards from your deck.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_BEAT_MALICKAS_CHALLENGES",
+            "name": "Malicka's Sidekick",
+            "description": "Win the Entropic Agony Dimensional Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_ORIGINAL_CLANS_UNLOCK",
+            "name": "The Gang's All Here",
+            "description": "Unlock all six original Monster Train clans.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_MALICKAS_CHALLENGES_UNLOCK",
+            "name": "Was That Always Here?",
+            "description": "Unlock Malicka's Dimensional Portal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TRUE_FINAL_BOSS_UNLOCK",
+            "name": "Wait, There's More",
+            "description": "Unlock the Titans battle (the true final boss).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_BEAT_TRUE_FINAL_BOSS",
+            "name": "Titanslayer",
+            "description": "Defeat the Titans.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_PYRE_UNLOCK",
+            "name": "Key To My Heart",
+            "description": "Unlock another Pyre Heart.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_BAND_BACK_TOGETHER",
+            "name": "Get the Band Back Together",
+            "description": "Summon Lead Songbird, Deathmetal Hymnist, Punk Shredder and Upbeat Warbler on the same floor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_CLASS6_LEVEL10",
+            "name": "Steel Resolve",
+            "description": "Reach Level 10 on The Railforged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_CLASSOG6_LEVEL10",
+            "name": "Complete Chrysalis",
+            "description": "Reach clan level 10 with The Wurmkin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_CLASS6_COVENANTS",
+            "name": "Forged in Fire",
+            "description": "Win a run with all covenants enabled on The Railforged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_CLASSOG6_COVENANTS",
+            "name": "Echoes of Greatness",
+            "description": "Win a run with all covenants enabled on The Wurmkin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_UNLOCK_ALL_SOULS",
+            "name": "The Living World",
+            "description": "Unlock all Souls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_LEVEL_UP_SOULS_MAX",
+            "name": "The Titan of Souls",
+            "description": "Level up all Souls to max level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_REGION_RUN_TIER1_WIN_RUN",
+            "name": "Soul of Spring",
+            "description": "Win a Soul Savior run at Bloom difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_REGION_RUN_TIER2_WIN_RUN",
+            "name": "Soul of the Briar",
+            "description": "Win a Soul Savior run at Tangle difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_REGION_RUN_TIER3_WIN_RUN",
+            "name": "Soul of the Verdant End",
+            "description": "Win a Soul Savior run at Overgrowth difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

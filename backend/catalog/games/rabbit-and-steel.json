@@ -1,0 +1,510 @@
+{
+    "id": 2132850,
+    "steamAppId": 2132850,
+    "name": "Rabbit and Steel",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2132850/header.jpg",
+    "difficulty": 5,
+    "completionTime": {
+        "min": 20,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Co-op",
+        "Bullet Hell",
+        "Action RPG",
+        "MMO Raid",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_WIN_NORMAL",
+            "name": "Normal Clear",
+            "description": "Beat the Moonlit Pinnacle on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_WIN_HARD",
+            "name": "Hard Clear",
+            "description": "Beat the Moonlit Pinnacle on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_WIN_LUNAR",
+            "name": "Lunar Clear",
+            "description": "Beat the Moonlit Pinnacle on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_WIN_NEST_N",
+            "name": "The Scholar's Nest (Normal)",
+            "description": "Beat the Scholar's Nest on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_WIN_NEST_H",
+            "name": "The Scholar's Nest (Hard)",
+            "description": "Beat the Scholar's Nest on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_WIN_NEST_L",
+            "name": "The Scholar's Nest (Lunar)",
+            "description": "Beat the Scholar's Nest on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_WIN_ARSENAL_N",
+            "name": "The King's Arsenal (Normal)",
+            "description": "Beat the King's Arsenal on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_WIN_ARSENAL_H",
+            "name": "The King's Arsenal (Hard)",
+            "description": "Beat the King's Arsenal on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_WIN_ARSENAL_L",
+            "name": "The King's Arsenal (Lunar)",
+            "description": "Beat the King's Arsenal on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_WIN_LIGHTHOUSE_N",
+            "name": "The Red Darkhouse (Normal)",
+            "description": "Beat the Red Darkhouse on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_WIN_LIGHTHOUSE_H",
+            "name": "The Red Darkhouse (Hard)",
+            "description": "Beat the Red Darkhouse on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_WIN_LIGHTHOUSE_L",
+            "name": "The Red Darkhouse (Lunar)",
+            "description": "Beat the Red Darkhouse on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_WIN_STREETS_N",
+            "name": "The Churchmouse Streets (Normal)",
+            "description": "Beat the Churchmouse Streets on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_WIN_STREETS_H",
+            "name": "The Churchmouse Streets (Hard)",
+            "description": "Beat the Churchmouse Streets on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_WIN_STREETS_L",
+            "name": "The Churchmouse Streets (Lunar)",
+            "description": "Beat the Churchmouse Streets on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_WIN_LAKESIDE_N",
+            "name": "The Emerald Lakeside (Normal)",
+            "description": "Beat the Emerald Lakeside on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_WIN_LAKESIDE_H",
+            "name": "The Emerald Lakeside (Hard)",
+            "description": "Beat the Emerald Lakeside on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_WIN_LAKESIDE_L",
+            "name": "The Emerald Lakeside (Lunar)",
+            "description": "Beat the Emerald Lakeside on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_TRINKET_10",
+            "name": "10 Trinkets",
+            "description": "Collect 10 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_TRINKET_20",
+            "name": "20 Trinkets",
+            "description": "Collect 20 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_TRINKET_30",
+            "name": "30 Trinkets",
+            "description": "Collect 30 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_TRINKET_40",
+            "name": "40 Trinkets",
+            "description": "Collect 40 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_TRINKET_MOONLIGHT",
+            "name": "The Moonlight Floofball",
+            "description": "Collect the Moonlight Floofball - a reward for completing a full Lunar-mode run of the base Kingdom (the Moonlit Pinnacle).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_STORY_CROW",
+            "name": "Sisterly Love",
+            "description": "Help break the spell on the Crows (resolve the Crow character's story on a full run).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_STORY_WOLF",
+            "name": "A Pack of Equals",
+            "description": "Help break the spell on the Wolves (resolve the Wolf character's story).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_STORY_DRAGON",
+            "name": "Regret",
+            "description": "Help break the spell on the Dragons (resolve the Dragon character's story).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_STORY_MOUSE",
+            "name": "The Strongest Mouse I Know",
+            "description": "Help break the spell on the Mice (resolve the Mouse character's story).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_STORY_FROG",
+            "name": "A Wonderful Collab",
+            "description": "Help break the spell on the Frogs (resolve the Frog character's story).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_STORY_RABBIT",
+            "name": "Forget This Ambition",
+            "description": "Resolve the Rabbit character's story ('Forget This Ambition').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MUSIC_ALL",
+            "name": "Moonlit Melodies",
+            "description": "Unlock all of the Kingdom music tracks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_PALETTE_ALL_H",
+            "name": "Seeing Red",
+            "description": "Unlock 10 Adept/Challenger Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_PALETTE_ALL_L",
+            "name": "Rabbit Rabbit Rabbit",
+            "description": "Unlock 10 Master/Spellbreaker Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_WIN_NORMAL_DLC",
+            "name": "Normal Clear (Extra)",
+            "description": "Beat the Reflecting Pool on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_WIN_HARD_DLC",
+            "name": "Hard Clear (Extra)",
+            "description": "Beat the Reflecting Pool on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_WIN_LUNAR_DLC",
+            "name": "Lunar Clear (Extra)",
+            "description": "Beat the Reflecting Pool on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_WIN_DEPTHS_N",
+            "name": "Darkhouse Depths (Normal)",
+            "description": "Beat the Darkhouse Depths on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_WIN_DEPTHS_H",
+            "name": "Darkhouse Depths (Hard)",
+            "description": "Beat the Darkhouse Depths on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_WIN_DEPTHS_L",
+            "name": "Darkhouse Depths (Lunar)",
+            "description": "Beat the Darkhouse Depths on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_WIN_SANCT_N",
+            "name": "The Subterra Sanctum (Normal)",
+            "description": "Beat the Subterra Sanctum on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_WIN_SANCT_H",
+            "name": "The Subterra Sanctum (Hard)",
+            "description": "Beat the Subterra Sanctum on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_WIN_SANCT_L",
+            "name": "The Subterra Sanctum (Lunar)",
+            "description": "Beat the Subterra Sanctum on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_WIN_AURUM_N",
+            "name": "Atelier Aurum (Normal)",
+            "description": "Beat Atelier Aurum on Normal Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_WIN_AURUM_H",
+            "name": "Atelier Aurum (Hard)",
+            "description": "Beat Atelier Aurum on Hard Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_WIN_AURUM_L",
+            "name": "Atelier Aurum (Lunar)",
+            "description": "Beat Atelier Aurum on Lunar Mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_TRINKET_50",
+            "name": "50 Trinkets",
+            "description": "Collect 50 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_TRINKET_60",
+            "name": "60 Trinkets",
+            "description": "Collect 60 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_TRINKET_70",
+            "name": "70 Trinkets",
+            "description": "Collect 70 Trinkets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_TRINKET_SPELLBOUND",
+            "name": "The Spellbound Floofball",
+            "description": "Collect the Spellbound Floofball - a reward for completing a full Lunar-mode run of the Reflecting Pool DLC Kingdom.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_STORY_DLC",
+            "name": "I Hope You Found a Friend",
+            "description": "See the Reflecting Pool DLC story ending ('I Hope You Found a Friend').",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_MUSIC_DLC",
+            "name": "Music For the Heart",
+            "description": "Unlock all of the Extra music tracks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_PALETTE_ALL_H2",
+            "name": "Rise to the Challenge",
+            "description": "Unlock 20 Adept/Challenger Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_PALETTE_ALL_H3",
+            "name": "A True Challenger",
+            "description": "Unlock all Adept/Challenger Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_PALETTE_ALL_L2",
+            "name": "Master of Many",
+            "description": "Unlock 20 Master/Spellbreaker Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_PALETTE_ALL_L3",
+            "name": "Dedicated Spellbreaker",
+            "description": "Unlock all Master/Spellbreaker Palettes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

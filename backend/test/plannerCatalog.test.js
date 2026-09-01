@@ -916,6 +916,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("teardown"));
     assert.ok(slugs.includes("from-the-depths"));
     assert.ok(slugs.includes("instruments-of-destruction"));
+    assert.ok(slugs.includes("cobalt-core"));
+    assert.ok(slugs.includes("monster-train-2"));
+    assert.ok(slugs.includes("rabbit-and-steel"));
 
 });
 
