@@ -874,6 +874,9 @@ import { GUIDE as kaiserpunkAchievementGuide } from "./games/kaiserpunk.js";
 import { GUIDE as starBirdsAchievementGuide } from "./games/star-birds.js";
 import { GUIDE as theSlormancerAchievementGuide } from "./games/the-slormancer.js";
 import { GUIDE as crowCountryAchievementGuide } from "./games/crow-country.js";
+import { GUIDE as kingdomEightiesAchievementGuide } from "./games/kingdom-eighties.js";
+import { GUIDE as timeWastersAchievementGuide } from "./games/time-wasters.js";
+import { GUIDE as megabonkAchievementGuide } from "./games/megabonk.js";
 
 export const APP_GUIDES = [
 
@@ -904,6 +907,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  megabonkAchievementGuide,
+  timeWastersAchievementGuide,
+  kingdomEightiesAchievementGuide,
   crowCountryAchievementGuide,
   theSlormancerAchievementGuide,
   starBirdsAchievementGuide,
