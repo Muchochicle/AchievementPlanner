@@ -901,6 +901,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-eighties"));
     assert.ok(slugs.includes("time-wasters"));
     assert.ok(slugs.includes("megabonk"));
+    assert.ok(slugs.includes("dust-an-elysian-tail"));
+    assert.ok(slugs.includes("haiku-the-robot"));
+    assert.ok(slugs.includes("sanabi"));
 
 });
 

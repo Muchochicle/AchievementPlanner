@@ -877,6 +877,9 @@ import { GUIDE as crowCountryAchievementGuide } from "./games/crow-country.js";
 import { GUIDE as kingdomEightiesAchievementGuide } from "./games/kingdom-eighties.js";
 import { GUIDE as timeWastersAchievementGuide } from "./games/time-wasters.js";
 import { GUIDE as megabonkAchievementGuide } from "./games/megabonk.js";
+import { GUIDE as dustAnElysianTailAchievementGuide } from "./games/dust-an-elysian-tail.js";
+import { GUIDE as haikuTheRobotAchievementGuide } from "./games/haiku-the-robot.js";
+import { GUIDE as sanabiAchievementGuide } from "./games/sanabi.js";
 
 export const APP_GUIDES = [
 
@@ -907,6 +910,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  sanabiAchievementGuide,
+  haikuTheRobotAchievementGuide,
+  dustAnElysianTailAchievementGuide,
   megabonkAchievementGuide,
   timeWastersAchievementGuide,
   kingdomEightiesAchievementGuide,
