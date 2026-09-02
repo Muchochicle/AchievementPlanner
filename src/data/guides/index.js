@@ -1012,6 +1012,9 @@ import { GUIDE as theRoottreesAreDeadAchievementGuide } from "./games/the-roottr
 import { GUIDE as triangleStrategyAchievementGuide } from "./games/triangle-strategy.js";
 import { GUIDE as dragonQuestTreasuresAchievementGuide } from "./games/dragon-quest-treasures.js";
 import { GUIDE as frontMission1stRemakeAchievementGuide } from "./games/front-mission-1st-remake.js";
+import { GUIDE as hellbladeSenuasSacrificeAchievementGuide } from "./games/hellblade-senuas-sacrifice.js";
+import { GUIDE as nourPlayWithYourFoodAchievementGuide } from "./games/nour-play-with-your-food.js";
+import { GUIDE as botanyManorAchievementGuide } from "./games/botany-manor.js";
 
 export const APP_GUIDES = [
 
@@ -2046,7 +2049,10 @@ export const GAME_GUIDES = [
     theRoottreesAreDeadAchievementGuide,
     triangleStrategyAchievementGuide,
     dragonQuestTreasuresAchievementGuide,
-    frontMission1stRemakeAchievementGuide
+    frontMission1stRemakeAchievementGuide,
+    hellbladeSenuasSacrificeAchievementGuide,
+    nourPlayWithYourFoodAchievementGuide,
+    botanyManorAchievementGuide
 
 ];
 
