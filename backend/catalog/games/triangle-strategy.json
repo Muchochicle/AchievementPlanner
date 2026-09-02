@@ -1,0 +1,994 @@
+{
+    "id": 1850510,
+    "steamAppId": 1850510,
+    "name": "TRIANGLE STRATEGY",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1850510/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Tactical RPG",
+        "Turn-Based Strategy",
+        "Story Rich",
+        "JRPG"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_001",
+            "name": "Champion of a New Era",
+            "description": "Obtain every achievement.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_002",
+            "name": "One and All",
+            "description": "Recruit all units.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_003",
+            "name": "Defender of Morality",
+            "description": "Reach a sufficient Morality Conviction value.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_004",
+            "name": "Seeker of Utility",
+            "description": "Reach a sufficient Utility Conviction value.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_005",
+            "name": "Believer of Liberty",
+            "description": "Reach a sufficient Liberty Conviction value.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_006",
+            "name": "Unshakable Convictions",
+            "description": "Reach a sufficient Morality, Utility, and Liberty Conviction value.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_007",
+            "name": "Negotiator",
+            "description": "Successfully persuade an ally.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_008",
+            "name": "Unanimous",
+            "description": "Successfully persuade everyone to vote the same way.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_009",
+            "name": "Tiebreaker",
+            "description": "Cast the deciding vote when there is a tie.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_010",
+            "name": "As Lord",
+            "description": "Do not sacrifice the town of Wolffort during chapter 7.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_011",
+            "name": "The Enemy of an Enemy",
+            "description": "Reveal Roland's identity to Svarog.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_012",
+            "name": "Birthright",
+            "description": "Receive the royal signet from Symon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_013",
+            "name": "Secret of the Continent",
+            "description": "Find the key in the Rosellan village.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_014",
+            "name": "Wrongdoing Exposed",
+            "description": "Successfully report Sorsley's misdeeds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_015",
+            "name": "Never-Ending Path",
+            "description": "Assent to Benedict's strategy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_016",
+            "name": "The End of Sin",
+            "description": "Stand with Roland's idea.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_017",
+            "name": "Silent Sea",
+            "description": "Place your faith in Frederica's ideals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_018",
+            "name": "Grand Finale",
+            "description": "Clear the game's Golden Route - the hidden fourth path - reached by a specific set of Chapter 7 and Chapter 17 choices, described here spoiler-free.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_019",
+            "name": "First Campaign",
+            "description": "Win a battle for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_020",
+            "name": "Veteran Warrior",
+            "description": "Win 100 battles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_021",
+            "name": "Efficiency Is Key",
+            "description": "Exploit enemy weaknesses 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_022",
+            "name": "Working Together",
+            "description": "Perform 100 follow-up attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_023",
+            "name": "From Behind",
+            "description": "Perform 100 back attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_024",
+            "name": "Playing with Fire",
+            "description": "Set the ground ablaze 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_025",
+            "name": "Playing with Ice",
+            "description": "Freeze the ground 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_026",
+            "name": "Playing with Water",
+            "description": "Create puddles 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_027",
+            "name": "Playing with Lightning",
+            "description": "Electrocute units 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_028",
+            "name": "Forces Collide",
+            "description": "Deal collision damage 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_029",
+            "name": "From Above",
+            "description": "Deal fall damage 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_030",
+            "name": "On the Defensive",
+            "description": "Counter 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_031",
+            "name": "Healer",
+            "description": "Heal 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_032",
+            "name": "Supporter",
+            "description": "Perform 100 support actions to give allies an advantage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_033",
+            "name": "Enfeebling Force",
+            "description": "Perform 100 support actions to put enemies at a disadvantage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_034",
+            "name": "Item User",
+            "description": "Use items 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_035",
+            "name": "One Fell Swoop",
+            "description": "Defeat 5 or more units at one time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_036",
+            "name": "Few but Fierce",
+            "description": "Embark with half or less than the maximum units and claim victory.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_037",
+            "name": "Careful!",
+            "description": "Deal damage with a mine cart.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_038",
+            "name": "Spoils of War",
+            "description": "Pick up 100 spoils.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_039",
+            "name": "Shrewd Strategist",
+            "description": "Use quietuses 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_040",
+            "name": "Bold Battler",
+            "description": "Accumulate 1,000 kudos.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_041",
+            "name": "A Heavy Purse",
+            "description": "Accumulate 1,000,000 coins.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_042",
+            "name": "Reaper of 100 Souls",
+            "description": "Complete the mental mock battle \"The Assassins.\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_043",
+            "name": "Tavern Regular",
+            "description": "Complete all mental mock battles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_044",
+            "name": "Feline Fanatic",
+            "description": "Speak to all cats.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_045",
+            "name": "Sundry Shop Regular",
+            "description": "Learn all quietuses and obtain the maximum amount of Quietus Points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_046",
+            "name": "Weaver of Histories",
+            "description": "Travel all paths.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_047",
+            "name": "Avid Reader",
+            "description": "Collect all notes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_048",
+            "name": "Wise Warrior",
+            "description": "Gather all information.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_049",
+            "name": "Smithy Regular",
+            "description": "Learn the Weapon Skill of all units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_050",
+            "name": "Swordmaster",
+            "description": "Reach the pinnacle of Serenoa's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_051",
+            "name": "Master Cavalryman",
+            "description": "Reach the pinnacle of Roland's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_052",
+            "name": "Master Strategist",
+            "description": "Reach the pinnacle of Benedict's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACHIEVEMENT_053",
+            "name": "Fire Master",
+            "description": "Reach the pinnacle of Frederica's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACHIEVEMENT_054",
+            "name": "Master Curist",
+            "description": "Reach the pinnacle of Geela's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACHIEVEMENT_055",
+            "name": "Master Assassin",
+            "description": "Reach the pinnacle of Anna's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACHIEVEMENT_056",
+            "name": "Master Flyer",
+            "description": "Reach the pinnacle of Hughette's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACHIEVEMENT_057",
+            "name": "Master Guardian",
+            "description": "Reach the pinnacle of Erador's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACHIEVEMENT_058",
+            "name": "Bow Master",
+            "description": "Reach the pinnacle of Rudolph's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACHIEVEMENT_059",
+            "name": "Ice Master",
+            "description": "Reach the pinnacle of Corentin's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACHIEVEMENT_060",
+            "name": "Master Advisor",
+            "description": "Reach the pinnacle of Julio's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACHIEVEMENT_061",
+            "name": "Master Dancer",
+            "description": "Reach the pinnacle of Milo's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACHIEVEMENT_062",
+            "name": "Prayer Master",
+            "description": "Reach the pinnacle of Cordelia's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACHIEVEMENT_063",
+            "name": "Big Boss",
+            "description": "Reach the pinnacle of Travis's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACHIEVEMENT_064",
+            "name": "Treasure Hunter",
+            "description": "Reach the pinnacle of Trish's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACHIEVEMENT_065",
+            "name": "Great General",
+            "description": "Reach the pinnacle of Avlora's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACHIEVEMENT_066",
+            "name": "Cure Knight",
+            "description": "Reach the pinnacle of Hossabara's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "ACHIEVEMENT_067",
+            "name": "Spell Master",
+            "description": "Reach the pinnacle of Narve's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "ACHIEVEMENT_068",
+            "name": "Medicine Master",
+            "description": "Reach the pinnacle of Medina's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "ACHIEVEMENT_069",
+            "name": "Craft Master",
+            "description": "Reach the pinnacle of Jens's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "ACHIEVEMENT_070",
+            "name": "Divine Spear",
+            "description": "Reach the pinnacle of Maxwell's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "ACHIEVEMENT_071",
+            "name": "Divine Bow",
+            "description": "Reach the pinnacle of Archibald's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 72,
+            "apiname": "ACHIEVEMENT_072",
+            "name": "Winguard",
+            "description": "Reach the pinnacle of Flanagan's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 73,
+            "apiname": "ACHIEVEMENT_073",
+            "name": "Spirit Master",
+            "description": "Reach the pinnacle of Ezana's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 74,
+            "apiname": "ACHIEVEMENT_074",
+            "name": "Elocutionist",
+            "description": "Reach the pinnacle of Lionel's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 75,
+            "apiname": "ACHIEVEMENT_075",
+            "name": "Divine Fist",
+            "description": "Reach the pinnacle of Groma's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 76,
+            "apiname": "ACHIEVEMENT_076",
+            "name": "Trick Master",
+            "description": "Reach the pinnacle of Piccoletta's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 77,
+            "apiname": "ACHIEVEMENT_077",
+            "name": "Numerologist",
+            "description": "Reach the pinnacle of Decimal's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 78,
+            "apiname": "ACHIEVEMENT_078",
+            "name": "Timespeaker",
+            "description": "Reach the pinnacle of Quahaug's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 79,
+            "apiname": "ACHIEVEMENT_079",
+            "name": "Land Master",
+            "description": "Reach the pinnacle of Giovanna's strength.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 80,
+            "apiname": "ACHIEVEMENT_080",
+            "name": "King and Friend",
+            "description": "View all of Roland's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 81,
+            "apiname": "ACHIEVEMENT_081",
+            "name": "A Toast to the Future",
+            "description": "View all of Benedict's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 82,
+            "apiname": "ACHIEVEMENT_082",
+            "name": "Beneath the Starry Sky",
+            "description": "View all of Frederica's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 83,
+            "apiname": "ACHIEVEMENT_083",
+            "name": "Tutor",
+            "description": "View all of Geela's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 84,
+            "apiname": "ACHIEVEMENT_084",
+            "name": "True Parents",
+            "description": "View all of Anna's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 85,
+            "apiname": "ACHIEVEMENT_085",
+            "name": "To the Open Skies",
+            "description": "View all of Hughette's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 86,
+            "apiname": "ACHIEVEMENT_086",
+            "name": "For an Eternity",
+            "description": "View all of Erador's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 87,
+            "apiname": "ACHIEVEMENT_087",
+            "name": "A Promise Fulfilled",
+            "description": "View all of Rudolph's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 88,
+            "apiname": "ACHIEVEMENT_088",
+            "name": "Groundbreaking Research",
+            "description": "View all of Corentin's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 89,
+            "apiname": "ACHIEVEMENT_089",
+            "name": "A Lord Worth Serving",
+            "description": "View all of Julio's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 90,
+            "apiname": "ACHIEVEMENT_090",
+            "name": "A Useful Poisonous Plant",
+            "description": "View all of Milo's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 91,
+            "apiname": "ACHIEVEMENT_091",
+            "name": "A Princess and Her People",
+            "description": "View all of Cordelia's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 92,
+            "apiname": "ACHIEVEMENT_092",
+            "name": "Bandit Boss",
+            "description": "View all of Travis's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 93,
+            "apiname": "ACHIEVEMENT_093",
+            "name": "Allies of the Poor",
+            "description": "View all of Trish's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 94,
+            "apiname": "ACHIEVEMENT_094",
+            "name": "For a Peaceful World",
+            "description": "View all of Avlora's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 95,
+            "apiname": "ACHIEVEMENT_095",
+            "name": "A Spot of Sunshine",
+            "description": "View all of Hossabara's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 96,
+            "apiname": "ACHIEVEMENT_096",
+            "name": "Disciple of the Archmage",
+            "description": "View all of Narve's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 97,
+            "apiname": "ACHIEVEMENT_097",
+            "name": "The Value of a Life",
+            "description": "View all of Medina's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 98,
+            "apiname": "ACHIEVEMENT_098",
+            "name": "The Perfect Weapon",
+            "description": "View all of Jens's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 99,
+            "apiname": "ACHIEVEMENT_099",
+            "name": "A Righteous Kingdom",
+            "description": "View all of Maxwell's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 100,
+            "apiname": "ACHIEVEMENT_100",
+            "name": "An Old Soldier's Regrets",
+            "description": "View all of Archibald's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 101,
+            "apiname": "ACHIEVEMENT_101",
+            "name": "A Shield for the People",
+            "description": "View all of Flanagan's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 102,
+            "apiname": "ACHIEVEMENT_102",
+            "name": "Blessed Rain",
+            "description": "View all of Ezana's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 103,
+            "apiname": "ACHIEVEMENT_103",
+            "name": "A Merchant's Joy",
+            "description": "View all of Lionel's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 104,
+            "apiname": "ACHIEVEMENT_104",
+            "name": "Unwavering Fist",
+            "description": "View all of Groma's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 105,
+            "apiname": "ACHIEVEMENT_105",
+            "name": "Of Circuses and Smiles",
+            "description": "View all of Piccoletta's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 106,
+            "apiname": "ACHIEVEMENT_106",
+            "name": "The Automaton's Master",
+            "description": "View all of Decimal's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 107,
+            "apiname": "ACHIEVEMENT_107",
+            "name": "Dreaming of Mother",
+            "description": "View all of Quahaug's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 108,
+            "apiname": "ACHIEVEMENT_108",
+            "name": "Every Corner of Norzelia",
+            "description": "View all of Giovanna's character stories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

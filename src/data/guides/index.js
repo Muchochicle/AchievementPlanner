@@ -1009,6 +1009,9 @@ import { GUIDE as diceyDungeonsAchievementGuide } from "./games/dicey-dungeons.j
 import { GUIDE as pleaseTouchTheArtworkAchievementGuide } from "./games/please-touch-the-artwork.js";
 import { GUIDE as strangeHorticultureAchievementGuide } from "./games/strange-horticulture.js";
 import { GUIDE as theRoottreesAreDeadAchievementGuide } from "./games/the-roottrees-are-dead.js";
+import { GUIDE as triangleStrategyAchievementGuide } from "./games/triangle-strategy.js";
+import { GUIDE as dragonQuestTreasuresAchievementGuide } from "./games/dragon-quest-treasures.js";
+import { GUIDE as frontMission1stRemakeAchievementGuide } from "./games/front-mission-1st-remake.js";
 
 export const APP_GUIDES = [
 
@@ -2040,7 +2043,10 @@ export const GAME_GUIDES = [
     diceyDungeonsAchievementGuide,
     pleaseTouchTheArtworkAchievementGuide,
     strangeHorticultureAchievementGuide,
-    theRoottreesAreDeadAchievementGuide
+    theRoottreesAreDeadAchievementGuide,
+    triangleStrategyAchievementGuide,
+    dragonQuestTreasuresAchievementGuide,
+    frontMission1stRemakeAchievementGuide
 
 ];
 
