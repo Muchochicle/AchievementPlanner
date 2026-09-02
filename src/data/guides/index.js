@@ -928,6 +928,9 @@ import { GUIDE as indianaJonesAndTheGreatCircleAchievementGuide } from "./games/
 import { GUIDE as assassinsCreedOriginsAchievementGuide } from "./games/assassins-creed-origins.js";
 import { GUIDE as assassinsCreedOdysseyAchievementGuide } from "./games/assassins-creed-odyssey.js";
 import { GUIDE as assassinsCreedValhallaAchievementGuide } from "./games/assassins-creed-valhalla.js";
+import { GUIDE as tomClancysTheDivision2AchievementGuide } from "./games/tom-clancys-the-division-2.js";
+import { GUIDE as tomClancysGhostReconBreakpointAchievementGuide } from "./games/tom-clancys-ghost-recon-breakpoint.js";
+import { GUIDE as mirrorsEdgeCatalystAchievementGuide } from "./games/mirrors-edge-catalyst.js";
 
 export const APP_GUIDES = [
 
@@ -1878,7 +1881,10 @@ export const GAME_GUIDES = [
     indianaJonesAndTheGreatCircleAchievementGuide,
     assassinsCreedOriginsAchievementGuide,
     assassinsCreedOdysseyAchievementGuide,
-    assassinsCreedValhallaAchievementGuide
+    assassinsCreedValhallaAchievementGuide,
+    tomClancysTheDivision2AchievementGuide,
+    tomClancysGhostReconBreakpointAchievementGuide,
+    mirrorsEdgeCatalystAchievementGuide
 
 ];
 
