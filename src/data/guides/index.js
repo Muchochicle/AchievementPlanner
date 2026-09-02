@@ -937,6 +937,9 @@ import { GUIDE as unchartedLegacyOfThievesCollectionAchievementGuide } from "./g
 import { GUIDE as horizonZeroDawnRemasteredAchievementGuide } from "./games/horizon-zero-dawn-remastered.js";
 import { GUIDE as horizonForbiddenWestCompleteEditionAchievementGuide } from "./games/horizon-forbidden-west-complete-edition.js";
 import { GUIDE as eaSportsWrcAchievementGuide } from "./games/ea-sports-wrc.js";
+import { GUIDE as homeworld3AchievementGuide } from "./games/homeworld-3.js";
+import { GUIDE as deusExHumanRevolutionDirectorsCutAchievementGuide } from "./games/deus-ex-human-revolution-directors-cut.js";
+import { GUIDE as deusExMankindDividedAchievementGuide } from "./games/deus-ex-mankind-divided.js";
 
 export const APP_GUIDES = [
 
@@ -1896,7 +1899,10 @@ export const GAME_GUIDES = [
     unchartedLegacyOfThievesCollectionAchievementGuide,
     horizonZeroDawnRemasteredAchievementGuide,
     horizonForbiddenWestCompleteEditionAchievementGuide,
-    eaSportsWrcAchievementGuide
+    eaSportsWrcAchievementGuide,
+    homeworld3AchievementGuide,
+    deusExHumanRevolutionDirectorsCutAchievementGuide,
+    deusExMankindDividedAchievementGuide
 
 ];
 

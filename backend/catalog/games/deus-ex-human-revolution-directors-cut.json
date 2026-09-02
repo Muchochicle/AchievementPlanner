@@ -1,0 +1,554 @@
+{
+    "id": 238010,
+    "steamAppId": 238010,
+    "name": "Deus Ex: Human Revolution - Director's Cut",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/238010/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 40
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Immersive Sim",
+        "Stealth",
+        "Action RPG",
+        "Cyberpunk",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FIRST_TAKEDOWN",
+            "name": "First Takedown",
+            "description": "Perform your first Takedown. Civilians don't count, so be nice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "OPPORTUNIST",
+            "name": "Opportunist",
+            "description": "Perform 50 takedowns within the same playthrough. (Civilians don't count).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "FIRST_HACK",
+            "name": "First Hack",
+            "description": "Perform your first Hack successfully.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "HAX0R1",
+            "name": "Hax0r1!",
+            "description": "Successfully hack at least 50 devices within the same playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "TRANSHUMANISM",
+            "name": "Transhumanist",
+            "description": "Fully upgrade your first augmentation of choice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "CONSCIOUSNESS_IS_OVERRATED",
+            "name": "Consciousness is Over-rated",
+            "description": "Knock out at least 100 enemies in a single playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "UP_THE_ANTE",
+            "name": "Up the Ante!",
+            "description": "Upgrade your first weapon of choice.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "TROOPER",
+            "name": "Trooper",
+            "description": "Complete Deus Ex: Human Revolution - Director's Cut.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "LEGEND",
+            "name": "Legend",
+            "description": "Complete Deus Ex: Human Revolution - Director's Cut at its hardest setting without ever changing the difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "DEUS_EX_MACHINA",
+            "name": "Deus Ex Machina",
+            "description": "Experience all the different endings that Deus Ex: Human Revolution - Director's Cut has to offer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "PACIFIST",
+            "name": "Pacifist",
+            "description": "Complete Deus Ex: Human Revolution - Director's Cut without anyone dying by your hand. (Boss fights don't count).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "FOXIEST_OF_THE_HOUND",
+            "name": "Foxiest of the Hounds",
+            "description": "Complete Deus Ex: Human Revolution - Director's Cut without setting off any alarms.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "DOCTORATE",
+            "name": "Doctorate",
+            "description": "Read all 29 XP books within a single playthrough.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "LESSER_EVIL",
+            "name": "Lesser Evil",
+            "description": "Deal with Mr. Carella's indiscretion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "MOTHERLY_TIES",
+            "name": "Motherly Ties",
+            "description": "Put a grieving mother's doubts to rest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "CLOAK_AND_DAGGERS",
+            "name": "Cloak & Daggers",
+            "description": "Deal with the man in the shadows.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "SMASH_THE_STATE",
+            "name": "Smash the State",
+            "description": "Help Officer Nicholas take out the trash.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACQUAINTANCES_FORGOTTEN",
+            "name": "Acquaintances Forgotten",
+            "description": "Follow Pritchard's lead to uncover the truth.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "BAR_TAB",
+            "name": "Bar Tab",
+            "description": "Help the Hive Bartender settle a tab.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ROTTEN_BUSINESS",
+            "name": "Rotten Business",
+            "description": "Help a lady in the oldest of professions clean house.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "PAYBACK",
+            "name": "Shanghai Justice",
+            "description": "It may take some sleuthing, but justice must be served.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "CORPORATE_WARFARE",
+            "name": "Corporate Warfare",
+            "description": "Protect a client's interests by performing a less-than-hostile takeover.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "TALION_AD",
+            "name": "Talion A.D.",
+            "description": "Descend into the bowels of an urban jungle and confront a warrior-priest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "GUN_NUT",
+            "name": "Gun Nut",
+            "description": "Fully upgrade one of your weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "THE_BULL",
+            "name": "The Bull",
+            "description": "Defeat Lawrence Barrett, elite member of a secret mercenary hit squad.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "THE_MANTIS",
+            "name": "The Mantis",
+            "description": "Defeat Yelena Fedorova, elite member of a secret mercenary hit squad.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "THE_SNAKE",
+            "name": "The Snake",
+            "description": "Defeat Jaron Namir, leader of Belltower's elite special operations unit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "THE_END",
+            "name": "The End",
+            "description": "Defeat Zhao Yun Ru and destroy the Hyron Project.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "OLD_SCHOOL",
+            "name": "Old School Gamer",
+            "description": "Find all the hidden story items in Megan's office.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "UNFORSEEN_CONSEQUENCE",
+            "name": "Unforeseen Consequence",
+            "description": "Convince Zeke Sanders to let his hostage go.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "THE_DESK_JOB",
+            "name": "The Desk Job",
+            "description": "Convince Wayne Haas to let you into the morgue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "YES_BOSS",
+            "name": "Yes Boss",
+            "description": "Have an argument with your boss, David Sarif - and win it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "DARKER_SHADES",
+            "name": "Darker Shades",
+            "description": "Convince a fast-talking bartender to let you see Tong Si Hung.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "THE_THROWDOWN",
+            "name": "The Throwdown",
+            "description": "Convince politician Bill Taggart to tell the truth in public.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "THE_LAST_STRAW",
+            "name": "The Last Straw",
+            "description": "Talk Doctor Isaias Sandoval out of suicide.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "THE_FINAL_COUNTDOWN",
+            "name": "The Final Countdown",
+            "description": "Convince Hugh Darrow to give you the code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "THE_D_PROJECT",
+            "name": "The D Project",
+            "description": "Watch the entire credits and see the surprise at the end.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "GOOD_SOUL",
+            "name": "Good Soul",
+            "description": "Against all odds, save Faridah Malik's life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "HANGAR18",
+            "name": "Hangar 18",
+            "description": "Find and read the secret message.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "SENTIMENTAL_VALUE",
+            "name": "Sentimental Value",
+            "description": "Keep Megan's bracelet for yourself.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "THE_TAKE",
+            "name": "The Take",
+            "description": "Accept O'Malley's blood money and let him go.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "GUARDIAN_ANGEL",
+            "name": "Guardian Angel",
+            "description": "Pay poor Jaya's debt in full.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "LUCKY_GUESS",
+            "name": "Lucky Guess",
+            "description": "Correctly guess the code to disarm Jacob's bombs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "KEVORKIAN_COMPLEX",
+            "name": "Kevorkian Complex",
+            "description": "Grant a dying man his final request.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "THE_FALL",
+            "name": "The Fall",
+            "description": "Send Diamond Chan on the trip of a lifetime.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACE_ATTORNEY",
+            "name": "Super Sleuth",
+            "description": "Nail your case against Lee Hong.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "LADIES_MAN",
+            "name": "Ladies Man",
+            "description": "Convince Mengyao to reveal information about the Hyron Project.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "BALLS",
+            "name": "Balls",
+            "description": "Play with the arcade basketballs easter egg.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "GHOST",
+            "name": "Ghost",
+            "description": "Get through an entire hostile area without being spotted.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "FACTORY_ZERO",
+            "name": "Factory Zero",
+            "description": "Survive The Missing Link using no Praxis kits, weapons, or explosives (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "BACK_ON_TRACK",
+            "name": "Never Stop Looking",
+            "description": "Escape Rifleman Bank Station (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "FIX_LIFE_POD",
+            "name": "Good Samaritan",
+            "description": "Repair the malfunctioning life-support pod to save the stowaways (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "REVISIT_MY_POD",
+            "name": "Never Forget",
+            "description": "Return to and revisit your own stasis pod (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "RIFLEMEN_BANK_STATION",
+            "name": "Out of the Frying Pan",
+            "description": "Reach Rifleman Bank Station (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "USE_ALL_SMART_PUCKS",
+            "name": "The learn'd Scholar",
+            "description": "Use every hypnotic Smart Puck in one playthrough (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "SAVE_EVERYONE_PRISON",
+            "name": "All of the Above",
+            "description": "Rescue every prisoner from the detention area (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "QUINN_SECRET_ROOM",
+            "name": "Back Stage Pass",
+            "description": "Find Quinn's secret room (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "TAKEDOWN_BURKE",
+            "name": "Apex Predator",
+            "description": "Perform a takedown on Burke without being detected (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "BULLSHIT_BULLSHITER",
+            "name": "That Old Adage",
+            "description": "Discover that your CASIE social augmentation does not work on everyone (The Missing Link DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
