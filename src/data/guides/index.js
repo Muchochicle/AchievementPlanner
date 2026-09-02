@@ -934,6 +934,9 @@ import { GUIDE as mirrorsEdgeCatalystAchievementGuide } from "./games/mirrors-ed
 import { GUIDE as deathStrandingDirectorsCutAchievementGuide } from "./games/death-stranding-directors-cut.js";
 import { GUIDE as theCrewMotorfestAchievementGuide } from "./games/the-crew-motorfest.js";
 import { GUIDE as unchartedLegacyOfThievesCollectionAchievementGuide } from "./games/uncharted-legacy-of-thieves-collection.js";
+import { GUIDE as horizonZeroDawnRemasteredAchievementGuide } from "./games/horizon-zero-dawn-remastered.js";
+import { GUIDE as horizonForbiddenWestCompleteEditionAchievementGuide } from "./games/horizon-forbidden-west-complete-edition.js";
+import { GUIDE as eaSportsWrcAchievementGuide } from "./games/ea-sports-wrc.js";
 
 export const APP_GUIDES = [
 
@@ -1890,7 +1893,10 @@ export const GAME_GUIDES = [
     mirrorsEdgeCatalystAchievementGuide,
     deathStrandingDirectorsCutAchievementGuide,
     theCrewMotorfestAchievementGuide,
-    unchartedLegacyOfThievesCollectionAchievementGuide
+    unchartedLegacyOfThievesCollectionAchievementGuide,
+    horizonZeroDawnRemasteredAchievementGuide,
+    horizonForbiddenWestCompleteEditionAchievementGuide,
+    eaSportsWrcAchievementGuide
 
 ];
 
