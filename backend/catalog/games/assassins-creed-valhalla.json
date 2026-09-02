@@ -1,0 +1,851 @@
+{
+    "id": 2208920,
+    "steamAppId": 2208920,
+    "name": "Assassin's Creed Valhalla",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 140
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Open World",
+        "Assassin",
+        "Historical",
+        "Vikings"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACValhalla_Ach_1",
+            "name": "The Saga Begins",
+            "description": "Complete the Prologue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACValhalla_Ach_2",
+            "name": "To England!",
+            "description": "Leave Norway for England.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACValhalla_Ach_3",
+            "name": "Hard Choices",
+            "description": "Complete the Grantebridgescire arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ACValhalla_Ach_4",
+            "name": "The Order Is Revealed",
+            "description": "Complete the Lunden arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "ACValhalla_Ach_5",
+            "name": "The Good Saxon",
+            "description": "Complete the East Anglia arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "ACValhalla_Ach_6",
+            "name": "Take My Hand",
+            "description": "Complete the Cent arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "ACValhalla_Ach_7",
+            "name": "Calling in a Favor",
+            "description": "Complete the Suthsexe arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "ACValhalla_Ach_8",
+            "name": "The Enemy of My Enemy",
+            "description": "Complete the Wincestre arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "ACValhalla_Ach_9",
+            "name": "In the Footsteps of the Gods",
+            "description": "Complete the Asgard and Jotunheim quests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "ACValhalla_Ach_10",
+            "name": "As It Was Foretold",
+            "description": "Complete the Prophecy storyline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "ACValhalla_Ach_11",
+            "name": "England Subdued",
+            "description": "Complete the Hamtunscire arc.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "ACValhalla_Ach_12",
+            "name": "Disorder of the Ancients",
+            "description": "Eliminate all targets of the Order of the Ancients.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "ACValhalla_Ach_13",
+            "name": "Rampage",
+            "description": "Complete your first raid in England.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "ACValhalla_Ach_14",
+            "name": "It's Alive!",
+            "description": "Create a Jomsviking at the settlement barracks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "ACValhalla_Ach_15",
+            "name": "Tranquility",
+            "description": "Complete a Standing Stone puzzle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ACValhalla_Ach_16",
+            "name": "Equilibrium",
+            "description": "Complete 3 Cairn challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "ACValhalla_Ach_17",
+            "name": "Old School Treasure Hunt",
+            "description": "Collect 5 Treasure Hoard rewards (Base game only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "ACValhalla_Ach_18",
+            "name": "Skadi's Hobby",
+            "description": "Perform a 150m slide in the snow",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "ACValhalla_Ach_19",
+            "name": "Witch Hunter",
+            "description": "Defeat one Daughter of Lerion",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "ACValhalla_Ach_20",
+            "name": "Equine Attack",
+            "description": "Assassinate an enemy from your horse",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "ACValhalla_Ach_21",
+            "name": "Silent Viking",
+            "description": "Assassinate 10 enemies in a row without triggering a conflict",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "ACValhalla_Ach_22",
+            "name": "Everyday Life",
+            "description": "Complete 10 World Events",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "ACValhalla_Ach_23",
+            "name": "Overdesign II",
+            "description": "While on fire during a fight, kill 3 hard difficulty soldiers without breaking their shields",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "ACValhalla_Ach_24",
+            "name": "Completionist All the Way!",
+            "description": "Complete all territories",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ACValhalla_Ach_25",
+            "name": "Row Rage",
+            "description": "Ram and destroy 5 boats in under 2 minutes with your longship (Base game only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ACValhalla_Ach_26",
+            "name": "We're in the End Game Now",
+            "description": "Reach Power 280",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ACValhalla_Ach_27",
+            "name": "A Picture of Grace",
+            "description": "Run through 30 breakable objects.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ACValhalla_Ach_28",
+            "name": "Builder",
+            "description": "Reach settlement level 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ACValhalla_Ach_29",
+            "name": "Home Sweet Home",
+            "description": "Reach settlement level 6",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ACValhalla_Ach_30",
+            "name": "Pioneer",
+            "description": "Reach Vinland.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "ACValhalla_Ach_31",
+            "name": "Home Decor",
+            "description": "Place an item on each settlement cosmetic spot (Base game only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "ACValhalla_Ach_32",
+            "name": "Not the Norse You're Looking For",
+            "description": "Successfully pass close to a guard in a distrust area by blending with a group of monks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "ACValhalla_Ach_33",
+            "name": "Face My Might!",
+            "description": "Equip 8 abilities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "ACValhalla_Ach_34",
+            "name": "Ultimate Refinement",
+            "description": "Fully upgrade and enhance a piece of gear",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "ACValhalla_Ach_35",
+            "name": "Flying Eivor",
+            "description": "Get thrown 30 meters away by a destroyer or a housecarl",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ACValhalla_Ach_36",
+            "name": "Twinkle Twinkle",
+            "description": "Release a firefly in your settlement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "ACValhalla_Ach_37",
+            "name": "Archaeologist",
+            "description": "Complete all Roman collector challenges",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "ACValhalla_Ach_38",
+            "name": "Orlog Champion",
+            "description": "Beat all the Orlog players",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "ACValhalla_Ach_39",
+            "name": "Good Catch!",
+            "description": "Catch a fish of each type using the fishing line",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "ACValhalla_Ach_40",
+            "name": "Full Mastery",
+            "description": "Spend your first Mastery point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "ACValhalla_Ach_41",
+            "name": "Is There Anybody Out There?",
+            "description": "Light the unlit braziers on Hadrian's Wall",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "ACValhalla_Ach_42",
+            "name": "Slam Master",
+            "description": "Complete all the flytings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "ACValhalla_Ach_43",
+            "name": "Caladfwlch",
+            "description": "Draw Excalibur from the stone (requires all 11 Treasures of Britain).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "ACValhalla_Ach_44",
+            "name": "It's Not a Bug, It's a Feature!",
+            "description": "Complete your first Animus Anomaly platforming puzzle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ACValhalla_Ach_45",
+            "name": "Seahorse",
+            "description": "Swim a total of 3km on horseback.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "ACValhalla_Ach_46",
+            "name": "The Hidden Truth",
+            "description": "Obtain all video fragments and watch the Hidden Truth video.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "ACValhalla_Ach_47",
+            "name": "Master Hunter",
+            "description": "Defeat all Alpha animals (Base game only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "ACValhalla_Ach_48",
+            "name": "Dreamcatcher",
+            "description": "Destroy 10 Curse Symbols (Base game only)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "ACValhalla_Ach_49",
+            "name": "Godly Reward",
+            "description": "Obtain Thor's Helmet (defeat all the Daughters of Lerion and the Zealots).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "ACValhalla_Ach_50",
+            "name": "Worthy",
+            "description": "Wield Mjolnir (collect Thor's full armour set).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "ACValhalla_Ach_51",
+            "name": "Irish Legend",
+            "description": "Complete all territories of Ireland (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "ACValhalla_Ach_52",
+            "name": "Ireland's Deliverance",
+            "description": "Complete the Wrath of the Druids campaign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "ACValhalla_Ach_53",
+            "name": "Dawn of the Druids",
+            "description": "Collect all the amber shards for Deirdre (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ACValhalla_Ach_54",
+            "name": "Like a Druid",
+            "description": "Complete a Trial of the Morrigan (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ACValhalla_Ach_55",
+            "name": "All Roads Lead to Dublin",
+            "description": "Reach the max level of Dublin Renown (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ACValhalla_Ach_56",
+            "name": "The Legend of St. Patrick",
+            "description": "Kill the only snake in Ireland (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ACValhalla_Ach_57",
+            "name": "King’s Maker",
+            "description": "Complete 10 Royal Demands (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ACValhalla_Ach_58",
+            "name": "Double Trouble",
+            "description": "Equip a sickle in each hand (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "ACValhalla_Ach_59",
+            "name": "Decked Out",
+            "description": "Find the full Dublin Champion armour set (Wrath of the Druids).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "ACValhalla_Ach_60",
+            "name": "All That Glitters",
+            "description": "Get your first Gold Medal in Mastery Challenge (Part 1)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "ACValhalla_Ach_61",
+            "name": "A True Master",
+            "description": "Earn all Gold Medals available in Mastery Challenge (Part 1)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "ACValhalla_Ach_62",
+            "name": "Do What Is Right",
+            "description": "Complete the Siege of Paris campaign (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "ACValhalla_Ach_63",
+            "name": "Know What Is Right",
+            "description": "Complete all territories of Francia (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "ACValhalla_Ach_64",
+            "name": "We Nobles Three",
+            "description": "Defeat all three Frankish Nobles (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "ACValhalla_Ach_65",
+            "name": "Vive la Résistance",
+            "description": "Reach maximum Infamy in the Rebel Missions (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "ACValhalla_Ach_66",
+            "name": "Future Past",
+            "description": "Enter the Assassin Bureau in Francia (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "ACValhalla_Ach_67",
+            "name": "Bad Bull",
+            "description": "Defeat the Ghost Auroch Boss (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "ACValhalla_Ach_68",
+            "name": "Vendange",
+            "description": "Kill an enemy with a scythe while wearing the full Reaper armor set (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "ACValhalla_Ach_69",
+            "name": "Pat the Cats",
+            "description": "Pat all the cats in Evreux (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "ACValhalla_Ach_70",
+            "name": "Lèse-majesté",
+            "description": "Complete 10 Rebel Missions (The Siege of Paris).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "ACValhalla_Ach_71",
+            "name": "Spelunker",
+            "description": "Complete one Tomb of the Fallen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "ACValhalla_Ach_72",
+            "name": "Crypt-ologist",
+            "description": "Complete three Tombs of the Fallen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "ACValhalla_Ach_73",
+            "name": "Over the Hills…",
+            "description": "Complete all territories of Svartalfheim (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "ACValhalla_Ach_74",
+            "name": "Ashes of Svartalfheim",
+            "description": "Complete the Dawn of Ragnarök campaign (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "ACValhalla_Ach_75",
+            "name": "Hugr Incarnate",
+            "description": "Fully upgrade the Hugr-Rip (Dawn of Ragnarok).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "ACValhalla_Ach_76",
+            "name": "Expert Storyteller",
+            "description": "Tell Kara a tale with at least four Boasts (Dawn of Ragnarok).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "ACValhalla_Ach_77",
+            "name": "It's All in the Wrist",
+            "description": "Kill 30 enemies with an Atgeir (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "ACValhalla_Ach_78",
+            "name": "Aesir Spelunker",
+            "description": "Discover all Shelters (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "ACValhalla_Ach_79",
+            "name": "Motsognir's Blessing",
+            "description": "Purify Hreidmar's Cursed Armour (Dawn of Ragnarok).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "ACValhalla_Ach_80",
+            "name": "See No Evil",
+            "description": "Teleport-Assassinate two enemies and fly away without being detected (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ACValhalla_Ach_81",
+            "name": "Flying Fortress",
+            "description": "Reach a Muspelheim Monolith (Dawn of Ragnarök)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "ACValhalla_Ach_82",
+            "name": "Full Master",
+            "description": "Earn all Gold Medals available in Mastery Challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "ACValhalla_Ach_83",
+            "name": "Sacrificial Victory",
+            "description": "Defeat Hel with the Draugr's Toll outfit equipped (The Forgotten Saga).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "ACValhalla_Ach_84",
+            "name": "Freedom Fighter",
+            "description": "Reunite the dead within Kaldstad, Døkkerland and Nidheim (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "ACValhalla_Ach_85",
+            "name": "Pure of Heart",
+            "description": "Defeat Nidhogg without using an Elk Shrine (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "ACValhalla_Ach_86",
+            "name": "Crossing Dókkerland",
+            "description": "Complete all encounters in Dokkerland (Dawn of Ragnarok).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "ACValhalla_Ach_87",
+            "name": "High Kick",
+            "description": "Knock 10 enemies off of ledges using the Kick of Tyr Ability (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "ACValhalla_Ach_88",
+            "name": "Royal Treatment",
+            "description": "Find Hel's Majordomo (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "ACValhalla_Ach_89",
+            "name": "A Favored Customer",
+            "description": "Buy all of Nar's Favors at least once (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "ACValhalla_Ach_90",
+            "name": "The Queen's Fall",
+            "description": "Defeat Hel, ruler of Niflheim (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "ACValhalla_Ach_91",
+            "name": "Returning to the Roots",
+            "description": "Return to Odin's Camp for the first time (The Forgotten Saga)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "ACValhalla_Ach_92",
+            "name": "Heroes of Ancient Britain",
+            "description": "Complete all Tombs of the Fallen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

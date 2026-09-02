@@ -925,6 +925,9 @@ import { GUIDE as totalWarRomeRemasteredAchievementGuide } from "./games/total-w
 import { GUIDE as finalFantasyViiRebirthAchievementGuide } from "./games/final-fantasy-vii-rebirth.js";
 import { GUIDE as mafiaTheOldCountryAchievementGuide } from "./games/mafia-the-old-country.js";
 import { GUIDE as indianaJonesAndTheGreatCircleAchievementGuide } from "./games/indiana-jones-and-the-great-circle.js";
+import { GUIDE as assassinsCreedOriginsAchievementGuide } from "./games/assassins-creed-origins.js";
+import { GUIDE as assassinsCreedOdysseyAchievementGuide } from "./games/assassins-creed-odyssey.js";
+import { GUIDE as assassinsCreedValhallaAchievementGuide } from "./games/assassins-creed-valhalla.js";
 
 export const APP_GUIDES = [
 
@@ -1872,7 +1875,10 @@ export const GAME_GUIDES = [
     betrayalAtClubLowAchievementGuide,
     finalFantasyViiRebirthAchievementGuide,
     mafiaTheOldCountryAchievementGuide,
-    indianaJonesAndTheGreatCircleAchievementGuide
+    indianaJonesAndTheGreatCircleAchievementGuide,
+    assassinsCreedOriginsAchievementGuide,
+    assassinsCreedOdysseyAchievementGuide,
+    assassinsCreedValhallaAchievementGuide
 
 ];
 
