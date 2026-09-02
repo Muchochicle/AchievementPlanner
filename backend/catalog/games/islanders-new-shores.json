@@ -1,0 +1,580 @@
+{
+    "id": 2368930,
+    "steamAppId": 2368930,
+    "name": "ISLANDERS: New Shores",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2368930/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 10,
+        "max": 25
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Puzzle",
+        "Minimalist",
+        "Relaxing"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_newcomer",
+            "name": "Newcomer",
+            "description": "Reach the end of your journey for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 2,
+            "apiname": "ach_mayor",
+            "name": "Mayor",
+            "description": "Reach a high score of 5,000 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 3,
+            "apiname": "ach_king",
+            "name": "Ruler",
+            "description": "Reach a high score of 15,000 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 4,
+            "apiname": "ach_emperor",
+            "name": "Monarch",
+            "description": "Reach a high score of 30,000 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 5,
+            "apiname": "ach_deity",
+            "name": "Deity",
+            "description": "Reach a high score of 60,000 points.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 6,
+            "apiname": "ach_builder",
+            "name": "Builder",
+            "description": "Build 60 buildings on the same island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 7,
+            "apiname": "ach_constructor",
+            "name": "Constructor",
+            "description": "Build 120 buildings on the same island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 8,
+            "apiname": "ach_architect",
+            "name": "Architect",
+            "description": "Build 240 buildings on the same island.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 9,
+            "apiname": "ach_traveler",
+            "name": "Traveler",
+            "description": "Explore 5 islands in the same run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 10,
+            "apiname": "ach_adventurer",
+            "name": "Adventurer",
+            "description": "Explore 10 islands in the same run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 11,
+            "apiname": "ach_explorer",
+            "name": "Explorer",
+            "description": "Explore 15 islands in the same run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 12,
+            "apiname": "ach_puzzle_solver",
+            "name": "Puzzle Solver",
+            "description": "Reach a score of exactly 100 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 13,
+            "apiname": "ach_nice_spot",
+            "name": "Nice Spot",
+            "description": "Earn at least 35 points from one building.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 14,
+            "apiname": "ach_brilliant_position",
+            "name": "Brilliant Position",
+            "description": "Earn at least 75 points from one building.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 15,
+            "apiname": "ach_perfectly_placed",
+            "name": "Perfectly Placed",
+            "description": "Earn at least 150 points from one building.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 16,
+            "apiname": "ach_slow_burn",
+            "name": "Slow Burn",
+            "description": "Reach a score of 1,000 without ever having more than 6 buildings in your building bar.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 17,
+            "apiname": "ach_islander",
+            "name": "Islander",
+            "description": "Reach a score of 1,400 on the first island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 18,
+            "apiname": "ach_tall_tale",
+            "name": "Tall Tale",
+            "description": "Place a Fisher that earns points with at least 10 Fish.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 19,
+            "apiname": "ach_blessed",
+            "name": "Blessed",
+            "description": "Use 8 Boons on the same island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 20,
+            "apiname": "ach_tactician",
+            "name": "Tactician",
+            "description": "Earn at least 125 points from a single Level Up Boon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 21,
+            "apiname": "ach_spectacular",
+            "name": "Spectacular",
+            "description": "Earn 3 Sealed Boons from a single Ley Line.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 22,
+            "apiname": "ach_cozy",
+            "name": "Cozy",
+            "description": "Place a Shaman where all rays earn points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 23,
+            "apiname": "ach_interconnected",
+            "name": "Interconnected",
+            "description": "Place a Pyre that has positive scoring connections to at least two other Pyres.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 24,
+            "apiname": "ach_fluttering",
+            "name": "Fluttering",
+            "description": "Place an Aviary that has a base score of at least 50.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 25,
+            "apiname": "ach_studious",
+            "name": "Guild Master",
+            "description": "Place a Guild Hall that scores positively with at least 10 buildings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 26,
+            "apiname": "ach_fortunate",
+            "name": "Fortunate",
+            "description": "Place a Fortune Teller with a base score of at least 60.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 27,
+            "apiname": "ach_crammed",
+            "name": "Crammed",
+            "description": "Place a Cliff House that scores with at least 20 other Cliff Houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 28,
+            "apiname": "ach_forested",
+            "name": "Forested",
+            "description": "Place a Lumberjack that scores with at least 15 Trees.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 29,
+            "apiname": "ach_renovating",
+            "name": "Renovating",
+            "description": "Demolish a building that removes at least 40 points.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 30,
+            "apiname": "ach_steadfast",
+            "name": "Steadfast",
+            "description": "Reach a draw limit of two buildings on one island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 31,
+            "apiname": "ach_planner",
+            "name": "Planner",
+            "description": "Place three buildings in a row scoring more than 60 points each.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 32,
+            "apiname": "ach_coordinated",
+            "name": "Coordinated",
+            "description": "Destroy 2 Sacred Rocks on an island at the same time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 33,
+            "apiname": "ach_respectful",
+            "name": "Respectful",
+            "description": "Beat an island without hiding any Trees or Flowers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 34,
+            "apiname": "ach_frugal",
+            "name": "Frugal",
+            "description": "Have 5 unopened Boon packs on one island.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 35,
+            "apiname": "ach_protective",
+            "name": "Protective",
+            "description": "Create a closed loop of at least 3 Walls.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 36,
+            "apiname": "ach_odyssey",
+            "name": "Odyssey",
+            "description": "Complete 3 islands with special properties in a single run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 37,
+            "apiname": "ach_scrupulous",
+            "name": "Scrupulous",
+            "description": "Earn at least 2,000 points without scoring negatively once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 38,
+            "apiname": "ach_central",
+            "name": "Central",
+            "description": "Place a City Center in the vicinity of two other City Centers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 39,
+            "apiname": "ach_a_short_journey",
+            "name": "A Short Journey",
+            "description": "Earn at least 10,000 points in the \"A Short Journey\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 40,
+            "apiname": "ach_no_time_to_dilly",
+            "name": "No time to dilly-dally",
+            "description": "Earn at least 15,000 points in the \"No time to dilly-dally\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 41,
+            "apiname": "ach_temple_trouble",
+            "name": "Temple Trouble",
+            "description": "Earn at least 900 points in the \"Temple Trouble\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 42,
+            "apiname": "ach_fully_stacked",
+            "name": "Fully Stacked",
+            "description": "Earn at least 4,000 points in the \"Fully Stacked\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 43,
+            "apiname": "ach_fast_traveler",
+            "name": "Fast Traveler",
+            "description": "Reach island 7 in the \"No time to dilly-dally\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 44,
+            "apiname": "ach_a_new_challenger",
+            "name": "A New Challenger",
+            "description": "Complete 4 challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 45,
+            "apiname": "ach_metropolis",
+            "name": "Metropolis",
+            "description": "Earn at least 11,000 points in the \"Metropolis\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 46,
+            "apiname": "ach_manufactory",
+            "name": "Manufactory",
+            "description": "Earn at least 40,000 points in the \"Manufactory\" Challenge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 47,
+            "apiname": "ach_mt_roberson",
+            "name": "Mt. Roberson",
+            "description": "Earn at least 14,000 points in the \"Mt. Roberson\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 48,
+            "apiname": "ach_vanish",
+            "name": "Vanishing",
+            "description": "Earn at least 14,000 points in the \"Vanishing\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 49,
+            "apiname": "ach_now_you_see_me",
+            "name": "Now you see me",
+            "description": "Have at least 400 points when the first building vanishes in the \"Vanishing\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 50,
+            "apiname": "ach_novice_challenger",
+            "name": "Novice Challenger",
+            "description": "Complete 8 challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 51,
+            "apiname": "ach_ghost_whisperer",
+            "name": "Ghost Whisperer",
+            "description": "Earn at least 8,000 points in the \"Ghost Whisperer\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 52,
+            "apiname": "ach_clairvoyage",
+            "name": "Clairvoyage",
+            "description": "Earn at least 850 points in the \"Clairvoyage\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 53,
+            "apiname": "ach_cant_stop_wont_stop",
+            "name": "Can't Stop Won't Stop",
+            "description": "Earn at least 200,000 points in the \"Can't Stop Won't Stop\" Challenge.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 54,
+            "apiname": "ach_industrious",
+            "name": "Industrious",
+            "description": "Earn at least 3,100 points in the \"Industrious\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 55,
+            "apiname": "ach_couldent_stop",
+            "name": "Couldn't Stop",
+            "description": "Earn at least 5,000 points on the first island in the \"Can't Stop Won't Stop\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 56,
+            "apiname": "ach_intermediate_challenger",
+            "name": "Intermediate Challenger",
+            "description": "Complete 12 challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 57,
+            "apiname": "ach_medium_journey",
+            "name": "Halfway There",
+            "description": "Earn at least 125,000 points in the \"Halfway There\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 58,
+            "apiname": "ach_blast_from_past",
+            "name": "Memory Lane",
+            "description": "Earn at least 75,000 points in the \"Memory Lane\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 59,
+            "apiname": "ach_split",
+            "name": "Can't Have It All",
+            "description": "Earn at least 30,000 points in the \"Can't Have It All\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 60,
+            "apiname": "ach_winter_wonderland",
+            "name": "Chilling Gifts",
+            "description": "Earn at least 10,000 points in the \"Chilling Gifts\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 61,
+            "apiname": "ach_traditional_traveler",
+            "name": "Traditional Traveler",
+            "description": "Reach island 12 in the \"Memory Lane\" Challenge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 62,
+            "apiname": "ach_proffesional_challenger",
+            "name": "Professional  Challenger",
+            "description": "Complete 16 challenges.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 15
+        }
+    ]
+}

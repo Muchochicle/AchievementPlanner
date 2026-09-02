@@ -1039,6 +1039,9 @@ import { GUIDE as novaLandsAchievementGuide } from "./games/nova-lands.js";
 import { GUIDE as amidEvilAchievementGuide } from "./games/amid-evil.js";
 import { GUIDE as postal4NoRegertsAchievementGuide } from "./games/postal-4-no-regerts.js";
 import { GUIDE as warhammer40kSanctusReachAchievementGuide } from "./games/warhammer-40k-sanctus-reach.js";
+import { GUIDE as islandersNewShoresAchievementGuide } from "./games/islanders-new-shores.js";
+import { GUIDE as cloudGardensAchievementGuide } from "./games/cloud-gardens.js";
+import { GUIDE as terraNilAchievementGuide } from "./games/terra-nil.js";
 
 export const APP_GUIDES = [
 
@@ -2100,7 +2103,10 @@ export const GAME_GUIDES = [
     novaLandsAchievementGuide,
     amidEvilAchievementGuide,
     postal4NoRegertsAchievementGuide,
-    warhammer40kSanctusReachAchievementGuide
+    warhammer40kSanctusReachAchievementGuide,
+    islandersNewShoresAchievementGuide,
+    cloudGardensAchievementGuide,
+    terraNilAchievementGuide
 
 ];
 
