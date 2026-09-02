@@ -991,6 +991,9 @@ import { GUIDE as visageAchievementGuide } from "./games/visage.js";
 import { GUIDE as theQuarryAchievementGuide } from "./games/the-quarry.js";
 import { GUIDE as fobiaStDinfnaHotelAchievementGuide } from "./games/fobia-st-dinfna-hotel.js";
 import { GUIDE as millenniaAchievementGuide } from "./games/millennia.js";
+import { GUIDE as loversInADangerousSpacetimeAchievementGuide } from "./games/lovers-in-a-dangerous-spacetime.js";
+import { GUIDE as sludgeLifeAchievementGuide } from "./games/sludge-life.js";
+import { GUIDE as movingOutAchievementGuide } from "./games/moving-out.js";
 
 export const APP_GUIDES = [
 
@@ -2004,7 +2007,10 @@ export const GAME_GUIDES = [
     visageAchievementGuide,
     theQuarryAchievementGuide,
     fobiaStDinfnaHotelAchievementGuide,
-    millenniaAchievementGuide
+    millenniaAchievementGuide,
+    loversInADangerousSpacetimeAchievementGuide,
+    sludgeLifeAchievementGuide,
+    movingOutAchievementGuide
 
 ];
 
