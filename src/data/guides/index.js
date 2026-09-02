@@ -943,6 +943,9 @@ import { GUIDE as deusExMankindDividedAchievementGuide } from "./games/deus-ex-m
 import { GUIDE as wolfensteinYoungbloodAchievementGuide } from "./games/wolfenstein-youngblood.js";
 import { GUIDE as dishonoredDeathOfTheOutsiderAchievementGuide } from "./games/dishonored-death-of-the-outsider.js";
 import { GUIDE as theCallistoProtocolAchievementGuide } from "./games/the-callisto-protocol.js";
+import { GUIDE as grandTheftAutoIiiTheDefinitiveEditionAchievementGuide } from "./games/grand-theft-auto-iii-the-definitive-edition.js";
+import { GUIDE as grandTheftAutoViceCityTheDefinitiveEditionAchievementGuide } from "./games/grand-theft-auto-vice-city-the-definitive-edition.js";
+import { GUIDE as sniperGhostWarriorContracts2AchievementGuide } from "./games/sniper-ghost-warrior-contracts-2.js";
 
 export const APP_GUIDES = [
 
@@ -1908,7 +1911,10 @@ export const GAME_GUIDES = [
     deusExMankindDividedAchievementGuide,
     wolfensteinYoungbloodAchievementGuide,
     dishonoredDeathOfTheOutsiderAchievementGuide,
-    theCallistoProtocolAchievementGuide
+    theCallistoProtocolAchievementGuide,
+    grandTheftAutoIiiTheDefinitiveEditionAchievementGuide,
+    grandTheftAutoViceCityTheDefinitiveEditionAchievementGuide,
+    sniperGhostWarriorContracts2AchievementGuide
 
 ];
 
