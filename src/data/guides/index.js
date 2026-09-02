@@ -982,6 +982,9 @@ import { GUIDE as fugaMelodiesOfSteelAchievementGuide } from "./games/fuga-melod
 import { GUIDE as yakuzaKiwami2AchievementGuide } from "./games/yakuza-kiwami-2.js";
 import { GUIDE as roboquestAchievementGuide } from "./games/roboquest.js";
 import { GUIDE as starOceanTheSecondStoryRAchievementGuide } from "./games/star-ocean-the-second-story-r.js";
+import { GUIDE as starWarsBattlefrontIiAchievementGuide } from "./games/star-wars-battlefront-ii.js";
+import { GUIDE as theLegendOfHeroesTrailsThroughDaybreakAchievementGuide } from "./games/the-legend-of-heroes-trails-through-daybreak.js";
+import { GUIDE as ysViiiLacrimosaOfDanaAchievementGuide } from "./games/ys-viii-lacrimosa-of-dana.js";
 
 export const APP_GUIDES = [
 
@@ -1986,7 +1989,10 @@ export const GAME_GUIDES = [
     fugaMelodiesOfSteelAchievementGuide,
     yakuzaKiwami2AchievementGuide,
     roboquestAchievementGuide,
-    starOceanTheSecondStoryRAchievementGuide
+    starOceanTheSecondStoryRAchievementGuide,
+    starWarsBattlefrontIiAchievementGuide,
+    theLegendOfHeroesTrailsThroughDaybreakAchievementGuide,
+    ysViiiLacrimosaOfDanaAchievementGuide
 
 ];
 

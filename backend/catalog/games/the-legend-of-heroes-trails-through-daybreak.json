@@ -1,0 +1,499 @@
+{
+    "id": 2138610,
+    "steamAppId": 2138610,
+    "name": "The Legend of Heroes: Trails through Daybreak",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2138610/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 40,
+        "max": 70
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "JRPG",
+        "Turn-Based",
+        "Action RPG",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TROPHY1_PLATINUM",
+            "name": "The Legend of Heroes",
+            "description": "Acquired all achievements.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "TROPHY1_ACHIEVE_COMP",
+            "name": "Working Overtime",
+            "description": "Unlocked all in-game achievements. (Other than EX)",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "TROPHY1_AAA_RANK",
+            "name": "AAA-rkride Solutions",
+            "description": "Raised the Arkride Solutions rank to AAA.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "TROPHY1_QUEST_COMP",
+            "name": "Time For Sweets",
+            "description": "Completed all quests.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "TROPHY1_LAW_LV3",
+            "name": "Law-Abiding Spriggan",
+            "description": "Reached Law alignment level 3 or above.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "TROPHY1_GRAY_LV3",
+            "name": "Morally Gray",
+            "description": "Reached Gray alignment level 3 or above.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "TROPHY1_CHAOS_LV3",
+            "name": "Chaos Bringer",
+            "description": "Reached Chaos alignment level 3 or above.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "TROPHY1_ALIGNMENT_COMP",
+            "name": "Enlightened Centrist",
+            "description": "Reached Law, Gray, and Chaos alignment level 5.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "TROPHY1_CONNECT_MAX",
+            "name": "Unrivaled Connection",
+            "description": "Raised a Connection Stage to its maximum level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "TROPHY1_CONNECT_MAX_COMP",
+            "name": "Unbreakable Bonds",
+            "description": "Raised all Connection Stages to their maximum level.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "TROPHY1_MONS_NOTE_COMP",
+            "name": "Carving a New Trail",
+            "description": "Completely filled the battle section in the notebook.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "TROPHY1_BOOK_NOTE_COMP",
+            "name": "Fervent Bibliophile",
+            "description": "Completely filled the books section in the notebook.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "TROPHY1_GOURMET_LV_MAX",
+            "name": "Gourmaniac",
+            "description": "Raised the gourmet rank to its maximum level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "TROPHY1_TBOX_COUNT",
+            "name": "Chestiny",
+            "description": "Opened 150 treasure chests.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "TROPHY1_HOLLOW_CHANGE_1ST",
+            "name": "Aftermarket Modder",
+            "description": "Changed holo core for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "TROPHY1_HOLLOW_COMP",
+            "name": "Holostar",
+            "description": "Acquired all holo cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "TROPHY1_ADRIVER_CHANGE",
+            "name": "Arts Virtuoso",
+            "description": "Set an Arts Plugin to any Arts Driver.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "TROPHY1_ADRIVER_COUNT",
+            "name": "Master Driver",
+            "description": "Acquired all Arts Drivers.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "TROPHY1_ORBMENT_SLOT_COMP",
+            "name": "Master of Orbments",
+            "description": "Opened all orbment slots for the entire party.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "TROPHY1_STOCK_TIME_ADD_1ST",
+            "name": "Time Lord",
+            "description": "Completed all 4SPGs that could be done with specific timing, acquiring additional Free Time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "TROPHY1_S_RANK",
+            "name": "Hotshot Spriggan",
+            "description": "Achieved an S-rank on any chapter except the Prologue.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "TROPHY1_GIFT_COUNT",
+            "name": "Vanta Claus",
+            "description": "Gave over 20 gift items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "TROPHY1_TOPIC_USE_COUNT",
+            "name": "Chatterbox",
+            "description": "Used over 15 Topics.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "TROPHY1_STRONG_WEAPON_GET",
+            "name": "Unlimited Power",
+            "description": "Created an Onyx Steel weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "TROPHY1_HOLLOW_LV_MAX",
+            "name": "HOLO 9000",
+            "description": "Raised a holo core to its maximum level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "TROPHY1_SPA_COMP",
+            "name": "Solitary Spa Fanatic",
+            "description": "Entered the sauna in Edith every chapter, entered the Hamam in Tharbad, and entered the hot springs in Longlai outside of events.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "TROPHY1_CINEMA_COMP",
+            "name": "Unmatched Cinephile",
+            "description": "Watched all movies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "TROPHY1_SIMULATOR_CLEAR",
+            "name": "Virtually Victorious",
+            "description": "Cleared the Beta version of the Virtual Combat Simulator once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "TROPHY1_SIMULATOR_COMP",
+            "name": "Virtual Vanguard",
+            "description": "Cleared the entire Beta version of the Virtual Combat Simulator.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "TROPHY1_SCLM_COUNT",
+            "name": "SCLM Addict",
+            "description": "Used SCLM Chain and SCLM Support a combined total of 200 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "TROPHY1_SBOOST_COUNT",
+            "name": "The Fast and the S-Boosted",
+            "description": "Made over 100 moves while in S-Boost mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "TROPHY1_CHAIN_HIT_COUNT",
+            "name": "Chain Smoker",
+            "description": "Activated Chain Hit over 100 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "TROPHY1_SCRAFT_COUNT",
+            "name": "S-Crutch",
+            "description": "Used 50 S-Crafts in battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "TROPHY1_TAC_BONUS_COUNT",
+            "name": "W-W-Wombo Combo",
+            "description": "Won a battle with a tactical bonus of x4.0 or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "TROPHY1_ADVANTAGE_ATTACK_COUNT",
+            "name": "Caught 'Em Off Shard",
+            "description": "Activated a preemptive shard strike 150 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "TROPHY1_TOTAL_DAMAGE",
+            "name": "Van the Stampede",
+            "description": "Did a total of 10,000 damage or more.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "TROPHY1_FBATTLE_KILL_COUNT",
+            "name": "Rookie Warrior",
+            "description": "Defeated 300 enemies or more in Field Battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "TROPHY1_KILL_COUNT_1",
+            "name": "Talented Spriggan",
+            "description": "Defeated 500 or more enemies in Command Battle or Field Battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "TROPHY1_KILL_COUNT_2",
+            "name": "Legendary Champion",
+            "description": "Defeated 1,000 or more enemies in Command Battle or Field Battle.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "TROPHY1_NIGHTMARE",
+            "name": "Bear the Nightmare",
+            "description": "Completed the game on nightmare difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "TROPHY1_SCENARIO_5A",
+            "name": "Taking Up the Gauntlet",
+            "description": "Cleared one of the branching Chapter 5 routes (the Law-aligned path), described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "TROPHY1_SCENARIO_5B",
+            "name": "My Way or the Heiyue",
+            "description": "Cleared one of the branching Chapter 5 routes (the Heiyue path), described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "TROPHY1_SCENARIO_5C",
+            "name": "The Silver Lining",
+            "description": "Cleared one of the branching Chapter 5 routes, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "TROPHY1_SCENARIO_5D",
+            "name": "Partners in Crime",
+            "description": "Cleared one of the branching Chapter 5 routes, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "TROPHY1_SCENARIO_BEGIN",
+            "name": "Let's Go, Spriggan!",
+            "description": "Started the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "TROPHY1_SCENARIO_0",
+            "name": "Spriggan of the Slums",
+            "description": "Completed the Prologue: Spriggan of the Slums.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "TROPHY1_SCENARIO_1",
+            "name": "The Young Flame Departs",
+            "description": "Completed Chapter 1: The Young Flame Departs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "TROPHY1_SCENARIO_2",
+            "name": "Bright Star of the Dazzling City",
+            "description": "Completed Chapter 2: Bright Star of the Dazzling City.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "TROPHY1_SCENARIO_3",
+            "name": "Pleasure in Delirium",
+            "description": "Completed Chapter 3: Pleasure in Delirium.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "TROPHY1_SCENARIO_4",
+            "name": "Disaster Protocol",
+            "description": "Completed Chapter 4: Disaster Protocol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "TROPHY1_SCENARIO_4I",
+            "name": "A Mysterious Tale in Longlai",
+            "description": "Completed the Chapter 4 Intermission: A Mysterious Tale in Longlai.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "TROPHY1_SCENARIO_5",
+            "name": "The Restless Carnival",
+            "description": "Completed Chapter 5: The Restless Carnival.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "TROPHY1_SCENARIO_6",
+            "name": "For you, Upon Your Return",
+            "description": "Completed Chapter 6: For you, Upon Your Return - the finale, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
