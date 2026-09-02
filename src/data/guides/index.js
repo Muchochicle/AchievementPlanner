@@ -970,6 +970,9 @@ import { GUIDE as needForSpeedUnboundAchievementGuide } from "./games/need-for-s
 import { GUIDE as enlistedAchievementGuide } from "./games/enlisted.js";
 import { GUIDE as crysis2RemasteredAchievementGuide } from "./games/crysis-2-remastered.js";
 import { GUIDE as crysis3RemasteredAchievementGuide } from "./games/crysis-3-remastered.js";
+import { GUIDE as kenaBridgeOfSpiritsAchievementGuide } from "./games/kena-bridge-of-spirits.js";
+import { GUIDE as astroneerAchievementGuide } from "./games/astroneer.js";
+import { GUIDE as suicideSquadKillTheJusticeLeagueAchievementGuide } from "./games/suicide-squad-kill-the-justice-league.js";
 
 export const APP_GUIDES = [
 
@@ -1962,7 +1965,10 @@ export const GAME_GUIDES = [
     needForSpeedUnboundAchievementGuide,
     enlistedAchievementGuide,
     crysis2RemasteredAchievementGuide,
-    crysis3RemasteredAchievementGuide
+    crysis3RemasteredAchievementGuide,
+    kenaBridgeOfSpiritsAchievementGuide,
+    astroneerAchievementGuide,
+    suicideSquadKillTheJusticeLeagueAchievementGuide
 
 ];
 

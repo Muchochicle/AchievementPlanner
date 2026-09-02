@@ -1,0 +1,390 @@
+{
+    "id": 1954200,
+    "steamAppId": 1954200,
+    "name": "Kena: Bridge of Spirits",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1954200/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 8,
+        "max": 15
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action-Adventure",
+        "Third-Person",
+        "Puzzle"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_ABILITY_BOW",
+            "name": "Hunter in the Forest",
+            "description": "Unlock the Spirit Bow, gained partway through the Forest area; it powers many later combat challenges.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_ABILITY_BOMB",
+            "name": "Harness Your Power",
+            "description": "Unlock the Rot Bomb ability, which lets the Rot lob explosives to detonate objects and stagger heavy enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_ABILITY_DASH",
+            "name": "Crossing Over",
+            "description": "Unlock the Dash ability, Kena's forward dodge used for both traversal and combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_HERO_ROT",
+            "name": "Found a Friend",
+            "description": "Find the first Rot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_LOCATION_VILLAGE",
+            "name": "Haikyo",
+            "description": "Discover the Village.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_LOCATION_FOREST",
+            "name": "Into the Woods",
+            "description": "Discover the Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_LOCATION_FARM",
+            "name": "The Open Range",
+            "description": "Discover the Farm.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_LOCATION_MOUNTAIN",
+            "name": "The Lonely Path",
+            "description": "Reach the Mountain Shrine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_RELIC_KNIFE",
+            "name": "Taro's Fear",
+            "description": "Collect the relic Taro's Knife, found along Taro's questline in the Forgotten Forest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_RELIC_LANTERN",
+            "name": "Taro's Regret",
+            "description": "Collect the relic Taro's Lantern, earned after the Corrupt Taro boss fight.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_RELIC_FOOD_OFFERING",
+            "name": "Taro's Love",
+            "description": "Collect Taro's food-offering relic, the last of the three memories tied to the lost boy Taro.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_RELIC_OX",
+            "name": "Adira's Love",
+            "description": "Collect the Ox relic tied to the Woodsmith Adira's memories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_RELIC_HAMMER",
+            "name": "Adira's Fear",
+            "description": "Collect Adira's Hammer relic, found along the Woodsmith's questline.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_RELIC_VILLAGE_HEART",
+            "name": "Adira's Regret",
+            "description": "Collect the Village Heart relic, the third of Adira's three memories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_RELIC_VILLAGE_CREST",
+            "name": "Toshi's Love",
+            "description": "Collect the Village Crest relic tied to the village leader Toshi's memories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_RELIC_INCENSE",
+            "name": "Toshi's Fear",
+            "description": "Collect Toshi's Incense relic, found on his questline near the Mountain Shrine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_RELIC_HARPOON",
+            "name": "Toshi's Regret",
+            "description": "Collect Toshi's Harpoon relic, the last of his three memories.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_BOSS_TARO",
+            "name": "Spirit Guide",
+            "description": "Defeat Corrupt Taro and free his spirit - the game's first major boss, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_BOSS_WOODSMITH",
+            "name": "A Heavy Hammer",
+            "description": "Defeat the Corrupt Woodsmith boss and free Adira's spirit, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_BOSS_TOSHI",
+            "name": "A Leader Walks Alone",
+            "description": "Defeat the Corrupt Toshi boss, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_BOSS_ROT_GOD",
+            "name": "Restore Balance",
+            "description": "Defeat the final boss and restore balance to the mountain - the end of the story, described here spoiler-free.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_CHALLENGE_ARROW",
+            "name": "Piercing Blow",
+            "description": "Hit 3 Enemies with a single Rot Infused Arrow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_CHALLENGE_MOTH",
+            "name": "Weigh Them Down",
+            "description": "Destroy a Moth enemy with a Bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_CHALLENGE_CRIT",
+            "name": "Quick Draw",
+            "description": "Hit 3 critical hit spots in 3 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_CHALLENGE_MULTISHOT",
+            "name": "Bow Master",
+            "description": "Hit 3 enemies with a single Multi-shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_CHALLENGE_BOMB",
+            "name": "Sharpshooter",
+            "description": "Destroy an enemy by shooting a Bomb out of the air.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_CHALLENGE_SHIELD_STICKS",
+            "name": "Between the Eyes",
+            "description": "Destroy a Shield Sticks without breaking its shield.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_CHALLENGE_MAGE_BOMB",
+            "name": "Return to Sender",
+            "description": "Destroy a Mage with its own bomb.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_CHALLENGE_PARRY_KILL",
+            "name": "Triple Threat",
+            "description": "Destroy 3 enemies with a single Parry.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_CHALLENGE_COMBAT_ACTIONS",
+            "name": "Rot Commander",
+            "description": "Use 5 Rot Actions in a single combat.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_CHALLENGE_DASH_KILL",
+            "name": "Triple Tap",
+            "description": "Destroy 3 enemies with a single dash attack.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_ROT_ALL",
+            "name": "No Stone Unturned",
+            "description": "Find all of the Rot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_HATS_ALL",
+            "name": "Hat Collector",
+            "description": "Collect 50 Rot Hats.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_CHESTS_ALL",
+            "name": "Curse Collector",
+            "description": "Open all Cursed Chests.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_ABILITY_ALL",
+            "name": "Skillful Spirit Guide",
+            "description": "Unlock all ability upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_JIZO_FIRST",
+            "name": "Good as New",
+            "description": "Restore a Flower Shrine.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_JIZO_ALL",
+            "name": "Restoration Master",
+            "description": "Restore all of the Flower Shrines.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_MEDITATION_ALL",
+            "name": "Zen Master",
+            "description": "Meditate at all Meditation Spots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_MAIL_ALL",
+            "name": "The Last Stop",
+            "description": "Deliver all Spirit Mail.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_PHOTO_MODE",
+            "name": "Say Cheese",
+            "description": "Capture a picture in Photo Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_DIFFICULTY_MASTER",
+            "name": "Master Spirit Guide",
+            "description": "Beat the game on Master difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
