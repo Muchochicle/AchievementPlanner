@@ -1000,6 +1000,9 @@ import { GUIDE as chantsOfSennaarAchievementGuide } from "./games/chants-of-senn
 import { GUIDE as wytchwoodAchievementGuide } from "./games/wytchwood.js";
 import { GUIDE as toemAchievementGuide } from "./games/toem.js";
 import { GUIDE as jusantAchievementGuide } from "./games/jusant.js";
+import { GUIDE as talesOfAriseAchievementGuide } from "./games/tales-of-arise.js";
+import { GUIDE as supermarketTogetherAchievementGuide } from "./games/supermarket-together.js";
+import { GUIDE as theCoffinOfAndyAndLeyleyAchievementGuide } from "./games/the-coffin-of-andy-and-leyley.js";
 
 export const APP_GUIDES = [
 
@@ -2022,7 +2025,10 @@ export const GAME_GUIDES = [
     chantsOfSennaarAchievementGuide,
     wytchwoodAchievementGuide,
     toemAchievementGuide,
-    jusantAchievementGuide
+    jusantAchievementGuide,
+    talesOfAriseAchievementGuide,
+    supermarketTogetherAchievementGuide,
+    theCoffinOfAndyAndLeyleyAchievementGuide
 
 ];
 

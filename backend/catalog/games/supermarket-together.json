@@ -1,0 +1,481 @@
+{
+    "id": 2709570,
+    "steamAppId": 2709570,
+    "name": "Supermarket Together",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2709570/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Management",
+        "Simulation",
+        "Casual"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "0_Millionaire",
+            "name": "Millionaire's Holiday",
+            "description": "Reach one million dollars in funds",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "1_RestockerA",
+            "name": "Basic Restocker",
+            "description": "Placed a total of 1000 products in shelves [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "2_RestockerB",
+            "name": "Advanced Restocker",
+            "description": "Placed a total of 10000 products in shelves [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "3_RestockerC",
+            "name": "Master Restocker",
+            "description": "Placed a total of 100000 products in shelves [Collective]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "4_RecyclerA",
+            "name": "Basic Recycler",
+            "description": "Recycled a total of 50 boxes [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "5_RecyclerB",
+            "name": "Advanced Recycler",
+            "description": "Recycled a total of 500 boxes [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "6_RecyclerC",
+            "name": "Expert Recycler",
+            "description": "Recycled a total of 2000 boxes [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "7_CustomersA",
+            "name": "Some Success",
+            "description": "500 customers have gone through the store [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "8_CustomersB",
+            "name": "This Is Rolling",
+            "description": "2000 customers have gone through the store [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "9_CustomersC",
+            "name": "Sky High",
+            "description": "10000 customers have gone through the store [Collective]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "10_CashierA",
+            "name": "Basic Cashier",
+            "description": "Checked out a total of 500 products [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "11_CashierB",
+            "name": "Advanced Cashier",
+            "description": "Checked out a total of 2500 products [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "12_CashierC",
+            "name": "Expert Cashier",
+            "description": "Checked out a total of 10000 products [Collective]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "13_CleanerA",
+            "name": "Basic Cleaner",
+            "description": "Cleaned 50 trash [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "14_CleanerB",
+            "name": "Advanced Cleaner",
+            "description": "Cleaned 200 trash [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "15_CleanerC",
+            "name": "Expert Cleaner",
+            "description": "Cleaned 500 trash [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "16_CorrectChange",
+            "name": "Careful Cashier",
+            "description": "Return the correct change 100 times in a row while being a cashier",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "17_DutyGuard",
+            "name": "Not On My Guard",
+            "description": "Hit a thief  with the broom 500 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "18_CollectProducts",
+            "name": "Can't Someone Else Do It?",
+            "description": "Recover 500 dropped products",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "19_CatPetting",
+            "name": "Welcome Mr. Whiskers",
+            "description": "Pet the cat outside 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "20_GoodEarnings",
+            "name": "Gaining Traction!",
+            "description": "Achieve $25.000 or more in earnings in a single day",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "21_CheckoutMoney",
+            "name": "KA-CHING!",
+            "description": "Have a customer pay more than 700 dollars",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "22_DecorationsA",
+            "name": "Basic Decorator",
+            "description": "Have 50 or more decorations in your store (lights do count)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "23_DecorationsB",
+            "name": "Advanced Decorator",
+            "description": "Have 100 or more decorations in your store",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "24_DecorationsC",
+            "name": "Master Decorator",
+            "description": "Have 200 or more decorations in your store",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "25_SurveillanceA",
+            "name": "Observation Duty?",
+            "description": "Analyzed 500 customers with the surveillance desk [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "26_SurveillanceB",
+            "name": "Caught Red Handed",
+            "description": "Catch 10 thieves with the surveillance desk [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "27_Demolition",
+            "name": "How Is This Still Standing? (A)",
+            "description": "Demolish every possible pillar and beam in the classic layout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "28_Consequences",
+            "name": "Defaulter",
+            "description": "Suffer the consequences of not paying a bank loan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "29_SalesA",
+            "name": "Good, Pretty, Cheap",
+            "description": "Do at least 10 sales [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "30_SalesB",
+            "name": "Better, Prettier, Cheaper",
+            "description": "Do at least 50 sales [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "31_CardboardBaler",
+            "name": "Feed The Machine",
+            "description": "Insert 500 boxes in the cardboard baler [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "32_Bales",
+            "name": "Condensed Recycling",
+            "description": "Recycle 40 cardboard bales [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "33_HiddenCat",
+            "name": "Might Need Two Ladders",
+            "description": "Find the missing cat in the classic layout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "34_CannotResist",
+            "name": "Who Could Resist?",
+            "description": "Sell 1000 extra products thanks to sales [Collective]",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "35_Taxes",
+            "name": "Taxes? In my store?",
+            "description": "Pay your first invoice [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "36_Responsible",
+            "name": "A Responsible Owner",
+            "description": "Pay 25 invoices [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "37_OnlineServiceA",
+            "name": "Turning The Router On",
+            "description": "Pack your first online order.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "38_OnlineServiceB",
+            "name": "Still Connected",
+            "description": "Complete 25 online orders.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "39_OnlineBenefit",
+            "name": "Virtual Benefits",
+            "description": "Earn more than 25.000$ with online orders.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "40_RepairA",
+            "name": "Let's Get To Work",
+            "description": "Repair your first device",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "41_RepairB",
+            "name": "Wrench Specialist",
+            "description": "Repair 30 devices [Collective]",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "42_DearCustomers",
+            "name": "Good Morning Dear Customers",
+            "description": "Place an announcement desk in your store",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "43_FireExtinguisher",
+            "name": "Tool Of Chaos",
+            "description": "Get your hands on a fire extinguiser",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "44_BystanderConvert",
+            "name": "Please Check My Prices!!",
+            "description": "'Convince' 10 bystanders to become customers by pushing them inside your store with the fire extinguiser in the classic layout (Double transit door needed)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "45_SuperFood",
+            "name": "Superfood",
+            "description": "Manufacture a recipe with at least 7 extra ingredients",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "46_Manufacturing",
+            "name": "A Wider Array Of Products",
+            "description": "Acquire all manufacturing departments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "47_MRecipes",
+            "name": "A Good Wares Selection",
+            "description": "Unlock all manufacturing recipes available so far",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "48_DemolitionPlaza",
+            "name": "How Is This Still Standing Again?",
+            "description": "Demolish every possible pillar and beam in the plaza layout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "49_HiddenCatPlaza",
+            "name": "Might Need Two Ladders... Or More",
+            "description": "Find the missing cat in the plaza layout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "50_EnigmaCube",
+            "name": "What is this?",
+            "description": "Build the enigma cube in the plaza layout",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
