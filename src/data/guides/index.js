@@ -903,6 +903,11 @@ import { GUIDE as americanTruckSimulatorAchievementGuide } from "./games/america
 import { GUIDE as houseFlipperAchievementGuide } from "./games/house-flipper.js";
 import { GUIDE as riskOfRainReturnsAchievementGuide } from "./games/risk-of-rain-returns.js";
 import { GUIDE as amongUsAchievementGuide } from "./games/among-us.js";
+import { GUIDE as tekken8AchievementGuide } from "./games/tekken-8.js";
+import { GUIDE as guiltyGearStriveAchievementGuide } from "./games/guilty-gear-strive.js";
+import { GUIDE as kingdomComeDeliveranceAchievementGuide } from "./games/kingdom-come-deliverance.js";
+import { GUIDE as yakuza0AchievementGuide } from "./games/yakuza-0.js";
+import { GUIDE as likeADragonInfiniteWealthAchievementGuide } from "./games/like-a-dragon-infinite-wealth.js";
 
 export const APP_GUIDES = [
 
@@ -933,6 +938,11 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  likeADragonInfiniteWealthAchievementGuide,
+  yakuza0AchievementGuide,
+  kingdomComeDeliveranceAchievementGuide,
+  guiltyGearStriveAchievementGuide,
+  tekken8AchievementGuide,
   amongUsAchievementGuide,
   riskOfRainReturnsAchievementGuide,
   houseFlipperAchievementGuide,

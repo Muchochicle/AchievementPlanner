@@ -927,6 +927,11 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("house-flipper"));
     assert.ok(slugs.includes("risk-of-rain-returns"));
     assert.ok(slugs.includes("among-us"));
+    assert.ok(slugs.includes("tekken-8"));
+    assert.ok(slugs.includes("guilty-gear-strive"));
+    assert.ok(slugs.includes("kingdom-come-deliverance"));
+    assert.ok(slugs.includes("yakuza-0"));
+    assert.ok(slugs.includes("like-a-dragon-infinite-wealth"));
 
 });
 
