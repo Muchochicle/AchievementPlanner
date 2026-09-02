@@ -1027,6 +1027,9 @@ import { GUIDE as thePluckySquireAchievementGuide } from "./games/the-plucky-squ
 import { GUIDE as eiyudenChronicleHundredHeroesAchievementGuide } from "./games/eiyuden-chronicle-hundred-heroes.js";
 import { GUIDE as rootsOfPachaAchievementGuide } from "./games/roots-of-pacha.js";
 import { GUIDE as paliaAchievementGuide } from "./games/palia.js";
+import { GUIDE as farCry6AchievementGuide } from "./games/far-cry-6.js";
+import { GUIDE as farCryNewDawnAchievementGuide } from "./games/far-cry-new-dawn.js";
+import { GUIDE as immortalsFenyxRisingAchievementGuide } from "./games/immortals-fenyx-rising.js";
 
 export const APP_GUIDES = [
 
@@ -2076,7 +2079,10 @@ export const GAME_GUIDES = [
     thePluckySquireAchievementGuide,
     eiyudenChronicleHundredHeroesAchievementGuide,
     rootsOfPachaAchievementGuide,
-    paliaAchievementGuide
+    paliaAchievementGuide,
+    farCry6AchievementGuide,
+    farCryNewDawnAchievementGuide,
+    immortalsFenyxRisingAchievementGuide
 
 ];
 
