@@ -1,0 +1,617 @@
+{
+    "id": 979690,
+    "steamAppId": 979690,
+    "name": "The Ascent",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/979690/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Twin-Stick Shooter",
+        "Action RPG",
+        "Cyberpunk",
+        "Co-op",
+        "Isometric"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "FIRST_ENEMY_KILL",
+            "name": "We're just getting started",
+            "description": "First enemy kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "DIE_100_TIMES",
+            "name": "Suicidal",
+            "description": "Die more than 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "RESET_PROFICIENCIES",
+            "name": "Do Over",
+            "description": "Reset your proficiencies once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "SELL_SOMETHING",
+            "name": "Fair trade",
+            "description": "Sell Something",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "KILLED_BY_KATANA",
+            "name": "Sashimi",
+            "description": "Get killed by a katana",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "REVIVE_FRIEND",
+            "name": "Helping hand",
+            "description": "Revive a DBNO friend",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "MAIN_MISSION_01",
+            "name": "What just happened?",
+            "description": "Complete the main mission 'What just happened?'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "MAIN_MISSION_02",
+            "name": "Party crashed",
+            "description": "Complete the main mission 'Party crashed'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "MAIN_MISSION_03",
+            "name": "A new friend",
+            "description": "Complete the main mission 'A new friend'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "MAIN_MISSION_04",
+            "name": "Power Hungry",
+            "description": "Complete the main mission 'Power Hungry'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "MAIN_MISSION_05",
+            "name": "Data Digging",
+            "description": "Complete the main mission 'Data Digging'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "MAIN_MISSION_06",
+            "name": "Mnemonic Hunt",
+            "description": "Complete the main mission 'Mnemonic Hunt'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "MAIN_MISSION_07",
+            "name": "Everyone's a smuggler",
+            "description": "Complete the main mission \"Everyone's a smuggler\".",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "MAIN_MISSION_08",
+            "name": "Magenta Power",
+            "description": "Complete the main mission 'Magenta Power'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "MAIN_MISSION_09",
+            "name": "Nothing personal",
+            "description": "Complete the main mission 'Nothing personal'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "MAIN_MISSION_10",
+            "name": "Severed Board",
+            "description": "Complete the main mission 'Severed Board'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "MAIN_MISSION_11",
+            "name": "Protocol 61A",
+            "description": "Complete the main mission 'Protocol 61A'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "MAIN_MISSION_12",
+            "name": "Something out there",
+            "description": "Complete the main mission 'Something out there'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "MAIN_MISSION_ALL",
+            "name": "Win",
+            "description": "Complete the final main mission and finish the story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "IMP_UPGRADE",
+            "name": "Next level AI",
+            "description": "Upgrade your IMP companion drone.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "PRAISE_FROM_KIRA",
+            "name": "Appreciation",
+            "description": "Receive praise from Kira in conversation.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "ENEMY_DROP_GRENADE",
+            "name": "Drop your weapon!",
+            "description": "Make an enemy drop an exploding grenade",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "EQUIP_AUGS_AND_MODULE",
+            "name": "Added extras",
+            "description": "Equip two augmentations and a module",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "FULLCHROME_APPEARANCE",
+            "name": "Fullchrome",
+            "description": "Equip augmentations and upgrade attributes resulting in the fullchrome appearance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "SPEND_PROFICIENCY_POINTS",
+            "name": "Self improvement",
+            "description": "Allocate 3 proficiency points",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "COOP_SESSION",
+            "name": "Teamwork",
+            "description": "Start your first co-op session",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "FULLY_UPGRADE_WEAPON",
+            "name": "Aficionado",
+            "description": "Fully upgrade a weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "FINISH_SIDE_MISSION",
+            "name": "Getting things done",
+            "description": "Finish a side mission",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "FINISH_SIDE_MISSION_ALL",
+            "name": "For both our benefits",
+            "description": "Complete all side missions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "HACK_ATM",
+            "name": "Anonymous withdrawal",
+            "description": "Hack an ATM",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "HACK_AND_DESTROY_VENDING_MACHINE",
+            "name": "Free candy",
+            "description": "Get the goods by both hacking and destroying vending machines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "HACK_ALL_CATEGORIES",
+            "name": "Omnihacker",
+            "description": "Hack at least one of each hackable category",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "BLACK_ICE_HACKER_ENEMY",
+            "name": "Black ICE",
+            "description": "Deploy black ICE against hacker enemy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "GET_UCREDS",
+            "name": "Getting out of the slums",
+            "description": "Collect 200'000 uCreds ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "CLAIM_BOUNTY",
+            "name": "Bounty Hunter",
+            "description": "Claim a bounty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "TRY_SNOOZE",
+            "name": "Snooze or lose",
+            "description": "Try Snooze",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "KILL_ROBOT_WITH_ENERGY_DAMAGE",
+            "name": "Fight smart",
+            "description": "Kill a robot with energy damage type",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "STASIS_DAMAGE_TARGET",
+            "name": "Extreme Overcharge",
+            "description": "Deliver 4000 amount of stasis damage on one target",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "KILL_ENEMIES_EXPLODING_BARRELS",
+            "name": "Opportunist",
+            "description": "Kill 10 enemies using exploding barrels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "KILL_BY_OVERCHARGE_ENEMY_IN_STASIS",
+            "name": "Overkill",
+            "description": "Kill another enemy by overcharging an enemy while it's in stasis",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "WASH_HANDS",
+            "name": "Hygiene",
+            "description": "Use the sink after flushing a toilet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "DISCOVER_LOCATION_ALL",
+            "name": "Explorer",
+            "description": "Discover all locations",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "TAKE_TRAIN",
+            "name": "Tourist",
+            "description": "Ride the Interlink Express",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "FILL_CODEX",
+            "name": "Comprehensive",
+            "description": "Fill the Codex",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "READ_DATA_PADS",
+            "name": "Curious consumer",
+            "description": "Read 10 datapads",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "UNLOCK_CODEX_ENEMY_ENTRIES",
+            "name": "Flatliner",
+            "description": "Unlock all enemy Codex entries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "EXTRACTION_MAIN_MISSION_13",
+            "name": "One step forward",
+            "description": "Complete the Cyber Heist DLC mission 'Find & Replace'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "EXTRACTION_MAIN_MISSION_14",
+            "name": "All the way",
+            "description": "Complete the Cyber Heist DLC mission 'Critical Resource'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "EXTRACTION_LOST_RUBY",
+            "name": "Tenuous Grasp",
+            "description": "Find and then lose something valuable (Cyber Heist DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "EXTRACTION_MAIN_MISSION_ALL",
+            "name": "Completed Main Mission",
+            "description": "Complete the Cyber Heist DLC main story.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "EXTRACTION_ALL_MISSIONS",
+            "name": "Completed All Missions",
+            "description": "Complete every Cyber Heist DLC mission - main and side.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "EXTRACTION_KARLAN_ENGINEERING",
+            "name": "Karlan Engineering",
+            "description": "Destroy a Karlan controlled Siege Mech",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "EXTRACTION_BIG_LEAGUE",
+            "name": "Big leagues",
+            "description": "Kill 50 level 35 or higher enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "EXTRACTION_KNIFE_TO_GUNFIGHT",
+            "name": "Bring a knife to a gunfight",
+            "description": "Obtain your first melee weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "EXTRACTION_VIP_NO_MORE",
+            "name": "VIP no more",
+            "description": "Kill a level 35 bounty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "EXTRACTION_MAKING_CONCESSIONS",
+            "name": "Making Concessions",
+            "description": "Completed Making Concessions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "EXTRACTION_UNSHACKLED",
+            "name": "Unshackled",
+            "description": "Complete Unshackled",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "EXTRACTION_LOVE_KILLS",
+            "name": "Love Kills",
+            "description": "Complete the Cyber Heist DLC side mission 'Love Kills'.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "EXTRACTION_SIDE_MISSIONS_ALL",
+            "name": "Complete all Side Missions",
+            "description": "Completed all Cyber Heist Side Missions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "EXTRACTION_FIRST_MELEE_KILL",
+            "name": "Hammering",
+            "description": "Perform your first Hammer kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "EXTRACTION_FIRST_MELEE_SPECIAL_KILL",
+            "name": "First Melee Special Move Kill",
+            "description": "Kill an enemy using melee's special move",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "EXTRACTION_KILL_SKULLSQUAD",
+            "name": "Not so special",
+            "description": "Take down a member of Zells' guard",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "EXTRACTION_KILL_ZELL",
+            "name": "Zell is dead",
+            "description": "Take down Zell",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "EXTRACTION_BRAVE_NEW_WORLD",
+            "name": "Brave New World",
+            "description": "Discover the Dark Playground",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "EXTRACTION_VICE_EXPRESS",
+            "name": "Vice Express",
+            "description": "Take the Interlink train in the Cyber Heist DLC.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "EXTRACTION_OPEN_SESAME",
+            "name": "Open Sesame",
+            "description": "Find a secret route",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}

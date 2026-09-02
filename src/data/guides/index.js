@@ -952,6 +952,9 @@ import { GUIDE as dakarDesertRallyAchievementGuide } from "./games/dakar-desert-
 import { GUIDE as batmanArkhamKnightAchievementGuide } from "./games/batman-arkham-knight.js";
 import { GUIDE as mafiaIiiDefinitiveEditionAchievementGuide } from "./games/mafia-iii-definitive-edition.js";
 import { GUIDE as trepang2AchievementGuide } from "./games/trepang2.js";
+import { GUIDE as wolfensteinTheNewOrderAchievementGuide } from "./games/wolfenstein-the-new-order.js";
+import { GUIDE as gearsTacticsAchievementGuide } from "./games/gears-tactics.js";
+import { GUIDE as theAscentAchievementGuide } from "./games/the-ascent.js";
 
 export const APP_GUIDES = [
 
@@ -1926,7 +1929,10 @@ export const GAME_GUIDES = [
     dakarDesertRallyAchievementGuide,
     batmanArkhamKnightAchievementGuide,
     mafiaIiiDefinitiveEditionAchievementGuide,
-    trepang2AchievementGuide
+    trepang2AchievementGuide,
+    wolfensteinTheNewOrderAchievementGuide,
+    gearsTacticsAchievementGuide,
+    theAscentAchievementGuide
 
 ];
 

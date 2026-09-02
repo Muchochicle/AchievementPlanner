@@ -1,0 +1,572 @@
+{
+    "id": 1184050,
+    "steamAppId": 1184050,
+    "name": "Gears Tactics",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1184050/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Turn-Based Tactics",
+        "Strategy",
+        "Squad-Based",
+        "Action",
+        "Sci-fi"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "Grubslayer",
+            "name": "Grubslayer",
+            "description": "Kill 10 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "Grubslaughter",
+            "name": "Grubslaughter",
+            "description": "Kill 1000 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "Grubpocalypse",
+            "name": "Grubpocalypse",
+            "description": "Kill 10000 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ICouldDoThisAllDay",
+            "name": "I could do this all day",
+            "description": "Complete 20 Veteran Missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "Goal",
+            "name": "Tick Tick Tick...",
+            "description": "Kill an enemy with a Ticker explosion.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "Goooooaaaaal",
+            "name": "Boom!",
+            "description": "Kill 100 enemies with Ticker explosions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "GodLike",
+            "name": "God-like",
+            "description": "Complete 20 missions without any of your units dying or being downed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "Immortal",
+            "name": "Immortal",
+            "description": "Complete 100 missions without any of your units dying or being downed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "Tactics",
+            "name": "Tactics!",
+            "description": "Perform a chainsaw execution.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "WorldOnFire",
+            "name": "World on Fire",
+            "description": "Story progress marker - unlocks on a key campaign encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "HellOfAShot",
+            "name": "Hell of a shot",
+            "description": "Story progress marker - unlocks on a key campaign encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "TheBiggerTheyAreTheHarderTheyFall",
+            "name": "The bigger they are, the harder they fall",
+            "description": "Story progress marker - unlocks on a key campaign boss encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "MaybeTooMuchSpine",
+            "name": "Maybe too much spine...",
+            "description": "Story progress marker - unlocks on a key campaign encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "BrokenHandBrokenHeart",
+            "name": "Broken hand, broken heart",
+            "description": "Story progress marker - unlocks on a key late-campaign encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "DeadMenTellNoTales",
+            "name": "Dead men tell no tales",
+            "description": "Story progress marker - unlocks on the final campaign encounter, described spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "ChampionOfVasgar",
+            "name": "Champion of Vasgar",
+            "description": "Complete all Campaign Acts (any difficulty).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "HeroOfVasgar",
+            "name": "Hero of Vasgar",
+            "description": "Complete all Campaign Acts on Experienced or Insane difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "SaviorOfVasgar",
+            "name": "Savior of Vasgar",
+            "description": "Complete all Campaign Acts on Insane difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "Smash",
+            "name": "Smash!",
+            "description": "Complete a Sabotage side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "FortunaAudacesSequitur",
+            "name": "Fortuna Audaces Sequitur",
+            "description": "Complete a Scavenger Run side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "EveryoneStayCoolThisIsARobbery",
+            "name": "Everyone stay cool, this is a robbery!",
+            "description": "Complete a Control side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "StrongerTogether",
+            "name": "Stronger Together",
+            "description": "Complete a Rescue side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "WereInTheEndgameNow",
+            "name": "We’re in the endgame now",
+            "description": "Complete a Veteran side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "Legen",
+            "name": "Legen (wait for it)…",
+            "description": "Upgrade one primary weapon with all Legendary mods.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "Dary",
+            "name": "…dary!",
+            "description": "Upgrade each Hero's primary weapon with all Legendary mods.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "Genius",
+            "name": "I am Ironman",
+            "description": "Complete the Campaign on any difficulty with Ironman mode enabled.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "INeverMiss",
+            "name": "I never miss",
+            "description": "Hit a target with 10% or less chance to hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "HappyKillmore",
+            "name": "Happy Killmore",
+            "description": "Close an Emergence Hole by kicking a Ticker into it.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "IveGotYourBOOMRightHere",
+            "name": "I've got your 'BOOM' right here!",
+            "description": "Kill a Boomer with a boomshot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ThePathOfTheRighteousMan",
+            "name": "The path of the righteous man",
+            "description": "Complete a mission without any of your units dying or being downed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "BOGO",
+            "name": "BOGO",
+            "description": "Kill an enemy, AND an enemy behind it, with a single burst of bullets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "TrickShot",
+            "name": "Trick Shot",
+            "description": "Get 4 kills with a single Torque Bow shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "DemolitionExpert",
+            "name": "Demolition Expert",
+            "description": "Close an Emergence Hole before any enemies have emerged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "HighNoon",
+            "name": "High Noon",
+            "description": "Complete a mission by only dealing damage with Snub Pistols.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "AintNoOneLikeMeAcceptMe",
+            "name": "Ain't no one like me, 'cept me!",
+            "description": "Complete a mission on Insane difficulty with a single soldier.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "ImmortalLegion",
+            "name": "Immortal Legion",
+            "description": "Complete the campaign on Insane difficulty without a single unit dying.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "SeriouslyTactical",
+            "name": "Seriously Tactical",
+            "description": "Earn Grubpocalypse, Immortal Legion, I Could Do This All Day and Boom!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "CheckOutTheBigBrainOnBrett",
+            "name": "Check out the big brain on Brett!",
+            "description": "Kill 5 enemies with a single Overwatch action.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "TheTownBicycle",
+            "name": "Piñata",
+            "description": "Kill a single unit that has taken damage from each Gear on the mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "Derp",
+            "name": "Snafu",
+            "description": "Heal an enemy unit with a Stim Grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "AwManIShotMarvinInTheFace",
+            "name": "Aw man, I shot Marvin in the face",
+            "description": "Down a Gear with friendly fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "OhImSorryDidIBreakYourConcentration",
+            "name": "Oh I'm sorry did I break your concentration?",
+            "description": "Interrupt an enemy Overwatch with a Disabling Shot from the Snub Pistol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "WeShouldHaveShotgunsForThisKindOfDeal",
+            "name": "We should have shotguns for this...",
+            "description": "Complete a Veteran Mission with all Scout units.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "BackdoorMan",
+            "name": "Backdoor Man",
+            "description": "Kill 6 targets with a single Rampage, after coming out of Cloak.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ThreeCount",
+            "name": "Three Count",
+            "description": "Hit with 3 Explosive Shots while having maximum Anchored bonus in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "TroubleInParadise",
+            "name": "Trouble in Paradise",
+            "description": "Empower a Teamworked unit and gain 3 AP from their kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "MidnightHour",
+            "name": "Midnight Hour",
+            "description": "Gain AP from the Avenger skill, then use a Rage shot to kill the unit that caused your AP gain.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "UpUpDownDown",
+            "name": "Up Up Down Down",
+            "description": "Use Alpha and Omega twice each in the same turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "TheBigEnding",
+            "name": "The Big Ending",
+            "description": "Revive a Scout with Stim ability and then use that Scout to kill at least 5 enemies with Rampage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "AndIWillStrikeDownUponTheeWithGreatVengeance",
+            "name": "Great vengeance and furious anger...",
+            "description": "In one turn, Breach 3 enemies; kill one of each with Precision Shot, Reckless Shot and Double Shot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "DeviantDelight",
+            "name": "Zed's dead, baby.",
+            "description": "Kill one or more of each Deviant enemy (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "RoboRescue",
+            "name": "For he is truly his brother's keeper...",
+            "description": "Use Jack to rescue both soldiers from torture pods on a Rescue mission (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "JackInTheBox",
+            "name": "Number 5 is alive!",
+            "description": "Complete a mission with Jack (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "GotJacked",
+            "name": "One For All!",
+            "description": "Have four squad members with the Jacked status effect at the same time (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "JackAndTheBeanstalk",
+            "name": "Jack and the Beanstalk",
+            "description": "Defeat the Brumak in Act 1 Chapter 6 without Jack taking damage (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "AllForOne",
+            "name": "All For One!",
+            "description": "Apply three or more stacks of Wingman on a single ally (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "YouCantSeeMe",
+            "name": "You can't see me!",
+            "description": "Gain a Supply with a Hidden Jack and no other allies in the Supply Point (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "IveDoneTheWholeMindControlThing",
+            "name": "I've done the whole mind control thing...",
+            "description": "Use Jack to HiJack each non-boss enemy at least once (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "Untouchable",
+            "name": "Untouchable",
+            "description": "Win a Veteran Mission without taking a point of damage (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "SuitUp",
+            "name": "Suit Up!",
+            "description": "Equip at least one weapon with all Supreme Weapon Mods (Jacked game mode only).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "SeriouslyJacked",
+            "name": "Seriously Jacked",
+            "description": "Earn all \"Jacked game mode\" achievements.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

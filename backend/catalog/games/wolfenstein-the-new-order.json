@@ -1,0 +1,473 @@
+{
+    "id": 201810,
+    "steamAppId": 201810,
+    "name": "Wolfenstein: The New Order",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/201810/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 12,
+        "max": 22
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Action",
+        "Alternate History",
+        "Story Rich",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ach_1",
+            "name": "Gunner",
+            "description": "Complete Chapter 1 - the assault on Deathshead's compound.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ach_2",
+            "name": "Fergus saved",
+            "description": "In the Chapter 1 timeline decision, choose to save Fergus (starts the Fergus campaign).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ach_3",
+            "name": "Wyatt saved",
+            "description": "In the Chapter 1 timeline decision, choose to save Wyatt (starts the Wyatt campaign).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ach_4",
+            "name": "Vive la resistance!",
+            "description": "Reach and join the Kreisau Circle resistance.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ach_5",
+            "name": "Power to the laser",
+            "description": "Acquire the LaserKraftWerk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ach_6",
+            "name": "Hidden in the deep",
+            "description": "Complete the deep-sea / U-boat chapter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ach_7",
+            "name": "London uprising",
+            "description": "Complete the London Nautica assault.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ach_8",
+            "name": "Deliverance",
+            "description": "Reach the final assault on Deathshead's compound.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ach_9",
+            "name": "Liberation",
+            "description": "Complete the game on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ach_10",
+            "name": "Super hero",
+            "description": "Complete the game on I AM DEATH INCARNATE! difficulty or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ach_11",
+            "name": "Über hero",
+            "description": "Complete the game on ÜBER difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ach_12",
+            "name": "All that glitters",
+            "description": "Collect 25 gold items.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ach_13",
+            "name": "Heart of gold",
+            "description": "Collect every gold item.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ach_14",
+            "name": "The lives of others",
+            "description": "Collect every letter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ach_15",
+            "name": "Secrets revealed I",
+            "description": "Solve the first Enigma code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ach_16",
+            "name": "Secrets revealed II",
+            "description": "Solve the second Enigma code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ach_17",
+            "name": "Secrets revealed III",
+            "description": "Solve the third Enigma code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ach_18",
+            "name": "Secrets revealed IV",
+            "description": "Solve the fourth Enigma code.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ach_19",
+            "name": "Scout I",
+            "description": "Unlock the Scout I stealth perk - stealth-kill a Commander.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ach_20",
+            "name": "Knife throwing",
+            "description": "Unlock the Knife Throwing perk - kill enemies with thrown knives.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ach_21",
+            "name": "Knife sheath +",
+            "description": "Unlock the Knife Sheath + perk - more thrown-knife kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ach_22",
+            "name": "Knife sheath ++",
+            "description": "Unlock the Knife Sheath ++ perk - still more thrown-knife kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ach_23",
+            "name": "Silent shot",
+            "description": "Unlock the Silent Shot perk - get 10 silent kills with a silenced pistol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ach_24",
+            "name": "Vampire",
+            "description": "Unlock the Vampire perk - perform 5 stealth takedowns while overcharged.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ach_25",
+            "name": "Scout II",
+            "description": "Unlock the Scout II perk - stealth-kill more Commanders / mark enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ach_26",
+            "name": "Assassin",
+            "description": "Unlock the Assassin perk - 50 stealth kills on soldiers plus 5 on Kampfhunds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ach_27",
+            "name": "Deadeye",
+            "description": "Unlock the Deadeye perk - assault-rifle and pistol headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ach_28",
+            "name": "Quick draw",
+            "description": "Unlock the Quick Draw perk - 40 headshots while aiming down sights.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ach_29",
+            "name": "Quick regeneration",
+            "description": "Unlock the Quick Regeneration perk - pick up health while already full.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ach_30",
+            "name": "Gun magazine +",
+            "description": "Unlock the Gun Magazine + perk - kills with the pistol.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ach_31",
+            "name": "Shotgun magazine +",
+            "description": "Unlock the Shotgun Magazine + perk - kills with the shotgun.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ach_32",
+            "name": "AR magazine +",
+            "description": "Unlock the AR Magazine + perk - kills with an assault rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ach_33",
+            "name": "Marksman magazine +",
+            "description": "Unlock the Marksman Magazine + perk - kills with the marksman rifle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ach_34",
+            "name": "Quick reload",
+            "description": "Unlock the Quick Reload perk - perform many reloads.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ach_35",
+            "name": "Double reload",
+            "description": "Unlock the Double Reload perk - reload two dual-wielded weapons at once repeatedly.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ach_36",
+            "name": "Endurance I",
+            "description": "Unlock the Endurance I perk - 3 kills while sprint-sliding.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ach_37",
+            "name": "Scavenger",
+            "description": "Unlock the Scavenger perk - 3 dual-wield assault-rifle kills in a row without releasing fire.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ach_38",
+            "name": "Bullet feeder",
+            "description": "Unlock the Bullet Feeder perk - pick up ammo from many corpses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ach_39",
+            "name": "Endurance II",
+            "description": "Unlock the Endurance II perk - more sprint-slide kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ach_40",
+            "name": "Autopanzer",
+            "description": "Unlock the Autopanzer perk - empty a fully-loaded LaserKraftWerk without missing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ach_41",
+            "name": "LKW battery +",
+            "description": "Unlock the LKW Battery + perk - kills with the LaserKraftWerk.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ach_42",
+            "name": "Dual-wield expert",
+            "description": "Unlock the Dual-Wield Expert perk - 100 dual-wield kills and 25 LaserKraftWerk kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ach_43",
+            "name": "Throwback",
+            "description": "Unlock the Throwback perk - throw back live grenades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ach_44",
+            "name": "Grenade pouch +",
+            "description": "Unlock the Grenade Pouch + perk - kills with grenades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ach_45",
+            "name": "Grenade pouch ++",
+            "description": "Unlock the Grenade Pouch ++ perk - more grenade kills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ach_46",
+            "name": "Bullseye",
+            "description": "Unlock the Bullseye perk - precise grenade throws / multi-kills with one grenade.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ach_47",
+            "name": "Rocket magazine +",
+            "description": "Unlock the Rocket Magazine + perk - kills with the rocket launcher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ach_48",
+            "name": "Vaporize",
+            "description": "Unlock the Vaporize perk - kill 3 enemies with one rocket.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ach_49",
+            "name": "Sentinel",
+            "description": "Unlock the Sentinel perk - kills with mounted / turret weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ach_50",
+            "name": "Hardened",
+            "description": "Unlock the Hardened perk - take heavy damage and survive repeatedly.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
