@@ -979,6 +979,9 @@ import { GUIDE as immortalsOfAveumAchievementGuide } from "./games/immortals-of-
 import { GUIDE as judgmentAchievementGuide } from "./games/judgment.js";
 import { GUIDE as likeADragonGaidenTheManWhoErasedHisNameAchievementGuide } from "./games/like-a-dragon-gaiden-the-man-who-erased-his-name.js";
 import { GUIDE as fugaMelodiesOfSteelAchievementGuide } from "./games/fuga-melodies-of-steel.js";
+import { GUIDE as yakuzaKiwami2AchievementGuide } from "./games/yakuza-kiwami-2.js";
+import { GUIDE as roboquestAchievementGuide } from "./games/roboquest.js";
+import { GUIDE as starOceanTheSecondStoryRAchievementGuide } from "./games/star-ocean-the-second-story-r.js";
 
 export const APP_GUIDES = [
 
@@ -1980,7 +1983,10 @@ export const GAME_GUIDES = [
     immortalsOfAveumAchievementGuide,
     judgmentAchievementGuide,
     likeADragonGaidenTheManWhoErasedHisNameAchievementGuide,
-    fugaMelodiesOfSteelAchievementGuide
+    fugaMelodiesOfSteelAchievementGuide,
+    yakuzaKiwami2AchievementGuide,
+    roboquestAchievementGuide,
+    starOceanTheSecondStoryRAchievementGuide
 
 ];
 

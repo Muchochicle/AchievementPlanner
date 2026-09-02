@@ -1,0 +1,796 @@
+{
+    "id": 692890,
+    "steamAppId": 692890,
+    "name": "Roboquest",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/692890/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 45
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "FPS",
+        "Fast-Paced",
+        "Co-op"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACT1_COMPLETED",
+            "name": "Haven 8",
+            "description": "Complete Act 1 of a run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ACT2_COMPLETED",
+            "name": "Taking it Back!",
+            "description": "Complete Act 2 of a run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ACT3_COMPLETED",
+            "name": "Moonwalker",
+            "description": "Complete Act 3 of a run (reach the Moon).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "ARMOR_MAX",
+            "name": "Iron Maiden",
+            "description": "Reach the maximum Armor bonus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "BASECAMP_FULL",
+            "name": "Home Sweet Home",
+            "description": "Craft all Basecamp upgrades.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "BILLY_EXPLOSION",
+            "name": "Oopsie...",
+            "description": "Trigger the boss Billy Boom's self-destruct - stand close to him, or damage the switch on his back once his health is low, to fill his charge meter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "BOSS_TAKEDOWN_BRONZE",
+            "name": "Boss Punisher (Bronze)",
+            "description": "Take down 5 Bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "BOSS_TAKEDOWN_GOLD",
+            "name": "Boss Punisher (Gold)",
+            "description": "Take down 15 Bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "BOSS_TAKEDOWN_SILVER",
+            "name": "Boss Punisher (Silver)",
+            "description": "Take down 10 Bosses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "BROBOT_JOIN",
+            "name": "Meet my Brobot",
+            "description": "Join a Brobot's game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "BROBOT_REBOOTED",
+            "name": "Field Mechanic",
+            "description": "Reboot your Brobot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "BUS_JUMP",
+            "name": "Party Bus",
+            "description": "Jump with the Hoverbus in the Loading Screen.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "CANYON_DEATH",
+            "name": "It's Gonna be a Looong Journey",
+            "description": "Get knocked out in the Canyons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "COMMANDO_FINISH_GAME",
+            "name": "Booyakasha",
+            "description": "Finish the game as the Commando.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "COMMANDO_MULTI_ROCKET",
+            "name": "Special Delivery",
+            "description": "Take down at least 3 different enemies with a single Rocket.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "COMMANDO_UNLOCK",
+            "name": "Commando",
+            "description": "Unlock the Commando.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "COMPENDIUM_FULL",
+            "name": "Gotta Catch' Em All",
+            "description": "Complete the Museum.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "CRYSTAL_UNLOCK_BRONZE",
+            "name": "Crystal Claimer (Bronze)",
+            "description": "Claim 1 Power Crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "CRYSTAL_UNLOCK_GOLD",
+            "name": "Crystal Claimer (Gold)",
+            "description": "Claim 6 Power Crystals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "CRYSTAL_UNLOCK_SILVER",
+            "name": "Crystal Claimer (Silver)",
+            "description": "Claim 3 Power Crystals.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "DAMAGE_DEALT_BRONZE",
+            "name": "Damage Dealer (Bronze)",
+            "description": "Deal 10,000 damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "DAMAGE_DEALT_GOLD",
+            "name": "Damage Dealer (Gold)",
+            "description": "Deal 1,000,000 damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "DAMAGE_DEALT_SILVER",
+            "name": "Damage Dealer (Silver)",
+            "description": "Deal 500,000 damage.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "DEFUSE_BOMB",
+            "name": "Just in Time",
+            "description": "Defuse the bomb within the last second.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 25,
+            "apiname": "ENEMY_DESTROY_BRONZE",
+            "name": "Robo-Regulator (Bronze)",
+            "description": "Take down 500 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "ENEMY_DESTROY_GOLD",
+            "name": "Robo-Regulator (Gold)",
+            "description": "Take down 10,000 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "ENEMY_DESTROY_SILVER",
+            "name": "Robo-Regulator (Silver)",
+            "description": "Take down 5,000 enemies.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "ENGINEER_FINISH_GAME",
+            "name": "Science Above All!",
+            "description": "Finish the game as the Engineer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "ENGINEER_SUMMON",
+            "name": "For the Swarm!",
+            "description": "Have at least 5 friends deployed at once as the Engineer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "ENGINEER_UNLOCK",
+            "name": "Engineer",
+            "description": "Unlock the Engineer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "FIELDS_PORTAL",
+            "name": "Waaaaarp Zone!",
+            "description": "Find and travel through the Portal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "FINISH_GAME",
+            "name": "Reboot",
+            "description": "Finish the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "FINISH_GAME_BUDDYBOT",
+            "name": "Best Buddy Forever",
+            "description": "Finish the game with Buddybot equipped.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "FINISH_GAME_DIFF_MAX",
+            "name": "Hardened Guardian",
+            "description": "Finish the game on Guardian 4 difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "FINISH_GAME_DIFF_MAX_RANK_S",
+            "name": "Ultimate Guardian",
+            "description": "Finish the game on Guardian 4 difficulty with rank S average.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "FINISH_GAME_MULTI",
+            "name": "The Power of Friendship",
+            "description": "Finish the game with a Brobot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "FINISH_GAME_RANK_S",
+            "name": "Perfect Run",
+            "description": "Finish the game with rank S average.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "GADGET_UNLOCK_BRONZE",
+            "name": "Inspector Gadget (Bronze)",
+            "description": "Unlock 1 Gadget.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "GADGET_UNLOCK_GOLD",
+            "name": "Inspector Gadget (Gold)",
+            "description": "Unlock 11 Gadgets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "GADGET_UNLOCK_SILVER",
+            "name": "Inspector Gadget (Silver)",
+            "description": "Unlock 5 Gadgets.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "GUARDIAN_AMMO",
+            "name": "Ammo Belt",
+            "description": "Reach +75% bonus Ammo in a run as the Guardian.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "GUARDIAN_FINISH_GAME",
+            "name": "The Last Bastion",
+            "description": "Finish the game as the Guardian.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "GUARDIAN_HAMMER",
+            "name": "Whack-A-Mole",
+            "description": "Take down Diggy Mole using the Bonk Hammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "HEADBONK_STRAIGHT",
+            "name": "Mamma Mia",
+            "description": "Perform 5 Headbonks in a row without landing.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "ITEMS_EQUIPPED",
+            "name": "Bazaar Best Friend",
+            "description": "Have at least 15 Items equipped at once during a run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "LANGUAGE_FRENCH",
+            "name": "Confrérie du Croissant",
+            "description": "Change the game language to French.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "LEGENDARY_BUDDYBOT",
+            "name": "Pimp my Buddy",
+            "description": "Upgrade Buddybot to a Fantastic weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "LEGENDARY_EQUIP",
+            "name": "Legen... wait for it... dary!",
+            "description": "Equip a Fantastic weapon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "LEVEL_CORRUPTED_DISCOVERED",
+            "name": "Nest of Corruption",
+            "description": "Discover a Corrupted level.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "LOG_UNLOCK_BRONZE",
+            "name": "Log Collector (Bronze)",
+            "description": "Retrieve 1 Data-Log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "LOG_UNLOCK_GOLD",
+            "name": "Log Collector (Gold)",
+            "description": "Retrieve 51 Data-Logs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "LOG_UNLOCK_SILVER",
+            "name": "Log Collector (Silver)",
+            "description": "Retrieve 20 Data-Logs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "LOOT_BUDDYBOT",
+            "name": "My Little Buddy",
+            "description": "Find and pick up Buddybot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "LOOT_SHOVEL",
+            "name": "Shovel Knight",
+            "description": "Find and pick up The Shovel.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "MAGUS_FINISH_GAME",
+            "name": "Elementary",
+            "description": "Finish the game as the Elementalist.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "MAGUS_METEOR_DAMAGE",
+            "name": "Final Flash",
+            "description": "Deal more than 1,000 damage with a single Comet.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "MAGUS_UNLOCK",
+            "name": "Elementalist",
+            "description": "Unlock the Elementalist.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "MAX_LEVEL_REACHED",
+            "name": "Muscle +4000",
+            "description": "Reach level 15 in a run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "MOVESPEED_MAX",
+            "name": "Faster Than Light",
+            "description": "Reach the maximum Movement Speed bonus.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "POWERCELLS_SPENT",
+            "name": "Energy Wallet",
+            "description": "Spend at least 40 Powercells in a single run.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "POWERCELL_GATHER_BRONZE",
+            "name": "Powercell Gatherer (Bronze)",
+            "description": "Gather 50 Powercells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "POWERCELL_GATHER_GOLD",
+            "name": "Powercell Gatherer (Gold)",
+            "description": "Gather 2,000 Powercells.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "POWERCELL_GATHER_SILVER",
+            "name": "Powercell Gatherer (Silver)",
+            "description": "Gather 1,000 Powercells.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "QUARRY_DETONATOR",
+            "name": "What's That Lever For?",
+            "description": "Activate the lever in the Excavation Site.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "RECON_FINISH_GAME",
+            "name": "Fast and Furious",
+            "description": "Finish the game as the Recon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "RECON_MULTI_SLASH",
+            "name": "Sushi Master",
+            "description": "Take down at least 3 different enemies in a single Dagger hit.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "RECON_UNLOCK",
+            "name": "Recon",
+            "description": "Unlock the Recon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "SENTINEL_FINISH_GAME",
+            "name": "The Long Hunt",
+            "description": "Finish the game as the Ranger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "SENTINEL_JAVELIN_DAMAGE",
+            "name": "Bot Skewer",
+            "description": "Deal more than 1,000 damage with a single Javelin.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "SENTINEL_UNLOCK",
+            "name": "Ranger",
+            "description": "Unlock the Ranger.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "SLIM_POWERCELL",
+            "name": "Spare Some Change?",
+            "description": "Give Powercells to Wallstreet Slim.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "UNTOUCHED_BOSS",
+            "name": "Easy Peasy",
+            "description": "Take down a boss without taking damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "WONKABAR_TRIGGER",
+            "name": "Master Gambler",
+            "description": "Win the Wonka Bar gamble.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "WRENCH_GATHER_BRONZE",
+            "name": "Wrench Picker (Bronze)",
+            "description": "Gather 50 Wrenches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "WRENCH_GATHER_GOLD",
+            "name": "Wrench Picker (Gold)",
+            "description": "Gather 500 Wrenches.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "WRENCH_GATHER_SILVER",
+            "name": "Wrench Picker (Silver)",
+            "description": "Gather 250 Wrenches.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "SUPERBOT_UNLOCK",
+            "name": "Superbot",
+            "description": "Unlock the Superbot class.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "SUPERBOT_FINISH_GAME",
+            "name": "Revenge",
+            "description": "Finish the game as the Superbot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "SUPERBOT_HEROLANDING",
+            "name": "Hero Landing",
+            "description": "Perform a Hero Landing as the Superbot.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "LOOT_SWORD",
+            "name": "Captain Mc Slice",
+            "description": "Find and pick up the Sword.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "ALFRED_REBOOT",
+            "name": "Butlers Never Die",
+            "description": "Reboot the wrecked butler robot, Alfred Beauregard, at the Basecamp.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "ENDLESS_UNLOCK",
+            "name": "Portal Online!",
+            "description": "Repair the Endless Mode portal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "ENDLESS_DEATH",
+            "name": "Endless Journey",
+            "description": "Get knocked out in the Endless Mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "ENDLESS_MUTATOR",
+            "name": "Evolution",
+            "description": "Have 6 Singularities active simultaneously.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "ENDLESS_UPGRADE",
+            "name": "BOOSTER!",
+            "description": "Gain a Booster.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "ENDLESS_PERKS",
+            "name": "Overperked",
+            "description": "Have 5 Perks active at once.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}
