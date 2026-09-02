@@ -1,0 +1,932 @@
+{
+    "id": 1659420,
+    "steamAppId": 1659420,
+    "name": "UNCHARTED: Legacy of Thieves Collection",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1659420/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 25,
+        "max": 45
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action-Adventure",
+        "Third-Person Shooter",
+        "Cinematic",
+        "Platformer",
+        "Story Rich"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "TROPHY_NAME_FINISH_EXPLORER",
+            "name": "Charted! - Explorer",
+            "description": "Complete the game in explorer mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "TROPHY_NAME_FINISH_EASY",
+            "name": "Charted! - Light",
+            "description": "Complete the game in light mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "TROPHY_NAME_FINISH_NORMAL",
+            "name": "Charted! - Moderate",
+            "description": "Complete the game in moderate mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "TROPHY_NAME_FINISH_HARD",
+            "name": "Charted! - Hard",
+            "description": "Complete the game in hard mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "TROPHY_NAME_FINISH_UHARD",
+            "name": "Charted! - Crushing",
+            "description": "Complete the game in crushing mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "TROPHY_NAME_FINISH_SPEEDRUN",
+            "name": "Charted! - Speedrun",
+            "description": "Complete the game in 6 hours or less",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "TROPHY_NAME_TREASURE_1",
+            "name": "First Treasure",
+            "description": "Find a Treasure",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "TROPHY_NAME_TREASURE_50",
+            "name": "Treasure Hunter",
+            "description": "Find 50 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "TROPHY_NAME_TREASURE_ALL",
+            "name": "Treasure Master",
+            "description": "Find all Treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "TROPHY_NAME_TREASURE_RELIC",
+            "name": "Relic Finder",
+            "description": "Find all three Strange Relics (in Chapters 9, 12 and 21 of Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "TROPHY_NAME_JOURNAL_ENTRY_1",
+            "name": "Jot This Down",
+            "description": "Find a Journal Entry",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "TROPHY_NAME_JOURNAL_ENTRY_ALL",
+            "name": "Lost Art of Journaling",
+            "description": "Find all Journal Entries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "TROPHY_NAME_JOURNAL_NOTE_1",
+            "name": "Take a Note",
+            "description": "Find a Journal Note",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "TROPHY_NAME_JOURNAL_NOTE_ALL",
+            "name": "Lost History",
+            "description": "Find All Journal Notes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "TROPHY_NAME_HEADSHOT_LOW",
+            "name": "Head of the Class!",
+            "description": "Defeat 20 enemies with headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "TROPHY_NAME_HEADSHOT_HIGH",
+            "name": "You Have a Head for this Business",
+            "description": "Defeat 50 enemies with headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "TROPHY_NAME_HEADSHOT_ROPE",
+            "name": "Hangman's Bullet",
+            "description": "Perform 20 headshots from the rope",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "TROPHY_NAME_STEALTH_KILL_LOW",
+            "name": "Stealth First Ask Questions Later",
+            "description": "Stealth take-down 5 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "TROPHY_NAME_STEALTH_KILL_HIGH",
+            "name": "Shh Sleep Now",
+            "description": "Stealth take-down 30 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "TROPHY_NAME_VERTICAL_TAKEDOWN",
+            "name": "I Thought I Heard Something",
+            "description": "Perform 30 vertical stealth takedowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "TROPHY_NAME_BLIND_FIRE",
+            "name": "Run-and-Gunner",
+            "description": "Defeat 50 enemies from-the-hip or blind-firing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "TROPHY_NAME_LEAPFROG",
+            "name": "Leapfrog",
+            "description": "Defeat 10 enemies in a row, alternating gunplay and hand-to-hand",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "TROPHY_NAME_NO_DEATH_100_KILLS",
+            "name": "Unstoppable!",
+            "description": "Defeat 100 enemies in a row without dying in combat",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "TROPHY_NAME_SHARPSHOOTER",
+            "name": "Sharpshooter",
+            "description": "Complete game with 70% or higher shot accuracy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "TROPHY_NAME_ROULETTE",
+            "name": "Rushing Roulette",
+            "description": "Defeat enemies with a pistol, machine gun, and grenade, in that order, in 15 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "TROPHY_NAME_COMBAT_NO_KILL",
+            "name": "Ghost in the Cemetery",
+            "description": "Get through Scotland cemetery combat encounter without killing or being seen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "TROPHY_NAME_ENEMY_DROP_GRENADE",
+            "name": "Butterfingers",
+            "description": "Make 10 enemies drop their grenades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "TROPHY_NAME_EXPLOSION_MULTI_KILL",
+            "name": "Boom County",
+            "description": "Defeat 4 enemies with the same explosion (all explosive items and weapons apply)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "TROPHY_NAME_CL_GRENADE_LAUNCHER",
+            "name": "Defeat 10 in 60 -- China Lake GL",
+            "description": "Defeat 10 enemies in 60 seconds with the China Lake Grenade Launcher",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "TROPHY_NAME_ROPE_VEHICLE_DESTROY",
+            "name": "Hang Tough!",
+            "description": "Destroy 10 vehicles while being dragged from the rope",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "TROPHY_NAME_KILL_TYPE_TIMED",
+            "name": "Run the Table",
+            "description": "Defeat enemies with a stealth attack, melee attack, headshot, and explosives, in that order, in 15 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "TROPHY_NAME_ARMORED_MELEE",
+            "name": "Hitting a Brick Wall",
+            "description": "Defeat 5 armored enemies with melee only",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "TROPHY_NAME_COMBAT_NO_KILL_HARD",
+            "name": "Peaceful Resolution",
+            "description": "Get from Chapter 13 through the Chapter 14 treasury without killing any mercenaries (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "TROPHY_NAME_COMBO_BUDDY_TAKEDOWN",
+            "name": "Wingman",
+            "description": "Perform 10 combo buddy takedowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "TROPHY_NAME_LEDGE_PULLDOWN",
+            "name": "Cliffhanger",
+            "description": "Pull 20 enemies over when hanging from a ledge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "TROPHY_NAME_LUDONARRATIVE",
+            "name": "Ludonarrative Dissonance",
+            "description": "Defeat 1,000 enemies across Uncharted 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "TROPHY_NAME_LEMUR_CITY",
+            "name": "Don't Feed the Animals",
+            "description": "In the Chapter 11 market, play with the lemur and let it take your apple (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "TROPHY_NAME_EVERY_WEAPON",
+            "name": "I Accidentally All the Guns",
+            "description": "Use every weapon available in Uncharted 4 (22 weapons).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "TROPHY_NAME_KNOCK_ROCKS_DOWN",
+            "name": "Not a Cairn in the World",
+            "description": "Find and destroy all 16 rock cairns during the Chapter 10 stay in Madagascar (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "TROPHY_NAME_TOP_CLOCKTOWER_CITY",
+            "name": "I Can See My House From Here!",
+            "description": "Climb to the spire of the clock tower in Chapter 11 (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "TROPHY_NAME_SCO_TRIAL_SOLVE",
+            "name": "Trials and Tribulations",
+            "description": "Solve the pirate-cave puzzle in Chapter 9 within 10 attempts (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "TROPHY_NAME_BANDICOOT_HIGH_SCORE",
+            "name": "Best Score!",
+            "description": "Score 3,500 or more in the Crash Bandicoot minigame in the epilogue (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "TROPHY_NAME_OPTIONAL_DIALOG",
+            "name": "Gift of Gab",
+            "description": "Unlock all 36 optional conversations in Uncharted 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "TROPHY_NAME_MARCO_POLO",
+            "name": "Marco Polo Returns!",
+            "description": "In Chapter 12: At Sea, swim near the sunken pirate ship and wait for Nate to call 'Marco' (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "TROPHY_NAME_E3_DEMO_FAIL",
+            "name": "Stage Fright",
+            "description": "Stand perfectly still for 30 seconds just before the Chapter 11 city chase (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "TROPHY_NAME_ELENA_JEEP",
+            "name": "Just Floor It!",
+            "description": "Complete the Chapter 17 jeep ride with Elena without killing any enemies (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "TROPHY_NAME_DOLPHINS",
+            "name": "On Porpoise",
+            "description": "Get all three dolphins to follow your boat in Chapter 12 (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "TROPHY_NAME_TOY_GUN_TARGETS",
+            "name": "Still Got It!",
+            "description": "Destroy four targets in the attic with the toy gun at the start of Chapter 4 (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "TROPHY_NAME_SULLY_PHOTO",
+            "name": "Glamour Shot",
+            "description": "Take a photo of Sully with his phone in the Chapter 11 puzzle chamber (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "TROPHY_NAME_SWORD_FIGHT",
+            "name": "Swordmaster",
+            "description": "Win the Chapter 22 sword duel with Rafe without taking a single hit (Uncharted 4).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "TROPHY_NAME_BEAT_GAME",
+            "name": "Legacy Found!",
+            "description": "Complete the Game",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "TROPHY_NAME_BEAT_CRUSHING",
+            "name": "Progress Demands Sacrifice",
+            "description": "Complete the Game in Crushing mode",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "TROPHY_NAME_TREASURE_ENTHUSIAST",
+            "name": "Casual Treasure Hunter",
+            "description": "Find 5 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "TROPHY_NAME_TREASURE_HUNTER",
+            "name": "Hardcore Treasure Hunter",
+            "description": "Find 35 treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "TROPHY_NAME_TREASURE_MASTER",
+            "name": "Collector of Antiquities",
+            "description": "Find all the treasures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "TROPHY_NAME_RELIC_FINDER",
+            "name": "Shake For Your Fortune",
+            "description": "Inspect the Strange Skull treasure and read the fortune on its base (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "TROPHY_NAME_HOYSALA_TOKEN",
+            "name": "Token For Granted",
+            "description": "Find a Hoysala Token in the Chapter 4 open-world area (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "TROPHY_NAME_TREASURE_FINDER",
+            "name": "Yas Queen",
+            "description": "Find all the Hoysala Tokens and obtain the Queen's Ruby (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "TROPHY_NAME_PICK_LOCKS",
+            "name": "Five Finger Discount",
+            "description": "Open 5 lockboxes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "TROPHY_NAME_PICK_LOCKS_ALL",
+            "name": "Picks or It Didn't Happen",
+            "description": "Open every lockbox",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "TROPHY_NAME_FIRST_PICS",
+            "name": "#nofilter",
+            "description": "Take a photo at 5 photo opportunities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "TROPHY_NAME_ALL_PICS",
+            "name": "Pics or It Didn't Happen",
+            "description": "Take a photo at all the photo opportunities",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "TROPHY_NAME_OPTIONAL_CONVO",
+            "name": "Getting to Know You",
+            "description": "Listen to all 17 optional conversations in The Lost Legacy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "TROPHY_NAME_ALL_WEAPONS",
+            "name": "Si Vis Pacem Para Bellum",
+            "description": "Get a kill with every weapon in The Lost Legacy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "TROPHY_NAME_LAST_BULLET",
+            "name": "Were You Counting?",
+            "description": "Defeat an enemy with the last bullet in your handgun magazine (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "TROPHY_NAME_HEAD_CHAIN",
+            "name": "10 Up, 10 Down",
+            "description": "Defeat 10 enemies with headshots in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "TROPHY_NAME_SILENCE_PISTOL",
+            "name": "Frazer. Chloe Frazer.",
+            "description": "Defeat 5 consecutive enemies with the silenced pistol without being detected",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 68,
+            "apiname": "TROPHY_NAME_FROM_THE_HIP",
+            "name": "Itchy Trigger Finger",
+            "description": "Defeat 20 enemies firing from-the-hip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 69,
+            "apiname": "TROPHY_NAME_COVER_FIRE",
+            "name": "Stay and Pray",
+            "description": "Defeat 20 enemies blind-firing from cover",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "TROPHY_NAME_HELMET_STEALTH",
+            "name": "Tip of the Hat",
+            "description": "Stealth take-down 10 armored enemies with melee by first removing their helmets without being detected",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "TROPHY_NAME_C4_KILLS",
+            "name": "Royal Demolitionist",
+            "description": "Defeat 20 enemies with C4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 72,
+            "apiname": "TROPHY_NAME_MARK_ENEMIES",
+            "name": "On the Grid",
+            "description": "Mark 30 enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 73,
+            "apiname": "TROPHY_NAME_PICK_LOCK_DANGER",
+            "name": "I Was Never Here",
+            "description": "Open a lockbox with enemies nearby without being detected (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 74,
+            "apiname": "TROPHY_NAME_C4_MULTI",
+            "name": "C-Phoria",
+            "description": "Defeat 4 enemies with one C4 detonation",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 75,
+            "apiname": "TROPHY_NAME_STEALTH_CHAIN",
+            "name": "Just the Wind",
+            "description": "Stealth take-down 15 enemies in a row",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 76,
+            "apiname": "TROPHY_NAME_REENTER_STEALTH",
+            "name": "Now You See Me...",
+            "description": "Break stealth in a fight and then successfully re-enter stealth (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 77,
+            "apiname": "TROPHY_NAME_BUDDY_MELEE",
+            "name": "Wingwoman",
+            "description": "Perform 10 combo partner takedowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 78,
+            "apiname": "TROPHY_NAME_MELEE_ONLY",
+            "name": "The Way of the Warrior",
+            "description": "Reach the outskirts of Halebidu in Chapter 5 without firing a gun or using an explosive (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 79,
+            "apiname": "TROPHY_NAME_DAMAGE_VARIETY",
+            "name": "The Sampler",
+            "description": "Defeat 5 enemies, each one taking damage from a handgun, long-gun, and melee",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 80,
+            "apiname": "TROPHY_NAME_JEEP_COMBO",
+            "name": "Make an Entrance",
+            "description": "Defeat enemies with the vehicle, long-gun, melee, and grenade, in that order, in 20 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 81,
+            "apiname": "TROPHY_NAME_GOLD_WEAPONS",
+            "name": "Bring in the Big Guns",
+            "description": "Defeat 30 enemies with gold weapons (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 82,
+            "apiname": "TROPHY_NAME_JEEP_QUICK_KILL",
+            "name": "4x4x4",
+            "description": "Defeat four enemies with the jeep within 20 seconds (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 83,
+            "apiname": "TROPHY_NAME_ZIPLINES",
+            "name": "Drop Me a Line",
+            "description": "Use all four ziplines to traverse the city, including the one after the yellow RX sign (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 84,
+            "apiname": "TROPHY_NAME_TOWER_YOGA",
+            "name": "Your Prize",
+            "description": "Appreciate the view at the top of the Hoysala Empire",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 85,
+            "apiname": "TROPHY_NAME_HUB_SPEED",
+            "name": "Best Driver in the Business",
+            "description": "Drive from the Ganesh mountain carving to the top of the waterfall at the Trident Fort and back in under 3 minutes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 86,
+            "apiname": "TROPHY_NAME_PUZZLE_NO_DAMAGE",
+            "name": "Flawless Gauntlet",
+            "description": "Get through all 3 Axe Fort trials without resetting any boards",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 87,
+            "apiname": "TROPHY_NAME_STEALTH_COMBAT_SHRINE",
+            "name": "Quiet as a Mouse",
+            "description": "After entering the Trident Fort, reach the door without being seen",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 88,
+            "apiname": "TROPHY_NAME_ROPE_SWING_CHAIN",
+            "name": "Jungle Gym",
+            "description": "Perform 5 grapple swings in a row without touching the ground",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 89,
+            "apiname": "TROPHY_NAME_JEEP_JUMP_TIME",
+            "name": "Stunt It!",
+            "description": "Accumulate 30 seconds of total jeep air time in Chapter 4 (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 90,
+            "apiname": "TROPHY_NAME_SHADOW_PUZZLE_FAST",
+            "name": "Shadow Theater",
+            "description": "Complete the Chapter 5 shadow puzzle in 10 moves or fewer (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 91,
+            "apiname": "TROPHY_NAME_MARCO_AQUEDUCT",
+            "name": "Marco Po-No",
+            "description": "Swim around the pool at the top of the dam in Halebidu (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 92,
+            "apiname": "TROPHY_NAME_FAST_LOCKPICK",
+            "name": "Fingersmith",
+            "description": "Pick a three-pin lock in under 15 seconds (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 93,
+            "apiname": "TROPHY_NAME_C4_APC_EXPLOSIONS",
+            "name": "Overkill",
+            "description": "Plant multiple C4 charges on the APC and destroy it with one detonation (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 94,
+            "apiname": "TROPHY_NAME_CLIFF_DIVE",
+            "name": "Cannonball!",
+            "description": "Perform an impressive dive from the cliff near the old railroad tracks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 95,
+            "apiname": "TROPHY_NAME_NO_KILL_CHOPPER",
+            "name": "Right Under Your Nose",
+            "description": "Destroy the helicopter without defeating any other enemies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 96,
+            "apiname": "TROPHY_NAME_RAM_MOTORCYCLES",
+            "name": "Combat Racing",
+            "description": "Ram 10 motorcycles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 97,
+            "apiname": "TROPHY_NAME_MELEE_DRIVER",
+            "name": "Backseat Driver",
+            "description": "Commandeer 6 vehicles by jumping on them and kicking out the driver",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 98,
+            "apiname": "TROPHY_NAME_GRENADE_VEHICLE",
+            "name": "Here, Catch!",
+            "description": "Destroy a vehicle in Chapter 9 with a thrown-back grenade (The Lost Legacy).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 99,
+            "apiname": "TROPHY_NAME_JEEP_SUICIDE",
+            "name": "Let's Not Get Caught",
+            "description": "Drive over the edge in the Western Ghats",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 100,
+            "apiname": "TROPHY_NAME_PLATINUM_SP",
+            "name": "A Thief's Legacy",
+            "description": "Collect all the achievements",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 101,
+            "apiname": "TROPHY_NAME_TLL_PLATINUM",
+            "name": "Don't Ruin The Moment",
+            "description": "Collect all the achievements in Uncharted™: The Lost Legacy",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}

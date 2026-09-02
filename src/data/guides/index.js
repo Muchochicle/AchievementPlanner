@@ -931,6 +931,9 @@ import { GUIDE as assassinsCreedValhallaAchievementGuide } from "./games/assassi
 import { GUIDE as tomClancysTheDivision2AchievementGuide } from "./games/tom-clancys-the-division-2.js";
 import { GUIDE as tomClancysGhostReconBreakpointAchievementGuide } from "./games/tom-clancys-ghost-recon-breakpoint.js";
 import { GUIDE as mirrorsEdgeCatalystAchievementGuide } from "./games/mirrors-edge-catalyst.js";
+import { GUIDE as deathStrandingDirectorsCutAchievementGuide } from "./games/death-stranding-directors-cut.js";
+import { GUIDE as theCrewMotorfestAchievementGuide } from "./games/the-crew-motorfest.js";
+import { GUIDE as unchartedLegacyOfThievesCollectionAchievementGuide } from "./games/uncharted-legacy-of-thieves-collection.js";
 
 export const APP_GUIDES = [
 
@@ -1884,7 +1887,10 @@ export const GAME_GUIDES = [
     assassinsCreedValhallaAchievementGuide,
     tomClancysTheDivision2AchievementGuide,
     tomClancysGhostReconBreakpointAchievementGuide,
-    mirrorsEdgeCatalystAchievementGuide
+    mirrorsEdgeCatalystAchievementGuide,
+    deathStrandingDirectorsCutAchievementGuide,
+    theCrewMotorfestAchievementGuide,
+    unchartedLegacyOfThievesCollectionAchievementGuide
 
 ];
 
