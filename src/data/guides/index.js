@@ -955,6 +955,9 @@ import { GUIDE as trepang2AchievementGuide } from "./games/trepang2.js";
 import { GUIDE as wolfensteinTheNewOrderAchievementGuide } from "./games/wolfenstein-the-new-order.js";
 import { GUIDE as gearsTacticsAchievementGuide } from "./games/gears-tactics.js";
 import { GUIDE as theAscentAchievementGuide } from "./games/the-ascent.js";
+import { GUIDE as worldOfTanksAchievementGuide } from "./games/world-of-tanks.js";
+import { GUIDE as gtfoAchievementGuide } from "./games/gtfo.js";
+import { GUIDE as arma3AchievementGuide } from "./games/arma-3.js";
 
 export const APP_GUIDES = [
 
@@ -1932,7 +1935,10 @@ export const GAME_GUIDES = [
     trepang2AchievementGuide,
     wolfensteinTheNewOrderAchievementGuide,
     gearsTacticsAchievementGuide,
-    theAscentAchievementGuide
+    theAscentAchievementGuide,
+    worldOfTanksAchievementGuide,
+    gtfoAchievementGuide,
+    arma3AchievementGuide
 
 ];
 

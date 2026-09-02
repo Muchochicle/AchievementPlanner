@@ -1,0 +1,536 @@
+{
+    "id": 493520,
+    "steamAppId": 493520,
+    "name": "GTFO",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/493520/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 20,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Co-op",
+        "Horror",
+        "FPS",
+        "Stealth",
+        "Hardcore"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_1",
+            "name": "Bare Minimum",
+            "description": "Complete a Main Sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_2",
+            "name": "Indirect Course",
+            "description": "Complete a Secondary Sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_3",
+            "name": "Beyond Range",
+            "description": "Complete an Overload Sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_4",
+            "name": "Deviation",
+            "description": "Complete all Main Sectors in ALT://R1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_5",
+            "name": "Infection",
+            "description": "Complete all Main Sectors in ALT://R2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_6",
+            "name": "The Vessel",
+            "description": "Complete all Main Sectors in ALT://R3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_7",
+            "name": "Contact",
+            "description": "Complete all Main Sectors in ALT://R4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_8",
+            "name": "Rebirth",
+            "description": "Complete all Main Sectors in ALT://R5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_9",
+            "name": "Destination",
+            "description": "Complete all Main Sectors in ALT://R6",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_10",
+            "name": "Rise",
+            "description": "Complete all Main Sectors in R7",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_11",
+            "name": "Duality",
+            "description": "Complete all Main Sectors in R8",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_12",
+            "name": "Additional Duty",
+            "description": "Complete all Secondary Sectors in all Rundowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_13",
+            "name": "Overload Operative",
+            "description": "Complete all Overload Sectors in all Rundowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_14",
+            "name": "Sum Total",
+            "description": "Complete all Sectors in all Rundowns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_15",
+            "name": "Prisoner Deemed Fit",
+            "description": "Complete the Tutorial",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_16",
+            "name": "Invincible",
+            "description": "Complete an expedition without getting downed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_17",
+            "name": "Chemically Improved",
+            "description": "Complete an expedition with at least one Booster activated",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_19",
+            "name": "Trigger Discipline",
+            "description": "Complete any A-tier expedition without using main or secondary weapons.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_20",
+            "name": "Controlled Response",
+            "description": "Complete any B-tier expedition alone with only pistols or revolvers equipped as main and secondary",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_21",
+            "name": "Low Tech",
+            "description": "Complete any C-tier expedition without anyone using the active ability of their tools",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_22",
+            "name": "Close Quarters",
+            "description": "Complete any D-tier expedition with everyone using shotguns equipped as main and secondary",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_23",
+            "name": "Detox",
+            "description": "Complete any E-tier expedition without using any boosters",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_24",
+            "name": "Unbroken",
+            "description": "Survive a class V or higher alarm without anyone taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_25",
+            "name": "Predator",
+            "description": "Kill a Scout with a melee attack without it detecting you",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_26",
+            "name": "Rapid Response",
+            "description": "Kill a Mother without it having used its spawning ability",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_27",
+            "name": "Swift",
+            "description": "Kill a P-mother without taking any damage from baby strikers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_28",
+            "name": "Full Blooded",
+            "description": "Kill a Giant by yourself using only melee weapons",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_29",
+            "name": "Mutual Insurance",
+            "description": "Kill a Tank without anyone on the team taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_31",
+            "name": "Guardian Angel",
+            "description": "Kill a Snatcher that has captured a teammate",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_32",
+            "name": "Breathing Room",
+            "description": "Complete any D-tier expedition without any doors being broken",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_33",
+            "name": "In the Shadows",
+            "description": "Complete any B-tier expedition without anyone having turned on the flashlight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_34",
+            "name": "Matter Wave Projector",
+            "description": "Teleport to another dimension for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_35",
+            "name": "The Inner",
+            "description": "Descend a total of 100 kilometres into the Complex by elevator.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_36",
+            "name": "Demolitions Expert",
+            "description": "Kill a total of 20 enemies with one tripmine",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_37",
+            "name": "Theorist",
+            "description": "Find 5 story logs in the Complex",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_38",
+            "name": "Versed",
+            "description": "Find 20 story logs in the Complex",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_39",
+            "name": "Cataloger",
+            "description": "Find 50 story logs in the Complex",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_40",
+            "name": "D-Lock Block Decipherer",
+            "description": "Find every story log in the Complex",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_41",
+            "name": "John",
+            "description": "Find Schaeffer's bucket.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_42",
+            "name": "Work Together",
+            "description": "Complete an expedition with four player without anyone getting downed",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_43",
+            "name": "R4 Absolute",
+            "description": "Complete all Sectors in ALT://R4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_44",
+            "name": "R5 Absolute",
+            "description": "Complete all Sectors in ALT://R5",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_45",
+            "name": "R6 Absolute",
+            "description": "Complete all Sectors in ALT://R6",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_46",
+            "name": "R7 Absolute",
+            "description": "Complete all Sectors in R7",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_47",
+            "name": "R8 Absolute",
+            "description": "Complete all Sectors in R8",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_48",
+            "name": "Main Path",
+            "description": "Complete all Main Sectors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_49",
+            "name": "Pure Will",
+            "description": "Complete R8D1 without using any health kits or disinfectants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_50",
+            "name": "Biotracker",
+            "description": "Complete any expedition having marked every enemy on the map using the Biotracker",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_51",
+            "name": "Prisoner Efficiency",
+            "description": "Achieve Prisoner Efficiency by completing the Main, Overload and Secondary Sectors of an expedition in one attempt",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_52",
+            "name": "Ultimate Efficiency",
+            "description": "Achieve Prisoner Efficiency in all expeditions that have Secondary and Overload Sectors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_53",
+            "name": "The Voice of Truth",
+            "description": "Hear a Voice of Truth broadcast for the first time in R2E1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_60",
+            "name": "Unmasked",
+            "description": "Find all the character backstory logs in ALT://R5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_55",
+            "name": "Loyalist",
+            "description": "Start the nuclear meltdown in R8.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_56",
+            "name": "Defector",
+            "description": "Reach the end of R8 without starting the nuclear meltdown.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_57",
+            "name": "Meet Schaeffer",
+            "description": "Come face to face with Schaeffer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_58",
+            "name": "Dots and Dashes",
+            "description": "Discover Schaeffer's secret message.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_59",
+            "name": "Die Together",
+            "description": "Fail an expedition for the first time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}
