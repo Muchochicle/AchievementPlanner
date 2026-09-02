@@ -988,6 +988,9 @@ import { GUIDE as ysViiiLacrimosaOfDanaAchievementGuide } from "./games/ys-viii-
 import { GUIDE as marthaIsDeadAchievementGuide } from "./games/martha-is-dead.js";
 import { GUIDE as madisonAchievementGuide } from "./games/madison.js";
 import { GUIDE as visageAchievementGuide } from "./games/visage.js";
+import { GUIDE as theQuarryAchievementGuide } from "./games/the-quarry.js";
+import { GUIDE as fobiaStDinfnaHotelAchievementGuide } from "./games/fobia-st-dinfna-hotel.js";
+import { GUIDE as millenniaAchievementGuide } from "./games/millennia.js";
 
 export const APP_GUIDES = [
 
@@ -1998,7 +2001,10 @@ export const GAME_GUIDES = [
     ysViiiLacrimosaOfDanaAchievementGuide,
     marthaIsDeadAchievementGuide,
     madisonAchievementGuide,
-    visageAchievementGuide
+    visageAchievementGuide,
+    theQuarryAchievementGuide,
+    fobiaStDinfnaHotelAchievementGuide,
+    millenniaAchievementGuide
 
 ];
 
