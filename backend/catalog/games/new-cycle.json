@@ -1,0 +1,519 @@
+{
+    "id": 2198510,
+    "steamAppId": 2198510,
+    "name": "New Cycle",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2198510/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 30
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Survival",
+        "Post-apocalyptic",
+        "Management",
+        "Society Sim",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_POPULATION1",
+            "name": "Rising House",
+            "description": "Reach a population of 70 inhabitants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_POPULATION2",
+            "name": "Hope's Hamlet",
+            "description": "Reach a population of 100 inhabitants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_POPULATION3",
+            "name": "City of Second Chances",
+            "description": "Reach a population of 200 inhabitants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_POPULATION4",
+            "name": "Beacon of the Broken World",
+            "description": "Reach a population of 350 inhabitants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_POPULATION5",
+            "name": "Metropolis of Mankind's Might",
+            "description": "Reach a population of 600 inhabitants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_YEAR1",
+            "name": "First Cycle",
+            "description": "Survive 1 Year",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_YEAR2",
+            "name": "Five Years Forward",
+            "description": "Survive 5 Years",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_YEAR3",
+            "name": "Ten Years of Fortitude",
+            "description": "Survive 10 Years",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_YEAR4",
+            "name": "Persistence Symbol",
+            "description": "Survive 15 Years",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_YEAR5",
+            "name": "Cement Roots",
+            "description": "Survive 20 Years",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_YEAR6",
+            "name": "Quarter-Century Mortar",
+            "description": "Survive 25 Years",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_NODEATH1",
+            "name": "Say No to Death",
+            "description": "Go 3 years without anyone dying",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_NODEATH2",
+            "name": "Muted Mortality",
+            "description": "Go 5 years without anyone dying",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_TRAINING1",
+            "name": "The Return of Mastery",
+            "description": "First time Craftsman appear in your community",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_TRAINING2",
+            "name": "Post Academia",
+            "description": "First time Specialists appear in your community",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_LOCOMOTIVE",
+            "name": "Iron Horse",
+            "description": "Produce your first locomotive",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_FIRSTREGION",
+            "name": "Non-modern Expansionism",
+            "description": "Settled in a regional for the first time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_FIRSTMIGRANT",
+            "name": "Acceptants",
+            "description": "Welcome outsiders into your community",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_MIGRANT1",
+            "name": "A Palmful",
+            "description": "5 new people join the community at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_MIGRANT2",
+            "name": "One Squad",
+            "description": "10 new people join the community at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_MIGRANT3",
+            "name": "High ratio",
+            "description": "15 new people join the community at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_MIGRANT4",
+            "name": "Cauldron of Attraction",
+            "description": "20 new people join the community at once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_BUILD1",
+            "name": "Rural Nest",
+            "description": "Have 25 completed structures in settlement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_BUILD2",
+            "name": "Town-like Density",
+            "description": "Have 50 completed structures in settlement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BUILD3",
+            "name": "A Center of Rebirth",
+            "description": "Have 100 completed structures in settlement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_BUILD4",
+            "name": "Where All Roads Lead",
+            "description": "Have 200 completed structures in settlement",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_ELECTRICITY1",
+            "name": "Awakening of Power",
+            "description": "Generate 1,000 electricity",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 45
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ELECTRICITY2",
+            "name": "Dynamo",
+            "description": "Generate 5,000 electricity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_ELECTRICITY3",
+            "name": "Bringer of light",
+            "description": "Generate 20,000 electricity",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_ELECTRICITY4",
+            "name": "Core Power",
+            "description": "Generate 40,000 electricity",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_FIRSTACTION",
+            "name": "Reflexive",
+            "description": "Activate 1 action",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_ACTION1",
+            "name": "Regular interventionist",
+            "description": "Activate 10 actions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_FIRSTTRADE",
+            "name": "Old World Tradition",
+            "description": "Trade in barter for the first time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_DEV1",
+            "name": "Belter",
+            "description": "Complete Conveyor System development",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_DEV2",
+            "name": "Extra Limbs",
+            "description": "Complete Basic Machinery development",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_HIDDEN1",
+            "name": "Wrapper",
+            "description": "Activate the improved (better) clothing production formula.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_HIDDEN2",
+            "name": "Onward to Delphi",
+            "description": "Respond positively to the request for paper distribution when the event comes up.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_HIDDEN3",
+            "name": "Chubby Chef",
+            "description": "Permanently change the Ration (food) formula.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_DISTRICT1",
+            "name": "The Last Supply Line",
+            "description": "Build 3 District Freight Depots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_DISTRICT2",
+            "name": "Warehouse Wonderland",
+            "description": "Build 5 District Freight Depots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_TRUCK1",
+            "name": "First Ignition",
+            "description": "Produce 10 trucks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_TRUCK2",
+            "name": "Big Rig Dreams",
+            "description": "Produce 20 trucks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_WALKOVER",
+            "name": "Crossing Into the Last Hope",
+            "description": "Place any pedestrian crossing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_MINETOWER",
+            "name": "Surveyor of the Future",
+            "description": "Survey in 3 advanced mining towers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_COASTAL",
+            "name": "Shoreline Sanctuary",
+            "description": "Build 5 Coastal structures",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_PROP",
+            "name": "The City of Class",
+            "description": "Place 20 Aesthetic assets in your city",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_FINEOUTFIT",
+            "name": "Fashions of the Final Frontier",
+            "description": "Produce 1000 Fine Clothing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_PURIFYWATER",
+            "name": "Pressure Point",
+            "description": "Produce 5000 water by purifying water",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_HOUSE",
+            "name": "Birth of Skyscrapers",
+            "description": "Build 20 units of Low- or Mid-Rise Block housing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_ORGANIC_WASTE",
+            "name": "Melting the Waste Mountain",
+            "description": "Process 3000  Organic Waste from residential buildings",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_FENCES",
+            "name": "Fence Knitter",
+            "description": "Build every type of fence",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_COATING",
+            "name": "Coating Artisan",
+            "description": "Use the structure coating feature",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_ROADS",
+            "name": "All roads lead to us",
+            "description": "Use every type of road",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_T3",
+            "name": "Superior Community Servant",
+            "description": "Build one of each Tier-III service structure",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_AUTO_TRAINING",
+            "name": "Manufacturing Workforce",
+            "description": "Train 50 Craftsmen using auto-training",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

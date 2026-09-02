@@ -895,6 +895,9 @@ import { GUIDE as instrumentsOfDestructionAchievementGuide } from "./games/instr
 import { GUIDE as cobaltCoreAchievementGuide } from "./games/cobalt-core.js";
 import { GUIDE as monsterTrain2AchievementGuide } from "./games/monster-train-2.js";
 import { GUIDE as rabbitAndSteelAchievementGuide } from "./games/rabbit-and-steel.js";
+import { GUIDE as theWanderingVillageAchievementGuide } from "./games/the-wandering-village.js";
+import { GUIDE as laysaraSummitKingdomAchievementGuide } from "./games/laysara-summit-kingdom.js";
+import { GUIDE as newCycleAchievementGuide } from "./games/new-cycle.js";
 
 export const APP_GUIDES = [
 
@@ -925,6 +928,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  newCycleAchievementGuide,
+  laysaraSummitKingdomAchievementGuide,
+  theWanderingVillageAchievementGuide,
   rabbitAndSteelAchievementGuide,
   monsterTrain2AchievementGuide,
   cobaltCoreAchievementGuide,
