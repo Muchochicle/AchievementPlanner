@@ -1018,6 +1018,9 @@ import { GUIDE as botanyManorAchievementGuide } from "./games/botany-manor.js";
 import { GUIDE as aliensDarkDescentAchievementGuide } from "./games/aliens-dark-descent.js";
 import { GUIDE as golfWithYourFriendsAchievementGuide } from "./games/golf-with-your-friends.js";
 import { GUIDE as mainAssemblyAchievementGuide } from "./games/main-assembly.js";
+import { GUIDE as turnipBoyCommitsTaxEvasionAchievementGuide } from "./games/turnip-boy-commits-tax-evasion.js";
+import { GUIDE as duckDetectiveTheGhostOfGlampingAchievementGuide } from "./games/duck-detective-the-ghost-of-glamping.js";
+import { GUIDE as crabChampionsAchievementGuide } from "./games/crab-champions.js";
 
 export const APP_GUIDES = [
 
@@ -2058,7 +2061,10 @@ export const GAME_GUIDES = [
     botanyManorAchievementGuide,
     aliensDarkDescentAchievementGuide,
     golfWithYourFriendsAchievementGuide,
-    mainAssemblyAchievementGuide
+    mainAssemblyAchievementGuide,
+    turnipBoyCommitsTaxEvasionAchievementGuide,
+    duckDetectiveTheGhostOfGlampingAchievementGuide,
+    crabChampionsAchievementGuide
 
 ];
 

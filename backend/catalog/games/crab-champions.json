@@ -1,0 +1,1003 @@
+{
+    "id": 774801,
+    "steamAppId": 774801,
+    "name": "Crab Champions",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/774801/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Roguelite",
+        "Third-Person Shooter",
+        "Fast-Paced",
+        "Action"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_CRAB_CHAMPION_I",
+            "name": "Crab Champion I",
+            "description": "Get a win on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_CRAB_CHAMPION_II",
+            "name": "Crab Champion II",
+            "description": "Get 3 wins total on Sapphire or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_CRAB_CHAMPION_III",
+            "name": "Crab Champion III",
+            "description": "Get 5 wins total on Ruby or higher difficulty",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_SKILLED",
+            "name": "Skilled",
+            "description": "Get 3 wins in a row on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_PRO",
+            "name": "Pro",
+            "description": "Get 3 wins in a row on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_MASTER",
+            "name": "Master",
+            "description": "Get 2 wins in a row on Prismatic difficulty",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_LOOPER",
+            "name": "Looper",
+            "description": "Get a win after looping at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_FLAWLESS",
+            "name": "Flawless",
+            "description": "Get a win on Gold or higher difficulty without taking any damage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_FRUGAL",
+            "name": "Frugal",
+            "description": "Get a win on Gold or higher difficulty with 5 or less shop purchases",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_MILLIONAIRE",
+            "name": "Millionaire",
+            "description": "Get a win with over 1M unspent crystals in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_UNSTOPPABLE",
+            "name": "Unstoppable",
+            "description": "Get a win with over 7500 eliminations",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_SLICE_AND_DICE",
+            "name": "Slice And Dice",
+            "description": "Get a win without firing your weapon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_SPEEDRUN_I",
+            "name": "Speedrun I",
+            "description": "Clear island 21 in 16 minutes or less",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_SPEEDRUN_II",
+            "name": "Speedrun II",
+            "description": "Clear island 56 in 40 minutes or less",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_SPEEDRUN_III",
+            "name": "Speedrun III",
+            "description": "Clear island 140 in 70 minutes or less",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_TANK",
+            "name": "Tank",
+            "description": "Get 10000 max health on a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_MAXED_OUT",
+            "name": "Maxed Out",
+            "description": "Fill all mod and perk slots in your inventory during a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_SOLID_GOLD",
+            "name": "Solid Gold",
+            "description": "Fill 20 weapon mod slots with legendary weapon mods",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_GREEDY",
+            "name": "Greedy",
+            "description": "Defeat a boss with at least 5 greed perks in your inventory",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_PLAYING_WITH_POWER",
+            "name": "Playing With Power",
+            "description": "Level up a mod or perk to level 20 in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_RECYCLER",
+            "name": "Recycler",
+            "description": "Salvage 100 pickups in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_BIG_SPENDER",
+            "name": "Big Spender",
+            "description": "Make 100 purchases at shops in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_ROLLER",
+            "name": "Roller",
+            "description": "Reroll shops 50 times in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_VANDAL",
+            "name": "Vandal",
+            "description": "Destroy 25 totems in a single run",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_FLEX_I",
+            "name": "Flex I",
+            "description": "Defeat an elite without taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_FLEX_II",
+            "name": "Flex II",
+            "description": "Defeat a boss without taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_FLEX_III",
+            "name": "Flex III",
+            "description": "Clear the first biome on Ruby or higher difficulty without taking any damage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ULTRA_DAMAGE",
+            "name": "Ultra Damage",
+            "description": "Deal over 100K damage in a single shot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_EZ",
+            "name": "EZ",
+            "description": "Defeat a boss in under 10 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MARATHON",
+            "name": "Marathon",
+            "description": "Survive until island 100",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_AUTO_RIFLE_MASTER_I",
+            "name": "Auto Rifle Master I",
+            "description": "Get a win with the Auto Rifle on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_AUTO_RIFLE_MASTER_II",
+            "name": "Auto Rifle Master II",
+            "description": "Get a win with the Auto Rifle on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_DUAL_SHOTGUN_MASTER_I",
+            "name": "Dual Shotgun Master I",
+            "description": "Get a win with the Dual Shotguns on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_DUAL_SHOTGUN_MASTER_II",
+            "name": "Dual Shotgun Master II",
+            "description": "Get a win with the Dual Shotguns on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_DUAL_PISTOL_MASTER_I",
+            "name": "Dual Pistol Master I",
+            "description": "Get a win with the Dual Pistols on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_DUAL_PISTOL_MASTER_II",
+            "name": "Dual Pistol Master II",
+            "description": "Get a win with the Dual Pistols on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_AUTO_SHOTGUN_MASTER_I",
+            "name": "Auto Shotgun Master I",
+            "description": "Get a win with the Auto Shotgun on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_AUTO_SHOTGUN_MASTER_II",
+            "name": "Auto Shotgun Master II",
+            "description": "Get a win with the Auto Shotgun on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_BURST_PISTOL_MASTER_I",
+            "name": "Burst Pistol Master I",
+            "description": "Get a win with the Burst Pistol on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_BURST_PISTOL_MASTER_II",
+            "name": "Burst Pistol Master II",
+            "description": "Get a win with the Burst Pistol on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_SNIPER_MASTER_I",
+            "name": "Sniper Master I",
+            "description": "Get a win with the Sniper on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_SNIPER_MASTER_II",
+            "name": "Sniper Master II",
+            "description": "Get a win with the Sniper on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_CROSSBOW_MASTER_I",
+            "name": "Crossbow Master I",
+            "description": "Get a win with the Crossbow on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_CROSSBOW_MASTER_II",
+            "name": "Crossbow Master II",
+            "description": "Get a win with the Crossbow on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_ORB_LAUNCHER_MASTER_I",
+            "name": "Orb Launcher Master I",
+            "description": "Get a win with the Orb Launcher on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_ORB_LAUNCHER_MASTER_II",
+            "name": "Orb Launcher Master II",
+            "description": "Get a win with the Orb Launcher on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_ROCKET_LAUNCHER_MASTER_I",
+            "name": "Rocket Launcher Master I",
+            "description": "Get a win with the Rocket Launcher on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_ROCKET_LAUNCHER_MASTER_II",
+            "name": "Rocket Launcher Master II",
+            "description": "Get a win with the Rocket Launcher on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_MINIGUN_MASTER_I",
+            "name": "Minigun Master I",
+            "description": "Get a win with the Minigun on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_MINIGUN_MASTER_II",
+            "name": "Minigun Master II",
+            "description": "Get a win with the Minigun on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_BLADE_LAUNCHER_MASTER_I",
+            "name": " Blade Launcher Master I",
+            "description": "Get a win with the Blade Launcher on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_BLADE_LAUNCHER_MASTER_II",
+            "name": " Blade Launcher Master II",
+            "description": "Get a win with the Blade Launcher on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_CLUSTER_LAUNCHER_MASTER_I",
+            "name": "Cluster Launcher Master I",
+            "description": "Get a win with the Cluster Launcher on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_CLUSTER_LAUNCHER_MASTER_II",
+            "name": "Cluster Launcher Master II",
+            "description": "Get a win with the Cluster Launcher on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_GUNSLINGER",
+            "name": "Gunslinger",
+            "description": "Get a win with all weapons in the game",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_CRAB_LEGEND",
+            "name": "Crab Legend",
+            "description": "Complete all challenges",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_CHALLENGER_I",
+            "name": "Challenger I",
+            "description": "Get a win with 5 or more red difficulty modifiers and 0 green difficulty modifiers active",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_CHALLENGER_II",
+            "name": "Challenger II",
+            "description": "Get a win with 10 or more red difficulty modifiers and 0 green difficulty modifiers active",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_CHALLENGER_III",
+            "name": "Challenger III",
+            "description": "Get a win with all red difficulty modifiers and 0 green difficulty modifiers active",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_FLAMETHROWER_MASTER_I",
+            "name": "Flamethrower Master I",
+            "description": "Get a win with the Flamethrower on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_FLAMETHROWER_MASTER_II",
+            "name": "Flamethrower Master II",
+            "description": "Get a win with the Flamethrower on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_ARCANE_WAND_MASTER_I",
+            "name": "Arcane Wand Master I",
+            "description": "Get a win with the Arcane Wand on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_ARCANE_WAND_MASTER_II",
+            "name": "Arcane Wand Master II",
+            "description": "Get a win with the Arcane Wand on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_LASER_CANNONS_MASTER_I",
+            "name": "Laser Cannons Master I",
+            "description": "Get a win with the Laser Cannons on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_LASER_CANNONS_MASTER_II",
+            "name": "Laser Cannons Master II",
+            "description": "Get a win with the Laser Cannons on Ruby or higher  difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_SEAGLE_MASTER_I",
+            "name": "Seagle Master I",
+            "description": "Get a win with the Seagle on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_SEAGLE_MASTER_II",
+            "name": "Seagle Master II",
+            "description": "Get a win with the Seagle on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_ARCADE_CHAMPION",
+            "name": "Arcade Champion",
+            "description": "Get a high score of at least 300 in the Arcade minigame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_HOLDOUT_CHAMPION",
+            "name": "Holdout Champion",
+            "description": "Get a high score of at least 50 in the Holdout minigame",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_SILVER",
+            "name": "Silver",
+            "description": "Reach Silver account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_GOLD",
+            "name": "Gold",
+            "description": "Reach Gold account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_SAPPHIRE",
+            "name": "Sapphire",
+            "description": "Reach Sapphire account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_EMERALD",
+            "name": "Emerald",
+            "description": "Reach Emerald account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_RUBY",
+            "name": "Ruby",
+            "description": "Reach Ruby account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_DIAMOND",
+            "name": "Diamond",
+            "description": "Reach Diamond account rank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_MARKSMAN_RIFLE_MASTER_I",
+            "name": "Marksman Rifle Master I",
+            "description": "Get a win with the Marksman Rifle on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_MARKSMAN_RIFLE_MASTER_II",
+            "name": "Marksman Rifle Master II",
+            "description": "Get a win with the Marksman Rifle on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_ICE_STAFF_MASTER_I",
+            "name": "Ice Staff Master I",
+            "description": "Get a win with the Ice Staff on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_ICE_STAFF_MASTER_II",
+            "name": "Ice Staff Master II",
+            "description": "Get a win with the Ice Staff on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_GRENADE_MASTER_I",
+            "name": "Grenade Master I",
+            "description": "Get a win with the Grenade on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_GRENADE_MASTER_II",
+            "name": "Grenade Master II",
+            "description": "Get a win with the Grenade on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_GRAPPLING_HOOK_MASTER_I",
+            "name": "Grappling Hook Master I",
+            "description": "Get a win with the Grappling Hook on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_GRAPPLING_HOOK_MASTER_II",
+            "name": "Grappling Hook Master II",
+            "description": "Get a win with the Grappling Hook on Ruby or higher  difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_BLACK_HOLE_MASTER_I",
+            "name": "Black Hole Master I",
+            "description": "Get a win with the Black Hole on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_BLACK_HOLE_MASTER_II",
+            "name": "Black Hole Master II",
+            "description": "Get a win with the Black Hole on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_LASER_BEAM_MASTER_I",
+            "name": "Laser Beam Master I",
+            "description": "Get a win with the Laser Beam on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_LASER_BEAM_MASTER_II",
+            "name": "Laser Beam Master II",
+            "description": "Get a win with the Laser Beam on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_ICE_BLAST_MASTER_I",
+            "name": "Ice Blast Master I",
+            "description": "Get a win with the Ice Blast on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_ICE_BLAST_MASTER_II",
+            "name": "Ice Blast Master II",
+            "description": "Get a win with the Ice Blast on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_ELECTRO_GLOBE_MASTER_I",
+            "name": "Electro Globe Master I",
+            "description": "Get a win with the Electro Globe on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_ELECTRO_GLOBE_MASTER_II",
+            "name": "Electro Globe Master II",
+            "description": "Get a win with the Electro Globe on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_CLAW_MASTER_I",
+            "name": "Claw Master I",
+            "description": "Get a win with the Claw on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_CLAW_MASTER_II",
+            "name": "Claw Master II",
+            "description": "Get a win with the Claw on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_DAGGER_MASTER_I",
+            "name": "Dagger Master I",
+            "description": "Get a win with the Dagger on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 95,
+            "apiname": "ACH_DAGGER_MASTER_II",
+            "name": "Dagger Master II",
+            "description": "Get a win with the Dagger on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 96,
+            "apiname": "ACH_HAMMER_MASTER_I",
+            "name": "Hammer Master I",
+            "description": "Get a win with the Hammer on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 97,
+            "apiname": "ACH_HAMMER_MASTER_II",
+            "name": "Hammer Master II",
+            "description": "Get a win with the Hammer on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 98,
+            "apiname": "ACH_PICKAXE_MASTER_I",
+            "name": "Pickaxe Master I",
+            "description": "Get a win with the Pickaxe on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 99,
+            "apiname": "ACH_PICKAXE_MASTER_II",
+            "name": "Pickaxe Master II",
+            "description": "Get a win with the Pickaxe on Ruby or higher  difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 100,
+            "apiname": "ACH_ULTRA_CHAOS_CHAMPION",
+            "name": "Ultra Chaos Champion",
+            "description": "Get a win with all red difficulty modifiers, no green difficulty modifiers and the Random Loadout flex difficulty modifier active",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 101,
+            "apiname": "ACH_LIGHTNING_SCEPTER_MASTER_I",
+            "name": "Lightning Scepter Master I",
+            "description": "Get a win with the Lightning Scepter on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 102,
+            "apiname": "ACH_LIGHTNING_SCEPTER_MASTER_II",
+            "name": "Lightning Scepter Master II",
+            "description": "Lightning Scepter on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 103,
+            "apiname": "ACH_AIR_STRIKE_MASTER_I",
+            "name": "Air Strike Master I",
+            "description": "Get a win with the Air Strike on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 104,
+            "apiname": "ACH_AIR_STRIKE_MASTER_II",
+            "name": "Air Strike Master II",
+            "description": "Get a win with the Air Strike on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 105,
+            "apiname": "ACH_KATANA_MASTER_I",
+            "name": "Katana Master I",
+            "description": "Get a win with the Katana on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 106,
+            "apiname": "ACH_KATANA_MASTER_II",
+            "name": "Katana Master II",
+            "description": "Get a win with the Katana on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 107,
+            "apiname": "ACH_POISON_CANNON_MASTER_I",
+            "name": "Poison Cannon Master I",
+            "description": "Get a win with the Poison Cannon on any difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 108,
+            "apiname": "ACH_POISON_CANNON_MASTER_II",
+            "name": "Poison Cannon Master II",
+            "description": "Get a win with the Poison Cannon on Ruby or higher difficulty",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 109,
+            "apiname": "ACH_PRISMATIC",
+            "name": "Prismatic",
+            "description": "Reach Prismatic account rank",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
