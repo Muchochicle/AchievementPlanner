@@ -1015,6 +1015,9 @@ import { GUIDE as frontMission1stRemakeAchievementGuide } from "./games/front-mi
 import { GUIDE as hellbladeSenuasSacrificeAchievementGuide } from "./games/hellblade-senuas-sacrifice.js";
 import { GUIDE as nourPlayWithYourFoodAchievementGuide } from "./games/nour-play-with-your-food.js";
 import { GUIDE as botanyManorAchievementGuide } from "./games/botany-manor.js";
+import { GUIDE as aliensDarkDescentAchievementGuide } from "./games/aliens-dark-descent.js";
+import { GUIDE as golfWithYourFriendsAchievementGuide } from "./games/golf-with-your-friends.js";
+import { GUIDE as mainAssemblyAchievementGuide } from "./games/main-assembly.js";
 
 export const APP_GUIDES = [
 
@@ -2052,7 +2055,10 @@ export const GAME_GUIDES = [
     frontMission1stRemakeAchievementGuide,
     hellbladeSenuasSacrificeAchievementGuide,
     nourPlayWithYourFoodAchievementGuide,
-    botanyManorAchievementGuide
+    botanyManorAchievementGuide,
+    aliensDarkDescentAchievementGuide,
+    golfWithYourFriendsAchievementGuide,
+    mainAssemblyAchievementGuide
 
 ];
 
