@@ -918,6 +918,9 @@ import { GUIDE as marvelCosmicInvasionAchievementGuide } from "./games/marvel-co
 import { GUIDE as littleNightmares3AchievementGuide } from "./games/little-nightmares-3.js";
 import { GUIDE as deltaForceAchievementGuide } from "./games/delta-force.js";
 import { GUIDE as southOfMidnightAchievementGuide } from "./games/south-of-midnight.js";
+import { GUIDE as directive8020AchievementGuide } from "./games/directive-8020.js";
+import { GUIDE as anno117PaxRomanaAchievementGuide } from "./games/anno-117-pax-romana.js";
+import { GUIDE as avowedAchievementGuide } from "./games/avowed.js";
 
 export const APP_GUIDES = [
 
@@ -948,6 +951,9 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  avowedAchievementGuide,
+  anno117PaxRomanaAchievementGuide,
+  directive8020AchievementGuide,
   southOfMidnightAchievementGuide,
   deltaForceAchievementGuide,
   littleNightmares3AchievementGuide,

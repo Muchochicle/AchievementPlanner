@@ -942,6 +942,9 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("little-nightmares-3"));
     assert.ok(slugs.includes("delta-force"));
     assert.ok(slugs.includes("south-of-midnight"));
+    assert.ok(slugs.includes("directive-8020"));
+    assert.ok(slugs.includes("anno-117-pax-romana"));
+    assert.ok(slugs.includes("avowed"));
 
 });
 
