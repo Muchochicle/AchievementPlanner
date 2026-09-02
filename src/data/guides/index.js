@@ -997,6 +997,9 @@ import { GUIDE as movingOutAchievementGuide } from "./games/moving-out.js";
 import { GUIDE as isletsAchievementGuide } from "./games/islets.js";
 import { GUIDE as gatoRobotoAchievementGuide } from "./games/gato-roboto.js";
 import { GUIDE as chantsOfSennaarAchievementGuide } from "./games/chants-of-sennaar.js";
+import { GUIDE as wytchwoodAchievementGuide } from "./games/wytchwood.js";
+import { GUIDE as toemAchievementGuide } from "./games/toem.js";
+import { GUIDE as jusantAchievementGuide } from "./games/jusant.js";
 
 export const APP_GUIDES = [
 
@@ -2016,7 +2019,10 @@ export const GAME_GUIDES = [
     movingOutAchievementGuide,
     isletsAchievementGuide,
     gatoRobotoAchievementGuide,
-    chantsOfSennaarAchievementGuide
+    chantsOfSennaarAchievementGuide,
+    wytchwoodAchievementGuide,
+    toemAchievementGuide,
+    jusantAchievementGuide
 
 ];
 
