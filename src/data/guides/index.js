@@ -976,6 +976,9 @@ import { GUIDE as suicideSquadKillTheJusticeLeagueAchievementGuide } from "./gam
 import { GUIDE as stellarBladeAchievementGuide } from "./games/stellar-blade.js";
 import { GUIDE as ghostwireTokyoAchievementGuide } from "./games/ghostwire-tokyo.js";
 import { GUIDE as immortalsOfAveumAchievementGuide } from "./games/immortals-of-aveum.js";
+import { GUIDE as judgmentAchievementGuide } from "./games/judgment.js";
+import { GUIDE as likeADragonGaidenTheManWhoErasedHisNameAchievementGuide } from "./games/like-a-dragon-gaiden-the-man-who-erased-his-name.js";
+import { GUIDE as fugaMelodiesOfSteelAchievementGuide } from "./games/fuga-melodies-of-steel.js";
 
 export const APP_GUIDES = [
 
@@ -1974,7 +1977,10 @@ export const GAME_GUIDES = [
     suicideSquadKillTheJusticeLeagueAchievementGuide,
     stellarBladeAchievementGuide,
     ghostwireTokyoAchievementGuide,
-    immortalsOfAveumAchievementGuide
+    immortalsOfAveumAchievementGuide,
+    judgmentAchievementGuide,
+    likeADragonGaidenTheManWhoErasedHisNameAchievementGuide,
+    fugaMelodiesOfSteelAchievementGuide
 
 ];
 
