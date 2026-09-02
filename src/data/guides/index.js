@@ -1006,6 +1006,9 @@ import { GUIDE as theCoffinOfAndyAndLeyleyAchievementGuide } from "./games/the-c
 import { GUIDE as ysIxMonstrumNoxAchievementGuide } from "./games/ys-ix-monstrum-nox.js";
 import { GUIDE as theRiseOfTheGoldenIdolAchievementGuide } from "./games/the-rise-of-the-golden-idol.js";
 import { GUIDE as diceyDungeonsAchievementGuide } from "./games/dicey-dungeons.js";
+import { GUIDE as pleaseTouchTheArtworkAchievementGuide } from "./games/please-touch-the-artwork.js";
+import { GUIDE as strangeHorticultureAchievementGuide } from "./games/strange-horticulture.js";
+import { GUIDE as theRoottreesAreDeadAchievementGuide } from "./games/the-roottrees-are-dead.js";
 
 export const APP_GUIDES = [
 
@@ -2034,7 +2037,10 @@ export const GAME_GUIDES = [
     theCoffinOfAndyAndLeyleyAchievementGuide,
     ysIxMonstrumNoxAchievementGuide,
     theRiseOfTheGoldenIdolAchievementGuide,
-    diceyDungeonsAchievementGuide
+    diceyDungeonsAchievementGuide,
+    pleaseTouchTheArtworkAchievementGuide,
+    strangeHorticultureAchievementGuide,
+    theRoottreesAreDeadAchievementGuide
 
 ];
 
