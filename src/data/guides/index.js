@@ -949,6 +949,9 @@ import { GUIDE as sniperGhostWarriorContracts2AchievementGuide } from "./games/s
 import { GUIDE as finalFantasyXvWindowsEditionAchievementGuide } from "./games/final-fantasy-xv-windows-edition.js";
 import { GUIDE as nba2k25AchievementGuide } from "./games/nba-2k25.js";
 import { GUIDE as dakarDesertRallyAchievementGuide } from "./games/dakar-desert-rally.js";
+import { GUIDE as batmanArkhamKnightAchievementGuide } from "./games/batman-arkham-knight.js";
+import { GUIDE as mafiaIiiDefinitiveEditionAchievementGuide } from "./games/mafia-iii-definitive-edition.js";
+import { GUIDE as trepang2AchievementGuide } from "./games/trepang2.js";
 
 export const APP_GUIDES = [
 
@@ -1920,7 +1923,10 @@ export const GAME_GUIDES = [
     sniperGhostWarriorContracts2AchievementGuide,
     finalFantasyXvWindowsEditionAchievementGuide,
     nba2k25AchievementGuide,
-    dakarDesertRallyAchievementGuide
+    dakarDesertRallyAchievementGuide,
+    batmanArkhamKnightAchievementGuide,
+    mafiaIiiDefinitiveEditionAchievementGuide,
+    trepang2AchievementGuide
 
 ];
 
