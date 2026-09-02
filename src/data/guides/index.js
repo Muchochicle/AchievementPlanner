@@ -985,6 +985,9 @@ import { GUIDE as starOceanTheSecondStoryRAchievementGuide } from "./games/star-
 import { GUIDE as starWarsBattlefrontIiAchievementGuide } from "./games/star-wars-battlefront-ii.js";
 import { GUIDE as theLegendOfHeroesTrailsThroughDaybreakAchievementGuide } from "./games/the-legend-of-heroes-trails-through-daybreak.js";
 import { GUIDE as ysViiiLacrimosaOfDanaAchievementGuide } from "./games/ys-viii-lacrimosa-of-dana.js";
+import { GUIDE as marthaIsDeadAchievementGuide } from "./games/martha-is-dead.js";
+import { GUIDE as madisonAchievementGuide } from "./games/madison.js";
+import { GUIDE as visageAchievementGuide } from "./games/visage.js";
 
 export const APP_GUIDES = [
 
@@ -1992,7 +1995,10 @@ export const GAME_GUIDES = [
     starOceanTheSecondStoryRAchievementGuide,
     starWarsBattlefrontIiAchievementGuide,
     theLegendOfHeroesTrailsThroughDaybreakAchievementGuide,
-    ysViiiLacrimosaOfDanaAchievementGuide
+    ysViiiLacrimosaOfDanaAchievementGuide,
+    marthaIsDeadAchievementGuide,
+    madisonAchievementGuide,
+    visageAchievementGuide
 
 ];
 
