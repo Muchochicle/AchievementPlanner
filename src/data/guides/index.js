@@ -913,6 +913,11 @@ import { GUIDE as dyingLightTheBeastAchievementGuide } from "./games/dying-light
 import { GUIDE as hellIsUsAchievementGuide } from "./games/hell-is-us.js";
 import { GUIDE as ninjaGaiden4AchievementGuide } from "./games/ninja-gaiden-4.js";
 import { GUIDE as cronosTheNewDawnAchievementGuide } from "./games/cronos-the-new-dawn.js";
+import { GUIDE as battlefield6AchievementGuide } from "./games/battlefield-6.js";
+import { GUIDE as marvelCosmicInvasionAchievementGuide } from "./games/marvel-cosmic-invasion.js";
+import { GUIDE as littleNightmares3AchievementGuide } from "./games/little-nightmares-3.js";
+import { GUIDE as deltaForceAchievementGuide } from "./games/delta-force.js";
+import { GUIDE as southOfMidnightAchievementGuide } from "./games/south-of-midnight.js";
 
 export const APP_GUIDES = [
 
@@ -943,6 +948,11 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  southOfMidnightAchievementGuide,
+  deltaForceAchievementGuide,
+  littleNightmares3AchievementGuide,
+  marvelCosmicInvasionAchievementGuide,
+  battlefield6AchievementGuide,
   cronosTheNewDawnAchievementGuide,
   ninjaGaiden4AchievementGuide,
   hellIsUsAchievementGuide,

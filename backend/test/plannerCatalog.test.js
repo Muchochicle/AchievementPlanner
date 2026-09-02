@@ -937,6 +937,11 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("hell-is-us"));
     assert.ok(slugs.includes("ninja-gaiden-4"));
     assert.ok(slugs.includes("cronos-the-new-dawn"));
+    assert.ok(slugs.includes("battlefield-6"));
+    assert.ok(slugs.includes("marvel-cosmic-invasion"));
+    assert.ok(slugs.includes("little-nightmares-3"));
+    assert.ok(slugs.includes("delta-force"));
+    assert.ok(slugs.includes("south-of-midnight"));
 
 });
 
