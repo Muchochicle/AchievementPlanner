@@ -1036,6 +1036,9 @@ import { GUIDE as hotWheelsUnleashed2TurbochargedAchievementGuide } from "./game
 import { GUIDE as craftopiaAchievementGuide } from "./games/craftopia.js";
 import { GUIDE as ixionAchievementGuide } from "./games/ixion.js";
 import { GUIDE as novaLandsAchievementGuide } from "./games/nova-lands.js";
+import { GUIDE as amidEvilAchievementGuide } from "./games/amid-evil.js";
+import { GUIDE as postal4NoRegertsAchievementGuide } from "./games/postal-4-no-regerts.js";
+import { GUIDE as warhammer40kSanctusReachAchievementGuide } from "./games/warhammer-40k-sanctus-reach.js";
 
 export const APP_GUIDES = [
 
@@ -2094,7 +2097,10 @@ export const GAME_GUIDES = [
     hotWheelsUnleashed2TurbochargedAchievementGuide,
     craftopiaAchievementGuide,
     ixionAchievementGuide,
-    novaLandsAchievementGuide
+    novaLandsAchievementGuide,
+    amidEvilAchievementGuide,
+    postal4NoRegertsAchievementGuide,
+    warhammer40kSanctusReachAchievementGuide
 
 ];
 
