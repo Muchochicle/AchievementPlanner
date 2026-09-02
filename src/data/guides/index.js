@@ -1003,6 +1003,9 @@ import { GUIDE as jusantAchievementGuide } from "./games/jusant.js";
 import { GUIDE as talesOfAriseAchievementGuide } from "./games/tales-of-arise.js";
 import { GUIDE as supermarketTogetherAchievementGuide } from "./games/supermarket-together.js";
 import { GUIDE as theCoffinOfAndyAndLeyleyAchievementGuide } from "./games/the-coffin-of-andy-and-leyley.js";
+import { GUIDE as ysIxMonstrumNoxAchievementGuide } from "./games/ys-ix-monstrum-nox.js";
+import { GUIDE as theRiseOfTheGoldenIdolAchievementGuide } from "./games/the-rise-of-the-golden-idol.js";
+import { GUIDE as diceyDungeonsAchievementGuide } from "./games/dicey-dungeons.js";
 
 export const APP_GUIDES = [
 
@@ -2028,7 +2031,10 @@ export const GAME_GUIDES = [
     jusantAchievementGuide,
     talesOfAriseAchievementGuide,
     supermarketTogetherAchievementGuide,
-    theCoffinOfAndyAndLeyleyAchievementGuide
+    theCoffinOfAndyAndLeyleyAchievementGuide,
+    ysIxMonstrumNoxAchievementGuide,
+    theRiseOfTheGoldenIdolAchievementGuide,
+    diceyDungeonsAchievementGuide
 
 ];
 
