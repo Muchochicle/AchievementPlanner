@@ -945,6 +945,7 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("directive-8020"));
     assert.ok(slugs.includes("anno-117-pax-romana"));
     assert.ok(slugs.includes("avowed"));
+    assert.ok(slugs.includes("total-war-rome-remastered"));
 
 });
 
