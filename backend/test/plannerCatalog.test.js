@@ -932,6 +932,11 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("kingdom-come-deliverance"));
     assert.ok(slugs.includes("yakuza-0"));
     assert.ok(slugs.includes("like-a-dragon-infinite-wealth"));
+    assert.ok(slugs.includes("arc-raiders"));
+    assert.ok(slugs.includes("dying-light-the-beast"));
+    assert.ok(slugs.includes("hell-is-us"));
+    assert.ok(slugs.includes("ninja-gaiden-4"));
+    assert.ok(slugs.includes("cronos-the-new-dawn"));
 
 });
 

@@ -908,6 +908,11 @@ import { GUIDE as guiltyGearStriveAchievementGuide } from "./games/guilty-gear-s
 import { GUIDE as kingdomComeDeliveranceAchievementGuide } from "./games/kingdom-come-deliverance.js";
 import { GUIDE as yakuza0AchievementGuide } from "./games/yakuza-0.js";
 import { GUIDE as likeADragonInfiniteWealthAchievementGuide } from "./games/like-a-dragon-infinite-wealth.js";
+import { GUIDE as arcRaidersAchievementGuide } from "./games/arc-raiders.js";
+import { GUIDE as dyingLightTheBeastAchievementGuide } from "./games/dying-light-the-beast.js";
+import { GUIDE as hellIsUsAchievementGuide } from "./games/hell-is-us.js";
+import { GUIDE as ninjaGaiden4AchievementGuide } from "./games/ninja-gaiden-4.js";
+import { GUIDE as cronosTheNewDawnAchievementGuide } from "./games/cronos-the-new-dawn.js";
 
 export const APP_GUIDES = [
 
@@ -938,6 +943,11 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  cronosTheNewDawnAchievementGuide,
+  ninjaGaiden4AchievementGuide,
+  hellIsUsAchievementGuide,
+  dyingLightTheBeastAchievementGuide,
+  arcRaidersAchievementGuide,
   likeADragonInfiniteWealthAchievementGuide,
   yakuza0AchievementGuide,
   kingdomComeDeliveranceAchievementGuide,
