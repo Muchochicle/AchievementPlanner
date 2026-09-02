@@ -1,0 +1,490 @@
+{
+    "id": 2707930,
+    "steamAppId": 2707930,
+    "name": "Palia",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2707930/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 25,
+        "max": 60
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "MMO",
+        "Life Sim",
+        "Cozy",
+        "Free to Play"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACHIEVEMENT_FISHING_LEVEL_STAGE_1",
+            "name": "Advanced Angler",
+            "description": "You've reached Level 10 in Fishing!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "ACHIEVEMENT_COOKING_LEVEL_STAGE_1",
+            "name": "Advanced Cook",
+            "description": "You've reached Level 10 in Cooking!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "ACHIEVEMENT_GARDENING_LEVEL_STAGE_1",
+            "name": "Advanced Gardener",
+            "description": "You've reached Level 10 in Gardening!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "ACHIEVEMENT_MINING_LEVEL_STAGE_1",
+            "name": "Advanced Miner",
+            "description": "You've reached Level 10 in Mining!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "ACHIEVEMENT_HUNTING_LEVEL_STAGE_1",
+            "name": "Advanced Hunter",
+            "description": "You've reached Level 10 in Hunting!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "ACHIEVEMENT_BUG_CATCHING_LEVEL_STAGE_1",
+            "name": "Advanced Bug Catcher",
+            "description": "You've reached Level 10 in Bug Catching!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "ACHIEVEMENT_FORAGING_LEVEL_STAGE_1",
+            "name": "Advanced Forager",
+            "description": "You've reached Level 10 in Foraging!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "ACHIEVEMENT_FURNITURE_MAKING_LEVEL_STAGE_1",
+            "name": "Advanced Furniture Maker",
+            "description": "You've reached Level 10 in Furniture Making!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "ACHIEVEMENT_CAUGHT_RARE_BUG",
+            "name": "My First Rare Bug",
+            "description": "You caught your first rare bug!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "ACHIEVEMENT_CAUGHT_EPIC_BUG",
+            "name": "My First Epic Bug",
+            "description": "You caught your first epic bug!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "ACHIEVEMENT_CAUGHT_ALL_BUGS",
+            "name": "Kilima and Bahari Bug Collector",
+            "description": "You caught every type of bug in Kilima and Bahari!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "ACHIEVEMENT_CAUGHT_ALL_BUGS_SQ",
+            "name": "Master Kilima and Bahari Bug Collector",
+            "description": "You caught every type of bug at star quality in Kilima and Bahari!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "ACHIEVEMENT_CAUGHT_RARE_FISH",
+            "name": "My First Rare Fish",
+            "description": "You caught your first rare fish!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "ACHIEVEMENT_CAUGHT_EPIC_FISH",
+            "name": "My First Epic Fish",
+            "description": "You caught your first epic fish!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "ACHIEVEMENT_CAUGHT_ALL_FISH",
+            "name": "Kilima and Bahari Fish Collector",
+            "description": "You caught all types of fish in Kilima and Bahari!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "ACHIEVEMENT_CAUGHT_ALL_FISH_SQ",
+            "name": "Master Kilima and Bahari Fish Collector",
+            "description": "You caught all types of fish at star quality in Kilima and Bahari!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "ACHIEVEMENT_CAUGHT_WATERLOGGED_CHEST",
+            "name": "My First Waterlogged Chest",
+            "description": "You caught your first waterlogged chest!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "ACHIEVEMENT_COLLECTED_ALL_MAKESHIFT_ITEMS",
+            "name": "Makeshift Is All Mine",
+            "description": "You collected every Makeshift decor item!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "ACHIEVEMENT_GATHERED_ALL_FORAGE",
+            "name": "Kilima and Bahari Forage Collector",
+            "description": "You gathered all types of forage in Kilima and Bahari!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "ACHIEVEMENT_HUNTALLCHAPAA",
+            "name": "Chapaa Hunter",
+            "description": "You've hunted all types of Chapaa!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "ACHIEVEMENT_HUNT_ALL_SERNUK",
+            "name": "Sernuk Hunter",
+            "description": "You've hunted all types of Sernuk!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "ACHIEVEMENT_HUNT_ALL_MUUJIN",
+            "name": "Muujin Hunter",
+            "description": "You've hunted all types of Muujin!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "ACHIEVEMENT_LOOTED_CHAPAA_TAIL_T3",
+            "name": "A Tail of Luck",
+            "description": "You've looted your first Star Quality Azure Chapaa Tail!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "ACHIEVEMENT_LOOTED_SERNUK_ANTLERS_T3",
+            "name": "Antlers In A Haystack",
+            "description": "You've looted your first Star Quality Proudhorned Sernuk Antlers!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "ACHIEVEMENT_LOOTED_MUUJIN_MANE_T3",
+            "name": "Mane of the Hour",
+            "description": "You've looted your first Star Quality Bluebristle Muujin Mane!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "ACHIEVEMENT_GOT_ALL_MINING_RESOURCES",
+            "name": "Every Mineral is Mine",
+            "description": "You've acquired every type of mineral and bar in Kilima and Bahari!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "ACHIEVEMENT_GOT_ALL_STARSTONES",
+            "name": "All the Stars in the Ground",
+            "description": "You've acquired every Starstone!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "ACHIEVEMENT_COOKED_ALL_DISHES",
+            "name": "Palia Chef: Cooking by the Book",
+            "description": "You've cooked a large number of unique dishes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "ACHIEVEMENT_COOKED_ALL_DISHES_SQ",
+            "name": "Master Palia Chef: Cooking by the Book",
+            "description": "You've cooked a large number of unique dishes at Star Quality!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "ACHIEVEMENT_COOKING_CONNOISSEUR_VOL1",
+            "name": "Palia Chef: A Dish of Spice and Corn",
+            "description": "You've cooked a large number of unique Corn and Spicy Pepper dishes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "ACHIEVEMENT_COOKING_CONNOISSEUR_SQ_VOL1",
+            "name": "Master Palia Chef: A Dish of Spice and Corn",
+            "description": "You've cooked a large number of unique Corn and Spicy Pepper dishes at Star Quality!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "ACHIEVEMENT_COOKING_CONNOISSEUR_VOL2",
+            "name": "Palia Chef: Luna New Year",
+            "description": "You've cooked a large number of unique Luna New Year dishes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "ACHIEVEMENT_COOKING_CONNOISSEUR_SQ_VOL2",
+            "name": "Master Palia Chef: Luna New Year",
+            "description": "You've cooked a large number of unique Luna New Year dishes at Star Quality!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "ACHIEVEMENT_OBTAIN_GLIDER",
+            "name": "Glidin' High",
+            "description": "You built your glider!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "ACHIEVEMENT_COMPLETE_WATER_T",
+            "name": "Puzzling when Wet",
+            "description": "You've solved the Temple of the Waves!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "ACHIEVEMENT_COMPLETE_WATER_B",
+            "name": "Something's in the Water",
+            "description": "You've filled the Bundle of the Waves!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "ACHIEVEMENT_COMPLETE_WATER_L",
+            "name": "Scholar of the Waves",
+            "description": "You've read every lost relic in the Temple of the Waves!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "ACHIEVEMENT_COMPLETE_FIRE_T",
+            "name": "Fiery Flummox",
+            "description": "You've solved the Temple of the Flames!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "ACHIEVEMENT_COMPLETE_FIRE_B",
+            "name": "Something's in the Garden",
+            "description": "You've filled the Bundle of the Flames!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "ACHIEVEMENT_COMPLETE_FIRE_L",
+            "name": "Scholar of the Flames",
+            "description": "You've read every lost relic in the Temple of the Flames!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "ACHIEVEMENT_COMPLETE_AIR_T",
+            "name": "Bewildered in the Wind",
+            "description": "You've solved the Temple of the Gales!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "ACHIEVEMENT_COMPLETE_AIR_B",
+            "name": "Something in the Sky",
+            "description": "You've filled the Bundle of the Gales!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "ACHIEVEMENT_COMPLETE_AIR_ZEKI",
+            "name": "Thief of the Gales",
+            "description": "You pilfered the Temple of the Gales for Zeki!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "ACHIEVEMENT_COMPLETE_AIR_L",
+            "name": "Scholar of the Gales",
+            "description": "You helped Elouisa and Caleri come to a conclusion about the Silverwings!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "ACHIEVEMENT_COMPLETE_EARTH_T",
+            "name": "Rooting for Meaning",
+            "description": "You've solved the Temple of the Roots!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "ACHIEVEMENT_COMPLETE_EARTH_B",
+            "name": "Something's in the Dirt",
+            "description": "You've filled the Bundle of the Roots!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "ACHIEVEMENT_BLACK_MARKET_BUY",
+            "name": "Waaaay Under the Table",
+            "description": "You bought something from the Grimalkin Underground!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "ACHIEVEMENT_HOUSE_GET",
+            "name": "HOA-mazing",
+            "description": "You built a house!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "ACHIEVEMENT_GET_VILLAGER_PIN",
+            "name": "What Brings us Together",
+            "description": "You acquired a villagers pin!",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "ACHIEVEMENT_KILIMA_V_TREASURE",
+            "name": "Kilima Caches",
+            "description": "Found 12 of the hidden treasure chests in Kilima Village.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "ACHIEVEMENT_BAHARI_B_TREASURE",
+            "name": "Plundering the Bay",
+            "description": "Found 30 of the hidden treasure chests in Bahari Bay.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "ACHIEVEMENT_EINAR_TREASURE",
+            "name": "Pebbled Plunder",
+            "description": "Found all of Einar's lost pebbles.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}

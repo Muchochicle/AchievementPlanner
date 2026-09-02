@@ -1,0 +1,661 @@
+{
+    "id": 2666510,
+    "steamAppId": 2666510,
+    "name": "Rusty's Retirement",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2666510/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Idle",
+        "Farming",
+        "Simulation",
+        "Relaxing"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "SPIN_COG",
+            "name": "This is nice!",
+            "description": "Spin the cog once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "SPIN_COG_1000",
+            "name": "This is not so nice.",
+            "description": "Spin the Cog a thousand times",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "NEW_CROP",
+            "name": "A New Crop!",
+            "description": "Unlock a new crop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "UNLOCK_10_CROPS",
+            "name": "Green Thumb",
+            "description": "Unlock 10 crops",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "UNLOCK_25_CROPS",
+            "name": "Horticulturist",
+            "description": "Unlock 25 crops",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ALL_CROPS",
+            "name": "Crop Collector",
+            "description": "Unlock all crops",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ALL_BERRIES",
+            "name": "Berry Collector",
+            "description": "Unlock all berries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "GIANT_PUMPKIN",
+            "name": "Woah, that's a big Pumpkin!",
+            "description": "Grow a Giant Pumpkin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "GIANT_TOMATO",
+            "name": "Woah, that's a big Tomato!",
+            "description": "Grow a Giant Tomato",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "GIANT_CUCUMBER",
+            "name": "Woah, that's a big Cucumber!",
+            "description": "Grow a Giant Cucumber",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "HAIKU_HOUSE",
+            "name": "Haiku's Helping Hand",
+            "description": "Build Haiku's House",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "SONNET_HOUSE",
+            "name": "Sonnet's Shopping Spree",
+            "description": "Build Sonnet's Shop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "PINION_HOUSE",
+            "name": "Pinion's Counting Crops",
+            "description": "Build Pinion's House",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "FORBIC_HOUSE",
+            "name": "Forbic's Bulbs and Butterflies",
+            "description": "Build Forbic's House",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ECHO_HOUSE",
+            "name": "Echo's Uber Upgrades",
+            "description": "Build Echo's Workshop",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "SLATE_HOUSE",
+            "name": "Slate's Biodynamic Barn",
+            "description": "Build Slate's Barn",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "SPLUNK_HOUSE",
+            "name": "Splunk's Planting Seeds",
+            "description": "Build Splunk's House",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "PLAY_1H",
+            "name": "Play for 1hr",
+            "description": "Play the game for 1 hour",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "PLAY_24H",
+            "name": "Play for 24hrs",
+            "description": "Play the game for 24 hour (across all farms)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "PLAY_48H",
+            "name": "Play for 48hrs",
+            "description": "Play the game for 48 hour (across all farms)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "TEN_BULB_HIVES",
+            "name": "Buzzing!",
+            "description": "Place 10 Bulb Hives on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "MOVE_BUILDING",
+            "name": "Relocation Specialist",
+            "description": "Move a building at least once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "E_15000_SPAREPARTS",
+            "name": "This is Something",
+            "description": "Earn 15,000 spare parts across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "E_50000_SPAREPARTS",
+            "name": "A Nice Little Income",
+            "description": "Earn 50,000 spare parts across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "E_250000_SPAREPARTS",
+            "name": "Earning Big Bucks",
+            "description": "Earn 250,000 spare parts across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "E_1000000_SPAREPARTS",
+            "name": "Millionaire",
+            "description": "Earn 1 MILLION spare parts across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "E_10000000_SPAREPARTS",
+            "name": "Multi-Millionaire",
+            "description": "Earn 10 MILLION spare parts across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "P_1000_BIOFUEL",
+            "name": "This is a Good Start",
+            "description": "Produce 1,000 biofuel across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "P_5000_BIOFUEL",
+            "name": "A Small Production Line",
+            "description": "Produce 5,000 biofuel across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "P_25000_BIOFUEL",
+            "name": "A Big Production Line",
+            "description": "Produce 25,000 biofuel across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "P_100000_BIOFUEL",
+            "name": "Industrial Revolution",
+            "description": "Produce 100,000 biofuel across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "P_1000000_BIOFUEL",
+            "name": "Full-scale Mass Production",
+            "description": "Produce 1 MILLION biofuel across all farms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "PLACE_1_DECORATION",
+            "name": "Let's Spruce this Place Up!",
+            "description": "Place at least one decoration",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "PLACE_25_DECORATION",
+            "name": "This Looks Nice",
+            "description": "Place 25 decorations on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "PLACE_100_DECORATION",
+            "name": "This is a Pretty Farm",
+            "description": "Place 100 decorations on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "BUILD_EVERY_BOT",
+            "name": "Automatization",
+            "description": "Deploy one of each robot on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "MAX_WATERBOT",
+            "name": "Maxed Water Bot",
+            "description": "Max upgrade a Water Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "MAX_HARVESTBOT",
+            "name": "Maxed Harvest Bot",
+            "description": "Max upgrade a Harvest Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "MAX_CARRYBOT",
+            "name": "Maxed Biofuel Bot",
+            "description": "Max upgrade a Biofuel Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "MAX_FEEDERBOT",
+            "name": "Maxed Feeder Bot",
+            "description": "Max upgrade a Feeder Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "MAX_WASTEBOT",
+            "name": "Maxed Waste Bot",
+            "description": "Max upgrade a Waste Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "MAX_FERTILIZERBOT",
+            "name": "Maxed Fertilizer Bot",
+            "description": "Max upgrade a Fertilizer Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "MAX_BERRYBOT",
+            "name": "Maxed Berry Bot",
+            "description": "Max upgrade a Berry Bot",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "UNLOCK_10_COW",
+            "name": "Moo...",
+            "description": "Place down ten cows on one farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "UNLOCK_10_PIG",
+            "name": "Oink!",
+            "description": "Place down ten pigs on one farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "COLLECT_1000_WASTE",
+            "name": "Oh poop!",
+            "description": "Collect 1,000 animal waste",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "SIXSIXSIX",
+            "name": "666",
+            "description": "Build 666 crop tiles on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "BUILD_10_BIOCONVERTERS",
+            "name": "That's a Bit Excessive",
+            "description": "Build 10 Biofuel Converters on a single farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "COVER_ENTIRE_FARM",
+            "name": "Architect",
+            "description": "Build on every available tile",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "UNLOCK_FARM_1",
+            "name": "Flower Swamp",
+            "description": "Unlock the Flower Swamp farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "UNLOCK_FARM_2",
+            "name": "Sandy Desert",
+            "description": "Unlock the Sandy Desert farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "UNLOCK_FARM_3",
+            "name": "Blossom Forest",
+            "description": "Unlock the Blossom Forest farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "UNLOCK_FARM_4",
+            "name": "Desert Oasis",
+            "description": "Unlock the Desert Oasis farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "WATER_MILLION",
+            "name": "That's a Lot of Water",
+            "description": "Water 1 MILLION crops (across all farms)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "HARVEST_QUARTER_MILLION",
+            "name": "That's a Lot of Crops",
+            "description": "Harvest 250,000 crops (across all farms)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "UNLOCK_FARM_5",
+            "name": "Snowy Fields",
+            "description": "Unlock the Snowy Fields farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "GET_A_PET",
+            "name": "Get a pet",
+            "description": "Build a pet house",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "GET_MORE_PETS",
+            "name": "Have a few pets",
+            "description": "Build 4 pet houses on one farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "UNLOCK_10_CHICKENS",
+            "name": "Cluck, cluck!",
+            "description": "Place down 10 chickens on one farm",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "GIANT_WHITE_PUMPKIN",
+            "name": "Woah, that's a big White Pumpkin!",
+            "description": "Grow a Giant White Pumpkin",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "GIANT_ZUCCHINI",
+            "name": "Woah, that's a big Zucchini!",
+            "description": "Grow a Giant Zucchini",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "GIANT_RED_CABBAGE",
+            "name": "Woah, that's a big Red Cabbage!",
+            "description": "Grow a Giant Red Cabbage",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "REAPER_HOUSE",
+            "name": "Reaper's Genetically Modified Organisms",
+            "description": "Build Reaper's Outpost",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "COMMON_GMO",
+            "name": "Not-so-bad",
+            "description": "Buy a common chip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "RARE_GMO",
+            "name": "Pretty good",
+            "description": "Buy a rare chip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "LEGENDARY_GMO",
+            "name": "Excellent!",
+            "description": "Buy a legendary chip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 67,
+            "apiname": "UNLOCK_1_GMO",
+            "name": "Modifying crops",
+            "description": "Improve a crop by purchasing a chip",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 68,
+            "apiname": "REROLL_GMOS",
+            "name": "Nah, I don't like those",
+            "description": "Reroll ALL the chips in store",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 69,
+            "apiname": "UNLOCK_10_GMOS",
+            "name": "Modifying for efficiency",
+            "description": "Improve 10 crops with chips",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 70,
+            "apiname": "UNLOCK_25_GMOS",
+            "name": "Bigger and better crops",
+            "description": "Improve 25 crops with chips",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 71,
+            "apiname": "UNLOCK_ALL_GMOS",
+            "name": "Heavily modified crops",
+            "description": "Improve all crops with chips",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

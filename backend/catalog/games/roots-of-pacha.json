@@ -1,0 +1,580 @@
+{
+    "id": 1245560,
+    "steamAppId": 1245560,
+    "name": "Roots of Pacha",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245560/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Farming Sim",
+        "Life Sim",
+        "Co-op",
+        "Stone Age"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_1_IDEAS_ONE",
+            "name": "The First Spark",
+            "description": "Complete 1 Idea",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_2_IDEAS_FEW",
+            "name": "A Bonfire",
+            "description": "Complete 10 Ideas",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_3_IDEAS_ALL",
+            "name": "Light The Way",
+            "description": "Complete all Ideas",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_4_FISHING_ONE",
+            "name": "Make Frer Proud",
+            "description": "Catch 1 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_5_FISHING_FEW",
+            "name": "Make Inza Proud",
+            "description": "Catch 10 fish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_6_FISHING_ALL",
+            "name": "Make Tetih Proud",
+            "description": "Catch all fish",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_7_DISCOVERPLANT_ONE",
+            "name": "Make Igrork Proud",
+            "description": "Discover 1 plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_8_DISCOVERPLANT_FEW",
+            "name": "Make Ada Proud",
+            "description": "Discover 12 plants",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_9_DISCOVERPLANT_ALL",
+            "name": "Make The Clan Proud",
+            "description": "Discover all plants",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_10_PLANTKNOWLEDGE_ONELOW",
+            "name": "Green Thumb",
+            "description": "Get to level 2 knowledge of any plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_11_PLANTKNOWLEDGE_ONEMAX",
+            "name": "Green Hand",
+            "description": "Get to level 5 knowledge of any plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_12_PLANTKNOWLEDGE_ALLMAX",
+            "name": "Green Arm",
+            "description": "Get to level 5 knowledge for all plants",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_13_TAMEANIMAL_ONE",
+            "name": "Animal Friend",
+            "description": "Tame 1 animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_14_TAMEANIMAL_FEW",
+            "name": "Animal Hangout",
+            "description": "Tame 10 animals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_15_TAMEANIMAL_BUNCH",
+            "name": "Animal Herd",
+            "description": "Tame 30 animals",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_16_TAMEANIMAL_ONERARE",
+            "name": "A Rare Friend",
+            "description": "Tame a rare animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_17_TAMEANIMAL_ONELEGENDARY",
+            "name": "Legend Of The Land",
+            "description": "Tame a legendary animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_18_CONTRIBUTE_1",
+            "name": "A Person Of Note",
+            "description": "Gain 1000 Contribution",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_19_CONTRIBUTE_2",
+            "name": "A Passing Tale",
+            "description": "Gain 10000 Contribution",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_20_CONTRIBUTE_3",
+            "name": "Stories Will Be Told",
+            "description": "Gain 100000 Contribution",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_21_CONTRIBUTE_4",
+            "name": "A Legend Of Old",
+            "description": "Gain 1000000 Contribution",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_22_FRIENDSHIP_ONEFIVE",
+            "name": "A Friend Indeed",
+            "description": "Gain 5 flowers with one NPC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_23_FRIENDSHIP_ONETEN",
+            "name": "Besties For Life",
+            "description": "Gain 10 flowers with one NPC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_24_FRIENDSHIP_ONEFIVEEACH",
+            "name": "Social Butterfly",
+            "description": "Gain 5 flowers with one NPC of each clan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_25_FRIENDSHIP_ONETENEACH",
+            "name": "Talk Of The Town",
+            "description": "Gain 10 flowers with one NPC from each clan",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_26_DANCE_ONE",
+            "name": "Start The Party",
+            "description": "Dance with one NPC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_27_DANCE_ALL",
+            "name": "Party Animal",
+            "description": "Dance with all NPCs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_28_HOUSE_1",
+            "name": "Your Place In The World",
+            "description": "Build your own house",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_29_HOUSE_2",
+            "name": "Your Bigger Place In The World",
+            "description": "Upgrade your house once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_30_HOUSE_3",
+            "name": "Your Big Place In The World",
+            "description": "Fully upgrade your house",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_31_CAVES_GLYP",
+            "name": "A Glyptodon Gathering",
+            "description": "Complete the glyptodons cave challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_32_CAVES_OWL",
+            "name": "A Wise Flight",
+            "description": "Complete Owl's cave challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_33_CAVES_MONKEY",
+            "name": "Playing With Platforms",
+            "description": "Complete Monkey's cave challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_34_CAVES_BEAR",
+            "name": "Crushing Riddles",
+            "description": "Complete Bear's cave challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_35_CAVES_FINALGLYP",
+            "name": "Totem Rite Of Passage",
+            "description": "Complete the final cave challenge",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_36_CAVES_DARKROOMS",
+            "name": "Ancestral Guides",
+            "description": "Make your mark in all dark rooms",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_37_PYRAMID_1",
+            "name": "Uncover The Mysteries",
+            "description": "Raise the pyramid once",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_38_PYRAMID_2",
+            "name": "Navigate The Unknown",
+            "description": "Raise the pyramid twice",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_39_PYRAMID_3",
+            "name": "Investigate The Meaning",
+            "description": "Raise the pyramid three times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_40_PYRAMID_4",
+            "name": "Think A Little Deeper",
+            "description": "Raise the pyramid four times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_41_PYRAMID_5",
+            "name": "Explore The Lessons",
+            "description": "Fully raise the pyramid",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_42_FAMILY_1",
+            "name": "Generations",
+            "description": "Form a union and have a baby",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_43_PET_1",
+            "name": "Fur Friend",
+            "description": "Have a pet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_44_COOKING_ONE",
+            "name": "Delightful Dish",
+            "description": "Cook 1 dish",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_45_COOKING_FEW",
+            "name": "Chef Of The Ages",
+            "description": "Cook 10 dishes",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_46_COOKING_ALL",
+            "name": "Culinary Innovator",
+            "description": "Cook all dishes",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_47_PROCESS_ONE",
+            "name": "Lasting Food",
+            "description": "Process 1 product",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_48_PROCESS_FEW",
+            "name": "Meals Until Next Season",
+            "description": "Process 10 different types of products",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_49_PROCESS_ALL",
+            "name": "Great Ideas",
+            "description": "Produce 1 of every product type",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_50_ANIMALSTATS_ONEMAX",
+            "name": "Best In Show",
+            "description": "Breed an animal to max stats",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_51_SECRET_1",
+            "name": "Howling Good Time",
+            "description": "A hidden 'howling' event - trigger it by interacting with the wolves at night.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_52_ACCESSORIES_ONEMAX",
+            "name": "An Ancient Bond",
+            "description": "Harness the full power of jewelry",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_53_SECRET_2",
+            "name": "House Guest",
+            "description": "Pass out from exhaustion in a strange place and wake up somewhere unexpected.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_54_BUG_ONE",
+            "name": "It's a bug",
+            "description": "Catch 1 bug",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_55_BUG_FEW",
+            "name": "Bugged out",
+            "description": "Catch 10 bugs",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_56_BUG_ALL",
+            "name": "QA",
+            "description": "Catch all the bugs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_57_DICE_ALL",
+            "name": "Pro gamer",
+            "description": "Beat everyone at dice",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_58_AMPHITHEATRE_ALL",
+            "name": "Performer",
+            "description": "Play all songs in the amphitheater",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_59_EVOLVE_PLANT",
+            "name": "Future flora",
+            "description": "Harvest one evolved plant",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_60_EVOLVE_ANIMAL",
+            "name": "Future fauna",
+            "description": "Breed one evolved animal",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_61_RESTORE_BUG_TREES_ALL",
+            "name": "Seal of approval",
+            "description": "Restore the Sun and Moon trees",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 22
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_62_RESTORE_THREADS",
+            "name": "Threads tied",
+            "description": "Restore all time threads",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 22
+        }
+    ]
+}

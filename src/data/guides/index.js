@@ -1021,6 +1021,12 @@ import { GUIDE as mainAssemblyAchievementGuide } from "./games/main-assembly.js"
 import { GUIDE as turnipBoyCommitsTaxEvasionAchievementGuide } from "./games/turnip-boy-commits-tax-evasion.js";
 import { GUIDE as duckDetectiveTheGhostOfGlampingAchievementGuide } from "./games/duck-detective-the-ghost-of-glamping.js";
 import { GUIDE as crabChampionsAchievementGuide } from "./games/crab-champions.js";
+import { GUIDE as rustysRetirementAchievementGuide } from "./games/rustys-retirement.js";
+import { GUIDE as storyOfSeasonsAWonderfulLifeAchievementGuide } from "./games/story-of-seasons-a-wonderful-life.js";
+import { GUIDE as thePluckySquireAchievementGuide } from "./games/the-plucky-squire.js";
+import { GUIDE as eiyudenChronicleHundredHeroesAchievementGuide } from "./games/eiyuden-chronicle-hundred-heroes.js";
+import { GUIDE as rootsOfPachaAchievementGuide } from "./games/roots-of-pacha.js";
+import { GUIDE as paliaAchievementGuide } from "./games/palia.js";
 
 export const APP_GUIDES = [
 
@@ -2064,7 +2070,13 @@ export const GAME_GUIDES = [
     mainAssemblyAchievementGuide,
     turnipBoyCommitsTaxEvasionAchievementGuide,
     duckDetectiveTheGhostOfGlampingAchievementGuide,
-    crabChampionsAchievementGuide
+    crabChampionsAchievementGuide,
+    rustysRetirementAchievementGuide,
+    storyOfSeasonsAWonderfulLifeAchievementGuide,
+    thePluckySquireAchievementGuide,
+    eiyudenChronicleHundredHeroesAchievementGuide,
+    rootsOfPachaAchievementGuide,
+    paliaAchievementGuide
 
 ];
 
