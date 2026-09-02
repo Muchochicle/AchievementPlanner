@@ -1,0 +1,616 @@
+{
+    "id": 1475810,
+    "steamAppId": 1475810,
+    "name": "Ghostwire: Tokyo",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1475810/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 35
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Action-Adventure",
+        "First-Person",
+        "Supernatural",
+        "Open World"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_001",
+            "name": "Beginnings",
+            "description": "Complete Chapter 1.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_002",
+            "name": "Trouble",
+            "description": "Complete Chapter 2.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_003",
+            "name": "Connection",
+            "description": "Complete Chapter 3.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_004",
+            "name": "Contortion",
+            "description": "Complete Chapter 4.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_005",
+            "name": "Severance",
+            "description": "Complete Chapter 5.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_006",
+            "name": "Binding",
+            "description": "Complete Chapter 6.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_007",
+            "name": "Conclusions",
+            "description": "Complete the main storyline - the finale, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_008",
+            "name": "Helping Hand",
+            "description": "Transfer 25% of the spirits in the city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_009",
+            "name": "Savior",
+            "description": "Transfer 50% of the spirits in the city.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_010",
+            "name": "Salvation of All",
+            "description": "Transfer at least 100% of the spirits in the city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_011",
+            "name": "Hero of Shibuya",
+            "description": "Complete the main story after transferring at least 100% of the spirits in the city.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_012",
+            "name": "Problem Solver",
+            "description": "Complete a side mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_013",
+            "name": "Wishmaker",
+            "description": "Complete all side missions (excluding update content).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_014",
+            "name": "Opening a Path",
+            "description": "Cleanse a torii gate.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_015",
+            "name": "Liberator",
+            "description": "Cleanse all torii gates (excluding update content).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_016",
+            "name": "Treasure Hunter",
+            "description": "Acquire a relic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_017",
+            "name": "Collector",
+            "description": "Acquire all relics.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_018",
+            "name": "Mind and Body",
+            "description": "Unlock all Spirit Skills (excluding update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_019",
+            "name": "On the Same Wavelength",
+            "description": "Raise your synergy level to 50 or higher.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_020",
+            "name": "Shibuya Is My Back Yard",
+            "description": "Find all landmarks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_021",
+            "name": "Echoes of the Past",
+            "description": "Acquire a voice log.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_022",
+            "name": "The Whole Truth",
+            "description": "Acquire all voice logs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_023",
+            "name": "It's All Thanks to Yokai",
+            "description": "Acquire a magatama.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_024",
+            "name": "With Their Powers Combined",
+            "description": "Acquire 40 or more different magatama.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_025",
+            "name": "Roadside Spirituality",
+            "description": "Pray to a Jizo statue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_026",
+            "name": "Pilgrim",
+            "description": "Pray to all Jizo statues.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_027",
+            "name": "Your Tail's Showing",
+            "description": "Find all of the missing tanuki.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_028",
+            "name": "Gourmand",
+            "description": "Acquire all types of food and drink.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_029",
+            "name": "DJ Akito",
+            "description": "Acquire all music tracks (excluding update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_030",
+            "name": "Trendsetter",
+            "description": "Acquire all items for the Outfit menu (excluding bonus and update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_031",
+            "name": "Talismania",
+            "description": "Acquire all talismans (excluding update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_032",
+            "name": "Power Overwhelming",
+            "description": "Acquire all sets of prayer beads (excluding update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_033",
+            "name": "Boundless Spirit",
+            "description": "Acquire the maximum number of katashiro.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_034",
+            "name": "Animal Lover",
+            "description": "Pet an animal (a cat or dog) somewhere in Shibuya.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_035",
+            "name": "Amateur Photographer",
+            "description": "Use Photo Mode for the first time.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_036",
+            "name": "You Wouldn't Steal a Spirit",
+            "description": "Successfully protect at least 3 Containment Cubes in a single battle.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_037",
+            "name": "Don't Worry About It",
+            "description": "Pull a 'Daikyo' (worst-luck) fortune from an omikuji fortune stand.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_038",
+            "name": "Better Together",
+            "description": "Fuse back with KK after being hit by a Visitor's severance attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_039",
+            "name": "Visiting Hours Are Over",
+            "description": "Defeat at least one of every type of Visitor (excluding update content).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_040",
+            "name": "Heartbreaker",
+            "description": "Defeat a Visitor by pulling out its core.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_041",
+            "name": "Soul Breaker",
+            "description": "Defeat 50 Visitors by pulling out their cores.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_042",
+            "name": "One Fell Swoop",
+            "description": "Defeat at least 5 Visitors simultaneously by pulling out their cores.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_043",
+            "name": "Couldn't Take the Heat",
+            "description": "Defeat at least 3 Visitors simultaneously by detonating a red ether crystal.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_044",
+            "name": "Silent Kill",
+            "description": "Defeat a total of 200 Visitors using Quick Purge.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_045",
+            "name": "Take a Bow",
+            "description": "Defeat a total of 50 Visitors using the bow.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_046",
+            "name": "Go For the Eyes",
+            "description": "Defeat a total of 20 Visitors with headshots.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_047",
+            "name": "Sniper",
+            "description": "Defeat a Visitor with a headshot from at least 40 metres away.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_048",
+            "name": "Freeze, Scumbag",
+            "description": "Defeat a total of 10 Visitors with Quick Purge while they are held by a Stun Talisman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_049",
+            "name": "A Shrubbery!",
+            "description": "Defeat a total of 3 Visitors with Quick Purge while hiding in bushes created by a Thicket Talisman.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_050",
+            "name": "Left Yourself Open",
+            "description": "Defeat a total of 10 Visitors by exposing their cores with Exposure Talismans and ripping them out.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_051",
+            "name": "Master of Blocking",
+            "description": "Perform a total of 30 Perfect Blocks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_052",
+            "name": "In Sync",
+            "description": "Wire In a total of 10 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_053",
+            "name": "Walking on Air",
+            "description": "Grapple to a Tengu and glide to stay airborne for at least 10 seconds.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_054",
+            "name": "Big Spender",
+            "description": "Spend a total of 1,000,000 meika.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_055",
+            "name": "Pious",
+            "description": "Put a total of 10,000 meika into offering boxes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_056",
+            "name": "Lonely Tsukimi",
+            "description": "Spend at least 30 seconds looking up at the moon.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_057",
+            "name": "Scary Stories to Tell at School",
+            "description": "The Spider's Thread update: complete all newly-added side missions set at the school.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_058",
+            "name": "Spirit Photographer",
+            "description": "The Spider's Thread update: complete all newly-added spirit-photograph side missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_059",
+            "name": "Further Liberation",
+            "description": "STU: Cleanse all newly-added torii gates.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_060",
+            "name": "On-The-Job Training",
+            "description": "STU: Unlock all newly-added Spirit Skills.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_061",
+            "name": "Unparalleled Talismaniac",
+            "description": "STU: Acquire all newly-added talismans.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_062",
+            "name": "Unexpected Visitors",
+            "description": "STU: Defeat at least one of every newly-added type of Visitor.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_063",
+            "name": "Figure Aficionado",
+            "description": "STU: Try your luck at capsule machines at least 50 times.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_064",
+            "name": "Views From the Abyss",
+            "description": "STU: Complete \"The Spider's Thread\" mode.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_065",
+            "name": "Catalog Conqueror",
+            "description": "STU: Complete all nekomata jobs in \"The Spider's Thread\" mode.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_066",
+            "name": "Welcome to Shibuya",
+            "description": "The Spider's Thread update: acquire at least one SHIBUYA HACHI stamp.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

@@ -973,6 +973,9 @@ import { GUIDE as crysis3RemasteredAchievementGuide } from "./games/crysis-3-rem
 import { GUIDE as kenaBridgeOfSpiritsAchievementGuide } from "./games/kena-bridge-of-spirits.js";
 import { GUIDE as astroneerAchievementGuide } from "./games/astroneer.js";
 import { GUIDE as suicideSquadKillTheJusticeLeagueAchievementGuide } from "./games/suicide-squad-kill-the-justice-league.js";
+import { GUIDE as stellarBladeAchievementGuide } from "./games/stellar-blade.js";
+import { GUIDE as ghostwireTokyoAchievementGuide } from "./games/ghostwire-tokyo.js";
+import { GUIDE as immortalsOfAveumAchievementGuide } from "./games/immortals-of-aveum.js";
 
 export const APP_GUIDES = [
 
@@ -1968,7 +1971,10 @@ export const GAME_GUIDES = [
     crysis3RemasteredAchievementGuide,
     kenaBridgeOfSpiritsAchievementGuide,
     astroneerAchievementGuide,
-    suicideSquadKillTheJusticeLeagueAchievementGuide
+    suicideSquadKillTheJusticeLeagueAchievementGuide,
+    stellarBladeAchievementGuide,
+    ghostwireTokyoAchievementGuide,
+    immortalsOfAveumAchievementGuide
 
 ];
 
