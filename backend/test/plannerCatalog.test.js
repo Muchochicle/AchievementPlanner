@@ -922,6 +922,11 @@ test("getAllPlannerSlugs still includes the real, non-internal catalog games", (
     assert.ok(slugs.includes("the-wandering-village"));
     assert.ok(slugs.includes("laysara-summit-kingdom"));
     assert.ok(slugs.includes("new-cycle"));
+    assert.ok(slugs.includes("planet-coaster"));
+    assert.ok(slugs.includes("american-truck-simulator"));
+    assert.ok(slugs.includes("house-flipper"));
+    assert.ok(slugs.includes("risk-of-rain-returns"));
+    assert.ok(slugs.includes("among-us"));
 
 });
 

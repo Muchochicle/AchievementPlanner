@@ -1,0 +1,887 @@
+{
+    "id": 613100,
+    "steamAppId": 613100,
+    "name": "House Flipper",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/613100/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Renovation",
+        "Casual",
+        "Management",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "BigFamily",
+            "name": "Family man",
+            "description": "Family isn't just an important thing, it's everything.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 2,
+            "apiname": "ChangChoi",
+            "name": "Geek",
+            "description": "I'm not a genius, but I am smarter than you are.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 3,
+            "apiname": "DolanTrusk",
+            "name": "Worth every penny",
+            "description": "Mind over matter. Money over all.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 4,
+            "apiname": "GorgioShanua",
+            "name": "I'm a Belieber",
+            "description": "Fashion is my armor against the realities of everyday life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 5,
+            "apiname": "JackTarinton",
+            "name": "Wall Street Shark",
+            "description": "It's business. Leave your feelings at the door.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 6,
+            "apiname": "JimmyTraitor",
+            "name": "Mr. Mystery",
+            "description": "Bra off, party on!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 7,
+            "apiname": "MrAndMrsJantart",
+            "name": "Just enough",
+            "description": "Age is just a number. Live life fully, no matter how old you are.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 8,
+            "apiname": "Lonewolf37",
+            "name": "The Tactical Prepper",
+            "description": "Always be prepared for the unknown.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 9,
+            "apiname": "PreppersFamily",
+            "name": "The Survivalist",
+            "description": "Remember: when disaster strikes, the time to prepare has passed.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 10,
+            "apiname": "PrepperWoman",
+            "name": "Doomsday Prepper",
+            "description": "Better to prep 10 years too early than 10 minutes too late!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 11,
+            "apiname": "RafaelErko",
+            "name": "Alpha Male",
+            "description": "What happens in the cave stays in the cave.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 12,
+            "apiname": "SmothFamily",
+            "name": "Pro-creative",
+            "description": "You know, when you're in love, you can't get any sleep… because of your kids screaming around the clock!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 13,
+            "apiname": "VeronicaLiptson",
+            "name": "Artistic soul",
+            "description": "Every child is an artist. The challenge lies in remaining an artist throughout one's adult life.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 14,
+            "apiname": "FirstMoney",
+            "name": "First money",
+            "description": "Complete first job!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 15,
+            "apiname": "Millionaire",
+            "name": "Millionaire",
+            "description": "Earn your first million euro.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 16,
+            "apiname": "GameOver",
+            "name": "Game over",
+            "description": "Finish the game.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 17,
+            "apiname": "DoItASAP",
+            "name": "Do it ASAP",
+            "description": "Complete a job in less than 1 minute.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 18,
+            "apiname": "Perfectionist",
+            "name": "Perfectionist",
+            "description": "Complete every job all the way.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 19,
+            "apiname": "KnockKnock",
+            "name": "Knock, knock",
+            "description": "I am the one who knocks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 20,
+            "apiname": "Negotiator",
+            "name": "Negotiator",
+            "description": "Successfully negotiate a sale earning no less than 50,000 Euro.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 21,
+            "apiname": "Strongman",
+            "name": "Strongman",
+            "description": "Do you even lift?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 22,
+            "apiname": "CarMechanic",
+            "name": "Car mechanic",
+            "description": "You'll need a car mechanic.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 23,
+            "apiname": "YouDoItWrong",
+            "name": "You're doing it wrong.",
+            "description": "Kill a cockroach with a hammer.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 24,
+            "apiname": "JuniorEstateAgent",
+            "name": "Junior estate agent",
+            "description": "Sell 10 houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 25,
+            "apiname": "EstateAgent",
+            "name": "Estate agent",
+            "description": "Sell 20 houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 26,
+            "apiname": "SeniorEstateAgent",
+            "name": "Real estate agent",
+            "description": "Sell 50 houses.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 27,
+            "apiname": "WorkOnFreshAir",
+            "name": "Give it some fresh air",
+            "description": "Don't forget to take it out of the rain!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 28,
+            "apiname": "BeginnerGardener",
+            "name": "Beginner gardener",
+            "description": "It's time to broaden my qualifications!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 29,
+            "apiname": "Competitor",
+            "name": "Competitor",
+            "description": "Look at my garden, it's amazing!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 30,
+            "apiname": "GoodLayout",
+            "name": "Perfect Layout",
+            "description": "Feel Shi… Fence Shi… Well, I tried.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 31,
+            "apiname": "FollowingTheRules",
+            "name": "According to the rules.",
+            "description": "Blue flower, red thorns…",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 32,
+            "apiname": "FullyEquipped",
+            "name": "Fully equipped.",
+            "description": "Haven't you forgotten about a place for a few flowers between this sofa and the carousel?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 33,
+            "apiname": "CallMeEdward",
+            "name": "Call me Edward.",
+            "description": "You can't hide from my mover!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 34,
+            "apiname": "Gardener",
+            "name": "Gardener",
+            "description": "I feel this gardener aura inside of me…",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 35,
+            "apiname": "Vegan",
+            "name": "Vegan",
+            "description": "Tell the meatatarians my last word is… Carrot…",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 36,
+            "apiname": "LetsSwim",
+            "name": "Let's go swimming.",
+            "description": "Bath time?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 37,
+            "apiname": "WhacMole",
+            "name": "Whack-A-Mole",
+            "description": "Your time has come, Mr. Mole…",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 38,
+            "apiname": "DonKichot",
+            "name": "Don Quixote",
+            "description": "Is this hammer even real?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 39,
+            "apiname": "DownToTheLastPenny",
+            "name": "Down to the last penny",
+            "description": "Care to do something more with all that's left?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 40,
+            "apiname": "TrulyOpenSpace",
+            "name": "Truly open space",
+            "description": "Must-have: lots of space.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 41,
+            "apiname": "WholeFamily",
+            "name": "Whole family",
+            "description": "Must-have: room for family gatherings.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 42,
+            "apiname": "AllThePossibilities",
+            "name": "All the possibilities!",
+            "description": "On the other hand…",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 43,
+            "apiname": "ChimneySweeper",
+            "name": "Chimney sweeper",
+            "description": "Can you hear it?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 44,
+            "apiname": "ModernSolutions",
+            "name": "Modern solutions",
+            "description": "Can't have a leak when there are no pipes!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 45,
+            "apiname": "TimeWarp",
+            "name": "Time warp",
+            "description": "Let's do the time warp again!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 46,
+            "apiname": "OliviersWay",
+            "name": "Oliver's way",
+            "description": "Now we're talking!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 47,
+            "apiname": "GretasTouch",
+            "name": "Greta's touch",
+            "description": "This place could use a woman's touch!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 48,
+            "apiname": "HomersHouse",
+            "name": "Homer's house",
+            "description": "I will not click on the map.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 49,
+            "apiname": "Renovator",
+            "name": "Renovator",
+            "description": "Fix them all!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 50,
+            "apiname": "BeachPlease",
+            "name": "Beach please",
+            "description": "Move your main office to a beachfront property, such as the Stilt House (Coastal DLC).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 51,
+            "apiname": "IHopeTheresNoCellar",
+            "name": "I hope there's no cellar",
+            "description": "Now, who’s in for a pool party?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 52,
+            "apiname": "WindowsUpdate",
+            "name": "Windows update",
+            "description": "Replace 10 windows",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 53,
+            "apiname": "TheFurnisher",
+            "name": "The furnisher",
+            "description": "One man’s trash is another man’s treasure",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 54,
+            "apiname": "IFixedIt",
+            "name": "I fixed it!",
+            "description": "All it takes is a good smack with a hammer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 55,
+            "apiname": "Panorama",
+            "name": "Panorama",
+            "description": "Take a picture of the city from the Cliff House",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 56,
+            "apiname": "LuxuryIsAlwaysInStyle",
+            "name": "Luxury is always in style",
+            "description": "Finish all jobs in Moonrise Bay",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 57,
+            "apiname": "IAmRich",
+            "name": "I am rich",
+            "description": "Purchase one of the houses from Luxury DLC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 58,
+            "apiname": "AnyOneKnowsTheWiFiPassword",
+            "name": "The Wi-Fi password, anyone?",
+            "description": "The next step is to hire a butler",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 59,
+            "apiname": "YouAreTooCreative",
+            "name": "You are too creative!",
+            "description": "If we allowed you to do this, the game would crash",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 60,
+            "apiname": "StepUpYourGame",
+            "name": "Step up your game",
+            "description": "Did someone call a stair specialist?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 61,
+            "apiname": "TheChoiceIsYours",
+            "name": "The choice is yours",
+            "description": "Will you follow your client's dream?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 62,
+            "apiname": "Pets_Achv_Box",
+            "name": "What's in the box?",
+            "description": "Tons of cuteness to say the least!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 63,
+            "apiname": "Pets_Achv_JourneyFluffiness",
+            "name": "A journey full of fluffiness",
+            "description": "Morgan is proud of you.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 64,
+            "apiname": "Pets_Achv_WelcomeCozyVillage",
+            "name": "Welcome to Cozy Village",
+            "description": "Hope you enjoy the countryside.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 65,
+            "apiname": "Pets_Achv_Caretaker",
+            "name": "Caretaker",
+            "description": "Feels like the beginning of something special.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 66,
+            "apiname": "Pets_Achv_FreshCleanDry",
+            "name": "Fresh, clean, and dry",
+            "description": "Now your pup can get all dirty again.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 67,
+            "apiname": "Pets_Achv_Playtime",
+            "name": "It's playtime!",
+            "description": "The best part of the day.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 68,
+            "apiname": "Pets_Achv_TapTap",
+            "name": "Tap-tap-tap...",
+            "description": "Can you hear those little paws behind you?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 69,
+            "apiname": "Pets_Achv_VersatileCaretaker",
+            "name": "Versatile caretaker",
+            "description": "You're not gonna stop here, are you?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 70,
+            "apiname": "Pets_Achv_FloorIsYourCanvas",
+            "name": "The floor is your canvas",
+            "description": "Now, that's not a happy little accident.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 71,
+            "apiname": "Pets_Achv_Teamwork",
+            "name": "Teamwork",
+            "description": "A helping paw is never a bad thing, eh?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 72,
+            "apiname": "Pets_Achv_GrowFast",
+            "name": "They grow up so fast...",
+            "description": "It feels like we've met yesterday!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 73,
+            "apiname": "Pets_Achv_PicturePerfect",
+            "name": "Picture perfect",
+            "description": "It's hard to get a good photo when they move around so quickly.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 74,
+            "apiname": "ThisBelongsToMuseum",
+            "name": "This belongs in a museum",
+            "description": "Careful now, it’s obviously a family heirloom!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 75,
+            "apiname": "Farm_Achiv_OldMcDonald",
+            "name": "Old McDonald",
+            "description": "Is there an animal you haven’t got?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 76,
+            "apiname": "Farm_Achv_DroneMaster",
+            "name": "Drone master",
+            "description": "Making photos, watering, spraying… Everything on the fly!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 77,
+            "apiname": "Farm_Achv_TheBiggerTheBetter",
+            "name": "The bigger the better",
+            "description": "House extensions are just too much fun!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 78,
+            "apiname": "Farm_Achv_MusicToMyEars",
+            "name": "Music to my ears",
+            "description": "Your house, your rules, your radio.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 79,
+            "apiname": "Farm_Achv_CaptainHook",
+            "name": "Captain Hook",
+            "description": "Hope you're not afraid of heights!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 80,
+            "apiname": "Farm_Achv_Don’tHoldYourHorses",
+            "name": "Don’t hold your horses",
+            "description": "Ride like the wind!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 81,
+            "apiname": "Farm_Achv_HardworkingFarmer",
+            "name": "Hardworking farmer",
+            "description": "Your efforts have yielded a harvest.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 82,
+            "apiname": "Farm_Achv_They'reAllInOneBasket",
+            "name": "They're all in one basket",
+            "description": "Still looking for a golden egg?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 83,
+            "apiname": "Farm_Achv_SweetDreams",
+            "name": "Just don't get lost!",
+            "description": "Fancy an afternoon snack with a Minotaur?",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 84,
+            "apiname": "Farm_Achiv_LongDayCountryside",
+            "name": "A long day in the countryside",
+            "description": "Hard work pays off!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 85,
+            "apiname": "Farm_Achv_TalentedRoofer",
+            "name": "Talented roofer",
+            "description": "Show your true colors!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 86,
+            "apiname": "Farm_Achv_FreeSpirit",
+            "name": "Free spirit",
+            "description": "Finally, nothing limits your imagination!",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 87,
+            "apiname": "DineOut_Achv_Appetite",
+            "name": "Appetite comes with eating",
+            "description": "Complete your first Dine Out DLC job.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 88,
+            "apiname": "DineOut_Achv_WayToHeart",
+            "name": "The way to one's heart…",
+            "description": "Complete any 5 Dine Out DLC jobs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 89,
+            "apiname": "DineOut_Achv_IcingOnCake",
+            "name": "The cherry on top",
+            "description": "Complete all 10 Dine Out DLC jobs.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 90,
+            "apiname": "DineOut_Achv_FlipperFiveStars",
+            "name": "5 Flipper stars",
+            "description": "Cook a set of dishes using the restaurant's universal cooker.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 91,
+            "apiname": "DineOut_Achv_BreadAndWater",
+            "name": "Why live on bread and water?",
+            "description": "Earn roughly 10,000-15,000 in total rental income.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 92,
+            "apiname": "DineOut_Achv_PropertyManager",
+            "name": "Property manager",
+            "description": "Rent out 5 houses using the rental system.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 93,
+            "apiname": "DineOut_Achv_LandInHotWater",
+            "name": "Land in hot water",
+            "description": "During the 'Wine and Dine' job, build an entresol upstairs and fall through it while confirming the changes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 94,
+            "apiname": "DineOut_Achv_TableDeckYourself",
+            "name": "Table, Deck Yourself!",
+            "description": "Deck 10 restaurant tables with cutlery and glassware.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 95,
+            "apiname": "DineOut_Achv_RestaurantSign",
+            "name": "Don't judge a restaurant by its sign",
+            "description": "Buy, place, and label a restaurant sign.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        },
+        {
+            "id": 96,
+            "apiname": "DineOut_Achv_FlavoursHunter",
+            "name": "Flavours Hunter",
+            "description": "Find all 11 Dine Out DLC recipes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 15
+        }
+    ]
+}

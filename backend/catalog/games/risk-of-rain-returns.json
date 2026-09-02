@@ -1,0 +1,1418 @@
+{
+    "id": 1337520,
+    "steamAppId": 1337520,
+    "name": "Risk of Rain Returns",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1337520/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 80
+    },
+    "missable": false,
+    "playthroughs": 3,
+    "hasGuide": true,
+    "genres": [
+        "Roguelike",
+        "Action",
+        "Platformer",
+        "Co-op",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "unlock_gasoline",
+            "name": "Lizard Bait",
+            "description": "Defeat 20 Lemurians in one playthrough.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 2,
+            "apiname": "unlock_watch",
+            "name": "Never Look Back",
+            "description": "Complete the 1st stage in under 5 minutes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 3,
+            "apiname": "unlock_construct",
+            "name": "Pre-Alpha",
+            "description": "Find this item hidden somewhere in the world to unlock it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 4,
+            "apiname": "unlock_mocha",
+            "name": "The Grind",
+            "description": "Level up to level 20.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 5,
+            "apiname": "unlock_medallion",
+            "name": "Gold Medalist",
+            "description": "Get a gold rank on at least 5 Providence Trials.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 6,
+            "apiname": "unlock_cape",
+            "name": "Close Calls",
+            "description": "Commando: Dodge 7 lethal attacks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 7,
+            "apiname": "unlock_threader",
+            "name": "Thread the Needle",
+            "description": "Complete the Providence Trial \"A Rung Above\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 8,
+            "apiname": "unlock_scarf",
+            "name": "Rapidfire",
+            "description": "Huntress: Achieve 200% attack speed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 9,
+            "apiname": "unlock_instincts",
+            "name": "Sixth Sense",
+            "description": "Huntress: Defeat the Ancient Wisp without taking damage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 10,
+            "apiname": "unlock_doll",
+            "name": "Still Standing",
+            "description": "Survive a boss with less than 20% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 11,
+            "apiname": "unlock_backup",
+            "name": "Mechanized Militia",
+            "description": "Have 4 drone helpers at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 12,
+            "apiname": "unlock_hoof",
+            "name": "\"Is This Bugged?\"",
+            "description": "Fail a shrine 3 times in a row.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 13,
+            "apiname": "unlock_bandit",
+            "name": "Warrior",
+            "description": "Beat the 3rd stage.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 14,
+            "apiname": "unlock_clover",
+            "name": "Junk Collector",
+            "description": "Kill the Scavenger.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 15,
+            "apiname": "unlock_lopper",
+            "name": "The Lone Survivor",
+            "description": "Survive 40 minutes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 16,
+            "apiname": "unlock_razor_penny",
+            "name": "A Dime A Dozen",
+            "description": "Kill 12 enemies simultaneously using the Gold-Plated Bomb.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 17,
+            "apiname": "unlock_pillaged",
+            "name": "Desperado",
+            "description": "Bandit: Kill a boss with 'Lights Out.'",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 18,
+            "apiname": "unlock_hitlist",
+            "name": "Classic Man",
+            "description": "Bandit: Reset your cooldown 15 times consecutively.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 19,
+            "apiname": "unlock_firemans",
+            "name": "In the Soup",
+            "description": "Survive in lava for 1 minute straight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 20,
+            "apiname": "unlock_photon_jetpack",
+            "name": "Zero Sum",
+            "description": "End a Teleporter timer with 0 enemies on the map.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 21,
+            "apiname": "unlock_enforcer",
+            "name": "Before Titans",
+            "description": "Kill the Magma Worm, Wandering Vagrant, and Colossus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 22,
+            "apiname": "unlock_spikestrip",
+            "name": "Tank",
+            "description": "Enforcer: Block 2000 damage total with your shield.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 23,
+            "apiname": "unlock_bottled_chaos",
+            "name": "Activated",
+            "description": "Use the same Equipment Activator 5 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 24,
+            "apiname": "unlock_prescriptions",
+            "name": "Turtle",
+            "description": "Enforcer: Stay in Shield Mode for 5 minutes straight (in combat).",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 25,
+            "apiname": "unlock_hand",
+            "name": "Handy",
+            "description": "Find the robot janitor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 26,
+            "apiname": "unlock_armsrace",
+            "name": "Hydraulic Press",
+            "description": "HAN-D: Kill 10 enemies simultaneously with FORCED_REASSEMBLY.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 27,
+            "apiname": "unlock_shield_generator",
+            "name": "Like New",
+            "description": "HAN-D: Beat the third stage without falling below 60% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 28,
+            "apiname": "unlock_pilot",
+            "name": "Seasoned Wanderer",
+            "description": "Collect 15 Monster Logs.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 29,
+            "apiname": "unlock_engineer",
+            "name": "Mechanic",
+            "description": "Purchase 40 drones total.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 30,
+            "apiname": "unlock_sticky_bomb",
+            "name": "Controlled Demolition",
+            "description": "Engineer: Detonate 15 Bounding Mines within 5 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 31,
+            "apiname": "unlock_concussion",
+            "name": "Optimal",
+            "description": "Engineer: Kill a boss in 15 seconds or less.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 32,
+            "apiname": "unlock_miner",
+            "name": "Excavation",
+            "description": "Clear a path for the survivor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 33,
+            "apiname": "unlock_panic_mine",
+            "name": "Blazing Victory",
+            "description": "Miner: Survive the teleporter event without falling below 50% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 34,
+            "apiname": "unlock_justice",
+            "name": "Hot Streak",
+            "description": "Miner: Reach level 10 without getting hurt more than once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 35,
+            "apiname": "unlock_sniper",
+            "name": "Washed Away",
+            "description": "Beat the game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 36,
+            "apiname": "unlock_buddy",
+            "name": "High Caliber",
+            "description": "Sniper: Achieve 15 consecutive perfect reloads.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 37,
+            "apiname": "unlock_sight",
+            "name": "Iron Sights",
+            "description": "Sniper: 1-shot kill 10 enemies consecutively.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 38,
+            "apiname": "unlock_acrid",
+            "name": "The Experiment",
+            "description": "Free the chained creature.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 39,
+            "apiname": "unlock_centipede",
+            "name": "Dissolved",
+            "description": "Acrid: Spread 3,300 feet of caustic sludge.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 40,
+            "apiname": "unlock_leech",
+            "name": "Catchy",
+            "description": "Acrid: Spread Epidemic to 25 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 41,
+            "apiname": "unlock_dios",
+            "name": "Sole Survivor",
+            "description": "Die 50 times.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 42,
+            "apiname": "unlock_foot",
+            "name": "Last Wish",
+            "description": "Find the bloated survivor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 43,
+            "apiname": "unlock_alien_head",
+            "name": "Vampire",
+            "description": "Obtain 7 Monster Teeth and 1 Guardian Heart.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 44,
+            "apiname": "unlock_root",
+            "name": "In Good Health",
+            "description": "Reach 650 health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 45,
+            "apiname": "unlock_brooch",
+            "name": "Special Delivery",
+            "description": "Unlock a golden chest with the Explorer's Key.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 46,
+            "apiname": "unlock_locked_jewel",
+            "name": "Strength of Will",
+            "description": "Reach max barrier.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 47,
+            "apiname": "unlock_meteorite",
+            "name": "Macho",
+            "description": "Deal 5000 damage in one shot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 48,
+            "apiname": "unlock_imprinting",
+            "name": "Watery Grave",
+            "description": "Drown 20 Whorls.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 49,
+            "apiname": "unlock_golden_gun",
+            "name": "War Bonds",
+            "description": "Bank 20,000 gold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 50,
+            "apiname": "unlock_wicked_ring",
+            "name": "Endless Voyager",
+            "description": "Collect 4 Keycards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 51,
+            "apiname": "unlock_scythe",
+            "name": "Insurance Fraud",
+            "description": "Use a health shrine that drops you below 5% health.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 52,
+            "apiname": "unlock_snake_eyes",
+            "name": "Lucky Devil",
+            "description": "Pass a shrine 4 times in a row.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 53,
+            "apiname": "unlock_scepter",
+            "name": "Mastery",
+            "description": "Mercenary: Beat the game on Monsoon difficulty.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 54,
+            "apiname": "unlock_mercenary",
+            "name": "No Flukes",
+            "description": "Beat the game 5 times.",
+            "difficulty": 5,
+            "missable": false,
+            "estimatedTime": 300
+        },
+        {
+            "id": 55,
+            "apiname": "unlock_chargefield",
+            "name": "Flash of Light",
+            "description": "Mercenary: Eviscerate 50 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 56,
+            "apiname": "unlock_chef",
+            "name": "Gourmet",
+            "description": "Obtain Meat Nugget, Bustling Fungus, Sprouting Egg, Bitter Root and Foreign Fruit in one run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 57,
+            "apiname": "unlock_interstellar",
+            "name": "Cracking Claws",
+            "description": "CHEF: SEAR/FLAMBE 20 Sand Crabs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 58,
+            "apiname": "unlock_turbine",
+            "name": "Catch and Release",
+            "description": "CHEF: Have 20 cleavers out at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 59,
+            "apiname": "unlock_loader",
+            "name": "Itemized",
+            "description": "Obtain 30 unique items in one playthrough.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 60,
+            "apiname": "unlock_taser",
+            "name": "Bionic",
+            "description": "Loader: Travel 6,500 meters using the Hydraulic Gauntlet",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 61,
+            "apiname": "unlock_amethyst",
+            "name": "Snuffed Out",
+            "description": "Loader: Kill the Overloading Magma Worm.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 62,
+            "apiname": "unlock_mace",
+            "name": "Untouchable",
+            "description": "Commando: Activate the 3rd teleporter without being hurt once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 63,
+            "apiname": "unlock_acrid_z2",
+            "name": "Broken Continuity",
+            "description": "Acrid: Kill Acrid in less than 15 seconds.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 64,
+            "apiname": "unlock_hand_x3",
+            "name": "Sagitta Aurum",
+            "description": "HAN-D: Obtain a golden drone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 65,
+            "apiname": "unlock_hand_v2",
+            "name": "Deforestation",
+            "description": "HAN-D: Kill 15 enemies at once using the Sawmerang.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 66,
+            "apiname": "unlock_sniper_z2",
+            "name": "Empty Pockets",
+            "description": "Sniper: Beat the third stage without any players collecting items or equipment.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 67,
+            "apiname": "unlock_sniper_c2",
+            "name": "Siiick",
+            "description": "Sniper: Kill Providence while backflipping.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 68,
+            "apiname": "unlock_drifter_c2",
+            "name": "\"...Ask Questions Later\"",
+            "description": "Drifter: Get 20 temporary items at once.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 69,
+            "apiname": "unlock_pilot_z2",
+            "name": "Big Red Button",
+            "description": "Pilot: Kill 30 enemies after launching them using Airstrike.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 70,
+            "apiname": "unlock_pilot_v2",
+            "name": "Aerodynamic",
+            "description": "Pilot: Kill 10 enemies without touching the ground or geysers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 71,
+            "apiname": "unlock_huntress_z2",
+            "name": "The Hunt",
+            "description": "Huntress: Defeat 3 unique event bosses in one run.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 72,
+            "apiname": "unlock_aegis",
+            "name": "Massacre",
+            "description": "Artificer: Multi-kill 15 enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 73,
+            "apiname": "unlock_hunters_harpoon",
+            "name": "Yoink",
+            "description": "Complete the Providence Trial \"A Toxic Path\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 74,
+            "apiname": "unlock_arti",
+            "name": "Anywhere, Everywhere",
+            "description": "Visit 10 unique stages.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 75,
+            "apiname": "unlock_drifter",
+            "name": "Recycled",
+            "description": "Recycle 6 drones in one playthrough.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 76,
+            "apiname": "unlock_commando_x2",
+            "name": "All Purpose",
+            "description": "Complete the Providence Trial \"Brave Heart, Steady Hand\". Alternatively: Complete 25 stages as Commando.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 77,
+            "apiname": "unlock_commando_c2",
+            "name": "First Place",
+            "description": "Complete the Providence Trial \"Slide to the Finish!\". Alternatively: Defeat 3,000 enemies as Commando.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 78,
+            "apiname": "unlock_commando_v2",
+            "name": "Only the Beginning",
+            "description": "Complete the Providence Trial \"A Colossal Feat\". Alternatively: Collect 300 items as Commando.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 79,
+            "apiname": "unlock_commando_skin_a",
+            "name": "Selfless",
+            "description": "Complete the Providence Trial \"S.O.S.\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 80,
+            "apiname": "unlock_enforcer_z2",
+            "name": "Natural Competition",
+            "description": "Complete the Providence Trial \"Scavenger Hunt\". Alternatively: Collect 300 items as Enforcer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 81,
+            "apiname": "unlock_enforcer_x2",
+            "name": "A Sweet Smell",
+            "description": "Complete the Providence Trial \"Specimen Sampling\". Alternatively: Complete 25 stages as Enforcer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 82,
+            "apiname": "unlock_enforcer_v2",
+            "name": "Higher Ground",
+            "description": "Complete the Providence Trial \"Go On Without Me\". Alternatively: Defeat 3,000 enemies as Enforcer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 83,
+            "apiname": "unlock_enforcer_skin_a",
+            "name": "Chasing Shadows",
+            "description": "Complete the Providence Trial \"Inner Demons\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 84,
+            "apiname": "unlock_huntress_x2",
+            "name": "Matricide",
+            "description": "Complete the Providence Trial \"Blades in the Wind\". Alternatively: Collect 300 items as Huntress.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 85,
+            "apiname": "unlock_huntress_c2",
+            "name": "Where You Want To Be",
+            "description": "Complete the Providence Trial \"Piercing Space and Time\". Alternatively: Defeat 3,000 enemies as Huntress.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 86,
+            "apiname": "unlock_voltaic_mitt",
+            "name": "Rope Burn",
+            "description": "Complete the Providence Trial \"Hot-Rope Hop\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 87,
+            "apiname": "unlock_bandit_z2",
+            "name": "Retrograde",
+            "description": "Complete the Providence Trial \"Castle of Memories\". Alternatively: Defeat 3,000 enemies as Bandit.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 88,
+            "apiname": "unlock_bandit_c2",
+            "name": "Gassed Up",
+            "description": "Complete the Providence Trial \"Highway Robbery\". Alternatively: Collect 300 items as Bandit.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 89,
+            "apiname": "unlock_bandit_v2",
+            "name": "Trigger Finger",
+            "description": "Complete the Providence Trial \"Endless Stand-Off\". Alternatively: Complete 25 stages as Bandit.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 90,
+            "apiname": "unlock_engi_z2",
+            "name": "Aquarium",
+            "description": "Complete the Providence Trial \"Drowning in Research\". Alternatively: Defeat 3,000 enemies as Engineer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 91,
+            "apiname": "unlock_engi_x2",
+            "name": "High Magnitude",
+            "description": "Complete the Providence Trial \"From All Angles\". Alternatively: Complete 25 stages as Engineer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 92,
+            "apiname": "unlock_engi_v2",
+            "name": "Amplified",
+            "description": "Engineer: Acquire a Beam Drone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 93,
+            "apiname": "unlock_insecticide",
+            "name": "Field Testing",
+            "description": "Complete the Providence Trial \"Get Off My Lawn!\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 94,
+            "apiname": "unlock_acrid_x2",
+            "name": "Nucleation",
+            "description": "Complete the Providence Trial \"Caustic Climb\". Alternatively: Collect 300 items as Acrid.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 95,
+            "apiname": "unlock_acrid_c2",
+            "name": "Aposematic",
+            "description": "Complete the Providence Trial \"Uncontrolled Experiment\". Alternatively: Defeat 3,000 enemies as Acrid.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 96,
+            "apiname": "unlock_toxin",
+            "name": "Altered Genome",
+            "description": "Find the illegal shipment.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 97,
+            "apiname": "unlock_loader_z2",
+            "name": "Anti-Virus",
+            "description": "Complete the Providence Trial \"Ruins of the Future\". Alternatively: Collect 300 items as Loader.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 98,
+            "apiname": "unlock_loader_x2",
+            "name": "Divebomb",
+            "description": "Complete the Providence Trial \"Crash Landing\". Alternatively: Defeat 3,000 enemies as Loader.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 99,
+            "apiname": "unlock_loader_v2",
+            "name": "Live Wire",
+            "description": "Complete the Providence Trial \"Colossal Lift\". Alternatively: Complete 25 stages as Loader.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 100,
+            "apiname": "unlock_mercenary_x2",
+            "name": "Riposte",
+            "description": "Complete the Providence Trial \"Don't Think, Feel\". Alternatively: Complete 25 stages as Mercenary.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 101,
+            "apiname": "unlock_mercenary_c2",
+            "name": "Tsuchinoko",
+            "description": "Complete the Providence Trial \"Assassination Contract\". Alternatively: Collect 300 items as Mercenary.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 102,
+            "apiname": "unlock_mercenary_v2",
+            "name": "Infinite Potential",
+            "description": "Complete the Providence Trial \"Shadows of the Past\". Alternatively: Defeat 3,000 enemies as Mercenary.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 103,
+            "apiname": "unlock_hand_x2",
+            "name": "Commander",
+            "description": "Complete the Providence Trial \"Routine Maintenance\". Alternatively: Defeat 3,000 enemies as HAN-D.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 104,
+            "apiname": "unlock_hand_skin_a",
+            "name": "Thank You",
+            "description": "Complete the Providence Trial \"Think of the Children\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 105,
+            "apiname": "unlock_orbiter",
+            "name": "A Little Extra Push",
+            "description": "Complete the Providence Trial \"Main Systems Offline\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 106,
+            "apiname": "unlock_chef_z2",
+            "name": "Free-Range",
+            "description": "Complete the Providence Trial \"A Fresh Harvest\". Alternatively: Collect 300 items as CHEF.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 107,
+            "apiname": "unlock_chef_c2",
+            "name": "Grease Fire",
+            "description": "CHEF: Simultaneously kill 15 oiled enemies using SEAR/FLAMBE",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 108,
+            "apiname": "unlock_chef_v2",
+            "name": "Well-Seasoned",
+            "description": "Complete the Providence Trial \"The Right Ingredients\". Alternatively: Defeat 3,000 enemies as CHEF.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 109,
+            "apiname": "unlock_arcane_blades",
+            "name": "\"...Or Your Money Back\"",
+            "description": "Complete the Providence Trial \"Kited Blades\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 110,
+            "apiname": "unlock_arti_x2",
+            "name": "Full Circuit",
+            "description": "Complete the Providence Trial \"Lightning Strikes Twice\". Alternatively: Complete 25 stages as Artificer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 111,
+            "apiname": "unlock_arti_c2",
+            "name": "Terminal Velocity",
+            "description": "Complete the Providence Trial \"In the Clouds\". Alternatively: Collect 300 items as Artificer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 112,
+            "apiname": "unlock_arti_v2",
+            "name": "Solar Power",
+            "description": "Complete the Providence Trial \"Danger Orbits\". Alternatively: Defeat 3,000 enemies as Artificer.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 113,
+            "apiname": "unlock_umbrella",
+            "name": "Chance of Showers",
+            "description": "Complete the Providence Trial \"Meteor Showers\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 114,
+            "apiname": "unlock_sniper_skin_a",
+            "name": "Campsite",
+            "description": "Complete the Providence Trial \"Lone Wolf\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 115,
+            "apiname": "unlock_sniper_x2",
+            "name": "Thermal Vision",
+            "description": "Complete the Providence Trial \"Bullseyes Only\". Alternatively: Complete 25 stages as Sniper.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 116,
+            "apiname": "unlock_duplicator",
+            "name": "By Design",
+            "description": "Complete the Providence Trial \"A Duplicator?!\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 117,
+            "apiname": "unlock_drifter_x2",
+            "name": "Trash Compactor",
+            "description": "Complete the Providence Trial \"Perilous Descent\". Alternatively: Collect 300 items as Drifter.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 118,
+            "apiname": "unlock_drifter_v2",
+            "name": "Biodegradable",
+            "description": "Complete the Providence Trial \"Equivalent Exchange\". Alternatively: Complete 25 stages as Drifter.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 119,
+            "apiname": "unlock_miner_z2",
+            "name": "New Record",
+            "description": "Complete the Providence Trial \"Break the Targets!\". Alternatively: Complete 25 stages as Miner.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 120,
+            "apiname": "unlock_miner_x2",
+            "name": "Hot-Blooded Vengeance",
+            "description": "Kill 8 Elder Lemurians without losing your Scorching status.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 121,
+            "apiname": "unlock_miner_c2",
+            "name": "Burning Out",
+            "description": "Complete the Providence Trial \"Scorching Heart\". Alternatively: Collect 300 items as Miner.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 122,
+            "apiname": "unlock_miner_skin_a",
+            "name": "Hivemind",
+            "description": "Complete the Providence Trial \"Gup Sorting?\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 123,
+            "apiname": "unlock_classified",
+            "name": "Paratrooper",
+            "description": "Complete the Providence Trial \"Emergency Ejection\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 124,
+            "apiname": "unlock_pilot_c2",
+            "name": "Steady Grip",
+            "description": "Complete the Providence Trial \"Race to the Finish!\". Alternatively: Collect 300 items as Pilot.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 125,
+            "apiname": "unlock_pilot_skin_a",
+            "name": "Keep It Up",
+            "description": "Complete the Providence Trial \"Juggling Priorities\".",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 126,
+            "apiname": "unlock_gamemode_trials",
+            "name": "Divine Intervention",
+            "description": "Unlock a survivor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 127,
+            "apiname": "unlock_artifact_honor",
+            "name": "In the Forest",
+            "description": "Find the Artifact of Honor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 128,
+            "apiname": "unlock_artifact_kin",
+            "name": "Somewhere Dry",
+            "description": "Find the Artifact of Kin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 129,
+            "apiname": "unlock_artifact_distortion",
+            "name": "Among the Mushrooms",
+            "description": "Find the Artifact of Distortion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 130,
+            "apiname": "unlock_artifact_spite",
+            "name": "In the Meadow",
+            "description": "Find the Artifact of Spite.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 131,
+            "apiname": "unlock_artifact_glass",
+            "name": "Below the Bridge",
+            "description": "Find the Artifact of Glass.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 132,
+            "apiname": "unlock_artifact_enigma",
+            "name": "Drowned Below",
+            "description": "Find the Artifact of Enigma.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "unlock_artifact_sacrifice",
+            "name": "Near the Core",
+            "description": "Find the Artifact of Sacrifice.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 134,
+            "apiname": "unlock_artifact_command",
+            "name": "In the Hive",
+            "description": "Find the Artifact of Command.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 135,
+            "apiname": "unlock_artifact_spirit",
+            "name": "Beneath the Temple",
+            "description": "Find the Artifact of Spirit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 136,
+            "apiname": "unlock_artifact_origin",
+            "name": "Kaleidoscope",
+            "description": "Find the Artifact of Origin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "unlock_artifact_mountain",
+            "name": "Carrying Weight",
+            "description": "Get a gold rank on at least 15 Providence Trials.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 120
+        },
+        {
+            "id": 138,
+            "apiname": "unlock_artifact_dissonance",
+            "name": "Sight-Seeing",
+            "description": "Find the 4 hidden Artifact Shards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 139,
+            "apiname": "unlock_artifact_temporary",
+            "name": "Entropy",
+            "description": "Find the Artifact of Tempus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 140,
+            "apiname": "unlock_artifact_cognation",
+            "name": "Seeing Ghosts",
+            "description": "Find the Artifact of Cognation.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 141,
+            "apiname": "unlock_arti_skin_p",
+            "name": "Artificer's Hope",
+            "description": "Complete the final Providence Trial as Artificer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 142,
+            "apiname": "unlock_drifter_skin_p",
+            "name": "Drifter's Spirit",
+            "description": "Complete the final Providence Trial as Drifter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 143,
+            "apiname": "unlock_acrid_skin_p",
+            "name": "Acrid's Hunger",
+            "description": "Complete the final Providence Trial as Acrid.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 144,
+            "apiname": "unlock_huntress_skin_p",
+            "name": "Huntress's Agility",
+            "description": "Complete the final Providence Trial as Huntress.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 145,
+            "apiname": "unlock_commando_skin_p",
+            "name": "Commando's Bravery",
+            "description": "Complete the final Providence Trial as Commando.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 146,
+            "apiname": "unlock_enforcer_skin_p",
+            "name": "Enforcer's Will",
+            "description": "Complete the final Providence Trial as Enforcer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 147,
+            "apiname": "unlock_bandit_skin_p",
+            "name": "Bandit's Cunning",
+            "description": "Complete the final Providence Trial as Bandit.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 148,
+            "apiname": "unlock_hand_skin_p",
+            "name": "HAN-D's Directive",
+            "description": "Complete the final Providence Trial as HAN-D.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 149,
+            "apiname": "unlock_engineer_skin_p",
+            "name": "Engineer's Intellect",
+            "description": "Complete the final Providence Trial as Engineer.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 150,
+            "apiname": "unlock_sniper_skin_p",
+            "name": "Sniper's Reflex",
+            "description": "Complete the final Providence Trial as Sniper.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 151,
+            "apiname": "unlock_miner_skin_p",
+            "name": "Miner's Determination",
+            "description": "Complete the final Providence Trial as Miner.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 152,
+            "apiname": "unlock_chef_skin_p",
+            "name": "Chef's Recipe",
+            "description": "Complete the final Providence Trial as CHEF.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 153,
+            "apiname": "unlock_mercenary_skin_p",
+            "name": "Mercenary's Technique",
+            "description": "Complete the final Providence Trial as Mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 154,
+            "apiname": "unlock_loader_skin_p",
+            "name": "Loader's Strength",
+            "description": "Complete the final Providence Trial as Loader.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 155,
+            "apiname": "unlock_pilot_skin_p",
+            "name": "Pilot's Focus",
+            "description": "Complete the final Providence Trial as Pilot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}

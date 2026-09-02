@@ -1,0 +1,320 @@
+{
+    "id": 945360,
+    "steamAppId": 945360,
+    "name": "Among Us",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 15,
+        "max": 40
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Social Deduction",
+        "Multiplayer",
+        "Party",
+        "Online PvP",
+        "Casual"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "kills_first",
+            "name": "A TASTE FOR IT",
+            "description": "Get your first kill",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "kills_easy",
+            "name": "KILLER",
+            "description": "Get 5 total kills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "kills_medium",
+            "name": "ASSASSIN",
+            "description": "Get 50 total kills",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "kills_hard",
+            "name": "SCOURGE",
+            "description": "Get 150 total kills.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 5,
+            "apiname": "task_complete_easy",
+            "name": "INTERN",
+            "description": "Complete 10 total tasks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "task_complete_medium",
+            "name": "MANAGER",
+            "description": "Complete 100 total tasks",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "task_complete_hard",
+            "name": "TASKMASTER",
+            "description": "Complete 500 total tasks.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "wins_skeld",
+            "name": "A SHIP ADRIFT",
+            "description": "Win 3 games on Skeld",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 9,
+            "apiname": "wins_mira",
+            "name": "CORPORATE LOCKDOWN",
+            "description": "Win 3 games on MIRA",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "wins_polus",
+            "name": "UNEARTHED",
+            "description": "Win 3 games on Polus",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "wins_airship",
+            "name": "TOPPAT CREWMATES",
+            "description": "Win 3 games on The Airship",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "survive_two_impostors",
+            "name": "NEVER SUSPECT A THING",
+            "description": "Win a 2-Impostor game with both Impostors alive at the end.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "win_all_tasks",
+            "name": "A WELL-OILED MACHINE",
+            "description": "Win a game by completing all tasks as a crewmate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "win_sabotage",
+            "name": "SABOTEUR",
+            "description": "Win a game by sabotaging a critical system as Impostor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "win_kills",
+            "name": "SLASHER",
+            "description": "Win a game by killing all crewmates as Impostor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "survive_crewmate",
+            "name": "SURVIVOR",
+            "description": "Survive and win a game as a crewmate",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "win_impostor_vote",
+            "name": "SMOOTH TALKER",
+            "description": "Win a game by vote as Impostor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "card_first_try",
+            "name": "IMPOSSIBLE TASK",
+            "description": "Complete the card-swipe task on your first try.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "kill_during_lights",
+            "name": "LIGHTS OUT",
+            "description": "Get a kill during a lights sabotage",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "die_during_medscan",
+            "name": "WATCH ME SCAN",
+            "description": "Get killed by the Impostor during your own medbay scan.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "fix_own_sabotage",
+            "name": "CREWPOSTOR",
+            "description": "Fix a sabotage that you yourself called as Impostor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "three_kills_before_meeting",
+            "name": "H U N G E R",
+            "description": "Get 3 kills before a single meeting is called.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "win_always_correct_votes",
+            "name": "SHERLOCK",
+            "description": "Win a game as crew with your only votes being for the Impostor",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 24,
+            "apiname": "no_vents_impostor_win",
+            "name": "CIRCUMVENTER",
+            "description": "Win a game as Impostor without using a vent.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 90
+        },
+        {
+            "id": 25,
+            "apiname": "hns_survive_crewmate",
+            "name": "HIDDEN TALENT",
+            "description": "Survive a Game as Crew in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 26,
+            "apiname": "hns_impostor_kill_all",
+            "name": "NO ESCAPE",
+            "description": "Kill all hiders as impostor in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "hns_complete_all_tasks",
+            "name": "PERFORM UNDER PRESSURE",
+            "description": "Do all your tasks in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "kill_while_shifted",
+            "name": "TRUST NO ONE",
+            "description": "Kill Someone while disguised as them",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "block_kill_as_guardian",
+            "name": "I CAN BE YOUR ANGLE",
+            "description": "Block a kill as a guardian angel",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "hns_crewmate_wins_easy",
+            "name": "YOU CAN'T RUN",
+            "description": "10 wins as a hider in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "hns_crewmate_wins_hard",
+            "name": "BUT YOU CAN HIDE",
+            "description": "50 wins as a hider in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "hns_impostor_kills_easy",
+            "name": "YOU CAN RUN",
+            "description": "100 kills as a seeker in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "hns_impostor_kills_hard",
+            "name": "BUT YOU CAN'T HIDE",
+            "description": "200 kills as a seeker in Hide n Seek Mode",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 30
+        }
+    ]
+}

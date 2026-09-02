@@ -898,6 +898,11 @@ import { GUIDE as rabbitAndSteelAchievementGuide } from "./games/rabbit-and-stee
 import { GUIDE as theWanderingVillageAchievementGuide } from "./games/the-wandering-village.js";
 import { GUIDE as laysaraSummitKingdomAchievementGuide } from "./games/laysara-summit-kingdom.js";
 import { GUIDE as newCycleAchievementGuide } from "./games/new-cycle.js";
+import { GUIDE as planetCoasterAchievementGuide } from "./games/planet-coaster.js";
+import { GUIDE as americanTruckSimulatorAchievementGuide } from "./games/american-truck-simulator.js";
+import { GUIDE as houseFlipperAchievementGuide } from "./games/house-flipper.js";
+import { GUIDE as riskOfRainReturnsAchievementGuide } from "./games/risk-of-rain-returns.js";
+import { GUIDE as amongUsAchievementGuide } from "./games/among-us.js";
 
 export const APP_GUIDES = [
 
@@ -928,6 +933,11 @@ export const APP_GUIDES = [
 //     getGameGuideForSlug() below matches against, distinct from the
 //     guide's own `slug` (its guides.html/guide.html URL).
 export const GAME_GUIDES = [
+  amongUsAchievementGuide,
+  riskOfRainReturnsAchievementGuide,
+  houseFlipperAchievementGuide,
+  americanTruckSimulatorAchievementGuide,
+  planetCoasterAchievementGuide,
   newCycleAchievementGuide,
   laysaraSummitKingdomAchievementGuide,
   theWanderingVillageAchievementGuide,

@@ -1,0 +1,1283 @@
+{
+    "id": 270880,
+    "steamAppId": 270880,
+    "name": "American Truck Simulator",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg",
+    "difficulty": 2,
+    "completionTime": {
+        "min": 100,
+        "max": 250
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Simulation",
+        "Driving",
+        "Trucking",
+        "Open World",
+        "Singleplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ca_visit_cities",
+            "name": "California Dreamin'",
+            "description": "Discover at least 15 cities in California",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 2,
+            "apiname": "ca_sea_ports",
+            "name": "Sea Dog",
+            "description": "Deliver cargo to a port in Oakland and a port in San Francisco",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 3,
+            "apiname": "ca_country",
+            "name": "Cheers!",
+            "description": "Deliver cargo from at least 3 vineyards in California",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 4,
+            "apiname": "drive_10k",
+            "name": "Warming Up",
+            "description": "Drive 10,000 miles during deliveries",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 5,
+            "apiname": "buy_truck",
+            "name": "Rig Master",
+            "description": "Buy your own truck",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 6,
+            "apiname": "jobs15comp",
+            "name": "Company Collector",
+            "description": "Perform deliveries for at least 15 different companies",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 7,
+            "apiname": "perf_job",
+            "name": "High Five",
+            "description": "Complete a perfect delivery (no damage, no fines, in-time) for a job that is at least 600 miles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 8,
+            "apiname": "money_100k",
+            "name": "Cha-Ching",
+            "description": "Earn $100,000 delivering cargos",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 9,
+            "apiname": "maxed_garage",
+            "name": "Final Makeover",
+            "description": "Fully upgrade one of your garages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 10,
+            "apiname": "no_autopark",
+            "name": "Not a Problem",
+            "description": "Successfully park a trailer at a delivery point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 11,
+            "apiname": "harddifficlt",
+            "name": "Like a Boss",
+            "description": "Successfully park a trailer at a hard delivery point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 12,
+            "apiname": "finish50jobs",
+            "name": "I Think I Like It",
+            "description": "Finish 50 deliveries",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 13,
+            "apiname": "custompj",
+            "name": "Pimp My Truck",
+            "description": "Buy, design and apply a custom paintjob",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 14,
+            "apiname": "use_weigh_stat",
+            "name": "What's Your BMI?",
+            "description": "Use a weigh station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 15,
+            "apiname": "use_gas_stat",
+            "name": "Gas Guzzler",
+            "description": "Use a gas station",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 16,
+            "apiname": "nv_visit_cities",
+            "name": "Silver State",
+            "description": "Discover at least 8 cities in Nevada",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 17,
+            "apiname": "nv_quarries",
+            "name": "Gold Fever",
+            "description": "Deliver cargo to at least 1 quarry in Nevada",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 18,
+            "apiname": "az_visit_cities",
+            "name": "Copper State",
+            "description": "Discover at least 12 cities in Arizona",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 19,
+            "apiname": "az_phx_aport",
+            "name": "Sky Harbor",
+            "description": "Deliver cargo to the Phoenix Airport",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 20,
+            "apiname": "az_racetrack",
+            "name": "Start Your Engine!",
+            "description": "Get on the start of the Truck Racing circuit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 21,
+            "apiname": "az_colorado",
+            "name": "Powell's Trail",
+            "description": "Visit at least 4 Colorado River sights",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 22,
+            "apiname": "hc_firstjob",
+            "name": "Time for Big Hauling",
+            "description": "Deliver first Heavy Cargo Pack job (requires Heavy Cargo Pack DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 23,
+            "apiname": "hc_weigh170k",
+            "name": "How Heavy Am I?!",
+            "description": "Use truck scale or weigh station with gross vehicle weight of at least 175,000 lbs (requires Heavy Cargo Pack DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 24,
+            "apiname": "hc_perf_job",
+            "name": "Heavy, but Not Bull in a China Shop!",
+            "description": "Complete excellent delivery of a cargo from the Heavy Cargo Pack which is at least 1,000 miles long (requires Heavy Cargo Pack DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 25,
+            "apiname": "hc_100k5jobs",
+            "name": "Bigger Cargo, Bigger Profit",
+            "description": "Earn $100,000 on 5 consecutive Heavy Cargo Pack deliveries (requires Heavy Cargo Pack DLC)",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 240
+        },
+        {
+            "id": 26,
+            "apiname": "hc_allcargos",
+            "name": "I Thought This Should Be Heavy?!",
+            "description": "Complete a delivery of at least 8 unique cargoes from the Heavy Cargo Pack (requires Heavy Cargo Pack DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 27,
+            "apiname": "nm_visit_cities",
+            "name": "The Land of Enchantment",
+            "description": "Discover at least 10 cities in New Mexico (requires New Mexico DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 28,
+            "apiname": "nm_truckstops",
+            "name": "Truck Stop Tour",
+            "description": "Visit at least 18 large truck stops and rest stops in New Mexico (requires New Mexico DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 29,
+            "apiname": "nm_shortcut",
+            "name": "Forest Shortcut",
+            "description": "Discover shortcut through the forest (requires New Mexico DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 30,
+            "apiname": "nm_museum",
+            "name": "1881",
+            "description": "Drive by the Billy The Kid Museum (requires New Mexico DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 31,
+            "apiname": "nm_an_124",
+            "name": "Sky Delivery",
+            "description": "Deliver cargo to An-124 depot (requires New Mexico DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 32,
+            "apiname": "st_perf_job",
+            "name": "Size Matters",
+            "description": "Successfully deliver a Special Transport DLC mission with no damage and on time (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 33,
+            "apiname": "st_all_routes",
+            "name": "Go Big or Go Home",
+            "description": "Complete deliveries on at least 10 oversize routes in base game (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 34,
+            "apiname": "st_helicopter",
+            "name": "Get (to) the Chopper!",
+            "description": "Successfully deliver a Helicopter Special Transport DLC mission with no damage and on time (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 35,
+            "apiname": "st_aircondition",
+            "name": "One, Two, Three - Breathe!",
+            "description": "Successfully deliver an Air Conditioning Complex Special Transport DLC mission with no damage and on time (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 36,
+            "apiname": "st_all_cargos",
+            "name": "Big in America!",
+            "description": "Complete at least 10 unique deliveries of oversize cargoes (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 37,
+            "apiname": "st_mutt_part",
+            "name": "Your Dumper Has Arrived!",
+            "description": "Deliver all three parts of a disassembled dumper: Haul Truck Hull, Huge Tyres, Haul Truck Chassis (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 38,
+            "apiname": "st_house",
+            "name": "Home Sweet Home",
+            "description": "Successfully deliver a Turnkey House Special Transport DLC mission with no damage and on time (requires Special Transport DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 39,
+            "apiname": "or_visit_cities",
+            "name": "The Beaver State",
+            "description": "Discover at least 10 cities in Oregon (requires Oregon DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 40,
+            "apiname": "or_drawbridge",
+            "name": "Uplifting",
+            "description": "Travel across the New Youngs Bay Bridge (requires Oregon DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 41,
+            "apiname": "or_timber_harvest",
+            "name": "Lumberjack",
+            "description": "Deliver cargo from at least 4 timber harvest sites in Oregon (requires Oregon DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 42,
+            "apiname": "or_landmarks",
+            "name": "Travel Oregon",
+            "description": "Discover following landmarks of Oregon: Crater Lake, Crooked River Gorge, Thor's Well and Yaquina Head Lighthouse (requires Oregon DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 43,
+            "apiname": "or_cabbage_hill",
+            "name": "Cabbage to Cabbage",
+            "description": "Complete a delivery of vegetables over Cabbage Hill (requires Oregon DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 44,
+            "apiname": "wa_visit_cities",
+            "name": "The Evergreen State",
+            "description": "Discover at least 12 cities in Washington (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 45,
+            "apiname": "wa_aerospace",
+            "name": "Steel Wings",
+            "description": "Deliver cargo to an aerospace company in Washington (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 46,
+            "apiname": "wa_marina",
+            "name": "Keep Sailing",
+            "description": "Deliver a boat to a marina in Washington (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 47,
+            "apiname": "wa_terminal",
+            "name": "Terminal Terminus",
+            "description": "Deliver cargo to at least 1 port terminal in Washington (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 48,
+            "apiname": "wa_tunnels",
+            "name": "Seattle Mole",
+            "description": "Drive through both Seattle tunnels (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 49,
+            "apiname": "wa_use_ferry",
+            "name": "Ferry Tales",
+            "description": "Use a ferry to cross the water (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 50,
+            "apiname": "wa_forest",
+            "name": "Over the Top",
+            "description": "Drive through the forest road to timber harvest in Bellingham (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 51,
+            "apiname": "wa_landmarks",
+            "name": "Travel Washington",
+            "description": "Visit Mount St. Helens, Grand Coulee Dam, Mount Rainier (requires Washington DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 52,
+            "apiname": "fm_all_cargos",
+            "name": "Logged-In",
+            "description": "Complete delivery of at least 4 Forest Machinery DLC cargoes (requires Forest Machinery DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 53,
+            "apiname": "fm_3_perfect",
+            "name": "Leave No Branch Behind!",
+            "description": "Complete a perfect delivery (no damage, no fines, in-time) of at least 3 Forest Machinery DLC jobs (requires Forest Machinery DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 54,
+            "apiname": "ut_visit_cities",
+            "name": "Beehive State",
+            "description": "Discover at least 8 cities in Utah (requires Utah DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 55,
+            "apiname": "ut_mines",
+            "name": "This One Is Mine!",
+            "description": "Visit at least 2 mines and quarries in Utah (requires Utah DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 56,
+            "apiname": "ut_sign",
+            "name": "It's Something",
+            "description": "Find a sign that says \"nothing\" (requires Utah DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 57,
+            "apiname": "ut_salt_lake_companies",
+            "name": "Some Like It Salty",
+            "description": "Take a job from each branch of at least 6 companies located in Salt Lake City (requires Utah DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 58,
+            "apiname": "ut_frac_tank",
+            "name": "Pump It Up",
+            "description": "Deliver frac tank trailer to at least 5 oil drilling sites in Utah (requires Utah DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 59,
+            "apiname": "id_visit_cities",
+            "name": "Gem State",
+            "description": "Discover at least 8 cities in Idaho (requires Idaho DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 60,
+            "apiname": "id_potatoes",
+            "name": "Grown in Idaho",
+            "description": "Complete five deliveries of potatoes from Idaho farms (requires Idaho DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 61,
+            "apiname": "id_snake_river",
+            "name": "Along the Snake River",
+            "description": "Complete perfect deliveries (no damage, no fines, on time) between the following cities: Kennewick - Lewiston; Boise - Twin Falls; Twin Falls - Pocatello; Pocatello - Idaho Falls. Any order or direction counts (requires Washington and Idaho DLCs)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 62,
+            "apiname": "id_cutscenes",
+            "name": "The Director",
+            "description": "View cutscenes from at least 8 viewpoints in Idaho (requires Idaho DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 63,
+            "apiname": "id_45th_parallel",
+            "name": "45th Parallel",
+            "description": "Visit 45th parallel in Idaho - a halfway between the Equator and the North Pole (requires Idaho DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 64,
+            "apiname": "co_visit_cities",
+            "name": "The Centennial State",
+            "description": "Discover at least 10 cities in Colorado (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 65,
+            "apiname": "co_us550",
+            "name": "Million Dollar Highway",
+            "description": "Drive along this famously scenic and thrilling section of the U.S. 550 in Colorado (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 66,
+            "apiname": "co_tunnels",
+            "name": "Cruising High Below",
+            "description": "Drive through the Eisenhower-Johnson Memorial Tunnel, the highest point on the US Interstate Highway System, in both directions (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 67,
+            "apiname": "co_wind_turbine",
+            "name": "Energy From Above",
+            "description": "Deliver a Tower and Nacelle to at least 1 Vitas Power wind turbine construction site in Colorado (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 68,
+            "apiname": "co_gold_mine",
+            "name": "Gold Rush",
+            "description": "Deliver 10 loads to or from the NAMIQ company at the gold mine in Colorado (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 69,
+            "apiname": "co_denver_airport",
+            "name": "Up and Away",
+            "description": "Complete 10 deliveries to Denver Airport (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 70,
+            "apiname": "co_four_corners",
+            "name": "Four Corners",
+            "description": "Visit the famous Four Corners Monument that marks where the states of Arizona, Colorado, New Mexico, and Utah meet (requires Colorado DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 71,
+            "apiname": "wy_visit_cities",
+            "name": "The Equality State",
+            "description": "Discover at least 8 cities in Wyoming (requires Wyoming DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 72,
+            "apiname": "wy_cutscenes",
+            "name": "Over Plains and Mountains",
+            "description": "View cutscenes from at least 8 viewpoints in Wyoming (requires Wyoming DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 73,
+            "apiname": "wy_buford",
+            "name": "Population 1",
+            "description": "Discover and visit the town of Buford (requires Wyoming DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 74,
+            "apiname": "wy_train",
+            "name": "Big Boy",
+            "description": "Deliver Train Axles, Tamping Machine and Rails to or from the rail yard in Cheyenne (requires Wyoming DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 75,
+            "apiname": "wy_cattle",
+            "name": "Buffalo Bill",
+            "description": "Complete 10 excellent cattle deliveries to livestock auctions in Wyoming (requires Wyoming DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 76,
+            "apiname": "mt_visit_cities",
+            "name": "The Last Best Place",
+            "description": "Discover at least 12 cities in Montana (requires Montana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 77,
+            "apiname": "mt_cutscenes",
+            "name": "Big Sky Country",
+            "description": "View cutscenes from at least 10 viewpoints in Montana (requires Montana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 78,
+            "apiname": "mt_waste",
+            "name": "Zero Waste",
+            "description": "Show your support for zero waste by completing a total of 10 deliveries of the Dumpster Bins and Waste Paper cargoes to the Waste Transfer Stations in Montana, and at least one Garbage Truck cargo to or from anywhere in Montana (requires Montana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 79,
+            "apiname": "mt_electric",
+            "name": "Power On!",
+            "description": "Spark up Montana and support the power network by delivering a Circuit Breakers cargo and a Utility Poles cargo to the electric substations in each of the following cities: Butte, Glasgow and Havre (requires Montana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 80,
+            "apiname": "mt_miner",
+            "name": "Major Miner",
+            "description": "Complete excellent delivery of any machinery equipment to the Bull Mountains coal mine, Silane from the silane gas factory and Talc Powder from the talc factory (requires Montana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 81,
+            "apiname": "unload_difficulty",
+            "name": "Parking Challenge",
+            "description": "Complete 20 deliveries choosing the trailer delivery option which requires reversing",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 82,
+            "apiname": "tx_visit_cities",
+            "name": "The Lone Star State",
+            "description": "Discover at least 20 cities in Texas (requires Texas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 83,
+            "apiname": "tx_cutscenes",
+            "name": "Big Country Views",
+            "description": "View cutscenes from at least 25 viewpoints in Texas (requires Texas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 84,
+            "apiname": "tx_markers",
+            "name": "Avid Historian",
+            "description": "Discover at least 30 historical markers in Texas (requires Texas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 85,
+            "apiname": "tx_shipyards_ports",
+            "name": "Shoreside Delivery",
+            "description": "Deliver cargo to or from at least 2 shipyards and 4 cargo ports in Texas (requires Texas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 86,
+            "apiname": "tx_farms_auction_houses",
+            "name": "Farm Away",
+            "description": "Deliver cargo to or from at least 5 farms and 2 livestock auctions in Texas (requires Texas DLC) ",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 87,
+            "apiname": "tx_cotton",
+            "name": "Cotton Bloom",
+            "description": "Complete 10 deliveries of at least one Cotton Lint, Cotton Seed and Cotton Harvester within Texas (requires Texas and Heavy Cargo Pack DLCs)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 88,
+            "apiname": "ok_visit_cities",
+            "name": "The Sooner State",
+            "description": "Discover at least 8 cities in Oklahoma (requires Oklahoma DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 89,
+            "apiname": "ok_cutscenes",
+            "name": "Can Do!",
+            "description": "View cutscenes from at least 6 viewpoints in Oklahoma (requires Oklahoma DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 90,
+            "apiname": "ok_bus_factory",
+            "name": "School Bus Capital",
+            "description": "Deliver 5 Bus Hood cargoes to and 5 School Bus cargoes from the bus factory in Tulsa (requires Oklahoma DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 91,
+            "apiname": "ok_big_tyres",
+            "name": "Big Wheels Keep On Turning",
+            "description": "Complete 3 deliveries of Big Tyres cargo from at least 1 tyre factory in Lawton or Ardmore (requires Oklahoma DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 92,
+            "apiname": "ks_visit_cities",
+            "name": "The Sunflower State",
+            "description": "Discover at least 10 cities in Kansas (requires Kansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 93,
+            "apiname": "ks_cutscenes",
+            "name": "Wheat State Explorer",
+            "description": "View cutscenes from at least 7 viewpoints in Kansas (requires Kansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 94,
+            "apiname": "ks_engine_wing",
+            "name": "Air Capital of the World",
+            "description": "Deliver an Aircraft Wing and Jet Engine Inlets to or from at least 2 aviation depots in Wichita (requires Kansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 95,
+            "apiname": "ks_secret_roads",
+            "name": "Can you Keep a Secret?",
+            "description": "Discover at least 3 unmarked roads in Kansas (requires Kansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 96,
+            "apiname": "ks_salt_food",
+            "name": "Grain of Salt",
+            "description": "Complete 6 deliveries from the Hutchinson Salt Mine in Kansas. At least 2 deliveries must be to a Food Factory (requires Kansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 97,
+            "apiname": "ne_visit_cities",
+            "name": "Cornhusker State",
+            "description": "Discover at least 10 cities in Nebraska (requires Nebraska DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 98,
+            "apiname": "ne_cutscenes",
+            "name": "Nebraska Explorer",
+            "description": "View cutscenes from at least 6 viewpoints in Nebraska (requires Nebraska DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 99,
+            "apiname": "ne_out_car_pln",
+            "name": "Vehicle Dealer",
+            "description": "Complete 3 deliveries from the Utility Vehicle Factory in Lincoln to RV dealers in Omaha, Norfolk, and Columbus (requires Nebraska DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 100,
+            "apiname": "ne_agriculture",
+            "name": "Agriculture Expert",
+            "description": "Complete one delivery of corn, grain, potatoes and soybean from or within Nebraska (requires Nebraska DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 101,
+            "apiname": "ar_visit_cities",
+            "name": "The Natural State",
+            "description": "Discover at least 8 cities in Arkansas (requires Arkansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 102,
+            "apiname": "ar_cutscenes",
+            "name": "I Saw Arkansas",
+            "description": "View cutscenes from at least 8 viewpoints in Arkansas (requires Arkansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 103,
+            "apiname": "ar_paper",
+            "name": "Paper Trail",
+            "description": "Complete 3 deliveries of Logs to Chuck & Jack's, and 3 deliveries of Wood Shavings to Page & Price Paper, within Arkansas (requires Arkansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 104,
+            "apiname": "ar_hot_springs",
+            "name": "Spa City",
+            "description": "Complete a delivery to 5 different companies in Hot Springs (requires Arkansas DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 105,
+            "apiname": "aca_first",
+            "name": "Get the Ball Rollin'",
+            "description": "Complete the first scenario of the first chapter in Truck Driving Basics (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 106,
+            "apiname": "aca_interior",
+            "name": "Professional Driver",
+            "description": "Complete at least 6 scenarios in the fourth chapter of Truck Driving Basics while using only the interior camera (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 107,
+            "apiname": "aca_truck_driving",
+            "name": "Dedicated Student",
+            "description": "Complete at least 28 scenarios in Truck Driving Basics including the final exams (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 108,
+            "apiname": "aca_no_forward",
+            "name": "One-Shottin' It",
+            "description": "Complete any scenario in fourth chapter of Truck Driving Basics in one attempt without correcting by driving forward (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 109,
+            "apiname": "aca_manual_transmission",
+            "name": "Rowing Through the Gears",
+            "description": "Complete 20 scenarios in chapters two, three or four of Truck Driving Basics using an H-shifter or sequential transmission (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 110,
+            "apiname": "aca_consecutive",
+            "name": "Failure Is Not an Option",
+            "description": "Complete any 5 scenarios in a row without failure from the third or fourth chapter in Truck Driving Basics (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 111,
+            "apiname": "mo_visit_cities",
+            "name": "Show-Me State!",
+            "description": "Discover at least 10 cities in Missouri (requires Missouri DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 112,
+            "apiname": "mo_cutscenes",
+            "name": "Ozark Explorer",
+            "description": "View cutscenes from at least 12 viewpoints in Missouri (requires Missouri DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 113,
+            "apiname": "mo_trs_whs",
+            "name": "Subterranean",
+            "description": "Complete a delivery to at least 2 underground Terrastore warehouses (requires Missouri DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 114,
+            "apiname": "mo_dynamite",
+            "name": "What a Blast!",
+            "description": "Deliver ammonia and sulphuric acid to Namiq in Joplin, then complete a dynamite delivery from it (requires Missouri DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 115,
+            "apiname": "aca_pass_conditions",
+            "name": "Advanced Student",
+            "description": "Complete the pass conditions in at least 23 scenarios in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 116,
+            "apiname": "aca_stars",
+            "name": "Nerd of the Road",
+            "description": "Obtain 3 stars in at least 15 scenarios in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 117,
+            "apiname": "aca_stars_consecutive",
+            "name": "Shining Star",
+            "description": "Obtain 3 stars in any 3 scenarios played in a row in Truck Driving Proficiency (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 118,
+            "apiname": "ia_visit_cities",
+            "name": "The Hawkeye State",
+            "description": "Discover at least 8 cities in Iowa (requires Iowa DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 119,
+            "apiname": "ia_cutscenes",
+            "name": "Golden Acres Explorer",
+            "description": "View cutscenes from at least 8 viewpoints in Iowa (requires Iowa DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 120,
+            "apiname": "ia_bridge",
+            "name": "Madison County Bridge",
+            "description": "Cross the iconic bridge in Iowa (requires Iowa DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 121,
+            "apiname": "ia_live_pigs",
+            "name": "Piggy Express",
+            "description": "Complete a live pigs cargo delivery from two livestock farms in Iowa (requires Iowa DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 122,
+            "apiname": "la_visit_cities",
+            "name": "Pelican State",
+            "description": "Discover at least 8 cities in Louisiana (requires Louisiana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 123,
+            "apiname": "la_cutscenes",
+            "name": "Parish Explorer",
+            "description": "View cutscenes from at least 8 viewpoints in Louisiana (requires Louisiana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 124,
+            "apiname": "la_bridges",
+            "name": "Over the Bayou",
+            "description": "Cross two draw bridges in Louisiana (requires Louisiana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 125,
+            "apiname": "la_shipyard",
+            "name": "Shipyard Supplies",
+            "description": "Deliver iron pipes, metal coils, and lumber to any shipyard in Louisiana for oil tanker construction (requires Louisiana DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 126,
+            "apiname": "aca_book3",
+            "name": "Double Trouble",
+            "description": "Complete at least 12 scenarios in Double Trailer Handling (Driving Academy)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 127,
+            "apiname": "il_visit_cities",
+            "name": "The Prairie State",
+            "description": "Discover at least 8 cities in Illinois (requires Illinois DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 128,
+            "apiname": "il_cutscenes",
+            "name": "Between Two Rivers",
+            "description": "View cutscenes from at least 12 viewpoints in Illinois (requires Illinois DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 129,
+            "apiname": "il_machinery",
+            "name": "Heavy Duty",
+            "description": "Perfectly deliver any machinery: Springfield (IL) - Peoria, then Peoria - Chicago (NAMIQ quarry) (requires Illinois DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 130,
+            "apiname": "il_cornfield",
+            "name": "Cornfusion",
+            "description": "Drive to the center of the Evergreen cornfield maze (requires Illinois DLC)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 30
+        },
+        {
+            "id": 131,
+            "apiname": "sd_visit_cities",
+            "name": "Mount Rushmore State (Upcoming)",
+            "description": "Reserved for the announced but unreleased South Dakota expansion; Steam has not published this achievement's real description or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 132,
+            "apiname": "sd_cutscenes",
+            "name": "Great Faces, Great Places (Upcoming)",
+            "description": "Reserved for the announced but unreleased South Dakota expansion; Steam has not published this achievement's real description or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 133,
+            "apiname": "sd_no_damage",
+            "name": "Big Muddy Run (Upcoming)",
+            "description": "Reserved for the announced but unreleased South Dakota expansion; Steam has not published this achievement's real description or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 134,
+            "apiname": "sd_unique_cargos",
+            "name": "Who Says You Can’t Go Home? (Upcoming)",
+            "description": "Reserved for the announced but unreleased South Dakota expansion; Steam has not published this achievement's real description or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 135,
+            "apiname": "car_jobs_unique_cargos",
+            "name": "Jack of All Trades (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 136,
+            "apiname": "car_tb_completed",
+            "name": "Worth the Detour (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 137,
+            "apiname": "car_bought",
+            "name": "Keys in Hand (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 138,
+            "apiname": "car_distance_or_jobs_reward",
+            "name": "Interstate Legend (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 139,
+            "apiname": "car_jobs_rating_level",
+            "name": "Not a Scratch (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        },
+        {
+            "id": 140,
+            "apiname": "car_jobs_no_fines",
+            "name": "Nowhere to Rush (Upcoming)",
+            "description": "Reserved for a second, unannounced expansion; Steam has not published this achievement's real description, expansion name, or exact unlock criteria yet.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 60
+        }
+    ]
+}
