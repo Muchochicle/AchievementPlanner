@@ -1,0 +1,563 @@
+{
+    "id": 2051620,
+    "steamAppId": 2051620,
+    "name": "Enlisted",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2051620/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 60,
+        "max": 200
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "FPS",
+        "Squad-Based",
+        "WWII",
+        "Free to Play",
+        "Multiplayer"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "achievement_rifle_kills",
+            "name": "Trooper",
+            "description": "Kill 1 enemy using an bolt-action rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 2,
+            "apiname": "achievement_first_blood",
+            "name": "First Blood",
+            "description": "Get your first kill",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 3,
+            "apiname": "achievement_wild_division",
+            "name": "Wild division",
+            "description": "Complete 50 battles by killing at least 100 enemy soldiers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 4,
+            "apiname": "achievement_gun_master",
+            "name": "Cannon master",
+            "description": "Destroy 250 enemy vehicles (tanks, aircraft and APC) using engineer-built guns",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 5,
+            "apiname": "achievement_aircraft_kills_250",
+            "name": "Chief in the sky",
+            "description": "Destroy 250 enemy aircraft",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 6,
+            "apiname": "achievement_tank_kills_500",
+            "name": "Alles Kaput",
+            "description": "Destroy 500 enemy tanks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 7,
+            "apiname": "achievement_hero_battles",
+            "name": "Battle hero",
+            "description": "Complete 50 battles as \"Battle Hero\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 8,
+            "apiname": "achievement_kills_by_paratrooper_kind",
+            "name": "The Paratrooper",
+            "description": "Kill 250 enemies with a Paratrooper",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 9,
+            "apiname": "achievement_god_of_war",
+            "name": "God of War",
+            "description": "Kill 5000 enemies with rockets or bombs or artillery fire called by Radioman class soldiers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 10,
+            "apiname": "achievement_berserk",
+            "name": "The Berserk",
+            "description": "Perform 50-kill streak with a single soldier without dying",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 11,
+            "apiname": "achievement_vehicle_antitank_mine_kills",
+            "name": "Chief of Mining",
+            "description": "Destroy 100 enemy vehicles with anti-tank mines",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 12,
+            "apiname": "achievement_infantry_mine_kills",
+            "name": "Trap Master",
+            "description": "Kill 10 enemies with anti-personnel mine in single battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 13,
+            "apiname": "achievement_spawn_genius",
+            "name": "Genius Engineer",
+            "description": "Your rally points or mobile spawn points on APC have been used by your teammates 100 times",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 14,
+            "apiname": "achievement_kills_while_defending_point",
+            "name": "Master of Defense",
+            "description": "Kill 5000 enemies while defending a strategic point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 15,
+            "apiname": "achievement_kills_while_attacking_point",
+            "name": "Master of Offense",
+            "description": "Kill 5000 enemies while attacking a strategic point",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 16,
+            "apiname": "achievement_military_rank_20",
+            "name": "Marshall's baton",
+            "description": "Achieve the military rank \"Marshal\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 17,
+            "apiname": "achievement_military_rank_15",
+            "name": "General's epaulets",
+            "description": "Achieve the military rank \"Brigadier General\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 18,
+            "apiname": "achievement_points_captured_25",
+            "name": "The Invader",
+            "description": "Capture or destroy 25 strategic objectives",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 19,
+            "apiname": "achievement_tank_commander_kills",
+            "name": "The Trickster",
+            "description": "Kill tank commander leaning out of the hatch",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 20,
+            "apiname": "achievement_ammo_box_usage",
+            "name": "The Supplier",
+            "description": "Your Ammo boxes have been used by your teammates",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 21,
+            "apiname": "achievement_winstreak",
+            "name": "The Winner",
+            "description": "Win 10 battles in a row. If a player left the battle early, then this breaks the winning streak even if the player's team won. Custom battles and battles in events do not affect winning streaks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 22,
+            "apiname": "achievement_kills_by_medic_kind",
+            "name": "Bad Doctor",
+            "description": "Kill 25 enemies with a Medic",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 23,
+            "apiname": "achievement_military_rank_9",
+            "name": "Officer Academy graduate",
+            "description": "Achieve the military rank \"Second Lieutenant\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 24,
+            "apiname": "achievement_battle_pass_stage_25",
+            "name": "Excellent combat training",
+            "description": "Complete a total of 25 Battlepass stages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 25,
+            "apiname": "achievement_knowledge_is_power",
+            "name": "Knowledge is Power",
+            "description": "Achieve research tier 3 in any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 26,
+            "apiname": "achievement_desperado",
+            "name": "The Desperado",
+            "description": "Perform 10-kill streak with a single soldier without dying",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 27,
+            "apiname": "achievement_tank_kills_10",
+            "name": "The Armor-piercer",
+            "description": "Destroy 10 enemy tanks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 28,
+            "apiname": "achievement_headshots",
+            "name": "The Hunter",
+            "description": "Kill 10 enemies with headshots",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 29,
+            "apiname": "achievement_long_range_kills",
+            "name": "The Eagle Eye",
+            "description": "Kill 10 enemies with a hand weapon from more than 75 meters distance",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 30,
+            "apiname": "achievement_kills_using_vehicle",
+            "name": "The Technician",
+            "description": "Kill 10 enemies using a tank, aircraft or APC",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 31,
+            "apiname": "achievement_military_rank_3",
+            "name": "Sergeant school graduate",
+            "description": "Achieve the military rank \"Sergeant\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 32,
+            "apiname": "achievement_battle_pass_stage_2",
+            "name": "Welcome to Battlepass",
+            "description": "Complete a total of 2 Battlepass stages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 33,
+            "apiname": "achievement_step_to_progress",
+            "name": "Step towards progress",
+            "description": "Achieve research tier 2 in any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 34,
+            "apiname": "achievement_melee_kill",
+            "name": "Close combat",
+            "description": "Kill an enemy using a melee weapon",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 35,
+            "apiname": "achievement_tank_kills",
+            "name": "Burning armor",
+            "description": "Destroy 1 enemy tank",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 36,
+            "apiname": "achievement_campaign_lvl_2",
+            "name": "Research II",
+            "description": "Complete a total of 2 researches for any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 37,
+            "apiname": "achievement_team_score_top_30_percent",
+            "name": "Natural born leader",
+            "description": "Finish the battle in Top 30% of your team",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 38,
+            "apiname": "achievement_pistol_kills",
+            "name": "Quick draw",
+            "description": "Kill 10 enemies using a pistol",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 39,
+            "apiname": "achievement_submachine_gun_kills",
+            "name": "Assaulter",
+            "description": "Kill 1 enemy using a submachine gun or an assault rifle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 40,
+            "apiname": "achievement_campaign_lvl_3",
+            "name": "Research III",
+            "description": "Complete a total of 3 researches for any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 41,
+            "apiname": "achievement_machine_gun_kills",
+            "name": "Gunner",
+            "description": "Kill 10 enemies using a machine gun",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 42,
+            "apiname": "achievement_fortification_built",
+            "name": "Engineer",
+            "description": "Build 1 fortification object using engineer class soldier",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 43,
+            "apiname": "achievement_campaign_lvl_4",
+            "name": "Research IV",
+            "description": "Complete a total of 4 researches for any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 44,
+            "apiname": "achievement_grenade_kills",
+            "name": "Grenadier",
+            "description": "Kill 1 enemy with hand grenades",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 45,
+            "apiname": "achievement_artillery_kills",
+            "name": "Radioman",
+            "description": "Kill 10 enemies using artillery fire called by Radioman class soldiers",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 46,
+            "apiname": "achievement_campaign_lvl_5",
+            "name": "Research V",
+            "description": "Complete a total of 5 researches for any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 47,
+            "apiname": "achievement_mortar_kills",
+            "name": "Mortarman",
+            "description": "Kill 10 enemies using a mortar",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 48,
+            "apiname": "achievement_flamethrower_kills",
+            "name": "Flametrooper",
+            "description": "Kill 10 enemies using a flamethrower or ampulomet",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 49,
+            "apiname": "achievement_first_win",
+            "name": "First Victory",
+            "description": "Win a battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 50,
+            "apiname": "achievement_sniper_elite",
+            "name": "Sniper elite",
+            "description": "Kill 20 enemies with headshots in a single battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 51,
+            "apiname": "achievement_wipeout",
+            "name": "Wipeout",
+            "description": "Kill all soldiers of one enemy infantry squad in less than 5 seconds",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 52,
+            "apiname": "achievement_destroyer",
+            "name": "Destroyer",
+            "description": "Destroy 100 tanks and aircraft",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 53,
+            "apiname": "achievement_veteran",
+            "name": "Veteran",
+            "description": "Spend 100 hours in battles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 54,
+            "apiname": "achievement_specialist",
+            "name": "Specialist",
+            "description": "Kill 30 enemy soldiers in one battle using flamethrower or mortar",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 55,
+            "apiname": "achievement_conqueror",
+            "name": "Conqueror",
+            "description": "Capture 10 points in one battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 56,
+            "apiname": "achievement_best_of_the_best",
+            "name": "Best of the best",
+            "description": "Achieve top 1 in battle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 57,
+            "apiname": "achievement_special_forces",
+            "name": "Special forces",
+            "description": "Reach level 35 for any given squad",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 58,
+            "apiname": "achievement_professional",
+            "name": "Professional",
+            "description": "Get a level 5 soldier, with five perks",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 59,
+            "apiname": "achievement_general",
+            "name": "General",
+            "description": "Complete a total of 20 researches for any country",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        },
+        {
+            "id": 60,
+            "apiname": "achievement_medal_of_honor",
+            "name": "Medal of honor",
+            "description": "Complete a total of 50 Battlepass stages",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 40
+        }
+    ]
+}

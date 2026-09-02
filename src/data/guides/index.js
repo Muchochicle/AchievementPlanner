@@ -964,6 +964,12 @@ import { GUIDE as starWarsSquadronsAchievementGuide } from "./games/star-wars-sq
 import { GUIDE as battlefield4AchievementGuide } from "./games/battlefield-4.js";
 import { GUIDE as battlefield3AchievementGuide } from "./games/battlefield-3.js";
 import { GUIDE as battlefieldHardlineAchievementGuide } from "./games/battlefield-hardline.js";
+import { GUIDE as plantsVsZombiesGardenWarfare2AchievementGuide } from "./games/plants-vs-zombies-garden-warfare-2.js";
+import { GUIDE as seaOfSolitudeAchievementGuide } from "./games/sea-of-solitude.js";
+import { GUIDE as needForSpeedUnboundAchievementGuide } from "./games/need-for-speed-unbound.js";
+import { GUIDE as enlistedAchievementGuide } from "./games/enlisted.js";
+import { GUIDE as crysis2RemasteredAchievementGuide } from "./games/crysis-2-remastered.js";
+import { GUIDE as crysis3RemasteredAchievementGuide } from "./games/crysis-3-remastered.js";
 
 export const APP_GUIDES = [
 
@@ -1950,7 +1956,13 @@ export const GAME_GUIDES = [
     starWarsSquadronsAchievementGuide,
     battlefield4AchievementGuide,
     battlefield3AchievementGuide,
-    battlefieldHardlineAchievementGuide
+    battlefieldHardlineAchievementGuide,
+    plantsVsZombiesGardenWarfare2AchievementGuide,
+    seaOfSolitudeAchievementGuide,
+    needForSpeedUnboundAchievementGuide,
+    enlistedAchievementGuide,
+    crysis2RemasteredAchievementGuide,
+    crysis3RemasteredAchievementGuide
 
 ];
 
