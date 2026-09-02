@@ -1,0 +1,535 @@
+{
+    "id": 1113120,
+    "steamAppId": 1113120,
+    "name": "IXION",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1113120/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "City Builder",
+        "Survival",
+        "Space",
+        "Management"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_BASE_1",
+            "name": "Without Breaking Some Eggs...",
+            "description": "Finish the prologue",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_BASE_2",
+            "name": "Guy de Borderlands",
+            "description": "Story progress marker - a prologue event, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_BASE_3",
+            "name": "Catastrophe Avoided",
+            "description": "Story progress marker - a prologue event, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_BASE_4",
+            "name": "Gregor Spinoza",
+            "description": "Story progress marker - a prologue event, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_BASE_5",
+            "name": "Tiqqun Unchained",
+            "description": "Story progress marker - a prologue event, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_BASE_6",
+            "name": "Hope Seeker",
+            "description": "Finish Chapter 1",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_BASE_7",
+            "name": "From the Past",
+            "description": "Finish Chapter 2",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_BASE_8",
+            "name": "What the Ruins Teach Us",
+            "description": "Finish Chapter 3",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_BASE_9",
+            "name": "Pulsar Disciple",
+            "description": "Finish Chapter 4",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_BASE_10",
+            "name": "Man's Best Friend",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_BASE_11",
+            "name": "Mutual Loyalty",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_BASE_12",
+            "name": "Better Him Than Me",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_BASE_14",
+            "name": "Oats",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_BASE_15",
+            "name": "Beyond Time and Space",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_BASE_16",
+            "name": "Tiqqun Contender",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_BASE_17",
+            "name": "What They Hide From Us",
+            "description": "Story/choice marker - reached near the end of the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_BASE_18",
+            "name": "Infinite growth...",
+            "description": "Unlock a sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_BASE_19",
+            "name": "... in a finite world",
+            "description": "Unlock all sectors",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_BASE_21",
+            "name": "Wakey Wakey",
+            "description": "Awaken a human from cryogenic sleep",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_BASE_22",
+            "name": "Sustainable Energy",
+            "description": "Build all solar panels",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_BASE_23",
+            "name": "Space Society",
+            "description": "Implement a new decree",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_BASE_24",
+            "name": "Sputnik 2049",
+            "description": "Find two large resource deposits using a single probe",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_BASE_25",
+            "name": "Remember the Dead",
+            "description": "Build a memorial in each of the six sectors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_BASE_26",
+            "name": "Sightseeing",
+            "description": "Visit 15 planets",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_BASE_27",
+            "name": "A Hunk of Junk",
+            "description": "Have the Tiqqun's hull integrity erode below 5% and survive",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_BASE_28",
+            "name": "In Dolos We Trust",
+            "description": "Restore the crew's trust after reaching 1%",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_BASE_29",
+            "name": "A Thousand Strong",
+            "description": "Reach 1000 population",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_BASE_30",
+            "name": "Exceeding Capacity",
+            "description": "Reach 3079 population",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_BASE_31",
+            "name": "Power Outage",
+            "description": "Experience a blackout for the tenth time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_BASE_32",
+            "name": "Praise the Hull!",
+            "description": "Build a Hull Temple",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_BASE_33",
+            "name": "Fully Recycled",
+            "description": "Convert waste into alloy, electronics or polymer",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_BASE_34",
+            "name": "Ready for a New World",
+            "description": "Train your first colonists",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_BASE_35",
+            "name": "Breaking Protocol",
+            "description": "Discover Outer Hope during the prologue (you need a probe launcher).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_BASE_36",
+            "name": "Access Granted",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_BASE_37",
+            "name": "Necessary Enhancement",
+            "description": "Story/choice marker - reached at a specific point in the story, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_BASE_38",
+            "name": "You Had One Job...",
+            "description": "Fail to survive the prologue.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_BASE_40",
+            "name": "This is Fine",
+            "description": "Have fires in 20 buildings at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_BASE_43",
+            "name": "Work Harder",
+            "description": "Reach tier 2 of the Industry specialization in a sector",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_BASE_44",
+            "name": "Space Greenhouse",
+            "description": "Reach tier 2 of the Food specialization in a sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_BASE_45",
+            "name": "Suburban Perfection",
+            "description": "Reach tier 2 of the Population specialization in a sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_BASE_46",
+            "name": "A Junker's Dream",
+            "description": "Reach tier 2 of the Recycling specialization in a sector",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_BASE_47",
+            "name": "Delivery!",
+            "description": "Research every single upgrade for the Drone Bay",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_BASE_48",
+            "name": "Permanent Redesigns",
+            "description": "Destroy 200 buildings in a single playthrough",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_BASE_49",
+            "name": "Ain't Nobody Got Time for That",
+            "description": "Skip a transmission within one second of it starting.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_BASE_50",
+            "name": "Scenic View",
+            "description": "Have an Observatory in each of the six sectors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_BASE_51",
+            "name": "Monotrack Drifter",
+            "description": "Have a Train Station in each of the six sectors",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_BASE_52",
+            "name": "BRAWL!",
+            "description": "Build an Exo-fighting Dome",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_BASE_53",
+            "name": "All in Good Health",
+            "description": "Build a Health Center",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_BASE_56",
+            "name": "Please Make it Stop!",
+            "description": "Have 5 accidents within a single cycle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_BASE_57",
+            "name": "Pedal to the Metal",
+            "description": "Transfer 300 resources between sectors in a single cycle",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_BASE_58",
+            "name": "Drill-dozer",
+            "description": "Have 5 Mining Ships active at the same time",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_BASE_59",
+            "name": "The Ship of Theseus",
+            "description": "Replace the last original piece of hull through EVA repairs",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_BASE_60",
+            "name": "Crunch Culture",
+            "description": "Have every single sector in a work status of at least \"Overwork\"",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_BASE_61",
+            "name": "Scientifically Accurate",
+            "description": "Reduce all audio sliders to 0 in the settings menu",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_BASE_62",
+            "name": "Soylent Green",
+            "description": "Have a Water Treatment Center in a sector with the Body Recycling decree in effect",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_BASE_63",
+            "name": "Help of the Forgotten Member",
+            "description": "Implement the (grey) NAOMI Protocol at least once in each of three different chapters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_BASE_64",
+            "name": "I Give You The Stars",
+            "description": "Complete Challenge mode",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}

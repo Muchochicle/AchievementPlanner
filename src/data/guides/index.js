@@ -1033,6 +1033,9 @@ import { GUIDE as immortalsFenyxRisingAchievementGuide } from "./games/immortals
 import { GUIDE as olliolliWorldAchievementGuide } from "./games/olliolli-world.js";
 import { GUIDE as lonelyMountainsDownhillAchievementGuide } from "./games/lonely-mountains-downhill.js";
 import { GUIDE as hotWheelsUnleashed2TurbochargedAchievementGuide } from "./games/hot-wheels-unleashed-2-turbocharged.js";
+import { GUIDE as craftopiaAchievementGuide } from "./games/craftopia.js";
+import { GUIDE as ixionAchievementGuide } from "./games/ixion.js";
+import { GUIDE as novaLandsAchievementGuide } from "./games/nova-lands.js";
 
 export const APP_GUIDES = [
 
@@ -2088,7 +2091,10 @@ export const GAME_GUIDES = [
     immortalsFenyxRisingAchievementGuide,
     olliolliWorldAchievementGuide,
     lonelyMountainsDownhillAchievementGuide,
-    hotWheelsUnleashed2TurbochargedAchievementGuide
+    hotWheelsUnleashed2TurbochargedAchievementGuide,
+    craftopiaAchievementGuide,
+    ixionAchievementGuide,
+    novaLandsAchievementGuide
 
 ];
 
