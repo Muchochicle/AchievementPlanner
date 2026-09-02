@@ -1042,6 +1042,9 @@ import { GUIDE as warhammer40kSanctusReachAchievementGuide } from "./games/warha
 import { GUIDE as islandersNewShoresAchievementGuide } from "./games/islanders-new-shores.js";
 import { GUIDE as cloudGardensAchievementGuide } from "./games/cloud-gardens.js";
 import { GUIDE as terraNilAchievementGuide } from "./games/terra-nil.js";
+import { GUIDE as banishersGhostsOfNewEdenAchievementGuide } from "./games/banishers-ghosts-of-new-eden.js";
+import { GUIDE as strandedDeepAchievementGuide } from "./games/stranded-deep.js";
+import { GUIDE as smallandSurviveTheWildsAchievementGuide } from "./games/smalland-survive-the-wilds.js";
 
 export const APP_GUIDES = [
 
@@ -2106,7 +2109,10 @@ export const GAME_GUIDES = [
     warhammer40kSanctusReachAchievementGuide,
     islandersNewShoresAchievementGuide,
     cloudGardensAchievementGuide,
-    terraNilAchievementGuide
+    terraNilAchievementGuide,
+    banishersGhostsOfNewEdenAchievementGuide,
+    strandedDeepAchievementGuide,
+    smallandSurviveTheWildsAchievementGuide
 
 ];
 

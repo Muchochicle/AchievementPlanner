@@ -1,0 +1,409 @@
+{
+    "id": 1493640,
+    "steamAppId": 1493640,
+    "name": "Banishers: Ghosts of New Eden",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1493640/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 20,
+        "max": 40
+    },
+    "missable": true,
+    "playthroughs": 2,
+    "hasGuide": true,
+    "genres": [
+        "Action RPG",
+        "Story Rich",
+        "Choices Matter",
+        "Supernatural"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_ALL_ACHIEVEMENTS",
+            "name": "Master Banishers",
+            "description": "Unlock all achievements",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_MAX_ESSENCES",
+            "name": "Cases Closed",
+            "description": "Solve all the Haunting Cases of New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_RESURRECTION",
+            "name": "Death is a journey",
+            "description": "Successfully bring Antea back to life",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_ASCEND",
+            "name": "Farewell my love",
+            "description": "Successfully give Antea her ascent",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_FIRST_PACT",
+            "name": "A Promise made",
+            "description": "Story/choice marker - make the first pact, described here spoiler-free (a branching choice).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_SECOND_PACT",
+            "name": "Final Promise",
+            "description": "Story/choice marker - make the final pact, described here spoiler-free (a branching choice).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_REUNION",
+            "name": "Reunion",
+            "description": "Resolve a major haunting - 'Reunion', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_BEAST",
+            "name": "No more Beast",
+            "description": "Resolve a major haunting - 'No more Beast', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_PUPPETEER",
+            "name": "Broken Puppet",
+            "description": "Resolve a major haunting - 'Broken Puppet', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_ENTITY",
+            "name": "Injustice For All",
+            "description": "Resolve a major haunting - 'Injustice For All', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_AUL_SAUL",
+            "name": "Old moss-head",
+            "description": "Resolve a major haunting - 'Old moss-head', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_CALENDRE",
+            "name": "Nazuku no more",
+            "description": "Resolve a major haunting - 'Nazuku no more', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_NIGHTMARE",
+            "name": "The Curse is lifted",
+            "description": "Resolve a major haunting - 'The Curse is lifted', described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_MKC_THICKSKIN",
+            "name": "Rose's fate",
+            "description": "Story outcome marker - Rose's fate, described here spoiler-free (a branching choice).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_MKC_PENNINGTON",
+            "name": "Burden of Command",
+            "description": "Story outcome marker - Pennington's outcome, described here spoiler-free (a branching choice).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_MKC_HASKELL",
+            "name": "Judged Jury",
+            "description": "Story outcome marker - Haskell's outcome, described here spoiler-free (a branching choice).",
+            "difficulty": 2,
+            "missable": true,
+            "estimatedTime": 20
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_NWD_PRIMER_BOOK",
+            "name": "Teacher's Pet",
+            "description": "Find 15 Bibles for Hugh Batcheler",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_VAMPYR_BOOK",
+            "name": "American Vampyr",
+            "description": "Find the old writings by the Brotherhood of Saint Paul's Stole",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_NAMED_ENCOUNTER_VOID",
+            "name": "Second Death",
+            "description": "Defeat the Specter of a banished ghost in the Void",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_MANOR",
+            "name": "Hidden Door",
+            "description": "Unlock the secret passage in Bligh Manor",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_FREEZE",
+            "name": "Until a cure is found",
+            "description": "Freeze 5 enemies in a single encounter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_POST_PARRY_ATTACK",
+            "name": "Counterattack",
+            "description": "Defeat 3 enemies with a post parry attack in a single encounter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_WEAKSPOT_RIFLE",
+            "name": "Right on Target",
+            "description": "Defeat 5 enemies with a weakspot hit (Rifle) in a single encounter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_BLAST",
+            "name": "Outburst",
+            "description": "Defeat 3 enemies with a single Outburst",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_NOHIT",
+            "name": "Float like a Butterfly",
+            "description": "Defeat 8 enemies in a single encounter without being hit",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_RITUAL",
+            "name": "A Farmer's Life",
+            "description": "Complete the same Ritual site 10 times (intensity level 10)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_BANISH",
+            "name": "Banishing Move",
+            "description": "Defeat 50 enemies with a Banishment",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_ULTIMATE",
+            "name": "Soulmates",
+            "description": "Defeat 50 enemies while Fusion is active",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_TEAMWORK",
+            "name": "Teamwork",
+            "description": "Defeat at least 4 enemies with Red and at least 4 enemies with Antea in a single encounter",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_SHELTER",
+            "name": "Gimme Shelter",
+            "description": "Activate all Shelters in New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_DESTRUCTIBLES",
+            "name": "Demolition Man",
+            "description": "Destroy 300 destructibles",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_LOCKED_CHEST",
+            "name": "Locksmith",
+            "description": "Unlock all locked chests in New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_CURSED_CHEST",
+            "name": "Cursed Locksmith",
+            "description": "Unlock all cursed chests in New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_DUNGEON",
+            "name": "Raider",
+            "description": "Complete all Haunted Grounds of New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_COLLECTIBLE",
+            "name": "Bookworm",
+            "description": "Collect all Collectibles in New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_SOUL_GRABBER",
+            "name": "The Good Hunter",
+            "description": "Find 50 Soul Grabbers in New Eden",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_TREASURE_MAP",
+            "name": "Prospector",
+            "description": "Complete all treasure maps",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_UPGRADE_ITEM",
+            "name": "Unlimited Power",
+            "description": "Upgrade an item",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_FULL_ITEM_RANK7",
+            "name": "Bring it on!",
+            "description": "Equip 8 items at rank 7 (Relic) at the same moment",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_ITEM_RANK7",
+            "name": "A Perfect Tool",
+            "description": "Upgrade an item at rank 7 (Relic)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_CURRENCY",
+            "name": "Round Figure",
+            "description": "Collect 10 000 Pieces of Eight",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_FULL_EQUIPMENT",
+            "name": "Catch 'Em All",
+            "description": "Collect all 88 available equipments",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_LEVEL_MAX",
+            "name": "Full Potency",
+            "description": "Reach level 25",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 20
+        }
+    ]
+}
