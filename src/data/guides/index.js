@@ -940,6 +940,9 @@ import { GUIDE as eaSportsWrcAchievementGuide } from "./games/ea-sports-wrc.js";
 import { GUIDE as homeworld3AchievementGuide } from "./games/homeworld-3.js";
 import { GUIDE as deusExHumanRevolutionDirectorsCutAchievementGuide } from "./games/deus-ex-human-revolution-directors-cut.js";
 import { GUIDE as deusExMankindDividedAchievementGuide } from "./games/deus-ex-mankind-divided.js";
+import { GUIDE as wolfensteinYoungbloodAchievementGuide } from "./games/wolfenstein-youngblood.js";
+import { GUIDE as dishonoredDeathOfTheOutsiderAchievementGuide } from "./games/dishonored-death-of-the-outsider.js";
+import { GUIDE as theCallistoProtocolAchievementGuide } from "./games/the-callisto-protocol.js";
 
 export const APP_GUIDES = [
 
@@ -1902,7 +1905,10 @@ export const GAME_GUIDES = [
     eaSportsWrcAchievementGuide,
     homeworld3AchievementGuide,
     deusExHumanRevolutionDirectorsCutAchievementGuide,
-    deusExMankindDividedAchievementGuide
+    deusExMankindDividedAchievementGuide,
+    wolfensteinYoungbloodAchievementGuide,
+    dishonoredDeathOfTheOutsiderAchievementGuide,
+    theCallistoProtocolAchievementGuide
 
 ];
 
