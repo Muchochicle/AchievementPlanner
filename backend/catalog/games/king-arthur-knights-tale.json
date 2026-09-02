@@ -1,0 +1,553 @@
+{
+    "id": 1157390,
+    "steamAppId": 1157390,
+    "name": "King Arthur: Knight's Tale",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1157390/header.jpg",
+    "difficulty": 3,
+    "completionTime": {
+        "min": 25,
+        "max": 50
+    },
+    "missable": false,
+    "playthroughs": 1,
+    "hasGuide": true,
+    "genres": [
+        "Tactical RPG",
+        "Turn-Based",
+        "Dark Fantasy",
+        "Roguelite"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "tutorial",
+            "name": "Back from the Dead",
+            "description": "Complete the tutorial - Sir Mordred is brought back from the dead.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 2,
+            "apiname": "half_heroes",
+            "name": "Knights of the Cresenct Table",
+            "description": "Find and Recruit 6 Hero Companions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 3,
+            "apiname": "mordred_hp",
+            "name": "Ultra-Heavy",
+            "description": "Reach 150 HP with Sir Mordred.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 4,
+            "apiname": "relic_equip",
+            "name": "Ready to Fight",
+            "description": "Equip a character with Relic items in every slot (except potions).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 5,
+            "apiname": "flawless_mission",
+            "name": "Field Day",
+            "description": "Complete a mission without any of your heroes losing HP or Vitality (except tutorial missions).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 6,
+            "apiname": "hidden_treasure",
+            "name": "Treasure Hunter",
+            "description": "Find a hidden treasure.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 7,
+            "apiname": "few_deaths",
+            "name": "Crypt? What Crypt?",
+            "description": "Complete the main story with less than 3 heroes in the Crypt.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 8,
+            "apiname": "one_hero_level_cap",
+            "name": "The Very Purpose of a Knight",
+            "description": "Reach level 25 with one Hero.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 9,
+            "apiname": "many_hero_level_cap",
+            "name": "I Shall Bere Your Noble Fame ",
+            "description": "Reach level 25 with 6 Heroes.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 10,
+            "apiname": "full_heroes",
+            "name": "Knights of the Round Table ",
+            "description": "Find and Recruit  12 Hero Companions.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 11,
+            "apiname": "varied_party",
+            "name": "Disciples of the Four Branches",
+            "description": "Complete a mission with 4 different classes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 12,
+            "apiname": "black_knight",
+            "name": "Alright… We'll Call It a Draw",
+            "description": "Finish a mission with the Black Knight with Vitality loss and at least 2 permanent injuries.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 13,
+            "apiname": "extreme",
+            "name": "A Person of Principle",
+            "description": "Reach maximum points in one of the four Moralities.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 14,
+            "apiname": "resurrect",
+            "name": "A Second Chance ",
+            "description": "Resurrect a Hero from the Crypt.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 15,
+            "apiname": "all_buildings",
+            "name": "It's Only a Model ",
+            "description": "Build all available buildings in Camelot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 16,
+            "apiname": "all_upgrades",
+            "name": "Master Builder",
+            "description": "Unlock all upgrades for a building in Camelot.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 17,
+            "apiname": "gold_hoard",
+            "name": "Wisdom is Better",
+            "description": "Acquire 10,000 gold.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 18,
+            "apiname": "build_hoard",
+            "name": "One Brick at a Time",
+            "description": "Acquire 5,000 building resources.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 19,
+            "apiname": "events",
+            "name": "Decisions, Decisions",
+            "description": "Complete 30 events",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 20,
+            "apiname": "buy_relic",
+            "name": "A Powerful Trinket",
+            "description": "Purchase a Relic item at the Enchanted Tower.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 21,
+            "apiname": "items_sold",
+            "name": "The Penny Knight",
+            "description": "Sell items worth 10,000 gold at the Merchant.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 22,
+            "apiname": "training_spree",
+            "name": "Forever a Trainee",
+            "description": "Level up a Hero three consecutive times in the Training Ground.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 23,
+            "apiname": "debuffs",
+            "name": "'Tis but a Scratch!",
+            "description": "Apply Burning, Poison, Chill, Slow and Bleeding effects on one enemy.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 24,
+            "apiname": "ice_fire",
+            "name": "Master of the Elements",
+            "description": "Kill a frozen enemy with fire-based skills or attacks.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 25,
+            "apiname": "cleave",
+            "name": "Cleave It To Me",
+            "description": "Kill 3 enemies at once with the Cleave skill.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 26,
+            "apiname": "traps",
+            "name": "It's a Trap!",
+            "description": "Kill 5 enemies in their own round with traps in a single encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 27,
+            "apiname": "duels",
+            "name": "None Shall Pass",
+            "description": "Win duels with 4 different heroes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 28,
+            "apiname": "lost",
+            "name": "Get Lost!",
+            "description": "Finish an encounter with at least 4 Lost enemies awaiting resurrection.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 29,
+            "apiname": "big_damage",
+            "name": "Out of My Way!",
+            "description": "Deal at least 100 damage with one attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 30,
+            "apiname": "frugal",
+            "name": "Frugal Knights",
+            "description": "Complete a mission without using Potions, Shrines, Scrolls or Campfires (except tutorial missions).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 31,
+            "apiname": "overwatch",
+            "name": "Overwatcher",
+            "description": "Kill 5 enemies with Overwatch attacks in a single encounter.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 32,
+            "apiname": "bully",
+            "name": "Bully King",
+            "description": "Kill an enemy which received damage from all of your Heroes in the same turn (with at least Level 2 Heroes).",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 33,
+            "apiname": "pvp",
+            "name": "AvaLAN Party",
+            "description": "Finish a PvP match.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 34,
+            "apiname": "fire_blast",
+            "name": "Fire Walk With Me",
+            "description": "Kill at least 5 enemies at the same time with a fire-based Arcanist spell.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 35,
+            "apiname": "backstab",
+            "name": "Surprise Party",
+            "description": "Apply 4 backstab attacks in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 36,
+            "apiname": "bleed",
+            "name": "Bloodbath",
+            "description": "Inflict bleeding on 5 enemies in the same round.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 37,
+            "apiname": "floor",
+            "name": "Floor Sweep",
+            "description": "Knockdown 3 enemies in one turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 38,
+            "apiname": "miss",
+            "name": "Fortune Favors Fools",
+            "description": "Miss 3 attacks in a single turn.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 39,
+            "apiname": "prevent",
+            "name": "One Step Ahead",
+            "description": "Kill an enemy performing a surprise attack with an overwatch attack.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 40,
+            "apiname": "injured_finish",
+            "name": "Just a Flesh Wound",
+            "description": "Complete a mission with 4 injured Heroes.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 41,
+            "apiname": "injured_start",
+            "name": "My Life for Camelot",
+            "description": "Bring 3 injured heroes to a mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 42,
+            "apiname": "archers",
+            "name": "Team Arrowhead",
+            "description": "Complete a mission with only Marksmen in the party.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 43,
+            "apiname": "kills",
+            "name": "Conqueror of Avalon",
+            "description": "Kill 1,000 enemies in Avalon",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 44,
+            "apiname": "act_1",
+            "name": "Dawn Before Midnight",
+            "description": "Complete Act 1 on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 45,
+            "apiname": "act_2",
+            "name": "The Wounded King",
+            "description": "Complete Act 2 on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 46,
+            "apiname": "act_3",
+            "name": "His Final Despair",
+            "description": "Complete Act 3 on any difficulty.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 47,
+            "apiname": "act_4",
+            "name": "The Dark Lord of Camelot",
+            "description": "Complete Act 4 on any difficulty.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 48,
+            "apiname": "hardcore",
+            "name": "See the Consequences",
+            "description": "Complete the main story in Roguelite mode.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 49,
+            "apiname": "side_missions_few",
+            "name": "Explorer of Avalon",
+            "description": "Complete 10 side missions",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 50,
+            "apiname": "side_missions_many",
+            "name": "Savior of Avalon",
+            "description": "Complete 25 side missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 51,
+            "apiname": "balor",
+            "name": "Demon Slayer",
+            "description": "Defeat Balor - a story boss, described here spoiler-free.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 52,
+            "apiname": "guardian_spirit",
+            "name": "Valiant Defender",
+            "description": "Don't let the Guardian Spirit lose any HP on the Forbidden Keep mission.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 53,
+            "apiname": "uther",
+            "name": "Pray for my Soul",
+            "description": "Resolve Uther Pendragon's storyline - described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 54,
+            "apiname": "tewelyn",
+            "name": "Just a Rotting Corpse",
+            "description": "Defeat Sir Tewelyn - a story boss, described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 55,
+            "apiname": "isolde",
+            "name": "Tristan & Isolde",
+            "description": "Resolve the Tristan and Isolde questline - described here spoiler-free.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 56,
+            "apiname": "tewelyn_pack_skirmish",
+            "name": "The Trials of Sir Tewelyn",
+            "description": "Achieve 35 Skirmish Score during the Trials of Sir Tewelyn skirmish missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 57,
+            "apiname": "pict_pack_skirmish",
+            "name": "Painted Devils",
+            "description": "Achieve 35 Skirmish Score during the Painted Devils skirmish missions. (DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 58,
+            "apiname": "Brigands_Pack_skirmish",
+            "name": "Rogues and Renegades",
+            "description": "Achieve 35 Skirmish Score during the Rogues and Renegades skirmish missions. (DLC required)",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        },
+        {
+            "id": 59,
+            "apiname": "sidhe_pack_skirmish",
+            "name": "Silver Twilight",
+            "description": "Achieve 35 Skirmish Score during the Silver Twilight skirmish missions.",
+            "difficulty": 2,
+            "missable": false,
+            "estimatedTime": 18
+        }
+    ]
+}

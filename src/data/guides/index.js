@@ -1045,6 +1045,9 @@ import { GUIDE as terraNilAchievementGuide } from "./games/terra-nil.js";
 import { GUIDE as banishersGhostsOfNewEdenAchievementGuide } from "./games/banishers-ghosts-of-new-eden.js";
 import { GUIDE as strandedDeepAchievementGuide } from "./games/stranded-deep.js";
 import { GUIDE as smallandSurviveTheWildsAchievementGuide } from "./games/smalland-survive-the-wilds.js";
+import { GUIDE as theAgeOfDecadenceAchievementGuide } from "./games/the-age-of-decadence.js";
+import { GUIDE as kingArthurKnightsTaleAchievementGuide } from "./games/king-arthur-knights-tale.js";
+import { GUIDE as atomRpgTrudogradAchievementGuide } from "./games/atom-rpg-trudograd.js";
 
 export const APP_GUIDES = [
 
@@ -2112,7 +2115,10 @@ export const GAME_GUIDES = [
     terraNilAchievementGuide,
     banishersGhostsOfNewEdenAchievementGuide,
     strandedDeepAchievementGuide,
-    smallandSurviveTheWildsAchievementGuide
+    smallandSurviveTheWildsAchievementGuide,
+    theAgeOfDecadenceAchievementGuide,
+    kingArthurKnightsTaleAchievementGuide,
+    atomRpgTrudogradAchievementGuide
 
 ];
 

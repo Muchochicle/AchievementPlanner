@@ -1,0 +1,1003 @@
+{
+    "id": 230070,
+    "steamAppId": 230070,
+    "name": "The Age of Decadence",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/230070/header.jpg",
+    "difficulty": 4,
+    "completionTime": {
+        "min": 40,
+        "max": 90
+    },
+    "missable": false,
+    "playthroughs": 5,
+    "hasGuide": true,
+    "genres": [
+        "CRPG",
+        "Turn-Based",
+        "Choices Matter",
+        "Post-Apocalyptic"
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "apiname": "ACH_IS_LIFE_ALWAYS_THIS_HARD",
+            "name": "\"Is Life Always This Hard?\"",
+            "description": "Died in the first fight.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 2,
+            "apiname": "ACH_KILLED_MORE_PEOPLE_THAN_MALARIA",
+            "name": "Killed More People Than Malaria",
+            "description": "Kill a hundred people in the course of one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 3,
+            "apiname": "ACH_KILLER_OF_MEN",
+            "name": "Killer of Men",
+            "description": "Fight your way out of Teron, leaving nothing but corpses behind.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 4,
+            "apiname": "ACH_TERMINATOR",
+            "name": "Terminator",
+            "description": "Deal with the raiders and the Aurelian outpost by killing everyone. Not very subtle, but extremely effective.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 5,
+            "apiname": "ACH_DEMONBANE",
+            "name": "Demonbane",
+            "description": "Enter a wizard's tower and slay the demon that dwells within it, cleansing the tower from evil.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 6,
+            "apiname": "ACH_STONECOLD_KILLER",
+            "name": "Stone-Cold Killer",
+            "description": "Kill the Guildmaster of the Assassins Guild and Lord Gaelius during an audience at his own palace.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 7,
+            "apiname": "ACH_300",
+            "name": "300!",
+            "description": "Defeat the Ordu army at a narrow mountain pass and live to tell the tale.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 8,
+            "apiname": "ACH_ORDU_CHAMPION",
+            "name": "Ordu New Champion",
+            "description": "Kill Belgutai to impress the Ordu with your martial prowess.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 9,
+            "apiname": "ACH_KINGSLAYER",
+            "name": "Kingslayer",
+            "description": "Provoke Lord Antidas to attack the Imperial Guards delegation and kill him.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 10,
+            "apiname": "ACH_NAMELESS_ONE",
+            "name": "The Nameless One",
+            "description": "Die a hundred times and live again.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 11,
+            "apiname": "ACH_GRIM_REAPER",
+            "name": "Grim Reaper",
+            "description": "Kill 200 people in the course of one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 12,
+            "apiname": "ACH_ARENA_CHAMPION",
+            "name": "Champion of the Arena",
+            "description": "Fight your way to the top and become the new Champion of the Arena.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 13,
+            "apiname": "ACH_MERCENARY",
+            "name": "Mercenary",
+            "description": "Complete the first quest as a mercenary.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 14,
+            "apiname": "ACH_THIEF",
+            "name": "Thief",
+            "description": "Complete the first quest as a thief.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 15,
+            "apiname": "ACH_ASSASSIN",
+            "name": "Assassin",
+            "description": "Complete the first quest as an assassin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 16,
+            "apiname": "ACH_LOREMASTER",
+            "name": "Loremaster",
+            "description": "Complete the first quest as a loremaster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 17,
+            "apiname": "ACH_DRIFTER",
+            "name": "Drifter",
+            "description": "Complete the first quest as a drifter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 18,
+            "apiname": "ACH_GRIFTER",
+            "name": "Grifter",
+            "description": "You completed the first quest as a grifter.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 19,
+            "apiname": "ACH_MERCHANT",
+            "name": "Merchant",
+            "description": "Complete the first quest as a merchant.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 20,
+            "apiname": "ACH_PRAETOR",
+            "name": "Praetor",
+            "description": "Complete the first quest as a praetor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 21,
+            "apiname": "ACH_TERON_AG",
+            "name": "It's a Thing of Honor...",
+            "description": "Complete the Assassins Guild's questline in Teron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 22,
+            "apiname": "ACH_TERON_IG",
+            "name": "Under New Management",
+            "description": "Complete the Imperial Guards' questline in Teron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 23,
+            "apiname": "ACH_TERON_TG",
+            "name": "The Great Cart Robbery",
+            "description": "Complete the Thieves Guild's questline in Teron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 24,
+            "apiname": "ACH_TERON_MG",
+            "name": "Pulling the Strings",
+            "description": "Complete the Merchants Guild's questline in Teron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 25,
+            "apiname": "ACH_TERON_HD",
+            "name": "On His Lordship's Secret Service",
+            "description": "Complete the Praetor's questline in Teron.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 26,
+            "apiname": "ACH_MAADORAN_AG_1",
+            "name": "To Serve and Protect",
+            "description": "Complete the Assassins Guild's questline in Maadoran, serving Lord Gaelius and killing his enemies.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 27,
+            "apiname": "ACH_MAADORAN_IG",
+            "name": "Hero of Harran's Pass",
+            "description": "Complete the Imperial Guards' questline in Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 28,
+            "apiname": "ACH_MAADORAN_AG_2",
+            "name": "It's Just Business. Nothing Personal...",
+            "description": "Complete the Assassins Guild's questline in Maadoran, double-crossing your Guildmaster.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 29,
+            "apiname": "ACH_MAADORAN_TG",
+            "name": "Anyone Can Be Killed",
+            "description": "Complete the Thieves Guild's questline in Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 30,
+            "apiname": "ACH_MAADORAN_MG",
+            "name": "The Game of Thrones",
+            "description": "Complete the Merchants Guild's questline in Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 31,
+            "apiname": "ACH_MAADORAN_HD",
+            "name": "Beware of Greeks Bearing Gifts",
+            "description": "Complete the Praetor of House Daratan's questline in Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 32,
+            "apiname": "ACH_MAADORAN_HA",
+            "name": "Rough Men Standing Ready To Do Violence",
+            "description": "Complete the Praetor of House Aurelian's questline in Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 33,
+            "apiname": "ACH_LIEGEMAN_HD",
+            "name": "Liegeman (House Daratan)",
+            "description": "Pledge your fealty to House Daratan, swearing to serve Lord Antidas.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 34,
+            "apiname": "ACH_LIEGEMAN_HA",
+            "name": "Liegeman (House Aurelian)",
+            "description": "Pledge your fealty to House Aurelian, swearing to serve Lord Gaelius.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 35,
+            "apiname": "ACH_LEGIONARY",
+            "name": "Legionary (Imperial Guards)",
+            "description": "Join the Imperial Guards to be All You Can Be.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 36,
+            "apiname": "ACH_CENTURION",
+            "name": "Centurion (Imperial Guards)",
+            "description": "Get promoted to the rank of Centurion.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 37,
+            "apiname": "ACH_LEGATUS",
+            "name": "Legatus (Imperial Guards)",
+            "description": "Get promoted to the rank of Legatus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 38,
+            "apiname": "ACH_MAADORAN",
+            "name": "The City of All Cities",
+            "description": "Visit Maadoran - the largest city in the known world.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 39,
+            "apiname": "ACH_ORDU",
+            "name": "The Men of the Plains",
+            "description": "Visit an Ordu camp beyond the mountains.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 40,
+            "apiname": "ACH_PASS",
+            "name": "The Highest Peak",
+            "description": "Visit Harran's Pass.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 41,
+            "apiname": "ACH_TOWER",
+            "name": "A Trip Into The Past",
+            "description": "Explore the Tower of Zamedi.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 42,
+            "apiname": "ACH_ABYSS",
+            "name": "Gazed Into The Abyss",
+            "description": "Explore the very heart of the Abyss.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 43,
+            "apiname": "ACH_DESTROYED_MAADORAN",
+            "name": "Great Vengeance and Furious Anger",
+            "description": "\"And I will strike down upon thee with great vengeance and furious anger... And you will know I am the Lord when I lay My vengeance upon you.\"",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 44,
+            "apiname": "ACH_TRAITOR",
+            "name": "Once a Traitor...",
+            "description": "You have a dangerous habit of betraying your masters.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 45,
+            "apiname": "ACH_HELMET_KEPT",
+            "name": "My Precious...",
+            "description": "Recover Darius' helmet but keep such a valuable relic for yourself.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 46,
+            "apiname": "ACH_EXPLOSION_EXPERT",
+            "name": "Explosion Expert",
+            "description": "Use an improvised explosive device to ambush the shipment and steal the gold.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 47,
+            "apiname": "ACH_SILVER_TONGUED",
+            "name": "Silver-Tongued Devil",
+            "description": "Fast-talk your way out of Teron, getting past every obstacle standing between you and the open road.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 48,
+            "apiname": "ACH_DIPLOMAT",
+            "name": "Diplomat",
+            "description": "Broker an alliance between House Daratan and the Imperial Guards.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 49,
+            "apiname": "ACH_KINGMAKER",
+            "name": "Kingmaker",
+            "description": "Broker an alliance between House Daratan and the Imperial Guards, and convince Commander Carrinas to proclaim Antidas an Emperor.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 50,
+            "apiname": "ACH_MAGISTRATE",
+            "name": "\"Good Morrow To You, Magistrate!\"",
+            "description": "Outmaneuver your opponents and make Strabos the new magistratus of Maadoran.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 51,
+            "apiname": "ACH_HEALING_MACHINE",
+            "name": "Never Felt Better",
+            "description": "Take a ride in an ancient healing machine.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 52,
+            "apiname": "ACH_PEACEMAKER",
+            "name": "Peacemaker",
+            "description": "Convince Belgutai to join Khan Thorgul and unite the Ordu tribe.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 53,
+            "apiname": "ACH_PERSUASIVE",
+            "name": "Extremely Persuasive",
+            "description": "Convince Lord Antidas to have Commander Carrinas killed without producing any proof.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 54,
+            "apiname": "ACH_INTERROGATOR",
+            "name": "Interrogator",
+            "description": "Have a heart to heart conversation with loremaster Sohrab and make him tell you everything he knows.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 55,
+            "apiname": "ACH_INFILTRATOR",
+            "name": "Infiltrator",
+            "description": "Infiltrate House Daratan's compound and discuss employment opportunities with Lord Antidas.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 56,
+            "apiname": "ACH_MANIPULATOR",
+            "name": "Manipulator",
+            "description": "Talk the raiders into attacking the Aurelian outpost for you to kill two birds with one stone.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 57,
+            "apiname": "ACH_COLLECTOR",
+            "name": "Collector of Rarities",
+            "description": "Acquire five different relics of the past, without having any idea what most of them are for.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 58,
+            "apiname": "ACH_ANTIQUE_EXPERT",
+            "name": "Antiquities Expert",
+            "description": "Acquire ten different artefacts to start a collection.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 59,
+            "apiname": "ACH_MAGUS",
+            "name": "A Magus!",
+            "description": "Acquire powerful artefacts and learn how to use them.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 60,
+            "apiname": "ACH_CHOSEN_ONE",
+            "name": "The Chosen One",
+            "description": "Convince a preacher from Ganezzar that you're the Chosen One, sent by the gods to lead mankind out of darkness.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 61,
+            "apiname": "ACH_MAGNETISM",
+            "name": "Personal Magnetism",
+            "description": "Convince Centurion Flavius to introduce you to Lord Antidas.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 62,
+            "apiname": "ACH_GODLSAYER",
+            "name": "Godslayer",
+            "description": "Put a 'god' out of its misery, releasing it from the horror of its existence and ending the magic that haunted the Abyss for centuries.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 63,
+            "apiname": "ACH_DEAL_DEVIL",
+            "name": "Deal with the Devil",
+            "description": "Make a deal with Legatus Carbo, promising him a worthy enemy and a war he's always dreamt of.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 64,
+            "apiname": "ACH_MILITIA_SPONSOR",
+            "name": "Patriot Militia Sponsor",
+            "description": "Make a generous contribution to Regulus' campaign, funding a new militia to keep the city 'safe'.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 65,
+            "apiname": "ACH_TRAINED",
+            "name": "Well-Trained",
+            "description": "Receive training from five different people in the course of one game.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 66,
+            "apiname": "ACH_WISDOM",
+            "name": "The House of Wisdom",
+            "description": "Visit the Library of Saross.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 67,
+            "apiname": "ACH_WITNESS",
+            "name": "Take Heed And Bear Witness",
+            "description": "Discover and read the ancient tablets - the warning of the Magi.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 68,
+            "apiname": "ACH_ARCH",
+            "name": "Arch of the Covenant",
+            "description": "Visit an ancient arch - a site of many miracles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 69,
+            "apiname": "ACH_FRIENDS",
+            "name": "Friends on the Other Side",
+            "description": "Make new friends and learn how to influence people.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 70,
+            "apiname": "ACH_MONASTERY",
+            "name": "Hidden from the World",
+            "description": "Visit a monastery up in the mountains.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 71,
+            "apiname": "ACH_LICH",
+            "name": "The Lich",
+            "description": "Acquire a rare extract of Amaranthus, use to make an elixir and drink it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 72,
+            "apiname": "ACH_RIGHT_THING",
+            "name": "The Right Thing",
+            "description": "Do the right thing. You'll know what it is.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 73,
+            "apiname": "ACH_INFERIAE",
+            "name": "The Eye of the Desert",
+            "description": "Visit Inferiae.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 74,
+            "apiname": "ACH_FIXIT",
+            "name": "MR. FIXIT",
+            "description": "Fix the machines in the buried tower.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 75,
+            "apiname": "ACH_SKY_CITY",
+            "name": "The City in the Sky",
+            "description": "Hey, did you see that?",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 76,
+            "apiname": "ACH_COMPUTER",
+            "name": "Computer Literate",
+            "description": "Learn how to use the ancient consoles.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 77,
+            "apiname": "ACH_AUGMENTED",
+            "name": "My Vision is augmented",
+            "description": "Improve your eyesight with a fashionable mechanical eye.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 78,
+            "apiname": "ACH_EXPLORER",
+            "name": "Urban Explorer",
+            "description": "Find a way into Maadoran's sewers.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 79,
+            "apiname": "ACH_HANGAR",
+            "name": "The Pax Imperium",
+            "description": "Discover a long forgotten underground hangar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 80,
+            "apiname": "ACH_FLY",
+            "name": "Airworthy!",
+            "description": "Take the flying fortress for a spin.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 81,
+            "apiname": "ACH_ALK",
+            "name": "The Birthplace of the Gods",
+            "description": "Visit the ruins of Al-Akia.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 82,
+            "apiname": "ACH_GNZ",
+            "name": "The Holy City",
+            "description": "Visit Ganezzar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 83,
+            "apiname": "ACH_POWER_ARMOR",
+            "name": "Iron Man",
+            "description": "Acquire Power Armor and fully charge it.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 84,
+            "apiname": "ACH_BREACH",
+            "name": "Unto the Breach",
+            "description": "Charge into the breach during the siege of Ganezzar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 85,
+            "apiname": "ACH_FAELAN",
+            "name": "Mage-Killer",
+            "description": "Kill Faelan the Thrice Blessed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 86,
+            "apiname": "ACH_HECTOR",
+            "name": "Power to the People",
+            "description": "Help Hector achieve his goals.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 87,
+            "apiname": "ACH_DARGANUS",
+            "name": "Checks and Balances",
+            "description": "Help Lord Darganus keep the rabble at bay.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 88,
+            "apiname": "ACH_TEMPLARS",
+            "name": "Knights of the Temple",
+            "description": "Complete the Imperial Guards' questline in Ganezzar, siding with House Crassus.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 89,
+            "apiname": "ACH_IMPERIAL_ARMY",
+            "name": "The Imperial Army",
+            "description": "Complete the Imperial Guards' questline in Ganezzar, siding with House Aurelian.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 90,
+            "apiname": "ACH_FIRST_SWORD",
+            "name": "The First Sword",
+            "description": "Complete the Imperial Guards' questline in Ganezzar with the help of Commander Carrinas.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 91,
+            "apiname": "ACH_OPIUM",
+            "name": "The Opium of the People",
+            "description": "Complete the Merchants Guild's questline in Ganezzar, embracing Meru's Creed.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 92,
+            "apiname": "ACH_CORPORATE",
+            "name": "Corporate Interests",
+            "description": "Complete the Merchants Guild's questline in Ganezzar as per Strabos' orders.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 93,
+            "apiname": "ACH_LORD_LOWTOWN",
+            "name": "The Lord of Lowtown",
+            "description": "Complete the Thieves Guild's questline in Ganezzar, siding with Glabrio.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 94,
+            "apiname": "ACH_AGGRESSIVE_NEG",
+            "name": "Aggressive Negotiations",
+            "description": "Complete the Thieves Guild's questline in Ganezzar, double-crossing Glabrio.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 95,
+            "apiname": "ACH_INQUISITOR",
+            "name": "The Inquisitor",
+            "description": "Complete the Assassins Guild's questline in Ganezzar, siding with Varro.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 96,
+            "apiname": "ACH_GUILDSMAN",
+            "name": "The Guildsman",
+            "description": "Complete the Assassins' Guild's questline in Ganezzar, staying true to the guild.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 97,
+            "apiname": "ACH_ENEMY",
+            "name": "Matters of Faith",
+            "description": "Complete the Praetor of House Daratan's questline in Ganezzar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 98,
+            "apiname": "ACH_DELENDA",
+            "name": "Delenda Est",
+            "description": "Complete the Praetor of House Aurelian's questline in Ganezzar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 99,
+            "apiname": "ACH_GODS_AMONG",
+            "name": "The Gods Shalt Walk Among Us",
+            "description": "Complete the Praetor of House Crassus' questline in Ganezzar.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 100,
+            "apiname": "ACH_HELLGATE",
+            "name": "Hellgate",
+            "description": "Visit Hellgate and live to tell the tale.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 101,
+            "apiname": "ACH_DEAD_RIVER",
+            "name": "Dead River",
+            "description": "Visit Dead River settlement.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 102,
+            "apiname": "ACH_ALK_DESTROYED",
+            "name": "Fire in the Hole!",
+            "description": "Destroy Al-Akia.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 103,
+            "apiname": "ACH_ONE_GOD",
+            "name": "The One God",
+            "description": "Ascend.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 104,
+            "apiname": "ACH_NUKE",
+            "name": "Desperate Times",
+            "description": "You know what you have to do.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 105,
+            "apiname": "ACH_BALZAAR",
+            "name": "Kingdom of God",
+            "description": "Bring God's Kingdom to Earth.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 106,
+            "apiname": "ACH_AGATHOTH",
+            "name": "Novus Ordo Seclorum",
+            "description": "Bring a new world order.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 107,
+            "apiname": "ACH_GODLESS",
+            "name": "Godless World",
+            "description": "Kill Agathoth to protect mankind.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 108,
+            "apiname": "ACH_SLEEPING",
+            "name": "Sleeping Dogs",
+            "description": "Let sleeping dogs lie.",
+            "difficulty": 4,
+            "missable": false,
+            "estimatedTime": 25
+        },
+        {
+            "id": 109,
+            "apiname": "ACH_BURN",
+            "name": "Burn it",
+            "description": "Some Men Just Want to Watch the World Burn.",
+            "difficulty": 3,
+            "missable": false,
+            "estimatedTime": 25
+        }
+    ]
+}
