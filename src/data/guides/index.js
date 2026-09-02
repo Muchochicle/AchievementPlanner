@@ -994,6 +994,9 @@ import { GUIDE as millenniaAchievementGuide } from "./games/millennia.js";
 import { GUIDE as loversInADangerousSpacetimeAchievementGuide } from "./games/lovers-in-a-dangerous-spacetime.js";
 import { GUIDE as sludgeLifeAchievementGuide } from "./games/sludge-life.js";
 import { GUIDE as movingOutAchievementGuide } from "./games/moving-out.js";
+import { GUIDE as isletsAchievementGuide } from "./games/islets.js";
+import { GUIDE as gatoRobotoAchievementGuide } from "./games/gato-roboto.js";
+import { GUIDE as chantsOfSennaarAchievementGuide } from "./games/chants-of-sennaar.js";
 
 export const APP_GUIDES = [
 
@@ -2010,7 +2013,10 @@ export const GAME_GUIDES = [
     millenniaAchievementGuide,
     loversInADangerousSpacetimeAchievementGuide,
     sludgeLifeAchievementGuide,
-    movingOutAchievementGuide
+    movingOutAchievementGuide,
+    isletsAchievementGuide,
+    gatoRobotoAchievementGuide,
+    chantsOfSennaarAchievementGuide
 
 ];
 
