@@ -922,6 +922,9 @@ import { GUIDE as directive8020AchievementGuide } from "./games/directive-8020.j
 import { GUIDE as anno117PaxRomanaAchievementGuide } from "./games/anno-117-pax-romana.js";
 import { GUIDE as avowedAchievementGuide } from "./games/avowed.js";
 import { GUIDE as totalWarRomeRemasteredAchievementGuide } from "./games/total-war-rome-remastered.js";
+import { GUIDE as finalFantasyViiRebirthAchievementGuide } from "./games/final-fantasy-vii-rebirth.js";
+import { GUIDE as mafiaTheOldCountryAchievementGuide } from "./games/mafia-the-old-country.js";
+import { GUIDE as indianaJonesAndTheGreatCircleAchievementGuide } from "./games/indiana-jones-and-the-great-circle.js";
 
 export const APP_GUIDES = [
 
@@ -1866,7 +1869,10 @@ export const GAME_GUIDES = [
     oldMansJourneyAchievementGuide,
     necrobaristaAchievementGuide,
     theLongingAchievementGuide,
-    betrayalAtClubLowAchievementGuide
+    betrayalAtClubLowAchievementGuide,
+    finalFantasyViiRebirthAchievementGuide,
+    mafiaTheOldCountryAchievementGuide,
+    indianaJonesAndTheGreatCircleAchievementGuide
 
 ];
 
