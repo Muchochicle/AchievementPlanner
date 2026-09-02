@@ -946,6 +946,9 @@ import { GUIDE as theCallistoProtocolAchievementGuide } from "./games/the-callis
 import { GUIDE as grandTheftAutoIiiTheDefinitiveEditionAchievementGuide } from "./games/grand-theft-auto-iii-the-definitive-edition.js";
 import { GUIDE as grandTheftAutoViceCityTheDefinitiveEditionAchievementGuide } from "./games/grand-theft-auto-vice-city-the-definitive-edition.js";
 import { GUIDE as sniperGhostWarriorContracts2AchievementGuide } from "./games/sniper-ghost-warrior-contracts-2.js";
+import { GUIDE as finalFantasyXvWindowsEditionAchievementGuide } from "./games/final-fantasy-xv-windows-edition.js";
+import { GUIDE as nba2k25AchievementGuide } from "./games/nba-2k25.js";
+import { GUIDE as dakarDesertRallyAchievementGuide } from "./games/dakar-desert-rally.js";
 
 export const APP_GUIDES = [
 
@@ -1914,7 +1917,10 @@ export const GAME_GUIDES = [
     theCallistoProtocolAchievementGuide,
     grandTheftAutoIiiTheDefinitiveEditionAchievementGuide,
     grandTheftAutoViceCityTheDefinitiveEditionAchievementGuide,
-    sniperGhostWarriorContracts2AchievementGuide
+    sniperGhostWarriorContracts2AchievementGuide,
+    finalFantasyXvWindowsEditionAchievementGuide,
+    nba2k25AchievementGuide,
+    dakarDesertRallyAchievementGuide
 
 ];
 
