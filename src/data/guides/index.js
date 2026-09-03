@@ -1048,6 +1048,9 @@ import { GUIDE as smallandSurviveTheWildsAchievementGuide } from "./games/smalla
 import { GUIDE as theAgeOfDecadenceAchievementGuide } from "./games/the-age-of-decadence.js";
 import { GUIDE as kingArthurKnightsTaleAchievementGuide } from "./games/king-arthur-knights-tale.js";
 import { GUIDE as atomRpgTrudogradAchievementGuide } from "./games/atom-rpg-trudograd.js";
+import { GUIDE as minaTheHollowerAchievementGuide } from "./games/mina-the-hollower.js";
+import { GUIDE as melatoninAchievementGuide } from "./games/melatonin.js";
+import { GUIDE as beastieballAchievementGuide } from "./games/beastieball.js";
 
 export const APP_GUIDES = [
 
@@ -2118,7 +2121,10 @@ export const GAME_GUIDES = [
     smallandSurviveTheWildsAchievementGuide,
     theAgeOfDecadenceAchievementGuide,
     kingArthurKnightsTaleAchievementGuide,
-    atomRpgTrudogradAchievementGuide
+    atomRpgTrudogradAchievementGuide,
+    minaTheHollowerAchievementGuide,
+    melatoninAchievementGuide,
+    beastieballAchievementGuide
 
 ];
 
