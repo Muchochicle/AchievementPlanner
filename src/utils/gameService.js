@@ -3,7 +3,116 @@ import { fetchWithTimeout } from "./http/fetchWithTimeout.js";
 
 const API_URL = `${ENV.API_BASE_URL}/api/games`;
 
-export async function getGamesIndex() {
+// Task 9: a very short-lived sessionStorage cache of the games index.
+// GET /api/games is the heaviest call on the Games/Profile critical path
+// (for a logged-in visitor it fans out one Steam schema request per owned
+// game for achievement-availability), and it was re-fetched in full on
+// every single navigation to a page that needs it - Games -> a game ->
+// back was three identical scans.
+//
+// Safety (brief: "stale data cannot permanently prevent updated player
+// data from appearing"):
+//   - TTL is 90s. Nothing is served older than that.
+//   - The cache key includes the caller's logged-in state, so logging in
+//     or out (a full page navigation through Steam) always misses the
+//     previous state's entry and re-fetches.
+//   - sessionStorage, not localStorage: it dies with the tab, never
+//     persists across a browser restart.
+//   - clearGamesIndexCache() is called on explicit logout.
+const INDEX_CACHE_PREFIX = "ap-games-index-v1:";
+const INDEX_CACHE_TTL_MS = 90_000;
+
+function cacheKey(loggedIn) {
+
+    return `${INDEX_CACHE_PREFIX}${loggedIn ? "in" : "out"}`;
+
+}
+
+function readIndexCache(loggedIn) {
+
+    try {
+
+        const raw = sessionStorage.getItem(cacheKey(loggedIn));
+
+        if (!raw) {
+
+            return null;
+
+        }
+
+        const parsed = JSON.parse(raw);
+
+        if (!parsed || typeof parsed.ts !== "number" || !Array.isArray(parsed.games)) {
+
+            return null;
+
+        }
+
+        if (Date.now() - parsed.ts > INDEX_CACHE_TTL_MS) {
+
+            return null;
+
+        }
+
+        return parsed.games;
+
+    } catch {
+
+        return null;
+
+    }
+
+}
+
+function writeIndexCache(loggedIn, games) {
+
+    try {
+
+        sessionStorage.setItem(cacheKey(loggedIn), JSON.stringify({ ts: Date.now(), games }));
+
+    } catch {
+
+        // Quota/availability failure - caching is a pure optimization, so
+        // a write that doesn't stick is simply a cache miss next time.
+
+    }
+
+}
+
+export function clearGamesIndexCache() {
+
+    try {
+
+        sessionStorage.removeItem(cacheKey(true));
+        sessionStorage.removeItem(cacheKey(false));
+
+    } catch {
+
+        // Nothing to clean up if storage isn't available.
+
+    }
+
+}
+
+// `loggedIn` (optional) lets the caller key the cache to the current
+// session state. Omitting it disables the cache for that call (always a
+// fresh fetch) - callers that don't know the session state should not
+// risk serving the wrong ownership data.
+export async function getGamesIndex({ loggedIn } = {}) {
+
+    const useCache = typeof loggedIn === "boolean";
+
+    if (useCache) {
+
+        const cached = readIndexCache(loggedIn);
+
+        if (cached) {
+
+            return cached;
+
+        }
+
+    }
 
     const response = await fetchWithTimeout(API_URL, {
         credentials: "include"
@@ -22,7 +131,15 @@ export async function getGamesIndex() {
     // search, Games' listing) already has a correct, tested "zero games"
     // rendering path, so this keeps a shape surprise from crashing them
     // instead of degrading gracefully.
-    return data.games ?? [];
+    const games = data.games ?? [];
+
+    if (useCache && games.length) {
+
+        writeIndexCache(loggedIn, games);
+
+    }
+
+    return games;
 
 }
 

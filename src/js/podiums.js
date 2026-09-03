@@ -1,7 +1,44 @@
 import { loadNavbar } from "./layout.js";
-import { fetchGlobalPodium } from "../utils/podiums/podiumsClient.js";
+import { fetchGlobalPodium, fetchProgressionPodium } from "../utils/podiums/podiumsClient.js";
 import { createPodiumCard } from "../components/podium/podium.js";
-import { GLOBAL_PODIUM_CATEGORIES } from "../utils/podiums/podiumCategories.js";
+import { ALL_PODIUM_CATEGORIES } from "../utils/podiums/podiumCategories.js";
+import { createSupportCallout } from "../components/support-callout/support-callout.js";
+
+// Which client fn fetches a given category, by its `kind` (see
+// podiumCategories.js). Steam-backed categories hit /global/:category;
+// the Task 6 progression categories hit /progression/:metric.
+function fetchFor(config) {
+
+    return config.kind === "progression"
+        ? fetchProgressionPodium(config.key)
+        : fetchGlobalPodium(config.key);
+
+}
+
+// Preserves ALL_PODIUM_CATEGORIES' order while splitting it into its
+// consecutive `group` runs, so each group renders under one heading.
+function groupCategories(categories) {
+
+    const groups = [];
+
+    for (const config of categories) {
+
+        let group = groups[groups.length - 1];
+
+        if (!group || group.name !== config.group) {
+
+            group = { name: config.group, items: [] };
+            groups.push(group);
+
+        }
+
+        group.items.push(config);
+
+    }
+
+    return groups;
+
+}
 
 async function init() {
 
@@ -9,6 +46,7 @@ async function init() {
 
     const nav = document.getElementById("podiums-nav");
     const container = document.getElementById("podiums-content");
+    const supportMount = document.getElementById("support-callout");
 
     if (!container) {
 
@@ -16,44 +54,49 @@ async function init() {
 
     }
 
-    // A quick "jump to a ranking" index, so a returning visitor who only
-    // cares about one leaderboard doesn't have to scroll past the rest -
-    // real, keyboard-navigable links, not just a visual list.
+    const groups = groupCategories(ALL_PODIUM_CATEGORIES);
+
+    // A quick "jump to a ranking" index - real, keyboard-navigable links,
+    // grouped the same way the cards below are.
     if (nav) {
 
-        nav.innerHTML = GLOBAL_PODIUM_CATEGORIES
+        nav.innerHTML = groups
 
-            .map(config => `
-                <a href="#podium-${config.key}">
-                    <span aria-hidden="true">${config.icon}</span> ${config.title}
-                </a>
+            .map(group => `
+                <div class="podiums-nav-group">
+                    <span class="podiums-nav-group-label">${group.name}</span>
+                    ${group.items.map(config => `
+                        <a href="#podium-${config.key}">
+                            <span aria-hidden="true">${config.icon}</span> ${config.title}
+                        </a>
+                    `).join("")}
+                </div>
             `)
 
             .join("");
 
     }
 
-    // One placeholder section per category - all five fetch in parallel,
-    // each rendering independently the moment it's ready rather than
-    // waiting on the slowest one (see the loading state each starts in
-    // below). aria-live="polite" aria-atomic="true" on each section (Phase
-    // 60, PHASE_60_AUDIT.md - WCAG SC 4.1.3 Status Messages) tells a
-    // screen-reader user when that one category finishes loading, without
-    // needing to move focus there - previously silent to assistive
-    // technology.
-    container.innerHTML = GLOBAL_PODIUM_CATEGORIES
+    // One heading per group, then one placeholder section per category -
+    // every section starts in its loading state and each fetch resolves
+    // independently (see PHASE_60_AUDIT.md for the aria-live rationale,
+    // and PHASE_53_AUDIT.md Finding 24 for the per-section .catch()).
+    container.innerHTML = groups
 
-        .map(config => `<div id="podium-${config.key}" class="podiums-nav-target" aria-live="polite" aria-atomic="true"></div>`)
+        .map(group => `
+            <h2 class="podiums-group-title">${group.name}</h2>
+            ${group.items.map(config => `<div id="podium-${config.key}" class="podiums-nav-target" aria-live="polite" aria-atomic="true"></div>`).join("")}
+        `)
 
         .join("");
 
-    for (const config of GLOBAL_PODIUM_CATEGORIES) {
+    for (const config of ALL_PODIUM_CATEGORIES) {
 
         const section = document.getElementById(`podium-${config.key}`);
 
         section.innerHTML = createPodiumCard(config, { status: "loading" });
 
-        fetchGlobalPodium(config.key).then(state => {
+        fetchFor(config).then(state => {
 
             if (state.status === "error") {
 
@@ -65,19 +108,23 @@ async function init() {
 
         }).catch(error => {
 
-            // fetchGlobalPodium itself never rejects (see podiumsClient.js) -
-            // this only guards the .then() callback's own body (e.g.
-            // createPodiumCard) throwing, so a rendering exception can't
-            // strand this section on "Loading..." forever with no visible
-            // error (Finding 24, PHASE_53_AUDIT.md). renderBody's "error"
-            // branch is a fixed, static message with no dependency on
-            // whatever data caused the original failure, so this is safe to
-            // render even if the throw came from malformed state.
+            // fetchFor() itself never rejects (see podiumsClient.js) - this
+            // only guards the .then() callback's own body throwing, so a
+            // rendering exception can't strand this section on "Loading..."
+            // forever (Finding 24, PHASE_53_AUDIT.md).
             console.error(`Unable to render "${config.key}" leaderboard:`, error);
 
             section.innerHTML = createPodiumCard(config, { status: "error", error });
 
         });
+
+    }
+
+    // Task 6: the honest "Support Achievement Planner" section, in place of
+    // a (fake) donations leaderboard - see support-callout.js.
+    if (supportMount) {
+
+        supportMount.innerHTML = createSupportCallout();
 
     }
 

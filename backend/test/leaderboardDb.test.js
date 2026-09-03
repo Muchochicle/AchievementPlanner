@@ -41,7 +41,7 @@ function cleanup(dbPath) {
 function tableNames(db) {
 
     return db.prepare(
-        "SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name"
+        "SELECT name FROM sqlite_master WHERE type = 'table' AND name NOT LIKE 'sqlite_%' ORDER BY name"
     ).all().map(row => row.name);
 
 }
@@ -54,7 +54,7 @@ function indexNames(db) {
 
 }
 
-test("createLeaderboardDb creates the users, user_game_playtime, player_progress and sessions tables from an empty database", () => {
+test("createLeaderboardDb creates the users, user_game_playtime, player_progress, sessions and contact_messages tables from an empty database", () => {
 
     const db = createLeaderboardDb(":memory:");
 
@@ -62,7 +62,7 @@ test("createLeaderboardDb creates the users, user_game_playtime, player_progress
 
         assert.deepStrictEqual(
             tableNames(db),
-            ["player_progress", "sessions", "user_game_playtime", "users"]
+            ["contact_messages", "player_progress", "sessions", "user_game_playtime", "users"]
         );
 
     } finally {
@@ -112,7 +112,7 @@ test("the application works correctly when the database file (and its parent dir
             assert.strictEqual(fs.existsSync(dbPath), true);
             assert.deepStrictEqual(
                 tableNames(db),
-                ["player_progress", "sessions", "user_game_playtime", "users"]
+                ["contact_messages", "player_progress", "sessions", "user_game_playtime", "users"]
             );
 
         } finally {

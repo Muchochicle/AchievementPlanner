@@ -1,7 +1,20 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { getGamesIndex, getPopularGames, getGame } from "../src/utils/gameService.js";
+// Minimal in-memory sessionStorage so the Task 9 games-index cache can be
+// exercised under `node --test` (no DOM). Installed before importing the
+// module under test.
+class MemoryStorage {
+    #map = new Map();
+    getItem(k) { return this.#map.has(k) ? this.#map.get(k) : null; }
+    setItem(k, v) { this.#map.set(k, String(v)); }
+    removeItem(k) { this.#map.delete(k); }
+    clear() { this.#map.clear(); }
+}
+globalThis.sessionStorage = new MemoryStorage();
+
+const { getGamesIndex, getPopularGames, getGame, clearGamesIndexCache } =
+    await import("../src/utils/gameService.js");
 
 function mockFetch(impl) {
 
@@ -179,6 +192,132 @@ test("getGame throws an error carrying the HTTP status when the response isn't o
     } finally {
 
         restore();
+
+    }
+
+});
+
+// ---- Task 9: games-index sessionStorage cache ----
+
+test("getGamesIndex({loggedIn}) serves a cached result on the second call (no second fetch)", async () => {
+
+    sessionStorage.clear();
+    let calls = 0;
+
+    const restore = mockFetch(async () => { calls++; return jsonResponse(true, { games: [{ slug: "hades" }] }); });
+
+    try {
+
+        const first = await getGamesIndex({ loggedIn: false });
+        const second = await getGamesIndex({ loggedIn: false });
+
+        assert.deepStrictEqual(first, [{ slug: "hades" }]);
+        assert.deepStrictEqual(second, [{ slug: "hades" }]);
+        assert.strictEqual(calls, 1, "second call must hit the cache, not the network");
+
+    } finally {
+
+        restore();
+        sessionStorage.clear();
+
+    }
+
+});
+
+test("getGamesIndex cache is keyed by login state - logging in re-fetches", async () => {
+
+    sessionStorage.clear();
+    let calls = 0;
+
+    const restore = mockFetch(async () => {
+        calls++;
+        return jsonResponse(true, { games: [{ slug: calls === 1 ? "logged-out-view" : "logged-in-view" }] });
+    });
+
+    try {
+
+        const out = await getGamesIndex({ loggedIn: false });
+        const inn = await getGamesIndex({ loggedIn: true });
+
+        assert.strictEqual(out[0].slug, "logged-out-view");
+        assert.strictEqual(inn[0].slug, "logged-in-view");
+        assert.strictEqual(calls, 2, "a different login state must not reuse the other state's cache entry");
+
+    } finally {
+
+        restore();
+        sessionStorage.clear();
+
+    }
+
+});
+
+test("getGamesIndex() with no loggedIn hint never caches (always a fresh fetch)", async () => {
+
+    sessionStorage.clear();
+    let calls = 0;
+
+    const restore = mockFetch(async () => { calls++; return jsonResponse(true, { games: [{ slug: "x" }] }); });
+
+    try {
+
+        await getGamesIndex();
+        await getGamesIndex();
+
+        assert.strictEqual(calls, 2);
+        assert.strictEqual(sessionStorage.getItem("ap-games-index-v1:out"), null);
+
+    } finally {
+
+        restore();
+        sessionStorage.clear();
+
+    }
+
+});
+
+test("clearGamesIndexCache() forces the next call to re-fetch", async () => {
+
+    sessionStorage.clear();
+    let calls = 0;
+
+    const restore = mockFetch(async () => { calls++; return jsonResponse(true, { games: [{ slug: "x" }] }); });
+
+    try {
+
+        await getGamesIndex({ loggedIn: true });
+        clearGamesIndexCache();
+        await getGamesIndex({ loggedIn: true });
+
+        assert.strictEqual(calls, 2);
+
+    } finally {
+
+        restore();
+        sessionStorage.clear();
+
+    }
+
+});
+
+test("getGamesIndex does not cache an empty catalog (so a transient empty response can't stick)", async () => {
+
+    sessionStorage.clear();
+    let calls = 0;
+
+    const restore = mockFetch(async () => { calls++; return jsonResponse(true, { games: [] }); });
+
+    try {
+
+        await getGamesIndex({ loggedIn: false });
+        await getGamesIndex({ loggedIn: false });
+
+        assert.strictEqual(calls, 2, "an empty result must not be cached");
+
+    } finally {
+
+        restore();
+        sessionStorage.clear();
 
     }
 

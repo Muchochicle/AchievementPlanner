@@ -71,32 +71,32 @@ function createAccountSection() {
 
 }
 
-// A lightweight, no-backend contact mechanism: the form composes a
-// pre-filled mailto: link and hands off to the visitor's own email client
-// - no ticket/support backend exists in this project today, and this app's
-// existing architecture (a static GitHub Pages frontend with no server-
-// side code of its own, plus a small Railway API with no outbound-email
-// capability - no SMTP credentials, no transactional-email API key
-// configured anywhere) makes standing up real email delivery for this
-// alone disproportionate, and would require secrets this app has nowhere
-// safe to keep on a static frontend anyway. The `reason` <select>'s value
-// doubles as both the visible label and the eventual email subject line,
-// which is also the hook a future "verified bug report -> badge" feature
-// (see the Contact & Support idea in the project brief) could key off
-// without changing this markup at all.
+// Task 10 (Contact Us). The form now submits to a real backend endpoint
+// (POST /api/contact - backend/controllers/contactController.js) that
+// persists the message and confirms receipt. That replaces the previous
+// mailto:-only mechanism, which could never actually confirm anything and
+// so showed "we couldn't detect an email app opening..." on a large share
+// of perfectly normal sends. The visitor's own email client is kept as an
+// explicit, clearly-labelled fallback (the mailto: link below, and an
+// automatic fallback in profile.js if the endpoint can't be reached at
+// all) - never presented as the primary path, and never described as
+// "sent" when all that happened is a client opened.
 //
-// The destination is shown as a real, always-present mailto: link
-// (SUPPORT_EMAIL, the one place this address is defined - see
-// contactMailto.js) *before* the form itself - a visitor can see, and even
-// use, the real address without ever touching Send, satisfying "make the
-// destination explicit" independently of whether the form's own JS
-// behaves correctly on their device/browser.
+// Fields: Reason (category), Name (optional), Email (optional - and the
+// UI is explicit that a reply is only possible if it's given), Message
+// (the only required field). The `reason` value doubles as the hook a
+// future "verified bug report -> badge" feature could key off without
+// changing this markup.
 //
-// #contact-form-status is empty markup on first render - src/js/profile.js
-// fills it in only after a real submit attempt (see attemptMailto.js),
-// and its content always describes what actually happened (a mail-client
-// hand-off was attempted; whether one opened is a best-effort guess), never
-// a blanket "message sent" the page has no way to actually confirm.
+// The destination address is shown as a real, always-present mailto: link
+// (SUPPORT_EMAIL, defined once in contactMailto.js) *before* the form, so
+// a visitor can see and use it without ever touching Send.
+//
+// #contact-form-status is empty on first render - src/js/profile.js fills
+// it in only after a real submit attempt, and its content always
+// describes what actually happened (received & stored / invalid input /
+// couldn't reach the server, your mail app was opened instead), never a
+// blanket "message sent" the page can't back up.
 function createContactSection() {
 
     const emailHtml = escapeHtml(SUPPORT_EMAIL);
@@ -110,11 +110,10 @@ function createContactSection() {
             <p class="profile-settings-hint">
 
                 Found a bug, hit something that isn't working, have an
-                account problem, or just want to share an idea? Reach us
+                account problem, or just want to share an idea? Send it
+                straight to the Achievement Planner team below, or email us
                 directly at
-                <a class="contact-email-link" href="mailto:${emailHtml}">${emailHtml}</a>,
-                or fill out the form below - it opens your email app with
-                your message already addressed and pre-filled.
+                <a class="contact-email-link" href="mailto:${emailHtml}">${emailHtml}</a>.
 
             </p>
 
@@ -142,6 +141,59 @@ function createContactSection() {
 
                 <label class="contact-form-field">
 
+                    Name <span class="contact-form-optional">(optional)</span>
+
+                    <input
+
+                        id="contact-name"
+
+                        name="name"
+
+                        type="text"
+
+                        maxlength="120"
+
+                        autocomplete="name"
+
+                        placeholder="What should we call you?"
+
+                    >
+
+                </label>
+
+                <label class="contact-form-field">
+
+                    Email <span class="contact-form-optional">(optional &mdash; required only if you want a reply)</span>
+
+                    <input
+
+                        id="contact-email"
+
+                        name="email"
+
+                        type="email"
+
+                        maxlength="254"
+
+                        autocomplete="email"
+
+                        placeholder="you@example.com"
+
+                        aria-describedby="contact-email-hint"
+
+                    >
+
+                </label>
+
+                <p id="contact-email-hint" class="contact-form-subhint">
+
+                    Leave this blank and we still get your message &mdash; we
+                    just won't be able to reply directly.
+
+                </p>
+
+                <label class="contact-form-field">
+
                     Message
 
                     <textarea
@@ -152,7 +204,7 @@ function createContactSection() {
 
                         rows="4"
 
-                        maxlength="1500"
+                        maxlength="4000"
 
                         placeholder="Describe what happened, or share your idea..."
 
@@ -167,7 +219,7 @@ function createContactSection() {
                     type="submit"
                     class="btn-primary"
                 >
-                    Send
+                    Send message
                 </button>
 
                 <p

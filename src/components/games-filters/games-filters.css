@@ -97,3 +97,139 @@
     font-weight:600;
 
 }
+/* Task 7: sort key <select> + direction toggle button, side by side. */
+.games-sort-controls{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.games-sort-dir{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:12px 14px;
+
+    border:1px solid var(--border-strong);
+
+    border-radius:var(--radius);
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font:inherit;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.games-sort-dir:hover{
+
+    border-color:var(--primary);
+
+}
+
+.games-sort-dir:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
+.games-sort-dir-icon{
+
+    font-size:1rem;
+
+    line-height:1;
+
+}
+
+.games-sort option:disabled{
+
+    color:var(--text-secondary);
+
+}
+
+/* Task 8: per-group "log in to use this" note on the player-specific
+   filter groups. */
+.filter-group-note{
+
+    margin:0 0 6px;
+
+    color:var(--text-secondary);
+
+    font-size:.8rem;
+
+    font-weight:400;
+
+    line-height:1.35;
+
+}
+
+.filters-panel input:disabled + *,
+.filters-panel label:has(input:disabled){
+
+    opacity:.5;
+
+}
+
+/* Task 9: "Show more" pagination control under the grid. */
+.games-show-more-row{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:32px 0 8px;
+
+}
+
+.games-show-more{
+
+    padding:12px 28px;
+
+    border:1px solid var(--border-strong);
+
+    border-radius:999px;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font:inherit;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.games-show-more:hover{
+
+    border-color:var(--primary);
+
+    background:var(--surface-hover);
+
+}
+
+.games-show-more:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}

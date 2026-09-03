@@ -4,6 +4,8 @@
 // exactly; the backend is the source of truth for which categories exist/
 // are valid, this is just how to label and format them.
 
+import { calculateLevel } from "../player/level/levelSystem.js";
+
 export function formatHours(minutes) {
 
     const hours = Math.round((minutes ?? 0) / 60);
@@ -68,6 +70,59 @@ export const GLOBAL_PODIUM_CATEGORIES = [
         description: "Ranked by how many owned games have any recorded playtime.",
         formatValue: value => formatCount(value, "played")
     }
+
+];
+
+// Task 6: two progression leaderboards, served by a different endpoint
+// (/api/podiums/progression/:metric - see podiumsClient.js) and ranked
+// from the synced player_progress blob rather than Steam-fetched data.
+// Keys must match backend/utils/progressionMetrics.js's
+// PROGRESSION_LEADERBOARD_METRICS. Kept a separate list (not merged into
+// GLOBAL_PODIUM_CATEGORIES) precisely because they are a different KIND of
+// ranking - in-app progression, synced from the account, not
+// independently Steam-verified - and podiums.html groups them under their
+// own heading to say so.
+export const PROGRESSION_PODIUM_CATEGORIES = [
+
+    {
+        key: "level",
+        kind: "progression",
+        group: "Your Progression",
+        icon: "⭐",
+        title: "Highest Level",
+        description: "Ranked by AchievementPlanner XP - the same level shown on your Profile. Reflects in-app progression synced from your account.",
+        // Backend ranks by the raw XP total (so ties within a level are
+        // broken by progress into it); shown here as the level it maps to,
+        // using the exact same curve the Profile page uses.
+        formatValue: totalXP => `Level ${calculateLevel(totalXP ?? 0)}`
+    },
+    {
+        key: "longest-streak",
+        kind: "progression",
+        group: "Your Progression",
+        icon: "🔥",
+        title: "Longest Daily Streak",
+        description: "Ranked by the longest run of consecutive days visiting AchievementPlanner.",
+        formatValue: value => {
+
+            const days = value ?? 0;
+
+            return `${days.toLocaleString("en-US")} day${days === 1 ? "" : "s"}`;
+
+        }
+    }
+
+];
+
+// Flat, ordered list of every podium shown on podiums.html, each tagged
+// with its `kind` (which client fn fetches it) and `group` (which heading
+// it renders under). The five Steam categories don't carry those two
+// fields in GLOBAL_PODIUM_CATEGORIES itself (that shape is also imported
+// elsewhere), so they're added here.
+export const ALL_PODIUM_CATEGORIES = [
+
+    ...GLOBAL_PODIUM_CATEGORIES.map(config => ({ ...config, kind: "global", group: "Steam" })),
+    ...PROGRESSION_PODIUM_CATEGORIES
 
 ];
 

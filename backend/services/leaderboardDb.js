@@ -206,6 +206,40 @@ function initSchema(db) {
             ON sessions (expires_at);
     `);
 
+    // Task 10 (Contact Us): a real, server-side inbox for the Contact &
+    // Support form, replacing the previous mailto:-only mechanism (which
+    // could never actually confirm a message was received - see
+    // controllers/contactController.js's header for the full reasoning).
+    // One row per submitted message. reply_email/name are nullable: the
+    // email field is explicitly optional ("required only if you want a
+    // reply"), and there is no name field forced on the user. steam_id is
+    // nullable too - a logged-out visitor can still report a bug. No FK to
+    // users(steam_id) for the same reason player_progress has none: a
+    // visitor may never have hit the Profile page that populates that
+    // table. handled defaults to 0 so a future admin view / "verified bug
+    // -> badge" flow (project brief) has a column to flip without a
+    // migration.
+    db.exec(`
+        CREATE TABLE IF NOT EXISTS contact_messages (
+
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            created_at    TEXT NOT NULL,
+            steam_id      TEXT,
+            reason        TEXT NOT NULL,
+            message       TEXT NOT NULL,
+            reply_email   TEXT,
+            name          TEXT,
+            user_agent    TEXT,
+            handled       INTEGER NOT NULL DEFAULT 0
+
+        );
+    `);
+
+    db.exec(`
+        CREATE INDEX IF NOT EXISTS idx_contact_messages_created_at
+            ON contact_messages (created_at DESC);
+    `);
+
     // No schema-migration mechanism exists beyond these IF-NOT-EXISTS
     // statements - a future column/table addition here would silently
     // no-op against an already-created achievementplanner.db file, with no

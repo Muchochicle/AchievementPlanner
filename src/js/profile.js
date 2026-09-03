@@ -61,6 +61,18 @@ import {
 
 import {
 
+    submitContactMessage
+
+} from "../utils/contact/contactClient.js";
+
+import {
+
+    isValidEmail
+
+} from "../utils/contact/validateEmail.js";
+
+import {
+
     reconcileProgressFromProfileStats
 
 } from "../utils/player/playerProgress.js";
@@ -73,7 +85,8 @@ import {
 
 import {
 
-    getGamesIndex
+    getGamesIndex,
+    clearGamesIndexCache
 
 } from "../utils/gameService.js";
 
@@ -232,61 +245,76 @@ async function init() {
 
                 await logout();
 
+                // Task 9: drop the cached games index so the next visit to
+                // the Games page can't briefly show this account's owned-
+                // library view to the now-logged-out visitor.
+                clearGamesIndexCache();
+
                 window.location.href = "index.html";
 
             });
 
-        // No backend ticket/support system exists in this project - this
-        // hands off to the visitor's own email client with a pre-filled
-        // subject/body instead, matching this app's "lightweight, no new
-        // system" contact mechanism (see profile-settings.js's own header
-        // comment, and contactMailto.js for the address/URL-building
-        // logic this reuses rather than re-typing).
+        // Task 10: the form now submits to a real backend endpoint
+        // (POST /api/contact) that persists the message and confirms
+        // receipt, so the normal path can honestly say "received" - which
+        // the old mailto:-only mechanism never could. The visitor's own
+        // email client is only used as a fallback, when that endpoint
+        // can't be reached at all; only then can the "couldn't detect an
+        // email app" message ever appear. See contactClient.js and
+        // profile-settings.js for the full reasoning.
         document
             .getElementById("contact-form")
-            ?.addEventListener("submit", event => {
+            ?.addEventListener("submit", async event => {
 
                 event.preventDefault();
 
-                const form = event.target;
+                const reasonEl = document.getElementById("contact-reason");
+                const nameEl = document.getElementById("contact-name");
+                const emailEl = document.getElementById("contact-email");
+                const messageEl = document.getElementById("contact-message");
+                const submitBtn = document.getElementById("contact-submit-btn");
+                const statusEl = document.getElementById("contact-form-status");
 
-                // event.preventDefault() above suppresses the browser's own
-                // automatic submit-time validation entirely (compounded by
-                // the form's own `novalidate`, added for exactly this
-                // reason - see profile-settings.js) - reportValidity() re-
-                // triggers that same native required-field check and its
-                // visible/accessible error UI manually, instead of silently
-                // proceeding to build a mailto: link with an empty message.
-                if (!form.reportValidity()) {
+                const reason = reasonEl?.value || "Suggestion / feedback";
+                const name = nameEl?.value.trim() || "";
+                const email = emailEl?.value.trim() || "";
+                const message = messageEl?.value.trim() || "";
 
+                const showStatus = (kind, text) => {
+
+                    if (!statusEl) {
+
+                        return;
+
+                    }
+
+                    statusEl.hidden = false;
+                    statusEl.className = `contact-form-status contact-form-status--${kind}`;
+                    statusEl.textContent = text;
+
+                };
+
+                // Validate here rather than via form.reportValidity():
+                // the email field is type="email", so reportValidity()
+                // would fire the browser's own generic bubble for a
+                // malformed address and short-circuit before our own,
+                // friendlier message ("...clear the field if you don't
+                // need a reply") could show. Message is the only required
+                // field; email is optional but, when present, must look
+                // like an address (never silently dropped).
+                if (!message) {
+
+                    showStatus("error", "Please enter a message before sending.");
+                    messageEl?.focus();
                     return;
 
                 }
 
-                const reason =
-                    document.getElementById("contact-reason")?.value
-                        || "Suggestion / feedback";
+                if (email && !isValidEmail(email)) {
 
-                const message =
-                    document.getElementById("contact-message")?.value.trim()
-                        || "";
-
-                const submitBtn =
-                    document.getElementById("contact-submit-btn");
-
-                const statusEl =
-                    document.getElementById("contact-form-status");
-
-                // Disabled for the duration of the (short, fixed-timeout)
-                // open-attempt below - prevents a double mailto: hand-off
-                // from a second click while the first is still in flight,
-                // and gives immediate feedback that the click registered at
-                // all (the original bug: clicking Send could visibly do
-                // nothing on a device with no mail client configured).
-                if (submitBtn) {
-
-                    submitBtn.disabled = true;
-                    submitBtn.textContent = "Opening email app...";
+                    showStatus("error", "That email address doesn't look right. Fix it, or clear the field if you don't need a reply.");
+                    emailEl?.focus();
+                    return;
 
                 }
 
@@ -296,51 +324,97 @@ async function init() {
 
                 }
 
-                const mailtoUrl =
-                    buildContactMailtoUrl({ reason, message });
+                if (submitBtn) {
 
-                attemptMailto(mailtoUrl).then(likelyOpened => {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = "Sending…";
 
-                    if (submitBtn) {
+                }
 
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = "Send";
+                const result = await submitContactMessage({ reason, message, email, name });
 
-                    }
+                if (submitBtn) {
 
-                    if (!statusEl) {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = "Send message";
 
-                        return;
+                }
 
-                    }
+                // 1. Genuinely received and stored by the backend - the
+                //    only branch that may say "received", and it's true.
+                if (result.status === "ok") {
 
-                    statusEl.hidden = false;
+                    const ref = result.id ? ` (ref #${result.id})` : "";
 
-                    // Never a bare "message sent" - attemptMailto() is a
-                    // best-effort signal (see its own header comment), not
-                    // a delivery confirmation this page has no way to
-                    // actually obtain. Either branch repeats the real
-                    // support address so the visitor always has a working
-                    // fallback, regardless of which way the guess falls.
-                    if (likelyOpened) {
+                    showStatus(
+                        "success",
+                        result.canReply
+                            ? `✅ Message received${ref}. We'll get back to you at ${email} as soon as we can.`
+                            : `✅ Message received${ref}. Thanks! We can't reply directly since no email was provided, but every message is read.`
+                    );
 
-                        statusEl.className =
-                            "contact-form-status contact-form-status--success";
+                    if (messageEl) {
 
-                        statusEl.textContent =
-                            `✅ Your email app should now be open with your message ready - review it and hit send there to deliver it to ${SUPPORT_EMAIL}.`;
-
-                    } else {
-
-                        statusEl.className =
-                            "contact-form-status contact-form-status--error";
-
-                        statusEl.textContent =
-                            `⚠️ We couldn't detect an email app opening on this device. Please email us directly at ${SUPPORT_EMAIL} instead.`;
+                        messageEl.value = "";
 
                     }
 
-                });
+                    return;
+
+                }
+
+                // 2. The server rejected the input (e.g. an email format
+                //    its stricter check caught). Show its reason inline;
+                //    nothing was sent, so no fallback.
+                if (result.status === "invalid") {
+
+                    showStatus("error", `⚠️ ${result.message}`);
+                    return;
+
+                }
+
+                // 3. Couldn't reach the backend at all. NOW fall back to
+                //    the visitor's own email client - and only describe
+                //    what actually happens. The "couldn't detect an email
+                //    app" line is reachable only from here: backend
+                //    unreachable AND no mail client opened.
+                console.error("Contact submission failed, falling back to mailto:", result.error);
+
+                showStatus("info", "Couldn't reach our server just now — opening your email app instead…");
+
+                if (submitBtn) {
+
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = "Opening email app…";
+
+                }
+
+                const likelyOpened = await attemptMailto(
+                    buildContactMailtoUrl({ reason, message })
+                );
+
+                if (submitBtn) {
+
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = "Send message";
+
+                }
+
+                if (likelyOpened) {
+
+                    showStatus(
+                        "success",
+                        `✅ Your email app was opened with your message ready — review it and hit send there to deliver it to ${SUPPORT_EMAIL}.`
+                    );
+
+                } else {
+
+                    showStatus(
+                        "error",
+                        `⚠️ We couldn't reach our server and couldn't open an email app on this device. Please email us directly at ${SUPPORT_EMAIL}.`
+                    );
+
+                }
 
             });
 
@@ -374,7 +448,10 @@ async function init() {
         try {
 
             const [index, statsResult] = await Promise.all([
-                getGamesIndex(),
+                // Task 9: share the short-lived games-index cache with the
+                // Games page. loadGamesSection only runs for a logged-in
+                // session, so the cache key is always the logged-in one.
+                getGamesIndex({ loggedIn: true }),
                 statsPromise
             ]);
 

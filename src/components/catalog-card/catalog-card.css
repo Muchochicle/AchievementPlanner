@@ -152,3 +152,89 @@
     letter-spacing:.02em;
 
 }
+/* Task 9: loading skeleton - same footprint as a real catalog-card so the
+   grid doesn't reflow when real data replaces it. Animation is disabled
+   under prefers-reduced-motion. */
+.catalog-card--skeleton{
+
+    cursor:default;
+
+    pointer-events:none;
+
+}
+
+.catalog-card--skeleton:hover{
+
+    transform:none;
+
+    border-color:var(--border);
+
+    box-shadow:none;
+
+}
+
+.skeleton-block,
+.skeleton-line{
+
+    background:linear-gradient(90deg,var(--surface-hover) 25%,var(--border) 37%,var(--surface-hover) 63%);
+
+    background-size:400% 100%;
+
+    animation:skeleton-shimmer 1.4s ease infinite;
+
+    border-radius:6px;
+
+}
+
+.skeleton-block{
+
+    width:100%;
+
+    aspect-ratio:460/215;
+
+}
+
+.skeleton-line{
+
+    height:14px;
+
+    margin-bottom:12px;
+
+}
+
+.skeleton-line--title{
+
+    height:20px;
+
+    width:70%;
+
+    margin-bottom:18px;
+
+}
+
+.skeleton-line--short{
+
+    width:40%;
+
+    margin-bottom:0;
+
+}
+
+@keyframes skeleton-shimmer{
+
+    0%{background-position:100% 0;}
+
+    100%{background-position:0 0;}
+
+}
+
+@media (prefers-reduced-motion:reduce){
+
+    .skeleton-block,
+    .skeleton-line{
+
+        animation:none;
+
+    }
+
+}

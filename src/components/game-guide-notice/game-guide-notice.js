@@ -1,5 +1,9 @@
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
-import { getGameGuideForSlug } from "../../data/guides/index.js";
+// Task 9: the lightweight manifest (slug/gameSlug per guide), not
+// index.js - this component only needs "does a real guide exist for this
+// game's slug?", never any guide's content. Importing index.js here meant
+// every single game page pulled in all 1000+ guide modules.
+import { getGameGuideSummaryForSlug } from "../../data/guides/manifest.js";
 
 // Resolves the hasGuide inconsistency flagged in PHASE_36_AUDIT.md: a
 // game's hasGuide flag (backend/utils/gameMapper.js, sourced from its
@@ -27,7 +31,7 @@ export function createGameGuideNotice(game) {
 
     const gameTitle = game.name ?? game.title ?? "this game";
 
-    const realGuide = getGameGuideForSlug(game.slug);
+    const realGuide = getGameGuideSummaryForSlug(game.slug);
 
     if (realGuide) {
 

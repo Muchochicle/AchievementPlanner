@@ -58,3 +58,12 @@ export function fetchGlobalPodium(category) {
     return fetchPodium(`${API_URL}/global/${category}`);
 
 }
+
+// Task 6: the progression leaderboards (level, longest-streak) - a
+// distinct backend endpoint from the Steam-backed /global/:category ones,
+// same response shape.
+export function fetchProgressionPodium(metric) {
+
+    return fetchPodium(`${API_URL}/progression/${metric}`);
+
+}

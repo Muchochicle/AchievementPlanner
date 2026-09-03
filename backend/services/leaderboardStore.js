@@ -1,5 +1,10 @@
 import { getLeaderboardDb } from "./leaderboardDb.js";
 import { buildLeaderboardSnapshot } from "../utils/leaderboardSnapshot.js";
+import {
+    PROGRESSION_METRICS,
+    PROGRESSION_LEADERBOARD_METRICS,
+    extractProgressionValue
+} from "../utils/progressionMetrics.js";
 
 // Upserts one user's identity + library snapshot, conditionally updates the
 // (expensive) achievement snapshot, and brings user_game_playtime fully in
@@ -381,5 +386,117 @@ export function getGameLeaderboardSize(db, appid) {
     ).get(appid);
 
     return count;
+
+}
+
+// --- Progression leaderboards (Task 6) --------------------------------
+//
+// "Highest Level" and "Longest Streak" - ranked from the player_progress
+// blob (see progressionMetrics.js's TRUST MODEL note for why these differ
+// from the Steam-verified categories above). Unlike the users-table
+// categories, the ranking value lives inside a JSON string column, so
+// there is no index to ORDER BY and no SQL comparison - every row is read,
+// parsed and sorted in JS here. Fine at this app's scale (one row per
+// player who has ever synced progress); revisit with a materialized
+// column if player_progress ever grows large.
+//
+// INNER JOIN users: a podium row needs a display name + avatar, which
+// player_progress does not carry. A player who synced progress but never
+// visited their Profile page (the only thing that writes a users row) is
+// simply not shown - same "only rank what we can honestly display"
+// stance the Steam categories take with their status filters.
+
+export { PROGRESSION_LEADERBOARD_METRICS };
+
+function readProgressionRows(db, metric) {
+
+    const config = PROGRESSION_METRICS[metric];
+
+    if (!config) {
+
+        throw new Error(`Unknown progression leaderboard metric: ${metric}`);
+
+    }
+
+    const rows = db.prepare(`
+        SELECT
+            p.steam_id     AS steamId,
+            p.state        AS state,
+            u.persona_name AS personaName,
+            u.avatar_url   AS avatarUrl
+        FROM player_progress p
+        JOIN users u ON u.steam_id = p.steam_id
+    `).all();
+
+    const ranked = [];
+
+    for (const row of rows) {
+
+        let parsed;
+
+        try {
+
+            parsed = JSON.parse(row.state);
+
+        } catch {
+
+            continue;
+
+        }
+
+        const value = extractProgressionValue(parsed, metric);
+
+        if (value === null) {
+
+            continue;
+
+        }
+
+        ranked.push({
+            steamId: row.steamId,
+            personaName: row.personaName,
+            avatarUrl: row.avatarUrl,
+            value
+        });
+
+    }
+
+    // Highest value first; steam_id as a stable tie-break so the cutoff is
+    // deterministic across calls, matching getGlobalLeaderboard.
+    ranked.sort((a, b) => b.value - a.value || (a.steamId < b.steamId ? -1 : a.steamId > b.steamId ? 1 : 0));
+
+    return ranked;
+
+}
+
+export function getProgressionLeaderboard(db, metric, { limit = 10 } = {}) {
+
+    return readProgressionRows(db, metric).slice(0, normalizeLimit(limit));
+
+}
+
+export function getUserProgressionRank(db, steamId, metric) {
+
+    const ranked = readProgressionRows(db, metric);
+
+    const mine = ranked.find(row => row.steamId === steamId);
+
+    if (!mine) {
+
+        return null;
+
+    }
+
+    // Competition ranking: ties share a rank (count of strictly-greater
+    // values + 1), same semantics as getUserGlobalRank.
+    const greater = ranked.filter(row => row.value > mine.value).length;
+
+    return { value: mine.value, rank: greater + 1 };
+
+}
+
+export function getProgressionLeaderboardSize(db, metric) {
+
+    return readProgressionRows(db, metric).length;
 
 }

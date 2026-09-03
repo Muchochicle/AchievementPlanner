@@ -7,6 +7,8 @@ import {
 
 import { mapSteamGameSafe } from "../utils/gameMapper.js";
 import { getProfileStats } from "../controllers/profileStatsController.js";
+import { getProfileGameStats } from "../controllers/profileGameStatsController.js";
+import { postContact } from "../controllers/contactController.js";
 import { sendServerError } from "../utils/sendServerError.js";
 
 const router = express.Router();
@@ -81,5 +83,15 @@ export async function getProfileWithDeps(req, res, deps) {
 router.get("/profile", getProfile);
 
 router.get("/profile/stats", getProfileStats);
+
+// Task 7/8: per-game player achievement breakdown (unlocked/total/percent),
+// so the Games page can sort and filter on real player progress. Reuses
+// the exact same cached full-library scan behind /profile/stats - zero
+// extra Steam calls (see controllers/profileGameStatsController.js).
+router.get("/profile/game-stats", getProfileGameStats);
+
+// Task 10: real, server-received contact submissions (see
+// controllers/contactController.js).
+router.post("/contact", postContact);
 
 export default router;

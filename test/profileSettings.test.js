@@ -96,13 +96,55 @@ test("createProfileSettings' contact form has novalidate (submit handling re-val
 
 });
 
-test("createProfileSettings' contact message field caps length so the resulting mailto: URL can't blow past a safe length", () => {
+test("createProfileSettings' contact message field caps length, matching the backend's MESSAGE_MAX (contactValidation.js)", () => {
 
     const html = createProfileSettings();
 
     const textareaMatch = html.match(/<textarea[^>]*id="contact-message"[^>]*>/);
 
-    assert.match(textareaMatch[0], /maxlength="1500"/);
+    assert.match(textareaMatch[0], /maxlength="4000"/);
+
+});
+
+test("createProfileSettings' contact form has an OPTIONAL email field, clearly labelled as reply-only", () => {
+
+    const html = createProfileSettings();
+
+    // The field exists, is type=email, and is NOT marked required.
+    const emailInput = html.match(/<input[^>]*id="contact-email"[^>]*>/);
+    assert.ok(emailInput, "expected an #contact-email input");
+    assert.match(emailInput[0], /type="email"/);
+    assert.doesNotMatch(emailInput[0], /\brequired\b/);
+
+    // The UI makes the "only needed for a reply" contract explicit.
+    assert.match(html, /required only if you want a reply/i);
+    assert.match(html, /we still get your message/i);
+
+});
+
+test("createProfileSettings' contact form has an OPTIONAL name field", () => {
+
+    const html = createProfileSettings();
+
+    const nameInput = html.match(/<input[^>]*id="contact-name"[^>]*>/);
+    assert.ok(nameInput, "expected an #contact-name input");
+    assert.doesNotMatch(nameInput[0], /\brequired\b/);
+
+});
+
+test("createProfileSettings' contact message field is still the only REQUIRED form control", () => {
+
+    const html = createProfileSettings();
+
+    // Every form control tag, then count the ones carrying a `required`
+    // attribute - prose like "required only if you want a reply" must not
+    // count.
+    const controls = html.match(/<(input|textarea|select)\b[^>]*>/g) ?? [];
+
+    const requiredControls = controls.filter(tag => /\srequired(\s|>|\/)/.test(tag));
+
+    assert.strictEqual(requiredControls.length, 1, "exactly one control (the message) should be required");
+    assert.match(requiredControls[0], /id="contact-message"/);
 
 });
 

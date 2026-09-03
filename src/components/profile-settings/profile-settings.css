@@ -139,6 +139,7 @@
 }
 
 .contact-form-field select,
+.contact-form-field input,
 .contact-form-field textarea{
 
     font:inherit;
@@ -158,12 +159,47 @@
 
 }
 
+.contact-form-field input{
+
+    resize:none;
+
+}
+
 .contact-form-field select:focus-visible,
+.contact-form-field input:focus-visible,
 .contact-form-field textarea:focus-visible{
 
     outline:2px solid var(--primary);
 
     outline-offset:2px;
+
+}
+
+/* "(optional)" / "(optional — required only if you want a reply)" tags on
+   a field label - lighter and non-bold so the field name still reads as
+   the label. */
+.contact-form-optional{
+
+    font-weight:400;
+
+    color:var(--text-secondary);
+
+    opacity:.85;
+
+}
+
+/* The one-line explanation directly under the Email field. Sits between
+   two fields, so it gets a little negative top margin to hug the field
+   above it rather than float mid-gap. */
+.contact-form-subhint{
+
+    margin-top:-8px;
+
+    color:var(--text-secondary);
+
+    font-size:.8rem;
+
+    max-width:52ch;
 
 }
 
@@ -224,5 +260,15 @@
 .contact-form-status--error{
 
     border-left-color:var(--border-strong);
+
+}
+
+/* Transient "working on it" state - e.g. "couldn't reach our server,
+   opening your email app instead..." while the mailto: fallback runs. */
+.contact-form-status--info{
+
+    border-left-color:var(--border-strong);
+
+    opacity:.9;
 
 }

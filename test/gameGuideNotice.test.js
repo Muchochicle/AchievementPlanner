@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert";
 
 import { createGameGuideNotice } from "../src/components/game-guide-notice/game-guide-notice.js";
-import { GAME_GUIDES } from "../src/data/guides/index.js";
+import { GAME_GUIDE_SUMMARIES } from "../src/data/guides/manifest.js";
 
 test("createGameGuideNotice renders nothing when the game has no guide planned at all", () => {
 
@@ -78,7 +78,7 @@ test("createGameGuideNotice links to a real guide once one exists for that game'
         sections: [{ heading: "N/A", body: ["N/A"] }]
     };
 
-    GAME_GUIDES.push(fixture);
+    GAME_GUIDE_SUMMARIES.push(fixture);
 
     try {
 
@@ -90,11 +90,11 @@ test("createGameGuideNotice links to a real guide once one exists for that game'
 
     } finally {
 
-        const index = GAME_GUIDES.indexOf(fixture);
+        const index = GAME_GUIDE_SUMMARIES.indexOf(fixture);
 
         if (index !== -1) {
 
-            GAME_GUIDES.splice(index, 1);
+            GAME_GUIDE_SUMMARIES.splice(index, 1);
 
         }
 

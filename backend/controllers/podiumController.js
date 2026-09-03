@@ -6,7 +6,11 @@ import {
     getGlobalLeaderboard,
     getUserGlobalRank,
     getGlobalLeaderboardSize,
-    GLOBAL_LEADERBOARD_CATEGORIES
+    GLOBAL_LEADERBOARD_CATEGORIES,
+    getProgressionLeaderboard,
+    getUserProgressionRank,
+    getProgressionLeaderboardSize,
+    PROGRESSION_LEADERBOARD_METRICS
 } from "../services/leaderboardStore.js";
 import { sendServerError } from "../utils/sendServerError.js";
 
@@ -130,6 +134,47 @@ export const getGlobalPodium = withErrorHandling((req, res) => {
         top10,
         me,
         totalRanked: getGlobalLeaderboardSize(db, category),
+        loggedIn: viewerSteamId != null
+
+    });
+
+});
+
+// GET /api/podiums/progression/:metric - "level" or "longest-streak",
+// ranked from the synced player_progress blob (see progressionMetrics.js's
+// TRUST MODEL note). Same public/`me` shape as getGlobalPodium.
+export const getProgressionPodium = withErrorHandling((req, res) => {
+
+    const { metric } = req.params;
+
+    if (!PROGRESSION_LEADERBOARD_METRICS.includes(metric)) {
+
+        return res.status(400).json({
+
+            success: false,
+
+            message: `Unknown progression leaderboard metric: ${metric}`
+
+        });
+
+    }
+
+    const db = getLeaderboardDb();
+    const viewerSteamId = getViewerSteamId(req);
+
+    const top10 = getProgressionLeaderboard(db, metric, { limit: 10 })
+        .map(row => toPublicRow(row, viewerSteamId, "value"));
+
+    const me = viewerSteamId ? getUserProgressionRank(db, viewerSteamId, metric) : null;
+
+    res.json({
+
+        success: true,
+
+        metric,
+        top10,
+        me,
+        totalRanked: getProgressionLeaderboardSize(db, metric),
         loggedIn: viewerSteamId != null
 
     });

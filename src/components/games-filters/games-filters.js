@@ -1,3 +1,12 @@
+// Task 7: richer sort UI - a key <select> plus an Asc/Desc direction
+// toggle button. games.js reads `.games-sort` (the key) and
+// `.games-sort-dir` (data-direction) and re-runs the in-memory
+// search->filter->sort pipeline; nothing reloads.
+//
+// Options marked data-player-sort="true" need live Steam per-game player
+// data (/api/profile/game-stats). games.js disables them until that data
+// is in (logged-out visitors, or the brief window before it loads), so a
+// visitor can't pick a sort that has no data behind it.
 export function createGamesFilters() {
 
     return `
@@ -18,37 +27,52 @@ export function createGamesFilters() {
                     class="games-counter"
                 >
 
-                    Showing 0 games
+                    Loading…
 
                 </span>
 
-                <label>
+                <div class="games-sort-controls">
 
-                    Sort by
+                    <label>
 
-                    <select class="games-sort">
+                        Sort by
 
-                        <option value="name">
+                        <select class="games-sort">
 
-                            Alphabetical
+                            <option value="name">Name</option>
 
-                        </option>
+                            <option value="playtime" data-player-sort="true">Hours played</option>
 
-                        <option value="difficulty">
+                            <option value="completion-percent" data-player-sort="true">Completion %</option>
 
-                            Difficulty
+                            <option value="achievements-completed" data-player-sort="true">Achievements completed</option>
 
-                        </option>
+                            <option value="completion-status" data-player-sort="true">Completed 100%</option>
 
-                        <option value="time">
+                            <option value="achievements-total">Total achievements</option>
 
-                            Completion Time
+                            <option value="difficulty">Difficulty</option>
 
-                        </option>
+                            <option value="time">Completion time</option>
 
-                    </select>
+                        </select>
 
-                </label>
+                    </label>
+
+                    <button
+                        type="button"
+                        class="games-sort-dir"
+                        data-direction="asc"
+                        aria-label="Sort direction: ascending"
+                        title="Toggle ascending / descending"
+                    >
+
+                        <span class="games-sort-dir-icon" aria-hidden="true">↑</span>
+                        <span class="games-sort-dir-text">A–Z</span>
+
+                    </button>
+
+                </div>
 
             </div>
 

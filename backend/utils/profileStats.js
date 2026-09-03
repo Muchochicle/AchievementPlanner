@@ -40,6 +40,15 @@ export function reduceProfileStats(settledResults, slugs = []) {
     let gamesWithTransientErrors = 0;
     const completedGameSlugs = [];
 
+    // Task 7/8: per-game player achievement breakdown, one entry per game
+    // that returned a real, confirmed answer from Steam (schema available
+    // AND player data available). Consumed by GET /api/profile/game-stats
+    // so the Games page can sort/filter on actual player progress. Games
+    // whose data was unavailable/transient are deliberately omitted rather
+    // than emitted as a fabricated 0% - the Games page treats "no entry"
+    // as "unknown", never as "zero".
+    const perGameCompletion = [];
+
     for (let i = 0; i < settledResults.length; i++) {
 
         const result = settledResults[i];
@@ -102,11 +111,25 @@ export function reduceProfileStats(settledResults, slugs = []) {
 
         }
 
+        const slug = slugs[i];
+
+        if (slug) {
+
+            // percent is null (not 0) for a game with no achievements at
+            // all, so the Games page can tell "0 of 0" apart from "0 of
+            // 30" when sorting/filtering by completion percentage.
+            perGameCompletion.push({
+                slug,
+                unlocked: completed,
+                total,
+                percent: total > 0 ? Math.round((completed / total) * 100) : null
+            });
+
+        }
+
         if (total > 0 && completed === total) {
 
             completedGames++;
-
-            const slug = slugs[i];
 
             if (slug) {
 
@@ -125,6 +148,7 @@ export function reduceProfileStats(settledResults, slugs = []) {
         gamesWithAchievements,
         completedGames,
         completedGameSlugs,
+        perGameCompletion,
         gamesConsidered: settledResults.length,
         gamesWithPlayerDataUnavailable,
         gamesWithTransientErrors

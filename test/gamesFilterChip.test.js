@@ -17,6 +17,12 @@ globalThis.document = {
     }
 };
 
+// init()'s catalog fetch would otherwise attempt a real localhost network
+// call that resolves after this (pure-function) test has already ended,
+// tripping the runner's "async activity after the test" guard. A stub
+// rejection keeps that failure entirely inside init()'s own try/catch.
+globalThis.fetch = () => Promise.reject(new Error("no network in this unit test"));
+
 // PHASE_50_AUDIT.md Finding 12: every active-filter chip's remove button
 // used to share the identical, non-distinguishing aria-label="Remove
 // filter" regardless of which filter it removed - a screen-reader user
