@@ -48,6 +48,19 @@ import {
 
 import {
 
+    SUPPORT_EMAIL,
+    buildContactMailtoUrl
+
+} from "../utils/contact/contactMailto.js";
+
+import {
+
+    attemptMailto
+
+} from "../utils/contact/attemptMailto.js";
+
+import {
+
     reconcileProgressFromProfileStats
 
 } from "../utils/player/playerProgress.js";
@@ -227,29 +240,107 @@ async function init() {
         // hands off to the visitor's own email client with a pre-filled
         // subject/body instead, matching this app's "lightweight, no new
         // system" contact mechanism (see profile-settings.js's own header
-        // comment).
+        // comment, and contactMailto.js for the address/URL-building
+        // logic this reuses rather than re-typing).
         document
             .getElementById("contact-form")
             ?.addEventListener("submit", event => {
 
                 event.preventDefault();
 
+                const form = event.target;
+
+                // event.preventDefault() above suppresses the browser's own
+                // automatic submit-time validation entirely (compounded by
+                // the form's own `novalidate`, added for exactly this
+                // reason - see profile-settings.js) - reportValidity() re-
+                // triggers that same native required-field check and its
+                // visible/accessible error UI manually, instead of silently
+                // proceeding to build a mailto: link with an empty message.
+                if (!form.reportValidity()) {
+
+                    return;
+
+                }
+
                 const reason =
                     document.getElementById("contact-reason")?.value
                         || "Suggestion / feedback";
 
                 const message =
-                    document.getElementById("contact-message")?.value
+                    document.getElementById("contact-message")?.value.trim()
                         || "";
 
-                const subject =
-                    encodeURIComponent(`AchievementPlanner - ${reason}`);
+                const submitBtn =
+                    document.getElementById("contact-submit-btn");
 
-                const body =
-                    encodeURIComponent(message);
+                const statusEl =
+                    document.getElementById("contact-form-status");
 
-                window.location.href =
-                    `mailto:support@achievementplanner.app?subject=${subject}&body=${body}`;
+                // Disabled for the duration of the (short, fixed-timeout)
+                // open-attempt below - prevents a double mailto: hand-off
+                // from a second click while the first is still in flight,
+                // and gives immediate feedback that the click registered at
+                // all (the original bug: clicking Send could visibly do
+                // nothing on a device with no mail client configured).
+                if (submitBtn) {
+
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = "Opening email app...";
+
+                }
+
+                if (statusEl) {
+
+                    statusEl.hidden = true;
+
+                }
+
+                const mailtoUrl =
+                    buildContactMailtoUrl({ reason, message });
+
+                attemptMailto(mailtoUrl).then(likelyOpened => {
+
+                    if (submitBtn) {
+
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = "Send";
+
+                    }
+
+                    if (!statusEl) {
+
+                        return;
+
+                    }
+
+                    statusEl.hidden = false;
+
+                    // Never a bare "message sent" - attemptMailto() is a
+                    // best-effort signal (see its own header comment), not
+                    // a delivery confirmation this page has no way to
+                    // actually obtain. Either branch repeats the real
+                    // support address so the visitor always has a working
+                    // fallback, regardless of which way the guess falls.
+                    if (likelyOpened) {
+
+                        statusEl.className =
+                            "contact-form-status contact-form-status--success";
+
+                        statusEl.textContent =
+                            `✅ Your email app should now be open with your message ready - review it and hit send there to deliver it to ${SUPPORT_EMAIL}.`;
+
+                    } else {
+
+                        statusEl.className =
+                            "contact-form-status contact-form-status--error";
+
+                        statusEl.textContent =
+                            `⚠️ We couldn't detect an email app opening on this device. Please email us directly at ${SUPPORT_EMAIL} instead.`;
+
+                    }
+
+                });
 
             });
 

@@ -172,3 +172,57 @@
     align-self:flex-start;
 
 }
+
+.contact-form .btn-primary:disabled{
+
+    opacity:.7;
+
+    cursor:default;
+
+}
+
+.contact-email-link{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
+/* Deliberately not color-coded red/green (this app has no such tokens -
+   see variables.css) to match its existing "honest, plainly-worded status
+   text" language (.state-message, .profile-badges-empty) rather than
+   introducing a one-off success/error palette. The two states are
+   distinguished by their leading icon/wording instead, and both always
+   repeat the real support address (see src/js/profile.js) - this is a
+   best-effort signal about a mailto: hand-off, never a guaranteed
+   delivery receipt, so neither state is styled to look more "final" than
+   the other. */
+.contact-form-status{
+
+    padding:12px 14px;
+
+    background:var(--background);
+
+    border:1px solid var(--border);
+    border-left-width:3px;
+
+    border-radius:var(--radius);
+
+    color:var(--text);
+
+    font-size:.85rem;
+
+}
+
+.contact-form-status--success{
+
+    border-left-color:var(--primary);
+
+}
+
+.contact-form-status--error{
+
+    border-left-color:var(--border-strong);
+
+}
