@@ -14,21 +14,23 @@ import {
 
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
-// Unlock requirements as implemented in playerProgress.js checkPlayerUnlocks -
-// kept in sync manually since there is no shared source of truth to read from.
-const AVATAR_REQUIREMENTS = {
+// Reads each avatar's own requiredAchievements straight off the AVATARS
+// catalog (src/data/player/avatars.js) - the same field
+// playerProgress.js's checkPlayerUnlocks() actually gates unlocking on -
+// instead of keeping a second, hand-maintained copy of these numbers here.
+// That copy used to describe level/completedGames-based requirements that
+// no longer match what actually unlocks each avatar.
+function describeRequirement(avatar) {
 
-    rookie: "Reach Level 5",
+    if (typeof avatar.requiredAchievements !== "number") {
 
-    explorer: "Reach Level 10",
+        return "Locked";
 
-    veteran: "Complete 5 games",
+    }
 
-    master: "Complete 100 achievements",
+    return `Complete ${avatar.requiredAchievements} achievements`;
 
-    legend: "Complete 500 achievements"
-
-};
+}
 
 export function createAvatarPicker() {
 
@@ -42,7 +44,7 @@ export function createAvatarPicker() {
 
         const equipped = item.id === current.id;
 
-        const requirement = AVATAR_REQUIREMENTS[item.id];
+        const requirement = describeRequirement(item);
 
         const stateClass = [
             "avatar-tile",

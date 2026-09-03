@@ -43,8 +43,8 @@ export const SHIPPED_HIGHLIGHTS = [
         body: "Logging in with Steam now survives a server restart - you stay logged in through routine maintenance and redeploys, not just until the process happens to restart."
     },
     {
-        title: "A real log out button",
-        body: "A \"Log out\" control now sits right next to your player widget in the nav on every page - no more waiting out the 24-hour session expiry to end a session early on a shared or public computer."
+        title: "A real Settings section",
+        body: "Your Profile page now has a Settings section with account controls (including logging out) and a way to contact us directly about a bug, a problem with your account, or a suggestion - no more waiting out the 24-hour session expiry to end a session early on a shared or public computer."
     },
     {
         title: "Written achievement guides for every game",

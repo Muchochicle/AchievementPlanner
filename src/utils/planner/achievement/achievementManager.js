@@ -10,6 +10,12 @@ import {
 
 import {
 
+    XP_PER_ACHIEVEMENT
+
+} from "../../player/xpValues.js";
+
+import {
+
     checkGameCompletion
 
 } from "../game/gameCompletion.js";
@@ -46,7 +52,7 @@ export function syncAchievementCompletion(game, slug) {
 
             completeAchievement();
 
-            addXP(50);
+            addXP(XP_PER_ACHIEVEMENT);
 
         }
 

@@ -23,9 +23,9 @@ export const GUIDE = {
             heading: "The Five Stat Cards",
             body: [
                 "Achievements is the total number of curated planner achievements Steam has confirmed you've unlocked, added up across every owned game that has one.",
-                "Games is your actual Steam library size - every game you own, not just the ones you've played or that have any achievements at all. The line underneath it breaks that number down further: how many you've played, how many you've 100%-completed, and how many report having Steam achievements in the first place.",
-                "100% is how many of your owned games you've fully completed (every one of their Steam achievements unlocked).",
-                "Total XP and Avatars are AchievementPlanner's own local progress system, not Steam data - see the Player Progress guide for what earns XP and unlocks avatars."
+                "Games is your actual Steam library size - every game you own, not just the ones you've played or that have any achievements at all. The line underneath it breaks that number down further: how many you've played, and how many report having Steam achievements in the first place. How many you've 100%-completed isn't repeated there - that lives on its own dedicated 100% card, described next.",
+                "100% is how many of your owned games you've fully completed (every one of their Steam achievements unlocked) - the one place on this page that stat is shown.",
+                "Total XP and Avatars build on that same Steam-confirmed achievement/completion data, but the XP curve, levels, and which avatars you've unlocked are all tracked by AchievementPlanner itself, not Steam - see the Player Progress guide for exactly what earns XP and unlocks each avatar."
             ]
         },
 

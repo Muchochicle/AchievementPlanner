@@ -19,6 +19,18 @@ import {
 
 } from "../achievement/completion.js";
 
+import {
+
+    XP_PER_GAME_COMPLETION
+
+} from "../../player/xpValues.js";
+
+import {
+
+    PERFECTIONIST_BADGE
+
+} from "../../player/playerProgress.js";
+
 export function checkGameCompletion(game) {
 
     if (
@@ -75,11 +87,11 @@ export function checkGameCompletion(game) {
 
     completeGame();
 
-    addXP(300);
+    addXP(XP_PER_GAME_COMPLETION);
 
     unlockBadge(
 
-        "Perfectionist"
+        PERFECTIONIST_BADGE
 
     );
 

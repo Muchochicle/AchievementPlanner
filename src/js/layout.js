@@ -3,8 +3,7 @@ import {
 } from "../components/navbar/navbar.js";
 
 import {
-    getSteamSession,
-    logout
+    getSteamSession
 } from "../utils/steam/steamSession.js";
 
 import {
@@ -48,20 +47,10 @@ function renderNavbar(navbar, session) {
 
         });
 
-    // Best-effort on the server call (logout() never throws - see its own
-    // header comment) - the redirect to index.html always happens either
-    // way, since from the user's point of view clicking "Log out" must
-    // always visibly do something, and index.html is safe to land on
-    // regardless of whether the session ended up cleared server-side.
-    document
-        .getElementById("logout-btn")
-        ?.addEventListener("click", async () => {
-
-            await logout();
-
-            window.location.href = "index.html";
-
-        });
+    // Logout itself is no longer wired up here - it moved out of the
+    // navbar entirely and into the Profile page's Settings section (see
+    // src/js/profile.js and components/profile-settings/profile-settings.js).
+    // The navbar stays focused on navigation and the compact player-widget.
 
 }
 

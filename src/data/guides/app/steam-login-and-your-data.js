@@ -6,11 +6,10 @@
 // persisted beyond the session: an aggregate stats snapshot per steam_id,
 // written only when you visit Profile - see the Podiums guide),
 // backend/utils/cache.js and steamApi.js's own per-endpoint TTL comments
-// (achievement schema data cached ~24h server-side). Also verified there
-// is no logout route or logout UI anywhere in this app (checked
-// backend/routes/steam.js and grepped the whole frontend/backend for
-// "logout") - not describing a feature that doesn't exist. New in
-// Phase 37.
+// (achievement schema data cached ~24h server-side). New in Phase 37;
+// Session Length updated once a real logout route/control shipped
+// (Phase 77 added it to the navbar; it later moved to the Profile page's
+// Settings section - see components/profile-settings/profile-settings.js).
 export const GUIDE = {
 
     slug: "steam-login-and-your-data",
@@ -48,7 +47,7 @@ export const GUIDE = {
         {
             heading: "Session Length",
             body: [
-                "You stay logged in for 24 hours. There's no logout button in AchievementPlanner right now - your session simply expires after that window, or you can clear this site's cookies in your browser to end it immediately yourself."
+                "You stay logged in for 24 hours, or until you log out yourself. The logout control lives in your Profile page's Settings section (not the navbar) - open Profile and scroll down to Settings whenever you want to end your session early, for example on a shared or public computer."
             ]
         }
 

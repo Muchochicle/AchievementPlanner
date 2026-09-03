@@ -66,7 +66,10 @@ test("renderProfileStatsState renders the explicit ready state's numbers and hid
 
         assert.strictEqual(elements["profile-stat-achievements"].textContent, 1185);
         assert.strictEqual(elements["profile-stat-games-owned"].textContent, 146);
-        assert.strictEqual(elements["profile-stat-games-sub"].textContent, "56 played · 3 completed · 87 with achievements");
+        // "completed" is deliberately not repeated in the Games card's
+        // sub-line - the dedicated "100%" card (profile-stat-completed-games)
+        // is this page's one source of truth for that stat.
+        assert.strictEqual(elements["profile-stat-games-sub"].textContent, "56 played · 87 with achievements");
         assert.strictEqual(elements["profile-stat-completed-games"].textContent, 3);
         assert.strictEqual(elements["profile-stats-status"].hidden, true);
 

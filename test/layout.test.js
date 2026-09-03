@@ -398,7 +398,11 @@ test("refreshPlayerWidget does not throw when #navbar is absent from the page", 
 
 });
 
-test("the logout button renders only for a logged-in session", async () => {
+// Logout moved out of the navbar entirely and into the Profile page's own
+// Settings section (see test/profileSettings.test.js for its coverage) -
+// this is now a regression guard that the navbar never grows the control
+// back, for any session state.
+test("the navbar never renders a logout button, logged in or out", async () => {
 
     fetchSession = { logged: false };
 
@@ -410,39 +414,8 @@ test("the logout button renders only for a logged-in session", async () => {
 
     await loadNavbar();
 
-    assert.match(navbarHTML, /id="logout-btn"/);
-
-});
-
-test("clicking the logout button POSTs to /auth/steam/logout with credentials, then redirects to index.html", async () => {
-
-    fetchSession = STEAM_SESSION;
-
-    await loadNavbar();
-
-    window.location.href = "";
-
-    await document.getElementById("logout-btn").click();
-
-    assert.strictEqual(logoutFetchCount, 1);
-    assert.strictEqual(logoutFetchOptions.method, "POST");
-    assert.strictEqual(logoutFetchOptions.credentials, "include");
-    assert.strictEqual(window.location.href, "index.html");
-
-});
-
-test("clicking the logout button still redirects to index.html even when the logout request fails (best-effort)", async () => {
-
-    fetchSession = STEAM_SESSION;
-
-    await loadNavbar();
-
-    window.location.href = "";
-    logoutShouldThrow = true;
-
-    await document.getElementById("logout-btn").click();
-
-    assert.strictEqual(window.location.href, "index.html");
+    assert.doesNotMatch(navbarHTML, /id="logout-btn"/);
+    assert.strictEqual(logoutFetchCount, 0, "the navbar itself must never call the logout endpoint");
 
 });
 

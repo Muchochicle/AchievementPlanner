@@ -23,12 +23,12 @@ test("createProfileBadges shows the empty state and no list when the player has 
 
     const html = createProfileBadges();
 
-    assert.match(html, /No badges earned yet\. 100%-complete a game to earn your first badge\./);
+    assert.match(html, /No badges earned yet\. Keep a daily streak going, or 100%-complete a game, to earn your first badge\./);
     assert.doesNotMatch(html, /profile-badges-list/);
 
 });
 
-test("createProfileBadges renders a single earned badge in the list, not the empty state", () => {
+test("createProfileBadges renders a single earned badge in the list, not the empty state, with its own icon", () => {
 
     resetPlayer();
     unlockBadge("Perfectionist");
@@ -36,25 +36,29 @@ test("createProfileBadges renders a single earned badge in the list, not the emp
     const html = createProfileBadges();
 
     assert.match(html, /<ul class="profile-badges-list">/);
-    assert.match(html, /<li class="profile-badge">🏅 Perfectionist<\/li>/);
+    assert.match(html, /<li class="profile-badge">🏆 Perfectionist<\/li>/);
     assert.doesNotMatch(html, /No badges earned yet/);
 
 });
 
-test("createProfileBadges renders every earned badge, in the order they're stored", () => {
+test("createProfileBadges renders every earned badge, in the order they're stored, and falls back to a plain medal for an unrecognized name", () => {
 
     resetPlayer();
 
     const player = getPlayer();
-    player.badges = ["Perfectionist", "Speedrunner"];
+    player.badges = ["Perfectionist", "Committed", "Speedrunner"];
     savePlayer(player);
 
     const html = createProfileBadges();
 
-    const matches = [...html.matchAll(/<li class="profile-badge">🏅 ([^<]*)<\/li>/g)]
-        .map(match => match[1]);
+    const matches = [...html.matchAll(/<li class="profile-badge">(.*?) ([^<]*)<\/li>/g)]
+        .map(match => [match[2], match[1]]);
 
-    assert.deepStrictEqual(matches, ["Perfectionist", "Speedrunner"]);
+    assert.deepStrictEqual(matches, [
+        ["Perfectionist", "🏆"],
+        ["Committed", "🔥"],
+        ["Speedrunner", "🏅"]
+    ]);
 
 });
 

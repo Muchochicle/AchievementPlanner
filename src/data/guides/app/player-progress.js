@@ -4,12 +4,14 @@
 // src/utils/planner/game/gameCompletion.js (+300 XP and the "Perfectionist"
 // badge on 100% game completion), src/utils/player/level/levelSystem.js
 // (the level^2*100 XP curve), src/utils/player/titles/titleSystem.js
-// (title thresholds), src/utils/player/playerProgress.js (avatar unlock
-// thresholds), and src/data/player/avatars.js (avatar id -> display name,
-// including which one is unlocked by default). Rewritten in Phase 37 to
-// add the default-avatar fact, the localStorage-loss caveat, and a full
-// unlock list - folding in the "more detail" request rather than a
-// separate guide.
+// (title thresholds), src/data/player/avatars.js (each avatar's
+// requiredAchievements threshold and display name, including which one is
+// unlocked by default), src/utils/player/playerProgress.js
+// (checkPlayerUnlocks/checkBadgeUnlocks/reconcileProgressFromProfileStats -
+// avatars gated on completedAchievements only, streak badge tiers), and
+// src/utils/player/streak/streakManager.js (the daily-activity streak
+// itself). Updated when avatars moved from a level/completedGames mix to
+// achievements-only, and streak-based badges were added.
 export const GUIDE = {
 
     slug: "player-progress",
@@ -33,8 +35,8 @@ export const GUIDE = {
         {
             heading: "Earning XP",
             body: [
-                "You earn 50 XP the moment Steam confirms you've unlocked an achievement that's part of a game's curated planner (each achievement counts once).",
-                "Completing every planner achievement in a game grants a 300 XP bonus, on top of what you already earned unlocking them individually."
+                "You earn 50 XP the moment Steam confirms you've unlocked an achievement that's part of a game's curated planner (each achievement counts once), and a 300 XP bonus the moment you 100%-complete that game's whole curated list.",
+                "Visiting your Profile page also brings your XP in sync with your entire Steam library, not just the games you've opened here - so achievements and 100%-completions earned anywhere on Steam still count, even for a game you've never opened in AchievementPlanner."
             ]
         },
 
@@ -50,16 +52,16 @@ export const GUIDE = {
             heading: "Avatars - The Full List",
             body: [
                 "Anonymous is unlocked from the very start - it's what every new player has equipped by default, before earning anything.",
-                "Recruit unlocks at level 5, and Pathfinder at level 10 - both purely level-based.",
-                "Veteran unlocks once you've 100%-completed 5 games (a game only counts once it's fully done, not partway through).",
-                "Elite unlocks at 100 total achievements unlocked, and Legend at 500 - both counted from the same curated-achievement total that earns you XP, not from Steam's own achievement counters."
+                "Every other avatar is earned purely by completing achievements - never by your level, and never by how many games you've finished. Recruit unlocks at 100 completed achievements, Pathfinder at 250, Veteran at 500, Elite at 1,000, and Legend at 2,000.",
+                "These thresholds count the same total shown on your Profile's Achievements card - your entire Steam-confirmed achievement history, not just what you've unlocked inside AchievementPlanner."
             ]
         },
 
         {
             heading: "Badges",
             body: [
-                "AchievementPlanner currently awards one badge, \"Perfectionist\", the first time you 100%-complete any game with a curated planner - the same milestone that grants the 300 XP completion bonus above."
+                "AchievementPlanner awards the \"Perfectionist\" badge the first time you 100%-complete any game - the same milestone that grants the 300 XP completion bonus above.",
+                "It also tracks a daily activity streak: visiting your Profile on consecutive days grows it, and reaching 3, 7, or 30 days in a row earns the Committed, Dedicated, and Unstoppable badges. Once earned, a badge is yours to keep even if you later miss a day and the streak resets."
             ]
         },
 

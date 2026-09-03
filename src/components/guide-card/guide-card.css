@@ -16,6 +16,45 @@
 
 }
 
+.guides-search-row{
+
+    margin-bottom:var(--spacing-md);
+
+}
+
+/* Visually matches games.html's own search input (.games-search,
+   games-filters.css) so the two "search a catalog by title" inputs in
+   this app look and feel identical - kept as its own class rather than
+   sharing that one directly, since this page's search is scoped to the
+   Game Guides catalog, not the games catalog itself. */
+.guides-search-input{
+
+    width:100%;
+
+    padding:16px 20px;
+
+    border:1px solid var(--border-strong);
+
+    border-radius:var(--radius);
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    font:inherit;
+
+    font-size:1rem;
+
+}
+
+.guides-search-input:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
 .guide-card{
 
     display:flex;

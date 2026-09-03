@@ -13,6 +13,11 @@ import {
     createProfileBadges
 
 } from "../profile-badges/profile-badges.js";
+import {
+
+    createProfileSettings
+
+} from "../profile-settings/profile-settings.js";
 
 export function createProfilePage() {
 
@@ -27,6 +32,8 @@ export function createProfilePage() {
             ${createProfileBadges()}
 
             <div id="profile-sections"></div>
+
+            ${createProfileSettings()}
 
         </section>
 

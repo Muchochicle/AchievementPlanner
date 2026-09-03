@@ -22,7 +22,7 @@ export function createNavbar(
 ) {
 
     const rightContent = session?.logged
-        ? `${createPlayerWidget(session)}${createLogoutButton()}`
+        ? createPlayerWidget(session)
         : createLoginButton();
 
     return `
@@ -64,10 +64,10 @@ export function createNavbar(
 // gating). A sibling of .navbar-account, not a child of it - the mobile
 // layout (navbar.css) uses CSS Grid with `order` to place this on the far
 // left, the logo centered, and .navbar-account (login button, or player
-// widget + logout button) on the right, independent of this markup order.
-// Wired up in layout.js's renderNavbar, the same place every other navbar
-// control's click listener is attached, since innerHTML replacement
-// discards it on every re-render.
+// widget) on the right, independent of this markup order. Wired up in
+// layout.js's renderNavbar, the same place every other navbar control's
+// click listener is attached, since innerHTML replacement discards it on
+// every re-render.
 function createNavToggle() {
 
     return `
@@ -102,22 +102,3 @@ function createLoginButton() {
 
 }
 
-// A plain <button> (not a link - this triggers a POST via fetch, not a
-// navigation) wired up by layout.js's renderNavbar, matching the
-// player-widget's own click-handler-attached-after-innerHTML pattern right
-// below it in that file.
-function createLogoutButton() {
-
-    return `
-
-        <button
-            id="logout-btn"
-            class="logout-btn"
-            type="button"
-        >
-            Log out
-        </button>
-
-    `;
-
-}

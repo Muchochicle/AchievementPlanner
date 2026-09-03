@@ -15,11 +15,12 @@ export async function getSteamSession() {
 }
 
 // Same {status: "ready"|"error"} shape as playerProgressClient.js's
-// fetch/save functions. Deliberately never throws - callers (layout.js's
-// logout-btn handler) always proceed to redirect afterward regardless of
-// whether the server call itself succeeded, since a network failure here
-// just means the session cookie stays valid a little longer, not that the
-// logout click should appear to do nothing.
+// fetch/save functions. Deliberately never throws - callers (profile.js's
+// settings-logout-btn handler, in the Profile page's Settings section)
+// always proceed to redirect afterward regardless of whether the server
+// call itself succeeded, since a network failure here just means the
+// session cookie stays valid a little longer, not that the logout click
+// should appear to do nothing.
 export async function logout() {
 
     try {

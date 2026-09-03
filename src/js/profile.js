@@ -24,9 +24,39 @@ import {
 
 import {
 
+    createProfileBadges
+
+} from "../components/profile-badges/profile-badges.js";
+
+import {
+
+    createProfileSettings
+
+} from "../components/profile-settings/profile-settings.js";
+
+import {
+
     equipAvatar
 
 } from "../utils/player/avatar/avatarManager.js";
+
+import {
+
+    logout
+
+} from "../utils/steam/steamSession.js";
+
+import {
+
+    reconcileProgressFromProfileStats
+
+} from "../utils/player/playerProgress.js";
+
+import {
+
+    recordDailyActivity
+
+} from "../utils/player/streak/streakManager.js";
 
 import {
 
@@ -79,6 +109,12 @@ async function init() {
     // (Phase 69).
     try {
 
+        // Local-only (no network) - records today's activity toward the
+        // daily streak and grants any newly-earned streak badge, before
+        // the very first render below so it's never a stale extra
+        // "reload to see it" step (see streak/streakManager.js).
+        recordDailyActivity();
+
         refresh();
 
     } catch (error) {
@@ -111,6 +147,21 @@ async function init() {
         document.querySelector(".profile-header").outerHTML =
             createProfileHeader(session);
 
+        // Re-rendered alongside the header for the same reason: totalXP/
+        // completedAchievements/completedGames/streaks can all change
+        // between calls (recordDailyActivity() above, or
+        // reconcileProgressFromProfileStats() once live Steam stats come
+        // back below), and a newly-earned badge should show up immediately,
+        // not just after a later reload.
+        const badgesSection =
+            document.querySelector(".profile-badges");
+
+        if (badgesSection) {
+
+            badgesSection.outerHTML = createProfileBadges();
+
+        }
+
         const avatarPicker =
 
             document.getElementById("avatar-picker");
@@ -135,6 +186,72 @@ async function init() {
             };
 
         }
+
+        const settingsSection =
+
+            document.querySelector(".profile-settings");
+
+        if (settingsSection) {
+
+            settingsSection.outerHTML = createProfileSettings(session);
+
+            wireProfileSettings();
+
+        }
+
+    }
+
+    // Re-attaches the logout/contact handlers every time .profile-settings
+    // is re-rendered (outerHTML replacement discards whatever listeners
+    // were on the old nodes, same reason player-widget/nav-toggle get
+    // re-wired on every navbar re-render - see layout.js's renderNavbar).
+    function wireProfileSettings() {
+
+        // Best-effort on the server call (logout() never throws - see its
+        // own header comment in steamSession.js) - the redirect to
+        // index.html always happens either way, since from the user's
+        // point of view clicking "Log out" must always visibly do
+        // something, and index.html is safe to land on regardless of
+        // whether the session ended up cleared server-side.
+        document
+            .getElementById("settings-logout-btn")
+            ?.addEventListener("click", async () => {
+
+                await logout();
+
+                window.location.href = "index.html";
+
+            });
+
+        // No backend ticket/support system exists in this project - this
+        // hands off to the visitor's own email client with a pre-filled
+        // subject/body instead, matching this app's "lightweight, no new
+        // system" contact mechanism (see profile-settings.js's own header
+        // comment).
+        document
+            .getElementById("contact-form")
+            ?.addEventListener("submit", event => {
+
+                event.preventDefault();
+
+                const reason =
+                    document.getElementById("contact-reason")?.value
+                        || "Suggestion / feedback";
+
+                const message =
+                    document.getElementById("contact-message")?.value
+                        || "";
+
+                const subject =
+                    encodeURIComponent(`AchievementPlanner - ${reason}`);
+
+                const body =
+                    encodeURIComponent(message);
+
+                window.location.href =
+                    `mailto:support@achievementplanner.app?subject=${subject}&body=${body}`;
+
+            });
 
     }
 
@@ -243,6 +360,21 @@ async function init() {
                 "Unable to load profile statistics:",
                 result.error
             );
+
+        }
+
+        // Reconciles completedAchievements/completedGames/XP (and, in
+        // turn, avatar/badge unlocks) against this live Steam-backed
+        // aggregate - see playerProgress.js's reconcileProgressFromProfileStats
+        // for why this is the fix for avatars/badges getting stuck far
+        // below a player's real progress. Only runs on a successful fetch:
+        // an "error"/"logged-out" result must never be treated as "this
+        // player now has 0 achievements".
+        if (result.status === "ready") {
+
+            reconcileProgressFromProfileStats(result);
+
+            refresh();
 
         }
 
