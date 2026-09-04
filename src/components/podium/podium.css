@@ -53,9 +53,21 @@
 
 }
 
-/* Section heading above the Steam category grid - grouping label only, no
-   ranking-logic change (see PHASE_33_AUDIT.md Area 5). Matches the
-   uppercase/letter-spacing treatment already used by .podium-meta. */
+/* One group = one heading directly above that group's own card grid. The
+   groups sit in normal block flow inside #podiums-content; only the inner
+   .podiums-group-grid is a grid (see podiums.js for why the grid moved off
+   #podiums-content). */
+.podiums-group + .podiums-group{
+
+    margin-top:var(--spacing-lg);
+
+}
+
+/* Compact section-heading label above its group's entries - grouping label
+   only, no ranking-logic change (see PHASE_33_AUDIT.md Area 5). Matches the
+   uppercase/letter-spacing treatment already used by .podium-meta. Sits
+   close to its first ranking (spacing-xs) rather than floating well above
+   it; the rule above keeps a clear gap *between* groups. */
 .podiums-group-title{
 
     color:var(--text-secondary);
@@ -64,18 +76,16 @@
     text-transform:uppercase;
     letter-spacing:.06em;
 
-    margin-bottom:var(--spacing-sm);
+    margin:0 0 var(--spacing-xs);
 
 }
 
-#podiums-content{
+.podiums-group-grid{
 
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr));
     gap:var(--spacing-md);
     align-items:start;
-
-    scroll-margin-top:24px;
 
 }
 

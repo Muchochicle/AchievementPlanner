@@ -342,16 +342,36 @@ async function init() {
 
                 // 1. Genuinely received and stored by the backend - the
                 //    only branch that may say "received", and it's true.
+                //    Within it, notificationStatus says whether the support
+                //    inbox was actually emailed:
+                //      "sent"    -> full-confidence confirmation.
+                //      "failed"/"skipped" -> still a success (the message
+                //         is stored and will be seen), but say plainly the
+                //         email alert didn't go out and point at the direct
+                //         address. Never claim an email was delivered here.
                 if (result.status === "ok") {
 
                     const ref = result.id ? ` (ref #${result.id})` : "";
 
-                    showStatus(
-                        "success",
-                        result.canReply
-                            ? `✅ Message received${ref}. We'll get back to you at ${email} as soon as we can.`
-                            : `✅ Message received${ref}. Thanks! We can't reply directly since no email was provided, but every message is read.`
-                    );
+                    if (result.notificationStatus === "sent") {
+
+                        showStatus(
+                            "success",
+                            result.canReply
+                                ? `✅ Message received${ref} and sent to the team. We'll get back to you at ${email} as soon as we can.`
+                                : `✅ Message received${ref} and sent to the team. Thanks! We can't reply directly since no email was provided, but every message is read.`
+                        );
+
+                    } else {
+
+                        showStatus(
+                            "success",
+                            `✅ Message received${ref} and saved. Our email alert to the team didn't go through this time, but your message is stored and will be seen.` +
+                            `${result.canReply ? ` We'll reply to ${email} when we can.` : ""}` +
+                            ` If it's urgent, email ${SUPPORT_EMAIL} directly.`
+                        );
+
+                    }
 
                     if (messageEl) {
 

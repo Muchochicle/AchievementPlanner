@@ -27,9 +27,11 @@ function mockReq({ body, steamId, userAgent } = {}) {
 
 }
 
-function withDeps(db) {
+// Default notifier: pretends the provider accepted the email. Individual
+// tests pass their own to exercise skipped / failed / threw.
+function withDeps(db, sendContactNotification = async () => ({ status: "sent", id: "email_test_1" })) {
 
-    return { getLeaderboardDb: () => db, saveContactMessage };
+    return { getLeaderboardDb: () => db, saveContactMessage, sendContactNotification };
 
 }
 
@@ -168,13 +170,16 @@ test("postContact works for a logged-out visitor (steamId null)", async () => {
 
 });
 
-test("postContact surfaces an unexpected store error as a generic 500, never throwing", async () => {
+test("postContact surfaces an unexpected store error as a generic 500, never throwing, and never attempts to notify", async () => {
 
     const res = createMockRes();
 
+    let notifyCalled = false;
+
     const brokenDeps = {
         getLeaderboardDb: () => { throw new Error("db down"); },
-        saveContactMessage
+        saveContactMessage,
+        sendContactNotification: async () => { notifyCalled = true; return { status: "sent" }; }
     };
 
     await assert.doesNotReject(
@@ -183,5 +188,140 @@ test("postContact surfaces an unexpected store error as a generic 500, never thr
 
     assert.strictEqual(res.statusCode, 500);
     assert.strictEqual(res.jsonBody.success, false);
+    assert.strictEqual(notifyCalled, false, "must not try to email a message that was never stored");
+
+});
+
+// --- Email notification outcomes (Task 10) -------------------------------
+
+test("postContact reports notificationStatus:'sent' and passes the stored id/timestamp + validated fields to the notifier", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+
+        let received = null;
+
+        const notifier = async fields => {
+
+            received = fields;
+            return { status: "sent", id: "re_123" };
+
+        };
+
+        await postContactWithDeps(
+            mockReq({
+                body: { reason: "Bug report", message: "boom", email: "you@example.com", name: "Jo" },
+                steamId: "77"
+            }),
+            res,
+            withDeps(db, notifier)
+        );
+
+        assert.strictEqual(res.jsonBody.success, true);
+        assert.strictEqual(res.jsonBody.notified, true);
+        assert.strictEqual(res.jsonBody.notificationStatus, "sent");
+
+        const [row] = getRecentContactMessages(db);
+        assert.strictEqual(received.id, row.id, "notifier gets the real stored row id");
+        assert.strictEqual(received.createdAt, res.jsonBody.receivedAt);
+        assert.strictEqual(received.reason, "Bug report");
+        assert.strictEqual(received.message, "boom");
+        assert.strictEqual(received.replyEmail, "you@example.com");
+        assert.strictEqual(received.name, "Jo");
+        assert.strictEqual(received.steamId, "77");
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("postContact still returns success (message stored) when notifications are not configured (skipped)", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+
+        await postContactWithDeps(
+            mockReq({ body: { message: "no key configured" } }),
+            res,
+            withDeps(db, async () => ({ status: "skipped", reason: "not-configured" }))
+        );
+
+        assert.strictEqual(res.statusCode, 200);
+        assert.strictEqual(res.jsonBody.success, true);
+        assert.strictEqual(res.jsonBody.notified, false);
+        assert.strictEqual(res.jsonBody.notificationStatus, "skipped");
+        assert.strictEqual(getRecentContactMessages(db).length, 1, "message is stored even with no notifier configured");
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("postContact still returns success (message stored) when the provider rejects/was unreachable (failed)", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+
+        await postContactWithDeps(
+            mockReq({ body: { message: "provider down" } }),
+            res,
+            withDeps(db, async () => ({ status: "failed", error: new Error("HTTP 422") }))
+        );
+
+        assert.strictEqual(res.statusCode, 200);
+        assert.strictEqual(res.jsonBody.success, true);
+        assert.strictEqual(res.jsonBody.notified, false);
+        assert.strictEqual(res.jsonBody.notificationStatus, "failed");
+        assert.strictEqual(getRecentContactMessages(db).length, 1);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("postContact does not turn a stored message into a 500 if the notifier itself throws", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+
+        await assert.doesNotReject(
+            postContactWithDeps(
+                mockReq({ body: { message: "notifier is buggy" } }),
+                res,
+                withDeps(db, async () => { throw new Error("unexpected bug in notifier"); })
+            )
+        );
+
+        assert.strictEqual(res.statusCode, 200);
+        assert.strictEqual(res.jsonBody.success, true);
+        assert.strictEqual(res.jsonBody.notificationStatus, "failed");
+        assert.strictEqual(getRecentContactMessages(db).length, 1);
+
+    } finally {
+
+        db.close();
+
+    }
 
 });

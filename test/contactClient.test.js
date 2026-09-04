@@ -51,7 +51,7 @@ test("submitContactMessage: POSTs JSON with credentials and returns {status:'ok'
         assert.strictEqual(body.message, "hello");
         assert.strictEqual(body.email, "me@example.com");
 
-        return jsonResponse(200, { success: true, id: 7, canReply: true });
+        return jsonResponse(200, { success: true, id: 7, canReply: true, notified: true, notificationStatus: "sent" });
 
     });
 
@@ -59,7 +59,47 @@ test("submitContactMessage: POSTs JSON with credentials and returns {status:'ok'
 
         const result = await submitContactMessage({ reason: "Bug report", message: "hello", email: "me@example.com", name: "" });
 
-        assert.deepStrictEqual(result, { status: "ok", id: 7, canReply: true });
+        assert.deepStrictEqual(result, { status: "ok", id: 7, canReply: true, notificationStatus: "sent", notified: true });
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("submitContactMessage: passes through notificationStatus:'failed' (message stored, email alert did not go out)", async () => {
+
+    const restore = mockFetch(async () => jsonResponse(200, { success: true, id: 8, canReply: false, notified: false, notificationStatus: "failed" }));
+
+    try {
+
+        const result = await submitContactMessage({ reason: "Other", message: "hi", email: "", name: "" });
+
+        assert.strictEqual(result.status, "ok");
+        assert.strictEqual(result.notificationStatus, "failed");
+        assert.strictEqual(result.notified, false);
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("submitContactMessage: an older backend response with no notificationStatus is treated as 'skipped', never implying an email went out", async () => {
+
+    const restore = mockFetch(async () => jsonResponse(200, { success: true, id: 9, canReply: true }));
+
+    try {
+
+        const result = await submitContactMessage({ reason: "Other", message: "hi", email: "me@example.com", name: "" });
+
+        assert.strictEqual(result.status, "ok");
+        assert.strictEqual(result.notificationStatus, "skipped");
+        assert.strictEqual(result.notified, false);
 
     } finally {
 

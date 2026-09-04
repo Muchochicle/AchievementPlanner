@@ -9,7 +9,17 @@ const API_URL = `${ENV.API_BASE_URL}/api/contact`;
 // podiumsClient.js / playerProgressClient.js - the caller (src/js/
 // profile.js) branches on it and NEVER throws:
 //
-//   { status: "ok", id, canReply }      -> genuinely received & stored
+//   { status: "ok", id, canReply,       -> genuinely received & stored.
+//     notificationStatus, notified }       notificationStatus is
+//                                          "sent" | "skipped" | "failed" -
+//                                          whether the support inbox was
+//                                          actually emailed (see
+//                                          backend/services/emailNotifier.js).
+//                                          The caller shows a fully
+//                                          confident confirmation only on
+//                                          "sent"; otherwise it says the
+//                                          message is saved but the alert
+//                                          didn't go out.
 //   { status: "invalid", message }      -> server rejected the input
 //                                          (e.g. bad email) - show inline
 //   { status: "error", error }          -> couldn't reach/there was a
@@ -58,6 +68,17 @@ export async function submitContactMessage({ reason, message, email, name }) {
 
     }
 
-    return { status: "ok", id: data.id, canReply: Boolean(data.canReply) };
+    return {
+
+        status: "ok",
+        id: data.id,
+        canReply: Boolean(data.canReply),
+
+        // Older backend builds don't send this; treat its absence as "no
+        // notification was attempted" rather than implying one succeeded.
+        notificationStatus: data.notificationStatus ?? "skipped",
+        notified: Boolean(data.notified)
+
+    };
 
 }

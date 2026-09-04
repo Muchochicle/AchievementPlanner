@@ -77,15 +77,25 @@ async function init() {
 
     }
 
-    // One heading per group, then one placeholder section per category -
-    // every section starts in its loading state and each fetch resolves
-    // independently (see PHASE_60_AUDIT.md for the aria-live rationale,
-    // and PHASE_53_AUDIT.md Finding 24 for the per-section .catch()).
+    // One <section> per group: a compact heading directly above that
+    // group's own card grid. The grid lives on the inner
+    // .podiums-group-grid, NOT on #podiums-content - when #podiums-content
+    // itself was the grid, each .podiums-group-title was just another grid
+    // item, so the heading landed in the top-left cell with the first card
+    // beside it and a large empty band underneath (Task: rankings visual
+    // layout). Each placeholder section still starts in its loading state
+    // and each fetch resolves independently (see PHASE_60_AUDIT.md for the
+    // aria-live rationale, and PHASE_53_AUDIT.md Finding 24 for the
+    // per-section .catch()).
     container.innerHTML = groups
 
         .map(group => `
-            <h2 class="podiums-group-title">${group.name}</h2>
-            ${group.items.map(config => `<div id="podium-${config.key}" class="podiums-nav-target" aria-live="polite" aria-atomic="true"></div>`).join("")}
+            <section class="podiums-group">
+                <h2 class="podiums-group-title">${group.name}</h2>
+                <div class="podiums-group-grid">
+                    ${group.items.map(config => `<div id="podium-${config.key}" class="podiums-nav-target" aria-live="polite" aria-atomic="true"></div>`).join("")}
+                </div>
+            </section>
         `)
 
         .join("");
