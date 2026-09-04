@@ -11,6 +11,7 @@ import gamesRoutes from "./routes/games.js";
 import podiumsRoutes from "./routes/podiums.js";
 import playerRoutes from "./routes/player.js";
 import { sendServerError } from "./utils/sendServerError.js";
+import { logEmailNotifierStatus } from "./services/emailNotifier.js";
 import { registerProcessErrorHandlers } from "./utils/processErrorHandlers.js";
 import { registerGracefulShutdown } from "./utils/gracefulShutdown.js";
 import { SqliteSessionStore } from "./services/sqliteSessionStore.js";
@@ -324,6 +325,10 @@ const HOST = "0.0.0.0";
 const httpServer = app.listen(PORT, HOST, () => {
 
     console.log(`Server running on port ${PORT} (host ${HOST})`);
+
+    // One line making it obvious from the Railway logs whether
+    // RESEND_API_KEY reached this service (never prints the key itself).
+    logEmailNotifierStatus();
 
 });
 

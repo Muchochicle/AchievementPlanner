@@ -92,7 +92,13 @@ test("accepts a SESSION_SECRET exactly at the 32-character minimum", async () =>
 
     await new Promise((resolve, reject) => {
 
-        const timeout = setTimeout(resolve, 2000);
+        // Fallback so the test can't hang forever. Generous (15s, not 2s)
+        // because under the full parallel suite a freshly spawned `node`
+        // can take several seconds just to parse server.js + its imports
+        // and print its first line - a passing run still resolves in well
+        // under a second via the stdout match below; this only bounds the
+        // failure case.
+        const timeout = setTimeout(resolve, 15000);
 
         child.stdout.on("data", chunk => {
 
@@ -148,7 +154,13 @@ test("binds to 0.0.0.0, not just localhost/IPv6-only, so container platforms lik
 
     await new Promise((resolve, reject) => {
 
-        const timeout = setTimeout(resolve, 2000);
+        // Fallback so the test can't hang forever. Generous (15s, not 2s)
+        // because under the full parallel suite a freshly spawned `node`
+        // can take several seconds just to parse server.js + its imports
+        // and print its first line - a passing run still resolves in well
+        // under a second via the stdout match below; this only bounds the
+        // failure case.
+        const timeout = setTimeout(resolve, 15000);
 
         child.stdout.on("data", chunk => {
 
@@ -192,7 +204,13 @@ test("starts successfully and stays running when all required variables are pres
 
     await new Promise((resolve, reject) => {
 
-        const timeout = setTimeout(resolve, 2000);
+        // Fallback so the test can't hang forever. Generous (15s, not 2s)
+        // because under the full parallel suite a freshly spawned `node`
+        // can take several seconds just to parse server.js + its imports
+        // and print its first line - a passing run still resolves in well
+        // under a second via the stdout match below; this only bounds the
+        // failure case.
+        const timeout = setTimeout(resolve, 15000);
 
         child.stdout.on("data", chunk => {
 

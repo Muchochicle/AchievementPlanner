@@ -3,6 +3,8 @@ import assert from "node:assert";
 
 import {
     sendContactNotificationWithDeps,
+    emailNotifierStatus,
+    logEmailNotifierStatus,
     DEFAULT_CONTACT_TO,
     DEFAULT_CONTACT_FROM
 } from "../services/emailNotifier.js";
@@ -172,6 +174,44 @@ test("tolerates a 2xx response with no id field", async () => {
     });
 
     assert.deepStrictEqual(result, { status: "sent", id: null });
+
+});
+
+test("emailNotifierStatus reports configured true/false from the env WITHOUT exposing the key", () => {
+
+    const on = emailNotifierStatus({ RESEND_API_KEY: "re_secret_value", CONTACT_EMAIL_TO: "x@y.z" });
+    assert.strictEqual(on.configured, true);
+    assert.strictEqual(on.to, "x@y.z");
+    assert.strictEqual(on.from, DEFAULT_CONTACT_FROM);
+    assert.ok(!Object.values(on).some(v => String(v).includes("re_secret_value")), "status must never carry the key value");
+
+    assert.strictEqual(emailNotifierStatus({}).configured, false);
+    assert.strictEqual(emailNotifierStatus({ RESEND_API_KEY: "   " }).configured, false);
+
+});
+
+test("logEmailNotifierStatus logs one line and never prints the key", () => {
+
+    const lines = [];
+    const original = console.log;
+    console.log = (...args) => lines.push(args.join(" "));
+
+    try {
+
+        logEmailNotifierStatus({ RESEND_API_KEY: "re_super_secret", CONTACT_EMAIL_TO: "to@ap.dev" });
+        logEmailNotifierStatus({});
+
+    } finally {
+
+        console.log = original;
+
+    }
+
+    assert.strictEqual(lines.length, 2);
+    assert.match(lines[0], /ENABLED/);
+    assert.match(lines[0], /to@ap\.dev/);
+    assert.match(lines[1], /DISABLED/);
+    assert.ok(!lines.join("\n").includes("re_super_secret"), "the key value must never be logged");
 
 });
 

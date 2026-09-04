@@ -115,6 +115,39 @@ export function sendContactNotification(fields) {
 
 }
 
+// Whether contact-email notifications are wired up on this deployment.
+// Only ever reports the boolean - never the key's value. Used by the
+// startup log below and available to tests.
+export function emailNotifierStatus(env = process.env) {
+
+    return {
+        configured: Boolean(env.RESEND_API_KEY?.trim()),
+        to: env.CONTACT_EMAIL_TO?.trim() || DEFAULT_CONTACT_TO,
+        from: env.CONTACT_EMAIL_FROM?.trim() || DEFAULT_CONTACT_FROM
+    };
+
+}
+
+// Called once from server.js at boot so the Railway logs make it
+// immediately obvious whether RESEND_API_KEY actually reached THIS
+// service (a common misconfiguration is setting it on the wrong service /
+// environment). Prints the destination + from address, never the key.
+export function logEmailNotifierStatus(env = process.env) {
+
+    const { configured, to, from } = emailNotifierStatus(env);
+
+    if (configured) {
+
+        console.log(`[emailNotifier] contact notifications ENABLED - from "${from}" to "${to}"`);
+
+    } else {
+
+        console.log("[emailNotifier] contact notifications DISABLED - RESEND_API_KEY not set (messages are still stored; API reports notificationStatus:\"skipped\")");
+
+    }
+
+}
+
 export async function sendContactNotificationWithDeps(fields, deps) {
 
     const { fetch, env } = deps;
