@@ -230,6 +230,91 @@ test("putProgress for one steamId never affects another steamId's progress", asy
 
 });
 
+test("putProgress caps a brand-new account's first-ever longestStreak submission (no previous save to compare elapsed time against)", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+        await putProgressWithDeps(
+            mockReq("1", { state: { player: { totalXP: 100, longestStreak: 99999 } } }),
+            res,
+            withDeps(db)
+        );
+
+        assert.strictEqual(res.jsonBody.success, true);
+
+        const getRes = createMockRes();
+        await getProgressWithDeps(mockReq("1"), getRes, withDeps(db));
+
+        assert.strictEqual(getRes.jsonBody.state.player.longestStreak, 30, "clamped to FIRST_SYNC_STREAK_CEILING, not stored as-submitted");
+        assert.strictEqual(getRes.jsonBody.state.player.totalXP, 100, "only longestStreak is touched - every other field round-trips untouched");
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("putProgress clamps a DevTools-style streak jump on an existing account to what real elapsed time could plausibly explain", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        // First, a legitimate save establishing a real streak of 7.
+        await putProgressWithDeps(mockReq("1", { state: { player: { longestStreak: 7 } } }), createMockRes(), withDeps(db));
+
+        // Moments later (same real time, ~0 elapsed), claim 99999.
+        const res = createMockRes();
+        await putProgressWithDeps(mockReq("1", { state: { player: { longestStreak: 99999 } } }), res, withDeps(db));
+
+        assert.strictEqual(res.jsonBody.success, true);
+
+        const getRes = createMockRes();
+        await getProgressWithDeps(mockReq("1"), getRes, withDeps(db));
+
+        // ~0 real time elapsed since the previous save -> zero extra growth
+        // is plausible, clamped straight back to the previous value (7).
+        assert.strictEqual(getRes.jsonBody.state.player.longestStreak, 7);
+        assert.ok(getRes.jsonBody.state.player.longestStreak < 99999);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("putProgress leaves longestStreak untouched when the field is absent entirely", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+        await putProgressWithDeps(mockReq("1", { state: { player: { totalXP: 1200 } } }), res, withDeps(db));
+
+        assert.strictEqual(res.jsonBody.success, true);
+
+        const getRes = createMockRes();
+        await getProgressWithDeps(mockReq("1"), getRes, withDeps(db));
+
+        assert.strictEqual(getRes.jsonBody.state.player.totalXP, 1200);
+        assert.strictEqual("longestStreak" in getRes.jsonBody.state.player, false);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
 test("getProgress surfaces an unexpected store error as a generic 500 instead of throwing", async () => {
 
     const res = createMockRes();

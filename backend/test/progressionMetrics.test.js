@@ -8,7 +8,12 @@ import {
     xpForNextLevel,
     levelFromTotalXP,
     extractProgressionValue,
-    PROGRESSION_METRICS
+    PROGRESSION_METRICS,
+    authoritativeLevelValue,
+    clampSubmittedStreak,
+    XP_PER_ACHIEVEMENT,
+    XP_PER_GAME_COMPLETION,
+    FIRST_SYNC_STREAK_CEILING
 } from "../utils/progressionMetrics.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -90,5 +95,115 @@ test("PROGRESSION_METRICS.level.display maps the raw ranking value (totalXP) to 
 test("extractProgressionValue returns null for an unknown metric", () => {
 
     assert.strictEqual(extractProgressionValue({ player: { totalXP: 100 } }, "made-up"), null);
+
+});
+
+test("authoritativeLevelValue computes XP from Steam-verified counts, ignoring any client blob", () => {
+
+    assert.strictEqual(
+        authoritativeLevelValue({ achievementsUnlocked: 10, gamesCompleted100: 2, achievementsStatus: "available" }),
+        10 * XP_PER_ACHIEVEMENT + 2 * XP_PER_GAME_COMPLETION
+    );
+
+    assert.strictEqual(
+        authoritativeLevelValue({ achievementsUnlocked: 0, gamesCompleted100: 0, achievementsStatus: "partial" }),
+        0
+    );
+
+});
+
+test("authoritativeLevelValue returns null for unqualifying/invalid rows, matching the Steam-verified podiums' own stance", () => {
+
+    assert.strictEqual(authoritativeLevelValue({ achievementsUnlocked: 5, gamesCompleted100: 0, achievementsStatus: "unknown" }), null);
+    assert.strictEqual(authoritativeLevelValue({ achievementsUnlocked: null, gamesCompleted100: 0, achievementsStatus: "available" }), null);
+    assert.strictEqual(authoritativeLevelValue({ achievementsUnlocked: -1, gamesCompleted100: 0, achievementsStatus: "available" }), null);
+    assert.strictEqual(authoritativeLevelValue({}), null);
+    assert.strictEqual(authoritativeLevelValue(), null);
+
+});
+
+test("clampSubmittedStreak caps a brand-new account's first-ever submission at FIRST_SYNC_STREAK_CEILING", () => {
+
+    assert.strictEqual(
+        clampSubmittedStreak({ submittedStreak: 99999, previousStreak: null, previousUpdatedAt: null }),
+        FIRST_SYNC_STREAK_CEILING
+    );
+
+    // A genuinely modest first-sync value (e.g. real pre-existing local/
+    // anonymous play) passes through unclamped.
+    assert.strictEqual(
+        clampSubmittedStreak({ submittedStreak: 5, previousStreak: null, previousUpdatedAt: null }),
+        5
+    );
+
+});
+
+test("clampSubmittedStreak lets honest day-by-day growth through untouched", () => {
+
+    const previousUpdatedAt = new Date("2026-01-01T00:00:00.000Z");
+    const now = new Date("2026-01-02T00:00:00.000Z"); // exactly 1 real day later
+
+    assert.strictEqual(
+        clampSubmittedStreak({ submittedStreak: 8, previousStreak: 7, previousUpdatedAt, now }),
+        8
+    );
+
+});
+
+test("clampSubmittedStreak rejects a DevTools-style jump far beyond what real elapsed time could explain", () => {
+
+    const previousUpdatedAt = new Date("2026-01-01T00:00:00.000Z");
+    const now = new Date("2026-01-01T02:00:00.000Z"); // 2 hours later, same day
+
+    const clamped = clampSubmittedStreak({ submittedStreak: 99999, previousStreak: 7, previousUpdatedAt, now });
+
+    // Only 2 real hours elapsed (well under the clock-skew grace window),
+    // so zero extra growth is plausible - clamped straight back to previous.
+    assert.strictEqual(clamped, 7);
+    assert.ok(clamped < 99999);
+
+});
+
+test("clampSubmittedStreak cannot be gamed by calling it repeatedly with ~0 elapsed time between calls", () => {
+
+    const previousUpdatedAt = new Date("2026-01-01T00:00:00.000Z");
+    const now = new Date("2026-01-01T00:00:00.010Z"); // 10ms later
+
+    // Simulate a script looping this call many times in immediate
+    // succession, each time re-feeding the previous call's clamped result
+    // back in as `previousStreak` (exactly what the controller does, since
+    // it re-reads the just-stored row on every request).
+    let streak = 7;
+
+    for (let i = 0; i < 50; i++) {
+
+        streak = clampSubmittedStreak({ submittedStreak: 99999, previousStreak: streak, previousUpdatedAt, now });
+
+    }
+
+    assert.strictEqual(streak, 7, "50 rapid-fire calls must not accumulate any growth beyond the real elapsed time");
+
+});
+
+test("clampSubmittedStreak never regresses an existing streak after a real gap (streak is a high-water mark)", () => {
+
+    const previousUpdatedAt = new Date("2026-01-01T00:00:00.000Z");
+    const now = new Date("2026-01-10T00:00:00.000Z"); // 9 real days of inactivity
+
+    // The client never sends a smaller longestStreak than it already had -
+    // confirm the bound doesn't accidentally clamp below the resubmitted
+    // (unchanged) previous value either.
+    assert.strictEqual(
+        clampSubmittedStreak({ submittedStreak: 7, previousStreak: 7, previousUpdatedAt, now }),
+        7
+    );
+
+});
+
+test("clampSubmittedStreak treats a non-positive/non-numeric submission as 0", () => {
+
+    assert.strictEqual(clampSubmittedStreak({ submittedStreak: 0, previousStreak: 5, previousUpdatedAt: new Date() }), 0);
+    assert.strictEqual(clampSubmittedStreak({ submittedStreak: -3, previousStreak: 5, previousUpdatedAt: new Date() }), 0);
+    assert.strictEqual(clampSubmittedStreak({ submittedStreak: "nope", previousStreak: 5, previousUpdatedAt: new Date() }), 0);
 
 });

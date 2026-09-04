@@ -16,7 +16,11 @@ import os from "node:os";
 import path from "node:path";
 import crypto from "node:crypto";
 
-function userSnapshot(steamId, personaName) {
+// achievementsUnlocked/gamesCompleted100 default to distinguishable
+// per-user values (Alice > Bob > Carol) so "level" ranking tests exercise
+// real authoritative-data ordering rather than all three tying at the same
+// value - override via `achievements` for tests that need something else.
+function userSnapshot(steamId, personaName, achievements) {
 
     return {
         steamId,
@@ -28,16 +32,20 @@ function userSnapshot(steamId, personaName) {
         gamesPlayed: 1,
         totalPlaytimeMinutes: 100,
         games: [{ appid: 10, playtimeMinutes: 100 }],
-        achievements: { achievementsUnlocked: 1, gamesCompleted100: 0, achievementsStatus: "available" }
+        achievements: achievements ?? { achievementsUnlocked: 1, gamesCompleted100: 0, achievementsStatus: "available" }
     };
 
 }
 
 function seed(db) {
 
-    indexUserSnapshot(db, userSnapshot("a", "Alice"));
-    indexUserSnapshot(db, userSnapshot("b", "Bob"));
-    indexUserSnapshot(db, userSnapshot("c", "Carol"));
+    // Level ranking (Alice > Bob > Carol) now comes ENTIRELY from these
+    // Steam-verified counts, not from the totalXP values saved below -
+    // deliberately mismatched with the old totalXP-based ordering so a
+    // regression back to trusting the client blob would be caught.
+    indexUserSnapshot(db, userSnapshot("a", "Alice", { achievementsUnlocked: 100, gamesCompleted100: 2, achievementsStatus: "available" })); // 100*50 + 2*300 = 5600
+    indexUserSnapshot(db, userSnapshot("b", "Bob", { achievementsUnlocked: 10, gamesCompleted100: 0, achievementsStatus: "available" }));    // 500
+    indexUserSnapshot(db, userSnapshot("c", "Carol", { achievementsUnlocked: 5, gamesCompleted100: 0, achievementsStatus: "available" }));   // 250
     // Dana has progress but never visited Profile -> no users row.
 
     savePlayerProgress(db, "a", JSON.stringify({ player: { totalXP: 5000, longestStreak: 3 } }));
@@ -50,7 +58,7 @@ function seed(db) {
 
 }
 
-test("getProgressionLeaderboard('level') ranks by totalXP desc, excludes users with no users-table row and corrupt blobs", () => {
+test("getProgressionLeaderboard('level') ranks by Steam-verified achievements/completions desc, excludes users with no users-table row and corrupt blobs", () => {
 
     const db = createLeaderboardDb(":memory:");
 
@@ -61,8 +69,56 @@ test("getProgressionLeaderboard('level') ranks by totalXP desc, excludes users w
         const rows = getProgressionLeaderboard(db, "level", { limit: 10 });
 
         assert.deepStrictEqual(rows.map(r => r.personaName), ["Alice", "Bob", "Carol"]);
-        assert.strictEqual(rows[0].value, 5000);
+        assert.strictEqual(rows[0].value, 5600);
         assert.strictEqual(getProgressionLeaderboardSize(db, "level"), 3);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("getProgressionLeaderboard('level') ignores a spoofed totalXP in the client-PUT blob entirely", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        // Real (small) Steam-verified data for Alice...
+        indexUserSnapshot(db, userSnapshot("a", "Alice", { achievementsUnlocked: 1, gamesCompleted100: 0, achievementsStatus: "available" })); // 50 XP
+        // ...but a DevTools-style fabricated totalXP in her synced blob.
+        savePlayerProgress(db, "a", JSON.stringify({ player: { totalXP: 999999999, longestStreak: 1 } }));
+
+        const rows = getProgressionLeaderboard(db, "level", { limit: 10 });
+
+        assert.strictEqual(rows.length, 1);
+        assert.strictEqual(rows[0].value, 50, "ranking must reflect the real Steam-verified 1 achievement, not the spoofed blob");
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("getProgressionLeaderboard('level') excludes a user whose achievement data was never fetched (status 'unknown')", () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        // No `achievements` field at all -> indexUserSnapshot leaves the
+        // achievements_* columns at their schema default ('unknown'
+        // status, NULL counts) - exactly a user who has logged in and
+        // synced progress but never opened Profile.
+        indexUserSnapshot(db, { ...userSnapshot("a", "Alice"), achievements: null });
+        savePlayerProgress(db, "a", JSON.stringify({ player: { totalXP: 5000, longestStreak: 1 } }));
+
+        assert.strictEqual(getProgressionLeaderboard(db, "level", { limit: 10 }).length, 0);
+        assert.strictEqual(getProgressionLeaderboardSize(db, "level"), 0);
 
     } finally {
 

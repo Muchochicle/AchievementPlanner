@@ -3,7 +3,8 @@ import { buildLeaderboardSnapshot } from "../utils/leaderboardSnapshot.js";
 import {
     PROGRESSION_METRICS,
     PROGRESSION_LEADERBOARD_METRICS,
-    extractProgressionValue
+    extractProgressionValue,
+    authoritativeLevelValue
 } from "../utils/progressionMetrics.js";
 
 // Upserts one user's identity + library snapshot, conditionally updates the
@@ -420,10 +421,13 @@ function readProgressionRows(db, metric) {
 
     const rows = db.prepare(`
         SELECT
-            p.steam_id     AS steamId,
-            p.state        AS state,
-            u.persona_name AS personaName,
-            u.avatar_url   AS avatarUrl
+            p.steam_id               AS steamId,
+            p.state                  AS state,
+            u.persona_name           AS personaName,
+            u.avatar_url             AS avatarUrl,
+            u.achievements_unlocked  AS achievementsUnlocked,
+            u.games_completed_100    AS gamesCompleted100,
+            u.achievements_status    AS achievementsStatus
         FROM player_progress p
         JOIN users u ON u.steam_id = p.steam_id
     `).all();
@@ -444,7 +448,17 @@ function readProgressionRows(db, metric) {
 
         }
 
-        const value = extractProgressionValue(parsed, metric);
+        // "level" is ranked from Steam-verified data already joined above,
+        // never from the client-controlled state blob - see
+        // progressionMetrics.js's TRUST MODEL note. Every other metric
+        // (currently just "longest-streak") keeps reading from the blob.
+        const value = metric === "level"
+            ? authoritativeLevelValue({
+                achievementsUnlocked: row.achievementsUnlocked,
+                gamesCompleted100: row.gamesCompleted100,
+                achievementsStatus: row.achievementsStatus
+            })
+            : extractProgressionValue(parsed, metric);
 
         if (value === null) {
 
