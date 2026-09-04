@@ -1,17 +1,22 @@
-// One-off maintenance: remove the automated-QA rows that Task 10
-// verification passes inserted into contact_messages on the production
-// volume. Each such row has name "AP QA" and a message beginning
-// "[automated verification by Claude Code ...]".
+// One-off maintenance: remove the automated rows that Task 10 verification
+// left in contact_messages on the production volume. Two kinds exist, both
+// created by tooling, never by a real visitor:
 //
-// Why a committed, guarded script rather than a raw DELETE: it can only
-// ever remove a row that matches BOTH known test-row fingerprints below
-// (exact name "AP QA" AND the verification marker in the message), so it
-// cannot touch a real user submission even if run carelessly. It prints
-// every row it deletes and is a harmless no-op (exit 0) if there are none.
+//   1. QA rows      - name "AP QA" AND the message contains
+//                     "automated verification by Claude Code".
+//   2. probe rows   - message is EXACTLY the fixed deploy-probe string
+//                     below (a deploy-detection loop briefly posted these
+//                     while waiting for a Railway redeploy).
+//
+// Why a committed, guarded script rather than a raw DELETE: it will only
+// ever delete a row matching one of those exact fingerprints, so it
+// cannot touch a genuine submission even if run carelessly. It prints
+// every row it deletes and is a harmless no-op (exit 0) when there are
+// none.
 //
 // Usage, from the backend service (Railway "Root Directory" = backend):
 //
-//     railway run node scripts/delete-test-contact-row.mjs        # all QA rows
+//     railway run node scripts/delete-test-contact-row.mjs        # every automated row
 //     railway run node scripts/delete-test-contact-row.mjs 3      # only id 3, still fingerprint-guarded
 //
 // It honours DATABASE_PATH exactly like the app does (services/
@@ -20,15 +25,31 @@
 
 import { getLeaderboardDb } from "../services/leaderboardDb.js";
 
-const EXPECTED_NAME = "AP QA";
-const EXPECTED_MESSAGE_MARKER = "automated verification by Claude Code";
+const QA_NAME = "AP QA";
+const QA_MESSAGE_MARKER = "automated verification by Claude Code";
+const PROBE_MESSAGE = "__deploy_probe__ (not stored: invalid, empty-ish check)";
 
-function isTestRow(row) {
+function classify(row) {
 
-    return row
-        && row.name === EXPECTED_NAME
-        && typeof row.message === "string"
-        && row.message.includes(EXPECTED_MESSAGE_MARKER);
+    if (!row || typeof row.message !== "string") {
+
+        return null;
+
+    }
+
+    if (row.name === QA_NAME && row.message.includes(QA_MESSAGE_MARKER)) {
+
+        return "QA verification row";
+
+    }
+
+    if (row.message === PROBE_MESSAGE) {
+
+        return "deploy-probe row";
+
+    }
+
+    return null;
 
 }
 
@@ -60,11 +81,10 @@ if (idArg !== undefined) {
 
     }
 
-    if (!isTestRow(row)) {
+    if (!classify(row)) {
 
         console.error(
-            `\nRefusing to delete row #${targetId}: it does not match the automated-QA fingerprint ` +
-            `(expected name "${EXPECTED_NAME}" and a message containing "${EXPECTED_MESSAGE_MARKER}").\n` +
+            `\nRefusing to delete row #${targetId}: it does not match any known automated fingerprint.\n` +
             "If you genuinely intend to delete it, do so manually after confirming it is not a real user submission."
         );
         process.exit(2);
@@ -76,13 +96,13 @@ if (idArg !== undefined) {
 } else {
 
     candidates = db
-        .prepare("SELECT id, created_at, name, reason, message FROM contact_messages WHERE name = ?")
-        .all(EXPECTED_NAME)
-        .filter(isTestRow);
+        .prepare("SELECT id, created_at, name, reason, message FROM contact_messages ORDER BY id")
+        .all()
+        .filter(classify);
 
     if (candidates.length === 0) {
 
-        console.log("No automated-QA rows found in contact_messages - nothing to do.");
+        console.log("No automated rows found in contact_messages - nothing to do.");
         process.exit(0);
 
     }
@@ -95,7 +115,7 @@ let deleted = 0;
 
 for (const row of candidates) {
 
-    console.log("Deleting row:", JSON.stringify(row, null, 2));
+    console.log(`Deleting ${classify(row)} #${row.id} (${row.created_at})`);
     deleted += deleteOne.run(row.id).changes;
 
 }
