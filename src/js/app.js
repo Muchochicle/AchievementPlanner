@@ -1,6 +1,7 @@
 import { createSearch } from "../components/search/search.js";
 import { getGamesIndex, getPopularGames } from "../utils/gameService.js";
 import { createCatalogCard } from "../components/catalog-card/catalog-card.js";
+import { renderGamesSkeleton } from "../utils/gamesCatalog.js";
 import { loadNavbar } from "./layout.js";
 import { mountLoginError } from "../components/login-error/login-error.js";
 
@@ -142,8 +143,15 @@ async function init() {
     const container = document.getElementById("games-container");
     const catalogError = document.getElementById("catalog-error");
 
-    container.innerHTML =
-        `<p class="state-message">Loading popular games…</p>`;
+    // Skeleton cards (same grid footprint as real catalog cards, so no
+    // reflow when data lands) instead of a bare "Loading…" line - the
+    // section reads as "content on its way", not empty/broken. aria-busy
+    // is the assistive-tech signal (cleared once the section resolves);
+    // the skeletons themselves are aria-hidden. Cleanly replaced below by
+    // real cards on success, or by an honest .state-message on an
+    // empty/failed result (renderPopularGames).
+    container.setAttribute?.("aria-busy", "true");
+    renderGamesSkeleton(container, 6);
 
     initCardNavigation(container);
 
@@ -231,6 +239,10 @@ async function init() {
             `<p class="state-message">${POPULAR_GAMES_UNAVAILABLE_MESSAGE}</p>`;
 
     }
+
+    // The section has resolved (cards, empty, or error) - drop the loading
+    // signal so assistive tech stops announcing it as busy.
+    container.removeAttribute?.("aria-busy");
 
 }
 

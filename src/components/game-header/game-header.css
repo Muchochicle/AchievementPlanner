@@ -129,3 +129,25 @@
     }
 
 }
+
+/* Loading placeholder for the game page (src/js/game.js's
+   gamePageSkeletonHtml). The .skeleton-* elements themselves are styled
+   in catalog-card.css (shimmer + prefers-reduced-motion); this only sets
+   the page-level width and the achievement-row block's spacing. */
+.game-skeleton{
+
+    max-width:760px;
+
+}
+
+.game-skeleton .skeleton-block{
+
+    margin-bottom:20px;
+
+}
+
+.game-skeleton-rows{
+
+    margin-top:28px;
+
+}

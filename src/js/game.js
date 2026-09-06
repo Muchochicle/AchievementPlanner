@@ -110,6 +110,29 @@ function renderGamePodium(game) {
 
 }
 
+// Placeholder shape for #game-content while getGame() is in flight -
+// roughly the real page's layout (header image, title/meta lines, then a
+// short stack of achievement-row lines) so structure appears to arrive
+// rather than the container sitting empty. Uses the shared .skeleton-*
+// classes (shimmer + prefers-reduced-motion handling live in
+// catalog-card.css); .game-skeleton only adds width/spacing (game-header.css).
+function gamePageSkeletonHtml() {
+
+    const rows = Array.from({ length: 6 })
+        .map(() => `<div class="skeleton-line"></div>`)
+        .join("");
+
+    return `
+        <div class="game-skeleton" aria-hidden="true">
+            <div class="skeleton-block"></div>
+            <div class="skeleton-line skeleton-line--title"></div>
+            <div class="skeleton-line skeleton-line--short"></div>
+            <div class="game-skeleton-rows">${rows}</div>
+        </div>
+    `;
+
+}
+
 async function init() {
 
     // Not awaited here - navbar rendering and the session check it performs
@@ -140,8 +163,15 @@ async function init() {
 
     }
 
-    container.innerHTML =
-        `<p class="state-message">Loading game…</p>`;
+    // Skeleton (header image + title/meta lines + a few achievement-row
+    // lines) rather than a bare "Loading game…" line - roughly the shape of
+    // the real planner/achievement page, so the visitor sees structure
+    // arriving, not an empty container. Replaced wholesale below by the
+    // real render, the "no planner" state, or the outer catch's error
+    // message. aria-hidden: the meaningful state comes from #game-content's
+    // aria-busy, set here and cleared once something real is rendered.
+    container.setAttribute("aria-busy", "true");
+    container.innerHTML = gamePageSkeletonHtml();
 
     clearSkippedAchievements();
 
@@ -159,6 +189,11 @@ async function init() {
         let [game, session] = await Promise.all([gamePromise, sessionPromise]);
 
         document.title = `${game.name} | Achievement Planner`;
+
+        // Real data resolved - every branch below replaces the skeleton
+        // with real content or an explicit state, so the section is no
+        // longer "busy".
+        container.removeAttribute("aria-busy");
 
         const hoursPlayed = game.playtime ?? 0;
 
@@ -537,6 +572,8 @@ async function init() {
     catch (error) {
 
         console.error(error);
+
+        container.removeAttribute("aria-busy");
 
         const notFound = error.status === 404;
 
