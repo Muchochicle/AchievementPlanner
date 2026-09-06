@@ -144,6 +144,13 @@ test("GET /api/games returns the real catalog games with hasPlanner:true and the
             assert.strictEqual(typeof game.title, "string");
             assert.ok(Array.isArray(game.genres));
 
+            // The listing payload carries only an achievement *count*, not
+            // the full per-achievement array (that lives on GET
+            // /api/games/:slug) - see routes/games.js's toCatalogSummary.
+            assert.strictEqual(typeof game.achievementCount, "number");
+            assert.ok(game.achievementCount >= 0);
+            assert.strictEqual("achievements" in game, false, "the full per-achievement array must never be in the listing payload");
+
             // attachAchievementAvailability (routes/games.js) only fetches
             // Steam's achievement schema for owned, planner-less games -
             // every catalog game here always has a curated planner, so none

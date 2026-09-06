@@ -123,6 +123,32 @@ async function attachAchievementAvailability(games) {
 
 }
 
+// The catalog listing responses ("/" and "/popular") never render
+// per-achievement data - the Home hero search/stats and the Games page
+// only ever need an achievement *count* (the "Total achievements" sort and
+// the "Has/No achievements" filter). The full per-achievement array
+// (id/apiname/name/description/difficulty per achievement) is ~85% of
+// GET /api/games's payload (~11MB -> ~1.3MB uncompressed), re-downloaded on
+// every navigation that isn't a <90s sessionStorage cache hit
+// (src/utils/gameService.js). Collapse it to `achievementCount` here; the
+// game detail route (GET /api/games/:slug) still returns the full list for
+// the planner page, and every server-side consumer of the mapped
+// `.achievements` (profileStats' per-game summary) takes its games from
+// mapSteamGameSafe directly, not from this list, so none are affected.
+function toCatalogSummary(game) {
+
+    const { achievements, ...rest } = game;
+
+    return {
+
+        ...rest,
+
+        achievementCount: Array.isArray(achievements) ? achievements.length : 0
+
+    };
+
+}
+
 // Shared by "/" and "/popular" - the visitor's owned Steam games plus the
 // local catalog entries they don't own, exactly the same merge either
 // route needs before applying its own filtering/ranking on top.
@@ -167,7 +193,7 @@ router.get("/", async (req, res) => {
 
             count: games.length,
 
-            games
+            games: games.map(toCatalogSummary)
 
         });
 
@@ -224,7 +250,7 @@ router.get("/popular", async (req, res) => {
 
             success: true,
 
-            games: popular
+            games: popular.map(toCatalogSummary)
 
         });
 

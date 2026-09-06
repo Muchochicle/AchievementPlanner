@@ -102,15 +102,26 @@ test("completion-status ranks 100%-complete games first, then the rest, unknowns
 
 });
 
-test("achievements-total prefers the player's real total, else the catalog achievement count", () => {
+test("achievements-total prefers the player's real total, else the catalog achievementCount", () => {
 
     const games = [
-        { slug: "player", title: "p", playerTotal: 80, achievements: [{}, {}] },
+        { slug: "player", title: "p", playerTotal: 80, achievementCount: 2 },
+        { slug: "catalog", title: "c", achievementCount: 40 },
+        { slug: "none", title: "n", achievementCount: 0 }
+    ];
+
+    assert.deepStrictEqual(slugs(sortGames(games, "achievements-total")), ["player", "catalog", "none"]);
+
+});
+
+test("achievements-total still falls back to a legacy achievements[] array when achievementCount is absent", () => {
+
+    const games = [
         { slug: "catalog", title: "c", achievements: new Array(40).fill({}) },
         { slug: "none", title: "n", achievements: [] }
     ];
 
-    assert.deepStrictEqual(slugs(sortGames(games, "achievements-total")), ["player", "catalog", "none"]);
+    assert.deepStrictEqual(slugs(sortGames(games, "achievements-total")), ["catalog", "none"]);
 
 });
 

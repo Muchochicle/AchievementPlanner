@@ -25,7 +25,13 @@ function isChecked(id) {
 // "no achievements" filter never hides a game we simply lack data for.
 function hasAchievements(game) {
 
-    if (Array.isArray(game.achievements) && game.achievements.length > 0) {
+    // /api/games ships `achievementCount` (a number); the array form is
+    // kept as a fallback for older cached payloads and unit fixtures.
+    const catalogCount = typeof game.achievementCount === "number"
+        ? game.achievementCount
+        : (Array.isArray(game.achievements) ? game.achievements.length : 0);
+
+    if (catalogCount > 0) {
 
         return true;
 

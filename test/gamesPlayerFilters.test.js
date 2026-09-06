@@ -187,15 +187,18 @@ test("filterExtras 'Has achievements' / 'No achievements' use catalog + Steam + 
     resetDom();
     box("filter-has-achievements");
 
+    // "catalog" uses the current achievementCount field; "catalogLegacy"
+    // proves the old achievements[] array is still honoured as a fallback.
     const games = [
-        { id: "catalog", achievements: [{}, {}] },
-        { id: "steam", achievements: [], hasSteamAchievements: true },
+        { id: "catalog", achievementCount: 2 },
+        { id: "catalogLegacy", achievements: [{}, {}] },
+        { id: "steam", achievementCount: 0, hasSteamAchievements: true },
         { id: "player", playerTotal: 12 },
         { id: "none", hasSteamAchievements: false },
         { id: "unknown" }
     ];
 
-    assert.deepStrictEqual(filterExtras(games).map(g => g.id), ["catalog", "steam", "player"]);
+    assert.deepStrictEqual(filterExtras(games).map(g => g.id), ["catalog", "catalogLegacy", "steam", "player"]);
 
     resetDom();
     box("filter-no-achievements");

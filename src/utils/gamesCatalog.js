@@ -224,7 +224,12 @@ export const SORT_KEYS = {
 
             }
 
-            const catalogTotal = Array.isArray(game.achievements) ? game.achievements.length : 0;
+            // /api/games ships `achievementCount` (a plain number) rather
+            // than the full per-achievement array; the Array fallback keeps
+            // this working against older cached payloads and unit fixtures.
+            const catalogTotal = typeof game.achievementCount === "number"
+                ? game.achievementCount
+                : (Array.isArray(game.achievements) ? game.achievements.length : 0);
 
             return catalogTotal > 0 ? catalogTotal : MISSING;
 
