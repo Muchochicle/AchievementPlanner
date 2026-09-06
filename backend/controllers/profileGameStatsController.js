@@ -65,6 +65,15 @@ export async function getProfileGameStatsWithDeps(req, res, deps) {
 
             games: stats.perGameCompletion ?? [],
 
+            // The same Steam-wide aggregate GET /api/profile/stats returns,
+            // forwarded here (it's already in `stats` - zero extra cost) so
+            // a page that only ever calls this endpoint (the Games page)
+            // can reconcile the player's XP/avatars/badges against their
+            // real totals without a second request to /profile/stats. See
+            // src/utils/player/statistics/progressionReconciler.js.
+            achievements: stats.achievements ?? 0,
+            completedGames: stats.completedGames ?? 0,
+
             // Surfaced so the frontend can be honest about coverage - e.g.
             // "some games' progress couldn't be loaded" - instead of
             // silently treating a partial scan as complete.

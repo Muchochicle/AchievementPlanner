@@ -39,6 +39,14 @@ let logoutShouldThrow = false;
 let fetchSession = { logged: false };
 let progressResponse = { success: true, state: null, updatedAt: null };
 
+// Phase (Priority 4): loadNavbar() now also fires a throttled, fire-and-
+// forget progression reconcile that GETs /api/profile/stats when logged in
+// and past its checkpoint. statsFetchCount tracks it; profileStatsResponse
+// defaults to a zero aggregate (nothing to reconcile -> no player-state
+// change, no push) so it stays invisible to every pre-existing assertion.
+let statsFetchCount = 0;
+let profileStatsResponse = { success: true, achievements: 0, completedGames: 0 };
+
 globalThis.fetch = async (url, options) => {
 
     if (String(url).includes("/auth/steam/logout")) {
@@ -57,6 +65,14 @@ globalThis.fetch = async (url, options) => {
         progressFetchCount++;
 
         return { ok: true, json: async () => progressResponse };
+
+    }
+
+    if (String(url).includes("/api/profile/stats")) {
+
+        statsFetchCount++;
+
+        return { ok: true, status: 200, json: async () => profileStatsResponse };
 
     }
 
@@ -203,7 +219,13 @@ globalThis.document = {
 };
 
 const { loadNavbar, refreshPlayerWidget } = await import("../src/js/layout.js");
-const { resetPlayer, addXP } = await import("../src/utils/player/player.js");
+const { resetPlayer, addXP, getPlayer } = await import("../src/utils/player/player.js");
+const { resetReconcilerState } = await import("../src/utils/player/statistics/progressionReconciler.js");
+const { resetProfileStatsShared } = await import("../src/utils/player/statistics/profileStatsShared.js");
+
+// Lets a test wait for loadNavbar()'s fire-and-forget progression reconcile
+// (kicked but not awaited inside loadNavbar) to run to completion.
+const flushMicrotasks = () => new Promise(resolve => setTimeout(resolve, 0));
 
 const STEAM_SESSION = {
     logged: true,
@@ -213,9 +235,13 @@ const STEAM_SESSION = {
 test.beforeEach(() => {
 
     resetPlayer();
+    resetReconcilerState();
+    resetProfileStatsShared();
     navbarPresent = true;
     sessionFetchCount = 0;
     progressFetchCount = 0;
+    statsFetchCount = 0;
+    profileStatsResponse = { success: true, achievements: 0, completedGames: 0 };
     logoutFetchCount = 0;
     logoutFetchOptions = null;
     logoutShouldThrow = false;
@@ -471,5 +497,93 @@ test("re-rendering the navbar (e.g. refreshPlayerWidget) always starts with the 
 
     assert.ok(!navbar.classList.contains("nav-open"), "a re-render must not leave a stale open menu behind a freshly-collapsed toggle button");
     assert.strictEqual(document.getElementById("nav-toggle").getAttribute("aria-expanded"), "false");
+
+});
+
+// --- Priority 4: background progression reconcile ----------------------
+
+test("loadNavbar fires a throttled progression reconcile for a logged-in visitor and refreshes the widget when it raises XP", async () => {
+
+    fetchSession = STEAM_SESSION;
+    // Real Steam-wide totals far above this fresh browser's local 0.
+    profileStatsResponse = { success: true, status: "ready", achievements: 40, completedGames: 2 };
+
+    await loadNavbar();
+    await flushMicrotasks();
+
+    assert.strictEqual(statsFetchCount, 1, "exactly one /api/profile/stats reconcile fetch");
+
+    const player = getPlayer();
+    assert.strictEqual(player.completedAchievements, 40, "local counter caught up to the live total");
+    assert.strictEqual(player.completedGames, 2);
+    assert.strictEqual(player.totalXP, 40 * 50 + 2 * 300, "XP granted for the newly-reconciled progress");
+    assert.match(navbarHTML, /TestHunter/, "widget re-rendered after the reconcile");
+
+});
+
+test("loadNavbar's reconcile is skipped entirely while the throttle checkpoint is still fresh", async () => {
+
+    fetchSession = STEAM_SESSION;
+    profileStatsResponse = { success: true, status: "ready", achievements: 40, completedGames: 2 };
+
+    await loadNavbar();
+    await flushMicrotasks();
+    assert.strictEqual(statsFetchCount, 1);
+
+    // A second page load moments later. resetProfileStatsShared() simulates
+    // the real per-navigation module reset; the throttle checkpoint lives
+    // in localStorage, so it survives - and must suppress the second fetch.
+    resetProfileStatsShared();
+    navbarHTML = "";
+    await loadNavbar();
+    await flushMicrotasks();
+
+    assert.strictEqual(statsFetchCount, 1, "the 30-minute throttle suppressed the second reconcile fetch");
+
+});
+
+test("loadNavbar({ reconcileProgression: false }) never fires the reconcile fetch (the caller owns it)", async () => {
+
+    fetchSession = STEAM_SESSION;
+    profileStatsResponse = { success: true, status: "ready", achievements: 40, completedGames: 2 };
+
+    await loadNavbar({ reconcileProgression: false });
+    await flushMicrotasks();
+
+    assert.strictEqual(statsFetchCount, 0);
+    assert.strictEqual(getPlayer().completedAchievements, 0, "no reconcile happened here");
+
+});
+
+test("loadNavbar's reconcile is a no-op for a logged-out visitor - no fetch, no checkpoint", async () => {
+
+    fetchSession = { logged: false };
+
+    await loadNavbar();
+    await flushMicrotasks();
+
+    assert.strictEqual(statsFetchCount, 0);
+
+});
+
+test("a failed reconcile fetch leaves the checkpoint unset so the next page load retries", async () => {
+
+    fetchSession = STEAM_SESSION;
+    profileStatsResponse = { success: false, message: "steam down" };
+
+    await loadNavbar();
+    await flushMicrotasks();
+    assert.strictEqual(statsFetchCount, 1);
+
+    // Now a healthy response on the next navigation: it must try again, not
+    // stay suppressed by a checkpoint that was never stamped.
+    resetProfileStatsShared();
+    profileStatsResponse = { success: true, status: "ready", achievements: 12, completedGames: 0 };
+    navbarHTML = "";
+    await loadNavbar();
+    await flushMicrotasks();
+
+    assert.strictEqual(statsFetchCount, 2, "the failed attempt did not consume the throttle window");
+    assert.strictEqual(getPlayer().completedAchievements, 12);
 
 });

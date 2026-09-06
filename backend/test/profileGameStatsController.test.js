@@ -73,6 +73,32 @@ test("getProfileGameStats returns the per-game completion breakdown + coverage m
     assert.strictEqual(res.jsonBody.gamesConsidered, 2);
     assert.strictEqual(res.jsonBody.gamesWithPlayerDataUnavailable, 0);
 
+    // The Steam-wide aggregate is forwarded here too (same numbers
+    // /api/profile/stats would return), so the Games page can reconcile
+    // progression without a second request.
+    assert.strictEqual(res.jsonBody.achievements, 30);
+    assert.strictEqual(res.jsonBody.completedGames, 1);
+
+});
+
+test("getProfileGameStats forwards a zero aggregate as 0, not undefined, when the scan found nothing", async () => {
+
+    const res = createMockRes();
+
+    const deps = {
+        getOwnedGames: async () => ({ game_count: 0, games: [] }),
+        getProfileStatsCached: async () => ({ perGameCompletion: [], gamesConsidered: 0 })
+    };
+
+    await getProfileGameStatsWithDeps(
+        { session: { user: { steamid: "123" } } },
+        res,
+        deps
+    );
+
+    assert.strictEqual(res.jsonBody.achievements, 0);
+    assert.strictEqual(res.jsonBody.completedGames, 0);
+
 });
 
 test("getProfileGameStats tolerates a stats object with no perGameCompletion (empty list, not a crash)", async () => {

@@ -47,6 +47,14 @@ export async function fetchProfileGameStats() {
 
         status: "ready",
         games: Array.isArray(data.games) ? data.games : [],
+
+        // Steam-wide aggregate, forwarded by the backend from the exact
+        // same cached scan (zero extra cost) so the Games page can
+        // reconcile progression off this one call - see
+        // progressionReconciler.js's reconcileAggregateProgress().
+        achievements: typeof data.achievements === "number" ? data.achievements : null,
+        completedGames: typeof data.completedGames === "number" ? data.completedGames : null,
+
         gamesConsidered: data.gamesConsidered ?? 0,
         gamesWithPlayerDataUnavailable: data.gamesWithPlayerDataUnavailable ?? 0,
         gamesWithTransientErrors: data.gamesWithTransientErrors ?? 0

@@ -79,6 +79,12 @@ import {
 
 import {
 
+    markReconciled
+
+} from "../utils/player/statistics/progressionReconciler.js";
+
+import {
+
     recordDailyActivity
 
 } from "../utils/player/streak/streakManager.js";
@@ -98,9 +104,9 @@ import {
 
 import {
 
-    fetchProfileStats
+    getProfileStatsShared
 
-} from "../utils/player/statistics/profileStatsClient.js";
+} from "../utils/player/statistics/profileStatsShared.js";
 
 import {
 
@@ -114,7 +120,11 @@ async function init() {
     // performs) runs in parallel with building the initial page shell
     // below. The same resolved session is reused here instead of a second,
     // redundant /api/me call.
-    const sessionPromise = loadNavbar();
+    // reconcileProgression:false - this page fetches the same Steam-wide
+    // aggregate itself (getProfileStatsShared, below) for its stat cards
+    // and reconciles from it directly, so letting loadNavbar fire its own
+    // reconcile would just be a second request for data already in flight.
+    const sessionPromise = loadNavbar({ reconcileProgression: false });
 
     const profileContent =
         document.getElementById("profile-content");
@@ -161,7 +171,7 @@ async function init() {
     // concurrently, exactly like before, but the backend only computes the
     // full-library scan once per page load.
     const statsPromise = session.logged
-        ? fetchProfileStats()
+        ? getProfileStatsShared()
         : Promise.resolve({ status: "logged-out" });
 
     loadGamesSection(statsPromise);
@@ -561,6 +571,11 @@ async function init() {
         if (result.status === "ready") {
 
             reconcileProgressFromProfileStats(result);
+
+            // Stamp the shared throttle checkpoint so the next page's
+            // background reconcile (layout.js) skips - Profile has just
+            // done the equivalent work against the same live data.
+            markReconciled();
 
             refresh();
 

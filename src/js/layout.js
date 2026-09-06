@@ -10,6 +10,10 @@ import {
     syncPlayerProgressOnLoad
 } from "../utils/player/sync/playerSync.js";
 
+import {
+    reconcileProgressionOnLoad
+} from "../utils/player/statistics/progressionReconciler.js";
+
 // Shared by loadNavbar (initial render) and refreshPlayerWidget (later
 // re-renders once player progression can have changed) so both paths render
 // and wire up #navbar identically - the click listener has to be
@@ -58,7 +62,16 @@ function renderNavbar(navbar, session) {
 // profile.js) can reuse this one /api/me call instead of fetching it again
 // themselves - every page was previously paying for two identical session
 // checks on load.
-export async function loadNavbar() {
+//
+// reconcileProgression (default true): after the session is known, kick a
+// throttled, non-blocking progression reconcile (see
+// progressionReconciler.js) so a logged-in visitor's XP/level/avatars/
+// badges catch up to their real Steam-wide totals on *any* page, not only
+// if they open Profile. Pages that already fetch that aggregate themselves
+// pass false and reconcile from their own data instead (games.js via
+// /api/profile/game-stats, profile.js via getProfileStatsShared) - so the
+// reconcile fetch happens at most once per page load, never duplicated.
+export async function loadNavbar({ reconcileProgression = true } = {}) {
 
     const navbar = document.getElementById("navbar");
 
@@ -94,6 +107,31 @@ export async function loadNavbar() {
     await syncPlayerProgressOnLoad(session);
 
     renderNavbar(navbar, session);
+
+    // Fire-and-forget: never delays the navbar or the page. A no-op while
+    // logged out or when the throttle checkpoint is still fresh; on the
+    // rare load that actually reconciles, refresh the player-widget in
+    // place only if something moved (reconcileProgressFromProfileStats is
+    // monotonic, so "changed" is false once a player is caught up).
+    if (reconcileProgression) {
+
+        reconcileProgressionOnLoad(session)
+            .then(result => {
+
+                if (result?.changed) {
+
+                    refreshPlayerWidget(session);
+
+                }
+
+            })
+            .catch(error => {
+
+                console.error("Unable to reconcile progression:", error);
+
+            });
+
+    }
 
     return session;
 

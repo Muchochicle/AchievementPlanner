@@ -165,4 +165,10 @@ export function reconcileProgressFromProfileStats({ achievements, completedGames
     checkPlayerUnlocks();
     checkBadgeUnlocks();
 
+    // Lets a caller decide whether any user-visible surface (the navbar
+    // player-widget, Profile header/badges) actually needs re-rendering -
+    // an unchanged reconcile (the common case once a player is caught up)
+    // should never trigger a re-render or a sync push.
+    return changed;
+
 }

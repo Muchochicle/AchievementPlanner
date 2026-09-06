@@ -3,7 +3,8 @@ import { getGamesIndex } from "../utils/gameService.js";
 import { createGamesFilters } from "../components/games-filters/games-filters.js";
 import { createCatalogFilters } from "../components/catalog-filters/catalog-filters.js";
 import { createActiveFilters } from "../components/active-filters/active-filters.js";
-import { loadNavbar } from "./layout.js";
+import { loadNavbar, refreshPlayerWidget } from "./layout.js";
+import { reconcileAggregateProgress } from "../utils/player/statistics/progressionReconciler.js";
 import {
     renderGames,
     renderGamesSkeleton,
@@ -86,7 +87,12 @@ async function init() {
     // with the catalog fetch below. Its resolved value is reused (never a
     // second /api/me) to decide whether to load player-specific per-game
     // stats.
-    const sessionPromise = loadNavbar();
+    //
+    // reconcileProgression:false - this page already fetches the Steam-wide
+    // aggregate via /api/profile/game-stats below and reconciles from it
+    // (reconcileAggregateProgress), so letting loadNavbar also fire its own
+    // /api/profile/stats reconcile would be a duplicate call.
+    const sessionPromise = loadNavbar({ reconcileProgression: false });
 
     const gamesContainer = document.getElementById("games-container");
 
@@ -463,6 +469,31 @@ function wireGamesPage(games, session) {
 
                 setPlayerControls(true);
                 refresh();
+
+                // Reconcile XP/level/avatars/badges against the player's
+                // real Steam-wide totals using the aggregate this same
+                // response already carried - no extra request. Refresh the
+                // navbar widget only if it actually moved. Isolated so a
+                // fault here can never fall through to the .catch below and
+                // wrongly replace an already-loaded catalog with an error.
+                try {
+
+                    const { changed } = reconcileAggregateProgress({
+                        achievements: result.achievements,
+                        completedGames: result.completedGames
+                    });
+
+                    if (changed) {
+
+                        refreshPlayerWidget(session);
+
+                    }
+
+                } catch (reconcileError) {
+
+                    console.error("Unable to reconcile progression from game stats:", reconcileError);
+
+                }
 
             })
             .catch(error => {
