@@ -88,6 +88,8 @@ export function createCatalogCard(game) {
                 class="catalog-image"
                 src="${escapeHtml(game.image)}"
                 alt=""
+                loading="lazy"
+                decoding="async"
             >
 
             ${ownedBadge}

@@ -34,12 +34,81 @@ export function renderGamesSkeleton(container, count = 12) {
 
 }
 
+// Keyed cache of built `<article class="catalog-card">` nodes, one per
+// game slug. games.js re-runs its search -> filter -> sort pipeline and
+// calls renderGames() again on every keystroke, sort flip, filter toggle,
+// "Show more" click, and once more after per-game player stats load.
+// Rebuilding the grid with `innerHTML` on each of those threw away every
+// `<img class="catalog-image">` and made the browser re-request the same
+// Steam CDN cover art every time (a storm of duplicate image requests
+// visible in the Network panel while just typing in the search box).
+// Reusing the same element nodes - only reordering them in the container -
+// means an image that has already loaded is never fetched again. A card's
+// markup is a pure function of stable catalog fields
+// (title/image/slug/difficulty/completionTime/playtime/hasPlanner/
+// achievementAvailability/owned); the later player-stats merge in games.js
+// only changes sort/filter *order*, not any card's own contents, so a
+// cached node stays valid for the life of the page. The cache only ever
+// holds slugs that have actually been shown, so at worst it grows to the
+// full catalog size (~1000 detached <article> nodes, a few MB) over a long
+// session of searching - the intended trade for eliminating the refetches.
+const cardElementCache = new Map();
+
+// Test hook (and a clean starting point if the catalog is ever fully
+// reloaded in-page): drop every cached node so the next renderGames()
+// rebuilds from scratch.
+export function resetCatalogCardCache() {
+
+    cardElementCache.clear();
+
+}
+
+// Parse one card's HTML string into a detached element. Browser-only (uses
+// <template>); the reconcile step below injects a fake in tests.
+function buildCardElement(game) {
+
+    const template = document.createElement("template");
+    template.innerHTML = createCatalogCard(game).trim();
+
+    return template.content.firstElementChild;
+
+}
+
+// Pure: given the already-windowed list of games to show, return the
+// ordered array of card nodes to place in the grid, building (and caching)
+// a node only for a slug not seen before. `create`/`cache` are injectable
+// so the reuse + ordering guarantees are unit-testable without a DOM.
+export function reconcileCatalogCards(
+    windowed,
+    create = buildCardElement,
+    cache = cardElementCache
+) {
+
+    return windowed.map(game => {
+
+        let element = cache.get(game.slug);
+
+        if (!element) {
+
+            element = create(game);
+            cache.set(game.slug, element);
+
+        }
+
+        return element;
+
+    });
+
+}
+
 // Windowed render: paints only the first `shown` matches (see
 // GAMES_PAGE_SIZE) so a 1000+ result set doesn't build 1000 cards on every
 // keystroke. The page controller (games.js) owns the "Show more" control
 // and the `shown` count. Only ever called once the catalog has actually
 // loaded, so an empty `list` here genuinely means "no match", never
-// "still loading".
+// "still loading". Reuses card nodes across calls (see cardElementCache
+// above) so re-sorting/re-filtering never re-fetches already-loaded cover
+// art.
 export function renderGames(list, container, options = {}) {
 
     const { shown = list.length } = options;
@@ -53,10 +122,14 @@ export function renderGames(list, container, options = {}) {
 
     }
 
-    container.innerHTML = list
-        .slice(0, Math.max(0, shown))
-        .map(game => createCatalogCard(game))
-        .join("");
+    const windowed = list.slice(0, Math.max(0, shown));
+    const nodes = reconcileCatalogCards(windowed);
+
+    // Moves any node that's already a child into its new position rather
+    // than recreating it - so its <img> keeps whatever it has already
+    // loaded - and drops the ones no longer in the window (and the
+    // "no match" <p> from a previous empty render).
+    container.replaceChildren(...nodes);
 
 }
 
