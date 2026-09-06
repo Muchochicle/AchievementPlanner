@@ -41,6 +41,113 @@ function runServerOnce(envOverrides) {
 
 }
 
+// Spawn the real server.js and resolve once it has printed its "Server
+// running on port" readiness line, returning the still-running child (the
+// caller kills it) and everything it wrote to stdout.
+//
+// Every spawn-based test below used to inline this with a `setTimeout(
+// resolve, 15000)` fallback - which meant that when a freshly spawned
+// `node` took longer than 15s just to parse server.js + its imports (seen
+// on loaded CI runners under the full ~10k-test parallel suite - the flake
+// that turned CI red on f67fba5 and again here), the promise resolved with
+// stdout still empty and the test failed on a confusing `assert.match("",
+// ...)` rather than a clear "server never became ready". This helper:
+//   - waits for the OS to actually start the process (`spawn` event)
+//     before starting the readiness clock, so we time server boot, not
+//     process scheduling;
+//   - uses a far more generous 60s bound - a healthy server resolves in
+//     well under a second via the stdout match, so this never slows a
+//     green run; it only bounds a genuinely hung process;
+//   - rejects (never silently resolves) on timeout or an early exit, with
+//     the captured output, so a real regression is an honest failure.
+function startServerAndWaitForReady(envOverrides = {}, { readyTimeoutMs = 60000 } = {}) {
+
+    const child = spawn("node", [SERVER_PATH], {
+        cwd: BACKEND_DIR,
+        env: { ...process.env, PORT: "0", ...envOverrides },
+        stdio: ["ignore", "pipe", "pipe"]
+    });
+
+    let stdout = "";
+    let stderr = "";
+
+    child.stdout.on("data", chunk => { stdout += chunk; });
+    child.stderr.on("data", chunk => { stderr += chunk; });
+
+    return new Promise((resolve, reject) => {
+
+        let settled = false;
+        let timer = null;
+
+        const finish = fn => {
+
+            if (settled) {
+
+                return;
+
+            }
+
+            settled = true;
+
+            if (timer) {
+
+                clearTimeout(timer);
+
+            }
+
+            fn();
+
+        };
+
+        const checkReady = () => {
+
+            if (stdout.includes("Server running on port")) {
+
+                finish(() => resolve({ child, stdout }));
+
+            }
+
+        };
+
+        child.once("spawn", () => {
+
+            timer = setTimeout(() => {
+
+                finish(() => reject(new Error(
+                    `server did not print its readiness line within ${readyTimeoutMs}ms.\n` +
+                    `stdout so far: ${JSON.stringify(stdout)}\n` +
+                    `stderr so far: ${JSON.stringify(stderr)}`
+                )));
+
+            }, readyTimeoutMs);
+
+            checkReady();
+            child.stdout.on("data", checkReady);
+
+        });
+
+        child.once("error", error => finish(() => reject(error)));
+
+        child.once("exit", code => {
+
+            // A clean, ready server is killed by the caller, not exited on
+            // its own - so any exit before we've seen the readiness line is
+            // a failure to start.
+            if (!stdout.includes("Server running on port")) {
+
+                finish(() => reject(new Error(
+                    `server exited early with code ${code} before becoming ready.\n` +
+                    `stderr: ${JSON.stringify(stderr)}`
+                )));
+
+            }
+
+        });
+
+    });
+
+}
+
 test("exits with status 1 and a clear message when SESSION_SECRET is missing", () => {
 
     const result = runServerOnce({ SESSION_SECRET: "" });
@@ -82,49 +189,8 @@ test("exits with status 1 and a clear message when SESSION_SECRET is present but
 
 test("accepts a SESSION_SECRET exactly at the 32-character minimum", async () => {
 
-    const child = spawn("node", [SERVER_PATH], {
-        cwd: BACKEND_DIR,
-        env: { ...process.env, PORT: "0", SESSION_SECRET: "a".repeat(32) },
-        stdio: ["ignore", "pipe", "pipe"]
-    });
-
-    let stdout = "";
-
-    await new Promise((resolve, reject) => {
-
-        // Fallback so the test can't hang forever. Generous (15s, not 2s)
-        // because under the full parallel suite a freshly spawned `node`
-        // can take several seconds just to parse server.js + its imports
-        // and print its first line - a passing run still resolves in well
-        // under a second via the stdout match below; this only bounds the
-        // failure case.
-        const timeout = setTimeout(resolve, 15000);
-
-        child.stdout.on("data", chunk => {
-
-            stdout += chunk;
-
-            if (stdout.includes("Server running on port")) {
-
-                clearTimeout(timeout);
-                resolve();
-
-            }
-
-        });
-
-        child.on("error", reject);
-        child.on("exit", code => {
-
-            if (code !== null && code !== 0) {
-
-                clearTimeout(timeout);
-                reject(new Error(`server exited early with code ${code}`));
-
-            }
-
-        });
-
+    const { child, stdout } = await startServerAndWaitForReady({
+        SESSION_SECRET: "a".repeat(32)
     });
 
     child.kill();
@@ -144,40 +210,7 @@ test("binds to 0.0.0.0, not just localhost/IPv6-only, so container platforms lik
     // 0.0.0.0)" the startup log prints (server.js) is deterministic across
     // CI environments, unlike asserting on real interface reachability,
     // which depends on network interfaces that may not exist in a sandbox.
-    const child = spawn("node", [SERVER_PATH], {
-        cwd: BACKEND_DIR,
-        env: { ...process.env, PORT: "0" },
-        stdio: ["ignore", "pipe", "pipe"]
-    });
-
-    let stdout = "";
-
-    await new Promise((resolve, reject) => {
-
-        // Fallback so the test can't hang forever. Generous (15s, not 2s)
-        // because under the full parallel suite a freshly spawned `node`
-        // can take several seconds just to parse server.js + its imports
-        // and print its first line - a passing run still resolves in well
-        // under a second via the stdout match below; this only bounds the
-        // failure case.
-        const timeout = setTimeout(resolve, 15000);
-
-        child.stdout.on("data", chunk => {
-
-            stdout += chunk;
-
-            if (stdout.includes("Server running on port")) {
-
-                clearTimeout(timeout);
-                resolve();
-
-            }
-
-        });
-
-        child.on("error", reject);
-
-    });
+    const { child, stdout } = await startServerAndWaitForReady();
 
     child.kill();
 
@@ -191,47 +224,16 @@ test("starts successfully and stays running when all required variables are pres
     // (as it must, for `npm start`/`npm run dev` to work at all).
     // PORT=0 asks the OS for an ephemeral free port so this can never
     // collide with a real server already running on port 3000.
-    const child = spawn("node", [SERVER_PATH], {
-        cwd: BACKEND_DIR,
-        env: { ...process.env, PORT: "0" },
-        stdio: ["ignore", "pipe", "pipe"]
-    });
+    const { child, stdout } = await startServerAndWaitForReady();
 
-    let stdout = "";
-    let exitedEarly = false;
-
-    child.on("exit", () => { exitedEarly = true; });
-
-    await new Promise((resolve, reject) => {
-
-        // Fallback so the test can't hang forever. Generous (15s, not 2s)
-        // because under the full parallel suite a freshly spawned `node`
-        // can take several seconds just to parse server.js + its imports
-        // and print its first line - a passing run still resolves in well
-        // under a second via the stdout match below; this only bounds the
-        // failure case.
-        const timeout = setTimeout(resolve, 15000);
-
-        child.stdout.on("data", chunk => {
-
-            stdout += chunk;
-
-            if (stdout.includes("Server running on port")) {
-
-                clearTimeout(timeout);
-                resolve();
-
-            }
-
-        });
-
-        child.on("error", reject);
-
-    });
+    // Still running under its own steam when we get here: the helper
+    // rejects if the process exits before printing its readiness line, and
+    // .exitCode is null for a process that hasn't exited yet.
+    const stillRunning = child.exitCode === null && child.signalCode === null;
 
     child.kill();
 
     assert.match(stdout, /Server running on port/);
-    assert.strictEqual(exitedEarly, false, "server should still have been running when killed, not exited on its own");
+    assert.strictEqual(stillRunning, true, "server should still have been running when killed, not exited on its own");
 
 });
