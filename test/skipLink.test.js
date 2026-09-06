@@ -27,7 +27,8 @@ const PAGES = [
     "podiums.html",
     "profile.html",
     "roadmap.html",
-    "about.html"
+    "about.html",
+    "404.html"
 ];
 
 function readPage(name) {

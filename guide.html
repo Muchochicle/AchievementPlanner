@@ -8,6 +8,15 @@
 
     <title>Guide | Achievement Planner</title>
 
+    <!-- Per-guide pages are JavaScript-rendered (guide.html?slug=...): no
+         crawlable server-side content or per-page metadata, and the bare
+         URL is not a real page. Keep the whole route out of the index for
+         now; `follow` so the in-page links stay crawlable. Revisit if
+         these pages ever get pre-rendered. -->
+    <meta name="robots" content="noindex, follow">
+
+    <link rel="icon" type="image/svg+xml" href="src/assets/favicon.svg">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 

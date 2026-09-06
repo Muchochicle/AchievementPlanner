@@ -8,8 +8,9 @@
   on how (or whether) to make them indexable.
 
   URLs are absolute and include the /AchievementPlanner/ project path.
-  If this site ever moves to a custom domain, update every <loc> here, the
-  Sitemap line in robots.txt, and the <link rel="canonical"> in each page.
+  A custom domain is planned. When it lands, every absolute URL that
+  hardcodes the github.io path must be updated - see
+  dev-notes/DOMAIN_SWITCH.md for the full list.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
