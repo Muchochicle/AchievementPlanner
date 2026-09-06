@@ -11,6 +11,29 @@ import {
 
 import { sendServerError } from "../utils/sendServerError.js";
 
+// Both /auth/steam/login and /auth/steam/return are top-level browser
+// navigations (the user clicked "Log in with Steam", then Steam redirected
+// their browser here) - so a failure must never end as a raw JSON body on
+// the backend origin, which stranded the user with no way back into the
+// app. Instead, bounce them to the frontend's landing page with a marker
+// the frontend renders as a proper error state + retry (see
+// src/components/login-error/login-error.js). FRONTEND_URL is a fixed,
+// operator-set origin (never request-derived), so this is not an open
+// redirect. No failure detail is included - "couldn't sign you in, try
+// again" is the whole actionable message, and the real error is logged
+// server-side for diagnosis.
+function frontendBaseUrl() {
+
+    return (process.env.FRONTEND_URL ?? "http://localhost:5501").replace(/\/+$/, "");
+
+}
+
+function redirectToLoginFailed(res) {
+
+    res.redirect(`${frontendBaseUrl()}/index.html?login=failed`);
+
+}
+
 export async function login(req, res) {
 
     try {
@@ -25,7 +48,9 @@ export async function login(req, res) {
 
     } catch (error) {
 
-        sendServerError(res, error, "GET /auth/steam/login");
+        console.error("[GET /auth/steam/login]", error);
+
+        redirectToLoginFailed(res);
 
     }
 
@@ -150,13 +175,7 @@ export async function callbackWithDeps(req, res, deps) {
 
         ) {
 
-            return res.status(401).json({
-
-                success: false,
-
-                message: "Steam authentication failed"
-
-            });
+            return redirectToLoginFailed(res);
 
         }
 
@@ -169,13 +188,7 @@ export async function callbackWithDeps(req, res, deps) {
 
         if (!valid) {
 
-            return res.status(401).json({
-
-                success: false,
-
-                message: "Steam authentication failed"
-
-            });
+            return redirectToLoginFailed(res);
 
         }
 
@@ -186,18 +199,13 @@ export async function callbackWithDeps(req, res, deps) {
         // validateSteamResponse's signature check above - but nothing
         // upstream actually guarantees its presence/type, and without this
         // check a missing value falls through to an uncaught TypeError on
-        // .split() (Finding 22, PHASE_53_AUDIT.md), converted to a generic
-        // 500 by the catch below instead of this function's own, more
-        // accurate 401 for every other malformed-callback case.
+        // .split() (Finding 22, PHASE_53_AUDIT.md). Handling it here keeps
+        // this an ordinary, expected "malformed callback -> login-failed
+        // redirect" like every other check in this function, instead of an
+        // unexpected throw the catch below has to mop up.
         if (typeof claimedId !== "string" || !claimedId) {
 
-            return res.status(401).json({
-
-                success: false,
-
-                message: "Steam authentication failed"
-
-            });
+            return redirectToLoginFailed(res);
 
         }
 
@@ -219,13 +227,17 @@ export async function callbackWithDeps(req, res, deps) {
 
         };
 
-        const frontendUrl = (process.env.FRONTEND_URL ?? "http://localhost:5501").replace(/\/+$/, "");
-
-        res.redirect(`${frontendUrl}/index.html`);
+        res.redirect(`${frontendBaseUrl()}/index.html`);
 
     } catch (error) {
 
-        sendServerError(res, error, "GET /auth/steam/return");
+        // Unexpected failure (Steam API down, session regenerate error,
+        // ...): still log it for diagnosis, but send the user to the same
+        // frontend error state as every other failure above rather than a
+        // raw 500 JSON body on the backend origin.
+        console.error("[GET /auth/steam/return]", error);
+
+        redirectToLoginFailed(res);
 
     }
 

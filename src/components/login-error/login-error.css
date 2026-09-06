@@ -1,0 +1,98 @@
+/* Shown at the top of the landing page when a Steam sign-in round trip
+   failed (index.html?login=failed). Same surface/border/radius language as
+   .game-guide-notice, with a red left accent so it reads as "something
+   went wrong". No --danger token exists in variables.css and this is the
+   only consumer, so the accent colour is a local literal. */
+.login-error{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px 20px;
+    align-items:center;
+    justify-content:space-between;
+
+    max-width:var(--max-width);
+    margin:var(--spacing-md) auto 0;
+    padding:16px 20px;
+
+    background:var(--surface);
+    border:1px solid #F87171;
+    border-left-width:4px;
+    border-radius:var(--radius);
+
+}
+
+.login-error-body strong{
+
+    display:block;
+    margin-bottom:4px;
+
+}
+
+.login-error-body p{
+
+    color:var(--text-secondary);
+    font-size:.9rem;
+    margin:0;
+
+}
+
+.login-error-actions{
+
+    display:flex;
+    gap:10px;
+    flex-shrink:0;
+
+}
+
+.login-error-retry,
+.login-error-dismiss{
+
+    display:inline-block;
+    padding:8px 16px;
+    border-radius:var(--radius);
+    font:inherit;
+    font-weight:600;
+    font-size:.9rem;
+    cursor:pointer;
+    text-decoration:none;
+
+}
+
+.login-error-retry{
+
+    background:var(--primary);
+    color:var(--on-primary);
+    border:1px solid var(--primary);
+
+}
+
+.login-error-retry:hover{
+
+    background:var(--primary-hover);
+    border-color:var(--primary-hover);
+
+}
+
+.login-error-dismiss{
+
+    background:transparent;
+    color:var(--text-secondary);
+    border:1px solid var(--border-strong);
+
+}
+
+.login-error-dismiss:hover{
+
+    color:var(--text);
+
+}
+
+.login-error-retry:focus-visible,
+.login-error-dismiss:focus-visible,
+.login-error:focus-visible{
+
+    outline:2px solid var(--primary);
+    outline-offset:2px;
+
+}

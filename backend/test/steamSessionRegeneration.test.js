@@ -10,6 +10,10 @@ import { login, callbackWithDeps } from "../controllers/steamController.js";
 // direct calls to login().
 process.env.STEAM_RETURN_URL = "http://localhost:3000/auth/steam/return";
 process.env.STEAM_REALM = "http://localhost:3000";
+// callback() redirects here (success -> /index.html, failure ->
+// /index.html?login=failed); pinned so the assertions below are
+// deterministic regardless of the ambient environment.
+process.env.FRONTEND_URL = "http://localhost:5501";
 
 // Integration test for the session-fixation defense in
 // controllers/steamController.js: a successful callback must regenerate
@@ -142,6 +146,10 @@ test("a successful login regenerates the session cookie - the pre-login cookie i
 
         assert.strictEqual(callbackRes.status, 302, "a valid callback should redirect back to the frontend");
 
+        const successLocation = new URL(callbackRes.headers.get("location"));
+        assert.strictEqual(successLocation.pathname, "/index.html");
+        assert.strictEqual(successLocation.search, "", "a successful login must NOT carry the ?login=failed marker");
+
         const postLoginCookie = extractCookie(callbackRes);
 
         assert.notStrictEqual(
@@ -264,15 +272,26 @@ test("a consumed oauthState cannot be replayed - a second callback with the same
         // further async work (see the "one-time use" comment there), so
         // this must be rejected even though the cookie itself is
         // syntactically valid and was never regenerated for this replay.
+        // Rejection is now a redirect to the frontend's login-failed page
+        // (a top-level browser navigation should never dead-end on a raw
+        // JSON body), not a 401 JSON - but it still grants no session.
         const replayAttempt = await fetch(callbackUrl(baseUrl, state), {
             redirect: "manual",
             headers: { Cookie: preLoginCookie }
         });
 
-        assert.strictEqual(replayAttempt.status, 401, "a replayed callback reusing an already-consumed state must be rejected");
+        assert.strictEqual(replayAttempt.status, 302, "a replayed callback reusing an already-consumed state must be rejected");
+        assert.match(
+            replayAttempt.headers.get("location"),
+            /\/index\.html\?login=failed$/,
+            "a rejected replay must land on the frontend error page, not authenticate"
+        );
 
-        const body = await replayAttempt.json();
-        assert.strictEqual(body.success, false);
+        // And crucially: no authenticated session was created for that cookie.
+        const meAfterReplay = await fetch(`${baseUrl}/me`, {
+            headers: { Cookie: preLoginCookie }
+        });
+        assert.strictEqual((await meAfterReplay.json()).logged, false, "the replayed callback must not have logged anyone in");
 
     } finally {
 

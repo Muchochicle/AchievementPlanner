@@ -2,6 +2,7 @@ import { createSearch } from "../components/search/search.js";
 import { getGamesIndex, getPopularGames } from "../utils/gameService.js";
 import { createCatalogCard } from "../components/catalog-card/catalog-card.js";
 import { loadNavbar } from "./layout.js";
+import { mountLoginError } from "../components/login-error/login-error.js";
 
 export const POPULAR_GAMES_UNAVAILABLE_MESSAGE =
     "Popularity data is temporarily unavailable.";
@@ -123,6 +124,20 @@ function initCardNavigation(container) {
 
 async function init() {
     loadNavbar();
+
+    // If the Steam sign-in round trip bounced back here with ?login=failed,
+    // show a real error state (message + retry + dismiss) instead of the
+    // user having just seen a raw JSON error on the backend origin. No-op
+    // otherwise. Independent of the catalog/popular-games loads below.
+    try {
+
+        mountLoginError(document.getElementById("login-error-slot"));
+
+    } catch (error) {
+
+        console.error(error);
+
+    }
 
     const container = document.getElementById("games-container");
     const catalogError = document.getElementById("catalog-error");

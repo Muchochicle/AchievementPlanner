@@ -10,6 +10,12 @@ import { login, callback, callbackWithDeps } from "../controllers/steamControlle
 // validateSteamResponse() or getPlayerSummary(), so these tests make no
 // network calls and depend on no external service.
 //
+// Both endpoints are top-level browser navigations, so a failure now
+// redirects the browser to the frontend's index.html?login=failed (the
+// frontend renders a real error state + retry there) rather than emitting
+// a raw JSON 401/500 on the backend origin. FRONTEND_URL is pinned here so
+// that redirect target is deterministic.
+//
 // Deliberately NOT covered here: the success path past state validation
 // (contacting Steam) and state-reuse rejection - both need
 // callbackWithDeps's dependency-injection seam to exercise without a real
@@ -17,6 +23,10 @@ import { login, callback, callbackWithDeps } from "../controllers/steamControlle
 // instead (see that file's own header comment). This file sticks to the
 // rejection paths that return before any of that, so it makes no network
 // calls and depends on no external service.
+
+process.env.FRONTEND_URL = "https://frontend.example";
+
+const LOGIN_FAILED_URL = "https://frontend.example/index.html?login=failed";
 
 function createMockRes() {
 
@@ -95,32 +105,32 @@ test("login() generates a different state on each call", async () => {
 
 });
 
-test("callback() rejects when no state was ever stored in the session, without contacting Steam", async () => {
+test("callback() redirects to the frontend login-failed page when no state was ever stored, without contacting Steam", async () => {
 
     const req = { session: {}, query: {} };
     const res = createMockRes();
 
     await callback(req, res);
 
-    assert.strictEqual(res.statusCode, 401);
-    assert.strictEqual(res.jsonBody.success, false);
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
+    assert.strictEqual(res.jsonBody, null, "must not also emit a JSON body");
 
 });
 
-test("callback() rejects when the request has no state query param at all", async () => {
+test("callback() redirects to login-failed when the request has no state query param at all", async () => {
 
     const req = { session: { oauthState: "some-stored-state" }, query: {} };
     const res = createMockRes();
 
     await callback(req, res);
 
-    assert.strictEqual(res.statusCode, 401);
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
     // a rejected attempt must not consume the still-valid stored state
     assert.strictEqual(req.session.oauthState, "some-stored-state");
 
 });
 
-test("callback() rejects a state that does not match what's stored in the session, without contacting Steam", async () => {
+test("callback() redirects to login-failed for a state that does not match what's stored, without contacting Steam", async () => {
 
     const req = {
         session: { oauthState: "the-real-stored-state" },
@@ -130,8 +140,7 @@ test("callback() rejects a state that does not match what's stored in the sessio
 
     await callback(req, res);
 
-    assert.strictEqual(res.statusCode, 401);
-    assert.strictEqual(res.jsonBody.success, false);
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
     assert.strictEqual(
         req.session.oauthState,
         "the-real-stored-state",
@@ -140,15 +149,17 @@ test("callback() rejects a state that does not match what's stored in the sessio
 
 });
 
-test("callback()'s rejection response never includes error details/stack traces", async () => {
+test("callback()'s failure redirect carries no error detail - just the fixed ?login=failed marker", async () => {
 
     const req = { session: {}, query: {} };
     const res = createMockRes();
 
     await callback(req, res);
 
-    assert.strictEqual(res.jsonBody.message, "Steam authentication failed");
-    assert.strictEqual(Object.keys(res.jsonBody).length, 2, "response body should only contain success and message");
+    const url = new URL(res.redirectUrl);
+
+    assert.strictEqual(url.pathname, "/index.html");
+    assert.strictEqual(url.search, "?login=failed", "no reason/stack/error params leaked into the redirect");
 
 });
 
@@ -161,7 +172,7 @@ test("callback()'s rejection response never includes error details/stack traces"
 // minimal fake req.session (no .regenerate()) is sufficient, matching this
 // file's existing lightweight rejection-path tests above.
 
-test("callback() rejects with 401 instead of crashing when openid.claimed_id is missing from the query, even after validation has already passed", async () => {
+test("callback() redirects to login-failed instead of crashing when openid.claimed_id is missing, even after validation has already passed", async () => {
 
     const req = {
         session: { oauthState: "the-real-stored-state" },
@@ -186,13 +197,11 @@ test("callback() rejects with 401 instead of crashing when openid.claimed_id is 
 
     );
 
-    assert.strictEqual(res.statusCode, 401);
-    assert.strictEqual(res.jsonBody.success, false);
-    assert.strictEqual(res.jsonBody.message, "Steam authentication failed");
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
 
 });
 
-test("callback() rejects with 401 when openid.claimed_id is present but empty", async () => {
+test("callback() redirects to login-failed when openid.claimed_id is present but empty", async () => {
 
     const req = {
         session: { oauthState: "the-real-stored-state" },
@@ -212,8 +221,7 @@ test("callback() rejects with 401 when openid.claimed_id is present but empty", 
 
     });
 
-    assert.strictEqual(res.statusCode, 401);
-    assert.strictEqual(res.jsonBody.success, false);
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
 
 });
 
@@ -247,9 +255,11 @@ test("callback() still extracts steamId correctly from a well-formed claimed_id 
     assert.strictEqual(receivedSteamId, "76561198000000000");
 
     // getPlayerSummary's thrown error is caught by callbackWithDeps's outer
-    // try/catch and converted to a safe generic 500 - proving the guard
-    // itself let a well-formed claimed_id straight through to steamId
-    // extraction, unlike the two rejection tests above.
-    assert.strictEqual(res.statusCode, 500);
+    // try/catch and now sends the user to the same frontend login-failed
+    // page as every other failure (rather than a raw 500 JSON) - proving
+    // the guard itself let a well-formed claimed_id straight through to
+    // steamId extraction, unlike the two redirect tests above.
+    assert.strictEqual(res.redirectUrl, LOGIN_FAILED_URL);
+    assert.strictEqual(res.statusCode, null, "no explicit error status - just the redirect");
 
 });
