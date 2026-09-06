@@ -33,6 +33,8 @@ export function createGameHeader(game, hoursPlayed = 0) {
                 class="game-header-image"
                 src="${escapeHtml(game.image)}"
                 alt="${escapeHtml(game.name)}"
+                decoding="async"
+                fetchpriority="high"
             >
 
             <div class="game-header-content">

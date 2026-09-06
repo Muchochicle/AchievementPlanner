@@ -38,7 +38,7 @@ function renderRow(row, index, formatValue) {
     const rowClass = `podium-row${rankClass(rank)}${row.isMe ? " podium-row--me" : ""}`;
 
     const avatar = row.avatarUrl
-        ? `<img class="podium-avatar" src="${escapeHtml(row.avatarUrl)}" alt="">`
+        ? `<img class="podium-avatar" src="${escapeHtml(row.avatarUrl)}" alt="" loading="lazy" decoding="async">`
         : `<div class="podium-avatar podium-avatar--placeholder" aria-hidden="true"></div>`;
 
     // The medal/#N badge is decorative (aria-hidden) - the rank is spoken
