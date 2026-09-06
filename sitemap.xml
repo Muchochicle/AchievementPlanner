@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Static sitemap for the public, indexable hub pages. profile.html is
+  omitted (login-only). The per-game (game.html?slug=...) and per-guide
+  (guide.html?slug=...) pages are intentionally not listed here: they are
+  JavaScript-rendered and carry no crawlable server-side content or
+  per-page metadata yet - see the Phase 2 SEO report for the open decision
+  on how (or whether) to make them indexable.
+
+  URLs are absolute and include the /AchievementPlanner/ project path.
+  If this site ever moves to a custom domain, update every <loc> here, the
+  Sitemap line in robots.txt, and the <link rel="canonical"> in each page.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/games.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/guides.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/podiums.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/roadmap.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://muchochicle.github.io/AchievementPlanner/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

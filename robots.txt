@@ -1,0 +1,17 @@
+# Achievement Planner - https://muchochicle.github.io/AchievementPlanner/
+#
+# NOTE: this site is a GitHub Pages *project* page served under the
+# /AchievementPlanner/ path. Crawlers only read robots.txt from the domain
+# root (https://muchochicle.github.io/robots.txt), which this repo cannot
+# control - so treat this file as advisory. The authoritative index
+# controls are the per-page <meta name="robots"> tags and the sitemap
+# (submit its full URL directly in Google Search Console).
+
+User-agent: *
+Allow: /
+
+# Personal, login-only page - nothing here belongs in a search index.
+Disallow: /AchievementPlanner/profile.html
+Disallow: /AchievementPlanner/profile
+
+Sitemap: https://muchochicle.github.io/AchievementPlanner/sitemap.xml

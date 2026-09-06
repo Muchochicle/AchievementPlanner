@@ -1,0 +1,29 @@
+# GitHub Pages builds this repo with Jekyll. The published site is only the
+# static frontend: the *.html pages at the repo root plus everything under
+# src/ (JS, CSS, component templates, guide data, image assets). Everything
+# listed below is repo tooling, tests, notes, or the backend service and
+# must NOT be copied into the published site or be crawlable from it.
+#
+# (No Jekyll templating is used anywhere - the .html files contain no
+# Liquid, and .js/.css files have no front matter, so they are copied
+# verbatim. This file exists purely for `exclude`.)
+exclude:
+  - backend/
+  - test/
+  - scripts/
+  - docs/
+  - dev-notes/
+  - node_modules/
+  - README.md
+  - package.json
+  - package-lock.json
+  - .gitignore
+  - .vscode/
+  - .claude/
+
+# robots.txt / sitemap.xml are plain static files at the repo root - list
+# them under `include` so Jekyll always publishes them even though they'd
+# otherwise be picked up anyway.
+include:
+  - robots.txt
+  - sitemap.xml
