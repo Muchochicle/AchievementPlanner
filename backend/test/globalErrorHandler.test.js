@@ -43,9 +43,15 @@ function startServer(envOverrides = {}) {
     const ready = new Promise((resolve, reject) => {
 
         let stdout = "";
+
+        // 60s, not 5s: a healthy server prints its readiness line in well
+        // under a second via the stdout listener below - this only bounds a
+        // genuinely hung start. 5s held locally but flaked on loaded CI
+        // runners where cold `node` startup + module parse exceeds it (the
+        // recurring red-CI flake; see server.test.js / serverSecurity.test.js).
         const timeout = setTimeout(() => {
             reject(new Error(`server did not start in time.\nstdout: ${stdout}\nstderr: ${stderr}`));
-        }, 5000);
+        }, 60000);
 
         child.stdout.on("data", chunk => {
 

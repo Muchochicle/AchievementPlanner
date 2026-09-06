@@ -50,9 +50,16 @@ function startServer(envOverrides = {}) {
 
         let stdout = "";
 
+        // 60s, not 5s: a healthy server prints "Server running on port" in
+        // well under a second via the stdout listener below, so this never
+        // slows a passing run - it only bounds a genuinely hung start. The
+        // old 5s bound held locally but not on a loaded CI runner spawning
+        // this child alongside the rest of the ~10k-test parallel suite,
+        // where cold `node` startup + module parse can exceed 5s - the
+        // flake that kept turning CI red (see also server.test.js).
         const timeout = setTimeout(() => {
             reject(new Error(`server did not start in time.\nstdout: ${stdout}\nstderr: ${stderr}`));
-        }, 5000);
+        }, 60000);
 
         child.stdout.on("data", chunk => {
 
