@@ -1,15 +1,43 @@
 # Google Search Console setup runbook
 
-Everything in the repo is already prepared for Search Console. The steps
-below are **manual actions in the Google Search Console UI** and cannot be
-done from the codebase — they need a Google account and a token/file that
-Google generates for you.
-
 Current public site: `https://muchochicle.github.io/AchievementPlanner/`
 (a GitHub Pages **project** page — served from a sub-path, not a domain
 root). A custom domain is planned but not yet decided — see
 [`DOMAIN_SWITCH.md`](DOMAIN_SWITCH.md) and the "When the custom domain
 lands" section at the bottom of this file.
+
+---
+
+## STATUS — done 2026-09-07
+
+- **Property:** URL-prefix `https://muchochicle.github.io/AchievementPlanner/`
+  created in Search Console (Google account jordicasalsruiz@gmail.com).
+- **Ownership:** VERIFIED via the **HTML-tag** method. Token
+  `I8bnZFbpoCst5WlczciztwEBQNwY7ozz0fU6sVDkZbw` lives in `index.html`'s
+  `<head>` (commit 6222cf7). **Do not remove that `<meta>` tag** — it
+  un-verifies the property.
+- **Sitemap:** `sitemap.xml` submitted. Immediately after submission its
+  status was "Couldn't fetch" — this is the normal transient state for a
+  brand-new property (the file itself is verified reachable: HTTP 200,
+  `Content-Type: application/xml`, valid XML, Googlebot UA OK). Expected to
+  flip to "Success" on Google's first real crawl (hours–2 days). **Recheck
+  in Search Console → Sitemaps.**
+- **Homepage:** inspected and **"Request indexing"** submitted (added to
+  Google's priority crawl queue). The live test passed — no crawl/index
+  blockers.
+- **noindex routes confirmed:** live URL tests on `profile.html`,
+  `game.html?slug=…` and `guide.html?slug=…` all report *"Page cannot be
+  indexed: Excluded by a 'noindex' tag"* — i.e. Google's live crawler sees
+  and honours the directive. Intended and unchanged.
+- **Hub pages** (`games/guides/podiums/roadmap/about.html`): serve HTTP
+  200, self-referential canonical, no `robots` meta → indexable. Not yet
+  crawled (brand-new property); nothing to do but wait.
+
+Not yet indexed anywhere — "submitted / crawl-requested" ≠ "indexed".
+Real indexing is days-to-weeks away and never guaranteed.
+
+The rest of this file is the original runbook, kept for the record and for
+the eventual custom-domain migration.
 
 ---
 
@@ -126,25 +154,44 @@ submitting the sitemap URL directly. The `Disallow` lines for
 
 ---
 
-## 6. When the custom domain lands
+## 6. When the custom domain lands — migration safety
 
-Search Console does **not** migrate automatically. Prefer deciding the
-domain *before* the first submission to avoid this entirely. If the
-github.io property is already verified when the domain switches:
+The github.io property is now verified, so a move is a real migration, not
+a fresh start. It is still **cheap right now** because nothing is indexed
+yet — the cost grows with every page Google indexes under the github.io
+property. **If a custom domain is coming, do it before the sitemap gets
+crawled and hub pages accumulate in the index.**
+
+Nothing in the current Search Console setup blocks or complicates the
+move — the choices made are the migration-friendly ones:
+
+- **Verification travels for free.** The `google-site-verification` meta
+  tag is in `index.html`, which is the same file served at whatever root
+  the site lives at. When you add the new domain as a property, Google
+  checks that same tag on the new homepage and the new property verifies
+  with **no extra step** (as long as the tag is never moved out of
+  `index.html`). The HTML-file method would not have travelled as cleanly.
+- **GitHub Pages 301-redirects** every `muchochicle.github.io/AchievementPlanner/*`
+  URL to the custom domain once the `CNAME` is set. That site-wide 301 is
+  exactly what Search Console's **Change of Address** tool needs to work.
+
+Migration steps:
 
 1. Do the full find-and-replace in [`DOMAIN_SWITCH.md`](DOMAIN_SWITCH.md)
    (canonical / `og:url` / `og:image` / sitemap `<loc>` / `robots.txt` /
-   `404.html` paths).
-2. Add a **new** URL-prefix (or now-possible **Domain**) property for the
-   new domain and re-verify (DNS `TXT` for a Domain property; the same
-   HTML tag/file still works for a URL-prefix property).
+   `404.html` paths). Keep the `google-site-verification` tag in
+   `index.html` untouched.
+2. Add the new domain as a property. A **URL-prefix** property mirrors
+   today's setup and auto-verifies off the existing tag. A **Domain**
+   property is also possible now (you control the new domain's DNS) and is
+   worth doing too — it needs one DNS `TXT` record and then covers http +
+   https + every subdomain.
 3. Re-submit `sitemap.xml` under the new property.
-4. Use **Settings → Change of address** in the old property to point it
-   at the new one (URL-prefix → URL-prefix only). Keep the old property
-   around until Search Console reports the move complete.
-5. If Method A was used, move/keep the `google-site-verification` tag;
-   if Method B, the `googleXXXX.html` file keeps working as long as it is
-   still served at the new root.
+4. In the **old** github.io property: **Settings → Change of address** →
+   point it at the new URL-prefix property. Keep the old property until
+   Search Console reports the move complete (can take weeks).
+5. Leave the github.io property in place afterwards for monitoring the
+   redirect; don't delete it.
 
 ---
 
@@ -159,5 +206,5 @@ github.io property is already verified when the domain switches:
 - `404.html` — real 404 status from GitHub Pages, `noindex`.
 - `_config.yml` — excludes `backend/`, `test/`, `scripts/`, `docs/`,
   `dev-notes/`, tooling; force-includes `robots.txt` + `sitemap.xml`.
-- Verification insertion point — commented `<meta>` block in
-  `index.html` `<head>`.
+- `google-site-verification` `<meta>` — live in `index.html` `<head>`
+  (commit 6222cf7). Keep it there.
