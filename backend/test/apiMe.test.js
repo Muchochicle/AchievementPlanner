@@ -4,6 +4,8 @@ import { spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { isolatedDbPath, removeIsolatedDb, waitForExit } from "./helpers/spawnServerDb.js";
+
 // GET /api/me (server.js) is the frontend's only way to ask "am I logged
 // in", and had zero test coverage before this file - it's defined inline
 // in server.js rather than in a controller, so it was never exercised by
@@ -32,6 +34,9 @@ function startServer(envOverrides = {}) {
 
     const port = nextPort++;
 
+    // Own throwaway SQLite file per spawned server - see helpers/spawnServerDb.js.
+    const dbPath = isolatedDbPath("me-route-test");
+
     const child = spawn("node", [SERVER_PATH], {
         cwd: BACKEND_DIR,
         env: {
@@ -40,6 +45,7 @@ function startServer(envOverrides = {}) {
             CORS_ORIGIN: "http://127.0.0.1:5500",
             FRONTEND_URL: "http://127.0.0.1:5500",
             COOKIE_SECURE: "false",
+            DATABASE_PATH: dbPath,
             ...envOverrides
         },
         stdio: ["ignore", "pipe", "pipe"]
@@ -89,7 +95,7 @@ function startServer(envOverrides = {}) {
 
     });
 
-    return { child, port, baseUrl: `http://127.0.0.1:${port}`, ready };
+    return { child, port, baseUrl: `http://127.0.0.1:${port}`, dbPath, ready };
 
 }
 
@@ -105,6 +111,8 @@ async function withServer(envOverrides, fn) {
     } finally {
 
         server.child.kill();
+        await waitForExit(server.child);
+        removeIsolatedDb(server.dbPath);
 
     }
 

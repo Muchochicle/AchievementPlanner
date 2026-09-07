@@ -4,6 +4,8 @@ import { spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { isolatedDbPath, removeIsolatedDb, waitForExit } from "./helpers/spawnServerDb.js";
+
 // Phase 51 / Finding 15 - before this phase, an error thrown by Express's
 // own routing machinery (not inside any route handler's own try/catch) -
 // e.g. a URIError from an invalid percent-escape in a :param segment - fell
@@ -24,6 +26,9 @@ function startServer(envOverrides = {}) {
 
     const port = nextPort++;
 
+    // Own throwaway SQLite file per spawned server - see helpers/spawnServerDb.js.
+    const dbPath = isolatedDbPath("global-error-handler-test");
+
     const child = spawn("node", [SERVER_PATH], {
         cwd: BACKEND_DIR,
         env: {
@@ -32,6 +37,7 @@ function startServer(envOverrides = {}) {
             CORS_ORIGIN: "http://127.0.0.1:5500",
             FRONTEND_URL: "http://127.0.0.1:5500",
             COOKIE_SECURE: "false",
+            DATABASE_PATH: dbPath,
             ...envOverrides
         },
         stdio: ["ignore", "pipe", "pipe"]
@@ -81,7 +87,7 @@ function startServer(envOverrides = {}) {
 
     });
 
-    return { child, port, baseUrl: `http://127.0.0.1:${port}`, ready };
+    return { child, port, baseUrl: `http://127.0.0.1:${port}`, dbPath, ready };
 
 }
 
@@ -97,6 +103,8 @@ async function withServer(envOverrides, fn) {
     } finally {
 
         server.child.kill();
+        await waitForExit(server.child);
+        removeIsolatedDb(server.dbPath);
 
     }
 

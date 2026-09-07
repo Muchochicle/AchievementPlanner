@@ -4,6 +4,8 @@ import { execFileSync, spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { isolatedDbPath, removeIsolatedDb, waitForExit } from "./helpers/spawnServerDb.js";
+
 // server.js's startup validation (and the process.exit(1)/app.listen()
 // side effects around it) cannot be unit-tested by importing it directly
 // - doing so would either crash the test runner (process.exit) or bind a
@@ -73,9 +75,15 @@ function runServerOnce(envOverrides) {
 //     the captured output, so a real regression is an honest failure.
 function startServerAndWaitForReady(envOverrides = {}, { readyTimeoutMs = 60000 } = {}) {
 
+    // Own throwaway SQLite file so this full-boot server never contends
+    // with the other spawn-based suites on the shared default DB file
+    // (see helpers/spawnServerDb.js). The caller cleans it up via
+    // removeIsolatedDb(result.dbPath) after killing the child.
+    const dbPath = isolatedDbPath("server-startup-test");
+
     const child = spawn("node", [SERVER_PATH], {
         cwd: BACKEND_DIR,
-        env: { ...process.env, PORT: "0", ...envOverrides },
+        env: { ...process.env, PORT: "0", DATABASE_PATH: dbPath, ...envOverrides },
         stdio: ["ignore", "pipe", "pipe"]
     });
 
@@ -114,7 +122,7 @@ function startServerAndWaitForReady(envOverrides = {}, { readyTimeoutMs = 60000 
 
             if (stdout.includes("Server running on port")) {
 
-                finish(() => resolve({ child, stdout }));
+                finish(() => resolve({ child, stdout, dbPath }));
 
             }
 
@@ -200,11 +208,13 @@ test("exits with status 1 and a clear message when SESSION_SECRET is present but
 
 test("accepts a SESSION_SECRET exactly at the 32-character minimum", async () => {
 
-    const { child, stdout } = await startServerAndWaitForReady({
+    const { child, stdout, dbPath } = await startServerAndWaitForReady({
         SESSION_SECRET: "a".repeat(32)
     });
 
     child.kill();
+    await waitForExit(child);
+    removeIsolatedDb(dbPath);
 
     assert.match(stdout, /Server running on port/, "exactly 32 characters should be accepted, not rejected as still too short");
 
@@ -221,9 +231,11 @@ test("binds to 0.0.0.0, not just localhost/IPv6-only, so container platforms lik
     // 0.0.0.0)" the startup log prints (server.js) is deterministic across
     // CI environments, unlike asserting on real interface reachability,
     // which depends on network interfaces that may not exist in a sandbox.
-    const { child, stdout } = await startServerAndWaitForReady();
+    const { child, stdout, dbPath } = await startServerAndWaitForReady();
 
     child.kill();
+    await waitForExit(child);
+    removeIsolatedDb(dbPath);
 
     assert.match(stdout, /Server running on port 0 \(host 0\.0\.0\.0\)/);
 
@@ -235,7 +247,7 @@ test("starts successfully and stays running when all required variables are pres
     // (as it must, for `npm start`/`npm run dev` to work at all).
     // PORT=0 asks the OS for an ephemeral free port so this can never
     // collide with a real server already running on port 3000.
-    const { child, stdout } = await startServerAndWaitForReady();
+    const { child, stdout, dbPath } = await startServerAndWaitForReady();
 
     // Still running under its own steam when we get here: the helper
     // rejects if the process exits before printing its readiness line, and
@@ -243,6 +255,8 @@ test("starts successfully and stays running when all required variables are pres
     const stillRunning = child.exitCode === null && child.signalCode === null;
 
     child.kill();
+    await waitForExit(child);
+    removeIsolatedDb(dbPath);
 
     assert.match(stdout, /Server running on port/);
     assert.strictEqual(stillRunning, true, "server should still have been running when killed, not exited on its own");

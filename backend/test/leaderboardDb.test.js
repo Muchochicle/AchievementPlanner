@@ -8,7 +8,8 @@ import crypto from "crypto";
 import {
     createLeaderboardDb,
     getLeaderboardDb,
-    resetLeaderboardDbForTests
+    resetLeaderboardDbForTests,
+    execWithBusyRetry
 } from "../services/leaderboardDb.js";
 
 // A fresh temp file path per test that needs real disk (idempotency and
@@ -613,6 +614,131 @@ test("getLeaderboardDb returns the same connection on repeated calls (singleton)
 
         }
 
+        cleanup(dbPath);
+
+    }
+
+});
+
+// --- execWithBusyRetry ---------------------------------------------------
+//
+// Guards the fix for an intermittent CI failure: `node --test` runs test
+// files in parallel, so several spawn-based integration suites boot a real
+// server.js at the same instant. If they open the same SQLite file they
+// race on `PRAGMA journal_mode = WAL` - which SQLite rejects immediately
+// with SQLITE_BUSY ("database is locked"), NOT honouring busy_timeout for
+// that particular switch - crashing the child and failing the test with
+// "server exited early with code 1". initSchema now runs that one pragma
+// through execWithBusyRetry.
+
+function lockedError() {
+
+    // Shape node:sqlite actually throws for SQLITE_BUSY.
+    const error = new Error("database is locked");
+    error.code = "ERR_SQLITE_ERROR";
+    error.errcode = 5;
+    error.errstr = "database is locked";
+    return error;
+
+}
+
+test("execWithBusyRetry retries a transient 'database is locked' and then succeeds", () => {
+
+    let calls = 0;
+
+    const fakeDb = {
+        exec() {
+            calls++;
+            if (calls < 3) {
+                throw lockedError();
+            }
+        }
+    };
+
+    execWithBusyRetry(fakeDb, "PRAGMA journal_mode = WAL;", { attempts: 10, delayMs: 1 });
+
+    assert.strictEqual(calls, 3, "should have retried twice before the third call succeeded");
+
+});
+
+test("execWithBusyRetry rethrows a non-lock error immediately, without retrying", () => {
+
+    let calls = 0;
+
+    const fakeDb = {
+        exec() {
+            calls++;
+            const error = new Error("no such table: bogus");
+            error.code = "ERR_SQLITE_ERROR";
+            throw error;
+        }
+    };
+
+    assert.throws(
+        () => execWithBusyRetry(fakeDb, "SELECT 1;", { attempts: 10, delayMs: 1 }),
+        /no such table/
+    );
+    assert.strictEqual(calls, 1, "a non-BUSY error must not be retried");
+
+});
+
+test("execWithBusyRetry gives up and rethrows after exhausting its attempts", () => {
+
+    let calls = 0;
+
+    const fakeDb = {
+        exec() {
+            calls++;
+            throw lockedError();
+        }
+    };
+
+    assert.throws(
+        () => execWithBusyRetry(fakeDb, "PRAGMA journal_mode = WAL;", { attempts: 4, delayMs: 1 }),
+        /database is locked/
+    );
+    assert.strictEqual(calls, 4, "should have tried exactly `attempts` times");
+
+});
+
+test("a second connection can initialize the schema against a file another connection already has open (WAL)", () => {
+
+    const dbPath = tempDbPath();
+
+    const first = createLeaderboardDb(dbPath);
+
+    try {
+
+        // Would previously risk SQLITE_BUSY on the WAL switch; must now
+        // just succeed against the already-WAL file.
+        const second = createLeaderboardDb(dbPath);
+
+        try {
+
+            assert.deepStrictEqual(
+                tableNames(second),
+                ["contact_messages", "player_progress", "sessions", "user_game_playtime", "users"]
+            );
+
+            second.prepare(
+                "INSERT INTO player_progress (steam_id, state, updated_at) VALUES (?, ?, ?)"
+            ).run("77", "{}", "2026-09-07T00:00:00.000Z");
+
+            const seenByFirst = first.prepare(
+                "SELECT steam_id FROM player_progress WHERE steam_id = '77'"
+            ).get();
+
+            assert.strictEqual(seenByFirst.steam_id, "77");
+
+        } finally {
+
+            second.close();
+
+        }
+
+    } finally {
+
+        first.close();
         cleanup(dbPath);
 
     }

@@ -52,27 +52,75 @@ function resolveDbPath() {
 //   detail table that powers the per-game podium. Populated in full from
 //   the same GetOwnedGames call that produces the cheap columns above, so
 //   it costs zero additional Steam calls once Step 2 wires it up.
+// A transient SQLITE_BUSY ("database is locked") can still hit one
+// statement in initSchema even with busy_timeout set: SQLite does NOT
+// invoke the busy handler for a `PRAGMA journal_mode = WAL` switch while
+// another connection holds any lock on the file - it fails immediately.
+// That race is real whenever two processes open this same file within the
+// same instant and both try to switch it to WAL:
+//   - production: a redeploy where the old container still holds the WAL
+//     lock on the mounted volume as the new one boots;
+//   - tests: the spawn-based integration suites that each start a real
+//     server.js (node --test runs test files in parallel).
+// Retry just the affected statement for up to ~2s (20 x 100ms); node:sqlite
+// is synchronous, so block briefly with Atomics.wait rather than spinning -
+// there is nothing else this process can usefully do until the schema
+// exists. Any non-BUSY error, or exhausting the attempts, rethrows.
+// Exported for direct unit testing of the retry/rethrow logic without
+// having to orchestrate a real cross-process file lock.
+export function execWithBusyRetry(db, sql, { attempts = 20, delayMs = 100 } = {}) {
+
+    for (let attempt = 1; ; attempt++) {
+
+        try {
+
+            db.exec(sql);
+            return;
+
+        } catch (error) {
+
+            const isLocked = error?.code === "ERR_SQLITE_ERROR"
+                && /\bdatabase (?:is |table is )?locked\b|SQLITE_BUSY/i.test(error.message ?? "");
+
+            if (!isLocked || attempt >= attempts) {
+
+                throw error;
+
+            }
+
+            Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, delayMs);
+
+        }
+
+    }
+
+}
+
 function initSchema(db) {
 
-    db.exec("PRAGMA foreign_keys = ON;");
-
+    // Set busy_timeout first, before any statement that could contend, so
+    // every subsequent DDL statement below is covered by SQLite's built-in
+    // retry. (The one statement it does NOT cover - the WAL switch - is
+    // handled explicitly via execWithBusyRetry.)
     // Phase 32 Step 2 onward: multiple Express requests (concurrent Profile
     // loads for different - or the same - users) can now write to this
     // connection. A busy_timeout makes SQLite retry for up to 5s instead of
     // failing immediately with SQLITE_BUSY if a write ever finds the file
-    // locked (single-process today, so mostly future-proofing for a second
-    // process/connection down the line - see PHASE_32_AUDIT.md).
+    // locked.
     db.exec("PRAGMA busy_timeout = 5000;");
 
+    db.exec("PRAGMA foreign_keys = ON;");
+
     // The standard complementary pragma to busy_timeout above, for the
-    // same future multi-process/multi-connection scenario that comment
-    // already reasons about: WAL lets readers and a writer proceed
-    // concurrently instead of blocking on SQLite's default rollback-
-    // journal exclusive lock. A no-op for the in-memory (":memory:") DB
-    // backend/test/*.js uses - SQLite silently ignores journal_mode=WAL
-    // there, since there's no file to keep a separate -wal alongside
-    // (Phase 68).
-    db.exec("PRAGMA journal_mode = WAL;");
+    // same multi-process/multi-connection scenario that comment already
+    // reasons about: WAL lets readers and a writer proceed concurrently
+    // instead of blocking on SQLite's default rollback-journal exclusive
+    // lock. A no-op for the in-memory (":memory:") DB backend/test/*.js
+    // uses - SQLite silently ignores journal_mode=WAL there, since there's
+    // no file to keep a separate -wal alongside (Phase 68). Wrapped in
+    // execWithBusyRetry because busy_timeout does not apply to this switch
+    // (see that helper's comment).
+    execWithBusyRetry(db, "PRAGMA journal_mode = WAL;");
 
     db.exec(`
         CREATE TABLE IF NOT EXISTS users (

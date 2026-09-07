@@ -2,10 +2,9 @@ import { test } from "node:test";
 import assert from "node:assert";
 import { spawn } from "node:child_process";
 import path from "node:path";
-import os from "os";
-import crypto from "crypto";
-import fs from "fs";
 import { fileURLToPath } from "node:url";
+
+import { isolatedDbPath, removeIsolatedDb, waitForExit } from "./helpers/spawnServerDb.js";
 
 // GET /api/podiums/game/:appid and GET /api/podiums/global/:category
 // (routes/podiums.js) already have thorough controller-level coverage
@@ -30,11 +29,8 @@ function startServer(envOverrides = {}) {
 
     const port = nextPort++;
 
-    const dbPath = path.join(
-        os.tmpdir(),
-        `achievementplanner-podiums-route-test-${crypto.randomUUID()}`,
-        "test.db"
-    );
+    // Own throwaway SQLite file per spawned server - see helpers/spawnServerDb.js.
+    const dbPath = isolatedDbPath("podiums-route-test");
 
     const child = spawn("node", [SERVER_PATH], {
         cwd: BACKEND_DIR,
@@ -98,23 +94,6 @@ function startServer(envOverrides = {}) {
 
 }
 
-function waitForExit(child) {
-
-    return new Promise(resolve => {
-
-        if (child.exitCode !== null || child.signalCode !== null) {
-
-            resolve();
-            return;
-
-        }
-
-        child.once("exit", resolve);
-
-    });
-
-}
-
 async function withServer(envOverrides, fn) {
 
     const server = startServer(envOverrides);
@@ -131,11 +110,10 @@ async function withServer(envOverrides, fn) {
         // Windows holds the SQLite file open briefly after the process is
         // signaled to exit - waiting for the actual "exit" event (not just
         // issuing kill()) avoids an EPERM race when removing the temp
-        // directory right after. maxRetries/retryDelay is extra insurance
-        // for the same class of transient Windows file-lock delay.
+        // directory right after.
         await waitForExit(server.child);
 
-        fs.rmSync(path.dirname(server.dbPath), { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+        removeIsolatedDb(server.dbPath);
 
     }
 

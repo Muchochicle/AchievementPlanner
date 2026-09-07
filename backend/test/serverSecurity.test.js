@@ -4,6 +4,8 @@ import { spawn } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { isolatedDbPath, removeIsolatedDb, waitForExit } from "./helpers/spawnServerDb.js";
+
 // Integration tests for the security middleware wired up in server.js
 // (helmet, cors, express-session cookie options, express-rate-limit).
 // None of this is unit-testable in isolation - it's only real once it's
@@ -30,6 +32,9 @@ function startServer(envOverrides = {}) {
 
     const port = nextPort++;
 
+    // Own throwaway SQLite file per spawned server - see helpers/spawnServerDb.js.
+    const dbPath = isolatedDbPath("server-security-test");
+
     const child = spawn("node", [SERVER_PATH], {
         cwd: BACKEND_DIR,
         env: {
@@ -38,6 +43,7 @@ function startServer(envOverrides = {}) {
             CORS_ORIGIN: ALLOWED_ORIGIN,
             FRONTEND_URL,
             COOKIE_SECURE: "false",
+            DATABASE_PATH: dbPath,
             ...envOverrides
         },
         stdio: ["ignore", "pipe", "pipe"]
@@ -89,7 +95,7 @@ function startServer(envOverrides = {}) {
 
     });
 
-    return { child, port, baseUrl: `http://127.0.0.1:${port}`, ready };
+    return { child, port, baseUrl: `http://127.0.0.1:${port}`, dbPath, ready };
 
 }
 
@@ -105,6 +111,8 @@ async function withServer(envOverrides, fn) {
     } finally {
 
         server.child.kill();
+        await waitForExit(server.child);
+        removeIsolatedDb(server.dbPath);
 
     }
 
