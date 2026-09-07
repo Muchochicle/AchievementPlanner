@@ -23,7 +23,18 @@ function runServerOnce(envOverrides) {
         const stdout = execFileSync("node", [SERVER_PATH], {
             cwd: BACKEND_DIR,
             env: { ...process.env, ...envOverrides },
-            timeout: 5000,
+            // These cases expect server.js to fail its env validation and
+            // exit(1) almost immediately - but under the full ~10k-test
+            // parallel suite on a loaded runner, a cold `node` can spend
+            // >5s just parsing server.js + its imports before it reaches
+            // that check. A 5s cap killed the child with SIGTERM first, so
+            // `error.status` came back `null` (not 1) and the assertion
+            // failed intermittently - the same spawn-startup flake already
+            // fixed for the spawn-based helper below (commit 1f0b710); this
+            // execFileSync helper was missed then. 60s only bounds a truly
+            // hung process; a healthy exit still returns in well under a
+            // second.
+            timeout: 60000,
             encoding: "utf-8"
         });
 
