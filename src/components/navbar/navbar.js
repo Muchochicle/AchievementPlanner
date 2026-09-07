@@ -89,13 +89,19 @@ function createNavToggle() {
 
 function createLoginButton() {
 
+    // .steam-login-btn is display:flex, so its two children - the "Log in"
+    // text node and this <span> - are flex items, and flex layout strips
+    // an item's leading/trailing whitespace. A literal leading space here
+    // was being eaten, rendering "Log inwith Steam". &nbsp; is not
+    // collapsible, so it survives and keeps the visible gap (and still
+    // reads correctly to a screen reader).
     return `
 
         <a
             href="${STEAM_LOGIN_URL}"
             class="steam-login-btn"
         >
-            Log in<span class="steam-login-btn-suffix"> with Steam</span>
+            Log in<span class="steam-login-btn-suffix">&nbsp;with Steam</span>
         </a>
 
     `;
