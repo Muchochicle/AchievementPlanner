@@ -11,3 +11,21 @@
     gap:30px;
 
 }
+
+/* A quiet, honest note that the progression system will grow - not a
+   fake locked reward, just a line of text below the earned rewards.
+   Negative top margin pulls it closer to the Badges block above it so
+   it reads as a footnote to that section, not a section of its own. */
+.profile-rewards-teaser{
+
+    margin:-18px 0 0;
+
+    padding:0 var(--spacing-md);
+
+    color:var(--text-secondary);
+
+    font-size:.85rem;
+
+    text-align:center;
+
+}

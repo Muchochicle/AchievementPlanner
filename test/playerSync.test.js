@@ -10,12 +10,21 @@ globalThis.localStorage = {
     data: {},
     getItem(key) { return this.data[key] ?? null; },
     setItem(key, value) { this.data[key] = String(value); },
-    removeItem(key) { delete this.data[key]; }
+    removeItem(key) { delete this.data[key]; },
+    // Web Storage enumeration API - deleteAccountProgression()'s
+    // planner-*/session-* sweep uses localStorage.length/.key(i), same as
+    // src/dev/resetProgress.js (see test/resetProgress.test.js's shim).
+    get length() { return Object.keys(this.data).length; },
+    key(index) { return Object.keys(this.data)[index] ?? null; }
 
 };
 
 let requests = [];
 let progressResponse = { success: true, state: null, updatedAt: null };
+// Flipped by the DELETE /api/player/progress tests to simulate the server
+// being unreachable - deleteAccountProgression() must then leave every
+// local key untouched and report the failure rather than reload.
+let deleteShouldFail = false;
 
 globalThis.fetch = async (url, options = {}) => {
 
@@ -27,11 +36,23 @@ globalThis.fetch = async (url, options = {}) => {
 
     }
 
+    if ((options.method ?? "GET") === "DELETE") {
+
+        if (deleteShouldFail) {
+
+            return { ok: false, status: 503, json: async () => ({ success: false, message: "Service Unavailable" }) };
+
+        }
+
+        return { ok: true, json: async () => ({ success: true, deleted: true }) };
+
+    }
+
     return { ok: true, json: async () => progressResponse };
 
 };
 
-const { syncPlayerProgressOnLoad } = await import("../src/utils/player/sync/playerSync.js");
+const { syncPlayerProgressOnLoad, deleteAccountProgression } = await import("../src/utils/player/sync/playerSync.js");
 const { getPlayer, savePlayer, resetPlayer, addXP } = await import("../src/utils/player/player.js");
 const { getInventory, saveInventory, resetInventory } = await import("../src/utils/player/inventory/inventoryStorage.js");
 const { getEquippedAvatar, saveEquippedAvatar, resetEquippedAvatar } = await import("../src/utils/player/avatar/avatarStorage.js");
@@ -40,6 +61,9 @@ test.beforeEach(async () => {
 
     requests = [];
     progressResponse = { success: true, state: null, updatedAt: null };
+    deleteShouldFail = false;
+
+    localStorage.data = {};
 
     resetPlayer();
     resetInventory();
@@ -151,5 +175,88 @@ test("saving player state while logged out never calls fetch", async () => {
     addXP(50);
 
     assert.strictEqual(requests.length, 0);
+
+});
+
+test("deleteAccountProgression sends a DELETE to /api/player/progress with credentials", async () => {
+
+    await syncPlayerProgressOnLoad({ logged: true });
+    requests = [];
+
+    const result = await deleteAccountProgression();
+
+    assert.strictEqual(result.status, "ready");
+    assert.strictEqual(requests.length, 1);
+    assert.strictEqual(requests[0].method, "DELETE");
+    assert.match(requests[0].url, /\/api\/player\/progress$/);
+
+});
+
+test("deleteAccountProgression wipes local progression (player, inventory, equipped avatar, planner-*/session-* keys) on success", async () => {
+
+    await syncPlayerProgressOnLoad({ logged: true });
+
+    addXP(900);
+    saveInventory({ ...getInventory(), avatars: ["default", "legend"] });
+    saveEquippedAvatar("legend");
+    localStorage.setItem("planner-hades", JSON.stringify({ a: true }));
+    localStorage.setItem("session-hades", JSON.stringify([1, 2]));
+    localStorage.setItem("some-unrelated-key", "keep me");
+
+    const result = await deleteAccountProgression();
+
+    assert.strictEqual(result.status, "ready");
+    assert.strictEqual(getPlayer().totalXP, 0, "player XP reset");
+    assert.strictEqual(getPlayer().currentStreak, 0);
+    assert.deepStrictEqual(getInventory().avatars, ["default"], "unlocked avatars reset to default only");
+    assert.strictEqual(getEquippedAvatar(), "default", "equipped avatar reset");
+    assert.strictEqual(localStorage.getItem("planner-hades"), null, "per-game planner progress cleared");
+    assert.strictEqual(localStorage.getItem("session-hades"), null, "planner session state cleared");
+    assert.strictEqual(localStorage.getItem("some-unrelated-key"), "keep me", "unrelated keys are left alone");
+
+});
+
+test("deleteAccountProgression does NOT re-push local state to the server after the wipe (row stays deleted)", async () => {
+
+    await syncPlayerProgressOnLoad({ logged: true });
+
+    addXP(120);
+    requests = [];
+
+    await deleteAccountProgression();
+
+    // The one DELETE, and nothing else - the resetPlayer/resetInventory/
+    // resetEquippedAvatar calls must not trip the syncBus into PUTting the
+    // fresh defaults straight back and re-creating the row.
+    assert.deepStrictEqual(requests.map(r => r.method), ["DELETE"]);
+
+});
+
+test("deleteAccountProgression leaves everything untouched and reports an error when the server is unreachable", async () => {
+
+    await syncPlayerProgressOnLoad({ logged: true });
+
+    addXP(750);
+    saveEquippedAvatar("legend");
+    localStorage.setItem("planner-hades", JSON.stringify({ a: true }));
+    requests = [];
+
+    deleteShouldFail = true;
+
+    const result = await deleteAccountProgression();
+
+    assert.strictEqual(result.status, "error");
+    assert.strictEqual(getPlayer().totalXP, 750, "a failed delete must not wipe local XP");
+    assert.strictEqual(getEquippedAvatar(), "legend", "a failed delete must not reset the equipped avatar");
+    assert.strictEqual(localStorage.getItem("planner-hades"), JSON.stringify({ a: true }), "a failed delete must not clear planner keys");
+
+});
+
+test("deleteAccountProgression is idempotent - a second call still resolves ready", async () => {
+
+    await syncPlayerProgressOnLoad({ logged: true });
+
+    assert.strictEqual((await deleteAccountProgression()).status, "ready");
+    assert.strictEqual((await deleteAccountProgression()).status, "ready");
 
 });

@@ -8,10 +8,14 @@
 // requiredAchievements threshold and display name, including which one is
 // unlocked by default), src/utils/player/playerProgress.js
 // (checkPlayerUnlocks/checkBadgeUnlocks/reconcileProgressFromProfileStats -
-// avatars gated on completedAchievements only, streak badge tiers), and
+// avatars gated on completedAchievements only, streak badge tiers),
 // src/utils/player/streak/streakManager.js (the daily-activity streak
-// itself). Updated when avatars moved from a level/completedGames mix to
-// achievements-only, and streak-based badges were added.
+// itself), and src/utils/player/sync/playerSync.js + backend
+// services/playerProgressStore.js (server-side persistence, keyed by Steam
+// ID). Updated when: avatars moved from a level/completedGames mix to
+// achievements-only; streak-based badges were added; progress moved from
+// localStorage-only to server-side per-account persistence (Phase 71); and
+// the daily-activity streak stopped requiring a Profile visit.
 export const GUIDE = {
 
     slug: "player-progress",
@@ -27,8 +31,8 @@ export const GUIDE = {
         {
             heading: "A Separate System From Steam",
             body: [
-                "This progress system lives only in your browser's local storage. It isn't tied to your Steam account, doesn't sync across devices or browsers, and has no effect on your Podiums leaderboard rankings - those are computed entirely from real Steam data, independently of everything on this page.",
-                "Because it's stored locally, clearing your browser's site data (or simply opening AchievementPlanner in a different browser or device) resets it back to zero. There's no server-side backup of this progress."
+                "This is AchievementPlanner's own progression - XP, level, title, badges, unlocked avatars and your daily streak. It's separate from Steam's own achievement data, and it has no effect on your Podiums leaderboard rankings: the Steam rankings there are computed entirely from real Steam data, independently of everything on this page.",
+                "When you're signed in with Steam, this progress is saved on our server, tied to your Steam account - so it survives clearing your browser data, and it follows you to a different browser or device. If you use the site signed out, progress is kept only in that browser until you sign in, at which point it's carried up to your account. You can wipe your stored progression data at any time from Settings on your Profile page."
             ]
         },
 
@@ -36,7 +40,7 @@ export const GUIDE = {
             heading: "Earning XP",
             body: [
                 "You earn 50 XP the moment Steam confirms you've unlocked an achievement that's part of a game's curated planner (each achievement counts once), and a 300 XP bonus the moment you 100%-complete that game's whole curated list.",
-                "Visiting your Profile page also brings your XP in sync with your entire Steam library, not just the games you've opened here - so achievements and 100%-completions earned anywhere on Steam still count, even for a game you've never opened in AchievementPlanner."
+                "Using the site while signed in also keeps your XP in sync with your entire Steam library, not just the games you've opened here - so achievements and 100%-completions earned anywhere on Steam still count, even for a game you've never opened in AchievementPlanner. This catch-up runs quietly in the background on any page, and can only ever add XP, never take it away."
             ]
         },
 
@@ -60,15 +64,15 @@ export const GUIDE = {
         {
             heading: "Badges",
             body: [
-                "AchievementPlanner awards the \"Perfectionist\" badge the first time you 100%-complete any game - the same milestone that grants the 300 XP completion bonus above.",
-                "It also tracks a daily activity streak: visiting your Profile on consecutive days grows it, and reaching 3, 7, or 30 days in a row earns the Committed, Dedicated, and Unstoppable badges. Once earned, a badge is yours to keep even if you later miss a day and the streak resets."
+                "AchievementPlanner awards the \"Perfectionist\" badge for one specific milestone: the first game you 100%-complete. It's a one-time marker of that first full clear - the same milestone that grants the 300 XP completion bonus above - and it doesn't track how many games you go on to complete after it.",
+                "It also tracks a daily activity streak: using AchievementPlanner on consecutive days grows it, and reaching 3, 7, or 30 days in a row earns the Committed, Dedicated, and Unstoppable badges. Any page counts while you're signed in - you don't have to open a particular page for the day to register. Once earned, a badge is yours to keep even if you later miss a day and the streak resets."
             ]
         },
 
         {
             heading: "Where To See It",
             body: [
-                "Your current title, badges, and unlocked avatars all appear on your Profile page, where you can also equip any avatar you've unlocked."
+                "Your current title, badges, and unlocked avatars all appear on your Profile page, where you can also equip any avatar you've unlocked. Settings on that same page lets you delete your stored progression data."
             ]
         }
 

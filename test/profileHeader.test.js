@@ -62,3 +62,21 @@ test("createProfileHeader renders the logged-out state without touching Steam fi
     assert.match(html, /Not connected to Steam/);
 
 });
+
+test("createProfileHeader shows a 'Preview' sign-in note only when logged out", () => {
+
+    const loggedOut = createProfileHeader({ logged: false });
+
+    assert.match(loggedOut, /profile-preview-note/);
+    assert.match(loggedOut, /Preview/);
+    assert.match(loggedOut, /sign in with Steam/i);
+    assert.match(loggedOut, /href="[^"]*\/auth\/steam\/login"/);
+
+    const loggedIn = createProfileHeader({
+        logged: true,
+        user: { personaname: "Bob", avatarfull: "https://example.com/avatar.jpg" }
+    });
+
+    assert.doesNotMatch(loggedIn, /profile-preview-note/);
+
+});

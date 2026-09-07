@@ -18,6 +18,36 @@
 
 }
 
+/* Signed-out preview note - a quiet banner above the header, only shown
+   to a logged-out visitor (see profile-header.js). */
+.profile-preview-note{
+
+    margin:0;
+
+    padding:10px 14px;
+
+    border-radius:var(--radius);
+
+    border:1px solid var(--border);
+
+    border-left:3px solid var(--primary);
+
+    background:var(--surface-2, rgba(255,255,255,.03));
+
+    color:var(--text-secondary);
+
+    font-size:.9rem;
+
+}
+
+.profile-preview-note a{
+
+    color:var(--primary);
+
+    font-weight:600;
+
+}
+
 .profile-header-main{
 
     display:flex;

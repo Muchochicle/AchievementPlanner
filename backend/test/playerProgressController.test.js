@@ -1,8 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { getProgressWithDeps, putProgressWithDeps } from "../controllers/playerProgressController.js";
-import { getPlayerProgress, savePlayerProgress } from "../services/playerProgressStore.js";
+import { getProgressWithDeps, putProgressWithDeps, deleteProgressWithDeps } from "../controllers/playerProgressController.js";
+import { getPlayerProgress, savePlayerProgress, deletePlayerProgress } from "../services/playerProgressStore.js";
 import { createLeaderboardDb } from "../services/leaderboardDb.js";
 
 function createMockRes() {
@@ -43,7 +43,7 @@ function mockReq(steamId, body) {
 // test.
 function withDeps(db) {
 
-    return { getLeaderboardDb: () => db, getPlayerProgress, savePlayerProgress };
+    return { getLeaderboardDb: () => db, getPlayerProgress, savePlayerProgress, deletePlayerProgress };
 
 }
 
@@ -312,6 +312,126 @@ test("putProgress leaves longestStreak untouched when the field is absent entire
         db.close();
 
     }
+
+});
+
+test("deleteProgress returns 401 when there is no logged-in session", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const res = createMockRes();
+
+        await deleteProgressWithDeps(mockReq(null), res, withDeps(db));
+
+        assert.strictEqual(res.statusCode, 401);
+        assert.strictEqual(res.jsonBody.success, false);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("deleteProgress wipes the caller's stored progression and a following getProgress reports state: null", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        await putProgressWithDeps(mockReq("1", { state: { player: { level: 7, totalXP: 3000 } } }), createMockRes(), withDeps(db));
+
+        const delRes = createMockRes();
+        await deleteProgressWithDeps(mockReq("1"), delRes, withDeps(db));
+
+        assert.strictEqual(delRes.jsonBody.success, true);
+        assert.strictEqual(delRes.jsonBody.deleted, true);
+
+        const getRes = createMockRes();
+        await getProgressWithDeps(mockReq("1"), getRes, withDeps(db));
+
+        assert.strictEqual(getRes.jsonBody.success, true);
+        assert.strictEqual(getRes.jsonBody.state, null);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("deleteProgress is idempotent - deleting again (or with nothing stored) is still a 200 success", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        const firstRes = createMockRes();
+        await deleteProgressWithDeps(mockReq("1"), firstRes, withDeps(db));
+
+        assert.strictEqual(firstRes.jsonBody.success, true);
+        assert.strictEqual(firstRes.jsonBody.deleted, false, "nothing was stored, so nothing was removed - still a success");
+
+        await putProgressWithDeps(mockReq("1", { state: { player: { level: 1 } } }), createMockRes(), withDeps(db));
+        await deleteProgressWithDeps(mockReq("1"), createMockRes(), withDeps(db));
+
+        const againRes = createMockRes();
+        await deleteProgressWithDeps(mockReq("1"), againRes, withDeps(db));
+
+        assert.strictEqual(againRes.jsonBody.success, true);
+        assert.strictEqual(againRes.jsonBody.deleted, false);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("deleteProgress for one steamId never affects another steamId's stored progression", async () => {
+
+    const db = createLeaderboardDb(":memory:");
+
+    try {
+
+        await putProgressWithDeps(mockReq("1", { state: { player: { level: 1 } } }), createMockRes(), withDeps(db));
+        await putProgressWithDeps(mockReq("2", { state: { player: { level: 42 } } }), createMockRes(), withDeps(db));
+
+        await deleteProgressWithDeps(mockReq("1"), createMockRes(), withDeps(db));
+
+        const res2 = createMockRes();
+        await getProgressWithDeps(mockReq("2"), res2, withDeps(db));
+
+        assert.strictEqual(res2.jsonBody.state.player.level, 42);
+
+    } finally {
+
+        db.close();
+
+    }
+
+});
+
+test("deleteProgress surfaces an unexpected store error as a generic 500 instead of throwing", async () => {
+
+    const res = createMockRes();
+
+    const brokenDeps = {
+
+        getLeaderboardDb: () => { throw new Error("db unavailable"); },
+        deletePlayerProgress
+
+    };
+
+    await assert.doesNotReject(deleteProgressWithDeps(mockReq("1"), res, brokenDeps));
+
+    assert.strictEqual(res.statusCode, 500);
+    assert.strictEqual(res.jsonBody.success, false);
 
 });
 

@@ -79,15 +79,15 @@ import {
 
 import {
 
-    markReconciled
+    deleteAccountProgression
 
-} from "../utils/player/statistics/progressionReconciler.js";
+} from "../utils/player/sync/playerSync.js";
 
 import {
 
-    recordDailyActivity
+    markReconciled
 
-} from "../utils/player/streak/streakManager.js";
+} from "../utils/player/statistics/progressionReconciler.js";
 
 import {
 
@@ -145,12 +145,12 @@ async function init() {
     // (Phase 69).
     try {
 
-        // Local-only (no network) - records today's activity toward the
-        // daily streak and grants any newly-earned streak badge, before
-        // the very first render below so it's never a stale extra
-        // "reload to see it" step (see streak/streakManager.js).
-        recordDailyActivity();
-
+        // Today's daily-activity streak is recorded in layout.js's
+        // loadNavbar (the shared load path every page runs), not here -
+        // so it counts on any signed-in page visit, not only a Profile
+        // one. loadNavbar has already awaited it via sessionPromise above
+        // by this point, so a newly-earned streak badge is in the player
+        // state this first render reads.
         refresh();
 
     } catch (error) {
@@ -263,6 +263,103 @@ async function init() {
                 window.location.href = "index.html";
 
             });
+
+        // "Delete my progression data" (Option A): a two-step control. The
+        // first button only reveals the consequences panel; the confirm
+        // button inside it calls DELETE /api/player/progress via
+        // deleteAccountProgression(), which wipes the server row and, only
+        // on success, the local progression keys - then we reload so the
+        // page re-renders from the now-empty state and the on-load
+        // reconcile rebuilds Steam-derived XP/level/avatars. A failed
+        // delete leaves everything untouched and shows an inline message.
+        const deleteBtn = document.getElementById("settings-delete-progress-btn");
+        const deleteConfirm = document.getElementById("settings-delete-progress-confirm");
+        const deleteConfirmBtn = document.getElementById("settings-delete-progress-confirm-btn");
+        const deleteCancelBtn = document.getElementById("settings-delete-progress-cancel-btn");
+        const deleteStatus = document.getElementById("settings-delete-progress-status");
+
+        const showDeleteStatus = (kind, text) => {
+
+            if (!deleteStatus) {
+
+                return;
+
+            }
+
+            deleteStatus.hidden = false;
+            deleteStatus.className = `contact-form-status contact-form-status--${kind}`;
+            deleteStatus.textContent = text;
+
+        };
+
+        deleteBtn?.addEventListener("click", () => {
+
+            if (deleteConfirm) {
+
+                deleteConfirm.hidden = false;
+
+            }
+
+            deleteBtn.hidden = true;
+
+            if (deleteStatus) {
+
+                deleteStatus.hidden = true;
+
+            }
+
+        });
+
+        deleteCancelBtn?.addEventListener("click", () => {
+
+            if (deleteConfirm) {
+
+                deleteConfirm.hidden = true;
+
+            }
+
+            if (deleteBtn) {
+
+                deleteBtn.hidden = false;
+
+            }
+
+        });
+
+        deleteConfirmBtn?.addEventListener("click", async () => {
+
+            deleteConfirmBtn.disabled = true;
+            deleteConfirmBtn.textContent = "Deleting…";
+
+            const result = await deleteAccountProgression();
+
+            if (result.status === "ready") {
+
+                // Reload so every progression surface re-renders from the
+                // reset state; the on-load reconcile then rebuilds the
+                // Steam-derived parts. Kept as a full reload rather than a
+                // local refresh() so nothing stale (badges, avatar picker,
+                // stat cards) can linger.
+                window.location.reload();
+
+                return;
+
+            }
+
+            deleteConfirmBtn.disabled = false;
+            deleteConfirmBtn.textContent = "Yes, delete my progression data";
+
+            console.error("Progression deletion failed:", result.error);
+
+            showDeleteStatus(
+
+                "error",
+
+                "⚠️ We couldn't reach our server just now, so nothing was deleted. Please try again in a moment."
+
+            );
+
+        });
 
         // Task 10: the form now submits to a real backend endpoint
         // (POST /api/contact) that persists the message and confirms

@@ -14,6 +14,10 @@ import {
     reconcileProgressionOnLoad
 } from "../utils/player/statistics/progressionReconciler.js";
 
+import {
+    recordDailyActivity
+} from "../utils/player/streak/streakManager.js";
+
 // Shared by loadNavbar (initial render) and refreshPlayerWidget (later
 // re-renders once player progression can have changed) so both paths render
 // and wire up #navbar identically - the click listener has to be
@@ -105,6 +109,31 @@ export async function loadNavbar({ reconcileProgression = true } = {}) {
     // throws, and is a no-op for a logged-out session, so this never
     // delays or breaks the logged-out path.
     await syncPlayerProgressOnLoad(session);
+
+    // The AchievementPlanner daily-activity streak (streak/streakManager.js)
+    // - counted here, on the shared load path every page runs, so ANY page
+    // visited while signed in registers the day. It used to be recorded
+    // only in profile.js, so a signed-in visitor who used the site daily
+    // but never opened their Profile kept a streak of 0. Runs after the
+    // sync above so it advances the freshly-pulled server state (and gets
+    // pushed back up via savePlayer -> syncBus), and is gated on a real
+    // session - a signed-out visitor's local progress is never sent
+    // anywhere, so a streak for them would be meaningless. Idempotent
+    // within a calendar day and defensively wrapped: a bug here must never
+    // break the navbar on every page.
+    if (session?.logged) {
+
+        try {
+
+            recordDailyActivity();
+
+        } catch (error) {
+
+            console.error("Unable to record daily activity:", error);
+
+        }
+
+    }
 
     renderNavbar(navbar, session);
 

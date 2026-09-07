@@ -1,5 +1,5 @@
 import { getLeaderboardDb } from "../services/leaderboardDb.js";
-import { getPlayerProgress, savePlayerProgress } from "../services/playerProgressStore.js";
+import { getPlayerProgress, savePlayerProgress, deletePlayerProgress } from "../services/playerProgressStore.js";
 import { sendServerError } from "../utils/sendServerError.js";
 import { extractProgressionValue, clampSubmittedStreak } from "../utils/progressionMetrics.js";
 
@@ -193,6 +193,60 @@ export async function putProgressWithDeps(req, res, deps) {
     } catch (error) {
 
         sendServerError(res, error, "PUT /api/player/progress");
+
+    }
+
+}
+
+// DELETE /api/player/progress - wipes the authenticated account's stored
+// progression row and nothing else (see deletePlayerProgress's comment for
+// exactly which tables are and aren't touched). The visitor stays logged
+// in; the frontend clears its local progression keys and reloads, after
+// which the normal on-load reconcile rebuilds XP/level/avatar unlocks from
+// the user's real Steam achievement history - streak, longest streak,
+// badges and equipped avatar simply start over. Idempotent: calling it
+// again (or with no row present) still returns 200 success. Same 2-param
+// entry point / *WithDeps split as getProgress/putProgress above.
+export async function deleteProgress(req, res) {
+
+    return deleteProgressWithDeps(req, res, { getLeaderboardDb, deletePlayerProgress });
+
+}
+
+export async function deleteProgressWithDeps(req, res, deps) {
+
+    const { getLeaderboardDb, deletePlayerProgress } = deps;
+
+    const steamId = getSteamId(req);
+
+    if (!steamId) {
+
+        return res.status(401).json({
+
+            success: false,
+
+            message: "Not logged in"
+
+        });
+
+    }
+
+    try {
+
+        const db = getLeaderboardDb();
+        const deleted = deletePlayerProgress(db, steamId);
+
+        res.json({
+
+            success: true,
+
+            deleted
+
+        });
+
+    } catch (error) {
+
+        sendServerError(res, error, "DELETE /api/player/progress");
 
     }
 

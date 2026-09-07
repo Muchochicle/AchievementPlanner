@@ -26,7 +26,13 @@ import {
 
 import { escapeHtml } from "../../utils/format/escapeHtml.js";
 
+import { ENV } from "../../env.js";
+
 import { createAvatarPicker } from "../avatar-picker/avatar-picker.js";
+
+// Same endpoint the navbar's "Log in with Steam" button and the
+// login-error retry link use.
+const STEAM_LOGIN_URL = `${ENV.API_BASE_URL}/auth/steam/login`;
 
 export function createProfileHeader(
     session = {
@@ -76,9 +82,25 @@ export function createProfileHeader(
             </p>
         `;
 
+    // Shown only to a signed-out visitor: the whole progression panel
+    // below (level, XP bar, avatars) still renders, but it's a preview of
+    // what a Steam account earns - nothing here is saved until they sign
+    // in. Re-rendered with the real session by profile.js's refresh(), so
+    // it disappears once signed in. Not a redesign - one line above the
+    // existing header.
+    const previewNote = session?.logged
+        ? ""
+        : `
+            <p class="profile-preview-note">
+                Preview - <a href="${STEAM_LOGIN_URL}">sign in with Steam</a> to start earning XP, avatars and badges that save to your account.
+            </p>
+        `;
+
     return `
 
         <section class="profile-header">
+
+            ${previewNote}
 
             <div class="profile-header-main">
 

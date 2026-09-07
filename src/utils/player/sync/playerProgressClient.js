@@ -75,3 +75,45 @@ export async function savePlayerProgressRemote(state) {
     return { status: "ready", updatedAt: data.updatedAt };
 
 }
+
+// DELETE the signed-in account's stored progression row on the server (see
+// backend DELETE /api/player/progress). Same {status: "ready"|"error"}
+// shape as the two above - the caller (deleteAccountProgression in
+// playerSync.js) only wipes local state and reloads on a "ready" result,
+// so a network blip leaves everything exactly as it was. Idempotent
+// server-side, so a retry after a partial failure is safe.
+export async function deletePlayerProgressRemote() {
+
+    let response;
+
+    try {
+
+        response = await fetchWithTimeout(API_URL, {
+
+            method: "DELETE",
+            credentials: "include"
+
+        });
+
+    } catch (error) {
+
+        return { status: "error", error };
+
+    }
+
+    const data = await response.json().catch(() => null);
+
+    if (!response.ok || !data?.success) {
+
+        return {
+
+            status: "error",
+            error: new Error(data?.message ?? `Unable to delete player progress (status ${response.status})`)
+
+        };
+
+    }
+
+    return { status: "ready", deleted: data.deleted };
+
+}

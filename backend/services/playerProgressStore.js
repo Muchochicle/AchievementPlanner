@@ -60,3 +60,23 @@ export function savePlayerProgress(db, steamId, stateJson) {
     return now;
 
 }
+
+// Deletes ONLY this steamId's player_progress row - the account's stored
+// AchievementPlanner progression (XP/level/badges/streak/inventory/equipped
+// avatar blob). Deliberately touches nothing else: the users,
+// user_game_playtime, sessions and contact_messages tables are all left
+// intact, so the visitor stays logged in and their Steam-derived data is
+// untouched (see DELETE /api/player/progress in playerProgressController.js
+// and the Profile "delete progression data" control that calls it).
+// Idempotent - deleting a row that isn't there is a no-op, not an error;
+// the boolean return ("did a row actually go away") is informational only,
+// never surfaced to the caller as failure.
+export function deletePlayerProgress(db, steamId) {
+
+    const result = db.prepare(
+        "DELETE FROM player_progress WHERE steam_id = ?"
+    ).run(steamId);
+
+    return result.changes > 0;
+
+}

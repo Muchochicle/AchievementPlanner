@@ -219,13 +219,45 @@ globalThis.document = {
 };
 
 const { loadNavbar, refreshPlayerWidget } = await import("../src/js/layout.js");
-const { resetPlayer, addXP, getPlayer } = await import("../src/utils/player/player.js");
+const { resetPlayer, addXP, getPlayer, savePlayer } = await import("../src/utils/player/player.js");
 const { resetReconcilerState } = await import("../src/utils/player/statistics/progressionReconciler.js");
 const { resetProfileStatsShared } = await import("../src/utils/player/statistics/profileStatsShared.js");
 
 // Lets a test wait for loadNavbar()'s fire-and-forget progression reconcile
 // (kicked but not awaited inside loadNavbar) to run to completion.
 const flushMicrotasks = () => new Promise(resolve => setTimeout(resolve, 0));
+
+function todayKey() {
+
+    const now = new Date();
+
+    return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+
+}
+
+// loadNavbar() now records the daily-activity streak for a signed-in
+// visitor (layout.js), which on the FIRST activity of the day advances the
+// streak and pushes it - one extra PUT that would otherwise perturb every
+// pre-existing fetch-count assertion below. Stamping lastPlayed to today
+// in beforeEach makes recordDailyActivity() a no-op for the tests that
+// aren't about the streak; the dedicated streak tests clear it first.
+function markActivityRecordedToday() {
+
+    const player = getPlayer();
+    player.lastPlayed = todayKey();
+    savePlayer(player);
+
+}
+
+function clearActivityRecord() {
+
+    const player = getPlayer();
+    player.lastPlayed = null;
+    player.currentStreak = 0;
+    player.longestStreak = 0;
+    savePlayer(player);
+
+}
 
 const STEAM_SESSION = {
     logged: true,
@@ -235,6 +267,7 @@ const STEAM_SESSION = {
 test.beforeEach(() => {
 
     resetPlayer();
+    markActivityRecordedToday();
     resetReconcilerState();
     resetProfileStatsShared();
     navbarPresent = true;
@@ -337,7 +370,11 @@ test("loadNavbar applies the server's player/inventory/avatar state over local s
         updatedAt: "2026-08-01T00:00:00.000Z",
         state: {
 
-            player: { level: 1, xp: 0, totalXP: 999999, badges: [], claimedAchievements: [], claimedGames: [] },
+            // lastPlayed = today: a real server row for an active player
+            // carries it, so loadNavbar's daily-activity record is a
+            // same-day no-op here and this stays a pure "apply, don't
+            // push back" test.
+            player: { level: 1, xp: 0, totalXP: 999999, badges: [], claimedAchievements: [], claimedGames: [], lastPlayed: todayKey() },
             inventory: { avatars: ["default", "legend"] },
             equippedAvatar: "legend"
 
@@ -585,5 +622,54 @@ test("a failed reconcile fetch leaves the checkpoint unset so the next page load
 
     assert.strictEqual(statsFetchCount, 2, "the failed attempt did not consume the throttle window");
     assert.strictEqual(getPlayer().completedAchievements, 12);
+
+});
+
+test("loadNavbar records today's AchievementPlanner daily activity for a signed-in visitor (any page, not only Profile)", async () => {
+
+    fetchSession = STEAM_SESSION;
+    clearActivityRecord();
+
+    assert.strictEqual(getPlayer().currentStreak, 0, "starts with no streak");
+    assert.strictEqual(getPlayer().lastPlayed, null);
+
+    await loadNavbar();
+
+    const player = getPlayer();
+
+    assert.strictEqual(player.currentStreak, 1, "first activity of the day starts a streak of 1");
+    assert.strictEqual(player.longestStreak, 1);
+    assert.ok(player.lastPlayed, "today's date is stamped");
+
+});
+
+test("loadNavbar records daily activity at most once per calendar day (idempotent across page loads)", async () => {
+
+    fetchSession = STEAM_SESSION;
+    clearActivityRecord();
+
+    await loadNavbar();
+    navbarHTML = "";
+    await loadNavbar();
+    navbarHTML = "";
+    await loadNavbar();
+
+    // Three page loads on the same day must not inflate the streak past 1.
+    assert.strictEqual(getPlayer().currentStreak, 1);
+    assert.strictEqual(getPlayer().longestStreak, 1);
+
+});
+
+test("loadNavbar does NOT record daily activity for a signed-out visitor", async () => {
+
+    fetchSession = { logged: false };
+    clearActivityRecord();
+
+    await loadNavbar();
+
+    const player = getPlayer();
+
+    assert.strictEqual(player.currentStreak, 0, "a signed-out visitor accrues no streak");
+    assert.strictEqual(player.lastPlayed, null);
 
 });

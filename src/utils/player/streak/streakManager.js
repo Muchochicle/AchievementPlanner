@@ -5,8 +5,10 @@ import { checkBadgeUnlocks } from "../playerProgress.js";
 // object's shape since it was first introduced, but nothing ever actually
 // wrote to them - there was no streak-tracking code at all, which is the
 // real reason no streak-gated badge could ever unlock. This is that
-// missing piece: a plain daily-activity streak, local to this
-// device/browser like the rest of player.js.
+// missing piece: a plain AchievementPlanner daily-activity streak. It
+// reads/writes the player object like the rest of player.js, so for a
+// signed-in visitor it rides that object's server sync (playerSync.js);
+// for a signed-out visitor it stays local to this browser.
 //
 // Local calendar date as "YYYY-MM-DD", matching the shape lastPlayed
 // already had. Uses the viewer's own local date (not UTC) - a streak
@@ -37,12 +39,16 @@ function daysBetween(earlierKey, laterKey) {
 
 }
 
-// Call once per "session" of actually using the app (see src/js/profile.js)
-// to record today's activity and grow/reset the streak accordingly.
-// Idempotent within the same calendar day - a second call today is a
-// no-op, so callers never need to guard against calling this more than
-// once (matches this whole progression system's existing "safe to call
-// repeatedly" convention - see checkPlayerUnlocks/checkBadgeUnlocks).
+// Called on every page load for a signed-in visitor, from layout.js's
+// loadNavbar (the shared load path) - so any page counts toward the day,
+// not just Profile. Records today's activity and grows/resets the streak
+// accordingly. Idempotent within the same calendar day - the 2nd..Nth
+// call today is a no-op, so callers never need to guard against calling
+// this more than once (matches this whole progression system's existing
+// "safe to call repeatedly" convention - see checkPlayerUnlocks/
+// checkBadgeUnlocks). The streak still only ever grows by one per real
+// day, resets on a gap of more than a day, and longestStreak is
+// monotonic - so recording more often can't inflate it.
 export function recordDailyActivity() {
 
     const player = getPlayer();

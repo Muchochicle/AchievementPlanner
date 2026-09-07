@@ -117,6 +117,30 @@ test("getGuideBySlug returns null for an unknown slug", () => {
 
 });
 
+test("the Player Progress guide describes the CURRENT persistence model - server-side, not localStorage-only", () => {
+
+    const guide = getGuideBySlug("player-progress");
+    const text = guide.sections.flatMap(s => s.body).join(" ");
+
+    // Regression: this guide used to claim progress "lives only in your
+    // browser's local storage", "isn't tied to your Steam account",
+    // "doesn't sync across devices" and "There's no server-side backup" -
+    // all false since server-side persistence shipped (Phase 71), and it
+    // contradicted the app's own Roadmap.
+    assert.doesNotMatch(text, /lives only in your browser's local storage/i);
+    assert.doesNotMatch(text, /no server-?side backup/i);
+    assert.doesNotMatch(text, /doesn't sync across devices/i);
+
+    // And it must positively describe the real model.
+    assert.match(text, /saved on our server|tied to your Steam account/i);
+    assert.match(text, /different browser or device|survives clearing your browser/i);
+
+    // The streak wording must no longer say it needs a Profile visit.
+    assert.doesNotMatch(text, /visiting your Profile on consecutive days/i);
+    assert.match(text, /using AchievementPlanner on consecutive days/i);
+
+});
+
 test("getGameGuideForSlug finds each real game's guide", () => {
 
     const expected = {

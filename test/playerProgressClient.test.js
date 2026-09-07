@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert";
 
-import { fetchPlayerProgress, savePlayerProgressRemote } from "../src/utils/player/sync/playerProgressClient.js";
+import { fetchPlayerProgress, savePlayerProgressRemote, deletePlayerProgressRemote } from "../src/utils/player/sync/playerProgressClient.js";
 
 function mockFetch(impl) {
 
@@ -126,6 +126,72 @@ test("savePlayerProgressRemote returns an error state on a non-success response"
 
         assert.strictEqual(result.status, "error");
         assert.match(result.error.message, /too large/);
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("deletePlayerProgressRemote sends a credentialed DELETE and returns ready on success", async () => {
+
+    const restore = mockFetch(async (url, options) => {
+
+        assert.match(url, /\/api\/player\/progress$/);
+        assert.strictEqual(options.method, "DELETE");
+        assert.strictEqual(options.credentials, "include");
+        assert.ok(options.signal instanceof AbortSignal);
+
+        return jsonResponse(200, { success: true, deleted: true });
+
+    });
+
+    try {
+
+        const result = await deletePlayerProgressRemote();
+
+        assert.strictEqual(result.status, "ready");
+        assert.strictEqual(result.deleted, true);
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("deletePlayerProgressRemote returns an error state on a non-success response (e.g. 401)", async () => {
+
+    const restore = mockFetch(async () => jsonResponse(401, { success: false, message: "Not logged in" }));
+
+    try {
+
+        const result = await deletePlayerProgressRemote();
+
+        assert.strictEqual(result.status, "error");
+        assert.match(result.error.message, /Not logged in/);
+
+    } finally {
+
+        restore();
+
+    }
+
+});
+
+test("deletePlayerProgressRemote returns an error state when fetch itself rejects (network failure)", async () => {
+
+    const restore = mockFetch(async () => { throw new Error("network down"); });
+
+    try {
+
+        const result = await deletePlayerProgressRemote();
+
+        assert.strictEqual(result.status, "error");
+        assert.match(result.error.message, /network down/);
 
     } finally {
 

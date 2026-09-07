@@ -31,6 +31,54 @@ test("createProfileSettings renders the Account section with a logout button for
 
 });
 
+test("createProfileSettings renders the 'delete progression data' control only for a logged-in session", () => {
+
+    const loggedOut = createProfileSettings({ logged: false });
+    assert.doesNotMatch(loggedOut, /settings-delete-progress-btn/);
+    assert.doesNotMatch(loggedOut, /<h3>Progression data<\/h3>/);
+
+    const loggedIn = createProfileSettings({ logged: true });
+    assert.match(loggedIn, /<h3>Progression data<\/h3>/);
+    assert.match(loggedIn, /id="settings-delete-progress-btn"/);
+    assert.match(loggedIn, /id="settings-delete-progress-confirm-btn"/);
+    assert.match(loggedIn, /id="settings-delete-progress-cancel-btn"/);
+
+});
+
+test("createProfileSettings' delete-progression control is a two-step reveal - the consequences panel starts hidden", () => {
+
+    const html = createProfileSettings({ logged: true });
+
+    const confirmPanel = html.match(/<div[^>]*id="settings-delete-progress-confirm"[^>]*>/);
+    assert.ok(confirmPanel, "expected the confirmation panel");
+    assert.match(confirmPanel[0], /hidden/, "the consequences panel must not be visible until the first button is clicked");
+
+    const status = html.match(/<p[^>]*id="settings-delete-progress-status"[^>]*>/);
+    assert.ok(status, "expected the status region");
+    assert.match(status[0], /hidden/);
+    assert.match(status[0], /role="status"/);
+
+});
+
+test("createProfileSettings' delete-progression panel spells out the consequences the product decision requires", () => {
+
+    const html = createProfileSettings({ logged: true }).toLowerCase();
+
+    // Stored progression is deleted / streak, badges, avatar reset.
+    assert.match(html, /delete the achievementplanner progression saved to your account/);
+    assert.match(html, /daily streak.*longest streak.*badges.*equipped avatar/);
+    // Steam-derived progression rebuilds because it's re-derived from Steam.
+    assert.match(html, /rebuild automatically/);
+    assert.match(html, /re-derived from\s+steam|from your steam\s+achievement history/);
+    // Cannot be undone.
+    assert.match(html, /cannot be undone|no way to undo/);
+    // Steam / leaderboard data is NOT deleted.
+    assert.match(html, /podiums\s+leaderboard (entry|standing) (are|is) not deleted|does not affect your steam/);
+    // The user stays logged in.
+    assert.match(html, /keep you signed in|does not log you out/);
+
+});
+
 test("createProfileSettings always renders the Contact & Support form, regardless of login state", () => {
 
     for (const session of [{ logged: false }, { logged: true }]) {

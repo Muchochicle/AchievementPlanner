@@ -28,6 +28,8 @@ export function createProfileSettings(
 
             ${session?.logged ? createAccountSection() : ""}
 
+            ${session?.logged ? createProgressionDataSection() : ""}
+
             ${createContactSection()}
 
         </section>
@@ -64,6 +66,142 @@ function createAccountSection() {
                 Log out
 
             </button>
+
+        </div>
+
+    `;
+
+}
+
+// "Delete my progression data" - only rendered for a logged-in session
+// (there is no stored progression to delete otherwise). Wiring (the reveal/
+// cancel/confirm click handlers) lives in src/js/profile.js, same
+// convention as the logout button above.
+//
+// Deliberately a two-step reveal, NOT a browser confirm() dialog: the
+// consequences need spelling out in full before the visitor commits, and a
+// native confirm() can't do that (and the codebase avoids modal dialogs -
+// see resetProgress.js is dev-only). The confirmation panel starts hidden;
+// the first button reveals it, the second actually deletes. The wording is
+// explicit that this wipes stored AchievementPlanner progression only -
+// Steam data, the Podiums leaderboard and the login session are all
+// untouched, and Steam-derived XP/levels/avatar unlocks rebuild on the
+// next load from the user's real achievement history.
+function createProgressionDataSection() {
+
+    return `
+
+        <div class="profile-settings-group">
+
+            <h3>Progression data</h3>
+
+            <p class="profile-settings-hint">
+
+                This deletes the AchievementPlanner progression stored for
+                your account. It does not affect your Steam account, your
+                Steam achievements, or your Podiums leaderboard standing,
+                and it does not log you out.
+
+            </p>
+
+            <button
+
+                id="settings-delete-progress-btn"
+
+                class="danger-btn"
+
+                type="button"
+
+            >
+
+                Delete my progression data
+
+            </button>
+
+            <div
+
+                id="settings-delete-progress-confirm"
+
+                class="profile-settings-danger-confirm"
+
+                hidden
+
+            >
+
+                <p class="profile-settings-hint">
+
+                    This will permanently, and with no way to undo it:
+
+                </p>
+
+                <ul class="profile-settings-danger-list">
+
+                    <li>delete the AchievementPlanner progression saved to your account on our server;</li>
+
+                    <li>reset your daily streak, longest streak, earned badges, equipped avatar and per-game planner progress back to zero;</li>
+
+                    <li>keep you signed in with Steam - only the stored progression is removed.</li>
+
+                </ul>
+
+                <p class="profile-settings-hint">
+
+                    XP, level and avatar unlocks that come from your Steam
+                    achievement history will rebuild automatically the next
+                    time the page loads, because they are re-derived from
+                    Steam. Your streak, longest streak and badges start over
+                    and cannot be restored. Your Steam data and Podiums
+                    leaderboard entry are not deleted by this.
+
+                </p>
+
+                <div class="profile-settings-danger-actions">
+
+                    <button
+
+                        id="settings-delete-progress-confirm-btn"
+
+                        class="danger-btn"
+
+                        type="button"
+
+                    >
+
+                        Yes, delete my progression data
+
+                    </button>
+
+                    <button
+
+                        id="settings-delete-progress-cancel-btn"
+
+                        class="logout-btn"
+
+                        type="button"
+
+                    >
+
+                        Cancel
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <p
+
+                id="settings-delete-progress-status"
+
+                class="contact-form-status"
+
+                role="status"
+
+                aria-live="polite"
+
+                hidden
+
+            ></p>
 
         </div>
 

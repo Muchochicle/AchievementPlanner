@@ -31,6 +31,10 @@ export function createProfilePage() {
 
             ${createProfileBadges()}
 
+            <p class="profile-rewards-teaser">
+                More rewards are on the way &mdash; new ways to show off your progress will be added here over time.
+            </p>
+
             <div id="profile-sections"></div>
 
             ${createProfileSettings()}

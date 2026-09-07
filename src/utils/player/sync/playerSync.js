@@ -1,8 +1,9 @@
-import { getPlayer, savePlayer } from "../player.js";
-import { getInventory, saveInventory } from "../inventory/inventoryStorage.js";
-import { getEquippedAvatar, saveEquippedAvatar } from "../avatar/avatarStorage.js";
+import { getPlayer, savePlayer, resetPlayer } from "../player.js";
+import { getInventory, saveInventory, resetInventory } from "../inventory/inventoryStorage.js";
+import { getEquippedAvatar, saveEquippedAvatar, resetEquippedAvatar } from "../avatar/avatarStorage.js";
+import { resetReconcilerState } from "../statistics/progressionReconciler.js";
 import { onPlayerStateChanged } from "./syncBus.js";
-import { fetchPlayerProgress, savePlayerProgressRemote } from "./playerProgressClient.js";
+import { fetchPlayerProgress, savePlayerProgressRemote, deletePlayerProgressRemote } from "./playerProgressClient.js";
 
 // Whether the current page's viewer is logged in - set once by
 // syncPlayerProgressOnLoad(), read by every push triggered via
@@ -18,6 +19,14 @@ let syncEnabled = false;
 // the syncBus subscription - three redundant round-trips on every logged-
 // in page load otherwise, for data the server already has.
 let applyingRemote = false;
+
+// Latched true (never cleared) by deleteAccountProgression() once the
+// server row is gone, so the resetPlayer()/resetInventory()/
+// resetEquippedAvatar() calls that follow can't fire a syncBus push that
+// would immediately re-create the row from local defaults - or, worse,
+// push a half-reset state mid-wipe. The page reloads straight after, and a
+// fresh module load starts this back at false.
+let purging = false;
 
 function collectLocalState() {
 
@@ -75,7 +84,7 @@ function applyRemoteState(state) {
 // try/catch. A no-op while logged out.
 async function pushLocalState() {
 
-    if (!syncEnabled || applyingRemote) {
+    if (!syncEnabled || applyingRemote || purging) {
 
         return;
 
@@ -152,5 +161,94 @@ export async function syncPlayerProgressOnLoad(session) {
         await pushLocalState();
 
     }
+
+}
+
+// Local progression keys wiped alongside the server row by
+// deleteAccountProgression() below. resetPlayer/resetInventory/
+// resetEquippedAvatar cover the three things the server actually stores;
+// the reconcile checkpoint is cleared so the next page load's background
+// reconcile runs immediately and rebuilds XP/level/avatar unlocks from the
+// user's real Steam history; and the planner-*/session-* sweep matches
+// src/dev/resetProgress.js so per-game planner check-off and focus-session
+// state reset too. Steam-derived data (the users / user_game_playtime rows,
+// the leaderboard) is never touched - only this browser's local copy and
+// the one player_progress row.
+function clearLocalProgressionKeys() {
+
+    resetPlayer();
+    resetInventory();
+    resetEquippedAvatar();
+    resetReconcilerState();
+
+    let keys = [];
+
+    try {
+
+        for (let i = 0; i < localStorage.length; i++) {
+
+            keys.push(localStorage.key(i));
+
+        }
+
+    } catch {
+
+        keys = [];
+
+    }
+
+    keys.forEach(key => {
+
+        if (key && (key.startsWith("planner-") || key.startsWith("session-"))) {
+
+            try {
+
+                localStorage.removeItem(key);
+
+            } catch {
+
+                // best-effort - a key we can't remove is not worth failing over
+
+            }
+
+        }
+
+    });
+
+}
+
+// Backs the Profile > Settings "delete progression data" control. Deletes
+// ONLY this account's stored AchievementPlanner progression - server-side
+// (DELETE /api/player/progress: the one player_progress row, nothing else -
+// the Steam session, the users/playtime rows and the leaderboard are all
+// left intact, so the visitor stays logged in and their Steam-derived
+// progression can rebuild) and locally (clearLocalProgressionKeys above).
+//
+// Order matters: the server row goes first, and local state is only wiped
+// on a confirmed-successful delete - a network failure leaves everything
+// exactly as it was, and the caller shows an inline error instead of
+// reloading. Idempotent: the server treats "no row" as success, so a retry
+// after a partial failure is safe. Never throws - returns the same
+// {status: "ready"|"error"} shape as the rest of this module.
+export async function deleteAccountProgression() {
+
+    const result = await deletePlayerProgressRemote();
+
+    if (result.status !== "ready") {
+
+        return result;
+
+    }
+
+    // Latch BEFORE the resets so their syncBus emissions can't re-push /
+    // re-create the row. Deliberately never un-latched: deleteAccount-
+    // Progression's one caller reloads the page immediately after this
+    // resolves, and a fresh page load re-imports this module with
+    // purging = false again.
+    purging = true;
+
+    clearLocalProgressionKeys();
+
+    return { status: "ready" };
 
 }
