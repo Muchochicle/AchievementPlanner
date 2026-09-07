@@ -1,5 +1,6 @@
 import { ENV } from "../env.js";
 import { fetchWithTimeout } from "./http/fetchWithTimeout.js";
+import { fetchWithRetry } from "./http/fetchWithRetry.js";
 
 const API_URL = `${ENV.API_BASE_URL}/api/games`;
 
@@ -114,7 +115,12 @@ export async function getGamesIndex({ loggedIn } = {}) {
 
     }
 
-    const response = await fetchWithTimeout(API_URL, {
+    // fetchWithRetry, not fetchWithTimeout: one silent retry if the
+    // backend is briefly unreachable (cold start / redeploy -> a 502/503/
+    // 504 or a timed-out fetch), so a transient blip doesn't surface as
+    // the catalog error state. A normal 4xx or a second failure is passed
+    // straight through to the same handling below.
+    const response = await fetchWithRetry(API_URL, {
         credentials: "include"
     });
 
@@ -148,7 +154,8 @@ export async function getGamesIndex({ loggedIn } = {}) {
 // callers only need to handle a real network/response failure here.
 export async function getPopularGames() {
 
-    const response = await fetchWithTimeout(`${API_URL}/popular`, {
+    // One silent retry on a transient backend blip (see getGamesIndex).
+    const response = await fetchWithRetry(`${API_URL}/popular`, {
         credentials: "include"
     });
 
