@@ -345,7 +345,7 @@ test("refreshPlayerWidget re-renders the widget from the latest player state, wi
     refreshPlayerWidget(STEAM_SESSION);
 
     assert.match(navbarHTML, /Lv\. 2/);
-    assert.match(navbarHTML, /50\/400 XP/); // getXPForNextLevel(2) = 2*2*100 = 400
+    assert.match(navbarHTML, /50\/300 XP/); // getXPForNextLevel(2) = 2 * 150 = 300
     assert.strictEqual(sessionFetchCount, 1, "refreshPlayerWidget must never re-check the Steam session itself");
 
 });
@@ -405,15 +405,15 @@ test("refreshPlayerWidget reflects each successive player-state change across re
     refreshPlayerWidget(STEAM_SESSION);
     assert.match(navbarHTML, /50\/100 XP/);
 
-    addXP(60); // total 110 -> level 2, 10 XP into it
+    addXP(60); // total 110 -> level 2, 10 XP into it (getXPForNextLevel(2) = 300)
     refreshPlayerWidget(STEAM_SESSION);
     assert.match(navbarHTML, /Lv\. 2/);
-    assert.match(navbarHTML, /10\/400 XP/);
+    assert.match(navbarHTML, /10\/300 XP/);
 
-    addXP(500); // total 610 -> level1 needs 100 (610-100=510,lvl2), level2 needs 400 (510-400=110,lvl3), level3 needs 900 (110<900, stop)
+    addXP(500); // total 610 -> lvl1 needs 100 (510 left, lvl2), lvl2 needs 300 (210 left, lvl3), lvl3 needs 450 (210<450, stop)
     refreshPlayerWidget(STEAM_SESSION);
     assert.match(navbarHTML, /Lv\. 3/);
-    assert.match(navbarHTML, /110\/900 XP/);
+    assert.match(navbarHTML, /210\/450 XP/);
 
 });
 

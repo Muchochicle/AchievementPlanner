@@ -28,9 +28,15 @@
 // backend/utils/achievementCompletion.js duplicates the frontend's
 // completion logic - the backend Docker build context does not include
 // src/. Kept in sync by progressionMetrics.test.js.
+//
+// Level 1 -> 2 costs 100 XP (unchanged from the old level*level*100 curve,
+// so no existing player's displayed level drops); every level from 2
+// onward costs level * 150 XP. Flatter than the old curve at every level
+// >= 3, which is the whole point - see the progression redesign that
+// introduced it.
 export function xpForNextLevel(level) {
 
-    return level * level * 100;
+    return level === 1 ? 100 : level * 150;
 
 }
 
@@ -42,8 +48,12 @@ export function levelFromTotalXP(totalXP) {
     let remaining = xp;
 
     // Hard ceiling on the loop: a corrupted/absurd totalXP from a
-    // tampered client must not spin here. Level 200 needs > 2.6 billion
-    // XP - far beyond any legitimate value.
+    // tampered client must not spin here. Under the current curve Level 200
+    // is ~3 million XP (~60k Steam achievements) - beyond all but a
+    // handful of the very top global hunters, and this cap only bounds
+    // this internal helper's loop; it does not feed any user-visible
+    // surface (the Profile/navbar/podium level labels all come from the
+    // frontend's own uncapped calculateLevel).
     while (level < 200 && remaining >= xpForNextLevel(level)) {
 
         remaining -= xpForNextLevel(level);

@@ -18,11 +18,13 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-test("xpForNextLevel matches the level*level*100 curve", () => {
+test("xpForNextLevel is 100 for level 1, then level*150", () => {
 
     assert.strictEqual(xpForNextLevel(1), 100);
-    assert.strictEqual(xpForNextLevel(2), 400);
-    assert.strictEqual(xpForNextLevel(5), 2500);
+    assert.strictEqual(xpForNextLevel(2), 300);
+    assert.strictEqual(xpForNextLevel(3), 450);
+    assert.strictEqual(xpForNextLevel(5), 750);
+    assert.strictEqual(xpForNextLevel(50), 7500);
 
 });
 
@@ -31,9 +33,23 @@ test("levelFromTotalXP matches known boundary values of the frontend curve", () 
     assert.strictEqual(levelFromTotalXP(0), 1);
     assert.strictEqual(levelFromTotalXP(99), 1);
     assert.strictEqual(levelFromTotalXP(100), 2);     // 100 -> clears level 1
-    assert.strictEqual(levelFromTotalXP(499), 2);
-    assert.strictEqual(levelFromTotalXP(500), 3);     // 100 + 400
-    assert.strictEqual(levelFromTotalXP(1400), 4);    // 100 + 400 + 900
+    assert.strictEqual(levelFromTotalXP(399), 2);
+    assert.strictEqual(levelFromTotalXP(400), 3);     // 100 + 300
+    assert.strictEqual(levelFromTotalXP(849), 3);
+    assert.strictEqual(levelFromTotalXP(850), 4);     // 100 + 300 + 450
+    assert.strictEqual(levelFromTotalXP(6700), 10);   // 75*10*9 - 50
+
+});
+
+test("levelFromTotalXP never returns a lower level than the old level*level*100 curve did", () => {
+
+    // Old cumulative reach points: reach(3)=500, reach(5)=3000,
+    // reach(10)=28500, reach(20)=247000.
+    assert.ok(levelFromTotalXP(100) >= 2);
+    assert.ok(levelFromTotalXP(500) >= 3);
+    assert.ok(levelFromTotalXP(3000) >= 5);
+    assert.ok(levelFromTotalXP(28500) >= 10);
+    assert.ok(levelFromTotalXP(247000) >= 20);
 
 });
 
@@ -56,8 +72,8 @@ test("backend level curve stays byte-compatible with src/utils/player/level/leve
         "utf8"
     );
 
-    // The frontend defines the same curve as `level * level * 100`.
-    assert.match(frontendSource, /level\s*\*\s*level\s*\*\s*100/);
+    // The frontend defines the same curve: 100 XP for level 1, else level*150.
+    assert.match(frontendSource, /level\s*===\s*1\s*\?\s*100\s*:\s*level\s*\*\s*150/);
 
     // And the same accumulate-until-not-enough loop shape.
     assert.match(frontendSource, /remainingXP\s*>=\s*getXPForNextLevel\(level\)/);

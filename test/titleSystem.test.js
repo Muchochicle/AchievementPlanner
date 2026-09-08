@@ -147,16 +147,16 @@ test("every title in the ladder is reachable from some level (no tier is dead co
 // One end-to-end check that the real XP curve actually lands a player on a
 // title boundary - ties calculateLevel (levelSystem.js) to getTitle so a
 // change to either that broke the composition would be caught here, not
-// just in isolation. Cumulative XP to reach level 10 is
-// sum(l^2 * 100) for l in 1..9 = 100 * 285 = 28500.
+// just in isolation. Cumulative XP to reach level 10 under the current
+// curve (100 for level 1->2, then level*150) is 75*10*9 - 50 = 6700.
 test("a player with exactly the XP for level 10 reads as 'Achievement Seeker'; one XP short stays 'Rookie Hunter'", async () => {
 
     const { calculateLevel } = await import("../src/utils/player/level/levelSystem.js");
 
-    assert.strictEqual(calculateLevel(28500), 10);
-    assert.strictEqual(getTitle(calculateLevel(28500)), SEEKER);
+    assert.strictEqual(calculateLevel(6700), 10);
+    assert.strictEqual(getTitle(calculateLevel(6700)), SEEKER);
 
-    assert.strictEqual(calculateLevel(28499), 9);
-    assert.strictEqual(getTitle(calculateLevel(28499)), ROOKIE);
+    assert.strictEqual(calculateLevel(6699), 9);
+    assert.strictEqual(getTitle(calculateLevel(6699)), ROOKIE);
 
 });

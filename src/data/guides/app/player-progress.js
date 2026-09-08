@@ -3,7 +3,8 @@
 // achievementManager.js (+50 XP per Steam-confirmed curated achievement),
 // src/utils/planner/game/gameCompletion.js (+300 XP and the "Perfectionist"
 // badge on 100% game completion), src/utils/player/level/levelSystem.js
-// (the level^2*100 XP curve), src/utils/player/titles/titleSystem.js
+// (the XP curve: 100 XP for level 1→2, then level*150 XP per level
+// thereafter), src/utils/player/titles/titleSystem.js
 // (title thresholds), src/data/player/avatars.js (each avatar's
 // requiredAchievements threshold and display name, including which one is
 // unlocked by default), src/utils/player/playerProgress.js
@@ -47,7 +48,7 @@ export const GUIDE = {
         {
             heading: "Levels & Titles",
             body: [
-                "Each level requires more XP than the last - the amount needed to reach level N is N × N × 100 XP, so the climb accelerates the higher you go.",
+                "Reaching Level 2 costs 100 XP. From there on, each level asks a little more than the last: going from level N to level N+1 costs N × 150 XP (300 XP for level 2→3, 450 for 3→4, and so on).",
                 "Your title changes with your level: Rookie Hunter below level 10, Achievement Seeker from level 10, Veteran Hunter from level 20, Master Hunter from level 30, and Legendary Hunter from level 50."
             ]
         },
