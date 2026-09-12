@@ -8,33 +8,48 @@ lands" section at the bottom of this file.
 
 ---
 
-## STATUS — done 2026-09-07
+## STATUS — updated 2026-09-12
 
 - **Property:** URL-prefix `https://muchochicle.github.io/AchievementPlanner/`
-  created in Search Console (Google account jordicasalsruiz@gmail.com).
-- **Ownership:** VERIFIED via the **HTML-tag** method. Token
-  `I8bnZFbpoCst5WlczciztwEBQNwY7ozz0fU6sVDkZbw` lives in `index.html`'s
-  `<head>` (commit 6222cf7). **Do not remove that `<meta>` tag** — it
-  un-verifies the property.
-- **Sitemap:** `sitemap.xml` submitted. Immediately after submission its
-  status was "Couldn't fetch" — this is the normal transient state for a
-  brand-new property (the file itself is verified reachable: HTTP 200,
-  `Content-Type: application/xml`, valid XML, Googlebot UA OK). Expected to
-  flip to "Success" on Google's first real crawl (hours–2 days). **Recheck
-  in Search Console → Sitemaps.**
-- **Homepage:** inspected and **"Request indexing"** submitted (added to
-  Google's priority crawl queue). The live test passed — no crawl/index
-  blockers.
-- **noindex routes confirmed:** live URL tests on `profile.html`,
-  `game.html?slug=…` and `guide.html?slug=…` all report *"Page cannot be
-  indexed: Excluded by a 'noindex' tag"* — i.e. Google's live crawler sees
-  and honours the directive. Intended and unchanged.
-- **Hub pages** (`games/guides/podiums/roadmap/about.html`): serve HTTP
-  200, self-referential canonical, no `robots` meta → indexable. Not yet
-  crawled (brand-new property); nothing to do but wait.
+  (Google account jordicasalsruiz@gmail.com). Still the only property in
+  the account — confirmed via the property picker. VERIFIED via the
+  HTML-tag method; token still live in `index.html`'s `<head>` (commit
+  6222cf7). **Do not remove that `<meta>` tag.**
+- **Homepage:** confirmed **indexed** ("La URL está en Google" / page
+  indexed) via URL Inspection — this is real indexing, not just a
+  submission.
+- **Sitemap — bug found and fixed 2026-09-12:** the 2026-09-07 session
+  had mistakenly submitted 7 individual page URLs (`/`, `/profile.html`,
+  `/about.html`, `/roadmap.html`, `/guides.html`, `/podiums.html`,
+  `/games.html`) as separate "sitemaps" in addition to the real
+  `/sitemap.xml` — none of those are valid sitemap files, so all 8 entries
+  sat at "Couldn't fetch" for 5 days with the last-read timestamp frozen
+  on the original submission day (Google never retried). Root cause was
+  confirmed to be this submission mistake, not a problem with the sitemap
+  file itself: `curl` confirmed the real `sitemap.xml` was HTTP 200,
+  `Content-Type: application/xml`, valid XML, matching the repo, the whole
+  time. **Fix applied:** removed all 7 bogus entries and did one
+  delete+resubmit of the real `sitemap.xml` to force a fresh fetch
+  attempt (submitted 2026-09-12). This is a Search Console UI change only
+  — no repo files were touched, since the sitemap content itself was
+  always correct.
+- **Hub pages not yet indexed:** `games.html`, `guides.html`,
+  `podiums.html`, `roadmap.html`, `about.html` all came back "URL not in
+  Google / Google doesn't recognize this URL" on inspection — expected,
+  since the stuck sitemap meant Google never discovered them and no other
+  page currently links to them. **Requested indexing individually for all
+  5** via URL Inspection → Request indexing (added to Google's priority
+  crawl queue). Should also be picked up once the resubmitted sitemap is
+  actually crawled.
+- **noindex routes confirmed:** URL Inspection on `profile.html` and
+  `game.html` (no slug) both report "URL not in Google — Google doesn't
+  recognize this URL", consistent with `noindex, follow` + (for profile)
+  `Disallow`. `guide.html` carries the identical `noindex, follow` meta,
+  confirmed live via `curl`. **Did not** request indexing for any of
+  these, per the standing noindex decision.
 
-Not yet indexed anywhere — "submitted / crawl-requested" ≠ "indexed".
-Real indexing is days-to-weeks away and never guaranteed.
+Real indexing of the 5 requested hub pages is still pending Google's
+crawl — request/resubmission ≠ indexed. Recheck in a few days.
 
 The rest of this file is the original runbook, kept for the record and for
 the eventual custom-domain migration.
